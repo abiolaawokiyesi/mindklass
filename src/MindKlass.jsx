@@ -7157,6 +7157,552 @@ const MH_Q=[
 ];
 
 
+// ═══ WHATSAPP AUTOMATION: A STEP-BY-STEP GUIDE TO AUTOMATING RESPONSES ON WHATSAPP (15-week General Course) ═══
+// Practical automation course for business owners, schools, NGOs, churches,
+// customer service teams and freelancers. Each unit opens with a real-world
+// case study (adapted from the source material, lightly corrected for grammar
+// and clarity — stray citation brackets, reference-link clutter and leftover
+// meta-commentary removed), followed by a "Key Ideas" section teaching the
+// module's listed subtopics. ASCII flow diagrams from the source material are
+// rewritten as plain-English bullet flows.
+const WA_UNITS=[
+ {id:"wa_m1",n:1,title:"Introduction to WhatsApp Automation",mins:120,icon:"Lightbulb",
+  summary:"What WhatsApp automation actually is, why it saves time and improves response quality, and who this course is for.",
+  keyWords:["WhatsApp automation","response time","customer satisfaction","business owners","freelancers"],
+  sections:[
+   {art:"help",h:"The Bakery That Answered 500 People at Midnight",p:[
+    "In 2021, Jessica Rose's boutique bakery went viral on social media overnight after a celebrity shared her custom wedding cake designs. When she woke up the next morning, her standard WhatsApp Messenger app was completely frozen. She had over 1,200 unread messages from eager customers asking the exact same questions: \"How much is a 2-tier cake?\", \"Do you deliver?\", and \"Are you open on Sundays?\"",
+    "Jessica spent the next three days manually typing responses. She missed sleep, skipped baking hours, and accidentally ignored dozens of high-value clients because their messages dropped to the bottom of her chat feed. Frustrated customers began leaving negative reviews, claiming she was unresponsive. Jessica realised that manual chatting alone was hurting her business.",
+    "She switched to WhatsApp Business and set up a simple automation strategy — automated greetings, instant lead replies, and FAQs. When another viral wave hit her business months later, her phone stayed calm while her automated system handled multiple enquiries simultaneously, collecting delivery details automatically. Her manual typing dropped by roughly 80%, and customer satisfaction rose sharply."
+   ],ex:{t:"Conclusion",b:[
+    "WhatsApp automation is not about replacing human care; it is about scaling your presence.",
+    "Whether you run a business, a school or an NGO, automation bridges the gap between customer enquiry and instant response, turning overwhelming message volume into an orderly, time-saving system."
+   ]}},
+   {art:"steps",h:"Key Ideas in This Module",p:[
+    "WhatsApp automation means using built-in features and connected tools so that common messages — greetings, FAQs, business hours, quick replies — are answered instantly without a person typing each one by hand.",
+    "The core benefits are saving time, improving response speed, increasing customer satisfaction, handling multiple enquiries at once, and generating more sales and leads from conversations that would otherwise go unanswered.",
+    "This course is built for anyone who relies on WhatsApp for real communication at volume: business owners, schools, NGOs, churches, customer service officers, HR professionals, freelancers and digital marketers.",
+    "Automation works best as a layer on top of genuine service, not a replacement for it — the goal is to remove repetitive typing so humans have more time for the conversations that actually need a human."
+   ]}
+  ],
+  activity:"List the five questions you (or your team) answer most often on WhatsApp in a normal week. Keep this list — you'll turn it into your first automated replies in Module 3.",
+  check:[
+   {q:"What best describes the core purpose of WhatsApp automation, according to this module?",o:["Replacing all human interaction with bots","Using built-in features and connected tools to instantly handle common, repetitive messages","Making WhatsApp slower but more formal","Preventing customers from messaging outside business hours"],a:1},
+   {q:"What was the root cause of Jessica Rose's crisis in this module's story?",o:["Too few customers messaging her","A sudden spike in messages with repetitive questions and no automated system to handle them","Her bakery closing permanently","A WhatsApp account ban"],a:1},
+   {q:"Which of the following is listed as a benefit of automating WhatsApp in this module?",o:["Reducing the number of customers who can message you","Handling multiple enquiries simultaneously and generating more sales and leads","Making it harder for customers to reach you","Eliminating the need for a business profile"],a:1},
+  ]},
+
+ {id:"wa_m2",n:2,title:"Getting Started with WhatsApp Business",mins:120,icon:"BookOpen",
+  summary:"Downloading WhatsApp Business, building out a complete profile, and understanding how it differs from ordinary WhatsApp Messenger.",
+  keyWords:["WhatsApp Business","business profile","working hours","WhatsApp Messenger vs Business"],
+  sections:[
+   {art:"school",h:"Moving the School Gate to the Digital Space",p:[
+    "Principal Michael Adebayo noticed a serious operational leak during his school's annual admissions period. The school's single landline was constantly busy. Parents were travelling long distances just to ask about tuition fees, application deadlines and uniform requirements. Administrative staff were overwhelmed, and registration numbers were dropping because of poor access to information.",
+    "Principal Adebayo decided to separate the school's personal communication from its institutional operations. He had the admissions desk download WhatsApp Business on a dedicated phone and build out a complete, verified Business Profile.",
+    "They filled in every field: the school's official logo, a professional description, a pinned location, an official email, and a link to the admissions page on their website. Most importantly, they configured accurate working hours. Parents no longer had to call or travel — they opened the school's WhatsApp link and immediately saw everything they needed, saving staff over 30 hours of repetitive phone calls every week."
+   ],ex:{t:"Conclusion",b:[
+    "Your WhatsApp Business Profile is your digital storefront and automated front desk.",
+    "Setting it up completely — logo, hours, description — establishes immediate professional credibility and answers basic questions before a single message is even sent."
+   ]}},
+   {art:"identity",h:"Key Ideas in This Module",p:[
+    "WhatsApp Business is a free, separate app from regular WhatsApp Messenger, designed specifically for organisations and professionals who need business-grade features.",
+    "Setting up your profile means completing every available field: Business Name, Logo, Description, Address, Email, Website and Working Hours — an incomplete profile looks unfinished and answers fewer questions automatically.",
+    "The key differences from WhatsApp Messenger include the ability to build a business profile, use automated messages, apply labels, view basic messaging statistics, and (at larger scale) connect to the WhatsApp Business API.",
+    "A complete, professional profile reduces the number of basic questions ('what are your hours?', 'where are you located?') that a real person ever needs to answer."
+   ]}
+  ],
+  activity:"Download WhatsApp Business if you haven't already, and complete every field of your business profile today — name, logo, description, address, email, website and working hours.",
+  check:[
+   {q:"What is WhatsApp Business, as described in this module?",o:["An identical copy of WhatsApp Messenger with a different icon","A free, separate app built for organisations and professionals, with business-specific features","A paid-only enterprise product with no free tier","A tool that only works for large corporations"],a:1},
+   {q:"What specific change did Principal Adebayo make that reduced 30 hours of weekly phone calls?",o:["He hired more administrative staff","He built out a complete WhatsApp Business profile with accurate hours, location and description","He disconnected the school's phone entirely","He stopped answering admissions enquiries altogether"],a:1},
+   {q:"Why does an incomplete WhatsApp Business profile create more manual work, according to this module?",o:["It doesn't — profile completeness has no effect","Missing fields like hours or location mean customers must ask basic questions a complete profile would have already answered","Incomplete profiles automatically block new messages","A complete profile is only cosmetic and has no functional benefit"],a:1},
+  ]},
+
+ {id:"wa_m3",n:3,title:"Setting Up Automatic Messages",mins:150,icon:"ClipboardCheck",
+  summary:"Configuring greeting messages, away messages and quick reply shortcuts so leads never face silence, day or night.",
+  keyWords:["greeting messages","away messages","quick replies","shortcuts"],
+  sections:[
+   {art:"talk",h:"The Real Estate Agent Who Sold a Property While Sleeping",p:[
+    "Tariq Al-Mansoor knew that in real estate, the first agent to reply to a lead usually wins the commission. But he was burning out — international buyers in different time zones messaged him at 2:00 a.m., and by the time he woke at 6:00 a.m. to reply, they had already moved on to another agent who happened to be awake.",
+    "Tariq decided to master WhatsApp Business's built-in messaging features, configuring three layers: Greeting Messages, Away Messages and Quick Replies.",
+    "He set an automated Greeting Message to instantly welcome new contacts, and an Away Message tied to his non-working hours: \"Hi there! I am currently offline, but your property search is my priority. Check out our active listings below, and I will personally review your request at 8:00 a.m.\" He also created shortcuts like /price and /location to swiftly handle frequent questions during working hours. That same week, a buyer messaged at midnight, engaged with the automated away links, and booked a viewing entirely on autopilot while Tariq slept."
+   ],ex:{t:"Conclusion",b:[
+    "Automatic messaging turns your phone into a round-the-clock client management assistant.",
+    "Mastering greetings, away messages and quick reply shortcuts ensures leads never face cold silence, protecting your professional reputation at every hour."
+   ]}},
+   {art:"chart",h:"Key Ideas in This Module",p:[
+    "Greeting messages fire automatically the first time a new contact messages you (or after a period of inactivity), instantly welcoming them instead of leaving them waiting.",
+    "Away messages fire outside your set working hours or during holidays, telling contacts you're currently unavailable and when to expect a reply — you can schedule different away messages for different periods.",
+    "Quick replies are saved shortcuts you trigger by typing a short command, such as /price, /location, /payment, /contact or /services, instantly sending a full pre-written answer instead of retyping it every time.",
+    "Setting these up well means every enquiry gets an instant, useful response even when no one is available to type — this is the single fastest automation win most people can set up in one sitting."
+   ]}
+  ],
+  activity:"Write your own greeting message, one away message for outside business hours, and three quick reply shortcuts (for example /price, /location, /hours) using the five common questions you listed in Module 1.",
+  check:[
+   {q:"What is the purpose of an away message, as described in this module?",o:["To permanently stop customers from messaging you","To tell contacts you're currently unavailable, outside working hours, and when to expect a reply","To delete unread messages automatically","To block messages from new contacts"],a:1},
+   {q:"How did quick reply shortcuts like /price and /location help Tariq Al-Mansoor?",o:["They let him instantly send a full pre-written answer to frequent questions without retyping them","They automatically closed conversations with clients","They translated messages into other languages","They blocked spam messages"],a:0},
+   {q:"What specifically allowed Tariq to close a booking with a midnight buyer while he was asleep?",o:["Luck, with no system involved","His configured away message and quick-access listings link engaged the buyer automatically","The buyer called his personal phone instead","He happened to wake up briefly to reply"],a:1},
+  ]},
+
+ {id:"wa_m4",n:4,title:"Organising Your Chats",mins:120,icon:"Sparkles",
+  summary:"Using labels and filters to keep hundreds of conversations organised, preventing the kind of mix-ups that damage trust.",
+  keyWords:["labels","filtering conversations","customer records","chat organisation"],
+  sections:[
+   {art:"layers",h:"Cleaning the Digital Chaos of an NGO Campaign",p:[
+    "During a large environmental relief campaign, Elena Rostova was managing over 800 active chat conversations on a single WhatsApp number. Her inbox was chaos — in one scroll she had messages from corporate donors, new volunteers, suppliers awaiting payment, and reporters requesting press kits. Because every chat looked identical, she once accidentally sent a casual message meant for a volunteer to a major corporate donor.",
+    "Elena realised the chaos was exposing her organisation to real reputational risk. She paused operations to deploy a clear chat organisation strategy using WhatsApp Business Labels.",
+    "She assigned distinct labels — New Volunteer, Pending Payment, Corporate Donor, Media/Press — and categorised every message as it arrived. She then used filters to instantly pull up only the \"Pending Payment\" chats or the \"Corporate Donor\" threads. This simple organisation eliminated confusion, streamlined her records, and let her run targeted follow-up communication in seconds."
+   ],ex:{t:"Conclusion",b:[
+    "Without organisation, automation only speeds up your mess.",
+    "Labels and conversation filters let you segment your audience visually, protect your operations from human error, and reach the right customer thread instantly."
+   ]}},
+   {art:"gap",h:"Key Ideas in This Module",p:[
+    "Labels are tags you attach to a conversation — common examples include New Customer, Returning Customer, Pending Payment, Completed Order, VIP Client and Follow Up — so you can identify a chat's status at a glance.",
+    "Filtering conversations lets you view only chats with a particular label, so you can, for example, message everyone who is 'Pending Payment' without scrolling past unrelated chats.",
+    "Managing customer records well means keeping labels current as a conversation's status changes, so your organisation system stays accurate rather than becoming outdated clutter.",
+    "A consistent labelling system is what prevents the kind of costly mix-up Elena experienced — sending the wrong message to the wrong audience."
+   ]}
+  ],
+  activity:"Create at least four labels that fit your own context (for example: New Enquiry, Pending Payment, VIP Client, Follow Up), and apply them to your ten most recent conversations.",
+  check:[
+   {q:"What mistake occurred in Elena Rostova's organisation before she introduced labels?",o:["She lost all her contacts","She accidentally sent a message meant for a volunteer to a major corporate donor, because chats were indistinguishable","She was unable to send any messages at all","She received too few messages to manage"],a:1},
+   {q:"What is the primary function of filtering conversations, according to this module?",o:["To permanently delete old chats","To instantly view only the chats matching a particular label, without scrolling past unrelated ones","To translate messages automatically","To block unwanted contacts"],a:1},
+   {q:"Why does this module argue labels must be kept current rather than set once and forgotten?",o:["Because outdated labels make the organisation system inaccurate and unreliable over time","Because labels expire automatically after a week","Because customers can see your labels","Because labels have no real ongoing purpose"],a:0},
+  ]},
+
+ {id:"wa_m5",n:5,title:"Creating Frequently Asked Questions (FAQs)",mins:120,icon:"Target",
+  summary:"Building a structured FAQ system that resolves the small number of questions responsible for most of your repetitive workload.",
+  keyWords:["FAQs","business hours","delivery","payments","customer support"],
+  sections:[
+   {art:"search",h:"The E-Commerce Store That Defeated Order Backlogs",p:[
+    "By one Christmas season, Liam Chen's online electronics store was booming, but his support team was drowning — a backlog of 400 unresolved tickets. When Liam reviewed the support history, he found that roughly 85% of enquiries were the exact same questions repeated hundreds of times: \"Where is my order?\", \"What is your return policy?\", \"Can I pay by bank transfer?\"",
+    "Liam realised his human support staff were spending their energy acting like copy-paste machines. He decided to build a structured, automated FAQ system directly inside WhatsApp.",
+    "He mapped out the most frequent friction points — business hours, prices, location, delivery timeframes, registration, payment options, returns and live support escalation — and wrote clear, structured answers for each. When a customer messaged the store, they were shown a simple menu of these FAQs, selected their issue, and received an instant answer, clearing the backlog without a single extra agent."
+   ],ex:{t:"Conclusion",b:[
+    "Repetitive questions are a symptom of unorganised information.",
+    "A functional WhatsApp FAQ system resolves customer anxiety instantly, cuts operational overhead, and frees your human team for the complex, high-value conversations that actually need them."
+   ]}},
+   {art:"match",h:"Key Ideas in This Module",p:[
+    "An effective FAQ system starts with identifying your actual most-repeated questions, not guessing — Liam Chen found that a small handful of topics covered 85% of his volume.",
+    "Common FAQ categories for most organisations include business hours, prices, location, delivery, registration, payments, returns and how to reach a human for support.",
+    "Each FAQ answer should be short, specific and complete on its own, so a customer never has to ask a follow-up just to understand the first answer.",
+    "Presenting FAQs as a simple menu or numbered list (rather than one long paragraph) makes it easy for a customer to self-serve the answer they actually need."
+   ]}
+  ],
+  activity:"Write out clear, complete answers to your organisation's eight most common questions (using the categories in this module as a checklist), and format them as a simple numbered menu.",
+  check:[
+   {q:"What did Liam Chen discover when he audited his 400-ticket support backlog?",o:["Every ticket was a unique, complex issue","About 85% of enquiries were the exact same handful of repeated questions","Customers had stopped messaging the store entirely","His store had no repeat customers"],a:1},
+   {q:"Which of the following is listed in this module as a common FAQ category?",o:["Delivery timeframes and return policies","The founder's personal biography","Competitor pricing comparisons","Confidential financial statements"],a:0},
+   {q:"Why does this module recommend presenting FAQs as a simple menu rather than one long paragraph?",o:["Because menus look more decorative","Because it makes it easy for a customer to self-serve the exact answer they need without reading everything","Because long paragraphs are against WhatsApp's rules","Because menus prevent customers from asking any further questions"],a:1},
+  ]},
+
+ {id:"wa_m6",n:6,title:"Creating Professional Customer Workflows",mins:150,icon:"Users",
+  summary:"Mapping the full customer journey — from first enquiry to long-term retention — so no step is left to chance.",
+  keyWords:["customer journey","inquiry","confirmation","follow-up","retention"],
+  sections:[
+   {art:"steps",h:"Mapping the Flawless Journey of a Medical Clinic",p:[
+    "Dr. Amara Wright ran a successful specialist health clinic, but faced a 30% no-show rate for appointments. Patients would enquire, book a slot, and simply forget to attend. Worse, once patients left the clinic there was no follow-up or retention strategy, so they rarely returned for annual check-ups. The customer journey was broken.",
+    "Dr. Wright redesigned her practice around an automated, end-to-end Customer Communication Workflow mapped to the classic journey stages.",
+    "When a patient made an Inquiry, the system immediately sent automated Information about available slots. Once the patient reached a Decision, an automated Payment link and registration form followed. The moment payment landed, an instant Confirmation went out, followed by timed Follow-up reminders 24 hours before the appointment, and finally a Retention check-in message three months later. This workflow dropped her cancellation rate from 30% to under 2% within 90 days."
+   ],ex:{t:"Conclusion",b:[
+    "A premium customer experience is a sequence of intentional steps, not a single lucky reply.",
+    "Designing automated workflows ensures prospects are guided from initial enquiry to long-term retention without a single step falling through the cracks."
+   ]}},
+   {art:"chart",h:"Key Ideas in This Module",p:[
+    "A customer communication workflow maps out every stage a contact moves through: Inquiry, Information, Decision, Payment, Confirmation, Follow-up and Retention.",
+    "Each stage should have a planned message or automated trigger — leaving a stage to chance (as Dr. Wright's clinic did with follow-up and retention) is exactly where customers are lost.",
+    "Confirmation and follow-up messages close the loop after payment or booking, which is precisely what reduced the clinic's no-show rate so sharply.",
+    "Retention messages sent well after the transaction — weeks or months later — are what turn a one-time customer into a returning one."
+   ]}
+  ],
+  activity:"Map your own customer journey across the seven stages in this module (Inquiry to Retention). For each stage, write one sentence describing what message or action should happen automatically.",
+  check:[
+   {q:"What problem was Dr. Amara Wright's clinic experiencing before redesigning its workflow?",o:["Too few patients were booking appointments","A 30% no-show rate and no follow-up or retention strategy after each visit","Patients were paying too early","The clinic had no way to receive enquiries at all"],a:1},
+   {q:"What is the correct order of stages in the customer communication workflow described in this module?",o:["Payment, Inquiry, Confirmation, Information, Follow-up, Retention, Decision","Inquiry, Information, Decision, Payment, Confirmation, Follow-up, Retention","Retention, Follow-up, Confirmation, Payment, Decision, Information, Inquiry","Confirmation, Payment, Inquiry, Retention, Information, Decision, Follow-up"],a:1},
+   {q:"What specifically caused the clinic's appointment cancellation rate to drop from 30% to under 2%?",o:["Hiring more receptionists","An automated workflow including timed follow-up reminders before each appointment","Charging patients more for missed appointments","Reducing the number of available appointment slots"],a:1},
+  ]},
+
+ {id:"wa_m7",n:7,title:"Using Chatbots",mins:150,icon:"FlaskConical",
+  summary:"When native WhatsApp Business features stop being enough, and how chatbot platforms like ManyChat and Botpress take over at scale.",
+  keyWords:["chatbots","ManyChat","Respond.io","WATI","Botpress","Meta WhatsApp Cloud API"],
+  sections:[
+   {art:"agency",h:"The Church That Welcomed 5,000 Visitors on Easter Sunday",p:[
+    "In the weeks before one Easter Sunday, City of Light Church ran a large community outreach campaign. It was highly successful — over 5,000 new visitors messaged the church's WhatsApp number asking about service times, kids' church registration, parking, and prayer requests. The small volunteer team was overwhelmed by the sheer volume.",
+    "The media team realised native WhatsApp Business features were no longer enough — they needed a tool that could route and multi-task dynamically. They deployed a chatbot using a platform like ManyChat or Botpress.",
+    "They built a conversational flow: when a visitor messaged, the chatbot greeted them and offered a menu — Service Times, Register Kids, or Request Prayer. If someone selected Request Prayer, the chatbot collected their prayer points and preferred contact method, then organised the data into a spreadsheet for the pastoral team. The chatbot handled roughly 90% of initial processing, escalating only urgent cases to a live human counsellor."
+   ],ex:{t:"Conclusion",b:[
+    "When your incoming message volume outgrows human capacity, chatbots bridge the operational gap.",
+    "Understanding what platforms like ManyChat, Respond.io and the Meta WhatsApp Cloud API can do lets you scale your communication without losing structure or care."
+   ]}},
+   {art:"control",h:"Key Ideas in This Module",p:[
+    "A chatbot is a program that can hold a structured, branching conversation — offering menus, collecting information, and routing a user to the right outcome, well beyond a single automated reply.",
+    "You generally need a chatbot once native quick replies and FAQs can no longer handle your volume or the complexity of the conversation (for example, needing to collect and store structured data).",
+    "Benefits include handling large volumes simultaneously, collecting structured data automatically, and freeing humans for genuinely complex cases; limitations include the cost and setup time, and the risk of feeling impersonal if poorly designed.",
+    "Popular chatbot platforms include ManyChat, Respond.io, WATI, Botpress, Twilio and the Meta WhatsApp Cloud API — each with different pricing, flexibility and technical requirements.",
+    "A good chatbot flow always includes an escalation path: a way for a user to reach a real person when the situation genuinely needs one."
+   ]}
+  ],
+  activity:"Sketch a simple three-option chatbot menu for your own context (for example: General Enquiry, Booking, Speak to a Human), and write what should happen after each option is selected.",
+  check:[
+   {q:"What triggered City of Light Church's decision to move beyond native WhatsApp Business features?",o:["A decline in the number of visitors","A volume of over 5,000 enquiries that overwhelmed their small volunteer team","A change in WhatsApp's terms of service","A decision to stop using WhatsApp entirely"],a:1},
+   {q:"What percentage of initial processing did the chatbot handle in the church's case study?",o:["Roughly 10%","Roughly 90%, escalating only urgent cases to a live counsellor","0%, since humans handled everything","100%, with no human involvement at any stage"],a:1},
+   {q:"Which of the following is listed in this module as a genuine limitation of chatbots?",o:["They can feel impersonal if poorly designed, and require setup time and cost","They can never collect any structured data","They are illegal to use on WhatsApp","They only work for churches"],a:0},
+  ]},
+
+ {id:"wa_m8",n:8,title:"WhatsApp Automation for Different Industries",mins:120,icon:"Video",
+  summary:"Why every sector — from hotels to hospitals — needs its own custom-engineered automation flow rather than a generic template.",
+  keyWords:["industries","hospitality","real estate","e-commerce","recruitment"],
+  sections:[
+   {art:"global",h:"The Boutique Hotel That Beat Global Booking Platforms",p:[
+    "Sofia Gatti was tired of losing around 20% of her boutique hotel's revenue to commissions charged by global booking platforms. She wanted guests to book directly, but travellers preferred the global apps because they offered instant confirmation — her hotel's email booking desk took up to 12 hours to reply.",
+    "Sofia decided to adapt WhatsApp automation specifically for hospitality, recognising that every industry has a unique pattern automation must be built around.",
+    "She designed a dedicated booking flow: when a traveller clicked her hotel's social media ad, it opened a WhatsApp thread showing available suites, real-time pricing, check-in policies and local guides. Guests could check availability, pick dates, and finalise a reservation in under three minutes, right inside the chat. She applied similarly tailored flows across real estate, education and retail partners, proving that adapting automation to a specific industry dramatically improves conversion."
+   ],ex:{t:"Conclusion",b:[
+    "WhatsApp automation is not one-size-fits-all.",
+    "Every sector — schools, churches, hotels, hospitals — needs custom-engineered messaging flows that speak directly to what that specific audience actually needs."
+   ]}},
+   {art:"culture",h:"Key Ideas in This Module",p:[
+    "Businesses typically automate around sales enquiries, pricing and order status; schools around admissions, fees and attendance; churches around service times, registration and prayer requests.",
+    "NGOs typically automate volunteer recruitment and donor communication; hospitals around appointment booking and results enquiries; hotels around bookings and guest services.",
+    "Real estate typically automates listing enquiries and viewing bookings; e-commerce around order tracking and returns; recruitment around applications and interview scheduling; education around enrolment and course information.",
+    "The underlying tools (greetings, quick replies, FAQs, chatbots) stay the same across industries — what changes is which questions you anticipate and how you structure the flow around them."
+   ]}
+  ],
+  activity:"Pick the industry closest to your own context from this module. List the three enquiries that industry receives most often, and outline a WhatsApp flow that would answer all three automatically.",
+  check:[
+   {q:"Why was Sofia Gatti's hotel losing revenue to global booking platforms, according to this module?",o:["Her hotel had no rooms available","Guests preferred instant confirmation, which her slow 12-hour email desk could not match","Her hotel had poor reviews","She refused to accept online bookings"],a:1},
+   {q:"What is the central argument of this module regarding industries and automation?",o:["One generic automation template works equally well for every industry","Every sector needs custom-engineered flows suited to its specific audience and common enquiries","Only e-commerce businesses benefit from WhatsApp automation","Automation is unnecessary outside the hospitality industry"],a:1},
+   {q:"According to this module, what do real estate businesses typically automate?",o:["Listing enquiries and viewing bookings","Prayer requests and service times","Patient appointment booking","Volunteer recruitment"],a:0},
+  ]},
+
+ {id:"wa_m9",n:9,title:"Advanced WhatsApp Automation",mins:150,icon:"FlaskConical",
+  summary:"Connecting WhatsApp to Google Forms, Sheets, CRMs and payment platforms using Zapier, Make and the Meta API to remove manual data entry entirely.",
+  keyWords:["Zapier","Make","Meta API","webhooks","CRM integration"],
+  sections:[
+   {art:"data",h:"The Automated Hiring System That Saved an HR Department",p:[
+    "Marcus Vance's recruitment agency was tasked with hiring 400 call centre agents in a single month. His team posted the job ad, and within 48 hours over 3,000 applicants submitted resumes via a Google Form. Traditionally, his team would manually read every form, email selected applicants to schedule interviews, and log slots into a calendar by hand — an administrative nightmare prone to delays.",
+    "Marcus turned to advanced automation, using Make (Integromat) and Zapier to connect WhatsApp to his entire software stack.",
+    "The moment an applicant submitted the Google Form, a webhook fired: Zapier read the data, filtered out unqualified applicants, and sent a personalised WhatsApp message via the Meta API offering qualified candidates a link to book an interview slot directly on his calendar. The moment a candidate picked a time, the system updated the CRM, drafted an email, and sent a WhatsApp confirmation with prep materials — a process that once took weeks now happened in about 90 seconds with no human intervention."
+   ],ex:{t:"Conclusion",b:[
+    "Advanced automation transforms WhatsApp from a simple chat app into an operational command centre.",
+    "Connecting your chat flows to Google Sheets, CRMs and payment gateways using tools like Zapier and Make eliminates manual data entry and operational bottlenecks."
+   ]}},
+   {art:"chart",h:"Key Ideas in This Module",p:[
+    "WhatsApp can be connected to Google Forms, Google Sheets, calendars, email and CRM systems, so information flows automatically between them instead of being retyped by hand.",
+    "Zapier and Make (Integromat) are no-code automation tools that let you build these connections — 'when this happens in one app, do that in another' — without writing custom software.",
+    "The Meta WhatsApp Cloud API is the official, developer-level way to send and receive WhatsApp messages programmatically, which is what powers most advanced integrations at scale.",
+    "A webhook is simply a signal one system sends to another the instant something happens (like a form submission), which is what allows this entire pipeline to fire automatically and instantly.",
+    "In the case study, the sequence ran: form submission triggers a webhook, which triggers filtering and a personalised WhatsApp message, which (once the candidate responds) updates the CRM and calendar and sends a confirmation — all without a person touching it."
+   ]}
+  ],
+  activity:"Identify one manual, repetitive data-entry task in your own work (for example, copying form responses into a spreadsheet). Research whether Zapier or Make has a ready-made connection between the two tools involved.",
+  check:[
+   {q:"What administrative problem was Marcus Vance's team facing before automating their hiring pipeline?",o:["Too few applicants for the roles","Manually reading thousands of forms, emailing candidates, and logging interview slots by hand — slow and error-prone","No access to a job board","An inability to receive any applications at all"],a:1},
+   {q:"What is a webhook, as defined in this module?",o:["A physical device used to connect phones to WhatsApp","A signal one system sends to another the instant something happens, triggering an automatic response","A type of chatbot menu","A paid WhatsApp subscription tier"],a:1},
+   {q:"What is the role of Zapier and Make (Integromat), according to this module?",o:["They are no-code tools that connect apps so that an action in one triggers an action in another","They are chatbot platforms exclusively for churches","They replace the need for a WhatsApp Business account","They are only used for sending broadcast marketing messages"],a:0},
+  ]},
+
+ {id:"wa_m10",n:10,title:"Broadcast Lists and Marketing",mins:120,icon:"Target",
+  summary:"Using broadcast lists responsibly — segmentation, consent and scheduling — to market at scale without triggering spam bans.",
+  keyWords:["broadcast lists","segmentation","spam prevention","message scheduling","campaign tracking"],
+  sections:[
+   {art:"talk",h:"The Fitness Coach Who Filled a Masterclass in 10 Minutes",p:[
+    "Coach David Okafor wanted to launch a premium weight-loss masterclass for his community. His email open rates hovered around a dismal 15%. He switched to WhatsApp broadcasting — but on his first attempt made a critical mistake: he added 500 contacts to a random group chat and blasted them with generic promotional links.",
+    "The backlash was immediate. People felt intruded on, left the group, and several blocked his number, causing WhatsApp to temporarily restrict his account for spam-like behaviour.",
+    "David studied audience segmentation and consent rules properly. He created explicit opt-in pages where users agreed to receive updates, then built structured Broadcast Lists dividing his audience into focused segments: Past Clients, Warm Leads, and Fitness Beginners. His next launch used personalised broadcasts that felt like private check-ins rather than mass blasts. Because he avoided spam patterns and targeted correctly, his open rates soared past 95%, filling all 50 masterclass slots in under 10 minutes."
+   ],ex:{t:"Conclusion",b:[
+    "Broadcast marketing is a high-precision tool, not a weapon for spam.",
+    "Careful segmentation, explicit consent, and smart scheduling let you drive real sales conversions while keeping your account secure and trusted."
+   ]}},
+   {art:"measure",h:"Key Ideas in This Module",p:[
+    "A broadcast list sends one message to many contacts individually (each recipient sees it as a normal one-to-one message), which is different from a group chat where everyone sees everyone else.",
+    "Customer segmentation means dividing your audience into meaningful groups — such as Past Clients, Warm Leads or Beginners — so each group receives a message that is actually relevant to them.",
+    "Avoiding spam requires genuine consent (people must have opted in), relevant targeting, and reasonable frequency — sending irrelevant or unsolicited messages at volume is exactly what gets numbers restricted or banned.",
+    "Message scheduling lets you plan and time broadcasts for when your audience is most likely to engage, rather than sending everything the moment it's written.",
+    "Campaign tracking means monitoring how a broadcast actually performed (opens, replies, conversions) so the next one can be improved, rather than guessing."
+   ]}
+  ],
+  activity:"Divide your own contact list into two or three meaningful segments. Draft one short, personalised broadcast message for a single segment that would feel like a private message rather than a mass blast.",
+  check:[
+   {q:"What mistake did Coach David Okafor make on his first broadcast attempt?",o:["He asked for too much consent from his contacts","He blasted 500 contacts with generic promotional links in a random group with no consent or segmentation","He only messaged one person","He waited too long before launching his masterclass"],a:1},
+   {q:"What is the key difference between a broadcast list and a group chat, according to this module?",o:["There is no difference","In a broadcast list, each recipient receives the message individually rather than seeing everyone else in a shared thread","Group chats can only include five people","Broadcast lists cannot include images"],a:1},
+   {q:"What combination of factors led to Coach Okafor's 95% open rate on his second attempt?",o:["Random blasting with no targeting","Genuine consent, audience segmentation, and personalised messaging to relevant segments","Sending the same message to as many people as possible","Avoiding segmentation entirely to save time"],a:1},
+  ]},
+
+ {id:"wa_m11",n:11,title:"WhatsApp Customer Service",mins:120,icon:"Users",
+  summary:"Response time, etiquette and escalation procedures that turn a stressful support crisis into a trust-building moment.",
+  keyWords:["response time","conversation etiquette","complaint management","escalation","building trust"],
+  sections:[
+   {art:"help",h:"Saving a Brand's Reputation During a System Crash",p:[
+    "One fintech startup's payment servers went offline for four hours due to a power outage. Thousands of users were locked out of their accounts. Angry customers flooded the company's WhatsApp support line with over 10,000 complaints within an hour.",
+    "Sarah Jenkins, Head of Customer Success, knew a poor response during this window could destroy the brand's trust. She deployed a professional Customer Service Crisis Protocol built on transparency and clear etiquette.",
+    "The automated response acknowledged the outage instantly, gave an honest resolution timeline, and shared a tracking link. For high-stress cases where customers were losing money, a rapid escalation procedure routed the conversation straight to a senior technical manager. Because the communication was fast, clear and reassuring, the brand actually gained customer loyalty once the servers came back online."
+   ],ex:{t:"Conclusion",b:[
+    "Exceptional customer service on WhatsApp relies on speed, empathy and clear escalation boundaries.",
+    "Pristine conversation etiquette and structured complaint procedures turn stressful customer interactions into opportunities to build real institutional trust."
+   ]}},
+   {art:"listen",h:"Key Ideas in This Module",p:[
+    "Response time is one of the most important customer service metrics on WhatsApp — customers expect near-instant acknowledgement, even if a full resolution takes longer.",
+    "Conversation etiquette means clear, warm, professional language: acknowledging the issue, avoiding cold corporate phrasing, and never leaving a message unanswered.",
+    "Complaint management works best with a structured process: acknowledge, gather details, give a timeline, and follow through — rather than an improvised response each time.",
+    "Escalation procedures define exactly when and how a conversation moves from an automated or junior response to a senior human, especially for high-stress or high-value cases.",
+    "Building trust during a crisis (like a system outage) often depends more on how transparently and quickly you communicate than on how fast the underlying problem is actually fixed."
+   ]}
+  ],
+  activity:"Write a short crisis-response template for your own context (for example, a service outage or delivery delay) that acknowledges the issue, gives an honest timeline, and states exactly how to escalate.",
+  check:[
+   {q:"What was the primary risk Sarah Jenkins was managing during the payment server outage?",o:["Losing physical office space","The brand's trust being destroyed by a poor, slow or unclear crisis response","Running out of WhatsApp storage","A shortage of customer service staff"],a:1},
+   {q:"What combination of qualities made the crisis response effective, according to this module?",o:["Silence until the problem was fully fixed","Speed, transparency, and a clear escalation path for high-stress cases","Formal, cold corporate language","Ignoring complaints until they stopped"],a:1},
+   {q:"What is the purpose of an escalation procedure, as described in this module?",o:["To ensure no customer message is ever answered","To define exactly when and how a conversation moves to a senior human for high-stress or high-value cases","To automatically close all complaints without resolution","To slow down response times deliberately"],a:1},
+  ]},
+
+ {id:"wa_m12",n:12,title:"Measuring Performance",mins:120,icon:"ClipboardCheck",
+  summary:"Tracking response time, satisfaction, conversion and retention so automation decisions are based on data, not vibes.",
+  keyWords:["response rate","conversion rate","retention rate","KPIs","customer satisfaction"],
+  sections:[
+   {art:"measure",h:"The Logistics Company Data Audit That Doubled Profits",p:[
+    "Carlos Mendez ran a busy delivery and logistics company that managed all bookings via WhatsApp. On paper his team looked incredibly active, texting all day. Yet his monthly revenue was flat and customer churn was rising. Carlos realised he was managing his communication strategy based on impressions rather than clear metrics.",
+    "He deployed a data-tracking framework built around clear Key Performance Indicators: First Response Time, Customer Satisfaction Score, Chat Conversion Rate, Total Sales Generated, and Customer Retention Rate.",
+    "The data was revealing — his team took an average of 45 minutes to respond to delivery quotes, during which clients simply booked with competitors. Carlos used this insight to redesign his quick replies and chatbot triggers. Within 60 days, response time dropped to 90 seconds, monthly booking conversions doubled, and customer retention rose by 40%."
+   ],ex:{t:"Conclusion",b:[
+    "What is not measured cannot be improved.",
+    "Tracking your automation performance removes guesswork, exposes hidden operational leaks, and gives you the data needed to keep improving your conversational funnels."
+   ]}},
+   {art:"chart",h:"Key Ideas in This Module",p:[
+    "Response Rate and Response Time measure how many messages get answered, and how quickly — both directly affect whether a lead stays or moves to a competitor.",
+    "Customer Satisfaction (often tracked as a CSAT score) measures how customers rate their experience with your automated or human replies.",
+    "Conversion Rate measures how many conversations actually turn into a sale, booking or completed action — the metric that connects your chat activity to real business results.",
+    "Sales Generated and Retention Rate measure the direct revenue impact of your WhatsApp strategy, and how many customers come back afterward.",
+    "As Carlos Mendez's case shows, high message volume does not automatically mean good performance — you have to track the metrics that actually predict revenue and retention."
+   ]}
+  ],
+  activity:"Track your own First Response Time for the next 20 messages you receive on WhatsApp. Compare the average against the 90-second benchmark achieved in this module's case study.",
+  check:[
+   {q:"What was misleading about Carlos Mendez's initial assessment of his team's performance?",o:["High visible activity (constant texting) did not mean the business was actually performing well — revenue was flat and churn was rising","His team was not messaging enough","He had no customers at all","His team was too slow to type messages"],a:0},
+   {q:"Which of the following is listed in this module as a key performance indicator for WhatsApp automation?",o:["The number of emojis used in messages","First Response Time","The color scheme of the WhatsApp app","The founder's personal social media following"],a:1},
+   {q:"What specific change followed Carlos Mendez's data audit, and what was the result?",o:["He hired more staff and revenue stayed flat","He improved quick replies and chatbot triggers, dropping response time to 90 seconds and doubling conversions","He stopped using WhatsApp for bookings entirely","He increased his response time and saw no change"],a:1},
+  ]},
+
+ {id:"wa_m13",n:13,title:"Common Mistakes to Avoid",mins:120,icon:"Shield",
+  summary:"How over-automation, spam and poor formatting quietly alienate the very customers automation is meant to serve.",
+  keyWords:["over-automation","spam","message formatting","follow-up","automation strategy"],
+  sections:[
+   {art:"gap",h:"The Automated Ghost Town That Alienated Customers",p:[
+    "Samantha Vance loved technology, and when she discovered WhatsApp automation she went completely overboard — building a rigid, multi-layered chatbot system that handled every single interaction on her store's number, with no way for a human agent to step in.",
+    "Within a month her sales fell by roughly 60%. Reviewing her chat logs, she found her system had become an automated ghost town: customers asking a simple, unique question about a fabric were trapped in an endless loop, with the bot repeating \"Sorry, I didn't understand that. Please select Option A, B or C.\"",
+    "Customers grew furious, felt ignored, and dropped out of the chat entirely. Samantha had committed the classic error of over-automation — forgetting that WhatsApp is fundamentally a conversational medium requiring a balance between automated speed and real human intervention. She quickly added a prominent \"Talk to a Human\" option, which restored her customer relationships."
+   ],ex:{t:"Conclusion",b:[
+    "Automation must be a bridge to human connection, not a wall that blocks it.",
+    "Avoiding mistakes like over-automation, spam and poor formatting keeps your automated system useful without alienating the people it's meant to help."
+   ]}},
+   {art:"control",h:"Key Ideas in This Module",p:[
+    "Ignoring customers — leaving messages unanswered, even automated ones that never actually resolve the issue — is one of the fastest ways to lose trust.",
+    "Sending spam (irrelevant, unsolicited or excessive messages) damages both customer goodwill and your account's standing with WhatsApp itself.",
+    "Poor message formatting — walls of text, unclear structure, no line breaks — makes even a correct answer hard to use.",
+    "Skipping follow-up, or having no automation strategy at all (building random pieces with no overall plan), both waste the potential of the tools available.",
+    "Over-automation, as Samantha Vance experienced, is just as damaging as no automation — every automated flow needs a visible, working escape route to a real human."
+   ]}
+  ],
+  activity:"Review your own (or a planned) automated flow for a single, clear failure point: is there always a way for a confused customer to reach a real person? If not, add one now.",
+  check:[
+   {q:"What was the root cause of Samantha Vance's 60% sales decline?",o:["She stopped using WhatsApp entirely","Her fully automated system trapped customers in repetitive loops with no way to reach a human","She hired too many customer service staff","She removed all automation from her store"],a:1},
+   {q:"Which of the following is identified in this module as a common mistake to avoid?",o:["Providing a clear way to reach a human","Over-automation with no escape route to a real person","Using labels to organise chats","Setting up an away message"],a:1},
+   {q:"What is the core lesson of the 'automated ghost town' case study, according to this module?",o:["Automation should always replace every human interaction completely","Automation must remain a bridge to human connection, not a wall that blocks it","Chatbots should never be used under any circumstances","Customers prefer repetitive menus over real answers"],a:1},
+  ]},
+
+ {id:"wa_m14",n:14,title:"Security and Privacy",mins:120,icon:"Shield",
+  summary:"Why customer consent, data protection and platform compliance are non-negotiable foundations of sustainable automation.",
+  keyWords:["data protection","customer consent","privacy policies","WhatsApp policies","account security"],
+  sections:[
+   {art:"law",h:"The FinTech Startup That Avoided a Compliance Fine",p:[
+    "A marketing team at a fast-growing lending startup planned an aggressive automated WhatsApp campaign — scraping phone numbers from public registries and blasting loan offers using an unauthorised bulk-messaging tool. They thought it was a clever growth shortcut.",
+    "David Kojo, the newly appointed Compliance Officer, halted the campaign immediately. He recognised it violated basic data protection principles and breached WhatsApp's official Commercial Terms of Service.",
+    "David explained that using unverified automation tools and messaging people without explicit consent would get their number permanently blacklisted by Meta — destroying their entire communication channel — and could expose the company to significant data privacy fines. He restructured their automation backend so that all data was encrypted, opt-ins were transparently logged, and multi-factor authentication was active on every device, fully securing the company from legal and security risk."
+   ],ex:{t:"Conclusion",b:[
+    "Data security and user privacy are non-negotiable foundations of sustainable automation.",
+    "Building your workflows around clear privacy policies, genuine customer consent and strict platform compliance protects your business from legal liability and permanent account bans."
+   ]}},
+   {art:"measure",h:"Key Ideas in This Module",p:[
+    "Data protection means handling customer phone numbers and personal information responsibly — securely stored, never shared without reason, and never scraped from public sources without consent.",
+    "Customer consent means people have actively agreed to receive your messages, typically by opting in through a form or by messaging you first — not simply being added to a list you compiled elsewhere.",
+    "A privacy policy tells customers clearly what data you collect and how you use it, and should be easy to find and understand.",
+    "WhatsApp's own commercial policies prohibit unsolicited bulk messaging and unauthorised third-party tools; violating them risks your number being permanently blocked.",
+    "Account security practices — strong passwords, multi-factor authentication, and limiting who has device access — protect your communication channel from being hijacked or misused."
+   ]}
+  ],
+  activity:"Write a two-sentence privacy statement for your own WhatsApp automation explaining what data you collect from a conversation and how it will be used, and check it against WhatsApp's current commercial policies.",
+  check:[
+   {q:"Why did David Kojo halt the marketing team's planned campaign?",o:["It was too expensive to run","It scraped phone numbers without consent and used an unauthorised bulk-messaging tool, breaching data protection principles and WhatsApp's policies","It targeted too few customers","It used too many quick reply shortcuts"],a:1},
+   {q:"What is the defining feature of genuine customer consent, according to this module?",o:["Adding any phone number you can find to a broadcast list","A customer actively agreeing to receive your messages, such as through an opt-in form or by messaging first","Consent is not required for business messaging","Consent only matters for messages sent after midnight"],a:1},
+   {q:"What real risk did David Kojo identify from using unauthorised bulk-messaging tools without consent?",o:["No risk at all, since messaging volume is unrestricted","The business's WhatsApp number being permanently blacklisted by Meta and potential data privacy fines","Faster message delivery with no downside","Improved customer trust automatically"],a:1},
+  ]},
+
+ {id:"wa_m15",n:15,title:"Case Studies and Practical Projects",mins:180,icon:"Sparkles",
+  summary:"A full enterprise makeover that ties every module together, plus the six hands-on projects that turn this course into a working WhatsApp automation system.",
+  keyWords:["case study","practical projects","business profile","FAQ system","workflow integration"],
+  sections:[
+   {art:"achieve",h:"The Complete Automation Makeover of an Elite E-Commerce Hub",p:[
+    "One large online retail brand was processing over 2,000 orders every day, yet its backend was surprisingly manual — a support desk of mismatched labels, dropped chats, unread emails and conflicting customer data. A single customer could order on the website, complain on WhatsApp, and submit a return on a separate form, confusing both warehouse and support staff.",
+    "Amelie Dupont was brought in to execute a complete automation makeover, unifying the brand's entire operation into one cohesive WhatsApp ecosystem.",
+    "She deployed a verified WhatsApp Business profile, built crisp greeting/away/quick-reply messages, created a dynamic FAQ system, structured a consistent label system, and connected WhatsApp via webhooks to the company's shipping spreadsheet and CRM. The results were dramatic: processing errors fell to zero, average response time dropped to 12 seconds, and the business scaled daily volume by 300% without adding a single new support staff member."
+   ],ex:{t:"Conclusion",b:[
+    "Real-world execution is the ultimate test of theory.",
+    "When you systematically combine profile optimisation, message design and integration, you create an operational engine that scales without breaking."
+   ]}},
+   {art:"layers",h:"Your Six Practical Projects",p:[
+    "Project 1 — Build a complete WhatsApp Business profile: name, logo, description, address, email, website and working hours, all filled in.",
+    "Project 2 — Create your greeting message, one away message, and at least three quick reply shortcuts for your most common questions.",
+    "Project 3 — Design a full FAQ system covering business hours, pricing, location, delivery/registration and payments, presented as a simple menu.",
+    "Project 4 — Organise a real set of contacts using labels (for example New Customer, Pending Payment, VIP Client) and practise filtering by label.",
+    "Project 5 — Develop a complete customer communication workflow mapped across all seven journey stages from Module 6.",
+    "Project 6 — Integrate WhatsApp with Google Forms or Google Sheets for at least one real use case, even a simple one.",
+    "Together, these six projects mirror exactly what Amelie Dupont did at enterprise scale — just built for your own context, one project at a time."
+   ]}
+  ],
+  activity:"Choose one of the six practical projects listed in this module that you have not yet completed, and finish it this week using a real contact list, product or service from your own context.",
+  check:[
+   {q:"What was the central operational problem at the e-commerce hub before Amelie Dupont's makeover?",o:["Too few daily orders to justify automation","Manual, disconnected systems (labels, chats, forms) that produced conflicting customer data across channels","An inability to receive any WhatsApp messages","Excessive automation with no human staff at all"],a:1},
+   {q:"What result did the fully integrated WhatsApp ecosystem produce, according to this module?",o:["Processing errors fell to zero and daily volume scaled by 300% with no new support hires","Order volume decreased significantly","Response times increased to several hours","The business stopped using WhatsApp for customer service"],a:0},
+   {q:"Which of the following is one of the six practical projects outlined in this module?",o:["Filing a formal complaint with WhatsApp","Building a complete WhatsApp Business profile","Deleting all customer records","Disabling automated messages entirely"],a:1},
+  ]},
+];
+
+// ═══ WHATSAPP AUTOMATION — 100-QUESTION EXAM BANK (WA_Q) ═══
+// Extremely difficult level. Distribution: 7 questions each for modules
+// 1,2,3,5,6,7,9,11,12,15 (10×7=70) and 6 questions each for modules
+// 4,8,10,13,14 (5×6=30). Total = 100.
+const WA_Q=[
+ // ── Module 1: Introduction to WhatsApp Automation (7) ──
+ {ao:"Introduction to Automation",q:"Which statement best captures the relationship between automation and human care that this course establishes from the outset?",o:["Automation should fully replace human care wherever possible","Automation is a layer that scales genuine presence, freeing humans for conversations that need them","Automation and human care are entirely unrelated concerns","Human care should be minimised once automation is installed"],a:1},
+ {ao:"Introduction to Automation",q:"In the bakery case study, what was the actual underlying cause of the negative reviews Jessica Rose received, beyond the surface complaint of unresponsiveness?",o:["Poor product quality","High-value messages being buried under repetitive questions with no system to triage them","A sudden drop in orders","Her decision to close on Sundays"],a:1},
+ {ao:"Introduction to Automation",q:"Which of the following groups is explicitly listed as a target audience for this course?",o:["Only large multinational corporations","Business owners, schools, NGOs, churches, customer service teams and freelancers","Only professional software developers","Only WhatsApp employees"],a:1},
+ {ao:"Introduction to Automation",q:"According to this module, what happened to Jessica Rose's manual typing volume after she implemented automation?",o:["It increased by 80%","It stayed exactly the same","It dropped by roughly 80%","It became impossible to measure"],a:2},
+ {ao:"Introduction to Automation",q:"Which of these is NOT listed among the core benefits of WhatsApp automation in this module?",o:["Saving time","Improving response speed","Guaranteeing zero customer complaints of any kind","Generating more sales and leads"],a:2},
+ {ao:"Introduction to Automation",q:"What is the most accurate description of what 'built-in features and connected tools' refers to in this module's definition of automation?",o:["Only third-party paid software with no native WhatsApp component","A combination of WhatsApp's own native functions and external tools that together handle repetitive messages instantly","Manual scripts a human reads aloud","A single mandatory chatbot platform"],a:1},
+ {ao:"Introduction to Automation",q:"Why does the module caution against treating automation as a total replacement for human interaction?",o:["Because automation is illegal on WhatsApp","Because the goal is to remove repetitive typing so humans have more time for conversations that genuinely need a person","Because automation cannot technically handle any messages","Because customers always prefer typed-out human replies to every question"],a:1},
+
+ // ── Module 2: Getting Started with WhatsApp Business (7) ──
+ {ao:"WhatsApp Business Setup",q:"Which of the following is a capability of WhatsApp Business that is explicitly distinguished from ordinary WhatsApp Messenger in this module?",o:["Sending text messages","Building a business profile, automated messages, labels and messaging statistics","Making voice calls","Sending images"],a:1},
+ {ao:"WhatsApp Business Setup",q:"In Principal Adebayo's case study, what was the specific operational leak he identified during admissions season?",o:["Too many students applying online","A constantly busy landline and parents travelling long distances for information that should have been readily available","A shortage of teaching staff","Excess funding for the admissions office"],a:1},
+ {ao:"WhatsApp Business Setup",q:"Which set of fields does this module list as needing to be completed for a full WhatsApp Business profile?",o:["Business Name, Logo, Description, Address, Email, Website and Working Hours","Only a phone number and a profile picture","Only a business name and nothing else","A list of employees and their salaries"],a:0},
+ {ao:"WhatsApp Business Setup",q:"According to this module, what specifically does an incomplete business profile fail to do?",o:["It fails to answer basic questions automatically, forcing customers to ask them manually","It prevents all incoming messages entirely","It automatically deletes old conversations","It blocks the business from using quick replies"],a:0},
+ {ao:"WhatsApp Business Setup",q:"How much weekly staff time did the school save after building a complete WhatsApp Business profile, according to the case study?",o:["Under 1 hour","Over 30 hours of repetitive phone calls","Exactly 5 hours","No measurable time savings"],a:1},
+ {ao:"WhatsApp Business Setup",q:"What does this module describe as an advanced capability available 'at larger scale' beyond the standard WhatsApp Business app?",o:["Connecting to the WhatsApp Business API","Sending voice notes","Adding a profile photo","Muting notifications"],a:0},
+ {ao:"WhatsApp Business Setup",q:"Which best describes why the module frames the Business Profile as a 'digital storefront and automated front desk'?",o:["Because it requires no setup at all","Because a completed profile establishes professional credibility and pre-answers basic questions before a single message is sent","Because it functions purely as a decorative feature","Because it replaces the need for any other communication channel"],a:1},
+
+ // ── Module 3: Setting Up Automatic Messages (7) ──
+ {ao:"Automatic Messaging",q:"What is the defining difference between a Greeting Message and an Away Message, as described in this module?",o:["There is no difference between them","A Greeting Message fires for new contacts or after inactivity, while an Away Message fires specifically outside working hours or holidays","Greeting Messages only work at night","Away Messages can only be sent to VIP clients"],a:1},
+ {ao:"Automatic Messaging",q:"In Tariq Al-Mansoor's case study, what specifically allowed him to close a booking with a midnight buyer while asleep?",o:["He happened to wake up and reply personally","His configured away message and engagement links let the buyer self-serve and book a viewing on autopilot","The buyer called his personal phone number instead","He had no automation and got lucky"],a:1},
+ {ao:"Automatic Messaging",q:"What is a Quick Reply, according to this module's definition?",o:["A saved shortcut triggered by a short command (like /price) that instantly sends a full pre-written answer","A message that automatically translates itself into another language","A feature that blocks repeat questions from the same contact","A setting that deletes messages after 24 hours"],a:0},
+ {ao:"Automatic Messaging",q:"Why does the module argue that mastering greetings, away messages and quick replies is 'the single fastest automation win' available?",o:["Because they require expensive third-party software to configure","Because they can be set up in one sitting and ensure every enquiry gets an instant response even when no one is available to type","Because they eliminate the need for a business profile","Because they are the only automation features WhatsApp offers"],a:1},
+ {ao:"Automatic Messaging",q:"Which capability regarding Away Messages does this module specifically highlight as available?",o:["They cannot be customised at all","Different away messages can be scheduled for different periods, such as holidays versus regular non-working hours","They can only be sent once per year","They automatically forward messages to a competitor"],a:1},
+ {ao:"Automatic Messaging",q:"What underlying problem was Tariq Al-Mansoor trying to solve before implementing these three layers of automatic messaging?",o:["He had too few leads reaching out to him","International buyers in different time zones messaged him overnight and moved to other agents before he could reply","His phone was too old to run WhatsApp Business","He wanted to reduce the number of clients he worked with"],a:1},
+ {ao:"Automatic Messaging",q:"Which of these is an example of a Quick Reply shortcut given in this module?",o:["/price or /location","#urgent","!!!","@admin"],a:0},
+
+ // ── Module 4: Organising Your Chats (6) ──
+ {ao:"Chat Organisation",q:"What specific mistake occurred in Elena Rostova's NGO campaign before she introduced labels?",o:["She lost all her contacts permanently","She accidentally sent a message meant for a volunteer to a major corporate donor because chats were visually indistinguishable","She was unable to receive any new messages","She had too few donors to manage"],a:1},
+ {ao:"Chat Organisation",q:"Which of the following is listed in this module as an example of a chat label?",o:["New Volunteer, Pending Payment, Corporate Donor, Media/Press","Monday, Tuesday, Wednesday, Thursday","Red, Blue, Green, Yellow","Fast, Medium, Slow, Very Slow"],a:0},
+ {ao:"Chat Organisation",q:"What is the primary function of filtering conversations, according to this module?",o:["To permanently delete old chats","To instantly view only chats matching a particular label without scrolling past unrelated ones","To automatically translate messages","To prevent new contacts from messaging you"],a:1},
+ {ao:"Chat Organisation",q:"Why does this module argue that labels must be kept current rather than applied once and forgotten?",o:["Because labels expire automatically after a set time","Because outdated labels make the organisation system inaccurate and unreliable as a conversation's status changes","Because WhatsApp charges a fee per label update","Because labels have no real function beyond decoration"],a:1},
+ {ao:"Chat Organisation",q:"What broader risk does this module argue poor chat organisation exposes an organisation to?",o:["No risk at all, since organisation is purely cosmetic","Real reputational risk, such as sending the wrong message to the wrong audience","A permanent WhatsApp account ban with no warning","Losing access to the internet"],a:1},
+ {ao:"Chat Organisation",q:"What is the core conclusion this module draws about automation and organisation together?",o:["Automation makes organisation unnecessary","Without organisation, automation only speeds up your existing mess","Organisation replaces the need for automation entirely","Labels and automation cannot be used together"],a:1},
+
+ // ── Module 5: Creating FAQs (7) ──
+ {ao:"FAQ Systems",q:"What did Liam Chen discover when he audited his 400-ticket support backlog?",o:["Every ticket described a unique, complex issue requiring individual attention","About 85% of enquiries were the exact same handful of repeated questions","Customers had stopped contacting the store altogether","The backlog was caused by a technical outage"],a:1},
+ {ao:"FAQ Systems",q:"Which of the following is listed in this module as a common FAQ category most organisations should cover?",o:["Business hours, prices, location, delivery, registration, payments and returns","The founder's personal life story","A list of competitor weaknesses","Confidential internal financial data"],a:0},
+ {ao:"FAQ Systems",q:"Why does the module recommend presenting FAQs as a simple menu rather than one long paragraph?",o:["Because menus are visually more attractive with no functional benefit","Because it lets a customer self-serve the exact answer they need without reading irrelevant content","Because WhatsApp technically prohibits long paragraphs","Because menus prevent customers from asking any further questions at all"],a:1},
+ {ao:"FAQ Systems",q:"According to this module, what quality should each individual FAQ answer have?",o:["It should be vague enough to cover multiple scenarios at once","It should be short, specific and complete on its own, without requiring a follow-up question","It should always exceed 500 words for thoroughness","It should reference at least three other FAQs to be valid"],a:1},
+ {ao:"FAQ Systems",q:"What does this module say is the correct starting point for building an effective FAQ system?",o:["Guessing which questions customers are likely to ask","Identifying your organisation's actual most-repeated questions from real support history","Copying a competitor's FAQ list exactly","Writing as many FAQs as possible regardless of frequency"],a:1},
+ {ao:"FAQ Systems",q:"What result did Liam Chen achieve by building a structured FAQ menu, according to the case study?",o:["The backlog grew even larger","The backlog cleared without adding a single extra support agent","He had to double his support team size","Customer questions became more varied and harder to predict"],a:1},
+ {ao:"FAQ Systems",q:"What is the module's overall framing of repetitive customer questions?",o:["They are unavoidable and cannot be reduced through any system","They are a symptom of unorganised information that a structured FAQ system directly resolves","They indicate the business should stop accepting new customers","They only occur in the e-commerce industry"],a:1},
+
+ // ── Module 6: Creating Professional Customer Workflows (7) ──
+ {ao:"Customer Workflows",q:"What is the correct order of the customer communication workflow stages described in this module?",o:["Payment, Inquiry, Confirmation, Information, Follow-up, Retention, Decision","Inquiry, Information, Decision, Payment, Confirmation, Follow-up, Retention","Retention, Follow-up, Confirmation, Payment, Decision, Information, Inquiry","Confirmation, Payment, Inquiry, Retention, Information, Decision, Follow-up"],a:1},
+ {ao:"Customer Workflows",q:"What problem was Dr. Amara Wright's clinic experiencing before redesigning its workflow?",o:["Too few patients booking appointments overall","A 30% no-show rate and no follow-up or retention strategy after each visit","An inability to process any payments","Overstaffing in the reception department"],a:1},
+ {ao:"Customer Workflows",q:"What specifically caused the clinic's cancellation rate to drop from 30% to under 2%, according to the case study?",o:["Hiring additional receptionists","An automated workflow including timed follow-up reminders sent before each appointment","Charging a higher fee for missed appointments","Reducing the number of available appointment slots"],a:1},
+ {ao:"Customer Workflows",q:"According to this module, what is the purpose of a Retention stage sent weeks or months after a transaction?",o:["To remind the customer of an unpaid invoice","To turn a one-time customer into a returning one","To formally end the business relationship","To request a refund from the customer"],a:1},
+ {ao:"Customer Workflows",q:"What does the module identify as the direct cause of customers being 'lost' in a communication workflow?",o:["Sending too many confirmation messages","Leaving a stage in the journey to chance with no planned message or trigger","Automating the Inquiry stage","Responding too quickly to enquiries"],a:1},
+ {ao:"Customer Workflows",q:"Which stage in the workflow directly follows a customer reaching a Decision, according to this module?",o:["Retention","An automated Payment link and registration form","Follow-up","Inquiry"],a:1},
+ {ao:"Customer Workflows",q:"What is the central metaphor this module uses to describe a premium customer experience?",o:["A single lucky reply from a busy staff member","A sequence of intentional steps rather than one lucky reply","An entirely improvised, unplanned conversation","A purely automated process with zero planning required"],a:1},
+
+ // ── Module 7: Using Chatbots (7) ──
+ {ao:"Chatbots",q:"What triggered City of Light Church's decision to move beyond native WhatsApp Business features?",o:["A decline in the number of visitors messaging them","A volume of over 5,000 enquiries that overwhelmed their small volunteer team","A change to WhatsApp's terms of service","A decision to stop using WhatsApp altogether"],a:1},
+ {ao:"Chatbots",q:"What percentage of initial processing did the chatbot handle in the church's case study, escalating only urgent cases to a human?",o:["Roughly 10%","Roughly 90%","0%, since a human handled every message","100%, with no human involvement at any point"],a:1},
+ {ao:"Chatbots",q:"Which of the following is listed in this module as a genuine limitation of chatbots?",o:["They can feel impersonal if poorly designed, and require setup time and cost","They can never collect or store any structured data","They are prohibited entirely under WhatsApp's policies","They only function for religious organisations"],a:0},
+ {ao:"Chatbots",q:"According to this module, at what point does an organisation generally need to move from quick replies/FAQs to a full chatbot?",o:["Immediately, before any other automation is set up","Once native features can no longer handle the volume or complexity of conversations, such as needing to collect structured data","Never — chatbots are unnecessary for any use case","Only once the organisation has over 1 million followers"],a:1},
+ {ao:"Chatbots",q:"Which platforms does this module name as popular chatbot options?",o:["ManyChat, Respond.io, WATI, Botpress, Twilio and the Meta WhatsApp Cloud API","Microsoft Word, Excel and PowerPoint","Instagram, TikTok and Snapchat","Google Chrome, Firefox and Safari"],a:0},
+ {ao:"Chatbots",q:"Why does this module insist that a good chatbot flow always includes an escalation path?",o:["Because escalation paths are required by law in every country","Because users must always have a way to reach a real person when a situation genuinely needs one","Because chatbots are incapable of answering any question correctly","Because escalation paths increase WhatsApp's advertising revenue"],a:1},
+ {ao:"Chatbots",q:"In the church case study, what specific action did the chatbot take when a visitor selected 'Request Prayer'?",o:["It immediately ended the conversation with no further action","It collected prayer points and preferred contact method, then organised the data into a spreadsheet for the pastoral team","It forwarded the visitor to a competing church","It required the visitor to call the church's landline instead"],a:1},
+
+ // ── Module 8: WhatsApp Automation for Different Industries (6) ──
+ {ao:"Industry Automation",q:"Why was Sofia Gatti's hotel losing revenue to global booking platforms, according to this module?",o:["Her hotel had no available rooms to sell","Guests preferred instant confirmation, which her slow 12-hour email booking desk could not match","Her hotel had consistently poor reviews","She refused to accept any online bookings"],a:1},
+ {ao:"Industry Automation",q:"What is the central argument of this module regarding industries and automation strategy?",o:["One generic automation template works equally well across every industry","Every sector needs custom-engineered flows suited to its specific audience and common enquiries","Only e-commerce businesses benefit meaningfully from WhatsApp automation","Automation is unnecessary outside the hospitality sector"],a:1},
+ {ao:"Industry Automation",q:"According to this module, what do real estate businesses typically automate?",o:["Listing enquiries and viewing bookings","Prayer requests and service times","Patient appointment booking and results enquiries","Volunteer recruitment and donor communication"],a:0},
+ {ao:"Industry Automation",q:"What underlying element does this module say stays the same across industries, even though the specific questions differ?",o:["The exact wording of every single message","The underlying tools — greetings, quick replies, FAQs, chatbots — even though what changes is which questions are anticipated","The price charged for the product or service","The number of staff required to run the business"],a:1},
+ {ao:"Industry Automation",q:"Which enquiry type does this module associate specifically with NGOs?",o:["Volunteer recruitment and donor communication","Order tracking and returns","Course enrolment and information","Appointment booking and results enquiries"],a:0},
+ {ao:"Industry Automation",q:"How quickly could a guest finalise a hotel reservation using Sofia Gatti's redesigned WhatsApp booking flow?",o:["Under three minutes, entirely inside the chat","Only after a phone call to confirm availability","Within 12 hours, matching her old email desk speed","Only through a third-party booking platform"],a:0},
+
+ // ── Module 9: Advanced WhatsApp Automation (7) ──
+ {ao:"Advanced Automation",q:"What administrative problem was Marcus Vance's team facing before automating their hiring pipeline?",o:["Too few applicants were submitting resumes for the roles","Manually reading thousands of forms, emailing candidates, and logging interview slots by hand — slow and error-prone","An inability to receive any job applications at all","A lack of interest in the recruitment agency's services"],a:1},
+ {ao:"Advanced Automation",q:"What is a webhook, as defined in this module?",o:["A physical accessory used to connect a phone to WhatsApp","A signal one system sends to another the instant something happens, triggering an automatic response","A category of chatbot menu exclusive to churches","A premium paid WhatsApp subscription tier"],a:1},
+ {ao:"Advanced Automation",q:"What is the role of Zapier and Make (Integromat), according to this module?",o:["They are no-code tools that connect apps so an action in one triggers an action in another","They are chatbot platforms used exclusively by religious organisations","They eliminate the need for a WhatsApp Business account entirely","They function only for sending broadcast marketing blasts"],a:0},
+ {ao:"Advanced Automation",q:"What is the Meta WhatsApp Cloud API described as in this module?",o:["A consumer-only feature with no developer access","The official, developer-level way to send and receive WhatsApp messages programmatically, powering most advanced integrations at scale","A tool exclusively for personal, non-business WhatsApp accounts","A discontinued feature no longer supported by Meta"],a:1},
+ {ao:"Advanced Automation",q:"In Marcus Vance's case study, what happened the moment a candidate picked an interview time slot?",o:["Nothing further happened until a human intervened","The system updated the CRM, drafted an email, and sent a WhatsApp confirmation with prep materials automatically","The candidate had to resubmit their application","The interview was automatically cancelled"],a:1},
+ {ao:"Advanced Automation",q:"Roughly how long did the entire hiring pipeline process take once fully automated, according to the case study?",o:["Several weeks, unchanged from before","About 90 seconds, with no human intervention","Exactly 24 hours per candidate","It could not be measured"],a:1},
+ {ao:"Advanced Automation",q:"Which systems does this module say WhatsApp can be connected to via advanced automation?",o:["Google Forms, Google Sheets, calendars, email and CRM systems","Only other WhatsApp Business accounts","Print newspapers and radio broadcasts","Physical fax machines exclusively"],a:0},
+
+ // ── Module 10: Broadcast Lists and Marketing (6) ──
+ {ao:"Broadcast Marketing",q:"What mistake did Coach David Okafor make on his first broadcast attempt?",o:["He asked for too much explicit consent from his contacts beforehand","He blasted 500 contacts with generic promotional links in a random group, with no consent or segmentation","He only messaged a single contact at a time","He waited far too long before launching his masterclass"],a:1},
+ {ao:"Broadcast Marketing",q:"What is the key difference between a broadcast list and a group chat, according to this module?",o:["There is no functional difference between them","In a broadcast list, each recipient receives the message individually rather than seeing everyone else in a shared thread","Group chats are limited to five participants","Broadcast lists cannot include any links or images"],a:1},
+ {ao:"Broadcast Marketing",q:"What combination of factors led to Coach Okafor's 95% open rate on his second broadcast attempt?",o:["Random blasting with no targeting whatsoever","Genuine consent, audience segmentation, and personalised messaging to relevant segments","Sending the identical message to as many people as technically possible","Deliberately avoiding all segmentation to save preparation time"],a:1},
+ {ao:"Broadcast Marketing",q:"According to this module, what combination of factors is required to avoid being flagged for spam-like behaviour?",o:["Genuine consent, relevant targeting, and reasonable message frequency","Sending as many messages as possible in the shortest time","Avoiding the use of any customer segmentation","Only messaging contacts between midnight and 3 a.m."],a:0},
+ {ao:"Broadcast Marketing",q:"What is the purpose of campaign tracking, as described in this module?",o:["To permanently delete broadcast lists after use","To monitor how a broadcast performed (opens, replies, conversions) so future campaigns can be improved","To prevent any contact from unsubscribing","To automatically write new broadcast messages with no human input"],a:1},
+ {ao:"Broadcast Marketing",q:"What consequence did WhatsApp impose on David Okafor's account after his first, non-consensual mass blast?",o:["No consequence at all","A temporary restriction on his account for spam-like behaviour","An immediate permanent ban with no warning","A requirement to pay a fine directly to WhatsApp"],a:1},
+
+ // ── Module 11: WhatsApp Customer Service (7) ──
+ {ao:"Customer Service",q:"What was the primary risk Sarah Jenkins was managing during the payment server outage?",o:["Losing physical office space during the crisis","The brand's trust being destroyed by a poor, slow or unclear crisis response","Running out of available WhatsApp storage space","A shortage of customer service staff overall"],a:1},
+ {ao:"Customer Service",q:"What combination of qualities made the crisis response effective, according to this module?",o:["Silence maintained until the technical problem was fully fixed","Speed, transparency, and a clear escalation path for high-stress cases","Formal, cold, strictly corporate language throughout","Ignoring complaints until customers stopped submitting them"],a:1},
+ {ao:"Customer Service",q:"What is the purpose of an escalation procedure, as described in this module?",o:["To ensure no customer message is ever answered at all","To define exactly when and how a conversation moves to a senior human for high-stress or high-value cases","To automatically close all complaints without any resolution","To deliberately slow down response times across the board"],a:1},
+ {ao:"Customer Service",q:"According to this module, what does complaint management work best as, rather than an improvised response each time?",o:["A structured process: acknowledge, gather details, give a timeline, and follow through","A single canned reply used for every type of complaint","A policy of never replying to complaints directly","An entirely random assignment of complaints to any available staff member"],a:0},
+ {ao:"Customer Service",q:"What does this module identify as one of the most important customer service metrics on WhatsApp?",o:["The total number of emojis used in a conversation","Response time — customers expect near-instant acknowledgement even if full resolution takes longer","The length of the company's official terms and conditions","The number of broadcast lists a business maintains"],a:1},
+ {ao:"Customer Service",q:"What does this module say building trust during a crisis often depends more on, compared to the speed of the technical fix itself?",o:["How transparently and quickly the situation is communicated","The total number of staff hired during the crisis","Whether the company issues a public apology in a newspaper","The length of time before the servers come back online"],a:0},
+ {ao:"Customer Service",q:"How many complaints flooded the fintech company's WhatsApp support line within an hour of the outage, according to the case study?",o:["Over 10,000","Fewer than 100","Exactly 500","None — customers waited patiently without complaining"],a:0},
+
+ // ── Module 12: Measuring Performance (7) ──
+ {ao:"Measuring Performance",q:"What was misleading about Carlos Mendez's initial assessment of his team's performance?",o:["High visible activity (constant texting) did not mean the business was actually performing well, since revenue was flat and churn was rising","His team was not sending enough messages overall","He had no customers using the service at all","His team consistently typed too slowly"],a:0},
+ {ao:"Measuring Performance",q:"Which of the following is listed in this module as a key performance indicator for WhatsApp automation?",o:["The number of emojis used in messages","First Response Time","The colour scheme of the WhatsApp interface","The founder's personal social media following"],a:1},
+ {ao:"Measuring Performance",q:"What specific change followed Carlos Mendez's data audit, and what was the resulting impact?",o:["He hired more staff, and revenue remained completely flat","He improved quick replies and chatbot triggers, dropping response time to 90 seconds and doubling conversions","He stopped using WhatsApp for bookings altogether","He deliberately increased response time and saw no measurable change"],a:1},
+ {ao:"Measuring Performance",q:"What does Conversion Rate specifically measure, according to this module?",o:["How many emojis are used per conversation","How many conversations actually turn into a sale, booking or completed action","How many messages are left unread","How many contacts are added to a broadcast list"],a:1},
+ {ao:"Measuring Performance",q:"How long did his team originally take, on average, to respond to delivery quotes before the audit?",o:["45 minutes","90 seconds","Under 5 minutes","Exactly 24 hours"],a:0},
+ {ao:"Measuring Performance",q:"What core lesson does Carlos Mendez's case study teach about message volume and performance?",o:["High message volume automatically guarantees strong business performance","High visible activity does not automatically mean good performance — the metrics that actually predict revenue and retention must be tracked","Message volume and business performance are entirely unrelated concepts","Tracking metrics is unnecessary once automation is installed"],a:1},
+ {ao:"Measuring Performance",q:"By how much did customer retention rise within 60 days of Carlos Mendez's redesigned automation, according to the case study?",o:["10%","40%","5%","No measurable change occurred"],a:1},
+
+ // ── Module 13: Common Mistakes to Avoid (6) ──
+ {ao:"Common Mistakes",q:"What was the root cause of Samantha Vance's 60% sales decline?",o:["She stopped using WhatsApp for her business entirely","Her fully automated system trapped customers in repetitive loops with no way to reach a human","She hired too many additional customer service staff","She removed every form of automation from her store"],a:1},
+ {ao:"Common Mistakes",q:"Which of the following is identified in this module as a common mistake to avoid?",o:["Providing a clear, visible way to reach a human","Over-automation with no escape route to a real person","Using labels to organise conversations","Setting up an away message for non-working hours"],a:1},
+ {ao:"Common Mistakes",q:"What is the core lesson of the 'automated ghost town' case study, according to this module?",o:["Automation should always replace every human interaction completely","Automation must remain a bridge to human connection, not a wall that blocks it","Chatbots should never be used under any circumstance","Customers generally prefer repetitive menus over direct answers"],a:1},
+ {ao:"Common Mistakes",q:"Which of these is explicitly listed in this module as a formatting-related mistake?",o:["Walls of text with unclear structure and no line breaks","Using too many quick reply shortcuts","Labelling too many conversations","Responding too quickly to customer enquiries"],a:0},
+ {ao:"Common Mistakes",q:"What specific fix restored Samantha Vance's customer relationships after her sales decline?",o:["Removing all automated messages permanently","Adding a prominent 'Talk to a Human' option to her automated flow","Increasing the number of chatbot menu options to ten","Disabling her WhatsApp Business account entirely"],a:1},
+ {ao:"Common Mistakes",q:"According to this module, what does having 'no automation strategy at all' typically look like in practice?",o:["A single, tightly integrated end-to-end workflow","Building random automation pieces with no overall plan, wasting the potential of the tools available","Refusing to use any automation whatsoever","Hiring a dedicated automation consultant"],a:1},
+
+ // ── Module 14: Security and Privacy (6) ──
+ {ao:"Security and Privacy",q:"Why did David Kojo halt the marketing team's planned campaign?",o:["It was considered too expensive to run","It scraped phone numbers without consent and used an unauthorised bulk-messaging tool, breaching data protection principles and WhatsApp's policies","It targeted too small a group of customers","It used too many quick reply shortcuts"],a:1},
+ {ao:"Security and Privacy",q:"What is the defining feature of genuine customer consent, according to this module?",o:["Adding any phone number you can find to a broadcast list","A customer actively agreeing to receive your messages, such as through an opt-in form or by messaging first","Consent is not required for business messaging under any circumstance","Consent only matters for messages sent after midnight"],a:1},
+ {ao:"Security and Privacy",q:"What real risk did David Kojo identify from using unauthorised bulk-messaging tools without consent?",o:["No risk at all, since messaging volume is technically unrestricted","The business's WhatsApp number being permanently blacklisted by Meta, plus potential data privacy fines","Faster message delivery with no meaningful downside","Automatically improved customer trust"],a:1},
+ {ao:"Security and Privacy",q:"Which of the following does this module list as an account security practice?",o:["Sharing device passwords freely among all staff","Strong passwords, multi-factor authentication, and limiting who has device access","Disabling all privacy policies for convenience","Removing consent logging to save storage space"],a:1},
+ {ao:"Security and Privacy",q:"What should a privacy policy clearly communicate to customers, according to this module?",o:["The company's internal staffing structure","What data is collected and how it is used, presented in an easy-to-find and understandable way","A list of the company's competitors","The personal phone numbers of company executives"],a:1},
+ {ao:"Security and Privacy",q:"What did David Kojo restructure to fully secure the fintech company from legal and security risk?",o:["He restructured the backend so all data was encrypted, opt-ins were transparently logged, and multi-factor authentication was active on every device","He deleted every customer record the company held","He stopped the company from using WhatsApp altogether","He outsourced all customer communication to a third party with no oversight"],a:0},
+
+ // ── Module 15: Case Studies and Practical Projects (7) ──
+ {ao:"Case Studies and Projects",q:"What was the central operational problem at the e-commerce hub before Amelie Dupont's makeover?",o:["Too few daily orders to justify any automation","Manual, disconnected systems (labels, chats, forms) that produced conflicting customer data across channels","An inability to receive any WhatsApp messages at all","Excessive automation already in place with no human staff remaining"],a:1},
+ {ao:"Case Studies and Projects",q:"What result did the fully integrated WhatsApp ecosystem produce, according to this module?",o:["Processing errors fell to zero and daily volume scaled by 300% with no new support hires","Order volume decreased significantly after the changes","Response times increased to several hours per enquiry","The business stopped using WhatsApp for customer service entirely"],a:0},
+ {ao:"Case Studies and Projects",q:"Which of the following is one of the six practical projects outlined in this module?",o:["Filing a formal complaint with WhatsApp support","Building a complete WhatsApp Business profile","Deleting all existing customer records","Disabling all automated messages permanently"],a:1},
+ {ao:"Case Studies and Projects",q:"Practical Project 5, as listed in this module, asks you to develop what specifically?",o:["A single automated away message with no other components","A complete customer communication workflow mapped across all seven journey stages","A list of ten competitor businesses","A new company logo and colour scheme"],a:1},
+ {ao:"Case Studies and Projects",q:"To what average response time did Amelie Dupont's integration reduce customer replies, according to the case study?",o:["12 seconds","45 minutes","24 hours","One full business week"],a:0},
+ {ao:"Case Studies and Projects",q:"What does Practical Project 6 specifically ask you to do?",o:["Integrate WhatsApp with Google Forms or Google Sheets for at least one real use case","Delete a competitor's WhatsApp Business account","Write a company-wide privacy policy from scratch","Hire a dedicated customer service department"],a:0},
+ {ao:"Case Studies and Projects",q:"What is the module's overall conclusion about the relationship between theory and real-world execution?",o:["Theory alone is sufficient without ever executing any project","Real-world execution is the ultimate test of theory, and systematic combination of profile, messaging and integration creates a scalable operational engine","Practical projects are optional and add no real value","Execution matters only for large enterprises, not individuals"],a:1},
+];
+
 const SJOURNEYS_BASE={
  "SOC10T1":{code:"0495",subject:"Sociology",group:"Sociology (0495)",cat:"Cambridge",year:"Year 10",term:1,termLabel:"1st Term",
    title:"Sociology Year 10 \u00B7 Term 1: Research Methods",
@@ -7197,7 +7743,12 @@ const SJOURNEYS_BASE={
    title:"Introduction to Mental Health",
    tagline:"18 weeks of plain-English mental health literacy \u2014 understanding conditions, warning signs, resilience, and how to support yourself and others.",
    months:"about 18 weeks",passMark:75,totalQuestions:100,examMins:60,
-   units:MH_UNITS,questions:MH_Q}
+   units:MH_UNITS,questions:MH_Q},
+ "WAAUTO":{code:"WAAUTO",subject:"WhatsApp Automation",group:"General Courses",cat:"General Courses",year:"All years",term:1,termLabel:"15-week course",
+   title:"WhatsApp Automation: A Step-by-Step Guide to Automating Responses on WhatsApp",
+   tagline:"15 weeks of hands-on WhatsApp Business automation \u2014 profiles, quick replies, FAQs, workflows, chatbots, integrations and marketing \u2014 told through real case studies.",
+   months:"about 15 weeks",passMark:75,totalQuestions:100,examMins:60,
+   units:WA_UNITS,questions:WA_Q}
 };
 
 
@@ -7268,6 +7819,43 @@ const COUNTRIES=["Nigeria","Ghana","Kenya","South Africa","United Kingdom","Unit
 const PROFICIENCY=["Beginner","Intermediate","Advanced","Fluent","Native"];
 const MONTHLY_FEE=49.99, REF_PCT=0.10;
 
+// ── Currency support ─────────────────────────────────────────────────────
+// Every account picks their country at registration (reusing the existing
+// COUNTRIES list), and that maps to a currency used to *display* money
+// throughout the app — referral earnings above all, but also fees/billing.
+// Rates below are static, indicative reference values for display purposes
+// only (update them periodically); actual charges still settle through
+// Paystack in whatever currency that gateway/account is configured for.
+const CURRENCY_BY_COUNTRY={
+  "Nigeria":{code:"NGN",symbol:"₦",rateToUSD:1600},
+  "Ghana":{code:"GHS",symbol:"₵",rateToUSD:15},
+  "Kenya":{code:"KES",symbol:"KSh",rateToUSD:129},
+  "South Africa":{code:"ZAR",symbol:"R",rateToUSD:18},
+  "United Kingdom":{code:"GBP",symbol:"£",rateToUSD:0.78},
+  "United States":{code:"USD",symbol:"$",rateToUSD:1},
+  "Canada":{code:"CAD",symbol:"CA$",rateToUSD:1.37},
+  "France":{code:"EUR",symbol:"€",rateToUSD:0.92},
+  "Germany":{code:"EUR",symbol:"€",rateToUSD:0.92},
+  "UAE":{code:"AED",symbol:"AED",rateToUSD:3.67},
+  "India":{code:"INR",symbol:"₹",rateToUSD:84},
+  "Singapore":{code:"SGD",symbol:"S$",rateToUSD:1.35},
+  "Australia":{code:"AUD",symbol:"A$",rateToUSD:1.52},
+  "Egypt":{code:"EGP",symbol:"E£",rateToUSD:49},
+  "Morocco":{code:"MAD",symbol:"MAD",rateToUSD:9.4},
+};
+const DEFAULT_CURRENCY={code:"USD",symbol:"$",rateToUSD:1};
+const currencyForCountry=country=>CURRENCY_BY_COUNTRY[country]||DEFAULT_CURRENCY;
+const currencyByCode=code=>Object.values(CURRENCY_BY_COUNTRY).find(c=>c.code===code)||DEFAULT_CURRENCY;
+// Converts a USD reference amount into a user's chosen currency and formats it
+// with the right symbol — used everywhere a $ amount needs to show in the
+// viewer's own local currency instead of a flat USD figure.
+function fmtMoney(usdAmount,currencyCode){
+  const c=currencyByCode(currencyCode||"USD");
+  const converted=(Number(usdAmount)||0)*c.rateToUSD;
+  const dp=Math.abs(converted)>=1000?0:2;
+  return `${c.symbol}${converted.toLocaleString(undefined,{minimumFractionDigits:dp,maximumFractionDigits:dp})}`;
+}
+
 // Fixed (not randomized-per-render) config for the floating decorative icons
 // on the login screen — random values here would re-shuffle on every render.
 // Bigger + more obviously in-motion than the first pass: larger sizes, higher
@@ -7315,6 +7903,10 @@ function mapProfileToUser(authUser, row){
     referredBy:row?.referred_by||null, children:row?.children||[],
     xp:row?.xp??0, level:row?.level??1, streak:row?.streak??0,
     badges:row?.badges||[], subjects:row?.subjects||[],
+    country:row?.country||"", currency:row?.currency||"USD",
+    payoutMethod:row?.payout_method||"", payoutBankName:row?.payout_bank_name||"",
+    payoutAccountNumber:row?.payout_account_number||"", payoutAccountName:row?.payout_account_name||"",
+    payoutMobileProvider:row?.payout_mobile_provider||"", payoutMobileNumber:row?.payout_mobile_number||"",
     ...details,
   };
 }
@@ -7831,7 +8423,7 @@ export default function MindKlass(){
   const [forgotSent,setForgotSent]=useState(false);
   const [newPw1,setNewPw1]=useState("");
   const [newPw2,setNewPw2]=useState("");
-  const [su,setSu]=useState({name:"",nick:"",email:"",pass:"",role:"student",grade:"Year 9",ref:""});
+  const [su,setSu]=useState({name:"",nick:"",email:"",pass:"",role:"student",grade:"Year 9",ref:"",country:""});
   const [vw,setVw]=useState(typeof window!=="undefined"?window.innerWidth:1024);
   const [err,setErr]=useState("");
   // Remember the last open section across a refresh, so reloading the page
@@ -7927,6 +8519,9 @@ export default function MindKlass(){
   const newPwRef=useRef(null);
 
   const [refsList,setRefsList]=useState([]);
+  const [payoutProfiles,setPayoutProfiles]=useState({}); // admin-only: referrer id -> payout details, loaded on demand
+  const [payoutForm,setPayoutForm]=useState({method:"bank",bankName:"",accountNumber:"",accountName:"",mobileProvider:"",mobileNumber:""});
+  const [payoutSaved,setPayoutSaved]=useState(false);
   const [assignments,setAssignments]=useState([]);
   const [submissions,setSubmissions]=useState([]);
   const [attendance,setAttendance]=useState([]);
@@ -8165,6 +8760,16 @@ export default function MindKlass(){
   },[examActive]);
   // Initialise Firebase Cloud Messaging once a user is logged in (production only).
   useEffect(()=>{ if(user&&FCM_ENABLED){ initFCM((n)=>{ if(n&&n.title) pushNotify(n.title,n.body||"",(n.type||"announcement"),"all",!!n.urgent); }); } },[user]);
+  // Pre-fill the referral payout-details form from whatever's already saved
+  // on the profile, whenever the signed-in user (re)loads.
+  useEffect(()=>{
+    if(!user) return;
+    setPayoutForm({
+      method:user.payoutMethod||"bank", bankName:user.payoutBankName||"",
+      accountNumber:user.payoutAccountNumber||"", accountName:user.payoutAccountName||"",
+      mobileProvider:user.payoutMobileProvider||"", mobileNumber:user.payoutMobileNumber||"",
+    });
+  },[user?.id]);
 
   const effRole=user?.role==="visitor-student"?"student":user?.role==="visitor-teacher"?"teacher":user?.role;
   const isVisitor=user?.role?.startsWith("visitor");
@@ -8256,8 +8861,10 @@ export default function MindKlass(){
   const doSignup=async()=>{
     if(!su.name.trim()||!su.email.trim()||!su.pass.trim()){setErr("Please fill in your name, email and password.");return;}
     if(su.pass.trim().length<6){setErr("Password must be at least 6 characters.");return;}
+    if(!su.country){setErr("Please choose your country - it sets the currency used to show you fees and referral earnings.");return;}
     const nick=su.nick.trim()||su.name.trim().split(" ")[0]+Math.floor(Math.random()*90+10);
     const enteredRef=(su.ref||"").trim().toUpperCase();
+    const currency=currencyForCountry(su.country).code;
     setErr("");setAuthBusy(true);
     if(enteredRef){
       const {data:refRow}=await supabase.from("public_profiles").select("id").eq("ref_code",enteredRef).maybeSingle();
@@ -8265,18 +8872,23 @@ export default function MindKlass(){
     }
     const {data,error}=await supabase.auth.signUp({
       email:su.email.trim(),password:su.pass.trim(),
-      options:{data:{nick,role:su.role,ref_used:enteredRef},emailRedirectTo:window.location.origin}
+      options:{data:{nick,role:su.role,ref_used:enteredRef,country:su.country,currency},emailRedirectTo:window.location.origin}
     });
     if(error){setAuthBusy(false);setErr(error.message||"Couldn't create your account. Please try again.");return;}
     if(!data.session){
       // Email confirmation is required by this project's Auth settings — the
-      // profile row already exists (created by the database trigger), but
+      // profile row already exists (created by the database trigger, which
+      // also backfills country/currency from the signup metadata above), but
       // there's no session yet, so we can't log them straight in.
       setAuthBusy(false);
       alert(`Almost there! Check ${su.email.trim()} for a confirmation link, then sign in.`);
       setAuthMode("in");
       return;
     }
+    // Belt-and-suspenders: explicitly set country/currency on the profile row
+    // now that we have an authenticated session, rather than relying solely
+    // on the database trigger picking them up from the signup metadata.
+    await supabase.from("profiles").update({country:su.country,currency}).eq("id",data.user.id);
     const row=await fetchProfileRow(data.user.id);
     const mapped=mapProfileToUser(data.user,row);
     setUser(mapped);setUsers(p=>[...p,mapped]);
@@ -8564,6 +9176,13 @@ export default function MindKlass(){
   // embedded join straight to `profiles` would silently drop those rows.
   // Two plain queries + a JS-side merge sidesteps that instead of relying on
   // PostgREST's relationship-embedding through a view, which isn't guaranteed.
+  // Referral model: a ONE-OFF 10% commission, credited once when the
+  // referred person's first payment clears (see credit_referral_on_payment
+  // trigger in the SQL migration) — not a recurring monthly percentage.
+  // status: "pending" (referred user hasn't paid yet) -> "credited" (10%
+  // commission earned, owed to the referrer) -> "paid" (included in a
+  // monthly payout batch the admin has already sent to the referrer's
+  // saved bank/mobile-money account).
   const loadReferrals=async()=>{
     const {data:refs,error}=await supabase.from("referrals").select("*").order("date",{ascending:false});
     if(error){console.error("loadReferrals:",error.message);return;}
@@ -8577,8 +9196,56 @@ export default function MindKlass(){
     setRefsList(rows.map(r=>({
       id:r.id,referrerId:r.referrer_id,referrerNick:nickOf[r.referrer_id]||"",
       referredNick:nickOf[r.referred_id]||"",referredId:r.referred_id,
-      date:r.date,monthsActive:r.months_active,earned:Number(r.earned)||0,active:r.active,
+      date:r.date,status:r.status||"pending",earned:Number(r.amount_usd??r.earned)||0,
+      creditedAt:r.credited_at||null,paidAt:r.paid_at||null,
     })));
+    // Admin only: pull the payout account details for every referrer who is
+    // owed money (or has been paid), so the Fees & Billing page can show
+    // who to pay and how, without exposing this to non-admins (RLS gates it).
+    if(effRole==="admin"){
+      const owedIds=[...new Set(rows.filter(r=>r.status==="credited"||r.status==="paid").map(r=>r.referrer_id))];
+      if(owedIds.length){
+        const {data:pp,error:ppErr}=await supabase.from("profiles")
+          .select("id,nick,name,currency,payout_method,payout_bank_name,payout_account_number,payout_account_name,payout_mobile_provider,payout_mobile_number")
+          .in("id",owedIds);
+        if(!ppErr){
+          const map={};
+          (pp||[]).forEach(p=>{map[p.id]={nick:p.nick,name:p.name,currency:p.currency||"USD",
+            method:p.payout_method||"",bankName:p.payout_bank_name||"",accountNumber:p.payout_account_number||"",
+            accountName:p.payout_account_name||"",mobileProvider:p.payout_mobile_provider||"",mobileNumber:p.payout_mobile_number||""};});
+          setPayoutProfiles(map);
+        }
+      }
+    }
+  };
+  // Saves the signed-in user's own payout account details (bank transfer or
+  // mobile money) so admin knows where to send their monthly referral payout.
+  const savePayoutDetails=async()=>{
+    if(!user) return;
+    const row={
+      payout_method:payoutForm.method,
+      payout_bank_name:payoutForm.method==="bank"?payoutForm.bankName.trim():null,
+      payout_account_number:payoutForm.method==="bank"?payoutForm.accountNumber.trim():null,
+      payout_account_name:payoutForm.method==="bank"?payoutForm.accountName.trim():null,
+      payout_mobile_provider:payoutForm.method==="mobile_money"?payoutForm.mobileProvider.trim():null,
+      payout_mobile_number:payoutForm.method==="mobile_money"?payoutForm.mobileNumber.trim():null,
+    };
+    const {error}=await supabase.from("profiles").update(row).eq("id",user.id);
+    if(error){alert("Couldn't save your payout details: "+error.message);return;}
+    setUser(u=>({...u,payoutMethod:row.payout_method,payoutBankName:row.payout_bank_name||"",
+      payoutAccountNumber:row.payout_account_number||"",payoutAccountName:row.payout_account_name||"",
+      payoutMobileProvider:row.payout_mobile_provider||"",payoutMobileNumber:row.payout_mobile_number||""}));
+    setPayoutSaved(true); setTimeout(()=>setPayoutSaved(false),2500);
+  };
+  // Admin: mark every credited (unpaid) referral owed to one referrer as
+  // paid, once that month's payout has actually been sent to their account.
+  const markReferrerPaid=async(referrerId)=>{
+    const owedIds=refsList.filter(r=>r.referrerId===referrerId&&r.status==="credited").map(r=>r.id);
+    if(!owedIds.length) return;
+    if(!confirm(`Mark ${owedIds.length} referral commission(s) as paid out to this referrer? Only do this after you've actually sent the transfer.`)) return;
+    const {error}=await supabase.from("referrals").update({status:"paid",paid_at:new Date().toISOString()}).in("id",owedIds);
+    if(error){alert("Couldn't update payout status: "+error.message);return;}
+    await loadReferrals();
   };
 
   const loadAllApps=async()=>{await Promise.all([loadAccessApps(),loadExamApps(),loadExamSchedule(),loadProgress(),loadSubmissions(),loadReferrals(),loadGrades(),loadClasses(),loadAttendance(),loadCommunityMessages(),loadDMs(),loadFees(),loadMeetings(),loadAssignments(),loadHomeworkSubs(),loadBehavior(),loadNotifs(),loadDbCourses()]);};
@@ -9227,8 +9894,9 @@ export default function MindKlass(){
               <div style={{marginBottom:9}}><label style={{...lbl,color:"#64748b"}}>I am a...</label><select style={fld} value={su.role} onChange={e=>setSu(p=>({...p,role:e.target.value}))}><option value="student">Student</option><option value="teacher">Teacher</option><option value="parent">Parent</option></select></div>
               {su.role==="student"&&<div style={{marginBottom:9}}><label style={{...lbl,color:"#64748b"}}>Year Level</label><select style={fld} value={su.grade} onChange={e=>setSu(p=>({...p,grade:e.target.value}))}>{YEAR_LEVELS.map(g=><option key={g} value={g}>{g}</option>)}</select></div>}
             </div>
+            <div style={{marginBottom:9}}><label style={{...lbl,color:"#64748b"}}>Country (sets your currency)</label><select style={fld} value={su.country} onChange={e=>setSu(p=>({...p,country:e.target.value}))}><option value="">- Select your country -</option>{COUNTRIES.map(c=><option key={c} value={c}>{c} ({currencyForCountry(c).code})</option>)}</select></div>
             <div style={{marginBottom:9}}><label style={{...lbl,color:"#64748b"}}>Referral Code (optional)</label><input style={fld} placeholder="e.g. MKST0507001" value={su.ref} onChange={e=>setSu(p=>({...p,ref:e.target.value.toUpperCase()}))}/></div>
-            <p style={{fontSize:10,color:"#94a3b8",margin:"0 0 12px",lineHeight:1.5}}>Your real name stays private - only administrators can see it. Everyone else sees your nickname.</p>
+            <p style={{fontSize:10,color:"#94a3b8",margin:"0 0 12px",lineHeight:1.5}}>Your real name stays private - only administrators can see it. Everyone else sees your nickname. Your country sets the currency used to show fees and referral earnings to you.</p>
             <button onClick={doSignup} disabled={authBusy} style={{...bP,width:"100%",padding:"12px",fontSize:14,display:"flex",alignItems:"center",justifyContent:"center",gap:5,opacity:authBusy?.6:1,cursor:authBusy?"not-allowed":"pointer"}}>{authBusy?"Creating account...":<><UserPlus size={14}/>Create My Account</>}</button>
           </>}
         </div>
@@ -9307,16 +9975,24 @@ export default function MindKlass(){
   }
 
   if(tab==="refer"){
-    const activeCount=myRefs.filter(r=>r.active).length;
+    const creditedCount=myRefs.filter(r=>r.status==="credited"||r.status==="paid").length;
+    const pendingPayout=myRefs.filter(r=>r.status==="credited").reduce((s,r)=>s+r.earned,0);
+    const alreadyPaidOut=myRefs.filter(r=>r.status==="paid").reduce((s,r)=>s+r.earned,0);
+    const myCur=user?.currency||"USD";
+    const REF_STATUS_UI={
+      pending:{l:"Pending",bg:"#f1f5f9",c:"#94a3b8"},
+      credited:{l:"Credited",bg:"#fef3c7",c:"#d97706"},
+      paid:{l:"Paid Out",bg:"#dcfce7",c:"#059669"},
+    };
     return ML({children:<>
       <h1 style={{fontSize:19,fontWeight:900,fontFamily:"Outfit,sans-serif",color:T.head,margin:"0 0 16px",display:"flex",alignItems:"center",gap:7}}><Share2 size={19} color="#059669"/>Refer & Earn</h1>
       <div style={{...card,marginBottom:13,background:"linear-gradient(135deg,#064e3b,#059669)",color:"white",overflow:"hidden",position:"relative"}}>
         <div style={{position:"absolute",top:-30,right:-30,width:130,height:130,borderRadius:"50%",background:"rgba(255,255,255,.07)"}}/>
         <div style={{position:"relative"}}>
-          <div style={{fontSize:28,fontWeight:900,fontFamily:"Outfit,sans-serif",marginBottom:4}}>Earn 10% Every Month</div>
-          <p style={{fontSize:13,opacity:.85,margin:"0 0 16px",lineHeight:1.6,maxWidth:480}}>For every student you refer to MindKlass, you earn <strong>10% of their monthly subscription fee (${(MONTHLY_FEE*REF_PCT).toFixed(2)}/mo)</strong> for a full 12 months. Unlimited referrals. Unlimited earning.</p>
+          <div style={{fontSize:28,fontWeight:900,fontFamily:"Outfit,sans-serif",marginBottom:4}}>Earn a One-Off 10%</div>
+          <p style={{fontSize:13,opacity:.85,margin:"0 0 16px",lineHeight:1.6,maxWidth:520}}>For every person you refer to MindKlass, you earn a <strong>one-off 10% commission</strong> the moment their first payment clears - across all courses, whichever they take. No renewal needed, no expiry. Unlimited referrals, unlimited earning.</p>
           <div style={{display:"flex",gap:10,flexWrap:"wrap"}}>
-            {[{v:myRefs.length,l:"Total Referrals"},{v:activeCount,l:"Active Now"},{v:`$${totalEarned.toFixed(2)}`,l:"Total Earned"},{v:`$${(activeCount*MONTHLY_FEE*REF_PCT).toFixed(2)}`,l:"Earning / Month"}].map((s,i)=>(
+            {[{v:myRefs.length,l:"Total Referrals"},{v:creditedCount,l:"Converted"},{v:fmtMoney(totalEarned,myCur),l:"Total Earned"},{v:fmtMoney(pendingPayout,myCur),l:"Owed - Next Payout"}].map((s,i)=>(
               <div key={i} style={{background:"rgba(255,255,255,.15)",borderRadius:10,padding:"10px 16px",textAlign:"center"}}><div style={{fontSize:23,fontWeight:900,fontFamily:"Outfit,sans-serif"}}>{s.v}</div><div style={{fontSize:10,opacity:.8}}>{s.l}</div></div>
             ))}
           </div>
@@ -9335,16 +10011,33 @@ export default function MindKlass(){
         </div>
         <div style={card}>
           <h3 style={{fontSize:13,fontWeight:800,color:T.head,margin:"0 0 12px",display:"flex",alignItems:"center",gap:5}}><CheckCircle size={14} color="#059669"/>How It Works</h3>
-          {[{n:"1",t:"Share Your Link",d:"Copy your unique referral link and share it widely.",c:"#1842a8"},{n:"2",t:"Friend Signs Up",d:"They register on MindKlass using your referral code.",c:"#059669"},{n:"3",t:"Earn Monthly",d:`You earn ${(REF_PCT*100)}% ($${(MONTHLY_FEE*REF_PCT).toFixed(2)}) of their fee every month for 12 months.`,c:"#d97706"},{n:"4",t:"No Limit!",d:"Refer as many students as you like. No cap on earnings.",c:"#7c3aed"}].map(s=>(<div key={s.n} style={{display:"flex",gap:11,marginBottom:12,alignItems:"flex-start"}}><div style={{width:28,height:28,borderRadius:"50%",background:`${s.c}18`,border:`2px solid ${s.c}`,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,fontWeight:900,fontSize:13,color:s.c}}>{s.n}</div><div><div style={{fontSize:13,fontWeight:700,color:T.head}}>{s.t}</div><div style={{fontSize:11,color:T.muted,lineHeight:1.5}}>{s.d}</div></div></div>))}
-          <div style={{background:"#fffbeb",border:"1px solid #fde68a",borderRadius:9,padding:"9px 12px",fontSize:11,color:"#92400e",lineHeight:1.6}}><strong>Payout:</strong> Paid monthly via bank transfer or mobile money. Minimum payout: $20.</div>
+          {[{n:"1",t:"Share Your Link",d:"Copy your unique referral link and share it widely.",c:"#1842a8"},{n:"2",t:"Friend Signs Up & Pays",d:"They register with your code and make their first payment, for any course.",c:"#059669"},{n:"3",t:"You're Credited",d:`A one-off ${(REF_PCT*100)}% commission is added to your balance immediately - once, not monthly.`,c:"#d97706"},{n:"4",t:"Paid Out Monthly",d:"Once a month, MindKlass pays out everything you're owed to the account details you save below.",c:"#7c3aed"}].map(s=>(<div key={s.n} style={{display:"flex",gap:11,marginBottom:12,alignItems:"flex-start"}}><div style={{width:28,height:28,borderRadius:"50%",background:`${s.c}18`,border:`2px solid ${s.c}`,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,fontWeight:900,fontSize:13,color:s.c}}>{s.n}</div><div><div style={{fontSize:13,fontWeight:700,color:T.head}}>{s.t}</div><div style={{fontSize:11,color:T.muted,lineHeight:1.5}}>{s.d}</div></div></div>))}
+          <div style={{background:"#fffbeb",border:"1px solid #fde68a",borderRadius:9,padding:"9px 12px",fontSize:11,color:"#92400e",lineHeight:1.6}}><strong>Payout:</strong> Sent monthly via bank transfer or mobile money to the account you save below. Minimum payout: {fmtMoney(20,myCur)}. Already paid out to date: {fmtMoney(alreadyPaidOut,myCur)}.</div>
         </div>
+      </div>
+      <div style={{...card,marginBottom:13}}>
+        <h3 style={{fontSize:13,fontWeight:800,color:T.head,margin:"0 0 4px",display:"flex",alignItems:"center",gap:5}}><CreditCard size={14} color="#1842a8"/>Payout Account Details</h3>
+        <p style={{fontSize:11,color:T.muted,margin:"0 0 12px",lineHeight:1.5}}>Tell us where to send your monthly referral payout. You can update this any time before the next payout run.</p>
+        <div style={{display:"grid",gridTemplateColumns:vw<480?"1fr":"1fr 1fr",gap:9,marginBottom:10}}>
+          <div><label style={lbl}>Payout Method</label><select style={inp} value={payoutForm.method} onChange={e=>setPayoutForm(p=>({...p,method:e.target.value}))}><option value="bank">Bank Transfer</option><option value="mobile_money">Mobile Money</option></select></div>
+          <div><label style={lbl}>Currency (from your profile)</label><div style={{...inp,display:"flex",alignItems:"center",background:T.alt,color:T.muted}}>{myCur} - set from your country on sign up</div></div>
+        </div>
+        {payoutForm.method==="bank"?<div style={{display:"grid",gridTemplateColumns:vw<480?"1fr":"1fr 1fr 1fr",gap:9,marginBottom:12}}>
+          <div><label style={lbl}>Bank Name</label><input style={inp} placeholder="e.g. GTBank" value={payoutForm.bankName} onChange={e=>setPayoutForm(p=>({...p,bankName:e.target.value}))}/></div>
+          <div><label style={lbl}>Account Number</label><input style={inp} placeholder="e.g. 0123456789" value={payoutForm.accountNumber} onChange={e=>setPayoutForm(p=>({...p,accountNumber:e.target.value}))}/></div>
+          <div><label style={lbl}>Account Name</label><input style={inp} placeholder="Name on the account" value={payoutForm.accountName} onChange={e=>setPayoutForm(p=>({...p,accountName:e.target.value}))}/></div>
+        </div>:<div style={{display:"grid",gridTemplateColumns:vw<480?"1fr":"1fr 1fr",gap:9,marginBottom:12}}>
+          <div><label style={lbl}>Mobile Money Provider</label><input style={inp} placeholder="e.g. MTN MoMo, M-Pesa" value={payoutForm.mobileProvider} onChange={e=>setPayoutForm(p=>({...p,mobileProvider:e.target.value}))}/></div>
+          <div><label style={lbl}>Mobile Number</label><input style={inp} placeholder="e.g. 08012345678" value={payoutForm.mobileNumber} onChange={e=>setPayoutForm(p=>({...p,mobileNumber:e.target.value}))}/></div>
+        </div>}
+        <button onClick={savePayoutDetails} style={{...bP,padding:"9px 18px",fontSize:12,display:"inline-flex",alignItems:"center",gap:6}}>{payoutSaved?<><CheckCircle size={13}/>Saved!</>:<><Save size={13}/>Save Payout Details</>}</button>
       </div>
       <div style={card}>
         <h3 style={{fontSize:13,fontWeight:800,color:T.head,margin:"0 0 12px",display:"flex",alignItems:"center",gap:5}}><BarChart2 size={14} color="#1842a8"/>Referral History</h3>
         {myRefs.length===0?<div style={{textAlign:"center",padding:"24px 0",color:T.muted}}><Share2 size={28} color={T.border} style={{margin:"0 auto 8px",display:"block"}}/><p style={{margin:0,fontSize:13}}>No referrals yet - share your link to start earning!</p></div>:<>
-          <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr 1fr 1fr",gap:8,padding:"8px 12px",background:T.alt,borderRadius:9,marginBottom:6}}>{["Referred User","Join Date","Months Active","Earnings","Status"].map(h=><div key={h} style={{fontSize:9,fontWeight:700,color:T.muted,textTransform:"uppercase",letterSpacing:.4}}>{h}</div>)}</div>
-          {myRefs.map(r=>(<div key={r.id} style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr 1fr 1fr",gap:8,padding:"9px 12px",borderBottom:`1px solid ${T.border}`,alignItems:"center"}}><div style={{fontSize:12,fontWeight:700,color:T.txt}}>{r.referredNick}</div><div style={{fontSize:11,color:T.muted}}>{r.date}</div><div style={{fontSize:12,fontWeight:700,color:T.txt}}>{r.monthsActive}/12 mo</div><div style={{fontSize:13,fontWeight:900,color:"#059669"}}>${r.earned.toFixed(2)}</div><span style={{padding:"2px 8px",borderRadius:99,background:r.active?"#dcfce7":"#f1f5f9",color:r.active?"#059669":"#94a3b8",fontSize:10,fontWeight:700,display:"inline-flex",alignItems:"center",gap:3,width:"fit-content"}}>{r.active?<><div style={{width:6,height:6,borderRadius:"50%",background:"#059669"}}/>Active</>:"Expired"}</span></div>))}
-          <div style={{padding:"10px 12px",display:"flex",justifyContent:"flex-end",gap:6,alignItems:"center",borderTop:`2px solid ${T.border}`,marginTop:4}}><span style={{fontSize:12,color:T.muted}}>Total Earned:</span><span style={{fontSize:18,fontWeight:900,color:"#059669",fontFamily:"Outfit,sans-serif"}}>${totalEarned.toFixed(2)}</span></div>
+          <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr 1fr",gap:8,padding:"8px 12px",background:T.alt,borderRadius:9,marginBottom:6}}>{["Referred User","Join Date","Commission","Status"].map(h=><div key={h} style={{fontSize:9,fontWeight:700,color:T.muted,textTransform:"uppercase",letterSpacing:.4}}>{h}</div>)}</div>
+          {myRefs.map(r=>{const su2=REF_STATUS_UI[r.status]||REF_STATUS_UI.pending;return <div key={r.id} style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr 1fr",gap:8,padding:"9px 12px",borderBottom:`1px solid ${T.border}`,alignItems:"center"}}><div style={{fontSize:12,fontWeight:700,color:T.txt}}>{r.referredNick}</div><div style={{fontSize:11,color:T.muted}}>{r.date}</div><div style={{fontSize:13,fontWeight:900,color:"#059669"}}>{r.status==="pending"?"-":fmtMoney(r.earned,myCur)}</div><span style={{padding:"2px 8px",borderRadius:99,background:su2.bg,color:su2.c,fontSize:10,fontWeight:700,display:"inline-flex",alignItems:"center",gap:3,width:"fit-content"}}><div style={{width:6,height:6,borderRadius:"50%",background:su2.c}}/>{su2.l}</span></div>;})}
+          <div style={{padding:"10px 12px",display:"flex",justifyContent:"flex-end",gap:6,alignItems:"center",borderTop:`2px solid ${T.border}`,marginTop:4}}><span style={{fontSize:12,color:T.muted}}>Total Earned:</span><span style={{fontSize:18,fontWeight:900,color:"#059669",fontFamily:"Outfit,sans-serif"}}>{fmtMoney(totalEarned,myCur)}</span></div>
         </>}
       </div>
     </>});
@@ -9382,11 +10075,23 @@ export default function MindKlass(){
                   <div style={{marginBottom:8}}><label style={lbl}>Full Name (private)</label><input defaultValue={u?.name} onChange={e=>setPD(p=>({...p,name:e.target.value}))} style={inp}/></div>
                 </div>
                 <div style={{marginBottom:8}}><label style={lbl}>Bio</label><textarea defaultValue={u?.bio} onChange={e=>setPD(p=>({...p,bio:e.target.value}))} rows={2} style={{...inp,resize:"vertical"}}/></div>
+                <div style={{marginBottom:8}}><label style={lbl}>Country (sets your currency)</label><select defaultValue={u?.country||""} onChange={e=>setPD(p=>({...p,country:e.target.value,currency:currencyForCountry(e.target.value).code}))} style={inp}><option value="">- Select -</option>{COUNTRIES.map(c=><option key={c} value={c}>{c} ({currencyForCountry(c).code})</option>)}</select></div>
                 {u?.role==="teacher"&&<>
                   <div style={{marginBottom:8}}><label style={lbl}>Profile Headline (60 chars)</label><input defaultValue={u?.headline} maxLength={60} onChange={e=>setPD(p=>({...p,headline:e.target.value}))} style={inp}/></div>
                   <div style={{marginBottom:8}}><label style={lbl}>LinkedIn URL</label><input defaultValue={u?.linkedin} onChange={e=>setPD(p=>({...p,linkedin:e.target.value}))} style={inp} placeholder="linkedin.com/in/yourname"/></div>
                 </>}
-                <button onClick={()=>{setUsers(p=>p.map(x=>x.id===user.id?{...x,...pDraft}:x));setUser(u2=>({...u2,...pDraft}));setEditP(false);}} style={{...bP,marginTop:6}}><Check size={11} style={{marginRight:3,verticalAlign:"middle"}}/>Save Changes</button>
+                <button onClick={async()=>{
+                  setUsers(p=>p.map(x=>x.id===user.id?{...x,...pDraft}:x));setUser(u2=>({...u2,...pDraft}));setEditP(false);
+                  // Country/currency drive real money displays (fees, referral
+                  // earnings), so — unlike the rest of this form — persist those
+                  // two specifically to Supabase rather than only local state.
+                  if(pDraft.country||pDraft.currency){
+                    const patch={};
+                    if(pDraft.country) patch.country=pDraft.country;
+                    if(pDraft.currency) patch.currency=pDraft.currency;
+                    await supabase.from("profiles").update(patch).eq("id",user.id);
+                  }
+                }} style={{...bP,marginTop:6}}><Check size={11} style={{marginRight:3,verticalAlign:"middle"}}/>Save Changes</button>
               </>:<>
                 <div style={{marginBottom:4,display:"flex",alignItems:"baseline",gap:10,flexWrap:"wrap"}}><span style={{fontSize:20,fontWeight:800,color:"#1842a8",fontFamily:"Outfit,sans-serif"}}>{u?.nick}</span><span style={{fontSize:13,color:T.muted}}>(real name: {u?.name})</span></div>
                 <div style={{display:"flex",gap:5,flexWrap:"wrap",marginBottom:7}}><span style={{padding:"2px 8px",borderRadius:99,background:T.pale,color:"#1842a8",fontSize:10,fontWeight:700,textTransform:"capitalize"}}>{u?.role?.replace("visitor-","")}</span>{u?.grade&&<span style={{padding:"2px 8px",borderRadius:99,background:"#f0fdf4",color:"#059669",fontSize:10,fontWeight:700}}>{u.grade}</span>}{u?.headline&&<span style={{fontSize:11,color:T.muted,fontStyle:"italic"}}>{u.headline}</span>}</div>
@@ -10949,11 +11654,43 @@ export default function MindKlass(){
               </div>
             </div>}
       </div>}
+      {effRole==="admin"&&(()=>{
+        const owed=refsList.filter(r=>r.status==="credited");
+        const byReferrer={};
+        owed.forEach(r=>{(byReferrer[r.referrerId]=byReferrer[r.referrerId]||[]).push(r);});
+        const referrerIds=Object.keys(byReferrer);
+        return <div style={{...card,marginBottom:16,borderTop:"4px solid #059669"}}>
+          <h3 style={{fontSize:13,fontWeight:800,color:T.head,margin:"0 0 4px",display:"flex",alignItems:"center",gap:5}}><Share2 size={14} color="#059669"/>Referral Payouts Due</h3>
+          <p style={{fontSize:11,color:T.muted,margin:"0 0 12px",lineHeight:1.5}}>One-off 10% commissions credited to referrers, owed but not yet paid out. Run this monthly: send the transfer to each account below, then mark it paid.</p>
+          {referrerIds.length===0?<p style={{fontSize:12,color:T.muted,margin:0}}>Nothing owed right now - nice and clean.</p>:
+            <div style={{display:"flex",flexDirection:"column",gap:9}}>
+              {referrerIds.map(rid=>{
+                const rows=byReferrer[rid];
+                const pp=payoutProfiles[rid];
+                const total=rows.reduce((s,r)=>s+r.earned,0);
+                const cur=pp?.currency||"USD";
+                return <div key={rid} style={{padding:"11px 13px",borderRadius:10,background:T.alt,display:"flex",gap:10,alignItems:"center",flexWrap:"wrap"}}>
+                  <div style={{flex:1,minWidth:180}}>
+                    <div style={{fontSize:13,fontWeight:800,color:T.head}}>{pp?.nick||rows[0].referrerNick||"Unknown"} <span style={{fontSize:10,color:T.muted,fontWeight:600}}>{pp?.name?`(${pp.name})`:""}</span></div>
+                    <div style={{fontSize:11,color:T.muted,marginTop:2}}>{rows.length} referral{rows.length===1?"":"s"} owed - {fmtMoney(total,cur)}</div>
+                    <div style={{fontSize:11,color:T.muted,marginTop:3}}>
+                      {!pp||!pp.method?<span style={{color:"#dc2626"}}>No payout details on file yet.</span>
+                        :pp.method==="mobile_money"
+                          ?<>Mobile Money: <strong>{pp.mobileProvider||"—"}</strong> · {pp.mobileNumber||"—"}</>
+                          :<>Bank: <strong>{pp.bankName||"—"}</strong> · {pp.accountNumber||"—"} · {pp.accountName||"—"}</>}
+                    </div>
+                  </div>
+                  <button onClick={()=>markReferrerPaid(rid)} style={{...bP,padding:"7px 14px",fontSize:11,background:"linear-gradient(135deg,#059669,#16a34a)",flexShrink:0}}><CheckCircle size={11} style={{marginRight:4,verticalAlign:"middle"}}/>Mark Paid</button>
+                </div>;
+              })}
+            </div>}
+        </div>;
+      })()}
       {payModal&&(()=>{const fee=fees.find(f=>f.id===payModal);return <div style={{position:"fixed",inset:0,background:"rgba(0,0,0,.5)",display:"flex",alignItems:"center",justifyContent:"center",zIndex:100,padding:16}}>
         <div style={{background:T.card,borderRadius:18,padding:24,width:"100%",maxWidth:380}}>
           <h3 style={{margin:"0 0 4px",fontFamily:"Outfit,sans-serif",color:T.head,display:"flex",alignItems:"center",gap:5}}><Lock size={14} color="#059669"/>Secure Payment</h3>
           <p style={{fontSize:11,color:T.muted,margin:"0 0 14px"}}>{fee?.desc}</p>
-          <div style={{background:T.alt,borderRadius:10,padding:14,textAlign:"center",marginBottom:14}}><div style={{fontSize:30,fontWeight:900,color:"#0d1f4b",fontFamily:"Outfit,sans-serif"}}>${fee?.amount.toFixed(2)}</div><div style={{fontSize:10,color:T.muted}}>Due {fee?.dueDate}</div></div>
+          <div style={{background:T.alt,borderRadius:10,padding:14,textAlign:"center",marginBottom:14}}><div style={{fontSize:30,fontWeight:900,color:"#0d1f4b",fontFamily:"Outfit,sans-serif"}}>{fmtMoney(fee?.amount,user?.currency)}</div><div style={{fontSize:10,color:T.muted}}>Due {fee?.dueDate}{user?.currency&&user.currency!=="USD"?` · shown in ${user.currency}, indicative`:""}</div></div>
           <button onClick={()=>payFee(payModal,"Paystack")} style={{...bP,width:"100%",padding:"13px",fontSize:14,background:"linear-gradient(135deg,#0ba4db,#011b33)",display:"flex",alignItems:"center",justifyContent:"center",gap:7}}>
             <Lock size={14}/>Pay securely with Paystack<ChevronRight size={15}/>
           </button>
@@ -10962,10 +11699,10 @@ export default function MindKlass(){
           <button onClick={()=>setPayModal(null)} style={{...bO,width:"100%",marginTop:11,fontSize:12}}>Cancel</button>
         </div>
       </div>;})()}
-      {isPar&&totalDue>0&&<div style={{...card,marginBottom:13,background:"linear-gradient(135deg,#fef3c7,#fffbeb)",border:"1px solid #fde68a"}}><div style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:8}}><div><div style={{fontSize:12,color:"#92400e",fontWeight:700}}>Total Outstanding</div><div style={{fontSize:26,fontWeight:900,color:"#d97706",fontFamily:"Outfit,sans-serif"}}>${totalDue.toFixed(2)}</div></div><AlertTriangle size={28} color="#d97706"/></div></div>}
+      {isPar&&totalDue>0&&<div style={{...card,marginBottom:13,background:"linear-gradient(135deg,#fef3c7,#fffbeb)",border:"1px solid #fde68a"}}><div style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:8}}><div><div style={{fontSize:12,color:"#92400e",fontWeight:700}}>Total Outstanding</div><div style={{fontSize:26,fontWeight:900,color:"#d97706",fontFamily:"Outfit,sans-serif"}}>{fmtMoney(totalDue,user?.currency)}</div></div><AlertTriangle size={28} color="#d97706"/></div></div>}
       {targetIds.map(sid=>{const stu=users.find(u=>u.id===sid);const sfees=visFees.filter(f=>f.studentId===sid);if(!sfees.length) return null;return <div key={sid} style={{...card,marginBottom:11}}>
         <div style={{fontSize:13,fontWeight:800,color:"#1842a8",marginBottom:10,display:"flex",alignItems:"center",gap:8}}><Avatar name={stu?.nick} role="student" size={28} photo={stu?.photo}/>{stu?.nick} <span style={{fontSize:10,color:T.muted,fontWeight:600}}>({stu?.name})</span></div>
-        <div style={{display:"flex",flexDirection:"column",gap:8}}>{sfees.map(f=>(<div key={f.id} style={{display:"flex",alignItems:"center",gap:10,padding:"11px 13px",borderRadius:10,background:T.alt,flexWrap:"wrap"}}><div style={{width:36,height:36,borderRadius:9,background:f.status==="paid"?"#dcfce7":"#fef3c7",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0}}>{f.status==="paid"?<Receipt size={16} color="#059669"/>:<CreditCard size={16} color="#d97706"/>}</div><div style={{flex:1,minWidth:120}}><div style={{fontSize:13,fontWeight:700,color:T.head}}>{f.desc}</div><div style={{fontSize:10,color:T.muted}}>Due {f.dueDate}{f.paidDate?` - Paid ${f.paidDate} (${f.method})`:""}</div></div><div style={{fontSize:16,fontWeight:900,color:"#0d1f4b",fontFamily:"Outfit,sans-serif"}}>${f.amount.toFixed(2)}</div>{f.status==="paid"?<span style={{padding:"4px 11px",borderRadius:99,background:"#dcfce7",color:"#059669",fontSize:10,fontWeight:700,display:"flex",alignItems:"center",gap:4}}><CheckCircle size={11}/>Paid</span>:isPar?<button onClick={()=>setPayModal(f.id)} style={{...bP,fontSize:11,padding:"7px 14px",background:"linear-gradient(135deg,#059669,#16a34a)"}}><CreditCard size={12} style={{marginRight:4,verticalAlign:"middle"}}/>Pay Now</button>:<span style={{padding:"4px 11px",borderRadius:99,background:"#fef3c7",color:"#d97706",fontSize:10,fontWeight:700}}>Due</span>}{f.receipt&&<button onClick={()=>alert(`Receipt ${f.receipt}\n${f.desc}\nAmount: $${f.amount.toFixed(2)}\nPaid: ${f.paidDate} via ${f.method}\n\nMindKlass - Live Ideally`)} style={{...bO,fontSize:10,padding:"5px 10px"}}><Receipt size={10} style={{marginRight:3,verticalAlign:"middle"}}/>Receipt</button>}</div>))}</div>
+        <div style={{display:"flex",flexDirection:"column",gap:8}}>{sfees.map(f=>(<div key={f.id} style={{display:"flex",alignItems:"center",gap:10,padding:"11px 13px",borderRadius:10,background:T.alt,flexWrap:"wrap"}}><div style={{width:36,height:36,borderRadius:9,background:f.status==="paid"?"#dcfce7":"#fef3c7",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0}}>{f.status==="paid"?<Receipt size={16} color="#059669"/>:<CreditCard size={16} color="#d97706"/>}</div><div style={{flex:1,minWidth:120}}><div style={{fontSize:13,fontWeight:700,color:T.head}}>{f.desc}</div><div style={{fontSize:10,color:T.muted}}>Due {f.dueDate}{f.paidDate?` - Paid ${f.paidDate} (${f.method})`:""}</div></div><div style={{fontSize:16,fontWeight:900,color:"#0d1f4b",fontFamily:"Outfit,sans-serif"}}>{fmtMoney(f.amount,user?.currency)}</div>{f.status==="paid"?<span style={{padding:"4px 11px",borderRadius:99,background:"#dcfce7",color:"#059669",fontSize:10,fontWeight:700,display:"flex",alignItems:"center",gap:4}}><CheckCircle size={11}/>Paid</span>:isPar?<button onClick={()=>setPayModal(f.id)} style={{...bP,fontSize:11,padding:"7px 14px",background:"linear-gradient(135deg,#059669,#16a34a)"}}><CreditCard size={12} style={{marginRight:4,verticalAlign:"middle"}}/>Pay Now</button>:<span style={{padding:"4px 11px",borderRadius:99,background:"#fef3c7",color:"#d97706",fontSize:10,fontWeight:700}}>Due</span>}{f.receipt&&<button onClick={()=>alert(`Receipt ${f.receipt}\n${f.desc}\nAmount: ${fmtMoney(f.amount,user?.currency)}\nPaid: ${f.paidDate} via ${f.method}\n\nMindKlass - Live Ideally`)} style={{...bO,fontSize:10,padding:"5px 10px"}}><Receipt size={10} style={{marginRight:3,verticalAlign:"middle"}}/>Receipt</button>}</div>))}</div>
       </div>;})}
     </>});
   }
