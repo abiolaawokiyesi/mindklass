@@ -2975,6 +2975,623 @@ const IELTS_Q=[
 // shadows this module-level one for the rest of the component, so every
 // existing lookup (TRAININGS[code], SJOURNEYS[code], Object.entries(...))
 // automatically includes Course-Builder courses with zero other changes.
+// ═══ THE 21ST CENTURY EDUCATOR (18-week Teacher's Course) ═══
+// Mastering the Skills, Mindset and Technology for Teaching in the Modern World.
+// Each unit opens with a real-world case study (adapted from the source
+// material provided, lightly corrected for grammar and clarity — stray
+// meta-commentary and citation artifacts removed), followed by a "Key Ideas"
+// section that directly teaches the module's listed subtopics.
+const EDU_UNITS=[
+ {id:"edu_m1",n:1,title:"Understanding the 21st Century Classroom",mins:150,icon:"Lightbulb",
+  summary:"What actually defines a 21st-century educator, how education has evolved, and what today's learners need from the classroom of the future.",
+  keyWords:["21st century educator","evolution of education","modern teaching","global trends","future of teaching"],
+  sections:[
+   {art:"global",h:"The Global Shift: From Chalkboards to Cloud Classrooms",p:[
+    "In 2017, Canadian teacher Maggie MacDonnell stood on a global stage to receive the $1 million Global Teacher Prize. Her classroom was not in a wealthy metropolis but in Ikusik, a remote Arctic village in northern Quebec accessible only by plane. The community faced extreme isolation, harsh winter conditions, and a staggeringly high suicide rate among young people.",
+    "Traditional teaching methods had failed here for decades. Teachers arrived with standard textbooks, grew frustrated by low attendance, and left within months. Maggie realised that a 21st-century educator cannot simply download information into students' heads. She adapted to global educational trends by focusing on community-led, holistic learning.",
+    "Maggie shifted her classroom from a rigid physical space into a living lab. She built a life-skills programme, established a community fitness centre, and created a running club. Her students stopped being passive listeners and became active creators, building a community kitchen and launching a nutrition programme. She brought the world to her remote village through digital connectivity and project-based survival skills, transforming her school from a place of despair into a hub of local and global citizenship."
+   ],ex:{t:"Conclusion",b:[
+    "Maggie MacDonnell's triumph proves that a modern classroom is defined by its reach, not its walls.",
+    "The 21st-century educator bridges local realities with global trends, seeing students as active participants in a rapidly changing world — not empty vessels to be filled."
+   ]}},
+   {art:"identity",h:"Key Ideas in This Module",p:[
+    "A 21st-century educator is defined less by subject knowledge alone and more by adaptability, digital fluency, cultural awareness, and the ability to prepare students for a world that changes faster than any fixed curriculum can predict.",
+    "Education has evolved from rigid, one-size-fits-all instruction delivered by a single authority figure into a flexible, learner-centred process supported by global connectivity, collaborative platforms, and continuous feedback.",
+    "Traditional teaching relied heavily on lecture, memorisation and standardised testing. Modern teaching blends direct instruction with inquiry, technology and real-world problem solving — without abandoning the strong subject foundations traditional teaching is known for.",
+    "Global trends shaping education today include personalised and blended learning, the rise of artificial intelligence, a growing emphasis on social-emotional skills, and a shift toward measuring genuine understanding rather than rote recall.",
+    "Today's learners are digitally native, globally connected and accustomed to instant feedback. They often value relevance, choice and purpose as much as they value compliance with instructions.",
+    "The future of teaching is not about replacing teachers with technology; it is about educators using every available tool to reach learners who no longer fit a single, standard mould."
+   ]}
+  ],
+  activity:"Write a short reflection comparing your own schooling experience with the classroom your students learn in today. Identify three concrete ways the 21st-century classroom differs from the one you grew up in.",
+  check:[
+   {q:"According to this module, what fundamentally defines a 21st-century educator?",o:["Owning the latest technology","Adaptability, cultural awareness and the ability to prepare students for a changing world","Following the same lesson plan every year","Working only in wealthy, well-resourced schools"],a:1},
+   {q:"What made Maggie MacDonnell's approach in Ikusik effective where traditional methods had failed?",o:["Stricter discipline","Community-led, holistic learning connected to real student needs","Relying only on standard textbooks","Reducing the amount of technology in her classroom"],a:1},
+   {q:"Which best describes the shift from traditional to modern teaching?",o:["Modern teaching abandons all subject knowledge","Modern teaching blends strong subject foundations with inquiry, technology and real-world problem solving","Traditional teaching used more technology than modern teaching","There is no meaningful difference between the two"],a:1},
+  ]},
+
+ {id:"edu_m2",n:2,title:"Developing the Right Mindset",mins:150,icon:"Sparkles",
+  summary:"Why growth mindset, adaptability and emotional intelligence matter more for teacher leadership than any single credential.",
+  keyWords:["growth mindset","lifelong learner","adaptability","professional ethics","teacher leadership","emotional intelligence"],
+  sections:[
+   {art:"achieve",h:"The Lifelong Learner Who Rewrote the Script",p:[
+    "Dr. Barbara Oakley grew up hating math and science. She struggled through high school, convinced that her brain was wired strictly for language and the humanities. She enlisted in the army right after high school to learn a new language. But as technology advanced around her, she realised that her fixed mindset was limiting both her career and her ability to impact others.",
+    "At age 26, Barbara made a radical decision: she decided to retrain her brain. She adopted a strict growth mindset and went back to school to study engineering. She struggled immensely, but by treating failure as feedback and practising cognitive adaptability, she eventually earned a PhD in Systems Engineering.",
+    "Years later, as a university professor, she noticed her students struggling with the exact same mental blocks she once had. Instead of relying on old lecturing methods, Barbara co-created a Massive Open Online Course called Learning How to Learn. By 2014, it had become one of the most popular online courses in history, reaching millions of students globally — and Barbara had to completely reinvent her teaching style, mastering video production and digital storytelling in her fifties."
+   ],ex:{t:"Conclusion",b:[
+    "Dr. Oakley's journey demonstrates that teacher leadership requires emotional intelligence and genuine adaptability.",
+    "To inspire modern learners, educators must first become vulnerable, lifelong learners themselves — consistently breaking down their own fixed mindsets to model resilience."
+   ]}},
+   {art:"agency",h:"Key Ideas in This Module",p:[
+    "A growth mindset is the belief that ability and intelligence can be developed through effort and strategy. A fixed mindset assumes ability is static — and educators who model a fixed mindset unintentionally teach their students to fear failure rather than learn from it.",
+    "Becoming a lifelong learner means treating your own professional development as never finished: reading, experimenting with new methods, and being willing to feel like a beginner again.",
+    "Adaptability and resilience are what allow educators to keep teaching effectively through curriculum changes, technology shifts and difficult classes — bouncing back from setbacks rather than being derailed by them.",
+    "Professional ethics ground every decision an educator makes: fairness, honesty, confidentiality and always acting in the best interest of the student, even when it is inconvenient.",
+    "Teacher leadership does not require a management title. It shows up when an educator mentors a colleague, pilots a new approach, or advocates for a struggling student.",
+    "Emotional intelligence — self-awareness, self-regulation, empathy and social skill — is often what separates a technically competent teacher from one who genuinely transforms a classroom."
+   ]}
+  ],
+  activity:"Identify one belief you hold about your own teaching ability that sounds more like a fixed mindset than a growth mindset. Write down one small, concrete action you could take this month to challenge it.",
+  check:[
+   {q:"What is the core difference between a growth mindset and a fixed mindset?",o:["A growth mindset believes ability can be developed through effort; a fixed mindset assumes ability is static","There is no real difference","A fixed mindset is only about physical skills","A growth mindset means never experiencing difficulty"],a:0},
+   {q:"What allowed Dr. Barbara Oakley to succeed in engineering despite failing math and science in school?",o:["Natural talent she was unaware of","Adopting a growth mindset and treating failure as feedback","Avoiding any further study of the subject","Hiring someone else to do the coursework"],a:1},
+   {q:"Why does teacher leadership not require a formal management title?",o:["Because leadership only happens in meetings","Because it shows up in everyday acts like mentoring a colleague or advocating for a student","Because only administrators can lead","Because leadership is unrelated to teaching"],a:1},
+  ]},
+
+ {id:"edu_m3",n:3,title:"Understanding Today's Learners",mins:150,icon:"Users",
+  summary:"What actually motivates Generation Alpha and Generation Z, and how to build inclusive, positive relationships with them.",
+  keyWords:["Generation Alpha","Generation Z","learning styles","student motivation","inclusive education","positive relationships"],
+  sections:[
+   {art:"social",h:"Cracking the Code of Gen Z and Generation Alpha",p:[
+    "In early 2020, veteran classroom teacher Sam Kary faced a sudden crisis shared by millions of educators worldwide: schools closed overnight. Suddenly, his students — digital natives belonging to Generation Z and Generation Alpha — were staring at him through computer screens. He quickly realised that his traditional lesson plans, worksheets and lecture-heavy style did not motivate this new generation of students. They were disengaged, turning off their cameras and disappearing from online discussions.",
+    "Sam stopped trying to force old models onto modern students. He researched the unique learning styles, preferences and motivations of today's hyper-connected youth and realised these students crave interactive, visual and highly inclusive environments where their diversity is celebrated.",
+    "He transformed his teaching strategy completely: creating short, bite-sized instructional videos, using gamified learning platforms, and designing assignments where students could show their knowledge through podcasts and graphic design. He built an inclusive, positive relationship with every student by checking in on their emotional well-being before assigning grades. The results were striking — attendance soared, and students who had never spoken in a physical classroom began leading digital group projects."
+   ],ex:{t:"Conclusion",b:[
+    "Today's learners do not view technology as a tool; they view it as an extension of their reality.",
+    "Building positive relationships with Gen Z and Alpha requires meeting them in their digital world with empathy, inclusive design and interactive experiences."
+   ]}},
+   {art:"culture",h:"Key Ideas in This Module",p:[
+    "Generation Alpha (born roughly from the early 2010s) and Generation Z (born roughly mid-1990s to early 2010s) have grown up with smartphones, streaming and social media as a default part of life, not a novelty — this shapes how they expect to receive and process information.",
+    "Learning styles and preferences vary widely, but today's learners generally respond well to visual, interactive and bite-sized content, frequent feedback, and choice in how they demonstrate understanding.",
+    "Student motivation is rarely built through fear of punishment alone. Relevance, autonomy, a sense of progress and genuine relationships with the teacher matter far more for sustained engagement.",
+    "Inclusive education means designing lessons so that students of differing abilities, backgrounds and needs can all genuinely participate — not simply placing struggling students at the back of the room.",
+    "Diversity in the classroom — cultural, linguistic, neurological and socioeconomic — is a strength to be planned for, not an inconvenience to be managed.",
+    "Building positive relationships starts with knowing your students as individuals: their interests, their struggles, and what makes them feel safe enough to take risks in front of their peers."
+   ]}
+  ],
+  activity:"Choose one lesson you teach regularly and redesign a single activity within it to give students more choice in how they show what they've learned (for example: video, podcast, poster, or written response).",
+  check:[
+   {q:"What mistake did Sam Kary initially make when teaching Gen Z and Generation Alpha students remotely?",o:["He used too much technology","He tried to force traditional, lecture-heavy methods onto digitally native students","He gave students too much choice","He focused too much on emotional well-being"],a:1},
+   {q:"What generally sustains student motivation better than fear of punishment?",o:["Strict, unexplained rules","Relevance, autonomy, visible progress and genuine relationships","Removing all challenge from the work","Ignoring student interests entirely"],a:1},
+   {q:"What does inclusive education require, according to this module?",o:["Placing struggling students separately so they don't disrupt others","Designing lessons so students of differing abilities and backgrounds can genuinely participate","Teaching every student in exactly the same way regardless of need","Avoiding any discussion of cultural differences"],a:1},
+  ]},
+
+ {id:"edu_m4",n:4,title:"Curriculum Planning and Lesson Design",mins:150,icon:"PenLine",
+  summary:"Why starting lesson planning with the end goal in mind — backward design — produces deeper learning than planning activity by activity.",
+  keyWords:["curriculum mapping","backward design","SMART objectives","lesson planning","differentiated instruction"],
+  sections:[
+   {art:"steps",h:"Designing with the Destination in Mind",p:[
+    "For years, educational consultant Jay McTighe watched passionate teachers burn out. They spent countless hours creating beautiful, creative lesson plans, only to find that their students still failed standardised assessments and struggled to apply concepts in real life. Teachers were planning day to day, or textbook page to textbook page, focusing on activities rather than real learning outcomes.",
+    "Jay McTighe, alongside his late colleague Grant Wiggins, set out to fix this broken cycle. They formalised the concept of Backward Design through their Understanding by Design framework, challenging teachers to start planning at the very end: the ultimate learning goal.",
+    "In schools that adopted this framework, the transformation was immediate. Teachers stopped asking, \"What activities will I do tomorrow?\" and started asking, \"What should my students deeply understand by the end of this module?\" Educators began writing sharp, SMART learning objectives, using data to drive differentiation, and creating cross-curricular projects — for example, a maths teacher and a history teacher collaborating on a single project mapping the economic trends of World War II. The curriculum became an intentional roadmap rather than a random collection of worksheets."
+   ],ex:{t:"Conclusion",b:[
+    "Effective lesson planning is an architectural art.",
+    "By mastering curriculum mapping and backward design, 21st-century educators ensure every activity, differentiated task and objective directly builds towards deep student understanding and long-term mastery."
+   ]}},
+   {art:"layers",h:"Key Ideas in This Module",p:[
+    "Curriculum mapping means laying out, across a term or year, exactly what will be taught, when, and how it connects — so gaps and repetition are visible before the term begins, not discovered halfway through it.",
+    "Backward design starts with three questions in order: what should students understand at the end, what evidence would prove they understand it, and only then, what activities get them there.",
+    "SMART learning objectives are Specific, Measurable, Achievable, Relevant and Time-bound — 'students will describe two causes of World War I with supporting evidence by the end of the lesson' is far more useful than 'students will learn about World War I.'",
+    "Lesson planning frameworks give structure to a single lesson: a hook to open, clear instruction, guided and independent practice, and a check for understanding before the bell.",
+    "Cross-curricular integration connects subjects that are normally taught in isolation, helping students see that knowledge is connected rather than filed away in separate boxes.",
+    "Differentiated instruction adjusts the content, process or product of a lesson to match different readiness levels, interests or learning profiles — without lowering the standard being taught toward."
+   ]}
+  ],
+  activity:"Take a lesson you plan to teach in the next two weeks. Write one SMART learning objective for it, then list the single piece of evidence that would prove students met that objective.",
+  check:[
+   {q:"What is the correct order of steps in Backward Design?",o:["Plan activities first, then decide what to assess, then set the goal","Identify the desired understanding, decide on evidence of learning, then plan activities","Write the test, then plan nothing else","Copy the textbook's chapter order exactly"],a:1},
+   {q:"Which of these is a genuinely SMART learning objective?",o:["Students will learn about fractions","Students will explore some maths","Students will correctly simplify five fraction problems with 80% accuracy by the end of the lesson","Students will enjoy the maths lesson"],a:2},
+   {q:"What problem were teachers running into before adopting backward design, according to this module?",o:["Their lessons were too well planned","They planned activity-by-activity without a clear end goal, so students struggled to apply concepts","They spent too little time on lesson planning","They used too many SMART objectives"],a:1},
+  ]},
+
+ {id:"edu_m5",n:5,title:"Effective Teaching Methodologies",mins:150,icon:"BookOpen",
+  summary:"How learner-centred approaches — including the flipped classroom — move students from passive listening to active problem-solving.",
+  keyWords:["learner-centred teaching","inquiry-based learning","project-based learning","cooperative learning","flipped classroom"],
+  sections:[
+   {art:"build",h:"The Chemistry Teacher Who Flipped the World",p:[
+    "In 2007, Aaron Sams and Jon Bergmann were two high school chemistry teachers in Woodland Park, Colorado. They noticed a painful, repeating pattern: students sat passively through their 30-minute lectures, nodded along, and then went home. Alone with their homework, students would hit a wall of confusion, get frustrated, and give up.",
+    "Jon and Aaron decided to turn their teaching methodology upside down. They bought inexpensive software that let them record their slide presentations, voices and annotations, and began posting these videos online for students to watch at home as homework.",
+    "When students walked into the classroom the next day, the lecture was already done. The physical classroom became an energetic hub of learner-centred teaching, inquiry-based learning and hands-on experiments. Students worked in cooperative groups to solve complex chemical problems while Jon and Aaron walked around the room giving personalised help to the students who needed it most. This was the birth of the Flipped Classroom — student engagement rose sharply, and failure rates in their chemistry classes fell."
+   ],ex:{t:"Conclusion",b:[
+    "True 21st-century teaching shifts the educator from the \"sage on the stage\" to the \"guide on the side.\"",
+    "Embracing flipped, experiential and problem-based learning ensures classroom time is reserved for deep, active collaboration."
+   ]}},
+   {art:"interpret",h:"Key Ideas in This Module",p:[
+    "Learner-centred teaching puts student thinking and activity at the centre of the lesson, with the teacher facilitating rather than delivering all the content by lecture.",
+    "Inquiry-based learning starts with a genuine question or problem and lets students investigate toward an answer, rather than being given the answer first.",
+    "Project-based learning has students build something substantial — a product, presentation or solution — over an extended period, applying multiple skills along the way.",
+    "Problem-based learning presents a realistic, often messy problem and asks students to work out what they need to learn in order to solve it.",
+    "Cooperative learning structures group work so that every member has a genuine role and is individually accountable — not just the strongest student doing all the work.",
+    "The flipped classroom moves direct instruction (often via video) to homework time, freeing class time for practice, discussion and support.",
+    "Experiential learning teaches through direct, hands-on experience followed by structured reflection on what was learned."
+   ]}
+  ],
+  activity:"Pick one upcoming lesson that is currently lecture-heavy. Redesign it as a flipped lesson: what would you move to a short pre-class video or reading, and what active task would you run in class instead?",
+  check:[
+   {q:"What core problem did the Flipped Classroom model solve for Jon Bergmann and Aaron Sams?",o:["Students had too much class time","Students got stuck on homework alone with no one to help them apply the lecture content","Teachers had too little content to teach","Students were too engaged in class"],a:1},
+   {q:"What distinguishes cooperative learning from simply putting students in groups?",o:["Nothing — they are identical","Every member has a genuine role and individual accountability, not just one student doing the work","Cooperative learning means the teacher does all the work","Cooperative learning removes the need for any structure"],a:1},
+   {q:"In project-based learning, what do students typically do?",o:["Complete short daily worksheets only","Build a substantial product or solution over an extended period, applying multiple skills","Listen to lectures with no output","Take a single multiple-choice test"],a:1},
+  ]},
+
+ {id:"edu_m6",n:6,title:"Classroom Management in the Digital Age",mins:150,icon:"Shield",
+  summary:"Why restorative practices repair relationships and reduce repeat behaviour issues more effectively than punishment alone.",
+  keyWords:["classroom culture","behaviour management","restorative practices","student engagement","large classes"],
+  sections:[
+   {art:"control",h:"Healing the Fracture in Student Behaviour",p:[
+    "Administrators and teachers at one high school were drowning in disciplinary issues. Fights, digital bullying and classroom disruptions were at an all-time high. The traditional approach — detentions, suspensions and public reprimands — was failing completely. Suspended students returned to school more angry, further behind academically, and more disruptive than before. The school culture was toxic.",
+    "The leadership team decided to throw out their old disciplinary handbook and switch to Restorative Practices. Instead of asking \"What rule was broken and how do we punish it?\", teachers were trained to ask, \"Who was harmed, and how do we repair the relationship?\"",
+    "Teachers created Restorative Circles in their classrooms. When a conflict occurred — even digital harassment on social media that spilled into the school — the students involved sat face-to-face with a facilitator. They discussed the impact of their behaviour and collectively agreed on how to fix it. Within two years, school suspensions dropped by over half, student engagement rose, and teachers reported feeling safer and more supported, even in their largest classes."
+   ],ex:{t:"Conclusion",b:[
+    "Classroom management in the digital age is not about control; it is about connection.",
+    "Replacing punitive rules with restorative practices and proactive culture-building creates a safe space where engagement thrives and disruptions naturally fade."
+   ]}},
+   {art:"help",h:"Key Ideas in This Module",p:[
+    "A positive learning environment is built deliberately, through consistent routines, warm relationships and clear expectations — it rarely happens by accident.",
+    "Behaviour management works best as a system of consistent, predictable responses rather than mood-dependent reactions from the teacher.",
+    "Restorative practices focus on repairing harm and restoring relationships rather than simply punishing rule-breaking, and they tend to reduce repeat incidents more effectively over time.",
+    "Student engagement is a management strategy in itself: a genuinely engaging lesson prevents far more disruption than any punishment does.",
+    "Managing large classes relies on strong routines, clear signals and delegated responsibilities, since one teacher cannot personally monitor every student every second.",
+    "Classroom culture is the sum of everyday small moments — how mistakes are treated, how conflict is handled, and whether students feel it is safe to try and fail."
+   ]}
+  ],
+  activity:"Design a simple three-question 'restorative conversation' script (for example: What happened? Who was affected? What should happen now?) you could use the next time a minor conflict occurs in your classroom.",
+  check:[
+   {q:"What question do restorative practices ask instead of 'what rule was broken and how do we punish it'?",o:["'How severe should the punishment be?'","'Who was harmed, and how do we repair the relationship?'","'Who can we blame?'","'How do we avoid dealing with this?'"],a:1},
+   {q:"According to this module, what happened to suspension rates after the school switched to restorative practices?",o:["They increased","They dropped by over half within two years","They stayed exactly the same","Suspensions were abolished entirely with no other change"],a:1},
+   {q:"Why is student engagement described as a management strategy in itself?",o:["Because engaged students misbehave just as often as bored ones","Because a genuinely engaging lesson prevents far more disruption than punishment does","Because engagement has nothing to do with behaviour","Because engagement only matters in small classes"],a:1},
+  ]},
+
+ {id:"edu_m7",n:7,title:"Educational Technology",mins:150,icon:"Video",
+  summary:"How everyday digital tools — from Google Workspace to Kahoot — turn passive screens into vibrant spaces for collaboration.",
+  keyWords:["digital literacy","learning management systems","Google Workspace","Kahoot","Padlet","interactive whiteboards"],
+  sections:[
+   {art:"data",h:"The Sandbox Classroom That Sparked Global Innovation",p:[
+    "In the early 2010s, many teachers viewed computers in the classroom as a dangerous distraction. Devices were often locked away in computer labs or banned altogether. Alice Keeler, a high school maths teacher and technology enthusiast, saw things differently. She believed that educational technology, used correctly, could democratise education.",
+    "When cloud productivity tools for schools were still being tested, Alice transformed her classroom into a digital sandbox. She stopped printing paper worksheets and instead used shared documents and spreadsheets to give her students real-time feedback — while a student was typing an essay or solving a maths problem, Alice would drop a live comment on their document, guiding them in the exact moment they were thinking.",
+    "When a dedicated classroom platform officially launched in 2014, Alice became a global champion for digital literacy, showing millions of sceptical teachers how tools like Kahoot, Quizizz, Padlet and Canva for Education could turn passive screens into vibrant spaces for collaboration. She demonstrated that artificial intelligence and learning management systems do not replace the human touch of a teacher — they automate routine tasks so teachers have more time to mentor their students."
+   ],ex:{t:"Conclusion",b:[
+    "Mastering educational technology is no longer an optional luxury; it is a fundamental requirement for the modern classroom.",
+    "The 21st-century educator leverages digital tools not as a gimmick, but as an accelerator for creativity, inclusion and global collaboration."
+   ]}},
+   {art:"chart",h:"Key Ideas in This Module",p:[
+    "Digital literacy means being able to confidently and critically use technology to find, evaluate, create and communicate information — for both the teacher and the student.",
+    "A Learning Management System (like Google Classroom or Microsoft Teams for Education) centralises assignments, resources, grading and communication in one place.",
+    "Google Workspace and Microsoft Education tools (documents, spreadsheets, slides, forms) support real-time collaboration and instant feedback on student work.",
+    "Canva for Education helps students and teachers create visual content — posters, infographics, presentations — without needing design training.",
+    "Kahoot and Quizizz turn review and formative assessment into fast-paced, game-like competitions that boost engagement.",
+    "Padlet and Nearpod support collaborative brainstorming and interactive, teacher-paced multimedia lessons.",
+    "Interactive whiteboards combine the visibility of a traditional board with digital annotation, video and direct links to online resources."
+   ]}
+  ],
+  activity:"Pick one Learning Management System or classroom tool mentioned in this module that you have not used before. Plan one small way you could try it in a single lesson this week.",
+  check:[
+   {q:"What was significant about Alice Keeler's early classroom approach?",o:["She banned all technology from her classroom","She used cloud tools to give students real-time feedback while they worked, rather than only after submission","She replaced herself entirely with software","She avoided any digital tools in favour of paper worksheets"],a:1},
+   {q:"What is the main purpose of a Learning Management System?",o:["To replace teachers entirely","To centralise assignments, resources, grading and communication in one place","To ban paper-based work","To only track attendance"],a:1},
+   {q:"According to this module, what is the correct role of AI and LMS tools in a classroom?",o:["To replace the human touch of a teacher","To automate routine tasks so teachers have more time to mentor students","To eliminate the need for lesson planning","To replace all forms of assessment"],a:1},
+  ]},
+
+ {id:"edu_m8",n:8,title:"Artificial Intelligence for Educators",mins:150,icon:"FlaskConical",
+  summary:"How to use AI as a teaching co-pilot for planning, differentiation and content creation — responsibly, and without losing the human element of teaching.",
+  keyWords:["artificial intelligence","AI lesson planning","AI assessment tools","responsible AI use","AI ethics"],
+  sections:[
+   {art:"science",h:"The Teacher Who Reclaimed 10 Hours a Week",p:[
+    "In early 2023, the global educational community reacted with alarm to the rise of ChatGPT. Many school districts immediately moved to ban the tool, fearing an epidemic of student cheating and the death of traditional writing. But Donnie Piercey, an elementary school teacher in Kentucky and a former Kentucky Teacher of the Year, chose a different path. He realised AI was not a threat to be feared, but a powerful assistant to be harnessed.",
+    "Before AI, Donnie spent his Sundays drowning in administrative tasks: grading, drafting customised reading passages, and building lesson plans from scratch. He began using ChatGPT as a personal teaching co-pilot — generating three different reading levels of the same historical text, instantly creating differentiated reading materials for his mixed-ability students.",
+    "In class, Donnie brought AI directly to his students for an interactive lesson on persuasive writing, having them try to out-argue a prompt generated by ChatGPT. Instead of banning the tool, he taught his students responsible AI use, showing them how to spot bias and fact-check AI-generated content. By automating lesson planning, assessment rubrics and content creation, Donnie saved nearly 10 hours of prep work every week — time he reinvested in sitting one-on-one with struggling students, offering the human encouragement AI cannot."
+   ],ex:{t:"Conclusion",b:[
+    "Artificial Intelligence will not replace teachers, but teachers who use AI well will out-perform teachers who do not.",
+    "Embracing AI for content creation and assessment allows modern educators to reduce administrative burden and focus on deep, high-value human connection."
+   ]}},
+   {art:"measure",h:"Key Ideas in This Module",p:[
+    "Artificial Intelligence, in an educational context, refers to tools that can generate text, images, feedback or analysis based on patterns learned from vast amounts of data — not genuine understanding or judgement.",
+    "ChatGPT and similar tools can help teachers draft lesson outlines, generate differentiated reading passages, and brainstorm activity ideas far faster than starting from a blank page.",
+    "AI lesson planning tools work best as a first draft generator — a teacher's professional judgement is still needed to check accuracy, tone and fit for the actual students in the room.",
+    "AI assessment tools can help generate quiz questions, provide first-pass feedback on writing, and flag common error patterns across a class.",
+    "AI content creation extends to images, presentation slides and differentiated materials — but everything generated should be reviewed before being given to students.",
+    "AI ethics in education include concerns about bias in AI-generated content, over-reliance reducing students' own critical thinking, and the importance of transparency about when AI has been used.",
+    "Responsible AI use means teaching students to fact-check and question AI output, not to copy it uncritically — modelling the same discipline teachers should apply themselves."
+   ]}
+  ],
+  activity:"Use an AI tool to generate a first draft of one lesson resource you need this week (a set of differentiated questions, a reading passage, or a rubric). Edit it critically before using it, and note what you had to correct or improve.",
+  check:[
+   {q:"How did Donnie Piercey respond to the rise of ChatGPT in his classroom, in contrast to many school districts?",o:["He banned it entirely","He used it as a teaching co-pilot to save preparation time and taught students responsible use","He ignored it completely","He replaced all lessons with AI-generated content unchecked"],a:1},
+   {q:"What is the recommended role of a teacher's professional judgement when using AI-generated lesson content?",o:["It is no longer necessary once AI is used","It is still essential — AI output should be checked for accuracy, tone and fit before use","It only applies to assessment, not planning","It should override anything the AI suggests automatically"],a:1},
+   {q:"What does 'responsible AI use' mean for students, according to this module?",o:["Copying AI output directly without review","Learning to fact-check and critically question AI-generated content","Avoiding AI tools altogether at all times","Using AI only for entertainment, never for learning"],a:1},
+  ]},
+
+ {id:"edu_m9",n:9,title:"Assessment for Learning",mins:150,icon:"ClipboardCheck",
+  summary:"Why continuous, formative feedback builds skill mastery more effectively than sorting students by a single final grade.",
+  keyWords:["formative assessment","summative assessment","rubrics","feedback strategies","authentic assessment"],
+  sections:[
+   {art:"mark",h:"From Numbers to Growth: The No-Grades Revolution",p:[
+    "For years, high school English teacher Starr Sackstein felt sick every time report card season arrived. She watched her students open their papers, look directly at the grade at the top, and either smile with relief or slump in defeat. If there was a low grade, students often threw the paper straight in the bin — none of them read the detailed feedback she had spent hours writing. The traditional summative system was killing their curiosity.",
+    "In 2013, Starr made a bold commitment: she stopped putting grades on individual assignments. Instead, she shifted entirely to a culture of formative and diagnostic assessment, replacing red ink with continuous, actionable feedback and collaborative student rubrics.",
+    "Her students were uncomfortable at first, repeatedly asking, \"But what did I get on this?\" Starr turned the question back on them, forcing them to self-assess using portfolios and authentic assessment. She held regular one-on-one feedback conferences where students had to defend their learning progress using evidence. By the end of the term, students had stopped working for a superficial number and started working for actual skill mastery — and when it came time for final report card grades, Starr and her students co-evaluated their portfolios together."
+   ],ex:{t:"Conclusion",b:[
+    "True assessment is not a mechanism for ranking students; it is a diagnostic tool to guide learning.",
+    "Shifting from rigid summative sorting to continuous, formative feedback transforms students from passive grade-chasers into self-reflective owners of their own education."
+   ]}},
+   {art:"chart",h:"Key Ideas in This Module",p:[
+    "Formative assessment happens during learning — quick checks, discussions and drafts — used to adjust teaching before the final outcome is fixed.",
+    "Summative assessment happens at the end of a unit or term to measure overall achievement against a standard, such as an exam or final project.",
+    "Diagnostic assessment happens before teaching begins, to find out what students already know or where their misconceptions lie.",
+    "Rubrics make expectations explicit and consistent, describing what different levels of quality actually look like rather than relying on a single subjective score.",
+    "Effective feedback is specific, timely and actionable — telling a student exactly what to do next, not just whether they were right or wrong.",
+    "Authentic assessment asks students to apply knowledge to a realistic task or problem, rather than simply recalling facts in isolation.",
+    "Digital assessment tools can automate quick formative checks, freeing teacher time for the deeper, qualitative feedback only a human can give."
+   ]}
+  ],
+  activity:"Take one assignment you are about to give feedback on. Rewrite your intended comments so that each one tells the student a specific, actionable next step rather than just a judgement.",
+  check:[
+   {q:"What is the key difference between formative and summative assessment?",o:["They are the same thing","Formative assessment happens during learning to guide teaching; summative assessment measures overall achievement at the end","Summative assessment only applies to young children","Formative assessment always involves a final grade"],a:1},
+   {q:"Why did Starr Sackstein stop putting grades on individual assignments?",o:["Because grading took too much of her time","Because students were ignoring detailed feedback and focusing only on the number","Because school policy required it","Because she wanted to reduce the amount of assessment overall"],a:1},
+   {q:"What makes feedback effective, according to this module?",o:["Being vague so students can interpret it themselves","Being specific, timely and actionable","Being delivered only at the end of the term","Focusing solely on what was wrong, without next steps"],a:1},
+  ]},
+
+ {id:"edu_m10",n:10,title:"Communication Skills",mins:150,icon:"Users",
+  summary:"How storytelling, public speaking and difficult conversations turn parents and communities into allies rather than adversaries.",
+  keyWords:["public speaking","storytelling","parent communication","difficult conversations","conflict resolution"],
+  sections:[
+   {art:"talk",h:"The Principal Who Unified a Divided Community",p:[
+    "Dr. Nadia Lopez ran a public middle school in Brownsville, Brooklyn — a neighbourhood known for having one of the highest crime rates in New York City. Her school was severely underfunded, and many parents were deeply distrustful of the education system, making parent communication difficult. Dr. Lopez knew that formal letters and dry presentations would never break down these walls of mistrust.",
+    "She decided to use the power of storytelling and public speaking to change the narrative around her school, publicising the brilliance of her students and treating every public appearance as a chance to change how the world viewed her community.",
+    "Her communication strategy caught wider attention. A single photograph and quote from one of her students went viral, raising over a million dollars for her school within weeks. When faced with difficult conversations and tense conflicts, Dr. Lopez did not hide behind an office door — she used strong conflict resolution skills, hosting open community circles and inviting parents to become active partners in the school's culture. Her radically empathetic communication transformed the school from an isolated building into the proud focal point of the neighbourhood."
+   ],ex:{t:"Conclusion",b:[
+    "An educator's impact is capped by their ability to communicate.",
+    "Mastering public speaking, parent communication and conflict resolution allows a 21st-century educator to build a protective circle of support around their students, turning parents into active allies."
+   ]}},
+   {art:"listen",h:"Key Ideas in This Module",p:[
+    "Public speaking confidence is built through preparation and repetition, not natural talent alone — every confident speaker was once a nervous one.",
+    "Storytelling in teaching makes abstract ideas memorable, humanises data, and is one of the most effective tools for winning support from parents and communities.",
+    "Parent communication works best when it is frequent, two-way and includes good news — not only calls home when something has gone wrong.",
+    "Difficult conversations (with a parent, colleague or student) go better when the educator states facts calmly, listens fully, and focuses on solutions rather than blame.",
+    "Conflict resolution relies on identifying the real underlying need behind a disagreement, not just the surface-level complaint.",
+    "Presentation skills — clear structure, appropriate pacing, and reading the room — apply just as much to a staff meeting or parents' evening as to a classroom lesson."
+   ]}
+  ],
+  activity:"Draft a short 'good news' message you could send to one parent this week about their child — unprompted by any problem — and consider making this a regular habit.",
+  check:[
+   {q:"What communication strategy did Dr. Nadia Lopez use to change perceptions of her under-resourced school?",o:["Formal letters and legal notices","Storytelling and public speaking that showcased her students' brilliance","Avoiding public attention entirely","Strict, one-way communication with parents"],a:1},
+   {q:"According to this module, when should parent communication ideally happen?",o:["Only when there is a serious problem","Frequently and two-way, including good news, not only when something goes wrong","Once per year at a single meeting","Never, to avoid overburdening parents"],a:1},
+   {q:"What is the recommended focus when resolving conflict, according to this module?",o:["Assigning blame quickly","Identifying the real underlying need behind the disagreement and focusing on solutions","Avoiding the conversation altogether","Winning the argument at any cost"],a:1},
+  ]},
+
+ {id:"edu_m11",n:11,title:"Safeguarding and Child Protection",mins:150,icon:"Shield",
+  summary:"How early recognition of behavioural warning signs and proper reporting procedures can protect a child from serious harm.",
+  keyWords:["child protection","safeguarding","bullying prevention","online safety","reporting procedures"],
+  sections:[
+   {art:"law",h:"The Alert Teacher Who Exposed Cybergrooming",p:[
+    "A middle school teacher noticed a subtle, worrying shift in the behaviour of one of her brightest students. The student, usually vibrant and talkative, became secretive, anxious and obsessed with her smartphone during class. Her grades dropped, and she began isolating herself from friends. A less-trained teacher might have dismissed this as typical teenage moodiness, or simply punished the phone use in class.",
+    "But this teacher was fully trained in 21st-century safeguarding and child protection principles. She recognised these behavioural shifts as potential indicators of an online safety threat or a mental health crisis. Instead of confronting the student publicly, she used established reporting procedures, looping in the school counsellor and safeguarding officer.",
+    "Because the educator intervened early, the school uncovered that the student was being actively targeted and groomed online by an adult predator posing as a teenager on a popular gaming app. The teacher's quick action, combined with a swift school-wide rollout of an online safety and bullying prevention curriculum, protected the student from serious harm. The school used the event to launch mental health awareness workshops, empowering students to spot digital red flags and look out for one another."
+   ],ex:{t:"Conclusion",b:[
+    "Safeguarding is not an administrative box to check; it is a life-saving responsibility.",
+    "A 21st-century educator maintains steady vigilance over both the physical and digital well-being of their learners, ensuring the classroom remains a secure space for every child."
+   ]}},
+   {art:"help",h:"Key Ideas in This Module",p:[
+    "Child protection principles centre on the idea that every child has the right to be safe, and every adult working with children shares responsibility for that safety.",
+    "Safeguarding responsibilities include knowing your school's policy, recognising warning signs, and knowing exactly who to report a concern to — safeguarding is never a decision to be made alone.",
+    "Bullying prevention requires proactive culture-building, not just reacting after an incident — clear reporting channels and consistent follow-through matter most.",
+    "Online safety education should cover privacy settings, recognising grooming behaviour, and what to do if a child encounters something upsetting or unsafe online.",
+    "Mental health awareness helps educators notice sudden changes in mood, behaviour or attendance that may signal a student is struggling.",
+    "Reporting procedures exist so concerns reach trained professionals quickly and consistently — a teacher's job is to notice and report, not to investigate or confront alone."
+   ]}
+  ],
+  activity:"Locate (or request from your administrator) your school's actual safeguarding reporting procedure, and write out, step by step, exactly what you would do if a student disclosed a safety concern to you tomorrow.",
+  check:[
+   {q:"What should a teacher do upon noticing a student showing behavioural warning signs, such as sudden secrecy and anxiety, according to this module?",o:["Ignore it as typical teenage behaviour","Confront the student publicly in class","Use established reporting procedures and involve trained staff such as a counsellor or safeguarding officer","Handle it alone without involving anyone else"],a:2},
+   {q:"What is a core principle of safeguarding responsibilities described in this module?",o:["Only the head teacher needs to know school policy","A teacher's job is to notice and report, not to investigate or confront alone","Safeguarding concerns should be kept private from all staff","Safeguarding only applies to physical safety, not online safety"],a:1},
+   {q:"What is bullying prevention described as requiring, beyond reacting after incidents?",o:["Strict punishment only","Proactive culture-building with clear reporting channels and consistent follow-through","Ignoring minor incidents to avoid overreacting","Relying solely on students to resolve conflicts themselves"],a:1},
+  ]},
+
+ {id:"edu_m12",n:12,title:"Inclusive Education",mins:150,icon:"Sparkles",
+  summary:"How Universal Design for Learning removes the stigma of accommodation by building accessibility into every lesson from the start.",
+  keyWords:["special educational needs","universal design for learning","differentiation","accessibility","equity"],
+  sections:[
+   {art:"scale",h:"The School That Made Inclusion a Shared Mission",p:[
+    "A public school team faced a significant challenge: a surge in student enrolment featuring highly diverse learning profiles, including children with autism, severe dyslexia, physical disabilities, and students who spoke no English. Teachers initially tried traditional differentiation, creating five different versions of every worksheet. They became exhausted, and students felt singled out and embarrassed by the obvious modifications.",
+    "The school leadership team changed course. They set aside the old remediation model and adopted Universal Design for Learning. Instead of changing lessons after they were written, they built accessibility directly into the curriculum from the very start.",
+    "The classrooms were overhauled. Lessons offered multiple ways for students to engage: for a history project, students could write an essay, build a digital graphic, or record an oral podcast. Speech-to-text software and visual schedules became standard tools for everyone, not just students with additional needs. By removing the stigma around accommodations, equity became a reality — students who had previously been silent began leading group projects, and overall performance rose across the school."
+   ],ex:{t:"Conclusion",b:[
+    "Inclusive education means planning for diversity from the first minute, not as an afterthought.",
+    "Embracing Universal Design for Learning ensures accessibility and equity are woven into the fabric of the classroom, allowing every learner to thrive without unnecessary barriers."
+   ]}},
+   {art:"gap",h:"Key Ideas in This Module",p:[
+    "Special Educational Needs (SEN) refers to students who require additional or different support to access the curriculum — which can include learning, physical, sensory or emotional needs.",
+    "Universal Design for Learning offers multiple means of engagement, representation and action/expression from the outset, rather than retrofitting a lesson for individual students afterward.",
+    "Differentiation adjusts what, how or through what product students learn, matched to their current readiness — while still working toward the same core learning goal.",
+    "Accessibility means removing physical, sensory and technological barriers so every student can genuinely participate — captions, readable fonts, accessible formats and clear structure all count.",
+    "Equity in education means giving each student what they specifically need to succeed, which is not always the identical thing given to every other student."
+   ]}
+  ],
+  activity:"Choose one upcoming assignment and redesign it to offer students at least two different ways to demonstrate their learning (for example, written, spoken, or visual), without changing the underlying learning goal.",
+  check:[
+   {q:"What is the key difference between traditional differentiation (as first attempted in this module's story) and Universal Design for Learning?",o:["They are identical approaches","UDL builds accessibility into the lesson from the start, rather than creating separate modified versions afterward","UDL only applies to students without additional needs","Traditional differentiation is always faster to plan"],a:1},
+   {q:"What did removing the stigma around accommodations achieve in the school described in this module?",o:["Students became more isolated","Previously silent students began leading group projects and overall performance rose","No noticeable change occurred","Only SEN students benefited"],a:1},
+   {q:"What does equity in education mean, according to this module?",o:["Giving every student the exact same resources regardless of need","Giving each student what they specifically need to succeed","Ignoring individual student needs entirely","Only applying to students with formally diagnosed conditions"],a:1},
+  ]},
+
+ {id:"edu_m13",n:13,title:"Global Education Systems",mins:150,icon:"BookOpen",
+  summary:"How understanding the strengths of different global curricula gives a teacher career flexibility and a richer toolkit.",
+  keyWords:["Cambridge curriculum","IB curriculum","British curriculum","American curriculum","Nigerian curriculum","comparative analysis"],
+  sections:[
+   {art:"global",h:"The Global Educator Mastering Multiple Curricula",p:[
+    "Kaycee Simmons took a teaching job at a leading international school serving a highly mobile expatriate community. The school required staff to deliver a complex, blended curriculum combining elements of the British National Curriculum, the International Baccalaureate, and local national standards. Many teachers struggled, fiercely loyal to the single curriculum they grew up with, which created friction and disjointed learning experiences for students.",
+    "Kaycee chose a mindset of comparative analysis instead. She spent her first term mapping the unique strengths of each system: the British and Cambridge curricula's deep, structured subject mastery; the American system's flexible, elective-based practical learning; the IB curriculum's emphasis on global citizenship and inquiry; and the Nigerian curriculum's rigorous academic foundation and rich cultural context.",
+    "Instead of fighting the differences, Kaycee blended the strongest elements of each system into her daily practice — using structured assessment frameworks to ensure rigour, while embedding the student-led, inquiry-driven projects the IB is known for. Her classroom became a model for the entire school: students moving abroad or staying local all excelled, because Kaycee had learned to work fluently across global curricula."
+   ],ex:{t:"Conclusion",b:[
+    "A 21st-century educator is not restricted by geographical boundaries or a single national syllabus.",
+    "Conducting ongoing comparative analysis of global education systems grants career flexibility and the ability to prepare students for global relevance."
+   ]}},
+   {art:"culture",h:"Key Ideas in This Module",p:[
+    "The Cambridge curriculum (IGCSE, A-Levels, Checkpoint) is known for structured subject mastery and internationally recognised, rigorous assessment.",
+    "The IB curriculum places strong emphasis on inquiry, global citizenship and interdisciplinary thinking, culminating in the IB Diploma for older students.",
+    "The British National Curriculum provides a structured, subject-based national framework used across many UK-linked schools worldwide.",
+    "The American curriculum tends to be flexible and elective-based, allowing students to choose from a wider range of subjects and practical pathways.",
+    "The Nigerian curriculum blends rigorous academic content with strong cultural relevance, preparing students for both national examinations and local context.",
+    "Comparative analysis — actively studying what each system does well — helps an educator borrow effective practices rather than staying rigidly loyal to only one system."
+   ]}
+  ],
+  activity:"Research one curriculum other than the one you currently teach. Identify one practice or strength from it that you could realistically borrow for your own classroom.",
+  check:[
+   {q:"What mindset allowed Kaycee Simmons to succeed in a school blending multiple curricula?",o:["Fierce loyalty to a single curriculum","A mindset of comparative analysis, blending the strengths of each system","Refusing to adapt to any new curriculum","Avoiding assessment altogether"],a:1},
+   {q:"What is the IB curriculum particularly known for, according to this module?",o:["Rigid rote memorisation only","Inquiry, global citizenship and interdisciplinary thinking","Ignoring international perspectives entirely","Having no formal assessment"],a:1},
+   {q:"Why does understanding multiple global education systems benefit a teacher's career, according to this module?",o:["It has no real career benefit","It grants career flexibility and helps prepare students for global relevance","It only matters for administrators, not classroom teachers","It replaces the need to know any curriculum well"],a:1},
+  ]},
+
+ {id:"edu_m14",n:14,title:"Professional Branding for Teachers",mins:150,icon:"Target",
+  summary:"How building a visible teaching portfolio and professional network turns an invisible classroom teacher into a sought-after professional.",
+  keyWords:["teaching portfolio","CV writing","LinkedIn for educators","personal brand","networking"],
+  sections:[
+   {art:"achieve",h:"The LinkedIn Profile That Launched a Career",p:[
+    "Jarod Bormann was a highly creative classroom teacher working in relative obscurity. He designed excellent, technology-infused lessons for his students every day, but his impact stopped at his classroom door. He noticed that many amazing teachers stayed invisible because they relied on traditional, passive CVs and waited for opportunities to find them.",
+    "Jarod decided to treat his professional life like a personal brand. He built a dynamic digital teaching portfolio that visually documented his classroom innovations. He didn't just list his skills on paper — he began using professional networks to share short videos of his students engaged in active learning, reflections on teaching setbacks, and practical tips on educational technology.",
+    "His online presence caught the attention of school administrators, international recruiters and conference organisers. Within a year, Jarod went from an isolated classroom teacher to a sought-after speaker, author and professional development consultant. When he walked into interviews for advanced leadership roles, his digital footprint had already done much of the interview preparation for him — he had built a network of global educators who opened doors to opportunities he didn't even know existed."
+   ],ex:{t:"Conclusion",b:[
+    "Your teaching portfolio is your digital handshake to the world.",
+    "Building a strong personal brand through professional networking transforms you from a local applicant into a globally sought-after educational professional."
+   ]}},
+   {art:"roles",h:"Key Ideas in This Module",p:[
+    "A teaching portfolio should document real evidence of your practice — lesson samples, student outcomes, reflections and photos or videos of learning in action — not just a list of claims.",
+    "A strong CV for education highlights measurable impact (attendance improvement, exam results, programmes you launched) rather than only listing responsibilities.",
+    "LinkedIn and similar professional networks let educators share their work publicly, connect with recruiters, and build visibility beyond their own school.",
+    "Interview preparation for teaching and leadership roles benefits from concrete stories: a specific challenge, what you did, and the measurable result.",
+    "A personal brand for a teacher is simply a consistent, authentic way of presenting your expertise and values so opportunities can find you, not only the other way round.",
+    "Networking — attending conferences, joining educator communities, engaging with other professionals online — often opens doors that formal applications alone do not."
+   ]}
+  ],
+  activity:"Draft the first three lines of a professional profile summary (for LinkedIn or a portfolio site) that describes your teaching impact using one specific, measurable achievement.",
+  check:[
+   {q:"What limited Jarod Bormann's impact before he built his professional brand?",o:["He lacked teaching skill","His impact stopped at his classroom door because he relied on passive CVs and waited for opportunities to find him","He had no interest in professional development","He taught in an under-resourced school"],a:1},
+   {q:"What should a strong education CV emphasise, according to this module?",o:["A long list of job responsibilities only","Measurable impact, such as improved results or programmes launched","Personal hobbies unrelated to teaching","The length of the document above all else"],a:1},
+   {q:"What is a teaching portfolio meant to contain, according to this module?",o:["Only a list of qualifications","Real evidence of practice, such as lesson samples, outcomes and reflections","Unrelated personal photographs","A copy of the national curriculum"],a:1},
+  ]},
+
+ {id:"edu_m15",n:15,title:"Career Growth and International Opportunities",mins:150,icon:"Target",
+  summary:"How upgrading certifications and thinking globally can lift the ceiling off a teaching career beyond the standard promotion ladder.",
+  keyWords:["international schools","remote teaching","teaching abroad","professional certifications","educational consultancy"],
+  sections:[
+   {art:"migrate",h:"From a Local Classroom to Global Impact",p:[
+    "Ify Obidi-Walker spent years working hard within a traditional school system. While she loved her students, she felt limited by rigid local leadership pathways and standard teacher salaries. She knew she had skills that were globally relevant, but didn't know how to break out of her local ecosystem into international schools, remote teaching, or global educational consultancy.",
+    "Instead of waiting for an opportunity, Ify invested in upgrading her professional certifications, studied international safeguarding standards, mastered global digital tools, and researched what top-tier schools abroad actually required. She realised international recruiters look for educators who understand modern student psychology and cross-cultural communication.",
+    "She launched a platform turning her classroom insights into practical advice for parents and teachers globally, transitioning from a traditional teacher into an educational consultant. Within a few years, her expertise was recognised internationally — she was landing speaking engagements, advising schools on student engagement, and creating remote income streams. A teacher's career path, she proved, doesn't have to end at becoming a deputy head; it can expand into a genuinely global enterprise."
+   ],ex:{t:"Conclusion",b:[
+    "The world is looking for highly skilled, culturally agile educators.",
+    "By targeting international professional certifications and exploring remote teaching or consulting pathways, you can lift the ceiling off your career and step into global professional growth."
+   ]}},
+   {art:"steps",h:"Key Ideas in This Module",p:[
+    "International schools generally look for educators who can adapt to diverse, mobile student populations and blend multiple curricula effectively.",
+    "Remote teaching opportunities have expanded significantly, allowing qualified educators to reach students or clients well beyond their home country.",
+    "Teaching abroad requires research into visa requirements, cost of living, curriculum expectations and cultural adjustment — preparation matters as much as qualification.",
+    "Professional certifications (such as international safeguarding training, subject-specific credentials, or leadership qualifications) are often what separates a shortlisted international candidate from the rest.",
+    "Educational consultancy allows an experienced educator to advise schools, families or organisations, often on a flexible or freelance basis.",
+    "Leadership pathways in education no longer only mean becoming a head teacher — they can include curriculum leadership, consultancy, training and educational entrepreneurship."
+   ]}
+  ],
+  activity:"Research one international teaching, remote teaching, or consultancy opportunity that interests you. List the two or three qualifications or certifications you would need to be a competitive candidate for it.",
+  check:[
+   {q:"What limitation did Ify Obidi-Walker feel within a traditional local school system?",o:["She felt she had no relevant skills","She felt limited by rigid local leadership pathways and standard salaries, despite having globally relevant skills","She disliked teaching entirely","She had no interest in professional growth"],a:1},
+   {q:"What do international recruiters look for, according to this module?",o:["Only local teaching experience","Educators who understand modern student psychology and cross-cultural communication","Educators unwilling to adapt to new curricula","The lowest-cost candidate only"],a:1},
+   {q:"According to this module, where can a teacher's career path lead beyond the standard promotion ladder?",o:["Nowhere beyond classroom teaching","Curriculum leadership, consultancy, training and educational entrepreneurship","Only into unrelated fields","It cannot expand beyond a single school"],a:1},
+  ]},
+
+ {id:"edu_m16",n:16,title:"Research and Reflective Practice",mins:150,icon:"FlaskConical",
+  summary:"How a structured action research cycle turns classroom hunches into proven, data-backed instructional improvements.",
+  keyWords:["action research","reflective teaching","data-informed instruction","professional learning communities","continuous improvement"],
+  sections:[
+   {art:"theory",h:"The Action Research Project That Halved Failure Rates",p:[
+    "A group of ninth-grade teachers noticed a troubling data trend during a Professional Learning Community meeting: nearly 35% of their students were failing freshman algebra, a metric that historically predicted a sharply higher chance of dropping out of school entirely. The easy response would have been to blame students' background knowledge, or simply offer standard after-school tutoring.",
+    "Instead, the team launched a formal Action Research project, committing to a rigorous cycle of reflective teaching and data-informed instruction. They formed a central question: would introducing ten minutes of gamified, low-stakes formative assessment at the start of every class improve long-term concept retention?",
+    "For a full term, the teachers collected daily data — quiz scores, engagement metrics, and qualitative feedback — meeting weekly to analyse it and adjust lesson plans based on actual evidence rather than guesswork. By the end of the school year, the failure rate had dropped from 35% to under 12%. The teachers hadn't just fixed a short-term problem; they had created a permanent, proven instructional framework that was adopted across the entire school district."
+   ],ex:{t:"Conclusion",b:[
+    "Great educators do not rely on intuition alone; they rely on evidence.",
+    "Engaging in continuous action research and reflective teaching within a professional learning community ensures instruction is data-informed, highly effective and dedicated to continuous improvement."
+   ]}},
+   {art:"data",h:"Key Ideas in This Module",p:[
+    "Action research is a cycle of identifying a real classroom problem, trying a specific change, collecting evidence, and adjusting — repeated deliberately rather than left to chance.",
+    "Reflective teaching means regularly examining your own practice honestly: what worked, what didn't, and why, rather than repeating the same approach unexamined year after year.",
+    "Data-informed instruction uses actual evidence — quiz results, attendance, engagement patterns — to guide teaching decisions, rather than relying purely on impression.",
+    "Professional Learning Communities bring groups of teachers together to examine shared data and collaboratively solve instructional problems.",
+    "Continuous improvement treats teaching practice as something that is never quite finished — always open to a next small, evidence-based adjustment."
+   ]}
+  ],
+  activity:"Identify one recurring problem in your own teaching (a topic students consistently struggle with, for example). Write a simple action research question you could test over the next month, and how you would measure the result.",
+  check:[
+   {q:"What triggered the teachers' action research project in this module's story?",o:["A new government policy","A troubling data trend showing nearly 35% of students failing freshman algebra","A request from parents","A change in the school's timetable"],a:1},
+   {q:"What is the core cycle of action research, according to this module?",o:["Guessing and hoping for the best","Identifying a problem, trying a specific change, collecting evidence, and adjusting","Only reading academic theory without classroom application","Repeating the same method regardless of results"],a:1},
+   {q:"What is the purpose of a Professional Learning Community, according to this module?",o:["To assign blame for poor results","To bring teachers together to examine shared data and collaboratively solve instructional problems","To replace individual teacher reflection entirely","To focus purely on administrative tasks"],a:1},
+  ]},
+
+ {id:"edu_m17",n:17,title:"Financial Growth for Educators",mins:150,icon:"Sparkles",
+  summary:"How packaging classroom expertise into digital products can build income streams well beyond a fixed teaching salary.",
+  keyWords:["multiple income streams","educational entrepreneurship","online teaching","course creation","coaching and mentoring"],
+  sections:[
+   {art:"chance",h:"The Teacher Who Turned a Worksheet into a Global Business",p:[
+    "Deanna Jump was a hardworking kindergarten teacher in Georgia, USA, earning a modest salary. Like millions of educators globally, she constantly created her own lesson plans, activities and worksheets from scratch because her school's textbooks were outdated. For years, she gave these resources away to colleagues for free, unaware of the financial value of her own intellectual property.",
+    "Her situation changed when she discovered an online platform where educators could sell their teaching resources. She decided to take a small risk on educational entrepreneurship, uploading a few colourful, engaging unit plans for a few dollars each. In her first month, she made a modest amount. Instead of stopping there, she studied digital content marketing and what other educators desperately needed.",
+    "She began creating premium, comprehensive curriculum packages. Within a couple of years, Deanna became one of the platform's most successful sellers. By packaging her daily classroom insights into downloadable digital resources, she built a genuine additional income stream that grew alongside her teaching career. She didn't leave education — she expanded her impact, eventually writing books and coaching other educators on how to turn their own classroom expertise into a source of income."
+   ],ex:{t:"Conclusion",b:[
+    "Your teaching expertise is a genuinely valuable asset beyond the classroom.",
+    "By exploring educational entrepreneurship, course creation and digital publishing, a 21st-century educator can build income streams beyond a single fixed salary."
+   ]}},
+   {art:"achieve",h:"Key Ideas in This Module",p:[
+    "Multiple income streams reduce financial dependence on a single salary, and for educators can often be built directly from existing classroom expertise.",
+    "Educational entrepreneurship might mean selling lesson resources, running a tutoring business, or creating educational products — treating your expertise as a genuine asset.",
+    "Online teaching platforms allow educators to reach students or clients well beyond their local area, often on a flexible schedule.",
+    "Course creation packages an educator's expertise into a reusable digital product that can be sold repeatedly, rather than trading time for money one lesson at a time.",
+    "Writing educational books allows an educator to share expertise at scale and build credibility that can open further opportunities.",
+    "Coaching and mentoring other educators — formally or informally — is both a service others will pay for and a way to strengthen your own practice."
+   ]}
+  ],
+  activity:"Identify one resource you have already created for your own classroom (a worksheet, lesson plan, or activity). Outline what it would take to turn it into something you could package and share more widely.",
+  check:[
+   {q:"What did Deanna Jump initially do with the classroom resources she created, before discovering their financial value?",o:["Sold them immediately","Gave them away for free to colleagues, unaware of their value","Kept them entirely private","Destroyed them after use"],a:1},
+   {q:"What does course creation allow an educator to do, according to this module?",o:["Trade time for money one lesson at a time only","Package expertise into a reusable digital product that can be sold repeatedly","Avoid ever sharing their teaching methods","Replace classroom teaching entirely"],a:1},
+   {q:"According to this module, what is the main benefit of building multiple income streams as an educator?",o:["It has no real benefit","It reduces financial dependence on a single salary, often by leveraging existing classroom expertise","It requires abandoning the teaching profession","It only benefits school administrators"],a:1},
+  ]},
+
+ {id:"edu_m18",n:18,title:"Capstone Project",mins:180,icon:"ClipboardCheck",
+  summary:"Bringing every module together into one professional portfolio that proves — not just describes — your growth as a 21st-century educator.",
+  keyWords:["capstone project","professional portfolio","career development plan","lesson plan","technology integration"],
+  sections:[
+   {art:"target",h:"Putting Theory into Practice: The Global Portfolio Triumph",p:[
+    "A mid-career educator sat down to synthesise a year's worth of professional training. For months, they had learned about advanced pedagogical frameworks, AI tools and inclusive methodologies. But they knew that true teacher leadership does not come from memorising facts for a multiple-choice test; it comes from the practical execution of those skills in the real world.",
+    "The educator treated their final Capstone Project not as a standard academic assignment, but as a launchpad for their career. They built a 21st-century lesson plan rooted in backward design, layered in a technology-integrated classroom project where students used digital tools and AI to explore local environmental challenges, backed by an automated digital assessment rubric.",
+    "Finally, the educator compiled all of these components into a clear, public-facing digital professional portfolio, complete with a structured career development plan. When an international school network was later searching for innovative staff, they came across this exact portfolio. The recruiters were impressed enough by the clear evidence of modern teaching mastery that they moved the educator straight to an advanced interview stage — proof that a well-executed portfolio is one of the most valuable things a modern educator can build."
+   ],ex:{t:"Conclusion",b:[
+    "The Capstone Project is the ultimate demonstration of your transformation into a 21st-century educator.",
+    "By binding your lesson plans, technology projects, assessments and career plans into a single, cohesive professional portfolio, you create clear evidence of your global relevance and professional growth."
+   ]}},
+   {art:"steps",h:"Key Ideas in This Module",p:[
+    "A 21st-century lesson plan for your capstone should apply backward design: a clear learning goal, evidence of understanding, and activities that build toward both.",
+    "A technology-integrated classroom project should show genuine student use of digital tools — not just a teacher using a slideshow — solving a real or realistic problem.",
+    "A digital assessment component should include a rubric or structured criteria, not just a single overall grade, so growth is measurable.",
+    "A professional teaching portfolio brings together your best lesson samples, reflections and evidence of impact in one place, ready to share with a future employer or recruiter.",
+    "A career development plan sets out concrete next steps — certifications, roles or skills — for the next one to five years, so growth continues beyond this course."
+   ]}
+  ],
+  activity:"Begin assembling your Capstone Project: select one lesson plan, one technology-integrated project idea, and one assessment rubric you have already created or improved during this course, and organise them into the start of a professional portfolio.",
+  check:[
+   {q:"What did the educator in this module's story treat their Capstone Project as, rather than a standard academic assignment?",o:["An assignment to complete and forget","A launchpad for their career, proving practical mastery of course skills","An optional extra with no real value","A purely theoretical exercise"],a:1},
+   {q:"What should a digital assessment component of a capstone include, according to this module?",o:["A single overall grade with no further detail","A rubric or structured criteria so growth is measurable","No assessment component at all","Only a pass or fail marker"],a:1},
+   {q:"What is a career development plan meant to do, according to this module?",o:["Summarise the past with no forward focus","Set out concrete next steps for growth over the next one to five years","Replace the need for a professional portfolio","Apply only to teachers seeking to leave education"],a:1},
+  ]},
+];
+
+
+const EDU_Q=[
+{ao:"21st Century Classroom",q:"A teacher insists on using only textbooks from 1995 because 'the fundamentals never change,' while ignoring that her students research answers on their phones mid-lesson. Which principle from this course is she most clearly violating?",o:["The idea that a 21st-century educator must adapt to global trends and today's learners rather than resist them","The idea that subject knowledge no longer matters","The principle that technology should never be used in class","The principle that textbooks must always be replaced immediately"],a:0},
+{ao:"21st Century Classroom",q:"Maggie MacDonnell's success in Ikusik is best explained by which of the following?",o:["She imported a standard curriculum from a wealthy city unchanged","She built community-led, holistic programmes that connected learning to real local needs","She reduced contact with the community to focus purely on academics","She replaced all teachers with online modules"],a:1},
+{ao:"21st Century Classroom",q:"Which statement most accurately reflects the 'future of teaching' as described in this course?",o:["Technology will fully replace teachers within a decade","Teachers will use available tools to reach learners who no longer fit one standard mould, without being replaced by those tools","All classrooms will become identical worldwide","The future of teaching requires abandoning all traditional methods"],a:1},
+{ao:"21st Century Classroom",q:"A school proudly claims to be '21st-century' because every classroom has a projector, yet lessons remain pure lecture with no student interaction. What is the most accurate assessment?",o:["The school has genuinely modernised because of the hardware present","Owning technology alone does not define a 21st-century classroom without a corresponding shift in teaching approach","Projectors are irrelevant to 21st-century education and should be removed","This is the ideal 21st-century classroom"],a:1},
+{ao:"21st Century Classroom",q:"What is the most significant distinction between global trends in education today and traditional 20th-century schooling?",o:["Global trends emphasise personalised, blended learning and deeper understanding over rote recall alone","Global trends require eliminating all assessment","Traditional schooling was entirely online","There is no meaningful distinction"],a:0},
+{ao:"21st Century Classroom",q:"Why does this course argue that today's learners' characteristics must directly shape teaching approach, rather than being treated as a discipline problem?",o:["Because learner characteristics are irrelevant to instructional design","Because ignoring how students naturally engage (digitally, visually, interactively) tends to produce disengagement that looks like a behaviour issue but is really a design issue","Because discipline problems never relate to lesson design","Because all learners in every generation behave identically"],a:1},
+{ao:"Mindset & Growth",q:"A teacher tells a struggling colleague, 'Some people are just born good at maths, there's nothing to be done.' Which concept from this course does this statement contradict?",o:["Fixed mindset is the correct model for ability","Growth mindset — the belief that ability can be developed through effort and strategy","Emotional intelligence has no bearing on teaching","Adaptability is unnecessary for educators"],a:1},
+{ao:"Mindset & Growth",q:"Dr. Barbara Oakley's transformation from failing math in school to earning a PhD in engineering illustrates which combination of concepts most precisely?",o:["Natural talent alone, without any mindset shift","A deliberate growth mindset plus treating failure as feedback, i.e. cognitive adaptability","Avoiding all further study of difficult subjects","Relying solely on innate ability"],a:1},
+{ao:"Mindset & Growth",q:"Which of the following best demonstrates teacher leadership without holding a formal management title?",o:["Waiting to be promoted before taking any initiative","Voluntarily mentoring a struggling new colleague and piloting a new teaching approach","Refusing to share ideas until asked by an administrator","Avoiding all responsibility outside one's own classroom"],a:1},
+{ao:"Mindset & Growth",q:"An educator who models resilience for students by openly discussing a lesson that failed and what she learned from it is primarily demonstrating which combination?",o:["Fixed mindset and avoidance","Vulnerability as a lifelong learner combined with emotional intelligence","Professional misconduct","A lack of adaptability"],a:1},
+{ao:"Mindset & Growth",q:"Why does this course argue that professional ethics must underpin every other mindset skill (adaptability, leadership, emotional intelligence)?",o:["Because ethics are unrelated to daily teaching decisions","Because fairness, honesty and acting in students' best interest are the foundation that makes leadership and adaptability trustworthy rather than merely self-serving","Because ethics only apply to school administrators","Because ethics replace the need for adaptability entirely"],a:1},
+{ao:"Today's Learners",q:"Sam Kary's initial failure during emergency remote teaching in 2020 is best explained by which of the following?",o:["He used too many interactive tools from the start","He applied traditional, lecture-heavy methods that did not match how digitally native Gen Z/Alpha students engage","His students lacked any access to devices","He focused too heavily on emotional check-ins"],a:1},
+{ao:"Today's Learners",q:"A teacher assumes all disengaged students are simply lazy, without considering learning style or relevance. What does this course suggest is the more accurate explanation in many cases?",o:["Laziness is always the correct explanation","Lessons that ignore student motivation factors like relevance, autonomy and interactivity often produce disengagement that looks like laziness","Disengagement is always caused by poor discipline systems only","Student motivation is irrelevant to engagement"],a:1},
+{ao:"Today's Learners",q:"Which best distinguishes inclusive education from simply being 'nice' to struggling students?",o:["Inclusive education means deliberately designing lessons so students of differing abilities and backgrounds can genuinely participate, not just being polite","Inclusive education requires lowering expectations for all students","Inclusive education is unrelated to lesson design","Inclusive education only applies to students with a diagnosed condition"],a:0},
+{ao:"Today's Learners",q:"A teacher gives every student in class an identical worksheet and identical pacing regardless of interest or need. According to this module, what is most likely to result?",o:["Universal high engagement across all students","Uneven engagement, since today's learners generally respond better to some degree of choice and relevance","Complete elimination of behaviour issues","Perfectly equal outcomes for every student"],a:1},
+{ao:"Today's Learners",q:"What did Sam Kary do differently after recognising his initial approach was failing?",o:["He reverted to even more traditional lecturing","He researched student motivation and preferences, then used gamified platforms, bite-sized videos and varied output formats","He removed all technology from his teaching entirely","He stopped checking in on students' well-being"],a:1},
+{ao:"Today's Learners",q:"Building positive relationships with today's learners is best supported by which of the following, according to this course?",o:["Treating every student identically regardless of individual interest or context","Knowing students as individuals — their interests, struggles and what makes them feel safe to take risks","Avoiding any personal knowledge of students to remain strictly professional","Relying only on grades to communicate with students"],a:1},
+{ao:"Curriculum Planning",q:"A teacher plans lessons by opening the textbook to the next page each day, with no clear end goal in mind. Which core weakness does Backward Design directly address?",o:["Planning activity-by-activity without first identifying the desired understanding and evidence of learning","Using too many learning objectives","Focusing too much on assessment before planning any activities","Cross-curricular collaboration"],a:0},
+{ao:"Curriculum Planning",q:"Which of the following is the most accurate SMART learning objective?",o:["Students will learn about ecosystems","Students will enjoy studying ecosystems","Students will correctly identify three producer-consumer relationships in a given ecosystem diagram by the end of the lesson","Students will explore nature"],a:2},
+{ao:"Curriculum Planning",q:"Two teachers from different subjects design one joint project mapping historical events to their economic consequences. This exemplifies which concept?",o:["Differentiated instruction","Cross-curricular integration","Diagnostic assessment","Restorative practice"],a:1},
+{ao:"Curriculum Planning",q:"Why does this course argue that curriculum mapping should happen before, not during, a term?",o:["So that gaps and repetition are visible and can be corrected before instruction begins, rather than discovered mid-term","Because mapping is only useful after the term ends","Because curriculum mapping has no effect on gaps or repetition","Because it eliminates the need for lesson planning altogether"],a:0},
+{ao:"Curriculum Planning",q:"Differentiated instruction, correctly applied, means which of the following?",o:["Lowering the learning goal for some students permanently","Adjusting content, process or product to match readiness or interest while keeping the same core learning goal","Teaching every student in an identical way regardless of readiness","Removing assessment for struggling students"],a:1},
+{ao:"Teaching Methodologies",q:"In the Flipped Classroom model pioneered by Bergmann and Sams, what changes about the role of class time?",o:["Class time is used for lecture, and homework is used for practice","Direct instruction moves to homework (often via video), freeing class time for active practice, discussion and support","Class time is eliminated entirely","Homework is eliminated entirely"],a:1},
+{ao:"Teaching Methodologies",q:"A group project where one strong student silently completes the entire task while three others watch is a failure of which principle?",o:["Cooperative learning, which requires genuine roles and individual accountability for every member","Inquiry-based learning","The flipped classroom","Diagnostic assessment"],a:0},
+{ao:"Teaching Methodologies",q:"Which best distinguishes inquiry-based learning from a traditional lecture?",o:["Inquiry-based learning starts with a genuine question students investigate, rather than being given the answer first","Inquiry-based learning provides all answers upfront","There is no meaningful difference","Inquiry-based learning removes the teacher's role entirely"],a:0},
+{ao:"Teaching Methodologies",q:"Problem-based learning is best described as which of the following?",o:["Presenting a realistic, often messy problem and asking students to determine what they need to learn to solve it","Giving students a worksheet with only one correct method shown","Assessing students purely through multiple-choice recall","Avoiding any real-world context in lessons"],a:0},
+{ao:"Teaching Methodologies",q:"Experiential learning is most accurately defined as which of the following?",o:["Learning through direct, hands-on experience followed by structured reflection","Learning purely through textbook reading","Learning that requires no reflection at all","Learning that only occurs outside school"],a:0},
+{ao:"Teaching Methodologies",q:"Why did student engagement rise and failure rates fall in Bergmann and Sams' flipped chemistry classroom?",o:["Because homework was eliminated with no replacement","Because class time shifted to active, supported problem-solving instead of passive listening","Because assessments were removed","Because students no longer needed to understand the content"],a:1},
+{ao:"Classroom Management",q:"A school replaces suspensions with Restorative Circles that ask 'who was harmed and how do we repair it?' What is the most likely long-term effect, based on this course?",o:["Suspension rates and repeat incidents rise sharply","Suspension rates fall and school culture improves, as seen in the case study","No measurable change in student behaviour","Restorative Circles eliminate the need for any classroom routines"],a:1},
+{ao:"Classroom Management",q:"Which best explains why a highly engaging lesson is itself considered a classroom management strategy?",o:["Because engaging lessons prevent much of the disruption that boredom or confusion would otherwise cause","Because engagement has no relationship to behaviour","Because engaging lessons require no management at all","Because engagement only matters for older students"],a:0},
+{ao:"Classroom Management",q:"A teacher manages a class of 45 students confidently using strong routines, clear signals and delegated responsibilities. This best illustrates which principle?",o:["Restorative practice exclusively","Managing large classes through structure rather than personally monitoring every student every second","Avoiding all structure to maximise flexibility","Punitive discipline as the primary strategy"],a:1},
+{ao:"Classroom Management",q:"What is the central shift restorative practices make compared to traditional punitive discipline?",o:["From 'what rule was broken and how do we punish it' to 'who was harmed and how do we repair the relationship'","From leniency to strict zero-tolerance","From group punishment to individual punishment only","There is no real shift; both approaches are identical"],a:0},
+{ao:"Classroom Management",q:"Classroom culture, as described in this course, is best built through which of the following?",o:["A single assembly at the start of the year with no follow-through","Consistent everyday choices about how mistakes and conflict are handled, sustained over time","Ignoring minor behaviour issues entirely","Relying solely on the school's formal disciplinary code"],a:1},
+{ao:"Educational Technology",q:"Alice Keeler's early use of cloud documents to comment on student work in real time exemplifies which principle?",o:["Technology automating away all need for teacher feedback","Technology accelerating feedback and collaboration at the exact moment students are thinking, not replacing the teacher's role","Avoiding technology in favour of paper worksheets","Technology being useful only for grading, not instruction"],a:1},
+{ao:"Educational Technology",q:"Which of the following best describes the core function of a Learning Management System?",o:["It replaces the need for a teacher entirely","It centralises assignments, resources, grading and communication in one place","It only tracks attendance","It is used exclusively for parent communication"],a:1},
+{ao:"Educational Technology",q:"A teacher uses Kahoot for a quick, competitive review game at the start of class. Which purpose does this best serve?",o:["Summative, high-stakes final assessment","Fast-paced formative review that boosts engagement","Diagnostic assessment before any teaching has occurred","Long-term project-based learning"],a:1},
+{ao:"Educational Technology",q:"Digital literacy, as defined in this course, involves which of the following?",o:["Owning the newest devices available","Confidently and critically using technology to find, evaluate, create and communicate information","Avoiding all critical evaluation of online sources","Only knowing how to type quickly"],a:1},
+{ao:"Educational Technology",q:"According to this module, what is the correct relationship between AI/LMS tools and the human role of the teacher?",o:["These tools are meant to fully replace the teacher's role","These tools automate routine tasks, freeing time for the human mentoring only a teacher can provide","These tools should never be used in a classroom","These tools eliminate the need for lesson planning entirely"],a:1},
+{ao:"Educational Technology",q:"A teacher wants students to brainstorm collaboratively on a shared digital board during a lesson. Which tool mentioned in this course best fits that specific purpose?",o:["Padlet","A printed textbook","A paper attendance register","An offline calculator"],a:0},
+{ao:"AI for Educators",q:"Donnie Piercey's use of ChatGPT to generate three reading levels of the same historical text is best described as which of the following?",o:["Replacing his own judgement entirely with AI output","Using AI as a co-pilot to create differentiated materials faster, while still applying his own review","Cheating on behalf of his students","Avoiding any use of AI in his classroom"],a:1},
+{ao:"AI for Educators",q:"Which of the following best reflects 'responsible AI use' as taught to Donnie Piercey's students?",o:["Copying AI-generated content directly without question","Learning to fact-check and critically question AI-generated content","Avoiding all AI tools permanently","Assuming AI output is always fully accurate"],a:1},
+{ao:"AI for Educators",q:"A teacher uses an AI tool to draft a rubric, but reviews and edits it before giving it to students. What does this illustrate?",o:["That AI should never be used for assessment tools","That a teacher's professional judgement remains essential even when AI accelerates the first draft","That the AI-generated rubric should never be changed","That reviewing AI output wastes time and should be skipped"],a:1},
+{ao:"AI for Educators",q:"Which of the following is identified as a genuine AI ethics concern in education, according to this course?",o:["AI content creation being too slow to be useful","Bias in AI-generated content and over-reliance reducing students' own critical thinking","AI tools being too expensive for any school to use","AI having no possible educational application"],a:1},
+{ao:"AI for Educators",q:"What allowed Donnie Piercey to reclaim roughly ten hours of preparation time per week?",o:["Cancelling assessments entirely","Automating routine tasks like lesson planning, rubric creation and content generation using AI","Reducing the number of students in his class","Eliminating all differentiated materials"],a:1},
+{ao:"AI for Educators",q:"A school bans all AI tools outright out of fear of cheating, without any staff training on responsible use. According to this course, what is the most likely missed opportunity?",o:["There is no missed opportunity; banning AI entirely is the recommended approach","The chance to use AI as a teaching co-pilot for planning and differentiation while teaching students to use it responsibly","The opportunity to increase teacher workload","The opportunity to eliminate assessment"],a:1},
+{ao:"Assessment for Learning",q:"Starr Sackstein stopped placing grades on individual assignments because she observed which specific problem?",o:["Students were reading detailed feedback but ignoring the grade","Students were focusing only on the grade and discarding the detailed feedback she had written","Grades were too time-consuming to calculate","Rubrics could not be created for her subject"],a:1},
+{ao:"Assessment for Learning",q:"Which pairing correctly matches the assessment type with its primary purpose?",o:["Diagnostic assessment — measuring final achievement at the end of a unit","Summative assessment — finding out what students already know before teaching begins","Formative assessment — adjusting teaching during the learning process based on ongoing checks","Authentic assessment — testing only isolated factual recall"],a:2},
+{ao:"Assessment for Learning",q:"A rubric that clearly describes what 'excellent,' 'good,' and 'needs improvement' actually look like serves which primary purpose?",o:["Making expectations explicit and consistent rather than relying on a single subjective score","Eliminating the need for any feedback","Replacing summative assessment entirely","Making grading faster but less accurate"],a:0},
+{ao:"Assessment for Learning",q:"Which of the following is the best example of authentic assessment?",o:["A multiple-choice test on isolated vocabulary definitions","Asking students to apply their persuasive writing skills to draft a real letter to a local authority about a genuine issue","A worksheet requiring only fact recall","A test given purely for ranking purposes with no feedback"],a:1},
+{ao:"Assessment for Learning",q:"Feedback that says only 'Good job, 7/10' with no further comment fails which principle from this module?",o:["That effective feedback should be specific, timely and actionable","That feedback should always be numerical","That feedback should be delayed as long as possible","That feedback should never mention strengths"],a:0},
+{ao:"Assessment for Learning",q:"Why does this course argue that assessment should function as a diagnostic tool rather than purely a ranking mechanism?",o:["Because ranking students is the only valid purpose of assessment","Because assessment used diagnostically guides further learning, while ranking alone can discourage students from engaging with feedback","Because diagnostic assessment eliminates the need for any grades ever","Because ranking and diagnosis are exactly the same thing"],a:1},
+{ao:"Communication Skills",q:"Dr. Nadia Lopez's strategy of publicising her students' brilliance through storytelling, rather than relying on formal letters, primarily achieved which outcome?",o:["It had no measurable effect on the school's reputation or funding","It changed public perception of the school and raised significant funding through a viral, empathetic story","It reduced parent trust in the school","It replaced the need for any further parent communication"],a:1},
+{ao:"Communication Skills",q:"Which of the following best reflects effective parent communication, according to this course?",o:["Contacting parents only when there is a serious problem","Frequent, two-way communication that includes good news, not only problems","A single annual formal letter","Avoiding contact with parents to prevent conflict"],a:1},
+{ao:"Communication Skills",q:"During a heated disagreement with a parent, a teacher focuses on identifying the parent's real underlying concern rather than simply defending her own position. This best demonstrates which skill?",o:["Avoidance","Effective conflict resolution focused on underlying needs rather than surface complaints","Public speaking technique exclusively","Digital literacy"],a:1},
+{ao:"Communication Skills",q:"What role does storytelling play in effective educational communication, according to this course?",o:["It makes abstract ideas memorable and helps build support from parents and communities","It should be avoided in professional communication","It is only useful in creative writing lessons","It has no connection to communication skill"],a:0},
+{ao:"Communication Skills",q:"A teacher preparing for a difficult conversation with a colleague is advised to do which of the following, per this module?",o:["State facts calmly, listen fully, and focus on solutions rather than blame","Avoid the conversation indefinitely","Assign blame as quickly as possible","Only communicate through written memos to avoid direct contact"],a:0},
+{ao:"Safeguarding & Child Protection",q:"A student becomes secretive, anxious and phone-obsessed, with declining grades. What is the recommended first response from this module?",o:["Confront the student publicly about phone use","Recognise these as potential warning signs and follow established reporting procedures with trained staff","Ignore it as typical teenage behaviour","Investigate the student's phone personally without involving anyone else"],a:1},
+{ao:"Safeguarding & Child Protection",q:"Why does this course insist that safeguarding concerns should never be handled by a single teacher acting alone?",o:["Because teachers should never notice safeguarding concerns","Because concerns need to reach trained professionals through consistent reporting procedures rather than informal, individual investigation","Because only administrators are legally allowed to notice behavioural changes","Because safeguarding is not a teacher's responsibility at all"],a:1},
+{ao:"Safeguarding & Child Protection",q:"Effective bullying prevention, according to this course, relies primarily on which approach?",o:["Reacting only after a serious incident occurs","Proactive culture-building combined with clear reporting channels and consistent follow-through","Ignoring minor incidents to avoid overreacting","Punishing bystanders as severely as the instigator in every case"],a:1},
+{ao:"Safeguarding & Child Protection",q:"Online safety education, as described in this module, should primarily help students do which of the following?",o:["Avoid all use of the internet","Recognise grooming behaviour, understand privacy settings, and know what to do if something feels unsafe online","Share personal information more freely online","Rely solely on parents to monitor all online activity"],a:1},
+{ao:"Safeguarding & Child Protection",q:"What was the key factor that allowed the teacher in this module's case study to protect a student from online grooming?",o:["Luck, with no specific action taken","Early recognition of behavioural warning signs and prompt use of proper reporting procedures","Confiscating the student's phone permanently","Waiting several weeks to see if the behaviour changed on its own"],a:1},
+{ao:"Inclusive Education",q:"A school initially tries to include diverse learners by creating five different worksheet versions for every lesson, exhausting teachers and stigmatising students. What does Universal Design for Learning change about this approach?",o:["It adds even more separate worksheet versions","It builds multiple means of engagement, representation and expression into the lesson from the start, rather than retrofitting it afterward","It removes all accommodations entirely","It requires identical worksheets with no options at all"],a:1},
+{ao:"Inclusive Education",q:"Which best distinguishes equity from simple equality in education, according to this course?",o:["Equity means giving every student the exact same resources regardless of need; equality means tailoring support to need","Equity means giving each student what they specifically need to succeed, which is not always identical to what every other student receives","Equity and equality are exactly the same concept","Equity applies only to students with a formal diagnosis"],a:1},
+{ao:"Inclusive Education",q:"A history project that allows students to submit an essay, a digital graphic, or a podcast to demonstrate the same learning goal is an example of which principle?",o:["Universal Design for Learning offering multiple means of expression","Summative-only assessment","Removing the learning goal for some students","Standardised, single-format testing"],a:0},
+{ao:"Inclusive Education",q:"According to this course, what happened when the school in the case study removed the stigma around accommodations by making them standard for everyone?",o:["Performance declined across the school","Previously silent students began leading group projects and overall performance rose","No measurable change occurred","Only students with SEN benefited, with no wider effect"],a:1},
+{ao:"Inclusive Education",q:"Accessibility, as described in this module, includes which of the following considerations?",o:["Only physical ramps and nothing else","Physical, sensory and technological barriers such as captions, readable fonts and accessible formats","Ignoring format and focusing only on content difficulty","Removing all technology from the classroom"],a:1},
+{ao:"Inclusive Education",q:"Why does this course argue inclusive education must be planned 'from the first minute,' not as an afterthought?",o:["Because retrofitting accommodations after a lesson is designed tends to stigmatise students and creates extra work, whereas designing for diversity from the start avoids both","Because planning ahead has no effect on stigma or workload","Because inclusive education is only relevant at the end of a unit","Because it only matters for standardised testing"],a:0},
+{ao:"Global Education Systems",q:"Kaycee Simmons succeeded in a school blending British, IB and local standards primarily because of which approach?",o:["Refusing to teach any curriculum but her own original training","Comparative analysis — identifying and blending the genuine strengths of each system","Ignoring all curricula and inventing her own from scratch","Teaching only the easiest curriculum to reduce her own workload"],a:1},
+{ao:"Global Education Systems",q:"Which curriculum is described in this course as placing particular emphasis on inquiry, global citizenship and interdisciplinary thinking?",o:["The Nigerian curriculum","The IB curriculum","A generic multiple-choice-only system","There is no such emphasis in any system described"],a:1},
+{ao:"Global Education Systems",q:"According to this course, what is a defining strength of the Cambridge curriculum (IGCSE, A-Levels, Checkpoint)?",o:["Purely elective, unstructured study with no assessment","Deep, structured subject mastery with internationally recognised, rigorous assessment","Avoidance of any formal examinations","A focus exclusively on vocational training"],a:1},
+{ao:"Global Education Systems",q:"Why does this course argue that ongoing comparative analysis of global education systems benefits a teacher's career?",o:["It grants career flexibility and helps prepare students for global relevance","It has no real professional benefit","It only matters for school administrators","It replaces the need to master any single curriculum well"],a:0},
+{ao:"Global Education Systems",q:"A teacher trained only in one national curriculum refuses to adapt when placed in an international school blending multiple systems, causing friction for students. What does this course suggest as the better approach?",o:["Continuing to refuse adaptation to preserve consistency","Mapping the strengths of each system and blending the most effective elements, as Kaycee Simmons did","Teaching only the system she originally trained in and ignoring the others entirely","Requesting that the school abandon all other curricula"],a:1},
+{ao:"Global Education Systems",q:"What is identified in this course as a defining strength of the Nigerian curriculum?",o:["A rigorous academic foundation combined with rich cultural context","A complete absence of formal academic content","Identical content to the American elective-based system","No relevance to national examinations"],a:0},
+{ao:"Professional Branding",q:"Jarod Bormann's career transformation is best explained by which of the following?",o:["Luck alone, unrelated to any deliberate action","Deliberately building a visible digital teaching portfolio and personal brand, rather than relying on a passive CV","Avoiding all public visibility to focus purely on classroom work","Refusing to network with other educators"],a:1},
+{ao:"Professional Branding",q:"Which of the following best reflects a strong education CV, according to this course?",o:["A long list of job responsibilities with no outcomes mentioned","Measurable impact such as improved results or programmes launched","Personal hobbies unrelated to teaching listed at length","The CV's page count above all else"],a:1},
+{ao:"Professional Branding",q:"A teaching portfolio, as defined in this module, should primarily contain which of the following?",o:["Only a list of qualifications and certificates","Real evidence of practice — lesson samples, outcomes, reflections and evidence of impact","A copy of the national curriculum with no personal content","Unrelated personal photographs"],a:1},
+{ao:"Professional Branding",q:"Why does this course argue that networking often opens doors that formal applications alone do not?",o:["Because formal applications are always superior to networking","Because relationships built through conferences and professional communities can surface opportunities not advertised through standard channels","Because networking replaces the need for any qualifications","Because networking is only relevant after retirement"],a:1},
+{ao:"Professional Branding",q:"What is meant by a 'personal brand' for a teacher, according to this course?",o:["An expensive marketing campaign unrelated to actual teaching quality","A consistent, authentic way of presenting your expertise and values so opportunities can find you","A logo and slogan with no connection to real practice","Something only relevant to celebrities, not educators"],a:1},
+{ao:"Career Growth",q:"Ify Obidi-Walker's transition from classroom teacher to international consultant was driven primarily by which action?",o:["Waiting passively for a promotion within her local school","Proactively upgrading certifications, mastering global tools, and building a platform sharing her expertise","Refusing to leave her original teaching role in any capacity","Avoiding any further professional study"],a:1},
+{ao:"Career Growth",q:"According to this course, what do international school recruiters particularly look for in candidates?",o:["Only local teaching experience with no international awareness","Understanding of modern student psychology and cross-cultural communication","A refusal to adapt to different curricula","The cheapest available salary expectations only"],a:1},
+{ao:"Career Growth",q:"Which of the following best reflects how this course redefines 'leadership pathways' in education?",o:["Leadership only means becoming a head teacher","Leadership can include curriculum leadership, consultancy, training and educational entrepreneurship, not only headship","Leadership is unrelated to teaching careers","Leadership pathways do not exist outside formal school hierarchy"],a:1},
+{ao:"Career Growth",q:"What preparation does this course recommend before teaching abroad, beyond holding a teaching qualification?",o:["No preparation is necessary beyond the qualification itself","Research into visa requirements, cost of living, curriculum expectations and cultural adjustment","Avoiding any research into the destination country","Relying solely on the recruiting agency for all decisions"],a:1},
+{ao:"Career Growth",q:"Why does this course suggest professional certifications (such as international safeguarding training) matter for international candidates?",o:["They are irrelevant to international recruitment","They are often what separates a shortlisted international candidate from the rest","They replace the need for classroom experience entirely","They are only relevant for administrative roles"],a:1},
+{ao:"Research & Reflective Practice",q:"The ninth-grade algebra teachers in this module's case study responded to a 35% failure rate by taking which action?",o:["Assuming the students were simply not capable and lowering expectations","Launching a formal action research cycle: forming a question, collecting data, and adjusting practice based on evidence","Ignoring the data since it seemed unlikely to change","Immediately firing the teachers involved"],a:1},
+{ao:"Research & Reflective Practice",q:"Which best describes the correct sequence of an action research cycle, according to this course?",o:["Guess a solution, implement it permanently, never review results","Identify a real problem, try a specific change, collect evidence, and adjust accordingly","Only read academic theory with no classroom application","Repeat the same method regardless of outcomes"],a:1},
+{ao:"Research & Reflective Practice",q:"What is the primary purpose of a Professional Learning Community, as described in this course?",o:["To assign blame for disappointing results","To bring teachers together to examine shared data and collaboratively solve instructional problems","To focus purely on administrative paperwork","To replace the need for any individual reflection"],a:1},
+{ao:"Research & Reflective Practice",q:"Reflective teaching, as defined in this module, involves which of the following?",o:["Repeating the same approach every year without examination","Honestly examining what worked, what didn't, and why, on an ongoing basis","Avoiding any critical look at one's own practice","Relying entirely on colleagues' opinions with no self-reflection"],a:1},
+{ao:"Research & Reflective Practice",q:"What evidence did the teachers in the case study use to determine whether their gamified formative assessment idea was working?",o:["Personal intuition only, with no data collected","Daily data including quiz scores, engagement metrics and qualitative feedback, reviewed weekly","A single anonymous survey conducted once","No evidence was collected at any point"],a:1},
+{ao:"Research & Reflective Practice",q:"Why is data-informed instruction considered more reliable than instruction based purely on impression, according to this course?",o:["Because impressions are always more accurate than data","Because actual evidence — such as quiz results and engagement patterns — reduces the risk of misjudging what is really happening in a classroom","Because data-informed instruction requires no professional judgement at all","Because impressions and data always produce identical conclusions"],a:1},
+{ao:"Financial Growth",q:"Deanna Jump's transition from giving away resources for free to becoming a top seller on an online platform illustrates which concept most directly?",o:["Educational entrepreneurship — recognising and packaging the financial value of her own classroom expertise","Abandoning teaching entirely for business","Avoiding any further investment of time in resource creation","A purely lucky, unrepeatable event with no transferable lesson"],a:0},
+{ao:"Financial Growth",q:"What is the primary advantage of course creation as an income stream for an educator, according to this module?",o:["It requires trading time for money one lesson at a time, just like classroom teaching","It packages expertise into a reusable digital product that can be sold repeatedly without repeating the original effort each time","It has no realistic connection to a teacher's existing skills","It always requires abandoning the teaching profession entirely"],a:1},
+{ao:"Financial Growth",q:"Why does this course recommend building multiple income streams specifically from existing classroom expertise, rather than unrelated ventures?",o:["Because classroom expertise has no market value","Because it leverages skills and content educators have already developed, reducing the extra effort needed to create something valuable","Because unrelated ventures are always more profitable","Because multiple income streams are illegal for teachers to pursue"],a:1},
+{ao:"Financial Growth",q:"Coaching and mentoring other educators, as described in this course, provides which dual benefit?",o:["It is purely a favour with no value to the coach","It is both a service others will pay for and a way to strengthen the coach's own practice","It has no effect on the mentor's own skills","It replaces the need for classroom teaching entirely"],a:1},
+{ao:"Financial Growth",q:"What mindset shift was necessary for Deanna Jump before she could benefit financially from her classroom resources?",o:["Recognising that her self-created materials had genuine commercial value, rather than assuming they should always be given away for free","Deciding to stop creating any further resources","Waiting for her school to formally reward her","Refusing to share any resource with any other teacher, even for payment"],a:0},
+{ao:"Capstone & Portfolio",q:"Why does this course frame the Capstone Project as a 'launchpad' rather than a standard academic assignment?",o:["Because it requires only memorising facts for a multiple-choice test","Because it demonstrates practical execution of course skills in a way that can directly open real career opportunities","Because it has no connection to career opportunities","Because it is optional and does not need to be completed"],a:1},
+{ao:"Capstone & Portfolio",q:"A capstone lesson plan built using backward design should begin with which element?",o:["A list of activities with no defined goal","A clear learning goal and the evidence that would prove students understood it","An assessment with no connected learning goal","A random selection of textbook exercises"],a:1},
+{ao:"Capstone & Portfolio",q:"What distinguishes a strong technology-integrated capstone project from merely using a slideshow in class?",o:["There is no meaningful distinction","Genuine student use of digital tools to solve a real or realistic problem, not just teacher-led presentation software","Avoiding any mention of technology entirely","Requiring students to memorise how the software works with no application"],a:1},
+{ao:"Capstone & Portfolio",q:"Why should a capstone's digital assessment component include a rubric rather than a single overall grade?",o:["Because a single grade already shows growth clearly enough","Because a rubric with structured criteria makes growth and specific strengths or gaps measurable","Because rubrics are only useful for very young students","Because a single grade is always more informative than a rubric"],a:1},
+{ao:"Capstone & Portfolio",q:"What is the purpose of the career development plan component of the capstone, according to this course?",o:["To summarise only what has already happened, with no forward planning","To set out concrete next steps — certifications, roles or skills — for continued growth over the next one to five years","To replace the need for a professional portfolio entirely","To apply only to educators planning to leave the profession"],a:1},
+{ao:"Capstone & Portfolio",q:"In the case study, what specifically impressed the international recruiters enough to advance the educator straight to an interview?",o:["A single high test score with no further evidence","A clear, well-organised professional portfolio combining lesson plans, a technology project, an assessment rubric and a career plan","A generic CV with no supporting evidence","An informal, undocumented claim of teaching skill"],a:1},
+];
+
 const TRAININGS_BASE={
  "0510":{
   code:"0510", cat:"Cambridge", subject:"English as a Second Language",
@@ -3023,6 +3640,14 @@ const TRAININGS_BASE={
   durationLabel:"10-week pathway \u00B7 one module per week", weeks:10,
   passMark:75, totalQuestions:100, examMins:60,
   materials:[], units:IELTS_UNITS, questions:IELTS_Q
+ },
+ "21EDU":{
+  code:"21EDU", cat:"Soft Skills", subject:"Professional Development for Educators",
+  title:"The 21st Century Educator",
+  tagline:"Mastering the skills, mindset and technology for teaching in the modern world \u2014 18 weeks of real case studies, practical frameworks and a capstone portfolio.",
+  durationLabel:"18-week programme \u00B7 one module per week", weeks:18,
+  passMark:75, totalQuestions:100, examMins:60,
+  materials:[], units:EDU_UNITS, questions:EDU_Q
  }
 };
 
@@ -5966,7 +6591,11 @@ const SOFT_Q=[
 // and IGCSE/A-Levels/Checkpoint are all Cambridge International qualifications)
 // rather than each appearing as its own separate tab. IB and the Nigerian
 // curriculum are genuinely separate boards, so they stay as their own tabs.
-const SUBJECT_CATS=["All","Cambridge","Soft Skills","General Courses","IB","Nigerian Curriculum"];
+// "General Courses" is intentionally NOT a category tab here — it's now a
+// standalone top-level section (its own nav tab, filtered by cat==="General
+// Courses") rather than a filter nested inside Teacher's Course/Student
+// Subjects. See tab==="general" below.
+const SUBJECT_CATS=["All","Cambridge","Soft Skills","IB","Nigerian Curriculum"];
 // ═══ INTRODUCTION TO MENTAL HEALTH (18-week General Course) ═══
 // A plain-English mental health literacy course for students of any subject —
 // covering what mental health is, common conditions, building resilience,
@@ -7392,8 +8021,8 @@ export default function MindKlass(){
   // Training certification assessment timer
   useEffect(()=>{
     if(tab==="training"&&trView==="assess"&&trAStarted&&trATime>0){trTimerRef.current=setTimeout(()=>setTrATime(t=>t-1),1000);}
-    if(tab==="learn"&&sjView==="assess"&&sjAStarted&&sjATime>0){sjTimerRef.current=setTimeout(()=>setSjATime(t=>t-1),1000);}
-    else if(tab==="learn"&&sjView==="assess"&&sjAStarted&&sjATime===0){submitSJAssessment();}
+    if((tab==="learn"||tab==="general")&&sjView==="assess"&&sjAStarted&&sjATime>0){sjTimerRef.current=setTimeout(()=>setSjATime(t=>t-1),1000);}
+    else if((tab==="learn"||tab==="general")&&sjView==="assess"&&sjAStarted&&sjATime===0){submitSJAssessment();}
     else if(tab==="training"&&trView==="assess"&&trAStarted&&trATime===0){submitTrainingAssessment();}
     return()=>{clearTimeout(trTimerRef.current);clearTimeout(sjTimerRef.current);};
   },[trATime,tab,trView,trAStarted]);
@@ -7416,9 +8045,9 @@ export default function MindKlass(){
 
   // ============ ExamGuard: assessment security / proctoring ============
   // An exam is active whenever a student or teacher assessment is in progress.
-  const examActive=(tab==="learn"&&sjView==="assess"&&sjAStarted)||(tab==="training"&&trView==="assess"&&trAStarted);
+  const examActive=((tab==="learn"||tab==="general")&&sjView==="assess"&&sjAStarted)||(tab==="training"&&trView==="assess"&&trAStarted);
   useEffect(()=>{examActiveRef.current=examActive;},[examActive]);
-  const examContext=()=>examActive?(tab==="learn"?{kind:"student",course:sjCourse,title:SJOURNEYS[sjCourse]?.title}:{kind:"teacher",course:trCourse,title:TRAININGS[trCourse]?.title}):null;
+  const examContext=()=>examActive?((tab==="learn"||tab==="general")?{kind:"student",course:sjCourse,title:SJOURNEYS[sjCourse]?.title}:{kind:"teacher",course:trCourse,title:TRAININGS[trCourse]?.title}):null;
   const logProctorAlert=(reason)=>{
     const ctx=examContext()||{};
     const rec={id:Date.now()+Math.random(),userId:user?.id,name:user?.name||user?.nick,nick:user?.nick,role:effRole,
@@ -7428,7 +8057,7 @@ export default function MindKlass(){
   };
   const forceExamSubmit=(reason)=>{
     logProctorAlert("Auto-submitted: "+reason);
-    if(tab==="learn"){submitSJAssessment();}else if(tab==="training"){submitTrainingAssessment();}
+    if(tab==="learn"||tab==="general"){submitSJAssessment();}else if(tab==="training"){submitTrainingAssessment();}
   };
   // A single violation handler: warn once, auto-submit on the 2nd.
   const registerViolation=(reason)=>{
@@ -8322,9 +8951,9 @@ export default function MindKlass(){
 
   // ── ROLE-BASED ACCESS CONTROL: each role sees only its permitted tabs ────────
   const NAV={
-    student:[{id:"home",I:Home,l:"Home"},{id:"courses",I:BookOpen,l:"My Courses"},{id:"learn",I:GraduationCap,l:"Subjects"},{id:"assignments",I:ClipboardCheck,l:"Assignments"},{id:"games",I:Gamepad2,l:"Game Hub"},{id:"quiz",I:FileText,l:"Assessments"},{id:"gradebook",I:BarChart2,l:"My Grades"},{id:"community",I:MessageSquare,l:"Community"},{id:"messages",I:Mail,l:"Messages"},{id:"meetings",I:Video,l:"Virtual Class"},{id:"whiteboard",I:PenLine,l:"Whiteboard"},{id:"downloads",I:DownloadCloud,l:"Offline Library"},{id:"refer",I:Share2,l:"Refer & Earn"},{id:"profile",I:User,l:"Profile"}],
-    teacher:[{id:"home",I:Home,l:"Home"},{id:"courses",I:ClipboardList,l:"My Classes"},{id:"training",I:GraduationCap,l:"Teacher's Course"},{id:"learn",I:BookMarked,l:"Student Subjects"},{id:"assignments",I:ClipboardCheck,l:"Assignments"},{id:"attendance",I:CalendarCheck,l:"Attendance"},{id:"gradebook",I:BarChart2,l:"Gradebook"},{id:"behavior",I:Heart,l:"Behavior"},{id:"games",I:Gamepad2,l:"Game Hub"},{id:"quiz",I:FileText,l:"Assessments"},{id:"community",I:MessageSquare,l:"Community"},{id:"messages",I:Mail,l:"Messages"},{id:"meetings",I:Video,l:"Schedule"},{id:"whiteboard",I:PenLine,l:"Whiteboard"},{id:"refer",I:Share2,l:"Refer & Earn"},{id:"profile",I:User,l:"Profile"}],
-    admin:[{id:"home",I:LayoutDashboard,l:"Dashboard"},{id:"users",I:Users,l:"Users"},{id:"approvals",I:ShieldCheck,l:"Course Approvals"},{id:"coursebuilder",I:Layers,l:"Course Builder"},{id:"exams",I:BarChart2,l:"Assessments"},{id:"training",I:GraduationCap,l:"Teacher's Course"},{id:"learn",I:BookMarked,l:"Student Subjects"},{id:"attendance",I:CalendarCheck,l:"Attendance"},{id:"fees",I:CreditCard,l:"Fees & Billing"},{id:"push",I:BellRing,l:"Send Alerts"},{id:"games",I:Gamepad2,l:"Game Hub"},{id:"meetings",I:Video,l:"Meetings"},{id:"community",I:MessageSquare,l:"Community"},{id:"whiteboard",I:PenLine,l:"Whiteboard"},{id:"profile",I:User,l:"Profile"}],
+    student:[{id:"home",I:Home,l:"Home"},{id:"courses",I:BookOpen,l:"My Courses"},{id:"learn",I:GraduationCap,l:"Subjects"},{id:"general",I:Layers,l:"General Courses"},{id:"assignments",I:ClipboardCheck,l:"Assignments"},{id:"games",I:Gamepad2,l:"Game Hub"},{id:"quiz",I:FileText,l:"Assessments"},{id:"gradebook",I:BarChart2,l:"My Grades"},{id:"community",I:MessageSquare,l:"Community"},{id:"messages",I:Mail,l:"Messages"},{id:"meetings",I:Video,l:"Virtual Class"},{id:"whiteboard",I:PenLine,l:"Whiteboard"},{id:"downloads",I:DownloadCloud,l:"Offline Library"},{id:"refer",I:Share2,l:"Refer & Earn"},{id:"profile",I:User,l:"Profile"}],
+    teacher:[{id:"home",I:Home,l:"Home"},{id:"courses",I:ClipboardList,l:"My Classes"},{id:"training",I:GraduationCap,l:"Teacher's Course"},{id:"learn",I:BookMarked,l:"Student Subjects"},{id:"general",I:Layers,l:"General Courses"},{id:"assignments",I:ClipboardCheck,l:"Assignments"},{id:"attendance",I:CalendarCheck,l:"Attendance"},{id:"gradebook",I:BarChart2,l:"Gradebook"},{id:"behavior",I:Heart,l:"Behavior"},{id:"games",I:Gamepad2,l:"Game Hub"},{id:"quiz",I:FileText,l:"Assessments"},{id:"community",I:MessageSquare,l:"Community"},{id:"messages",I:Mail,l:"Messages"},{id:"meetings",I:Video,l:"Schedule"},{id:"whiteboard",I:PenLine,l:"Whiteboard"},{id:"refer",I:Share2,l:"Refer & Earn"},{id:"profile",I:User,l:"Profile"}],
+    admin:[{id:"home",I:LayoutDashboard,l:"Dashboard"},{id:"users",I:Users,l:"Users"},{id:"approvals",I:ShieldCheck,l:"Course Approvals"},{id:"coursebuilder",I:Layers,l:"Course Builder"},{id:"exams",I:BarChart2,l:"Assessments"},{id:"training",I:GraduationCap,l:"Teacher's Course"},{id:"learn",I:BookMarked,l:"Student Subjects"},{id:"general",I:Layers,l:"General Courses"},{id:"attendance",I:CalendarCheck,l:"Attendance"},{id:"fees",I:CreditCard,l:"Fees & Billing"},{id:"push",I:BellRing,l:"Send Alerts"},{id:"games",I:Gamepad2,l:"Game Hub"},{id:"meetings",I:Video,l:"Meetings"},{id:"community",I:MessageSquare,l:"Community"},{id:"whiteboard",I:PenLine,l:"Whiteboard"},{id:"profile",I:User,l:"Profile"}],
     parent:[{id:"home",I:Home,l:"Home"},{id:"child",I:Baby,l:"My Child"},{id:"assignments",I:ClipboardCheck,l:"Homework"},{id:"gradebook",I:BarChart2,l:"Report Card"},{id:"behavior",I:Heart,l:"Behavior"},{id:"attendance",I:CalendarCheck,l:"Attendance"},{id:"fees",I:CreditCard,l:"Pay Fees"},{id:"messages",I:Mail,l:"Messages"},{id:"profile",I:User,l:"Profile"}],
   };
   const nav=NAV[effRole]||[];
@@ -8334,7 +8963,7 @@ export default function MindKlass(){
   // instead of resuming whatever unit/lesson/course was last open.
   const goToTab=(id)=>{
     if(id==="profile") setViewProfileId(null);
-    if(id==="learn"){setSjView("home");setSjCourse(null);setSjUnit(null);setSjAStarted(false);}
+    if(id==="learn"||id==="general"){setSjView("home");setSjCourse(null);setSjUnit(null);setSjAStarted(false);}
     if(id==="training"){setTrView("home");setTrCourse(null);setTrUnit(null);setTrAStarted(false);}
     if(id==="courses") setSL(null);
     if(id==="coursebuilder"){setCbView("list");setCbDraft(null);setCbEditId(null);setCbStep("meta");setCbUnitIdx(null);}
@@ -8830,30 +9459,31 @@ export default function MindKlass(){
   }
 
   // ═══════════════════ TEACHER TRAINING & CERTIFICATION TAB ═══════════════════
-  if(tab==="learn"){
+  if(tab==="learn"||tab==="general"){
     const isAdm=effRole==="admin";
+    const isGeneral=tab==="general";
     // ---------- HOME: subject catalogue ----------
     if(sjView==="home"){
-      const journeys=Object.entries(SJOURNEYS);
+      const journeys=Object.entries(SJOURNEYS).filter(([,j])=>isGeneral?j.cat==="General Courses":j.cat!=="General Courses");
       const myApproved=journeys.filter(([k])=>sjApproved(k));
       return ML({children:<>
         <div style={{background:"linear-gradient(135deg,#0d1f4b,#1842a8)",borderRadius:18,padding:isMobile?"18px":"26px",marginBottom:18,position:"relative",overflow:"hidden"}}>
           <div style={{position:"absolute",right:-30,top:-30,width:150,height:150,borderRadius:"50%",background:"rgba(255,255,255,.06)"}}/>
           <div style={{position:"relative"}}>
-            <span style={{display:"inline-block",fontSize:11,fontWeight:800,color:"rgba(255,255,255,.85)",background:"rgba(255,255,255,.15)",padding:"4px 11px",borderRadius:99,marginBottom:12}}><GraduationCap size={12} style={{marginRight:4,verticalAlign:"middle"}}/>IGCSE LEARNING JOURNEYS</span>
-            <h1 style={{fontSize:isMobile?20:24,fontWeight:900,fontFamily:"Outfit,sans-serif",color:"#fff",margin:"0 0 6px",lineHeight:1.2}}>Your Subjects</h1>
-            <p style={{fontSize:13,color:"rgba(255,255,255,.8)",margin:0,maxWidth:560,lineHeight:1.6}}>Apply for the subjects you want to study. Once the administrator approves you, work through each term at your own pace, check your understanding, and take the 100-question term assessment. You can apply for as many subjects as you like.</p>
+            <span style={{display:"inline-block",fontSize:11,fontWeight:800,color:"rgba(255,255,255,.85)",background:"rgba(255,255,255,.15)",padding:"4px 11px",borderRadius:99,marginBottom:12}}>{isGeneral?<Layers size={12} style={{marginRight:4,verticalAlign:"middle"}}/>:<GraduationCap size={12} style={{marginRight:4,verticalAlign:"middle"}}/>}{isGeneral?"GENERAL COURSES":"IGCSE LEARNING JOURNEYS"}</span>
+            <h1 style={{fontSize:isMobile?20:24,fontWeight:900,fontFamily:"Outfit,sans-serif",color:"#fff",margin:"0 0 6px",lineHeight:1.2}}>{isGeneral?"General Courses":"Your Subjects"}</h1>
+            <p style={{fontSize:13,color:"rgba(255,255,255,.8)",margin:0,maxWidth:560,lineHeight:1.6}}>{isGeneral?"Practical, everyday courses open to everyone — not tied to any exam board. Apply, work through each course at your own pace, check your understanding, and take the final assessment when you're ready.":"Apply for the subjects you want to study. Once the administrator approves you, work through each term at your own pace, check your understanding, and take the 100-question term assessment. You can apply for as many subjects as you like."}</p>
           </div>
         </div>
         {!isAdm&&<div style={{...card,marginBottom:16,background:T.alt,display:"flex",gap:9,alignItems:"flex-start"}}>
           <Info size={15} color="#1842a8" style={{flexShrink:0,marginTop:1}}/>
-          <p style={{fontSize:12,color:T.txt,margin:0,lineHeight:1.6}}>Lessons do not open automatically. Send an application for a subject, and you can begin as soon as the administrator approves it. Each term takes about three months and ends with an assessment you need <strong>65%</strong> to pass.</p>
+          <p style={{fontSize:12,color:T.txt,margin:0,lineHeight:1.6}}>{isGeneral?"Lessons do not open automatically. Send an application, and you can begin as soon as the administrator approves it. Each course ends with an assessment — the required pass mark is shown on the course card.":<>Lessons do not open automatically. Send an application for a subject, and you can begin as soon as the administrator approves it. Each term takes about three months and ends with an assessment you need <strong>65%</strong> to pass.</>}</p>
         </div>}
-        <div style={{display:"flex",flexWrap:"wrap",gap:7,marginBottom:16}}>
+        {!isGeneral&&<div style={{display:"flex",flexWrap:"wrap",gap:7,marginBottom:16}}>
           {SUBJECT_CATS.map(c=>{const on=sjCat===c;return <button key={c} onClick={()=>setSjCat(c)} style={{fontSize:12,fontWeight:800,padding:"6px 13px",borderRadius:99,cursor:"pointer",border:on?"1.5px solid #1842a8":`1.5px solid ${T.bd}`,background:on?"#1842a8":T.card,color:on?"#fff":T.txt}}>{c}</button>;})}
-        </div>
-        {(()=>{const fj=sjCat==="All"?journeys:journeys.filter(([,j])=>(j.cat||j.subject)===sjCat);
-          if(fj.length===0)return <div style={{...card,textAlign:"center",padding:"34px 18px",borderStyle:"dashed"}}><Clock size={26} color={T.muted} style={{marginBottom:8}}/><p style={{fontSize:14,fontWeight:800,color:T.head,margin:"0 0 4px"}}>{sjCat} — coming soon</p><p style={{fontSize:12,color:T.muted,margin:0}}>Courses in this category are being prepared. Check back soon.</p></div>;
+        </div>}
+        {(()=>{const fj=isGeneral||sjCat==="All"?journeys:journeys.filter(([,j])=>(j.cat||j.subject)===sjCat);
+          if(fj.length===0)return <div style={{...card,textAlign:"center",padding:"34px 18px",borderStyle:"dashed"}}><Clock size={26} color={T.muted} style={{marginBottom:8}}/><p style={{fontSize:14,fontWeight:800,color:T.head,margin:"0 0 4px"}}>{isGeneral?"General Courses":sjCat} — coming soon</p><p style={{fontSize:12,color:T.muted,margin:0}}>Courses in this category are being prepared. Check back soon.</p></div>;
           return [...new Set(fj.map(([,j])=>j.group||j.subject))].map(yr=>(
         <div key={yr} style={{marginBottom:8}}>
         <h2 style={{fontSize:15,fontWeight:900,fontFamily:"Outfit,sans-serif",color:T.head,margin:"0 0 12px"}}>{yr}</h2>
@@ -8888,9 +9518,9 @@ export default function MindKlass(){
         </div>
         </div>
         ));})()}
-        <div style={{...card,marginTop:16,textAlign:"center",padding:"18px",borderStyle:"dashed"}}>
+        {!isGeneral&&<div style={{...card,marginTop:16,textAlign:"center",padding:"18px",borderStyle:"dashed"}}>
           <p style={{fontSize:12,color:T.muted,margin:0}}>More subjects are coming soon across Soft Skills, IGCSE, Checkpoint, A-Levels, IB and the Nigerian Curriculum.</p>
-        </div>
+        </div>}
       </>});
     }
 
@@ -8899,11 +9529,11 @@ export default function MindKlass(){
       const j=SJOURNEYS[sjCourse];const done=sjUnitsDone(sjCourse);const allDone=sjAllDone(sjCourse);const sub=sjMySub(sjCourse);
       if(!sjApproved(sjCourse)){setSjView("home");return null;}
       return ML({children:<>
-        <button onClick={()=>{setSjView("home");setSjCourse(null);}} style={{...bO,marginBottom:14,padding:"7px 14px",fontSize:12}}><ArrowLeft size={13} style={{marginRight:4,verticalAlign:"middle"}}/>All subjects</button>
+        <button onClick={()=>{setSjView("home");setSjCourse(null);}} style={{...bO,marginBottom:14,padding:"7px 14px",fontSize:12}}><ArrowLeft size={13} style={{marginRight:4,verticalAlign:"middle"}}/>{isGeneral?"All courses":"All subjects"}</button>
         <div style={{background:"linear-gradient(135deg,#0d1f4b,#1842a8)",borderRadius:18,padding:isMobile?"18px":"22px",marginBottom:18,position:"relative",overflow:"hidden"}}>
           <div style={{position:"absolute",right:-30,top:-30,width:140,height:140,borderRadius:"50%",background:"rgba(255,255,255,.06)"}}/>
           <div style={{position:"relative"}}>
-            <span style={{display:"inline-block",fontSize:11,fontWeight:800,color:"rgba(255,255,255,.85)",background:"rgba(255,255,255,.15)",padding:"4px 11px",borderRadius:99,marginBottom:12}}>IGCSE {j.code} · {j.year} · {j.termLabel}</span>
+            <span style={{display:"inline-block",fontSize:11,fontWeight:800,color:"rgba(255,255,255,.85)",background:"rgba(255,255,255,.15)",padding:"4px 11px",borderRadius:99,marginBottom:12}}>{j.cat==="General Courses"?j.termLabel:<>IGCSE {j.code} · {j.year} · {j.termLabel}</>}</span>
             <h1 style={{fontSize:isMobile?19:22,fontWeight:900,fontFamily:"Outfit,sans-serif",color:"#fff",margin:"0 0 6px",lineHeight:1.2}}>{j.title}</h1>
             <p style={{fontSize:13,color:"rgba(255,255,255,.8)",margin:"0 0 12px"}}>{j.tagline}</p>
             <div style={{display:"flex",flexWrap:"wrap",gap:7}}>
