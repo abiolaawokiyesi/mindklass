@@ -128,8 +128,13 @@ Refresh the GitHub page; your files should appear.
    - **Build Command:** `npm run build`
    - **Output Directory:** `dist`
    
-   Leave these as they are. You do **not** need to add any Environment Variables — the app has none.
-5. Click **Deploy**.
+   Leave these as they are.
+5. Before deploying, add one **Environment Variable** (needed by the `/api/admin-users` serverless function, which lets an admin create real accounts and reset passwords from the Users tab):
+   - **Key:** `SUPABASE_SERVICE_ROLE_KEY`
+   - **Value:** in Supabase, go to **Project Settings → API** and copy the **`service_role`** secret key (not the `anon`/`publishable` one).
+   - Leave the environment set to all three (Production/Preview/Development) unless you have a reason not to.
+   - **Keep this key secret** — it bypasses Row Level Security entirely. It only ever runs inside this Vercel serverless function, never in the browser.
+6. Click **Deploy**.
 
 Wait about a minute while Vercel installs dependencies and builds. When it finishes you'll see a **"Congratulations"** screen with a preview thumbnail and a URL like `https://mindklass.vercel.app`.
 
