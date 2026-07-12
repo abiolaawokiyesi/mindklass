@@ -759,6 +759,30 @@ const TRAIN_ICONS={Target,BookOpen,PenLine,Video,ClipboardCheck,Lightbulb,FlaskC
 // author picked).
 const TRAIN_ART_KEYS=["command","build","weigh","society","science","data","interpret","sample","ethics","culture","roles","social","agency","control","law","identity","global","layers","chance","gap","help","migrate","planet","family","marriage","home","school","achieve","crime","measure","theory","punish","target","steps","chart","mark","search","write","match","read","talk","listen","scale"];
 
+// Minimal CSV parser (handles quoted fields, escaped "" quotes, and commas
+// inside quotes) used by the admin Course Builder's bulk question upload.
+// Returns an array of rows, each row an array of raw string cells.
+function parseCourseCSV(text){
+  const rows=[];let row=[],field="",inQuotes=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i],next=text[i+1];
+    if(inQuotes){
+      if(c==='"'&&next==='"'){field+='"';i++;}
+      else if(c==='"'){inQuotes=false;}
+      else{field+=c;}
+    }else{
+      if(c==='"'){inQuotes=true;}
+      else if(c===','){row.push(field);field="";}
+      else if(c==='\n'||c==='\r'){
+        if(c==='\r'&&next==='\n')i++;
+        row.push(field);field="";rows.push(row);row=[];
+      }else{field+=c;}
+    }
+  }
+  if(field.length||row.length){row.push(field);rows.push(row);}
+  return rows.filter(r=>r.some(c=>(c||"").trim()!==""));
+}
+
 // === Sociology Exam Technique Teacher's Course (0495EX) ===
 const SOCEX_MATERIALS=[
  {name:"Specimen Paper 1 \u2014 Worked Answers",file:"0495-specimen-paper-1.pdf",kind:"pdf"},
@@ -7953,6 +7977,8 @@ export default function MindKlass(){
   const [cbStep,setCbStep]=useState("meta");            // meta | units | questions
   const [cbUnitIdx,setCbUnitIdx]=useState(null);        // index into cbDraft.units open for editing, or null = unit list
   const [cbBusy,setCbBusy]=useState(false);
+  const [cbCsvMsg,setCbCsvMsg]=useState("");         // result summary after a CSV question import
+  const csvUploadRef=useRef(null);
 
   const chatEnd=useRef(null);
   const timerRef=useRef(null);
@@ -8966,7 +8992,7 @@ export default function MindKlass(){
     if(id==="learn"||id==="general"){setSjView("home");setSjCourse(null);setSjUnit(null);setSjAStarted(false);}
     if(id==="training"){setTrView("home");setTrCourse(null);setTrUnit(null);setTrAStarted(false);}
     if(id==="courses") setSL(null);
-    if(id==="coursebuilder"){setCbView("list");setCbDraft(null);setCbEditId(null);setCbStep("meta");setCbUnitIdx(null);}
+    if(id==="coursebuilder"){setCbView("list");setCbDraft(null);setCbEditId(null);setCbStep("meta");setCbUnitIdx(null);setCbCsvMsg("");}
     setTab(id);
   };
 
@@ -10436,11 +10462,11 @@ export default function MindKlass(){
 
     const startNewCourse=()=>{
       setCbDraft(emptyCourseDraft(curSec.system,curSec.fixedCat||catOptions[0]));
-      setCbEditId(null);setCbStep("meta");setCbUnitIdx(null);setCbView("edit");
+      setCbEditId(null);setCbStep("meta");setCbUnitIdx(null);setCbView("edit");setCbCsvMsg("");
     };
     const startEditCourse=(row)=>{
       setCbDraft({...dbRowToCourse(row),status:row.status});
-      setCbEditId(row.id);setCbStep("meta");setCbUnitIdx(null);setCbView("edit");
+      setCbEditId(row.id);setCbStep("meta");setCbUnitIdx(null);setCbView("edit");setCbCsvMsg("");
     };
     const moveUnitG=(i,dir)=>{
       setCbDraft(p=>{
@@ -10504,9 +10530,41 @@ export default function MindKlass(){
     if(!d){setCbView("list");return null;}
     const STEPS=[{key:"meta",l:"Course Details"},{key:"units",l:`Units (${(d.units||[]).length})`},{key:"questions",l:`Exam Questions (${(d.questions||[]).length}/${d.totalQuestions||100})`}];
 
+    // ---- Bulk question upload: CSV template + parse-and-import ----
+    const downloadQuestionTemplate=()=>{
+      const tpl=`Topic Label,Question,Option A,Option B,Option C,Option D,Correct Answer (A/B/C/D)\n"Warning Signs","Which of the following is a recognised early warning sign?","A brief, one-off mood dip","A sustained change from someone's usual pattern lasting more than two weeks","Any variation in mood at all","Improved sleep and appetite","B"\n"Assessment","Formative assessment is best described as...","A final exam at the end of a unit","Ongoing checks used to adjust teaching during learning","A one-off diagnostic test given before teaching begins","A method with no connection to feedback","B"`;
+      const b=new Blob([tpl],{type:"text/csv"});const u=URL.createObjectURL(b);const a=document.createElement("a");a.href=u;a.download="course_questions_template.csv";a.click();URL.revokeObjectURL(u);
+    };
+    const handleQuestionCSV=(e)=>{
+      const file=e.target.files?.[0];if(!file)return;
+      const reader=new FileReader();
+      reader.onload=(ev)=>{
+        const rows=parseCourseCSV(String(ev.target.result||""));
+        const dataRows=rows.slice(1); // first row is the header
+        const imported=[];const errors=[];
+        dataRows.forEach((row,idx)=>{
+          const rn=idx+2; // +2: 1 for the header row, 1 for 1-indexing
+          const ao=(row[0]||"").trim(),q=(row[1]||"").trim();
+          const opts=[row[2],row[3],row[4],row[5]].map(c=>(c||"").trim());
+          const ansLetter=(row[6]||"").trim().toUpperCase();
+          if(!q){errors.push(`Row ${rn}: missing question text`);return;}
+          if(opts.some(o=>!o)){errors.push(`Row ${rn}: needs all 4 options (A-D) filled in`);return;}
+          const ai={A:0,B:1,C:2,D:3}[ansLetter];
+          if(ai===undefined){errors.push(`Row ${rn}: Correct Answer must be A, B, C or D (found "${row[6]||""}")`);return;}
+          imported.push({ao:ao||"General",q,o:opts,a:ai});
+        });
+        if(imported.length)setCbDraft(p=>({...p,questions:[...(p.questions||[]),...imported]}));
+        const parts=[`${imported.length} question${imported.length===1?"":"s"} imported.`];
+        if(errors.length)parts.push(`${errors.length} row${errors.length===1?"":"s"} skipped — ${errors.slice(0,4).join("; ")}${errors.length>4?", …":""}`);
+        setCbCsvMsg(parts.join(" "));
+      };
+      reader.readAsText(file);
+      e.target.value=""; // reset so re-uploading the same file again still fires onChange
+    };
+
     return ML({children:<>
       <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:14,flexWrap:"wrap",gap:8}}>
-        <button onClick={()=>{setCbView("list");setCbDraft(null);setCbEditId(null);}} style={{...bO,padding:"8px 14px",fontSize:12}}><ArrowLeft size={12} style={{marginRight:4,verticalAlign:"middle"}}/>Back to list</button>
+        <button onClick={()=>{setCbView("list");setCbDraft(null);setCbEditId(null);setCbCsvMsg("");}} style={{...bO,padding:"8px 14px",fontSize:12}}><ArrowLeft size={12} style={{marginRight:4,verticalAlign:"middle"}}/>Back to list</button>
         <div style={{display:"flex",gap:7}}>
           <button disabled={cbBusy} onClick={async()=>{if(await saveDbCourse({...d,status:"draft"},cbEditId))setCbView("list");}} style={{...bO,padding:"9px 16px",fontSize:12,opacity:cbBusy?.6:1}}><Save size={12} style={{marginRight:4,verticalAlign:"middle"}}/>Save Draft</button>
           <button disabled={cbBusy} onClick={async()=>{if(await saveDbCourse({...d,status:"published"},cbEditId))setCbView("list");}} style={{...bP,padding:"9px 16px",fontSize:12,opacity:cbBusy?.6:1}}><Eye size={12} style={{marginRight:4,verticalAlign:"middle"}}/>Save &amp; Publish</button>
@@ -10645,6 +10703,20 @@ export default function MindKlass(){
       })()}
 
       {cbStep==="questions"&&<div>
+        <div style={{...card,marginBottom:14,border:`1.5px dashed ${T.border}`}}>
+          <div style={{display:"flex",gap:13,alignItems:"center",marginBottom:11,flexWrap:"wrap"}}>
+            <div style={{flex:1,minWidth:200}}>
+              <h3 style={{fontSize:12,fontWeight:800,color:T.head,margin:"0 0 3px",display:"flex",alignItems:"center",gap:5}}><UploadCloud size={13} color="#1842a8"/>Bulk Upload Questions (CSV)</h3>
+              <p style={{fontSize:11,color:T.muted,margin:0}}>Download the template, fill in your questions with 4 options and mark the correct one (A-D), then upload — rows are added to the bank below, not replaced.</p>
+            </div>
+            <div style={{display:"flex",gap:8,flexShrink:0}}>
+              <button onClick={downloadQuestionTemplate} style={{...bO,padding:"8px 14px",fontSize:11}}><Download size={11} style={{marginRight:3,verticalAlign:"middle"}}/>Template</button>
+              <button onClick={()=>csvUploadRef.current?.click()} style={{...bP,padding:"8px 14px",fontSize:11}}><UploadCloud size={11} style={{marginRight:3,verticalAlign:"middle"}}/>Upload CSV</button>
+              <input ref={csvUploadRef} type="file" accept=".csv,text/csv" style={{display:"none"}} onChange={handleQuestionCSV}/>
+            </div>
+          </div>
+          {cbCsvMsg&&<div style={{background:T.alt,border:`1px solid ${T.border}`,borderRadius:9,padding:"8px 12px",fontSize:11.5,color:T.txt,display:"flex",alignItems:"flex-start",gap:7}}><Info size={13} color="#1842a8" style={{flexShrink:0,marginTop:1}}/><span>{cbCsvMsg}</span></div>}
+        </div>
         <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:12,flexWrap:"wrap",gap:8}}>
           <p style={{fontSize:12,color:T.muted,margin:0}}>{(d.questions||[]).length} of {d.totalQuestions||100} target questions written. Aim for genuinely challenging, exam-style questions — not simple recall.</p>
           <button onClick={()=>setCbDraft({...d,questions:[...(d.questions||[]),emptyQuestionDraft()]})} style={bP}><Plus size={12} style={{marginRight:4,verticalAlign:"middle"}}/>Add Question</button>
