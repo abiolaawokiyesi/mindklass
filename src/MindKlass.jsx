@@ -9916,6 +9916,3680 @@ const AIM_Q=[
 {ao:"Capstone",q:"According to the unit's Conclusion, what does the capstone project demonstrate about a learner?",o:["The ability to combine every skill from the course into one real, working solution","That the learner has memorized definitions with no practical application","That AI tools are unnecessary for real career success","That ethics and privacy safeguards are optional add-ons"],a:0}
 ];
 
+const GD_UNITS=[
+{id:"gd1",n:1,title:"Introduction to Graphic Design",mins:55,icon:"Lightbulb",summary:"What graphic design actually is, how it evolved, its major types and career paths, and why it is a problem-solving process rather than mere decoration.",
+ keyWords:["visual communication","design process","types of design","career paths"],
+ sections:[
+  {art:"command",h:"The Missing Poster That Sparked a Visual Revolution",p:[
+    "In the early 1900s, the London Underground transit system was an absolute visual mess. The stations were plastered with chaotic, unorganized text advertisements, cluttered schedules, and messy directional signs. Commuters routinely got lost, missed their stops, and felt overwhelmed by the visual noise. The network was losing money because people found the entire travel experience intensely stressful.",
+    "Commercial manager Frank Pick realized the station layouts lacked a deliberate design process. He asserted that graphic design is not just fine art; it is a problem-solving mechanism.",
+    "Pick hired calligrapher Edward Johnston to rethink the system's entire visual identity. Johnston ignored the chaotic art trends of the day. He carefully drafted a bold, clean typeface and created the iconic red-and-blue roundel bullseye logo. By applying a structured design process, they cleaned up the types of graphic design used across the platforms, separating corporate transit information from private commercial ads. The resulting layout was so clean and easy to navigate that it transformed the London Underground into a global design benchmark, opening up entirely new career opportunities for commercial artists worldwide."],
+   ex:{t:"Conclusion",b:["Graphic design is visual communication with a purpose.","Moving past raw artistic expression and mastering the design process allows you to turn visual clutter into clear, actionable information that guides human behaviour.","Design is a problem-solving mechanism, not simply decoration."]}},
+  {art:"layers",h:"Key Ideas",p:[
+    "Graphic design is the craft of visual communication: arranging text, images, colour and space to deliver a specific message to a specific audience. As the London Underground story shows, its real job is to solve a problem — helping people understand, decide, or act — rather than simply to look attractive.",
+    "The history and evolution of graphic design runs from early printing and poster art, through the structured corporate identity systems of the twentieth century (like Johnston's Underground work), to today's digital, screen-first design across websites, apps and social media. Understanding this evolution helps you see design as a discipline with established principles, not a matter of personal taste.",
+    "There are several major types of graphic design, each solving a different problem: brand identity design (logos, brand systems), marketing and advertising design (flyers, posters, social media), publication and editorial design (books, magazines, layouts), packaging design, user-interface and web design, and environmental or signage design like the Underground itself. Most designers specialise in one or two of these over time.",
+    "Career opportunities in graphic design are wide: in-house designer for a company, agency designer, freelancer serving many clients, or a specialist in areas such as branding, motion, or UI/UX. The through-line of all of them is the design process — a repeatable sequence of understanding the brief, researching, sketching ideas, refining a chosen direction, and delivering final files — which is what separates deliberate professional work from random decoration."]},
+  {art:"steps",h:"Seeing Design as Problem-Solving",p:[
+    "Look around at three pieces of design you encounter daily — a sign, an app screen, a product label — and for each, name the specific problem it is trying to solve for the person using it.",
+    "Pick one of the major types of graphic design listed above that interests you most, and describe why it appeals to you and what kind of problems it solves.",
+    "Reflect on the London Underground story: what changed once Frank Pick treated the station chaos as a design problem rather than an art project?"]}
+ ],
+ activity:"Choose a poorly designed sign, flyer or notice you have seen recently, describe exactly what makes it confusing, and outline how you would apply a deliberate design process to fix it.",
+ check:[
+  {q:"According to this unit, what is graphic design fundamentally about?",o:["Visual communication with a purpose — solving a problem, not just decoration","Making things look pretty with no other goal","Only drawing by hand with traditional art tools","A skill unrelated to business or communication"],a:0},
+  {q:"What problem were Frank Pick and Edward Johnston solving on the London Underground?",o:["Chaotic, cluttered signage that left commuters lost and stressed","A shortage of trains during rush hour","The high cost of building new stations","A lack of advertising revenue from posters"],a:0},
+  {q:"What is 'the design process', as described in this unit?",o:["A repeatable sequence — brief, research, sketch, refine, deliver — that guides deliberate design work","A single burst of artistic inspiration with no structure","A rule that all designs must be made by hand","A legal requirement for registering a business"],a:0}
+ ]},
+
+{id:"gd2",n:2,title:"Principles of Graphic Design",mins:60,icon:"Target",summary:"Balance, contrast, alignment, repetition, proximity, hierarchy, white space and unity — the structural laws that make a design organized and readable.",
+ keyWords:["hierarchy","contrast","alignment","white space"],
+ sections:[
+  {art:"weigh",h:"The Red Carpet Slip That Taught Visual Hierarchy",p:[
+    "In 2017, the Oscars experienced the most embarrassing live television mistake in its history. Presenters Faye Dunaway and Warren Beatty walked onto the stage to announce the winner of the prestigious Best Picture award. Beatty opened the envelope, hesitated, and then handed it to Dunaway, who immediately read aloud the movie title printed on the card: La La Land.",
+    "The cast walked up to accept the trophy, delivered their speeches, and celebrated for several minutes before production crew rushed out. They revealed a shocking truth: the real winner was actually Moonlight. The presenters had been handed the wrong envelope.",
+    "While the public blamed human error, graphic designers worldwide pointed directly to a catastrophic failure of basic design principles. When experts audited the envelope card layout, they discovered a complete lack of visual hierarchy and proximity. The words 'Best Actress' were printed at the very bottom in tiny, faint font, while the actress's name was too close to the movie title. The presenters' eyes had jumped instantly to the largest text, missing the context entirely. On the failed card, the movie title 'La La Land' dominated while the crucial category label sat tiny and buried at the bottom; a corrected card would have made 'BEST PICTURE' and 'MOONLIGHT' the largest, clearest elements. This historic slip proved that poor text alignment, weak contrast, and bad hierarchy can cause massive confusion on a global scale."],
+   ex:{t:"Conclusion",b:["The core principles of design — including balance, contrast, hierarchy, and white space — are not suggestions; they are structural laws.","Mastering these parameters ensures your designs look organized and deliver their message safely without human error.","A single hierarchy failure caused one of the most public mistakes in television history."]}},
+  {art:"build",h:"Key Ideas",p:[
+    "Balance is the distribution of visual weight across a layout so it feels stable rather than lopsided. It can be symmetrical (evenly mirrored) or asymmetrical (different elements arranged to still feel even). Contrast is the difference between elements — light vs dark, big vs small, thick vs thin — and it is what makes the most important thing stand out, exactly what the Oscars card lacked.",
+    "Alignment means every element sits on an invisible line that connects it to the others, giving the design order and a professional feel. Repetition reuses colours, fonts, and shapes consistently so the whole design feels like one connected piece. Proximity groups related items close together and separates unrelated ones — on the Oscars card, the actress's name sat too close to the film title, blurring which belonged to which.",
+    "Hierarchy is the deliberate ordering of elements by importance, so the eye lands on the most important thing first (the category), then the next (the winner), then the details. It is created through size, weight, colour and position. When hierarchy fails, as it did on that envelope, people read the wrong thing first.",
+    "White space (also called negative space) is the empty area around and between elements. Far from being wasted space, it gives a design room to breathe, reduces clutter, and makes the important content easier to find. Unity and consistency tie all of these together: when balance, contrast, alignment, repetition, proximity, hierarchy and white space all work in harmony, the design reads as one intentional, trustworthy whole."]},
+  {art:"steps",h:"Auditing a Design for Principles",p:[
+    "Take any flyer or poster and check it against each principle in turn: is there clear hierarchy? enough contrast? consistent alignment? adequate white space?",
+    "Identify the single element that should be seen first, and confirm whether the design actually makes it the most prominent — as 'Best Picture' should have been on the Oscars card.",
+    "Rework one weak area in your description: for example, describe how you would increase contrast or add white space to make the message clearer."]}
+ ],
+ activity:"Find a cluttered design and redesign it on paper or in words by applying at least four principles (hierarchy, contrast, alignment, white space), explaining what each change fixes.",
+ check:[
+  {q:"What design principle failed most clearly on the 2017 Oscars envelope card?",o:["Visual hierarchy — the category label was tiny while the film title dominated","Balance between two colours","Use of expensive paper stock","The choice of a serif versus sans-serif font only"],a:0},
+  {q:"What is 'white space' in design, according to this unit?",o:["The empty area around and between elements that reduces clutter and aids focus","Wasted space that should always be filled with content","A colour that must always be white","A type of font used only in print"],a:0},
+  {q:"What does 'hierarchy' do in a design?",o:["Orders elements by importance so the eye lands on the most important thing first","Makes every element exactly the same size","Removes all colour from a layout","Guarantees a design will win awards"],a:0}
+ ]},
+
+{id:"gd3",n:3,title:"Understanding Colour",mins:60,icon:"Sparkles",summary:"Colour theory, the colour wheel, colour psychology and choosing effective, data-informed combinations that build trust and drive real business results.",
+ keyWords:["colour theory","colour psychology","brand colours","colour combinations"],
+ sections:[
+  {art:"science",h:"The Digital Blueprint That Chose the Perfect Blue",p:[
+    "In 2009, Douglas Bowman was the lead visual designer at Google. He wanted to pick a specific shade of blue for the hyperlink text displayed on search results pages and digital ads. Bowman chose a pleasing shade based on standard aesthetic style and visual balance. However, a corporate product team objected, pointing out that a slightly different primary-secondary mix might improve user engagement.",
+    "Instead of arguing based on personal opinions, Google's leadership team deployed a scientific colour and analytics test. They launched an experimental system to test 41 distinct shades of blue across millions of user interactions.",
+    "They monitored real-time user behaviour to see which specific blue variation encouraged the highest conversion click rates. The data revealed an undeniable winner: a specific, slightly purplish shade of blue drew significantly more user interactions than any other option. By deploying that exact shade across their brand colours, Google boosted their annual ad revenue by an extra $200 million. This test proved that choosing effective colour combinations is not just a casual guess — it is a data-informed decision that influences consumer behaviour."],
+   ex:{t:"Conclusion",b:["Colour is a powerful tool for commercial influence, not just aesthetics.","Understanding colour combinations and leveraging colour psychology allows you to design brand assets that establish trust, guide the eye, and support business results.","Even a tiny shift in a single colour can measurably change how people behave."]}},
+  {art:"sample",h:"Key Ideas",p:[
+    "Colour theory is the framework for how colours relate to one another, organised on the colour wheel. Primary colours (red, blue, yellow in traditional theory) mix to create secondary colours (green, orange, purple), which mix further into tertiary colours. Understanding the wheel lets you build harmonious combinations — complementary (opposite), analogous (neighbouring), or triadic (evenly spaced) schemes.",
+    "Colour psychology is the study of how colours make people feel and behave. Blue often signals trust and calm (which is why so many banks and tech firms use it), red conveys energy or urgency, green suggests growth and health, and so on. These associations are not absolute and vary by culture, but they are powerful enough that, as Google discovered, even different shades of the same colour can change how people act.",
+    "Choosing effective colour combinations means balancing harmony, contrast and legibility. Text must contrast enough with its background to be readable; accent colours should draw the eye to calls to action; and the overall palette should feel intentional rather than random. Most professional designs limit themselves to two or three core colours plus neutrals.",
+    "Brand colours are a specific, fixed palette a business uses consistently across everything it produces, so the brand becomes instantly recognisable. Google's refined blue is a brand colour; so are the specific reds, blues and greens you associate with major companies. Defining and sticking to brand colours is one of the simplest, most powerful ways to make a business look established and trustworthy."]},
+  {art:"chart",h:"Building a Colour Palette",p:[
+    "Choose a business or project and select two primary brand colours plus one accent colour, explaining what feeling each choice is meant to create using colour psychology.",
+    "Check your combination for legibility: would text in your palette be easy to read on your chosen background? Adjust if the contrast is weak.",
+    "Reflect on the Google story: why did the company run a 41-shade test instead of letting one designer simply pick the blue he preferred?"]}
+ ],
+ activity:"Create a three-colour brand palette for a real or imagined business, naming each colour's psychological purpose and confirming the combination stays readable and harmonious.",
+ check:[
+  {q:"What did Google's '41 shades of blue' test demonstrate?",o:["That even a small change in a single colour can measurably affect user behaviour and revenue","That colour has no real effect on how people act","That designers should always trust personal taste over data","That blue is the only effective colour for websites"],a:0},
+  {q:"What is colour psychology?",o:["The study of how colours make people feel and behave","A method for mixing paint in art class only","A rule that every design must use all colours of the wheel","The science of printing ink on paper"],a:0},
+  {q:"What are 'brand colours'?",o:["A fixed palette a business uses consistently so it becomes instantly recognisable","Random colours chosen fresh for every new design","Colours that can only appear in logos, never elsewhere","A legal requirement for registering a company"],a:0}
+ ]},
+
+{id:"gd4",n:4,title:"Typography",mins:60,icon:"PenLine",summary:"What typography is, the main font categories, font pairing, and the readability and legibility standards that can make text clear, engaging — even life-saving.",
+ keyWords:["typography","font pairing","readability","legibility"],
+ sections:[
+  {art:"write",h:"The Font Choice That Kept Drivers Safe at 70 MPH",p:[
+    "For decades, highway signs across the United States used a classic, heavy typeface called Highway Gothic. As traffic speeds increased and drivers aged, highway safety teams noticed a dangerous pattern: at night, the bright glare from car headlights caused the interior openings of letters like 'e', 'a', and 'o' to blur together on the signs. Drivers couldn't read the road names quickly enough, leading to sudden braking, missed turns, and fatal highway accidents.",
+    "Designers realized the problem was a lack of typography readability and legibility at a distance under high-stress conditions.",
+    "Donald Meeker led a specialized design team to build a completely new typeface family called Clearview. They meticulously adjusted font parameters, opening up the counter-spaces of the letters and raising the lowercase heights. They tested font pairing options specifically for night visibility. When the new signs rolled out, legibility distances increased by 16%, giving drivers an extra two seconds to react safely at high speeds. This simple typography update saved thousands of lives, proving that clean font selection is a critical safety requirement."],
+   ex:{t:"Conclusion",b:["Typography is the physical voice of your written text.","Mastering font pairing, readability thresholds, and text spacing allows you to deliver messages clearly, keeping your audience engaged and safe.","A single typographic decision on highway signs measurably reduced accidents."]}},
+  {art:"read",h:"Key Ideas",p:[
+    "Typography is the art of arranging type — the choice of fonts, their size, spacing and layout — so that written words are both readable and expressive. As the Clearview story shows, typography is not decoration; it directly affects whether people can absorb a message quickly and accurately.",
+    "There are several major types of fonts. Serif fonts (with small feet on the letters) feel traditional and are common in print; sans-serif fonts (clean, without feet) feel modern and read well on screens; script fonts imitate handwriting; and display fonts are decorative, for headlines only. Knowing these categories helps you pick fonts that match the tone you want.",
+    "Font pairing is the practice of combining two or three fonts that complement each other — typically one for headlines and one for body text — with enough contrast to feel intentional but enough harmony to feel unified. A common safe approach is pairing a distinctive display or serif font for headings with a clean, highly readable sans-serif for body copy.",
+    "Readability and legibility are related but distinct. Legibility is whether individual letters can be told apart (the exact problem Clearview solved by opening up letter shapes); readability is how easy it is to read whole blocks of text, influenced by size, line spacing, line length and contrast. Using typography effectively means respecting both — keeping body text large enough, well-spaced, and high-contrast so the audience can read comfortably and quickly."]},
+  {art:"steps",h:"Practising with Type",p:[
+    "Collect three examples of text you find easy to read and three you find hard, and identify the typographic reasons — size, spacing, contrast, or letter shapes — behind each.",
+    "Choose a heading font and a body font that pair well, and explain why they complement rather than clash with each other.",
+    "Reflect on the Clearview story: what specific letter-level changes improved legibility for drivers, and why did that matter at high speed?"]}
+ ],
+ activity:"Design a simple poster headline-and-body layout using a font pairing of your choice, and justify how your size, spacing and contrast choices support readability.",
+ check:[
+  {q:"What problem did the Clearview typeface solve on US highways?",o:["Letters blurring together under headlight glare, making signs hard to read in time","Signs being too expensive to manufacture","A shortage of road names to display","Drivers ignoring signs entirely"],a:0},
+  {q:"What is the difference between legibility and readability?",o:["Legibility is telling individual letters apart; readability is how easy whole blocks of text are to read","They mean exactly the same thing","Legibility applies only to print, readability only to screens","Readability is about colour, legibility is about size"],a:0},
+  {q:"What is font pairing?",o:["Combining two or three complementary fonts, typically one for headings and one for body text","Using as many different fonts as possible in one design","Only ever using a single font everywhere","Matching a font to a specific printer"],a:0}
+ ]},
+
+{id:"gd5",n:5,title:"Images and Visual Elements",mins:60,icon:"Video",summary:"Choosing quality images, understanding resolution, using icons, illustrations and shapes, and respecting copyright and image licensing to avoid costly legal trouble.",
+ keyWords:["image resolution","icons","copyright","licensing"],
+ sections:[
+  {art:"law",h:"The Social Media Post That Sparked a $10,000 Legal Battle",p:[
+    "In 2019, a young freelance marketer was building a digital social media banner for a new client's corporate web launch. Looking for a high-quality image of a modern office space, he opened a standard search engine, typed in a keyword, found a beautiful photo, right-clicked, and saved it to his desktop. He assumed that because the image was publicly visible on the internet, he could use it for free in his design layout.",
+    "He finalized the flyer design, published the asset to the client's live channels, and collected his freelance fee. Two months later, his client received a terrifying legal demand letter from a professional stock photography agency.",
+    "The agency's automated tracking bots had flagged the image. Because the freelancer had ignored copyright and image licensing laws, the client was facing a $10,000 fine for unauthorized commercial use. The freelancer's reputation was damaged, and he had to pay out of his own pocket to settle the dispute. This painful lesson taught him that picking quality images requires using verified, royalty-free platforms and respecting intellectual property laws."],
+   ex:{t:"Conclusion",b:["Visual elements are bound by strict legal rules.","Understanding image resolution, selecting verified icons, and adhering to copyright and image licensing policies protects your design business from severe legal liabilities and expensive penalties.","An image that looks free online is very often not free to use commercially."]}},
+  {art:"search",h:"Key Ideas",p:[
+    "Choosing quality images is the foundation of professional-looking design. Quality means images that are sharp, well-lit, relevant to the message, and consistent in style. A single low-quality or off-topic image can undermine an otherwise strong layout.",
+    "Image resolution measures how much detail an image contains, usually in pixels. High-resolution images stay crisp when enlarged or printed; low-resolution images look blurry or pixelated when stretched. Designers must match resolution to purpose — screen graphics need less resolution than large printed banners, which need much more.",
+    "Icons, illustrations, shapes and other design elements are the building blocks that support images and text. Icons communicate ideas quickly and universally (a map pin, a phone, a cart); illustrations add personality; and simple shapes organise and frame content. Used consistently, these elements make a design feel polished and easy to scan.",
+    "Copyright and image licensing are the legal rules governing who may use an image and how. As the freelancer learned painfully, an image being visible online does not make it free to use — most photos are owned by someone. Safe practice means using royalty-free or properly licensed platforms, reading the licence terms (some allow personal but not commercial use), and keeping records of where assets came from. Respecting these rules protects both you and your clients from expensive legal claims."]},
+  {art:"steps",h:"Sourcing Visuals Safely",p:[
+    "Find two or three reputable royalty-free image or icon sources and note their licence terms — especially whether commercial use and attribution are required.",
+    "Take one image and consider its resolution: would it stay sharp printed on a large banner, or is it only suitable for a small on-screen graphic?",
+    "Reflect on the 2019 legal-battle story: what simple step could the freelancer have taken to avoid the $10,000 fine entirely?"]}
+ ],
+ activity:"Build a short 'visual sourcing checklist' for yourself covering image quality, resolution suitability, and how to confirm an image is legally cleared for commercial use.",
+ check:[
+  {q:"Why did the freelancer's client face a $10,000 fine?",o:["He used an image he found online without checking copyright or licensing","He printed the flyer on the wrong paper","He used too many fonts in the design","He delivered the project late"],a:0},
+  {q:"What does image resolution determine?",o:["How much detail an image holds, and whether it stays sharp when enlarged or printed","The colour temperature of an image only","Whether an image is legally free to use","The file name of an image"],a:0},
+  {q:"What is the safe practice for using images commercially, according to this unit?",o:["Use royalty-free or properly licensed sources and read the licence terms","Use any image visible on a search engine, since public means free","Only ever draw every image yourself by hand","Assume all images are free unless a warning appears"],a:0}
+ ]},
+
+{id:"gd6",n:6,title:"Introduction to Canva",mins:55,icon:"Sparkles",summary:"Creating a Canva account, navigating the interface, using templates, adding text and images, working with shapes and icons, and exporting professional designs.",
+ keyWords:["Canva","templates","drag-and-drop","exporting"],
+ sections:[
+  {art:"build",h:"The Solopreneur Who Reclaimed Her Marketing Budget",p:[
+    "In 2021, Sarah Jenkins launched a boutique handmade skincare line. She possessed an exceptional product, but she was completely stuck on her marketing launch. Professional agency quotes to design simple flyers, product labels, and social media banners cost thousands of dollars — money her small business simply didn't have. She tried using advanced, professional desktop software tools, but she found the learning curve far too steep and confusing.",
+    "A colleague suggested she create a free account on Canva, a beginner-friendly cloud platform designed to make graphic design accessible to everyone.",
+    "Sarah opened the interface and was amazed by its simplicity. Instead of staring at an intimidating blank canvas, she selected high-quality, pre-made templates tailored to her exact industry. She learned how to navigate the Canva interface, use drag-and-drop mechanics to add text, change brand colours, and position shapes and icons. Within a single afternoon, she successfully built and exported her entire product marketing kit, completely eliminating her design bottleneck."],
+   ex:{t:"Conclusion",b:["Canva is a revolutionary tool for modern content creators.","Mastering the Canva interface, template selection, element positioning, and export formats allows you to produce stunning, professional-grade visual assets without any prior coding or design training.","A tool with a gentle learning curve let a small business owner produce her own professional marketing in an afternoon."]}},
+  {art:"control",h:"Key Ideas",p:[
+    "Creating a Canva account is free and takes minutes; it runs in a web browser, so there is nothing heavy to install. This low barrier is exactly what let Sarah start immediately instead of wrestling with complex desktop software.",
+    "Understanding the Canva interface is the first real skill: a left-hand panel holds templates, elements, text, uploads and more; the central canvas is your working area; and a top toolbar changes to match whatever element you have selected. Learning where things live turns the tool from confusing to fast.",
+    "Templates are Canva's biggest time-saver. Instead of starting from a blank page, you choose a professionally designed layout sized for your purpose — a flyer, an Instagram post, a business card — and replace its placeholder content with your own. Adding text and images is done by dragging elements onto the canvas and editing them directly; working with shapes and icons lets you frame, separate and highlight content.",
+    "Exporting designs is the final step, and choosing the right format matters (a topic covered more fully in the Design Best Practices unit): PNG or JPG for screen and social media, PDF for printing. Understanding these export options ensures the polished design you see on screen actually reaches your audience looking the same way."]},
+  {art:"steps",h:"Getting Started in Canva",p:[
+    "Create a free Canva account and spend a few minutes locating the templates panel, the elements panel, the text tool, and the export/download button.",
+    "Choose a template for a specific purpose (for example a social media post), and replace its placeholder text and one image with your own content.",
+    "Reflect on Sarah's story: why did templates and drag-and-drop let her succeed where 'advanced, professional desktop software' had defeated her?"]}
+ ],
+ activity:"Using Canva, create one simple design from a template — such as a quote graphic or a flyer — customise its text, colours and one image, and export it in an appropriate format.",
+ check:[
+  {q:"Why did Sarah succeed with Canva after struggling with professional desktop software?",o:["Canva's templates and drag-and-drop interface had a gentle learning curve she could use immediately","Canva automatically ran her whole business for her","She hired an agency after all","Canva was the only software that existed"],a:0},
+  {q:"What is the main advantage of using templates in Canva?",o:["You start from a professionally designed, correctly sized layout instead of a blank page","Templates make it impossible to change any text","Templates are the only way to add colour","Templates remove the need to choose a purpose for the design"],a:0},
+  {q:"Which export formats suit screen and social media versus print?",o:["PNG or JPG for screen and social media; PDF for printing","PDF for everything, always","Only one universal format exists for all uses","Print always uses JPG and screens always use PDF"],a:0}
+ ]},
+
+{id:"gd7",n:7,title:"Introduction to Adobe Express",mins:55,icon:"Sparkles",summary:"Creating simple designs, editing images, using templates and quick branding features in Adobe Express to produce on-brand assets at speed.",
+ keyWords:["Adobe Express","brand kit","quick editing","templates"],
+ sections:[
+  {art:"command",h:"The Remote Marketer Who Cut Asset Delivery Time in Half",p:[
+    "Marcus Vance worked as a remote digital marketer for a fast-moving real estate firm. His daily schedule was intensely demanding: whenever a new property went on the market, he had to instantly generate a clean flyer, remove distracting backgrounds from house photos, apply corporate logos, and post the update online. Using heavy software tools to perform these minor edits took up to two hours per listing, slowing down his campaign launches.",
+    "In 2023, Marcus integrated Adobe Express into his operational toolkit. He wanted to use its quick branding features to speed up his workflow.",
+    "He uploaded his company's official logos, primary colour palettes, and fonts into the central brand portal. The system instantly applied those brand guidelines across thousands of editable templates. When a new house photo arrived, Marcus used the platform's one-click AI image editing tools to instantly cut out backgrounds and adjust brightness. An asset production process that once required constant switching between different complex programs now occurred in under five minutes, allowing him to launch real estate campaigns ahead of all competitors."],
+   ex:{t:"Conclusion",b:["Adobe Express is a powerhouse for rapid asset creation.","Leveraging its quick branding features, simple image editing capabilities, and cloud templates allows you to execute flawless creative work under tight professional deadlines.","Storing brand assets once let Marcus cut a two-hour job down to five minutes."]}},
+  {art:"layers",h:"Key Ideas",p:[
+    "Adobe Express is a web and mobile design tool built for speed and simplicity — a sibling to Canva in its beginner-friendly approach, but tightly connected to Adobe's ecosystem. Creating simple designs works the same way: pick a template, edit the content, and export.",
+    "Editing images is one of Express's strengths. It offers quick, one-click tools to remove or replace backgrounds, adjust brightness and colour, and resize — the exact tasks that used to cost Marcus hours in heavier software. These tools let a non-specialist do jobs that once required advanced photo-editing skills.",
+    "Templates in Adobe Express, like in Canva, give you a professional starting point sized for a specific purpose. You customise the text, images and colours rather than building from scratch, which is what makes rapid, high-volume production possible.",
+    "The quick branding features — often organised as a 'brand kit' — are what set Express apart in Marcus's story. By storing your logos, brand colours and fonts once, the tool can apply them consistently across every template automatically. This guarantees brand consistency (the topic of the Branding Basics unit) while dramatically speeding up production, because you never re-apply your branding by hand."]},
+  {art:"steps",h:"Working Quickly in Adobe Express",p:[
+    "Explore Adobe Express and locate its template library, image-editing tools (especially background removal), and brand or brand-kit settings.",
+    "Take a single photo and practise a quick edit — removing or cleaning up the background — then place it into a template.",
+    "Reflect on Marcus's workflow: how did storing his brand assets once let him produce consistent, on-brand designs in minutes rather than hours?"]}
+ ],
+ activity:"Create one design in Adobe Express using a template and at least one quick image edit (such as background removal), and describe how a stored brand kit would speed up producing ten more like it.",
+ check:[
+  {q:"What let Marcus cut his asset production from two hours to under five minutes?",o:["Storing his brand assets once and using quick one-click image editing on templates","Hiring three extra designers","Printing everything instead of posting online","Abandoning branding altogether"],a:0},
+  {q:"What is a 'brand kit' / quick branding feature in Adobe Express?",o:["A stored set of your logos, colours and fonts the tool applies consistently across templates","A physical box of printed logos","A one-time discount on the software","A feature that designs the logo for you automatically"],a:0},
+  {q:"What kind of image editing does Adobe Express make quick and simple?",o:["One-click tasks like background removal and brightness adjustment","Only hand-drawing new illustrations","Writing the code behind an image","Nothing — it cannot edit images at all"],a:0}
+ ]},
+
+{id:"gd8",n:8,title:"Designing Marketing Materials",mins:60,icon:"Target",summary:"Designing flyers, posters, social posts, banners, invitations, certificates and business cards that convert attention into real customer action.",
+ keyWords:["marketing design","call to action","conversion","layout"],
+ sections:[
+  {art:"target",h:"The Local Restaurant Flyer That Packed Out a Dining Hall",p:[
+    "In 2022, Mateo Silva opened a small neighbourhood bistro. He printed 2,000 promotional flyers and hired a local student to distribute them to nearby houses. Mateo waited eagerly for a rush of customers, but over the next two weeks, only three people walked through his doors holding the flyer. The restaurant was losing money fast, and Mateo was terrified he would have to close his business down.",
+    "He picked up one of his own flyers from the counter and looked at it through the eyes of a graphic designer. He realized the design was a total failure: the menu text was tiny, the colours were dull, the contact information was buried at the back, and there was no clear call to action. The failed flyer led with the bistro's name in a small font, followed by a long paragraph of text, with the phone number and address hidden at the bottom.",
+    "Mateo redesigned the flyer completely. He used a bold, high-contrast headline reading '50% OFF YOUR FIRST VISIT', added a vibrant, mouth-watering image of his signature dish, placed a clear map pin icon, and put a distinct step-by-step instruction on how to book a table. He printed the new layout on clean, premium paper. The response was immediate: within 48 hours, his dining hall was packed to capacity, proving that a well-designed marketing asset is a direct generator of business revenue."],
+   ex:{t:"Conclusion",b:["Designing marketing materials requires a deep focus on customer conversion.","Whether you are building flyers, posters, banners, invitations, certificates or business cards, your layouts must use clean imagery and clear headlines to guide the viewer to take action.","The same offer failed and then succeeded purely because of how it was designed."]}},
+  {art:"chart",h:"Key Ideas",p:[
+    "Marketing materials share one job: to move the viewer to take a specific action. That action — book a table, call a number, attend an event, scan a code — is the call to action, and every strong marketing design makes it obvious. Mateo's first flyer had no clear call to action; his second was built entirely around one.",
+    "Each format has its own conventions. Flyers and posters need a bold headline and a single dominant image; social media posts must grab attention in a crowded feed; banners work at a glance from a distance; invitations and certificates balance decoration with clear key details; and business cards must present essential contact information cleanly in a tiny space. Knowing the purpose of each format shapes its layout.",
+    "The principles from earlier units all come together here: hierarchy makes the headline and offer dominant, contrast makes the call to action pop, quality imagery makes the product desirable, and white space keeps the piece from feeling cluttered. Mateo's redesign succeeded because it applied all of these at once.",
+    "Effective marketing design also respects the audience and the medium. A premium restaurant flyer printed on good paper signals quality; a discount coupon signals value. Matching the tone, imagery and finish to the message — and always leading the viewer clearly toward the desired action — is what turns a design from decoration into a revenue generator."]},
+  {art:"steps",h:"Designing to Convert",p:[
+    "Pick one marketing format (flyer, poster, social post or business card) and define the single action you want the viewer to take.",
+    "Sketch a layout that makes the headline and call to action the most prominent elements, supported by one strong image.",
+    "Reflect on Mateo's two flyers: list the specific changes that turned three visitors into a packed dining hall."]}
+ ],
+ activity:"Design a one-page flyer for a real or imagined offer, with a bold headline, one strong image, and an unmistakable call to action, and explain how each choice drives the viewer to act.",
+ check:[
+  {q:"What was missing from Mateo's first, failed flyer?",o:["A clear call to action, strong imagery, readable text and good hierarchy","Any mention of the restaurant's name","A second colour","A price list of every dish"],a:0},
+  {q:"What is a 'call to action' in marketing design?",o:["The specific action you want the viewer to take, made obvious in the design","The name of the designer","A legal disclaimer required on all flyers","The paper the flyer is printed on"],a:0},
+  {q:"Why did the same 50%-off offer succeed the second time?",o:["The redesign applied hierarchy, contrast, strong imagery and a clear call to action","The offer was completely different","He distributed ten times as many flyers","He lowered the restaurant's prices further"],a:0}
+ ]},
+
+{id:"gd9",n:9,title:"Branding Basics",mins:60,icon:"Shield",summary:"What branding is, how logos, colour, typography and brand guidelines create a consistent identity that signals professionalism and earns trust.",
+ keyWords:["branding","brand identity","consistency","brand guidelines"],
+ sections:[
+  {art:"identity",h:"The Startup That Standardized Its Identity to Win a Million-Dollar Deal",p:[
+    "In 2023, a promising software startup was pitching their product to an elite international venture capital firm for a million-dollar investment. The founders had a powerful product engine, but their visual presentation materials were a mess. Their pitch deck used one set of fonts, their website used completely different colours, and their marketing flyers featured three different variations of their logo.",
+    "During the final review, the investors hesitated. They noted that the startup appeared disorganized and unprofessional, questioning whether they could be trusted with a massive investment.",
+    "The founders paused operations to fix their foundational branding. They designed an airtight corporate identity guide: they selected two primary brand colours, picked two distinct corporate typefaces, and created strict rules on how their logo could be displayed across different backgrounds. They updated their website, documents and slides to match these guidelines perfectly. When they returned for their final pitch, the visual presentation was completely seamless and professional. The board approved the investment, stating that the cohesive brand identity gave them confidence in the company's operational maturity."],
+   ex:{t:"Conclusion",b:["Branding is the visual soul of a business.","Establishing strict brand guidelines — consistent logos, fixed typography, and stable colour schemes — transforms a loose collection of materials into an authoritative, trusted brand identity.","Investors read visual inconsistency as operational immaturity."]}},
+  {art:"mark",h:"Key Ideas",p:[
+    "Branding is far more than a logo: it is the complete, consistent identity a business presents to the world — its colours, fonts, logo, imagery style, and tone. Good branding makes an organisation instantly recognisable and signals that it is professional and trustworthy, exactly what the startup lacked at first.",
+    "A logo is the central mark of a brand, but its power depends on how consistently it is used. The startup's three different logo variations sent a message of disorganisation; strict rules on how a single logo appears — its spacing, colours, and acceptable backgrounds — are what make it authoritative.",
+    "Colour consistency and typography in branding tie directly back to earlier units: a brand chooses a fixed palette and a small set of fonts and then uses them everywhere, so every touchpoint feels like it comes from the same organisation. Inconsistency here (different colours on the website versus the deck) quietly erodes trust.",
+    "Brand guidelines are the written rulebook that captures all of this — the exact colours, fonts, logo rules and usage examples — so that everyone producing materials stays consistent. Creating and following brand guidelines is what let the startup return with a 'completely seamless' presentation. For any business, even a simple one-page guideline is one of the highest-value design deliverables there is."]},
+  {art:"steps",h:"Building a Basic Brand",p:[
+    "For a real or imagined business, define its core identity: two brand colours, two fonts, and a simple description of the logo's style and tone.",
+    "Write three short brand rules — for example how the logo may or may not be used, or which colour is reserved for calls to action.",
+    "Reflect on the startup story: why did investors treat inconsistent branding as a sign of deeper business problems?"]}
+ ],
+ activity:"Create a one-page brand guideline for a business, specifying its colours, fonts, logo usage rules and overall tone, and explain how consistency across these builds trust.",
+ check:[
+  {q:"Why did the investors initially hesitate on the startup's pitch?",o:["Inconsistent branding — mismatched fonts, colours and logo variations — made the company look disorganised","The product did not work","The founders asked for too little money","The pitch was delivered in the wrong language"],a:0},
+  {q:"What are brand guidelines?",o:["A written rulebook capturing a brand's exact colours, fonts and logo rules so everything stays consistent","A single flyer advertising the brand","A legal contract with investors","A list of competitors to avoid"],a:0},
+  {q:"According to this unit, branding is best described as:",o:["The complete, consistent identity a business presents — colours, fonts, logo, imagery and tone","Only the logo, nothing more","A one-time marketing campaign","The price a company charges"],a:0}
+ ]},
+
+{id:"gd10",n:10,title:"Design for Social Media",mins:60,icon:"Video",summary:"Designing platform-specific graphics for Instagram, Facebook, LinkedIn, WhatsApp and YouTube, sized and styled to stop the scroll and earn the click.",
+ keyWords:["social media design","platform dimensions","thumbnails","click-through rate"],
+ sections:[
+  {art:"global",h:"The Single Thumbnail Metric That Saved a Channel",p:[
+    "In 2024, a professional training channel was experiencing a catastrophic drop-off in video views. They were spending days researching scripts and recording high-definition tutorials, but their click-through rate hovered at a dismal 1.5%. This meant that out of thousands of people scrolling past their content on social media feeds, almost no one was actually clicking to watch the videos.",
+    "The production team ran a deep platform audit and realized they were designing their social media graphics entirely wrong. They were using standard square layouts meant for Facebook posts as their YouTube thumbnails. On a small mobile phone screen, the text was completely cropped out and unreadable.",
+    "They pivoted to a platform-specific social media design strategy. They built custom widescreen templates matching precise YouTube dimensions, used hyper-bold font pairings, placed bright coloured borders around human faces, and limited the text to three highly punchy words. For their LinkedIn banners and WhatsApp flyers, they used distinct, customised dimensions matched to each platform. The pattern was simple: an un-optimised, blurry image caused users to scroll straight past with zero views, while a platform-specific design earned an instant click. Within 30 days, their channel click-through rate jumped from 1.5% to over 9%, completely reversing their traffic slump."],
+   ex:{t:"Conclusion",b:["Social media platforms require highly customised design formats.","Tailoring your graphic dimensions, text sizes, and visual layouts specifically for Instagram, LinkedIn, Facebook, WhatsApp and YouTube ensures your content stands out in a crowded digital feed.","The same content jumped from 1.5% to 9% click-through purely through platform-correct design."]}},
+  {art:"measure",h:"Key Ideas",p:[
+    "Every social platform has its own dimensions and behaviour. A square that looks perfect as a Facebook post gets badly cropped as a YouTube thumbnail — exactly the mistake that was quietly killing the training channel. Designing for social media starts with knowing and using each platform's correct sizes.",
+    "Instagram favours bold, square or vertical visuals; Facebook posts sit in a busy feed; LinkedIn banners must look professional and read at a glance; WhatsApp flyers are viewed on small screens and shared person-to-person; and YouTube thumbnails must communicate instantly at tiny sizes. Each demands a slightly different layout, text size and emphasis.",
+    "Because most people view social media on phones, mobile legibility is decisive. That means very few words, very large and bold type, strong contrast, and a single clear focal point — often a human face, which naturally draws the eye. The channel's switch to three punchy words and bordered faces is a textbook example.",
+    "Click-through rate is the metric that measures success here: the percentage of people who see your graphic and actually click. Small design changes — correct dimensions, bolder text, a clearer focal point — can multiply this rate several times over, as the channel's jump from 1.5% to 9% shows. Designing for social media is ultimately about winning that split-second decision to stop scrolling."]},
+  {art:"steps",h:"Designing for the Feed",p:[
+    "Pick two platforms (for example YouTube and Instagram) and note their correct graphic dimensions and what a viewer sees first on each.",
+    "Design a thumbnail or post concept using no more than a few bold words and one clear focal point, sized correctly for its platform.",
+    "Reflect on the training channel: what specific changes took their click-through rate from 1.5% to over 9%?"]}
+ ],
+ activity:"Create a YouTube thumbnail or Instagram post concept for a real or imagined video, using correct dimensions, minimal bold text and a single strong focal point, and explain how it would stop a scrolling viewer.",
+ check:[
+  {q:"What mistake was quietly killing the training channel's views?",o:["Using square Facebook-style layouts as YouTube thumbnails, so text got cropped and unreadable on mobile","Making videos that were too long","Posting at the wrong time of day","Using too few hashtags"],a:0},
+  {q:"Why does mobile legibility dominate social media design?",o:["Most people view social feeds on phones, so text must be few, large, bold and high-contrast","Phones cannot display colour","Desktop users never see social media","Mobile screens show more text than desktops"],a:0},
+  {q:"What is click-through rate?",o:["The percentage of people who see a graphic and actually click it","The number of videos a channel makes per week","The cost of running an ad","The resolution of a thumbnail"],a:0}
+ ]},
+
+{id:"gd11",n:11,title:"Design Best Practices",mins:55,icon:"ClipboardCheck",summary:"Avoiding common mistakes, designing for different audiences, maintaining consistency, and choosing the right file formats and colour profiles for print versus digital.",
+ keyWords:["file formats","RGB vs CMYK","consistency","print vs digital"],
+ sections:[
+  {art:"control",h:"The Print Run Catastrophe That Cost a Designer His Fee",p:[
+    "In 2022, a novice freelance designer was hired to design a premium, full-colour corporate banner for a major product launch event. He worked hard on his laptop, using vibrant neon colours and high-definition digital elements. When he finished the layout, he saved the file as a low-resolution compressed JPG and sent it straight to the commercial printing press.",
+    "On the morning of the product launch, the client unveiled the printed banner and gasped in horror. The beautiful, bright design looked terribly pixelated, blurry, and faded. The neon colours had turned into a muddy green tone, and the text edges were completely distorted.",
+    "The client cancelled the designer's contract and refused to pay his invoice. The devastated designer ran an audit and discovered he had violated basic design best practices. He had designed the asset using a digital-only screen colour profile (RGB) instead of a print colour profile (CMYK), and he had exported the layout in a compressed format instead of a print-ready vector file or high-resolution PDF. This painful mistake taught him that a professional designer must know exactly how files behave in both the digital and physical worlds."],
+   ex:{t:"Conclusion",b:["Design best practices are the boundary lines that separate amateur work from professional execution.","Understanding file formats (PNG, JPG, PDF, SVG) and preparing layouts specifically for their final destination ensures your designs print flawlessly and display with absolute clarity online.","A single wrong colour profile and file format destroyed an otherwise good design."]}},
+  {art:"build",h:"Key Ideas",p:[
+    "Common design mistakes are predictable and avoidable: overcrowding a layout, using too many fonts or colours, poor contrast, low-resolution images, and — as this story shows — using the wrong file format or colour profile. Learning to spot these before delivery is what separates amateur from professional work.",
+    "Designing for different audiences means adjusting tone, imagery and complexity to who will actually see the work. A design for children, a corporate board, or a local community will each call for different choices. The best practice is to design for the real audience, not for your own personal taste.",
+    "Maintaining consistency — the same colours, fonts and spacing across every piece — ties a body of work together and reinforces a brand, echoing the Branding Basics unit. Inconsistency looks careless; consistency looks professional and trustworthy.",
+    "File formats and colour profiles are the technical core of this unit. JPG compresses photos for the web (but loses quality); PNG keeps sharpness and supports transparency; PDF is reliable for print and documents; and SVG is a vector format that stays perfectly crisp at any size. Just as important, RGB is the colour mode for screens while CMYK is the mode for print — mixing them up is exactly what turned the freelancer's neon banner muddy. Preparing designs correctly for print versus digital, in the right format and colour mode, is a non-negotiable professional habit."]},
+  {art:"steps",h:"Delivering Like a Professional",p:[
+    "Build a short pre-delivery checklist covering resolution, colour profile (RGB vs CMYK), file format, and consistency.",
+    "For a given design, decide its final destination (screen or print) and state which file format and colour mode you would export.",
+    "Reflect on the banner catastrophe: which two specific technical mistakes ruined the print, and how would your checklist have caught them?"]}
+ ],
+ activity:"Write a professional 'export and hand-off' checklist for design projects, and apply it to one example design meant for print and one meant for screen, naming the correct format and colour mode for each.",
+ check:[
+  {q:"What two technical mistakes ruined the freelancer's printed banner?",o:["Using RGB (screen) colour instead of CMYK (print), and a compressed low-resolution file instead of a print-ready one","Choosing the wrong headline and the wrong image","Printing on paper that was too expensive","Using too much white space"],a:0},
+  {q:"Which file format stays perfectly crisp at any size?",o:["SVG, a vector format","JPG, because it compresses","A low-resolution PNG","Any format, since size never affects quality"],a:0},
+  {q:"What is the difference between RGB and CMYK?",o:["RGB is the colour mode for screens; CMYK is the colour mode for print","They are two names for the same thing","RGB is for print; CMYK is for screens","Both are file formats, not colour modes"],a:0}
+ ]},
+
+{id:"gd12",n:12,title:"Beginner Portfolio Development",mins:65,icon:"Users",summary:"Organising and presenting your best work, building a simple portfolio, understanding freelancing basics, and taking your next steps in graphic design.",
+ keyWords:["portfolio","presentation","freelancing","next steps"],
+ sections:[
+  {art:"achieve",h:"The Simple Presentation Link That Won a Remote Creative Job",p:[
+    "In 2026, an aspiring graphic designer was struggling to break into the crowded digital freelance market. Whenever he applied for a remote design role, he sent a long text email listing his skills, alongside a massive, unorganized zip file containing forty different random design files he had made in class. Potential clients never opened the heavy zip attachments, and his job applications were consistently ignored.",
+    "He decided to change his strategy completely, treating his final academy capstone project as a professional launchpad to build a clean beginner portfolio.",
+    "He curated his absolute best designs, selecting five premium samples that showcased his versatility: a clean corporate flyer, a unified branding identity kit, a high-contrast social media post package, a professional business card layout, and an optimised web banner. He organised these files neatly on a simple, public-facing digital portfolio site, adding a short text block explaining the design process behind each asset. He put the link directly at the top of his CV. The very next week, an international creative agency clicked the link, reviewed his structured portfolio, and hired him as a remote junior designer, proving that clean visual evidence of your skill is the ultimate currency in the global creative economy."],
+   ex:{t:"Conclusion",b:["Your digital portfolio is your primary professional handshake to the creative industry.","Carefully organising your best design work, explaining your creative process, and presenting your skills through a clean, accessible layout transforms you from a beginner applicant into a globally hireable professional.","A curated link beat a heavy zip file of forty random files instantly."]}},
+  {art:"culture",h:"Key Ideas",p:[
+    "Organising your designs is the first step to a portfolio: rather than showing everything you have ever made, you curate — selecting only your strongest, most varied pieces. The designer's shift from forty random files to five premium, deliberately chosen samples is exactly this principle in action.",
+    "Presenting your work well means showing each piece cleanly and, crucially, explaining the process behind it — the problem, your thinking, and the result. Clients hire designers who can show not just pretty outcomes but deliberate problem-solving, which loops back to the very first unit's definition of design.",
+    "Building a simple portfolio no longer requires advanced coding: a clean, public-facing site or even a well-organised shared document can work, as long as it loads easily and looks professional. The key is accessibility — a single link a busy client can open instantly beats an attachment they will ignore.",
+    "Freelancing basics and next steps round out the journey: understanding how to present yourself, quote for work, communicate with clients, and keep learning. A beginner portfolio is the launchpad — from there, a designer can specialise, take on freelance clients, pursue further study, or build toward an in-house or agency role. The through-line is that clean, well-presented visual evidence of real skill is what opens doors."]},
+  {art:"steps",h:"Building Your Portfolio",p:[
+    "Select your five strongest, most varied pieces of design work — aim for range, as the designer did, across flyer, branding, social, business card and web.",
+    "For each piece, write two or three sentences explaining the problem it solved and your design decisions.",
+    "Reflect on the story: why did a single curated link succeed where a forty-file zip attachment failed?"]}
+ ],
+ activity:"Assemble a beginner portfolio of your five best designs on a simple, shareable page, with a short process note for each, and write the one-line introduction you would place at the top of your CV.",
+ check:[
+  {q:"Why did the designer's job applications keep failing at first?",o:["He sent long emails and a heavy, unorganised zip of forty random files that clients ignored","His designs were technically illegal","He applied to jobs that did not exist","He refused to show any work at all"],a:0},
+  {q:"What does 'curating' a portfolio mean?",o:["Selecting only your strongest, most varied pieces rather than showing everything","Including every file you have ever made","Only showing work made in one single tool","Hiding your best work to seem modest"],a:0},
+  {q:"Why is explaining your process important in a portfolio?",o:["It shows clients you can solve problems deliberately, not just make things look nice","It makes the portfolio longer for its own sake","It is a legal requirement","It replaces the need to show any actual designs"],a:0}
+ ]}
+];
+
+const GD_Q=[
+// Module 1: Introduction to Graphic Design (9)
+{ao:"Intro to Design",q:"According to this course, graphic design is fundamentally:",o:["Visual communication with a purpose — solving a problem, not just decoration","Purely decorative art with no practical function","A skill only useful to professional painters","Unrelated to business or communication"],a:0},
+{ao:"Intro to Design",q:"What problem did Frank Pick and Edward Johnston solve on the London Underground?",o:["Chaotic, cluttered signage that left commuters lost and stressed","A shortage of available trains","High ticket prices","A lack of station staff"],a:0},
+{ao:"Intro to Design",q:"What did Edward Johnston create for the London Underground?",o:["A bold clean typeface and the red-and-blue roundel logo","A new type of train engine","A ticketing app","A fleet of buses"],a:0},
+{ao:"Intro to Design",q:"What is 'the design process'?",o:["A repeatable sequence — brief, research, sketch, refine, deliver","A single burst of inspiration with no structure","A rule that designs must be hand-drawn","A way to register a trademark"],a:0},
+{ao:"Intro to Design",q:"Which of these is a major type of graphic design?",o:["Brand identity design","Highway engineering","Tax accounting","Software debugging"],a:0},
+{ao:"Intro to Design",q:"Frank Pick argued that graphic design is primarily:",o:["A problem-solving mechanism","Only fine art for galleries","A waste of money","Identical to advertising copywriting"],a:0},
+{ao:"Intro to Design",q:"Which is a genuine career path in graphic design named in this unit?",o:["Freelancer serving many clients","Train driver","Highway inspector","Restaurant chef"],a:0},
+{ao:"Intro to Design",q:"What made the redesigned Underground a 'global design benchmark'?",o:["A clean, structured, easy-to-navigate visual system","Lower fares than any other city","More stations than any other network","Free advertising for all businesses"],a:0},
+{ao:"Intro to Design",q:"The history of graphic design has moved toward which format in modern times?",o:["Digital, screen-first design across websites, apps and social media","Exclusively hand-painted posters","Only stone carving","Purely spoken communication"],a:0},
+
+// Module 2: Principles of Graphic Design (9)
+{ao:"Design Principles",q:"Which principle failed most clearly on the 2017 Oscars envelope card?",o:["Visual hierarchy — the category label was tiny while the film title dominated","Colour balance between red and blue","The choice of paper","Use of a script font"],a:0},
+{ao:"Design Principles",q:"What is 'white space'?",o:["The empty area around and between elements that reduces clutter and aids focus","Space that must always be filled","A colour that must be white","A print-only font"],a:0},
+{ao:"Design Principles",q:"What does hierarchy do in a design?",o:["Orders elements by importance so the eye lands on the most important first","Makes everything the same size","Removes all colour","Guarantees an award"],a:0},
+{ao:"Design Principles",q:"What is contrast in design?",o:["The difference between elements that makes the important thing stand out","Making all elements identical","A type of paper finish","The file size of an image"],a:0},
+{ao:"Design Principles",q:"What does the principle of proximity mean?",o:["Grouping related items close together and separating unrelated ones","Placing everything in the exact centre","Using only nearby colours on the wheel","Keeping all text the same size"],a:0},
+{ao:"Design Principles",q:"On the Oscars card, why did the presenters read the wrong information?",o:["The name sat too close to the film title and the category label was tiny and buried","The card was written in another language","The lights were off","The card was blank"],a:0},
+{ao:"Design Principles",q:"What is alignment?",o:["Placing elements on invisible connecting lines to give order and a professional feel","Making a design colourful","Adding as many fonts as possible","Compressing an image file"],a:0},
+{ao:"Design Principles",q:"What does repetition achieve in a layout?",o:["Reusing colours, fonts and shapes so the design feels like one connected piece","Repeating the same word many times","Printing multiple copies","Doubling the file size"],a:0},
+{ao:"Design Principles",q:"The core design principles are best described as:",o:["Structural laws that keep designs organized and reliable","Optional suggestions that rarely matter","Rules that apply only to fine art","A recent internet trend"],a:0},
+
+// Module 3: Understanding Colour (8)
+{ao:"Colour",q:"What did Google's '41 shades of blue' test demonstrate?",o:["Even a small change in one colour can measurably affect behaviour and revenue","Colour has no effect on users","Personal taste always beats data","Blue is the only usable web colour"],a:0},
+{ao:"Colour",q:"What is colour psychology?",o:["The study of how colours make people feel and behave","A method of mixing paint only","A rule to use every colour","The science of printing ink"],a:0},
+{ao:"Colour",q:"What are 'brand colours'?",o:["A fixed palette a business uses consistently to stay recognisable","Random colours chosen each time","Colours only allowed in logos","A legal registration requirement"],a:0},
+{ao:"Colour",q:"On the traditional colour wheel, mixing primary colours produces:",o:["Secondary colours","Only shades of grey","Black every time","No change at all"],a:0},
+{ao:"Colour",q:"Roughly how much extra annual ad revenue did Google gain from choosing the winning blue?",o:["About $200 million","About $200","Nothing","It lost money"],a:0},
+{ao:"Colour",q:"Why is blue often used by banks and technology firms?",o:["It commonly signals trust and calm","It is the cheapest ink","It is legally required","It cannot be seen on screens"],a:0},
+{ao:"Colour",q:"How many core colours do most professional designs limit themselves to?",o:["Two or three plus neutrals","At least ten","Exactly one","As many as possible"],a:0},
+{ao:"Colour",q:"Why did Google run a 41-shade test rather than let a designer pick?",o:["To base the decision on real user data instead of personal opinion","Because designers are never trusted","To waste time deliberately","Because blue is impossible to choose"],a:0},
+
+// Module 4: Typography (8)
+{ao:"Typography",q:"What problem did the Clearview typeface solve on US highways?",o:["Letters blurring under headlight glare, making signs hard to read in time","Signs being too costly","Too many road names","Drivers ignoring all signs"],a:0},
+{ao:"Typography",q:"What is the difference between legibility and readability?",o:["Legibility is telling letters apart; readability is how easy whole blocks of text are","They are identical","Legibility is print, readability is screen","Readability is about colour only"],a:0},
+{ao:"Typography",q:"What is font pairing?",o:["Combining two or three complementary fonts, typically one for headings, one for body","Using as many fonts as possible","Only ever using one font","Matching a font to a printer brand"],a:0},
+{ao:"Typography",q:"Sans-serif fonts are generally described as:",o:["Clean and modern, reading well on screens","Always hard to read","Only for handwriting","Illegal in print"],a:0},
+{ao:"Typography",q:"By how much did Clearview increase legibility distance?",o:["About 16%","About 90%","Not at all","It reduced it"],a:0},
+{ao:"Typography",q:"What are display fonts best used for?",o:["Decorative headlines only","Long body paragraphs","Legal contracts only","Replacing all other fonts"],a:0},
+{ao:"Typography",q:"Which factors most affect readability of body text?",o:["Size, line spacing, line length and contrast","Only the colour of the paper","The designer's mood","The file format"],a:0},
+{ao:"Typography",q:"Typography is best described in this unit as:",o:["The physical voice of your written text","Purely decorative and optional","A type of image licence","A print colour profile"],a:0},
+
+// Module 5: Images and Visual Elements (8)
+{ao:"Images",q:"Why did the freelancer's client face a $10,000 fine?",o:["He used an online image without checking copyright or licensing","He printed on the wrong paper","He used too many fonts","He delivered late"],a:0},
+{ao:"Images",q:"What does image resolution determine?",o:["How much detail an image holds and whether it stays sharp when enlarged","Its colour temperature only","Whether it is legally free","Its file name"],a:0},
+{ao:"Images",q:"What is the safe practice for using images commercially?",o:["Use royalty-free or properly licensed sources and read the licence terms","Use any image on a search engine","Always draw every image by hand","Assume everything is free"],a:0},
+{ao:"Images",q:"Why is an image being visible online not the same as it being free?",o:["Most images are owned by someone and protected by copyright","Search engines charge a fee to view","Online images have no owner","Visibility grants a commercial licence"],a:0},
+{ao:"Images",q:"What role do icons play in a design?",o:["They communicate ideas quickly and universally, like a map pin or phone symbol","They are illegal to use","They replace all text permanently","They only work in print"],a:0},
+{ao:"Images",q:"Why do large printed banners need high-resolution images?",o:["Low-resolution images look blurry or pixelated when stretched large","Print cannot show colour","Banners are always small","Resolution only matters on screens"],a:0},
+{ao:"Images",q:"What flagged the freelancer's unlicensed image?",o:["The stock agency's automated tracking bots","A rival designer","The printing press","The client's accountant"],a:0},
+{ao:"Images",q:"Some image licences allow which distinction?",o:["Personal use but not commercial use","Only night-time use","Use only by the photographer","No use of any kind"],a:0},
+
+// Module 6: Introduction to Canva (8)
+{ao:"Canva",q:"Why did Sarah succeed with Canva after struggling with professional desktop software?",o:["Canva's templates and drag-and-drop had a gentle learning curve she could use immediately","Canva ran her whole business","She hired an agency","Canva was the only software available"],a:0},
+{ao:"Canva",q:"What is the main advantage of Canva templates?",o:["You start from a professionally designed, correctly sized layout instead of a blank page","They prevent editing any text","They are the only way to add colour","They remove the need for a purpose"],a:0},
+{ao:"Canva",q:"Which export formats suit screen versus print?",o:["PNG or JPG for screen/social; PDF for print","PDF for everything","A single universal format for all uses","JPG for print, PDF for screens"],a:0},
+{ao:"Canva",q:"How long did it take Sarah to build her whole marketing kit in Canva?",o:["A single afternoon","Several months","Over a year","She never finished it"],a:0},
+{ao:"Canva",q:"What does Canva run on?",o:["A web browser, with nothing heavy to install","A supercomputer only","Paper and pen","A dedicated games console"],a:0},
+{ao:"Canva",q:"In the Canva interface, where do templates, elements and text live?",o:["In a left-hand panel, with the canvas in the centre","Hidden with no way to find them","Only on a printed manual","In a separate paid app"],a:0},
+{ao:"Canva",q:"How are text and images added to a Canva design?",o:["By dragging elements onto the canvas and editing them directly","By writing computer code","By mailing files to Canva","They cannot be added at all"],a:0},
+{ao:"Canva",q:"What had blocked Sarah before she found Canva?",o:["Expensive agency quotes and a steep learning curve on complex software","A lack of any product to sell","Too many customers","No internet access ever"],a:0},
+
+// Module 7: Introduction to Adobe Express (8)
+{ao:"Adobe Express",q:"What let Marcus cut asset production from two hours to under five minutes?",o:["Storing his brand assets once and using quick one-click image editing on templates","Hiring three designers","Printing everything","Dropping branding entirely"],a:0},
+{ao:"Adobe Express",q:"What is a 'brand kit' / quick branding feature?",o:["A stored set of logos, colours and fonts the tool applies consistently across templates","A printed box of logos","A one-time discount","A tool that invents your logo"],a:0},
+{ao:"Adobe Express",q:"What kind of image editing does Adobe Express make quick?",o:["One-click tasks like background removal and brightness adjustment","Only hand-drawing illustrations","Writing image code","None — it cannot edit images"],a:0},
+{ao:"Adobe Express",q:"What industry did Marcus work in?",o:["Real estate marketing","Highway construction","Restaurant catering","Film production"],a:0},
+{ao:"Adobe Express",q:"How does storing a brand kit help consistency?",o:["Branding is applied automatically across templates, so it never has to be redone by hand","It hides the brand from customers","It changes the brand every time","It deletes old designs"],a:0},
+{ao:"Adobe Express",q:"Adobe Express is best described as:",o:["A web and mobile design tool built for speed and simplicity","A heavy program only experts can use","A spreadsheet application","A video game"],a:0},
+{ao:"Adobe Express",q:"Like Canva, Adobe Express templates let you:",o:["Start from a professional layout and customise it, rather than building from scratch","Only view designs, never edit","Print without a computer","Avoid choosing a purpose"],a:0},
+{ao:"Adobe Express",q:"What was slowing Marcus down before Adobe Express?",o:["Constant switching between different complex programs for minor edits","Having no photos to work with","Too few property listings","A lack of any deadlines"],a:0},
+
+// Module 8: Designing Marketing Materials (8)
+{ao:"Marketing Materials",q:"What was missing from Mateo's first, failed flyer?",o:["A clear call to action, strong imagery, readable text and good hierarchy","The restaurant's name","A second colour","A full menu list"],a:0},
+{ao:"Marketing Materials",q:"What is a 'call to action'?",o:["The specific action you want the viewer to take, made obvious in the design","The designer's name","A legal disclaimer","The paper type"],a:0},
+{ao:"Marketing Materials",q:"Why did the same 50%-off offer succeed the second time?",o:["The redesign applied hierarchy, contrast, strong imagery and a clear call to action","The offer was completely different","He printed ten times more flyers","He lowered all prices"],a:0},
+{ao:"Marketing Materials",q:"What headline did Mateo's successful flyer use?",o:["'50% OFF YOUR FIRST VISIT'","The bistro's name in small text","A long paragraph of history","No headline at all"],a:0},
+{ao:"Marketing Materials",q:"What single job do all marketing materials share?",o:["Moving the viewer to take a specific action","Winning design awards","Filling empty wall space","Using every colour available"],a:0},
+{ao:"Marketing Materials",q:"How quickly did Mateo's redesigned flyer fill his dining hall?",o:["Within 48 hours","After six months","It never worked","After one year"],a:0},
+{ao:"Marketing Materials",q:"What must a business card do well despite its tiny size?",o:["Present essential contact information cleanly","Contain the full menu","Include a long biography","Show a video"],a:0},
+{ao:"Marketing Materials",q:"How do earlier design principles appear in marketing design?",o:["Hierarchy makes the offer dominant, contrast makes the call to action pop, imagery makes the product desirable","They are irrelevant to marketing","Only colour matters","They apply only to logos"],a:0},
+
+// Module 9: Branding Basics (8)
+{ao:"Branding",q:"Why did investors initially hesitate on the startup's pitch?",o:["Inconsistent branding — mismatched fonts, colours and logo variations — looked disorganised","The product did not work","They asked for too little money","The pitch was in the wrong language"],a:0},
+{ao:"Branding",q:"What are brand guidelines?",o:["A written rulebook capturing exact colours, fonts and logo rules for consistency","A single advertising flyer","A contract with investors","A competitor list"],a:0},
+{ao:"Branding",q:"Branding is best described as:",o:["The complete, consistent identity a business presents — colours, fonts, logo, imagery and tone","Only the logo","A one-time campaign","The company's price"],a:0},
+{ao:"Branding",q:"What did the startup do to fix its branding?",o:["Chose two colours, two typefaces and strict logo rules, then updated everything to match","Changed its product","Lowered its investment ask","Fired all its founders"],a:0},
+{ao:"Branding",q:"Why does colour and typography consistency matter for a brand?",o:["Every touchpoint feels like it comes from the same trustworthy organisation","It makes designs cheaper to print","It is legally required","It hides the brand"],a:0},
+{ao:"Branding",q:"How did the investors interpret the startup's visual inconsistency?",o:["As a sign of operational immaturity","As creative genius","As a cost-saving measure","As irrelevant to the deal"],a:0},
+{ao:"Branding",q:"What is the role of a logo within branding?",o:["It is the central mark, powerful only when used consistently","It is the entire brand by itself","It must change on every document","It is optional and rarely used"],a:0},
+{ao:"Branding",q:"For a small business, even a one-page brand guideline is:",o:["One of the highest-value design deliverables there is","A waste of time","Only for huge corporations","A legal contract"],a:0},
+
+// Module 10: Design for Social Media (8)
+{ao:"Social Media Design",q:"What mistake was quietly killing the training channel's views?",o:["Using square Facebook-style layouts as YouTube thumbnails, cropping the text on mobile","Making videos too long","Posting at the wrong time","Using too few hashtags"],a:0},
+{ao:"Social Media Design",q:"Why does mobile legibility dominate social media design?",o:["Most people view feeds on phones, so text must be few, large, bold and high-contrast","Phones cannot show colour","Desktop users never see social media","Phones display more text than desktops"],a:0},
+{ao:"Social Media Design",q:"What is click-through rate?",o:["The percentage of people who see a graphic and actually click it","The number of videos made weekly","The cost of an ad","A thumbnail's resolution"],a:0},
+{ao:"Social Media Design",q:"How much did the channel's click-through rate improve?",o:["From 1.5% to over 9%","From 9% to 1.5%","It stayed the same","It dropped to zero"],a:0},
+{ao:"Social Media Design",q:"Why must designs be sized per platform?",o:["Each platform has different dimensions, so one size gets cropped or distorted on another","All platforms are identical","Only YouTube has a size","Sizing never matters"],a:0},
+{ao:"Social Media Design",q:"What did the channel limit its thumbnail text to?",o:["A few highly punchy words","Full paragraphs","The entire script","No text at all"],a:0},
+{ao:"Social Media Design",q:"Why place bright borders around human faces in thumbnails?",o:["Faces naturally draw the eye and create a clear focal point","Faces are legally required","It hides the background","It reduces file size"],a:0},
+{ao:"Social Media Design",q:"A LinkedIn banner should above all look:",o:["Professional and readable at a glance","Identical to a WhatsApp flyer","As crowded as possible","Hand-drawn"],a:0},
+
+// Module 11: Design Best Practices (9)
+{ao:"Best Practices",q:"What two technical mistakes ruined the freelancer's printed banner?",o:["Using RGB instead of CMYK, and a compressed low-resolution file instead of a print-ready one","Wrong headline and wrong image","Paper that was too expensive","Too much white space"],a:0},
+{ao:"Best Practices",q:"Which file format stays perfectly crisp at any size?",o:["SVG, a vector format","JPG","A low-resolution PNG","Any format equally"],a:0},
+{ao:"Best Practices",q:"What is the difference between RGB and CMYK?",o:["RGB is for screens; CMYK is for print","They are the same","RGB is for print; CMYK is for screens","Both are file formats"],a:0},
+{ao:"Best Practices",q:"What does designing for different audiences require?",o:["Adjusting tone, imagery and complexity to who will actually see the work","Always using your own personal taste","Ignoring the audience entirely","Using identical designs for everyone"],a:0},
+{ao:"Best Practices",q:"Which is a common, avoidable design mistake?",o:["Overcrowding a layout with too many fonts and colours","Leaving any white space","Using a single consistent font","Choosing the correct file format"],a:0},
+{ao:"Best Practices",q:"When is JPG a suitable format?",o:["Compressing photos for the web, accepting some quality loss","Print jobs needing perfect vector edges","Logos that must scale infinitely","Never, under any circumstance"],a:0},
+{ao:"Best Practices",q:"Why does maintaining consistency matter?",o:["It ties work together, reinforces a brand and looks professional","It makes files larger","It is only for print","It slows down delivery"],a:0},
+{ao:"Best Practices",q:"What turned the freelancer's neon colours muddy?",o:["Designing in RGB (screen) colour then printing, instead of using CMYK","Using too many words","The paper being too thick","The client's lighting"],a:0},
+{ao:"Best Practices",q:"What is a professional habit before delivering a design?",o:["Checking resolution, colour mode, file format and consistency against a checklist","Sending the first draft immediately","Skipping all checks to save time","Only checking the file name"],a:0},
+
+// Module 12: Beginner Portfolio Development (9)
+{ao:"Portfolio",q:"Why did the designer's job applications keep failing at first?",o:["He sent long emails and a heavy, unorganised zip of forty random files that clients ignored","His designs were illegal","The jobs did not exist","He refused to show any work"],a:0},
+{ao:"Portfolio",q:"What does 'curating' a portfolio mean?",o:["Selecting only your strongest, most varied pieces rather than showing everything","Including every file ever made","Showing work from one tool only","Hiding your best work"],a:0},
+{ao:"Portfolio",q:"Why is explaining your process important in a portfolio?",o:["It shows clients you can solve problems deliberately, not just decorate","It only lengthens the portfolio","It is legally required","It replaces showing designs"],a:0},
+{ao:"Portfolio",q:"How many curated samples did the designer choose?",o:["Five premium, varied pieces","Forty random files","Just one","None"],a:0},
+{ao:"Portfolio",q:"Why did a single link succeed where a zip attachment failed?",o:["A busy client can open a clean link instantly, but ignores heavy attachments","Links are legally required","Zip files are banned","Clients dislike all emails"],a:0},
+{ao:"Portfolio",q:"What range did the designer's five pieces show?",o:["Flyer, branding kit, social post, business card and web banner","Five nearly identical flyers","Only logos","Only photographs"],a:0},
+{ao:"Portfolio",q:"Building a simple portfolio today requires:",o:["A clean, accessible page or well-organised document — not advanced coding","A university degree in programming","Expensive custom software","A physical printed book only"],a:0},
+{ao:"Portfolio",q:"What is the ultimate 'currency' in the creative economy, per this unit?",o:["Clean, well-presented visual evidence of real skill","The longest possible CV","The most files sent","A famous last name"],a:0},
+{ao:"Portfolio",q:"What are 'freelancing basics and next steps' about?",o:["Presenting yourself, quoting work, communicating with clients and continuing to learn","Retiring immediately","Avoiding all clients","Deleting your portfolio"],a:0}
+];
+
+const AGD_UNITS=[
+{id:"agd1",n:1,title:"Advanced Graphic Design Principles",mins:65,icon:"Target",summary:"Moving beyond aesthetics into design thinking, visual storytelling, advanced composition and the psychology of design to influence behaviour.",
+ keyWords:["design thinking","visual storytelling","composition","psychology of design"],
+ sections:[
+  {art:"command",h:"The Poster That Rewrote the Rules of Human Behaviour",p:[
+    "In 2008, a grassroots political campaign faced a massive strategic challenge: how do you capture the complex, abstract emotions of hope, change, and modern progressivism and condense them into a single, undeniable image? Traditional political design relied on generic, corporate-style smiling photographs wrapped in uninspiring patriotic banners. These designs filled space, but they lacked visual storytelling and emotional depth.",
+    "Street artist and professional graphic designer Shepard Fairey stepped forward to solve this creative problem using design thinking.",
+    "Instead of copying standard layouts, Fairey deployed advanced composition and layout techniques. He chose a stylized, high-contrast stencil portrait, applying a rigid colour-blocking format. He used the psychology of design, limiting the text block to a single, bold, uppercase word: 'HOPE'. By blending illustration, clean geometric framing, and profound visual storytelling, the design transformed from a simple election flyer into a global cultural phenomenon. The poster defined the entire visual landscape of that year, proving that advanced composition can shift human behaviour and shape modern history."],
+   ex:{t:"Conclusion",b:["Advanced graphic design moves past basic aesthetic beauty to embrace strategic, creative problem-solving.","Mastering design thinking and behavioural psychology allows you to architect visual messaging that commands attention and influences cultures.","A single, deliberately composed image did what pages of ordinary campaign material could not."]}},
+  {art:"build",h:"Key Ideas",p:[
+    "Advanced principles begin by revisiting the fundamentals — balance, contrast, hierarchy — but treating them as strategic tools rather than rules to follow mechanically. Advanced composition and layout means deliberately guiding the viewer's eye through a piece using framing, cropping, colour-blocking and negative space, exactly as Fairey did with his stencil portrait.",
+    "Visual storytelling is the practice of making a design communicate a narrative or emotion at a glance, not just present information. The 'HOPE' poster told a whole emotional story with one image and one word — that is visual storytelling working at the highest level.",
+    "Design thinking is a structured, human-centred problem-solving approach: understand the real problem deeply, generate many possible directions, prototype, and refine. It reframes design from 'make it pretty' to 'solve this human problem creatively', which is why Fairey started with the emotional challenge, not the layout.",
+    "The psychology of design draws on how humans perceive and respond to visuals — how contrast grabs attention, how simplicity builds memorability, how colour and symbolism trigger emotion. Combining creative problem-solving with an understanding of this psychology is what lets advanced designers architect work that actually changes how people feel and act."]},
+  {art:"steps",h:"Thinking Like an Advanced Designer",p:[
+    "Take a message you want to communicate and, before designing anything, write down the single emotion or action you want it to trigger — practising design thinking's problem-first mindset.",
+    "Sketch how you would use composition (framing, contrast, negative space) and a single powerful word or image to tell that story, as Fairey did.",
+    "Reflect on the 'HOPE' poster: why did a stylized, minimal, high-contrast image outperform conventional smiling-candidate photographs?"]}
+ ],
+ activity:"Choose an abstract idea (hope, trust, urgency) and design a single-image, few-word concept that communicates it through composition and visual storytelling, explaining the psychology behind each choice.",
+ check:[
+  {q:"What approach did Shepard Fairey use to solve the campaign's creative challenge?",o:["Design thinking — starting from the human emotion, then composing a bold, minimal image","Copying standard smiling-candidate layouts","Filling the poster with dense text","Avoiding any use of colour"],a:0},
+  {q:"What is 'visual storytelling'?",o:["Making a design communicate a narrative or emotion at a glance","Writing a long caption under every image","Using only photographs, never illustration","A legal requirement for posters"],a:0},
+  {q:"What does 'design thinking' reframe design as?",o:["A structured, human-centred problem-solving process, not just decoration","A purely technical software skill","A way to avoid research","Random artistic inspiration"],a:0}
+ ]},
+
+{id:"agd2",n:2,title:"Advanced Typography",mins:65,icon:"PenLine",summary:"Typography hierarchy, brand font pairing, grid systems, advanced text effects and editorial and digital typography that perform under real-world stress.",
+ keyWords:["grid systems","typography hierarchy","editorial typography","legibility"],
+ sections:[
+  {art:"write",h:"The Clean Fonts That Streamlined Global Flight Hubs",p:[
+    "In 1975, the operators of the newly constructed Charles de Gaulle Airport in Paris faced a massive logistical nightmare. The airport architecture was hyper-modern, complex, and vast. Millions of international travellers from completely different linguistic backgrounds had to navigate the terminals at high speed while carrying heavy luggage. The existing highway fonts and editorial typography used on the signage were failing — at a distance, under dim lighting, the letters blurred together, causing missed flights, long queues, and intense traveller anxiety.",
+    "Master typographer Adrian Frutiger was commissioned to build a typographic solution from scratch using a strict architectural grid system.",
+    "He threw out all decorative, high-contrast, serif font pairings and engineered a clean, organic sans-serif typeface — initially called Roissy and later released globally as Frutiger — meticulously optimised for hierarchy and high visibility on both digital and physical platforms. On traditional signage fonts, narrow interior openings blurred into solid ovals when viewed from fifty metres; Frutiger widened those openings so each character kept a perfect, readable profile at a distance. He calibrated letter spacing and engineered precise reading contrast. The resulting signage was so clear that travellers could read directions instantly from afar, transforming the airport into a model of international efficiency and defining the rules of modern wayfinding typography."],
+   ex:{t:"Conclusion",b:["Typography is the invisible architecture of clear information design.","Mastering strict grid systems, brand font pairings, and precise visual hierarchy ensures your text layouts perform flawlessly under high-stress, real-world conditions.","A purpose-built typeface turned a confusing mega-airport into a model of efficiency."]}},
+  {art:"read",h:"Key Ideas",p:[
+    "Typography hierarchy at an advanced level means engineering multiple, clearly distinct levels of text — primary direction, secondary detail, supporting information — so a reader instantly knows what to read first even under pressure. Frutiger's signage worked because its hierarchy was unmistakable at speed.",
+    "Font pairing for brands goes beyond simply picking two nice fonts: it means choosing typefaces that carry the brand's personality and remain legible across every context the brand appears in, from a business card to a billboard. Grid systems are the underlying structure — an invisible framework of columns and rows that keeps every element aligned and gives complex layouts order, exactly the 'strict architectural grid' Frutiger used.",
+    "Advanced text effects (careful use of weight, spacing, outlines and treatments) and editorial typography (the craft of laying out long-form content like magazines and reports for comfortable reading) are specialist skills that separate professional layouts from amateur ones. Both depend on restraint — effects that aid reading, not distract from it.",
+    "Typography for digital platforms adds new constraints: screens of every size, variable lighting, and the need for text to stay legible whether on a phone or a large display. Frutiger's typeface endured precisely because it was engineered for high visibility across both physical and digital platforms — the hallmark of typography designed for the real world."]},
+  {art:"steps",h:"Engineering Type Systems",p:[
+    "Build a simple type hierarchy for a layout — heading, subheading, body, caption — with clear, deliberate differences in size and weight between each level.",
+    "Sketch a basic grid of columns and align several elements to it, noticing how the structure makes the layout feel ordered.",
+    "Reflect on the Frutiger story: what specific change to the letter shapes stopped signs from blurring at distance, and why did that matter in an airport?"]}
+ ],
+ activity:"Design a wayfinding sign or editorial page using a strict grid and a clear multi-level type hierarchy, and explain how each choice keeps it legible under real-world conditions.",
+ check:[
+  {q:"What problem did Adrian Frutiger's typeface solve at Charles de Gaulle Airport?",o:["Signage letters blurring at a distance, causing travellers to miss flights","A shortage of runways","Airplanes arriving late","Too few flights being scheduled"],a:0},
+  {q:"What is a grid system in typography and layout?",o:["An invisible framework of columns and rows that keeps every element aligned and ordered","A colour palette for text","A type of printer","A rule that all text must be centred"],a:0},
+  {q:"What specific change made Frutiger's letters readable from far away?",o:["Widening the interior openings of characters so they didn't blur into solid shapes","Making every letter bright red","Using a decorative serif style","Shrinking the letters"],a:0}
+ ]},
+
+{id:"agd3",n:3,title:"Advanced Colour Theory",mins:65,icon:"Sparkles",summary:"Colour harmony, colour systems (RGB, CMYK, Pantone), colour grading, brand colour development and accessibility contrast for absolute colour control.",
+ keyWords:["Pantone","colour systems","colour grading","accessibility contrast"],
+ sections:[
+  {art:"science",h:"The Bright Spot That Standardized the Global Colour Market",p:[
+    "In the early 1960s, the global advertising and printing industries were crippled by an expensive production problem. A graphic designer in New York could spend weeks developing a gorgeous brand colour palette for a client, using specific shades of deep blue and bright red. However, when the file was sent to a printing house in Miami or London, the colour would shift completely due to differing ink mixes, resulting in faded greens or muddy purples on the final packaging. Brands routinely lost millions of dollars rejecting mismatched print runs.",
+    "Lawrence Herbert, a chemist working at a small printing firm, realized that the creative world lacked a universal colour language. He decided to create the Pantone Matching System.",
+    "He systematically classified hundreds of unique shades, assigning every colour tone an exact numeric code and a precise chemical ink-mixing formula. It did not matter whether a designer worked in RGB for screens, CMYK for standard presses, or Pantone spots for luxury packaging — the colour stayed completely stable across the global supply chain. This standard unlocked flawless brand consistency, allowing companies with iconic colours to protect their identities worldwide."],
+   ex:{t:"Conclusion",b:["Advanced colour theory bridges the gap between digital screen creativity and physical ink reality.","Mastering colour systems, accessibility contrast rules, and professional colour grading gives you absolute visual control over brand assets from concept to production.","A universal colour code turned unpredictable print into a reliable global standard."]}},
+  {art:"sample",h:"Key Ideas",p:[
+    "Colour harmony is the advanced study of how colours combine to feel balanced and intentional — complementary, analogous, triadic and other schemes — and how to break those rules deliberately for effect. It is the foundation of a professional palette.",
+    "Colour systems are the heart of this unit. RGB (red, green, blue) is additive light for screens; CMYK (cyan, magenta, yellow, black) is subtractive ink for standard printing; and Pantone (the Matching System from the story) is a library of pre-mixed spot colours with exact formulas for perfect consistency. Knowing which system to use for which output — and how colour shifts between them — is what prevents the disaster the pre-Pantone industry suffered.",
+    "Colour grading is the deliberate adjustment of an image or design's overall colour to set a mood or match a brand, while brand colour development is the process of choosing and codifying a brand's exact colours (often as Pantone codes) so they reproduce identically everywhere.",
+    "Accessibility and colour contrast ensure designs are usable by everyone, including people with visual impairments or colour blindness. This means guaranteeing sufficient contrast between text and background and never relying on colour alone to convey meaning. Advanced colour mastery balances beauty, technical accuracy across systems, and accessibility all at once."]},
+  {art:"chart",h:"Controlling Colour Across Systems",p:[
+    "For a single brand colour, note how you would specify it for screen (RGB/hex), for standard print (CMYK), and for guaranteed consistency (a Pantone code).",
+    "Check a text-and-background pair for accessibility: is the contrast strong enough to read comfortably, and does it still work for someone who cannot distinguish certain colours?",
+    "Reflect on the Pantone story: why couldn't designers guarantee their colours before a universal system existed?"]}
+ ],
+ activity:"Develop a small brand palette specified across RGB, CMYK and Pantone, confirm its text/background contrast meets accessibility needs, and explain how each system serves a different output.",
+ check:[
+  {q:"What problem did the Pantone Matching System solve?",o:["Colours shifting unpredictably between different printers, ruining brand consistency","A shortage of ink","Fonts blurring on signs","Slow printing presses"],a:0},
+  {q:"What is the difference between RGB, CMYK and Pantone?",o:["RGB is light for screens, CMYK is ink for standard print, Pantone is pre-mixed spot colours with exact formulas","They are three names for the same thing","All three are only used on screens","They are file formats, not colour systems"],a:0},
+  {q:"What does accessibility and colour contrast ensure?",o:["Designs are usable by everyone, including people with visual impairments, with enough contrast and no reliance on colour alone","That designs use only one colour","That colour is banned from print","That text is always red"],a:0}
+ ]},
+
+{id:"agd4",n:4,title:"Adobe Photoshop Mastery",mins:70,icon:"Video",summary:"Advanced photo editing, retouching, layer masks, smart objects and non-destructive compositing — used to enhance truth, not deceive.",
+ keyWords:["layer masks","smart objects","retouching","ethics of manipulation"],
+ sections:[
+  {art:"ethics",h:"The Magazine Cover That Exposed Photo Editing Limits",p:[
+    "In 1994, a major American news magazine shocked the media industry by publishing a heavily altered cover photograph of a famous public figure who was on trial. The editors had taken a standard police mugshot and used early digital compositing techniques to darken the subject's skin, deepen facial shadows, and add heavy noise around the frame. The goal was a dramatic, moody cover, but the public backlash was immediate and intense.",
+    "The magazine was widely condemned for crossing ethical boundaries, because the manipulation actively distorted the public's perception of an ongoing legal case.",
+    "This historic incident forced the design world to formalise strict professional boundaries around image retouching and photo manipulation. It proved that advanced tools like layer masks, smart objects, and composite selections carry immense social responsibility. Professional retouchers realised that advanced selections and compositing should be used to enhance truth, clear up product defects, or build imaginative commercial art — a raw product photo ethically retouched with layer masks becomes a premium ad — rather than deceptively altering real-world news, where the same tools trigger a genuine media crisis."],
+   ex:{t:"Conclusion",b:["Photoshop mastery grants absolute control over digital pixels.","Mastering smart objects, advanced layer masks, and non-destructive compositing lets you create hyper-realistic visual art while respecting the core ethics of visual communication.","The same powerful tools can build a premium ad or trigger a public scandal — the difference is intent and honesty."]}},
+  {art:"layers",h:"Key Ideas",p:[
+    "Advanced photo editing and retouching mean improving an image's technical quality — exposure, colour, blemishes, distractions — to a professional standard. In commercial work this is legitimate and expected; the ethical line, as the 1994 cover showed, is crossed when editing distorts the truth of a real event or person.",
+    "Layer masks are the core non-destructive technique: instead of permanently erasing part of an image, you hide or reveal it through a mask you can adjust or remove at any time. This keeps the original pixels intact and gives you complete, reversible control over compositing.",
+    "Smart objects preserve an image's original data so it can be scaled, transformed and filtered without permanent quality loss — the foundation of a non-destructive workflow. Advanced selections and compositing let you combine multiple images seamlessly into one believable scene.",
+    "Underlying all of this is professional ethics. The same tools that ethically retouch a product photo or build imaginative art can, if misused, deceive an audience about reality. Mastery therefore means both technical skill and the judgement to use it responsibly — enhancing truth and creativity, never distorting facts."]},
+  {art:"steps",h:"Working Non-Destructively",p:[
+    "Practise using a layer mask to blend or hide part of an image, then remove the mask to confirm the original stayed untouched — the essence of non-destructive editing.",
+    "Take a product-style photo and list the ethical retouching you could do (removing dust, fixing lighting) versus edits that would cross into deception.",
+    "Reflect on the 1994 magazine cover: why did the same techniques that make legitimate ads become a scandal in a news context?"]}
+ ],
+ activity:"Describe a non-destructive Photoshop workflow for a commercial product image using layer masks and smart objects, and draw a clear line between ethical retouching and manipulation that deceives.",
+ check:[
+  {q:"Why was the 1994 magazine cover condemned?",o:["Its editing distorted the public's perception of a real, ongoing legal case","It used too many fonts","It was printed in the wrong colour","It had no headline"],a:0},
+  {q:"What is a layer mask?",o:["A non-destructive way to hide or reveal parts of an image without permanently erasing them","A tool that deletes the original image","A type of print paper","A colour profile"],a:0},
+  {q:"What is the ethical principle for advanced photo editing in this unit?",o:["Use the tools to enhance truth and create art, never to deceive about real events","Always alter every photo as much as possible","Ethics do not apply to digital images","Only news photos may be edited"],a:0}
+ ]},
+
+{id:"agd5",n:5,title:"Adobe Illustrator Mastery",mins:70,icon:"PenLine",summary:"Vector illustration, pen tool mastery, logo and icon design, infographics and custom shapes that scale infinitely without losing clarity.",
+ keyWords:["vector","pen tool","logo design","infographics"],
+ sections:[
+  {art:"build",h:"The Vector Logo System That Scaled from a Microchip to a Skyscraper",p:[
+    "In 1977, graphic designer Rob Janoff sat at his desk with a challenging brief: design a corporate logo for a young computer company called Apple. At the time, digital branding was in its infancy. Most tech logos were incredibly complex, featuring thin, sketchy lines, detailed hand illustrations, and heavy decorative text. Janoff knew these complicated raster drawings would fail — they could not scale down cleanly to print on a tiny microchip, nor scale up onto the side of a massive building.",
+    "Janoff turned to pure vector design principles, sketching a clean, minimalist silhouette of an apple with a distinct bite taken out of it.",
+    "He didn't use sketchy lines; he engineered the icon using precise geometric circle paths and smooth curve ratios — a process modelled today by pen-tool mastery in Adobe Illustrator. He added bright, horizontal colour bands to show the computer had a colour display. Because the final asset was built entirely on a vector foundation, it could be rescaled infinitely without losing a single pixel of clarity. This iconic mark stayed completely recognisable for decades, proving that a mathematically precise vector logo system is a business's most valuable visual asset."],
+   ex:{t:"Conclusion",b:["Vector illustration is the gold standard for sustainable commercial design.","Mastering the pen tool, custom shapes, and advanced infographics lets you build clean, high-performance vector assets that scale infinitely across any medium without resolution loss.","A logo built on vector geometry survived decades and every possible size."]}},
+  {art:"mark",h:"Key Ideas",p:[
+    "Vector illustration uses mathematical paths — points, lines and curves — rather than fixed pixels, which is why a vector logo can scale from a microchip to a skyscraper without ever blurring. This is the single most important reason logos and icons are built as vectors.",
+    "Pen tool mastery is the core Illustrator skill: the pen tool lets you draw precise paths and smooth curves by hand, giving you complete control over every shape. Janoff's clean apple silhouette is exactly the kind of precise, geometric path work the pen tool produces.",
+    "Logo design and icon design apply these skills to create marks that are simple, memorable, and instantly recognisable at any size — favouring geometric precision and restraint over decorative complexity, just as Janoff rejected the sketchy, detailed logos of his era.",
+    "Infographics and custom shapes extend vector skills to information design: turning data and concepts into clear, scalable visual graphics. Because everything is vector-based, these assets stay crisp whether shown on a phone or printed on a banner — the sustainable, resolution-independent foundation of professional illustration."]},
+  {art:"steps",h:"Building Vector Assets",p:[
+    "Practise the pen tool by tracing a simple shape with a few anchor points and smooth curves, noticing how the path stays crisp at any zoom level.",
+    "Sketch a simple logo concept using only clean geometric shapes, prioritising memorability and simplicity over detail.",
+    "Reflect on the Apple logo: why would a complex, sketchy raster drawing have failed where a clean vector mark succeeded?"]}
+ ],
+ activity:"Design a simple vector logo or icon concept using clean geometric shapes, and explain why a vector foundation lets it scale from a tiny favicon to a large sign without losing clarity.",
+ check:[
+  {q:"Why did Rob Janoff build the Apple logo as a vector?",o:["So it could scale infinitely — from a microchip to a building — without losing clarity","Because vectors are cheaper to email","Because raster images are illegal","So it could only be used once"],a:0},
+  {q:"What is the pen tool used for in Illustrator?",o:["Drawing precise paths and smooth curves with complete control over every shape","Editing photographs only","Typing body text","Removing image backgrounds"],a:0},
+  {q:"Why are logos and icons built as vectors rather than pixels?",o:["Vector paths are mathematical, so they stay crisp at any size","Pixels are always sharper","Vectors can only be one colour","Icons are never resized"],a:0}
+ ]},
+
+{id:"agd6",n:6,title:"Adobe InDesign",mins:65,icon:"BookOpen",summary:"Magazine and book layout, brochures, reports and catalogues, interactive PDFs and professional print preparation for high-volume, multi-page work.",
+ keyWords:["parent pages","paragraph styles","preflight","multi-page layout"],
+ sections:[
+  {art:"command",h:"The 300-Page Catalogue That Printed Flawlessly in 24 Hours",p:[
+    "In 2012, an international furniture brand was preparing to print its massive, 300-page annual retail catalogue. The marketing team had spent months gathering product descriptions, high-resolution lifestyle images, and price matrices from twenty different global departments. The novice design team tried to build the layout using basic word processors and standard image editors, resulting in a slow file that crashed constantly, broke text wraps, and mismatched font styles across pages.",
+    "With the multi-million-dollar print deadline less than a week away, a senior production designer stepped in to rescue the project using Adobe InDesign.",
+    "She established a master template using precise parent pages, automated paragraph styles, and linked document data. She built a solid editorial typography hierarchy and set up automated fields that populated prices instantly. She structured the layout into a clean catalogue matrix, turning the heavy file into a fast, interactive PDF. Finally, she ran a comprehensive preflight checklist, configuring exact bleed parameters and print profiles. The 300-page document was exported and delivered to the commercial press in under 24 hours without a single text error or clipped image."],
+   ex:{t:"Conclusion",b:["Adobe InDesign is the premier software engine for high-volume publishing and multi-page editorial design.","Mastering interactive PDFs, automated paragraph styles, and professional print preparation lets you build complex magazines, books, and corporate reports with absolute layout precision.","Structure and automation turned a crashing 300-page mess into a flawless 24-hour delivery."]}},
+  {art:"chart",h:"Key Ideas",p:[
+    "InDesign exists for multi-page, text-heavy publishing — magazines, books, brochures, reports and catalogues — where consistency across dozens or hundreds of pages is essential. This is the exact job that defeated the furniture team's word processor.",
+    "Parent pages (master pages) define repeating elements — headers, footers, page numbers, grids — once, so they appear automatically and consistently on every page. Paragraph and character styles do the same for text: define a heading or body style once, and every instance updates together, guaranteeing consistency and enabling instant global changes.",
+    "For long documents, InDesign links to external images and data rather than embedding them, keeping files fast and enabling automated fields (like the auto-populated prices in the story). This is what turned a heavy, crashing file into a manageable one.",
+    "Interactive PDFs add navigation, links and multimedia for digital distribution, while professional print preparation — a preflight check for errors, correct bleed and margins, and print-ready export — ensures the document transfers flawlessly to a commercial press. Mastering these features is what separates true publishing work from patching pages together in the wrong tool."]},
+  {art:"steps",h:"Structuring a Long Document",p:[
+    "Plan a multi-page layout and decide what belongs on a parent page (page numbers, headers) versus each individual page.",
+    "Define two or three paragraph styles (heading, body, caption) and describe how changing a style once updates every instance at once.",
+    "Reflect on the catalogue rescue: which specific InDesign features fixed the crashing, inconsistent file the novice team had built?"]}
+ ],
+ activity:"Outline how you would build a 20-page brochure in InDesign using parent pages and paragraph styles, and describe the preflight and export steps you would run before sending it to print.",
+ check:[
+  {q:"Why did the furniture team's original catalogue fail?",o:["They used basic word processors and image editors, causing crashes, broken text and mismatched styles","They had no product images","They printed it too quickly","They used InDesign incorrectly from the start"],a:0},
+  {q:"What are parent (master) pages in InDesign?",o:["Templates defining repeating elements that appear consistently on every page","The first page of a document only","A type of paper","A colour profile"],a:0},
+  {q:"What does a preflight check do before printing?",o:["Checks the document for errors and confirms it is print-ready with correct bleed and profiles","Books a printing appointment","Adds colour to the design","Emails the file to clients"],a:0}
+ ]},
+
+{id:"agd7",n:7,title:"Professional Branding",mins:65,icon:"Shield",summary:"Brand strategy, identity development, logo systems, guidelines and consistency — modernising a brand without breaking consumer trust.",
+ keyWords:["brand strategy","logo systems","brand equity","consumer recognition"],
+ sections:[
+  {art:"identity",h:"The Redesign That Cost a Juice Giant $35 Million in Six Weeks",p:[
+    "In 2009, the popular juice brand Tropicana invested $35 million in a massive, nationwide brand identity redesign. The creative agency decided to throw out the brand's iconic, highly recognisable logo — which featured a fresh orange with a straw stuck into it. They replaced it with a modern, ultra-minimalist layout using clean typography, abstract shapes, and an image of a generic glass of orange juice. The designers felt triumphant, believing they had modernised the identity.",
+    "The rollout was a commercial catastrophe. Within six weeks of launch, Tropicana's sales plunged by a staggering 20%, costing the company over $30 million in lost revenue.",
+    "Angry consumers stood in supermarket aisles, unable to find their favourite product because the familiar visual anchors had vanished. The new minimalist packaging looked like a cheap, generic supermarket brand, breaking long-held consumer trust. Tropicana scrambled to cancel the campaign and immediately return to their original classic logo and packaging. This historic failure proved that professional branding is not just clean art — it is a deep strategy that must respect consumer psychology and visual recognition."],
+   ex:{t:"Conclusion",b:["Professional branding requires balancing creative strategy with strict visual consistency.","Developing deep corporate identity guidelines and understanding logo systems lets you modernise a brand's footprint without breaking its connection to its audience.","Discarding trusted visual anchors cost a giant 20% of sales in six weeks."]}},
+  {art:"mark",h:"Key Ideas",p:[
+    "Brand strategy is the foundation: understanding what a brand means to its customers, what visual anchors they recognise and trust, and what must never be casually discarded. Tropicana's fatal error was treating a redesign as an art exercise rather than a strategic decision about consumer recognition.",
+    "Brand identity development and logo systems mean creating not just a single logo but a flexible system — variations, sizes, and rules for how the identity appears across every context — anchored by the elements customers actually recognise (like Tropicana's orange-and-straw).",
+    "Brand guidelines codify all of this into strict rules for colours, fonts, logo usage and tone, ensuring consistency across every touchpoint and every designer who works on the brand. Consistency is what builds and protects brand equity over time.",
+    "The advanced lesson is that modernising a brand is legitimate and often necessary — but it must be done with strategy and respect for consumer psychology, evolving the identity rather than erasing the anchors people rely on. Brands that ignore this, however 'clean' the new design, risk destroying the trust and recognition they spent years building."]},
+  {art:"steps",h:"Branding Without Breaking Trust",p:[
+    "Pick a well-known brand and identify its key visual anchors — the elements customers would instantly miss if they vanished.",
+    "Describe how you would modernise that brand while preserving those anchors, rather than discarding them as Tropicana did.",
+    "Reflect on the Tropicana failure: why did a 'cleaner, more modern' design cause a 20% sales collapse?"]}
+ ],
+ activity:"Take a familiar brand and propose a strategic refresh: list the anchors you would keep, the elements you would modernise, and the guidelines you would write to protect consistency.",
+ check:[
+  {q:"Why did Tropicana's redesign fail so badly?",o:["It discarded the familiar visual anchors customers recognised, breaking trust and recognition","The juice tasted different","It was never actually launched","The price was raised too high"],a:0},
+  {q:"What is a logo system, as opposed to just a logo?",o:["A flexible set of variations and usage rules for how an identity appears across every context","A single fixed image used everywhere unchanged","A legal trademark filing","A colour profile for printing"],a:0},
+  {q:"What is the advanced lesson about modernising a brand?",o:["Evolve the identity with strategy and respect for recognition, rather than erasing trusted anchors","Never change a brand under any circumstance","Always discard the old logo completely","Clean design always guarantees success"],a:0}
+ ]},
+
+{id:"agd8",n:8,title:"Marketing and Advertising Design",mins:65,icon:"Target",summary:"Campaign design across billboards, banners, packaging and sales graphics that turn product features into emotional desire and command public space.",
+ keyWords:["campaign design","billboards","emotional appeal","minimalism"],
+ sections:[
+  {art:"target",h:"The Billboard Campaign That Transformed Smartphone History",p:[
+    "In 2015, Apple wanted to dominate the global smartphone market by highlighting the advanced camera of the iPhone 6. Traditional tech advertising relied on dense, boring specification sheets — megapixels, sensor sizes, focal lengths — in long blocks of technical text. Consumers found these ads dry and hard to connect with, making it difficult to understand why they should pay a premium.",
+    "The creative advertising team decided to toss out the technical manuals and launch a revolutionary global campaign built on advertising design best practices.",
+    "They gathered stunning, raw photographs captured by actual everyday users on their phones and blew them up into giant, high-impact outdoor billboards, roll-up banners, and packaging installations across skyscrapers and train stations worldwide. The design was minimalist and bold: a massive, hyper-vibrant photograph, a tiny company logo in the corner, and a clean sans-serif headline reading 'Shot on iPhone'. This simple asset let the visual quality do the talking, generating massive global conversation and driving record-breaking sales."],
+   ex:{t:"Conclusion",b:["Marketing and advertising design transforms product features into powerful emotional desires.","Mastering the visual layouts for billboards, banners, sales graphics and packaging ensures your campaigns command attention in competitive public spaces.","Showing the result instead of listing specifications turned a feature into a global phenomenon."]}},
+  {art:"global",h:"Key Ideas",p:[
+    "Campaign design means creating a unified visual idea that works across many formats — billboards, banners, packaging, social and print — so the whole campaign feels connected. 'Shot on iPhone' was one simple idea deployed consistently across every surface, which is what gave it global scale.",
+    "Advertising for large public spaces like billboards obeys strict rules: a viewer sees it for seconds, often from a distance or a moving vehicle, so it must have one dominant image, minimal text, and a single clear message. Apple's formula — one giant photo, a tiny logo, three words — is the textbook example.",
+    "The strategic shift in the story is from feature-listing to emotional appeal: instead of telling people the megapixel count, the campaign showed them beautiful results and let them feel the desire. Great advertising design turns dry features into something people emotionally want.",
+    "Across every format — roll-up banners, product packaging, promotional materials and sales graphics — the same discipline applies: know how long the viewer will look, lead with a strong visual, and reduce the message to its most powerful essence. Restraint and emotional clarity are what make advertising design command attention in crowded public spaces."]},
+  {art:"steps",h:"Designing a Campaign",p:[
+    "Take a product and describe the single emotional benefit (not the technical spec) you would build a campaign around.",
+    "Sketch a billboard concept with one dominant image, minimal text, and a single clear message readable in seconds.",
+    "Reflect on 'Shot on iPhone': why did showing user photos outperform listing camera specifications?"]}
+ ],
+ activity:"Design a campaign concept for a product across at least two formats (billboard and packaging), built around one emotional idea, and explain how each keeps its message clear at a glance.",
+ check:[
+  {q:"What made the 'Shot on iPhone' campaign so effective?",o:["It replaced dry specifications with bold real photos and a minimal, emotional message","It listed every technical detail of the camera","It used tiny text and no images","It only ran online"],a:0},
+  {q:"Why must a billboard use one dominant image and minimal text?",o:["Viewers see it for only seconds, often from a distance or a moving vehicle","Billboards cannot show colour","Text is banned on billboards","Images are cheaper than words"],a:0},
+  {q:"What strategic shift did the campaign represent?",o:["Moving from listing features to creating emotional desire","Moving from photos to text","Raising the product price","Removing the brand logo entirely"],a:0}
+ ]},
+
+{id:"agd9",n:9,title:"Social Media Design",mins:65,icon:"Video",summary:"Platform-specific campaigns, carousel posts and reusable content templates engineered to win short attention spans and beat changing algorithms.",
+ keyWords:["carousel posts","content templates","engagement","algorithms"],
+ sections:[
+  {art:"global",h:"The Carousel Post That Gained 100,000 Followers in a Month",p:[
+    "In 2019, an educational platform called The Futur wanted to scale its organic presence on social media. They were publishing standard single-image posts and text updates on Instagram and LinkedIn, but their engagement rate was flatlining. Users scrolled past their updates in milliseconds, and the platform algorithms were punishing their visibility. The team realised that static, single-image graphics were no longer enough to win the battle for human attention.",
+    "Founder Chris Do re-engineered their creative pipeline around a highly strategic social media content template framework.",
+    "They began building multi-page carousel posts specifically optimised for swipe behaviour. They used advanced typography layouts, placed compelling hook headlines on the first slide, and designed continuous graphic elements that cut across the seams of the pages, encouraging users to keep swiping. Every carousel functioned like a mini-masterclass, leading the viewer down a structured visual loop that ended with a distinct call to action. Within 30 days of deploying this seamless template strategy, their engagement surged and the account gained over 100,000 new followers organically."],
+   ex:{t:"Conclusion",b:["Social media design is high-precision engagement engineering.","Crafting platform-specific campaigns, seamless carousel posts, and reusable content templates lets you capture short attention spans, beat changing algorithms, and build massive online communities.","Switching from static posts to structured carousels added 100,000 followers in a month."]}},
+  {art:"measure",h:"Key Ideas",p:[
+    "Each platform — Instagram, Facebook, LinkedIn, YouTube, TikTok — rewards different formats and behaviours, so advanced social design means building platform-specific campaigns rather than reusing one graphic everywhere. The Futur's breakthrough came from designing specifically for how people swipe.",
+    "Carousel posts (multi-slide posts users swipe through) are powerful because they hold attention across several frames and signal high engagement to the algorithm. The craft is in the hook — the first slide must stop the scroll — and in continuous design elements that pull the eye onward, ending in a clear call to action.",
+    "Reusable content templates are the efficiency engine: a well-built template lets a team produce a consistent, on-brand stream of high-quality posts quickly, exactly the 'pipeline' Chris Do re-engineered. Consistency plus volume is what builds an audience over time.",
+    "Underlying all of this is engagement engineering: understanding that algorithms reward content that holds attention, and designing deliberately to earn that attention — strong hooks, swipe-encouraging layouts, and a clear payoff. Social media design at this level is a disciplined system, not a series of one-off graphics."]},
+  {art:"steps",h:"Engineering Engagement",p:[
+    "Design a carousel concept: write a scroll-stopping hook for slide one and outline how the following slides lead to a call to action.",
+    "Describe a reusable template you could build so a team produces consistent, on-brand posts quickly.",
+    "Reflect on The Futur's results: why did carousels outperform the single-image posts they used before?"]}
+ ],
+ activity:"Plan a multi-slide carousel post for a real or imagined brand, with a strong hook, a structured flow, and a clear call to action, and explain how a reusable template would scale it.",
+ check:[
+  {q:"What change drove The Futur's 100,000-follower surge?",o:["Switching to structured, swipe-optimised carousel posts with strong hooks","Posting less often","Removing all text from posts","Buying followers"],a:0},
+  {q:"Why are carousel posts effective?",o:["They hold attention across several slides and signal high engagement to the algorithm","They are cheaper to make","They contain no images","They only work on LinkedIn"],a:0},
+  {q:"What is the benefit of reusable content templates?",o:["They let a team produce consistent, on-brand posts quickly and at volume","They make every post look completely different","They remove the need for any design","They only work once"],a:0}
+ ]},
+
+{id:"agd10",n:10,title:"UI/UX Design Fundamentals",mins:70,icon:"Lightbulb",summary:"User interface versus user experience, wireframing, mobile and web design flows and Figma — because beautiful interfaces are useless without seamless flow.",
+ keyWords:["UI vs UX","wireframing","user flow","Figma"],
+ sections:[
+  {art:"control",h:"The $300 Million E-Commerce Button Update",p:[
+    "In the early 2000s, a major e-commerce platform was losing millions of dollars during the final checkout phase. The site had a beautiful interface designed by top graphic designers — brilliant colours, matching banners, high-definition product listings. Yet when customers reached their shopping carts to finalise purchases, a massive percentage abandoned the site out of deep frustration, destroying profit margins.",
+    "User experience expert Jared Spool was hired to run a deep UI/UX audit on the platform.",
+    "He discovered a severe UX error: before a user could click the final buy button, the interface forced them to fill out a complicated registration form with multiple fields, password constraints, and email validations. Spool redesigned the wireframe, replacing the mandatory registration block with a simple, low-friction button reading 'Continue as a Guest'. The results made retail history: completed purchases surged by 45% in the first month, generating an extra $300 million in revenue in the first year — proving that seamless user flow is critical to design utility."],
+   ex:{t:"Conclusion",b:["User interface beauty is completely useless without an exceptional user experience.","Mastering wireframing systems, mobile app design flows, and tools like Figma ensures your digital platforms look stunning and operate with absolute ease.","One friction-removing button change generated $300 million a year."]}},
+  {art:"interpret",h:"Key Ideas",p:[
+    "UI (user interface) is how a digital product looks — its colours, buttons, typography and layout. UX (user experience) is how it works and feels to use — how easily a person can accomplish their goal. The story's core lesson is that a beautiful UI failed completely because of a broken UX; the two are not the same.",
+    "User experience principles focus on reducing friction: every extra field, click or decision is a chance for the user to give up. Spool's 'Continue as a Guest' button worked because it removed a barrier standing between the user and their goal — the essence of good UX.",
+    "Wireframing is the practice of sketching a product's structure and flow — where elements go and how screens connect — before adding visual polish. It lets designers test the experience and fix flow problems early, exactly what Spool did when he redesigned the checkout.",
+    "Mobile app design flows, website design concepts, and tools like Figma (an industry-standard interface-design and wireframing tool) are how modern UI/UX is created and tested collaboratively. Mastering them means designing products that are both visually strong and genuinely easy to use — never sacrificing flow for looks."]},
+  {art:"steps",h:"Designing for Flow",p:[
+    "Take a simple task (signing up, checking out) and list every step a user must take, then identify which steps add unnecessary friction.",
+    "Sketch a wireframe of a smoother flow for that task, removing or combining steps where possible.",
+    "Reflect on the $300 million button: why did removing one mandatory form dramatically increase completed purchases?"]}
+ ],
+ activity:"Wireframe a simple app or checkout flow, mark where friction could cause users to abandon it, and describe the changes you would make to smooth the experience — distinguishing UI from UX throughout.",
+ check:[
+  {q:"What is the difference between UI and UX?",o:["UI is how a product looks; UX is how easily it works and feels to use","They are the same thing","UI is for mobile, UX is for desktop","UX is only about colour"],a:0},
+  {q:"What UX error was costing the e-commerce site millions?",o:["Forcing users to complete a complicated registration form before buying","Using photographs of products","Offering guest checkout too early","Having too few colours"],a:0},
+  {q:"What is wireframing?",o:["Sketching a product's structure and flow before adding visual polish","The final high-resolution design","A type of print production","A colour system"],a:0}
+ ]},
+
+{id:"agd11",n:11,title:"Motion Graphics Fundamentals",mins:65,icon:"Video",summary:"Adding time and movement to design — animated social posts, GIFs, logo animation and explainer videos that accelerate human understanding.",
+ keyWords:["motion design","explainer video","animation","engagement"],
+ sections:[
+  {art:"agency",h:"The Animated Video That Cut Customer Support Requests in Half",p:[
+    "In 2009, cloud storage startup Dropbox was struggling to explain its new product to the general public. Their website was a static wall of technical text, screenshots, and complex diagrams. Visitors didn't understand what 'cloud synchronisation' meant, leading to low sign-up rates and a support centre overwhelmed by confused emails from users who couldn't figure out how to upload a file.",
+    "The founders partnered with a motion design studio to replace the static web page with a simple, two-minute animated motion-graphics explainer video.",
+    "The video used clean cut-out vector shapes, smooth motion transitions, and simple icon animations to visually explain how a file moves from a desktop up into a virtual cloud container. The motion graphic removed all technical jargon and replaced it with clean visual movement. The explainer video went viral, racking up millions of views. It instantly cut their support ticket volume in half and drove over 10 million new sign-ups, demonstrating how adding motion accelerates human understanding."],
+   ex:{t:"Conclusion",b:["Motion graphics add a powerful layer of time and movement to static design.","Mastering animated social posts, simple logo animations, and GIF creation lets you bring your brand assets to life and boost engagement.","A two-minute animation explained what a wall of text could not, cutting support tickets in half."]}},
+  {art:"layers",h:"Key Ideas",p:[
+    "Motion design adds the dimensions of time and movement to graphic design. Where a static graphic shows a fixed moment, motion can demonstrate a process, direct attention over time, and hold interest — which is exactly why Dropbox's animation succeeded where a static page failed.",
+    "The explainer video is one of the most valuable motion formats: a short, simple animation that turns an abstract or technical idea into something anyone can understand at a glance. Its power lies in stripping away jargon and showing, through movement, how something works.",
+    "Animated social media posts, GIFs and simple logo animations bring brand assets to life in feeds where movement naturally draws the eye. Even subtle motion can dramatically increase engagement compared to a still image.",
+    "The foundational principles of motion — smooth transitions, clear sequencing, and restraint so movement aids rather than distracts — apply across all these formats. Adding motion is not about flashy effects; it is about accelerating understanding and drawing attention deliberately, as the Dropbox story shows so clearly."]},
+  {art:"steps",h:"Bringing Design to Life",p:[
+    "Take a process or idea that is hard to explain in words, and storyboard how you would show it through simple animated steps.",
+    "Describe where subtle motion (an animated post or logo) could increase engagement for a brand without becoming distracting.",
+    "Reflect on the Dropbox video: why did movement succeed in explaining 'cloud sync' where static text and screenshots failed?"]}
+ ],
+ activity:"Storyboard a short explainer animation for a product or concept, showing how movement clarifies an idea that static text struggles to convey.",
+ check:[
+  {q:"Why did Dropbox's explainer video succeed?",o:["Motion visually demonstrated how the product worked, removing jargon and confusion","It was longer and more technical than the text","It used no visuals at all","It was only shown to staff"],a:0},
+  {q:"What does motion design add to graphic design?",o:["The dimensions of time and movement, which can demonstrate a process and hold attention","Only louder colours","A higher print resolution","Nothing a still image cannot do"],a:0},
+  {q:"What is the strength of an explainer video?",o:["Turning an abstract or technical idea into something anyone can understand at a glance","Listing every technical specification","Replacing the product entirely","Being as long as possible"],a:0}
+ ]},
+
+{id:"agd12",n:12,title:"Print Production",mins:65,icon:"ClipboardCheck",summary:"Print specifications, bleed and margins, file preparation, large-format printing, packaging and working with printers — designing for the physical world.",
+ keyWords:["bleed","safe margins","preflight","packaging"],
+ sections:[
+  {art:"control",h:"The Luxury Packaging Disaster That Taught Bleed and Margins",p:[
+    "In 2021, a high-end luxury cosmetics company hired a talented digital designer to design the packaging box for their new premium perfume line. The designer built a gorgeous layout on his high-resolution monitor, featuring a thin, delicate gold-foil line running exactly along the outermost edge of the box panel. He sent the digital file straight to the commercial printing press as a standard image export.",
+    "When the first manufacturing batch of 50,000 perfume boxes was delivered to the warehouse, the management team gasped in horror. Due to the natural mechanical shift of the heavy industrial cutting blades, the delicate gold lines were completely misaligned — some boxes had thick white gaps on the left, while others had text sliced off. The entire $20,000 batch had to be trashed.",
+    "The designer had violated basic print production specifications. He had failed to configure proper bleed and safe margins in his setup file, and hadn't consulted the printer about the die-cut lines before exporting. This painful lesson proved that a master designer must design for the realities of the physical print shop, not just the digital monitor."],
+   ex:{t:"Conclusion",b:["Print production requires a deep technical understanding of mechanical constraints.","Mastering file preparation, bleed and safety margins, and large-format standards ensures your packaging and materials transfer flawlessly from screen to shelf.","Ignoring bleed and margins destroyed a 50,000-unit batch."]}},
+  {art:"build",h:"Key Ideas",p:[
+    "Print production is the discipline of preparing designs for the physical realities of manufacturing. Unlike a screen, a printing press and cutting machine have mechanical tolerances — blades shift slightly — so designs must be built to survive that imprecision. The designer's edge-hugging gold line ignored this and paid for it.",
+    "Bleed is extra artwork extended beyond the final cut line, so that when the blade shifts slightly, there are no unprinted white gaps at the edge. Safe margins are the opposite buffer: keeping important text and elements well inside the cut line so they are never sliced off. Together, bleed and safe margins are the single most important safeguard in print, and their absence caused this disaster.",
+    "File preparation means exporting in the correct print-ready format and colour mode (CMYK, as covered earlier), at the right resolution, with bleed and crop marks — not a casual screen image export, which is exactly the mistake made here.",
+    "Large-format printing (banners, signage), packaging design, and working directly with printers round out the discipline. Consulting the printer about specifications like die-cut lines before finalising — something the designer skipped — is standard professional practice. Designing for the physical shop, not just the monitor, is what separates print professionals from amateurs."]},
+  {art:"steps",h:"Preparing Print-Ready Files",p:[
+    "For a sample design, describe where you would add bleed and where you would keep safe margins, and why each protects the final piece.",
+    "List the export settings a print-ready file needs — format, colour mode, resolution, bleed and crop marks.",
+    "Reflect on the perfume-box disaster: what two specific print-production steps would have saved the $20,000 batch?"]}
+ ],
+ activity:"Set up a print specification for a packaging or banner design, specifying bleed, safe margins, colour mode and the questions you would ask the printer before exporting.",
+ check:[
+  {q:"What is 'bleed' in print production?",o:["Extra artwork extended beyond the cut line so blade shifts leave no white gaps","The colour of the ink","A type of paper","Text placed in the centre"],a:0},
+  {q:"What ruined the luxury perfume boxes?",o:["No bleed or safe margins, so a slight blade shift misaligned edge elements and sliced off text","The wrong perfume scent","Boxes that were too large","Using CMYK colour"],a:0},
+  {q:"What is standard professional practice before finalising a print file?",o:["Consulting the printer about specifications like die-cut lines and required bleed","Sending a low-resolution screen export immediately","Ignoring the printer entirely","Designing only on a phone"],a:0}
+ ]},
+
+{id:"agd13",n:13,title:"AI in Graphic Design",mins:65,icon:"Sparkles",summary:"Using AI tools like Adobe Firefly, Canva AI and ChatGPT to accelerate concepting and asset creation ethically, while focusing human energy on strategy.",
+ keyWords:["Adobe Firefly","generative AI","creative workflow","ethical AI"],
+ sections:[
+  {art:"command",h:"The Creative Director Who Rendered 100 Campaign Concepts in One Hour",p:[
+    "In 2024, an international advertising agency was pitching a massive campaign concept to a premium global automotive brand. Traditionally, the initial brainstorming phase took weeks of intensive labour: designers had to manually source stock photos, sketch background composites, and build rough layout sheets just to show the client what the creative vision might look like. The process was slow, expensive, and limited the number of ideas they could test.",
+    "The lead creative director chose to supercharge her workflow by integrating AI-powered design tools like Adobe Firefly, Canva AI, and ChatGPT.",
+    "She used advanced prompts to generate dozens of hyper-realistic vehicle background options in varied lighting conditions, using Adobe Firefly to guarantee that all generated elements were safe for commercial use and free from copyright violations. In less than an hour, she produced one hundred distinct, high-end mood boards and visual concepts, presenting a massive spectrum of creative choices to the automotive client. The client was blown away by the speed and depth of the presentation, signing the campaign contract ahead of schedule."],
+   ex:{t:"Conclusion",b:["Artificial Intelligence will not replace professional graphic designers, but designers who leverage AI tools are rapidly outpacing those who do not.","Mastering secure image generation and ethical creative workflows lets you automate routine asset creation and focus your energy on high-level design strategy.","AI turned weeks of concepting into one hour of a hundred options."]}},
+  {art:"data",h:"Key Ideas",p:[
+    "AI-powered design tools can generate images, backgrounds, variations and text at extraordinary speed, compressing the slow, labour-intensive parts of the creative process — sourcing, sketching, mood-boarding — into minutes. This is what let the creative director produce a hundred concepts in an hour.",
+    "Different tools serve different roles: Adobe Firefly for commercially safe image generation, Canva AI for quick on-brand design assistance, and ChatGPT for ideation, copy and creative direction. Knowing which tool fits which task is the new core skill.",
+    "The ethical use of AI in design is essential. The story specifically highlights Firefly's role in guaranteeing generated elements were commercially safe and free from copyright violations — echoing the copyright lessons from the beginner course. Responsible AI use means using tools trained on properly licensed content, verifying commercial rights, and being transparent.",
+    "The strategic message is clear: AI does not replace designers, it amplifies them. It automates routine asset creation so the designer can focus on high-level strategy, taste and judgement — the parts machines cannot do. Designers who master AI ethically outpace those who ignore it, while those who lean on it blindly, without strategy or rights checks, expose themselves to risk."]},
+  {art:"steps",h:"Working With AI Responsibly",p:[
+    "Take a design task and describe which part you would speed up with AI (concepting, backgrounds, variations) and which part must stay human (strategy, final judgement).",
+    "Note how you would verify that AI-generated assets are commercially safe and free of copyright problems, as the director did with Firefly.",
+    "Reflect on the story: why does AI amplify rather than replace the creative director's value?"]}
+ ],
+ activity:"Plan an AI-assisted concepting workflow for a campaign, naming which tools you would use for which steps and how you would keep the output commercially safe and strategically directed.",
+ check:[
+  {q:"How did AI change the creative director's workflow?",o:["It compressed weeks of concepting into an hour of a hundred safe, high-end options","It removed the need for any client","It replaced her entirely","It made the work slower but cheaper"],a:0},
+  {q:"Why did she use Adobe Firefly specifically?",o:["To guarantee generated elements were commercially safe and free from copyright violations","Because it was the only tool available","To avoid designing anything herself","Because it was free"],a:0},
+  {q:"What is the strategic message about AI and designers?",o:["AI amplifies designers by automating routine work, letting them focus on strategy and judgement","AI fully replaces professional designers","AI should never be used in design","AI removes the need for ethics"],a:0}
+ ]},
+
+{id:"agd14",n:14,title:"Freelancing and Creative Business",mins:65,icon:"Users",summary:"Building a design business through value-based pricing, client communication, proposals, contracts and copyright — earning on value, not hours.",
+ keyWords:["value-based pricing","proposals","contracts","copyright"],
+ sections:[
+  {art:"weigh",h:"The Freelancer Who Shifted from Per-Hour Billing to Value Pricing",p:[
+    "For years, independent graphic designer Michael Janda worked hard as a freelancer, billing clients a standard hourly rate of $50 per hour. He spent days designing corporate logos, marketing flyers, and business proposals. But he realised he was trapped by a financial ceiling: the faster and more efficient he became, the less money he made, because a project that once took ten hours now took two. He was actively punishing himself for his own mastery.",
+    "Janda decided to transform his business model, shifting from hourly billing to value-based pricing and creative contracting.",
+    "When a major film studio approached him to design a promotional graphic asset, he didn't calculate how many hours he would sit at his laptop. Instead, he analysed the massive business impact his design would have on ticket sales and brand value. He drafted a professional project proposal with strict copyright terms and priced the project at a flat fee of $10,000 for the final mark. The client signed immediately. Janda completed the high-end vector design in under four hours, earning a massive return on his intellectual property and proving that a creative business thrives on value, not hours."],
+   ex:{t:"Conclusion",b:["A successful design career requires a deep understanding of business operations.","Mastering value-based pricing, client communication, airtight proposals, and clear copyright contracts transforms you from a casual freelancer into a highly profitable creative entrepreneur.","Pricing on value instead of hours turned a four-hour job into a $10,000 fee."]}},
+  {art:"achieve",h:"Key Ideas",p:[
+    "Value-based pricing is the central idea: you price a project by the value it creates for the client — its impact on their sales, brand and business — rather than by the hours you spend. As Janda learned, hourly billing punishes efficiency and caps your income; value pricing rewards skill and results.",
+    "Client communication frameworks matter as much as design skill. Understanding a client's real business goals (as Janda did by analysing ticket-sales impact) lets you propose the right solution and justify its price in terms the client cares about.",
+    "Proposals and contracts are the professional infrastructure of a creative business. A clear proposal defines scope, deliverables, timeline and price; a contract protects both parties and, crucially, addresses copyright — who owns the final work and how it may be used. Janda's 'strict copyright terms' were part of what made his high fee defensible.",
+    "Managing creative projects — scope, revisions, milestones and expectations — keeps a business profitable and sustainable. Together, these business skills are what separate a designer who merely produces files from a creative entrepreneur who builds a thriving, well-paid practice."]},
+  {art:"steps",h:"Pricing on Value",p:[
+    "Take a hypothetical project and describe its value to the client's business, then explain how you would price it on that value rather than on hours.",
+    "Outline the key sections a professional proposal should contain — scope, deliverables, timeline, price and copyright terms.",
+    "Reflect on Janda's shift: why did hourly billing punish him for becoming faster and more skilled?"]}
+ ],
+ activity:"Draft a one-page value-based project proposal for a design job, including scope, deliverables, a value-justified price, and a clear note on copyright ownership.",
+ check:[
+  {q:"Why did hourly billing trap Michael Janda?",o:["The faster and more skilled he became, the less he earned per project","Clients refused to pay hourly rates","He worked too few hours","Hourly billing is illegal"],a:0},
+  {q:"What is value-based pricing?",o:["Pricing a project by the value it creates for the client, not by hours spent","Charging the lowest possible price","Billing only for materials","Never signing a contract"],a:0},
+  {q:"Why do contracts address copyright?",o:["To define who owns the final work and how it may be used, protecting both parties","Because copyright is decorative","To make the contract longer","Copyright never applies to design"],a:0}
+ ]},
+
+{id:"agd15",n:15,title:"Portfolio Development",mins:65,icon:"Users",summary:"Building data-backed case studies on personal sites, Behance and Dribbble that show the strategic mind behind the work, not just finished visuals.",
+ keyWords:["case studies","Behance","Dribbble","personal branding"],
+ sections:[
+  {art:"achieve",h:"The Case Study Link That Secured a Six-Figure Creative Lead Role",p:[
+    "In 2024, an experienced graphic designer wanted to land a premium, remote creative-director position at a leading global tech hub. He had a massive collection of beautiful visuals saved on his desktop, but whenever he applied for advanced roles using standard image grids on Behance or Dribbble, recruiters passed him over. He realised elite companies don't just look for pretty pictures; they want to see the strategic mind behind the layout.",
+    "He paused his job hunting to build a highly structured, public-facing design portfolio case study.",
+    "Instead of just posting finished logos, he built a comprehensive visual and text narrative for his top three projects. He documented the entire journey step-by-step: the client's original business problem, his initial wireframe sketches, his typography tests, his grid-system alignments, and hard data showing how the final brand identity boosted the client's sales by 30%. Where an amateur portfolio shows loose image grids with no context and gets passed over, his master case study walked recruiters from problem to process to solution. Within two weeks, a Silicon Valley recruitment firm reviewed the case-study link and offered him a lead design role, saying his clear, strategic process was exactly what they required."],
+   ex:{t:"Conclusion",b:["Your portfolio is the ultimate metric of your design value.","Moving past simple asset grids and constructing comprehensive, data-backed case studies on personal sites, Behance and Dribbble transforms you into a top-tier candidate sought by leading firms.","Showing the thinking behind the work — not just the work — won a six-figure role in two weeks."]}},
+  {art:"culture",h:"Key Ideas",p:[
+    "At an advanced level, a portfolio is not a gallery of finished images but a demonstration of strategic thinking. Elite employers, as the story shows, want to see how you solve problems — the loose-image-grid approach that works for beginners gets senior candidates passed over.",
+    "The case study is the key format: for each major project, you document the whole journey — the client's problem, your research and wireframes, your design decisions, and, critically, the measurable results (like the 30% sales boost). This proves both craft and business impact.",
+    "Platforms matter but are secondary to substance. Behance, Dribbble and a personal website are all valid showcases, but what distinguishes a top candidate is the depth and data behind each project, not just where it is posted or how pretty the thumbnails are.",
+    "Personal branding ties it together: presenting yourself consistently and professionally across your portfolio, profiles and communication, so your identity as a designer is as considered as the work itself. A structured, data-backed, well-branded portfolio is what turns applications into offers."]},
+  {art:"steps",h:"Building Case Studies",p:[
+    "Choose one project and outline it as a case study: the client's problem, your process (sketches, tests, decisions), and the measurable result.",
+    "Identify one piece of data or outcome you could show to prove your work's business impact, as the designer showed a 30% sales boost.",
+    "Reflect on the story: why did detailed case studies succeed where a grid of finished visuals failed for a senior role?"]}
+ ],
+ activity:"Write a full case study for one of your projects covering problem, process, solution and measurable result, and describe how you would present it on a personal site or Behance/Dribbble.",
+ check:[
+  {q:"Why did recruiters keep passing over the designer's Behance/Dribbble grids?",o:["They showed finished visuals with no context or strategic thinking","The images were low quality","He had too few projects","The platforms were outdated"],a:0},
+  {q:"What is a design case study?",o:["A documented project journey — problem, process, decisions and measurable results","A single finished image","A list of software skills","A price quote"],a:0},
+  {q:"What distinguishes a top-tier portfolio from an amateur one?",o:["Depth, strategic process and data-backed results, not just pretty thumbnails","The number of images shown","Using the newest platform","Hiding the design process"],a:0}
+ ]},
+
+{id:"agd16",n:16,title:"Career Development",mins:60,icon:"Users",summary:"Preparing for interviews, working with agencies and in-house teams, and targeting remote and international opportunities in a borderless creative economy.",
+ keyWords:["design interviews","remote work","international opportunities","professional development"],
+ sections:[
+  {art:"global",h:"The Designer Who Bridged Local Talent with International Agencies",p:[
+    "In 2026, a mid-career graphic designer felt trapped within his local economic ecosystem. While he possessed world-class skills in vector illustration, branding strategy, and UI/UX design, his local market options were limited to low-paying corporate gigs and stressful local clients. He realised that to achieve true financial independence and career growth, he had to position himself for the high-paying international remote design economy.",
+    "He initiated an aggressive professional development track. He upgraded his advanced certifications, optimised his professional profile to target global design networks, and practised for remote design interviews using cross-cultural communication frameworks.",
+    "He didn't just wait for job-board listings; he actively networked with international agency directors, presenting his structured case studies and showing how his advanced workflow automation cut asset-production time in half. Within three months, an elite creative agency based in London signed him to a long-term, high-paying remote contract as a Senior Branding Architect, proving that geographical location does not dictate professional income when you possess globally certified advanced design mastery."],
+   ex:{t:"Conclusion",b:["The modern creative economy is borderless, fluid, and highly lucrative.","Committing to continuous professional development, mastering interview parameters, and targeting remote international opportunities lifts the ceiling off your career.","World-class skill plus deliberate global positioning turned a trapped local career into a senior international role."]}},
+  {art:"achieve",h:"Key Ideas",p:[
+    "Career development at this level means treating your career as deliberately as you treat a design project. The designer's breakthrough came not from new skills alone but from positioning — certifications, a targeted profile, and active networking aimed at the global market.",
+    "Preparing for design interviews means being able to walk through your case studies confidently, explain your process and results, and communicate across cultures — the exact skills the designer practised. Interviews test how you think and communicate, not just what you can make.",
+    "Understanding the routes available — agency roles, in-house design positions, and remote or freelance work — helps you target the path that fits your goals. The remote and international economy specifically means your income is no longer capped by your local market, provided your skills and presentation meet a global standard.",
+    "Continuous professional development — upgrading skills, certifications and workflow efficiency (like the automation that cut his production time in half) — is what keeps a designer competitive over a whole career. In a borderless economy, the designers who keep learning and position themselves globally are the ones who reach the highest levels."]},
+  {art:"steps",h:"Positioning for Growth",p:[
+    "Identify one route (agency, in-house, or remote/international) that fits your goals and note what it specifically rewards.",
+    "List two steps you could take to position yourself for global opportunities — a certification, profile optimisation, or targeted networking.",
+    "Reflect on the story: why did positioning and networking, not just skill, unlock a senior international role?"]}
+ ],
+ activity:"Write a short personal career plan: your target route (agency, in-house or international remote), the case studies you would present in interviews, and two development steps to reach a global standard.",
+ check:[
+  {q:"What actually unlocked the trapped designer's international role?",o:["Deliberate positioning — certifications, a targeted profile, and active networking — on top of his skills","Waiting for local job listings","Lowering his rates","Moving abroad permanently"],a:0},
+  {q:"What do design interviews mainly test?",o:["How you think, communicate and walk through your process and results","Only how fast you can draw","Your typing speed","Your local postcode"],a:0},
+  {q:"What does the remote and international economy mean for a designer's income?",o:["It is no longer capped by the local market if skills and presentation meet a global standard","It is always lower than local work","It requires relocating to another country","It only suits beginners"],a:0}
+ ]}
+];
+
+const AGD_Q=[
+// Module 1: Advanced Graphic Design Principles (7)
+{ao:"Advanced Principles",q:"What approach did Shepard Fairey use for the 'HOPE' poster?",o:["Design thinking — starting from the human emotion, then composing a bold, minimal image","Copying standard candidate photos","Filling the poster with dense text","Avoiding all colour"],a:0},
+{ao:"Advanced Principles",q:"What is visual storytelling?",o:["Making a design communicate a narrative or emotion at a glance","Writing long captions","Using only photographs","A legal requirement"],a:0},
+{ao:"Advanced Principles",q:"Design thinking reframes design as:",o:["A structured, human-centred problem-solving process","A purely technical software skill","A way to skip research","Random inspiration"],a:0},
+{ao:"Advanced Principles",q:"What is the psychology of design?",o:["How humans perceive and emotionally respond to visuals like contrast, simplicity and symbolism","A branch of clinical medicine","A colour profile","A print format"],a:0},
+{ao:"Advanced Principles",q:"Why did the minimal 'HOPE' image outperform conventional campaign material?",o:["Its bold composition and single word told an emotional story instantly","It listed policy details","It used many photographs","It avoided any message"],a:0},
+{ao:"Advanced Principles",q:"Advanced composition and layout is about:",o:["Deliberately guiding the viewer's eye using framing, contrast and negative space","Filling every empty space","Using as many fonts as possible","Copying other designs exactly"],a:0},
+{ao:"Advanced Principles",q:"How do advanced designers treat the fundamentals (balance, contrast, hierarchy)?",o:["As strategic tools, not just mechanical rules","As outdated ideas to ignore","As legal constraints","As decoration only"],a:0},
+
+// Module 2: Advanced Typography (7)
+{ao:"Advanced Typography",q:"What problem did Frutiger's typeface solve at Charles de Gaulle Airport?",o:["Signage blurring at a distance, causing travellers to miss flights","Too few runways","Late aircraft","A shortage of gates"],a:0},
+{ao:"Advanced Typography",q:"What is a grid system?",o:["An invisible framework of columns and rows that keeps elements aligned and ordered","A colour palette","A type of printer","A rule to centre all text"],a:0},
+{ao:"Advanced Typography",q:"What change made Frutiger's letters readable from far away?",o:["Widening the interior openings so characters didn't blur into solid shapes","Colouring them red","Adding decorative serifs","Shrinking them"],a:0},
+{ao:"Advanced Typography",q:"What is advanced typography hierarchy?",o:["Engineering clearly distinct text levels so readers know what to read first under pressure","Using one font size for everything","Removing all headings","Centering every line"],a:0},
+{ao:"Advanced Typography",q:"What does brand font pairing require?",o:["Fonts that carry the brand's personality and stay legible in every context","Using the two cheapest fonts","Only decorative fonts","A single font for all brands"],a:0},
+{ao:"Advanced Typography",q:"What is editorial typography?",o:["The craft of laying out long-form content like magazines for comfortable reading","Designing logos only","Writing headlines only","A print colour mode"],a:0},
+{ao:"Advanced Typography",q:"Why must digital typography be engineered carefully?",o:["It must stay legible across screens of every size and varied lighting","Screens cannot show text","Digital text never changes size","Only print matters"],a:0},
+
+// Module 3: Advanced Colour Theory (7)
+{ao:"Advanced Colour",q:"What problem did the Pantone Matching System solve?",o:["Colours shifting unpredictably between printers, ruining brand consistency","A shortage of ink","Blurry fonts","Slow presses"],a:0},
+{ao:"Advanced Colour",q:"What is the difference between RGB, CMYK and Pantone?",o:["RGB is screen light, CMYK is print ink, Pantone is pre-mixed spot colours with exact formulas","They are identical","All three are for screens only","They are file formats"],a:0},
+{ao:"Advanced Colour",q:"What does accessibility and colour contrast ensure?",o:["Designs are usable by everyone, with enough contrast and no reliance on colour alone","Designs use one colour only","Colour is banned","Text is always red"],a:0},
+{ao:"Advanced Colour",q:"What is colour grading?",o:["Deliberately adjusting overall colour to set a mood or match a brand","Mixing paint by hand only","Grading students' colour tests","A print format"],a:0},
+{ao:"Advanced Colour",q:"What is colour harmony?",o:["How colours combine to feel balanced and intentional, using schemes like complementary or triadic","Using every colour at once","Only using black and white","A type of ink"],a:0},
+{ao:"Advanced Colour",q:"Why couldn't designers guarantee colours before Pantone?",o:["Different ink mixes at different printers shifted the colours unpredictably","There were no colours yet","Screens did not exist","Designers refused to use colour"],a:0},
+{ao:"Advanced Colour",q:"What is brand colour development?",o:["Choosing and codifying a brand's exact colours so they reproduce identically everywhere","Changing brand colours daily","Using random colours","Avoiding colour in branding"],a:0},
+
+// Module 4: Adobe Photoshop Mastery (6)
+{ao:"Photoshop",q:"Why was the 1994 magazine cover condemned?",o:["Its editing distorted the public's perception of a real, ongoing legal case","It used too many fonts","It was printed in the wrong colour","It had no headline"],a:0},
+{ao:"Photoshop",q:"What is a layer mask?",o:["A non-destructive way to hide or reveal parts of an image without permanently erasing them","A tool that deletes the original","A print paper","A colour profile"],a:0},
+{ao:"Photoshop",q:"What is the ethical principle for advanced photo editing?",o:["Use the tools to enhance truth and create art, never to deceive about real events","Alter every photo as much as possible","Ethics never apply to images","Only news photos may be edited"],a:0},
+{ao:"Photoshop",q:"What are smart objects?",o:["Elements that preserve original data so they can be scaled and filtered without permanent quality loss","Objects that design themselves","A type of stock photo","A print setting"],a:0},
+{ao:"Photoshop",q:"What is compositing?",o:["Combining multiple images seamlessly into one believable scene","Deleting an image","Printing a document","Choosing a font"],a:0},
+{ao:"Photoshop",q:"Why is a non-destructive workflow valuable?",o:["It keeps the original pixels intact and every edit reversible","It permanently changes everything","It is faster because it skips saving","It removes the need for skill"],a:0},
+
+// Module 5: Adobe Illustrator Mastery (6)
+{ao:"Illustrator",q:"Why did Rob Janoff build the Apple logo as a vector?",o:["So it could scale infinitely — microchip to building — without losing clarity","To email it faster","Because rasters are illegal","So it could be used once"],a:0},
+{ao:"Illustrator",q:"What is the pen tool used for?",o:["Drawing precise paths and smooth curves with full control over every shape","Editing photos only","Typing body text","Removing backgrounds"],a:0},
+{ao:"Illustrator",q:"Why are logos built as vectors, not pixels?",o:["Vector paths are mathematical, staying crisp at any size","Pixels are always sharper","Vectors are one colour only","Logos are never resized"],a:0},
+{ao:"Illustrator",q:"What qualities define good logo and icon design?",o:["Simple, memorable and recognisable at any size, favouring restraint over complexity","As much detail as possible","Sketchy hand-drawn lines","Constant colour changes"],a:0},
+{ao:"Illustrator",q:"What are infographics in vector design?",o:["Clear, scalable visual graphics that turn data and concepts into information design","Long text documents","Photographs only","Print colour profiles"],a:0},
+{ao:"Illustrator",q:"Why would a sketchy raster logo have failed for Apple?",o:["It could not scale cleanly down to a chip or up to a building","It was too simple","Rasters are more expensive","Sketches are always better"],a:0},
+
+// Module 6: Adobe InDesign (6)
+{ao:"InDesign",q:"Why did the furniture team's original 300-page catalogue fail?",o:["They used basic word processors and image editors, causing crashes and inconsistency","They had no images","They used InDesign wrongly","They printed it too slowly"],a:0},
+{ao:"InDesign",q:"What are parent (master) pages?",o:["Templates defining repeating elements that appear consistently on every page","The first page only","A type of paper","A colour mode"],a:0},
+{ao:"InDesign",q:"What do paragraph styles do?",o:["Define text formatting once so every instance updates together, ensuring consistency","Delete text automatically","Add colour to photos","Book the printer"],a:0},
+{ao:"InDesign",q:"What does a preflight check do?",o:["Checks the document for errors and confirms it is print-ready with correct bleed","Books a print slot","Adds animations","Emails the client"],a:0},
+{ao:"InDesign",q:"What is InDesign built for?",o:["Multi-page, text-heavy publishing like magazines, books and catalogues","Editing single photographs","Drawing vector logos","Recording video"],a:0},
+{ao:"InDesign",q:"How did automation help the catalogue rescue?",o:["Automated fields populated prices instantly and styles kept pages consistent","It removed all the text","It printed without a press","It replaced the designer"],a:0},
+
+// Module 7: Professional Branding (6)
+{ao:"Pro Branding",q:"Why did Tropicana's redesign fail?",o:["It discarded the familiar visual anchors customers recognised, breaking trust","The juice tasted different","It was never launched","The price rose"],a:0},
+{ao:"Pro Branding",q:"What is a logo system?",o:["A flexible set of variations and usage rules for an identity across contexts","A single unchanging image","A trademark filing","A print colour"],a:0},
+{ao:"Pro Branding",q:"What is the advanced lesson about modernising a brand?",o:["Evolve with strategy and respect for recognition, rather than erasing trusted anchors","Never change a brand at all","Always discard the old logo","Clean design guarantees success"],a:0},
+{ao:"Pro Branding",q:"How fast and how far did Tropicana's sales fall?",o:["About 20% within six weeks","5% over five years","They rose 20%","They did not change"],a:0},
+{ao:"Pro Branding",q:"What is brand strategy?",o:["Understanding what a brand means to customers and which anchors must be protected","Only choosing a logo colour","A print process","A social media schedule"],a:0},
+{ao:"Pro Branding",q:"What builds and protects brand equity over time?",o:["Consistency across every touchpoint, enforced by guidelines","Frequent radical redesigns","Removing the logo","Changing fonts weekly"],a:0},
+
+// Module 8: Marketing and Advertising Design (6)
+{ao:"Advertising",q:"What made the 'Shot on iPhone' campaign effective?",o:["It replaced dry specs with bold real photos and a minimal, emotional message","It listed every camera detail","It used tiny text and no images","It only ran online"],a:0},
+{ao:"Advertising",q:"Why must a billboard use one dominant image and minimal text?",o:["Viewers see it for only seconds, often at a distance or in motion","Billboards cannot show colour","Text is banned on billboards","Images are cheaper"],a:0},
+{ao:"Advertising",q:"What strategic shift did the campaign represent?",o:["Moving from listing features to creating emotional desire","Moving from photos to text","Raising the price","Removing the logo"],a:0},
+{ao:"Advertising",q:"What is campaign design?",o:["A unified visual idea that works consistently across many formats","A single one-off poster","A print colour mode","A pricing model"],a:0},
+{ao:"Advertising",q:"What did the 'Shot on iPhone' billboards actually show?",o:["Stunning photos captured by everyday users on their phones","Technical specification charts","The company's staff","A list of prices"],a:0},
+{ao:"Advertising",q:"Across all ad formats, what discipline applies?",o:["Know how long the viewer looks, lead with a strong visual, reduce the message to its essence","Add as much text as possible","Use every colour","Avoid images"],a:0},
+
+// Module 9: Social Media Design (6)
+{ao:"Social Design",q:"What drove The Futur's 100,000-follower surge?",o:["Switching to structured, swipe-optimised carousel posts with strong hooks","Posting less often","Removing all text","Buying followers"],a:0},
+{ao:"Social Design",q:"Why are carousel posts effective?",o:["They hold attention across several slides and signal high engagement to the algorithm","They are cheaper","They contain no images","They only work on LinkedIn"],a:0},
+{ao:"Social Design",q:"What is the benefit of reusable content templates?",o:["They let a team produce consistent, on-brand posts quickly and at volume","They make every post look different","They remove the need for design","They only work once"],a:0},
+{ao:"Social Design",q:"What must the first slide of a carousel do?",o:["Hook the viewer and stop the scroll","List all the details","Show the call to action first","Be left blank"],a:0},
+{ao:"Social Design",q:"Why design platform-specific campaigns?",o:["Each platform rewards different formats and behaviours","All platforms are identical","Only one platform matters","Sizing never matters"],a:0},
+{ao:"Social Design",q:"What is 'engagement engineering'?",o:["Designing deliberately to earn the attention that algorithms reward","Ignoring the algorithm","Posting randomly","Avoiding calls to action"],a:0},
+
+// Module 10: UI/UX Design Fundamentals (6)
+{ao:"UI/UX",q:"What is the difference between UI and UX?",o:["UI is how a product looks; UX is how easily it works and feels to use","They are the same","UI is mobile, UX is desktop","UX is only colour"],a:0},
+{ao:"UI/UX",q:"What UX error cost the e-commerce site millions?",o:["Forcing users to complete a registration form before they could buy","Using product photos","Offering guest checkout","Having too few colours"],a:0},
+{ao:"UI/UX",q:"What is wireframing?",o:["Sketching a product's structure and flow before adding visual polish","The final high-resolution design","A print process","A colour system"],a:0},
+{ao:"UI/UX",q:"What did the 'Continue as a Guest' button achieve?",o:["It removed friction, raising completed purchases by 45% and $300 million a year","It slowed checkout down","It removed the product images","It raised prices"],a:0},
+{ao:"UI/UX",q:"What is Figma?",o:["An industry-standard interface-design and wireframing tool","A photo-printing service","A colour profile","A font family"],a:0},
+{ao:"UI/UX",q:"What do good UX principles focus on?",o:["Reducing friction so users can reach their goal easily","Adding as many steps as possible","Making products look busy","Hiding the buy button"],a:0},
+
+// Module 11: Motion Graphics Fundamentals (6)
+{ao:"Motion",q:"Why did Dropbox's explainer video succeed?",o:["Motion visually demonstrated how the product worked, removing jargon and confusion","It was longer and more technical","It used no visuals","It was shown only to staff"],a:0},
+{ao:"Motion",q:"What does motion design add to graphic design?",o:["The dimensions of time and movement, to demonstrate processes and hold attention","Only louder colours","Higher print resolution","Nothing new"],a:0},
+{ao:"Motion",q:"What is the strength of an explainer video?",o:["Turning an abstract or technical idea into something anyone understands at a glance","Listing every specification","Replacing the product","Being as long as possible"],a:0},
+{ao:"Motion",q:"What measurable result did Dropbox's video produce?",o:["It cut support tickets in half and drove over 10 million sign-ups","It doubled prices","It reduced sign-ups","It had no effect"],a:0},
+{ao:"Motion",q:"What principle keeps motion effective rather than distracting?",o:["Smooth transitions, clear sequencing and restraint so movement aids understanding","Adding as many effects as possible","Never planning the sequence","Using only fast flashing"],a:0},
+{ao:"Motion",q:"Where can subtle motion increase engagement?",o:["Animated social posts, GIFs and simple logo animations","Only in feature films","Only in print","Nowhere useful"],a:0},
+
+// Module 12: Print Production (6)
+{ao:"Print Production",q:"What is 'bleed'?",o:["Extra artwork beyond the cut line so blade shifts leave no white gaps","The colour of the ink","A type of paper","Centred text"],a:0},
+{ao:"Print Production",q:"What ruined the luxury perfume boxes?",o:["No bleed or safe margins, so a slight blade shift misaligned edges and sliced text","The wrong scent","Boxes too large","Using CMYK"],a:0},
+{ao:"Print Production",q:"What are safe margins?",o:["Keeping important elements well inside the cut line so they are never sliced off","Extra artwork beyond the edge","The ink colour","The file name"],a:0},
+{ao:"Print Production",q:"What is standard practice before finalising a print file?",o:["Consulting the printer about specs like die-cut lines and required bleed","Sending a low-res screen export","Ignoring the printer","Designing only on a phone"],a:0},
+{ao:"Print Production",q:"What does proper file preparation for print include?",o:["Correct format, CMYK colour, resolution, bleed and crop marks","A quick screen JPG","Only a phone screenshot","No colour at all"],a:0},
+{ao:"Print Production",q:"Why must designers design for the physical shop, not just the monitor?",o:["Presses and cutters have mechanical tolerances that a screen never shows","Monitors are always wrong","Physical printing is obsolete","Colour is irrelevant in print"],a:0},
+
+// Module 13: AI in Graphic Design (6)
+{ao:"AI in Design",q:"How did AI change the creative director's workflow?",o:["It compressed weeks of concepting into an hour of a hundred safe options","It removed the client","It replaced her","It made work slower"],a:0},
+{ao:"AI in Design",q:"Why did she use Adobe Firefly specifically?",o:["To guarantee generated elements were commercially safe and free from copyright violations","It was the only tool","To avoid designing","Because it was free"],a:0},
+{ao:"AI in Design",q:"What is the strategic message about AI and designers?",o:["AI amplifies designers by automating routine work, freeing them for strategy","AI fully replaces designers","AI should never be used","AI removes ethics"],a:0},
+{ao:"AI in Design",q:"Which tool suits ideation, copy and creative direction?",o:["ChatGPT","A printing press","A pen tool","A colour swatch book"],a:0},
+{ao:"AI in Design",q:"Why does ethical AI use matter in design?",o:["To ensure assets are properly licensed, commercially safe and transparent","Ethics do not apply to AI","To make work slower","To avoid using AI at all"],a:0},
+{ao:"AI in Design",q:"What must stay human even when AI is used?",o:["Strategy, taste and final judgement","Nothing at all","Only the file naming","Only the printing"],a:0},
+
+// Module 14: Freelancing and Creative Business (6)
+{ao:"Creative Business",q:"Why did hourly billing trap Michael Janda?",o:["The faster and more skilled he became, the less he earned per project","Clients refused hourly rates","He worked too few hours","Hourly billing is illegal"],a:0},
+{ao:"Creative Business",q:"What is value-based pricing?",o:["Pricing a project by the value it creates for the client, not by hours spent","Charging the lowest price","Billing only materials","Never using a contract"],a:0},
+{ao:"Creative Business",q:"Why do contracts address copyright?",o:["To define who owns the final work and how it may be used","Copyright is decorative","To lengthen the contract","Copyright never applies to design"],a:0},
+{ao:"Creative Business",q:"How did Janda price the film-studio project?",o:["A flat $10,000 fee based on its business impact, not on hours","At his $50 hourly rate","For free to win the client","By the number of colours used"],a:0},
+{ao:"Creative Business",q:"What does a professional proposal define?",o:["Scope, deliverables, timeline, price and copyright terms","Only the designer's phone number","Nothing specific","The client's competitors"],a:0},
+{ao:"Creative Business",q:"What separates a creative entrepreneur from someone who just makes files?",o:["Business skills — pricing, communication, proposals, contracts and project management","Owning more software","Working longer hours","Charging less"],a:0},
+
+// Module 15: Portfolio Development (6)
+{ao:"Adv Portfolio",q:"Why did recruiters pass over the designer's image grids?",o:["They showed finished visuals with no context or strategic thinking","The images were low quality","He had too few projects","The platforms were outdated"],a:0},
+{ao:"Adv Portfolio",q:"What is a design case study?",o:["A documented project journey — problem, process, decisions and measurable results","A single finished image","A list of software skills","A price quote"],a:0},
+{ao:"Adv Portfolio",q:"What distinguishes a top-tier portfolio?",o:["Depth, strategic process and data-backed results, not just pretty thumbnails","The number of images","Using the newest platform","Hiding the process"],a:0},
+{ao:"Adv Portfolio",q:"What data did the designer show in his case study?",o:["That the final brand identity boosted his client's sales by 30%","His hourly rate","The number of fonts used","His home address"],a:0},
+{ao:"Adv Portfolio",q:"What role does personal branding play in a portfolio?",o:["Presenting yourself consistently and professionally so your identity is as considered as the work","Hiding your name","Copying another designer","Only choosing a logo"],a:0},
+{ao:"Adv Portfolio",q:"How quickly did the case-study approach land him a role?",o:["Within two weeks","After two years","It never worked","After one day of applying to grids"],a:0},
+
+// Module 16: Career Development (7)
+{ao:"Career Dev",q:"What unlocked the trapped designer's international role?",o:["Deliberate positioning — certifications, a targeted profile and active networking — on top of his skills","Waiting for local listings","Lowering his rates","Relocating abroad"],a:0},
+{ao:"Career Dev",q:"What do design interviews mainly test?",o:["How you think, communicate and walk through your process and results","Only drawing speed","Typing speed","Your postcode"],a:0},
+{ao:"Career Dev",q:"What does the remote/international economy mean for income?",o:["It is no longer capped by the local market if skills meet a global standard","It is always lower","It requires relocating","It only suits beginners"],a:0},
+{ao:"Career Dev",q:"What are the main career routes named in this unit?",o:["Agency roles, in-house positions, and remote or freelance work","Only local corporate gigs","Only teaching","Only retail jobs"],a:0},
+{ao:"Career Dev",q:"What kept the designer competitive over his career?",o:["Continuous professional development — upgrading skills, certifications and workflow efficiency","Never learning anything new","Working only locally","Avoiding technology"],a:0},
+{ao:"Career Dev",q:"How did the designer find his international role?",o:["By actively networking with agency directors and presenting his case studies","By waiting for a job board post","By lowering his price","By moving to London first"],a:0},
+{ao:"Career Dev",q:"What is the core message of the modern creative economy?",o:["It is borderless — location need not dictate income when skills meet a global standard","Only local work pays well","Remote work is impossible in design","Skills no longer matter"],a:0}
+];
+
+const BM_UNITS=[
+{id:"bm1",n:1,title:"Introduction to Brand Management",mins:55,icon:"Lightbulb",summary:"What a brand really is, why brand management matters, the characteristics of successful brands, and the crucial difference between a brand and a product.",
+ keyWords:["brand","brand management","brand vs product","brand equity"],
+ sections:[
+  {art:"identity",h:"The Multi-Billion Dollar Asset That Never Existed on a Balance Sheet",p:[
+    "In 1985, The Coca-Cola Company made the most infamous product decision in corporate history. Facing intense market pressure from Pepsi, CEO Roberto Goizueta authorised changing the secret formula of the world's most popular soft drink. Blind taste tests proved that consumers preferred the sweeter taste of this 'New Coke' over both old Coke and Pepsi. The product itself was objectively superior in scientific lab settings.",
+    "The launch, however, triggered a massive emotional backlash across America. The company's customer support line was flooded with over 400,000 angry phone calls, and consumers held public protests. Goizueta realised a profound truth: his team had managed the product, but had completely failed to manage the brand. Coca-Cola wasn't just a sweet, carbonated beverage — it was an identity tied to childhood memories, freedom, and nostalgia. The physical product was carbonated water, syrup and caffeine; the brand asset was nostalgia, trust, identity and world-class reliability.",
+    "Goizueta retracted New Coke after just 79 days, returning the original formula as 'Coke Classic'. Sales surged immediately to record highs. A few years later, Goizueta stated that if all the company's factories, bottling lines and trucks burned to the ground overnight, the company could walk into any bank and secure a multi-billion-dollar loan instantly, based purely on the value of the Coca-Cola brand name."],
+   ex:{t:"Conclusion",b:["A brand is much more than a logo or a functional item; it is the total emotional promise an organisation makes to its audience.","Brand management is the active stewardship of that promise, ensuring you build long-term, irreplaceable asset value that survives market changes.","A superior product still failed because the company managed the product but not the brand."]}},
+  {art:"layers",h:"Key Ideas",p:[
+    "A brand is not a logo, a name or a product — it is the total emotional promise and set of associations that live in a customer's mind. As the New Coke disaster proved, Coca-Cola's real value was nostalgia and identity, not the taste of the liquid. Understanding this distinction is the foundation of everything that follows.",
+    "Brand management is the active, ongoing stewardship of that promise: deliberately shaping how a brand is perceived, protecting its meaning, and building its value over time. Goizueta's team failed not at chemistry but at brand management — they changed the product without protecting what the brand meant to people.",
+    "The importance of branding lies in its power as an asset. A strong brand can command loyalty, premium pricing, and resilience through market changes — Goizueta's point about securing a multi-billion-dollar loan on the brand name alone captures how real and valuable this intangible asset is.",
+    "Successful brands share characteristics: a clear identity, consistency, emotional connection, and trust. The crucial brand-versus-product distinction underpins them all — the product is what you make (and competitors can copy), while the brand is the meaning customers attach to it (which is far harder to replicate). Managing the brand, not just the product, is what creates lasting value."]},
+  {art:"steps",h:"Seeing the Brand Behind the Product",p:[
+    "Pick a product you buy regularly and separate its functional features (the product) from the feelings and associations it carries (the brand).",
+    "Identify one brand you would remain loyal to even if a cheaper, technically similar product appeared, and explain why.",
+    "Reflect on the New Coke story: why did a product that won taste tests still fail so badly in the market?"]}
+ ],
+ activity:"Choose a well-known brand and write a short analysis separating its product from its brand, explaining what emotional promise keeps customers loyal beyond the product's features.",
+ check:[
+  {q:"What lesson did the New Coke disaster teach Coca-Cola?",o:["They had managed the product but failed to manage the brand — its emotional meaning to customers","That the new formula tasted worse in every test","That advertising does not matter","That customers do not care about taste"],a:0},
+  {q:"According to this unit, what is a brand?",o:["The total emotional promise and associations that live in a customer's mind","Only a logo and a name","The physical product itself","A legal trademark document"],a:0},
+  {q:"What is the difference between a brand and a product?",o:["The product is what you make; the brand is the meaning customers attach to it","They are identical","A brand is cheaper than a product","A product lasts longer than a brand"],a:0}
+ ]},
+
+{id:"bm2",n:2,title:"Understanding Brand Identity",mins:60,icon:"Shield",summary:"Brand vision and mission, values, personality, and voice and tone — the deliberate identity that acts as a cultural magnet for an aligned audience.",
+ keyWords:["brand identity","values","brand voice","authenticity"],
+ sections:[
+  {art:"ethics",h:"The Outdoor Brand That Told Customers \"Don't Buy This Jacket\"",p:[
+    "By 2011, the outdoor apparel market was crowded with brands shouting for consumer attention using aggressive sales pitches and heavy discounts. In the middle of the frantic Black Friday shopping rush, outdoor clothing company Patagonia took a radical risk. They bought a full-page advertisement in a major newspaper featuring a large picture of their top-selling fleece jacket with a bold headline that read: 'Don't Buy This Jacket.'",
+    "The ad detailed the exact environmental cost of manufacturing the jacket — the thousands of litres of water required and the carbon footprint produced — and urged consumers to reduce, repair, and reuse what they already owned instead of mindlessly buying more. Any traditional product manager would view this as corporate suicide, but founder Yvon Chouinard was executing a deep brand identity strategy.",
+    "The vision and values of Patagonia were entirely rooted in environmental preservation. They built a unique brand identity using a voice and tone of radical transparency. Instead of destroying their revenue, the campaign drew millions of loyal, eco-conscious customers who shared those exact values. Patagonia's sales surged by 30% the following year, proving that a rock-solid brand identity acts like a cultural magnet."],
+   ex:{t:"Conclusion",b:["An authentic brand identity requires identifying your core values, long-term vision, and distinct brand voice.","Defining what your brand stands for builds a unique personality that sets you apart and attracts an aligned, loyal audience.","Telling customers not to buy actually grew sales, because it perfectly expressed the brand's values."]}},
+  {art:"mark",h:"Key Ideas",p:[
+    "Brand vision and mission define where a brand is going and why it exists. Patagonia's vision was environmental preservation, and every decision — even telling people not to buy — flowed from it. A clear vision and mission give a brand a compass that guides bold, consistent choices.",
+    "Brand values are the core beliefs a brand genuinely holds and lives by. Patagonia's environmental values weren't a marketing slogan; they were real enough to justify an ad discouraging consumption. Values only build identity when they are authentic — customers quickly detect and reject values a brand merely claims but doesn't practise.",
+    "Brand personality is the human character a brand projects — bold, caring, playful, serious — and brand voice and tone are how that personality shows up in words. Patagonia's voice of radical transparency was distinctive and unmistakable, which is exactly what made the campaign work.",
+    "Building a unique brand identity means combining vision, values, personality and voice into a coherent whole that stands apart from competitors. A strong, authentic identity acts as a cultural magnet: it doesn't try to appeal to everyone, but powerfully attracts the people who share its values, creating deep, lasting loyalty."]},
+  {art:"steps",h:"Defining an Identity",p:[
+    "For a real or imagined brand, write a one-sentence vision, two or three genuine values, and a short description of its personality.",
+    "Describe the brand's voice and tone in a single example sentence, as Patagonia's 'Don't Buy This Jacket' captured its transparency.",
+    "Reflect on the Patagonia story: why did an anti-consumption message strengthen, rather than weaken, the brand?"]}
+ ],
+ activity:"Create a brand identity profile for a business, covering its vision, values, personality and voice, and explain how these would attract an aligned, loyal audience.",
+ check:[
+  {q:"Why did Patagonia's 'Don't Buy This Jacket' campaign succeed?",o:["It authentically expressed the brand's environmental values, attracting aligned, loyal customers","It was a mistake that happened to work","It offered the deepest discount","It copied competitors' aggressive sales pitches"],a:0},
+  {q:"What are brand values?",o:["The core beliefs a brand genuinely holds and lives by","The prices a brand charges","The colours in a logo","A brand's quarterly sales figures"],a:0},
+  {q:"What is brand voice and tone?",o:["How a brand's personality shows up in the words it uses","The volume of its advertisements","The number of products it sells","Its legal trademark"],a:0}
+ ]},
+
+{id:"bm3",n:3,title:"Knowing Your Target Audience",mins:60,icon:"Users",summary:"Understanding customers through market segmentation and customer personas, uncovering their real emotional needs to build empathetic, long-term relationships.",
+ keyWords:["target audience","segmentation","customer personas","customer needs"],
+ sections:[
+  {art:"search",h:"The Global Icon That Discovered the Real Meaning of Beauty",p:[
+    "In the early 2000s, soap and skincare brand Dove was struggling to stand out in a global beauty market dominated by fashion magazines and high-end cosmetics ads. Traditional beauty ads targeted a generic consumer profile, showcasing hyper-edited, super-slim, flawless models. Dove's team realised their marketing was failing to move consumers because they didn't truly understand their customers' emotional needs.",
+    "In 2004, Dove launched a massive global research project, interviewing over 3,000 women across multiple continents. The data revealed a shocking customer insight: only 2% of women surveyed considered themselves beautiful, and the vast majority felt alienated and insecure because of traditional advertising standards.",
+    "Dove used these insights to completely pivot their strategy, launching the Campaign for Real Beauty. They stopped using models and featured real, diverse women of all shapes, ages, and skin tones. They stopped selling soap features and started addressing the deep human need for self-acceptance. Where mass-market blasting had produced only superficial sales and weak trust, deep audience insight and segmentation solved a real emotional need and built elite loyalty. Because Dove met their target audience exactly where they were, sales exploded and the brand grew into a multi-billion-dollar cultural authority."],
+   ex:{t:"Conclusion",b:["Great branding is always customer-centric.","Conducting deep market segmentation and creating clear customer personas lets you identify your audience's core needs and build empathetic, long-term relationships.","Understanding a real emotional need — not just selling features — transformed the brand."]}},
+  {art:"interpret",h:"Key Ideas",p:[
+    "Understanding your customers means going beyond demographics to their real needs, feelings and motivations. Dove's breakthrough came from discovering an emotional truth — widespread insecurity about beauty — that generic advertising had completely missed.",
+    "Market segmentation is the practice of dividing a broad market into distinct groups with shared characteristics or needs, so a brand can speak to each group meaningfully rather than blasting one generic message at everyone. Dove shifted from targeting a single idealised profile to genuinely understanding a diverse real audience.",
+    "Customer personas are detailed, semi-fictional portraits of your key customer types — their goals, frustrations, and needs — built from real research. They turn abstract 'target audiences' into concrete people a brand can design and communicate for. Dove's 3,000-woman study is exactly the kind of research that produces meaningful personas.",
+    "Understanding customer needs and building relationships is the payoff: when a brand addresses what customers actually feel and need (self-acceptance, in Dove's case) rather than just pushing product features, it builds deep, empathetic, long-term loyalty. Customer-centric branding always starts by truly knowing the audience."]},
+  {art:"steps",h:"Getting to Know the Audience",p:[
+    "For a brand you choose, sketch two distinct customer segments and what makes their needs different.",
+    "Write a simple customer persona for one segment: their goals, frustrations, and the deeper need your brand could meet.",
+    "Reflect on Dove's research: why did understanding an emotional need transform the brand more than better product features could have?"]}
+ ],
+ activity:"Build a customer persona for a real or imagined brand based on a real or plausible need, and explain how addressing that need (rather than listing features) would build loyalty.",
+ check:[
+  {q:"What did Dove's global research reveal?",o:["Only 2% of women considered themselves beautiful; most felt alienated by traditional advertising","That models sell more soap","That customers only care about price","That research is a waste of money"],a:0},
+  {q:"What is market segmentation?",o:["Dividing a broad market into distinct groups with shared needs so you can speak to each meaningfully","Selling to everyone with one generic message","A type of legal contract","Lowering prices across the board"],a:0},
+  {q:"What is a customer persona?",o:["A detailed, research-based portrait of a key customer type — their goals, frustrations and needs","A random guess about customers","A competitor's logo","A pricing formula"],a:0}
+ ]},
+
+{id:"bm4",n:4,title:"Brand Positioning",mins:60,icon:"Target",summary:"Defining where your brand sits in the customer's mind relative to competitors, and crafting a unique value proposition that makes price battles irrelevant.",
+ keyWords:["positioning","competitive advantage","unique value proposition","differentiation"],
+ sections:[
+  {art:"command",h:"The Tech Giant That Told the World to \"Think Different\"",p:[
+    "In 1997, Apple was on the verge of total financial bankruptcy. The personal computer market was dominated by IBM and Microsoft, who positioned their products as powerful, high-speed machines built for corporate offices and data tracking. When Steve Jobs returned as interim CEO that year, he realised Apple could never win a direct price or specification battle against those corporate giants.",
+    "Jobs decided to completely reposition Apple in the marketplace. He tossed out the technical manuals and launched the historic 'Think Different' positioning campaign.",
+    "Instead of showing computer hardware features, the ads showcased black-and-white portraits of legendary creative innovators like Albert Einstein, Mahatma Gandhi, and Martin Luther King Jr. The message positioned Apple not as a machine for spreadsheets, but as an essential tool for creative dreamers, rebels, and change-makers. This unique value proposition carved out a distinct competitive advantage, transforming Apple from a dying tech company into the world's most valuable design-driven lifestyle brand."],
+   ex:{t:"Conclusion",b:["Brand positioning defines where your business sits in the mind of the consumer relative to your competitors.","Identifying your unique value proposition lets you stand out clearly in a crowded market, making price battles irrelevant.","Refusing to fight on specifications and repositioning on creativity saved Apple from bankruptcy."]}},
+  {art:"weigh",h:"Key Ideas",p:[
+    "Brand positioning is the distinct place a brand occupies in the customer's mind relative to competitors. Apple couldn't win as 'the most powerful corporate machine' — that space was taken — so it claimed a different position entirely: the brand for creative rebels. Positioning is about choosing a space you can own.",
+    "Identifying your competitive advantage means finding what you can offer that rivals cannot easily match. For Apple, it was design and creative identity rather than raw specifications. A real competitive advantage is the foundation of strong positioning.",
+    "A unique value proposition (UVP) is a clear statement of the distinct value you offer and why customers should choose you over alternatives. 'Think Different' expressed Apple's UVP so powerfully that customers bought into an identity, not a spec sheet.",
+    "Positioning your brand in the market means consistently reinforcing that chosen position across everything you do, so it becomes firmly established in customers' minds. When positioning is strong and distinct, as Apple's became, you compete on meaning and identity rather than price — which is why price battles become irrelevant."]},
+  {art:"steps",h:"Claiming a Position",p:[
+    "Pick a market and identify the position competitors already own, then find a distinct position a new brand could claim instead.",
+    "Write a one-sentence unique value proposition for that brand — what distinct value it offers and why customers should choose it.",
+    "Reflect on Apple in 1997: why was repositioning smarter than trying to beat IBM and Microsoft on specifications and price?"]}
+ ],
+ activity:"Write a positioning statement and unique value proposition for a real or imagined brand, explaining the distinct space it will own in customers' minds and why that avoids a price war.",
+ check:[
+  {q:"Why did Apple reposition itself in 1997 instead of competing on specifications?",o:["It could not win a specs or price battle against corporate giants, so it claimed a distinct position — creativity","It had better hardware than everyone","Positioning is illegal to change","It wanted to leave the computer market"],a:0},
+  {q:"What is a unique value proposition (UVP)?",o:["A clear statement of the distinct value you offer and why customers should choose you","The lowest price in the market","A legal trademark","A list of product features"],a:0},
+  {q:"What does strong brand positioning let you avoid?",o:["Competing mainly on price, because you compete on meaning and identity instead","Ever advertising again","Having any competitors","Making a profit"],a:0}
+ ]},
+
+{id:"bm5",n:5,title:"Visual Branding",mins:60,icon:"Sparkles",summary:"Logos, brand colours, typography and visual style, held together by absolute consistency, so a brand is instantly recognised anywhere in the world.",
+ keyWords:["logo","brand colours","visual consistency","recognition"],
+ sections:[
+  {art:"build",h:"The Red Ribbon That Standardized the Global Drink Industry",p:[
+    "In 1886, Frank Mason Robinson, the bookkeeper for the inventor of Coca-Cola, suggested the name for the new drink and carefully wrote it out in a distinct, flowing font style known as Spencerian script. Over the following decades the soft drink grew into a massive global success. By the 1960s and 1970s, as global printing and colour media expanded, the brand team faced a severe challenge: how do we ensure a consumer walking into a shop in Tokyo sees the exact same red-and-white script identity as a shopper in New York?",
+    "The company didn't rely on casual print layouts. They introduced the Arden Square design layout, pairing the Spencerian script with a distinct white wave ribbon flowing beneath it.",
+    "They created strict brand consistency guidelines governing everything from vending machines to billboards worldwide. The system had three pillars: the logo (the flowing Spencerian script), the brand colours (a locked, precise brand red against clean white contrast), and brand consistency (an identical asset rollout across every global touchpoint). They locked in a highly precise shade of red so that, no matter the location, the visual cues remained instantly recognisable from fifty metres away. This unyielding dedication to visual style, logo rules, typography and colour matching turned a simple script logo into the most universally recognised trademark on earth."],
+   ex:{t:"Conclusion",b:["Visual branding is the physical wrapper of your brand promise.","Maintaining absolute consistency across your logos, brand colours, and typography ensures immediate consumer recognition and professional credibility globally.","Locking down precise visual rules made one script logo recognisable worldwide from fifty metres."]}},
+  {art:"mark",h:"Key Ideas",p:[
+    "Logo basics: a logo is the central visual mark of a brand, and its power grows through consistent, disciplined use. Coca-Cola's Spencerian script became iconic not because it changed with fashion, but because it stayed remarkably consistent for over a century.",
+    "Brand colours are a fixed, precise palette a brand uses everywhere. Coca-Cola's locking-in of an exact shade of red is the perfect example: precise colour specification (as covered in colour-theory units) ensures the brand looks identical whether printed in Tokyo or New York.",
+    "Typography and visual style — the fonts, imagery and overall look — must also be defined and applied consistently. Together with the logo and colours, they form a recognisable visual system that customers can identify instantly, even at a distance or a glance.",
+    "Brand consistency is the thread that ties it all together and the single most important principle of visual branding. Strict guidelines governing how every visual element appears across every touchpoint — packaging, signage, vending machines, ads — are what turn a good design into an instantly recognisable global identity. Without consistency, even a beautiful logo fails to build recognition."]},
+  {art:"steps",h:"Building Visual Consistency",p:[
+    "For a brand, define its three visual pillars: a logo approach, a precise colour or two, and a typography style.",
+    "Write two consistency rules that would keep the brand recognisable across very different touchpoints (a sign, a phone screen, packaging).",
+    "Reflect on Coca-Cola: why was locking a precise shade of red so important to global recognition?"]}
+ ],
+ activity:"Create a mini visual identity for a brand — logo concept, exact colours, typography style — plus a short set of consistency rules, and explain how they ensure recognition anywhere.",
+ check:[
+  {q:"What made Coca-Cola's visual identity recognisable worldwide?",o:["Strict consistency — a locked script logo, a precise red, and identical rollout across every touchpoint","Frequently changing the logo to stay fresh","Using a different colour in each country","Avoiding any written guidelines"],a:0},
+  {q:"Why did Coca-Cola lock in a precise shade of red?",o:["So the brand looked identical everywhere, staying instantly recognisable","Because red is the cheapest ink","It was legally required","To match competitors"],a:0},
+  {q:"What is the single most important principle of visual branding?",o:["Consistency across every visual element and touchpoint","Using as many colours as possible","Changing the design often","Keeping the logo secret"],a:0}
+ ]},
+
+{id:"bm6",n:6,title:"Brand Communication",mins:60,icon:"PenLine",summary:"Brand messaging and storytelling that connect emotionally, build trust, and manage expectations — because people remember stories, not specifications.",
+ keyWords:["messaging","storytelling","emotional connection","trust"],
+ sections:[
+  {art:"talk",h:"The 30-Second Story That Saved a Sneaker Brand from Bankruptcy",p:[
+    "In 1987, Nike was facing a severe financial slump, losing its top position in the sports market to competitors like Reebok, who had captured the casual fitness and aerobics boom. Nike's traditional messaging was highly technical, focused exclusively on elite marathon runners and pro athletes. The average consumer viewed Nike sneakers as intense, intimidating gear meant only for Olympic-level champions, cutting off connection with everyday fitness enthusiasts.",
+    "In 1988, Nike launched a revolutionary brand communication strategy, introducing the slogan 'Just Do It.'",
+    "The premier television commercial showcased an 80-year-old local runner, Walt Stack, jogging across the Golden Gate Bridge in the morning chill. He didn't talk about shoe soles or foam technology; he shared a quick story about running seventeen miles every day. The strategy shifted from bragging about shoe features to telling inspiring stories about human determination. The messaging invited everyone — regardless of age, gender, or athletic level — to participate in the brand promise, driving Nike's sales up by $1.2 billion in just four years."],
+   ex:{t:"Conclusion",b:["Effective brand communication relies on human storytelling, not dry product data.","Crafting a clear, compelling brand message lets you connect with your audience emotionally, building deep trust and long-term loyalty.","Telling a human story instead of listing shoe features added $1.2 billion in sales."]}},
+  {art:"read",h:"Key Ideas",p:[
+    "Brand messaging is the set of core ideas and language a brand consistently communicates. Nike's shift from technical specs to 'Just Do It' shows how a simple, resonant message can transform a brand's connection with its audience.",
+    "Storytelling for brands is the most powerful communication tool because people remember and feel stories, not specifications. The 80-year-old runner story worked because it made determination relatable and inviting, where feature-lists had made Nike intimidating.",
+    "Effective communication strategies mean matching the message to the audience and inviting them in rather than talking down to them. Nike's genius was making the brand promise open to everyone, not just elite athletes — widening the audience dramatically.",
+    "Building trust through communication and managing customer expectations are the long-term payoff. Consistent, honest, emotionally resonant messaging builds trust over time, while clearly setting and meeting expectations keeps that trust intact. Communication that connects on a human level, not a technical one, is what turns audiences into loyal communities."]},
+  {art:"steps",h:"Communicating with Story",p:[
+    "Take a product and write two versions of its message: one that lists features, and one that tells a short human story.",
+    "Describe the audience you would invite in with your story, and how you would make the brand promise feel open to them.",
+    "Reflect on 'Just Do It': why did a story about an ordinary 80-year-old runner outperform technical shoe messaging?"]}
+ ],
+ activity:"Craft a short brand message and a brief story for a product, and explain how the story connects emotionally and invites a wider audience than a feature list would.",
+ check:[
+  {q:"What shift did Nike make with 'Just Do It'?",o:["From technical feature-bragging to inspiring human storytelling that invited everyone in","From storytelling to listing specifications","From cheap to expensive shoes","From sport to fashion only"],a:0},
+  {q:"Why is storytelling so powerful in brand communication?",o:["People remember and feel stories, not dry specifications","Stories are cheaper to produce","Stories avoid mentioning the product","Storytelling is legally required"],a:0},
+  {q:"What did Nike's messaging do for its audience?",o:["Invited everyone, regardless of age or ability, to participate in the brand promise","Restricted the brand to elite athletes","Focused only on foam technology","Removed all emotion"],a:0}
+ ]},
+
+{id:"bm7",n:7,title:"Digital Branding",mins:60,icon:"Video",summary:"Maintaining a consistent, responsive presence across social media, website and email, and managing online reputation to seize real-time cultural moments.",
+ keyWords:["digital presence","social media","real-time marketing","online reputation"],
+ sections:[
+  {art:"global",h:"The Quick Post That Won the Super Bowl Without Paying for an Ad",p:[
+    "During the 2013 Super Bowl, a massive power outage suddenly struck the stadium, plunging the arena into darkness for thirty long minutes. While other major corporate brands panicked, wondering how to rescue their multi-million-dollar live television ads, the digital branding team at Oreo cookies jumped into action. They were sitting together in a live 'social media command centre' packed with designers and copywriters.",
+    "Within ten minutes of the blackout, Oreo published a simple graphic on their official social media account. The image featured a single cookie illuminated in the dark, with a punchy caption reading: 'You can still dunk in the dark.'",
+    "The post went completely viral, racking up thousands of shares and millions of impressions in a few hours, completely overshadowing the expensive stadium commercials. Where a traditional corporate routine would have needed weeks of legal edits and missed the moment entirely, Oreo's agile command centre produced a live, on-brand post in real time. They didn't win by luck; they won because they had a consistent digital presence, an agile team structure, and a reputation strategy that let them jump onto pop-culture events instantly while keeping their distinct brand tone."],
+   ex:{t:"Conclusion",b:["Digital branding requires maintaining a consistent, highly responsive visual presence across your website, social media, and emails.","Managing your online reputation in real time lets your organisation build maximum modern relevance and authority.","An agile team turned a thirty-minute blackout into a viral win that outshone paid ads."]}},
+  {art:"control",h:"Key Ideas",p:[
+    "Branding on social media, the website, and email must all express one consistent identity — the same voice, look and values across every digital channel. Oreo's blackout post worked because it stayed perfectly on-brand even while moving fast.",
+    "A consistent digital presence means customers encounter the same brand whether they see a tweet, visit the website, or open an email. Consistency across channels builds recognition and trust exactly as it does in visual branding.",
+    "Real-time responsiveness is a distinctive power of digital branding. The Oreo team's agile structure let them seize a live cultural moment in ten minutes — something impossible for brands buried in slow approval processes. Being able to respond quickly and appropriately to events is a major modern advantage.",
+    "Online reputation management is the ongoing work of monitoring and shaping how a brand is perceived online — engaging positively, responding to feedback, and staying alert to opportunities and threats. Combined with a consistent presence and agile responsiveness, it lets a brand build authority and relevance in a fast-moving digital culture."]},
+  {art:"steps",h:"Building a Digital Presence",p:[
+    "For a brand, describe how its voice and look would stay consistent across a social post, its website, and an email.",
+    "Imagine a sudden relevant cultural moment and draft a short, on-brand real-time response, as Oreo did.",
+    "Reflect on the Oreo blackout: what team structure and habits let them respond in ten minutes when others could not?"]}
+ ],
+ activity:"Plan a brand's digital presence across social, web and email with a consistent voice, and write one example of an agile, on-brand real-time post for a live moment.",
+ check:[
+  {q:"Why did Oreo's blackout post succeed?",o:["An agile, consistent digital team seized a live moment in real time while staying on-brand","It was a paid television advertisement","It took weeks of legal review","It was pure luck with no preparation"],a:0},
+  {q:"What does a consistent digital presence mean?",o:["Customers meet the same brand voice and look across social, website and email","Using a different identity on each channel","Only ever posting on one platform","Avoiding social media entirely"],a:0},
+  {q:"What is online reputation management?",o:["Ongoing monitoring and shaping of how a brand is perceived online","A one-time advertising purchase","A legal trademark filing","Deleting all customer feedback"],a:0}
+ ]},
+
+{id:"bm8",n:8,title:"Customer Experience and Brand Loyalty",mins:60,icon:"Users",summary:"Engineering surprise-and-delight moments across every touchpoint so customer experience becomes the engine that turns buyers into passionate advocates.",
+ keyWords:["customer experience","loyalty","surprise and delight","advocacy"],
+ sections:[
+  {art:"help",h:"The Online Shoe Store That Paid for a Competitor's Pizza",p:[
+    "One night in 2011, the late CEO of online shoe retailer Zappos, Tony Hsieh, was attending a corporate tech conference with a group of major footwear clients. After a long day, the group returned to their hotel late at night, starving, only to discover that room service had closed. Hsieh challenged his clients to test Zappos' legendary customer experience promise by calling their support line to ask for help — even though Zappos did not sell food.",
+    "The client placed the call on speakerphone. The Zappos support agent was confused at first, but instead of hanging up or reciting a cold script, she spent fifteen minutes searching online for local pizza delivery shops still open near the hotel. She ordered and paid for a hot pizza to be delivered straight to their room.",
+    "This legendary interaction was not a random stunt; it was part of a structured brand loyalty strategy. Zappos didn't measure success by short support-call times; they measured it by how deeply they could surprise and delight customers. This commitment to customer experience built such intense trust that over 75% of Zappos' daily orders came from returning, loyal customers, completely eliminating their need for expensive paid advertising."],
+   ex:{t:"Conclusion",b:["Customer experience is the primary engine of brand loyalty.","Moving past basic satisfaction and engineering surprise-and-delight moments across every touchpoint transforms casual buyers into passionate advocates.","Delighting one customer beyond expectation built loyalty that replaced the need for paid advertising."]}},
+  {art:"talk",h:"Key Ideas",p:[
+    "Customer experience (CX) is the sum of every interaction a customer has with a brand — from browsing to buying to support. Zappos understood that CX, not just the product, is what builds loyalty, and it deliberately engineered every touchpoint to exceed expectations.",
+    "Building customer trust and satisfaction is the baseline, but the real power comes from going beyond satisfaction. Zappos measured success by delight, not by efficiency metrics like call time — a deliberate choice that produced legendary moments like the pizza story.",
+    "Brand loyalty strategies turn satisfied customers into repeat buyers and advocates. Zappos' 75%-returning-customer figure shows how powerful loyalty is: loyal customers buy again and again and spread word of mouth, which is far cheaper and more effective than constantly acquiring new customers through ads.",
+    "Handling customer feedback well — listening, responding, and using it to improve — completes the loop. Surprise-and-delight moments, genuine trust, and responsive feedback handling together transform casual buyers into passionate advocates who market the brand for free."]},
+  {art:"steps",h:"Designing for Delight",p:[
+    "Map the key touchpoints of a customer's journey with a brand and identify where you could exceed expectations, not just meet them.",
+    "Describe one 'surprise-and-delight' moment you could engineer that would turn a customer into an advocate.",
+    "Reflect on the Zappos pizza story: why did measuring delight instead of call time build such strong loyalty?"]}
+ ],
+ activity:"Design a customer experience plan for a brand that includes at least one surprise-and-delight moment, and explain how it would turn buyers into loyal advocates.",
+ check:[
+  {q:"How did Zappos measure customer support success?",o:["By how deeply they could surprise and delight customers, not by short call times","By how quickly agents ended calls","By how few calls they received","By how much they upsold"],a:0},
+  {q:"What is customer experience (CX)?",o:["The sum of every interaction a customer has with a brand","Only the moment of purchase","The product's price","A legal agreement"],a:0},
+  {q:"Why is brand loyalty so valuable?",o:["Loyal customers buy repeatedly and spread word of mouth, reducing the need for paid ads","Loyal customers pay more tax","It removes the need for a product","It is required by law"],a:0}
+ ]},
+
+{id:"bm9",n:9,title:"Brand Marketing Basics",mins:60,icon:"Target",summary:"Balancing traditional and digital marketing, content marketing and influencer activations to maximise organic word-of-mouth through high-value storytelling.",
+ keyWords:["marketing","content marketing","word of mouth","experiential"],
+ sections:[
+  {art:"global",h:"The Red Can That Jumped from the Edge of Space",p:[
+    "In 2012, millions of people worldwide sat glued to their screens to watch a live digital stream titled Red Bull Stratos. They watched as Austrian daredevil Felix Baumgartner climbed into a specialised capsule, ascended to the edge of space using a giant helium balloon, and stepped out into the void, free-falling faster than the speed of sound. The Red Bull logo was prominently displayed on his suit and capsule.",
+    "Traditional beverage brands spent millions on standard marketing — prime-time television ads or basic billboards showing product cans. Red Bull chose a completely different path, built entirely on experiential content marketing.",
+    "They didn't tell viewers to buy an energy drink; they produced a jaw-dropping global sports media event that embodied their core brand promise: 'Red Bull gives you wings.' Where a traditional ad flow of 'buy our sweet drink today' met high consumer resistance, the experiential event generated massive word of mouth. The broadcast was picked up by news stations worldwide, generating over $500 million in earned word-of-mouth marketing and cementing Red Bull's position as a dominant global media authority."],
+   ex:{t:"Conclusion",b:["Brand marketing basics require balancing traditional media channels with modern digital content marketing.","Shifting from aggressive sales pitches to high-value storytelling and influencer activations lets you maximise word-of-mouth marketing organically.","An experience worth talking about generated $500 million in earned marketing without a single 'buy now' pitch."]}},
+  {art:"chart",h:"Key Ideas",p:[
+    "Marketing is how a brand reaches and persuades its audience. Traditional marketing (TV, print, billboards) and digital marketing (social, online content, search) each have strengths; the modern approach balances both rather than relying on one. Red Bull famously leaned into content over conventional ads.",
+    "Content marketing means creating genuinely valuable or entertaining content — like the Stratos event — that draws people in, rather than interrupting them with sales pitches. High-value content earns attention and word of mouth in a way a 'buy now' message cannot.",
+    "Social media marketing and influencer marketing extend this by meeting audiences where they already are and leveraging trusted voices to spread a message authentically. These channels amplify content and multiply reach, especially when the content is remarkable.",
+    "The underlying principle is word-of-mouth: when a brand creates something worth talking about, people spread it for free, which is far more powerful and credible than paid advertising. Red Bull's $500 million in earned coverage from one event is the ultimate proof that high-value storytelling beats aggressive selling."]},
+  {art:"steps",h:"Marketing Through Value",p:[
+    "For a brand, contrast a traditional 'buy now' ad with a piece of high-value content that would earn attention instead.",
+    "Describe how you might use social media or an influencer to amplify that content authentically.",
+    "Reflect on Red Bull Stratos: why did an expensive event with no sales pitch generate more value than conventional ads?"]}
+ ],
+ activity:"Plan a content-marketing idea for a brand that people would want to share, and explain how it would generate organic word of mouth rather than resistance.",
+ check:[
+  {q:"How did Red Bull Stratos market the brand?",o:["Through an experiential content event that embodied the brand promise, earning huge word of mouth","With a standard billboard of a product can","By listing the drink's ingredients","By cutting prices"],a:0},
+  {q:"What is content marketing?",o:["Creating valuable or entertaining content that draws people in, rather than interrupting with sales pitches","Buying as many ads as possible","Only sending emails","A legal trademark process"],a:0},
+  {q:"Why is word-of-mouth so powerful?",o:["People spread remarkable content for free, and it is more credible than paid advertising","It is required by law","It costs more than advertising","It only reaches one person at a time"],a:0}
+ ]},
+
+{id:"bm10",n:10,title:"Protecting Your Brand",mins:60,icon:"Shield",summary:"Guarding brand reputation through crisis management, sentiment tracking, trademark awareness and ethics to defend brand equity against malicious publicity.",
+ keyWords:["reputation","crisis management","trademark","brand ethics"],
+ sections:[
+  {art:"law",h:"The Fast-Food Giant That Defeated a Viral Insect Hoax",p:[
+    "In 2014, fast-food giant McDonald's faced a severe reputation crisis. A viral online hoax, accompanied by graphic, doctored images, was spreading across social media claiming that the company used processed worm meat as a cheap filler in their burgers. Millions of consumers shared the post, causing a sudden, sharp drop in restaurant foot traffic and threatening decades of brand equity and customer trust.",
+    "Instead of hiding or ignoring the noise, McDonald's deployed a bold brand protection protocol called 'Our Food. Your Questions.'",
+    "They used digital reputation-management tools to track the negative publicity in real time. They opened up their real manufacturing facilities to independent video crews, publishing transparent content that dismantled the hoax with hard scientific evidence. Simultaneously, their compliance teams used trademark awareness and intellectual property laws to take down malicious, fraudulent media sites. By confronting the challenge with radical transparency, they protected their global reputation and won back consumer trust."],
+   ex:{t:"Conclusion",b:["Protecting your brand requires constant vigilance over your public reputation.","Setting up crisis-management procedures, tracking online sentiment, and understanding trademark laws lets you defend your brand equity against malicious publicity.","Radical transparency and legal action defeated a viral hoax that threatened decades of trust."]}},
+  {art:"control",h:"Key Ideas",p:[
+    "Brand reputation is the accumulated public perception of a brand — fragile, valuable, and worth actively defending. McDonald's faced a threat that could have destroyed decades of equity overnight, which is why reputation protection is a core brand-management discipline.",
+    "Managing negative publicity means responding to threats decisively rather than hiding. McDonald's chose radical transparency — opening its facilities and presenting hard evidence — which was far more effective than silence or denial. Tracking online sentiment in real time let them respond before the damage became permanent.",
+    "Intellectual property basics and trademark awareness give a brand legal tools to protect its identity and act against those who misuse it. McDonald's compliance teams used these laws to take down fraudulent sites spreading the hoax — a reminder that legal protection is part of brand defence.",
+    "Brand ethics underpin all of this: a brand that genuinely operates with integrity has the truth on its side when attacked, and can defend itself with transparency. Constant vigilance, prepared crisis procedures, sentiment tracking, legal awareness and genuine ethics together form a brand's shield against reputational harm."]},
+  {art:"steps",h:"Defending the Brand",p:[
+    "Imagine a false rumour about a brand and outline a transparent crisis response, as McDonald's did with evidence and openness.",
+    "Describe how tracking online sentiment early would help you respond before damage spreads.",
+    "Reflect on the McDonald's case: why did transparency and evidence work better than staying silent?"]}
+ ],
+ activity:"Draft a short brand-protection plan covering how you would monitor reputation, respond to a crisis transparently, and use trademark awareness to defend the brand.",
+ check:[
+  {q:"How did McDonald's defeat the viral hoax?",o:["Radical transparency — opening facilities and showing evidence — plus legal takedowns of fraudulent sites","By ignoring it completely","By lowering burger prices","By deleting their social media"],a:0},
+  {q:"What does managing negative publicity require?",o:["Responding decisively and transparently rather than hiding, while tracking sentiment in real time","Always staying silent","Denying everything without evidence","Suing every customer"],a:0},
+  {q:"How does trademark awareness help protect a brand?",o:["It provides legal tools to act against those who misuse the brand's identity","It sets the product's price","It designs the logo","It replaces the need for ethics"],a:0}
+ ]},
+
+{id:"bm11",n:11,title:"Measuring Brand Performance",mins:60,icon:"ClipboardCheck",summary:"Tracking brand awareness, engagement, perception and retention through key indicators, so brand decisions are driven by data rather than guesswork.",
+ keyWords:["KPIs","brand awareness","customer retention","brand perception"],
+ sections:[
+  {art:"measure",h:"The Data Framework That Rescued a Sinking Toy Empire",p:[
+    "By 2004, The LEGO Group was on the verge of complete financial ruin, drowning in over $800 million of debt. The company had lost its way, diversifying randomly into clothing lines, video games, and theme parks, completely diluting its core value. Any traditional manager would focus only on direct sales data, but new CEO Jørgen Vig Knudstorp realised they needed to measure their core brand performance indicators.",
+    "Knudstorp launched a comprehensive data-tracking framework to evaluate customer perception, customer retention, and brand awareness across their global fan communities.",
+    "They monitored how deeply children engaged with the bricks, tracking repeat-purchase loops. The research revealed a powerful truth: while the random side-businesses were bleeding cash, core brand awareness for the classic building block remained intensely high among parents. Knudstorp cut the un-optimised side-projects and focused resources exclusively on the core building-block experience. This data-driven strategy turned LEGO into the world's most profitable toy brand, proving that tracking performance metrics is essential for long-term growth."],
+   ex:{t:"Conclusion",b:["Managing a brand successfully requires tracking key performance indicators.","Regularly measuring brand awareness, customer retention loops, and consumer perception removes guesswork, letting you optimise for real profit.","Measuring the right brand indicators revealed which business to cut and which to save."]}},
+  {art:"chart",h:"Key Ideas",p:[
+    "Brand performance indicators (KPIs) are measurable signals of how a brand is doing beyond raw sales. LEGO's turnaround came from measuring perception, retention and awareness — the deeper health signals that plain sales figures had hidden.",
+    "Brand awareness measures how well people know and recognise a brand. LEGO discovered its core building-block awareness was still strong even as the company struggled, which told them exactly where their real value lay.",
+    "Customer engagement and brand perception measure how deeply people interact with and how they feel about a brand. LEGO tracked how children actually engaged with the bricks, revealing genuine strength in the core product that side-businesses lacked.",
+    "Customer retention — how many customers return and repeat-purchase — is one of the most important indicators, because keeping existing customers is far more valuable than constantly finding new ones. Together, these KPIs replace guesswork with evidence, letting a brand focus resources where they truly create value, exactly as Knudstorp did when he cut the distractions and doubled down on the core."]},
+  {art:"steps",h:"Measuring What Matters",p:[
+    "For a brand, list which indicators you would track — awareness, engagement, perception, retention — and what each would tell you.",
+    "Describe a decision you could make more confidently with data than with guesswork, as LEGO did when cutting side-businesses.",
+    "Reflect on LEGO: why did measuring brand indicators, not just sales, reveal the path back to profit?"]}
+ ],
+ activity:"Choose a brand and design a simple performance dashboard listing the key indicators you would track and how each would guide a real decision.",
+ check:[
+  {q:"What did LEGO's data framework reveal?",o:["Core building-block awareness stayed strong while random side-businesses bled cash","That LEGO should diversify further","That data is useless","That sales figures alone tell the whole story"],a:0},
+  {q:"What is customer retention, and why does it matter?",o:["How many customers return and repeat-purchase — keeping them is more valuable than always finding new ones","The number of new customers only","The price of a product","A legal metric"],a:0},
+  {q:"Why track brand KPIs instead of relying on guesswork?",o:["They provide evidence to focus resources where they truly create value","They are legally required","They replace the need for a product","They always lower costs"],a:0}
+ ]},
+
+{id:"bm12",n:12,title:"Building a Personal Brand",mins:60,icon:"Users",summary:"Crafting a professional image and visible presence on platforms like LinkedIn to expand your network, attract opportunities and boost business value.",
+ keyWords:["personal brand","professional image","LinkedIn","visibility"],
+ sections:[
+  {art:"achieve",h:"The Executive Who Turned His Profile into a Corporate Launchpad",p:[
+    "In 2012, LinkedIn launched its exclusive 'Influencer' publishing programme, inviting top global business figures to share thought leadership directly on its professional feed. While many old-school billionaires hid behind corporate PR departments or treated social media as a risky waste of time, Virgin Group founder Richard Branson chose a completely different approach to visibility. He realised that in the modern digital economy, a leader's personal brand is intimately linked to their business's commercial success.",
+    "Branson personally curated his professional image online, sharing raw reflections on business failure, personal adventure logs, and leadership tips. He didn't hide behind a desk; he displayed a vibrant, bold professional image that mirrored Virgin's corporate identity.",
+    "His profile quickly became the most-followed page on the entire platform, pulling in millions of active professionals. Where an old-school leader hiding behind corporate PR remained invisible and low-trust, Branson's active authority produced global visibility and influence. When Virgin launched new divisions — like space travel or cruises — Branson didn't need to buy multi-million-dollar ads; he simply posted a summary to his massive, engaged personal-brand network, generating immediate global news coverage for free."],
+   ex:{t:"Conclusion",b:["Personal branding is a powerful tool for modern professional influence.","Carefully crafting your professional image on platforms like LinkedIn lets you expand your network, attract premium opportunities, and boost your business's market value.","A strong personal brand let a leader launch entire businesses with a single post instead of paid ads."]}},
+  {art:"culture",h:"Key Ideas",p:[
+    "Personal branding matters because, increasingly, people trust and follow individuals more than faceless corporations. Branson understood that his personal brand and Virgin's commercial success were intimately linked — a lesson that applies to professionals at every level, not just billionaires.",
+    "Defining your personal brand means deciding what you want to be known for — your expertise, values and personality — and presenting it consistently. Branson's brand was bold, adventurous and honest, mirroring Virgin itself, which made it authentic and memorable.",
+    "Professional image and a strong LinkedIn and social media presence are the practical tools. Branson curated his image deliberately and shared valuable, genuine content rather than hiding behind PR. A well-crafted professional presence turns a profile into a platform.",
+    "Networking and visibility are the payoff: a strong personal brand expands your network, attracts opportunities, and gives you influence you can activate at will — as Branson did when he launched new ventures to his engaged following for free. For any modern professional, deliberately building a personal brand is a direct investment in career and business growth."]},
+  {art:"steps",h:"Building Your Personal Brand",p:[
+    "Decide what you want to be known for professionally — your expertise, values and personality — in one or two sentences.",
+    "Describe how you would present that consistently on a platform like LinkedIn through the content you share.",
+    "Reflect on Branson's approach: why did visible, authentic thought leadership outperform hiding behind corporate PR?"]}
+ ],
+ activity:"Draft your own personal-brand statement and a short plan for building visibility on a professional platform, explaining how it could attract opportunities.",
+ check:[
+  {q:"Why did Richard Branson build a strong personal brand online?",o:["A leader's personal brand is linked to business success, giving him free reach to launch ventures","To waste time on social media","Because PR departments required it","To hide from the public"],a:0},
+  {q:"What does defining your personal brand involve?",o:["Deciding what you want to be known for — expertise, values, personality — and presenting it consistently","Copying someone else's identity","Hiding your real interests","Only choosing a profile photo"],a:0},
+  {q:"What is the payoff of a strong personal brand?",o:["An expanded network, attracted opportunities, and influence you can activate","Guaranteed wealth with no effort","Freedom from ever working","A legal trademark"],a:0}
+ ]},
+
+{id:"bm13",n:13,title:"Brand Management Across Different Industries",mins:60,icon:"Lightbulb",summary:"Tailoring brand hooks to each sector — business, education, NGOs, faith-based organisations and healthcare — because branding is never one-size-fits-all.",
+ keyWords:["industry branding","sector-specific","trust","tailoring"],
+ sections:[
+  {art:"help",h:"The Hospital Brand That Positioned Itself around a Four-Word Promise",p:[
+    "In 2006, the Cleveland Clinic was recognised as a highly advanced medical research centre, but its brand image was cold, academic, and intimidating. Patients viewed the facility as a sterile place of surgeries rather than a sanctuary of care. CEO Dr. Toby Cosgrove realised that brand management inside healthcare requires a completely different emotional hook from selling sodas or clothing — it requires managing human vulnerability.",
+    "Cosgrove realigned the entire hospital group around a simple, four-word brand promise: 'Patients First.'",
+    "He didn't just print the slogan on posters; he transformed every operational touchpoint. He mandated that every single employee — from world-class neurosurgeons to the evening cleaning staff — undergo intensive training to view themselves as active caregivers. They launched empathy-based communication channels, built quiet healing environments, and measured patient experience data as their primary metric of success. This industry-specific pivot turned Cleveland Clinic into a trusted household name, demonstrating that brand-management parameters must be custom-tailored to your specific sector."],
+   ex:{t:"Conclusion",b:["Brand management is not a one-size-fits-all discipline.","Whether you lead a commercial startup, an educational school, a local church, or an environmental NGO, you must tailor your brand hooks to the specific trust requirements of your sector.","A healthcare brand had to manage human vulnerability, not sell features — an entirely different emotional hook."]}},
+  {art:"roles",h:"Key Ideas",p:[
+    "Brand management principles are universal, but how they apply changes dramatically by industry. Cleveland Clinic proved that a hospital cannot brand itself like a soft drink; each sector has its own emotional core and trust requirements.",
+    "Business brands typically compete on value, differentiation and desire. Educational institutions build trust around outcomes, credibility and belonging. NGOs brand around mission, impact and transparency. Faith-based organisations centre on community, values and belonging. Healthcare, as the story shows, must manage vulnerability, safety and human care above all.",
+    "The common thread is that you must identify the specific trust requirement of your sector and build your brand hooks around it. Cleveland Clinic's 'Patients First' worked because it spoke directly to what patients most needed to trust — that they, as vulnerable people, came before everything else.",
+    "Tailoring a brand also means aligning every operational touchpoint with the promise, not just the messaging. Cosgrove trained every employee, redesigned environments, and measured patient experience — proving that sector-appropriate branding lives in operations and culture, not just slogans."]},
+  {art:"steps",h:"Tailoring by Sector",p:[
+    "Pick two different sectors (say, a school and an NGO) and describe the specific trust requirement each brand must satisfy.",
+    "Write a short brand promise for one sector that speaks directly to its emotional core, as 'Patients First' did for healthcare.",
+    "Reflect on Cleveland Clinic: why couldn't a hospital brand itself the same way a soft-drink company does?"]}
+ ],
+ activity:"Choose an industry (education, NGO, faith-based, healthcare or business) and design a sector-appropriate brand promise plus one operational change that would make it real.",
+ check:[
+  {q:"What did Cleveland Clinic's 'Patients First' branding recognise?",o:["Healthcare branding must manage human vulnerability and care, not sell features","That hospitals should advertise like soft drinks","That slogans alone build trust","That patients do not matter to branding"],a:0},
+  {q:"Why is brand management not one-size-fits-all?",o:["Each sector has its own emotional core and trust requirements to build hooks around","Because branding never works","Because every brand should look identical","Because only businesses have brands"],a:0},
+  {q:"How did Cosgrove make 'Patients First' real, beyond a slogan?",o:["He aligned every operational touchpoint — training all staff, redesigning environments, measuring patient experience","He only printed posters","He lowered prices","He changed the logo colour"],a:0}
+ ]},
+
+{id:"bm14",n:14,title:"Brand Management Project",mins:90,icon:"Users",summary:"Binding identity, personas, positioning, visual rules and digital strategy into one cohesive master brand plan — undeniable proof of strategic capability.",
+ keyWords:["capstone","brand plan","portfolio","integration"],
+ sections:[
+  {art:"achieve",h:"The Complete Framework That Won a Brand Director Role",p:[
+    "In 2026, an aspiring marketer wanted to land a premium, high-paying role as a Brand Manager for an international consumer-goods company. The job market was intensely competitive, with thousands of applicants sending standard text CVs filled with generic catchphrases like 'creative thinker'. The graduate knew that top-tier companies don't care about empty claims; they demand hard, verifiable evidence of strategic planning capability.",
+    "The student decided to treat their final academy capstone project as a professional launchpad, building a comprehensive brand management plan for an emerging lifestyle brand.",
+    "They mapped out an authentic brand identity matrix with fixed values and distinct tone parameters; constructed deep customer personas based on strict market segmentation; formulated a sharp brand positioning statement highlighting a unique value proposition; layered in a seamless visual branding kit and a multi-channel communication strategy; and finalised the plan with a structured digital branding and social-media plan plus customer engagement metrics. They packaged this master blueprint into a sleek digital portfolio link and sent it to the hiring directors. While other applicants sent static text sheets, this candidate presented a functional, production-ready brand roadmap — and won the position with a premium global package, proving that a well-executed capstone is the ultimate currency for career growth."],
+   ex:{t:"Conclusion",b:["The Brand Management Project is the ultimate demonstration of your transformation into an expert brand strategist.","Binding identity frameworks, persona sheets, positioning maps, visual rules and digital metrics into one cohesive master plan provides undeniable proof of your capability.","A complete, integrated brand plan beat every generic CV instantly."]}},
+  {art:"culture",h:"Key Ideas",p:[
+    "A brand management project brings together every skill from this course — identity, audience, positioning, visual branding, communication, digital presence, loyalty, marketing, protection and measurement — into one coherent plan for a single brand, rather than practising each in isolation.",
+    "The power of the project is integration. The graduate's plan worked because every part reinforced the others: the identity informed the positioning, the personas shaped the communication, the visual kit expressed the identity, and the metrics measured it all. A brand strategy is only as strong as how well its parts fit together.",
+    "Choosing a real, specific brand to plan for — as the graduate did with an emerging lifestyle brand — produces a far stronger project than vague, generic claims. Concrete decisions (exact values, specific personas, a real positioning statement) demonstrate genuine capability in a way that catchphrases never can.",
+    "Presenting the plan clearly and professionally is itself a demonstrated skill. Packaging the work as a polished, navigable blueprint — not a wall of text — is what let the graduate stand out. A well-executed, well-presented brand plan is undeniable proof of readiness to manage real brands, and the ultimate launchpad for a branding career."]},
+  {art:"steps",h:"Planning Your Capstone",p:[
+    "Choose a real or emerging brand and outline the components your plan would combine: identity, personas, positioning, visual kit, communication and digital strategy.",
+    "Describe how you would keep the parts consistent so they reinforce one another rather than conflicting.",
+    "Reflect on the graduate's success: why did an integrated, specific brand plan beat generic CV catchphrases?"]}
+ ],
+ activity:"Write a one-page outline of a complete brand management plan for a chosen brand, listing each component and explaining how they integrate into one cohesive strategy.",
+ check:[
+  {q:"What made the graduate's capstone project win the role?",o:["An integrated, production-ready brand plan that proved real strategic capability, not generic claims","A CV full of catchphrases like 'creative thinker'","The lowest salary request","A single logo design"],a:0},
+  {q:"What is the key strength of a brand management project?",o:["Integration — every component reinforces the others into one coherent strategy","Keeping the parts separate and unrelated","Using only one skill from the course","Avoiding any specific decisions"],a:0},
+  {q:"Why choose a real, specific brand for the project?",o:["Concrete decisions demonstrate genuine capability far better than vague, generic claims","Real brands are easier to ignore","Generic plans always score higher","Specific brands need no strategy"],a:0}
+ ]}
+];
+
+const BM_Q=[
+// Module 1: Introduction to Brand Management (8)
+{ao:"Intro to Branding",q:"What lesson did the New Coke disaster teach Coca-Cola?",o:["They managed the product but failed to manage the brand — its emotional meaning to customers","The new formula tasted worse in every test","That advertising does not matter","That customers do not care about taste"],a:0},
+{ao:"Intro to Branding",q:"According to this unit, what is a brand?",o:["The total emotional promise and associations in a customer's mind","Only a logo and a name","The physical product itself","A legal trademark document"],a:0},
+{ao:"Intro to Branding",q:"What is the difference between a brand and a product?",o:["The product is what you make; the brand is the meaning customers attach to it","They are identical","A brand is cheaper","A product lasts longer than a brand"],a:0},
+{ao:"Intro to Branding",q:"What is brand management?",o:["The active, ongoing stewardship of a brand's promise and perceived value","A one-time logo design","A type of accounting","Setting the factory schedule"],a:0},
+{ao:"Intro to Branding",q:"How did Goizueta describe the value of the Coca-Cola brand?",o:["He could secure a multi-billion-dollar loan on the brand name alone if all factories burned down","It was worth only its ingredients","It had no measurable value","It was worth less than Pepsi's"],a:0},
+{ao:"Intro to Branding",q:"How long did New Coke last before it was retracted?",o:["79 days","Ten years","One day","It was never launched"],a:0},
+{ao:"Intro to Branding",q:"Why did over 400,000 customers call to complain about New Coke?",o:["The brand was tied to nostalgia and identity that the change betrayed","The new can was the wrong colour","The price had doubled","The drink was unavailable"],a:0},
+{ao:"Intro to Branding",q:"What characteristics do successful brands share?",o:["Clear identity, consistency, emotional connection and trust","The lowest prices only","Frequent formula changes","Secret logos"],a:0},
+
+// Module 2: Understanding Brand Identity (7)
+{ao:"Brand Identity",q:"Why did Patagonia's 'Don't Buy This Jacket' campaign succeed?",o:["It authentically expressed the brand's environmental values, attracting aligned customers","It was a mistake that happened to work","It offered the deepest discount","It copied competitors' sales pitches"],a:0},
+{ao:"Brand Identity",q:"What are brand values?",o:["The core beliefs a brand genuinely holds and lives by","The prices a brand charges","The colours in a logo","Quarterly sales figures"],a:0},
+{ao:"Brand Identity",q:"What is brand voice and tone?",o:["How a brand's personality shows up in the words it uses","The volume of its ads","The number of products","Its legal trademark"],a:0},
+{ao:"Brand Identity",q:"What is brand personality?",o:["The human character a brand projects, such as bold, caring or playful","The CEO's personality only","The price range","The factory location"],a:0},
+{ao:"Brand Identity",q:"What happened to Patagonia's sales after the campaign?",o:["They surged by 30% the following year","They collapsed permanently","They stayed exactly the same","The brand went bankrupt"],a:0},
+{ao:"Brand Identity",q:"Why must brand values be authentic?",o:["Customers detect and reject values a brand claims but doesn't practise","Authenticity is legally required","Fake values are cheaper","Values never matter"],a:0},
+{ao:"Brand Identity",q:"What does a strong brand identity act like?",o:["A cultural magnet that attracts people who share its values","A barrier to all customers","A temporary discount","A legal contract"],a:0},
+
+// Module 3: Knowing Your Target Audience (7)
+{ao:"Target Audience",q:"What did Dove's global research reveal?",o:["Only 2% of women considered themselves beautiful; most felt alienated by traditional ads","That models sell more soap","That customers only care about price","That research is a waste"],a:0},
+{ao:"Target Audience",q:"What is market segmentation?",o:["Dividing a broad market into distinct groups with shared needs","Selling to everyone with one message","A legal contract","Lowering all prices"],a:0},
+{ao:"Target Audience",q:"What is a customer persona?",o:["A detailed, research-based portrait of a key customer type","A random guess","A competitor's logo","A pricing formula"],a:0},
+{ao:"Target Audience",q:"How many women did Dove interview for its research?",o:["Over 3,000 across multiple continents","Only ten","None","Exactly one"],a:0},
+{ao:"Target Audience",q:"What did the Campaign for Real Beauty do differently?",o:["Featured real, diverse women and addressed self-acceptance instead of selling soap features","Used even more edited models","Only advertised price cuts","Stopped selling soap entirely"],a:0},
+{ao:"Target Audience",q:"Why is understanding customer needs so important?",o:["Addressing real needs builds empathetic, long-term loyalty far better than pushing features","Needs never change","It lowers manufacturing cost","It is legally required"],a:0},
+{ao:"Target Audience",q:"What does customer-centric branding always start with?",o:["Truly knowing the audience and their real emotional needs","Choosing a logo colour","Setting the highest price","Copying a competitor"],a:0},
+
+// Module 4: Brand Positioning (7)
+{ao:"Positioning",q:"Why did Apple reposition itself in 1997?",o:["It could not win a specs or price battle, so it claimed a distinct position — creativity","It had better hardware than everyone","Positioning is illegal to change","It wanted to quit computers"],a:0},
+{ao:"Positioning",q:"What is a unique value proposition (UVP)?",o:["A clear statement of the distinct value you offer and why customers should choose you","The lowest price","A legal trademark","A list of features"],a:0},
+{ao:"Positioning",q:"What does strong positioning let you avoid?",o:["Competing mainly on price, because you compete on meaning and identity","Ever advertising again","Having competitors","Making a profit"],a:0},
+{ao:"Positioning",q:"What is brand positioning?",o:["The distinct place a brand occupies in the customer's mind relative to competitors","The factory location","The product's weight","The number of employees"],a:0},
+{ao:"Positioning",q:"Who did Apple's 'Think Different' ads feature?",o:["Legendary creative innovators like Einstein, Gandhi and King","Computer specification charts","Apple's engineers","Competitor products"],a:0},
+{ao:"Positioning",q:"What does identifying your competitive advantage mean?",o:["Finding what you offer that rivals cannot easily match","Copying the market leader","Charging the most","Hiding your strengths"],a:0},
+{ao:"Positioning",q:"How do you establish a position in the market?",o:["Consistently reinforcing your chosen position across everything you do","Changing position constantly","Never mentioning it","Only lowering prices"],a:0},
+
+// Module 5: Visual Branding (7)
+{ao:"Visual Branding",q:"What made Coca-Cola's visual identity recognisable worldwide?",o:["Strict consistency — a locked logo, precise red, and identical rollout everywhere","Frequently changing the logo","A different colour per country","No written guidelines"],a:0},
+{ao:"Visual Branding",q:"Why did Coca-Cola lock in a precise shade of red?",o:["So the brand looked identical everywhere and stayed instantly recognisable","Red is the cheapest ink","It was legally required","To match competitors"],a:0},
+{ao:"Visual Branding",q:"What is the single most important principle of visual branding?",o:["Consistency across every visual element and touchpoint","Using many colours","Changing the design often","Keeping the logo secret"],a:0},
+{ao:"Visual Branding",q:"What script style was Coca-Cola's logo written in?",o:["Spencerian script","Modern sans-serif","Bold block capitals","Handwritten pencil"],a:0},
+{ao:"Visual Branding",q:"What are brand colours?",o:["A fixed, precise palette a brand uses everywhere","Random colours chosen each time","Colours only for logos","A legal requirement"],a:0},
+{ao:"Visual Branding",q:"What are the three visual pillars in the Coca-Cola example?",o:["The logo, the brand colours, and brand consistency across touchpoints","Price, taste and packaging","Sales, ads and coupons","Factory, truck and shop"],a:0},
+{ao:"Visual Branding",q:"Why does a beautiful logo fail without consistency?",o:["Without consistent use across touchpoints it never builds recognition","Beautiful logos are always ignored","Consistency lowers quality","Logos should change weekly"],a:0},
+
+// Module 6: Brand Communication (7)
+{ao:"Communication",q:"What shift did Nike make with 'Just Do It'?",o:["From technical feature-bragging to inspiring human storytelling that invited everyone in","From storytelling to specs","From cheap to expensive shoes","From sport to fashion"],a:0},
+{ao:"Communication",q:"Why is storytelling so powerful in brand communication?",o:["People remember and feel stories, not dry specifications","Stories are cheaper","Stories avoid the product","It is legally required"],a:0},
+{ao:"Communication",q:"What did Nike's messaging do for its audience?",o:["Invited everyone, regardless of age or ability, into the brand promise","Restricted it to elite athletes","Focused only on foam","Removed all emotion"],a:0},
+{ao:"Communication",q:"Who featured in Nike's landmark 'Just Do It' commercial?",o:["An 80-year-old runner, Walt Stack, jogging across the Golden Gate Bridge","Only Olympic champions","A team of scientists","No people at all"],a:0},
+{ao:"Communication",q:"What is brand messaging?",o:["The core ideas and language a brand consistently communicates","The price list","A legal filing","The factory output"],a:0},
+{ao:"Communication",q:"How much did 'Just Do It' grow Nike's sales?",o:["By $1.2 billion in four years","By nothing","It cut sales in half","By exactly $100"],a:0},
+{ao:"Communication",q:"What completes the trust loop in brand communication?",o:["Managing customer expectations and consistently meeting them","Never communicating","Overpromising constantly","Ignoring feedback"],a:0},
+
+// Module 7: Digital Branding (7)
+{ao:"Digital Branding",q:"Why did Oreo's blackout post succeed?",o:["An agile, consistent digital team seized a live moment in real time while staying on-brand","It was a paid TV advertisement","It took weeks of legal review","It was pure luck"],a:0},
+{ao:"Digital Branding",q:"What does a consistent digital presence mean?",o:["The same brand voice and look across social, website and email","A different identity per channel","Posting on one platform only","Avoiding social media"],a:0},
+{ao:"Digital Branding",q:"What is online reputation management?",o:["Ongoing monitoring and shaping of how a brand is perceived online","A one-time ad purchase","A trademark filing","Deleting all feedback"],a:0},
+{ao:"Digital Branding",q:"How quickly did Oreo publish its blackout post?",o:["Within about ten minutes","After several weeks","The next year","Never"],a:0},
+{ao:"Digital Branding",q:"What let Oreo respond when other brands could not?",o:["An agile team structure and a live social-media command centre","A bigger advertising budget","A slower approval process","Ignoring the event"],a:0},
+{ao:"Digital Branding",q:"What is a distinctive power of digital branding?",o:["Real-time responsiveness to live cultural moments","Slower production than print","No need for consistency","Avoiding all customers"],a:0},
+{ao:"Digital Branding",q:"What caption did Oreo's viral post use?",o:["'You can still dunk in the dark'","'Buy now or miss out'","'The lights are off'","No caption at all"],a:0},
+
+// Module 8: Customer Experience and Brand Loyalty (7)
+{ao:"CX and Loyalty",q:"How did Zappos measure customer support success?",o:["By how deeply they could surprise and delight, not by short call times","By how quickly agents ended calls","By how few calls came in","By how much they upsold"],a:0},
+{ao:"CX and Loyalty",q:"What is customer experience (CX)?",o:["The sum of every interaction a customer has with a brand","Only the moment of purchase","The product's price","A legal agreement"],a:0},
+{ao:"CX and Loyalty",q:"Why is brand loyalty so valuable?",o:["Loyal customers buy repeatedly and spread word of mouth, reducing ad spend","They pay more tax","It removes the need for a product","It is required by law"],a:0},
+{ao:"CX and Loyalty",q:"What did the Zappos agent do in the pizza story?",o:["Spent fifteen minutes finding and paying for a pizza for a customer, though Zappos sells shoes","Hung up immediately","Recited a cold script","Charged an extra fee"],a:0},
+{ao:"CX and Loyalty",q:"What proportion of Zappos orders came from returning customers?",o:["Over 75%","Under 5%","Exactly half","None"],a:0},
+{ao:"CX and Loyalty",q:"What turns casual buyers into passionate advocates?",o:["Surprise-and-delight moments, genuine trust and responsive feedback handling","The lowest possible price","Ignoring customers","Frequent logo changes"],a:0},
+{ao:"CX and Loyalty",q:"What is the baseline that CX must go beyond?",o:["Basic customer satisfaction","Making any profit","Having a website","Owning a trademark"],a:0},
+
+// Module 9: Brand Marketing Basics (7)
+{ao:"Brand Marketing",q:"How did Red Bull Stratos market the brand?",o:["Through an experiential content event embodying the brand promise, earning huge word of mouth","With a standard billboard of a can","By listing ingredients","By cutting prices"],a:0},
+{ao:"Brand Marketing",q:"What is content marketing?",o:["Creating valuable or entertaining content that draws people in, not interrupting with sales pitches","Buying as many ads as possible","Only sending emails","A trademark process"],a:0},
+{ao:"Brand Marketing",q:"Why is word-of-mouth so powerful?",o:["People spread remarkable content for free, and it is more credible than paid ads","It is required by law","It costs more than advertising","It reaches one person at a time"],a:0},
+{ao:"Brand Marketing",q:"Roughly how much earned marketing did Red Bull Stratos generate?",o:["Over $500 million in word-of-mouth coverage","About $500","Nothing","A small loss"],a:0},
+{ao:"Brand Marketing",q:"What is the modern approach to traditional versus digital marketing?",o:["Balancing both rather than relying on one","Using only television","Avoiding all digital","Only using billboards"],a:0},
+{ao:"Brand Marketing",q:"What does influencer marketing leverage?",o:["Trusted voices to spread a message authentically where audiences already are","Only paid TV slots","Legal trademarks","Factory tours"],a:0},
+{ao:"Brand Marketing",q:"What brand promise did Red Bull Stratos embody?",o:["'Red Bull gives you wings'","'Just do it'","'Think different'","'Patients first'"],a:0},
+
+// Module 10: Protecting Your Brand (7)
+{ao:"Brand Protection",q:"How did McDonald's defeat the viral hoax?",o:["Radical transparency — opening facilities and showing evidence — plus legal takedowns","By ignoring it","By lowering prices","By deleting social media"],a:0},
+{ao:"Brand Protection",q:"What does managing negative publicity require?",o:["Responding decisively and transparently while tracking sentiment in real time","Always staying silent","Denying without evidence","Suing every customer"],a:0},
+{ao:"Brand Protection",q:"How does trademark awareness help protect a brand?",o:["It provides legal tools to act against those who misuse the brand's identity","It sets the price","It designs the logo","It replaces ethics"],a:0},
+{ao:"Brand Protection",q:"What was the McDonald's brand-protection protocol called?",o:["'Our Food. Your Questions.'","'New Coke'","'Just Do It'","'Think Different'"],a:0},
+{ao:"Brand Protection",q:"What is brand reputation?",o:["The accumulated public perception of a brand, fragile and worth defending","The factory's output","The number of stores","A pricing model"],a:0},
+{ao:"Brand Protection",q:"Why did transparency work better than silence for McDonald's?",o:["Hard evidence and openness dismantled the false claim and rebuilt trust","Silence is always illegal","Transparency was cheaper than nothing","Customers ignore evidence"],a:0},
+{ao:"Brand Protection",q:"What underpins a brand's ability to defend itself when attacked?",o:["Genuine ethics — operating with integrity means the truth is on your side","A large advertising budget alone","Deleting negative posts","Never responding"],a:0},
+
+// Module 11: Measuring Brand Performance (7)
+{ao:"Brand Performance",q:"What did LEGO's data framework reveal?",o:["Core building-block awareness stayed strong while random side-businesses bled cash","That LEGO should diversify further","That data is useless","That sales alone tell the whole story"],a:0},
+{ao:"Brand Performance",q:"What is customer retention, and why does it matter?",o:["How many customers return and repeat-purchase — keeping them beats always finding new ones","New customers only","A product's price","A legal metric"],a:0},
+{ao:"Brand Performance",q:"Why track brand KPIs instead of guessing?",o:["They provide evidence to focus resources where they truly create value","They are legally required","They replace the product","They always lower costs"],a:0},
+{ao:"Brand Performance",q:"What is brand awareness?",o:["How well people know and recognise a brand","The factory size","The number of colours in a logo","The CEO's salary"],a:0},
+{ao:"Brand Performance",q:"What action did Knudstorp take based on the data?",o:["He cut the un-optimised side-businesses and focused on the core building block","He diversified into more products","He ignored the findings","He raised prices only"],a:0},
+{ao:"Brand Performance",q:"What do engagement and perception metrics measure?",o:["How deeply people interact with, and how they feel about, a brand","Only raw sales","Factory efficiency","Legal compliance"],a:0},
+{ao:"Brand Performance",q:"Roughly how much debt was LEGO carrying in 2004?",o:["Over $800 million","About $800","No debt","A small profit"],a:0},
+
+// Module 12: Building a Personal Brand (7)
+{ao:"Personal Brand",q:"Why did Richard Branson build a strong personal brand online?",o:["A leader's personal brand is linked to business success, giving free reach to launch ventures","To waste time","Because PR required it","To hide from the public"],a:0},
+{ao:"Personal Brand",q:"What does defining your personal brand involve?",o:["Deciding what you want to be known for and presenting it consistently","Copying someone else","Hiding your interests","Only picking a photo"],a:0},
+{ao:"Personal Brand",q:"What is the payoff of a strong personal brand?",o:["An expanded network, attracted opportunities and influence you can activate","Guaranteed wealth with no effort","Freedom from ever working","A trademark"],a:0},
+{ao:"Personal Brand",q:"What did Branson share to build his profile?",o:["Raw reflections on failure, adventure logs and leadership tips","Only corporate press releases","Nothing personal","Competitor secrets"],a:0},
+{ao:"Personal Brand",q:"How did Branson launch new Virgin divisions cheaply?",o:["By posting to his massive engaged network, generating free global coverage","By buying multi-million-dollar ads","By hiding the launches","By lowering ticket prices"],a:0},
+{ao:"Personal Brand",q:"Why do people increasingly trust individuals over corporations?",o:["A visible, authentic person feels more trustworthy than a faceless company","Corporations are illegal","Individuals are always richer","People dislike all brands"],a:0},
+{ao:"Personal Brand",q:"What platform did Branson dominate with his personal brand?",o:["LinkedIn's Influencer programme","A print newspaper only","Television only","No platform"],a:0},
+
+// Module 13: Brand Management Across Industries (7)
+{ao:"Industry Branding",q:"What did Cleveland Clinic's 'Patients First' branding recognise?",o:["Healthcare branding must manage human vulnerability and care, not sell features","Hospitals should advertise like soft drinks","Slogans alone build trust","Patients do not matter"],a:0},
+{ao:"Industry Branding",q:"Why is brand management not one-size-fits-all?",o:["Each sector has its own emotional core and trust requirements","Branding never works","Every brand should look identical","Only businesses have brands"],a:0},
+{ao:"Industry Branding",q:"How did Cosgrove make 'Patients First' real beyond a slogan?",o:["He trained all staff, redesigned environments and measured patient experience","He only printed posters","He lowered prices","He changed the logo colour"],a:0},
+{ao:"Industry Branding",q:"What do NGOs typically brand around?",o:["Mission, impact and transparency","The lowest price","Aggressive discounts","Celebrity endorsements only"],a:0},
+{ao:"Industry Branding",q:"What must every sector's brand identify?",o:["Its specific trust requirement, and build hooks around it","The cheapest supplier","A single universal slogan","A way to avoid customers"],a:0},
+{ao:"Industry Branding",q:"How did staff at Cleveland Clinic change their self-view?",o:["Every employee, from surgeons to cleaners, trained to see themselves as active caregivers","They ignored patients","They focused only on research","They stopped talking to patients"],a:0},
+{ao:"Industry Branding",q:"Where does sector-appropriate branding actually live?",o:["In operations and culture, not just slogans","Only on posters","Only in the logo","Only in the price"],a:0},
+
+// Module 14: Brand Management Project (8)
+{ao:"Brand Project",q:"What made the graduate's capstone project win the role?",o:["An integrated, production-ready brand plan proving real strategic capability","A CV full of catchphrases","The lowest salary request","A single logo design"],a:0},
+{ao:"Brand Project",q:"What is the key strength of a brand management project?",o:["Integration — every component reinforces the others into one coherent strategy","Keeping parts separate","Using only one skill","Avoiding specific decisions"],a:0},
+{ao:"Brand Project",q:"Why choose a real, specific brand for the project?",o:["Concrete decisions demonstrate genuine capability far better than vague claims","Real brands are easier to ignore","Generic plans score higher","Specific brands need no strategy"],a:0},
+{ao:"Brand Project",q:"Which components did the graduate's plan combine?",o:["Identity matrix, personas, positioning, visual kit, communication and digital strategy","Only a logo and a price","A single email","A list of hobbies"],a:0},
+{ao:"Brand Project",q:"How did the graduate present the plan?",o:["As a sleek, navigable digital portfolio blueprint, not a wall of text","As a plain text CV","As a spoken speech only","They did not present it"],a:0},
+{ao:"Brand Project",q:"What does the project ultimately demonstrate?",o:["Transformation into an expert brand strategist ready to lead real brands","Memorised definitions with no application","That branding is unnecessary","That logos are all that matter"],a:0},
+{ao:"Brand Project",q:"Why did the integrated plan beat other applicants' submissions?",o:["It gave hard, verifiable evidence of planning capability instead of empty claims","It was shorter","It requested less pay","It avoided any strategy"],a:0},
+{ao:"Brand Project",q:"What must stay true across all parts of a brand plan?",o:["Consistency, so the components reinforce rather than conflict with each other","Nothing needs to align","Each part should contradict the others","Only the logo matters"],a:0}
+];
+
+const ABM_UNITS=[
+{id:"abm1",n:1,title:"Strategic Brand Management",mins:65,icon:"Target",summary:"Treating a brand as a long-term corporate asset — protecting brand equity and planning methodically — rather than chasing short-term sales.",
+ keyWords:["brand equity","strategy","competitive advantage","long-term value"],
+ sections:[
+  {art:"command",h:"The Multi-Billion Dollar Engine Hidden in Plain Sight",p:[
+    "By 2023, athletic apparel giant Under Armour was facing severe strategic stagnation. For years the company had focused purely on short-term product sales, flooding retail discount racks to clear excess stock. While this generated immediate cash, it severely damaged their long-term brand equity. Consumers stopped viewing the company as a premium athletic innovator and began treating it as a budget sports brand. Profit margins collapsed and the stock valuation dropped significantly.",
+    "The board initiated a radical shift in strategic brand management. They realised they had been trying to solve a structural brand crisis with short-term retail patches. They paused mass-discount campaigns, pulled their premium lines from cheap retail spaces, and anchored their strategy on a multi-year brand-planning blueprint.",
+    "They focused resources entirely on building a sustainable competitive advantage — doubling down on advanced fabric technology and elite athlete sponsorships. By shifting organisational focus from raw transaction volume to protecting the premium value of the brand name, they stabilised their valuation and laid a path for competitive growth. The lesson was stark: a short-term transaction focus diluted brand equity and collapsed margins, while strategic brand management protected the premium name and rebuilt asset value."],
+   ex:{t:"Conclusion",b:["Strategic brand management treats a brand as a long-term corporate asset, not a sequence of short-term sales campaigns.","Protecting brand equity and planning market moves methodically lets an organisation command premium pricing and secure a lasting competitive advantage.","Chasing discount revenue quietly destroyed the very brand value that made premium pricing possible."]}},
+  {art:"weigh",h:"Key Ideas",p:[
+    "Brand equity is the commercial value a brand name adds beyond the physical product — the premium, loyalty and resilience it commands. Under Armour's crisis was fundamentally a brand-equity crisis: discounting traded long-term equity for short-term cash until the brand lost its premium meaning.",
+    "Strategic brand management means making decisions with the long-term health of the brand asset in mind, rather than optimising each quarter's sales in isolation. It requires the discipline to forgo easy short-term revenue (like mass discounts) when it would erode the brand.",
+    "A sustainable competitive advantage is an edge rivals cannot easily copy — for Under Armour, advanced fabric technology and elite sponsorships that reinforced 'premium innovator'. Strategy anchors resources on building and protecting that advantage.",
+    "Methodical, multi-year brand planning replaces reactive patching. The turnaround came from a deliberate blueprint, not another discount campaign — demonstrating that brands, like any valuable asset, must be stewarded with a long horizon."]},
+  {art:"steps",h:"Thinking Strategically",p:[
+    "Identify a brand that has damaged itself through short-term tactics, and describe how those tactics eroded its long-term equity.",
+    "For a brand you choose, name one sustainable competitive advantage it could build that rivals could not easily copy.",
+    "Reflect on Under Armour: why did pausing profitable discount campaigns actually protect the business?"]}
+ ],
+ activity:"Write a short strategic brief for a brand explaining how it would protect its brand equity and build a sustainable competitive advantage over a multi-year horizon rather than chasing short-term sales.",
+ check:[
+  {q:"What damaged Under Armour's brand?",o:["Chasing short-term discount sales, which eroded its premium brand equity","A faulty product line","A failed advertising campaign","A leadership scandal"],a:0},
+  {q:"What is brand equity?",o:["The commercial value a brand name adds beyond the physical product","The number of stores a brand owns","The cost of manufacturing","A legal trademark"],a:0},
+  {q:"What does strategic brand management prioritise?",o:["The long-term health of the brand asset over short-term quarterly sales","Maximising discounts","Quarterly transaction volume only","Copying competitors' prices"],a:0}
+ ]},
+
+{id:"abm2",n:2,title:"Consumer Behaviour and Brand Psychology",mins:65,icon:"Lightbulb",summary:"Using behavioural economics, choice architecture and emotional framing to design low-friction purchase journeys that build instant trust.",
+ keyWords:["behavioural economics","choice architecture","neuromarketing","emotional framing"],
+ sections:[
+  {art:"interpret",h:"The Choice Architecture That Revolutionized Tech Buying",p:[
+    "In 2017, a leading global technology platform was launching a premium cloud-storage subscription. Traditional marketers wanted to use standard pricing pitches, shouting about gigabyte sizes and processor speeds. But initial sign-up rates were incredibly low: consumers faced decision-making paralysis when looking at complex technical charts, walking away from the checkout without buying.",
+    "The brand team brought in consumer-psychology experts to redesign the entire checkout environment using behavioural economics.",
+    "Instead of forcing users to manually configure a plan, they changed the choice architecture. They built an automatic, low-cost free-trial default into the device onboarding, paired with clear visual progress trackers that reduced cognitive friction. Using neuromarketing fundamentals, they reframed the purchase copy from an abstract technical cost into an emotional insurance policy: 'Protect your family memories in one click.' This subtle shift eliminated choice anxiety, driving subscription activation up by 300% within 90 days."],
+   ex:{t:"Conclusion",b:["Consumer behaviour is driven by emotional psychology and subconscious triggers rather than pure logic.","Mastering behavioural economics and emotional branding lets you design low-friction purchase journeys that establish deep brand trust instantly.","Reframing a technical cost as protecting family memories tripled sign-ups."]}},
+  {art:"theory",h:"Key Ideas",p:[
+    "Behavioural economics shows that people rarely make purely rational decisions; they are influenced by defaults, framing, emotion and mental shortcuts. The tech platform's low sign-ups were caused not by price but by cognitive overload from technical charts.",
+    "Choice architecture is the deliberate design of how options are presented. A well-chosen default (the automatic free trial), simplified steps, and progress indicators dramatically reduce friction and 'decision paralysis' — small structural changes that produce large behavioural shifts.",
+    "Neuromarketing and emotional framing recognise that how a purchase is described changes how it feels. Reframing storage as 'protect your family memories' turned an abstract technical cost into an emotional benefit, tapping motivation that specifications never could.",
+    "The practical lesson is that reducing friction and framing value emotionally builds instant trust and conversion. Advanced brand psychology designs the whole journey around how people actually decide, not how marketers wish they decided."]},
+  {art:"steps",h:"Designing for How People Decide",p:[
+    "Take a purchase decision and identify where 'decision paralysis' or friction might cause people to walk away.",
+    "Describe a smarter default or simplified step that would reduce that friction, as the free-trial default did.",
+    "Rewrite a dry, technical benefit as an emotional one, in the spirit of 'protect your family memories in one click'."]}
+ ],
+ activity:"Redesign a checkout or sign-up journey using behavioural principles: choose a helpful default, reduce one source of friction, and reframe a technical benefit emotionally, explaining each choice.",
+ check:[
+  {q:"Why were the cloud-storage sign-ups initially so low?",o:["Complex technical charts caused decision paralysis, so consumers walked away","The price was far too high","The product did not exist","There was no internet"],a:0},
+  {q:"What is choice architecture?",o:["The deliberate design of how options are presented, including defaults and steps","A type of building design","A pricing law","A trademark rule"],a:0},
+  {q:"What did reframing storage as 'protecting family memories' do?",o:["Turned an abstract technical cost into an emotional benefit, tripling sign-ups","Made the product more expensive","Confused customers further","Removed the free trial"],a:0}
+ ]},
+
+{id:"abm3",n:3,title:"Brand Research and Market Intelligence",mins:65,icon:"FlaskConical",summary:"Using deep qualitative research, ethnography and competitor analysis to uncover raw customer insights that superficial surveys completely miss.",
+ keyWords:["ethnographic research","qualitative insight","competitor analysis","market intelligence"],
+ sections:[
+  {art:"search",h:"The Toy Turnaround Built on 100 Hours of Ethnographic Audits",p:[
+    "In 2004, The LEGO Group was losing $1 million every single day, facing imminent bankruptcy. Corporate directors ran standard quantitative surveys, which suggested that because Generation Z had short attention spans, the company should abandon its classic bricks and build heavy, pre-assembled action toys. The company followed the survey data, yet losses only accelerated, bringing the brand to the edge of collapse.",
+    "New CEO Jørgen Vig Knudstorp halted the surveys and launched a deep, qualitative brand-research and market-intelligence campaign.",
+    "He sent researchers to live with families, conducting intensive ethnographic studies. They spent weeks observing how children actually played. They discovered a profound insight the surveys had missed: children didn't want cheap, easy toys — they gained deep satisfaction from mastering a difficult skill. One boy proudly showed researchers a worn-out pair of sneakers, explaining the worn sole proved he was the best skateboarder in the neighbourhood. Knudstorp pivoted based on this insight, returning LEGO to complex, high-skill building kits and leading the greatest turnaround in toy history."],
+   ex:{t:"Conclusion",b:["Superficial market data can lead to catastrophic strategic decisions.","Deep brand research, competitive benchmarking and thorough competitor analysis uncover raw customer insights that protect market positioning.","Watching how children really played revealed the truth that surveys had gotten exactly backwards."]}},
+  {art:"data",h:"Key Ideas",p:[
+    "There is a crucial difference between quantitative research (surveys, numbers — what people say) and qualitative research (observation, depth — what people actually do). LEGO's surveys produced a confident but disastrously wrong answer; deep observation produced the truth.",
+    "Ethnographic research means observing customers in their real environment rather than asking them abstract questions. Living with families revealed that children valued mastery and challenge — an insight no survey question had surfaced, and which reversed the company's entire strategy.",
+    "Competitor analysis and competitive benchmarking place your brand in context: understanding what rivals offer and where the real opportunities and threats lie. Market intelligence combines customer insight with competitive understanding.",
+    "The overarching lesson is that superficial data can actively mislead. Rigorous, deep research protects a brand from confident-but-wrong decisions, uncovering the genuine motivations that drive customer behaviour."]},
+  {art:"steps",h:"Researching Deeply",p:[
+    "Contrast what a survey might tell you about a product with what watching people actually use it might reveal.",
+    "Describe an ethnographic observation you could run to uncover a hidden customer motivation.",
+    "Reflect on LEGO: why did following confident survey data nearly destroy the company?"]}
+ ],
+ activity:"Design a small research plan combining one quantitative and one qualitative method for a brand, and explain what deeper insight the qualitative method might reveal that the survey would miss.",
+ check:[
+  {q:"Why did LEGO's survey-driven strategy nearly destroy the company?",o:["Superficial surveys gave a confident but wrong answer — that children wanted easier toys","Surveys are always accurate","The bricks were defective","Competitors copied them"],a:0},
+  {q:"What is ethnographic research?",o:["Observing customers in their real environment rather than asking abstract questions","A type of survey","A pricing study","A legal audit"],a:0},
+  {q:"What insight did deep observation reveal about children and LEGO?",o:["They valued mastering a difficult skill, not cheap, easy toys","They disliked building anything","They preferred video games only","They wanted no toys at all"],a:0}
+ ]},
+
+{id:"abm4",n:4,title:"Advanced Brand Positioning",mins:65,icon:"Target",summary:"Owning a distinct, defensible space in the consumer's mind through bold differentiation — even turning an apparent weakness into a competitive advantage.",
+ keyWords:["positioning","differentiation","value proposition","category leadership"],
+ sections:[
+  {art:"target",h:"The Rental Brand That Won by Celebrating Second Place",p:[
+    "In 1962, car-rental firm Avis was trapped in a multi-million-dollar deficit, struggling to survive against the category leader, Hertz, which controlled the market with a massive ad budget and prime airport locations. Avis had tried copycat campaigns claiming they were just as big and prestigious as Hertz, but consumers ignored them. Avis was on the verge of shutting down.",
+    "CEO Robert Townsend made a bold choice to execute a radical advanced-positioning strategy. He hired copywriter Paula Green, who crafted a historic campaign anchored on absolute differentiation: 'Avis is only No. 2 in rent-a-cars. So why go with us? We try harder.'",
+    "Instead of running from their second-place status, Avis celebrated it as their core competitive advantage. The message explained that because they weren't the largest, they couldn't afford to make customers wait, leave dirty cars, or tolerate poor service. Where copycat positioning ('we're just as big as the leader') met only scepticism and losses, this bold differentiation connected deeply. Within a year, Avis turned its heavy deficit into a massive profit, establishing a positioning framework that lasted fifty years."],
+   ex:{t:"Conclusion",b:["Advanced brand positioning requires owning a distinct, defensible space in the consumer's mind.","Designing a unique value proposition and executing bold differentiation lets you claim leadership even in highly competitive markets.","Turning an apparent weakness — being No. 2 — into the whole value proposition beat imitating the leader."]}},
+  {art:"weigh",h:"Key Ideas",p:[
+    "Advanced positioning is about claiming a space you can own and defend, not imitating the leader. Avis failed while copying Hertz and succeeded the moment it staked out a distinct, ownable position that Hertz could not credibly claim.",
+    "Bold differentiation often means embracing what makes you different rather than hiding it. Avis turned 'we're only No. 2' — an apparent weakness — into a compelling reason to choose them (harder-working service), a reframe that competitors could not copy without conceding second place.",
+    "A unique value proposition must be both distinct and believable. 'We try harder' worked because it was differentiated and made intuitive sense given their position, connecting emotionally with customers.",
+    "Even in markets dominated by a giant, a challenger can win a defensible position by finding the space the leader cannot occupy. Positioning is a strategic choice about where to compete, not just how loudly to advertise."]},
+  {art:"steps",h:"Claiming a Defensible Position",p:[
+    "Pick a market with a dominant leader and identify a distinct position a challenger could own that the leader cannot credibly claim.",
+    "Take an apparent weakness of a brand and reframe it as a genuine customer benefit, as Avis did with 'No. 2, so we try harder'.",
+    "Reflect on Avis: why did celebrating second place succeed where imitating the leader had failed?"]}
+ ],
+ activity:"Write a differentiated positioning statement for a challenger brand, ideally turning an apparent weakness into a competitive advantage, and explain why the leader could not easily copy it.",
+ check:[
+  {q:"How did Avis finally beat its losses against Hertz?",o:["By celebrating its No. 2 status as a reason to try harder — bold, ownable differentiation","By claiming to be exactly as big as Hertz","By cutting prices below cost","By copying Hertz's ads more closely"],a:0},
+  {q:"What does advanced positioning require?",o:["Owning a distinct, defensible space the leader cannot credibly claim","Imitating the market leader","Advertising more loudly than rivals","Lowering prices constantly"],a:0},
+  {q:"What did Avis do with its apparent weakness?",o:["Reframed being No. 2 into a believable customer benefit — harder-working service","Hid it completely","Denied it existed","Sold the company"],a:0}
+ ]},
+
+{id:"abm5",n:5,title:"Brand Identity Systems",mins:65,icon:"Shield",summary:"Unifying visual identity, brand architecture, naming and verbal identity into one codified system so a complex organisation projects one powerful image.",
+ keyWords:["brand architecture","visual identity","naming strategy","brand guidelines"],
+ sections:[
+  {art:"build",h:"Unifying a Broken Alphabet Across 100 Global Subsidiaries",p:[
+    "In 1994, global logistics firm Federal Express was suffering from severe identity fragmentation. The company had acquired dozens of smaller shipping and trucking companies worldwide, resulting in a chaotic mess of visual assets. Some trucks carried the full 'Federal Express' name in purple, others used orange scripts, and global offices featured mismatched identities. The brand architecture was broken, causing massive customer confusion about what the company even offered.",
+    "Leadership initiated a comprehensive overhaul of their brand identity system, shortening the public name to a punchy, universal verbal identity: FedEx.",
+    "The design team created the iconic visual identity, embedding a hidden arrow between the 'E' and 'x' to symbolise speed and precision. Crucially, they built a strict brand architecture, colour-coding their subdivisions — FedEx Express (orange), FedEx Ground (green), FedEx Freight (red) — while maintaining absolute visual unity through the core logo frame. They codified these rules into a comprehensive global brand-guidelines book, turning a fractured firm into the world's most recognisable logistics network."],
+   ex:{t:"Conclusion",b:["An elite brand identity system links visual identity management with clear brand architecture.","Developing robust brand guidelines, strict naming strategies, and cohesive verbal identities ensures a unified, powerful image across all global touchpoints.","One codified system turned a chaotic mess of acquired brands into a single, precise identity."]}},
+  {art:"mark",h:"Key Ideas",p:[
+    "A brand identity system is the complete, codified set of rules governing how a brand looks and sounds — far beyond a single logo. FedEx's transformation shows how a system, not just a mark, brings order to complexity.",
+    "Brand architecture defines how a company's various products, divisions or sub-brands relate to and are organised under the master brand. FedEx's colour-coded divisions under one logo frame is a textbook architecture: unity at the top, clarity within.",
+    "Naming strategy and verbal identity matter as much as visuals. Shortening 'Federal Express' to 'FedEx' created a punchy, universal name; verbal identity ensures the brand sounds consistent everywhere, not just looks consistent.",
+    "Brand guidelines codify all of this — logo, colour, architecture, naming, voice — into a single reference so every team worldwide stays consistent. A robust, documented identity system is what lets a global organisation project one powerful, unified image across every touchpoint."]},
+  {art:"steps",h:"Building an Identity System",p:[
+    "For an organisation with several products or divisions, sketch a simple brand architecture showing how they relate under one master brand.",
+    "Propose a naming and colour-coding approach that keeps the sub-brands distinct yet unified, as FedEx did.",
+    "Reflect on FedEx: why did codifying rules into guidelines matter more than just designing a nice logo?"]}
+ ],
+ activity:"Design a brand architecture and a short set of identity-system rules for a company with multiple divisions, explaining how they stay both distinct and unified across global touchpoints.",
+ check:[
+  {q:"What problem did FedEx's identity overhaul solve?",o:["Fragmented, mismatched visual identities across acquired companies confusing customers","A shortage of delivery trucks","Slow shipping times","High fuel costs"],a:0},
+  {q:"What is brand architecture?",o:["How a company's products, divisions or sub-brands relate to and organise under the master brand","The building where a company works","A single logo","A pricing model"],a:0},
+  {q:"How did FedEx keep divisions distinct yet unified?",o:["Colour-coding each division while keeping one shared core logo frame and codified guidelines","Giving each a totally separate logo","Removing all colour","Using no guidelines at all"],a:0}
+ ]},
+
+{id:"abm6",n:6,title:"Brand Communication Strategy",mins:65,icon:"PenLine",summary:"Integrated marketing communications and radical transparency in crisis — protecting reputation and trust through clear, values-driven executive communication.",
+ keyWords:["integrated communication","crisis communication","transparency","stakeholder trust"],
+ sections:[
+  {art:"talk",h:"The Five-Word Crisis Message That Saved a Pharmaceutical Giant",p:[
+    "In 1982, Johnson & Johnson faced a horrific corporate nightmare. An unknown criminal contaminated capsules of their top-selling product, Tylenol, with cyanide in Chicago, resulting in seven tragic deaths. Within 24 hours, national consumer trust collapsed from a 35% market share to zero. Corporate lawyers urged CEO James Burke to deny responsibility, hide from the press, and protect the balance sheet for fear of lawsuits.",
+    "Burke chose a completely different communication strategy, anchored on radical transparency and the company's internal credo values.",
+    "He took command of public and media relations, holding daily open press briefings. He ordered an immediate nationwide recall of 31 million bottles, costing over $100 million. He launched an integrated campaign introducing the world's first triple-seal, tamper-evident packaging. His message was clear and uncompromising: 'Your safety comes before our profits.' Because Burke communicated with absolute integrity — total openness and decisive action, rather than legal defensiveness and silence — the brand made a historic recovery, regaining 90% of its market share within a year."],
+   ex:{t:"Conclusion",b:["Brand communication strategy is the ultimate line of defence for an organisation's reputation.","Masterful integrated marketing communications, proactive public relations, and clear executive communication let you navigate severe disruptions and preserve stakeholder trust.","Choosing transparency and customer safety over legal self-protection saved a brand from certain death."]}},
+  {art:"control",h:"Key Ideas",p:[
+    "A brand communication strategy coordinates every message a brand sends — advertising, PR, packaging, executive statements — so they align and reinforce one another. This is 'integrated marketing communications': one consistent voice across all channels.",
+    "In a crisis, communication becomes the brand's line of defence. Burke's choice of radical transparency — open briefings, decisive recall, honest messaging — protected trust far better than the lawyers' instinct to hide and deny. How a brand communicates under pressure defines its long-term reputation.",
+    "Clear executive communication anchored in genuine values gives a brand a credible, unshakeable position. 'Your safety comes before our profits' worked because J&J actually acted on it, recalling 31 million bottles at huge cost.",
+    "Proactive public relations and stakeholder trust are built over time and spent in moments of crisis. A brand that communicates with integrity and acts consistently with its stated values can recover from even catastrophic disruption, as Tylenol's return to 90% market share proved."]},
+  {art:"steps",h:"Communicating Under Pressure",p:[
+    "Take a hypothetical brand crisis and outline a transparent communication response, contrasting it with a defensive 'hide and deny' approach.",
+    "Write a short, values-driven executive message for that crisis, in the spirit of 'your safety comes before our profits'.",
+    "Reflect on Tylenol: why did transparency and a costly recall rebuild trust that legal defensiveness would have destroyed?"]}
+ ],
+ activity:"Draft an integrated crisis-communication plan for a brand, including the channels you would use, a values-driven executive message, and the decisive action that would prove your words are real.",
+ check:[
+  {q:"How did Johnson & Johnson save the Tylenol brand?",o:["Radical transparency, a costly recall, and putting customer safety before profits","Denying responsibility and hiding from the press","Lowering the product's price","Blaming customers"],a:0},
+  {q:"What is integrated marketing communications?",o:["Coordinating every message so all channels align in one consistent voice","Using only one advertising channel","Avoiding all communication","Sending contradictory messages"],a:0},
+  {q:"Why did Burke's message carry credibility?",o:["The company actually acted on it, recalling 31 million bottles at huge cost","It was cheaper than doing nothing","Lawyers approved it","It avoided any real action"],a:0}
+ ]},
+
+{id:"abm7",n:7,title:"Digital Brand Management",mins:60,icon:"Video",summary:"Winning through real-time relevance — an agile social strategy, high-value content and continuous reputation monitoring that captures attention instantly.",
+ keyWords:["real-time marketing","agile team","omnichannel","reputation monitoring"],
+ sections:[
+  {art:"global",h:"The Command Center That Turned a Blackout into a Viral Masterstroke",p:[
+    "During the 2013 Super Bowl, a sudden power failure plunged the stadium into darkness for thirty minutes. While legacy corporate brands panicked over how to rescue their multi-million-dollar television commercials, the digital brand management team at Oreo was operating from a live social-media command centre packed with agile designers, copywriters and content experts.",
+    "Within ten minutes of the blackout, Oreo published a simple, high-contrast graphic on their official channels: a single cookie lit in a dark room, with the sharp headline 'You can still dunk in the dark.'",
+    "The post went completely viral, pulling in thousands of shares and millions of impressions within an hour, stealing the spotlight from the night's incredibly expensive television ads. Oreo won that moment because they had a consistent online reputation-management protocol and an omnichannel strategy that empowered them to respond to real-time events in seconds — cementing their position as an agile, culturally relevant digital brand."],
+   ex:{t:"Conclusion",b:["Digital brand management is a game of real-time relevance and structured community building.","An agile social strategy, high-value content marketing, and real-time reputation monitoring let a brand capture attention and win in a fast-moving marketplace.","A ten-minute response outperformed the night's most expensive paid ads."]}},
+  {art:"measure",h:"Key Ideas",p:[
+    "Digital brand management is fundamentally about real-time relevance: the ability to respond to culture as it happens, not weeks later. Oreo's blackout win was impossible for brands trapped in slow approval processes.",
+    "An agile team structure — designers, writers and decision-makers working together with authority to act — is what makes real-time response possible. The 'command centre' model concentrates the right people so the brand can move in seconds while staying on-brand.",
+    "An omnichannel strategy ensures the brand shows one consistent identity across every digital channel, so fast action never becomes off-brand action. Consistency and speed together are the goal.",
+    "Continuous online reputation monitoring keeps a brand aware of opportunities and threats in real time. Combined with high-value content and agility, it lets a brand both seize positive moments and respond quickly to problems, building relevance and community in a fast-moving marketplace."]},
+  {art:"steps",h:"Winning in Real Time",p:[
+    "Describe the team structure a brand would need to respond to a live cultural moment within minutes.",
+    "Draft a short, on-brand real-time post for a sudden relevant event, as Oreo did.",
+    "Reflect on the blackout win: why could an agile brand outperform far more expensive paid advertising?"]}
+ ],
+ activity:"Design an agile 'real-time response' capability for a brand: the team, the approval speed, and a sample on-brand reaction to a live moment, explaining how it stays consistent while moving fast.",
+ check:[
+  {q:"Why did Oreo's blackout post beat expensive TV ads?",o:["An agile command centre let it seize a live moment in real time while staying on-brand","It was a paid ad itself","It took weeks to prepare","It was pure luck"],a:0},
+  {q:"What makes real-time brand response possible?",o:["An agile team with the authority to act quickly and stay on-brand","A slow, multi-layer approval process","Avoiding all social media","A larger ad budget alone"],a:0},
+  {q:"What does continuous reputation monitoring provide?",o:["Real-time awareness of opportunities and threats so a brand can respond quickly","A one-time report","A legal trademark","A product discount"],a:0}
+ ]},
+
+{id:"abm8",n:8,title:"Brand Experience Management",mins:60,icon:"Users",summary:"Unifying customer experience with employee experience across every touchpoint, mapping intentional journeys that empower staff to build deep loyalty.",
+ keyWords:["customer experience","employee experience","journey mapping","service design"],
+ sections:[
+  {art:"help",h:"The Shoe Store That Paid for an Off-Menu Pizza to Win a Customer for Life",p:[
+    "One evening in 2011, Zappos CEO Tony Hsieh was hosting a corporate conference with major footwear clients at a hotel. Late at night, the hungry executives found the hotel room service had closed. Hsieh, who pioneered radical brand experience management, challenged his clients to call Zappos' support line for help — even though Zappos exclusively sold shoes, not food.",
+    "The client placed the call on speakerphone. The support agent was surprised at first, but instead of hanging up or reading a rigid script, she embraced the challenge. She spent fifteen minutes researching open local pizza kitchens near the hotel, ordered two large pizzas, and had them delivered to the executives' room.",
+    "This wasn't a random stunt; it was a direct result of Hsieh's service-design strategy, which gave equal weight to employee experience and customer experience. Zappos didn't track support call-duration metrics; they empowered staff to build unforgettable touchpoints, creating such intense loyalty that 75% of daily sales came from returning customers."],
+   ex:{t:"Conclusion",b:["Brand experience management unifies customer experience with employee experience across every touchpoint.","An intentional customer-journey map empowers your team to deliver exceptional service that drives long-term retention.","Empowering an employee to solve an off-menu problem created a story that built lasting loyalty."]}},
+  {art:"talk",h:"Key Ideas",p:[
+    "Brand experience management treats every interaction — before, during and after a purchase — as part of one designed experience. Zappos understood the experience, not just the shoes, was the product.",
+    "The key advanced idea here is linking customer experience (CX) with employee experience (EX). Empowered, well-treated employees create better customer moments; the pizza story only happened because the agent felt free to act rather than follow a rigid script.",
+    "Customer journey mapping is the practice of charting every touchpoint a customer passes through, so a brand can design each one intentionally rather than leaving it to chance. This is how surprise-and-delight moments are engineered, not left to luck.",
+    "Measuring the right things matters: Zappos deliberately ignored call-duration metrics and focused on delight and loyalty. Designing the full experience, empowering staff, and measuring what truly builds loyalty is what turns customers into lifelong advocates — 75% of Zappos' sales came from returning buyers."]},
+  {art:"steps",h:"Designing the Experience",p:[
+    "Map the key touchpoints in a customer's journey with a brand and identify where an empowered employee could create a memorable moment.",
+    "Explain how treating employees well (EX) would improve the customer experience they deliver.",
+    "Reflect on Zappos: why did ignoring call-duration metrics and empowering staff build stronger loyalty?"]}
+ ],
+ activity:"Create a customer-journey map for a brand with at least one empowered surprise-and-delight touchpoint, and explain how employee experience underpins the customer experience.",
+ check:[
+  {q:"What made the Zappos pizza moment possible?",o:["Empowered staff free to act, because Zappos linked employee experience with customer experience","A strict script requiring it","A food-delivery partnership","A legal obligation"],a:0},
+  {q:"What is customer journey mapping?",o:["Charting every touchpoint a customer passes through so each can be designed intentionally","A single sales transaction","A pricing chart","A trademark filing"],a:0},
+  {q:"Why did Zappos ignore call-duration metrics?",o:["They measured delight and loyalty instead, which built lasting customer relationships","Metrics are illegal","They had no phones","Short calls upset customers"],a:0}
+ ]},
+
+{id:"abm9",n:9,title:"Corporate Reputation Management",mins:60,icon:"Shield",summary:"Defending against sudden reputational threats with crisis protocols, transparent evidence and continuous monitoring that expose fraud and restore trust.",
+ keyWords:["reputation","crisis protocol","transparency","stakeholder engagement"],
+ sections:[
+  {art:"law",h:"Confronting the Syringe Hoax with Radical Video Proof",p:[
+    "In June 1993, PepsiCo faced a sudden, terrifying reputational threat. A media report in Seattle claimed a consumer had found a medical syringe inside a can of Diet Pepsi. Within 48 hours, over fifty copycat claims erupted across twenty states, asserting that syringes and needles were appearing inside Pepsi cans. The public panicked, grocery chains pulled cans from shelves, and regulators considered shutting down Pepsi's entire national manufacturing grid.",
+    "CEO Craig Weatherup did not panic or hide behind standard press releases. He deployed an aggressive corporate reputation-management and crisis-communication protocol.",
+    "He opened Pepsi's high-speed canning facilities to independent news crews, proving the process was completely automated and hermetically sealed — making it physically impossible for any object to enter a can before shipment. Crucially, he released security-camera footage showing a consumer in a supermarket manually inserting a syringe into a can while a clerk was turned away. Where corporate silence would have let panic escalate into a permanent ban, radical video proof exposed the fraud openly and restored trust, breaking the hoax within a week and winning the industry's highest PR award."],
+   ex:{t:"Conclusion",b:["Corporate reputation management is a critical shield against unexpected market disruption.","Clear crisis-communication protocols, continuous reputation monitoring, and transparent stakeholder engagement let an organisation weather severe public storms and recover.","Opening the facilities and showing the evidence turned a viral hoax into a total brand victory."]}},
+  {art:"control",h:"Key Ideas",p:[
+    "Corporate reputation is a valuable, fragile asset that can be attacked suddenly and spread virally — as Pepsi's syringe hoax did across twenty states in 48 hours. Managing it is a core executive discipline, not an afterthought.",
+    "A crisis-communication protocol prepared in advance lets a brand respond fast and decisively instead of panicking. Weatherup's calm, aggressive transparency — facility tours and hard evidence — was far more effective than silence or denial.",
+    "Transparency and evidence are the most powerful tools against false claims. Showing the automated, sealed canning process and the security footage of the actual fraud dismantled the hoax with proof no denial could match.",
+    "Continuous reputation monitoring and transparent stakeholder engagement — with the public, media, retailers and regulators — let a brand detect threats early and rebuild trust quickly. A brand that engages openly and backs its words with evidence can recover even from a national panic."]},
+  {art:"steps",h:"Defending a Reputation",p:[
+    "Imagine a sudden false claim about a brand and outline a transparent, evidence-based response, contrasting it with silence.",
+    "Identify what evidence a brand could show to disprove such a claim, as Pepsi showed its sealed canning line and security footage.",
+    "Reflect on the Pepsi hoax: why did radical transparency defeat the panic where corporate silence would have deepened it?"]}
+ ],
+ activity:"Write a corporate reputation-defence plan for a brand facing a viral false claim, covering how you would monitor it, respond transparently with evidence, and engage stakeholders to restore trust.",
+ check:[
+  {q:"How did Pepsi defeat the syringe hoax?",o:["Radical transparency — facility tours and security footage exposing the fraud","By staying silent","By recalling all its products forever","By suing the news stations"],a:0},
+  {q:"Why is a prepared crisis-communication protocol valuable?",o:["It lets a brand respond fast and decisively instead of panicking","It is legally required","It replaces the product","It guarantees no crises occur"],a:0},
+  {q:"What is the most powerful tool against false claims?",o:["Transparency and hard evidence that proof no denial can match","Aggressive denial","Corporate silence","Lowering prices"],a:0}
+ ]},
+
+{id:"abm10",n:10,title:"Brand Growth and Expansion",mins:60,icon:"Target",summary:"Scaling into new markets and sectors through disciplined brand extensions and partnerships that preserve, rather than dilute, core brand equity.",
+ keyWords:["brand extension","expansion","licensing","identity preservation"],
+ sections:[
+  {art:"migrate",h:"The Luxury Apparel Giant That Stretched into Premium Hospitality",p:[
+    "By the early 2000s, legendary Italian fashion house Armani had achieved total category leadership in global high-end fashion. But executives realised their core luxury-clothing market was hitting a growth ceiling. They wanted an aggressive expansion strategy, but faced a severe risk: simply stamping the Armani logo onto cheap consumer products would dilute their premium identity and alienate their wealthy core audience.",
+    "Instead of a generic product-line expansion, Armani executed a sophisticated brand-extension strategy, entering the luxury hospitality sector.",
+    "In 2010 they launched the Armani Hotel inside the Burj Khalifa in Dubai, followed by a location in Milan. They didn't merely license their name; they designed every element of the customer experience — from interior layouts to restaurant menus — to match the sleek elegance of their fashion line. This let them enter new markets and engage wealthy consumers across entirely new lifestyle touchpoints without losing their core identity, proving a brand can grow into new sectors when guided by strategy and disciplined partnerships."],
+   ex:{t:"Conclusion",b:["Brand growth and expansion require a delicate balance between market expansion and identity preservation.","Rigorous brand extensions, strategic partnerships, and disciplined licensing let you scale your footprint without diluting core brand equity.","Armani grew into hotels by extending its exact standard of elegance, not just its logo."]}},
+  {art:"global",h:"Key Ideas",p:[
+    "Brand growth and expansion address the reality that core markets eventually hit a ceiling. The challenge is growing without diluting the brand equity that made the brand valuable in the first place — Armani's central dilemma.",
+    "A brand extension moves a brand into a new product category or sector. Done well (Armani into luxury hotels), the extension reinforces the brand's core meaning; done carelessly (stamping the logo on cheap goods), it dilutes and cheapens it.",
+    "Identity preservation is the discipline that separates the two. Armani controlled every detail of the hotel experience so it genuinely expressed Armani elegance, rather than just renting out the name. The extension had to live up to the brand, not trade on it.",
+    "Strategic partnerships and licensing models are tools for expansion, but they must be governed tightly. A brand can scale into new sectors and markets successfully only when every new touchpoint upholds the core identity and quality that customers already trust."]},
+  {art:"steps",h:"Expanding Without Diluting",p:[
+    "Take a strong brand and identify a new sector it could credibly extend into that reinforces, rather than contradicts, its core identity.",
+    "Describe how you would preserve the brand's identity in that extension, as Armani controlled the whole hotel experience.",
+    "Reflect on Armani: why would simply licensing the name onto cheap goods have damaged the brand?"]}
+ ],
+ activity:"Propose a brand extension into a new sector for a strong brand, and explain the specific controls you would put in place so the extension preserves rather than dilutes its core equity.",
+ check:[
+  {q:"How did Armani expand without diluting its brand?",o:["It extended into luxury hotels and controlled every detail to match its fashion elegance","It stamped its logo onto cheap products","It lowered its prices","It sold the company"],a:0},
+  {q:"What is a brand extension?",o:["Moving a brand into a new product category or sector","Closing a business","A type of advertisement","Lowering a product's price"],a:0},
+  {q:"What separates a successful extension from a damaging one?",o:["Identity preservation — the extension must uphold the brand's core meaning and quality","The size of the logo","The number of products","Charging the lowest price"],a:0}
+ ]},
+
+{id:"abm11",n:11,title:"Data-Driven Brand Management",mins:60,icon:"ClipboardCheck",summary:"Replacing intuition with hard evidence — using customer analytics, dashboards and Return on Brand Investment to predict success and eliminate costly errors.",
+ keyWords:["data-driven","customer analytics","ROBI","predictive analytics"],
+ sections:[
+  {art:"data",h:"The Streaming Engine That Built a Hit Show on Analytics",p:[
+    "In 2013, streaming platform Netflix was preparing a massive, risky bet: investing over $100 million to produce their first major original drama, House of Cards. Traditionally, television executives commissioned shows based on intuition, star gossip, and superficial focus-group data — a chaotic process with an 80% failure rate for new pilots.",
+    "Netflix bypassed this guesswork by building their strategy on data-driven brand management.",
+    "Their data analytics team analysed millions of user interaction points. They knew exactly how many users streamed director David Fincher's past work, what specific scenes users paused, and how films starring the lead actor performed across demographic segments. Their models predicted a near-perfect audience retention rate before a single scene was filmed. Where intuition-based guesswork produced an 80% pilot failure rate and unpredictable waste, predictive analytics delivered around 95% retention success. The show became a global hit, driving millions of sign-ups and an exceptional Return on Brand Investment."],
+   ex:{t:"Conclusion",b:["Data-driven brand management eliminates costly strategic errors by replacing intuition with hard empirical evidence.","Robust marketing dashboards and tracking of customer analytics and Return on Brand Investment let you optimise campaigns for real profit.","Analytics predicted a hit before filming began, turning an 80% failure rate into near-certain success."]}},
+  {art:"measure",h:"Key Ideas",p:[
+    "Data-driven brand management replaces gut feeling with evidence. Netflix's advantage was not better intuition than Hollywood, but hard data on what audiences actually watched, paused and finished.",
+    "Customer analytics — analysing real behaviour at scale — reveals patterns invisible to intuition or small focus groups. Knowing exactly who watched what let Netflix predict the audience for a show that didn't yet exist.",
+    "Predictive analytics uses those patterns to forecast outcomes, dramatically reducing the risk of large investments. Netflix predicted retention before filming, turning a traditionally 80%-failure bet into a confident one.",
+    "Return on Brand Investment (ROBI) and marketing dashboards let a brand measure whether its spending actually builds value, so resources flow to what works. Data-driven management doesn't remove creativity — it directs it with evidence, eliminating the costly guesswork that sinks intuition-only strategies."]},
+  {art:"steps",h:"Deciding with Data",p:[
+    "Take a risky brand decision and describe what real customer data could reduce the risk, as Netflix used viewing data.",
+    "Identify one metric (like retention or ROBI) you would track to judge whether an investment is building value.",
+    "Reflect on House of Cards: why did data beat the intuition-driven process that fails 80% of the time?"]}
+ ],
+ activity:"Design a simple data-driven decision framework for a brand investment, listing the customer analytics you would examine and the metrics you would track to predict and measure success.",
+ check:[
+  {q:"How did Netflix de-risk its $100 million bet on House of Cards?",o:["By analysing real viewing data to predict the audience before filming","By trusting a producer's intuition","By copying another network's show","By spending even more on stars"],a:0},
+  {q:"What is predictive analytics?",o:["Using behavioural data patterns to forecast outcomes and reduce risk","Guessing based on gossip","A type of focus group","A legal audit"],a:0},
+  {q:"What does Return on Brand Investment (ROBI) measure?",o:["Whether brand spending actually builds value, so resources flow to what works","The number of employees","A product's weight","A trademark's age"],a:0}
+ ]},
+
+{id:"abm12",n:12,title:"AI and Emerging Technologies in Branding",mins:60,icon:"Sparkles",summary:"Using AI for personalization at scale — automatically generating thousands of hyper-targeted, context-aware assets that lift conversion without inflating budgets.",
+ keyWords:["AI personalization","automation","predictive analytics","scale"],
+ sections:[
+  {art:"command",h:"Delivering 10,000 Personalized Visual Ads in One Second",p:[
+    "In 2024, confectionery brand Cadbury wanted to run a massive holiday campaign across multiple fast-growing digital markets. Traditional digital marketing let them produce three or four generic video ad variations to blast at millions of consumers. But conversion rates for generic ads were steadily dropping, because consumers ignored content that didn't align with their immediate, hyper-local realities.",
+    "The brand team re-engineered their creative pipeline using AI and emerging technologies.",
+    "They deployed advanced AI content platforms and predictive engines. They built a system where an AI video generator took real-time consumer data points — the user's local neighbourhood name, favourite flavour profile, and immediate weather conditions — and automatically rendered a hyper-personalised video ad in milliseconds. A consumer scrolling in a rainy city saw a completely different ad from a user in a sunny coastal town. The campaign delivered over 10,000 unique variations at scale, generating a huge surge in engagement and proving that AI enables automated personalisation without expanding human agency budgets."],
+   ex:{t:"Conclusion",b:["Artificial Intelligence is transforming how global brands interact with consumers.","Mastering personalisation at scale, automated campaign tools, and predictive analytics lets you deliver hyper-targeted content that maximises conversion.","AI produced 10,000 individually relevant ads without a matching increase in cost or staff."]}},
+  {art:"data",h:"Key Ideas",p:[
+    "AI's transformative power in branding is personalisation at scale: producing thousands of individually relevant messages automatically, something impossible by hand. Cadbury's 10,000 variations from one system is the defining example.",
+    "Generic content is losing effectiveness as consumers ignore anything that doesn't match their immediate reality. AI closes this gap by tailoring content to real-time signals — location, preferences, even weather — so each viewer sees something relevant.",
+    "Automated campaign tools and predictive analytics let a brand generate, target and optimise content continuously without proportionally increasing budget or headcount. This is the key economic shift: scale and personalisation that once required huge teams now come from systems.",
+    "As with all AI in branding, the strategy and brand standards must remain human-directed, and the data used must be handled responsibly. Used well, AI amplifies a brand's reach and relevance dramatically; the human role shifts to designing the system, setting the standards, and directing the strategy."]},
+  {art:"steps",h:"Personalising at Scale",p:[
+    "Take a campaign and list the real-time data signals (location, preference, weather) that could make each version genuinely relevant.",
+    "Describe how AI could generate many tailored versions automatically without a matching rise in cost or staff.",
+    "Reflect on Cadbury: why did 10,000 personalised ads outperform three or four generic ones?"]}
+ ],
+ activity:"Plan an AI-personalised campaign for a brand, naming the data signals you would use to tailor each version and explaining how automation delivers relevance at scale without inflating the budget.",
+ check:[
+  {q:"What did Cadbury's AI system do?",o:["Automatically generated over 10,000 hyper-personalised ad variations from real-time data","Produced one generic ad for everyone","Replaced the entire brand team","Stopped all advertising"],a:0},
+  {q:"Why is generic content losing effectiveness?",o:["Consumers ignore content that doesn't match their immediate, hyper-local reality","Generic content is illegal","It costs too much","Screens cannot show it"],a:0},
+  {q:"What is the key economic shift AI enables in branding?",o:["Personalisation at scale without a proportional increase in budget or staff","Higher costs for every ad","Fewer customers","Slower campaigns"],a:0}
+ ]},
+
+{id:"abm13",n:13,title:"Employer Branding",mins:60,icon:"Users",summary:"Building an internal brand and employee advocacy so a workforce becomes the company's biggest advocates — turning even disruptive change into an inspiring story.",
+ keyWords:["employer brand","employee advocacy","culture","upskilling"],
+ sections:[
+  {art:"roles",h:"The Technology Giant That Upskilled 8,500 Support Staff into Advocates",p:[
+    "In 2023, home-furnishings giant IKEA rolled out a sophisticated AI customer-service helper named Billie to manage repetitive logistics inquiries. In traditional retail corporations, a major automation deployment like this often triggers intense employee fear, negative publicity, and labour disputes, destroying internal culture and reputation.",
+    "IKEA's leadership avoided this trap by grounding their technological transformation in a robust employer-branding and employee-advocacy strategy.",
+    "Instead of laying off workers, their internal communications team launched an aggressive upskilling campaign. They systematically retrained 8,500 customer-service agents into advanced roles as professional interior-design consultants and complex dispute-resolution managers. The company turned potential workplace panic into an inspiring story about human empowerment. The employees became the brand's biggest public advocates, sharing their training transformations on professional networks and boosting IKEA's reputation as a premier destination for career talent."],
+   ex:{t:"Conclusion",b:["Your internal employer brand is just as critical as your external consumer brand.","Cultivating a supportive culture, prioritising internal communications, and driving employee advocacy ensures you retain top talent and protect your market reputation.","Upskilling staff instead of replacing them turned a feared automation into a reputation-boosting story."]}},
+  {art:"culture",h:"Key Ideas",p:[
+    "Employer branding is how a company is perceived as a place to work — by current employees and potential recruits. It matters because, as IKEA shows, internal reputation and external reputation are deeply linked.",
+    "Employee advocacy turns staff into the brand's most credible ambassadors. IKEA's retrained agents shared their transformation publicly, boosting the company's reputation far more authentically than any ad could. People trust employees' genuine stories.",
+    "Culture and internal communications determine how a workforce experiences change. IKEA framed automation as empowerment and backed it with real upskilling, avoiding the fear and disputes that destroy morale and public image at other firms.",
+    "The strategic lesson is that how you treat employees, especially through disruptive change, directly shapes your brand. Investing in people (upskilling rather than laying off) protects both talent retention and public reputation — the internal brand and external brand rise together."]},
+  {art:"steps",h:"Building the Internal Brand",p:[
+    "Describe how a company facing a disruptive change could frame it as empowerment and back that framing with real action, as IKEA did.",
+    "Explain how empowered, well-treated employees could become authentic advocates for a brand.",
+    "Reflect on IKEA: why did upskilling 8,500 staff protect the brand better than layoffs would have?"]}
+ ],
+ activity:"Design an employer-branding response to a disruptive change (like automation) for a company, showing how you would communicate internally, invest in staff, and turn employees into advocates.",
+ check:[
+  {q:"How did IKEA handle the rollout of its AI helper?",o:["It upskilled 8,500 staff into advanced roles instead of laying them off","It laid off all support staff","It cancelled the AI project","It hid the change from employees"],a:0},
+  {q:"What is employee advocacy?",o:["Staff becoming credible, authentic ambassadors for the brand","A type of labour strike","A legal contract","An advertising budget"],a:0},
+  {q:"Why does employer branding matter to the external brand?",o:["Internal and external reputation are linked; how you treat staff shapes public perception","It has no effect on customers","It only affects payroll","It is legally required"],a:0}
+ ]},
+
+{id:"abm14",n:14,title:"Brand Governance",mins:60,icon:"Shield",summary:"Protecting brand assets through trademark enforcement, brand compliance and proactive audits that prevent dilution and secure long-term equity.",
+ keyWords:["brand governance","trademark","compliance","dilution"],
+ sections:[
+  {art:"law",h:"The Trademark Shield That Saved a $10 Billion Coffee Asset",p:[
+    "In 2013, global coffee giant Starbucks discovered that a small independent roaster was manufacturing and selling a dark-roast blend packaged under the name 'Charbucks'. The independent company argued the name was a harmless, funny parody describing their smoky roasting style, asserting that a multi-billion-dollar corporation shouldn't worry about a tiny local business.",
+    "Starbucks' global compliance team refused to ignore it. They launched a multi-year legal-protection campaign anchored on strict brand governance and trademark management.",
+    "They demonstrated to federal courts that allowing unauthorised variations of their name on commercial shelves would cause severe brand dilution, blurring the unique visual and verbal identity the company had spent decades and billions building. Where un-monitored copycats would have diluted the brand and lowered its value, proactive governance secured the trademarks and protected the equity. Starbucks won the enforcement battle, establishing a precedent for how corporate brands must aggressively protect their intellectual property to maintain market value."],
+   ex:{t:"Conclusion",b:["Brand governance is the regulatory foundation that protects your creative assets from theft or dilution.","Enforcing strict brand compliance, ethical branding rules, and proactive trademark management secures your intellectual property for long-term growth.","Defending even against a tiny copycat protected a brand asset worth billions."]}},
+  {art:"control",h:"Key Ideas",p:[
+    "Brand governance is the set of rules, controls and legal protections that safeguard a brand's assets. It is the unglamorous but essential foundation that keeps a valuable brand from being eroded, copied or misused.",
+    "Trademark management gives a brand the legal right to its name and identity, and the ability to act against infringement. Starbucks' willingness to litigate even a small parody reflects how seriously large brands must defend their marks to keep them enforceable.",
+    "Brand dilution is the gradual weakening of a brand's distinctiveness when unauthorised or inconsistent uses proliferate. Allowing 'Charbucks' to stand could have blurred the unique identity Starbucks spent decades building — which is why governance acts proactively, not just reactively.",
+    "Brand compliance and proactive audits keep both external infringement and internal inconsistency in check, ensuring the brand is used correctly everywhere. Strong governance protects intellectual property as the long-term, high-value asset it is."]},
+  {art:"steps",h:"Governing the Brand",p:[
+    "Explain why even a large brand would act against a small copycat, using the Starbucks example.",
+    "Describe what a proactive brand audit might check for, both externally (infringement) and internally (inconsistent use).",
+    "Reflect on the Charbucks case: how could allowing the name to stand have weakened Starbucks' brand value?"]}
+ ],
+ activity:"Draft a brief brand-governance policy covering how a company would monitor for trademark infringement, enforce brand compliance internally, and protect against dilution.",
+ check:[
+  {q:"Why did Starbucks pursue the tiny 'Charbucks' roaster?",o:["To prevent brand dilution and keep its trademark strong and enforceable","To make money from the small business","Because the coffee was better","It was legally forced to buy them"],a:0},
+  {q:"What is brand dilution?",o:["The gradual weakening of a brand's distinctiveness when unauthorised or inconsistent uses spread","A drink recipe","A discount strategy","A type of advertisement"],a:0},
+  {q:"What is brand governance?",o:["The rules, controls and legal protections that safeguard a brand's assets","A marketing campaign","A pricing model","A social media schedule"],a:0}
+ ]},
+
+{id:"abm15",n:15,title:"Leadership in Brand Management",mins:60,icon:"Users",summary:"Aligning internal culture with the external brand promise through change management, cross-functional collaboration and innovation leadership.",
+ keyWords:["brand leadership","culture change","collaboration","change management"],
+ sections:[
+  {art:"agency",h:"The Turnaround That Required Overhauling an Entire Corporate Mindset",p:[
+    "In 2014, Satya Nadella took command of Microsoft as its third CEO. At the time, the tech pioneer suffered from severe internal stagnation and a toxic public reputation. Internal engineering teams were locked in cross-functional combat, actively sabotaging each other's projects to win internal funding. The brand was widely viewed as an arrogant, defensive monopoly that had missed the mobile and cloud waves.",
+    "Nadella realised he could not save the brand by changing software code; he had to execute a masterclass in leadership and change management.",
+    "He systematically dismantled the old 'know-it-all' culture and replaced it with a 'learn-it-all' culture centred on innovation and collaboration. He required senior directors to practise emotional intelligence and open collaboration, evaluating managers on how well they supported other teams rather than just their isolated figures. This internal cultural transformation revitalised the product pipeline and added over a trillion dollars to Microsoft's brand value within a decade."],
+   ex:{t:"Conclusion",b:["True brand leadership requires aligning your internal corporate culture with your external market promise.","Mastering change management, building cross-functional collaboration, and driving innovation leadership let an executive guide teams through complex disruptions successfully.","Fixing the internal culture, not the code, added a trillion dollars in brand value."]}},
+  {art:"achieve",h:"Key Ideas",p:[
+    "Brand leadership recognises that a brand is ultimately delivered by people, so the internal culture must align with the external promise. Microsoft's toxic internal combat directly produced its stagnant, arrogant external image — the two were inseparable.",
+    "Change management is the discipline of guiding an organisation through transformation. Nadella didn't just announce new values; he changed how managers were evaluated (rewarding cross-team support), which actually shifted behaviour.",
+    "Cross-functional collaboration replaces internal rivalry with shared goals. Nadella's 'learn-it-all' culture and emphasis on supporting other teams unlocked the innovation that had been sabotaged by internal competition.",
+    "Innovation leadership means creating the conditions — psychological safety, collaboration, a learning mindset — in which teams can innovate. The lesson is that revitalising a brand often starts inside: align culture with the brand promise, and the external results follow, as Microsoft's trillion-dollar recovery showed."]},
+  {art:"steps",h:"Leading Cultural Change",p:[
+    "Explain how a toxic or misaligned internal culture could damage a brand's external reputation, using Microsoft as an example.",
+    "Describe one concrete change (like how managers are evaluated) that would actually shift behaviour, not just messaging.",
+    "Reflect on Nadella: why did changing culture matter more than changing the product code?"]}
+ ],
+ activity:"Outline a leadership plan to align a company's internal culture with its external brand promise, including one measurable change to how people are evaluated or rewarded.",
+ check:[
+  {q:"How did Nadella revitalise Microsoft's brand?",o:["By transforming the internal culture from 'know-it-all' rivalry to collaborative 'learn-it-all'","By rewriting the software code","By firing all engineers","By buying a competitor"],a:0},
+  {q:"Why must internal culture align with the external brand promise?",o:["A brand is delivered by people, so internal culture directly shapes external reputation","Culture has no effect on brands","Only advertising shapes a brand","Employees never influence customers"],a:0},
+  {q:"What made Nadella's culture change real rather than just words?",o:["He changed how managers were evaluated — rewarding cross-team support","He printed new posters","He raised prices","He avoided all change"],a:0}
+ ]},
+
+{id:"abm16",n:16,title:"Entrepreneurship and Brand Strategy",mins:60,icon:"Lightbulb",summary:"How early-stage startups out-manoeuvre legacy giants with authoritative founder branding, high-value content loops and lifestyle positioning instead of raw capital.",
+ keyWords:["startup branding","founder brand","content loops","direct-to-consumer"],
+ sections:[
+  {art:"achieve",h:"Scaling a Suitcase Company from a Blog to a $1.4 Billion Disruptor",p:[
+    "In 2015, two entrepreneurs, Steph Korey and Jen Rubio, wanted to enter the global luggage market. Traditional suitcase brands had massive manufacturing budgets and deep retail networks, positioning their products as dull, functional boxes for the airplane cargo hold. The founders lacked the millions required for a massive traditional TV and billboard campaign.",
+    "They chose an elegant entrepreneurship-and-brand-strategy path, leveraging content marketing to build a startup brand from scratch.",
+    "Instead of buying generic product ads, they interviewed hundreds of frequent travellers and published a premium, beautifully designed digital travel magazine called Here. They positioned their luggage brand, Away, not as a manufacturing box but as an essential companion for life-changing travel experiences. Jen Rubio used her personal founder brand on social media, sharing behind-the-scenes startup stories that built investor authority. Within three years, their direct-to-consumer strategy scaled the startup into a $1.4 billion enterprise, proving that smart branding outpaces raw capital."],
+   ex:{t:"Conclusion",b:["Entrepreneurship and brand strategy let early-stage startups out-manoeuvre legacy giants.","Cultivating an authoritative founder brand, executing sharp investor branding, and building high-value content loops let you scale a brand rapidly with minimal capital.","A travel magazine and a lifestyle hook beat competitors' factory budgets."]}},
+  {art:"build",h:"Key Ideas",p:[
+    "Startups rarely win by outspending incumbents; they win with smarter brand strategy. Away couldn't match legacy luggage budgets, so it competed on meaning — positioning luggage as part of a travel lifestyle rather than a functional box.",
+    "High-value content loops (like the Here magazine) attract and engage an audience by offering genuine value, building a brand community before hard-selling a product. This content-first approach is far cheaper and more effective for startups than generic ads.",
+    "A founder's personal brand is a powerful startup asset. Jen Rubio's visible, authentic presence built trust with both customers and investors — 'investor branding' — giving the young company credibility and reach that money alone couldn't buy.",
+    "A direct-to-consumer model, combined with lifestyle positioning and content, let Away scale rapidly with minimal capital. The lesson is that in the modern economy, smart, authentic branding can out-manoeuvre the raw capital and retail muscle of legacy giants."]},
+  {art:"steps",h:"Branding a Startup",p:[
+    "Take a functional product and reposition it around a lifestyle or emotional hook, as Away did with travel.",
+    "Describe a high-value content idea that would attract an audience before hard-selling the product.",
+    "Reflect on Away: why did content and founder branding beat competitors with far bigger budgets?"]}
+ ],
+ activity:"Design a lean brand strategy for a startup competing against bigger rivals, using lifestyle positioning, a content loop, and founder branding instead of a large ad budget.",
+ check:[
+  {q:"How did Away compete against big-budget luggage brands?",o:["Smart branding — lifestyle positioning, content loops and founder branding, not raw ad spend","By spending more on TV ads","By making cheaper suitcases","By copying competitors exactly"],a:0},
+  {q:"What is a high-value content loop?",o:["Offering genuine value (like a travel magazine) to attract and engage an audience before selling","A type of factory","A discount coupon","A legal filing"],a:0},
+  {q:"Why is a founder's personal brand valuable to a startup?",o:["It builds authentic trust with customers and investors that money alone cannot buy","It is legally required","It replaces the product","It lowers manufacturing cost"],a:0}
+ ]},
+
+{id:"abm17",n:17,title:"Industry Applications",mins:60,icon:"BookOpen",summary:"Tailoring strategic positioning to each sector's unique trust requirements — because brand parameters must match the specific industry application.",
+ keyWords:["industry-specific","sector positioning","trust requirements","tailoring"],
+ sections:[
+  {art:"help",h:"The Hospital Network That Brand-Positioned a Medical Promise",p:[
+    "In 2006, the Cleveland Clinic was widely recognised as a brilliant medical research centre, but its public perception was cold, sterile and intimidating. Patients viewed it as an academic space of medical treatments rather than a sanctuary of recovery. CEO Dr. Toby Cosgrove realised that brand management in healthcare requires a completely different emotional hook from selling consumer retail products — it requires managing human vulnerability and anxiety.",
+    "Cosgrove realigned the entire hospital system around a simple, four-word promise: 'Patients First.'",
+    "He didn't just print the slogan; he transformed every industry-specific touchpoint. He required every employee — from neurosurgeons to cleaning staff — to undergo specialised communication training to see themselves as active caregivers. They launched empathy-based content channels, designed quiet hospital layouts, and measured patient feedback as their primary metric of success. This tailored strategy turned Cleveland Clinic into a trusted household name, demonstrating that brand parameters must match the specific industry application."],
+   ex:{t:"Conclusion",b:["Brand management is a highly nuanced discipline that changes across sectors.","Whether leading a fast-moving consumer-goods brand, an elite school, a healthcare network, or an NGO, you must tailor your positioning to the unique trust requirements of your industry.","Healthcare branding had to manage vulnerability and care, a hook no retail formula could provide."]}},
+  {art:"roles",h:"Key Ideas",p:[
+    "The universal principles of brand management apply everywhere, but their application changes dramatically by sector. Cleveland Clinic proved a hospital cannot brand itself like a consumer product; each industry has a distinct emotional core.",
+    "Every sector has a specific trust requirement to build around. Fast-moving consumer goods compete on desire and differentiation; education on outcomes and credibility; NGOs on mission and transparency; healthcare, as shown, on vulnerability, safety and human care.",
+    "Tailoring means identifying that core trust requirement and aligning every touchpoint with it. 'Patients First' worked because it spoke to exactly what vulnerable patients needed, and because Cosgrove backed it operationally — training, environments and metrics all reoriented around it.",
+    "The practical skill is diagnosing a sector's unique trust needs and shaping strategic positioning, messaging and operations to meet them. Sector-appropriate branding lives in operations and culture, not just slogans — the same lesson across every industry application."]},
+  {art:"steps",h:"Tailoring by Sector",p:[
+    "Pick two different sectors and name the specific trust requirement a brand must satisfy in each.",
+    "Write a short positioning promise for one sector that speaks to its emotional core, as 'Patients First' did for healthcare.",
+    "Reflect on Cleveland Clinic: why did the same branding logic need a completely different hook in healthcare than in retail?"]}
+ ],
+ activity:"Choose an industry and design a sector-appropriate brand positioning plus one operational change that would make its promise real, matching the sector's specific trust requirement.",
+ check:[
+  {q:"What did Cleveland Clinic's 'Patients First' recognise about healthcare branding?",o:["It must manage human vulnerability and care, a different hook from retail products","That hospitals should advertise like snacks","That slogans alone build trust","That branding is unnecessary in healthcare"],a:0},
+  {q:"Why does brand management change across industries?",o:["Each sector has a distinct emotional core and trust requirement","Branding never works","Every sector is identical","Only retail has brands"],a:0},
+  {q:"Where does sector-appropriate branding actually live?",o:["In operations and culture, not just slogans","Only on posters","Only in the logo","Only in the price"],a:0}
+ ]},
+
+{id:"abm18",n:18,title:"International Branding",mins:60,icon:"Target",summary:"Balancing global visual consistency with deep local adaptation — thinking locally to succeed internationally without losing core identity.",
+ keyWords:["international branding","localization","cross-cultural","global vs local"],
+ sections:[
+  {art:"global",h:"The Global Fast-Food Giant That Served Spiced Potato Burgers to Win a Nation",p:[
+    "In 1996, American fast-food giant McDonald's was expanding into India. The corporate brand was built entirely around beef burgers and standard Western consumer behaviour. But expansion directors hit a massive cultural wall: over 80% of the local population did not eat beef due to deep religious traditions. Copying their exact standard American menu would have caused severe cultural offence, an immediate national boycott, and a multi-million-dollar failure.",
+    "The company executed a historic masterclass in international branding and cross-cultural market entry. They threw out their global standardisation model and committed entirely to localisation.",
+    "They built a completely unique supply chain from scratch, launching a beef-free menu tailored to local behaviour. They engineered the McAloo Tikki — a burger made from a spiced potato and pea patty — and ensured kitchens had separate vegetarian and non-vegetarian preparation decks to honour local traditions. By respecting cross-cultural values while keeping their iconic golden-arches visual identity, they won the market, proving that global brands must think locally to survive internationally."],
+   ex:{t:"Conclusion",b:["International branding requires balancing global visual standardisation with deep local adaptation.","Thorough cross-cultural research and smart localisation let an organisation enter new global markets successfully without losing its core identity.","Keeping the golden arches while completely rethinking the menu won an entire nation."]}},
+  {art:"migrate",h:"Key Ideas",p:[
+    "International branding lives in the tension between global consistency and local adaptation. McDonald's kept its instantly recognisable visual identity (the golden arches) while radically adapting its actual product to local culture — the balance every global brand must strike.",
+    "Cross-cultural research is essential before entry. McDonald's success hinged on recognising that 80% of the population didn't eat beef; ignoring that would have been catastrophic. Understanding local values, behaviours and sensitivities is non-negotiable.",
+    "Localisation means genuinely adapting the offer — not just translating it — to fit local needs, as the beef-free menu and separate preparation decks did. Superficial standardisation ('blast the global formula everywhere') invites backlash; deep localisation earns trust.",
+    "The guiding principle is 'think globally, act locally': maintain the core identity and quality that make the brand recognisable and trusted, while adapting the specifics to each market's culture. Done well, this lets a brand grow internationally without diluting or betraying its core identity."]},
+  {art:"steps",h:"Branding Across Cultures",p:[
+    "Take a global brand and identify what it should keep consistent worldwide versus what it should adapt locally.",
+    "Describe a cultural factor in a specific market that would force a real adaptation, as beef did for McDonald's India.",
+    "Reflect on McDonald's India: why did deep localisation succeed where copying the standard menu would have failed?"]}
+ ],
+ activity:"Plan a market-entry strategy for a global brand into a culturally different country, specifying what stays globally consistent and what you would localise, based on the market's specific values.",
+ check:[
+  {q:"How did McDonald's succeed in India?",o:["It kept its visual identity but localised deeply, creating a beef-free menu like the McAloo Tikki","It served its exact American menu unchanged","It removed the golden arches","It refused to adapt at all"],a:0},
+  {q:"What tension defines international branding?",o:["Balancing global visual consistency with deep local adaptation","Choosing only global or only local, never both","Avoiding all research","Copying competitors abroad"],a:0},
+  {q:"What does 'think globally, act locally' mean?",o:["Keep the core identity recognisable while adapting specifics to each market's culture","Ignore local culture entirely","Change the logo in every country","Use one identical product worldwide"],a:0}
+ ]},
+
+{id:"abm19",n:19,title:"Capstone Brand Strategy Project",mins:90,icon:"Users",summary:"Binding brand audit, personas, positioning, identity system, communication, CX and performance measurement into one cohesive, production-ready master strategy.",
+ keyWords:["capstone","brand strategy","integration","performance measurement"],
+ sections:[
+  {art:"achieve",h:"The Master Blueprint That Won a Global Strategic Directorship",p:[
+    "In 2026, a mid-career marketing specialist wanted to land a premium, high-paying remote role as a Global Brand Strategy Director for an international enterprise. The market was intensely competitive, with thousands of applicants sending standard two-page CVs full of buzzwords like 'creative leader'. The specialist knew elite companies don't care about empty claims; they demand hard, verifiable evidence of strategic planning and execution capability.",
+    "The specialist treated their final academy capstone brand-strategy project as a professional launchpad, building a comprehensive strategy for an organisation.",
+    "They performed a rigorous brand audit and competitor analysis backed by market research; constructed detailed customer personas and a unique value-proposition statement; engineered a unified brand identity system and an integrated communication plan; layered in a multi-channel digital marketing strategy and a customer-experience map; and finalised with a data-driven performance-measurement framework tracking return on investment. They packaged this master blueprint into a sleek digital presentation and sent it to the hiring board. While other applicants sent theoretical text, this graduate presented a production-ready brand-strategy roadmap — and won the position with a premium global package, proving a well-executed capstone is the ultimate path to professional growth."],
+   ex:{t:"Conclusion",b:["The Capstone Brand Strategy Project is the ultimate demonstration of your transformation into an elite brand architect.","Binding brand audits, persona models, positioning statements, visual rules, communication matrices and performance tracking into one cohesive master plan provides undeniable proof of capability.","An integrated, production-ready strategy beat every buzzword-filled CV."]}},
+  {art:"culture",h:"Key Ideas",p:[
+    "The capstone brings together every discipline in this masterclass — strategy, consumer psychology, research, positioning, identity systems, communication, experience, reputation, growth, data, and governance — into one coherent strategy for a single organisation.",
+    "Its power is integration and evidence. The specialist won not by claiming skills but by demonstrating them in a complete, connected plan where each part (audit, personas, positioning, identity, communication, CX, measurement) reinforced the others.",
+    "A rigorous brand audit and competitor analysis ground the strategy in reality, while a data-driven performance-measurement framework proves the plan can be evaluated and optimised — reflecting the data-driven discipline from earlier in the course.",
+    "Presenting the work as a polished, production-ready blueprint rather than a text CV is itself a demonstrated executive skill. A well-executed, integrated, measurable brand strategy is undeniable proof of readiness to architect and lead real brands at a global level."]},
+  {art:"steps",h:"Building Your Capstone",p:[
+    "Choose an organisation and list the components your strategy would combine: audit, personas, positioning, identity system, communication, CX map and measurement.",
+    "Describe how you would keep the components integrated so they reinforce one another into one coherent strategy.",
+    "Reflect on the specialist's success: why did an integrated, measurable, production-ready plan beat buzzword CVs?"]}
+ ],
+ activity:"Write a one-page outline of a complete brand-strategy capstone for a chosen organisation, listing each component and explaining how they integrate into one cohesive, measurable master plan.",
+ check:[
+  {q:"What won the specialist the Global Brand Strategy Director role?",o:["An integrated, production-ready brand strategy proving real capability, not buzzwords","A two-page CV of catchphrases","The lowest salary request","A single logo design"],a:0},
+  {q:"What is the key strength of the capstone project?",o:["Integration and evidence — every component reinforces the others in one coherent, demonstrated strategy","Keeping the parts unrelated","Using only one discipline","Avoiding any measurement"],a:0},
+  {q:"What role does the performance-measurement framework play?",o:["It proves the strategy can be evaluated and optimised with data","It is decorative only","It replaces the strategy","It hides the results"],a:0}
+ ]}
+];
+
+const ABM_Q=[
+// Module 1: Strategic Brand Management (6)
+{ao:"Strategic BM",q:"What damaged Under Armour's brand?",o:["Chasing short-term discount sales, which eroded its premium brand equity","A faulty product line","A failed ad campaign","A leadership scandal"],a:0},
+{ao:"Strategic BM",q:"What is brand equity?",o:["The commercial value a brand name adds beyond the physical product","The number of stores owned","Manufacturing cost","A trademark"],a:0},
+{ao:"Strategic BM",q:"What does strategic brand management prioritise?",o:["The long-term health of the brand asset over short-term quarterly sales","Maximising discounts","Transaction volume only","Copying rivals' prices"],a:0},
+{ao:"Strategic BM",q:"What is a sustainable competitive advantage?",o:["An edge rivals cannot easily copy","The lowest price today","A short-term promotion","A larger ad budget"],a:0},
+{ao:"Strategic BM",q:"How did Under Armour begin its turnaround?",o:["By pausing mass discounts and anchoring a multi-year brand-planning blueprint","By discounting even more","By closing the company","By copying a competitor"],a:0},
+{ao:"Strategic BM",q:"Why did protecting the premium name matter?",o:["It restored asset value and the ability to command premium pricing","Premium names are cheaper to make","It was legally required","It reduced product quality"],a:0},
+
+// Module 2: Consumer Behaviour and Brand Psychology (5)
+{ao:"Brand Psychology",q:"Why were the cloud-storage sign-ups initially low?",o:["Complex technical charts caused decision paralysis","The price was far too high","The product did not exist","There was no internet"],a:0},
+{ao:"Brand Psychology",q:"What is choice architecture?",o:["The deliberate design of how options are presented, including defaults","A building style","A pricing law","A trademark rule"],a:0},
+{ao:"Brand Psychology",q:"What did reframing storage as 'protecting family memories' achieve?",o:["Turned a technical cost into an emotional benefit, tripling sign-ups","Raised the price","Confused customers","Removed the trial"],a:0},
+{ao:"Brand Psychology",q:"What does behavioural economics show about decisions?",o:["People are influenced by defaults, framing and emotion, not pure logic","People are perfectly rational","Emotion never matters","Price is the only factor"],a:0},
+{ao:"Brand Psychology",q:"What lifted subscription activation by 300%?",o:["A low-friction free-trial default and emotional reframing","A higher price","More technical charts","Removing the product"],a:0},
+
+// Module 3: Brand Research and Market Intelligence (5)
+{ao:"Brand Research",q:"Why did LEGO's survey-driven strategy nearly fail?",o:["Superficial surveys gave a confident but wrong answer — that children wanted easier toys","Surveys are always accurate","The bricks were defective","Competitors copied them"],a:0},
+{ao:"Brand Research",q:"What is ethnographic research?",o:["Observing customers in their real environment rather than asking abstract questions","A type of survey","A pricing study","A legal audit"],a:0},
+{ao:"Brand Research",q:"What did deep observation reveal about children and LEGO?",o:["They valued mastering a difficult skill, not cheap, easy toys","They disliked building","They preferred only video games","They wanted no toys"],a:0},
+{ao:"Brand Research",q:"What is the difference between quantitative and qualitative research?",o:["Quantitative measures what people say in numbers; qualitative observes what they actually do in depth","They are identical","Qualitative uses only surveys","Quantitative is always wrong"],a:0},
+{ao:"Brand Research",q:"What does competitor analysis provide?",o:["An understanding of what rivals offer and where real opportunities and threats lie","A product's price","A trademark","A logo design"],a:0},
+
+// Module 4: Advanced Brand Positioning (6)
+{ao:"Adv Positioning",q:"How did Avis finally beat its losses against Hertz?",o:["By celebrating its No. 2 status as a reason to try harder — bold, ownable differentiation","By claiming to be as big as Hertz","By cutting prices below cost","By copying Hertz's ads"],a:0},
+{ao:"Adv Positioning",q:"What does advanced positioning require?",o:["Owning a distinct, defensible space the leader cannot credibly claim","Imitating the market leader","Advertising more loudly","Lowering prices constantly"],a:0},
+{ao:"Adv Positioning",q:"What did Avis do with its apparent weakness?",o:["Reframed being No. 2 into a believable benefit — harder-working service","Hid it","Denied it","Sold the company"],a:0},
+{ao:"Adv Positioning",q:"Why did Avis's copycat campaigns fail first?",o:["Consumers were sceptical of claims that Avis was just as big as the leader","They were too expensive","They used no words","Hertz banned them"],a:0},
+{ao:"Adv Positioning",q:"What must a unique value proposition be?",o:["Both distinct and believable","The lowest price","A legal document","A copy of the leader's"],a:0},
+{ao:"Adv Positioning",q:"How long did the Avis positioning framework endure?",o:["Around fifty years","One month","One week","It never worked"],a:0},
+
+// Module 5: Brand Identity Systems (5)
+{ao:"Identity Systems",q:"What problem did FedEx's identity overhaul solve?",o:["Fragmented, mismatched identities across acquired companies confusing customers","A shortage of trucks","Slow shipping","High fuel costs"],a:0},
+{ao:"Identity Systems",q:"What is brand architecture?",o:["How products, divisions or sub-brands relate to and organise under the master brand","An office building","A single logo","A pricing model"],a:0},
+{ao:"Identity Systems",q:"How did FedEx keep divisions distinct yet unified?",o:["Colour-coding each division while keeping one shared core logo frame","Giving each a separate logo","Removing colour","Using no guidelines"],a:0},
+{ao:"Identity Systems",q:"Why does naming strategy matter?",o:["A punchy, universal name like 'FedEx' strengthens the verbal identity","Names never matter","Longer names are always better","Only the logo matters"],a:0},
+{ao:"Identity Systems",q:"What do brand guidelines do?",o:["Codify logo, colour, architecture, naming and voice so every team stays consistent","Set the product price","Design the factory","Hire staff"],a:0},
+
+// Module 6: Brand Communication Strategy (6)
+{ao:"Comm Strategy",q:"How did Johnson & Johnson save the Tylenol brand?",o:["Radical transparency, a costly recall, and putting safety before profits","Denying responsibility and hiding","Lowering the price","Blaming customers"],a:0},
+{ao:"Comm Strategy",q:"What is integrated marketing communications?",o:["Coordinating every message so all channels align in one consistent voice","Using one channel only","Avoiding communication","Sending contradictory messages"],a:0},
+{ao:"Comm Strategy",q:"Why did Burke's message carry credibility?",o:["The company acted on it, recalling 31 million bottles at huge cost","It was cheap","Lawyers approved it","It avoided real action"],a:0},
+{ao:"Comm Strategy",q:"How much market share did Tylenol regain within a year?",o:["About 90%","Zero","10%","It never recovered"],a:0},
+{ao:"Comm Strategy",q:"What did the lawyers wrongly advise Burke to do?",o:["Deny responsibility, hide from the press, and protect the balance sheet","Recall the product","Hold open press briefings","Apologise publicly"],a:0},
+{ao:"Comm Strategy",q:"Why is communication the ultimate line of defence in a crisis?",o:["How a brand communicates under pressure defines its long-term reputation","Communication is never important","Only price matters in a crisis","Silence always works best"],a:0},
+
+// Module 7: Digital Brand Management (5)
+{ao:"Digital BM",q:"Why did Oreo's blackout post beat expensive TV ads?",o:["An agile command centre seized a live moment in real time while staying on-brand","It was a paid ad","It took weeks to prepare","It was pure luck"],a:0},
+{ao:"Digital BM",q:"What makes real-time brand response possible?",o:["An agile team with authority to act quickly and stay on-brand","A slow approval process","Avoiding social media","A bigger budget alone"],a:0},
+{ao:"Digital BM",q:"What does continuous reputation monitoring provide?",o:["Real-time awareness of opportunities and threats","A one-time report","A trademark","A discount"],a:0},
+{ao:"Digital BM",q:"What is an omnichannel strategy?",o:["Showing one consistent identity across every digital channel","Using a single channel","Contradicting the brand online","Avoiding all channels"],a:0},
+{ao:"Digital BM",q:"What is digital brand management fundamentally about?",o:["Real-time relevance and structured community building","Slow, cautious advertising","Print media only","Avoiding customers"],a:0},
+
+// Module 8: Brand Experience Management (5)
+{ao:"Experience Mgmt",q:"What made the Zappos pizza moment possible?",o:["Empowered staff free to act, because Zappos linked employee and customer experience","A strict script","A food partnership","A legal obligation"],a:0},
+{ao:"Experience Mgmt",q:"What is customer journey mapping?",o:["Charting every touchpoint a customer passes through so each can be designed intentionally","A single transaction","A pricing chart","A trademark"],a:0},
+{ao:"Experience Mgmt",q:"Why did Zappos ignore call-duration metrics?",o:["They measured delight and loyalty instead, which built lasting relationships","Metrics are illegal","They had no phones","Short calls upset customers"],a:0},
+{ao:"Experience Mgmt",q:"What does linking CX with EX mean?",o:["Well-treated, empowered employees create better customer experiences","Customers and employees never interact","Only customers matter","Only employees matter"],a:0},
+{ao:"Experience Mgmt",q:"What share of Zappos sales came from returning customers?",o:["About 75%","Under 5%","Exactly half","None"],a:0},
+
+// Module 9: Corporate Reputation Management (6)
+{ao:"Reputation Mgmt",q:"How did Pepsi defeat the syringe hoax?",o:["Radical transparency — facility tours and security footage exposing the fraud","By staying silent","By recalling all products forever","By suing news stations"],a:0},
+{ao:"Reputation Mgmt",q:"Why is a prepared crisis-communication protocol valuable?",o:["It lets a brand respond fast and decisively instead of panicking","It is legally required","It replaces the product","It guarantees no crises"],a:0},
+{ao:"Reputation Mgmt",q:"What is the most powerful tool against false claims?",o:["Transparency and hard evidence no denial can match","Aggressive denial","Corporate silence","Lower prices"],a:0},
+{ao:"Reputation Mgmt",q:"What evidence did Pepsi show to break the hoax?",o:["Its sealed automated canning line and footage of a consumer inserting a syringe in a store","Nothing at all","A price list","A new logo"],a:0},
+{ao:"Reputation Mgmt",q:"How fast did copycat claims spread?",o:["Over fifty claims across twenty states within 48 hours","One claim in a year","None","Only in one city forever"],a:0},
+{ao:"Reputation Mgmt",q:"Why is corporate reputation described as fragile?",o:["It can be attacked suddenly and spread virally, as the hoax did","It never changes","It is only a logo","It cannot be damaged"],a:0},
+
+// Module 10: Brand Growth and Expansion (5)
+{ao:"Growth",q:"How did Armani expand without diluting its brand?",o:["It extended into luxury hotels and controlled every detail to match its elegance","It stamped its logo on cheap products","It lowered prices","It sold the company"],a:0},
+{ao:"Growth",q:"What is a brand extension?",o:["Moving a brand into a new product category or sector","Closing a business","An advertisement","A price cut"],a:0},
+{ao:"Growth",q:"What separates a successful extension from a damaging one?",o:["Identity preservation — the extension must uphold the brand's core meaning and quality","The size of the logo","The number of products","The lowest price"],a:0},
+{ao:"Growth",q:"Why did Armani's core market need expansion?",o:["Its core luxury-clothing market was hitting a growth ceiling","It had no customers","It went bankrupt","It lost its identity"],a:0},
+{ao:"Growth",q:"What is the main risk of careless expansion?",o:["Diluting the brand equity that made the brand valuable","Making too much profit","Gaining too many customers","Improving quality"],a:0},
+
+// Module 11: Data-Driven Brand Management (5)
+{ao:"Data-Driven BM",q:"How did Netflix de-risk its bet on House of Cards?",o:["By analysing real viewing data to predict the audience before filming","By trusting intuition","By copying another show","By spending more on stars"],a:0},
+{ao:"Data-Driven BM",q:"What is predictive analytics?",o:["Using behavioural data patterns to forecast outcomes and reduce risk","Guessing based on gossip","A focus group","A legal audit"],a:0},
+{ao:"Data-Driven BM",q:"What does Return on Brand Investment (ROBI) measure?",o:["Whether brand spending actually builds value","The number of employees","A product's weight","A trademark's age"],a:0},
+{ao:"Data-Driven BM",q:"What was the traditional TV pilot failure rate Netflix bypassed?",o:["About 80%","About 5%","Zero","Exactly 50% and unavoidable"],a:0},
+{ao:"Data-Driven BM",q:"Does data-driven management remove creativity?",o:["No — it directs creativity with evidence rather than replacing it","Yes, entirely","Creativity is illegal","Only data matters, never ideas"],a:0},
+
+// Module 12: AI and Emerging Technologies (5)
+{ao:"AI in Branding",q:"What did Cadbury's AI system do?",o:["Automatically generated over 10,000 hyper-personalised ad variations from real-time data","Produced one generic ad","Replaced the whole team","Stopped advertising"],a:0},
+{ao:"AI in Branding",q:"Why is generic content losing effectiveness?",o:["Consumers ignore content that doesn't match their immediate, hyper-local reality","It is illegal","It costs too much","Screens cannot show it"],a:0},
+{ao:"AI in Branding",q:"What is the key economic shift AI enables?",o:["Personalisation at scale without a proportional rise in budget or staff","Higher cost per ad","Fewer customers","Slower campaigns"],a:0},
+{ao:"AI in Branding",q:"What real-time signals did Cadbury's AI use?",o:["Local neighbourhood, favourite flavour and immediate weather","Only the user's name","Nothing at all","A single fixed template"],a:0},
+{ao:"AI in Branding",q:"What must stay human when AI is used in branding?",o:["Strategy, brand standards and responsible data handling","Nothing at all","Only the file naming","Only the printing"],a:0},
+
+// Module 13: Employer Branding (5)
+{ao:"Employer Branding",q:"How did IKEA handle its AI helper rollout?",o:["It upskilled 8,500 staff into advanced roles instead of laying them off","It laid off all support staff","It cancelled the project","It hid the change"],a:0},
+{ao:"Employer Branding",q:"What is employee advocacy?",o:["Staff becoming credible, authentic ambassadors for the brand","A labour strike","A legal contract","An ad budget"],a:0},
+{ao:"Employer Branding",q:"Why does employer branding affect the external brand?",o:["Internal and external reputation are linked; how you treat staff shapes public perception","It has no effect","It only affects payroll","It is legally required"],a:0},
+{ao:"Employer Branding",q:"What did IKEA turn potential workplace panic into?",o:["An inspiring corporate story about human empowerment","A round of layoffs","A public scandal","A price cut"],a:0},
+{ao:"Employer Branding",q:"Into what roles were IKEA's agents retrained?",o:["Interior-design consultants and complex dispute-resolution managers","Factory cleaners","Delivery drivers only","No new roles"],a:0},
+
+// Module 14: Brand Governance (5)
+{ao:"Governance",q:"Why did Starbucks pursue the tiny 'Charbucks' roaster?",o:["To prevent brand dilution and keep its trademark strong and enforceable","To make money from them","Because the coffee was better","It was forced to buy them"],a:0},
+{ao:"Governance",q:"What is brand dilution?",o:["The gradual weakening of a brand's distinctiveness through unauthorised or inconsistent uses","A drink recipe","A discount","An advertisement"],a:0},
+{ao:"Governance",q:"What is brand governance?",o:["The rules, controls and legal protections that safeguard a brand's assets","A marketing campaign","A pricing model","A social schedule"],a:0},
+{ao:"Governance",q:"What does trademark management give a brand?",o:["The legal right to its identity and the ability to act against infringement","A larger ad budget","Cheaper products","More employees"],a:0},
+{ao:"Governance",q:"What do proactive brand audits check?",o:["Both external infringement and internal inconsistent use","Only the price","Only the logo colour","Nothing important"],a:0},
+
+// Module 15: Leadership in Brand Management (5)
+{ao:"Brand Leadership",q:"How did Nadella revitalise Microsoft's brand?",o:["By transforming the internal culture from rivalry to collaborative 'learn-it-all'","By rewriting the code","By firing all engineers","By buying a competitor"],a:0},
+{ao:"Brand Leadership",q:"Why must internal culture align with the external brand promise?",o:["A brand is delivered by people, so culture directly shapes external reputation","Culture never affects brands","Only advertising shapes a brand","Employees never influence customers"],a:0},
+{ao:"Brand Leadership",q:"What made Nadella's culture change real, not just words?",o:["He changed how managers were evaluated — rewarding cross-team support","He printed posters","He raised prices","He avoided change"],a:0},
+{ao:"Brand Leadership",q:"What is change management?",o:["The discipline of guiding an organisation through transformation","A pricing method","A legal filing","A logo redesign"],a:0},
+{ao:"Brand Leadership",q:"How much value did the culture change add to Microsoft's brand?",o:["Over a trillion dollars within a decade","Nothing","A small loss","Exactly $100"],a:0},
+
+// Module 16: Entrepreneurship and Brand Strategy (5)
+{ao:"Entrepreneurship",q:"How did Away compete against big-budget luggage brands?",o:["Smart branding — lifestyle positioning, content loops and founder branding","By spending more on TV","By making cheaper suitcases","By copying rivals exactly"],a:0},
+{ao:"Entrepreneurship",q:"What is a high-value content loop?",o:["Offering genuine value, like a travel magazine, to attract an audience before selling","A factory","A discount coupon","A legal filing"],a:0},
+{ao:"Entrepreneurship",q:"Why is a founder's personal brand valuable to a startup?",o:["It builds authentic trust with customers and investors that money cannot buy","It is legally required","It replaces the product","It lowers cost"],a:0},
+{ao:"Entrepreneurship",q:"How did Away position its luggage?",o:["As an essential companion for life-changing travel, not a functional box","As the cheapest option","As identical to rivals","As a luxury unavailable to most"],a:0},
+{ao:"Entrepreneurship",q:"What did Away's approach prove?",o:["Smart branding can outpace raw capital","Only big budgets win","Content marketing never works","Startups always fail"],a:0},
+
+// Module 17: Industry Applications (5)
+{ao:"Industry Apps",q:"What did 'Patients First' recognise about healthcare branding?",o:["It must manage human vulnerability and care, a different hook from retail","Hospitals should advertise like snacks","Slogans alone build trust","Branding is unnecessary in healthcare"],a:0},
+{ao:"Industry Apps",q:"Why does brand management change across industries?",o:["Each sector has a distinct emotional core and trust requirement","Branding never works","Every sector is identical","Only retail has brands"],a:0},
+{ao:"Industry Apps",q:"Where does sector-appropriate branding actually live?",o:["In operations and culture, not just slogans","Only on posters","Only in the logo","Only in the price"],a:0},
+{ao:"Industry Apps",q:"What does an NGO typically brand around?",o:["Mission, impact and transparency","The lowest price","Aggressive discounts","Celebrity endorsements only"],a:0},
+{ao:"Industry Apps",q:"How did Cosgrove make 'Patients First' real?",o:["He trained all staff, redesigned layouts and measured patient feedback","He only printed the slogan","He lowered prices","He changed the logo"],a:0},
+
+// Module 18: International Branding (5)
+{ao:"International",q:"How did McDonald's succeed in India?",o:["It kept its visual identity but localised deeply, creating a beef-free menu","It served its American menu unchanged","It removed the golden arches","It refused to adapt"],a:0},
+{ao:"International",q:"What tension defines international branding?",o:["Balancing global visual consistency with deep local adaptation","Choosing only global or only local","Avoiding all research","Copying rivals abroad"],a:0},
+{ao:"International",q:"What does 'think globally, act locally' mean?",o:["Keep the core identity recognisable while adapting specifics to each market","Ignore local culture","Change the logo everywhere","Use one identical product worldwide"],a:0},
+{ao:"International",q:"Why was cross-cultural research essential for McDonald's India?",o:["Over 80% of the population did not eat beef, so the menu had to change","Research is never needed","India had no customers","Beef was cheaper there"],a:0},
+{ao:"International",q:"What did McDonald's create for the Indian market?",o:["The McAloo Tikki, a spiced potato-and-pea patty, with separate veg/non-veg decks","An identical beef burger","No new products","A luxury-only menu"],a:0},
+
+// Module 19: Capstone Brand Strategy Project (6)
+{ao:"Capstone Strategy",q:"What won the specialist the Global Brand Strategy Director role?",o:["An integrated, production-ready brand strategy proving real capability, not buzzwords","A two-page CV of catchphrases","The lowest salary request","A single logo"],a:0},
+{ao:"Capstone Strategy",q:"What is the key strength of the capstone project?",o:["Integration and evidence — every component reinforces the others in one coherent strategy","Keeping parts unrelated","Using only one discipline","Avoiding measurement"],a:0},
+{ao:"Capstone Strategy",q:"What role does the performance-measurement framework play?",o:["It proves the strategy can be evaluated and optimised with data","It is decorative","It replaces the strategy","It hides results"],a:0},
+{ao:"Capstone Strategy",q:"Which components did the capstone combine?",o:["Brand audit, personas, positioning, identity system, communication, CX map and measurement","Only a logo and price","A single email","A list of hobbies"],a:0},
+{ao:"Capstone Strategy",q:"How did the specialist present the work?",o:["As a sleek, production-ready digital blueprint, not a text CV","As a plain resume","As a spoken speech only","They did not present it"],a:0},
+{ao:"Capstone Strategy",q:"What does the capstone ultimately demonstrate?",o:["Transformation into an elite brand architect ready to lead global brands","Memorised definitions only","That branding is unnecessary","That logos are all that matter"],a:0}
+];
+
+const MEL_UNITS=[
+{id:"mel1",n:1,title:"Introduction to Monitoring, Evaluation, and Learning",mins:55,icon:"Target",summary:"What monitoring, evaluation and learning each mean, how they form one continuous cycle, and why MEL is the operational compass of the development sector.",
+ keyWords:["monitoring","evaluation","learning","MEL cycle"],
+ sections:[
+  {art:"help",h:"The Vaccine Campaign That Saved a Million Doses",p:[
+    "In 2018, an international health coalition rolled out a massive, multi-million-dollar immunisation campaign across several sub-Saharan communities. The initial strategy seemed perfect on paper: thousands of vaccine doses were shipped to regional centres based on census data. But three months in, local clinics began reporting severe shortages while central warehouses sat on expiring stock. The programme was failing its primary mandate because leadership was flying blind.",
+    "Dr. Seth Berkley and his MEL operations team intervened to deploy a tight Monitoring, Evaluation, and Learning cycle.",
+    "They initiated routine weekly monitoring to track refrigerator temperatures and stock levels in real time. They conducted rapid internal evaluations to discover why rural clinics faced supply drops, identifying transport bottlenecks. Finally, they embraced learning, systematically shifting stock from over-supplied cities to under-supplied villages. This quick integration of the MEL cycle cut vaccine waste to near-zero, proving that tracking data saves human lives."],
+   ex:{t:"Conclusion",b:["Monitoring, Evaluation, and Learning is the operational compass of the development sector.","Moving past simple project execution and mastering the MEL cycle ensures accountability, data-driven course corrections, and sustainable community impact.","A programme that was 'flying blind' was rescued the moment it started tracking, learning from, and acting on real data."]}},
+  {art:"layers",h:"Key Ideas",p:[
+    "Monitoring is the continuous, routine tracking of what a programme is doing and whether it is on course — like the weekly checks on stock levels and fridge temperatures. It answers 'what is happening right now?' and provides early warning when something goes wrong.",
+    "Evaluation is the periodic, deeper assessment of whether a programme is working and why — the rapid internal studies that uncovered the transport bottleneck. It answers 'is this achieving its goals, and what explains the results?'",
+    "Learning is the deliberate use of what monitoring and evaluation reveal to improve decisions and actions — shifting stock from over-supplied to under-supplied areas. Without learning, data is collected but never acted on.",
+    "Together these form the MEL cycle: monitor continuously, evaluate periodically, learn and adapt, then monitor again. MEL matters because it turns a programme from a hopeful guess into an accountable, self-correcting system that can prove its impact and improve over time — which, as the vaccine story shows, can literally save lives."]},
+  {art:"steps",h:"Understanding the MEL Cycle",p:[
+    "For a simple project you know, describe what you would monitor continuously, what you would evaluate periodically, and how you would use the findings to learn and adapt.",
+    "Identify one decision a programme could get badly wrong by 'flying blind' without monitoring data.",
+    "Reflect on the vaccine campaign: how did each part of the MEL cycle — monitoring, evaluation, learning — contribute to the turnaround?"]}
+ ],
+ activity:"Take a real or imagined programme and outline how you would apply the full MEL cycle to it, giving one concrete example each of monitoring, evaluation, and learning.",
+ check:[
+  {q:"What is monitoring in MEL?",o:["Continuous, routine tracking of what a programme is doing and whether it is on course","A one-time final report","A funding application","A marketing campaign"],a:0},
+  {q:"How did the MEL cycle rescue the vaccine campaign?",o:["Real-time monitoring, rapid evaluation, and learning let the team shift stock to where it was needed","By shipping more doses blindly","By ending the campaign","By ignoring the shortages"],a:0},
+  {q:"What is the difference between monitoring and evaluation?",o:["Monitoring is continuous tracking; evaluation is periodic, deeper assessment of whether and why a programme works","They are identical","Monitoring happens only at the end","Evaluation is done daily"],a:0}
+ ]},
+
+{id:"mel2",n:2,title:"Understanding Development Programmes",mins:60,icon:"BookOpen",summary:"The difference between projects and programmes, the programme life cycle, Theory of Change and Results-Based Management that align activities to long-term impact.",
+ keyWords:["programme vs project","Theory of Change","results-based management","stakeholders"],
+ sections:[
+  {art:"build",h:"The Logic Tree That Restructured an Empire",p:[
+    "In 2013, a prominent youth rehabilitation centre was running dozens of active social projects: music classes, sports events, and temporary shelters. While the youth enjoyed the activities, the centre's long-term funding was threatened because they couldn't prove their activities actually stopped youth reoffending. The organisation was confusing a collection of separate projects with a unified development programme managed around results.",
+    "The board brought in social strategist Dr. David Hunter to restructure their operations using a formal Theory of Change and a Results-Based Management framework.",
+    "Instead of asking 'what activities can we fund tomorrow?', they mapped the ultimate long-term outcome backward: sustainable youth employment. They realised their music classes, while fun, didn't link directly to this goal. They redesigned the programme to prioritise technical skills and mentorship, creating an explicit path that satisfied donors and permanently lifted hundreds of youth out of poverty."],
+   ex:{t:"Conclusion",b:["A development programme is an intentional, structured sequence of interventions designed to solve a core problem.","A rock-solid Theory of Change and Results-Based Management ensure your activities align with your long-term social-impact goals.","Reorganising scattered activities around a clear end-goal transformed a funding-threatened centre into a proven success."]}},
+  {art:"theory",h:"Key Ideas",p:[
+    "A project is a single, time-bound set of activities, while a programme is a larger, coordinated set of projects and activities working toward one overarching goal. The youth centre's mistake was running many disconnected projects instead of one results-driven programme.",
+    "The programme life cycle runs from identifying a problem, through design and implementation, to evaluation and closure or renewal. Understanding this cycle helps you manage a programme deliberately rather than reactively.",
+    "A Theory of Change is a clear map of how and why a set of activities is expected to lead to a desired long-term outcome. Hunter's team built one by working backward from 'sustainable youth employment', which exposed that music classes didn't connect to the goal.",
+    "Results-Based Management (RBM) organises a programme around the results it aims to achieve, not just the activities it performs — constantly asking whether activities actually drive outcomes. Stakeholder engagement (involving the people and organisations affected) keeps a programme grounded and supported. Together, these ensure every activity earns its place by contributing to real, long-term impact."]},
+  {art:"steps",h:"Designing Around Results",p:[
+    "Take a goal you care about and work backward: what long-term outcome do you want, and what activities genuinely lead to it?",
+    "Identify one popular activity that might feel worthwhile but not actually connect to the goal, as the music classes did.",
+    "Reflect on the youth centre: why did organising around a Theory of Change succeed where a collection of fun projects failed?"]}
+ ],
+ activity:"Build a simple Theory of Change for a programme, working backward from a long-term outcome to the activities that genuinely drive it, and note one activity you would drop for not connecting.",
+ check:[
+  {q:"What is the difference between a project and a programme?",o:["A project is a single time-bound set of activities; a programme coordinates many toward one overarching goal","They are identical","A programme is always smaller","A project has no activities"],a:0},
+  {q:"What is a Theory of Change?",o:["A clear map of how and why activities are expected to lead to a desired long-term outcome","A funding form","A staff schedule","A marketing slogan"],a:0},
+  {q:"Why did the youth centre restructure its work?",o:["It was running disconnected fun projects that didn't prove they achieved the real goal","Its activities were too expensive","It had too few youth","It wanted to stop all activities"],a:0}
+ ]},
+
+{id:"mel3",n:3,title:"Results Frameworks",mins:60,icon:"ClipboardCheck",summary:"The logical architecture of impact — inputs, activities, outputs, outcomes and impact — that stops teams hiding behind vanity metrics and keeps focus on real results.",
+ keyWords:["results chain","inputs and outputs","outcomes","impact"],
+ sections:[
+  {art:"chart",h:"Tracking the Chain of Change from Cash to Clean Faucets",p:[
+    "In 2015, an international development agency launched a major clean-water intervention in rural farming areas. The agency spent millions buying water pipes and drilling machinery. But a year in, community health audits showed water-borne diseases were still high. The project directors argued they had succeeded because they bought the pipes and spent the budget — completely missing that their project logic was broken.",
+    "MEL experts stepped in to reconstruct the project's Results Chain. They proved the team was measuring success by inputs (funds spent) and activities (pipes bought), rather than outcomes (families drinking safe water) and impact (lower child mortality).",
+    "They uncovered that while pipes were laid, the water source itself remained heavily contaminated: inputs (funds and machinery) led to activities (laying pipes) and outputs (faucets built), but the chain broke before real outcomes. By adding water treatment, the outputs finally produced outcomes (clean water consumed) and impact (lower illness). Mapping the full Results Framework shifted the team's focus from construction to water treatment, turning raw expenditure into actual community health improvements."],
+   ex:{t:"Conclusion",b:["A Results Framework is the logical architecture of social impact.","Mastering the links between inputs, activities, outputs, outcomes and impact prevents teams from hiding behind vanity activity metrics.","Building faucets meant nothing until the chain reached its true goal: people actually drinking safe water."]}},
+  {art:"layers",h:"Key Ideas",p:[
+    "A Results Framework (or results chain) is the logical sequence connecting what a programme puts in to the change it ultimately creates. Each link matters, and a break anywhere means the final impact fails — as the contaminated water source showed.",
+    "Inputs are the resources a programme uses (funds, staff, machinery). Activities are what the programme does with them (laying pipes, training teachers). Outputs are the direct, countable products of those activities (faucets built, teachers trained).",
+    "Outcomes are the actual changes in people's behaviour or condition that outputs are meant to produce (families drinking safe water). Impact is the long-term, higher-level change that outcomes contribute to (lower child mortality). The water project failed because it counted inputs, activities and outputs but never checked whether real outcomes occurred.",
+    "The crucial discipline is not to mistake 'vanity metrics' — money spent, items bought — for real success. A results framework keeps a team honest by forcing attention all the way down the chain to genuine outcomes and impact, not just the easy-to-count early links."]},
+  {art:"steps",h:"Mapping the Chain",p:[
+    "Take a simple programme and lay out its results chain: inputs, activities, outputs, outcomes, and impact.",
+    "Identify a point where the chain could break — where outputs might exist but real outcomes might not, as with the contaminated water.",
+    "Reflect on the water project: why was 'we bought the pipes and spent the budget' a false measure of success?"]}
+ ],
+ activity:"Draw a complete results chain for a real or imagined programme, distinguishing outputs from outcomes, and explain where the chain would most likely break if not carefully checked.",
+ check:[
+  {q:"Why was the clean-water project failing despite spending millions?",o:["It measured inputs and outputs (pipes bought) but the water source stayed contaminated, so no real outcome occurred","The pipes were too expensive","There were no farmers","The budget was too small"],a:0},
+  {q:"What is the difference between an output and an outcome?",o:["An output is the direct countable product (faucets built); an outcome is the real change in people's condition (safe water consumed)","They are the same","An output is always long-term","An outcome is just money spent"],a:0},
+  {q:"What does a Results Framework prevent?",o:["Teams hiding behind vanity metrics like money spent instead of tracking real results","Any spending at all","The use of any data","Community involvement"],a:0}
+ ]},
+
+{id:"mel4",n:4,title:"Indicators and Performance Measurement",mins:60,icon:"Target",summary:"Turning vague goals into precise, measurable SMART indicators with clear baselines, targets and reference sheets that change behaviour and prove results.",
+ keyWords:["indicators","SMART","baselines","targets"],
+ sections:[
+  {art:"measure",h:"The Anti-Poaching Metrics That Saved the Black Rhino",p:[
+    "In 2016, wildlife conservationists fighting armed poachers in national parks were facing a severe resource drain. Their original performance goal was incredibly vague: 'significantly reduce poaching activity in the park.' Because the goal lacked clear parameters, rangers patrolled randomly, tracking systems were disjointed, and the endangered black rhino population dropped to dangerous lows. The mission was failing because its metric of success was unmeasurable.",
+    "The data team overthrew the vague targets, establishing a precise set of SMART indicators and a clear Indicator Reference Sheet.",
+    "They locked in a specific baseline of 45 poaching incidents per quarter, then designed a targeted indicator: 'achieve a 50% reduction in unauthorised perimeter breaches detected via thermal cameras within 12 months.' This precise indicator changed ranger behaviour completely. They deployed drones to watch specific high-risk zones, hit their target ahead of schedule, and saved the rhino population from localised extinction."],
+   ex:{t:"Conclusion",b:["Indicators are the precise yardsticks used to measure social change.","Designing SMART indicators, defining clear baselines, and maintaining Indicator Reference Sheets turns abstract goals into actionable, verifiable data points.","A vague goal produced random effort; a precise indicator changed behaviour and saved a species."]}},
+  {art:"target",h:"Key Ideas",p:[
+    "An indicator is a specific, measurable signal that tells you whether progress is being made toward a goal. 'Reduce poaching' is not an indicator; 'a 50% reduction in perimeter breaches within 12 months' is — precise and measurable.",
+    "There are different types of indicators along the results chain: input, output, outcome and impact indicators, each measuring a different link. Choosing the right type ensures you measure what actually matters, not just easy-to-count activity.",
+    "SMART indicators are Specific, Measurable, Achievable, Relevant and Time-bound. The rhino team's indicator met all five criteria, which is exactly why it changed how rangers worked, whereas the vague goal left them patrolling randomly.",
+    "Baselines (the starting value, like 45 incidents per quarter) and targets (the goal, like a 50% reduction) give an indicator meaning by defining where you began and where you aim to be. An Indicator Reference Sheet documents precisely how each indicator is defined, measured and sourced, so everyone measures it the same way. Together these turn abstract ambitions into verifiable data."]},
+  {art:"steps",h:"Designing SMART Indicators",p:[
+    "Take a vague goal ('improve health', 'reduce waste') and rewrite it as a SMART indicator with a clear target and timeframe.",
+    "Identify the baseline you would need to measure before you could judge progress against your indicator.",
+    "Reflect on the rhino story: why did a precise indicator change ranger behaviour when a vague goal could not?"]}
+ ],
+ activity:"Convert a vague programme goal into a full SMART indicator with a baseline and target, and describe what an Indicator Reference Sheet for it would document.",
+ check:[
+  {q:"Why was the anti-poaching mission failing at first?",o:["Its goal was vague and unmeasurable, so rangers patrolled randomly","There were no rhinos left","The park was too small","Poaching was already zero"],a:0},
+  {q:"What does SMART stand for in indicators?",o:["Specific, Measurable, Achievable, Relevant, Time-bound","Simple, Modern, Accurate, Rapid, Tidy","Strategic, Major, Applied, Real, Tested","Safe, Managed, Audited, Ranked, Timed"],a:0},
+  {q:"What is a baseline?",o:["The starting value of an indicator, against which progress is measured","The final target","A funding total","A staff list"],a:0}
+ ]},
+
+{id:"mel5",n:5,title:"Monitoring Fundamentals",mins:60,icon:"FlaskConical",summary:"Building a monitoring plan with standardized tools, routine tracking and data quality assurance that protects budgets from waste and fraud.",
+ keyWords:["monitoring plan","data quality assurance","routine monitoring","tools"],
+ sections:[
+  {art:"control",h:"The Cash-Transfer Dashboard That Blocked Ghost Beneficiaries",p:[
+    "In 2019, an emergency humanitarian agency was distributing direct cash assistance to thousands of vulnerable families in a refugee camp. The project used manual paper logs to track distribution. During an internal audit, managers discovered a massive operational leak: cash totals didn't match the number of physical people in the camp, indicating ghost profiles and duplication errors were wasting thousands of dollars of donor funds.",
+    "The director paused distribution to deploy a comprehensive monitoring plan rooted in strict Data Quality Assurance. They replaced the manual paper logs with a routine digital tracking tool linked to biometric fingerprint scanners.",
+    "Now each cash request passed through a fingerprint scanner and a real-time cross-check against the system record: if it matched an active, unique profile, funds were released; if it was a duplicate or ghost profile, it was blocked. Field officers ran daily data-cleaning checks verifying that every transaction matched a real, unique person. This routine monitoring eliminated data errors, blocked fraud, and ensured 100% of the aid budget reached real families in need."],
+   ex:{t:"Conclusion",b:["Monitoring is a continuous operational shield.","A structured monitoring plan, standardised data-collection templates, and data quality assurance protect your budget from waste and maintain institutional trust.","Routine monitoring with quality checks turned a leaking, fraud-prone system into one where every dollar reached a real family."]}},
+  {art:"measure",h:"Key Ideas",p:[
+    "A monitoring plan sets out, in advance, what will be tracked, how often, using which tools, and by whom. Without one, a project drifts and problems (like the cash leak) go unnoticed until an audit. The plan is the backbone of routine monitoring.",
+    "Standardised monitoring tools and templates ensure everyone collects the same data in the same way, making it comparable and reliable. The biometric-linked digital tool replaced inconsistent paper logs precisely to achieve this.",
+    "Data Quality Assurance (DQA) is the set of checks that keep data accurate, complete and trustworthy — the daily verification that each transaction matched a real, unique person. Poor data quality, as the ghost profiles showed, wastes money and destroys trust.",
+    "Routine monitoring means these checks happen continuously, not just once. It acts as an operational shield: catching errors and fraud in real time, protecting the budget, and maintaining the trust of donors and communities. Continuous, quality-assured tracking is what separates a well-run programme from one quietly hemorrhaging resources."]},
+  {art:"steps",h:"Building a Monitoring Plan",p:[
+    "For a programme, list what you would track routinely, how often, and with what tool or template.",
+    "Describe one data quality assurance check that would catch errors or fraud, like verifying each record matches a unique person.",
+    "Reflect on the cash-transfer case: why did routine, quality-assured monitoring succeed where manual paper logs failed?"]}
+ ],
+ activity:"Draft a simple monitoring plan for a programme, specifying what is tracked, how often, the tool used, and at least one data quality assurance check to prevent waste or fraud.",
+ check:[
+  {q:"What did the biometric monitoring system prevent?",o:["Ghost profiles and duplicate claims that were wasting donor funds","Families from receiving any cash","The camp from operating","Staff from being paid"],a:0},
+  {q:"What is a monitoring plan?",o:["A plan setting out what will be tracked, how often, with which tools, and by whom","A final evaluation report","A funding proposal","A marketing schedule"],a:0},
+  {q:"What is Data Quality Assurance (DQA)?",o:["Checks that keep data accurate, complete and trustworthy","A way to collect more money","A type of survey","A staff bonus scheme"],a:0}
+ ]},
+
+{id:"mel6",n:6,title:"Data Collection Methods",mins:60,icon:"Users",summary:"Balancing quantitative and qualitative methods — surveys, interviews and focus groups — to capture the full human story behind the numbers.",
+ keyWords:["quantitative","qualitative","interviews","focus groups"],
+ sections:[
+  {art:"search",h:"The Microfinance Insight Hidden Past the Numbers",p:[
+    "In 2011, a major micro-finance institution launched an evaluation of their loan programmes for women entrepreneurs. They used strict quantitative data collection, distributing thousands of surveys to track income. The numbers looked brilliant: loan repayment rates were at 98%, and household incomes rose. But field workers noticed that despite the good numbers, many female borrowers appeared intensely stressed, and some were dropping out of the programme entirely.",
+    "The evaluation team realised that numbers alone couldn't explain human behaviour. They deployed qualitative methods, conducting deep Key Informant Interviews and private Focus Group Discussions.",
+    "Through these discussions, the women shared a hidden reality: while their businesses made money, the intense social pressure to maintain a perfect repayment rate was causing severe family arguments and emotional strain. This insight allowed the bank to redesign their payment schedules, adding flexible grace periods that protected both the women's businesses and their well-being."],
+   ex:{t:"Conclusion",b:["Data collection requires a careful balance of different methodologies.","Mastering both quantitative surveys and qualitative focus groups, interviews and observation lets you capture the complete story behind your program numbers.","Impressive numbers hid a human crisis that only qualitative methods could reveal."]}},
+  {art:"interpret",h:"Key Ideas",p:[
+    "Quantitative data collection gathers numbers — incomes, repayment rates, counts — that can be measured and compared at scale. It tells you what is happening and how much, as the microfinance surveys did with their 98% repayment figure.",
+    "Qualitative data collection gathers depth — experiences, reasons, feelings — through methods like interviews and focus groups. It explains why the numbers look the way they do, revealing the hidden stress behind the microfinance figures.",
+    "Surveys efficiently collect quantitative data from many people; Key Informant Interviews gather deep insight from knowledgeable individuals; and Focus Group Discussions surface shared experiences and social dynamics through group conversation. Direct observation adds what people do rather than only what they say.",
+    "The essential lesson is balance: numbers and stories together give the complete picture. Relying on quantitative data alone would have missed the emotional crisis; qualitative methods captured the human story that let the bank fix the real problem. Skilled MEL work chooses and combines methods to answer both 'what' and 'why'."]},
+  {art:"steps",h:"Choosing Methods",p:[
+    "Take a question about a programme and decide which quantitative and which qualitative method would best answer it.",
+    "Describe a situation where good numbers might hide a real problem that only interviews or focus groups would reveal.",
+    "Reflect on the microfinance case: why did the excellent repayment numbers still miss something crucial?"]}
+ ],
+ activity:"Design a small mixed-methods data-collection plan for a programme, combining at least one quantitative and one qualitative method, and explain what each would reveal that the other would miss.",
+ check:[
+  {q:"What did qualitative methods reveal in the microfinance case?",o:["That the pressure to keep a perfect repayment rate was causing severe family strain","That incomes were falling","That the surveys were faked","That no one repaid their loans"],a:0},
+  {q:"What is the difference between quantitative and qualitative data?",o:["Quantitative measures numbers and how much; qualitative captures experiences, reasons and feelings","They are identical","Quantitative uses only interviews","Qualitative uses only surveys"],a:0},
+  {q:"What is a Focus Group Discussion?",o:["A group conversation that surfaces shared experiences and social dynamics","A written survey","A financial audit","A solo interview only"],a:0}
+ ]},
+
+{id:"mel7",n:7,title:"Data Management",mins:60,icon:"ClipboardCheck",summary:"Data entry, cleaning, storage, protection and quality standards — because sloppy data management can have catastrophic real-world consequences.",
+ keyWords:["data cleaning","data storage","data protection","quality standards"],
+ sections:[
+  {art:"data",h:"The Spreadsheet Error That Crippled an International Medical Database",p:[
+    "In 2020, during a high-stakes international health crisis, a national health agency was tasked with tracking thousands of daily patient laboratory test results. The data registrars used a standard, manual spreadsheet to manage data entry from multiple regional hospitals. Because the team had no standardised data quality standards or automated entry templates, different hospitals uploaded files with messy formatting, missing entries, and mixed date styles.",
+    "The situation turned disastrous when the central team tried to merge the files without running proper data-cleaning routines.",
+    "A legacy software format used by one office hit its maximum line limit, causing over 16,000 positive patient cases to drop off the system entirely. The data error misled government leaders into relaxing safety measures too early, leading to a severe spike in infections. This crisis proved that poor data storage, loose protection, and sloppy data management can have catastrophic real-world consequences."],
+   ex:{t:"Conclusion",b:["Data management is a critical technical responsibility.","Strict data-cleaning protocols, secure storage, ethical handling, and high data quality standards keep your program metrics accurate, secure, and actionable.","A single unmanaged spreadsheet error dropped 16,000 cases and cost real lives."]}},
+  {art:"control",h:"Key Ideas",p:[
+    "Data entry is where quality begins: without standardised templates, different sources produce inconsistent, messy records — exactly what happened when hospitals uploaded mixed formats. Standardised entry prevents errors from entering the system in the first place.",
+    "Data cleaning is the process of finding and fixing errors, duplicates, missing values and inconsistencies before data is used. The 2020 crisis happened precisely because files were merged without proper cleaning routines.",
+    "Data storage and data protection concern how data is safely kept and secured. Using an inappropriate legacy format with a hidden line limit silently lost 16,000 records; secure, appropriate storage and access controls are essential, especially for sensitive personal data.",
+    "Data quality standards tie all of this together: agreed rules for how data must be formatted, entered, cleaned and stored so it stays accurate and reliable. The lesson is stark — data management is not clerical busywork; poor data directly misled leaders and cost lives, while good management keeps decisions grounded in reality."]},
+  {art:"steps",h:"Managing Data Well",p:[
+    "Describe a standardised data-entry template that would prevent the messy, inconsistent files in the story.",
+    "List two data-cleaning checks you would run before merging data from multiple sources.",
+    "Reflect on the 2020 crisis: how did a technical data-management failure lead to real-world harm?"]}
+ ],
+ activity:"Write a short data-management protocol for a programme covering standardised entry, at least two cleaning checks, and secure storage, explaining how it prevents the kind of failure in the story.",
+ check:[
+  {q:"What caused 16,000 patient cases to disappear?",o:["Messy, unstandardised data merged without cleaning, and a legacy format that hit a line limit","A cyberattack","Deliberate deletion by staff","Too few patients"],a:0},
+  {q:"What is data cleaning?",o:["Finding and fixing errors, duplicates and inconsistencies before data is used","Deleting all data","Collecting more surveys","Storing data on paper"],a:0},
+  {q:"Why is data management described as critical, not clerical?",o:["Poor data directly misled leaders and caused real-world harm","It is only about tidiness","It never affects decisions","It is optional busywork"],a:0}
+ ]},
+
+{id:"mel8",n:8,title:"Introduction to Evaluation",mins:60,icon:"FlaskConical",summary:"Baseline, midline, endline and impact evaluations that provide objective snapshots over time — catching failures early enough to change course.",
+ keyWords:["baseline","midline","endline","impact evaluation"],
+ sections:[
+  {art:"measure",h:"The Midline Audit That Rescued a Five-Year Literacy Campaign",p:[
+    "In 2012, an education non-profit secured a five-year donor grant to improve primary-school literacy in a high-poverty region. They ran a thorough baseline evaluation at the start, documenting that only 20% of third-graders could read a basic sentence. They then distributed thousands of textbooks and launched intensive teacher training across 100 schools, confident their approach was working.",
+    "In 2014, the MEL director insisted on running a rigorous midline evaluation instead of waiting until the end of the five-year cycle. The results were a shocking wake-up call: literacy had stagnated at just 22%.",
+    "The midline audit uncovered that because schools lacked secure storage, textbooks were locked away in principals' offices, and teachers were overwhelmed by large class sizes. This timely evaluation let the team completely pivot — creating open reading corners and deploying volunteer teaching assistants. When the endline and impact evaluations occurred years later, literacy had jumped to 75%, a victory that would have been lost without the midline correction."],
+   ex:{t:"Conclusion",b:["Evaluations provide objective snapshots of a program's value across time.","Mastering baseline, midline, endline and impact evaluations lets you verify performance, justify budgets, and maximise social value.","A midline check caught a near-total failure early enough to turn a 22% result into 75%."]}},
+  {art:"chart",h:"Key Ideas",p:[
+    "The purpose of evaluation is to objectively judge whether a programme is working and why, at key points in its life. Unlike continuous monitoring, evaluations are deeper, periodic assessments that inform major decisions.",
+    "A baseline evaluation measures the situation before a programme begins (20% literacy), giving a starting point against which all progress is judged. Without it, you cannot prove change occurred.",
+    "A midline evaluation happens partway through, and its value is early course-correction: the literacy programme's midline exposed that textbooks were locked away, allowing a pivot years before the grant ended. Waiting until the end would have wasted the entire five years.",
+    "An endline evaluation measures results at a programme's conclusion (75% literacy), while an impact evaluation assesses the longer-term, higher-level change the programme contributed to. Together, these snapshots across time verify performance, justify funding, and — as the literacy story shows — catch failures early enough to fix them."]},
+  {art:"steps",h:"Evaluating Across Time",p:[
+    "For a programme, describe what a baseline, a midline and an endline evaluation would each measure.",
+    "Explain a decision a midline evaluation could enable that waiting until the endline would make impossible.",
+    "Reflect on the literacy campaign: why was insisting on a midline evaluation so important?"]}
+ ],
+ activity:"Plan the evaluation points for a multi-year programme, specifying what each of the baseline, midline and endline would assess, and explain how the midline could rescue the programme if it were failing.",
+ check:[
+  {q:"Why was the midline evaluation so valuable in the literacy campaign?",o:["It exposed the failure early, allowing a pivot that turned 22% into 75% by the end","It ended the programme","It replaced the baseline","It was a marketing report"],a:0},
+  {q:"What does a baseline evaluation do?",o:["Measures the situation before a programme begins, as a starting point for judging change","Measures the final result","Cleans the data","Collects funding"],a:0},
+  {q:"What is the difference between endline and impact evaluation?",o:["Endline measures results at conclusion; impact assesses the longer-term, higher-level change contributed to","They are identical","Impact happens first","Endline is done before the programme starts"],a:0}
+ ]},
+
+{id:"mel9",n:9,title:"Learning and Adaptive Management",mins:60,icon:"Lightbulb",summary:"Reflection sessions, after-action reviews and knowledge management that turn data into fast course-corrections — the difference between high-impact and stagnant teams.",
+ keyWords:["adaptive management","after-action reviews","knowledge management","continuous improvement"],
+ sections:[
+  {art:"agency",h:"The After-Action Review That Restructured the Ebola Response",p:[
+    "In 2014, the initial international response to the West African Ebola epidemic was crippled by a rigid, slow-moving bureaucratic structure. Teams followed standard operating manuals designed for stable environments, causing extreme delays in deploying field clinics and isolating cases. The virus was moving faster than the paperwork, costing thousands of lives because the management model couldn't adapt to real-time data.",
+    "In 2015, Dr. Matshidiso Moeti introduced a culture of Adaptive Management and structured After-Action Reviews. Every Friday, field teams sat down for open reflection sessions to analyse data: what did we plan, what actually happened, and why was there a gap?",
+    "They transformed their knowledge management. If a field team discovered that a specific community burial custom was driving infections, that insight was shared across the response network within hours. Protocols were modified immediately in the field, bypassing weeks of bureaucratic signatures. Where the rigid model let the crisis spread, weekly review loops enabled fast protocol pivots that finally contained the outbreak."],
+   ex:{t:"Conclusion",b:["Organisational learning is what separates high-impact teams from stagnant systems.","Routine after-action reviews, open reflection sessions, and solid knowledge management empower adaptive management and continuous improvement.","Weekly learning loops that changed protocols in hours succeeded where rigid manuals had failed."]}},
+  {art:"achieve",h:"Key Ideas",p:[
+    "Organisational learning is the deliberate practice of turning experience and data into improved action. The rigid Ebola response failed because it never learned or adapted; the adaptive approach succeeded because learning drove rapid change.",
+    "Reflection sessions and After-Action Reviews (AARs) are structured moments to ask three questions: what did we plan, what actually happened, and why the gap? The weekly Friday reviews created a rhythm of honest reflection that surfaced problems fast.",
+    "Knowledge management is how insights are captured and shared across a team or network, so a lesson learned in one place quickly benefits everyone. Sharing the burial-custom insight within hours, rather than weeks, is what let protocols change in time to matter.",
+    "Adaptive management uses this learning to continuously adjust a programme in response to real conditions, rather than rigidly following a fixed plan. Continuous improvement is the result: a team that reflects, shares and adapts routinely becomes dramatically more effective than one locked into slow, unchanging procedures."]},
+  {art:"steps",h:"Building a Learning Culture",p:[
+    "Design a simple after-action review: the three questions you would ask and how often you would hold it.",
+    "Describe how you would share a key insight quickly across a team, as the Ebola network shared the burial-custom finding.",
+    "Reflect on the Ebola response: why did weekly learning loops succeed where rigid manuals failed?"]}
+ ],
+ activity:"Design a learning-and-adaptation routine for a programme, including an after-action review format and a way to share insights fast, and explain how it would enable adaptive management.",
+ check:[
+  {q:"Why did the initial Ebola response fail?",o:["A rigid, slow bureaucratic model couldn't adapt to real-time data as the virus spread","There were no field teams","The manuals were too short","It learned too quickly"],a:0},
+  {q:"What is an After-Action Review?",o:["A structured reflection asking what was planned, what happened, and why there was a gap","A funding report","A staff punishment","A marketing plan"],a:0},
+  {q:"What is adaptive management?",o:["Continuously adjusting a programme in response to real conditions and learning","Following a fixed plan no matter what","Avoiding all data","Reviewing results only once at the end"],a:0}
+ ]},
+
+{id:"mel10",n:10,title:"Reporting and Data Visualization",mins:60,icon:"Video",summary:"Writing concise reports and designing clear charts and interactive dashboards that translate complex data into compelling, decision-ready proof of impact.",
+ keyWords:["MEL reports","data visualization","dashboards","communicating findings"],
+ sections:[
+  {art:"chart",h:"The Interactive Dashboard That Convinced a Major Foundation",p:[
+    "In 2017, a global health NGO was preparing a critical performance report for a major philanthropic foundation, seeking a multi-million-dollar funding renewal for malaria prevention. The project team had compiled a massive 150-page text report packed with raw numbers, long data sheets, and dense paragraphs. The NGO director realised that busy donor executives would never read the heavy document, risking their funding.",
+    "The director hired a data-visualisation expert to compress the 150-page report into a clean, single-page interactive digital dashboard.",
+    "They used maps to show mosquito-net distribution, bright bar charts to highlight falling infection numbers, and a clear timeline tracker proving performance. When the NGO team met the donors, they didn't hand over a heavy paper report; they opened the live dashboard. The board could click on any village and see its precise health metrics instantly. The clarity stunned the donor board, who renewed the funding grant on the spot."],
+   ex:{t:"Conclusion",b:["Data is only as valuable as your ability to communicate it clearly.","Writing concise MEL reports and designing clear charts, graphs and interactive dashboards translates complex datasets into compelling proof of impact.","The same data, shown clearly instead of buried in 150 pages, won the funding instantly."]}},
+  {art:"measure",h:"Key Ideas",p:[
+    "Writing MEL reports well means being concise and focused on what decision-makers need — not burying the message in raw data, as the 150-page draft did. A good report leads with the key findings and their implications.",
+    "Presenting data effectively recognises that how information is shown determines whether it is understood and acted on. The same malaria data was ignored as text and compelling as a dashboard — the content was identical; the presentation changed everything.",
+    "Charts and graphs turn numbers into visual patterns the eye grasps instantly — falling infection lines, distribution maps. Dashboards go further, letting stakeholders explore the data interactively, clicking into any village to see its metrics, which built immediate trust with the donors.",
+    "Communicating findings to stakeholders is the ultimate purpose: matching the format to the audience (busy executives need clarity and interactivity, not dense paragraphs) so the evidence actually drives the decision. Strong visualisation and reporting are what turn hard-won data into secured funding and real influence."]},
+  {art:"steps",h:"Communicating Data Clearly",p:[
+    "Take a set of programme results and decide which few key findings a busy decision-maker most needs to see first.",
+    "Sketch how you would present one of those findings as a simple chart or dashboard element rather than a paragraph.",
+    "Reflect on the malaria dashboard: why did the same data succeed as a dashboard after failing as a 150-page report?"]}
+ ],
+ activity:"Redesign a hypothetical dense data report into a concise, visual summary or dashboard concept for a busy stakeholder, and explain how each choice makes the impact clearer.",
+ check:[
+  {q:"Why did the 150-page malaria report risk losing funding?",o:["Busy donor executives would never read a dense, heavy text document","It contained false data","It was too short","It had no numbers"],a:0},
+  {q:"What advantage does an interactive dashboard offer?",o:["Stakeholders can explore the data themselves, building instant understanding and trust","It hides the data","It removes all charts","It is always on paper"],a:0},
+  {q:"What is the core lesson of this unit?",o:["Data is only as valuable as your ability to communicate it clearly to the right audience","More pages always means more impact","Visualisation is unnecessary","Only raw numbers matter"],a:0}
+ ]},
+
+{id:"mel11",n:11,title:"Digital Tools for MEL",mins:60,icon:"Sparkles",summary:"Using Excel, Google Forms, KoboToolbox, ODK Collect and Power BI to collect data offline in the field and turn it into real-time, life-saving insight.",
+ keyWords:["KoboToolbox","ODK Collect","Power BI","offline data collection"],
+ sections:[
+  {art:"global",h:"How KoboToolbox Saved an Emergency Rescue Operation",p:[
+    "In 2015, a massive earthquake struck a mountainous region, displacing over 100,000 people overnight. Emergency response teams rushed to assess food, medical, and shelter needs. Initially, field workers tried to use standard paper forms to interview survivors. But heavy rains soaked the papers, handwriting was unreadable, and it took days to manually drive the forms back to the central office for data entry into spreadsheets. The delays were blocking aid delivery.",
+    "The MEL officer deployed KoboToolbox and ODK Collect smartphone apps to replace the paper forms. Field workers downloaded the digital forms directly onto their mobile devices.",
+    "They conducted interviews in remote mountain areas completely offline, capturing GPS coordinates and photos. The moment a worker reached a zone with cellular coverage, the smartphone automatically uploaded the data to a central cloud server. In the capital, analysts monitored a live Power BI dashboard tracking real-time needs. This automated data pipeline let the logistics desk deploy medical supplies to high-casualty areas within hours, saving countless lives."],
+   ex:{t:"Conclusion",b:["Digital data-collection tools are an absolute requirement for modern MEL work.","Leveraging Excel, Google Forms, KoboToolbox, ODK Collect and Power BI transforms you into a high-speed, tech-proficient field researcher.","Replacing rain-soaked paper with offline smartphone forms turned days of delay into hours of life-saving response."]}},
+  {art:"data",h:"Key Ideas",p:[
+    "Digital tools have transformed MEL by removing the delays and errors of paper. The earthquake story shows the stakes: paper forms failed in the rain and took days to process, while digital collection delivered usable data in hours.",
+    "KoboToolbox and ODK Collect are mobile data-collection apps designed for exactly these conditions: they let field workers collect data offline on a phone — including GPS and photos — and automatically upload it once a connection is available. This offline-first capability is essential in remote or crisis settings.",
+    "Microsoft Excel and Google Forms are accessible, widely-used tools for organising, entering and collecting data, suitable for many everyday MEL tasks. Knowing them is a practical baseline skill.",
+    "Power BI (and similar tools) turn collected data into live, visual dashboards that decision-makers can monitor in real time — the dashboard the capital-city analysts used to direct supplies. Together, this toolchain — offline collection feeding a live dashboard — is what makes fast, evidence-based field response possible, and fluency in it is now a core MEL competency."]},
+  {art:"steps",h:"Using the Toolchain",p:[
+    "Describe how you would use a mobile tool like KoboToolbox to collect data in an area with no reliable internet.",
+    "Explain how offline collection plus automatic upload plus a live dashboard forms one fast data pipeline.",
+    "Reflect on the earthquake response: why did digital tools save lives that paper forms could not?"]}
+ ],
+ activity:"Plan a digital data-collection pipeline for a field programme using an offline mobile tool and a dashboard, and explain how it would deliver faster, more reliable insight than paper.",
+ check:[
+  {q:"Why did paper forms fail in the earthquake response?",o:["Rain soaked them, handwriting was unreadable, and processing took days","There were no survivors to interview","Paper is illegal","The forms were too short"],a:0},
+  {q:"What makes KoboToolbox and ODK Collect suited to crisis settings?",o:["They collect data offline on a phone and auto-upload when a connection is available","They require constant internet","They only work on paper","They cannot capture location"],a:0},
+  {q:"What does Power BI do in a MEL toolchain?",o:["Turns collected data into live, visual dashboards for real-time monitoring","Collects data offline","Prints paper forms","Encrypts phones"],a:0}
+ ]},
+
+{id:"mel12",n:12,title:"Ethics in Monitoring and Evaluation",mins:60,icon:"Shield",summary:"Informed consent, confidentiality, data privacy and the Do No Harm principle — the non-negotiable foundation that protects vulnerable communities.",
+ keyWords:["informed consent","confidentiality","data privacy","Do No Harm"],
+ sections:[
+  {art:"ethics",h:"The Broken Promise of Confidentiality That Closed a Research Grant",p:[
+    "In 2018, a research team was commissioned to evaluate a sensitive public-health programme tracking HIV/AIDS treatment access among vulnerable youth. The lead researcher was in a rush to hit her data-collection targets. To save time, she skipped reading the formal informed-consent script, simply telling participants to sign the bottom of a sheet. She also left completed forms containing names and medical statuses sitting exposed on an open office desk.",
+    "An independent data-security audit uncovered this severe ethical breach.",
+    "Because the team had ignored basic data-privacy and confidentiality protocols, unauthorised personnel had access to highly sensitive personal health data, violating the Do No Harm principle. The board immediately cancelled the evaluation, pulled the research grant, and suspended the lead investigator. The incident was a stark warning to the sector that data collection must never override human rights."],
+   ex:{t:"Conclusion",b:["Ethical compliance is the non-negotiable foundation of all monitoring and evaluation work.","Strict informed consent, absolute confidentiality, secure data privacy, and the Do No Harm principle protect vulnerable communities and preserve your integrity.","Cutting ethical corners to save time destroyed the entire evaluation and the researcher's career."]}},
+  {art:"law",h:"Key Ideas",p:[
+    "Research ethics govern how data may be collected from people, especially vulnerable populations. They are not optional paperwork; as the story shows, violating them ends programmes and careers and, worse, harms real people.",
+    "Informed consent means participants genuinely understand what they are agreeing to — the purpose, risks and their rights — before taking part. Skipping the consent script, as the researcher did, denies people that understanding and is a serious breach.",
+    "Confidentiality and data privacy require that sensitive personal information — like HIV status — is protected from unauthorised access at every stage. Leaving forms exposed on a desk violated this and put vulnerable youth at real risk.",
+    "The Do No Harm principle is the overarching rule: the pursuit of data must never expose participants to harm. Ethical MEL treats participants' rights and safety as more important than hitting a data target. Enforcing consent, confidentiality, privacy and Do No Harm is what keeps evaluation trustworthy and protects the communities it is meant to serve."]},
+  {art:"steps",h:"Practising Ethical MEL",p:[
+    "Write a short plain-language informed-consent explanation you would give participants before collecting sensitive data.",
+    "Describe how you would store and protect sensitive personal data so it is never exposed to unauthorised people.",
+    "Reflect on the 2018 breach: why did saving time on ethics end up destroying the whole evaluation?"]}
+ ],
+ activity:"Draft an ethics checklist for a sensitive MEL study covering informed consent, confidentiality, data protection, and the Do No Harm principle, explaining why each protects participants.",
+ check:[
+  {q:"What ethical breaches occurred in the 2018 case?",o:["Skipped informed consent and exposed sensitive personal health data","Spending too much money","Collecting too little data","Using digital tools"],a:0},
+  {q:"What is informed consent?",o:["Ensuring participants genuinely understand the purpose, risks and their rights before taking part","Signing any form quickly","A funding agreement","A staff contract"],a:0},
+  {q:"What is the Do No Harm principle?",o:["The pursuit of data must never expose participants to harm","Collect data at any cost","Harm is acceptable if the study is important","Ethics apply only to funders"],a:0}
+ ]},
+
+{id:"mel13",n:13,title:"MEL Across Different Sectors",mins:60,icon:"BookOpen",summary:"Adapting MEL tools to the unique constraints of NGOs, education, health, agriculture, humanitarian response and corporate CSR — verifying real impact over PR.",
+ keyWords:["sector adaptation","CSR","verified impact","tailored frameworks"],
+ sections:[
+  {art:"roles",h:"The Corporate CSR Project That Switched from PR to Verified Impact",p:[
+    "For years, a multinational tech corporation spent $2 million annually on a corporate social responsibility initiative that donated computers to schools in low-resource communities. Every year the PR department published a glossy pamphlet showing smiling children in front of screens, treating the photo-op as proof of success. But in 2021, a new institutional shareholder demanded a formal MEL audit to verify whether the investment actually improved educational outcomes.",
+    "The MEL team deployed tailored evaluation frameworks across the education-sector touchpoints, tracking student grades, computer-usage hours, and teacher digital-literacy scores.",
+    "The data exposed a hidden failure: 60% of the donated computers sat locked inside school closets because the schools lacked stable electricity and the teachers didn't know how to operate the machines. The company dropped the superficial PR strategy and redesigned its framework, investing in solar power and structured teacher training. This sector-specific MEL turned an un-optimised charity project into a high-performing education campaign."],
+   ex:{t:"Conclusion",b:["Monitoring and evaluation dynamics shift across different professional sectors.","Whether in a health NGO, an agricultural programme, a humanitarian mission, or a corporate CSR framework, you must adapt your tracking tools to that sector's unique constraints.","A real MEL audit replaced feel-good PR with verified impact and fixed what the photos had hidden."]}},
+  {art:"roles",h:"Key Ideas",p:[
+    "The core MEL principles are universal, but their application must adapt to each sector's realities. The CSR story shows that measuring the right, sector-specific things (grades, usage, teacher literacy) reveals truths that vanity PR metrics (smiling photos) conceal.",
+    "NGOs and non-profits typically focus MEL on mission outcomes and donor accountability. Education MEL tracks learning outcomes; health MEL tracks health indicators and access; agriculture MEL tracks yields, adoption and food security; humanitarian response MEL tracks speed and coverage of aid under crisis conditions.",
+    "Each sector has unique constraints that shape what can be measured and how. The computer-donation project failed on constraints specific to under-resourced schools — no electricity, untrained teachers — which only sector-appropriate indicators exposed.",
+    "The practical skill is diagnosing a sector's real conditions and success factors, then tailoring your results framework, indicators and tools to match. Applying rigorous MEL — even to corporate CSR, which often hides behind PR — turns spending into verified, improvable impact across any sector."]},
+  {art:"steps",h:"Adapting by Sector",p:[
+    "Pick two sectors (say, health and agriculture) and name the specific outcomes MEL should track in each.",
+    "Describe a sector-specific constraint that could cause a well-funded project to fail, as electricity and training did for the computers.",
+    "Reflect on the CSR case: why did verified MEL reveal a failure that glossy PR pamphlets had hidden?"]}
+ ],
+ activity:"Choose a sector and design a short, sector-appropriate MEL approach — the outcomes to track and one constraint to watch — explaining how it would reveal real impact rather than surface-level PR.",
+ check:[
+  {q:"What did the CSR MEL audit reveal?",o:["60% of donated computers sat unused due to no electricity and untrained teachers","That the project was a huge success","That no computers were donated","That PR pamphlets were accurate"],a:0},
+  {q:"Why must MEL be adapted across sectors?",o:["Each sector has unique constraints and success factors that shape what to measure","MEL is identical everywhere","Only NGOs use MEL","Sectors never differ"],a:0},
+  {q:"What does applying rigorous MEL to corporate CSR achieve?",o:["It replaces feel-good PR with verified, improvable impact","It hides failures better","It removes accountability","It stops all charity work"],a:0}
+ ]},
+
+{id:"mel14",n:14,title:"Career Opportunities in MEL",mins:60,icon:"Users",summary:"MEL job roles, the data skills employers seek, building a MEL CV and professional pathways into elite, high-paying roles in a talent-short sector.",
+ keyWords:["MEL careers","job roles","MEL CV","professional pathways"],
+ sections:[
+  {art:"achieve",h:"From a Volatile Freelancer to an International M&E Director",p:[
+    "In 2026, a mid-career social worker felt completely stuck. He loved the development sector but was tired of jumping from one low-paying, short-term field contract to another, with zero long-term growth or security. Looking at job boards for international development partners, he noticed that the most secure, high-paying roles all required specialised skills in data systems, logical frameworks, and performance metrics.",
+    "He chose to shift his trajectory, enrolling in an intensive MEL certification track. He spent months mastering logframes, indicator design, and digital tools like KoboToolbox and Power BI.",
+    "He didn't just update his job title; he rebuilt his CV around measurable data skills, reframing his field experience through the lens of data management, reporting, and adaptive management. He published his practical tracking frameworks to his professional network. Within four months, an international humanitarian agency reviewed his technical profile and hired him as a Regional M&E Officer with a premium compensation package, proving that mastering MEL is a lucrative career gateway in the development sector."],
+   ex:{t:"Conclusion",b:["The global development sector faces a permanent shortage of skilled, data-literate MEL professionals.","Cultivating top-tier skills in data architecture, technical writing, and dashboard design opens elite, high-paying pathways in global NGOs and international agencies.","Reframing field experience around concrete data skills turned a stuck freelancer into an international M&E Officer in four months."]}},
+  {art:"global",h:"Key Ideas",p:[
+    "There is strong, sustained demand for MEL professionals because the development sector runs on accountability and evidence, yet skilled, data-literate specialists are in short supply. This shortage is exactly what makes MEL a lucrative, secure career path.",
+    "Common MEL job roles include M&E Officer, MEL Coordinator, Data Analyst, and M&E Director, spanning field data work, framework design, analysis and leadership. Understanding these roles helps you target the right entry point and trajectory.",
+    "The skills employers look for are concrete and technical: logical frameworks and indicator design, data collection and management, digital tools (like KoboToolbox and Power BI), technical report writing, and dashboard design. The social worker's success came from mastering exactly these.",
+    "Building a MEL CV means reframing your experience around these measurable skills, as he did, rather than just listing job titles — and professional development pathways (certifications, a visible portfolio, networking) turn that CV into offers. In a talent-short field, demonstrated data competence is the gateway to elite, well-paid roles."]},
+  {art:"steps",h:"Building a MEL Career",p:[
+    "List the technical skills employers seek and honestly assess which you have and which you would build.",
+    "Take a past experience and reframe it around measurable MEL skills — data, reporting, adaptive management.",
+    "Reflect on the social worker: why did concrete data skills unlock a secure, high-paying role he couldn't reach before?"]}
+ ],
+ activity:"Draft the outline of a MEL-focused CV, reframing your real or imagined experience around the data skills employers seek, and name two development steps to strengthen it.",
+ check:[
+  {q:"How did the social worker transform his career?",o:["He mastered concrete MEL data skills and reframed his CV around them","He waited for a promotion","He left the sector","He lowered his expectations"],a:0},
+  {q:"Why is MEL a lucrative career path?",o:["The sector runs on evidence but faces a shortage of skilled, data-literate professionals","There is no demand for it","It requires no skills","It pays very little"],a:0},
+  {q:"What skills do MEL employers look for?",o:["Logframes, indicator design, data management, digital tools, report writing and dashboards","Only public speaking","Only fundraising","No technical skills at all"],a:0}
+ ]},
+
+{id:"mel15",n:15,title:"Practical MEL Project",mins:90,icon:"Users",summary:"Binding a results framework, indicator table, data-collection plan, monitoring schedule and reporting template into one production-ready MEL framework.",
+ keyWords:["MEL framework","results chain","indicator table","capstone"],
+ sections:[
+  {art:"achieve",h:"The Master Portfolio Blueprint That Won a Global Design Tender",p:[
+    "In 2026, an independent consultant wanted to win a lucrative, long-term programme-design tender for a major agricultural development project funded by an international donor. The bidding was intensely competitive, with dozens of agencies submitting standard, text-heavy proposals full of generic development jargon. The consultant knew that to win, he had to provide undeniable proof of practical execution capability.",
+    "He treated his final academy Practical MEL Project as a professional launchpad, building a comprehensive, production-ready MEL framework for the agricultural programme.",
+    "He mapped out a flawless Results Framework tracing inputs to long-term impact; engineered a complete Indicator Tracking Table using strict SMART metrics; constructed an end-to-end digital data-collection plan and a precise monitoring schedule; and finalised the portfolio with an automated, clean basic reporting template. He attached this live MEL plan as an appendix to his financial bid. The donor review board skipped past the generic competitor proposals and went straight to his appendix, noting his framework was ready to deploy immediately. He won the multi-year consulting mandate, proving that a well-executed capstone is the ultimate currency for professional growth."],
+   ex:{t:"Conclusion",b:["The Practical MEL Project is the ultimate demonstration of your transformation into a professional MEL specialist.","Binding results chains, indicator tables, data-collection protocols, monitoring schedules and reporting templates into one master plan provides undeniable proof of capability.","A ready-to-deploy MEL framework beat every jargon-filled proposal."]}},
+  {art:"culture",h:"Key Ideas",p:[
+    "A practical MEL project brings together every skill in the course — results frameworks, indicators, monitoring, data collection, management, evaluation, learning and reporting — into one coherent, deployable framework for a real programme.",
+    "Its power is integration and readiness. The consultant won not by describing skills but by delivering a complete, production-ready framework where each component connected: the results chain fed the indicators, which fed the data-collection plan, monitoring schedule and reporting template.",
+    "A strong MEL framework is grounded in a clear results chain (inputs to impact) and a rigorous indicator tracking table with SMART metrics and baselines — the analytical backbone reflecting earlier units — plus practical data-collection and monitoring plans that show exactly how the data will actually be gathered.",
+    "Presenting the framework as a ready-to-deploy appendix, rather than generic prose, is itself a demonstrated professional skill. A well-executed, integrated, deployable MEL framework is undeniable proof of readiness to design and run real programmes — the ultimate launchpad for a MEL career."]},
+  {art:"steps",h:"Building Your MEL Framework",p:[
+    "Choose a real or imagined programme and list the components your MEL framework would combine: results chain, indicator table, data-collection plan, monitoring schedule and reporting template.",
+    "Describe how you would keep the components connected so each flows logically into the next.",
+    "Reflect on the consultant's win: why did a ready-to-deploy MEL framework beat generic, jargon-filled proposals?"]}
+ ],
+ activity:"Write a one-page outline of a complete MEL framework for a chosen programme, listing each component and explaining how they integrate into one coherent, deployable plan.",
+ check:[
+  {q:"What won the consultant the tender?",o:["A complete, ready-to-deploy MEL framework proving real capability, not generic jargon","A lower price","A shorter proposal","A famous name"],a:0},
+  {q:"What is the key strength of the practical MEL project?",o:["Integration — every component connects into one coherent, deployable framework","Keeping the parts unrelated","Using only one skill","Avoiding indicators"],a:0},
+  {q:"What analytical backbone grounds a strong MEL framework?",o:["A clear results chain and a rigorous SMART indicator tracking table","A marketing slogan","A single photograph","A funding request only"],a:0}
+ ]}
+];
+
+const MEL_Q=[
+// Module 1: Introduction to MEL (7)
+{ao:"Intro to MEL",q:"What is monitoring in MEL?",o:["Continuous, routine tracking of what a programme is doing and whether it is on course","A one-time final report","A funding application","A marketing campaign"],a:0},
+{ao:"Intro to MEL",q:"How did the MEL cycle rescue the vaccine campaign?",o:["Real-time monitoring, rapid evaluation and learning let the team shift stock to where it was needed","By shipping more doses blindly","By ending the campaign","By ignoring the shortages"],a:0},
+{ao:"Intro to MEL",q:"What is the difference between monitoring and evaluation?",o:["Monitoring is continuous tracking; evaluation is periodic, deeper assessment of whether and why a programme works","They are identical","Monitoring happens only at the end","Evaluation is done daily"],a:0},
+{ao:"Intro to MEL",q:"What is learning in the MEL cycle?",o:["Deliberately using what monitoring and evaluation reveal to improve decisions and actions","Ignoring the data","Collecting data but never acting","A staff training day only"],a:0},
+{ao:"Intro to MEL",q:"Why was the vaccine campaign initially failing?",o:["Leadership was 'flying blind' with no real-time data on stock and demand","There were no vaccines","The doses were faulty","No one wanted vaccines"],a:0},
+{ao:"Intro to MEL",q:"What is evaluation in MEL?",o:["A periodic, deeper assessment of whether a programme is working and why","Daily stock counting","A press release","A budget form"],a:0},
+{ao:"Intro to MEL",q:"Why does MEL matter?",o:["It turns a programme into an accountable, self-correcting system that can prove impact","It slows every programme down","It replaces the need for staff","It is only paperwork"],a:0},
+
+// Module 2: Understanding Development Programmes (7)
+{ao:"Dev Programmes",q:"What is the difference between a project and a programme?",o:["A project is a single time-bound set of activities; a programme coordinates many toward one goal","They are identical","A programme is always smaller","A project has no activities"],a:0},
+{ao:"Dev Programmes",q:"What is a Theory of Change?",o:["A clear map of how and why activities are expected to lead to a desired long-term outcome","A funding form","A staff schedule","A slogan"],a:0},
+{ao:"Dev Programmes",q:"Why did the youth centre restructure its work?",o:["It ran disconnected fun projects that didn't prove they achieved the real goal","Activities cost too much","It had too few youth","It wanted to stop all activities"],a:0},
+{ao:"Dev Programmes",q:"What is Results-Based Management?",o:["Organising a programme around the results it aims to achieve, not just its activities","Managing only the budget","Avoiding all planning","Running random activities"],a:0},
+{ao:"Dev Programmes",q:"How did Hunter's team design the new programme?",o:["By working backward from the long-term outcome of sustainable youth employment","By adding more music classes","By cutting all mentorship","By ignoring donors"],a:0},
+{ao:"Dev Programmes",q:"Why is stakeholder engagement important?",o:["Involving affected people and organisations keeps a programme grounded and supported","It slows everything down","Stakeholders never matter","It replaces the need for results"],a:0},
+{ao:"Dev Programmes",q:"What activity did the youth centre drop, and why?",o:["Music classes, because they didn't connect to the goal of youth employment","Mentorship, because it was too effective","All activities, to save money","Technical skills, because they were unpopular"],a:0},
+
+// Module 3: Results Frameworks (7)
+{ao:"Results Frameworks",q:"Why was the clean-water project failing despite millions spent?",o:["It measured outputs (pipes) but the source stayed contaminated, so no real outcome occurred","The pipes were too expensive","There were no farmers","The budget was too small"],a:0},
+{ao:"Results Frameworks",q:"What is the difference between an output and an outcome?",o:["An output is a direct countable product; an outcome is the real change in people's condition","They are the same","An output is always long-term","An outcome is just money spent"],a:0},
+{ao:"Results Frameworks",q:"What does a Results Framework prevent?",o:["Teams hiding behind vanity metrics like money spent instead of tracking real results","Any spending at all","The use of any data","Community involvement"],a:0},
+{ao:"Results Frameworks",q:"What are 'inputs' in a results chain?",o:["The resources a programme uses, such as funds, staff and machinery","The final impact","The community's feelings","The number of reports written"],a:0},
+{ao:"Results Frameworks",q:"What is 'impact' in a results chain?",o:["The long-term, higher-level change that outcomes contribute to, like lower child mortality","The money spent","The activities performed","The number of pipes bought"],a:0},
+{ao:"Results Frameworks",q:"What fixed the broken water results chain?",o:["Adding water treatment so outputs finally produced clean water actually consumed","Buying more pipes","Spending the budget faster","Writing more reports"],a:0},
+{ao:"Results Frameworks",q:"Why is 'we bought the pipes and spent the budget' a false measure of success?",o:["It counts inputs and outputs, not whether real outcomes and impact occurred","It is the only true measure","Budgets never matter","Pipes are irrelevant"],a:0},
+
+// Module 4: Indicators and Performance Measurement (7)
+{ao:"Indicators",q:"Why was the anti-poaching mission failing at first?",o:["Its goal was vague and unmeasurable, so rangers patrolled randomly","There were no rhinos left","The park was too small","Poaching was already zero"],a:0},
+{ao:"Indicators",q:"What does SMART stand for?",o:["Specific, Measurable, Achievable, Relevant, Time-bound","Simple, Modern, Accurate, Rapid, Tidy","Strategic, Major, Applied, Real, Tested","Safe, Managed, Audited, Ranked, Timed"],a:0},
+{ao:"Indicators",q:"What is a baseline?",o:["The starting value of an indicator, against which progress is measured","The final target","A funding total","A staff list"],a:0},
+{ao:"Indicators",q:"What is an indicator?",o:["A specific, measurable signal of progress toward a goal","A vague ambition","A funding request","A staff role"],a:0},
+{ao:"Indicators",q:"What precise indicator did the WWF team set?",o:["A 50% reduction in unauthorised perimeter breaches detected by thermal cameras within 12 months","'Significantly reduce poaching'","'Do our best'","No indicator at all"],a:0},
+{ao:"Indicators",q:"What does an Indicator Reference Sheet document?",o:["Precisely how each indicator is defined, measured and sourced","The programme budget only","Staff salaries","The weather"],a:0},
+{ao:"Indicators",q:"Why did a precise indicator change ranger behaviour?",o:["It gave clear, measurable direction, so rangers focused drones on specific high-risk zones","Vague goals work better","It removed all targets","It banned patrolling"],a:0},
+
+// Module 5: Monitoring Fundamentals (7)
+{ao:"Monitoring",q:"What did the biometric monitoring system prevent?",o:["Ghost profiles and duplicate claims wasting donor funds","Families from receiving cash","The camp from operating","Staff from being paid"],a:0},
+{ao:"Monitoring",q:"What is a monitoring plan?",o:["A plan setting out what will be tracked, how often, with which tools, and by whom","A final evaluation report","A funding proposal","A marketing schedule"],a:0},
+{ao:"Monitoring",q:"What is Data Quality Assurance?",o:["Checks that keep data accurate, complete and trustworthy","A way to collect more money","A type of survey","A staff bonus scheme"],a:0},
+{ao:"Monitoring",q:"Why did the manual paper logs fail?",o:["Cash totals didn't match real people, indicating ghost profiles and duplication","Paper is illegal","There was no cash","The camp had no families"],a:0},
+{ao:"Monitoring",q:"What is routine monitoring?",o:["Continuous, ongoing checks rather than a one-time review","A single final audit","A yearly party","A funding pitch"],a:0},
+{ao:"Monitoring",q:"Why do standardised monitoring templates matter?",o:["They ensure everyone collects the same data the same way, making it comparable and reliable","They slow work down","They hide the data","They replace the plan"],a:0},
+{ao:"Monitoring",q:"What did routine, quality-assured monitoring achieve?",o:["It ensured 100% of the aid budget reached real families","It stopped all distribution","It doubled the fraud","It had no effect"],a:0},
+
+// Module 6: Data Collection Methods (7)
+{ao:"Data Collection",q:"What did qualitative methods reveal in the microfinance case?",o:["That pressure to keep a perfect repayment rate was causing severe family strain","That incomes were falling","That the surveys were faked","That no one repaid loans"],a:0},
+{ao:"Data Collection",q:"What is the difference between quantitative and qualitative data?",o:["Quantitative measures numbers; qualitative captures experiences, reasons and feelings","They are identical","Quantitative uses only interviews","Qualitative uses only surveys"],a:0},
+{ao:"Data Collection",q:"What is a Focus Group Discussion?",o:["A group conversation that surfaces shared experiences and social dynamics","A written survey","A financial audit","A solo interview only"],a:0},
+{ao:"Data Collection",q:"What did the microfinance surveys show on the surface?",o:["98% repayment rates and rising incomes","Falling incomes and defaults","No data at all","A complete failure"],a:0},
+{ao:"Data Collection",q:"What is a Key Informant Interview?",o:["A deep interview gathering insight from a knowledgeable individual","A mass survey","A group vote","A financial report"],a:0},
+{ao:"Data Collection",q:"Why is balancing methods important?",o:["Numbers and stories together give the complete picture","Only numbers matter","Only stories matter","Balance wastes time"],a:0},
+{ao:"Data Collection",q:"How did the bank fix the problem the qualitative data revealed?",o:["It redesigned payment schedules with flexible grace periods","It cancelled all loans","It ignored the women","It raised interest rates"],a:0},
+
+// Module 7: Data Management (6)
+{ao:"Data Management",q:"What caused 16,000 patient cases to disappear?",o:["Messy, unstandardised data merged without cleaning, and a legacy format that hit a line limit","A cyberattack","Deliberate deletion","Too few patients"],a:0},
+{ao:"Data Management",q:"What is data cleaning?",o:["Finding and fixing errors, duplicates and inconsistencies before data is used","Deleting all data","Collecting more surveys","Storing data on paper"],a:0},
+{ao:"Data Management",q:"Why is data management critical, not clerical?",o:["Poor data directly misled leaders and caused real-world harm","It is only about tidiness","It never affects decisions","It is optional busywork"],a:0},
+{ao:"Data Management",q:"Why did the hospitals' files become unusable?",o:["No standardised templates or quality standards, so formats were messy and inconsistent","They were too well organised","They used too few numbers","They were encrypted"],a:0},
+{ao:"Data Management",q:"What real-world harm did the data error cause?",o:["It misled leaders into relaxing safety measures early, causing an infection spike","It saved money","It had no effect","It improved outcomes"],a:0},
+{ao:"Data Management",q:"What do data quality standards provide?",o:["Agreed rules for formatting, entering, cleaning and storing data so it stays reliable","A larger budget","A faster internet","A staff bonus"],a:0},
+
+{ao:"Data Management",q:"What is data entry, and why does it matter?",o:["Recording data into the system; standardised entry stops errors before they spread","Deleting old files","Printing reports","Hiring staff"],a:0},
+
+// Module 8: Introduction to Evaluation (7)
+{ao:"Evaluation",q:"Why was the midline evaluation so valuable in the literacy campaign?",o:["It exposed the failure early, allowing a pivot that turned 22% into 75% by the end","It ended the programme","It replaced the baseline","It was a marketing report"],a:0},
+{ao:"Evaluation",q:"What does a baseline evaluation do?",o:["Measures the situation before a programme begins, as a starting point for judging change","Measures the final result","Cleans the data","Collects funding"],a:0},
+{ao:"Evaluation",q:"What is the difference between endline and impact evaluation?",o:["Endline measures results at conclusion; impact assesses longer-term, higher-level change","They are identical","Impact happens first","Endline is done before the programme starts"],a:0},
+{ao:"Evaluation",q:"What did the literacy midline uncover?",o:["Textbooks were locked away and teachers overwhelmed by large classes","That literacy had already reached 75%","That there were no schools","That the baseline was wrong"],a:0},
+{ao:"Evaluation",q:"What is the purpose of evaluation?",o:["To objectively judge whether a programme is working and why, at key points","To collect money","To advertise the programme","To replace monitoring entirely"],a:0},
+{ao:"Evaluation",q:"What was the baseline literacy rate in the story?",o:["20%","75%","95%","0%"],a:0},
+{ao:"Evaluation",q:"How does evaluation differ from continuous monitoring?",o:["Evaluations are deeper, periodic assessments that inform major decisions","They are exactly the same","Evaluation happens every hour","Monitoring only happens once"],a:0},
+
+// Module 9: Learning and Adaptive Management (6)
+{ao:"Adaptive Mgmt",q:"Why did the initial Ebola response fail?",o:["A rigid, slow bureaucratic model couldn't adapt to real-time data as the virus spread","There were no field teams","The manuals were too short","It learned too quickly"],a:0},
+{ao:"Adaptive Mgmt",q:"What is an After-Action Review?",o:["A structured reflection asking what was planned, what happened, and why there was a gap","A funding report","A staff punishment","A marketing plan"],a:0},
+{ao:"Adaptive Mgmt",q:"What is adaptive management?",o:["Continuously adjusting a programme in response to real conditions and learning","Following a fixed plan no matter what","Avoiding all data","Reviewing results only at the end"],a:0},
+{ao:"Adaptive Mgmt",q:"How did knowledge management help the Ebola response?",o:["Insights like a burial-custom risk were shared across the network within hours","Insights were never shared","It slowed everything down","It replaced field teams"],a:0},
+{ao:"Adaptive Mgmt",q:"What did the weekly Friday sessions create?",o:["A rhythm of honest reflection that surfaced problems fast","A weekly holiday","A funding pitch","A paperwork backlog"],a:0},
+{ao:"Adaptive Mgmt",q:"What separates high-impact teams from stagnant ones?",o:["Organisational learning — reflecting, sharing and adapting routinely","A bigger budget alone","Never changing anything","Avoiding reviews"],a:0},
+
+{ao:"Adaptive Mgmt",q:"How were protocols changed during the adaptive Ebola response?",o:["Immediately in the field, bypassing weeks of bureaucratic signatures","Only after the outbreak ended","Never — the manual was fixed","After a year of review"],a:0},
+
+// Module 10: Reporting and Data Visualization (6)
+{ao:"Reporting",q:"Why did the 150-page malaria report risk losing funding?",o:["Busy donor executives would never read a dense, heavy text document","It contained false data","It was too short","It had no numbers"],a:0},
+{ao:"Reporting",q:"What advantage does an interactive dashboard offer?",o:["Stakeholders can explore the data themselves, building instant understanding and trust","It hides the data","It removes all charts","It is always on paper"],a:0},
+{ao:"Reporting",q:"What is the core lesson of this unit?",o:["Data is only as valuable as your ability to communicate it clearly to the right audience","More pages means more impact","Visualisation is unnecessary","Only raw numbers matter"],a:0},
+{ao:"Reporting",q:"What made the dashboard convincing to the donors?",o:["They could click any village and instantly see its precise health metrics","It was printed on expensive paper","It hid the failures","It was 150 pages long"],a:0},
+{ao:"Reporting",q:"What does writing a good MEL report require?",o:["Being concise and leading with the key findings decision-makers need","Including every raw number","Making it as long as possible","Avoiding all conclusions"],a:0},
+{ao:"Reporting",q:"What do charts and graphs do for data?",o:["Turn numbers into visual patterns the eye grasps instantly","Make data harder to read","Hide the results","Replace the need for accuracy"],a:0},
+
+// Module 11: Digital Tools for MEL (6)
+{ao:"Digital Tools",q:"Why did paper forms fail in the earthquake response?",o:["Rain soaked them, handwriting was unreadable, and processing took days","There were no survivors","Paper is illegal","The forms were too short"],a:0},
+{ao:"Digital Tools",q:"What makes KoboToolbox and ODK Collect suited to crisis settings?",o:["They collect data offline on a phone and auto-upload when a connection is available","They require constant internet","They only work on paper","They cannot capture location"],a:0},
+{ao:"Digital Tools",q:"What does Power BI do in a MEL toolchain?",o:["Turns collected data into live, visual dashboards for real-time monitoring","Collects data offline","Prints paper forms","Encrypts phones"],a:0},
+{ao:"Digital Tools",q:"How did digital tools save lives in the earthquake response?",o:["Offline collection plus auto-upload plus a live dashboard delivered insight in hours, not days","They slowed the response","They replaced the field workers","They only worked in the office"],a:0},
+{ao:"Digital Tools",q:"What extra data could field workers capture digitally?",o:["GPS coordinates and photos","Only handwriting","Nothing beyond text","Only audio"],a:0},
+{ao:"Digital Tools",q:"Why is fluency in the MEL toolchain now a core competency?",o:["Offline collection feeding live dashboards makes fast, evidence-based response possible","Tools are just decoration","Paper is always better","It is legally required"],a:0},
+
+// Module 12: Ethics in Monitoring and Evaluation (6)
+{ao:"MEL Ethics",q:"What ethical breaches occurred in the 2018 case?",o:["Skipped informed consent and exposed sensitive personal health data","Spending too much money","Collecting too little data","Using digital tools"],a:0},
+{ao:"MEL Ethics",q:"What is informed consent?",o:["Ensuring participants genuinely understand the purpose, risks and their rights before taking part","Signing any form quickly","A funding agreement","A staff contract"],a:0},
+{ao:"MEL Ethics",q:"What is the Do No Harm principle?",o:["The pursuit of data must never expose participants to harm","Collect data at any cost","Harm is acceptable if the study matters","Ethics apply only to funders"],a:0},
+{ao:"MEL Ethics",q:"What happened after the ethical breach was found?",o:["The evaluation was cancelled, the grant pulled, and the investigator suspended","Nothing at all","The researcher was promoted","The data was published"],a:0},
+{ao:"MEL Ethics",q:"What do confidentiality and data privacy require?",o:["Sensitive personal information is protected from unauthorised access at every stage","Data is left open on desks","Everyone can see all records","Privacy is optional"],a:0},
+{ao:"MEL Ethics",q:"Why is ethics called the non-negotiable foundation of MEL?",o:["Data collection must never override participants' rights and safety","Ethics can be skipped to save time","Only results matter","Ethics slow down funding"],a:0},
+
+// Module 13: MEL Across Different Sectors (6)
+{ao:"MEL Sectors",q:"What did the CSR MEL audit reveal?",o:["60% of donated computers sat unused due to no electricity and untrained teachers","That the project was a huge success","That no computers were donated","That PR pamphlets were accurate"],a:0},
+{ao:"MEL Sectors",q:"Why must MEL be adapted across sectors?",o:["Each sector has unique constraints and success factors that shape what to measure","MEL is identical everywhere","Only NGOs use MEL","Sectors never differ"],a:0},
+{ao:"MEL Sectors",q:"What does applying rigorous MEL to corporate CSR achieve?",o:["It replaces feel-good PR with verified, improvable impact","It hides failures better","It removes accountability","It stops all charity"],a:0},
+{ao:"MEL Sectors",q:"What did the company do after the audit?",o:["Invested in solar power and structured teacher training","Cancelled the whole programme","Published more pamphlets","Donated more locked computers"],a:0},
+{ao:"MEL Sectors",q:"What does education-sector MEL typically track?",o:["Learning outcomes like grades, usage and teacher literacy","Only ticket sales","Only rainfall","Only staff salaries"],a:0},
+{ao:"MEL Sectors",q:"What had the company mistaken for success before the audit?",o:["Glossy PR photos of smiling children as proof of impact","Verified learning data","Teacher training records","Electricity availability"],a:0},
+
+// Module 14: Career Opportunities in MEL (6)
+{ao:"MEL Careers",q:"How did the social worker transform his career?",o:["He mastered concrete MEL data skills and reframed his CV around them","He waited for a promotion","He left the sector","He lowered his expectations"],a:0},
+{ao:"MEL Careers",q:"Why is MEL a lucrative career path?",o:["The sector runs on evidence but faces a shortage of skilled, data-literate professionals","There is no demand","It requires no skills","It pays very little"],a:0},
+{ao:"MEL Careers",q:"What skills do MEL employers look for?",o:["Logframes, indicator design, data management, digital tools, report writing and dashboards","Only public speaking","Only fundraising","No technical skills"],a:0},
+{ao:"MEL Careers",q:"How did he rebuild his CV?",o:["Around measurable data skills, reframing his field experience through data and reporting","By only listing job titles","By hiding his experience","By removing all skills"],a:0},
+{ao:"MEL Careers",q:"What are common MEL job roles?",o:["M&E Officer, MEL Coordinator, Data Analyst and M&E Director","Only cashier","Only receptionist","Only driver"],a:0},
+{ao:"MEL Careers",q:"How quickly did he land his new role?",o:["Within four months","After ten years","Never","In one day with no effort"],a:0},
+
+// Module 15: Practical MEL Project (7)
+{ao:"MEL Project",q:"What won the consultant the tender?",o:["A complete, ready-to-deploy MEL framework proving real capability, not generic jargon","A lower price","A shorter proposal","A famous name"],a:0},
+{ao:"MEL Project",q:"What is the key strength of the practical MEL project?",o:["Integration — every component connects into one coherent, deployable framework","Keeping the parts unrelated","Using only one skill","Avoiding indicators"],a:0},
+{ao:"MEL Project",q:"What analytical backbone grounds a strong MEL framework?",o:["A clear results chain and a rigorous SMART indicator tracking table","A marketing slogan","A single photograph","A funding request only"],a:0},
+{ao:"MEL Project",q:"Which components did the consultant's framework combine?",o:["Results framework, indicator table, data-collection plan, monitoring schedule and reporting template","Only a logo and price","A single email","A list of hobbies"],a:0},
+{ao:"MEL Project",q:"How did the donor board react to his bid?",o:["They went straight to his ready-to-deploy MEL appendix and awarded the contract","They ignored it","They rejected it as too detailed","They asked him to remove the framework"],a:0},
+{ao:"MEL Project",q:"What does the practical project ultimately demonstrate?",o:["Transformation into a professional MEL specialist ready to design and run programmes","Memorised definitions only","That MEL is unnecessary","That jargon wins tenders"],a:0},
+{ao:"MEL Project",q:"Why did a ready-to-deploy framework beat text-heavy proposals?",o:["It gave undeniable proof of practical execution capability","It was longer","It used more jargon","It cost more"],a:0}
+];
+
+const AMEL_UNITS=[
+{id:"amel1",n:1,title:"Advanced Foundations of MEL",mins:65,icon:"Target",summary:"Systems thinking, Results-Based Management, Managing for Development Results, Theory of Change and the logframe — seeing the whole ecosystem, not a linear checklist.",
+ keyWords:["systems thinking","RBM","Theory of Change","logframe"],
+ sections:[
+  {art:"layers",h:"The Report Cards That Reformed a Province's Schools",p:[
+    "For years, billions in international development funding relied on a standard Results-Based Management assumption: that building schools and printing textbooks automatically increases educational outcomes. This traditional logframe approach ignored the wider ecosystem. In Punjab, Pakistan, lead economist Dr. Jishnu Das and a World Bank research team used systems thinking to challenge this framework.",
+    "His team began monitoring not just physical inputs, but the broader learning marketplace. They found that private schools were outperforming state-funded schools at a fraction of the cost, but parents lacked objective information to distinguish good schools from bad ones.",
+    "By mapping a new Theory of Change focused on systemic information asymmetry rather than just physical supply, they distributed school-specific report cards to parents. This simple informational intervention caused failing schools to rapidly improve their quality to compete, boosting overall test scores significantly — a result no amount of extra textbooks had achieved."],
+   ex:{t:"Conclusion",b:["Traditional MEL fails when it treats complex systems as linear checklists.","True impact requires systems thinking that uncovers hidden institutional bottlenecks rather than just tracking physical inputs.","Giving parents information reformed schools where simply building more never had."]}},
+  {art:"build",h:"Key Ideas",p:[
+    "The evolution of MEL has moved from simple input-counting toward systems thinking: understanding a programme as part of a larger, interconnected ecosystem. Dr. Das's breakthrough came from looking beyond schools-and-textbooks to the whole learning marketplace and its information gaps.",
+    "Results-Based Management (RBM) and Managing for Development Results (MfDR) are frameworks that focus attention on the results a programme achieves, not just its activities. They are powerful, but — as the Punjab case shows — they fail when applied as rigid, linear checklists that ignore how systems actually behave.",
+    "A Theory of Change is a detailed map of how and why change is expected to happen, including the assumptions behind it. The Punjab team's new Theory of Change identified information asymmetry as the real bottleneck, which the old supply-focused logic had missed entirely.",
+    "The Logical Framework Approach (logframe) is a structured tool linking inputs, activities, outputs, outcomes and impact with indicators and assumptions. It is essential, but advanced practitioners combine it with systems thinking so it captures hidden institutional bottlenecks rather than obscuring them behind a tidy checklist."]},
+  {art:"steps",h:"Thinking in Systems",p:[
+    "Take a development goal and, instead of listing physical inputs, map the wider system around it — the actors, incentives and information flows that shape outcomes.",
+    "Identify a hidden bottleneck (like information asymmetry) that a simple input-focused logframe might miss.",
+    "Reflect on Punjab: why did school report cards succeed where building more schools had not?"]}
+ ],
+ activity:"Take a programme and build a systems-thinking Theory of Change for it, identifying at least one hidden institutional bottleneck that a linear logframe would overlook.",
+ check:[
+  {q:"Why did the Punjab school report cards succeed?",o:["They addressed a hidden bottleneck — parents' lack of information — rather than just adding physical inputs","They built more schools","They printed more textbooks","They raised teacher salaries"],a:0},
+  {q:"What is systems thinking in advanced MEL?",o:["Understanding a programme as part of a larger, interconnected ecosystem, not a linear checklist","Counting only physical inputs","Ignoring the wider context","A type of spreadsheet"],a:0},
+  {q:"When does Results-Based Management fail, according to this unit?",o:["When applied as a rigid, linear checklist that ignores how systems actually behave","Whenever it is used at all","Only in wealthy countries","When results are measured"],a:0}
+ ]},
+
+{id:"amel2",n:2,title:"Programme Design for Impact",mins:65,icon:"BookOpen",summary:"Rigorous problem and stakeholder analysis, explicit results chains and impact pathways — stress-testing assumptions before a single dollar is spent.",
+ keyWords:["problem analysis","stakeholder analysis","impact pathways","risk analysis"],
+ sections:[
+  {art:"build",h:"The Cash Transfer Built on Verified Causal Links",p:[
+    "In the late 1990s, Mexico's poverty-alleviation programmes were notoriously inefficient, crippled by political bias, poor problem analysis, and unverified assumptions. Deputy Finance Minister Santiago Levy and the Progresa design team sought to completely redesign how social safety nets were constructed.",
+    "He conducted a rigorous stakeholder and risk analysis to build an explicit results chain that linked cash transfers directly to human-capital accumulation. The design mandated that poor families would only receive cash if their children maintained an 85% school-attendance rate and received regular medical checkups.",
+    "This meticulous design clearly mapped the impact pathways, identifying precise risks such as maternal non-compliance and political interference. By structuring the programme around verified causal links rather than political favouritism, it survived multiple changes in presidential administration — a rare feat for a social programme."],
+   ex:{t:"Conclusion",b:["Flawless programme design requires rigorous problem and risk analysis.","Ensuring that your assumptions are stress-tested before a single dollar is spent protects a programme from failure and political capture.","Designing around verified causal links let a programme survive changes of government."]}},
+  {art:"theory",h:"Key Ideas",p:[
+    "Programme design principles start with rigorous problem analysis: deeply understanding the real problem and its root causes before designing solutions. Mexico's earlier programmes failed partly because they skipped this, resting on unverified assumptions.",
+    "Stakeholder analysis identifies everyone affected by or influencing a programme — beneficiaries, officials, funders — and their interests and risks. Levy's analysis surfaced the specific risks of maternal non-compliance and political interference, which the design then guarded against.",
+    "A results chain links the programme's activities to its intended outcomes and impact through explicit, verifiable causal steps. Progresa tied cash transfers to school attendance and health checkups because those were the verified links to human-capital accumulation.",
+    "Developing impact pathways and conducting risk analysis means mapping exactly how change is expected to occur and stress-testing the assumptions along the way. Designing around verified causal links, rather than political favouritism or hope, is what made Progresa robust enough to survive multiple administrations."]},
+  {art:"steps",h:"Designing for Impact",p:[
+    "Take a problem and conduct a quick root-cause analysis rather than jumping straight to a solution.",
+    "Identify the key stakeholders and one major risk each could pose to a programme's success.",
+    "Reflect on Progresa: why did tying cash to verified conditions (attendance, checkups) make the design more robust?"]}
+ ],
+ activity:"Design the outline of a programme built on an explicit results chain, including a problem analysis, key stakeholders and risks, and the verified causal links your design depends on.",
+ check:[
+  {q:"How did Santiago Levy make Progresa robust?",o:["By designing around verified causal links and stress-testing assumptions, not political favouritism","By spending more money","By ignoring stakeholders","By avoiding all conditions"],a:0},
+  {q:"What is problem analysis in programme design?",o:["Deeply understanding the real problem and its root causes before designing solutions","Choosing a logo","Writing a final report","Counting the budget"],a:0},
+  {q:"What does stakeholder analysis identify?",o:["Everyone affected by or influencing a programme, and their interests and risks","Only the donors","Only the staff salaries","The office location"],a:0}
+ ]},
+
+{id:"amel3",n:3,title:"Designing Comprehensive MEL Frameworks",mins:65,icon:"ClipboardCheck",summary:"Balancing strict institutional accountability with localized data collection and learning agendas that match the ground reality of the people served.",
+ keyWords:["MEL framework","performance measurement","data collection plans","learning agenda"],
+ sections:[
+  {art:"help",h:"The Community Framework That Reached the Unreachable",p:[
+    "When the Global Fund began dispersing millions to fight HIV/AIDS and tuberculosis in Haiti's Central Plateau, there was fierce debate over accountability. Standard donor data-collection plans demanded that funding only go to centralised urban hospitals with rigid, top-down tracking indicators. Dr. Paul Farmer argued that this framework excluded the most vulnerable rural populations who could not afford to travel.",
+    "He designed a comprehensive, community-based MEL framework that shifted the performance-measurement metrics. It trained local neighbours as accompagnateurs to deliver medication and track adherence directly in patients' homes.",
+    "The framework combined rigid clinical indicators with a localised learning agenda and community feedback loops. This inclusive structure proved that rural, impoverished communities could achieve 100% treatment compliance — a result that forever altered global healthcare-delivery frameworks."],
+   ex:{t:"Conclusion",b:["A masterfully built MEL framework must balance strict institutional accountability with localized data collection that matches the ground reality of beneficiaries.","Rigid top-down indicators alone would have excluded the most vulnerable people entirely.","Combining clinical rigour with community-based tracking achieved 100% treatment compliance."]}},
+  {art:"chart",h:"Key Ideas",p:[
+    "A comprehensive MEL framework brings together all the components a programme needs to measure and learn: indicators, a performance-measurement framework, data-collection plans, and a learning agenda. It is the master blueprint that ties monitoring, evaluation and learning into one coherent system.",
+    "Indicator development and performance-measurement frameworks define exactly what will be measured and how. Farmer's framework kept rigid clinical indicators for accountability — the non-negotiable measures donors needed — while adding measures that fit the rural reality.",
+    "Data-collection plans specify how data will actually be gathered, and this is where ground reality matters most. Insisting on urban-hospital-only data would have excluded the poorest patients; training community accompagnateurs let data (and medicine) reach people's homes.",
+    "A learning agenda is a deliberate set of questions a programme wants to answer as it runs, turning it into an engine of insight rather than just compliance. The best frameworks, like Farmer's, balance strict institutional accountability with localised collection and learning that reflect how beneficiaries actually live."]},
+  {art:"steps",h:"Building a Framework",p:[
+    "List the core components a MEL framework needs: indicators, performance measurement, data-collection plan, and learning agenda.",
+    "Describe how you would keep strict accountability indicators while adapting data collection to reach hard-to-reach people.",
+    "Reflect on Haiti: why did a community-based data-collection plan succeed where urban-hospital-only tracking would have failed?"]}
+ ],
+ activity:"Design a comprehensive MEL framework outline for a programme that balances strict accountability indicators with a localized data-collection plan and a short learning agenda.",
+ check:[
+  {q:"Why did Paul Farmer's MEL framework succeed?",o:["It balanced rigid clinical accountability with community-based data collection that reached the poorest patients","It only used urban hospitals","It ignored all indicators","It removed accountability"],a:0},
+  {q:"What is a learning agenda?",o:["A deliberate set of questions a programme wants to answer as it runs","A staff holiday schedule","A funding request","A final report only"],a:0},
+  {q:"What must a comprehensive MEL framework balance?",o:["Strict institutional accountability with localized data collection matching beneficiaries' reality","Only donor demands","Only local preferences","Neither accountability nor reality"],a:0}
+ ]},
+
+{id:"amel4",n:4,title:"Advanced Indicator Development",mins:65,icon:"Target",summary:"Designing outcome, composite, gender-sensitive and SDG indicators, and validating proxies that measure real transformation rather than misleading binary counts.",
+ keyWords:["outcome indicators","composite indicators","SDG indicators","validation"],
+ sections:[
+  {art:"measure",h:"The Reading Metric That Exposed a Global Illusion",p:[
+    "During the transition from the Millennium Development Goals to the Sustainable Development Goals, policymakers hit a wall on measurement. Under the old frameworks, basic indicators were overly binary — for example, 'Is the child enrolled in school? Yes or No.' This allowed nations to report massive progress while hiding the fact that millions of enrolled children could not read a single sentence.",
+    "The UN Working Group, co-chaired by Ambassador Macharia Kamau, had to engineer advanced composite, outcome-level, and gender-sensitive indicators.",
+    "They designed proxy measures that could accurately capture complex realities — like the Minimum Proficiency Level in reading and mathematics (SDG Indicator 4.1.1). This required intensive indicator validation and benchmarking to ensure developing nations could feasibly gather the data without compromising metric validity, so that progress reports finally reflected real learning rather than mere enrolment."],
+   ex:{t:"Conclusion",b:["Advanced indicator development is not just about counting activities.","It requires defining precise, validated proxies that measure actual transformation and systemic equity.","A binary 'enrolled: yes/no' hid a learning crisis until a proficiency indicator exposed it."]}},
+  {art:"target",h:"Key Ideas",p:[
+    "Outcome and impact indicators measure real change in people's lives, not just activity. The MDG enrolment indicator counted an output (children enrolled) while missing the outcome (children actually learning) — exactly the trap advanced indicators are designed to avoid.",
+    "Composite indicators combine several measures into one meaningful index, capturing complex realities a single number cannot. Gender-sensitive indicators deliberately measure differences in how programmes affect women and men, surfacing inequities that gender-blind data hides.",
+    "SDG indicators (like the Minimum Proficiency Level for reading and maths) are internationally agreed measures designed to capture genuine transformation across nations. Their development shows how much careful design goes into an indicator that must work globally.",
+    "Indicator validation and benchmarking ensure a proposed indicator actually measures what it claims (validity) and that data can feasibly be collected. The UN's work balanced ambition with feasibility, so the new proxies captured real learning without demanding data poorer nations couldn't gather. Advanced indicators measure transformation and equity, not just easy counts."]},
+  {art:"steps",h:"Developing Advanced Indicators",p:[
+    "Take a binary indicator ('enrolled: yes/no') and design a stronger outcome indicator that captures real change.",
+    "Describe a gender-sensitive version of an indicator that would reveal differences between women and men.",
+    "Reflect on the SDG case: why did 'enrolled in school' hide a crisis that a proficiency indicator exposed?"]}
+ ],
+ activity:"Convert a simple activity count into a validated outcome or composite indicator, and explain how you would check its validity and feasibility before using it.",
+ check:[
+  {q:"What problem did the binary 'enrolled: yes/no' indicator hide?",o:["That millions of enrolled children could not actually read","That schools were overcrowded","That enrolment was falling","That teachers were absent"],a:0},
+  {q:"What are composite indicators?",o:["Indicators that combine several measures into one meaningful index","Indicators with only two answers","A type of survey","A funding total"],a:0},
+  {q:"What does indicator validation ensure?",o:["That an indicator actually measures what it claims and that data can feasibly be collected","That the budget is spent","That reports are long","That donors are happy"],a:0}
+ ]},
+
+{id:"amel5",n:5,title:"Advanced Data Collection Methods",mins:65,icon:"FlaskConical",summary:"Mixed methods, experimental and quasi-experimental designs, longitudinal studies, and mobile and remote monitoring for fluid, high-risk environments.",
+ keyWords:["mixed methods","remote monitoring","mobile data","real-time"],
+ sections:[
+  {art:"global",h:"The Text Messages That Mapped an Epidemic in Real Time",p:[
+    "At the peak of the West African Ebola epidemic, traditional paper-based survey methods were entirely useless and dangerous. Sending field workers door-to-door with clipboards took weeks to compile data and directly exposed staff to lethal infection risk. In Monrovia, Liberia, the UNICEF Innovation Team, led by Dr. Christopher Fabian, moved rapidly away from traditional methods.",
+    "They implemented real-time remote monitoring through a mobile text-based platform called RapidPro.",
+    "They trained a vast, dispersed network of local community leaders, teachers, and frontline health workers to text raw daily tracking data — newly infected patients and missing personal protective equipment — directly to a centralised server. This instantaneous mobile data collection allowed logistics teams to map disease clusters and reroute life-saving medical gear to specific hotspots in hours rather than months."],
+   ex:{t:"Conclusion",b:["When operating in highly fluid or dangerous environments, advanced remote and real-time data-collection methods are absolute requirements for saving lives.","Paper surveys that take weeks are useless in a fast-moving crisis.","Text-based remote monitoring mapped an epidemic in hours and routed supplies to the right places."]}},
+  {art:"data",h:"Key Ideas",p:[
+    "Advanced data collection extends far beyond surveys. Mixed methods research deliberately combines quantitative and qualitative data to capture both scale and depth, giving a fuller, more credible picture than either alone.",
+    "Experimental and quasi-experimental designs (covered further in the impact-evaluation unit) allow evaluators to isolate what a programme actually caused, while longitudinal studies track the same subjects over time to see how change unfolds — essential for understanding lasting effects.",
+    "Mobile data collection and remote monitoring, as the Ebola case shows, are transformative in fluid or dangerous settings. Texting data from a dispersed network to a central server delivered insight in hours and kept field staff safe, where door-to-door paper surveys would have been slow and lethal.",
+    "Choosing the right method depends on the environment and the question. A master practitioner matches the design — mixed methods, experimental, longitudinal, or real-time remote — to the reality on the ground. In crises especially, speed and safety make remote, real-time collection not a luxury but a requirement for saving lives."]},
+  {art:"steps",h:"Choosing Advanced Methods",p:[
+    "For a research question, decide whether mixed methods, a longitudinal design, or remote real-time collection fits best, and why.",
+    "Describe how a mobile, remote system could gather data safely in a dangerous or fast-changing setting.",
+    "Reflect on the Ebola response: why were real-time text-based methods essential where paper surveys failed?"]}
+ ],
+ activity:"Design an advanced data-collection approach for a fast-moving or hard-to-reach context, choosing a suitable method and explaining how it delivers timely, credible data.",
+ check:[
+  {q:"Why were paper surveys useless during the Ebola epidemic?",o:["They took weeks to compile and dangerously exposed field workers to infection","There were no people to survey","Paper is banned in Liberia","The surveys were too short"],a:0},
+  {q:"What is mixed methods research?",o:["Deliberately combining quantitative and qualitative data for both scale and depth","Using only surveys","Using only interviews","Avoiding all data"],a:0},
+  {q:"What do longitudinal studies do?",o:["Track the same subjects over time to see how change unfolds","Study a group only once","Avoid measuring change","Replace all other methods"],a:0}
+ ]},
+
+{id:"amel6",n:6,title:"Data Quality Management",mins:65,icon:"ClipboardCheck",summary:"Data Quality Assessments, verification, cleaning, governance and security — because unverified data is a liability that can hide catastrophic failure.",
+ keyWords:["data quality assessment","verification","data governance","security"],
+ sections:[
+  {art:"control",h:"The Perfect Reports That Hid Rotting Bed Nets",p:[
+    "A standard desk review of a multi-million-dollar malaria intervention in Cambodia showed immaculate, 100% distribution rates for insecticide-treated bed nets across remote provinces. But suspicious statistical trends triggered an intensive, on-the-ground Data Quality Assessment.",
+    "When independent auditors conducted field data verification and physical inventory audits, they discovered a massive breakdown in data governance.",
+    "Local clinic logs were being systematically fabricated on paper to meet international donor milestones, while thousands of physical bed nets sat rotting, undistributed, in locked warehouses. Because of this severe lack of verification, malaria cases had spiked completely undetected in several rural sectors. The scandal forced a temporary freeze on millions in aid and led to mandatory biometric tracking systems."],
+   ex:{t:"Conclusion",b:["Unverified data is a liability.","A robust data-quality governance plan with rigorous verification protocols is the only thing protecting an organisation from devastating failure.","Perfect-looking reports hid rotting bed nets and an undetected malaria spike until verification exposed the truth."]}},
+  {art:"law",h:"Key Ideas",p:[
+    "A Data Quality Assessment (DQA) is a structured review of whether data is accurate, reliable and trustworthy. In Cambodia, a routine desk review looked perfect; only an intensive DQA revealed that the underlying data was fabricated.",
+    "Data verification means independently checking that reported data matches reality — the field verification and physical inventory audits that exposed the undistributed nets. Reports alone can be falsified; verification confronts them with the truth on the ground.",
+    "Data cleaning removes errors and inconsistencies, while data governance is the overall system of rules, roles and controls ensuring data integrity across an organisation. The Cambodia scandal was fundamentally a governance breakdown: no one was accountable for whether the numbers were real.",
+    "Data security protects data from loss, tampering and unauthorised access. Together, these disciplines guard against the core danger this unit teaches: unverified data is not neutral, it is a liability that can hide catastrophic failure and cost lives. Robust quality management and verification are what keep decisions grounded in reality."]},
+  {art:"steps",h:"Assuring Data Quality",p:[
+    "Describe a Data Quality Assessment you would run if reported results looked suspiciously perfect.",
+    "Explain how physical verification could confront a falsified report with reality, as in Cambodia.",
+    "Reflect on the bed-net scandal: why is unverified data described as a liability rather than just incomplete?"]}
+ ],
+ activity:"Draft a data-quality management plan for a programme covering a Data Quality Assessment, verification, cleaning and governance, explaining how it would catch fabricated or unreliable data.",
+ check:[
+  {q:"What did the Cambodia Data Quality Assessment uncover?",o:["Fabricated clinic logs and thousands of undistributed bed nets, with malaria spiking undetected","That distribution was genuinely 100%","That there were no bed nets purchased","That the auditors were wrong"],a:0},
+  {q:"What is data verification?",o:["Independently checking that reported data matches reality","Deleting all data","Writing longer reports","Collecting more surveys"],a:0},
+  {q:"Why is unverified data described as a liability?",o:["It can hide catastrophic failure and mislead decisions, as the fabricated reports did","It is always accurate","It saves money","It has no effect on outcomes"],a:0}
+ ]},
+
+{id:"amel7",n:7,title:"Advanced Data Analysis",mins:65,icon:"Video",summary:"Descriptive and inferential statistics, trend analysis and dynamic data visualization that transform silent numbers into compelling narratives that drive policy.",
+ keyWords:["inferential statistics","trend analysis","data visualization","storytelling"],
+ sections:[
+  {art:"chart",h:"The Moving Bubble Charts That Dismantled a Myth",p:[
+    "For decades, international aid organisations analysed macro-datasets through an outdated, binary lens: dividing the globe into 'developed' wealthy nations and 'developing' impoverished nations. This simplistic interpretation led to deeply flawed trend analysis and billions in misallocated funds. In Stockholm, global-health professor Dr. Hans Rosling set out to dismantle this myth.",
+    "He used inferential statistics and dynamic, multi-dimensional data visualisation tools to challenge the binary worldview.",
+    "By aggregating over fifty years of UN fertility and child-mortality data, he built moving bubble charts that visually demonstrated that the vast majority of the world's population had actually transitioned into a dynamic, middle-income bracket. His masterclass in storytelling with data changed how the UN and the World Bank analyse macro-trends and present evidence to global policymakers."],
+   ex:{t:"Conclusion",b:["Raw data is silent; advanced data analysis and expert data visualisation transform complex numbers into compelling narratives that drive policy.","A flawed binary interpretation misallocated billions until better analysis corrected it.","Moving bubble charts made fifty years of data tell a clear, myth-busting story."]}},
+  {art:"measure",h:"Key Ideas",p:[
+    "Descriptive statistics summarise what a dataset shows — averages, distributions, trends — while inferential statistics let you draw conclusions and test whether patterns are real rather than chance. Rosling used inferential methods to prove the 'two worlds' view was statistically wrong.",
+    "Data interpretation is where analysis can go badly right or wrong: the old developed/developing binary was a flawed interpretation that misdirected billions. Skilled interpretation questions assumptions and looks for what the data actually says, not what people expect.",
+    "Trend analysis examines how variables change over time. Rosling's power came from aggregating fifty years of data to reveal a long-term transition that a single snapshot would miss entirely.",
+    "Data visualisation turns analysis into understanding. Rosling's moving bubble charts made a complex, multi-decade dataset instantly graspable and persuasive — 'storytelling with data'. The lesson is that raw numbers are silent; rigorous analysis plus compelling visualisation is what turns data into narratives powerful enough to change global policy."]},
+  {art:"steps",h:"Analysing and Telling the Story",p:[
+    "Take a dataset and describe what descriptive statistics would summarise versus what inferential statistics would let you conclude.",
+    "Identify a common assumption (like 'developed vs developing') and how a trend analysis might challenge it.",
+    "Reflect on Rosling: why did dynamic visualisation succeed in changing minds where raw data had not?"]}
+ ],
+ activity:"Take a set of trends and design how you would analyse and then visualise them to tell a clear, accurate story that could influence a decision, explaining your choices.",
+ check:[
+  {q:"What flawed interpretation did Rosling dismantle?",o:["The binary 'developed vs developing' worldview that misallocated billions","That data visualisation is useless","That statistics are always wrong","That the world was improving too fast"],a:0},
+  {q:"What is the difference between descriptive and inferential statistics?",o:["Descriptive summarises the data; inferential draws conclusions and tests whether patterns are real","They are identical","Descriptive predicts the future","Inferential only counts totals"],a:0},
+  {q:"What is the core lesson about raw data?",o:["Raw data is silent; analysis plus visualisation turns it into narratives that drive policy","Raw numbers speak for themselves","Visualisation distorts data","Only totals matter"],a:0}
+ ]},
+
+{id:"amel8",n:8,title:"Impact Evaluation",mins:70,icon:"FlaskConical",summary:"Rigorous designs — RCTs, quasi-experiments, contribution analysis and outcome harvesting — that reveal what a programme truly caused, not what it seemed to.",
+ keyWords:["impact evaluation","RCT","causal factor","contribution analysis"],
+ sections:[
+  {art:"science",h:"The $0.49 Deworming Pill That Beat Textbooks",p:[
+    "A prominent NGO was pouring massive funding into school textbooks and teacher incentives in western Kenya to reduce high student absenteeism, but they had no rigorous proof of impact. Economists Dr. Michael Kremer and Dr. Ted Miguel designed a rigorous Randomised Controlled Trial across 75 primary schools, leaving some schools as a control group while rolling out interventions in others.",
+    "To everyone's shock, the evaluation proved that textbooks and extra teachers had zero statistical impact on attendance or test scores.",
+    "Instead, their analysis revealed a completely hidden causal factor: chronic hookworm infections were keeping children sick at home. They evaluated a simple school deworming programme costing just $0.49 per child, which immediately reduced absenteeism by an incredible 25%. This landmark impact evaluation eventually contributed to a Nobel Prize, proving how easily organisations can spend millions treating the wrong problem."],
+   ex:{t:"Conclusion",b:["Without rigorous impact-evaluation designs like RCTs or quasi-experiments, organisations risk spending millions treating the wrong symptoms of a problem.","Textbooks and extra teachers had zero measured impact; a 49-cent deworming pill cut absenteeism by 25%.","Rigorous evaluation revealed the real, hidden cause that intuition had entirely missed."]}},
+  {art:"weigh",h:"Key Ideas",p:[
+    "Impact evaluation asks the hardest question in MEL: did the programme actually cause the change, or would it have happened anyway? Answering it rigorously prevents the costly error of the Kenya NGO, which assumed textbooks worked without proof.",
+    "A Randomised Controlled Trial (RCT) compares a group receiving an intervention with a randomly assigned control group that does not, isolating the programme's true effect. The 75-school Kenya RCT is a textbook example, revealing textbooks had zero impact.",
+    "Quasi-experimental designs approximate this comparison when randomisation isn't possible, using statistical techniques to construct a credible counterfactual. Both aim to establish genuine cause, not just correlation.",
+    "Contribution analysis and outcome harvesting are complementary approaches: contribution analysis reasons carefully about how much a programme contributed to an observed change (uncovering the hookworm cause in Kenya), while outcome harvesting works backward from observed outcomes to identify what produced them. Together, these rigorous designs protect organisations from spending millions treating the wrong symptoms."]},
+  {art:"steps",h:"Evaluating True Impact",p:[
+    "Explain how a control group lets an RCT tell whether a programme actually caused a result.",
+    "Describe a situation where an apparent solution might have zero real impact, as textbooks did in Kenya.",
+    "Reflect on the deworming study: why did rigorous impact evaluation matter more than the intuitive assumption?"]}
+ ],
+ activity:"Design a simple impact-evaluation approach for a programme, choosing an RCT or quasi-experimental design, and explain how it would reveal whether the programme truly caused its results.",
+ check:[
+  {q:"What did the Kenya RCT reveal?",o:["Textbooks and extra teachers had zero impact; deworming cut absenteeism by 25%","That textbooks were the key solution","That evaluation is unnecessary","That the schools should close"],a:0},
+  {q:"What is a Randomised Controlled Trial?",o:["A design comparing an intervention group with a randomly assigned control group to isolate true effect","A survey of opinions","A budget review","A focus group"],a:0},
+  {q:"Why is rigorous impact evaluation important?",o:["Without it, organisations risk spending millions treating the wrong symptoms","It is legally required","It always confirms the plan","It replaces monitoring"],a:0}
+ ]},
+
+{id:"amel9",n:9,title:"Learning Systems and Adaptive Management",mins:65,icon:"Lightbulb",summary:"Collaborating, Learning and Adapting — institutional learning systems that let managers pivot on evidence when the environment changes underneath them.",
+ keyWords:["adaptive programming","learning reviews","CLA","communities of practice"],
+ sections:[
+  {art:"agency",h:"The Drought Pivot That Saved Thousands of Families",p:[
+    "A major donor committed tens of millions of dollars to a long-term agricultural development and food-security initiative in a highly volatile, climate-stressed region of Uganda. Midway through implementation, an unprecedented, severe multi-year drought hit, completely altering local pastoralist migration routes and market structures.",
+    "Traditional programming would have forced the team to stubbornly execute the original, now-obsolete contract. Instead, the team used a Collaborating, Learning, and Adapting framework.",
+    "They paused operations for rapid learning reviews, analysed real-time market data, and systematically pivoted their funding from crop-farming supplies to livestock vaccination and market protection. This timely instance of adaptive programming saved thousands of families from total economic ruin — an outcome impossible if they had rigidly followed the outdated plan."],
+   ex:{t:"Conclusion",b:["Rigid execution in a changing environment leads to failure.","Modern MEL requires institutional learning systems that allow managers to adaptively pivot based on evidence.","A learning-driven pivot from crops to livestock saved thousands when a drought made the original plan obsolete."]}},
+  {art:"achieve",h:"Key Ideas",p:[
+    "Organisational learning at the advanced level is built into institutional systems, not left to chance. The Uganda team succeeded because it had a structured framework — Collaborating, Learning, and Adapting (CLA) — that made pivoting a normal, evidence-based process rather than a crisis improvisation.",
+    "Learning reviews are structured pauses to analyse what is happening and what should change. The team's rapid reviews of real-time market data during the drought are exactly this, enabling a fast, informed decision to shift resources.",
+    "Adaptive programming means adjusting a programme's activities in response to evidence and changing conditions, even mid-contract. Rigidly executing an obsolete plan during the drought would have been a predictable failure; adapting saved thousands.",
+    "Knowledge management and communities of practice spread learning across an organisation and connect practitioners so insights are shared, not lost. Together, these build the institutional learning systems that let managers pivot confidently on evidence — the defining capability of modern, adaptive MEL."]},
+  {art:"steps",h:"Building Learning Systems",p:[
+    "Describe a rapid learning review you would run if conditions changed suddenly during a programme.",
+    "Explain how adaptive programming would let a team pivot resources on evidence, as in the drought.",
+    "Reflect on Uganda: why did an institutional learning system succeed where rigid execution would have failed?"]}
+ ],
+ activity:"Design an adaptive-management approach for a programme in a volatile setting, including a learning-review routine and how you would pivot resources based on evidence.",
+ check:[
+  {q:"How did the Uganda team respond to the drought?",o:["They used a learning-and-adapting framework to pivot funding from crops to livestock","They rigidly followed the original plan","They cancelled the programme","They ignored the drought"],a:0},
+  {q:"What is adaptive programming?",o:["Adjusting a programme's activities in response to evidence and changing conditions","Following a fixed plan no matter what","Avoiding all data","Reviewing only at the end"],a:0},
+  {q:"What do communities of practice do?",o:["Connect practitioners so insights are shared, not lost","Replace all field work","Set the budget","Write final reports only"],a:0}
+ ]},
+
+{id:"amel10",n:10,title:"Digital MEL Systems",mins:65,icon:"Sparkles",summary:"Integrating tools like ODK, DHIS2, SurveyCTO, CommCare and Power BI — with GIS and satellite data — into an agile, highly targeted digital MEL ecosystem.",
+ keyWords:["ODK","DHIS2","GIS","integrated systems"],
+ sections:[
+  {art:"global",h:"The Digital Ecosystem That Pinpointed Every Missed House",p:[
+    "Zambia's national indoor residual spraying campaign to eliminate malaria was severely bottlenecked by paper mapping. Spray operators had no way of knowing which specific houses in remote villages had been treated, resulting in massive gaps in coverage where malaria mosquitoes could still breed.",
+    "The evaluation team abandoned paper logs and built an integrated digital MEL ecosystem using Open Data Kit for field data collection, which automatically fed into a centralised DHIS2 platform.",
+    "They integrated this data directly with high-resolution satellite imagery and automated Power BI dashboards. For the first time, provincial managers could view daily GIS maps pinpointing the exact geographical coordinates of missed households, allowing teams to instantly redeploy sprayers to the gaps — turning slow, static reporting into an agile, targeted operation."],
+   ex:{t:"Conclusion",b:["Transitioning to advanced digital MEL tools like ODK, DHIS2 and Power BI transforms slow, static reporting into an agile, highly targeted operation.","Paper mapping left invisible coverage gaps where malaria could keep spreading.","An integrated digital ecosystem with GIS pinpointed every missed house in real time."]}},
+  {art:"data",h:"Key Ideas",p:[
+    "Advanced digital MEL is about integrated systems, not single tools. Zambia's breakthrough came from connecting field collection, a central database, satellite data and dashboards into one ecosystem where data flowed automatically end to end.",
+    "Field data-collection tools like Open Data Kit (ODK), SurveyCTO, KoboToolbox and CommCare capture data digitally in the field, even offline. They are the front end that replaces slow, error-prone paper logs.",
+    "Platforms like DHIS2 serve as central data warehouses, aggregating information from many sources into one system that managers and ministries can use. Integrating this with GIS and satellite imagery adds a powerful geographical dimension — the daily maps of missed houses that made Zambia's campaign targetable.",
+    "Automated dashboards (like Power BI) turn the integrated data into live, visual, decision-ready views. The lesson is that connecting these tools into one agile pipeline — collection, storage, geospatial analysis and visualisation — transforms MEL from slow, static reporting into real-time, precisely targeted operations."]},
+  {art:"steps",h:"Integrating a Digital Ecosystem",p:[
+    "Sketch how field data could flow automatically from a mobile tool into a central platform and then a dashboard.",
+    "Describe how adding GIS or satellite data could reveal geographical gaps a table of numbers would hide.",
+    "Reflect on Zambia: why did an integrated digital ecosystem succeed where paper mapping failed?"]}
+ ],
+ activity:"Design an integrated digital MEL system for a field programme, naming the collection tool, central platform and dashboard, and explaining how integration enables real-time, targeted action.",
+ check:[
+  {q:"What did Zambia's integrated digital system enable?",o:["Daily GIS maps pinpointing missed houses so sprayers could be redeployed instantly","Slower paper reporting","Fewer bed nets","Random spraying"],a:0},
+  {q:"What is DHIS2 in a digital MEL ecosystem?",o:["A central platform that aggregates data from many sources into one system","A mobile survey app only","A satellite","A dashboard colour"],a:0},
+  {q:"What makes advanced digital MEL powerful?",o:["Integrating collection, storage, geospatial analysis and visualisation into one agile pipeline","Using a single tool in isolation","Returning to paper logs","Avoiding dashboards"],a:0}
+ ]},
+
+{id:"amel11",n:11,title:"Donor Compliance and Reporting",mins:60,icon:"Shield",summary:"Navigating the rigid, shifting reporting standards of major donors like USAID, the UN, FCDO and the World Bank to protect funding and reputation.",
+ keyWords:["donor compliance","USAID","results frameworks","reporting standards"],
+ sections:[
+  {art:"law",h:"The Overnight Rule Change That Forced a Framework Rebuild",p:[
+    "A premier international healthcare NGO managing complex portfolios across multiple continents faced a sudden, existential crisis when the United States government reinstated and expanded a major policy restriction. Overnight, strict USAID compliance requirements legally prohibited any organisation receiving US global-health assistance from performing or actively promoting certain services.",
+    "Because the NGO managed highly complex, pooled donor funding from USAID, FCDO and the UN, their MEL team had to immediately decouple their results frameworks.",
+    "They had to rapidly restructure their indicator-tracking databases, ensuring that not a single cent of US money touched restricted activities, while keeping separate, flawless donor performance reports for their European partners — all to avoid a total shutdown of their operations. It was a stark demonstration of how central compliance is to survival."],
+   ex:{t:"Conclusion",b:["Navigating the rigid, often shifting reporting standards of major donors like USAID, FCDO, the UN and the World Bank is essential for protecting funding and reputation.","A single overnight policy change forced an urgent, complete rebuild of results frameworks.","Meticulous compliance and separate, accurate reporting kept the organisation operating."]}},
+  {art:"control",h:"Key Ideas",p:[
+    "Major donors — USAID, the UN, FCDO, the World Bank — each have their own detailed MEL requirements, results frameworks and reporting standards. A large NGO often manages several at once, and compliance with all of them is non-negotiable for keeping funding.",
+    "Compliance is not static: rules can change suddenly, as the overnight policy shift showed. MEL teams must be able to restructure indicator databases and decouple funding streams rapidly to stay compliant, or risk a total operational shutdown.",
+    "Managing pooled or multiple funding sources requires keeping results frameworks and financial tracking clearly separated, so each donor's money is used and reported exactly according to its rules. The NGO's careful decoupling ensured no US funds touched restricted activities.",
+    "Writing strong MEL sections in proposals, and producing flawless, donor-specific performance reports, are core professional skills. Mastering the shifting standards of major donors protects an organisation's funding and reputation — a practical discipline as important as any technical evaluation skill."]},
+  {art:"steps",h:"Managing Compliance",p:[
+    "Explain why an organisation managing several donors must keep their results frameworks and funds clearly separated.",
+    "Describe how a MEL team would respond quickly to a sudden change in a donor's compliance rules.",
+    "Reflect on the NGO case: why is donor compliance described as essential to survival, not just paperwork?"]}
+ ],
+ activity:"Outline how you would structure MEL reporting for an organisation managing two different donors with different rules, ensuring compliant, accurate, donor-specific reports.",
+ check:[
+  {q:"What forced the NGO to rebuild its results frameworks overnight?",o:["A sudden reinstated donor policy restriction on how US funding could be used","A drop in staff","A software crash","A change of logo"],a:0},
+  {q:"Why must organisations keep multiple donors' frameworks separated?",o:["So each donor's money is used and reported exactly according to its own rules","To confuse the auditors","Because donors never differ","To avoid reporting at all"],a:0},
+  {q:"Why is donor compliance essential to survival?",o:["Failing it can trigger a total shutdown of funding and operations","It is only optional paperwork","It never changes","It has no link to funding"],a:0}
+ ]},
+
+{id:"amel12",n:12,title:"Financial Monitoring",mins:60,icon:"ClipboardCheck",summary:"Budget and cost tracking, Value for Money and cost-benefit analysis integrated with programmatic monitoring — because money and results must be measured together.",
+ keyWords:["value for money","budget tracking","cost-benefit","accountability"],
+ sections:[
+  {art:"weigh",h:"The Ghost Teachers Exposed by Value-for-Money Analysis",p:[
+    "An international donor agency was pouring hundreds of millions of dollars into public school systems in Pakistan, yet student-performance metrics remained entirely stagnant. Public outcry demanded even more funding, but auditors, guided by global delivery expert Sir Michael Barber, decided to run an intensive Value for Money and cost-benefit analysis.",
+    "By integrating financial budget-tracking databases directly with daily programmatic field-monitoring logs, they exposed a staggering anomaly.",
+    "While teacher salaries consumed over 80% of the education budget, teacher absenteeism sat at a hidden 30% — the system was paying millions to 'ghost teachers' who never entered a classroom. The team implemented biometric attendance systems, directly tying monthly financial payouts to verified attendance. This shift drastically improved student learning without requiring a single extra dollar of funding."],
+   ex:{t:"Conclusion",b:["Financial monitoring must never be treated separately from programmatic monitoring.","Measuring cost-effectiveness is vital for true project sustainability.","Linking budgets to verified attendance exposed 'ghost teachers' and improved learning without extra money."]}},
+  {art:"chart",h:"Key Ideas",p:[
+    "Budget tracking and cost monitoring follow where money actually goes and whether spending matches the plan. On their own, financial figures can look fine while results stagnate — which is why they must be linked to programmatic data.",
+    "The core lesson is integration: financial monitoring and programmatic monitoring must be joined. The Pakistan breakthrough came from connecting budget databases to field logs, which revealed that 80% of the budget was funding teachers who were 30% absent.",
+    "Value for Money (VfM) analysis asks whether a programme delivers good results for the resources spent, and cost-benefit analysis weighs a programme's costs against the value of its outcomes. These reframe the question from 'how much did we spend?' to 'what did we get for it?'.",
+    "Financial accountability ensures money is used honestly and effectively. Tying payments to verified results — as the biometric attendance system tied salaries to real attendance — is a powerful application, improving outcomes without extra funding. Measuring cost-effectiveness alongside results is essential for genuine, sustainable impact."]},
+  {art:"steps",h:"Monitoring the Money",p:[
+    "Explain why financial data alone can look healthy while a programme delivers no results.",
+    "Describe how linking budget tracking to field monitoring could expose waste, as it did with ghost teachers.",
+    "Reflect on Pakistan: how did a Value for Money analysis improve learning without any extra funding?"]}
+ ],
+ activity:"Design a financial-monitoring approach that integrates budget tracking with programmatic data for a programme, and explain how it would reveal whether spending is delivering real value.",
+ check:[
+  {q:"What did the Value for Money analysis expose in Pakistan?",o:["Millions paid to 'ghost teachers' who never entered classrooms, with 30% absenteeism","That funding was too low","That students were all excelling","That teachers were overpaid but present"],a:0},
+  {q:"What is the core lesson about financial monitoring?",o:["It must be integrated with programmatic monitoring, not treated separately","It should be ignored","Only budgets matter, never results","Results matter, never budgets"],a:0},
+  {q:"What is Value for Money analysis?",o:["Asking whether a programme delivers good results for the resources spent","Counting only the total budget","A type of survey","A donor's logo"],a:0}
+ ]},
+
+{id:"amel13",n:13,title:"MEL in Different Sectors",mins:60,icon:"BookOpen",summary:"Dynamically adapting methodologies to the operational rules of health, nutrition, agriculture and rapid humanitarian response — never one-size-fits-all.",
+ keyWords:["cross-sectoral","humanitarian","sector-specific metrics","adaptation"],
+ sections:[
+  {art:"roles",h:"The Rapid Framework That Served a Refugee Crisis",p:[
+    "During the height of the Syrian refugee crisis, hundreds of displaced families were crossing borders every single day into temporary camps in Lebanon's Bekaa Valley. Traditional development MEL methods — such as conducting exhaustive, multi-month baseline field surveys — were entirely impractical in this rapid humanitarian environment.",
+    "The cross-sectoral evaluation team had to quickly build a dynamic framework that intersected health, nutrition, and gender-protection metrics simultaneously.",
+    "They deployed iris-scanning biometric technology at distribution points to instantly verify identities, monitored caloric delivery via electronic food vouchers, and tracked protection risks for unaccompanied minors in real time. This high-pressure environment forced the professionals to abandon slow, generic methods and design fast, sector-specific metrics."],
+   ex:{t:"Conclusion",b:["MEL is not a one-size-fits-all discipline.","A master practitioner must dynamically adapt their methodologies to fit the specific operational rules of health, agriculture, or emergency-response sectors.","A rapid, multi-sector framework served a fast-moving refugee crisis where slow baseline surveys would have failed."]}},
+  {art:"roles",h:"Key Ideas",p:[
+    "Advanced MEL adapts its methods to each sector's operational realities. The refugee crisis shows the extreme case: standard multi-month baseline surveys were impossible, so the team built fast, real-time, multi-sector metrics instead.",
+    "Each sector has distinct requirements. Education MEL tracks learning; health and nutrition MEL track clinical and dietary outcomes; agriculture MEL tracks yields, adoption and food security; and humanitarian response MEL prioritises speed, identity verification and protection under crisis conditions.",
+    "Cross-sectoral work — intersecting health, nutrition and protection simultaneously, as in Lebanon — requires frameworks that measure several dimensions at once, because a refugee family's needs cut across all of them at the same time.",
+    "The master skill is diagnosing a sector's operational rules and constraints, then designing methods that fit — biometric verification and electronic vouchers for a fast humanitarian response, versus longitudinal field studies for a stable agricultural programme. MEL methodology must bend to the sector, never the other way around."]},
+  {art:"steps",h:"Adapting by Sector",p:[
+    "Pick two sectors (say, humanitarian response and agriculture) and describe how their MEL methods must differ.",
+    "Explain why exhaustive multi-month baseline surveys were impractical in the refugee crisis.",
+    "Reflect on Lebanon: why did fast, sector-specific, real-time metrics succeed where generic methods would have failed?"]}
+ ],
+ activity:"Choose a sector and design a fit-for-purpose MEL approach for it, explaining how its methods differ from those you would use in a slower, more stable context.",
+ check:[
+  {q:"Why were standard baseline surveys impractical in the refugee crisis?",o:["Families were arriving constantly in a fast-moving emergency; slow multi-month surveys couldn't keep up","Surveys are illegal in Lebanon","There were too few refugees","The team refused to use them"],a:0},
+  {q:"What did the cross-sectoral framework measure at once?",o:["Health, nutrition and gender-protection metrics simultaneously","Only crop yields","Only teacher attendance","Only the budget"],a:0},
+  {q:"What is the master skill in sector-specific MEL?",o:["Diagnosing a sector's operational rules and designing methods that fit","Using identical methods everywhere","Avoiding all adaptation","Only using surveys"],a:0}
+ ]},
+
+{id:"amel14",n:14,title:"AI and Digital Innovation in MEL",mins:65,icon:"Sparkles",summary:"Using machine learning, predictive analytics and automated reporting — even satellite-based estimation — for rapid, ethical evaluation at a global scale.",
+ keyWords:["machine learning","predictive analytics","satellite data","AI ethics"],
+ sections:[
+  {art:"command",h:"The Satellite AI That Measured Poverty from Space",p:[
+    "When the global COVID-19 pandemic hit, international travel was locked down and face-to-face field data collection stopped overnight. The World Bank urgently needed to evaluate deep economic poverty trends across Sub-Saharan Africa to distribute emergency cash relief, but could not send data collectors into the field. Sustainability scientist Dr. Marshall Burke and his team turned to machine learning and predictive analytics.",
+    "They trained an AI algorithm to analyse high-resolution satellite imagery.",
+    "They taught it to cross-reference daytime structural features — like changing roofing materials and road-infrastructure quality — and night-time light intensity with years of historical household-survey data. The AI model successfully predicted localised economic deprivation across multiple nations with remarkable accuracy, completely bypassing traditional survey delays and enabling relief to be targeted when fieldwork was impossible."],
+   ex:{t:"Conclusion",b:["The frontier of MEL belongs to technological innovation.","Embracing AI, machine learning and predictive analytics allows for rapid, ethical evaluation at a global scale.","An AI trained on satellite imagery measured poverty across nations when no one could enter the field."]}},
+  {art:"data",h:"Key Ideas",p:[
+    "AI is transforming what MEL can measure and how fast. Burke's team estimated poverty across whole nations from satellite data when the pandemic made fieldwork impossible — a scale and speed traditional surveys could never match.",
+    "Machine learning in evaluation trains algorithms to find patterns and make predictions from large datasets. Here, the model learned to link visible features (roofing, roads, night-time lights) to economic conditions, using historical survey data as its training ground.",
+    "Predictive analytics forecasts outcomes and conditions from data, while automated reporting generates results and dashboards with minimal manual effort — together compressing the time from data to decision dramatically.",
+    "AI ethics in development is essential: these tools must be used responsibly, with attention to accuracy, bias, privacy and the risk of over-relying on models without ground-truthing. The frontier of MEL belongs to innovation, but the goal is rapid and ethical evaluation — power matched with responsibility and human judgement."]},
+  {art:"steps",h:"Innovating Responsibly",p:[
+    "Describe a MEL problem where AI or satellite data could provide estimates that fieldwork cannot.",
+    "Identify one ethical risk (bias, privacy, over-reliance) that must be managed when using AI in evaluation.",
+    "Reflect on the World Bank case: why was AI essential when field data collection became impossible?"]}
+ ],
+ activity:"Propose an AI or predictive-analytics approach to a MEL challenge, explaining what it would estimate, what data it would use, and how you would keep its use ethical and accurate.",
+ check:[
+  {q:"How did Burke's team measure poverty during the pandemic?",o:["By training AI on satellite imagery and night-time lights linked to historical survey data","By sending more field workers","By guessing","By cancelling all evaluation"],a:0},
+  {q:"What is machine learning in evaluation?",o:["Training algorithms to find patterns and make predictions from large datasets","A type of paper survey","A donor rule","A budget line"],a:0},
+  {q:"Why does AI ethics matter in development MEL?",o:["Tools must be used responsibly, watching for bias, privacy and over-reliance on models","Ethics never apply to AI","AI is always perfectly accurate","It slows down funding"],a:0}
+ ]},
+
+{id:"amel15",n:15,title:"Leadership in MEL",mins:60,icon:"Users",summary:"Building high-performing teams and a learning-over-blame culture through change management, stakeholder engagement and emotional intelligence.",
+ keyWords:["MEL leadership","change management","culture","stakeholder engagement"],
+ sections:[
+  {art:"agency",h:"Turning 'Internal Spies' into a Learning Culture",p:[
+    "A newly appointed Chief Evaluation Officer in South Africa's Western Cape was legally tasked with driving an evidence-based, data-driven learning culture across highly defensive government ministries. Initially, department heads viewed the incoming MEL team as 'internal spies' sent to highlight their failures, leading to widespread bureaucratic stonewalling, hidden files, and hostile engagement.",
+    "The Officer realised that technical evaluation skills were useless without adaptive leadership.",
+    "Using strategic change management and emotional intelligence, they rebranded evaluations as non-punitive 'coaching and learning opportunities'. They actively mentored ministry staff, involved them directly in defining performance benchmarks, and co-created user-friendly dashboards. This culture shift transformed an environment of fear into a highly collaborative, transparent learning ecosystem."],
+   ex:{t:"Conclusion",b:["True leadership in MEL is not about mastering spreadsheets.","It is about strategic change management, stakeholder engagement, and building a culture that values learning over blame.","Rebranding evaluation as coaching turned hostile stonewalling into a collaborative learning culture."]}},
+  {art:"achieve",h:"Key Ideas",p:[
+    "Leadership in MEL recognises that technical skill alone cannot create an evidence-based organisation. The Western Cape Officer's evaluations were technically sound but initially failed because staff experienced them as threats — the human dimension was decisive.",
+    "Building high-performing MEL teams, and coaching and mentoring others, spread capability and trust. Rather than policing ministries, the Officer mentored staff and involved them in defining benchmarks, turning them into partners rather than targets.",
+    "Change management and stakeholder engagement are the core of MEL leadership: shifting how an organisation perceives and uses evaluation. Rebranding it as 'coaching and learning' rather than fault-finding was a deliberate change-management move that dissolved resistance.",
+    "The goal is a culture that values learning over blame, in which evaluation is welcomed because it helps people improve, not punished for exposing failure. Strategic decision-making and emotional intelligence — not spreadsheet mastery — are what let a leader build that culture, as this transformation shows."]},
+  {art:"steps",h:"Leading a Learning Culture",p:[
+    "Explain why technically excellent evaluations can still fail if staff experience them as threats.",
+    "Describe one change-management move that would help staff see evaluation as coaching rather than blame.",
+    "Reflect on the Western Cape case: why did emotional intelligence matter more than technical skill here?"]}
+ ],
+ activity:"Design a leadership approach to build a learning-over-blame MEL culture in a defensive organisation, using change management, mentoring and stakeholder engagement.",
+ check:[
+  {q:"Why did the ministries initially resist the MEL team?",o:["They saw evaluators as 'internal spies' exposing their failures","The team lacked any data skills","There was no budget","Evaluation is illegal"],a:0},
+  {q:"What transformed the hostile culture?",o:["Rebranding evaluation as non-punitive coaching, mentoring staff and co-creating benchmarks","Punishing every failure","Hiding all results","Removing the MEL team"],a:0},
+  {q:"What is true leadership in MEL, according to this unit?",o:["Change management, stakeholder engagement and building a learning-over-blame culture","Mastering spreadsheets alone","Avoiding all people","Writing longer reports"],a:0}
+ ]},
+
+{id:"amel16",n:16,title:"Consulting and Career Development",mins:60,icon:"Users",summary:"Winning competitive international contracts through specialized portfolios, expert proposal writing and confident value-based pricing.",
+ keyWords:["MEL consulting","proposals","pricing","portfolio"],
+ sections:[
+  {art:"achieve",h:"The Bid That Beat Elite Firms",p:[
+    "A mid-career monitoring officer working for a small local NGO in Nairobi wanted to break into high-level international consulting. They spotted a highly competitive, lucrative Request for Proposals issued by the World Bank to evaluate a massive, multi-country water, sanitation and hygiene initiative.",
+    "To win this contract against elite global consulting firms, the consultant could not rely on a generic résumé.",
+    "They systematically built a professional portfolio demonstrating specialised sector expertise, wrote a flawless technical proposal methodology, and set a value-based pricing structure that accurately budgeted for complex field risks without undercutting their value. Winning that single international bid transformed their career overnight, establishing them as an independent consultant."],
+   ex:{t:"Conclusion",b:["Moving to the top tier of the international MEL consulting market requires a deliberate strategy for portfolio development, expert proposal writing, and confident pricing.","A generic résumé cannot beat elite firms for a major contract.","A specialised portfolio, a flawless methodology and value-based pricing won a World Bank bid outright."]}},
+  {art:"weigh",h:"Key Ideas",p:[
+    "Becoming a MEL consultant means competing on demonstrated expertise, not just experience. The Nairobi officer won by presenting specialised, sector-specific evidence of capability rather than a generic résumé — exactly what elite clients demand.",
+    "Proposal development is a decisive skill. A winning technical proposal lays out a flawless, credible methodology showing precisely how the evaluation will be done. This is often what separates the winning bid from dozens of others.",
+    "A professional portfolio showcases past work, sector expertise and results in a form that builds client confidence. Building one deliberately — as the consultant did — turns scattered experience into compelling proof of capability.",
+    "Consultancy pricing must be confident and value-based, accurately budgeting for real costs and risks (like complex fieldwork) without undercutting your worth. International career opportunities open up when a practitioner combines a strong portfolio, expert proposals and sound pricing — a deliberate strategy that can transform a career overnight."]},
+  {art:"steps",h:"Winning Contracts",p:[
+    "Describe what a strong technical proposal methodology for an evaluation contract would include.",
+    "Explain why value-based pricing that budgets for field risks beats simply quoting the lowest price.",
+    "Reflect on the Nairobi consultant: why did a specialised portfolio beat a generic résumé against elite firms?"]}
+ ],
+ activity:"Outline a strategy to win a competitive MEL consulting contract, covering your portfolio, a proposal methodology, and a value-based pricing approach.",
+ check:[
+  {q:"How did the Nairobi consultant win against elite firms?",o:["A specialised portfolio, a flawless proposal methodology and confident value-based pricing","The lowest possible price","A generic résumé","A personal connection only"],a:0},
+  {q:"What does a winning technical proposal lay out?",o:["A flawless, credible methodology showing exactly how the evaluation will be done","Only the consultant's hobbies","A single price with no detail","A list of competitors"],a:0},
+  {q:"Why should consultancy pricing be value-based?",o:["It budgets accurately for real costs and risks without undercutting your worth","The lowest price always wins","Pricing never matters","Clients prefer vague quotes"],a:0}
+ ]},
+
+{id:"amel17",n:17,title:"Research and Publication",mins:60,icon:"PenLine",summary:"Turning rigorous evaluation findings into accessible policy briefs, publications and conference presentations that change global practice.",
+ keyWords:["research design","policy briefs","publication","communication"],
+ sections:[
+  {art:"write",h:"The Policy Briefs That Rewrote Microfinance",p:[
+    "After years of intensive, painstaking randomised evaluations of microcredit and microfinance programmes across multiple countries, economist Dr. Esther Duflo faced a massive roadblock. Her team's revolutionary findings were locked away inside dense, academic datasets that global policymakers could not understand or use. If the findings remained unread, poor lending practices would continue harming millions of families.",
+    "Dr. Duflo focused her efforts heavily on academic research design, policy-brief development, and strategic communication.",
+    "By translating her complex econometric data into highly accessible, clear policy briefs and presenting them directly at international conferences, she convinced global microfinance institutions to restructure their loan terms. This effort culminated in her book Poor Economics and contributed to her Nobel Prize — proof that communicating findings can be as important as producing them."],
+   ex:{t:"Conclusion",b:["Data is only as valuable as your ability to communicate it.","Mastering research design, policy-brief writing, and publication turns raw evaluation findings into global practice.","Findings locked in dense datasets change nothing until they are translated into clear, accessible briefs."]}},
+  {art:"read",h:"Key Ideas",p:[
+    "Rigorous research design is the foundation of credible findings. Duflo's influence rested on years of careful randomised evaluations — without methodological rigour, no amount of communication would have been persuasive or ethical.",
+    "But rigour alone is not enough. Academic writing communicates findings to the research community, while policy-brief development translates complex results into short, clear, actionable summaries that busy decision-makers can actually use. Duflo's breakthrough came from this translation.",
+    "Publishing evaluation findings — in journals, reports and books like Poor Economics — spreads knowledge and builds credibility and reach. Presenting at conferences takes findings directly to the people who can act on them.",
+    "The core lesson mirrors the whole discipline: data and findings are only as valuable as your ability to communicate them. Mastering research design and then translating and publishing findings for the right audiences is what turns rigorous evaluation into real, global changes in practice."]},
+  {art:"steps",h:"Communicating Findings",p:[
+    "Take a complex finding and draft how you would summarise it in a short, clear policy brief for a busy decision-maker.",
+    "Explain why rigorous research design must come before persuasive communication, not instead of it.",
+    "Reflect on Duflo: why did translating findings into policy briefs change practice where dense datasets could not?"]}
+ ],
+ activity:"Turn a hypothetical evaluation finding into a one-page policy brief for policymakers, and describe how you would present it at a conference to drive real change.",
+ check:[
+  {q:"What roadblock did Esther Duflo face?",o:["Her rigorous findings were locked in dense datasets policymakers could not understand or use","Her research was not rigorous enough","No one would fund her","There was no data at all"],a:0},
+  {q:"What is a policy brief?",o:["A short, clear, actionable summary of complex findings for busy decision-makers","A full academic dataset","A funding request","A staff contract"],a:0},
+  {q:"What is the core lesson of this unit?",o:["Rigorous findings must be communicated well to turn into real, global practice","Communication matters more than rigour","Only academics need findings","Publishing is unnecessary"],a:0}
+ ]},
+
+{id:"amel18",n:18,title:"Capstone Project",mins:90,icon:"Users",summary:"Integrating Theory of Change, logframe, data quality assurance, evaluation designs and digital dashboards into one stress-tested MEL system for a complex programme.",
+ keyWords:["capstone","integrated MEL system","stress-tested","accountability"],
+ sections:[
+  {art:"achieve",h:"The $100 Million System Built From Scratch",p:[
+    "Imagine stepping into a high-stakes boardroom, tasked with leading a new $100 million multi-sectoral regional development initiative funded by a consortium of major international donors like the UN, USAID and the World Bank. The donors demand absolute accountability, verifiable proof of impact, real-time data visualisation, and an adaptive-management framework that can navigate sudden economic or climate shocks.",
+    "You cannot rely on basic checklists, generic templates, or guesswork.",
+    "To secure this project and guide it to success, you must present a completely fleshed-out, rock-solid, stress-tested MEL system built from scratch. This Capstone Project is your professional sandbox to do exactly that: integrating your Theory of Change, logframe, data-quality-assurance plans, evaluation designs, and digital dashboards into a single masterpiece that could withstand the scrutiny of the world's most demanding donors."],
+   ex:{t:"Conclusion",b:["The Capstone Project is the ultimate demonstration of your transformation into a professional MEL architect.","Integrating your Theory of Change, logframe, data-quality plans, evaluation designs and dashboards into one stress-tested system proves your elite capability.","A complete, rock-solid MEL system built from scratch is what secures the world's most demanding projects."]}},
+  {art:"culture",h:"Key Ideas",p:[
+    "The capstone integrates every discipline in the masterclass — systems thinking, programme design, comprehensive frameworks, advanced indicators, data collection and quality, analysis, impact evaluation, learning, digital systems, compliance, finance and leadership — into one complete MEL system for a complex, high-stakes programme.",
+    "Its power is integration and rigour under scrutiny. Demanding donors require every component to connect and hold up: the Theory of Change grounds the logframe, which drives the indicators and data-collection plan, which feed the evaluation designs and dashboards, all protected by data-quality assurance.",
+    "A capstone-level system must be stress-tested — designed to withstand real shocks like economic or climate disruption through an adaptive-management framework — reflecting the learning-and-adaptation discipline from earlier units. It is not a static template but a living, resilient system.",
+    "Presenting the whole system credibly, with real-time visualisation and verifiable proof of impact, is itself the final demonstrated skill. A complete, integrated, stress-tested MEL system built from scratch is undeniable proof of readiness to design and lead major international development programmes."]},
+  {art:"steps",h:"Building Your MEL System",p:[
+    "Choose a complex programme and list the components your MEL system must integrate: Theory of Change, logframe, MEL plan, data-quality assurance, evaluation designs and dashboards.",
+    "Describe how you would stress-test the system so it can adapt to a sudden economic or climate shock.",
+    "Reflect on the boardroom scenario: why do demanding donors require an integrated, stress-tested system rather than generic templates?"]}
+ ],
+ activity:"Write a one-page outline of a complete, integrated MEL system for a complex programme, listing each component and explaining how they connect into one stress-tested whole.",
+ check:[
+  {q:"What must the capstone MEL system be able to withstand?",o:["Real shocks like economic or climate disruption, through an adaptive-management framework","Nothing — it is a static template","Only a single donor's review","No scrutiny at all"],a:0},
+  {q:"What is the key strength of the capstone project?",o:["Integration and rigour — every component connects and holds up under demanding scrutiny","Keeping the parts unrelated","Using only one discipline","Avoiding evaluation designs"],a:0},
+  {q:"What does the capstone ultimately demonstrate?",o:["Readiness to design and lead major international development programmes","Memorised definitions only","That MEL is unnecessary","That templates are enough"],a:0}
+ ]}
+];
+
+const AMEL_Q=[
+// Module 1: Advanced Foundations of MEL (6)
+{ao:"Adv Foundations",q:"Why did the Punjab school report cards succeed?",o:["They addressed a hidden bottleneck — parents' lack of information — not just physical inputs","They built more schools","They printed more textbooks","They raised teacher salaries"],a:0},
+{ao:"Adv Foundations",q:"What is systems thinking in advanced MEL?",o:["Understanding a programme as part of a larger, interconnected ecosystem","Counting only physical inputs","Ignoring the wider context","A type of spreadsheet"],a:0},
+{ao:"Adv Foundations",q:"When does Results-Based Management fail?",o:["When applied as a rigid, linear checklist that ignores how systems behave","Whenever it is used","Only in wealthy countries","When results are measured"],a:0},
+{ao:"Adv Foundations",q:"What did Dr. Das's team monitor beyond physical inputs?",o:["The broader learning marketplace and its information gaps","Only the number of textbooks","Only teacher salaries","Only school buildings"],a:0},
+{ao:"Adv Foundations",q:"What is a Theory of Change?",o:["A map of how and why change is expected to happen, including its assumptions","A funding form","A staff roster","A logo"],a:0},
+{ao:"Adv Foundations",q:"What is the Logical Framework Approach (logframe)?",o:["A structured tool linking inputs, activities, outputs, outcomes and impact with indicators","A payment system","A type of survey only","A donor's name"],a:0},
+
+// Module 2: Programme Design for Impact (6)
+{ao:"Programme Design",q:"How did Santiago Levy make Progresa robust?",o:["By designing around verified causal links and stress-testing assumptions","By spending more money","By ignoring stakeholders","By avoiding all conditions"],a:0},
+{ao:"Programme Design",q:"What is problem analysis?",o:["Deeply understanding the real problem and its root causes before designing solutions","Choosing a logo","Writing a final report","Counting the budget"],a:0},
+{ao:"Programme Design",q:"What does stakeholder analysis identify?",o:["Everyone affected by or influencing a programme, and their interests and risks","Only the donors","Only staff salaries","The office location"],a:0},
+{ao:"Programme Design",q:"What condition did Progresa attach to cash transfers?",o:["Children maintaining school attendance and receiving medical checkups","Nothing at all","Political loyalty","A minimum income"],a:0},
+{ao:"Programme Design",q:"Why did Progresa survive changes of government?",o:["It was built on verified causal links, not political favouritism","It was kept secret","It had no evaluation","It bribed officials"],a:0},
+{ao:"Programme Design",q:"What is an impact pathway?",o:["A map of exactly how change is expected to occur, with assumptions stress-tested","A funding schedule","A single indicator","A staff contract"],a:0},
+
+// Module 3: Comprehensive MEL Frameworks (6)
+{ao:"MEL Frameworks",q:"Why did Paul Farmer's MEL framework succeed?",o:["It balanced rigid clinical accountability with community-based data collection reaching the poorest","It used only urban hospitals","It ignored all indicators","It removed accountability"],a:0},
+{ao:"MEL Frameworks",q:"What is a learning agenda?",o:["A deliberate set of questions a programme wants to answer as it runs","A staff holiday schedule","A funding request","A final report only"],a:0},
+{ao:"MEL Frameworks",q:"What must a comprehensive MEL framework balance?",o:["Strict institutional accountability with localized data collection matching beneficiaries' reality","Only donor demands","Only local preferences","Neither accountability nor reality"],a:0},
+{ao:"MEL Frameworks",q:"Who did Farmer train to track adherence in patients' homes?",o:["Local neighbours as accompagnateurs","Only urban doctors","Foreign consultants","No one"],a:0},
+{ao:"MEL Frameworks",q:"What compliance rate did the community framework achieve?",o:["100% treatment compliance in rural communities","Under 10%","Exactly half","None"],a:0},
+{ao:"MEL Frameworks",q:"What are the core components of a MEL framework?",o:["Indicators, performance measurement, data-collection plans and a learning agenda","Only a budget","Only a logo","Only a final report"],a:0},
+
+// Module 4: Advanced Indicator Development (6)
+{ao:"Adv Indicators",q:"What did the binary 'enrolled: yes/no' indicator hide?",o:["That millions of enrolled children could not actually read","That schools were overcrowded","That enrolment was falling","That teachers were absent"],a:0},
+{ao:"Adv Indicators",q:"What are composite indicators?",o:["Indicators that combine several measures into one meaningful index","Indicators with only two answers","A type of survey","A funding total"],a:0},
+{ao:"Adv Indicators",q:"What does indicator validation ensure?",o:["An indicator actually measures what it claims and data can feasibly be collected","The budget is spent","Reports are long","Donors are happy"],a:0},
+{ao:"Adv Indicators",q:"What do gender-sensitive indicators measure?",o:["Differences in how programmes affect women and men","Only total headcount","Only budgets","Only rainfall"],a:0},
+{ao:"Adv Indicators",q:"What kind of indicator is the Minimum Proficiency Level?",o:["An outcome-level SDG indicator capturing real learning","A binary enrolment count","A funding metric","A logo"],a:0},
+{ao:"Adv Indicators",q:"What must advanced indicators measure?",o:["Actual transformation and systemic equity, not just easy counts","Only money spent","Only activities","Only attendance"],a:0},
+
+// Module 5: Advanced Data Collection Methods (6)
+{ao:"Adv Data Collection",q:"Why were paper surveys useless during the Ebola epidemic?",o:["They took weeks to compile and dangerously exposed field workers to infection","There were no people to survey","Paper is banned","The surveys were too short"],a:0},
+{ao:"Adv Data Collection",q:"What is mixed methods research?",o:["Deliberately combining quantitative and qualitative data for both scale and depth","Using only surveys","Using only interviews","Avoiding all data"],a:0},
+{ao:"Adv Data Collection",q:"What do longitudinal studies do?",o:["Track the same subjects over time to see how change unfolds","Study a group only once","Avoid measuring change","Replace all other methods"],a:0},
+{ao:"Adv Data Collection",q:"How did UNICEF collect Ebola data in real time?",o:["A dispersed network texted daily tracking data to a central server via RapidPro","Door-to-door paper clipboards","Annual mailed surveys","No data at all"],a:0},
+{ao:"Adv Data Collection",q:"What did real-time data enable during the epidemic?",o:["Mapping disease clusters and rerouting medical gear in hours","Slower response","Fewer supplies","No change"],a:0},
+{ao:"Adv Data Collection",q:"How should a practitioner choose a data-collection method?",o:["By matching the design to the environment and the question","By always using paper","By always using surveys","Randomly"],a:0},
+
+// Module 6: Data Quality Management (6)
+{ao:"Data Quality Mgmt",q:"What did the Cambodia Data Quality Assessment uncover?",o:["Fabricated logs and undistributed bed nets, with malaria spiking undetected","Genuine 100% distribution","No bed nets purchased","That auditors were wrong"],a:0},
+{ao:"Data Quality Mgmt",q:"What is data verification?",o:["Independently checking that reported data matches reality","Deleting all data","Writing longer reports","Collecting more surveys"],a:0},
+{ao:"Data Quality Mgmt",q:"Why is unverified data described as a liability?",o:["It can hide catastrophic failure and mislead decisions","It is always accurate","It saves money","It has no effect"],a:0},
+{ao:"Data Quality Mgmt",q:"What is a Data Quality Assessment?",o:["A structured review of whether data is accurate, reliable and trustworthy","A funding pitch","A marketing report","A staff bonus"],a:0},
+{ao:"Data Quality Mgmt",q:"What is data governance?",o:["The system of rules, roles and controls ensuring data integrity across an organisation","A single spreadsheet","A donor's logo","A field survey"],a:0},
+{ao:"Data Quality Mgmt",q:"What triggered the Cambodia investigation?",o:["Suspicious statistical trends behind immaculate-looking reports","A staff complaint","A random guess","A funding increase"],a:0},
+
+// Module 7: Advanced Data Analysis (5)
+{ao:"Adv Analysis",q:"What flawed interpretation did Rosling dismantle?",o:["The binary 'developed vs developing' worldview that misallocated billions","That visualisation is useless","That statistics are always wrong","That the world improved too fast"],a:0},
+{ao:"Adv Analysis",q:"What is the difference between descriptive and inferential statistics?",o:["Descriptive summarises data; inferential draws conclusions and tests whether patterns are real","They are identical","Descriptive predicts the future","Inferential only counts totals"],a:0},
+{ao:"Adv Analysis",q:"What is the core lesson about raw data?",o:["Raw data is silent; analysis plus visualisation turns it into narratives that drive policy","Raw numbers speak for themselves","Visualisation distorts data","Only totals matter"],a:0},
+{ao:"Adv Analysis",q:"How did Rosling reveal the world's real income distribution?",o:["Moving bubble charts aggregating fifty years of fertility and mortality data","A single static table","A written essay only","A press release"],a:0},
+{ao:"Adv Analysis",q:"What does trend analysis examine?",o:["How variables change over time","A single moment only","Only the budget","Only opinions"],a:0},
+
+// Module 8: Impact Evaluation (6)
+{ao:"Impact Evaluation",q:"What did the Kenya RCT reveal?",o:["Textbooks and extra teachers had zero impact; deworming cut absenteeism by 25%","Textbooks were the key solution","Evaluation is unnecessary","The schools should close"],a:0},
+{ao:"Impact Evaluation",q:"What is a Randomised Controlled Trial?",o:["A design comparing an intervention group with a randomly assigned control group","A survey of opinions","A budget review","A focus group"],a:0},
+{ao:"Impact Evaluation",q:"Why is rigorous impact evaluation important?",o:["Without it, organisations risk spending millions treating the wrong symptoms","It is legally required","It always confirms the plan","It replaces monitoring"],a:0},
+{ao:"Impact Evaluation",q:"What hidden cause did the Kenya evaluation uncover?",o:["Chronic hookworm infections keeping children sick at home","A lack of textbooks","Too few teachers","Poor school buildings"],a:0},
+{ao:"Impact Evaluation",q:"What is a quasi-experimental design?",o:["An approach approximating an RCT with statistics when randomisation isn't possible","A random guess","A survey only","A budget line"],a:0},
+{ao:"Impact Evaluation",q:"What is contribution analysis?",o:["Reasoning carefully about how much a programme contributed to an observed change","Counting only outputs","Ignoring causes","A funding report"],a:0},
+
+// Module 9: Learning Systems and Adaptive Management (5)
+{ao:"Learning Systems",q:"How did the Uganda team respond to the drought?",o:["Used a learning-and-adapting framework to pivot funding from crops to livestock","Rigidly followed the original plan","Cancelled the programme","Ignored the drought"],a:0},
+{ao:"Learning Systems",q:"What is adaptive programming?",o:["Adjusting a programme's activities in response to evidence and changing conditions","Following a fixed plan no matter what","Avoiding all data","Reviewing only at the end"],a:0},
+{ao:"Learning Systems",q:"What do communities of practice do?",o:["Connect practitioners so insights are shared, not lost","Replace all field work","Set the budget","Write final reports only"],a:0},
+{ao:"Learning Systems",q:"What are learning reviews?",o:["Structured pauses to analyse what is happening and what should change","Annual holidays","Funding pitches","Final audits only"],a:0},
+{ao:"Learning Systems",q:"What does the CLA framework stand for?",o:["Collaborating, Learning, and Adapting","Cost, Labour, Accounting","Control, List, Approve","Compliance, Law, Audit"],a:0},
+
+// Module 10: Digital MEL Systems (6)
+{ao:"Digital MEL",q:"What did Zambia's integrated digital system enable?",o:["Daily GIS maps pinpointing missed houses so sprayers could be redeployed instantly","Slower paper reporting","Fewer bed nets","Random spraying"],a:0},
+{ao:"Digital MEL",q:"What is DHIS2 in a digital MEL ecosystem?",o:["A central platform that aggregates data from many sources into one system","A mobile survey app only","A satellite","A dashboard colour"],a:0},
+{ao:"Digital MEL",q:"What makes advanced digital MEL powerful?",o:["Integrating collection, storage, geospatial analysis and visualisation into one pipeline","Using a single tool in isolation","Returning to paper logs","Avoiding dashboards"],a:0},
+{ao:"Digital MEL",q:"What bottlenecked Zambia's spraying campaign at first?",o:["Paper mapping left invisible coverage gaps where mosquitoes could breed","Too many digital tools","No insecticide","Too many staff"],a:0},
+{ao:"Digital MEL",q:"What did integrating GIS and satellite data add?",o:["A geographical dimension showing exactly where houses were missed","A new logo","A larger budget","Slower reporting"],a:0},
+{ao:"Digital MEL",q:"What is Open Data Kit (ODK) used for?",o:["Digital field data collection, even offline","Central data warehousing only","Satellite imaging","Printing paper forms"],a:0},
+
+// Module 11: Donor Compliance and Reporting (5)
+{ao:"Donor Compliance",q:"What forced the NGO to rebuild its results frameworks overnight?",o:["A sudden reinstated donor policy restricting how US funding could be used","A drop in staff","A software crash","A change of logo"],a:0},
+{ao:"Donor Compliance",q:"Why must organisations keep multiple donors' frameworks separated?",o:["So each donor's money is used and reported exactly according to its own rules","To confuse auditors","Because donors never differ","To avoid reporting"],a:0},
+{ao:"Donor Compliance",q:"Why is donor compliance essential to survival?",o:["Failing it can trigger a total shutdown of funding and operations","It is optional paperwork","It never changes","It has no link to funding"],a:0},
+{ao:"Donor Compliance",q:"Which donors have their own MEL requirements, per this unit?",o:["USAID, the UN, FCDO and the World Bank","Only local NGOs","Only private companies","No one has requirements"],a:0},
+{ao:"Donor Compliance",q:"What core skill does managing complex donor portfolios require?",o:["Producing flawless, donor-specific performance reports and compliant frameworks","Ignoring the rules","Mixing all funds together","Avoiding all donors"],a:0},
+
+// Module 12: Financial Monitoring (6)
+{ao:"Financial Monitoring",q:"What did the Value for Money analysis expose in Pakistan?",o:["Millions paid to 'ghost teachers' who never entered classrooms, with 30% absenteeism","Funding was too low","Students were all excelling","Teachers were overpaid but present"],a:0},
+{ao:"Financial Monitoring",q:"What is the core lesson about financial monitoring?",o:["It must be integrated with programmatic monitoring, not treated separately","It should be ignored","Only budgets matter","Only results matter, never budgets"],a:0},
+{ao:"Financial Monitoring",q:"What is Value for Money analysis?",o:["Asking whether a programme delivers good results for the resources spent","Counting only the total budget","A type of survey","A donor's logo"],a:0},
+{ao:"Financial Monitoring",q:"How did the team fix the ghost-teacher problem?",o:["Biometric attendance systems tying pay to verified attendance","More funding","Firing all teachers","Ignoring the issue"],a:0},
+{ao:"Financial Monitoring",q:"What did the fix achieve?",o:["Improved student learning without any extra funding","Higher costs and worse results","No change","A funding freeze"],a:0},
+{ao:"Financial Monitoring",q:"What is cost-benefit analysis?",o:["Weighing a programme's costs against the value of its outcomes","Counting staff only","A marketing plan","A donor rule"],a:0},
+
+// Module 13: MEL in Different Sectors (5)
+{ao:"MEL Sectors",q:"Why were standard baseline surveys impractical in the refugee crisis?",o:["Families arrived constantly in a fast-moving emergency; slow surveys couldn't keep up","Surveys are illegal","There were too few refugees","The team refused them"],a:0},
+{ao:"MEL Sectors",q:"What did the cross-sectoral framework measure at once?",o:["Health, nutrition and gender-protection metrics simultaneously","Only crop yields","Only teacher attendance","Only the budget"],a:0},
+{ao:"MEL Sectors",q:"What is the master skill in sector-specific MEL?",o:["Diagnosing a sector's operational rules and designing methods that fit","Using identical methods everywhere","Avoiding adaptation","Only using surveys"],a:0},
+{ao:"MEL Sectors",q:"What technology verified identities at distribution points?",o:["Iris-scanning biometrics","Paper ID cards only","No verification","Verbal confirmation only"],a:0},
+{ao:"MEL Sectors",q:"What does humanitarian-response MEL prioritise?",o:["Speed, identity verification and protection under crisis conditions","Multi-year baseline surveys","Slow generic methods","Only budgets"],a:0},
+
+// Module 14: AI and Digital Innovation in MEL (5)
+{ao:"AI in MEL",q:"How did Burke's team measure poverty during the pandemic?",o:["Training AI on satellite imagery and night-time lights linked to survey data","Sending more field workers","Guessing","Cancelling evaluation"],a:0},
+{ao:"AI in MEL",q:"What is machine learning in evaluation?",o:["Training algorithms to find patterns and make predictions from large datasets","A paper survey","A donor rule","A budget line"],a:0},
+{ao:"AI in MEL",q:"Why does AI ethics matter in development MEL?",o:["Tools must be used responsibly, watching for bias, privacy and over-reliance on models","Ethics never apply to AI","AI is always perfectly accurate","It slows funding"],a:0},
+{ao:"AI in MEL",q:"Why was AI essential during COVID-19?",o:["Travel lockdowns stopped fieldwork, so remote estimation was the only option","Fieldwork was cheaper","AI is always required","Surveys were banned forever"],a:0},
+{ao:"AI in MEL",q:"What does predictive analytics do?",o:["Forecasts outcomes and conditions from data","Only stores files","Prints reports","Replaces all ethics"],a:0},
+
+// Module 15: Leadership in MEL (5)
+{ao:"MEL Leadership",q:"Why did the ministries initially resist the MEL team?",o:["They saw evaluators as 'internal spies' exposing their failures","The team lacked data skills","There was no budget","Evaluation is illegal"],a:0},
+{ao:"MEL Leadership",q:"What transformed the hostile culture?",o:["Rebranding evaluation as non-punitive coaching, mentoring staff and co-creating benchmarks","Punishing every failure","Hiding all results","Removing the MEL team"],a:0},
+{ao:"MEL Leadership",q:"What is true leadership in MEL, according to this unit?",o:["Change management, stakeholder engagement and a learning-over-blame culture","Mastering spreadsheets alone","Avoiding all people","Writing longer reports"],a:0},
+{ao:"MEL Leadership",q:"Why can technically excellent evaluations still fail?",o:["If staff experience them as threats, resistance blocks their use","Good data is never useful","Evaluations are always welcomed","Technical skill is irrelevant"],a:0},
+{ao:"MEL Leadership",q:"What did the Officer involve ministry staff in doing?",o:["Defining performance benchmarks and co-creating dashboards","Nothing at all","Only signing forms","Leaving the ministry"],a:0},
+
+// Module 16: Consulting and Career Development (5)
+{ao:"MEL Consulting",q:"How did the Nairobi consultant win against elite firms?",o:["A specialised portfolio, a flawless proposal methodology and confident value-based pricing","The lowest price","A generic résumé","A personal connection only"],a:0},
+{ao:"MEL Consulting",q:"What does a winning technical proposal lay out?",o:["A flawless, credible methodology showing exactly how the evaluation will be done","Only the consultant's hobbies","A single price with no detail","A competitor list"],a:0},
+{ao:"MEL Consulting",q:"Why should consultancy pricing be value-based?",o:["It budgets accurately for real costs and risks without undercutting your worth","The lowest price always wins","Pricing never matters","Clients prefer vague quotes"],a:0},
+{ao:"MEL Consulting",q:"What does a professional portfolio showcase?",o:["Past work, sector expertise and results that build client confidence","Only a name","Only a price","Only hobbies"],a:0},
+{ao:"MEL Consulting",q:"What contract did the consultant win?",o:["A World Bank evaluation of a multi-country WASH initiative","A local catering job","A construction contract","No contract"],a:0},
+
+// Module 17: Research and Publication (5)
+{ao:"Research & Publication",q:"What roadblock did Esther Duflo face?",o:["Her rigorous findings were locked in dense datasets policymakers could not use","Her research lacked rigour","No one would fund her","There was no data"],a:0},
+{ao:"Research & Publication",q:"What is a policy brief?",o:["A short, clear, actionable summary of complex findings for busy decision-makers","A full academic dataset","A funding request","A staff contract"],a:0},
+{ao:"Research & Publication",q:"What is the core lesson of this unit?",o:["Rigorous findings must be communicated well to turn into real, global practice","Communication matters more than rigour","Only academics need findings","Publishing is unnecessary"],a:0},
+{ao:"Research & Publication",q:"What must come before persuasive communication?",o:["Rigorous research design","A large budget","A famous name","A press release"],a:0},
+{ao:"Research & Publication",q:"What did Duflo's communication effort culminate in?",o:["Her book Poor Economics and restructured microfinance loan terms","A failed project","No change at all","A single tweet"],a:0},
+
+// Module 18: Capstone Project (6)
+{ao:"Capstone MEL",q:"What must the capstone MEL system be able to withstand?",o:["Real shocks like economic or climate disruption, through adaptive management","Nothing — it is a static template","Only one donor's review","No scrutiny"],a:0},
+{ao:"Capstone MEL",q:"What is the key strength of the capstone project?",o:["Integration and rigour — every component connects and holds up under scrutiny","Keeping the parts unrelated","Using only one discipline","Avoiding evaluation designs"],a:0},
+{ao:"Capstone MEL",q:"What does the capstone ultimately demonstrate?",o:["Readiness to design and lead major international development programmes","Memorised definitions only","That MEL is unnecessary","That templates are enough"],a:0},
+{ao:"Capstone MEL",q:"What components must the capstone system integrate?",o:["Theory of Change, logframe, data-quality plans, evaluation designs and dashboards","Only a budget","A single indicator","A logo only"],a:0},
+{ao:"Capstone MEL",q:"What do demanding donors require of the MEL system?",o:["Absolute accountability, verifiable proof of impact, real-time visualisation and adaptability","Generic checklists","Guesswork","A single spreadsheet"],a:0},
+{ao:"Capstone MEL",q:"What grounds the logframe in a strong capstone system?",o:["A clear Theory of Change","A marketing slogan","A funding total only","A single photograph"],a:0}
+];
+
+const HRM_UNITS=[
+{id:"hrm1",n:1,title:"Introduction to Human Resource Management",mins:55,icon:"Lightbulb",summary:"What HRM is, how it evolved from personnel administration into a strategic partnership, and why it treats the workforce as a dynamic asset, not a line-item cost.",
+ keyWords:["HRM","strategic partnership","personnel vs HRM","people as assets"],
+ sections:[
+  {art:"identity",h:"The CEO Who Gave HR a Seat at the Table",p:[
+    "In the early 1980s, General Electric faced intense global competition, forcing incoming CEO Jack Welch to drastically restructure the company. At the time, GE's old 'Personnel Department' operated strictly as a bureaucratic, administrative wing focused entirely on processing payroll, filing paperwork, and tracking attendance.",
+    "Welch recognised that to survive, the company needed to treat its workforce as a dynamic asset rather than a line-item expense. He systematically dismantled the traditional personnel model and elevated the department into a modern, strategic Human Resource Management system.",
+    "HR leaders were given a permanent seat at the executive table, directly matching talent acquisition and organisational restructuring with GE's long-term business goals. This transformation proved how shifting from an administrative mindset to a strategic partnership directly drives a company's value and global dominance."],
+   ex:{t:"Conclusion",b:["Modern HRM is not about pushing paperwork; it is a high-level strategic partnership that aligns workforce talent with business success.","Treating people as a dynamic asset, rather than a cost to be processed, transformed the company.","Giving HR a seat at the executive table linked talent decisions directly to business strategy."]}},
+  {art:"layers",h:"Key Ideas",p:[
+    "Human Resource Management is the strategic function of attracting, developing, managing and retaining an organisation's people so that its workforce actively drives business success. The GE story marks the shift from seeing employees as a cost to seeing them as an asset to be invested in.",
+    "The evolution of HRM runs from early 'personnel management' — a mostly administrative role focused on payroll, records and compliance — to modern strategic HRM, which is involved in shaping business direction. Welch's transformation of GE captures this evolution in a single company.",
+    "The key distinction between HRM and personnel management is exactly this shift in mindset: personnel management processes the workforce, while HRM strategically partners with the business to align talent with long-term goals. HRM sits at the executive table; traditional personnel did not.",
+    "The importance of HR in organisations, and the roles and responsibilities of HR professionals, follow from this: recruiting the right people, developing them, managing performance, ensuring fair and legal treatment, and shaping culture — all aimed at making the workforce a genuine source of competitive advantage rather than an administrative afterthought."]},
+  {art:"steps",h:"Seeing HR Strategically",p:[
+    "Contrast an administrative 'personnel' task (processing payroll) with a strategic HRM task (planning the talent a business will need to grow).",
+    "For an organisation you know, describe one way HR could act as a strategic partner rather than just an administrative function.",
+    "Reflect on GE: why did giving HR a seat at the executive table change the company's fortunes?"]}
+ ],
+ activity:"Write a short comparison of personnel management versus strategic HRM for a real or imagined organisation, explaining how treating people as assets would change its decisions.",
+ check:[
+  {q:"What change did Jack Welch make to HR at GE?",o:["He elevated it from an administrative personnel department into a strategic partner at the executive table","He abolished the HR function","He reduced HR to payroll only","He outsourced all hiring"],a:0},
+  {q:"What is the key difference between personnel management and HRM?",o:["Personnel management processes the workforce; HRM strategically partners with the business to align talent with goals","They are identical","HRM only handles payroll","Personnel management is more strategic"],a:0},
+  {q:"How does modern HRM view the workforce?",o:["As a dynamic asset to invest in, not a line-item cost to process","As a cost to minimise at all times","As irrelevant to business strategy","As purely an administrative burden"],a:0}
+ ]},
+
+{id:"hrm2",n:2,title:"Human Resource Planning",mins:60,icon:"Target",summary:"Workforce planning, job analysis, descriptions and specifications, and forecasting future talent needs before a market shift makes today's skills obsolete.",
+ keyWords:["workforce planning","job analysis","forecasting","job descriptions"],
+ sections:[
+  {art:"chart",h:"The DVD Company That Hired for a Business That Didn't Exist Yet",p:[
+    "When Netflix started as a DVD-by-mail service, its original workforce planning, job descriptions, and skills forecasting were all designed around physical inventory management and warehouse logistics. But by 1999, co-founder Reed Hastings foresaw that the future of entertainment lay in digital streaming. If Netflix kept hiring warehouse staff, the company would collapse when the market shifted.",
+    "Hastings initiated a massive HR forecasting and job-analysis overhaul.",
+    "HR began mapping out the exact technical skills, software engineering specifications, and architectural talent needed for a business model that did not yet exist. They proactively rewrote job descriptions and built a pipeline of high-tier engineers. This careful workforce planning allowed Netflix to smoothly transition into a digital streaming giant years later, leaving traditional video-rental competitors completely obsolete."],
+   ex:{t:"Conclusion",b:["Effective HR planning requires looking ahead to forecast future business needs.","Ensuring the organisation has the right talent in place before a market shift happens is what separates survivors from casualties.","Netflix hired for the business it would become, not just the one it was."]}},
+  {art:"build",h:"Key Ideas",p:[
+    "Workforce planning is the process of ensuring an organisation has the right people, with the right skills, in the right roles, at the right time — now and in the future. Netflix's foresight in planning for streaming talent years early is the discipline in action.",
+    "Job analysis is the systematic study of what a role actually involves — its tasks, responsibilities and required skills. It produces two key documents: a job description (what the role does) and a job specification (the skills, qualifications and attributes a person needs to do it). Netflix rewrote both to fit a business that didn't yet exist.",
+    "Forecasting human resource needs means predicting the talent an organisation will require as it grows or as its market changes. Hastings forecast that streaming would demand engineers, not warehouse staff, and planned hiring accordingly — before the shift arrived.",
+    "The strategic lesson is that HR planning is forward-looking. Reacting only to today's needs leaves an organisation stranded when the market moves; planning ahead builds the talent pipeline that makes a major transition possible, as Netflix's survival demonstrates."]},
+  {art:"steps",h:"Planning the Workforce",p:[
+    "For an organisation, describe the talent it might need in three to five years if its market shifted, versus what it needs today.",
+    "Write a simple job description and matching job specification for one role, distinguishing what the role does from what the person needs.",
+    "Reflect on Netflix: why did forecasting future talent needs save the company where reacting to current needs would have doomed it?"]}
+ ],
+ activity:"Create a short workforce plan for a growing organisation, including a forecast of future talent needs and one job description with its matching job specification.",
+ check:[
+  {q:"Why did Netflix's workforce planning succeed?",o:["It forecast future talent needs and hired engineers for streaming before the market shifted","It kept hiring only warehouse staff","It waited until streaming arrived to plan","It ignored future needs"],a:0},
+  {q:"What is the difference between a job description and a job specification?",o:["A description states what the role does; a specification states the skills and attributes the person needs","They are identical","A specification lists only the salary","A description covers only qualifications"],a:0},
+  {q:"What is forecasting human resource needs?",o:["Predicting the talent an organisation will require as it grows or its market changes","Counting current staff only","Processing payroll","Writing a single advertisement"],a:0}
+ ]},
+
+{id:"hrm3",n:3,title:"Recruitment and Selection",mins:60,icon:"Users",summary:"Building a structured, rigorous recruitment and selection process — internal versus external, advertising, CV screening and shortlisting — to avoid costly bad hires.",
+ keyWords:["recruitment","selection","CV screening","shortlisting"],
+ sections:[
+  {art:"search",h:"The Garage Startup That Refused to Make a Bad Hire",p:[
+    "In its earliest days, Google operated out of a garage and needed to expand its team rapidly to survive. Co-founders Larry Page and Sergey Brin realised that a single bad hiring decision could completely ruin their young company.",
+    "Instead of relying on generic job advertisements or superficial CV screening, they built a strict, highly structured recruitment and selection process.",
+    "They designed rigorous interviewing techniques that tested problem-solving abilities and cultural fit rather than just looking at university degrees. Page personally reviewed the shortlisting criteria for every single candidate, aiming only for top-tier professionals who could handle rapid scaling. This intense focus on selection established a world-class engineering foundation that turned Google into a global tech leader."],
+   ex:{t:"Conclusion",b:["A structured, rigorous recruitment and selection process is the only way to build a high-performing workforce.","It protects an organisation from the high costs of a bad hire.","Refusing to compromise on selection, even under pressure to grow fast, built a world-class foundation."]}},
+  {art:"steps",h:"Key Ideas",p:[
+    "The recruitment process is the series of steps to attract and identify suitable candidates for a role — defining the need, advertising, screening, shortlisting and selecting. A structured process, as Google built, produces far better hires than ad-hoc, superficial methods.",
+    "Internal recruitment fills roles from existing employees (promotion, transfer), which is faster and rewards staff, while external recruitment brings in new people with fresh skills. Good HR weighs both depending on the role and the organisation's needs.",
+    "Writing effective job advertisements attracts the right candidates and deters the wrong ones by clearly stating the role and requirements. CV screening then filters applications against the job specification, and shortlisting narrows the field to the strongest candidates for interview — the stages Google made rigorous rather than superficial.",
+    "The core lesson is that selection quality is worth the effort. A bad hire is costly in money, time and morale — Page and Brin understood a single bad hire could ruin a fragile startup. Testing genuine ability and cultural fit, not just credentials, is what builds a high-performing workforce."]},
+  {art:"steps",h:"Recruiting Rigorously",p:[
+    "Outline the stages of a recruitment process for a specific role, from advertisement to shortlisting.",
+    "Decide whether the role is better filled internally or externally, and explain why.",
+    "Reflect on Google: why did rigorous selection matter so much for a small, fast-growing company?"]}
+ ],
+ activity:"Design a recruitment and selection plan for one role, including a short job advertisement, your CV-screening criteria, and how you would shortlist candidates fairly.",
+ check:[
+  {q:"Why did Google build a rigorous selection process?",o:["A single bad hire could ruin the fragile young company, so hiring quality was critical","They wanted to hire as fast as possible with no checks","They only cared about university degrees","They had no competitors"],a:0},
+  {q:"What is the difference between internal and external recruitment?",o:["Internal fills roles from existing staff; external brings in new people from outside","They are the same","Internal is always better","External means promoting employees"],a:0},
+  {q:"What does CV screening do?",o:["Filters applications against the job specification to identify suitable candidates","Guarantees a perfect hire","Replaces interviews entirely","Sets the salary"],a:0}
+ ]},
+
+{id:"hrm4",n:4,title:"Employee Onboarding and Orientation",mins:60,icon:"ClipboardCheck",summary:"Structured induction and orientation that teach culture, ensure compliance and secure long-term commitment from a new hire's very first day.",
+ keyWords:["onboarding","induction","orientation","employee experience"],
+ sections:[
+  {art:"home",h:"The Company That Paid New Hires $2,000 to Quit",p:[
+    "The online shoe retailer Zappos faced a serious operational challenge: rapid growth was threatening to destroy their famous customer-service culture. Newly hired employees were rushing through generic orientation sessions, signing basic compliance documents, and jumping onto customer calls without truly understanding the brand's values.",
+    "To fix this, the HR team created an intensive, four-week onboarding and induction programme. Every single new hire, regardless of their final job title, went through the exact same training, which included picking orders in the warehouse and taking actual customer-service calls.",
+    "To ensure a positive employee experience and protect the culture, Zappos introduced 'The Offer' at the end of week one: HR would pay any new hire $2,000 cash to quit immediately if they felt they didn't align with the company's culture. This bold approach ensured that only deeply committed, culturally aligned employees stayed with the company."],
+   ex:{t:"Conclusion",b:["A structured onboarding experience is vital for teaching company culture, ensuring compliance, and securing long-term employee commitment from day one.","Zappos invested heavily in onboarding precisely because culture and commitment are worth protecting.","Paying misaligned hires to leave ensured only genuinely committed people stayed."]}},
+  {art:"help",h:"Key Ideas",p:[
+    "The purpose of onboarding is to integrate a new employee into the organisation — its culture, expectations, systems and role — so they become productive and committed quickly. Zappos treated onboarding as culture-building, not paperwork, which is exactly its highest purpose.",
+    "Employee induction and orientation programmes introduce new hires to the organisation: its values, people, policies and how things work. Zappos' four-week programme, where everyone did warehouse and customer-service work, immersed new hires in the brand's actual culture rather than describing it abstractly.",
+    "Documentation and compliance are the practical side: ensuring contracts, policies and legal requirements are properly completed. These matter, but the Zappos lesson is that they should not crowd out the deeper work of transmitting culture and commitment.",
+    "Creating a positive first employee experience shapes how committed and engaged a person becomes. A strong, deliberate onboarding — even the bold 'quit for $2,000' offer — signals that the organisation takes culture seriously and secures genuinely aligned, long-term employees from the start."]},
+  {art:"steps",h:"Designing Onboarding",p:[
+    "Sketch a simple onboarding programme for a new hire that teaches culture as well as covering compliance.",
+    "List the documentation and compliance steps that would need completing, without letting them dominate the experience.",
+    "Reflect on Zappos: why did paying misaligned hires to leave actually strengthen the company?"]}
+ ],
+ activity:"Design an onboarding checklist for a new employee covering culture, orientation and compliance, and explain how it would create a strong first experience and secure commitment.",
+ check:[
+  {q:"Why did Zappos pay new hires $2,000 to quit?",o:["To ensure only deeply committed, culturally aligned employees stayed, protecting its culture","To save money on salaries","Because it disliked new hires","It was a legal requirement"],a:0},
+  {q:"What is the purpose of onboarding?",o:["To integrate a new employee into the culture, systems and role so they become productive and committed","To process payroll only","To advertise a job","To conduct annual reviews"],a:0},
+  {q:"What did Zappos' onboarding immerse every new hire in?",o:["The brand's actual culture, including warehouse and customer-service work","Only paperwork","Only their own narrow job","A single day of slides"],a:0}
+ ]},
+
+{id:"hrm5",n:5,title:"Performance Management",mins:60,icon:"Target",summary:"Continuous goal-setting, KPIs and constructive feedback that improve performance in real time, replacing the stressful once-a-year appraisal ritual.",
+ keyWords:["performance management","KPIs","continuous feedback","goal-setting"],
+ sections:[
+  {art:"measure",h:"The Giant That Scrapped Annual Rankings",p:[
+    "Professional services giant Accenture spent millions of hours each year on a rigid, traditional annual performance-appraisal system. Managers rated employees on a forced bell-curve, gave retrospective feedback once a year, and put struggling staff on stressful Performance Improvement Plans. CEO Pierre Nanterme realised this system was deeply flawed: it fostered internal conflict, lowered morale, and failed to improve actual client outcomes.",
+    "In a major move, Accenture completely abandoned annual rankings and revamped its performance management.",
+    "They shifted to setting real-time performance goals and tracking Key Performance Indicators through continuous, forward-looking discussions. Managers were trained to give constructive feedback on the spot rather than waiting for an annual review. The result was higher employee engagement and better overall performance — proving that performance management is a continuous cycle, not a once-a-year event."],
+   ex:{t:"Conclusion",b:["Effective performance management is a continuous cycle of goal-setting and constructive feedback, not a stressful, once-a-year administrative ritual.","Forced annual rankings fostered conflict and lowered morale without improving results.","Continuous, forward-looking feedback raised engagement and performance."]}},
+  {art:"chart",h:"Key Ideas",p:[
+    "Performance management is the ongoing process of aligning what employees do with organisational goals, and helping them improve. Accenture's shift shows the modern view: it is continuous, not a single annual judgement.",
+    "Setting performance goals gives employees clear direction, and Key Performance Indicators (KPIs) are the specific, measurable targets used to track progress toward those goals. Real-time goals and KPIs let people know where they stand throughout the year, not just at its end.",
+    "Performance appraisals are formal reviews of performance, but the Accenture story shows the danger of relying on rigid annual, forced-ranking appraisals: they can create conflict, anxiety and unfairness while doing little to improve actual work.",
+    "Giving constructive feedback — timely, specific and forward-looking — is the heart of effective performance management. Feedback given on the spot, as Accenture trained its managers to do, helps people improve when it matters, rather than delivering a retrospective verdict once a year. Continuous goal-setting and feedback drive engagement and results."]},
+  {art:"steps",h:"Managing Performance Continuously",p:[
+    "For a role, set one clear performance goal and a measurable KPI to track it.",
+    "Write an example of constructive, forward-looking feedback you could give in the moment rather than saving for an annual review.",
+    "Reflect on Accenture: why did continuous feedback outperform the forced annual ranking system?"]}
+ ],
+ activity:"Design a simple continuous performance-management approach for a role, including a goal, a KPI, and how you would give timely constructive feedback rather than a once-a-year review.",
+ check:[
+  {q:"Why did Accenture abandon annual performance rankings?",o:["They fostered conflict and low morale without improving actual outcomes","They were too cheap","Employees preferred them","They were legally banned"],a:0},
+  {q:"What are Key Performance Indicators (KPIs)?",o:["Specific, measurable targets used to track progress toward goals","A type of annual bonus","Random ratings","A legal document"],a:0},
+  {q:"What defines effective performance management, according to this unit?",o:["A continuous cycle of goal-setting and timely, constructive feedback","A single stressful annual review","Forced ranking on a bell-curve","Avoiding all feedback"],a:0}
+ ]},
+
+{id:"hrm6",n:6,title:"Learning and Development",mins:60,icon:"BookOpen",summary:"Closing skills gaps through training, professional development, mentoring and coaching, and fostering a growth mindset that keeps an organisation competitive.",
+ keyWords:["training","skills gap analysis","mentoring","growth mindset"],
+ sections:[
+  {art:"school",h:"The Culture Shift That Rebuilt a Tech Giant",p:[
+    "When Satya Nadella took over as CEO of Microsoft in 2014, he inherited a rigid corporate culture focused heavily on maintaining old desktop software. The company was losing the race in cloud computing and smartphone innovation because its workers lacked modern digital skills.",
+    "Nadella tasked his Chief People Officer with launching an aggressive learning-and-development strategy. HR conducted a thorough skills-gap analysis across the entire global workforce.",
+    "They replaced the old training programmes with accessible professional-development platforms and introduced structured mentoring and coaching. Employees were encouraged to shift from a 'know-it-all' mindset to a 'learn-it-all' growth mindset. This systematic investment in training successfully upskilled thousands of employees, driving Microsoft's rapid transformation into a cloud-computing powerhouse."],
+   ex:{t:"Conclusion",b:["Ongoing learning and development are essential for closing skills gaps, helping employees grow, and keeping an organisation competitive.","A skills-gap analysis showed exactly where Microsoft's workforce needed to grow.","A 'learn-it-all' growth mindset, backed by real training, rebuilt a struggling giant."]}},
+  {art:"help",h:"Key Ideas",p:[
+    "Employee training and professional development equip people with the skills they need now and for the future. Microsoft's revival rested on systematically upskilling its workforce, not just changing strategy on paper.",
+    "A skills-gap analysis identifies the difference between the skills an organisation has and the skills it needs. Microsoft's analysis across its global workforce revealed exactly where investment was required — the essential first step before training.",
+    "Career development, mentoring and coaching support employees' longer-term growth, building loyalty and capability. Nadella's structured mentoring and coaching helped people grow into new, cloud-focused roles rather than being left behind.",
+    "Underpinning all of this is culture and mindset. The shift from 'know-it-all' to 'learn-it-all' — a growth mindset — is what made the learning stick. Organisations that invest in continuous learning and foster a growth mindset stay competitive as markets change; those that don't, stagnate, as Microsoft nearly did."]},
+  {art:"steps",h:"Developing People",p:[
+    "Conduct a simple skills-gap analysis for a role: what skills does it need versus what the person currently has?",
+    "Describe a training, mentoring or coaching approach to close that gap.",
+    "Reflect on Microsoft: why did a 'learn-it-all' growth mindset matter as much as the training itself?"]}
+ ],
+ activity:"Design a learning-and-development plan for a role, starting with a skills-gap analysis and including training plus mentoring or coaching, and explain how it keeps the organisation competitive.",
+ check:[
+  {q:"What did Microsoft's HR do first to drive its transformation?",o:["Conducted a skills-gap analysis across the global workforce","Fired all managers","Cut all training budgets","Ignored employee skills"],a:0},
+  {q:"What is a skills-gap analysis?",o:["Identifying the difference between the skills an organisation has and the skills it needs","A payroll report","A performance ranking","A recruitment advertisement"],a:0},
+  {q:"What mindset shift underpinned Microsoft's revival?",o:["From a 'know-it-all' to a 'learn-it-all' growth mindset","From learning to complacency","From teamwork to isolation","From strategy to paperwork"],a:0}
+ ]},
+
+{id:"hrm7",n:7,title:"Compensation and Benefits",mins:60,icon:"Target",summary:"Salary structures, benefits, incentives and payroll designed as a powerful tool to attract talent, lower turnover and directly drive motivation.",
+ keyWords:["compensation","salary structure","benefits","incentives"],
+ sections:[
+  {art:"weigh",h:"The CEO Who Cut His Own Salary to Pay His Staff More",p:[
+    "Dan Price, the CEO of credit-card processing company Gravity Payments, noticed that several of his customer-service representatives and entry-level staff were visibly stressed, burnt out, and struggling to make ends meet. After researching employee well-being, he discovered their basic salaries were too low to cover rising local housing costs.",
+    "Price worked closely with his finance and HR teams to completely restructure the company's compensation and benefits model.",
+    "He announced a radical plan: he would slash his own million-dollar salary to fund a guaranteed minimum wage of $70,000 per year for every single employee. Despite critics predicting immediate bankruptcy, the new structure transformed the business. Employee retention rose sharply, customer-satisfaction scores climbed, and overall company revenue grew significantly, proving that fair and competitive compensation directly drives motivation."],
+   ex:{t:"Conclusion",b:["A well-designed compensation and rewards structure is a powerful tool for attracting top talent, lowering staff turnover, and driving productivity.","Fair pay that meets real living costs directly improved motivation, retention and results.","Compensation is a strategic lever, not just an expense to minimise."]}},
+  {art:"chart",h:"Key Ideas",p:[
+    "Compensation is the total pay and rewards an employee receives, and it is a strategic tool, not merely a cost. The Gravity Payments story shows that fair, competitive compensation can directly improve motivation, retention and performance.",
+    "Salary structures are the frameworks that determine how much roles are paid, aiming for fairness, consistency and competitiveness. Price's move to a $70,000 minimum addressed a real gap between pay and living costs that was harming his staff.",
+    "Employee benefits (health cover, leave, pensions and more) and incentives and rewards (bonuses, recognition) extend beyond base salary to attract and motivate people. Together with salary, they form the total reward an employee experiences.",
+    "Payroll basics — accurately and reliably paying people what they are owed — are the essential operational foundation. The overarching lesson is that compensation and benefits, designed thoughtfully, are a powerful lever for attracting talent, lowering turnover and driving productivity, as Gravity Payments' transformation demonstrated."]},
+  {art:"steps",h:"Designing Rewards",p:[
+    "For a role, sketch a simple total-reward package: base salary, one or two benefits, and an incentive.",
+    "Explain how fair, competitive pay could reduce turnover, as it did at Gravity Payments.",
+    "Reflect on Dan Price's decision: why did raising the lowest salaries improve the whole business rather than bankrupt it?"]}
+ ],
+ activity:"Design a compensation-and-benefits package for a role, including salary, benefits and an incentive, and explain how it would attract and motivate talent while remaining fair.",
+ check:[
+  {q:"What did Dan Price do at Gravity Payments?",o:["Cut his own salary to fund a $70,000 minimum wage for every employee","Cut all staff salaries","Removed all benefits","Fired the lowest-paid staff"],a:0},
+  {q:"What is compensation, according to this unit?",o:["The total pay and rewards an employee receives — a strategic tool, not just a cost","Only the base salary","A one-time bonus","A legal penalty"],a:0},
+  {q:"What was the result of Gravity Payments' new pay structure?",o:["Higher retention, better customer satisfaction and growing revenue","Immediate bankruptcy","Mass resignations","No change at all"],a:0}
+ ]},
+
+{id:"hrm8",n:8,title:"Employee Relations",mins:60,icon:"Users",summary:"Building positive workplace relationships, engagement and open communication, and resolving conflict and grievances fairly to prevent costly disruption.",
+ keyWords:["employee relations","engagement","conflict resolution","communication"],
+ sections:[
+  {art:"talk",h:"The Carmaker That Avoided a Strike by Building Trust",p:[
+    "During the global financial crisis, Ford Motor Company faced severe operational challenges, hostile workplace relationships, and a major threat of industrial strikes. Historically, the management team and the manufacturing workers viewed each other with deep distrust, leading to poor communication and constant friction.",
+    "CEO Alan Mulally realised that saving the company required fixing its broken employee relations.",
+    "He initiated open, transparent communication channels and held regular joint meetings between executives and union workers. HR worked to resolve long-standing grievances fairly and built team-collaboration spaces directly on the factory floors. By treating workers as respected partners and building positive relationships, Mulally secured a historic labour agreement without a single strike, saving the company from a costly government bailout."],
+   ex:{t:"Conclusion",b:["Strong employee relations, built on clear communication and fair conflict resolution, are essential for maintaining workplace harmony and preventing costly disruptions.","Treating workers as respected partners, not adversaries, rebuilt trust.","Open communication and fair grievance handling averted a damaging strike."]}},
+  {art:"talk",h:"Key Ideas",p:[
+    "Employee relations is the management of the relationship between an organisation and its people, aiming for mutual trust and a positive, productive workplace. Ford's turnaround shows how repairing broken relations can be as important as any operational fix.",
+    "Building positive workplace relationships and employee engagement means treating people as respected partners and involving them, which raises commitment and productivity. Mulally's joint meetings and collaboration spaces turned adversaries into partners.",
+    "Conflict resolution and grievance handling are the practical skills of addressing disputes and complaints fairly and promptly. Ford's fair resolution of long-standing grievances defused tension that had threatened strikes; ignoring grievances, by contrast, lets them escalate.",
+    "Workplace communication — open, honest and two-way — underpins all of this. Transparent communication built the trust that made Ford's historic no-strike agreement possible. Strong employee relations prevent the costly disruptions (strikes, high turnover, low morale) that poor relations inevitably produce."]},
+  {art:"steps",h:"Building Good Relations",p:[
+    "Describe how open, transparent communication could rebuild trust in a workplace with poor relations.",
+    "Outline a fair process for handling an employee grievance before it escalates.",
+    "Reflect on Ford: why did treating workers as partners succeed where distrust had caused constant friction?"]}
+ ],
+ activity:"Design an employee-relations plan for a workplace, including a communication approach and a fair grievance-handling process, and explain how it would prevent costly conflict.",
+ check:[
+  {q:"How did Alan Mulally avoid a strike at Ford?",o:["Open communication, fair grievance resolution and treating workers as respected partners","By threatening the workers","By ignoring the unions","By closing the factories"],a:0},
+  {q:"What is employee relations?",o:["Managing the relationship between an organisation and its people for mutual trust and a positive workplace","Only processing payroll","Only hiring new staff","A type of advertisement"],a:0},
+  {q:"Why is fair grievance handling important?",o:["Addressing complaints fairly and promptly prevents them from escalating into costly disruption","Grievances should always be ignored","It replaces the need for pay","It is only about paperwork"],a:0}
+ ]},
+
+{id:"hrm9",n:9,title:"Labour Laws and Workplace Ethics",mins:60,icon:"Shield",summary:"Employment contracts, employee rights, workplace policies and ethics — a non-negotiable duty to keep employees safe and protect the organisation from disaster.",
+ keyWords:["labour laws","employment contracts","employee rights","ethics"],
+ sections:[
+  {art:"law",h:"The Whistleblower Who Exposed an HR Failure",p:[
+    "In 2017, a software engineer published a detailed account exposing a toxic corporate culture at a major technology company. She revealed that she had faced blatant harassment, but when she reported the behaviour to the HR department, her complaints were systematically dismissed because the offending manager was a high performer.",
+    "The HR team had prioritised short-term business performance over employment contracts, employee rights, and professional ethics.",
+    "The public backlash was immediate: a consumer boycott followed, a major independent investigation was launched, and the CEO was ultimately forced to resign. This high-profile breakdown highlighted the severe legal, financial, and reputational damage that occurs when an HR department fails to uphold labour laws, workplace policies, and basic ethical standards."],
+   ex:{t:"Conclusion",b:["Protecting workplace ethics and strictly following labour laws is a non-negotiable duty for HR professionals.","It keeps employees safe and protects the organisation from legal disaster.","Prioritising a high performer over ethics and employee rights cost the company its CEO and its reputation."]}},
+  {art:"control",h:"Key Ideas",p:[
+    "Labour laws are the legal rules governing the relationship between employers and employees — covering hiring, pay, safety, discrimination, dismissal and more. Following them is not optional; the case shows how ignoring them causes legal, financial and reputational disaster.",
+    "Employment contracts formally define the terms of the working relationship — duties, pay, rights and obligations on both sides. They protect both employer and employee, and honouring them is a basic HR duty the company in the story failed.",
+    "Employee rights and responsibilities, and clear workplace policies, set out what employees are entitled to (such as a harassment-free workplace) and what is expected of them. When HR dismissed valid harassment complaints, it violated exactly these rights and policies.",
+    "Ethics in HR is the overarching principle: doing what is right and fair, even when it conflicts with short-term business interests. The company's fatal error was prioritising a high performer over ethics and employee safety. Upholding labour laws, contracts, rights and ethics is a non-negotiable duty that protects both people and the organisation."]},
+  {art:"steps",h:"Upholding Law and Ethics",p:[
+    "List the key things an employment contract should clearly define to protect both parties.",
+    "Describe how HR should handle a serious complaint, even if it involves a high performer.",
+    "Reflect on the case: why did prioritising performance over ethics cause legal and reputational disaster?"]}
+ ],
+ activity:"Draft a short set of workplace policies and an ethics commitment for an organisation, explaining how they protect employee rights and shield the organisation from legal and reputational harm.",
+ check:[
+  {q:"What HR failure did the whistleblower expose?",o:["HR dismissed valid harassment complaints because the offender was a high performer","HR paid staff too much","HR hired too many people","HR followed the law too strictly"],a:0},
+  {q:"What is the purpose of an employment contract?",o:["To formally define the terms, duties, pay and rights of the working relationship, protecting both sides","To advertise a job","To set the company's stock price","To replace all workplace policies"],a:0},
+  {q:"What does ethics in HR require?",o:["Doing what is right and fair, even when it conflicts with short-term business interests","Always favouring high performers","Ignoring employee complaints","Prioritising profit over safety"],a:0}
+ ]},
+
+{id:"hrm10",n:10,title:"Diversity, Equity, and Inclusion (DEI)",mins:60,icon:"Users",summary:"Inclusive recruitment, equal opportunity and preventing discrimination — building diverse teams that are more creative and achieve better business results.",
+ keyWords:["diversity","inclusion","equal opportunity","unconscious bias"],
+ sections:[
+  {art:"society",h:"The Blind CV Screening That Unlocked Innovation",p:[
+    "A leading technology company realised that its engineering teams were overwhelmingly homogenous, which limited creative thinking and made it harder to design products for a diverse global customer base. Its CEO recognised that traditional hiring methods were full of unconscious bias, often screening out brilliant candidates from underrepresented backgrounds.",
+    "The company's HR team launched a comprehensive Diversity, Equity, and Inclusion strategy.",
+    "They introduced blind CV screenings, created inclusive recruitment panels, and established partnerships with historically diverse universities. They also trained managers to prevent workplace discrimination and build inclusive teams where every voice was heard. As a result, the percentage of underrepresented minorities in leadership roles grew steadily, sparking a wave of new product innovations and proving that diverse teams achieve better business results."],
+   ex:{t:"Conclusion",b:["True DEI is a business requirement, not just a moral one.","Inclusive recruitment and preventing discrimination allow an organisation to build more creative and successful teams.","Removing bias from hiring unlocked talent that homogenous methods had screened out."]}},
+  {art:"culture",h:"Key Ideas",p:[
+    "Understanding workplace diversity means recognising the value of a workforce with varied backgrounds, perspectives and experiences. The tech company's homogenous teams limited creativity — diversity is shown here as a genuine business advantage, not just a moral goal.",
+    "Inclusive recruitment deliberately removes barriers and bias from hiring. Blind CV screening (hiding names and other bias-triggering details), inclusive panels and diverse partnerships all helped surface brilliant candidates that biased methods had been screening out.",
+    "Equal Employment Opportunity means giving all candidates and employees fair, equal treatment regardless of background, and preventing workplace discrimination protects people from unfair treatment. Training managers to prevent discrimination was central to the company's strategy.",
+    "Building inclusive teams — where every voice is genuinely heard — is what turns diversity into results. Diversity without inclusion fails; the company combined both, which sparked real innovation. DEI, done properly, is a business requirement that builds more creative and successful organisations."]},
+  {art:"steps",h:"Building Inclusion",p:[
+    "Describe one way to reduce unconscious bias in recruitment, such as blind CV screening.",
+    "Explain the difference between hiring diversely and actually including every voice on a team.",
+    "Reflect on the case: why did diverse teams produce more innovation than homogenous ones?"]}
+ ],
+ activity:"Design a DEI approach for an organisation covering inclusive recruitment and preventing discrimination, and explain how it would improve both fairness and business results.",
+ check:[
+  {q:"Why did the company adopt DEI in hiring?",o:["Homogenous teams limited creativity and bias screened out brilliant candidates","It wanted fewer applicants","It was forced to reduce headcount","It disliked engineers"],a:0},
+  {q:"What is blind CV screening?",o:["Hiding names and bias-triggering details so candidates are judged on merit","Refusing to read CVs","Only hiring from one university","Screening out all candidates"],a:0},
+  {q:"Why is inclusion, not just diversity, important?",o:["Diversity only produces results when every voice is genuinely heard and included","Inclusion is unrelated to diversity","Diversity alone guarantees success","Inclusion means hiring identical people"],a:0}
+ ]},
+
+{id:"hrm11",n:11,title:"Workplace Health, Safety, and Well-being",mins:60,icon:"Shield",summary:"Occupational safety, wellness, mental health and stress management — prioritising safety builds trust and, in turn, boosts operational efficiency.",
+ keyWords:["occupational safety","well-being","mental health","safe environment"],
+ sections:[
+  {art:"help",h:"The CEO Whose First Priority Was Zero Accidents",p:[
+    "When Paul O'Neill took over as CEO of the industrial manufacturing giant Alcoa, investors were highly sceptical. During his very first shareholder meeting, instead of discussing profit margins, revenue targets, or efficiency metrics, O'Neill announced a single priority: he wanted to make Alcoa the safest company in America by eliminating workplace accidents.",
+    "He mandated that any occupational health and safety incident had to be reported directly to him within 24 hours, along with a practical solution to prevent it from happening again.",
+    "Plant managers who tried to hide workplace injuries were immediately fired, while workers were empowered to shut down production lines if they noticed a safety hazard. This intense focus on a safe work environment boosted employee trust and morale. By prioritising physical safety and well-being, operational efficiency improved across the board, and Alcoa's net income hit record highs."],
+   ex:{t:"Conclusion",b:["Prioritising workplace health, safety, and well-being directly builds organisational trust and boosts operational efficiency.","Making safety the top priority, above profit targets, transformed morale and results.","Empowering workers to stop unsafe work built a culture of trust that lifted the whole business."]}},
+  {art:"control",h:"Key Ideas",p:[
+    "Occupational health and safety is the protection of employees from physical harm at work — the foundation of any responsible workplace. O'Neill's story shows that prioritising safety, far from competing with performance, actually drove Alcoa's efficiency and profits up.",
+    "Workplace wellness and creating a safe work environment go beyond avoiding accidents to actively supporting employees' physical and psychological health. Empowering workers to stop unsafe production lines built a culture where safety was everyone's responsibility.",
+    "Mental health awareness and stress management are increasingly recognised as core parts of employee well-being. A healthy workplace attends to psychological safety and stress, not just physical hazards, because both affect people's health and performance.",
+    "The strategic insight from Alcoa is that well-being is not a soft add-on: prioritising it built trust and morale, which improved operational efficiency across the board. Organisations that genuinely protect their people's health and safety earn commitment and perform better; those that neglect it pay in harm, mistrust and lost productivity."]},
+  {art:"steps",h:"Protecting Well-being",p:[
+    "Identify one physical and one psychological well-being risk in a workplace and how you would address each.",
+    "Describe how empowering employees to raise safety concerns would build trust, as at Alcoa.",
+    "Reflect on Alcoa: why did prioritising safety above profit targets end up improving profits?"]}
+ ],
+ activity:"Design a workplace health, safety and well-being approach for an organisation covering physical safety, mental health and stress, and explain how it would build trust and efficiency.",
+ check:[
+  {q:"What did Paul O'Neill make his top priority at Alcoa?",o:["Eliminating workplace accidents and making it the safest company in America","Maximising short-term profit","Cutting employee pay","Reducing the workforce"],a:0},
+  {q:"What does workplace well-being include, beyond physical safety?",o:["Mental health awareness and stress management","Only profit margins","Only attendance tracking","Only payroll"],a:0},
+  {q:"What was the business result of Alcoa's safety focus?",o:["Higher trust and morale, improved efficiency, and record net income","Immediate bankruptcy","Falling morale","No change"],a:0}
+ ]},
+
+{id:"hrm12",n:12,title:"Human Resource Information Systems (HRIS)",mins:60,icon:"Sparkles",summary:"Digital HR tools that consolidate employee records, attendance and leave, secure sensitive data, and free HR from admin to focus on strategic work.",
+ keyWords:["HRIS","records management","data security","digital HR"],
+ sections:[
+  {art:"data",h:"The Global Giant That Replaced Scattered Spreadsheets",p:[
+    "A multinational managed a massive workforce of over 160,000 employees across more than 100 countries. Historically, individual regional offices tracked employee records, attendance logs, and leave using separate spreadsheets and localised paperwork. This scattered approach made global data security incredibly weak, and compiling even a simple headcount report took weeks of manual data entry.",
+    "To fix this, the corporate HR team rolled out a unified global Human Resource Information System.",
+    "This secure, cloud-based platform consolidated all employee records management into a single digital tool. Employees could request leave online, and managers could track attendance in real time. This digital shift freed the HR team from endless admin work and kept employee records safe, allowing them to focus on high-impact strategic initiatives instead."],
+   ex:{t:"Conclusion",b:["Implementing a modern HRIS simplifies administrative workflows, secures sensitive employee data, and makes workforce management much more efficient.","Scattered spreadsheets left data insecure and simple reports taking weeks.","A unified system freed HR from admin to focus on strategic work."]}},
+  {art:"control",h:"Key Ideas",p:[
+    "A Human Resource Information System (HRIS) is a digital platform that centralises and manages an organisation's HR data and processes. The multinational's shift from scattered spreadsheets to one system shows the transformation an HRIS enables at scale.",
+    "Employee records management and digital HR tools consolidate information — personal details, roles, history — into one secure, accessible place, replacing fragmented paperwork. This makes information accurate, consistent and quick to retrieve, turning weeks of manual reporting into instant results.",
+    "Attendance and leave management within an HRIS let employees request leave and managers track attendance digitally in real time, removing tedious manual processes and reducing errors.",
+    "HR data security is a critical concern, because HR systems hold highly sensitive personal information. A secure, unified platform protects that data far better than scattered spreadsheets, which the story shows were a serious vulnerability. The strategic payoff is that automating administrative work frees HR to focus on high-impact, strategic initiatives rather than paperwork."]},
+  {art:"steps",h:"Digitising HR",p:[
+    "List the HR tasks (records, attendance, leave) that an HRIS could consolidate and automate.",
+    "Explain why data security is especially important for an HR system.",
+    "Reflect on the multinational: how did replacing spreadsheets with an HRIS free HR to do more strategic work?"]}
+ ],
+ activity:"Outline the key features an organisation would want in an HRIS, and explain how it would improve efficiency, data security, and HR's ability to focus on strategy.",
+ check:[
+  {q:"What problem did scattered spreadsheets cause the multinational?",o:["Weak data security and simple reports taking weeks of manual entry","Too much automation","Overpaid staff","Too few employees"],a:0},
+  {q:"What is an HRIS?",o:["A digital platform that centralises and manages an organisation's HR data and processes","A type of salary","A recruitment advertisement","A performance ranking"],a:0},
+  {q:"What is the strategic payoff of a good HRIS?",o:["Automating admin frees HR to focus on high-impact strategic initiatives","It removes the need for any HR staff","It only stores payslips","It slows HR down"],a:0}
+ ]},
+
+{id:"hrm13",n:13,title:"HR Analytics (Introduction)",mins:60,icon:"ClipboardCheck",summary:"Using HR metrics — turnover, absenteeism, recruitment data — to turn people management from guesswork into evidence-based decisions that cut costs and retain talent.",
+ keyWords:["HR analytics","turnover","metrics","evidence-based"],
+ sections:[
+  {art:"measure",h:"The Data That Halved a Turnover Problem",p:[
+    "A large technology company's HR department faced a rising problem: staff turnover among its top female engineers was noticeably higher than the company average. Instead of guessing why or launching random initiatives, a senior leader tasked the HR analytics team with investigating the data.",
+    "By analysing basic HR metrics, recruitment data, and maternity-leave utilisation rates, they uncovered a clear trend: women who had recently given birth were leaving at twice the company's average rate.",
+    "The data showed that the standard, short maternity-leave policy was causing them to exit. The company used this evidence to make a data-driven decision: they extended paid maternity leave to five months as a fully paid benefit. This single, evidence-based policy change cut the turnover rate for new mothers by 50%, saving millions in recruitment and onboarding costs."],
+   ex:{t:"Conclusion",b:["Using HR analytics transforms people management from guesswork into an evidence-based practice.","It allows organisations to make smart decisions that lower costs and retain top talent.","Data revealed the real cause of turnover, and a targeted policy change halved it."]}},
+  {art:"chart",h:"Key Ideas",p:[
+    "HR analytics is the practice of using data about people to understand and improve how an organisation manages its workforce. The company's success came from investigating data rather than guessing why engineers were leaving.",
+    "Basic HR metrics quantify workforce patterns — staff turnover (the rate at which employees leave), absenteeism (patterns of missed work), and recruitment metrics (like time-to-hire and source of hires). Tracking these turns vague concerns into measurable facts.",
+    "The power of analytics is diagnostic: the maternity-leave data pinpointed exactly why a specific group was leaving, something no amount of guessing or random initiatives would have revealed. Good metrics find the real cause of a problem.",
+    "The payoff is evidence-based decision-making. Rather than launching random retention initiatives, the company changed one policy that the data identified — and cut new-mother turnover by 50%, saving millions. HR analytics turns people management from guesswork into smart, cost-saving, talent-retaining decisions."]},
+  {art:"steps",h:"Using People Data",p:[
+    "For a workforce problem (like high turnover), describe what HR metrics you would examine to find the cause.",
+    "Explain how data could reveal a specific cause that guessing would miss, as the maternity-leave data did.",
+    "Reflect on the case: why did an evidence-based policy change succeed where random initiatives might have failed?"]}
+ ],
+ activity:"Choose an HR problem and design a simple analytics approach — the metrics you would track and how you would use them to reach an evidence-based decision.",
+ check:[
+  {q:"How did the company solve its turnover problem among new mothers?",o:["It analysed data, found the short maternity policy was the cause, and extended paid leave","It guessed and hoped","It ignored the problem","It hired more recruiters"],a:0},
+  {q:"What is staff turnover?",o:["The rate at which employees leave an organisation","The total payroll","The number of new hires only","A type of benefit"],a:0},
+  {q:"What does HR analytics turn people management into?",o:["An evidence-based practice rather than guesswork","A purely administrative task","A random set of initiatives","A legal formality"],a:0}
+ ]},
+
+{id:"hrm14",n:14,title:"Career Opportunities in Human Resources",mins:60,icon:"Users",summary:"HR career paths, certifications, building an HR CV and interview preparation — with deliberate strategy and networking driving real career growth.",
+ keyWords:["HR careers","certifications","HR CV","networking"],
+ sections:[
+  {art:"achieve",h:"The Lawyer Who Rose to Lead the World's Largest HR Body",p:[
+    "A professional began his career as a corporate lawyer, but he quickly realised that his true passion lay in people management, organisational design, and company culture. To successfully shift his career into Human Resources, he couldn't rely on his legal background alone.",
+    "He strategically built his HR résumé, pursued advanced professional HR certifications, and took on junior human-resource roles to master payroll, employee relations, and recruitment.",
+    "He committed himself to professional networking and stayed ahead of emerging HR-tech trends. His dedication to learning and professional development eventually led him to become the President and CEO of the largest HR professional association in the world — showing the incredible career growth available to those who build a solid foundation in the field."],
+   ex:{t:"Conclusion",b:["A successful career in HR requires a deliberate strategy, continuous professional networking, and the right certifications to navigate evolving industry trends.","Passion for people plus a deliberate plan can take someone from a different field to the top of HR.","Certifications, foundational roles and networking built the path."]}},
+  {art:"global",h:"Key Ideas",p:[
+    "HR offers varied career paths — from generalist roles to specialisms like recruitment, learning and development, compensation, employee relations and HR analytics, up to senior leadership such as Chief People Officer. Understanding these paths helps you target where to go.",
+    "HR certifications are professional qualifications that build credibility and knowledge, signalling expertise to employers. The professional in the story pursued advanced certifications deliberately to establish himself in a new field, showing their value in a career transition.",
+    "Building an HR CV means presenting your experience and skills in a way that demonstrates HR capability — as he did by mastering payroll, employee relations and recruitment through junior roles. Interview preparation then lets you present that capability convincingly.",
+    "Professional networking and staying ahead of trends (like HR technology) are what accelerate a career. His commitment to networking and continuous learning took him all the way to leading the world's largest HR body. A deliberate strategy — certifications, foundational experience, networking and ongoing development — is what drives real HR career growth."]},
+  {art:"steps",h:"Building an HR Career",p:[
+    "Identify an HR career path that interests you and the skills or certifications it would require.",
+    "Describe how you would build an HR CV, including foundational experience and one certification.",
+    "Reflect on the story: why did a deliberate strategy of certifications, junior roles and networking enable such a dramatic career rise?"]}
+ ],
+ activity:"Draft a personal HR career plan: a target path, a certification to pursue, how you would build your CV, and a networking step to accelerate your growth.",
+ check:[
+  {q:"How did the professional transition into HR leadership?",o:["Through a deliberate strategy of certifications, foundational roles and networking","By relying only on his law degree","By avoiding all HR experience","By luck alone"],a:0},
+  {q:"What do HR certifications provide?",o:["Professional qualifications that build credibility and signal expertise to employers","A guaranteed salary","A replacement for all experience","A legal licence to practise law"],a:0},
+  {q:"What accelerates an HR career, according to this unit?",o:["A deliberate strategy plus continuous networking and staying ahead of trends","Waiting passively for promotion","Avoiding new skills","Ignoring industry trends"],a:0}
+ ]},
+
+{id:"hrm15",n:15,title:"Practical HR Project",mins:90,icon:"Users",summary:"Building a business's foundational HR toolkit from scratch — job descriptions, recruitment plans, onboarding checklists, appraisal forms and a handbook.",
+ keyWords:["HR project","HR infrastructure","foundational tools","capstone"],
+ sections:[
+  {art:"achieve",h:"The First HR Manager Building From the Ground Up",p:[
+    "Imagine being hired as the very first HR Manager for a rapidly growing business that has just secured millions in new funding. The business owners want to double their headcount, but they currently have zero formal HR infrastructure in place. There are no job descriptions, no organised recruitment plans, no onboarding checklists, and no performance-appraisal forms. Employees are confused about company rules because there is no employee handbook.",
+    "You cannot rely on guesswork, shortcuts, or messy templates to fix this.",
+    "To protect the business from legal risks and set your new hires up for success, you must build these foundational tools from the ground up. This practical HR project is your chance to do exactly that: applying everything you have learned to create a professional suite of real-world HR documents that will let the business scale safely and successfully."],
+   ex:{t:"Conclusion",b:["The Practical HR Project is the ultimate test of this course.","It gives you the practical tools and confidence to manage people effectively and drive organisational success from day one.","Building HR infrastructure from scratch integrates every skill the course has taught."]}},
+  {art:"culture",h:"Key Ideas",p:[
+    "A practical HR project brings together every skill from the course — planning, recruitment, onboarding, performance management, compensation, employee relations, law and ethics — into the real, foundational tools a business needs to manage people.",
+    "The core tools include job descriptions (defining roles), a recruitment plan (how to attract and select people), an onboarding checklist (integrating new hires), and a performance-appraisal form (managing and developing staff). Each draws directly on an earlier unit, applied to a real organisation.",
+    "An employee handbook ties much of this together, giving employees clear rules and policies — addressing the confusion the fictional business suffers — and helping protect the organisation legally, reflecting the labour-law and ethics unit.",
+    "The value of the project is that it turns knowledge into applied capability. Building professional HR infrastructure from scratch, rather than using messy templates or guesswork, both protects a growing business from legal risk and sets its people up to succeed — proving readiness to manage people and drive success from day one."]},
+  {art:"steps",h:"Building HR Infrastructure",p:[
+    "List the foundational HR tools a new, growing business needs: job descriptions, recruitment plan, onboarding checklist, appraisal form and handbook.",
+    "Describe how each tool draws on a specific skill from earlier in this course.",
+    "Reflect on the scenario: why does building proper HR infrastructure protect the business and set new hires up to succeed?"]}
+ ],
+ activity:"Outline the foundational HR toolkit you would build for a fast-growing business — a job description, recruitment plan, onboarding checklist, appraisal form and handbook — explaining how each protects and strengthens the organisation.",
+ check:[
+  {q:"What is the challenge in the practical HR project scenario?",o:["Building a business's foundational HR infrastructure from scratch with none in place","Closing the business down","Firing all the staff","Only processing one payroll"],a:0},
+  {q:"Which foundational HR tools does the project require?",o:["Job descriptions, a recruitment plan, an onboarding checklist, an appraisal form and a handbook","Only a logo","Only a single email","Only a salary figure"],a:0},
+  {q:"Why does building proper HR infrastructure matter?",o:["It protects the business from legal risk and sets new hires up to succeed as it scales","It is purely decorative","It slows growth down","It replaces the need for employees"],a:0}
+ ]}
+];
+
+const HRM_Q=[
+// Module 1: Introduction to HRM (7)
+{ao:"Intro to HRM",q:"What change did Jack Welch make to HR at GE?",o:["He elevated it from an administrative personnel department into a strategic partner at the executive table","He abolished HR","He reduced HR to payroll only","He outsourced all hiring"],a:0},
+{ao:"Intro to HRM",q:"What is the key difference between personnel management and HRM?",o:["Personnel management processes the workforce; HRM strategically partners with the business to align talent with goals","They are identical","HRM only handles payroll","Personnel management is more strategic"],a:0},
+{ao:"Intro to HRM",q:"How does modern HRM view the workforce?",o:["As a dynamic asset to invest in, not a line-item cost to process","As a cost to minimise always","As irrelevant to strategy","As only an administrative burden"],a:0},
+{ao:"Intro to HRM",q:"What is Human Resource Management?",o:["The strategic function of attracting, developing, managing and retaining people to drive business success","Only payroll processing","Only attendance tracking","A legal department"],a:0},
+{ao:"Intro to HRM",q:"What did giving HR a seat at the executive table allow at GE?",o:["Talent decisions to be aligned directly with long-term business strategy","HR to stop working","Payroll to be outsourced","The company to ignore employees"],a:0},
+{ao:"Intro to HRM",q:"What did the old 'Personnel Department' focus on?",o:["Payroll, paperwork and attendance — administrative tasks","Business strategy","Product design","Marketing campaigns"],a:0},
+{ao:"Intro to HRM",q:"What do HR professionals do, per this unit?",o:["Recruit, develop, manage performance, ensure fair treatment and shape culture","Only file paperwork","Only set stock prices","Only sell products"],a:0},
+
+// Module 2: Human Resource Planning (7)
+{ao:"HR Planning",q:"Why did Netflix's workforce planning succeed?",o:["It forecast future talent needs and hired engineers for streaming before the market shifted","It kept hiring only warehouse staff","It waited until streaming arrived","It ignored future needs"],a:0},
+{ao:"HR Planning",q:"What is the difference between a job description and a job specification?",o:["A description states what the role does; a specification states the skills the person needs","They are identical","A specification lists only salary","A description covers only qualifications"],a:0},
+{ao:"HR Planning",q:"What is forecasting human resource needs?",o:["Predicting the talent an organisation will require as it grows or its market changes","Counting current staff only","Processing payroll","Writing one advertisement"],a:0},
+{ao:"HR Planning",q:"What is workforce planning?",o:["Ensuring the right people with the right skills are in the right roles at the right time","Only firing staff","Only tracking attendance","A marketing plan"],a:0},
+{ao:"HR Planning",q:"What is job analysis?",o:["The systematic study of what a role involves — its tasks, responsibilities and required skills","A payroll calculation","A performance ranking","An advertisement"],a:0},
+{ao:"HR Planning",q:"What did Netflix's HR map out for a business that didn't exist yet?",o:["The technical and engineering talent needed for digital streaming","More warehouse logistics roles","Only accounting jobs","No new roles"],a:0},
+{ao:"HR Planning",q:"Why is HR planning described as forward-looking?",o:["Reacting only to today's needs strands an organisation when the market moves","The past is all that matters","Planning is never needed","Only present staff count"],a:0},
+
+// Module 3: Recruitment and Selection (7)
+{ao:"Recruitment",q:"Why did Google build a rigorous selection process?",o:["A single bad hire could ruin the fragile young company","To hire as fast as possible with no checks","Only to check degrees","It had no competitors"],a:0},
+{ao:"Recruitment",q:"What is the difference between internal and external recruitment?",o:["Internal fills roles from existing staff; external brings in new people from outside","They are the same","Internal is always better","External means promoting employees"],a:0},
+{ao:"Recruitment",q:"What does CV screening do?",o:["Filters applications against the job specification to identify suitable candidates","Guarantees a perfect hire","Replaces interviews","Sets the salary"],a:0},
+{ao:"Recruitment",q:"What did Google's interviews test?",o:["Problem-solving abilities and cultural fit, not just university degrees","Only typing speed","Only years of experience","Only appearance"],a:0},
+{ao:"Recruitment",q:"What is shortlisting?",o:["Narrowing the field to the strongest candidates for interview","Hiring everyone who applies","Rejecting all candidates","Setting pay scales"],a:0},
+{ao:"Recruitment",q:"Why is a bad hire so costly?",o:["It costs money, time and morale, especially for a small or fast-growing company","It never costs anything","It only affects payroll","It improves the team"],a:0},
+{ao:"Recruitment",q:"What does an effective job advertisement do?",o:["Attracts the right candidates and deters the wrong ones by clearly stating the role and requirements","Hides the role's details","Guarantees a hire","Sets the company's strategy"],a:0},
+
+// Module 4: Onboarding and Orientation (7)
+{ao:"Onboarding",q:"Why did Zappos pay new hires $2,000 to quit?",o:["To ensure only deeply committed, culturally aligned employees stayed","To save money on salaries","Because it disliked new hires","It was legally required"],a:0},
+{ao:"Onboarding",q:"What is the purpose of onboarding?",o:["To integrate a new employee into the culture, systems and role so they become productive and committed","To process payroll","To advertise a job","To conduct annual reviews"],a:0},
+{ao:"Onboarding",q:"What did Zappos' onboarding immerse every new hire in?",o:["The brand's actual culture, including warehouse and customer-service work","Only paperwork","Only their narrow job","A single day of slides"],a:0},
+{ao:"Onboarding",q:"How long was Zappos' onboarding programme?",o:["Four weeks","One hour","One year","There was none"],a:0},
+{ao:"Onboarding",q:"What role do documentation and compliance play in onboarding?",o:["They complete contracts, policies and legal requirements, without crowding out culture","They are the only thing that matters","They are unnecessary","They replace training"],a:0},
+{ao:"Onboarding",q:"Why does a positive first employee experience matter?",o:["It shapes how committed and engaged a person becomes","It has no effect","It only concerns payroll","It ends after one day"],a:0},
+{ao:"Onboarding",q:"What problem threatened Zappos' culture?",o:["Rapid growth with new hires rushing through generic orientation without learning the values","Too few customers","Falling profits","A product recall"],a:0},
+
+// Module 5: Performance Management (7)
+{ao:"Performance Mgmt",q:"Why did Accenture abandon annual performance rankings?",o:["They fostered conflict and low morale without improving actual outcomes","They were too cheap","Employees preferred them","They were legally banned"],a:0},
+{ao:"Performance Mgmt",q:"What are Key Performance Indicators (KPIs)?",o:["Specific, measurable targets used to track progress toward goals","A type of annual bonus","Random ratings","A legal document"],a:0},
+{ao:"Performance Mgmt",q:"What defines effective performance management?",o:["A continuous cycle of goal-setting and timely, constructive feedback","A single stressful annual review","Forced ranking on a bell-curve","Avoiding all feedback"],a:0},
+{ao:"Performance Mgmt",q:"What did Accenture shift to?",o:["Real-time goals and continuous, forward-looking feedback discussions","More forced rankings","No feedback at all","Annual reviews only"],a:0},
+{ao:"Performance Mgmt",q:"What did the forced bell-curve system produce?",o:["Internal conflict, lowered morale and no improvement in client outcomes","Higher morale","Better client results","No effect at all"],a:0},
+{ao:"Performance Mgmt",q:"What makes feedback most useful?",o:["Being timely, specific and forward-looking, given when it matters","Being saved for once a year","Being vague","Being avoided entirely"],a:0},
+{ao:"Performance Mgmt",q:"What does setting performance goals give employees?",o:["Clear direction toward organisational objectives","Confusion","A pay cut","A holiday"],a:0},
+
+// Module 6: Learning and Development (6)
+{ao:"Learning & Dev",q:"What did Microsoft's HR do first to drive its transformation?",o:["Conducted a skills-gap analysis across the global workforce","Fired all managers","Cut all training","Ignored employee skills"],a:0},
+{ao:"Learning & Dev",q:"What is a skills-gap analysis?",o:["Identifying the difference between the skills an organisation has and the skills it needs","A payroll report","A performance ranking","A recruitment ad"],a:0},
+{ao:"Learning & Dev",q:"What mindset shift underpinned Microsoft's revival?",o:["From a 'know-it-all' to a 'learn-it-all' growth mindset","From learning to complacency","From teamwork to isolation","From strategy to paperwork"],a:0},
+{ao:"Learning & Dev",q:"What do mentoring and coaching support?",o:["Employees' longer-term growth, building loyalty and capability","Only payroll","Only firing staff","Only attendance"],a:0},
+{ao:"Learning & Dev",q:"Why is ongoing learning essential for an organisation?",o:["It closes skills gaps and keeps the organisation competitive as markets change","It wastes money","It slows everyone down","It is legally required only"],a:0},
+{ao:"Learning & Dev",q:"What was Microsoft losing before Nadella's L&D push?",o:["The race in cloud computing and smartphone innovation, due to outdated skills","Its entire workforce","Its office buildings","Its brand name"],a:0},
+
+{ao:"Learning & Dev",q:"What is professional development?",o:["Equipping people with skills for their current and future roles and career growth","A one-time orientation","A payroll task","A recruitment ad"],a:0},
+
+// Module 7: Compensation and Benefits (7)
+{ao:"Compensation",q:"What did Dan Price do at Gravity Payments?",o:["Cut his own salary to fund a $70,000 minimum wage for every employee","Cut all staff salaries","Removed all benefits","Fired the lowest-paid staff"],a:0},
+{ao:"Compensation",q:"What is compensation, according to this unit?",o:["The total pay and rewards an employee receives — a strategic tool, not just a cost","Only the base salary","A one-time bonus","A legal penalty"],a:0},
+{ao:"Compensation",q:"What was the result of Gravity Payments' new pay structure?",o:["Higher retention, better customer satisfaction and growing revenue","Immediate bankruptcy","Mass resignations","No change"],a:0},
+{ao:"Compensation",q:"What are salary structures?",o:["Frameworks determining how much roles are paid, aiming for fairness and competitiveness","Random pay decisions","A type of benefit","A legal contract"],a:0},
+{ao:"Compensation",q:"What do employee benefits include?",o:["Things like health cover, leave and pensions, beyond base salary","Only cash bonuses","Only the base salary","Nothing beyond pay"],a:0},
+{ao:"Compensation",q:"Why did Price raise the lowest salaries?",o:["Their basic pay was too low to cover rising living costs, harming staff","To reduce the workforce","To lower morale","To cut company revenue"],a:0},
+{ao:"Compensation",q:"What are payroll basics?",o:["Accurately and reliably paying people what they are owed","Setting the company strategy","Recruiting new staff","Writing job ads"],a:0},
+
+// Module 8: Employee Relations (6)
+{ao:"Employee Relations",q:"How did Alan Mulally avoid a strike at Ford?",o:["Open communication, fair grievance resolution and treating workers as respected partners","By threatening the workers","By ignoring the unions","By closing the factories"],a:0},
+{ao:"Employee Relations",q:"What is employee relations?",o:["Managing the relationship between an organisation and its people for mutual trust and a positive workplace","Only processing payroll","Only hiring staff","A type of advertisement"],a:0},
+{ao:"Employee Relations",q:"Why is fair grievance handling important?",o:["Addressing complaints fairly and promptly prevents them escalating into costly disruption","Grievances should be ignored","It replaces pay","It is only paperwork"],a:0},
+{ao:"Employee Relations",q:"What is employee engagement?",o:["The commitment and involvement employees feel, which raises productivity","A type of contract","A salary scale","A legal requirement"],a:0},
+{ao:"Employee Relations",q:"What underpins strong employee relations?",o:["Open, honest, two-way communication that builds trust","Secrecy and distrust","Ignoring workers","Frequent firings"],a:0},
+{ao:"Employee Relations",q:"What did poor relations threaten Ford with?",o:["Industrial strikes and constant friction","Higher profits","Better morale","A product launch"],a:0},
+
+// Module 9: Labour Laws and Workplace Ethics (7)
+{ao:"Labour & Ethics",q:"What HR failure did the whistleblower expose?",o:["HR dismissed valid harassment complaints because the offender was a high performer","HR paid staff too much","HR hired too many people","HR followed the law too strictly"],a:0},
+{ao:"Labour & Ethics",q:"What is the purpose of an employment contract?",o:["To formally define the terms, duties, pay and rights of the working relationship, protecting both sides","To advertise a job","To set the stock price","To replace all policies"],a:0},
+{ao:"Labour & Ethics",q:"What does ethics in HR require?",o:["Doing what is right and fair, even when it conflicts with short-term business interests","Always favouring high performers","Ignoring complaints","Prioritising profit over safety"],a:0},
+{ao:"Labour & Ethics",q:"What are labour laws?",o:["The legal rules governing the employer-employee relationship, from pay to safety to dismissal","Optional guidelines","A marketing plan","A pay scale only"],a:0},
+{ao:"Labour & Ethics",q:"What was the consequence of the HR failure in the case?",o:["A boycott, an independent investigation, and the CEO forced to resign","A promotion for HR","Higher profits","No consequences"],a:0},
+{ao:"Labour & Ethics",q:"What do workplace policies set out?",o:["What employees are entitled to and what is expected of them","Only the company's profit target","The CEO's salary","The product roadmap"],a:0},
+{ao:"Labour & Ethics",q:"What was the company's fatal error?",o:["Prioritising a high performer over ethics and employee safety","Following the law too closely","Paying staff fairly","Training managers well"],a:0},
+
+// Module 10: Diversity, Equity, and Inclusion (7)
+{ao:"DEI",q:"Why did the company adopt DEI in hiring?",o:["Homogenous teams limited creativity and bias screened out brilliant candidates","It wanted fewer applicants","It was forced to cut headcount","It disliked engineers"],a:0},
+{ao:"DEI",q:"What is blind CV screening?",o:["Hiding names and bias-triggering details so candidates are judged on merit","Refusing to read CVs","Only hiring from one university","Screening out all candidates"],a:0},
+{ao:"DEI",q:"Why is inclusion, not just diversity, important?",o:["Diversity only produces results when every voice is genuinely heard and included","Inclusion is unrelated to diversity","Diversity alone guarantees success","Inclusion means hiring identical people"],a:0},
+{ao:"DEI",q:"What is Equal Employment Opportunity?",o:["Giving all candidates and employees fair, equal treatment regardless of background","Favouring one group","Hiring only executives","A pay scale"],a:0},
+{ao:"DEI",q:"What did the company's DEI strategy include?",o:["Blind screening, inclusive panels, diverse partnerships and anti-discrimination training","Firing diverse staff","Ignoring bias","Hiring only from one background"],a:0},
+{ao:"DEI",q:"What business result came from the DEI strategy?",o:["More underrepresented minorities in leadership and a wave of new innovation","Falling innovation","Lower morale","No change"],a:0},
+{ao:"DEI",q:"Why is DEI described as a business requirement?",o:["Diverse, inclusive teams are more creative and achieve better results","It is only a moral nicety","It reduces innovation","It has no business impact"],a:0},
+
+// Module 11: Health, Safety, and Well-being (6)
+{ao:"Health & Safety",q:"What did Paul O'Neill make his top priority at Alcoa?",o:["Eliminating workplace accidents and making it the safest company in America","Maximising short-term profit","Cutting employee pay","Reducing the workforce"],a:0},
+{ao:"Health & Safety",q:"What does workplace well-being include beyond physical safety?",o:["Mental health awareness and stress management","Only profit margins","Only attendance","Only payroll"],a:0},
+{ao:"Health & Safety",q:"What was the business result of Alcoa's safety focus?",o:["Higher trust and morale, improved efficiency, and record net income","Immediate bankruptcy","Falling morale","No change"],a:0},
+{ao:"Health & Safety",q:"How did O'Neill empower workers?",o:["They could shut down production lines if they saw a safety hazard","They were told to ignore hazards","They were fired for raising concerns","They had no say"],a:0},
+{ao:"Health & Safety",q:"What is occupational health and safety?",o:["The protection of employees from physical harm at work","A pay scale","A recruitment method","A marketing plan"],a:0},
+{ao:"Health & Safety",q:"What happened to managers who hid injuries at Alcoa?",o:["They were immediately fired","They were promoted","They were rewarded","Nothing happened"],a:0},
+
+// Module 12: HR Information Systems (6)
+{ao:"HRIS",q:"What problem did scattered spreadsheets cause the multinational?",o:["Weak data security and simple reports taking weeks of manual entry","Too much automation","Overpaid staff","Too few employees"],a:0},
+{ao:"HRIS",q:"What is an HRIS?",o:["A digital platform that centralises and manages an organisation's HR data and processes","A type of salary","A recruitment ad","A performance ranking"],a:0},
+{ao:"HRIS",q:"What is the strategic payoff of a good HRIS?",o:["Automating admin frees HR to focus on high-impact strategic initiatives","It removes all HR staff","It only stores payslips","It slows HR down"],a:0},
+{ao:"HRIS",q:"Why is HR data security especially important?",o:["HR systems hold highly sensitive personal information","Data security never matters","Only payroll is sensitive","HR holds no data"],a:0},
+{ao:"HRIS",q:"What does attendance and leave management in an HRIS allow?",o:["Employees to request leave online and managers to track attendance in real time","Only paper forms","No tracking at all","Weeks of manual entry"],a:0},
+{ao:"HRIS",q:"How large was the workforce the HRIS unified?",o:["Over 160,000 employees across more than 100 countries","Ten employees","A single office","No employees"],a:0},
+
+// Module 13: HR Analytics (6)
+{ao:"HR Analytics",q:"How did the company solve its turnover among new mothers?",o:["It analysed data, found the short maternity policy was the cause, and extended paid leave","It guessed and hoped","It ignored the problem","It hired more recruiters"],a:0},
+{ao:"HR Analytics",q:"What is staff turnover?",o:["The rate at which employees leave an organisation","The total payroll","The number of new hires only","A type of benefit"],a:0},
+{ao:"HR Analytics",q:"What does HR analytics turn people management into?",o:["An evidence-based practice rather than guesswork","A purely administrative task","A random set of initiatives","A legal formality"],a:0},
+{ao:"HR Analytics",q:"By how much did the data-driven policy cut new-mother turnover?",o:["By 50%","By 0%","It doubled it","It had no effect"],a:0},
+{ao:"HR Analytics",q:"What are basic HR metrics?",o:["Measures like turnover, absenteeism and recruitment data","Only the CEO's salary","Only the stock price","Only office rent"],a:0},
+{ao:"HR Analytics",q:"Why is analytics better than guessing at causes?",o:["Data pinpoints the real cause a guess would miss","Guessing is always right","Data is never useful","Analytics hides the truth"],a:0},
+
+// Module 14: Career Opportunities in HR (6)
+{ao:"HR Careers",q:"How did the professional transition into HR leadership?",o:["Through a deliberate strategy of certifications, foundational roles and networking","By relying only on his law degree","By avoiding HR experience","By luck alone"],a:0},
+{ao:"HR Careers",q:"What do HR certifications provide?",o:["Professional qualifications that build credibility and signal expertise","A guaranteed salary","A replacement for all experience","A licence to practise law"],a:0},
+{ao:"HR Careers",q:"What accelerates an HR career?",o:["A deliberate strategy plus continuous networking and staying ahead of trends","Waiting passively for promotion","Avoiding new skills","Ignoring trends"],a:0},
+{ao:"HR Careers",q:"What HR specialisms does this unit mention?",o:["Recruitment, learning and development, compensation, employee relations and analytics","Only accounting","Only marketing","Only manufacturing"],a:0},
+{ao:"HR Careers",q:"How did the professional build his HR foundation?",o:["By taking junior roles to master payroll, employee relations and recruitment","By skipping all HR work","By staying only a lawyer","By avoiding people"],a:0},
+{ao:"HR Careers",q:"What did his career growth ultimately lead to?",o:["Leading the world's largest HR professional association","Leaving HR entirely","A junior role forever","No growth at all"],a:0},
+
+// Module 15: Practical HR Project (7)
+{ao:"HR Project",q:"What is the challenge in the practical HR project scenario?",o:["Building a business's foundational HR infrastructure from scratch with none in place","Closing the business down","Firing all staff","Processing one payroll"],a:0},
+{ao:"HR Project",q:"Which foundational HR tools does the project require?",o:["Job descriptions, a recruitment plan, an onboarding checklist, an appraisal form and a handbook","Only a logo","Only a single email","Only a salary figure"],a:0},
+{ao:"HR Project",q:"Why does building proper HR infrastructure matter?",o:["It protects the business from legal risk and sets new hires up to succeed as it scales","It is decorative","It slows growth","It replaces employees"],a:0},
+{ao:"HR Project",q:"What does an employee handbook provide?",o:["Clear rules and policies for employees, helping protect the organisation legally","A product design","A marketing plan","A stock valuation"],a:0},
+{ao:"HR Project",q:"What is the value of the practical HR project?",o:["It turns course knowledge into applied capability by building real HR tools","It only tests memorisation","It has no real use","It replaces the business owner"],a:0},
+{ao:"HR Project",q:"What does each foundational tool draw on?",o:["A specific skill from an earlier unit of the course","Nothing from the course","Only luck","Only the CEO's opinion"],a:0},
+{ao:"HR Project",q:"What does the project ultimately demonstrate?",o:["Readiness to manage people effectively and drive organisational success from day one","That HR is unnecessary","That templates are enough","That guesswork works best"],a:0}
+];
+
 const SJOURNEYS_BASE={
  "SOC10T1":{code:"0495",subject:"Sociology",group:"Sociology (0495)",cat:"Cambridge",year:"Year 10",term:1,termLabel:"1st Term",
    title:"Sociology Year 10 \u00B7 Term 1: Research Methods",
@@ -9981,7 +13655,42 @@ const SJOURNEYS_BASE={
    title:"AI and Automation Masterclass",
    tagline:"Leveraging Artificial Intelligence and automation for productivity, business and education \u2014 generative AI, prompt engineering, workflow automation, chatbots, data analysis and responsible use, told through real case studies, plus a closing five-pillar graduation synthesis.",
    months:"about 14 weeks",passMark:75,totalQuestions:100,examMins:60,
-   units:AIM_UNITS,questions:AIM_Q}
+   units:AIM_UNITS,questions:AIM_Q},
+ "GDINTRO":{code:"GDINTRO",subject:"Introduction to Graphic Design",group:"General Courses",cat:"General Courses",year:"All years",term:1,termLabel:"12-module course",
+   title:"Introduction to Graphic Design",
+   tagline:"Learn the fundamentals of visual design and digital creativity \u2014 design principles, colour, typography, images, Canva and Adobe Express, marketing materials, branding, social media and portfolio building, told through real case studies.",
+   months:"about 12 weeks",passMark:75,totalQuestions:100,examMins:60,
+   units:GD_UNITS,questions:GD_Q},
+ "GDADV":{code:"GDADV",subject:"Advanced Graphic Design Masterclass",group:"General Courses",cat:"General Courses",year:"All years",term:1,termLabel:"16-module course",
+   title:"Advanced Graphic Design Masterclass",
+   tagline:"Master professional design, branding and creative communication \u2014 advanced principles, typography, colour, Photoshop, Illustrator, InDesign, branding, advertising, UI/UX, motion, print, AI, freelancing and career development, told through real case studies.",
+   months:"about 16 weeks",passMark:75,totalQuestions:100,examMins:60,
+   units:AGD_UNITS,questions:AGD_Q},
+ "BMINTRO":{code:"BMINTRO",subject:"Introduction to Brand Management",group:"General Courses",cat:"General Courses",year:"All years",term:1,termLabel:"14-module course",
+   title:"Introduction to Brand Management",
+   tagline:"Building strong brands that inspire trust, loyalty and growth \u2014 brand identity, target audience, positioning, visual branding, communication, digital branding, loyalty, marketing, brand protection, performance, personal branding and a capstone plan, told through real case studies.",
+   months:"about 14 weeks",passMark:75,totalQuestions:100,examMins:60,
+   units:BM_UNITS,questions:BM_Q},
+ "BMADV":{code:"BMADV",subject:"Advanced Brand Management Masterclass",group:"General Courses",cat:"General Courses",year:"All years",term:1,termLabel:"19-module course",
+   title:"Advanced Brand Management Masterclass",
+   tagline:"Building, scaling and sustaining world-class brands \u2014 strategy, consumer psychology, research, positioning, identity systems, communication, digital, experience, reputation, growth, data, AI, employer branding, governance, leadership, entrepreneurship, industry applications, international branding and a capstone strategy, told through real case studies.",
+   months:"about 19 weeks",passMark:75,totalQuestions:100,examMins:60,
+   units:ABM_UNITS,questions:ABM_Q},
+ "MELINTRO":{code:"MELINTRO",subject:"Introduction to Monitoring, Evaluation & Learning",group:"General Courses",cat:"General Courses",year:"All years",term:1,termLabel:"15-module course",
+   title:"Introduction to Monitoring, Evaluation, and Learning (MEL)",
+   tagline:"Building evidence-based programmes for sustainable impact \u2014 the MEL cycle, development programmes, results frameworks, indicators, monitoring, data collection and management, evaluation, learning, reporting, digital tools, ethics, sectors, careers and a practical MEL project, told through real case studies.",
+   months:"about 15 weeks",passMark:75,totalQuestions:100,examMins:60,
+   units:MEL_UNITS,questions:MEL_Q},
+ "MELADV":{code:"MELADV",subject:"Advanced Monitoring, Evaluation & Learning Masterclass",group:"General Courses",cat:"General Courses",year:"All years",term:1,termLabel:"18-module course",
+   title:"Advanced Monitoring, Evaluation, and Learning (MEL) Masterclass",
+   tagline:"Designing, managing and evaluating high-impact programmes \u2014 systems thinking, programme design, comprehensive frameworks, advanced indicators, data collection and quality, analysis, impact evaluation, adaptive management, digital systems, donor compliance, financial monitoring, sectors, AI, leadership, consulting, research and a capstone MEL system, told through real case studies.",
+   months:"about 18 weeks",passMark:75,totalQuestions:100,examMins:60,
+   units:AMEL_UNITS,questions:AMEL_Q},
+ "HRMINTRO":{code:"HRMINTRO",subject:"Introduction to Human Resource Management",group:"General Courses",cat:"General Courses",year:"All years",term:1,termLabel:"15-module course",
+   title:"Introduction to Human Resource Management (HRM)",
+   tagline:"Building the foundation for effective people management \u2014 HRM fundamentals, workforce planning, recruitment, onboarding, performance management, learning and development, compensation, employee relations, labour law and ethics, DEI, health and safety, HRIS, HR analytics, careers and a practical HR project, told through real case studies.",
+   months:"about 15 weeks",passMark:75,totalQuestions:100,examMins:60,
+   units:HRM_UNITS,questions:HRM_Q}
 };
 
 
