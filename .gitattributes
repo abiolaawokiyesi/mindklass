@@ -1,0 +1,8 @@
+# The bundle is patched by byte-exact string replacement. Never let git
+# rewrite line endings or encoding in it, or in any build input/output.
+* -text
+*.js binary
+*.json binary
+*.html binary
+dist/** binary
+deploy/** binary

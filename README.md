@@ -1,99 +1,164 @@
-# MindKlass · Live Ideally
+# MindKlass — deployment repository
 
-Cambridge IGCSE online learning and **teacher training & certification** platform, built by PATHFINDER.
-
-MindKlass is a single-page React application (Vite + React 18) with four role-based experiences — **student, teacher, parent, admin** — covering live classes, educational games, assignments, a gradebook, attendance, community and private messaging, an offline-first sync engine, a pressure-sensitive whiteboard, and a full **Teacher Training & Certification** system for IGCSE subjects.
+Current release: **2026.08.09.16**
 
 ---
 
-## Tech stack
+## The situation this repo exists to handle
 
-| Layer | Choice |
-|---|---|
-| Framework | React 18 |
-| Build tool | Vite 5 |
-| Icons | `lucide-react` (pinned to 0.383.0) |
-| Styling | Inline theming via the `mkT(dark)` token function — no CSS framework |
-| Payments | Paystack redirect (`paystack.shop/pay/Mindklass`) |
-| Push (optional) | Firebase Cloud Messaging, gated behind `FCM_ENABLED` (off by default) |
-| Hosting | Vercel (static SPA) |
+There is no readable source code for the production MindKlass app. The live
+site runs from `assets/app.js`, a ~5 MB minified bundle with no sourcemap.
+Every feature added since late July is a targeted edit to that compiled file.
 
-There is **no backend in this repository** — the app runs entirely client-side, persisting session/offline data in `localStorage`.
+Editing minified code by hand is unmaintainable, so instead each change is
+written as a **patch script**: a small Python program that finds a specific
+piece of code and replaces it, with commentary explaining what and why. The
+scripts are the readable record of changes the bundle itself cannot show you.
+
+If `MindKlass.jsx` (roughly 12,000–16,000 lines, around July 2026) is ever
+found, these scripts document precisely what must be reapplied to it.
 
 ---
 
-## Getting started (local)
+## Layout
 
-Requires **Node.js 18+**.
+```
+build.py                        rebuilds the release from baseline + patches
+deploy/app.baseline-2026.07.26.js   the untouched July 26 production bundle
+patches/                        one script per feature, applied in order
+static/                         everything not generated (html, images, slides)
+tools/generate-voice.py         run on your PC to produce narration MP3s
+dist/                           build output — this is what gets uploaded
+```
+
+`deploy/app.baseline-2026.07.26.js` is the **canonical starting point**. It is
+the most complete artefact in existence: 87 courses including JAMB/UTME,
+General Courses, IGCSE and Life Skills, plus TTS, the blog CMS, the jobs
+board, course visibility and multi-currency. Never replace it with a
+development build — one such rebuild silently dropped 59 courses and four
+database tables.
+
+---
+
+## Rebuilding
 
 ```bash
-npm install      # install dependencies
-npm run dev      # start the dev server (http://localhost:5173)
-npm run build    # production build → dist/
-npm run preview  # preview the production build locally
+python3 build.py 2026.08.09.16
 ```
 
-## Demo credentials
+Copies the baseline, applies every patch in order, syncs the version, and
+writes `dist/`. Zip the **contents** of `dist/` and upload to `public_html`.
 
-| Role | Email | Password |
-|---|---|---|
-| Student | `sarah@mindklass.com` | `learn123` |
-| Teacher | `john@mindklass.com` | `teach123` |
-| Parent | `wei@mindklass.com` | `parent123` |
-| Admin | `admin@mindklass.com` | `admin123` |
+Verified: this reproduces the shipped bundle byte-for-byte.
 
----
-
-## Deploying
-
-See **[DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)** for step-by-step instructions to push this repo to GitHub and go live on Vercel.
-
-The short version: push to GitHub → import the repo in Vercel → deploy. Vercel auto-detects Vite; `vercel.json` already sets the build command, output directory, and SPA rewrite.
+**Patch order matters.** Later patches locate code earlier ones inserted.
+Do not reorder them.
 
 ---
 
-## Teacher Training & Certification
+## The patches
 
-Available to **teachers and admins** under the *Training & Certification* (teachers) / *Certifications* (admins) tab. Each course:
+| Script | What it does |
+|---|---|
+| `patch_voice.py` | Narration player: pre-generated MP3 when available, browser speech otherwise. Female voice only, working pause/resume. Replaces the old dual-gender toggle. |
+| `patch_features.py` | Share button carrying the sharer's referral code; live course search; "Not approved" clears 30 minutes after the decision, applied at all four lookup points. |
+| `inject_sat_batch1.py` | SAT units 1–7: Getting Started, Reading & Writing. |
+| `inject_sat_batch2.py` | SAT units 8–13: the full Math section. |
+| `patch_routing.py` | 29 real URLs (`/dashboard`, `/my-courses`, `/teacher-courses`…), working back/forward, `?c=` course deep links, `?ref=` preserved across navigation. |
+| `patch_offline.py` | Progress mirrored to localStorage per user; writes made offline queued and flushed on reconnect; last unit bookmarked so "Continue learning" resumes exactly there. |
+| `patch_carousel.py` | Slide carousel replaces the live-session countdown; Teacher's Course opened to guests. |
+| `patch_aliases.py` | Short course URLs — `/lifeskills` and `/sat` open the course directly with the catalogue pre-filtered. Add new ones by editing the `ALIASES` dict. |
+| `inject_vibe_intro.py` | Introduction to Vibe Coding — 15 units, General Courses. |
+| `inject_vibe_advanced.py` | Advanced Vibe Coding — 20 units, General Courses. |
 
-- is grounded in the real Cambridge syllabus, specimen/June papers and mark schemes,
-- has **6 CPD units**, each gated by a two-question knowledge check,
-- ends with a **100-question expert assessment** pitched at examiner/standardisation level, with a **75% pass mark**,
-- shows results (score, pass/fail, per-objective breakdown, printable certificate) **immediately on submission**.
-
-Courses currently included: **English as a Second Language (0510)** and **Sociology (0495)**. The data layer is subject-agnostic — new subjects are added as entries in the `TRAININGS` registry.
+Every script asserts on its anchors and aborts rather than corrupting the
+bundle if the code it expects has moved.
 
 ---
 
-## Project structure
+## The version rule
 
+Three places must hold the **same** string:
+
+1. `Sg="…"` — hardcoded inside `app.js`
+2. `version.json`
+3. `?v=…` on the script tag in `index.html` and `careers/index.html`
+
+The app fetches `version.json` and compares it against the constant. If they
+differ it shows "A new version of MindKlass is available." **on every load,
+and refreshing cannot clear it** — reloading does not change a constant
+compiled into the file. This caused a permanently stuck banner in July.
+
+`build.py` sets all three together. Never edit one by hand.
+
+---
+
+## Voice narration
+
+Lessons currently fall back to the phone's built-in voice, which sounds
+robotic on budget Android devices. To fix that:
+
+```bash
+pip install edge-tts
+python tools/generate-voice.py
 ```
-.
-├── index.html                 # HTML entry (fonts, favicon, root div)
-├── package.json               # dependencies + scripts
-├── vite.config.js             # Vite + React plugin config
-├── vercel.json                # Vercel build + SPA rewrite
-├── public/
-│   ├── MINDKLASS_LOGO_2.png    # brand logo (favicon + header)
-│   ├── Abiola_signature.png    # director's signature (certificates)
-│   └── firebase-messaging-sw.js# FCM service worker (inert until enabled)
-└── src/
-    ├── main.jsx               # React entry — mounts <MindKlass/>
-    ├── MindKlass.jsx          # the entire application (single component)
-    └── index.css              # global reset + print styles
-```
+
+Upload the resulting `voice/` folder to `public_html/voice/`. The app then
+prefers the MP3 and marks it "HD"; anything without a file keeps the
+fallback, so this can be rolled out lesson by lesson with no flag day.
+
+Segment IDs must match what the app uses. **Hover any Listen button and the
+tooltip shows that button's exact ID** — collect the ones you want narrated
+and put them in the `SEGMENTS` list.
+
+Neither Bark nor a live TTS service will work here: Bark is a ~5 GB PyTorch
+model, and both need a server. Pre-generating is what fits cPanel hosting.
 
 ---
 
-## Production checklist
+## Testing
 
-Items to complete before a full production launch (see the deployment guide for detail):
+Changes are validated before release by:
 
-- [ ] Add a backend **Paystack webhook** to verify `charge.success` via the `x-paystack-signature` header.
-- [ ] Fill real Firebase credentials in `src/MindKlass.jsx` **and** `public/firebase-messaging-sw.js`, then flip `FCM_ENABLED = true`.
-- [ ] Replace the CSS-drawn certificate signature/logo placeholders with the real image assets if desired.
-- [ ] Point a custom domain at the Vercel deployment.
+- **esbuild parse** of the whole patched bundle (catches syntax damage)
+- **jsdom render** with React actually mounting and Supabase stubbed
+- **Behavioural suites** run against code extracted verbatim from the shipped
+  bundle: 27 routing/offline checks, 14 share/search/expiry checks, 14
+  carousel checks, 8 voice checks
+
+Run each boot test in its own process — multiple jsdom instances in one
+process leak into each other and produce false failures.
 
 ---
 
-© PATHFINDER · MindKlass. Director: Mr. Abiola Awokiyesi.
+## Outstanding
+
+**Blocked on you**
+- 200 SAT questions per focal point — until these arrive `passMark` and
+  `totalQuestions` stay null and the final exam stays locked
+- `voice/` MP3s (see above)
+- Nav bar reorder — requested, sequence never supplied
+- Canonical domain: standardised on `www.mindklass.com`; say if you want the
+  bare domain instead and both the tags and a redirect need changing
+
+**Not started**
+- Admin view of all users' course-attempt progress
+- SAT batches 3 and 4 (strategy, Desmos, practice tests, study plans, test day)
+- Firebase push — `FCM_ENABLED` is false with placeholder config; two backend
+  endpoints unbuilt
+- Paystack reconciliation webhook — fees are currently marked paid
+  optimistically on the client, with no server-side confirmation
+
+---
+
+## Notes worth keeping
+
+- A white screen after deploy is more often a caching or partial-upload
+  problem than a code bug. `index.html` carries a boot placeholder that shows
+  a diagnostic message after 12 seconds instead of failing silently.
+- `.htaccess` must not cache `app.js` aggressively — the filename never
+  changes, so cache-busting depends entirely on the `?v=` query string.
+- Courses must go in the `gg` catalogue (student-facing), not `mm` (teacher).
+- Supabase columns are snake_case; the admin UI uses camelCase. Not the same.
+- Turn on "Show Hidden Files" in cPanel File Manager or you will not see
+  `.htaccess` after upload and will think it failed.

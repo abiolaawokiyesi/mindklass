@@ -1,0 +1,107 @@
+# ============================================================================
+# MindKlass — Apache configuration for cPanel shared hosting (Syskay / Truehost)
+# ============================================================================
+# Upload this file to the same folder as index.html (usually public_html).
+# The leading dot in the name (.htaccess) is REQUIRED. In cPanel File Manager
+# you must turn on Settings -> "Show Hidden Files (dotfiles)" or you will not
+# see it after upload and may believe it failed.
+
+# ---------------------------------------------------------------------------
+# 1) Force HTTPS. Once the free SSL certificate is active in cPanel, every
+#    visitor is sent to the https:// version of the site.
+# ---------------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+
+# ---------------------------------------------------------------------------
+# 2) Single-page-app fallback. MindKlass is one page, so any address that is
+#    not a real file or folder serves index.html. Real files (the bundle, the
+#    images, the manifest) and real folders (/careers) are served directly.
+# ---------------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# ---------------------------------------------------------------------------
+# 3) Correct MIME types.
+# ---------------------------------------------------------------------------
+<IfModule mod_mime.c>
+  AddType application/manifest+json .webmanifest
+  AddType application/javascript .js .mjs
+  AddType image/png .png
+  AddType audio/mpeg .mp3
+</IfModule>
+
+# ---------------------------------------------------------------------------
+# 4) Caching — this is the important part, and it changed.
+#
+#    Files in /assets/ now carry a content hash in their name
+#    (index-a1b2c3d4.js). A new build produces a NEW filename, so a browser
+#    can never serve a stale one. That makes it safe — and correct — to cache
+#    them forever, which is why "immutable" appears below.
+#
+#    Everything that keeps its name across deploys (index.html, version.json,
+#    the manifest, the service worker) must NOT be cached, or visitors keep
+#    getting pointed at the previous build's assets. That mismatch is the
+#    classic cause of a blank white screen after an upload.
+# ---------------------------------------------------------------------------
+<IfModule mod_headers.c>
+  # IMPORTANT: in this build the bundle filename does NOT change between
+  # deploys (it is always /assets/app.js). Cache-busting relies on the ?v=
+  # query string in index.html instead. So the bundle must NOT be marked
+  # "immutable" — a short cache is correct here. If you ever move to a build
+  # with hashed filenames (app-a1b2c3.js), change this to one year + immutable.
+  <FilesMatch "\.(js|mjs|css)$">
+    Header set Cache-Control "public, max-age=3600, must-revalidate"
+  </FilesMatch>
+
+  # Never cache the entry point or the deploy markers.
+  <FilesMatch "^(index\.html|version\.json|manifest\.webmanifest|firebase-messaging-sw\.js)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </FilesMatch>
+
+  # A service worker must always be revalidated, wherever it sits.
+  <FilesMatch "sw\.js$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+  </FilesMatch>
+
+  # Modest security headers. No CSP here — it would need tuning against the
+  # Google Fonts and Supabase origins the app talks to, and a wrong CSP breaks
+  # the app silently. Add one deliberately later if you want it.
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType audio/mpeg "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>
+
+# ---------------------------------------------------------------------------
+# 5) Gzip compression — smaller, faster downloads. The app bundle is ~1.7 MB
+#    uncompressed but around 516 KB gzipped, so this matters a great deal on
+#    mobile data. If pages look broken after deploy, this is the FIRST block
+#    to comment out when testing, since a few shared hosts mis-handle it.
+# ---------------------------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain
+  AddOutputFilterByType DEFLATE application/javascript application/json
+  AddOutputFilterByType DEFLATE application/manifest+json image/svg+xml
+</IfModule>
+
+# ---------------------------------------------------------------------------
+# 6) Default document.
+# ---------------------------------------------------------------------------
+DirectoryIndex index.html

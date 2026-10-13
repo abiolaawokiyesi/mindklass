@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /courses/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /checkout/
+
+Sitemap: https://www.mindklass.com/sitemap.xml
