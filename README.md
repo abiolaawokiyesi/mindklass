@@ -1,6 +1,6 @@
 # MindKlass — deployment repository
 
-Current release: **2026.10.18.4** (adds `patch_rejection_expiry.py` and `patch_life_y1_v2.py`; `dist/` was patched directly with the equivalent PowerShell, confirm with `python3 build.py 2026.10.14.2` when Python is available)
+Current release: **2026.10.18.6** (adds `patch_rejection_expiry.py` and `patch_life_y1_v2.py`; `dist/` was patched directly with the equivalent PowerShell, confirm with `python3 build.py 2026.10.14.2` when Python is available)
 
 ---
 
@@ -70,6 +70,7 @@ Do not reorder them.
 | `patch_aliases.py` | Short course URLs — `/lifeskills` and `/sat` open the course directly with the catalogue pre-filtered. Add new ones by editing the `ALIASES` dict. |
 | `inject_vibe_intro.py` | Introduction to Vibe Coding — 15 units, General Courses. |
 | `inject_vibe_advanced.py` | Advanced Vibe Coding — 20 units, General Courses. |
+| `patch_rs0490.py` | New teacher course 0490, Cambridge IGCSE Religious Studies 6-week online course (Weeks 1 and 2: 23 units, 103-question assessment, figures from the Cambridge guide). Add Weeks 2 to 6 in `patches/rs0490_content/`. Windows equivalent: `apply_rs0490.ps1`. |
 | `patch_esl0510_week1.py` | New teacher course 0510SE, Cambridge IGCSE English as a Second Language 5-week online course (Weeks 1 to 3: 20 units, 101-question assessment; sections can carry a figure, see apply_esl0510_week1.ps1). Add Weeks 2 to 5 in `patches/esl0510_content/`. Runs after the Life Skills patch. |
 | `patch_life_y1_v2.py` | One-Year Life Skills Academy (LIFE-Y1) rebuilt: 51 units on one learning loop, 153 scenario quick checks, 4 rubric-based capstones, project-course UI (no exam chips or Term Assessment card). Content authored in `patches/lifey1_content/`, built by `build_course.ps1`. Runs last. |
 | `patch_rejection_expiry.py` | Rejected approval requests (teacher training, student course, exam) vanish 30 minutes after the decision, in student and admin views, with a 30 s timer. Runs last. |
