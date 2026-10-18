@@ -38,6 +38,9 @@ PATCHES = [
     "patch_25personalities.py",# 120-question 25Personalities assessment
     "patch_tts_icon.py",       # icon-only read-aloud, visible on course pages
     "inject_hrm.py",           # detailed HR course rebuilt from client document
+    "patch_rejection_expiry.py",  # rejected requests vanish after 30 min, admin lists too
+    "patch_life_y1_v2.py",        # One-Year Life Skills Academy redesign (content + project-course UI)
+    "patch_esl0510_week1.py",     # teacher course 0510SE: IGCSE ESL 5-week course, Week 1
 ]
 
 
