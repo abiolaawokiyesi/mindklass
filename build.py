@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-build.py — reproduce the MindKlass release from the baseline bundle.
+build.py â€” reproduce the MindKlass release from the baseline bundle.
 
     python3 build.py 2026.08.09.16
 
@@ -42,6 +42,7 @@ PATCHES = [
     "patch_life_y1_v2.py",        # One-Year Life Skills Academy redesign (content + project-course UI)
     "patch_esl0510_week1.py",     # teacher course 0510SE: IGCSE ESL 5-week course, Week 1
     "patch_rs0490.py",           # teacher course 0490: IGCSE Religious Studies 6-week course, Week 1
+    "patch_safetot.py",          # teacher course SAFETOT: Safeguarding Training of Trainers, 22 units + 100 questions
 ]
 
 
