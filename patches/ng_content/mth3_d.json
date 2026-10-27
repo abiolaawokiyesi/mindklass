@@ -1,0 +1,140 @@
+[
+{"id":"ma3-12","week":8,"title":"Statistics: Collecting and Classifying Data","icon":"BarChart2","summary":"What statistics is, population and sample, primary and secondary data, qualitative and quantitative data, and discrete and continuous data.",
+"keyWords":["Statistics","Population","Sample","Primary data","Secondary data","Qualitative","Discrete","Continuous"],
+"sections":[
+{"h":"What is statistics?","p":["Statistics is the science of collecting, organising, analysing and interpreting data so that we can make good decisions. It is used in social media, medical research, election polls, business, climate science, education and the economy. The steps of a statistical study are: collect data, organise it in tables, present it in graphs, analyse it with calculations, interpret the results, and make decisions."]},
+{"h":"Data, population and sample","p":["Data are facts, figures or information, such as test scores, heights or colours. Meaningful data are relevant to the problem you are studying. The population is the whole group you are interested in (for example all SS1 students in Nigeria). A sample is a small, fair part of the population that you study when the population is too big. A good sample represents the whole population."]},
+{"h":"Primary and secondary data","p":["Primary data are collected by you, first-hand, using questionnaires, interviews, experiments or observation. Pros: it fits your question exactly, it is up to date and you control its quality. Cons: it takes time, can be expensive and may need a large sample.","Secondary data were collected by someone else: textbooks, government reports (such as the National Bureau of Statistics), company records, websites and newspapers. Pros: cheap, quick and often a lot of data. Cons: it may be out of date, may not fit your needs and may be biased."],
+"tbl":{"head":["","Primary data","Secondary data"],"rows":[
+["Source","You collect it yourself","Already collected by someone else"],
+["Cost","Higher","Low or free"],
+["Time","Slow","Quick"],
+["Fit to your question","Very high","May vary"],
+["Control over quality","Full","None"]]}},
+{"h":"Types of data","p":["Qualitative (categorical) data describe a quality or category and are not numbers: favourite food, gender, colour of a car, state of origin, blood group.","Quantitative (numerical) data are numbers. They are of two kinds. Discrete data are counted and take separate values, usually whole numbers: number of students, shoe size, goals scored, number of children. You cannot have 5.3 students. Continuous data are measured and can take any value in a range: height, temperature, time, weight, distance. Their precision depends on the measuring tool."],
+"tbl":{"head":["Type","How it arises","Examples"],"rows":[
+["Qualitative","Described in words","Favourite food, colour, gender"],
+["Discrete","Counted","Number of goals, shoe size, number of cars"],
+["Continuous","Measured","Height, weight, time, temperature"]]}}
+],
+"activity":"Classify each as qualitative, discrete or continuous: (a) brands of phones in your class, (b) the number of siblings each student has, (c) the time to run 100 m. (Answers: qualitative, discrete, continuous.) Is data from the National Bureau of Statistics primary or secondary? (Secondary.)",
+"check":[
+{"q":"Data collected by you directly are","o":["Primary data","Secondary data","Qualitative only","Continuous only"]},
+{"q":"Data from a government report are","o":["Secondary data","Primary data","Discrete data","Sample data"]},
+{"q":"The number of siblings is","o":["Discrete data","Continuous data","Qualitative data","Secondary data"]},
+{"q":"The time taken to run 100 m is","o":["Continuous data","Discrete data","Qualitative data","A population"]},
+{"q":"A sample is","o":["A small, fair part of the population","The whole population","A graph","A table"]}]},
+
+{"id":"ma3-13","week":8,"title":"Frequency Tables for Raw Data","icon":"BarChart2","summary":"What raw data are, how to use tally marks, how to build a frequency table, and how to find the mode and range.",
+"keyWords":["Raw data","Tally","Frequency","Frequency table","Mode","Range"],
+"sections":[
+{"h":"From raw data to a table","p":["Raw data are data that have just been collected and are in no particular order. They are messy and hard to read. Tabulation means organising them into a frequency distribution table. Tally marks help to count: one stroke for each item, with the fifth stroke crossing the four before it, so groups of five are easy to count. The frequency f is the total count for each value, and Σf (the sum of the frequencies) is the total number of items."]},
+{"h":"Example 1: shoe sizes","p":["Here are the shoe sizes of 20 students: 7, 8, 9, 7, 8, 10, 6, 8, 9, 7, 8, 8, 7, 6, 8, 9, 7, 8, 10, 8. The smallest size is 6 and the largest is 10. Go through the list and make a tally mark for each value, then count the tallies."],
+"tbl":{"head":["Shoe size (x)","Tally","Frequency (f)"],"rows":[["6","||","2"],["7","|||| (5)","5"],["8","|||| ||| (8)","8"],["9","|||","3"],["10","||","2"],["Total","","Σf = 20"]]},
+"img":{"src":"mth-bar-chart.png","alt":"A bar chart of shoe sizes 6 to 10 with frequencies 2, 5, 8, 3 and 2, with gaps between the bars","cap":"Bar chart of the shoe-size data: note the gaps between the bars."}},
+{"h":"Reading the table","p":["The table is much clearer than the raw list. We can see that size 8 is the most common (8 students). This most frequent value is called the mode. Sizes 6 and 10 are the least common (2 students each). The total is 20. The range is the largest value minus the smallest: 10 − 6 = 4."]},
+{"h":"Example 2: quiz marks","p":["The marks (out of 10) of 30 students are: 5, 8, 6, 7, 7, 10, 9, 4, 5, 6, 7, 8, 9, 7, 6, 5, 8, 7, 7, 9, 4, 6, 8, 7, 6, 7, 8, 9, 5, 7. The range = 10 − 4 = 6.","Frequency table: mark 4 has f = 2; mark 5 has f = 4; mark 6 has f = 5; mark 7 has f = 9; mark 8 has f = 5; mark 9 has f = 4; mark 10 has f = 1. The total is 2 + 4 + 5 + 9 + 5 + 4 + 1 = 30. The modal score is 7, because it has the highest frequency (9)."]},
+{"h":"Why frequency tables are useful","p":["They are easy to read, show patterns clearly, show the most and least common values, take little space, are ready for graphs and are easy to use to calculate statistics."]}
+],
+"activity":"Ask 20 friends or family members for their favourite colour from Red, Blue, Green, Black or Other. Make a frequency table with tally marks. What type of data is this and is it primary or secondary? (Qualitative; primary.)",
+"check":[
+{"q":"Raw data are","o":["Data in no particular order","Data in a graph","Data in a table","Data that are wrong"]},
+{"q":"The mode is","o":["The value with the highest frequency","The middle value","The largest value","The total"]},
+{"q":"The range is","o":["Largest value minus smallest value","Smallest plus largest","The total frequency","The mode"]},
+{"q":"What does Σf mean?","o":["The sum of the frequencies","The sum of the values","The mean","The mode"]},
+{"q":"In the shoe size table, how many students have size 8?","o":["8","5","20","3"]}]},
+
+{"id":"ma3-14","week":9,"title":"Grouped Data: Class Intervals, Boundaries and Midpoints","icon":"BarChart2","summary":"Why we group data, the class interval, class boundaries, class width and class midpoint, and how to build a grouped frequency table.",
+"keyWords":["Class interval","Class boundary","Class width","Class midpoint","Grouped frequency table"],
+"sections":[
+{"h":"Why group data?","p":["If we have 100 different heights, a list of every value is too long and hides the pattern. If we group them into ranges, the pattern is clear: for example 150–154 cm: 15 people; 155–159 cm: 25 people; 160–164 cm: 35 people; 165–169: 20 people; 170–174: 5 people."]},
+{"h":"Key terms","p":["A class interval is a range of values, such as 10–19, 20–29, 30–39. The class boundaries remove the gaps between classes: subtract 0.5 from the lower limit and add 0.5 to the upper limit. So 10–19 has boundaries 9.5–19.5, 20–29 has 19.5–29.5, and 30–39 has 29.5–39.5. A value such as 19.5 now has a place.","The class width (class size) = upper boundary − lower boundary. For 10–19, the width is 19.5 − 9.5 = 10. The class midpoint (or class mark) = (lower limit + upper limit) ÷ 2. For 10–19 the midpoint is (10 + 19)/2 = 14.5. For 20–29 it is 24.5. For 30–39 it is 34.5."]},
+{"h":"Worked example","p":["Group the 30 quiz marks from the last unit into classes 4–5, 6–7, 8–9 and 10–11. Count how many marks fall in each class: 4–5: 2 + 4 = 6; 6–7: 5 + 9 = 14; 8–9: 5 + 4 = 9; 10–11: 1. The total is 6 + 14 + 9 + 1 = 30."],
+"tbl":{"head":["Class","Frequency (f)","Boundaries","Midpoint"],"rows":[["4–5","6","3.5–5.5","4.5"],["6–7","14","5.5–7.5","6.5"],["8–9","9","7.5–9.5","8.5"],["10–11","1","9.5–11.5","10.5"],["Total","30","",""]]}},
+{"h":"Another example","p":["Ages of 30 people at a party, grouped with classes 15–19, 20–24, 25–29, 30–34, 35–39, 40–44 and 45–49: 3, 4, 8, 6, 4, 4 and 1. The total is 30. The modal class is 25–29, because it has the highest frequency (8)."]},
+{"h":"Choosing classes","p":["Use classes of equal width. Choose between about 5 and 10 classes. Make sure every value belongs to exactly one class and that the classes cover the smallest and largest values."]}
+],
+"activity":"For the class interval 20–29, find the class midpoint (24.5), the class boundaries (19.5–29.5) and the class width (10).",
+"check":[
+{"q":"The class midpoint of 20–29 is","o":["24.5","25","24","29.5"]},
+{"q":"The class boundaries of 20–29 are","o":["19.5–29.5","20–29","20.5–29.5","19–30"]},
+{"q":"The class width for boundaries 9.5–19.5 is","o":["10","9","19","29"]},
+{"q":"We group data when","o":["There are many different values","There are only 3 values","The data are qualitative","There are no data"]},
+{"q":"In the party ages example, the modal class is","o":["25–29","30–34","15–19","40–44"]}]},
+
+{"id":"ma3-15","week":9,"title":"Bar Charts, Line Graphs and Histograms","icon":"BarChart2","summary":"When to use a linear graph, a bar chart and a histogram, and how to draw a histogram with class boundaries.",
+"keyWords":["Bar chart","Histogram","Linear graph","Class boundaries","Continuous data"],
+"sections":[
+{"h":"The linear graph","p":["A linear (line) graph joins plotted points by lines. It is used to show trends over time: the temperature during a day, a company's profit over five years, the number of students in each year, or the price of a share."]},
+{"h":"The bar chart","p":["A bar chart is used for qualitative or discrete data. The bars have gaps between them, they all have the same width, the x-axis lists the categories or values, and the y-axis shows frequency. The bars can be vertical or horizontal. The gaps show that the categories are separate. The bar chart in the previous unit shows the shoe-size data."]},
+{"h":"The histogram","p":["A histogram is used for continuous grouped data. The bars touch (there are no gaps) because the data are continuous. The x-axis shows the class boundaries, and the y-axis shows frequency (when the classes have equal widths). The tallest bar shows the modal class.","Bar chart: discrete or qualitative data; gaps; categories or values on the x-axis. Histogram: continuous grouped data; no gaps; class boundaries on the x-axis."]},
+{"h":"Example: a histogram of heights","p":["The table shows the heights of 50 SS1 students. Draw a histogram.","Step 1: find the class boundaries: 149.5–154.5, 154.5–159.5, 159.5–164.5, 164.5–169.5, 169.5–174.5. Step 2: set up the axes: the y-axis is frequency from 0 to 20, and the x-axis is height in cm marked with the boundaries. Step 3: draw each bar from the lower boundary to the upper boundary, with a height equal to the frequency. Step 4: label the axes and give the graph a title."],
+"tbl":{"head":["Height (cm)","150–154","155–159","160–164","165–169","170–174"],"rows":[["Frequency","6","12","18","10","4"]]},
+"img":{"src":"mth-histogram.png","alt":"A histogram of student heights with touching bars on class boundaries 149.5 to 174.5 and frequencies 6, 12, 18, 10 and 4","cap":"Histogram of the heights of 50 students."}},
+{"h":"What the histogram tells us","p":["Most students (18) are 160–164 cm tall. Few (4) are 170–174 cm. The modal class is 160–164. The shape is roughly symmetrical and bell-shaped, with the average height around 160 cm."]}
+],
+"activity":"Draw a histogram for the ages of 30 people: classes 15–19, 20–24, 25–29, 30–34, 35–39, 40–44, 45–49 with frequencies 3, 4, 8, 6, 4, 4, 1. Use boundaries 14.5, 19.5, 24.5 and so on.",
+"check":[
+{"q":"A histogram is used for","o":["Continuous grouped data","Qualitative data","Discrete data only","Raw data only"]},
+{"q":"In a bar chart, the bars","o":["Have gaps between them","Touch each other","Are always different widths","Have no height"]},
+{"q":"On the x-axis of a histogram we show","o":["Class boundaries","Class midpoints","Frequencies","Tallies"]},
+{"q":"A linear graph is most suitable for showing","o":["A trend over time","A percentage of a whole","The mode","The mean"]},
+{"q":"'Number of children per family' should be shown on a","o":["Bar chart","Histogram","Frequency polygon","Pie chart only"]}]},
+
+{"id":"ma3-16","week":10,"title":"Pie Charts","icon":"BarChart2","summary":"What a pie chart shows, the formula angle = (frequency ÷ total) × 360°, and how to draw one, with worked examples.",
+"keyWords":["Pie chart","Sector","Angle","Proportion","Percentage"],
+"sections":[
+{"h":"What is a pie chart?","p":["A pie chart is a circle divided into sectors. Each sector shows the share of the whole that belongs to one item. The whole circle (360°) stands for the total frequency (or 100%). It is best for showing market share, percentages, budgets and survey results: parts of a whole."]},
+{"h":"The formula","p":["Angle of a sector = (frequency of the item ÷ total frequency) × 360°. After you work out all the angles, check that they add up to 360°."]},
+{"h":"Example 1: a class of 80 students","p":["In an SS1 class of 80 students, 30 are in Arts, 40 are in Science and 10 are in Commercial. Total = 80. Arts: 30/80 × 360° = 135°. Science: 40/80 × 360° = 180°. Commercial: 10/80 × 360° = 45°. Check: 135 + 180 + 45 = 360°."],
+"tbl":{"head":["Stream","Frequency","Calculation","Angle"],"rows":[["Arts","30","30/80 × 360°","135°"],["Science","40","40/80 × 360°","180°"],["Commercial","10","10/80 × 360°","45°"],["Total","80","","360°"]]},
+"img":{"src":"mth-pie-chart.png","alt":"A pie chart with sectors for Arts (135 degrees), Science (180 degrees) and Commercial (45 degrees)","cap":"Pie chart of the streams in an SS1 class of 80."}},
+{"h":"How to draw a pie chart","p":["Draw a circle with compasses and draw one radius. Use a protractor to measure the first angle from the radius and draw the next radius. Continue with each angle, and the last sector should close the circle. Label each sector with its name (and angle or percentage), colour the sectors differently, and give the chart a title."]},
+{"h":"More examples","p":["If a sector shows 20 people out of 80, its angle is 20/80 × 360° = 90°. If 'Food' takes up 120° of a budget, it is 120/360 = 1/3, or about 33.3% of the budget.","A family spends its monthly income as follows: food ₦30,000, rent ₦20,000, school fees ₦15,000, transport ₦10,000, savings ₦15,000. The total is ₦90,000. The angles are: food 30/90 × 360° = 120°; rent 20/90 × 360° = 80°; school fees 15/90 × 360° = 60°; transport 10/90 × 360° = 40°; savings 15/90 × 360° = 60°. The sum is 120 + 80 + 60 + 40 + 60 = 360°."]}
+],
+"activity":"Of 40 students, 10 walk to school, 18 take a bus, 8 are taken by car and 4 cycle. Work out the angles for a pie chart. (Answers: 90°, 162°, 72°, 36°; total 360°.)",
+"check":[
+{"q":"The angle of a sector in a pie chart is","o":["(frequency ÷ total) × 360°","(frequency ÷ total) × 100°","frequency × 360°","total ÷ frequency"]},
+{"q":"A sector shows 20 people out of 80. Its angle is","o":["90°","45°","20°","180°"]},
+{"q":"A sector of 120° shows what percentage?","o":["33.3%","12%","120%","25%"]},
+{"q":"The angles of a pie chart add up to","o":["360°","180°","100°","90°"]},
+{"q":"A pie chart is best for showing","o":["Parts of a whole","Trends over time","Continuous data distribution","Raw data"]}]},
+
+{"id":"ma3-17","week":10,"title":"Frequency Polygons","icon":"BarChart2","summary":"What a frequency polygon is, how to find class midpoints, how to ground the polygon, and how to draw one from a table or a histogram.",
+"keyWords":["Frequency polygon","Class midpoint","Grounding","Distribution"],
+"sections":[
+{"h":"What is a frequency polygon?","p":["A frequency polygon is a line graph made by joining the midpoints of the tops of the bars of a histogram. It shows the shape of the distribution more clearly and is good for comparing two sets of data on the same graph. On the x-axis we put the class midpoints (marks) and on the y-axis the frequency."]},
+{"h":"Grounding the polygon","p":["To close the shape into a polygon, add an imaginary class with zero frequency before the first class and after the last class. Join the first and last points to the x-axis. This is called grounding."]},
+{"h":"Worked example","p":["Use the heights of 50 students. Class midpoints: 150–154 gives (150 + 154)/2 = 152; 155–159 gives 157; 160–164 gives 162; 165–169 gives 167; 170–174 gives 172. Add grounding points: before the first class, 145–149 with midpoint 147 and f = 0; after the last class, 175–179 with midpoint 177 and f = 0."],
+"tbl":{"head":["Midpoint (x)","147","152","157","162","167","172","177"],"rows":[["Frequency (f)","0","6","12","18","10","4","0"]]},
+"img":{"src":"mth-freq-polygon.png","alt":"A frequency polygon joining the points (147, 0), (152, 6), (157, 12), (162, 18), (167, 10), (172, 4) and (177, 0) over a histogram","cap":"A frequency polygon drawn over the histogram of heights."}},
+{"h":"Reading the polygon","p":["The polygon starts and ends at the ground (zero). It peaks at 162 cm, which is the midpoint of the modal class 160–164. It shows that most heights are close to the middle and that fewer students are very short or very tall."]},
+{"h":"Histogram or polygon?","p":["Both are made from the same data. The histogram shows amounts with bars (using class boundaries on the x-axis). The polygon shows the trend or shape with a line (using class midpoints on the x-axis). When comparing two data sets, two polygons can be drawn on the same axes, which is hard to do with two histograms."]}
+],
+"activity":"Make a table of class midpoints and frequencies for the ages of 30 people (classes 15–19 to 45–49, with frequencies 3, 4, 8, 6, 4, 4, 1) and draw the frequency polygon, remembering the grounding points at 12 and 52.",
+"check":[
+{"q":"On the x-axis of a frequency polygon we plot","o":["Class midpoints","Class boundaries","Frequencies","Tallies"]},
+{"q":"A frequency polygon is grounded by adding","o":["Classes of zero frequency at each end","A bar at each end","A pie chart","A new class at the top"]},
+{"q":"The class midpoint of 150–154 is","o":["152","154","150","149.5"]},
+{"q":"A frequency polygon is made by joining","o":["The midpoints of the tops of the histogram bars","The corners of the bars","The boundaries","The frequencies"]},
+{"q":"The peak of the polygon shows","o":["The modal class","The smallest class","The range","The total"]}]},
+
+{"id":"ma3-18","week":11,"title":"Revision of Third Term Mathematics","icon":"ClipboardCheck","summary":"A formula sheet for mensuration, a process sheet for statistics, worked revision questions and examination tips.",
+"keyWords":["Revision","Formula sheet","Mensuration","Statistics","Exam tips"],
+"sections":[
+{"h":"Mensuration formula sheet","p":["Circle: circumference 2πr; area πr²; arc (θ/360) × 2πr; sector area (θ/360) × πr²; perimeter of sector = arc + 2r; segment = sector − ½r² sin θ. Sector to cone: radius of sector = slant height l; arc = 2πR; sector area = CSA = πRl; (θ/360) × 2πl = 2πR.","Surface area: cube 6l²; cuboid 2(lw + lh + wh); cylinder CSA 2πrh and TSA 2πr(r + h); cone CSA πRl and TSA πR(R + l) with l² = h² + R²; prism 2 × base + perimeter × length; pyramid base + triangular faces.","Volume: cube l³; cuboid lwh; cylinder πr²h; prism base area × h; pyramid ⅓ × base × h; cone ⅓πr²h; sphere (4/3)πr³; hemisphere (2/3)πr³; frustum = large cone − small cone (use r/R = h_s/H)."]},
+{"h":"Statistics process sheet","p":["Data types: qualitative (categories); quantitative: discrete (counted) and continuous (measured). Sources: primary (you collect) and secondary (collected by others). Graphs: bar chart (discrete or qualitative, gaps), histogram (continuous grouped, no gaps, class boundaries), pie chart (parts of a whole, angle = frequency/total × 360°), frequency polygon (class midpoints, grounded)."]},
+{"h":"Worked question 1: a sector","p":["A sector of radius 21 cm has an angle of 150°. (π = 22/7; sin 150° = 0.5.) (a) Arc = (150/360) × 2 × (22/7) × 21 = (5/12) × 132 = 55 cm. (b) Area = (150/360) × (22/7) × 21² = (5/12) × 1386 = 577.5 cm². (c) Triangle = ½ × 21² × sin 150° = ½ × 441 × 0.5 = 110.25 cm². Segment = 577.5 − 110.25 = 467.25 cm²."]},
+{"h":"Worked question 2: a cylinder","p":["A solid cylinder has height 10 cm and radius 7 cm. TSA = 2πr(r + h) = 2 × (22/7) × 7 × 17 = 748 cm². Volume = πr²h = (22/7) × 49 × 10 = 1540 cm³."]},
+{"h":"Worked question 3: a cone from a sector","p":["A cone is made by folding a sector with angle 120° and radius 18 cm. (a) Base radius: (120/360) × 2π × 18 = 2πR, so R = (1/3) × 18 = 6 cm. (b) Height: l² = h² + R², so 18² = h² + 6², h² = 324 − 36 = 288 and h = 12√2 ≈ 16.97 cm. (c) Volume = ⅓πR²h = ⅓ × (22/7) × 36 × 16.97 ≈ 640 cm³."]},
+{"h":"Worked question 4: statistics","p":["The scores of 40 students: 21–30: 3; 31–40: 5; 41–50: 11; 51–60: 10; 61–70: 8; 71–80: 3. Boundaries for the histogram: 20.5, 30.5, 40.5, 50.5, 60.5, 70.5, 80.5. Midpoints for the polygon: 25.5, 35.5, 45.5, 55.5, 65.5, 75.5 (ground at 15.5 and 85.5). Pie chart angles: 3/40 × 360° = 27°; 5/40 × 360° = 45°; 11/40 × 360° = 99°; 10/40 × 360° = 90°; 8/40 × 360° = 72°; 3/40 × 360° = 27°. Total 360°."]},
+{"h":"Examination tips","p":["Mensuration: write what is given and what is needed, draw clear diagrams, check whether you need the slant or vertical height, use Pythagoras for heights, remember that a cone is one third of a cylinder with the same base and height, and show all working.","Statistics: decide the data type first, choose the right graph, use boundaries for histograms and midpoints for polygons, check that pie angles add to 360°, label the axes, give titles, and show calculations."]}
+],
+"activity":"Write a one-page formula sheet for Third Term: circle formulas, solids (surface area and volume) and the four graphs with when to use each. Test yourself by covering one side.",
+"check":[
+{"q":"A sector has radius 21 cm and angle 150°. The arc length is (π = 22/7)","o":["55 cm","110 cm","44 cm","132 cm"]},
+{"q":"A cone is made from a sector of radius 18 cm and angle 120°. The base radius is","o":["6 cm","9 cm","3 cm","12 cm"]},
+{"q":"For the pie chart, 11 out of 40 students is an angle of","o":["99°","90°","45°","110°"]},
+{"q":"The volume of a cone is","o":["⅓πr²h","πr²h","½πr²h","2πrh"]},
+{"q":"The graph for continuous grouped data with no gaps is a","o":["Histogram","Bar chart","Pie chart","Linear graph"]}]}
+]

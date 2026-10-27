@@ -1,0 +1,47 @@
+[
+{"id":"ma1-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Mathematics First Term covers, how to study each unit, and a map of every unit by week.",
+"keyWords":["Mathematics","Number bases","Indices","Logarithms","Quadratics","Logic","Table of contents"],
+"sections":[
+{"h":"Welcome to SS1 Mathematics","p":["Mathematics is the language of science, business, technology and daily life. It trains your mind to think clearly and to solve problems step by step. In SS1 First Term you will meet new ideas that you will use up to SS3 and in WAEC, NECO and JAMB: other number bases, modular arithmetic, indices, logarithms, formulas and variation, quadratic equations and their graphs, and logical reasoning.","These notes follow the Nigerian scheme of work for SS1 First Term, week by week. The language is kept simple and every topic has worked examples that you can follow line by line."]},
+{"h":"How to study each unit","p":["Read the notes slowly. Then cover the worked example, try it yourself and compare. Write the key formulas in your notebook. At the end of every unit do the activity and the practice questions. The practice questions do not count towards a mark; they help you see whether you understood. Answer them all correctly to complete the unit.","You will need a pencil, a ruler, graph paper (for some topics) and a scientific calculator. Always show your working and write the answer with its units where there are units."]},
+{"h":"Table of contents: Weeks 1 to 4","p":["Number bases, modular arithmetic, indices and the start of logarithms."],
+"tbl":{"head":["Unit","Week","Lesson"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Number bases: meaning, place value and changing to base 10"],
+["3","1","Changing from base 10 to other bases"],
+["4","1","Adding, subtracting and multiplying in other bases"],
+["5","2","Modular arithmetic: clocks, congruence and remainders"],
+["6","2","Operations in modular arithmetic and where it is used"],
+["7","3","Indices and standard form"],
+["8","3","The laws of indices"],
+["9","3","Solving equations with indices"],
+["10","4","Logarithms: meaning and basic rules"],
+["11","4","Using log and antilog tables: characteristic and mantissa"],
+["12","4","Uses of logarithms: earthquakes, acidity and sound"]]}},
+{"h":"Table of contents: Weeks 6 to 10","p":["Calculations with logarithms, formulas, variation and quadratic equations."],
+"tbl":{"head":["Unit","Week","Lesson"],"rows":[
+["13","6","The laws of logarithms"],
+["14","6","Calculating with logarithms and bar notation"],
+["15","8","Changing the subject of a formula and substitution"],
+["16","8","Variation: direct, inverse, joint and combined"],
+["17","9","Quadratic expressions: factorisation"],
+["18","9","Solving quadratic equations by factorisation"],
+["19","10","Forming a quadratic equation from its roots"],
+["20","10","Drawing the graph of a quadratic"],
+["21","10","Using quadratic graphs and applications"]]}},
+{"h":"Table of contents: Weeks 11 to 13","p":["Logical reasoning and revision."],
+"tbl":{"head":["Unit","Week","Lesson"],"rows":[
+["22","11","Logical reasoning: simple statements and truth values"],
+["23","11","Logical reasoning: negation"],
+["24","12","Compound statements: AND and OR"],
+["25","12","Compound statements: IF-THEN, IF AND ONLY IF and truth tables"],
+["26","13","Revision of First Term Mathematics"]]}},
+{"h":"Tips for success in Mathematics","p":["Practise a little every day instead of a lot once a week. When you make a mistake, find out why, and fix the idea, not only the answer. Check your answers by substituting back or by using a different method. Ask for help early. Try past WAEC and NECO questions after each topic."]}
+],
+"activity":"In your notebook write the title 'SS1 Mathematics, First Term'. List the topics you find easy and the ones you find hard. Plan 20 minutes of practice each day this week.",
+"check":[
+{"q":"Which unit teaches the laws of logarithms?","o":["Unit 13","Unit 2","Unit 20","Unit 26"]},
+{"q":"How many units are in the First Term Mathematics course (including this one)?","o":["26","13","10","40"]},
+{"q":"Do the practice questions count towards a mark?","o":["No, they help you check understanding","Yes, they are the exam","Yes, they give 100 marks","Only in Week 1"]},
+{"q":"A good way to check a calculation is to","o":["Substitute back or use a second method","Skip the check","Copy a friend's answer","Guess"]}]}
+]

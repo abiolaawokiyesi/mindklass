@@ -1,0 +1,82 @@
+[
+{"id":"ma2-13","week":6,"title":"Using Trigonometry to Find Sides and Angles","icon":"Zap","summary":"A clear step-by-step method for finding missing sides and angles in right-angled triangles, with worked examples and real-life problems.",
+"keyWords":["Missing side","Missing angle","Inverse function","Calculator","Ladder problem"],
+"sections":[
+{"h":"Method for finding a missing side","p":["You need one angle and one side. Step 1: label the sides OPP, ADJ and HYP for the given angle. Step 2: choose SOH, CAH or TOA, whichever uses the side you know and the side you want. Step 3: write the equation, put in the numbers, and solve. Make sure your calculator is in degree mode."]},
+{"h":"Method for finding a missing angle","p":["You need two sides. Step 1: label the sides for the unknown angle θ. Step 2: choose the ratio that uses your two sides. Step 3: write the equation. Step 4: use the inverse function on the calculator (sin⁻¹, cos⁻¹ or tan⁻¹) to get θ."]},
+{"h":"Example 1: a missing side using cosine","p":["The hypotenuse is 15 cm and the angle is 35°. Find x, the side next to the angle. x is adjacent and 15 is the hypotenuse, so use CAH. cos 35° = x/15. x = 15 × cos 35° = 15 × 0.8192 = 12.29 cm."]},
+{"h":"Example 2: a missing angle using tangent","p":["The opposite side is 10 cm and the adjacent side is 8 cm. Find θ. Use TOA: tan θ = 10/8 = 1.25. θ = tan⁻¹ 1.25 = 51.3°."]},
+{"h":"Example 3: a ladder","p":["A 12 m ladder leans against a wall and makes an angle of 70° with the ground. How high up the wall does it reach? The ladder is the hypotenuse. The height is opposite the 70° angle. Use SOH: sin 70° = h/12. h = 12 × sin 70° = 12 × 0.9397 = 11.28 m."]},
+{"h":"Example 4: a rectangle","p":["A rectangle is 15 cm long and 8 cm wide. What angle does its diagonal make with the 15 cm side? Opposite = 8 and adjacent = 15. tan θ = 8/15 = 0.5333, so θ = tan⁻¹ 0.5333 = 28.1°."]},
+{"h":"Example 5: using Pythagoras and ratios together","p":["If cos θ = 4/5, draw a right-angled triangle with adjacent = 4 and hypotenuse = 5. The opposite side is √(25 − 16) = 3. So sin θ = 3/5 and tan θ = 3/4. Also (cos θ)² + (sin θ)² = 16/25 + 9/25 = 1."]}
+],
+"activity":"A ladder 6 m long leans against a wall with its foot 2 m from the wall. Find the angle between the ladder and the ground. (Use cos θ = 2/6, so θ = 70.5°.)",
+"check":[
+{"q":"To find an angle from two sides, use","o":["An inverse ratio (such as tan⁻¹)","Only Pythagoras","Only a ruler","The area formula"]},
+{"q":"Hypotenuse 15 cm and angle 35°: the adjacent side is about","o":["12.29 cm","8.6 cm","18.3 cm","15 cm"]},
+{"q":"Opposite = 10, adjacent = 8: the angle is about","o":["51.3°","38.7°","45°","60°"]},
+{"q":"If cos θ = 4/5, then sin θ is","o":["3/5","5/4","4/3","3/4"]},
+{"q":"A 12 m ladder at 70° to the ground reaches a height of about","o":["11.3 m","4.1 m","8.2 m","12 m"]}]},
+
+{"id":"ma2-14","week":8,"title":"Trigonometric Ratios of 30°, 45° and 60°","icon":"Zap","summary":"Deriving the exact values of sin, cos and tan for 30°, 45° and 60° from two special triangles, a summary table, and exact-value problems.",
+"keyWords":["Exact value","Surd","45-45-90 triangle","30-60-90 triangle","Special angles"],
+"sections":[
+{"h":"Why these angles are special","p":["Calculators can find the ratio of any angle, but 30°, 45° and 60° appear so often that you must know them without a calculator. Their ratios are exact values that use surds such as √2 and √3. They appear in regular polygons, engineering, physics and computer graphics."]},
+{"h":"The 45° triangle","p":["Draw a right-angled isosceles triangle with the two equal sides each 1 unit. By Pythagoras the hypotenuse is √(1² + 1²) = √2. The angles are 45°, 45° and 90°. So sin 45° = 1/√2 = √2/2, cos 45° = 1/√2 = √2/2 and tan 45° = 1/1 = 1."]},
+{"h":"The 30° and 60° triangle","p":["Draw an equilateral triangle with each side 2 units. All the angles are 60°. Cut it down the middle (bisect it) to get two right-angled triangles. Each has hypotenuse 2, base 1, and height h where 2² = 1² + h², so h² = 3 and h = √3. The angles are 30°, 60° and 90°.","For 60°: opposite = √3, adjacent = 1, hypotenuse = 2. So sin 60° = √3/2, cos 60° = 1/2 and tan 60° = √3.","For 30°: opposite = 1, adjacent = √3, hypotenuse = 2. So sin 30° = 1/2, cos 30° = √3/2 and tan 30° = 1/√3 = √3/3."],
+"img":{"src":"mth-special-triangles.png","alt":"A 45-45-90 triangle with sides 1, 1 and root 2, and a 30-60-90 triangle with sides 1, root 3 and 2","cap":"The two special triangles."}},
+{"h":"Summary table (learn it)","p":["Notice that sin 30° = cos 60° and sin 60° = cos 30°. The sines increase from 1/2 to √2/2 to √3/2, and the cosines decrease in the same way."],
+"tbl":{"head":["Angle","sin","cos","tan"],"rows":[
+["30°","1/2","√3/2","1/√3 (or √3/3)"],
+["45°","√2/2 (or 1/√2)","√2/2 (or 1/√2)","1"],
+["60°","√3/2","1/2","√3"]]}},
+{"h":"Worked examples (no calculator)","p":["Example 1: evaluate sin 60° cos 30° + tan 45°. = (√3/2)(√3/2) + 1 = 3/4 + 1 = 7/4 = 1.75.","Example 2: find the acute angle x if 2 sin x = √3. Then sin x = √3/2. From the table, x = 60°.","Example 3: an equilateral triangle of side 10 cm. Find its exact height. The height splits it into a 30-60-90 triangle with hypotenuse 10, opposite to 60° is h. sin 60° = h/10, so √3/2 = h/10 and h = 5√3 cm (about 8.66 cm).","Example 4: a square has diagonal 10 cm. Find its side. The diagonal makes two 45° triangles. Side = 10 × sin 45° = 10 × √2/2 = 5√2 cm.","Example 5: solve 4 cos² x = 3 for acute x. cos² x = 3/4, cos x = √3/2, so x = 30°.","Example 6: evaluate 2 sin 30° cos 30°. = 2 × (1/2) × (√3/2) = √3/2.","Example 7: tan 60° ÷ sin 60° = √3 ÷ (√3/2) = 2."]}
+],
+"activity":"Without a calculator, evaluate tan 30° × tan 60° and (sin 45°)² + (cos 45°)². (Answers: 1 and 1.)",
+"check":[
+{"q":"The exact value of tan 30° is","o":["1/√3","√3","1","1/2"]},
+{"q":"The exact value of cos 45° is","o":["√2/2","1/2","√3/2","1"]},
+{"q":"sin 60° equals","o":["√3/2","1/2","√2/2","1"]},
+{"q":"tan 45° equals","o":["1","0","√2","√3"]},
+{"q":"The exact height of an equilateral triangle of side 10 cm is","o":["5√3 cm","10√3 cm","5 cm","5√2 cm"]}]},
+
+{"id":"ma2-15","week":9,"title":"Angles of Elevation and Depression","icon":"Target","summary":"What the angles of elevation and depression are, why they are equal, and how to solve height and distance problems.",
+"keyWords":["Angle of elevation","Angle of depression","Horizontal","Line of sight"],
+"sections":[
+{"h":"Looking up and looking down","p":["The angle of elevation is the angle between the horizontal and your line of sight when you look up at something. The angle of depression is the angle between the horizontal and your line of sight when you look down at something. Both are measured from the horizontal line, not from the vertical."]},
+{"h":"They are equal","p":["From the top of a tower, the angle of depression to a car on the ground is θ. From the car, the angle of elevation to the top of the tower is also θ. This is because the two horizontal lines are parallel and the line of sight is a transversal, so the two angles are alternate angles."],
+"img":{"src":"mth-elevation.png","alt":"A tower with a horizontal line at the top and a line of sight down to a car, showing the angle of depression equal to the angle of elevation at the car","cap":"Angle of depression = angle of elevation (alternate angles)."}},
+{"h":"Example 1: elevation","p":["A man stands 100 m from the base of a building. The angle of elevation of the top is 60°. Find the height. The height is opposite the 60° angle and the ground distance is adjacent. Use TOA: tan 60° = h/100, so h = 100 × √3 = 173.2 m."]},
+{"h":"Example 2: depression","p":["From the top of a cliff 80 m high, the angle of depression of a boat is 30°. How far is the boat from the foot of the cliff? The angle of elevation from the boat to the cliff top is also 30°. Use TOA: tan 30° = 80/d. So 1/√3 = 80/d and d = 80√3 = 138.6 m."]},
+{"h":"More problems","p":["A vertical pole is 10 m high. From a point on the ground 10 m away, tan θ = 10/10 = 1, so the angle of elevation is 45°.","From a window the angle of depression of an object 20 m from the house is 45°. Height of the window = 20 × tan 45° = 20 m.","The shadow of a mast is 30 m long and the sun's angle of elevation is 30°. The mast's height = 30 × tan 30° = 10√3 = 17.3 m.","From the top of a lighthouse 120 m high, two boats A and B in a line are seen at angles of depression 30° and 60°. Boat A (30°): distance = 120 ÷ tan 30° = 120√3 = 207.8 m. Boat B (60°): distance = 120 ÷ tan 60° = 40√3 = 69.3 m. The boats are 80√3 = 138.6 m apart."]}
+],
+"activity":"A kite string is 50 m long and makes an angle of 40° with the horizontal ground. How high is the kite? (Height = 50 × sin 40° = 32.1 m.)",
+"check":[
+{"q":"The angle of elevation is measured from","o":["The horizontal, looking up","The vertical","The ground, looking down","The shadow"]},
+{"q":"From a tower the angle of depression to a car is 40°. The angle of elevation from the car to the tower is","o":["40°","50°","140°","90°"]},
+{"q":"A man 100 m from a building sees its top at 60° elevation. The height is","o":["173.2 m","57.7 m","100 m","86.6 m"]},
+{"q":"The angle of elevation of a 10 m pole from 10 m away is","o":["45°","30°","60°","90°"]},
+{"q":"The angles of elevation and depression are equal because they are","o":["Alternate angles","Vertically opposite","Supplementary","Right angles"]}]},
+
+{"id":"ma2-16","week":9,"title":"Trigonometric Ratios of Angles from 0° to 360°","icon":"Zap","summary":"The four quadrants, which ratios are positive in each (ASTC), reference angles, and exact values for angles such as 120°, 150°, 225° and 300°.",
+"keyWords":["Quadrant","ASTC","Reference angle","Positive and negative ratios"],
+"sections":[
+{"h":"The four quadrants","p":["Angles can be drawn on an x-y graph, starting from the positive x-axis and turning anticlockwise. Quadrant I is 0° to 90° (x and y positive). Quadrant II is 90° to 180° (x negative, y positive). Quadrant III is 180° to 270° (x and y negative). Quadrant IV is 270° to 360° (x positive, y negative)."]},
+{"h":"ASTC: which ratios are positive?","p":["Remember the memory aid All Students Take Cash, starting from Quadrant I and going anticlockwise: A, S, T, C."],
+"tbl":{"head":["Quadrant","Angles","Positive ratios (the others are negative)"],"rows":[
+["I","0° to 90°","All (sin, cos, tan)"],
+["II","90° to 180°","Sine only"],
+["III","180° to 270°","Tangent only"],
+["IV","270° to 360°","Cosine only"]]},
+"img":{"src":"mth-astc.png","alt":"The four quadrants of a graph with ASTC marked: All in the first, Sin in the second, Tan in the third and Cos in the fourth","cap":"The ASTC rule: All, Sin, Tan, Cos."}},
+{"h":"Reference angles","p":["To find the ratio of any angle, relate it to the acute angle it makes with the horizontal x-axis. This is the reference angle. In Quadrant II: reference = 180° − angle. In Quadrant III: reference = angle − 180°. In Quadrant IV: reference = 360° − angle. Then find the ratio of the reference angle and give it the sign from ASTC.","Examples: 150° = 180° − 30°. sin 150° = + sin 30° = 1/2. cos 150° = − cos 30° = −√3/2. 225° = 180° + 45°. sin 225° = − sin 45° = −√2/2. tan 225° = + tan 45° = 1. 300° = 360° − 60°. cos 300° = + cos 60° = 1/2. tan 300° = − tan 60° = −√3."]},
+{"h":"More worked examples","p":["sin 120°: Quadrant II so sine is positive. Reference = 180° − 120° = 60°. sin 120° = sin 60° = √3/2.","cos 240°: Quadrant III so cosine is negative. Reference = 240° − 180° = 60°. cos 240° = −cos 60° = −1/2.","tan 315°: Quadrant IV so tangent is negative. Reference = 360° − 315° = 45°. tan 315° = −tan 45° = −1.","sin 210°: Quadrant III so sine is negative. Reference = 30°. sin 210° = −1/2. cos 135°: Quadrant II, cosine negative, reference 45°. cos 135° = −√2/2.","If sin θ = 3/5 and θ is in Quadrant II, draw the triangle with opposite 3 and hypotenuse 5, so adjacent = 4. In Quadrant II cosine and tangent are negative: cos θ = −4/5 and tan θ = −3/4.","Is cos 100° positive or negative? 100° is in Quadrant II, so cosine is negative. Is tan 200° positive? 200° is in Quadrant III, so tangent is positive. The reference angle of 130° is 50°. The reference angle of 315° is 45°."]}
+],
+"activity":"Without a calculator find sin 135°, cos 330° and tan 150°. (Answers: √2/2, √3/2, −1/√3.)",
+"check":[
+{"q":"In which quadrant is only sine positive?","o":["Quadrant II","Quadrant I","Quadrant III","Quadrant IV"]},
+{"q":"cos 100° is","o":["Negative","Positive","Zero","Undefined"]},
+{"q":"The reference angle of 315° is","o":["45°","135°","315°","15°"]},
+{"q":"sin 120° equals","o":["√3/2","−√3/2","1/2","−1/2"]},
+{"q":"tan 315° equals","o":["−1","1","√3","0"]}]}
+]

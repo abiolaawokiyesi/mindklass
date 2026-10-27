@@ -1,0 +1,194 @@
+[
+{"id":"en1-02","week":1,"title":"Spoken English: Telling a Story Aloud (Oral Narrative)","icon":"Megaphone","summary":"What oral composition and a narrative are, the parts of a good story, the language used in stories, and how to tell one aloud.",
+"keyWords":["Oral composition","Narrative","Climax","Connectors","Past tense"],
+"sections":[
+{"h":"What is oral composition?","p":["Oral composition means speaking to share your thoughts, feelings and experiences in an organised and fluent way. You build sentences and paragraphs in speech, in a clear order, so that the listener understands you easily. Oral composition is not only for competitions. Whenever you tell your parents what happened at school, you are doing oral composition."]},
+{"h":"What is a narrative?","p":["A narrative is a story or an account of events, real or imagined. It tells what happened, how it happened, when it happened and to whom. A narrative can be a personal experience, a folk tale, a legend or a made-up story."]},
+{"h":"Features of a good narrative","p":["A good story has five parts. Learn them in this order."],
+"tbl":{"head":["Part","What it does","Example"],"rows":[
+["Title","Shows the main idea of the story","The Day I Got Lost; My First Day in Boarding School"],
+["Introduction","Gives the setting (where and when) and the main characters","One sunny afternoon, my mother sent me to the market."],
+["Body","Tells the events in clear order","I met my friend Bassey and we played football."],
+["Climax","The most exciting or important part","My mother was waiting angrily at the door."],
+["Conclusion","Ends the story and shows what was learned","That day I learned that obedience is better than fun."]]}},
+{"h":"The language of a narrative","p":["Use past tense verbs: went, saw, heard, felt, ran.","Use connectors to show the order of events: first, then, later, afterwards, suddenly, finally.","Use descriptive words to paint a picture: beautiful, noisy, frightened, bright, terrible.","Use direct speech to make the story lively: “Stop!” my mother shouted."]},
+{"h":"A sample story told aloud","p":["Topic: A Day I Will Never Forget.","One sunny afternoon, I was sent by my mother to buy some bread from the market. On my way, I met my best friend, Bassey. We decided to play football before going home. When I returned, my mother was very angry because the bread was already cold and she had waited for me for more than one hour. That day, I learned that obedience is better than fun.","Notice the connectors (on my way, when I returned), the past tense (was sent, met, decided) and the lesson at the end."]},
+{"h":"How to practise in class","p":["Look at a picture (for example children playing football) and describe what you see in complete sentences. Arrange your ideas in order: beginning, middle, end. Tell your story to a partner, then to the class. Speak slowly and clearly, look at your listeners and do not rush."]}
+],
+"activity":"Prepare a one-minute oral story called 'A Visit to the Market'. Use at least three connectors (first, then, finally). Tell it to a family member, then ask them to say what they enjoyed and what you can improve.",
+"check":[
+{"q":"What is oral composition?","o":["Speaking to express ideas in an organised way","Writing a long letter","Reading silently","Copying a text"]},
+{"q":"Which part of a story is the most exciting part?","o":["The climax","The title","The introduction","The conclusion"]},
+{"q":"Which tense is mostly used in a narrative?","o":["Past tense","Future tense","Present tense only","No tense"]},
+{"q":"Which of these is a connector used to show order?","o":["Afterwards","Beautiful","Mother","Noisy"]},
+{"q":"What does the introduction of a story do?","o":["Gives the setting and the main characters","Gives the lesson","Gives the climax","Gives the title only"]}]},
+
+{"id":"en1-03","week":1,"title":"Vocabulary: Words Associated with the Home","icon":"BookOpen","summary":"Words for the kitchen, dining room, living room, bedroom, bathroom and pantry, with their meanings and example sentences.",
+"keyWords":["Vocabulary","Kitchen","Cutlery","Wardrobe","Pantry"],
+"sections":[
+{"h":"What is vocabulary?","p":["Vocabulary is the set of words you know and use in a language or about a topic. A wide vocabulary helps you express ideas clearly and understand other people. In this unit we learn the words for things found in and around a home."]},
+{"h":"The kitchen","p":["The kitchen is where food is cooked."],
+"tbl":{"head":["Word","Meaning or use"],"rows":[
+["Pot","Used for cooking food"],["Kettle","Used for boiling water"],["Ladle","Used for serving soup or stew"],["Spoon","Used for stirring or eating"],["Frying pan","Used for frying eggs, meat and so on"],["Blender","Used to grind or mix ingredients"],["Cup","Used for drinking beverages"],["Sieve","Used to strain or separate particles"]]},
+"ex":{"t":"Example sentences","b":["My mother used a ladle to serve the soup.","The blender was used to mix pepper and tomatoes."]}},
+{"h":"The dining room and the living room","p":["The dining room is where meals are eaten. The living room (or sitting room) is where the family relaxes and receives visitors."],
+"tbl":{"head":["Room","Word","Meaning or use"],"rows":[
+["Dining room","Table","Furniture on which food is served"],["Dining room","Chair","Furniture for sitting"],["Dining room","Napkin","Used to wipe the mouth and hands"],["Dining room","Cutlery","Knives, forks and spoons used for eating"],["Dining room","Jug","Used to serve water or drinks"],["Living room","Sofa","A comfortable seat for two or more people"],["Living room","Carpet","Material that covers the floor"],["Living room","Curtain","Used to cover windows"],["Living room","Television","Used for watching programmes"],["Living room","Cushion","A soft pad used for comfort or decoration"]]},
+"ex":{"t":"Example sentences","b":["There are six chairs around the dining table.","Mother placed clean cutlery before serving the meal.","The sofa in our sitting room is made of leather.","I helped my father clean the carpet and draw the curtains."]}},
+{"h":"The bedroom, bathroom and pantry","p":["The bedroom is where we sleep. The bathroom and toilet are where we wash. The pantry or store is where food and supplies are kept."],
+"tbl":{"head":["Room","Word","Meaning or use"],"rows":[
+["Bedroom","Bed","Furniture used for sleeping"],["Bedroom","Pillow","Soft support for the head while sleeping"],["Bedroom","Wardrobe","Used to keep clothes"],["Bedroom","Hanger","Used to hang clothes"],["Bedroom","Mirror","Used to see oneself"],["Bathroom","Bucket","Used for fetching and storing water"],["Bathroom","Towel","Used for drying the body"],["Bathroom","Sponge","Used for washing the body"],["Bathroom","Soap","Used for cleaning"],["Bathroom","Tap","Device that controls the flow of water"],["Pantry","Shelf","Used to arrange food items"],["Pantry","Jar","Used to keep food ingredients"],["Pantry","Basket","Used to store fruits or vegetables"],["Pantry","Container","Used to preserve food items"]]},
+"ex":{"t":"Example sentences","b":["My clothes are neatly arranged in the wardrobe.","The mirror in my room is made of glass.","The bucket is filled with clean water.","She hung her towel behind the door.","We arranged the canned food on the shelf.","Sugar and flour are kept in jars in the pantry."]}},
+{"h":"Make the words your own","p":["Draw a simple outline of a house. Label the kitchen, dining room, bedroom, living room and bathroom, then list five items found in each. Writing the words and using them in sentences is the quickest way to remember them."]}
+],
+"activity":"Create a table in your notebook with five rooms in your house. Write five items found in each room. Then write ten sentences using words from the table.",
+"check":[
+{"q":"What is a ladle used for?","o":["Serving soup or stew","Boiling water","Frying eggs","Drying the body"]},
+{"q":"Which word means knives, forks and spoons used for eating?","o":["Cutlery","Napkin","Sieve","Hanger"]},
+{"q":"A wardrobe is used to","o":["Keep clothes","Boil water","Serve food","Wash the body"]},
+{"q":"What is a pantry?","o":["A small room or cupboard where food is stored","A room for sleeping","A place for washing clothes","A garden"]},
+{"q":"Which item is found in the bathroom?","o":["Towel","Sofa","Blender","Cushion"]}]},
+
+{"id":"en1-04","week":1,"title":"Grammar: Nouns and Their Number","icon":"PenLine","summary":"What a noun is, singular and plural, and the rules for forming plural nouns, with examples.",
+"keyWords":["Noun","Singular","Plural","Irregular plural","Compound noun"],
+"sections":[
+{"h":"What is a noun?","p":["A noun is the name of a person, animal, place, thing or idea. Examples: girl, book, Lagos, dog, honesty."]},
+{"h":"What is number in nouns?","p":["Number tells us whether we are talking about one thing or more than one. A singular noun refers to one item (boy, table, apple). A plural noun refers to more than one item (boys, tables, apples)."]},
+{"h":"Rules for forming plural nouns","p":["Most nouns become plural by adding -s, but many follow other rules. Study the table and learn at least two new examples for each rule."],
+"tbl":{"head":["Rule","Singular to plural"],"rows":[
+["1. Add -s to most nouns","book to books; car to cars"],
+["2. Add -es to nouns ending in s, x, z, ch, sh","box to boxes; bush to bushes"],
+["3. Change y to ies when a consonant comes before it","baby to babies; lady to ladies"],
+["4. Add -s if a vowel comes before y","toy to toys; day to days"],
+["5. Change f or fe to ves","leaf to leaves; knife to knives"],
+["6. Irregular forms (no fixed rule)","man to men; child to children; tooth to teeth"],
+["7. Same form in singular and plural","sheep to sheep; species to species"],
+["8. Compound nouns: add -s to the main word","mother-in-law to mothers-in-law; passer-by to passers-by"]]}},
+{"h":"Examples in sentences","p":["I saw two men carrying boxes.","The children are playing with toys.","The wives cooked delicious food.","There are many deer in the forest.","The ladies wore beautiful dresses."]},
+{"h":"Words that often cause mistakes","p":["Some words end in f but only take -s, such as roof to roofs and chief to chiefs. Some words that end in o take -es (tomato to tomatoes, potato to potatoes) while others take -s (photo to photos, piano to pianos). When you are not sure, check a dictionary."]},
+{"h":"A game to practise: Change It!","p":["The teacher says a singular noun and the class says the plural. Teacher: foot. Students: feet. Teacher: knife. Students: knives. Teacher: table. Students: tables. Play it with a friend at home using words around you."]}
+],
+"activity":"Write ten singular nouns from things around you and change each to its plural form. Write down which rule you used for each one.",
+"check":[
+{"q":"What is the plural of 'baby'?","o":["Babies","Babys","Babyes","Babies's"]},
+{"q":"What is the plural of 'knife'?","o":["Knives","Knifes","Knifs","Knifies"]},
+{"q":"Which noun has the same form in singular and plural?","o":["Sheep","Book","Boy","Table"]},
+{"q":"What is the plural of 'box'?","o":["Boxes","Boxs","Boxen","Boxies"]},
+{"q":"What is the plural of 'mother-in-law'?","o":["Mothers-in-law","Mother-in-laws","Mothers-in-laws","Mother-ins-law"]}]},
+
+{"id":"en1-05","week":2,"title":"Reading: Finding Word Meanings from Context","icon":"BookOpen","summary":"The five kinds of context clue (definition, synonym, antonym, example and inference) and how to use them to work out new words.",
+"keyWords":["Context","Context clue","Definition clue","Synonym","Antonym","Inference"],
+"sections":[
+{"h":"What is context?","p":["Context means all the words, sentences and paragraphs around an unfamiliar word. Think of it as the neighbourhood the word lives in. Instead of stopping to use a dictionary for every new word, you can use clues from the text to make an intelligent guess, called an inference. This helps you read faster and builds your confidence and vocabulary."]},
+{"h":"Five types of context clue","p":["Learn the clue type and its signal words, then practise spotting them."],
+"tbl":{"head":["Clue type","How it helps","Signal words","Example"],"rows":[
+["Definition or explanation","The text gives the meaning","is, means, is called, that is, commas, dashes, brackets","The anthology, which is a collection of poems, was beautifully bound."],
+["Synonym or restatement","A similar word or phrase is nearby","or, that is, in other words","The boy was elated, or very happy, after winning the prize."],
+["Antonym or contrast","An opposite word is given","but, however, unlike, whereas, not","Unlike his gloomy sister, John is always cheerful."],
+["Example","Examples show the meaning","such as, for example, including, like","He enjoys aquatic sports like swimming and water polo."],
+["Inference or general context","You reason from the situation","No signal words","After walking for hours in the sun, she was exhausted."]]}},
+{"h":"More examples","p":["Definition: Semantics, the study of word meanings, is a fascinating branch of linguistics.","Synonym: He was known for his timorous nature; he was scared of almost everything.","Antonym: Some students were diligent in their studies, but others were simply lazy. (Diligent must mean the opposite of lazy: hardworking.)","Example: Nigerian delicacies such as jollof rice, moi-moi and pounded yam are delicious. (Delicacies are special, tasty foods.)","Inference: The classroom was in disarray; books were on the floor, chairs were overturned and a broken window let in the rain. (Disarray means untidiness or chaos.)"]},
+{"h":"Reading practice with answers","p":["Read the passage, then see how each bold word can be worked out.","The annual village festival was a boisterous event. Unlike the quiet, sombre mood of the previous month following the drought, this celebration was full of life. The air was filled with the aroma of roasting yams and simmering stew. Children ran everywhere, their shouts and laughter adding to the happy clamour. The elders, remembering past celebrations, prayed that the prolific harvest would continue for many years to come."],
+"tbl":{"head":["Word","Clue","Meaning"],"rows":[
+["Boisterous","Inference: 'full of life', 'shouts and laughter'","Noisy, energetic and cheerful"],
+["Sombre","Antonym clue: 'Unlike' the lively event","Dark, dull or sad"],
+["Aroma","Example clue: 'of roasting yams and simmering stew'","A pleasant smell, especially from food"],
+["Clamour","Inference: 'shouts and laughter'","A loud and confused noise"],
+["Prolific","Inference: the elders prayed the harvest would continue","Producing a great quantity; plentiful"]]}}
+],
+"activity":"Read one page of a novel or a newspaper such as The Guardian or ThisDay. Pick five new words. For each, write the sentence, write what you think the word means, and say which context clue helped you.",
+"check":[
+{"q":"What is context in reading?","o":["The words and sentences around an unfamiliar word","A type of dictionary","The title of a book","The last page of a book"]},
+{"q":"'Unlike his gloomy sister, John is cheerful.' Which clue type is this?","o":["Antonym or contrast","Definition","Example","Synonym"]},
+{"q":"'Aquatic sports like swimming and water polo.' What does 'aquatic' mean?","o":["Related to water","Related to fire","Related to the sky","Related to farms"]},
+{"q":"Which signal word often shows a definition clue?","o":["Means","However","Unlike","Whereas"]},
+{"q":"In the passage, 'sombre' means","o":["Dark, dull or sad","Lively","Tasty","Loud"]}]},
+
+{"id":"en1-06","week":2,"title":"Vocabulary: Family Life","icon":"Heart","summary":"Words used to talk about family relationships and family customs, with meanings and examples, and how a family tree shows them.",
+"keyWords":["Nuclear family","Extended family","Sibling","Ancestor","Fiance","Fiancee"],
+"sections":[
+{"h":"What is family life?","p":["Family life means the relationships, roles, activities and responsibilities in a family. This vocabulary helps us describe our own lives, understand society and read literature. A nuclear family is parents and their children. An extended family also includes grandparents, aunts, uncles and cousins, often living together or nearby."]},
+{"h":"Important family words","p":["Study the words and make a sentence of your own with each one."],
+"tbl":{"head":["Word","Meaning","Example sentence"],"rows":[
+["Parents","A father and mother","My parents helped me with my homework."],
+["Siblings","Brothers and sisters","I have three siblings: two brothers and one sister."],
+["Spouse","A person's husband or wife","The staff members were invited with their spouses."],
+["Relatives","Members of your extended family","All our relatives came for the wedding."],
+["Ancestor","A person from whom one is descended, earlier than a grandparent","Our ancestors were great warriors from Benin."],
+["Descendant","A person related to someone from a past generation","He is a direct descendant of the town's founder."],
+["Nephew","The son of one's brother or sister","My brother's son is my nephew, John."],
+["Niece","The daughter of one's brother or sister","My sister's daughter is my niece, Ada."],
+["Cousin","The child of one's uncle or aunt","My cousin is studying medicine."],
+["In-laws","The relatives of one's spouse","My mother-in-law is a very kind woman."],
+["Fiance","A man who is engaged to be married (one e)","Her fiance works in the bank."],
+["Fiancee","A woman who is engaged to be married (two e)","His fiancee is from Delta State."],
+["Widow","A woman whose husband has died","The widow was supported by her children."],
+["Widower","A man whose wife has died","The widower found it difficult to raise his children alone."],
+["Orphan","A child whose parents are dead","The orphan was taken in by a kind family."],
+["Naming ceremony","An occasion when a newborn baby is given a name","We attended a grand naming ceremony last Sunday."],
+["Polygamy","Having more than one spouse at the same time","Polygamy is a recognised part of some cultures."],
+["Monogamy","Being married to only one person at a time","Monogamy is the most common form of marriage in Europe."]]}},
+{"h":"The family tree","p":["A family tree is a diagram that shows how family members are connected. At the top are the grandparents. They have children: your father and your uncle. Your father married your mother, and your uncle married your aunt. Your parents had you and your siblings. Your uncle and aunt had children, who are your cousins."],
+"img":{"src":"eng-family-tree.jpg","alt":"A drawing of a family tree with Me at the base and Father, Mother, Sister, Brother, Cousin, Auntie, Uncle, Grandfather and Grandmother on its branches","cap":"A family tree: how relatives are connected to you."}},
+{"h":"Practice with the family tree","p":["My father's brother is my uncle. My sister's daughter is my niece. A man whose wife has died is a widower. My aunt's children are my cousins. A family with only parents and children is a nuclear family. Having only one husband or wife at a time is monogamy. A woman engaged to be married is a fiancee. My mother's mother is my grandmother."]}
+],
+"activity":"Draw your own family tree going back to your grandparents. Label at least ten people with their relationship to you. Then write a short paragraph on why knowing your family relationships matters in Nigerian society.",
+"check":[
+{"q":"What are siblings?","o":["Brothers and sisters","Parents","Cousins only","Grandparents"]},
+{"q":"A man who is engaged to be married is a","o":["Fiance","Fiancee","Widower","Cousin"]},
+{"q":"A child whose parents are dead is an","o":["Orphan","Heir","Ancestor","Nephew"]},
+{"q":"Who is your niece?","o":["Your sister's daughter","Your cousin's father","Your aunt","Your grandmother"]},
+{"q":"A family with only parents and children is a","o":["Nuclear family","Extended family","Polygamous family","Large clan"]}]},
+
+{"id":"en1-07","week":2,"title":"Listening Comprehension: National Values in a Story","icon":"Volume2","summary":"What listening comprehension is, how to listen for the main idea and details, and a story, 'The Honest Farmer', about national values.",
+"keyWords":["Listening comprehension","National values","Integrity","Main idea","Inference"],
+"sections":[
+{"h":"What is listening comprehension?","p":["Listening comprehension is an active skill. It is not only hearing sounds. It is the ability to understand, explain, judge and remember what is said. It includes finding the main idea, finding specific details, noticing the speaker's tone and understanding hidden messages or morals."]},
+{"h":"National values","p":["National values are the shared beliefs and principles that are important for the good of a nation. Examples are honesty, integrity, discipline, unity, patriotism and respect for elders."]},
+{"h":"Before you listen: new words","p":["Grievance: a complaint or injustice. Unanimously: all together, with everyone agreeing. Integrity: being honest and having strong moral principles. Bounty: a reward."]},
+{"h":"The story: The Honest Farmer","p":["Ask someone to read this story to you twice while you listen. Or read it aloud yourself, slowly.","In the old village of Kpatakpa, there was a great famine. The King, wanting to test his people, announced a competition. 'I will give one bag of seed corn to every farmer,' he declared. 'Go and plant it. In six months, whoever brings me the most impressive harvest will receive a great bounty and be declared Farmer of the Year.'","Adewale, a young farmer known for his integrity, received his seeds. He planted them, watered them, and tended the soil, but nothing grew. His pot remained empty. He watched in despair as his neighbours boasted of their tall, green stalks of corn.","When the day came, farmers lined up with huge pots of corn. Adewale felt ashamed but knew he must be honest. He brought his empty pot before the King. The crowd laughed.","'Silence!' the King boomed. He pointed to Adewale. 'This,' he announced, 'is your Farmer of the Year!' The crowd gasped. The King explained, 'The seeds I gave you were all boiled. They could not grow. When you all saw your seeds failing, you brought corn from your own barns to deceive me. Only this man had the honesty and courage to bring me the truth. He is the only one worthy of trust.' Adewale was rewarded not just with a bounty, but with the leadership of the village granary."]},
+{"h":"After listening: questions and answers","p":["Main idea: the King wanted to find out who was honest. Detail: the seeds were boiled, so they could never grow. Detail: Adewale brought an empty pot because nothing grew and he chose to tell the truth. Value shown by Adewale: honesty and integrity (and courage). Bad quality shown by the other farmers: dishonesty and deceit. Moral: honesty is better than a false reward; truthful people can be trusted with responsibility."]},
+{"h":"How to become a better listener","p":["Pay attention and look at the speaker. Avoid distractions such as phones. Do not interrupt. Take short notes of main points. Ask questions when you do not understand, and try to repeat the main idea in your own words."]}
+],
+"activity":"Listen to the national anthem and the national pledge. Write down two national values you can find in the words (for example unity, loyalty, peace). Then listen to your school principal's assembly speech or a radio news item and write a 3 to 5 sentence summary.",
+"check":[
+{"q":"Why did the King hold the competition?","o":["To find an honest person","To get a bigger harvest","To collect taxes","To punish farmers"]},
+{"q":"What was wrong with the seeds?","o":["They were boiled","They were too old","They were too small","They were wet"]},
+{"q":"Which national value did Adewale show?","o":["Honesty and integrity","Laziness","Greed","Pride"]},
+{"q":"What does 'integrity' mean?","o":["Being honest with strong moral principles","A complaint","A reward","A harvest"]},
+{"q":"Which of these helps you to listen well?","o":["Paying attention and avoiding distractions","Talking while the speaker talks","Looking at your phone","Sleeping"]}]},
+
+{"id":"en1-08","week":2,"title":"Continuous Writing: A Narrative Composition","icon":"PenLine","summary":"The steps for writing a good narrative essay: introduction, body, climax and conclusion, using 'My First Day at College' as the model.",
+"keyWords":["Narrative essay","Introduction","Climax","Conclusion","Sensory details","Vivid verbs"],
+"sections":[
+{"h":"What is a narrative essay?","p":["A narrative composition is a piece of writing that tells a story. The story can be a real experience or an imagined one. Its purpose is to entertain, to share an experience or to teach a lesson. A good narrative is interesting and well organised, and makes the reader feel part of the story."]},
+{"h":"The four parts of a narrative","p":["Introduction (the beginning): hook the reader and introduce the setting and the main characters. Ways to begin: with action (The alarm blared, jolting me from a dream), with dialogue ('Wake up! You will be late for your first day!' my mother shouted), with description (The new, stiff cotton of my college uniform scratched my neck) or with feeling (My stomach was a knot of excitement and terror).","Body (the middle): develop the story. Tell events in chronological order (first, next, then, later, finally). Use sensory details, which means sight, sound, smell, taste and touch. Use vivid verbs and adjectives: do not say walk, say trudged, raced or strolled. Add a conflict, such as getting lost, meeting a bully or feeling homesick.","Climax: the peak of the story, the most exciting moment or turning point, where the main problem is faced.","Conclusion (the end): wrap up the story. You can reflect on what you learned, end with your final feeling, or link back to the introduction."]},
+{"h":"Sample outline: My First Day at College","p":["Introduction: the dread and excitement on the morning; the new uniform and heavy bag; the noisy bus ride; the huge, scary school gate.","Body: getting lost on the big campus among identical buildings and many new faces; the assembly ground with the booming voice of the principal and the scary looks of the seniors; going to the first class and meeting the first friends.","Climax: at break, I could not find the toilets. I walked straight into the tallest, meanest-looking student I had ever seen and stammered for directions. Instead of being mean, he laughed, pointed me the right way and said, 'Don't worry, JJC, you will get used to it.'","Conclusion: it was not as scary as I thought; relief; the scary senior was actually kind; hope for the rest of the term."]},
+{"h":"Writing a strong opening","p":["Weak: It was a Monday and I went to school.","Better: My heart was thumping like a drum as the school bus rattled towards the gate I had feared for weeks.","Notice that the better sentence uses a strong comparison, a vivid verb and a feeling."]}
+],
+"activity":"Write a full narrative of about 250 to 300 words on 'My Most Embarrassing Moment'. Use the four parts, past tense, sensory details and vivid verbs. Swap with a classmate: give one compliment and one suggestion for improvement.",
+"check":[
+{"q":"What is the purpose of narrative writing?","o":["To tell a story that entertains or teaches","To give a list of rules","To sell a product","To explain a recipe"]},
+{"q":"The climax of a story is","o":["The most exciting moment","The first sentence","The title","The last word"]},
+{"q":"Which of these is a vivid verb?","o":["Trudged","Went","Did","Was"]},
+{"q":"Sensory details use","o":["The five senses","Only sight","Only numbers","Only dialogue"]},
+{"q":"Which tense is mainly used in a narrative?","o":["Past tense","Future tense","Present continuous tense","Imperative"]}]},
+
+{"id":"en1-09","week":2,"title":"Grammar: Nouns and Gender","icon":"Users","summary":"The four genders in English (masculine, feminine, common and neuter), the conversion table, and practice activities.",
+"keyWords":["Gender","Masculine","Feminine","Common gender","Neuter"],
+"sections":[
+{"h":"What is gender?","p":["In English grammar, gender is a way of classifying nouns as masculine (male), feminine (female), common (either male or female) or neuter (no gender). Gender in English is natural: it depends on the real sex of the person or animal, not on the word. In some other languages, such as French, even tables and chairs are masculine or feminine. In English they are not."]},
+{"h":"The four genders","p":["Masculine: male beings. Examples: man, boy, uncle, king, father, bull, actor, prince, husband, widower, stallion, wizard, fox, groom.","Feminine: female beings. Examples: woman, girl, aunt, queen, mother, cow, actress, princess, wife, widow, mare, witch, vixen, bride.","Common: beings that can be male or female. Examples: teacher, child, doctor, student, cousin, friend, parent, baby, person, singer, artist, driver.","Neuter: non-living things and ideas. Examples: table, pen, book, car, stone, chair, school, computer. Abstract nouns such as love, honesty, fear and happiness are also neuter."]},
+{"h":"Gender conversion table","p":["Many masculine nouns have their own feminine form."],
+"tbl":{"head":["Masculine","Feminine"],"rows":[
+["Actor","Actress"],["Prince","Princess"],["Husband","Wife"],["Nephew","Niece"],["Lion","Lioness"],["Bull","Cow"],["King","Queen"],["Father","Mother"],["Uncle","Aunt"],["Cock (rooster)","Hen"],["Sir","Madam"],["Wizard","Witch"],["Widower","Widow"],["Groom","Bride"],["Fox","Vixen"],["Stallion","Mare"]]}},
+{"h":"Sentence transformation","p":["To change the gender of a sentence, change the noun and any other words that depend on it. Example: The king spoke to his subjects. Answer: The queen spoke to her subjects.","Why is 'doctor' common gender? Because a doctor can be a man or a woman. If we want to show the sex we add a word: a male doctor, a female doctor."]}
+],
+"activity":"Walk around your home. List ten neuter nouns (things) and five common gender nouns (for example student, teacher). Then write five sentences, each using one common gender noun.",
+"check":[
+{"q":"Which gender does the word 'teacher' belong to?","o":["Common gender","Masculine","Feminine","Neuter"]},
+{"q":"What is the feminine of 'nephew'?","o":["Niece","Aunt","Cousin","Sister"]},
+{"q":"Which of these is a neuter noun?","o":["Book","Boy","Mother","Queen"]},
+{"q":"What is the masculine of 'widow'?","o":["Widower","Husband","Groom","Uncle"]},
+{"q":"Abstract nouns such as 'honesty' are","o":["Neuter gender","Masculine","Feminine","Common"]}]}
+]

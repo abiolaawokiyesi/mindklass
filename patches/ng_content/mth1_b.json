@@ -1,0 +1,97 @@
+[
+{"id":"ma1-10","week":4,"title":"Logarithms: Meaning and Basic Rules","icon":"Zap","summary":"A logarithm as the inverse of a power, changing between index form and log form, and the identities log a to base a = 1 and log 1 = 0.",
+"keyWords":["Logarithm","Base","Index form","Logarithmic form","Inverse operation"],
+"sections":[
+{"h":"The missing piece","p":["In the topic of indices we raised a base to a power to get a number: 10³ = 1000. A logarithm goes the other way round. It answers the question: what power must I raise the base to, to get a given number?","Think of a detective story. The crime scene shows 10³ = 1000. We know the base (10) and the result (1000). The mystery is the exponent. The logarithm detective says: the exponent was 3. We write log₁₀ 1000 = 3.","Addition and subtraction undo each other. Multiplication and division undo each other. Powers and logarithms undo each other in the same way."]},
+{"h":"Definition","p":["If y = aˣ, then x = logₐ y. Here a is the base (it must be positive and not equal to 1), y is the number (the argument) and x is the logarithm, which is the power. Remember: the logarithm is the power.","The two forms say the same thing: aˣ = y is the index form and logₐ y = x is the log form."],
+"tbl":{"head":["Index form","Log form","In words"],"rows":[
+["10² = 100","log₁₀ 100 = 2","10 to what power gives 100? 2"],
+["3⁴ = 81","log₃ 81 = 4","3 to what power gives 81? 4"],
+["5⁻¹ = 1/5","log₅ (1/5) = −1","5 to what power gives 1/5? −1"],
+["16^(1/2) = 4","log₁₆ 4 = 1/2","16 to what power gives 4? 1/2"],
+["2⁵ = 32","log₂ 32 = 5","2 to what power gives 32? 5"]]}},
+{"h":"Two identities to remember","p":["logₐ a = 1, because a¹ = a. Examples: log₁₀ 10 = 1; log₅ 5 = 1.","logₐ 1 = 0, because a⁰ = 1. Examples: log₁₀ 1 = 0; log₇ 1 = 0.","Also, a raised to the power logₐ N equals N."]},
+{"h":"Worked examples","p":["Example 1: write 2⁵ = 32 in log form. log₂ 32 = 5.","Example 2: write log₃ (1/9) = −2 in index form. 3⁻² = 1/9.","Example 3: solve logₓ 49 = 2. This means x² = 49, so x = 7.","Example 4: solve log₄ x = 3. This means x = 4³ = 64.","Example 5: solve log₃ 27 = x. This means 3ˣ = 27, so x = 3."]},
+{"h":"The graphs of y = 10ˣ and y = log₁₀ x","p":["The graph of y = 10ˣ passes through (0, 1), because 10⁰ = 1. It grows very quickly for positive x, and it comes close to the x-axis for negative x but never touches it (y is never 0).","The graph of y = log₁₀ x passes through (1, 0), because log₁₀ 1 = 0. It grows slowly for x bigger than 1, and it is not defined for x equal to or less than 0. The two graphs are mirror images of each other in the line y = x, which shows that they are inverses."],
+"img":{"src":"mth-log-graphs.png","alt":"Graphs of y = 10 to the power x and y = log base 10 of x with the line y = x between them","cap":"y = 10ˣ and y = log₁₀ x are mirror images in the line y = x."}}
+],
+"activity":"Write each in log form: 2⁵ = 32, 10³ = 1000, 5² = 25. Then solve log₄ x = 3 and logₓ 49 = 2. (Answers: log₂32 = 5, log₁₀1000 = 3, log₅25 = 2, x = 64, x = 7.)",
+"check":[
+{"q":"Write 2⁵ = 32 in log form.","o":["log₂ 32 = 5","log₅ 32 = 2","log₃₂ 2 = 5","log₂ 5 = 32"]},
+{"q":"What is log₅ 5?","o":["1","0","5","25"]},
+{"q":"What is log₁₀ 1?","o":["0","1","10","−1"]},
+{"q":"Solve log₄ x = 3.","o":["x = 64","x = 12","x = 7","x = 81"]},
+{"q":"Write 3⁻² = 1/9 in log form.","o":["log₃ (1/9) = −2","log₉ 3 = −2","log₃ 9 = 2","log₃ 2 = 1/9"]}]},
+
+{"id":"ma1-11","week":4,"title":"Using Log and Antilog Tables: Characteristic and Mantissa","icon":"BarChart2","summary":"The parts of a logarithm (characteristic and mantissa), bar notation, and how to use log tables and antilog tables, with worked examples.",
+"keyWords":["Characteristic","Mantissa","Bar notation","Log table","Antilog table"],
+"sections":[
+{"h":"The parts of a logarithm","p":["A common logarithm (base 10) has two parts. In log₁₀ 5000 = 3.6990, the whole-number part 3 is the characteristic, and the decimal part 0.6990 is the mantissa. The mantissa is always positive. It comes from the log table. The characteristic comes from the standard form of the number.","To find the characteristic, write the number in standard form A × 10ⁿ. The characteristic is n. For 5000 = 5.0 × 10³ the characteristic is 3. For 0.00345 = 3.45 × 10⁻³ the characteristic is −3."]},
+{"h":"Bar notation for negative characteristics","p":["Because the mantissa must stay positive, a negative characteristic is written with a bar above it. Instead of −3 + 0.5378 we write 3̄.5378 (read: bar three point five three seven eight). The bar belongs only to the 3.","Examples: −2 + 0.8549 is written 2̄.8549. −1 + 0.2345 is written 1̄.2345. Note that 2̄.8549 equals −1.1451, not −2.8549."]},
+{"h":"Finding a logarithm from the table","p":["Step 1: write the number in standard form A × 10ⁿ. The characteristic is n. Step 2: use the digits of A in the log table to find the mantissa. Find the row for the first two digits, the column for the third digit, and add the mean difference for the fourth digit. Step 3: put the characteristic and the mantissa together.","Example 1: find log₁₀ 43.82. 43.82 = 4.382 × 10¹, so the characteristic is 1. In the table, row 43 and column 8 gives 0.6415. The mean difference for the fourth digit 2 is 0.0002. The mantissa is 0.6417. So log₁₀ 43.82 = 1.6417.","Example 2: find log₁₀ 0.0716. 0.0716 = 7.16 × 10⁻², so the characteristic is −2. Row 71, column 6 gives 0.8549. So log₁₀ 0.0716 = 2̄.8549.","Other values: log₁₀ 2.87 ≈ 0.4579; log₁₀ 602.4 ≈ 2.7799; log₁₀ 0.000199 ≈ 4̄.2989."]},
+{"h":"Finding an antilogarithm","p":["The antilogarithm undoes the logarithm: it gives back the number. Step 1: separate the characteristic and the mantissa. Step 2: look up the mantissa in the antilog table to get the digits. Step 3: use the characteristic as the power of 10 to place the decimal point.","Example 3: find antilog 3.9042. The mantissa 0.9042 gives the digits 8021 (row 90, column 4 gives 8017, add 4 for the last digit 2). The characteristic 3 means 8.021 × 10³ = 8021.","Example 4: find antilog 1̄.6609. The mantissa 0.6609 gives 4580. The characteristic −1 means 4.580 × 10⁻¹ = 0.4580.","Other values: antilog 1.4502 ≈ 28.21; antilog 4.8872 ≈ 77,100; antilog 2̄.1119 ≈ 0.0129."]},
+{"h":"A word about calculators","p":["A scientific calculator has a log button that gives log₁₀ of a number directly, and 10ˣ for the antilog. Use it to check your table work. In an examination, always follow the method the question asks for and show your working."]}
+],
+"activity":"Find log 43.82 and log 0.0716 with your calculator, and compare them with 1.6417 and 2̄.8549 (which is −1.1451). Then find the antilog of 3.9042.",
+"check":[
+{"q":"In log₁₀ 5000 = 3.6990, the characteristic is","o":["3","6990","0.699","5"]},
+{"q":"What is the characteristic of log₁₀ 0.00345?","o":["−3","3","−2","−4"]},
+{"q":"2̄.8549 equals","o":["−1.1451","−2.8549","2.8549","−0.8549"]},
+{"q":"log₁₀ 43.82 equals","o":["1.6417","0.6417","2.6417","16.417"]},
+{"q":"The antilog of 1̄.6609 is","o":["0.4580","4.580","45.80","0.04580"]}]},
+
+{"id":"ma1-12","week":4,"title":"Uses of Logarithms: Earthquakes, Acidity and Sound","icon":"Zap","summary":"Real-world uses of logarithms: the Richter scale, the pH scale, decibels, and a short history of logarithms.",
+"keyWords":["Richter scale","pH scale","Decibel","Napier","Slide rule"],
+"sections":[
+{"h":"Why logarithms are useful","p":["Some quantities in nature change by huge factors. A quiet whisper and a jet engine differ by a trillion times in sound energy. Logarithms squash such huge ranges into small, easy numbers. That is why scientists use logarithmic scales."]},
+{"h":"The Richter scale (earthquakes)","p":["Each whole number step on the Richter scale means about 10 times more energy. If magnitude 3 is 10³ units of energy, then magnitude 4 is 10⁴ units (10 times more), and magnitude 5 is 10⁵ units (100 times more than magnitude 3)."]},
+{"h":"The pH scale (acidity)","p":["pH = −log₁₀[H⁺], where [H⁺] is the concentration of hydrogen ions. pH 3 means [H⁺] = 10⁻³ = 0.001. pH 4 means [H⁺] = 10⁻⁴ = 0.0001, ten times less acidic than pH 3. Lemon juice has a low pH (about 2) and soap has a high pH (about 10)."]},
+{"h":"Sound intensity (decibels)","p":["The sound level in decibels is dB = 10 log₁₀ (I / I₀), where I is the intensity of the sound and I₀ a reference intensity. A whisper of 30 dB is 10³ times the reference intensity. Normal talking of 60 dB is 10⁶ times the reference."]},
+{"h":"A little history","p":["In 1614, John Napier published the first table of logarithms. In 1620, Edmund Gunter made a logarithmic scale, and in 1632 William Oughtred invented the slide rule. For more than 300 years scientists, engineers and accountants used log tables and slide rules to do their calculations. Today, logarithms are still used in computer science, finance (compound interest), science (pH, Richter, decibels) and engineering."]}
+],
+"activity":"If an earthquake of magnitude 6 releases 10⁶ units of energy, how many times more energy does it release than one of magnitude 4? (Answer: 10⁶ ÷ 10⁴ = 100 times.)",
+"check":[
+{"q":"On the Richter scale, one whole number step means","o":["About 10 times more energy","2 times more energy","The same energy","1 unit more energy"]},
+{"q":"The pH formula is","o":["pH = −log₁₀[H⁺]","pH = log₁₀[H⁺]","pH = 10[H⁺]","pH = [H⁺]²"]},
+{"q":"pH 4 is how many times less acidic than pH 3?","o":["10 times","2 times","4 times","100 times"]},
+{"q":"Who published the first logarithm tables in 1614?","o":["John Napier","Isaac Newton","Edmund Gunter","William Oughtred"]},
+{"q":"Logarithmic scales are useful because","o":["They squash huge ranges into small numbers","They make numbers bigger","They remove all calculations","They only work for sound"]}]},
+
+{"id":"ma1-13","week":6,"title":"The Laws of Logarithms","icon":"Zap","summary":"The multiplication, division, power and root laws of logarithms, with proofs and worked examples.",
+"keyWords":["Multiplication law","Division law","Power law","Root law"],
+"sections":[
+{"h":"How logarithms make calculations simpler","p":["Before calculators, logarithm tables were the 'human computers' of scientists, engineers and accountants. The great idea: logarithms turn multiplication into addition, division into subtraction, powers into multiplication and roots into division. Adding is far easier than multiplying."],
+"tbl":{"head":["Hard operation","Becomes with logarithms","Example"],"rows":[
+["Multiplication","Addition","32.5 × 7.2: log 32.5 + log 7.2"],
+["Division","Subtraction","145.6 ÷ 8.3: log 145.6 − log 8.3"],
+["Power","Multiplication","(2.8)⁵: 5 × log 2.8"],
+["Root","Division","cube root of 125: (1/3) × log 125"]]}},
+{"h":"The four laws","p":["Law 1 (multiplication): logₐ (M × N) = logₐ M + logₐ N. Proof: let M = aˣ and N = aʸ. Then M × N = aˣ⁺ʸ, so logₐ (MN) = x + y = logₐ M + logₐ N.","Law 2 (division): logₐ (M / N) = logₐ M − logₐ N. Proof: M / N = aˣ / aʸ = aˣ⁻ʸ, so logₐ (M/N) = x − y.","Law 3 (power): logₐ (Mᵖ) = p × logₐ M. Proof: Mᵖ = (aˣ)ᵖ = aᵖˣ, so logₐ (Mᵖ) = px.","Law 4 (root): logₐ (the nth root of M) = (1/n) × logₐ M. Proof: the nth root of M = (aˣ)^(1/n) = a^(x/n), so the log is x/n.","Memory aid: multiplication gives addition, division gives subtraction, and a root gives division of the log."]},
+{"h":"Examples without tables","p":["Example 1: log 2 + log 5 = log (2 × 5) = log 10 = 1.","Example 2: log₂ 8 + log₂ 4 = log₂ 32 = 5 (check: 3 + 2 = 5).","Example 3: 2 log 5 − log 25 + log 10: = log 25 − log 25 + log 10 = log 10 = 1.","Example 4: if log 2 = 0.3010, find log 8: log 8 = log 2³ = 3 × 0.3010 = 0.9030. And log 5 = log (10/2) = log 10 − log 2 = 1 − 0.3010 = 0.6990."]}
+],
+"activity":"Without a calculator, simplify log 4 + log 25 and log 100 − log 4 + log 4. Check: 2 and 2.",
+"check":[
+{"q":"logₐ (M × N) equals","o":["logₐ M + logₐ N","logₐ M × logₐ N","logₐ M − logₐ N","logₐ M ÷ logₐ N"]},
+{"q":"log (Mᵖ) equals","o":["p log M","log M + p","(log M)ᵖ","log M ÷ p"]},
+{"q":"log 2 + log 5 equals","o":["1","7","10","0"]},
+{"q":"logₐ (M / N) equals","o":["logₐ M − logₐ N","logₐ M + logₐ N","logₐ M ÷ logₐ N","logₐ N − logₐ M"]},
+{"q":"log of the cube root of M equals","o":["(1/3) log M","3 log M","log M − 3","log M + 3"]}]},
+
+{"id":"ma1-14","week":6,"title":"Calculating with Logarithms and Bar Notation","icon":"BarChart2","summary":"The step-by-step plan for calculations with log tables, arithmetic with bar numbers, and worked examples with products, quotients, powers, roots and compound interest.",
+"keyWords":["Number/log table","Bar arithmetic","Antilog","Compound interest"],
+"sections":[
+{"h":"The plan","p":["Step 1: look at the expression and see its parts. Step 2: make a table with two columns, Number and Logarithm, and look up the log of each number. Step 3: use the laws of logarithms to combine the logs. Step 4: use the antilog table to turn the final log back into a number. Show every step."]},
+{"h":"Working with bar numbers","p":["A bar number is a negative characteristic with a positive mantissa. Convert to ordinary decimals if in doubt: 1̄.3979 = −1 + 0.3979 = −0.6021. 2̄.8543 = −2 + 0.8543 = −1.1457.","Adding: 2̄.3 + 1̄.5 = (−2 + 0.3) + (−1 + 0.5) = −3 + 0.8 = 3̄.8.","Subtracting: 2̄.3 − 1̄.5 = (−2 + 0.3) − (−1 + 0.5) = −1.2 = 2̄.8 (because −1.2 = −2 + 0.8).","Multiplying: 2̄.7 × 3 = (−2 + 0.7) × 3 = −6 + 2.1 = −3.9 = 4̄.1. Also 2 × 3̄.61 = −6 + 1.22 = 5̄.22.","Dividing: 3̄.4 ÷ 2. First rewrite 3̄.4 = −4 + 1.4 so the part to divide is even. Then (−4 + 1.4) ÷ 2 = −2 + 0.7 = 2̄.7. And 5̄.2 ÷ 4: rewrite as −8 + 3.2, then ÷ 4 = −2 + 0.8 = 2̄.8.","Golden rule: never let the mantissa become negative. Borrow from the characteristic to keep it positive."]},
+{"h":"Example 1: product and quotient","p":["Evaluate (38.4 × 8.6) / 15.2. log of the answer = log 38.4 + log 8.6 − log 15.2. From the tables: log 38.4 = 1.5843, log 8.6 = 0.9345, log 15.2 = 1.1818. Adding: 1.5843 + 0.9345 = 2.5188. Subtracting: 2.5188 − 1.1818 = 1.3370. The antilog of 1.3370: the digits 2173 and characteristic 1, so 2.173 × 10¹ = 21.73. Check: 38.4 × 8.6 = 330.24 and 330.24 ÷ 15.2 = 21.73. Answer: 21.73."]},
+{"h":"Example 2: power and root","p":["Evaluate the cube root of (1.65² / 29.4). log of the answer = (1/3) × [2 log 1.65 − log 29.4]. log 1.65 = 0.2175, so 2 log 1.65 = 0.4350. log 29.4 = 1.4683. Subtract: 0.4350 − 1.4683 = −1.0333 = 2̄.9667 (since −1.0333 = −2 + 0.9667). Now divide by 3: rewrite 2̄.9667 as 3̄ + 1.9667 = −3 + 1.9667; (−3 + 1.9667) ÷ 3 = −1 + 0.6556 = 1̄.6556. The antilog of 1̄.6556 is 4.525 × 10⁻¹ = 0.4525. Answer: 0.4525."]},
+{"h":"Example 3: compound interest","p":["How many years will it take ₦50,000 to grow to ₦70,000 at 8% a year? The formula is A = P(1 + r)ⁿ. So 70,000 = 50,000 × 1.08ⁿ, which gives 1.4 = 1.08ⁿ. Take logs of both sides: log 1.4 = n log 1.08. So n = log 1.4 / log 1.08 = 0.1461 / 0.0334 = 4.37. It takes about 4.4 years.","Another: find n if 1000 = 200 × 1.05ⁿ. Then 5 = 1.05ⁿ, n = log 5 / log 1.05 = 0.6990 / 0.0212 ≈ 33 years."]},
+{"h":"Common mistakes","p":["Letting the mantissa go negative: 2̄.3 − 1̄.8 is not 1̄.5. It is 2̄.5 (borrow to keep the mantissa positive).","Placing the decimal point: a positive characteristic n puts the decimal point after (n + 1) digits from the left; a negative characteristic puts the point before the first non-zero digit, with the right number of zeros.","Thinking that 2̄.7 equals −2.7. It does not: 2̄.7 = −2 + 0.7 = −1.3."]}
+],
+"activity":"Calculate 2 × 3̄.6100 and 5̄.2000 ÷ 4. Then evaluate (403.2 × 0.056) / 10.8 with logs and with a calculator. (Answers: 5̄.2200; 2̄.8000; about 2.09.)",
+"check":[
+{"q":"2̄.3 + 1̄.5 equals","o":["3̄.8","1̄.8","3̄.2","2̄.8"]},
+{"q":"5̄.2000 ÷ 4 equals","o":["2̄.8000","1̄.3000","2̄.2000","1̄.8000"]},
+{"q":"2 × 3̄.6100 equals","o":["5̄.2200","6̄.1200","3̄.2200","2̄.2200"]},
+{"q":"In a log calculation, the golden rule about the mantissa is that","o":["It must never be negative","It must always be zero","It must always be 1","It is ignored"]},
+{"q":"1.4 = 1.08ⁿ is solved by taking","o":["Logarithms of both sides","Squares of both sides","The difference of the sides","Roots of both sides"]}]}
+]

@@ -1,0 +1,139 @@
+[
+{"id":"ph3-12","week":8,"title":"Projectile Motion","icon":"Target","summary":"What a projectile is, its path, the two independent motions, and the formulae for range, maximum height and time of flight.",
+"keyWords":["Projectile","Trajectory","Range","Maximum height","Time of flight","Angle of projection"],
+"sections":[
+{"h":"What is a projectile?","p":["A projectile is any object that, once thrown or launched, keeps moving because of its own inertia and is acted on only by gravity (and a little air resistance). Examples: a stone thrown upwards, a football kicked into the air, a javelin, an athlete doing the high jump, a stone shot from a catapult and a bullet fired from a gun."]},
+{"h":"Projectile motion and trajectory","p":["The path of a projectile is called its trajectory. Without air resistance, the trajectory is a curve called a parabola.","Projectile motion can happen in three ways: (a) an object thrown straight upwards, (b) an object thrown horizontally from a height, and (c) an object thrown at an angle to the horizontal."]},
+{"h":"Two motions at once","p":["The secret of solving projectile problems is to treat the horizontal motion and vertical motion separately. They happen at the same time but do not affect each other.","Horizontal (along the x-axis): there is no force sideways, so the velocity stays constant and equal to u cos θ.","Vertical (along the y-axis): gravity pulls down, so the motion has uniform acceleration g downwards. The starting vertical speed is u sin θ.","The picture shows a projectile launched with speed u at angle θ. At each point you can see the horizontal part ux = u cos θ, which never changes, and the vertical part uy = u sin θ, which decreases to zero at the highest point A and then becomes negative as the object comes down."],
+"img":{"src":"phy-projectile.jpg","alt":"Parabolic path of a projectile from O to B showing the launch angle, horizontal and vertical velocity components at three points, the maximum height H at A and the range R","cap":"The trajectory of a projectile with its velocity components, maximum height H and range R."}},
+{"h":"Terms used in projectile motion","p":["Range (R): the horizontal distance from the point of launch to the point where the object lands at the same level.","Maximum height (H): the greatest vertical height reached.","Time of flight (T): the time the projectile spends in the air from launch to landing."]},
+{"h":"The formulae (launch and landing at the same level)","p":["Learn this table. Here u is the launch speed, θ is the launch angle and g is the acceleration due to gravity."],
+"tbl":{"head":["Quantity","Formula"],"rows":[
+["Time of flight","T = 2u sin θ / g"],
+["Maximum height","H = (u sin θ)² / 2g"],
+["Range","R = u² sin 2θ / g"],
+["Horizontal displacement at time t","x = u cos θ x t"],
+["Vertical displacement at time t","y = u sin θ x t - ½gt²"]]}},
+{"h":"What changes the trajectory?","p":["Higher launch speed increases both range and height. The launch angle changes the shape; 45° gives the greatest range. A stronger gravity (g) shortens both range and height. A higher launch point gives a longer flight time and a longer range. Air resistance reduces height and range and changes the shape. Spin and shape matter too, as in a curved free kick in football."],
+"tbl":{"head":["Factor","Effect"],"rows":[
+["Initial speed","Increases range and height"],
+["Angle of projection","45° gives maximum range"],
+["Gravity","Greater g shortens range and height"],
+["Height of launch","Higher launch gives longer flight and range"],
+["Air resistance","Decreases range and height"]]}}
+],
+"activity":"Throw a small ball at three different angles (low, about 45°, and high) with the same effort. Measure how far each lands. Which angle gives the longest throw? Does it agree with the note that 45° gives the maximum range?",
+"check":[
+{"q":"The path of a projectile (without air resistance) is a","o":["Parabola","Straight line","Circle","Triangle"]},
+{"q":"The horizontal velocity of a projectile (no air resistance) is","o":["Constant","Increasing","Decreasing","Zero"]},
+{"q":"At what launch angle is the range greatest?","o":["45°","90°","30°","60°"]},
+{"q":"The vertical velocity of a projectile is zero at","o":["The highest point","The launch point","The landing point","None of these"]},
+{"q":"The time of flight is","o":["2u sin θ / g","u cos θ / g","u² sin 2θ / g","(u sin θ)² / 2g"]}]},
+
+{"id":"ph3-13","week":8,"title":"Projectile Calculations","icon":"ClipboardCheck","summary":"Worked examples on range, maximum height and time of flight, including a projectile launched from a height.",
+"keyWords":["Range","Maximum height","Time of flight","Launch from a height"],
+"sections":[
+{"h":"Example 1: finding the angle","p":["The ratio of the maximum range to the maximum height of a projectile is 4. Find the angle of projection."],
+"ex":{"t":"Solution","b":["Range R = u² sin 2θ / g. Maximum height H = u² sin²θ / 2g.","R / H = (u² sin 2θ / g) x (2g / u² sin²θ) = 2 sin 2θ / sin²θ.","Using sin 2θ = 2 sin θ cos θ: R / H = 4 sin θ cos θ / sin²θ = 4 cos θ / sin θ = 4 / tan θ.","So 4 / tan θ = 4, tan θ = 1, and θ = 45°."]}},
+{"h":"Example 2: maximum height","p":["An object is projected at 80 m/s at 30° to the horizontal. Find the maximum height reached. (g = 10 m/s²)"],
+"ex":{"t":"Solution","b":["H = (u sin θ)² / 2g = (80 x sin 30°)² / (2 x 10) = (80 x 0.5)² / 20 = 40² / 20.","H = 1600 / 20 = 80 m."]}},
+{"h":"Example 3: launch from a height","p":["An object is projected from a height of 80 m above the ground with a velocity of 40 m/s at 30° to the horizontal. Find (a) the maximum height above the ground, and (b) the time of flight. (g = 10 m/s²)"],
+"img":{"src":"phy-projectile-height.jpg","alt":"A projectile launched at 40 m/s from the top of an 80 m platform, rising 20 m above the launch point to point A, 100 m above the ground, and then landing on the ground","cap":"A projectile launched from the top of an 80 m platform."},
+"ex":{"t":"Solution","b":["Starting vertical speed = 40 sin 30° = 20 m/s upwards.","(a) Extra height above the launch point = (20)² / (2 x 10) = 400 / 20 = 20 m. So the greatest height above the ground = 80 + 20 = 100 m (this is what the picture shows).","(b) The time to rise to the top = 20 / 10 = 2 s. The time to come down from 100 m: 100 = ½ x 10 x t², so t² = 20 and t = 4.47 s.","Total time of flight = 2 + 4.47 = 6.47 s.","Note: the formula T = 2u sin θ / g = 2 x 40 x 0.5 / 10 = 4 s is the time to come back to the launch level only. When the landing is lower than the launch point (80 m lower here), the object stays in the air for longer, as we just found."]}},
+{"h":"Example 4: a ball thrown at 60°","p":["A ball is thrown at 20 m/s at 60° to the horizontal. Find the time of flight, the maximum height and the range. (g = 10 m/s², sin 60° = 0.866)"],
+"ex":{"t":"Solution","b":["Time of flight T = 2u sin θ / g = 2 x 20 x 0.866 / 10 = 3.46 s.","Maximum height H = (u sin θ)² / 2g = (20 x 0.866)² / 20 = (17.32)² / 20 = 300 / 20 = 15 m.","Range R = u² sin 2θ / g = 400 x sin 120° / 10 = 400 x 0.866 / 10 = 34.6 m."]}},
+{"h":"Example 5 and Example 6","p":["A stone is projected from the ground at 60° and lands 100 m away. R = u² sin 2θ / g gives 100 = u² x 0.866 / 10, so u² = 1155 and u = 34 m/s. Time of flight = 2 x 34 x 0.866 / 10 = 5.9 s.","A football is kicked at 15 m/s at 40° (g = 9.8 m/s²). Time to reach the maximum height = u sin θ / g = 15 x 0.643 / 9.8 = 0.98 s. Range = u² sin 80° / g = 225 x 0.985 / 9.8 = 22.6 m."]},
+{"h":"Example 7: a particle thrown horizontally","p":["A particle is thrown horizontally at 10 m/s from the top of a tower 20 m high (g = 10 m/s²). The fall time comes from 20 = ½ x 10 x t², so t = 2 s. The horizontal distance = 10 x 2 = 20 m."]}
+],
+"activity":"A cricket ball is thrown at 30 m/s at 45°. Work out its maximum height, time of flight and range with g = 10 m/s². (answers: H = 22.5 m; T = 4.24 s; R = 90 m)",
+"check":[
+{"q":"The maximum height of an object projected at 80 m/s at 30° (g = 10 m/s²) is","o":["80 m","160 m","40 m","20 m"]},
+{"q":"The ratio of range to maximum height is 4. The angle is","o":["45°","30°","60°","90°"]},
+{"q":"A ball is thrown at 20 m/s at 60° (g = 10 m/s²). The time of flight is about","o":["3.46 s","2 s","4 s","6.9 s"]},
+{"q":"A ball is thrown horizontally at 10 m/s from a 20 m tower (g = 10 m/s²). It lands about how far from the tower?","o":["20 m","10 m","40 m","5 m"]},
+{"q":"The formula T = 2u sin θ / g gives the time of flight when","o":["Launch and landing are at the same level","The ball is dropped","The ball is thrown horizontally","The ball is on a table"]}]},
+
+{"id":"ph3-14","week":9,"title":"Waves and Their Parts","icon":"Volume2","summary":"What a wave is, the parts of a wave, and the quantities used to describe it: amplitude, wavelength, frequency, period and speed.",
+"keyWords":["Wave","Crest","Trough","Amplitude","Wavelength","Frequency","Period"],
+"sections":[
+{"h":"What is a wave?","p":["A wave is a disturbance that moves through a medium (or through space) and carries energy from one place to another without carrying matter along with it. If you tie a rope to a post and shake it up and down, a wave runs along the rope, but the rope itself stays where it is. Waves start from vibrations. Light, sound and water waves are all around us."]},
+{"h":"Parts of a wave","p":["Look at the wave picture. Rest position: the middle line, where the particles are when no wave is passing. Displacement: how far a particle has moved from its rest position. Amplitude: the maximum displacement from the rest position, measured to the top of a crest or the bottom of a trough. Crest (peak): the highest point. Trough: the lowest point. Period: the time for one complete wave to pass a point.","In the picture below, the period is shown as the time for one complete wave (here, 4 seconds), and the amplitude is the height of the crest above the rest line."],
+"img":{"src":"phy-wave-parts.jpg","alt":"A wave graph of displacement in metres against time in seconds showing the period between two crests, a crest, a trough and the amplitude","cap":"A displacement-time graph of a wave: period, crest, trough and amplitude."}},
+{"h":"Wavelength, frequency and period","p":["Wavelength (λ) is the distance covered by one complete wave, for example from one crest to the next crest. It is measured in metres.","Frequency (f) is the number of complete waves passing a point each second. The unit is the hertz (Hz).","Period (T) is the time for one complete wave. T = 1 / f. The unit is the second.","Wave speed (v) is how fast the wave travels. v = f x λ. The unit is m/s."]},
+{"h":"Phase","p":["Phase describes the position of a point in the wave cycle. Two points are in phase if they have the same displacement and move in the same direction at the same time (for example two crests). They are out of phase if they do not."]},
+{"h":"Classification of waves by the need for a medium","p":["Mechanical waves need a material medium (solid, liquid or gas) to travel. Examples: sound waves, water waves, waves on a rope and seismic waves. Electromagnetic waves do not need a medium and can travel through a vacuum. Examples: light, radio waves, X-rays and gamma rays. That is why sunlight can reach us from space, but sound cannot."],
+"tbl":{"head":["Type of wave","Needs a medium?","Examples"],"rows":[
+["Mechanical","Yes","Sound, water, seismic waves"],
+["Electromagnetic","No","Light, radio waves, X-rays, gamma rays"]]}}
+],
+"activity":"Fill a basin with water and touch the surface at one point with a finger. Watch the ripples travel outwards. Float a small piece of paper on the water and see what it does. What does it tell you about waves carrying energy but not matter?",
+"check":[
+{"q":"A wave carries","o":["Energy without carrying matter","Matter only","Neither energy nor matter","Mass but no energy"]},
+{"q":"Wavelength is the distance between","o":["Two successive crests","A crest and the rest line","Two troughs only half apart","The source and the listener"]},
+{"q":"The unit of frequency is","o":["Hertz","Metre","Second","Newton"]},
+{"q":"Which wave needs no medium?","o":["Light","Sound","Water wave","Wave on a rope"]},
+{"q":"Period and frequency are related by","o":["T = 1/f","T = f","T = f²","T = 2f"]}]},
+
+{"id":"ph3-15","week":9,"title":"Transverse and Longitudinal Waves","icon":"Volume2","summary":"The two kinds of wave by direction of vibration: how they move, their features and examples, and how to tell them apart.",
+"keyWords":["Transverse wave","Longitudinal wave","Compression","Rarefaction","Crest","Trough"],
+"sections":[
+{"h":"Transverse waves","p":["In a transverse wave, the particles of the medium vibrate at right angles (perpendicular) to the direction in which the wave travels. A wave on a rope (shake the end up and down and the wave moves along) is a good example.","Features: it is made of crests and troughs. It can travel through solids and on the surface of liquids.","Examples: light waves, all electromagnetic waves, water ripples and waves on strings."]},
+{"h":"Longitudinal waves","p":["In a longitudinal wave, the particles of the medium vibrate back and forth along the same direction in which the wave travels. A slinky spring pushed and pulled along its length shows this.","Features: it is made of compressions (places where the particles are squeezed together) and rarefactions (places where the particles are spread out). It can travel through solids, liquids and gases.","Examples: sound waves and waves along a slinky spring."]},
+{"h":"The two kinds in one picture","p":["The picture shows both waves. In the longitudinal wave, the lines show how close the particles are: where they are close together is a compression, and where they are far apart is a rarefaction. One wavelength is the distance from one compression to the next. In the transverse wave, you can see the crests and troughs, the amplitude and the wavelength."],
+"img":{"src":"phy-wave-types.jpg","alt":"A longitudinal wave drawn as vertical lines with compressions and expansions and a transverse wave drawn as a sine curve with crests, troughs, amplitude and wavelength","cap":"A longitudinal wave (top) and a transverse wave (bottom)."}},
+{"h":"Differences between transverse and longitudinal waves","p":["Learn this table. It is very common in examinations."],
+"tbl":{"head":["Feature","Transverse waves","Longitudinal waves"],"rows":[
+["Direction of vibration","Perpendicular to the direction of the wave","Parallel to the direction of the wave"],
+["Medium it can travel through","Solids and surfaces of liquids (EM waves need none)","Solids, liquids and gases"],
+["Parts","Crests and troughs","Compressions and rarefactions"],
+["Example","Water waves, light","Sound waves"]]}},
+{"h":"Worked example","p":["A wave has a frequency of 5 Hz and a wavelength of 2 m. Find its speed. v = fλ = 5 x 2 = 10 m/s.","A wave travels at 340 m/s with a frequency of 170 Hz. Its wavelength is λ = v / f = 340 / 170 = 2 m."]}
+],
+"activity":"If you have a slinky or a long spring, stretch it on a smooth floor. Push and pull one end along its length to make a longitudinal wave, then shake it from side to side to make a transverse wave. Draw what you see.",
+"check":[
+{"q":"In a transverse wave, the particles vibrate","o":["At right angles to the direction of the wave","Along the direction of the wave","In circles only","Not at all"]},
+{"q":"Sound is an example of a","o":["Longitudinal wave","Transverse wave","Electromagnetic wave","Light wave"]},
+{"q":"A longitudinal wave has","o":["Compressions and rarefactions","Crests and troughs","Neither","Only crests"]},
+{"q":"A wave has frequency 5 Hz and wavelength 2 m. Its speed is","o":["10 m/s","2.5 m/s","7 m/s","0.4 m/s"]},
+{"q":"A wave of speed 340 m/s and frequency 170 Hz has a wavelength of","o":["2 m","0.5 m","57 800 m","510 m"]}]},
+
+{"id":"ph3-16","week":10,"title":"Properties of Waves","icon":"Volume2","summary":"Reflection, refraction, diffraction, interference, stationary waves and polarisation, with worked examples on refraction.",
+"keyWords":["Reflection","Refraction","Diffraction","Interference","Stationary wave","Polarisation","Refractive index"],
+"sections":[
+{"h":"Reflection","p":["Reflection is the bouncing back of a wave when it hits a surface. Light bouncing off a mirror and an echo (sound bouncing off a wall) are examples. The angle of incidence equals the angle of reflection."]},
+{"h":"Refraction","p":["Refraction is the bending of a wave as it passes from one medium into another. It happens because the wave changes speed. A stick in a glass of water looks bent for this reason. The ratio sin i / sin r is a constant for the two media. It is called the refractive index n, and n = speed in the first medium / speed in the second medium (when going from air or vacuum into the other)."],
+"img":{"src":"phy-refraction.png","alt":"A ray of light going from air into glass, bending towards the normal; the incident ray, reflected ray, refracted ray, normal and the angles i and r are marked","cap":"Reflection and refraction of a ray at an air-glass boundary."}},
+{"h":"Diffraction, interference, stationary waves, polarisation","p":["Diffraction is the spreading of waves as they pass through a gap or round an obstacle. It is biggest when the gap is about the same size as the wavelength. It is why you can hear someone speaking around a corner.","Interference happens when two or more waves overlap. If crest meets crest, the waves add and produce a bigger wave (constructive interference). If crest meets trough, they cancel (destructive interference).","A stationary (standing) wave is formed when two waves of equal amplitude and frequency travel in opposite directions and combine. Guitar strings and the air in organ pipes make stationary waves.","Polarisation means restricting the vibration to one plane only. Only transverse waves can be polarised, so it is proof that light is a transverse wave."],
+"img":{"src":"phy-polarisation.jpg","alt":"Ordinary light passing through a crystal which lets only one plane of vibration through, producing polarised light which cannot pass through a second crystal turned at right angles","cap":"Polarisation: only vibrations in one plane get through the crystal."}},
+{"h":"Worked example 1: speed in shallow water","p":["Surface waves travelling in deep water at 15 m/s meet a shallow-water boundary. The angles of incidence and refraction are 45° and 30°. Find the speed in the shallow water."],
+"ex":{"t":"Solution","b":["sin i / sin r = speed in first medium / speed in second medium.","sin 45° / sin 30° = 15 / v.","v = 15 x sin 30° / sin 45° = 15 x 0.5 / 0.7071 = 10.6 m/s."]}},
+{"h":"Worked example 2: radio waves entering water","p":["Radio waves travel in air at 3.0 x 10⁸ m/s. Water has a refractive index 4/3. Find the speed of radio waves in water.","Refractive index = speed in air / speed in water, so speed in water = 3.0 x 10⁸ / (4/3) = 3.0 x 10⁸ x 3/4 = 2.25 x 10⁸ m/s."]},
+{"h":"Worked example 3: a glass block","p":["A ray of light is incident on a glass block of refractive index 1.5 at an angle of incidence of 60°. Find the angle of refraction.","n = sin i / sin r, so 1.5 = sin 60° / sin r, so sin r = 0.866 / 1.5 = 0.5774. r = 35°."]}
+],
+"activity":"Put a pencil in a glass of water and look at it from the side. Draw what you see and explain it using the word 'refraction'. Then clap near a wall and listen for the echo and name the property of waves that causes it.",
+"check":[
+{"q":"The bending of a wave as it passes from one medium into another is","o":["Refraction","Reflection","Diffraction","Polarisation"]},
+{"q":"Which property is produced when crest meets crest?","o":["Constructive interference","Destructive interference","Polarisation","Reflection"]},
+{"q":"Only transverse waves can be","o":["Polarised","Reflected","Refracted","Diffracted"]},
+{"q":"Waves of 3.0 x 10⁸ m/s in air enter water of refractive index 4/3. The speed in water is","o":["2.25 x 10⁸ m/s","4.0 x 10⁸ m/s","3.0 x 10⁸ m/s","1.0 x 10⁸ m/s"]},
+{"q":"An echo is caused by","o":["Reflection","Refraction","Polarisation","Diffraction"]}]},
+
+{"id":"ph3-17","week":10,"title":"Wave Calculations and Graphs","icon":"BarChart2","summary":"How to show waves as graphs of distance or time, the wave equation v = fλ, and worked calculations.",
+"keyWords":["Wave equation","v = fλ","Distance graph","Time graph","Wave speed"],
+"sections":[
+{"h":"Graphs of waves","p":["We can draw a wave as a graph in two ways: displacement against distance (a snapshot of the wave at one instant) and displacement against time (the movement of one point as time passes). In the distance graph you can measure the wavelength, the crest and the trough. In the time graph you can measure the period.","The picture below is a displacement-distance graph. The wavelength can be measured between two crests, or between any two matching points, such as two troughs. The amplitude is the distance from the rest line to a crest or to a trough."],
+"img":{"src":"phy-wave-distance.jpg","alt":"A wave graph of displacement against distance showing peaks, troughs, the amplitude and the wavelength measured between two peaks or two troughs","cap":"A displacement-distance graph: peaks, troughs, amplitude and wavelength."}},
+{"h":"The wave equation","p":["Wave speed = frequency x wavelength, or v = fλ, where v is in m/s, f is in Hz and λ is in m. Since f = 1 / T, we also have v = λ / T. For a given medium the speed is fixed, so a higher frequency means a shorter wavelength."]},
+{"h":"Worked examples","p":["Try each one yourself first."],
+"ex":{"t":"Examples","b":["A wave has frequency 5 Hz and wavelength 2 m: v = 5 x 2 = 10 m/s.","A wave travels at 340 m/s with frequency 170 Hz: λ = v / f = 340 / 170 = 2 m.","A wave has a period of 0.02 s: f = 1 / T = 1 / 0.02 = 50 Hz.","What is the frequency of a radio wave of wavelength 150 m if its speed in free space is 3 x 10⁸ m/s? f = v / λ = 3 x 10⁸ / 150 = 2.0 x 10⁶ Hz."]}},
+{"h":"Applications of electromagnetic waves","p":["Radio and TV signals (communication), microwaves (cooking and mobile phone networks), infrared (remote controls, heat), visible light (seeing), ultraviolet (sterilising), X-rays (medical pictures) and gamma rays (treating cancer). All electromagnetic waves travel at the same speed in a vacuum, 3.0 x 10⁸ m/s."]},
+{"h":"Waves in daily life","p":["Diffraction of sound helps us hear people around corners and inside a building because the waves spread through doors and windows. Interference of waves explains the loud and quiet spots in a hall, noise-cancelling headphones and the colours of oil on water."]}
+],
+"activity":"Pick three radio stations on your radio or phone. Write down their frequencies and use v = fλ (with v = 3 x 10⁸ m/s) to find each wavelength.",
+"check":[
+{"q":"The wave equation is","o":["v = fλ","v = f/λ","v = λ/f","v = f + λ"]},
+{"q":"A wave has a period of 0.02 s. Its frequency is","o":["50 Hz","0.02 Hz","5 Hz","200 Hz"]},
+{"q":"A radio wave of wavelength 150 m has speed 3 x 10⁸ m/s. Its frequency is","o":["2.0 x 10⁶ Hz","4.5 x 10¹⁰ Hz","2.0 x 10⁻⁶ Hz","450 Hz"]},
+{"q":"On a displacement-distance graph, the wavelength is measured between","o":["Two successive crests","A crest and a trough","The rest line and a crest","The start and the end of the graph"]},
+{"q":"All electromagnetic waves travel in a vacuum at about","o":["3 x 10⁸ m/s","340 m/s","3 x 10⁵ m/s","30 m/s"]}]}
+]

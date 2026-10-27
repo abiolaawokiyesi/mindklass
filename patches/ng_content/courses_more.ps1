@@ -1,0 +1,11 @@
+﻿@(
+  @{ code = 'NG-SS1-ENG-T1'; group = 'SS1 English Studies'; subject = 'English Studies'; term = 1; termLabel = ('SS1 ' + [char]0xB7 + ' First Term'); title = 'SS1 English Studies: First Term Lesson Notes'
+     tagline = 'Spoken English and sounds, vocabulary, reading and listening comprehension, narrative and descriptive writing, and grammar (nouns, noun phrases, nominalisation and irregular verbs). Simple notes with pictures, examples and practice questions.'
+     months = 'Weeks 1 to 12'; files = @('eng1_toc.json', 'eng1_a.json', 'eng1_b.json', 'eng1_c.json', 'eng1_d.json', 'eng1_e.json') }
+  ,@{ code = 'NG-SS1-MTH-T1'; group = 'SS1 Mathematics'; subject = 'Mathematics'; term = 1; termLabel = ('SS1 ' + [char]0xB7 + ' First Term'); title = 'SS1 Mathematics: First Term Lesson Notes'
+     tagline = 'Number bases, modular arithmetic, indices, logarithms, formulas and variation, quadratic equations and graphs, and logical reasoning. Step-by-step notes with worked examples, graphs and practice questions.'
+     months = 'Weeks 1 to 13'; files = @('mth1_toc.json', 'mth1_a.json', 'mth1_b.json', 'mth1_c.json', 'mth1_d.json', 'mth1_e.json') }  ,@{ code = 'NG-SS1-MTH-T2'; group = 'SS1 Mathematics'; subject = 'Mathematics'; term = 2; termLabel = ('SS1 ' + [char]0xB7 + ' Second Term'); title = 'SS1 Mathematics: Second Term Lesson Notes'
+     tagline = 'Geometric constructions, loci, proofs of theorems and riders, and trigonometry (ratios, special angles, elevation and depression, graphs). Clear diagrams, worked examples and practice questions.'
+     months = 'Weeks 1 to 11'; files = @('mth2_toc.json', 'mth2_a.json', 'mth2_b.json', 'mth2_c.json', 'mth2_d.json') }  ,@{ code = 'NG-SS1-MTH-T3'; group = 'SS1 Mathematics'; subject = 'Mathematics'; term = 3; termLabel = ('SS1 ' + [char]0xB7 + ' Third Term'); title = 'SS1 Mathematics: Third Term Lesson Notes'
+     tagline = 'Mensuration (arcs, sectors, surface area, volume, frustums, compound shapes) and statistics (data, frequency tables, bar charts, histograms, pie charts, frequency polygons). Diagrams, worked examples and practice questions.'
+     months = 'Weeks 1 to 11'; files = @('mth3_toc.json', 'mth3_a.json', 'mth3_b.json', 'mth3_c.json', 'mth3_d.json') })

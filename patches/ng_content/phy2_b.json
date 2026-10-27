@@ -1,0 +1,148 @@
+[
+{"id":"ph2-08","week":3,"title":"Simple Machines and Their Types","icon":"Layers","summary":"What a machine is, what machines do for us, and the six simple machines: lever, pulley, inclined plane, wheel and axle, screw and wedge.",
+"keyWords":["Machine","Lever","Fulcrum","Pulley","Inclined plane","Wheel and axle","Screw","Wedge"],
+"sections":[
+{"h":"What is a machine?","p":["A machine is a device that makes work easier. It does not give us free energy. It helps in one or more of these ways: it multiplies the force we apply (a small effort lifts a large load), it changes the direction of the force (pulling down to lift something up), or it increases the speed or distance moved.","Basic jobs of a machine: to multiply force, to change the direction of a force, to multiply speed or distance (for example the gears on a bicycle), and to transfer a force from one point to another."]},
+{"h":"The lever","p":["A lever is a stiff bar that turns about a fixed point called the fulcrum. We apply an effort at one place to move a load at another place. There are three classes of lever, depending on where the fulcrum, load and effort are.","First class lever: the fulcrum is between the effort and the load (a see-saw, scissors, a crowbar).","Second class lever: the load is between the fulcrum and the effort (a wheelbarrow, a nutcracker, a bottle opener).","Third class lever: the effort is between the fulcrum and the load (tongs, a fishing rod, a broom)."],
+"tbl":{"head":["Class","Order along the bar","Examples"],"rows":[
+["First","Effort - fulcrum - load","See-saw, scissors, crowbar"],
+["Second","Fulcrum - load - effort","Wheelbarrow, nutcracker"],
+["Third","Fulcrum - effort - load","Tongs, fishing rod"]]}},
+{"h":"The pulley","p":["A pulley is a wheel on an axle with a rope or belt running over it. A fixed pulley only changes the direction of the force (as at the top of a flagpole). A movable pulley moves with the load and halves the effort needed. A pulley system (block and tackle) combines fixed and movable pulleys. Its velocity ratio equals the number of rope sections supporting the load, which is the same as the number of pulleys for the systems in your syllabus. Cranes and the hoists used on building sites use pulleys."],
+"img":{"src":"phy-pulley-4.jpg","alt":"A block and tackle pulley system with four pulleys lifting a 1200 N load, with the effort E on the free end of the rope","cap":"A block and tackle pulley system lifting a 1200 N load."}},
+{"h":"The inclined plane","p":["An inclined plane is a flat surface set at a slope. It is easier to push a heavy drum up a ramp than to lift it straight up, but you must push it a longer distance. The velocity ratio of an inclined plane is VR = 1 / sin θ, which is the same as the length of the slope divided by its height. Ramps, staircases and mountain roads are inclined planes."],
+"img":{"src":"phy-inclined-plane.jpg","alt":"An inclined plane with the sloping side XY, the vertical height YZ and the horizontal base XZ","cap":"An inclined plane: slope XY, vertical height YZ."}},
+{"h":"Wheel and axle, screw, and wedge","p":["Wheel and axle: a large wheel fixed to a small axle so that they turn together. Examples: a steering wheel, a door knob, a screwdriver handle, a water-well winch. VR = R / r (radius of the wheel divided by the radius of the axle).","Screw: an inclined plane wrapped around a cylinder. Examples: a screw jack, a bottle cap, a drill bit. For a screw jack, VR = 2πR / p, where R is the length of the effort arm and p is the distance between two threads (the pitch).","Wedge: two inclined planes joined back to back, used to split, cut or lift. Examples: an axe, a knife, a chisel."]}
+],
+"activity":"Look around your home for six machines, one of each type (lever, pulley, inclined plane, wheel and axle, screw, wedge). Write the name of each machine and say whether it multiplies force, changes direction or both.",
+"check":[
+{"q":"A wheelbarrow is an example of which class of lever?","o":["Second class","First class","Third class","Fourth class"]},
+{"q":"A fixed pulley is used to","o":["Change the direction of a force","Halve the load","Make a screw","Cut wood"]},
+{"q":"Which of these is a wedge?","o":["An axe","A see-saw","A flag pole pulley","A wheelbarrow"]},
+{"q":"A ramp is an example of","o":["An inclined plane","A lever","A pulley","A wedge"]},
+{"q":"The fulcrum is","o":["The point about which a lever turns","The load","The effort","The pulley rope"]}]},
+
+{"id":"ph2-09","week":3,"title":"Mechanical Advantage, Velocity Ratio and Efficiency","icon":"Layers","summary":"The meaning and formulae of effort, load, mechanical advantage, velocity ratio and efficiency, and how they are related.",
+"keyWords":["Effort","Load","Mechanical advantage","Velocity ratio","Efficiency"],
+"sections":[
+{"h":"Important terms","p":["Effort (E) is the force we apply to operate the machine. Load (L) is the resistance, or weight, that we want to move.","Mechanical advantage (MA) is the ratio of the load to the effort: MA = load / effort. It has no unit. A MA of 4 means that 1 N of effort lifts a load of 4 N.","Velocity ratio (VR) is the ratio of the distance moved by the effort to the distance moved by the load: VR = distance moved by effort / distance moved by load. It also has no unit."]},
+{"h":"Efficiency","p":["Efficiency (η) is the ratio of the useful work output to the total work input, written as a percentage.","Work output = load x distance moved by the load. Work input = effort x distance moved by the effort.","Efficiency = (work output / work input) x 100%, which can be written as Efficiency = (MA / VR) x 100%.","No real machine is 100% efficient, because some energy is always wasted overcoming friction between moving parts and in heating or making sound."]},
+{"h":"Velocity ratios of common machines","p":["Pulley system: VR = number of pulleys (rope sections supporting the load).","Inclined plane: VR = 1 / sin θ = length of slope / height.","Wheel and axle: VR = R / r.","Screw jack: VR = 2πR / p."],
+"tbl":{"head":["Machine","Velocity ratio"],"rows":[
+["Pulley system","Number of pulleys"],
+["Inclined plane","1 / sin θ  (or length / height)"],
+["Wheel and axle","R / r"],
+["Screw jack","2πR / p"]]}},
+{"h":"Summary of the relationships","p":["MA = L / E. VR = distance moved by effort / distance moved by load. Efficiency = MA / VR x 100%. Rearranged: MA = efficiency x VR, and L = MA x E. Learn these four lines; every machine problem uses them."]}
+],
+"activity":"Write the four lines of the summary on a card. Then work out: a machine has MA = 4 and VR = 5. What is its efficiency? (answer: 80%)",
+"check":[
+{"q":"Mechanical advantage is","o":["Load / effort","Effort / load","Work / time","Force x distance"]},
+{"q":"Velocity ratio is","o":["Distance moved by effort / distance moved by load","Load / effort","Output / input","Mass x velocity"]},
+{"q":"A machine has MA = 4 and VR = 5. What is its efficiency?","o":["80%","20%","125%","9%"]},
+{"q":"The velocity ratio of a pulley system is equal to","o":["The number of pulleys","The number of weights","The mass of the load","Zero"]},
+{"q":"Why is no machine 100% efficient?","o":["Energy is lost to friction and heat","The machine is too big","Gravity is too small","The load is light"]}]},
+
+{"id":"ph2-10","week":4,"title":"Machine Problems and Machines in Daily Life","icon":"ClipboardCheck","summary":"Worked problems on MA, VR and efficiency, taken from the pulley, inclined plane and past-question types, plus everyday uses.",
+"keyWords":["Block and tackle","Efficiency","Work input","Work output","Inclined plane"],
+"sections":[
+{"h":"Problem 1: a block and tackle","p":["A block and tackle system has six pulleys. A force of 50 N applied to it lifts a load W. If its efficiency is 40%, calculate W."],
+"ex":{"t":"Solution","b":["VR = number of pulleys = 6. Effort E = 50 N. Efficiency = 40% = 0.4.","Efficiency = (MA / VR), so MA = 0.4 x 6 = 2.4.","MA = load / effort, so W = 2.4 x 50 = 120 N."]}},
+{"h":"Problem 2: finding the effort","p":["The picture shows a block and tackle with 6 pulleys supporting a load of 100 N. If its efficiency is 75%, calculate the effort N."],
+"img":{"src":"phy-pulley-6.jpg","alt":"A block and tackle pulley system with an effort N on the free end of the rope","cap":"Block and tackle with effort N."},
+"ex":{"t":"Solution","b":["VR = 6. Efficiency = 0.75.","MA = efficiency x VR = 0.75 x 6 = 4.5.","MA = load / effort, so effort = load / MA = 100 / 4.5 = 22.2 N."]}},
+{"h":"Problem 3: finding the velocity ratio","p":["A simple machine of 75% efficiency lifts a load of 5000 N when an effort of 500 N is applied. Calculate its velocity ratio."],
+"ex":{"t":"Solution","b":["MA = load / effort = 5000 / 500 = 10.","Efficiency = MA / VR, so 0.75 = 10 / VR.","VR = 10 / 0.75 = 13.3."]}},
+{"h":"Problem 4: work done (WAEC style)","p":["A machine of efficiency 75% lifts a load of 600 N through a vertical height of 2 m. Find (i) the work done on the load and (ii) the work input to the machine."],
+"ex":{"t":"Solution","b":["(i) Work output = load x height = 600 x 2 = 1200 J.","(ii) Efficiency = work output / work input, so work input = 1200 / 0.75 = 1600 J."]}},
+{"h":"Problem 5: an inclined plane","p":["An inclined plane 5 m long raises a load of 1000 N through a vertical height of 1.25 m. A force of 300 N pushes the load up the slope. Find the VR, MA and efficiency."],
+"ex":{"t":"Solution","b":["VR = length / height = 5 / 1.25 = 4.","MA = load / effort = 1000 / 300 = 3.33.","Efficiency = (MA / VR) x 100 = (3.33 / 4) x 100 = 83.3%."]}},
+{"h":"Problem 6: a quick one, and a short reason","p":["The velocity ratio of a machine is 5 and its efficiency is 80%. Find MA: MA = 0.8 x 5 = 4.","Two reasons why no machine is 100% efficient: energy is lost to friction between moving parts, and some energy is turned into heat or sound instead of useful work."]},
+{"h":"Machines in daily life","p":["Lever: crowbar, scissors, pliers. Pulley: lifting cranes, flag hoist. Inclined plane: ramp for loading goods. Wheel and axle: cars, rolling chairs, door knobs. Wedge: axe, chisel, knife. Screw: jack, bottle cap, car wheel nut.","A simple machine does only one basic job. A compound machine combines several simple machines, for example a bicycle (wheel and axle, levers and gears) or a pair of scissors with its screw."]}
+],
+"activity":"A pulley system has a VR of 6 and an efficiency of 60%. What load can it lift with an effort of 100 N? (answer: 360 N). Write down every step.",
+"check":[
+{"q":"A machine has VR = 5 and efficiency 80%. What is its MA?","o":["4","6.25","0.16","25"]},
+{"q":"An inclined plane is 5 m long and 1.25 m high. What is its velocity ratio?","o":["4","6.25","0.25","3.75"]},
+{"q":"A load of 600 N is lifted 2 m by a 75% efficient machine. What is the work input?","o":["1600 J","900 J","1200 J","450 J"]},
+{"q":"A pulley system with VR 6 and efficiency 60% has an effort of 100 N. What load can it lift?","o":["360 N","600 N","166 N","60 N"]},
+{"q":"Which of these is a compound machine?","o":["A bicycle","A single wedge","A nail","A single ramp"]}]},
+
+{"id":"ph2-11","week":6,"title":"Heat and Temperature","icon":"Zap","summary":"The meaning of heat energy and temperature, how they differ, and what thermometric properties are.",
+"keyWords":["Heat","Temperature","Thermometric property","Kelvin","Joule"],
+"sections":[
+{"h":"Heat energy","p":["Heat is a form of energy that flows from a place of higher temperature to a place of lower temperature. It stops flowing when both are at the same temperature. Heat is measured in joules (J). It moves by conduction, convection and radiation."]},
+{"h":"Temperature","p":["Temperature is a measure of how hot or cold a body is. It tells us the direction in which heat will flow: from the body at the higher temperature to the one at the lower temperature. It is measured in degrees Celsius (°C), degrees Fahrenheit (°F) or kelvin (K). The SI unit is the kelvin."]},
+{"h":"Heat compared with temperature","p":["A bath tub of lukewarm water holds much more heat than a cup of hot tea, even though the tea has a higher temperature. Temperature does not depend on how much material there is; heat does."],
+"tbl":{"head":["Property","Heat","Temperature"],"rows":[
+["What it is","Energy transferred because of a temperature difference","How hot or cold a body is"],
+["SI unit","Joule (J)","Kelvin (K)"],
+["Depends on amount of matter?","Yes","No"],
+["Instrument","Calorimeter","Thermometer"]]}},
+{"h":"Thermometric properties","p":["A thermometer works because some property of a material changes with temperature. That property is called a thermometric property. A good thermometric property changes regularly and measurably as the temperature changes."],
+"tbl":{"head":["Thermometric property","Thermometer that uses it"],"rows":[
+["Volume of a liquid (mercury or alcohol)","Liquid-in-glass thermometer"],
+["Electrical resistance of a wire","Resistance thermometer"],
+["Voltage produced at a junction of two metals","Thermocouple"],
+["Pressure of a gas at constant volume","Gas thermometer"],
+["Colour change","Thermochromic strips"]]}}
+],
+"activity":"Place one hand in warm water and the other in cold water for a minute, then put both into the same bowl of lukewarm water. What do your hands tell you? Why can touch not be used to measure temperature accurately?",
+"check":[
+{"q":"Heat always flows from","o":["A hotter body to a colder body","A colder body to a hotter body","Large bodies to small bodies","Light bodies to heavy bodies"]},
+{"q":"The SI unit of temperature is","o":["Kelvin","Joule","Celsius","Fahrenheit"]},
+{"q":"The SI unit of heat is","o":["Joule","Kelvin","Watt","Newton"]},
+{"q":"A thermometric property is","o":["A property that changes with temperature","The size of the thermometer","The colour of the room","The mass of the glass"]},
+{"q":"Which instrument measures temperature?","o":["Thermometer","Calorimeter","Barometer","Ammeter"]}]},
+
+{"id":"ph2-12","week":6,"title":"Thermometers","icon":"Layers","summary":"The main types of thermometer, how each works and where each is used, and how to calibrate a mercury thermometer.",
+"keyWords":["Mercury thermometer","Clinical thermometer","Digital thermometer","Thermocouple","Calibration"],
+"sections":[
+{"h":"Mercury-in-glass thermometer","p":["Mercury expands evenly when heated, so the thread of mercury in a narrow glass tube rises as the temperature rises. It is accurate, used in laboratories and has a range from about -10 °C to 110 °C. It cannot be used in very cold places because mercury freezes at -39 °C. Mercury is liked because it does not wet glass, conducts heat well, is easy to see and expands regularly.","How it is calibrated: stand the thermometer upright with the bulb in melting pure ice. Wait until the mercury thread stops moving and mark this as the lower fixed point (0 °C). Then hold the bulb in the steam above boiling pure water. When the thread stops rising, mark the upper fixed point (100 °C). Divide the space between the two marks into 100 equal parts."]},
+{"h":"Alcohol-in-glass thermometer","p":["Alcohol (usually coloured red) expands more than mercury and freezes only at about -115 °C, so it can be used in very cold regions, from about -80 °C to 78 °C. It is also less poisonous than mercury, but it is less accurate and it wets the glass."]},
+{"h":"Clinical thermometer","p":["A clinical thermometer measures the body temperature of a person. It has a short range from 35 °C to 42 °C so it can be read accurately. It has a narrow bend, called a constriction, near the bulb, which stops the mercury from flowing back so that you can read it after removing it from the patient. You shake it to bring the mercury back to the bulb."]},
+{"h":"Other thermometers","p":["Digital thermometer: reads quickly and shows the value as numbers on a screen. Used in hospitals and homes.","Thermocouple: uses the voltage made where two different metals meet. It can measure very high temperatures (up to about 1800 °C) and is used in industry.","Bimetallic strip: two metals bonded together that expand by different amounts, so the strip bends when heated. It is used in thermostats for irons and fridges.","Gas thermometer: uses the pressure of a gas at constant volume. It is very accurate.","Resistance thermometer: uses the change of electrical resistance of a platinum wire."],
+"tbl":{"head":["Thermometer","Range","Where it is used"],"rows":[
+["Mercury-in-glass","-10 °C to 110 °C","Laboratories"],
+["Alcohol-in-glass","-80 °C to 78 °C","Very cold places"],
+["Clinical","35 °C to 42 °C","Body temperature"],
+["Thermocouple","Up to about 1800 °C","Industry"],
+["Bimetallic strip","Varies","Thermostats"]]}},
+{"h":"Desirable properties of a thermometer liquid","p":["It should expand regularly, expand a lot for a small change in temperature, respond quickly (good conductor of heat), be easy to see, not stick to the glass, and have a wide range between its freezing and boiling points."]}
+],
+"activity":"If you have a thermometer at home or school, measure the temperature of the room, a cup of tap water and a cup of warm water (not boiling). Record all three readings with units.",
+"check":[
+{"q":"Which thermometer has a constriction near the bulb?","o":["Clinical thermometer","Alcohol thermometer","Gas thermometer","Thermocouple"]},
+{"q":"Which liquid is better for measuring very low temperatures?","o":["Alcohol","Mercury","Water","Oil"]},
+{"q":"The range of a clinical thermometer is about","o":["35 °C to 42 °C","0 °C to 100 °C","-80 °C to 78 °C","100 °C to 500 °C"]},
+{"q":"A thermocouple is used to measure","o":["Very high temperatures","Only body temperature","Only very low temperatures","Mass"]},
+{"q":"The lower fixed point of a thermometer is the temperature of","o":["Pure melting ice","Boiling water","Room air","Steam"]}]},
+
+{"id":"ph2-13","week":6,"title":"Temperature Scales and Conversions","icon":"BarChart2","summary":"Fixed points, the Celsius, Kelvin and Fahrenheit scales, conversion formulae, and worked examples including uncalibrated thermometers.",
+"keyWords":["Lower fixed point","Upper fixed point","Fundamental interval","Celsius","Kelvin","Fahrenheit"],
+"sections":[
+{"h":"Fixed points and the fundamental interval","p":["The lower fixed point is the temperature of pure melting ice at standard atmospheric pressure (760 mm of mercury). The upper fixed point is the temperature of steam from pure boiling water at standard atmospheric pressure. The fundamental interval is the difference between the upper and lower fixed points."]},
+{"h":"The three scales","p":["Celsius (centigrade) scale: ice point = 0 °C, steam point = 100 °C, so the fundamental interval is divided into 100 equal parts.","Kelvin scale: an absolute scale. Ice point = 273 K, steam point = 373 K. It also has 100 equal parts, so a change of 1 °C is the same as a change of 1 K. 0 K is the coldest possible temperature.","Fahrenheit scale: ice point = 32 °F, steam point = 212 °F, so the interval has 180 parts."],
+"tbl":{"head":["Scale","Ice point","Steam point","Number of divisions"],"rows":[
+["Celsius (°C)","0","100","100"],
+["Kelvin (K)","273","373","100"],
+["Fahrenheit (°F)","32","212","180"]]}},
+{"h":"Conversion formulae","p":["Celsius to Kelvin: K = °C + 273. Kelvin to Celsius: °C = K - 273.","Celsius to Fahrenheit: °F = (9/5) x °C + 32, or °F = 1.8 x °C + 32.","Fahrenheit to Celsius: °C = (5/9) x (°F - 32)."],
+"ex":{"t":"Worked examples","b":["Convert 25 °C to kelvin: K = 25 + 273 = 298 K.","Convert 0 °C to °F: °F = 1.8 x 0 + 32 = 32 °F.","Convert 273 K to °C: °C = 273 - 273 = 0 °C.","A thermometer reads 77 °F. °C = (5/9) x (77 - 32) = (5/9) x 45 = 25 °C. In kelvin = 25 + 273 = 298 K.","Convert 75 °C to °F: 1.8 x 75 + 32 = 135 + 32 = 167 °F. In kelvin: 75 + 273 = 348 K."]}},
+{"h":"A change of temperature","p":["A change in temperature is the same size in °C and in K. Example: an object is heated from 30 °C to 57 °C. The rise is 57 - 30 = 27 °C, which is also a rise of 27 K. (Do not add 273 to a change; add 273 only when converting a temperature reading. 27 °C itself is 300 K.)"]},
+{"h":"Uncalibrated thermometers","p":["Sometimes a thermometer has the wrong fixed points. Because the scale is evenly spaced, we can still find the true Celsius temperature using proportions: (reading - lower point) / (upper point - lower point) = (true temperature - 0) / (100 - 0).","Example 1: the ice point of an ungraduated thermometer is X and its steam point is 90°. It reads 60° when the true temperature is 40 °C. Find X."],
+"img":{"src":"phy-thermo-x.jpg","alt":"Two scales side by side: an unmarked thermometer with ice point X, reading 60 and steam point 90, and a Celsius scale with 0, 40 and 100","cap":"The thermometer scale and the Celsius scale, side by side."},
+"ex":{"t":"Solution","b":["(60 - X) / (90 - X) = 40 / 100.","100 (60 - X) = 40 (90 - X), so 6000 - 100X = 3600 - 40X.","6000 - 3600 = 100X - 40X, so 2400 = 60X.","X = 40°."]}},
+{"h":"Another uncalibrated thermometer","p":["Example 2: a thermometer has an ice point of -20° and a steam point of 100°. What Celsius temperature corresponds to a reading of 70° on this thermometer?"],
+"img":{"src":"phy-thermo-70.jpg","alt":"A scale from -20 to 100 with a reading of 70, next to a Celsius scale from 0 to 100 with the unknown x","cap":"A reading of 70 on the thermometer; what is x on the Celsius scale?"},
+"ex":{"t":"Solution","b":["(70 - (-20)) / (100 - (-20)) = x / 100.","90 / 120 = x / 100.","x = 90 x 100 / 120 = 75 °C."]}},
+{"h":"A resistance thermometer","p":["Example 3: the wire of a platinum resistance thermometer has a resistance of 3.5 Ω at 0 °C and 10.5 Ω at 100 °C. Find the temperature when the resistance is 7.5 Ω.","Temperature = ((7.5 - 3.5) / (10.5 - 3.5)) x 100 = (4 / 7) x 100 = 57.1 °C."]}
+],
+"activity":"Convert your body temperature (about 37 °C) to kelvin and to degrees Fahrenheit. Then convert 100 °F to °C.",
+"check":[
+{"q":"Convert 25 °C to kelvin.","o":["298 K","248 K","25 K","273 K"]},
+{"q":"What is the steam point on the Fahrenheit scale?","o":["212 °F","100 °F","32 °F","373 °F"]},
+{"q":"Convert 273 K to °C.","o":["0 °C","273 °C","-273 °C","100 °C"]},
+{"q":"A thermometer reads 77 °F. What is it in °C?","o":["25 °C","45 °C","77 °C","20 °C"]},
+{"q":"An object is heated from 30 °C to 57 °C. By how many kelvin does its temperature rise?","o":["27 K","300 K","57 K","330 K"]}]}
+]

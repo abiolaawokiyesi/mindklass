@@ -1,0 +1,115 @@
+[
+{"id":"ph3-07","week":2,"title":"Kinetic Theory of Gases and Boyle's Law","icon":"Layers","summary":"What a gas is, the assumptions of the kinetic theory of gases, and Boyle's law with graphs, an experiment and worked examples.",
+"keyWords":["Gas","Kinetic theory","Boyle's law","Pressure","Volume","Isothermal"],
+"sections":[
+{"h":"What is a gas?","p":["A gas is a state of matter with no fixed shape or volume. It takes the shape and volume of its container. The particles are far apart and move quickly in all directions."]},
+{"h":"Assumptions of the kinetic theory of gases","p":["A gas is made up of a very large number of tiny particles (atoms or molecules) in constant random motion.","The volume of the particles is tiny compared with the volume of the container.","There are no forces of attraction or repulsion between the particles, except when they collide.","Collisions between the particles and the walls of the container are perfectly elastic (no energy is lost).","The average kinetic energy of the particles is proportional to the absolute temperature (in kelvin): K.E. average = (3/2) k T, where k = 1.38 x 10⁻²³ J/K is the Boltzmann constant.","Gas pressure is caused by the particles hitting the walls of the container again and again."]},
+{"h":"Boyle's law","p":["Boyle's law states that at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure. When the pressure rises, the volume falls, and the other way round.","In symbols: P ∝ 1/V, so PV = constant, or P1V1 = P2V2 for two different conditions of the same gas.","Think of a bicycle pump: when you push the plunger and the air is squeezed into a smaller space, the pressure goes up."]},
+{"h":"The graphs of Boyle's law","p":["A graph of pressure against volume is a curve called a hyperbola: when V is small P is big, and when V is big P is small. A graph of pressure against 1/volume is a straight line through the origin."],
+"img":{"src":"phy-boyle-graphs.png","alt":"Two graphs: pressure against volume showing a falling curve, and pressure against one over volume showing a straight line through the origin","cap":"Left: P against V (hyperbola). Right: P against 1/V (straight line)."}},
+{"h":"Experiment to verify Boyle's law","p":["Dry air is trapped in a glass tube of uniform width (tube C) that is joined by rubber tubing to an open tube (B) containing mercury. By raising or lowering tube B, the length of the air column in C changes. The length l measures the volume, because the tube has the same width all along. The difference h between the mercury levels in B and C is read each time. The atmospheric pressure H is read from a barometer.","If the mercury in B is higher than in C, the trapped air pressure is P = H + h (in cmHg). If the mercury in B is lower than in C, then P = H - h. Plot P against 1/l. A straight line shows that P is inversely proportional to V."],
+"img":{"src":"phy-gas-tube-b-high.jpg","alt":"Apparatus with a closed tube C holding trapped air of length l and an open tube B whose mercury level is higher by h","cap":"Tube B raised: the mercury in B is higher than in C, so P = H + h."}},
+{"h":"The other position of tube B","p":["In this picture the open tube B has been lowered, so the mercury level in B is below the level in C. The pressure of the trapped air is then smaller than the atmospheric pressure: P = H - h."],
+"img":{"src":"phy-gas-tube-b-low.jpg","alt":"Apparatus with a closed tube C holding trapped air of length l and an open tube B whose mercury level is lower by h","cap":"Tube B lowered: the mercury in B is lower than in C, so P = H - h."}},
+{"h":"Worked example 1: the J-tube","p":["In the J-tube shown below, the mercury surfaces at X and Y are at the same level. 30 cm³ of air is trapped above Y when the atmospheric pressure is 75 cmHg. Find the volume of the trapped air when 15 cm of mercury is poured into the open limb above X."],
+"img":{"src":"phy-j-tube.jpg","alt":"A J-shaped tube with mercury at the bottom and the levels X and Y marked on the same horizontal line","cap":"A J-tube with air trapped in the short limb."},
+"ex":{"t":"Solution","b":["P1 = 75 cmHg, V1 = 30 cm³. After pouring in 15 cm of mercury, P2 = 75 + 15 = 90 cmHg.","Boyle's law: P1V1 = P2V2, so 75 x 30 = 90 x V2.","V2 = 2250 / 90 = 25 cm³."]}},
+{"h":"Worked example 2: a trapped air column","p":["A uniform capillary tube, closed at one end, has dry air trapped by a thread of mercury 8.5 x 10⁻² m long. When the tube is horizontal, the air column is 5.0 x 10⁻² m long. When it is held upright with the closed end downward, the length is 4.5 x 10⁻² m. Find the atmospheric pressure. (g = 10 m/s², density of mercury = 1.36 x 10⁴ kg/m³)"],
+"ex":{"t":"Solution","b":["Horizontal: the trapped air is at atmospheric pressure H, with length 5.0 cm.","Upright, closed end down: the air pressure = H + pressure of the mercury thread = H + ρgh, where ρgh = 1.36 x 10⁴ x 10 x 8.5 x 10⁻² = 11 560 Pa.","The tube has the same width all along, so volume is proportional to length. Boyle's law: H x 5.0 = (H + 11 560) x 4.5.","5H = 4.5H + 52 020, so 0.5H = 52 020 and H = 104 040 Pa, or about 1.04 x 10⁵ Pa."]}}
+],
+"activity":"Hold the end of a bicycle pump (or a syringe with the nozzle sealed with a finger) and push the plunger in slowly. Feel the push-back as the air is squeezed. Explain it using Boyle's law.",
+"check":[
+{"q":"Boyle's law is true when","o":["The temperature is constant","The pressure is constant","The volume is constant","The mass changes"]},
+{"q":"For a fixed mass of gas at constant temperature, if the pressure doubles the volume becomes","o":["Half","Double","The same","Four times"]},
+{"q":"A gas has V1 = 30 cm³ at 75 cmHg. At 90 cmHg its volume is","o":["25 cm³","36 cm³","30 cm³","20 cm³"]},
+{"q":"What graph gives a straight line for Boyle's law?","o":["P against 1/V","P against V","V against T²","P against T²"]},
+{"q":"Gas pressure is caused by","o":["Particles hitting the container walls","The weight of the gas only","Temperature alone","Gravity pulling the container"]}]},
+
+{"id":"ph3-08","week":3,"title":"Charles's Law and the Pressure Law","icon":"Zap","summary":"How the volume of a gas depends on temperature (Charles's law) and how pressure depends on temperature (pressure law), with worked examples.",
+"keyWords":["Charles's law","Pressure law","Kelvin","Absolute temperature","Isobaric","Isochoric"],
+"sections":[
+{"h":"Always use kelvin","p":["In all gas laws, temperatures must be in kelvin. K = °C + 273. If you use °C, your answer will be wrong. This is the most common mistake in gas-law questions."]},
+{"h":"Charles's law (volume-temperature law)","p":["Charles's law states that at constant pressure, the volume of a fixed mass of gas is directly proportional to its absolute temperature (in kelvin).","In symbols: V ∝ T, so V / T = constant, or V1 / T1 = V2 / T2. A balloon left in a hot sun grows bigger because the air inside expands. A hot-air balloon rises because the heated air expands and becomes less dense."],
+"ex":{"t":"Worked example","b":["A gas has a volume of 100 cm³ at 27 °C. It is heated at constant pressure until its volume is 120 cm³. Find the new temperature.","T1 = 27 + 273 = 300 K. V1 / T1 = V2 / T2, so 100 / 300 = 120 / T2.","T2 = 120 x 300 / 100 = 360 K.","In degrees Celsius: 360 - 273 = 87 °C."]}},
+{"h":"The pressure law (Gay-Lussac's law)","p":["The pressure law states that at constant volume, the pressure of a fixed mass of gas is directly proportional to its absolute temperature.","In symbols: P ∝ T, so P / T = constant, or P1 / T1 = P2 / T2. A sealed can of air that is heated may burst because the pressure rises. A pressure cooker uses this law to reach a temperature above 100 °C. A car tyre pressure rises on a long hot journey."],
+"ex":{"t":"Worked example","b":["A fixed mass of gas at 27 °C is heated at constant volume until its pressure doubles. Find the final temperature.","T1 = 27 + 273 = 300 K. P2 / P1 = 2, so T2 / T1 = 2.","T2 = 2 x 300 = 600 K = 600 - 273 = 327 °C."]}},
+{"h":"Quick comparison","p":["Boyle's law: constant temperature; P and V change in opposite ways. Charles's law: constant pressure; V and T change together. Pressure law: constant volume; P and T change together."],
+"tbl":{"head":["Law","What stays constant","Relationship"],"rows":[
+["Boyle's law","Temperature","P1V1 = P2V2"],
+["Charles's law","Pressure","V1/T1 = V2/T2"],
+["Pressure law","Volume","P1/T1 = P2/T2"]]}}
+],
+"activity":"Put a slightly inflated balloon in a fridge for a few minutes and then take it out. What happens to its size? Explain using Charles's law.",
+"check":[
+{"q":"Convert 27 °C to kelvin.","o":["300 K","246 K","27 K","273 K"]},
+{"q":"Charles's law is true at constant","o":["Pressure","Volume","Temperature","Mass is not fixed"]},
+{"q":"The pressure of a gas at constant volume is directly proportional to its","o":["Absolute temperature","Mass of the container","Colour","Celsius temperature"]},
+{"q":"A gas at 300 K has volume 100 cm³ at constant pressure. At 360 K its volume is","o":["120 cm³","83 cm³","100 cm³","180 cm³"]},
+{"q":"A gas at 27 °C is heated at constant volume until its pressure doubles. The final temperature is","o":["327 °C","54 °C","600 °C","100 °C"]}]},
+
+{"id":"ph3-09","week":3,"title":"The General Gas Law, the Ideal Gas and Molar Volume","icon":"BarChart2","summary":"Combining the gas laws, the equation PV = nRT, Avogadro's law, molar volume, real versus ideal gases and applications.",
+"keyWords":["General gas law","Ideal gas equation","Mole","Avogadro's law","Molar volume","STP"],
+"sections":[
+{"h":"The general gas law","p":["Boyle's law, Charles's law and the pressure law can be joined into one equation that works when pressure, volume and temperature all change together: P1V1 / T1 = P2V2 / T2, or PV / T = constant. Remember to change °C to kelvin and use the same units for both sides."],
+"ex":{"t":"Worked example: volume at s.t.p.","b":["The volume and pressure of a given mass of gas at 27 °C are 76 cm³ and 80 cmHg. Find its volume at s.t.p. (273 K and 76 cmHg).","T1 = 27 + 273 = 300 K, P1 = 80 cmHg, V1 = 76 cm³; T2 = 273 K, P2 = 76 cmHg.","V2 = P1V1T2 / (T1P2) = (80 x 76 x 273) / (300 x 76) = 80 x 273 / 300 = 72.8 cm³."]}},
+{"h":"Another example","p":["A gas of volume 3 L at 300 K and 2 atm is heated to 600 K and its pressure is raised to 4 atm. Find its new volume. V2 = P1V1T2 / (T1P2) = (2 x 3 x 600) / (300 x 4) = 3600 / 1200 = 3 L."]},
+{"h":"The ideal gas equation","p":["For a gas that contains n moles, the law becomes PV = nRT. P is the pressure (Pa), V is the volume (m³), n is the number of moles, R is the universal gas constant (8.314 J/mol K, often taken as 8.3) and T is the temperature in kelvin. A mole is the amount of substance that contains 6.02 x 10²³ particles.","Number of moles n = mass / molar mass."],
+"ex":{"t":"Worked example","b":["Find the pressure of one mole of an ideal gas of volume 10⁻² m³ at 27 °C. (R = 8.3 J/mol K)","T = 27 + 273 = 300 K. P = nRT / V = (1 x 8.3 x 300) / 10⁻² = 2490 / 0.01 = 2.49 x 10⁵ N/m²."]}},
+{"h":"Avogadro's law and molar volume","p":["Avogadro's law states that equal volumes of all gases, at the same temperature and pressure, contain the same number of molecules.","At s.t.p. (standard temperature 273 K and standard pressure 1 atm), one mole of any gas occupies 22.4 dm³ (22.4 litres). This is called the molar volume.","Example: a gas at s.t.p. has a volume of 44.8 L. Number of moles = 44.8 / 22.4 = 2 mol. Example: 5.6 g of helium (He = 4 g/mol) is 5.6 / 4 = 1.4 mol."]},
+{"h":"Real gases and ideal gases","p":["An ideal gas follows the assumptions of the kinetic theory exactly: no forces between particles, perfectly elastic collisions and particles with negligible volume. Real gases do not, so they behave nearly ideally only at low pressure and high temperature. At high pressure and low temperature, the particles are close together and the forces between them matter, so real gases deviate from the ideal gas law (this is explained by the Van der Waals equation, which you will study in later classes)."]},
+{"h":"Where the gas laws are used","p":["Car air bags (Boyle's law), hot-air balloons (Charles's law), pressure cookers (pressure law), weather balloons that expand as they rise, and breathing (your lungs increase their volume, the pressure falls and air flows in)."]}
+],
+"activity":"Use PV = nRT to find the volume of 0.5 mol of gas at 300 K and 2 atm, taking R = 0.0821 L atm/(mol K). (answer: V = 0.5 x 0.0821 x 300 / 2 = 6.16 L)",
+"check":[
+{"q":"The general gas law is","o":["P1V1/T1 = P2V2/T2","P1V1 = P2T2","V1T1 = V2T2","P1/V1 = P2/V2"]},
+{"q":"At s.t.p. one mole of gas occupies","o":["22.4 dm³","1 dm³","273 dm³","10 dm³"]},
+{"q":"How many moles are in 44.8 L of gas at s.t.p.?","o":["2 mol","1 mol","0.5 mol","22.4 mol"]},
+{"q":"Which gas behaves most like an ideal gas?","o":["A gas at low pressure and high temperature","A gas at high pressure and low temperature","A liquid","A solid"]},
+{"q":"Avogadro's law says equal volumes of gases at the same temperature and pressure have","o":["The same number of molecules","The same mass","The same density","The same colour"]}]},
+
+{"id":"ph3-10","week":4,"title":"Simple Harmonic Motion","icon":"Zap","summary":"The meaning and conditions of SHM, its terms (amplitude, period, frequency, angular velocity) and its equations.",
+"keyWords":["Simple harmonic motion","Amplitude","Period","Frequency","Angular velocity","Restoring force"],
+"sections":[
+{"h":"What is simple harmonic motion?","p":["Many things move to and fro again and again: a swing, a pendulum, a guitar string, the piston of a car engine. When this repeated motion follows a special rule, we call it simple harmonic motion (SHM).","Simple harmonic motion is a periodic motion in which the acceleration of a body is directly proportional to its displacement from a fixed point (the equilibrium position) and is always directed towards that point. In symbols a = -ω²x. The minus sign shows that the acceleration points towards the centre, which is the job of the restoring force."]},
+{"h":"Conditions for SHM","p":["There is a restoring force that always acts towards the equilibrium position.","The size of this force is proportional to the displacement.","The motion repeats itself in a regular pattern (it is oscillatory).","Examples: a simple pendulum swinging through a small angle, a mass on a spring (horizontal or vertical), a vibrating tuning fork and a swing. A footballer's ball being passed to and fro is not SHM, because the force from the players does not follow the displacement rule."]},
+{"h":"Important terms","p":["Learn these terms and their meanings."],
+"tbl":{"head":["Term","Meaning"],"rows":[
+["Amplitude (A)","The maximum displacement from the mean position"],
+["Period (T)","The time taken for one complete oscillation (unit: second)"],
+["Frequency (f)","The number of oscillations in one second (unit: hertz, Hz)"],
+["Phase","The position of the particle in its cycle at a given instant"],
+["Angular velocity (ω)","ω = 2πf = 2π/T (unit: rad/s)"]]}},
+{"h":"The equations of SHM","p":["Displacement: x = A sin ωt (or x = A cos ωt, depending on where the timing starts).","Velocity: v = ω√(A² - x²). The maximum velocity (at the centre) is v = ωA.","Acceleration: a = -ω²x. The maximum acceleration (at the ends) is a = ω²A.","Period and frequency: T = 2π / ω = 1 / f. For a mass m on a spring of spring constant k, T = 2π√(m/k)."]},
+{"h":"What happens during an oscillation","p":["At the ends of the motion the displacement is greatest, the speed is zero for an instant and the acceleration is greatest. At the centre (equilibrium) the displacement is zero, the speed is greatest and the acceleration is zero."]},
+{"h":"Circular motion link","p":["A body going round a circle of radius r with speed v has an angular velocity ω = v / r. Example: an object whirled in a horizontal circle of radius 2.0 m at 8 m/s has ω = 8 / 2.0 = 4.0 rad/s. The force needed to keep it moving in the circle is the centripetal force F = mv²/r."]}
+],
+"activity":"Hang a small stone on a 1 m string and let it swing through a small angle. Count how many swings it makes in 20 seconds. Work out the frequency (swings per second) and the period (seconds per swing).",
+"check":[
+{"q":"In SHM, the acceleration is always","o":["Directed towards the equilibrium position","Directed away from the equilibrium position","Zero","Constant"]},
+{"q":"The time for one complete oscillation is called the","o":["Period","Amplitude","Frequency","Phase"]},
+{"q":"The relation between angular velocity and frequency is","o":["ω = 2πf","ω = f / 2π","ω = πf","ω = 2f"]},
+{"q":"At the centre of an SHM oscillation, the speed is","o":["Maximum","Zero","Half the maximum","Negative"]},
+{"q":"An object is whirled in a circle of radius 2 m at 8 m/s. Its angular velocity is","o":["4 rad/s","16 rad/s","0.25 rad/s","10 rad/s"]}]},
+
+{"id":"ph3-11","week":6,"title":"Energy in SHM and the Simple Pendulum","icon":"Zap","summary":"The energy changes in SHM, the period of a simple pendulum T = 2π√(l/g), worked examples and applications.",
+"keyWords":["Kinetic energy","Potential energy","Simple pendulum","T = 2π√(l/g)","Seismograph"],
+"sections":[
+{"h":"Energy changes in SHM","p":["A body in SHM keeps swapping its energy between kinetic and potential energy. At the ends, the body stops for an instant and has only potential energy (maximum). At the centre it moves fastest and has only kinetic energy (maximum). The total energy stays constant, if there is no friction.","K.E. = ½mv² = ½mω²(A² - x²). The total energy = ½mω²A²."],
+"img":{"src":"phy-pendulum-energy.jpg","alt":"A pendulum swinging between positions R and Q with the lowest point C. At R and Q potential energy is maximum and kinetic energy is zero; at C potential energy is zero and kinetic energy is maximum","cap":"Energy in a swinging pendulum: P.E. is greatest at R and Q, K.E. is greatest at C."}},
+{"h":"The simple pendulum","p":["A simple pendulum is a small heavy bob hung on a light thread from a fixed support. For small angles (less than about 10 degrees) its motion is simple harmonic. Its period is T = 2π√(l/g), where l is the length of the thread in metres and g is the acceleration due to gravity.","The period depends on the length of the pendulum (longer pendulum, longer period) and on g. It does not depend on the mass of the bob, nor on the amplitude (for small swings). This is why pendulum clocks keep good time."]},
+{"h":"Worked example 1: doubling the period","p":["The period of a simple pendulum of length 80.0 cm doubles when the length is increased by x. Find x."],
+"ex":{"t":"Solution","b":["T is proportional to √l. If T doubles, then √l2 = 2√l1, so l2 = 4 l1.","l2 = 4 x 80 = 320 cm.","x = l2 - l1 = 320 - 80 = 240 cm."]}},
+{"h":"Worked example 2: ear drum","p":["The ear drum resonates with amplitude 0.8 x 10⁻⁷ m when an external body vibrates at 2400 Hz. Find the acceleration. (π = 3.142)"],
+"ex":{"t":"Solution","b":["a = ω²r = (2πf)² r.","2πf = 2 x 3.142 x 2400 = 15 082 rad/s. (2πf)² = 2.275 x 10⁸.","a = 2.275 x 10⁸ x 0.8 x 10⁻⁷ = 18.2 m/s²."]}},
+{"h":"Worked example 3: sonometer wire","p":["A sonometer wire vibrates in SHM with maximum amplitude 1.0 cm. The maximum acceleration is 988 m/s². Find the frequency of vibration. (π = 22/7)"],
+"ex":{"t":"Solution","b":["a = ω²A, with A = 0.01 m. So 988 = ω² x 0.01, giving ω² = 98 800 and ω = 314.3 rad/s.","f = ω / 2π = 314.3 / (2 x 22/7) = 314.3 / 6.286 = 50 Hz."]}},
+{"h":"More practice and uses","p":["The period of a pendulum of length 1.5 m (g = 9.8 m/s²): T = 2π√(1.5/9.8) = 2π x 0.391 = 2.46 s.","A body of mass 0.5 kg oscillates at 4 Hz with amplitude 6 cm. ω = 2πf = 25.1 rad/s; maximum speed = ωA = 25.1 x 0.06 = 1.51 m/s; maximum acceleration = ω²A = 631 x 0.06 = 37.9 m/s².","Why does a pendulum clock gain time in a valley and lose time on a mountain top? g is a little bigger in the valley, so T is a little smaller and the clock ticks faster.","Uses of SHM: pendulum and quartz clocks, car suspension and shock absorbers, seismographs for earthquakes, and the strings and tuning forks of musical instruments."]}
+],
+"activity":"Make a simple pendulum with a stone and a 1 m string. Time 20 swings and divide by 20 to find the period. Then shorten the string to 25 cm and repeat. Compare the two periods and check that the shorter one is about half the first.",
+"check":[
+{"q":"The period of a simple pendulum depends on","o":["Its length and g","Its mass only","The size of the bob only","The colour of the thread"]},
+{"q":"At the lowest point of a swinging pendulum","o":["Kinetic energy is maximum","Potential energy is maximum","Speed is zero","Acceleration is maximum"]},
+{"q":"If the length of a pendulum is made four times as long, its period becomes","o":["Twice as long","Four times as long","Half","The same"]},
+{"q":"The formula for the period of a simple pendulum is","o":["T = 2π√(l/g)","T = 2π√(g/l)","T = π√(l/g)","T = 2πl/g"]},
+{"q":"A pendulum clock in a valley compared with one on a mountain top","o":["Goes slightly faster in the valley","Goes slower in the valley","Is exactly the same","Stops"]}]}
+]

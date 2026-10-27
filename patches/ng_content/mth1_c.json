@@ -1,0 +1,43 @@
+[
+{"id":"ma1-15","week":8,"title":"Changing the Subject of a Formula and Substitution","icon":"Zap","summary":"The balance rule, reverse BODMAS, worked examples with brackets, roots, fractions and powers, and substituting numbers into formulas.",
+"keyWords":["Subject of a formula","Balance rule","Reverse BODMAS","Inverse operation","Substitution"],
+"sections":[
+{"h":"Formulas in daily life","p":["Formulas are everywhere: F = ma in physics, A = πr² for the area of a circle, A = P(1 + rt) for simple interest, V = ⅓πr²h for the volume of a cone. If you can rearrange a formula, you can find any quantity in it when the others are known."]},
+{"h":"The subject of a formula","p":["The subject is the letter that stands alone on one side of the equals sign, usually the left. In A = πr², the subject is A. To change the subject means to rearrange the formula so that a different letter stands alone.","The golden rule is the balance rule. An equation is like a balance scale. Whatever you do to one side you must do to the other, so that it stays balanced. Example: 3x + 2 = 14. Subtract 2 from both sides: 3x = 12. Divide both sides by 3: x = 4."]},
+{"h":"Reverse BODMAS: unwrap the formula","p":["Think of the formula as a wrapped gift. Undo the outer layer first. Do the operations in the reverse order of BODMAS: first undo brackets (expand or divide), then powers and roots, then division and multiplication, then addition and subtraction.","Use the inverse of each operation. The inverse of + a is − a. The inverse of × a is ÷ a. The inverse of squaring is the square root. The inverse of a square root is squaring. The inverse of 1/x is the reciprocal.","Example: 2(x + 3) = 14. Outer layer: divide by 2 to get x + 3 = 7. Next layer: subtract 3 to get x = 4."]},
+{"h":"Worked examples","p":["Example 1: make x the subject of a(x + b) = c. Divide by a: x + b = c/a. Subtract b: x = c/a − b, which is x = (c − ab)/a.","Example 2: make L the subject of T = 2π√(L/g). Divide by 2π: T/(2π) = √(L/g). Square both sides: T²/(4π²) = L/g. Multiply by g: L = gT²/(4π²). This is the pendulum formula.","Example 3: make x the subject of y = (x + 1)/(x − 2). Multiply by (x − 2): y(x − 2) = x + 1. Expand: xy − 2y = x + 1. Collect the x terms: xy − x = 1 + 2y. Factorise: x(y − 1) = 1 + 2y. Divide: x = (1 + 2y)/(y − 1).","Example 4: make x the subject of y = (3x² + 1)/2. Multiply by 2: 2y = 3x² + 1. Subtract 1: 2y − 1 = 3x². Divide by 3: (2y − 1)/3 = x². Take the square root: x = ±√[(2y − 1)/3]. We use ± because both a positive and a negative number give the same square.","Example 5: make C the subject of F = (9/5)C + 32. F − 32 = (9/5)C, so C = 5(F − 32)/9.","Example 6: make r the subject of A = P(1 + rt). A/P = 1 + rt, so A/P − 1 = rt, and r = (A/P − 1)/t."]},
+{"h":"Substitution","p":["Substitution means putting numbers in place of letters. Write the formula, put in the numbers, follow BODMAS, and include units.","Example 7: V = πr²h with π = 22/7, r = 7, h = 5. V = (22/7) × 49 × 5 = 22 × 7 × 5 = 770.","Example 8: A = P(1 + rt) with P = 2000, r = 0.05, t = 3. A = 2000 × (1 + 0.15) = 2000 × 1.15 = 2300. So ₦2,000 at 5% simple interest for 3 years grows to ₦2,300.","Example 9: V = ⅓πr²h with π = 22/7, r = 3, h = 7. V = ⅓ × (22/7) × 9 × 7 = ⅓ × 22 × 9 = 66."]}
+],
+"activity":"Make h the subject of A = 2πr(r + h). (Answer: h = A/(2πr) − r.) Then find V when V = ⅓πr²h, π = 22/7, r = 3 and h = 7. (Answer: 66.)",
+"check":[
+{"q":"Make C the subject of F = (9/5)C + 32.","o":["C = 5(F − 32)/9","C = 9(F − 32)/5","C = 5F/9 − 32","C = (5/9)F + 32"]},
+{"q":"Make x the subject of a(x + b) = c.","o":["x = c/a − b","x = ca − b","x = c − ab","x = (c + b)/a"]},
+{"q":"When taking a square root to solve x² = k, we write","o":["x = ±√k","x = √k only","x = −√k only","x = k²"]},
+{"q":"The golden rule of rearranging is","o":["Do the same to both sides","Only change the left side","Always add first","Never divide"]},
+{"q":"Find A = P(1 + rt) when P = 2000, r = 0.05, t = 3.","o":["2300","2150","2015","3000"]}]},
+
+{"id":"ma1-16","week":8,"title":"Variation: Direct, Inverse, Joint and Combined","icon":"Layers","summary":"The four types of variation, the five-step method, worked examples, graphs and real-life examples.",
+"keyWords":["Direct variation","Inverse variation","Joint variation","Combined variation","Constant of variation"]
+,"sections":[
+{"h":"What is variation?","p":["Variation describes how one quantity changes when another quantity changes. 'More x gives more y' is direct variation. 'More x gives less y' is inverse variation."],
+"tbl":{"head":["Type","Statement","Formula","Example"],"rows":[
+["Direct","y varies directly as x (y ∝ x)","y = kx","Distance and time at constant speed"],
+["Inverse","y varies inversely as x (y ∝ 1/x)","y = k/x","Pressure and volume (Boyle's law)"],
+["Joint","y varies jointly as x and z (y ∝ xz)","y = kxz","Area of a rectangle: A = l × w"],
+["Combined","y varies as x² and inversely as √z","y = kx²/√z","Gravitational force"]]}},
+{"h":"The five-step method","p":["Step 1: write the proportional statement. Step 2: change it into an equation using a constant k. Step 3: use the given values to find k. Step 4: write the full formula with the value of k. Step 5: use the formula to find the unknown."]},
+{"h":"Example 1: direct variation","p":["y varies directly as the square of x. When x = 3, y = 18. Find y when x = 5. y ∝ x², so y = kx². 18 = k × 9, so k = 2. The formula is y = 2x². When x = 5, y = 2 × 25 = 50."]},
+{"h":"Example 2: inverse variation","p":["R varies inversely as √V. When R = 10, V = 25. Find V when R = 5. R = k/√V. 10 = k/5, so k = 50. R = 50/√V. 5 = 50/√V gives √V = 10, so V = 100."]},
+{"h":"Example 3: joint variation","p":["y varies jointly as x and z. When x = 2 and z = 3, y = 24. Find y when x = 4 and z = 6. y = kxz. 24 = k × 6, so k = 4. y = 4xz = 4 × 4 × 6 = 96. Notice that x and z both doubled, so y became 4 times as big."]},
+{"h":"Example 4: combined variation","p":["y varies directly as x² and inversely as √z. When x = 4 and z = 9, y = 8. Find y when x = 6 and z = 16. y = kx²/√z. 8 = k × 16/3, so k = 24/16 = 1.5. When x = 6 and z = 16: y = 1.5 × 36/4 = 13.5."]},
+{"h":"More examples","p":["If y ∝ x and y = 10 when x = 2, then k = 5. When x = 7, y = 35. If y ∝ 1/x and y = 5 when x = 4, then k = 20. When x = 10, y = 2. If P ∝ L², doubling L makes P four times as big.","F varies inversely as d². When d = 2 cm, F = 5 N. So k = 5 × 4 = 20. When d = 5 cm, F = 20/25 = 0.8 N.","Z varies directly as x² and inversely as y. When x = 2 and y = 3, Z = 8. So k = 8 × 3/4 = 6. When x = 3 and y = 2: Z = 6 × 9/2 = 27.","P varies directly as q and inversely as r². P = 12 when q = 6 and r = 3. So k = 12 × 9/6 = 18. When q = 8 and r = 2: P = 18 × 8/4 = 36."]},
+{"h":"Variation in the real world","p":["Speed, distance and time: d = st (direct). Boyle's law: P ∝ 1/V (inverse). Gravity and light: force and brightness vary inversely as the square of the distance, so double the distance gives one quarter. Area of a circle: A ∝ r² (direct square), so double the radius gives four times the area. Electrical resistance: R ∝ 1/A, so double the wire area gives half the resistance. A quick test: if y doubles when x doubles, it is direct variation. If y halves when x doubles, it is inverse variation."]}
+],
+"activity":"y varies inversely as x. When x = 4, y = 5. Find k and then find y when x = 10. (Answers: k = 20; y = 2.)",
+"check":[
+{"q":"If y ∝ x and y = 10 when x = 2, find y when x = 7.","o":["35","14","70","28"]},
+{"q":"If y ∝ 1/x and y = 5 when x = 4, find y when x = 10.","o":["2","8","12.5","50"]},
+{"q":"If P ∝ L² and L is doubled, then P","o":["Becomes 4 times larger","Doubles","Halves","Stays the same"]},
+{"q":"F varies inversely as d². F = 5 when d = 2. Find F when d = 5.","o":["0.8","12.5","2","25"]},
+{"q":"Joint variation is written","o":["y = kxz","y = k/x","y = kx","y = x + z"]}]}
+]

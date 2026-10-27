@@ -1,0 +1,39 @@
+[
+{"id":"ma2-17","week":10,"title":"The Unit Circle and the Graphs of Sine, Cosine and Tangent","icon":"BarChart2","summary":"The unit circle, key values at 0°, 90°, 180° and 270°, and the graphs of y = sin x, y = cos x and y = tan x, with their period and amplitude.",
+"keyWords":["Unit circle","Period","Amplitude","Asymptote","Sine graph","Cosine graph"],
+"sections":[
+{"h":"The unit circle","p":["The unit circle has its centre at the origin (0, 0) and radius 1. Let P(x, y) be a point on the circle, with the line OP making an angle θ with the positive x-axis. In the right-angled triangle, the hypotenuse is 1, so cos θ = x/1 = x and sin θ = y/1 = y. So cosine is the x-coordinate of P and sine is the y-coordinate of P. Also tan θ = y/x."],
+"img":{"src":"mth-unit-circle.png","alt":"A unit circle with the point P at angle theta, its x-coordinate being cos theta and its y-coordinate sin theta, with key angles marked","cap":"On the unit circle, P = (cos θ, sin θ)."}},
+{"h":"Key values on the unit circle","p":["At 0° the point is (1, 0): cos 0° = 1, sin 0° = 0, tan 0° = 0. At 90° the point is (0, 1): cos 90° = 0, sin 90° = 1, and tan 90° is undefined (division by zero). At 180° the point is (−1, 0): cos 180° = −1, sin 180° = 0, tan 180° = 0. At 270° the point is (0, −1): cos 270° = 0, sin 270° = −1, and tan 270° is undefined.","Points for the special angles: 30° is (√3/2, 1/2), 45° is (√2/2, √2/2) and 60° is (1/2, √3/2)."]},
+{"h":"The graphs of sine and cosine","p":["The sine graph shows the height (y-value) of P as it goes round the circle. Table: sin 0° = 0, sin 90° = 1, sin 180° = 0, sin 270° = −1, sin 360° = 0. It is a smooth wave. The period is 360° (it repeats every 360°). The amplitude is 1 (the biggest height from the middle line). The values are between −1 and 1.","The cosine graph shows the x-value of P. cos 0° = 1, cos 90° = 0, cos 180° = −1, cos 270° = 0, cos 360° = 1. It has the same wave shape as sine but starts at its peak. It is the sine graph shifted by 90°. The period is 360° and the amplitude is 1."],
+"img":{"src":"mth-trig-graphs.png","alt":"The graphs of y = sin x and y = cos x from 0 to 360 degrees on the same axes","cap":"y = sin x (blue) and y = cos x (orange)."}},
+{"h":"The graph of tangent","p":["tan x = sin x ÷ cos x. At 0°, tan = 0. As the angle gets close to 90°, sin goes to 1 and cos goes to 0, so tan becomes very large. At 90° it is undefined, so the graph has a vertical line it never touches, called an asymptote. The same happens at 270°. The graph repeats in the same pattern every 180°, so the period of tan is 180° (not 360°). Its range is all real numbers."],
+"img":{"src":"mth-tan-graph.png","alt":"The graph of y = tan x with vertical asymptotes at 90 and 270 degrees","cap":"y = tan x has asymptotes at 90° and 270°."}},
+{"h":"Reading values from a graph","p":["Example 1: find x between 0° and 360° for which sin x = 0.5. Draw the line y = 0.5 on the sine graph. It cuts the curve at two points. The first is at 30° (special angle). The second is in Quadrant II: 180° − 30° = 150°. So x = 30° or 150°.","Example 2: find x for which cos x = −0.5. The line y = −0.5 cuts the cosine curve in Quadrants II and III. The reference angle is 60° (cos 60° = 0.5). Quadrant II: 180° − 60° = 120°. Quadrant III: 180° + 60° = 240°. So x = 120° or 240°."]}
+],
+"activity":"Draw a table of values for y = cos x for x = 0°, 45°, 90°, 135°, 180°, 225°, 270°, 315° and 360°. Plot the graph on graph paper (2 cm for 45° on the x-axis, 4 cm for 1 unit on the y-axis) and read off x when cos x = 0.8 (about 37° and 323°).",
+"check":[
+{"q":"On the unit circle, the y-coordinate of P is","o":["sin θ","cos θ","tan θ","1"]},
+{"q":"The period of y = sin x is","o":["360°","180°","90°","720°"]},
+{"q":"The period of y = tan x is","o":["180°","360°","90°","270°"]},
+{"q":"For which angle is tan x undefined?","o":["90°","0°","180°","360°"]},
+{"q":"If cos x = −0.5 for 0° < x < 360°, then x is","o":["120° or 240°","60° or 300°","30° or 150°","45° or 135°"]}]},
+
+{"id":"ma2-18","week":11,"title":"Revision of Second Term Mathematics","icon":"ClipboardCheck","summary":"A summary of constructions, loci, theorems, riders and trigonometry, with worked examples from a full revision assignment.",
+"keyWords":["Revision","Constructions","Theorems","Trigonometry","Exam practice"],
+"sections":[
+{"h":"Constructions and loci (Weeks 1 and 2)","p":["Skills: bisecting lines and angles; constructing 30°, 45°, 60° and 90°; copying an angle; constructing triangles and quadrilaterals; use only a ruler and compasses. The four basic loci: a fixed distance from a point gives a circle; equidistant from two points gives a perpendicular bisector; a fixed distance from a line gives two parallel lines; equidistant from two lines gives an angle bisector."]},
+{"h":"Theorems and riders (Weeks 3 and 4)","p":["Know the proofs that the angles of a triangle add up to 180° and that an exterior angle equals the sum of the two opposite interior angles. Know the toolbox: parallel line angles (alternate, corresponding, co-interior), polygons (n − 2) × 180°, congruence (SSS, SAS, ASA, RHS), parallelogram properties. In every rider, give a reason for each step."]},
+{"h":"Trigonometry (Weeks 6 to 10)","p":["SOH CAH TOA: sin = O/H, cos = A/H, tan = O/A. Use them to find sides and angles. Special angles: sin 30° = 1/2, cos 30° = √3/2, tan 30° = 1/√3; sin 45° = cos 45° = √2/2, tan 45° = 1; sin 60° = √3/2, cos 60° = 1/2, tan 60° = √3. Elevation (looking up) and depression (looking down) are equal for the same line of sight. ASTC tells which ratios are positive in each quadrant. The sine and cosine graphs have period 360° and tangent has period 180° with asymptotes."]},
+{"h":"Worked example: construction and loci","p":["Construct triangle ABC with AB = 8 cm, angle A = 60° and angle B = 45°. Draw AB = 8 cm. At A construct 60°. At B construct 90° and bisect it to get 45°. The lines meet at C. Then construct L₁, the perpendicular bisector of AB, and L₂, the bisector of angle BAC. The point P where L₁ and L₂ meet is equidistant from A and B, and from lines AB and AC. Measure AP with your ruler."]},
+{"h":"Worked example: polygon and proof","p":["A regular polygon has 10 sides. Exterior angle = 360° ÷ 10 = 36°. Interior angle = 180° − 36° = 144°. Check: (10 − 2) × 180° = 1440° and 1440° ÷ 10 = 144°.","Prove that opposite angles of a parallelogram ABCD are equal. AD is parallel to BC, so angle A + angle B = 180° (co-interior angles). AB is parallel to DC, so angle B + angle C = 180° (co-interior angles). So angle A + angle B = angle B + angle C, and so angle A = angle C. In the same way angle B = angle D. Q.E.D."]},
+{"h":"Worked example: exact trigonometry","p":["Without a calculator, find sin 30° × tan 60° ÷ cos 45°. = (1/2 × √3) ÷ (√2/2) = (√3/2) × (2/√2) = √3/√2. Rationalise: (√3 × √2)/(√2 × √2) = √6/2.","From the top of a building 50 m high, the angle of depression of a car on the ground is 60°. How far is the car from the base? tan 60° = 50/d, so √3 = 50/d, d = 50/√3 = 50√3/3 = 28.87 m.","If cos θ = −0.5 and 0° < θ < 180°, then θ is in Quadrant II with reference angle 60°. So θ = 180° − 60° = 120°."]}
+],
+"activity":"Write a one-page summary of Second Term: the four loci, the angle toolbox, the three trig ratios and the special-angle table. Use it to quiz a friend.",
+"check":[
+{"q":"A regular decagon (10 sides) has an interior angle of","o":["144°","120°","135°","150°"]},
+{"q":"sin 30° × tan 60° ÷ cos 45° equals","o":["√6/2","√3/2","3/2","1"]},
+{"q":"A car is seen from a 50 m building at 60° depression. Its distance is about","o":["28.9 m","86.6 m","50 m","100 m"]},
+{"q":"If cos θ = −0.5 and 0° < θ < 180°, then θ is","o":["120°","60°","150°","135°"]},
+{"q":"The locus of points equidistant from two points is","o":["The perpendicular bisector","A circle","A parallel line","An angle bisector"]}]}
+]

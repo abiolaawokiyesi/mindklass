@@ -1,0 +1,151 @@
+[
+{"id":"ph2-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What you will learn in SS1 Physics Second Term and a map of every unit.",
+"keyWords":["Momentum","Energy","Machines","Heat","Matter","Table of contents"],
+"sections":[
+{"h":"Welcome back to SS1 Physics","p":["In First Term you learned how to measure things and how to describe motion. In Second Term you will find out why things move the way they do, and what makes work and energy possible. You will study momentum and Newton's laws, work, energy and power, simple machines such as levers and pulleys, heat and temperature, and finally the tiny particles that make up all matter.","Many of these topics appear every year in WAEC and NECO, so work through them carefully. The same simple routine works well: read the idea, study the picture, follow the worked example, and then answer the practice questions."]},
+{"h":"Table of contents for Second Term","p":["Each unit is short and clear. The week numbers follow the SS1 scheme of work."],
+"tbl":{"head":["Unit","Week","What you will learn"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Linear momentum and impulse"],
+["3","1","Conservation of momentum and collisions"],
+["4","1","Newton's laws of motion"],
+["5","2","Work"],
+["6","2","Energy: kinetic, potential and conservation"],
+["7","2","Power, with past-question practice"],
+["8","3 - 4","Simple machines and their types"],
+["9","3 - 4","Mechanical advantage, velocity ratio and efficiency"],
+["10","3 - 4","Machine problems and uses in daily life"],
+["11","6","Heat and temperature"],
+["12","6","Thermometers"],
+["13","6","Temperature scales and conversions"],
+["14","8 - 9","Heat measurement and specific heat capacity"],
+["15","8 - 9","Latent heat"],
+["16","8 - 9","Calorimetry and the method of mixtures"],
+["17","10","The particulate nature of matter"],
+["18","10","Diffusion, Brownian motion and the kinetic theory"]]}},
+{"h":"What you need","p":["A notebook, a pen, a pencil, a ruler and a scientific calculator. Remember to write the units with every answer. Take your time and do not rush."]}
+],
+"activity":"Look at the table of contents above. Choose the topic you think will be easiest and the one you think will be hardest. Write them in your notebook, and after finishing this term look at them again to see if you were right.",
+"check":[
+{"q":"In which unit will you learn about simple machines?","o":["Unit 8","Unit 2","Unit 12","Unit 18"]},
+{"q":"How many units are in this term (including this one)?","o":["18","10","12","5"]},
+{"q":"What is the best way to finish a unit?","o":["Answer all the practice questions correctly","Skip the pictures","Only read the headings","Guess the answers"]},
+{"q":"Which topic is covered in Week 10?","o":["Particulate nature of matter","Momentum","Machines","Work"]}]},
+
+{"id":"ph2-02","week":1,"title":"Linear Momentum and Impulse","icon":"Zap","summary":"The meaning of momentum, the formula p = mv, impulse as change in momentum, and worked examples.",
+"keyWords":["Momentum","Impulse","Force","Change in momentum"],
+"sections":[
+{"h":"What is momentum?","p":["Momentum is the quantity of motion a body has. A heavy lorry moving slowly and a small ball moving very fast can both be hard to stop. Momentum combines mass and velocity.","Linear momentum = mass x velocity, or p = mv. The SI unit is kilogram metre per second (kg m/s). Momentum is a vector quantity, and its direction is the direction of the velocity.","Example 1: a 5 kg object moves at 10 m/s. p = mv = 5 x 10 = 50 kg m/s."]},
+{"h":"Force and change of momentum","p":["When a force acts on a body, the momentum of the body changes. The force is the rate of change of momentum: F = (mv - mu) / t, where u is the initial velocity and v the final velocity.","Example 2: a 2 kg object speeds up from 5 m/s to 15 m/s in 4 s. Change in momentum = m(v - u) = 2 x (15 - 5) = 20 kg m/s. Force F = change in momentum / time = 20 / 4 = 5 N."]},
+{"h":"Impulse","p":["Impulse is the change in momentum caused by a force. Impulse = force x time = Ft = mv - mu. Its unit is the newton second (N s), which is the same as kg m/s.","A big force for a short time can give the same impulse as a small force for a long time. This is why you bend your knees when you land from a jump: you make the stopping time longer, so the force on your legs is smaller. It is also why a cricket fielder pulls their hands back when catching a fast ball."]},
+{"h":"Worked example: impulse in a rope","p":["A tractor of mass 5000 kg is used to tow a car of mass 2500 kg. The tractor moves at 3.0 m/s just before the towing rope becomes tight. Find the impulse in the rope when it jerks the car into motion."],
+"ex":{"t":"Solution","b":["When the rope becomes tight, the tractor and car move off together at a common velocity v. Momentum is conserved: 5000 x 3 = (5000 + 2500) x v.","15 000 = 7500 v, so v = 2 m/s.","Impulse on the car = change in its momentum = 2500 x 2 - 2500 x 0 = 5000 N s.","So the impulse in the rope is 5.0 x 10³ N s."]}},
+{"h":"Worked example: a very short force","p":["A force of 100 N acts on a particle of mass 0.15 kg for 0.03 s. Find the change in the speed of the particle."],
+"ex":{"t":"Solution","b":["Ft = m Δv, so Δv = Ft / m.","Δv = (100 x 0.03) / 0.15 = 3 / 0.15 = 20 m/s."]}}
+],
+"activity":"Imagine catching a soft pillow thrown to you and then catching a hard cricket ball thrown at the same speed. Explain, using the idea of impulse, why you pull your hands back when you catch the ball.",
+"check":[
+{"q":"What is the momentum of a 5 kg object moving at 10 m/s?","o":["50 kg m/s","2 kg m/s","15 kg m/s","0.5 kg m/s"]},
+{"q":"What is the SI unit of impulse?","o":["N s","N","J","W"]},
+{"q":"Impulse is equal to","o":["Change in momentum","Mass x acceleration","Work done","Power x time"]},
+{"q":"A 2 kg object changes from 5 m/s to 15 m/s in 4 s. What is the force?","o":["5 N","10 N","20 N","2.5 N"]},
+{"q":"Why do you bend your knees when landing?","o":["To make the stopping time longer and reduce the force","To increase the force","To increase your mass","To reduce your weight"]}]},
+
+{"id":"ph2-03","week":1,"title":"Conservation of Momentum and Collisions","icon":"Zap","summary":"The law of conservation of linear momentum, the types of collision, and worked examples.",
+"keyWords":["Conservation of momentum","Elastic collision","Inelastic collision","Isolated system"]
+,"sections":[
+{"h":"The law of conservation of linear momentum","p":["The law states that when objects collide, the total momentum before the collision equals the total momentum after the collision, provided no external force acts on them. A system with no outside force is called an isolated system.","In symbols for two bodies: m1u1 + m2u2 = m1v1 + m2v2. Here m1 and m2 are the masses, u1 and u2 are the velocities before the collision and v1 and v2 are the velocities after. Remember that momentum is a vector, so give a velocity in the opposite direction a negative sign."]},
+{"h":"Types of collision","p":["Elastic collision: both momentum and kinetic energy are conserved. The bodies bounce apart without any loss of energy. Collisions between gas molecules are very nearly elastic.","Inelastic collision: momentum is conserved but some kinetic energy is changed into heat, sound or deformation. Most real collisions are like this.","Perfectly inelastic collision: the bodies stick together after the collision and move with a common velocity. This loses the most kinetic energy."],
+"tbl":{"head":["Type","Momentum conserved?","Kinetic energy conserved?","Example"],"rows":[
+["Elastic","Yes","Yes","Billiard balls, gas molecules"],
+["Inelastic","Yes","No","A ball hitting the ground"],
+["Perfectly inelastic","Yes","No (largest loss)","Two trolleys that stick together"]]}},
+{"h":"Worked example 1: bodies that stick together","p":["A body of mass 5 kg moving at 10 m/s collides with a stationary body of mass 6 kg. They stick together. Find their common velocity."],
+"ex":{"t":"Solution","b":["Momentum before = 5 x 10 + 6 x 0 = 50 kg m/s.","Momentum after = (5 + 6) x v = 11v.","Conservation: 11v = 50, so v = 4.55 m/s in the original direction."]}},
+{"h":"Worked example 2: two trolleys","p":["A trolley of mass 4 kg moves at 1.0 m/s on a smooth horizontal platform and collides with a stationary trolley of the same mass. They stick together. Find the total momentum just after the collision and the speed of the pair."],
+"ex":{"t":"Solution","b":["Momentum before = 4 x 1.0 + 4 x 0 = 4 kg m/s.","Momentum is conserved, so the total momentum after the collision is also 4 kg m/s.","Common velocity v = 4 / (4 + 4) = 0.5 m/s."]}},
+{"h":"Where the law is used","p":["Rocket and jet engines: gas shoots backwards and the rocket moves forwards, so total momentum stays the same.","Guns: the bullet goes forward and the gun recoils backwards.","Road safety: crumple zones in cars lengthen the collision time to reduce the force on the passengers.","Sports: when a bat hits a ball, momentum is passed from the bat to the ball."]}
+],
+"activity":"Place two similar coins on a smooth table. Flick one coin so it hits the other coin straight on. Watch what happens to each coin and say which type of collision this looks like.",
+"check":[
+{"q":"In an elastic collision","o":["Momentum and kinetic energy are conserved","Only mass is conserved","Nothing is conserved","Only energy is conserved"]},
+{"q":"In a perfectly inelastic collision the bodies","o":["Stick together","Bounce apart","Stop forever","Increase in mass"]},
+{"q":"A 5 kg body moving at 10 m/s hits a stationary 5 kg body and they stick together. Their common velocity is","o":["5 m/s","10 m/s","2 m/s","20 m/s"]},
+{"q":"The law of conservation of momentum applies when","o":["No external force acts","A large force acts","Friction is large","Only one body is present"]},
+{"q":"Which of these works by conservation of momentum?","o":["A rocket","A ruler","A spring balance","A thermometer"]}]},
+
+{"id":"ph2-04","week":1,"title":"Newton's Laws of Motion","icon":"Landmark","summary":"Newton's three laws of motion, inertia, worked examples with forces, and real-life uses.",
+"keyWords":["Inertia","Newton's first law","F = ma","Action and reaction","Resultant force"],
+"sections":[
+{"h":"Newton's first law (the law of inertia)","p":["An object stays at rest, or keeps moving in a straight line at constant speed, unless an outside (external) force acts on it.","Inertia is the reluctance of a body to change its state of rest or of uniform motion. The bigger the mass, the bigger the inertia. This is why passengers lean forward when a bus brakes suddenly: their bodies want to keep moving. It is the reason for seat belts."]},
+{"h":"Newton's second law (F = ma)","p":["The force applied on a body is directly proportional to the rate of change of its momentum and takes place in the direction of the force. For a body of constant mass, this gives F = ma.","The bigger the force, the bigger the acceleration. For the same force, the bigger the mass, the smaller the acceleration. This is why it is easier to push an empty wheelbarrow than a loaded one."]},
+{"h":"Newton's third law (action and reaction)","p":["For every action there is an equal and opposite reaction. When you push on a wall, the wall pushes back on you with an equal force. The two forces act on different bodies.","Examples: when you walk, your foot pushes back on the ground and the ground pushes you forward. A rocket pushes gas downwards and the gas pushes the rocket upwards. A swimmer pushes the water backwards and the water pushes the swimmer forwards."]},
+{"h":"Worked example 1: forces at an angle","p":["Two forces, 100 N and 60 N, act on a block of mass 10 kg lying on a smooth horizontal floor as shown. The 100 N force acts at 45° above the horizontal and the 60 N force acts horizontally. Find the acceleration of the block. Neglect friction. (g = 9.8 m/s²)"],
+"img":{"src":"phy-force-100-60.jpg","alt":"A 10 kg block on the floor with a 60 N force acting horizontally and a 100 N force at 45 degrees above the horizontal","cap":"A 10 kg block pulled by two forces."},
+"ex":{"t":"Solution","b":["Split the 100 N force into two parts: horizontal part = 100 cos 45° = 70.71 N and vertical part = 100 sin 45° = 70.71 N (upwards).","Total horizontal force = 70.71 + 60 = 130.71 N.","The upward force (70.71 N) is smaller than the weight of the block (10 x 9.8 = 98 N), so the block stays on the floor and does not move up or down. The floor simply pushes up with a smaller reaction.","So the only unbalanced force is the horizontal one. a = F / m = 130.71 / 10 = 13.07 m/s²."]}},
+{"h":"The picture of the split force","p":["The picture shows how the 100 N force is split into a horizontal and a vertical part. Splitting a force this way is called resolving the force."],
+"img":{"src":"phy-force-resolved.jpg","alt":"The 100 N force at 45 degrees resolved into horizontal and vertical parts","cap":"Resolving the 100 N force."}},
+{"h":"Worked example 2 and real-life uses","p":["Example: a 1200 kg car moving at 25 m/s brakes to a stop in 5 s. Initial momentum = 1200 x 25 = 30 000 kg m/s. Average braking force = change in momentum / time = 30 000 / 5 = 6000 N.","Example: a 0.5 kg ball hits a wall at 10 m/s and rebounds at 8 m/s. The contact lasts 0.2 s. Taking the direction towards the wall as positive, change in momentum = 0.5 x (-8) - 0.5 x 10 = -9 kg m/s. Average force = 9 / 0.2 = 45 N (size).","Real-life uses: seat belts (first law), braking systems (second law), rocket launch and walking (third law), and kicking a ball in sports."]}
+],
+"activity":"Place a coin on a card on top of a glass, then flick the card away quickly. The coin drops into the glass. Explain what happened using Newton's first law.",
+"check":[
+{"q":"Which law explains why passengers lean forward when a bus brakes?","o":["First law (inertia)","Second law","Third law","Law of gravitation"]},
+{"q":"What is the force on a 4 kg mass that accelerates at 3 m/s²?","o":["12 N","7 N","1.3 N","0.75 N"]},
+{"q":"A rocket moves upward because","o":["Gas pushed downward pushes the rocket upward","The air pulls it","Gravity is switched off","Light pushes it"]},
+{"q":"Inertia of a body depends on its","o":["Mass","Colour","Shape only","Temperature"]},
+{"q":"A 1200 kg car at 25 m/s stops in 5 s. What is the average braking force?","o":["6000 N","30 000 N","240 N","300 N"]}]},
+
+{"id":"ph2-05","week":2,"title":"Work","icon":"Zap","summary":"What work means in Physics, the formula W = Fd cos θ, positive, negative and zero work, and worked examples.",
+"keyWords":["Work","Joule","Force","Displacement","Positive work","Negative work"],
+"sections":[
+{"h":"What is work?","p":["In everyday speech, work means any effort. In Physics, work is done only when a force moves an object through a distance in the direction of the force. Work = force x distance moved in the direction of the force.","If the force and the movement are in the same line, W = F x d. If the force makes an angle θ with the direction of movement, W = F d cos θ.","The SI unit of work is the joule (J). One joule is the work done when a force of 1 N moves an object 1 m in the direction of the force."]},
+{"h":"When is work done?","p":["A force must be applied.","The object must move (there must be a displacement).","The movement must have a part in the direction of the force.","If a boy pushes hard against a wall and the wall does not move, no work is done in the Physics sense, because the displacement is zero."]},
+{"h":"Positive, negative and zero work","p":["Positive work: the force and the movement are in the same direction (pushing a trolley forward).","Negative work: the force is opposite to the movement (friction slowing a sliding box, or a goalkeeper catching a ball).","Zero work: there is no movement, or the force is at 90 degrees to the movement. A person carrying a load along a level path does no work on the load, because the upward force is at right angles to the horizontal movement."]},
+{"h":"Worked examples","p":["Try each one before looking at the working."],
+"ex":{"t":"Examples","b":["A force of 20 N moves an object through 5 m. W = F d = 20 x 5 = 100 J.","A force of 50 N pushes a cart through 20 m. W = 50 x 20 = 1000 J.","A boy pushes a wheelbarrow with 50 N for 10 m. W = 50 x 10 = 500 J.","A 10 N weight is lifted 8 m. W = 10 x 8 = 80 J.","A force of 100 N pulls a sledge 10 m along level ground with a rope at 60° to the ground. W = F d cos θ = 100 x 10 x cos 60° = 100 x 10 x 0.5 = 500 J."]}}
+],
+"activity":"List five things you did today. For each one, say whether work was done in the Physics sense (for example, lifting a bucket - yes; holding a bucket still - no) and give your reason.",
+"check":[
+{"q":"What is the SI unit of work?","o":["Joule","Newton","Watt","Pascal"]},
+{"q":"A force of 20 N moves an object 5 m in the direction of the force. The work done is","o":["100 J","25 J","4 J","15 J"]},
+{"q":"A boy pushes a wall but it does not move. The work done is","o":["Zero","Maximum","Negative","Equal to his weight"]},
+{"q":"Friction slowing down a sliding box does","o":["Negative work","Positive work","Zero work","Infinite work"]},
+{"q":"Work done = force x distance moved","o":["In the direction of the force","At right angles to the force","Only upwards","Only in a circle"]}]},
+
+{"id":"ph2-06","week":2,"title":"Energy: Kinetic, Potential and Conservation","icon":"Zap","summary":"Forms of energy, kinetic energy, potential energy, the principle of conservation of energy, and worked examples.",
+"keyWords":["Energy","Kinetic energy","Potential energy","Conservation of energy","Joule"],
+"sections":[
+{"h":"What is energy?","p":["Energy is the ability (capacity) to do work. It is measured in joules (J), the same unit as work. When you do work on an object, you give it energy."]},
+{"h":"Forms of energy","p":["Mechanical energy (kinetic and potential), chemical energy (food, fuel, batteries), thermal or heat energy, electrical energy, sound energy, light energy and nuclear energy. Energy can change from one form to another. In a torch, chemical energy in the battery becomes electrical energy and then light and heat."]},
+{"h":"Kinetic energy","p":["Kinetic energy (K.E.) is the energy a body has because it is moving. K.E. = ½mv², where m is the mass in kg and v is the speed in m/s.","Notice that speed is squared: if you double the speed of a car, its kinetic energy becomes four times bigger. This is why high speed is so dangerous on the road."],
+"ex":{"t":"Worked examples","b":["Find the K.E. of a 2 kg object moving at 3 m/s. K.E. = ½ x 2 x 3² = ½ x 2 x 9 = 9 J.","A ball of mass 0.5 kg is kicked at 10 m/s. K.E. = ½ x 0.5 x 10² = 0.25 x 100 = 25 J.","A car of mass 1000 kg moves at 10 m/s. K.E. = ½ x 1000 x 100 = 50 000 J."]}},
+{"h":"Potential energy","p":["Potential energy (P.E.) is the energy a body has because of its position or state. The gravitational potential energy of a body of mass m raised through a height h is P.E. = mgh. A stretched spring or a bent bow also stores potential energy."],
+"ex":{"t":"Worked examples","b":["A body of mass 4 kg is lifted to a height of 5 m. P.E. = mgh = 4 x 10 x 5 = 200 J (g = 10 m/s²).","A 4 kg object is raised 10 m. P.E. = 4 x 10 x 10 = 400 J."]}},
+{"h":"Principle of conservation of energy","p":["Energy cannot be created or destroyed. It can only be changed from one form to another. The total energy of an isolated system stays the same.","Example: a ball thrown upwards. At the start it has only kinetic energy. As it rises, kinetic energy changes to potential energy. At the top, all the energy is potential. When it falls back, potential energy changes back to kinetic energy. At every point, K.E. + P.E. stays the same (if we ignore air resistance)."]}
+],
+"activity":"Hold a small stone at shoulder height and then drop it. Write down at least three places where you can feel or see the energy change (when you hold it, as it falls, when it hits the ground and makes a sound).",
+"check":[
+{"q":"What is the formula for kinetic energy?","o":["½mv²","mgh","Fd","mv"]},
+{"q":"A 2 kg object moves at 3 m/s. What is its kinetic energy?","o":["9 J","6 J","18 J","3 J"]},
+{"q":"A 4 kg body is lifted 5 m (g = 10 m/s²). What is its potential energy?","o":["200 J","20 J","9 J","40 J"]},
+{"q":"If the speed of a car doubles, its kinetic energy becomes","o":["Four times as big","Twice as big","Half as big","The same"]},
+{"q":"The principle of conservation of energy says energy","o":["Can only change from one form to another","Can be created from nothing","Can be destroyed","Never changes form"]}]},
+
+{"id":"ph2-07","week":2,"title":"Power","icon":"Zap","summary":"What power is, its formula and units, and worked examples from past WAEC and NECO questions.",
+"keyWords":["Power","Watt","Kilowatt","Horsepower","Efficiency"],
+"sections":[
+{"h":"What is power?","p":["Power is the rate at which work is done, or the rate at which energy is transferred. Two people can do the same work, but the one who does it faster has more power.","Power = work done / time taken, or P = W / t. (Be careful: power is work divided by time, not multiplied.) The SI unit of power is the watt (W). 1 W = 1 J/s.","Other units: 1 kilowatt (kW) = 1000 W, and 1 horsepower (hp) = 746 W."]},
+{"h":"Worked examples","p":["Check each answer carefully."],
+"ex":{"t":"Examples","b":["A machine does 3000 J of work in 60 s. P = W / t = 3000 / 60 = 50 W.","A machine does 1500 J of work in 25 s. P = 1500 / 25 = 60 W.","A man of mass 70 kg runs up stairs 5 m high in 7 s. Work = mgh = 70 x 10 x 5 = 3500 J. Power = 3500 / 7 = 500 W.","A pump transfers 6000 J of energy to water in 30 s. P = 6000 / 30 = 200 W."]}},
+{"h":"Power in electricity","p":["The units of power are the same ones you see on electrical appliances. A 60 W bulb uses 60 J of electrical energy every second. A 2 kW electric iron uses 2000 J every second. Your electricity bill is based on the energy used, which is power x time (for example, a 2 kW heater used for 3 hours uses 6 kilowatt-hours)."]},
+{"h":"Practising with past-question style problems","p":["WAEC style: (a) Define work and state its SI unit. Answer: Work is done when a force moves an object in the direction of the force; the unit is the joule. (b) A force of 50 N pushes a cart 20 m. W = 1000 J. (c) Work is done only when there is displacement in the direction of the force. (d) A boy pushes a wall that does not move: no work is done, because the displacement is zero.","NECO style: define kinetic energy (energy of a body due to its motion) and potential energy (energy of a body due to its position or state). A ball of 0.5 kg kicked at 10 m/s has K.E. = 25 J. A 4 kg body lifted 5 m has P.E. = 200 J."]},
+{"h":"Efficiency","p":["No machine turns all the energy it receives into useful work. Some is wasted as heat or sound. Efficiency = (useful work output / total work input) x 100%.","Example: a machine uses 500 J to do 400 J of useful work. Efficiency = 400 / 500 x 100% = 80%."]}
+],
+"activity":"Walk up a flight of stairs at a normal speed and time yourself. Estimate the height of the stairs, then use P = mgh / t to estimate your power (use your own mass in kg).",
+"check":[
+{"q":"What is the unit of power?","o":["Watt","Joule","Newton","Pascal"]},
+{"q":"A machine does 3000 J of work in 60 s. What is its power?","o":["50 W","180 000 W","0.02 W","3060 W"]},
+{"q":"1 kilowatt equals","o":["1000 W","100 W","10 W","1 000 000 W"]},
+{"q":"A machine uses 500 J to do 400 J of useful work. Its efficiency is","o":["80%","125%","20%","100%"]},
+{"q":"Which formula is correct for power?","o":["P = W / t","P = W x t","P = F x m","P = m / t"]}]}
+]

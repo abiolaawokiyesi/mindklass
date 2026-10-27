@@ -1,0 +1,93 @@
+[
+{"id":"ma2-02","week":1,"title":"Constructions: Bisecting Angles and Making 60°, 90°, 30° and 45°","icon":"Target","summary":"The two tools of pure construction, how to bisect an angle, and how to construct 60°, 90°, 30° and 45° angles with a ruler and compasses only.",
+"keyWords":["Construction","Compasses","Bisect","Arc","Perpendicular"],
+"sections":[
+{"h":"Pure construction","p":["Geometric construction means drawing exact shapes using only two tools: an unmarked straightedge (a ruler used only to draw straight lines) and a pair of compasses (for drawing arcs and circles). A protractor may be used only to check your work at the end. This idea goes back to ancient Greece and Euclid. It shows how exact reasoning can create exact shapes.","Tips: use a sharp pencil, keep the compass radius firm, make your arcs light but clear, and never rub out your construction arcs because they show your method."]},
+{"h":"Bisecting an angle","p":["To bisect means to cut into two equal halves. To bisect an angle ABC: (1) Put the compass point on the vertex B and draw an arc that cuts both arms, at P and Q. (2) Put the compass point on P and draw an arc inside the angle. (3) Without changing the radius, put the point on Q and draw another arc that crosses the first at R. (4) Draw a straight line from B through R. This line BR bisects the angle, so angle ABR = angle RBC."],
+"img":{"src":"mth-angle-bisector.png","alt":"Construction of an angle bisector: arc from B cutting both arms at P and Q, equal arcs from P and Q meeting at R, and the line BR","cap":"Bisecting angle ABC: the arcs from P and Q meet at R, and BR is the bisector."}},
+{"h":"Constructing 60°","p":["Draw a straight line and mark a point P on it. With the compass point on P, draw a wide arc that cuts the line at Q. Without changing the radius, put the compass point on Q and draw another arc that cuts the first arc at R. Join P to R. Angle RPQ is exactly 60°.","Why it works: PQ, PR and QR are all the same length (the compass radius), so triangle PQR is equilateral, and every angle of an equilateral triangle is 60°."],
+"img":{"src":"mth-construct-60.png","alt":"Construction of a 60 degree angle: arc from P cutting the line at Q, arc from Q cutting it at R, and the line PR","cap":"Constructing 60° with an equilateral triangle PQR."}},
+{"h":"Constructing 90°","p":["Draw a straight line and mark a point P in the middle of it. With the compass point on P, draw an arc that cuts the line on both sides, at X and Y. Increase the compass radius. Put the point on X and draw a large arc above the line. Without changing the radius, put the point on Y and draw another arc to cross the first at Z. Draw a line from P through Z. Angle ZPY is 90°. (If you draw arcs below too you get a second point W, and ZW is the perpendicular bisector of XY.)"],
+"img":{"src":"mth-construct-90.png","alt":"Construction of a perpendicular: small arc from P cutting the line at X and Y, larger arcs from X and Y meeting at Z above and W below","cap":"Constructing 90° at P."}},
+{"h":"Constructing 30° and 45°","p":["30°: construct 60°, then bisect it. You get two angles of 30°. 45°: construct 90°, then bisect it. You get two angles of 45°. In the same way, bisect 30° to get 15°, and bisect 45° to get 22.5°."]},
+{"h":"Other angles from these","p":["Add or subtract the basic angles. 75° = 60° + 15°. 105° = 60° + 45°. 120° = 60° + 60°. 135° = 90° + 45°. 150° = 90° + 60°. 15° = half of 30°."]}
+],
+"activity":"On plain paper, construct 90° and bisect it to get 45°. Then construct 60° and bisect it to get 30°. Check each with a protractor.",
+"check":[
+{"q":"Which two tools are used in pure construction?","o":["An unmarked ruler and compasses","A protractor and set square","A calculator and ruler","Compasses and a protractor"]},
+{"q":"To bisect an angle means to","o":["Cut it into two equal halves","Double it","Draw it again","Measure it"]},
+{"q":"A 60° angle is constructed from","o":["An equilateral triangle","A square","A right-angled triangle","A circle only"]},
+{"q":"How do you construct 30°?","o":["Construct 60° and bisect it","Construct 90° and bisect it","Construct 45° and double it","Construct 120° and halve it"]},
+{"q":"Which two angles add to give 105°?","o":["60° and 45°","90° and 30°","45° and 30°","60° and 30°"]}]},
+
+{"id":"ma2-03","week":1,"title":"Constructing Angles Like 135° and Constructing Triangles","icon":"Target","summary":"Building bigger angles from basic angles, the conditions that fix a triangle (SSS, SAS, ASA, RHS) and worked constructions.",
+"keyWords":["SSS","SAS","ASA","RHS","Base","Included angle"],
+"sections":[
+{"h":"Constructing 135°","p":["135° is not a basic angle, but 135° = 90° + 45°. Steps: draw a straight line AB and mark a point P on it. Construct a 90° angle at P, giving a line PQ. Angle QPB is 90° and angle QPA is also 90°. Now bisect the angle QPA. This makes a 45° angle. The bisector PR makes angle RPB = 90° + 45° = 135°."]},
+{"h":"What do you need to draw a triangle?","p":["A triangle is rigid, so three pieces of information can fix it: SSS (all three sides), SAS (two sides and the angle between them), ASA (two angles and the side between them) and RHS (a right angle, the hypotenuse and one other side).","General steps: (1) Draw the longest or most convenient side first as the base. (2) Use the next piece of information: construct an angle or measure another side. (3) Find the third corner where the remaining lines or arcs meet."]},
+{"h":"Example 1: SSS","p":["Construct triangle ABC with AB = 7 cm, BC = 8 cm and AC = 6 cm. Draw AB = 7 cm. With the compass set to 6 cm, draw an arc from A. Set the compass to 8 cm and draw an arc from B so that it cuts the first arc at C. Join AC and BC."]},
+{"h":"Example 2: ASA with a constructed angle","p":["Construct triangle ABC where AB = 6 cm, angle CAB = 60° and angle CBA = 45°. Draw AB = 6 cm. At A construct 60° and draw a long line. At B construct 90° lightly, bisect it to get 45°, and draw a long line. The two lines cross at C. Triangle ABC is the required triangle."]},
+{"h":"Example 3: a right-angled triangle","p":["Construct triangle ABC with AB = 8 cm, angle CAB = 30° and angle CBA = 60°. Draw AB = 8 cm. At A construct 30°; at B construct 60°. Where the lines cross is C. Measure BC: it should be 4 cm, half of AB. Angle ACB = 180° − 30° − 60° = 90°, so the triangle is right-angled."]}
+],
+"activity":"Construct triangle ABC with AB = 7 cm, BC = 8 cm and AC = 6 cm using only a ruler and compasses. Measure each angle with a protractor to check the angle sum is 180°.",
+"check":[
+{"q":"135° can be constructed as","o":["90° + 45°","60° + 30°","90° + 30°","45° + 30°"]},
+{"q":"SAS means","o":["Two sides and the angle between them","Three angles","Three sides","Two angles and a side"]},
+{"q":"Which of these information sets can fix a unique triangle?","o":["Three sides","Three angles only","One side only","Two angles only"]},
+{"q":"In a triangle with angles 30° and 60°, the third angle is","o":["90°","80°","100°","60°"]},
+{"q":"When constructing a triangle, you should draw first","o":["The base side","The tallest angle","The circle","The shadow"]}]},
+
+{"id":"ma2-04","week":2,"title":"Copying an Angle and Constructing Quadrilaterals","icon":"Target","summary":"How to copy an angle exactly, how to construct a parallelogram and a rhombus by splitting them into triangles, and their properties.",
+"keyWords":["Copy an angle","Parallelogram","Rhombus","Quadrilateral","Diagonal"],
+"sections":[
+{"h":"Copying an angle","p":["Sometimes you are given any angle and must copy it. To copy angle ABC to a new point P: (1) Draw a line PQ for one arm of the new angle. (2) With the compass point on B, draw an arc that cuts both arms of angle ABC at M and N. (3) Without changing the radius, put the point on P and draw the same arc, cutting PQ at X. (4) Set the compass to the distance MN. (5) Put the point on X and draw an arc that cuts the arc from step 3 at Y. (6) Draw a line from P through Y. Angle YPQ is an exact copy of angle ABC."]},
+{"h":"Constructing quadrilaterals","p":["A quadrilateral is not rigid, so you usually need five pieces of information. The trick is to split the shape into two triangles and construct each in turn.","Example: construct parallelogram ABCD with AB = 6 cm, BC = 4 cm and angle ABC = 60°. (1) Draw AB = 6 cm. (2) At B construct a 60° angle. (3) Measure 4 cm along the new line and mark C. (4) To find D: set the compass to 4 cm and draw an arc from A; set it to 6 cm and draw an arc from C; they meet at D. (5) Join A to D and C to D.","Another method for D: copy the angle at B to A, using the rule for parallel lines, and draw a line from A parallel to BC."]},
+{"h":"Properties of a parallelogram (to check your drawing)","p":["Opposite sides are equal and parallel. Opposite angles are equal. Adjacent angles add up to 180°. The diagonals bisect each other."]},
+{"h":"Constructing a rhombus","p":["A rhombus has four equal sides. Construct a rhombus ABCD with side 5 cm and angle ABC = 60°. Draw AB = 5 cm. At B construct 60° and mark C so that BC = 5 cm. With the compass set to 5 cm, draw arcs from A and from C; they meet at D. Join AD and CD. The diagonals of a rhombus cross at 90° and bisect the angles."]}
+],
+"activity":"Draw an angle of 75° (60° + 15°). Then copy it to a new point on another line with only compasses and a ruler. Check both angles with a protractor.",
+"check":[
+{"q":"Which tool step gives the opening of the angle to be copied?","o":["Setting the compass to the distance MN","Using a protractor","Measuring with a ruler marked in cm","Folding the paper"]},
+{"q":"How many pieces of information do you usually need to construct a quadrilateral?","o":["Five","Three","Two","One"]},
+{"q":"In a parallelogram, opposite sides are","o":["Equal and parallel","Perpendicular","Different","Always 5 cm"]},
+{"q":"Adjacent angles in a parallelogram add up to","o":["180°","90°","360°","60°"]},
+{"q":"A rhombus has","o":["Four equal sides","Four right angles","Three equal sides","Two pairs of different sides"]}]},
+
+{"id":"ma2-05","week":2,"title":"Locus: The Path of a Moving Point","icon":"Layers","summary":"What a locus is, the four basic loci (circle, perpendicular bisector, parallel lines and angle bisector) and real-life examples.",
+"keyWords":["Locus","Loci","Equidistant","Perpendicular bisector","Angle bisector"],
+"sections":[
+{"h":"What is a locus?","p":["A locus (plural loci) is the set of all points that obey a given rule. You can think of it as the path a point traces when it moves according to a rule. The idea comes from ancient Greece, and it is used today in GPS tracking, robotics and computer graphics."]},
+{"h":"The four basic loci","p":["Learn these four. They appear in every WAEC and NECO paper."],
+"tbl":{"head":["Rule","Locus","Real-life example"],"rows":[
+["Points at a fixed distance from one point X","A circle with centre X","The area covered by a mobile phone mast"],
+["Points equidistant (the same distance) from two points A and B","The perpendicular bisector of AB","A boundary between two houses or towns"],
+["Points at a fixed distance from a line AB","Two lines parallel to AB, one on each side","The edges of a road of fixed width"],
+["Points equidistant from two intersecting lines","The bisectors of the angles between the lines","A ball bouncing off two walls at equal angles"]]},
+"img":{"src":"mth-loci.png","alt":"Four panels: a circle around a point, the perpendicular bisector of two points, two parallel lines either side of a line, and the angle bisectors of two intersecting lines","cap":"The four basic loci."}},
+{"h":"More about each locus","p":["Locus 1: all points 3 cm from a point X form a circle of radius 3 cm. Locus 2: every point on the perpendicular bisector of AB is the same distance from A as from B. Locus 3: points 2 cm from a line AB form a pair of parallel lines, 2 cm above and 2 cm below it (with a half-circle at each end if AB is a segment). Locus 4: for two lines that meet, points equidistant from both lie on the angle bisector; there are two bisectors (inside and outside the angle).","Other loci: the tip of the minute hand of a clock traces a circle. The locus of points equidistant from two parallel lines 6 cm apart is a line parallel to both, 3 cm from each."]}
+],
+"activity":"Describe in words the locus of a point P that moves so that its distance from a fixed point O is always 5 cm. (Answer: a circle of radius 5 cm with centre O.) Then describe the locus of points equidistant from two parallel lines 6 cm apart.",
+"check":[
+{"q":"The locus of points at a fixed distance from a point is","o":["A circle","A straight line","A square","A triangle"]},
+{"q":"The locus of points equidistant from two points A and B is","o":["The perpendicular bisector of AB","A circle through A","A line parallel to AB","The line AB"]},
+{"q":"Points 2 cm from a line AB form","o":["Two parallel lines","A circle","A single line","A point"]},
+{"q":"The locus of points equidistant from two intersecting lines is","o":["The angle bisector","A circle","A parallel line","A point"]},
+{"q":"The tip of the minute hand of a clock moves along","o":["A circle","A straight line","A square","A triangle"]}]},
+
+{"id":"ma2-06","week":2,"title":"Constructing Loci and Solving Locus Problems","icon":"Layers","summary":"Drawing a perpendicular bisector, combining loci to find a region (the goat problem), and further exercises.",
+"keyWords":["Perpendicular bisector","Region","Intersection of loci","Scale drawing"],
+"sections":[
+{"h":"Constructing the perpendicular bisector","p":["Draw XY = 7 cm. Set the compass to more than half of XY (for example 5 cm). Put the point on X and draw a large arc above and below the line. Without changing the radius, put the point on Y and draw arcs that cross the first ones at M and N. Draw the line MN. This is the perpendicular bisector of XY. Every point on it is the same distance from X and Y."]},
+{"h":"Combining loci","p":["Many problems give two or more rules at once. Draw each locus on the same diagram and find where the conditions are all true: this is where the loci cross, or the region between them. Always draw to scale and shade the required region clearly."]},
+{"h":"Worked example: the goat","p":["A goat is tied to a post P with a 4 m rope, and also to a post Q with a 3 m rope. P and Q are 5 m apart. Show where the goat can graze. Use the scale 1 cm = 1 m.","Step 1: draw PQ = 5 cm. Step 2: the goat must be within 4 m of P, so draw a circle of radius 4 cm around P. Step 3: the goat must be within 3 m of Q, so draw a circle of radius 3 cm around Q. Step 4: the goat can only go where both conditions hold, so shade the overlap of the two circles (it looks like a lens)."],
+"img":{"src":"mth-goat.png","alt":"Two overlapping circles centred on P with radius 4 and Q with radius 3, with the overlap shaded","cap":"The goat can graze only in the overlap of the two circles."}},
+{"h":"Practice constructions","p":["1. Draw AB = 6 cm. Construct (a) the locus of points 4 cm from AB, (b) the locus of points equidistant from A and B, and (c) mark the points where the two loci meet.","2. Draw two lines meeting at X at an angle of 45°. Construct the locus of points equidistant from both lines, and the locus of points 3 cm from X. Mark the point that fits both.","3. Draw a rhombus with side 5 cm and angle 60°, and a line copy of 75° (see the earlier units)."]}
+],
+"activity":"Draw AB = 6 cm. Construct the locus of points 4 cm away from AB, and the locus of points equidistant from A and B. Mark where they cross (there are 4 points).",
+"check":[
+{"q":"The perpendicular bisector of XY is made by drawing arcs from","o":["X and Y with the same radius","X only","The middle of XY","Any point"]},
+{"q":"To find where a goat can graze on two ropes, you","o":["Shade the overlap of two circles","Draw one big circle","Draw a straight line","Add the radii"]},
+{"q":"A scale of 1 cm = 1 m means 4 m is drawn as","o":["4 cm","1 cm","40 cm","0.4 cm"]},
+{"q":"When two loci are required at once, you","o":["Draw both and find where they cross or overlap","Draw only the first","Ignore the second","Add the loci"]},
+{"q":"Every point on the perpendicular bisector of XY is","o":["The same distance from X and Y","Closer to X","Closer to Y","On the line XY"]}]}
+]

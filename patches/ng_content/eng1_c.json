@@ -1,0 +1,161 @@
+[
+{"id":"en1-19","week":6,"title":"Vocabulary: Agricultural Implements (Farm Tools and Machines)","icon":"Landmark","summary":"Simple (manual) tools and mechanised machines used in farming, what each does, and practice in using the words.",
+"keyWords":["Implement","Manual","Mechanised","Plough","Harrow","Harvester"],
+"sections":[
+{"h":"What are agricultural implements?","p":["Agricultural implements are the tools, devices and machines used in farming to make work easier, faster and more efficient. Without them, modern farming and food production would be very difficult. We group them in two classes: simple (manual) implements, which are hand tools powered by human effort and common on small subsistence farms, and mechanised implements, which are machines powered by an engine or electricity and used in large commercial farming."]},
+{"h":"Simple farm implements (manual tools)","p":["Learn what each tool looks like and what it is used for."],
+"tbl":{"head":["Implement","Description and use"],"rows":[
+["Hoe","A tool with a flat blade on a long handle, used for digging, removing weeds and making ridges"],
+["Cutlass","A long, heavy, single-edged blade used for clearing thick grass, bushes and small trees"],
+["Rake","A tool with a row of teeth (tines), used for gathering leaves, smoothing soil or removing rubbish"],
+["Spade","A tool with a flat, sharp-edged blade for digging, lifting and turning soil, especially for making holes"],
+["Shovel","A tool with a broad, curved blade for scooping and moving loose materials such as sand, manure or grain"],
+["Wheelbarrow","A small cart with one wheel, used for carrying loads such as crops, manure and tools by hand"],
+["Sickle","A tool with a short, curved blade, used for harvesting grasses or grain crops such as rice"],
+["Watering can","A container with a spout, used for watering plants by hand"]]}},
+{"h":"Mechanised farm implements (machines)","p":["These machines save time and energy on large farms."],
+"tbl":{"head":["Implement","Description and use"],"rows":[
+["Tractor","The main vehicle of a farm. It gives the power to pull or run most other machines"],
+["Plough","A large, heavy implement pulled by a tractor that cuts deep into the soil and turns it over, burying weeds and preparing the land for planting"],
+["Harrow","Used after ploughing. It breaks up large clumps of soil and makes a finer, smoother seedbed"],
+["Ridger","An implement that forms long raised hills of soil (ridges) for crops such as yam, cassava and potatoes"],
+["Planter or seeder","A machine that sows seeds automatically at an even depth and spacing"],
+["Harvester","A large, complex machine that cuts, threshes (separates) and collects mature grain crops such as maize, rice or wheat"],
+["Sprayer","A machine that applies liquid pesticides, herbicides or fertilisers to crops"]]}},
+{"h":"Practice: fill in the blanks","p":["Complete the passage with words from the lists.","To prepare his large farm for planting maize, the farmer first used a (1) pulled by his tractor to turn over the soil. The ground was still lumpy, so he pulled a (2) over it to smooth it out. For the smaller vegetable garden, his son used a (3) to dig up the weeds and a (4) to carry manure to the plots. To plant the yams, they needed a (5) to make raised beds of soil.","Answers: 1 plough, 2 harrow, 3 hoe, 4 wheelbarrow, 5 ridger."]},
+{"h":"Why mechanised farming is more efficient","p":["Machines work much faster than people, cover a larger area, need fewer workers and can do heavy work without getting tired. This is why large commercial farms use them. However, they cost a lot to buy and run, so many small farmers still use manual tools."]}
+],
+"activity":"Draw and label five farm implements (at least two manual and two mechanised). Ask a parent or guardian about two farm tools they know and write what they are used for. Then write about 100 words on 'The Importance of Farm Mechanisation in Nigeria'.",
+"check":[
+{"q":"Which implement is used after ploughing to make the soil finer?","o":["Harrow","Sickle","Rake","Watering can"]},
+{"q":"A sickle is used for","o":["Harvesting grasses or grain crops","Digging deep holes","Pulling a tractor","Spraying pesticide"]},
+{"q":"Which is a mechanised implement?","o":["Harvester","Hoe","Spade","Shovel"]},
+{"q":"A small cart with one wheel is a","o":["Wheelbarrow","Plough","Ridger","Seeder"]},
+{"q":"A ridger is used to","o":["Form raised hills of soil for planting","Harvest rice","Spray crops","Store grain"]}]},
+
+{"id":"en1-20","week":6,"title":"Listening Comprehension: 'The Hardworking Farmer'","icon":"Volume2","summary":"Listening for who, what, where, when and why, with factual and inferential questions on a short passage about a farmer.",
+"keyWords":["Produce","Dedication","Community","Factual recall","Inference"],
+"sections":[
+{"h":"New words before you listen","p":["Produce (noun): farm products such as fruits and vegetables that have been grown. Dedication: being committed and working very hard for something. Community: a group of people living in the same place."]},
+{"h":"The passage","p":["Ask someone to read this twice, or read it aloud yourself. Listen for who, what, where, when and why.","Mr Bassey is a hardworking farmer in Ikot Ekpene. Every morning, he wakes up early to feed his animals and check the crops. He uses a tractor to plough the land and a harvester during the harvest season. His children help him to carry produce home using wheelbarrows. Because of his dedication, Mr Bassey's farm produces enough food for the whole family and others in the community."]},
+{"h":"Factual recall questions with answers","p":["1. The main character is Mr Bassey.","2. He lives in Ikot Ekpene.","3. Every morning he wakes up early, feeds his animals and checks the crops.","4. He uses a tractor and a harvester.","5. His children use wheelbarrows.","6. His farm is so successful because of his dedication (hard work)."]},
+{"h":"Inference questions with answers","p":["Moral lesson: hard work and dedication bring success and can benefit others too.","Subsistence or commercial? The passage says the farm produces food for 'others in the community', so he grows more than his family needs. That shows commercial farming (or at least farming beyond subsistence).","Why listening skills matter in school: you understand lessons and instructions, you remember more, you answer questions correctly and you avoid mistakes."]}
+],
+"activity":"Listen to a short news broadcast on radio or TV tonight. Write a three-sentence summary of the main story. Write two new words you heard, find their meanings and use each in a sentence.",
+"check":[
+{"q":"Where does Mr Bassey live?","o":["Ikot Ekpene","Lagos","Kano","Abuja"]},
+{"q":"What machines does Mr Bassey use?","o":["A tractor and a harvester","A cutlass and a hoe","A plough only","A sickle and a rake"]},
+{"q":"Why is his farm successful?","o":["His dedication","His luck","His large family","The weather only"]},
+{"q":"What does 'produce' mean in the passage?","o":["Farm products that have been grown","To make a film","To argue","To weigh"]},
+{"q":"What is the moral of the story?","o":["Hard work and dedication bring success","Machines are bad","Farming is easy","Luck is everything"]}]},
+
+{"id":"en1-21","week":6,"title":"Grammar: Noun Phrases and the Definite Article 'The'","icon":"PenLine","summary":"What a noun phrase is, its parts, how to use 'the' (specific, second mention, unique, superlative, some proper nouns) and the jobs a noun phrase can do.",
+"keyWords":["Noun phrase","Head noun","Modifier","Definite article","Subject","Object","Complement"],
+"sections":[
+{"h":"What is a noun phrase?","p":["A noun is a single word (farmer, tractor). A noun phrase is a group of words built around a noun that works as one unit. It is the noun plus the words that describe it. The main noun is the head noun.","farmer (head noun alone); a farmer; the tall farmer; the hardworking farmer with the blue hat (a longer noun phrase).","Structure: pre-modifiers + head noun + post-modifiers. For example: The (determiner) + hardworking (adjective) + farmer (head noun) + in the field (post-modifier)."]},
+{"h":"The definite article 'the'","p":["The word 'the' is the definite article. It is a determiner, a word that introduces a noun. We use 'the' when we are talking about a specific person, place or thing that the speaker and the listener both know. 'The' means 'you know which one I mean'. 'A' or 'an' means 'any one, not a particular one'.","Compare: I need a hoe (any hoe will do). I need the hoe (the one we both know, maybe the one by the door)."]},
+{"h":"When to use 'the'","p":["Learn the five main uses."],
+"tbl":{"head":["Use","Example"],"rows":[
+["1. A specific thing that is clear from the situation","Please pass me the cutlass. The farmer is working."],
+["2. Second mention","I saw a tractor. The tractor was red."],
+["3. Something unique","The sun, the moon, the sky, the internet, the principal of our school"],
+["4. Superlatives","The tallest boy, the most hardworking farmer"],
+["5. Some proper nouns: rivers, oceans, groups of countries","The River Niger, the Atlantic Ocean, the United Kingdom"]]}},
+{"h":"What noun phrases do in a sentence","p":["A noun phrase can do any job a single noun can do.","As subject (does the action): [The hardworking farmer] won a prize. [The old tractor in the shed] is broken.","As object (receives the action): The man repaired [the broken plough]. We saw [the beautiful farm].","As complement (follows is, was or are and renames or describes the subject): My father is [the manager]. This is [the best hoe for the job]."]},
+{"h":"Worked example","p":["Find the noun phrases in: The diligent girl swept the floor. Subject: the diligent girl. Object: the floor.","Expand 'tractor' into a noun phrase: the big, green tractor. Use it as a subject: The big, green tractor roared across the field. Use it as an object: The farmer repaired the big, green tractor."]}
+],
+"activity":"Expand each of these nouns into a noun phrase starting with 'the' and with at least one adjective: tractor, house, student, river, teacher. Then use each phrase in a sentence and underline the full noun phrase.",
+"check":[
+{"q":"A noun phrase is","o":["A group of words built around a noun","A single verb","A type of adjective","A sentence with a verb only"]},
+{"q":"Which sentence uses 'the' correctly for a second mention?","o":["I saw a tractor. The tractor was red.","I saw the tractor. A tractor was red.","I saw tractor. The tractor was red.","I saw a tractor. A tractor was red."]},
+{"q":"Which of these takes 'the'?","o":["The River Niger","Lagos","Mary","Nigeria"]},
+{"q":"In 'The diligent girl swept the floor', the subject noun phrase is","o":["The diligent girl","Swept","The floor","Diligent"]},
+{"q":"We say 'the sun' because","o":["There is only one sun","It is big","It is hot","It is round"]}]},
+
+{"id":"en1-22","week":8,"title":"Listening Comprehension: Main Ideas and Supporting Details","icon":"Volume2","summary":"What a main idea is, how it differs from supporting details, and strategies for finding it when you listen.",
+"keyWords":["Main idea","Supporting details","Topic","Signal words","Summary"],
+"sections":[
+{"h":"Main idea and supporting details","p":["Listening comprehension is actively receiving, understanding and making sense of spoken messages. The most important listening skill is finding the main idea. The main idea is the central, most important point the speaker is making: the big picture, or the 'so what?'. Supporting details are the facts, examples, numbers or stories used to prove, explain or show the main idea.","A table helps: the main idea is the flat tabletop. The supporting details are the legs that hold the top up. The purpose of the table is the tabletop, but it needs the legs."]},
+{"h":"Strategies to find the main idea","p":["Listen for the topic sentence. In formal speeches the main idea is often said at the start or the end.","Listen for repetition. Speakers repeat key words and ideas. Listen for phrases such as 'the key issue is' or 'what is most important is'.","Listen for signal words. Main idea signals: in summary, therefore, in conclusion, the point is, above all. Detail signals: for example, for instance, specifically, first, second, furthermore.","Listen to tone and emphasis. The voice often gets louder or slower for the most important point.","Summarise in your head. Keep asking: what is the speaker really trying to tell me?"]},
+{"h":"Practice 1: Good citizens","p":["Listen to this passage: 'Good citizens are essential for a nation to grow. A good citizen obeys the laws of the land, even when no one is watching. They also pay their taxes regularly and without complaint, knowing this money funds roads and hospitals. Furthermore, such a citizen respects the rights of others, shows kindness, and contributes to the progress of their local community. A nation can only be as strong as its citizens.'","Topic: good citizenship. Supporting details: obeying laws, paying taxes, respecting others. Main idea: good citizens perform actions that are essential for national progress and strength."]},
+{"h":"Practice 2: Nigeria's resources","p":["Listen to this passage: 'Nigeria is blessed with vast natural resources. We have large deposits of crude oil and natural gas in the Niger Delta. In other regions, we have significant reserves of coal, limestone, tin and iron ore. Our soil is fertile, and we have the capacity to be a world leader in agriculture. However, corruption and poor leadership have prevented these resources from benefiting the average citizen. Until we learn to manage this wealth wisely and elect honest leaders, true national development will remain slow.'","Which is the main idea? (A) Nigeria has oil, gas and coal: this is only a supporting detail. (B) Nigeria's development is held back by corruption and poor management despite its great natural wealth: this is the main idea. (C) Nigeria is a country in Africa: this is too vague. The answer is B."]}
+],
+"activity":"Listen to a 10 to 15 minute national news broadcast (for example NTA or Channels). Pick three stories and write the main idea of each in one sentence. For one story, write two supporting details. Then tell one story to a family member in 20 words or fewer.",
+"check":[
+{"q":"The main idea is","o":["The central, most important point","A small example","The first word spoken","The title only"]},
+{"q":"Supporting details are","o":["Facts and examples that explain the main idea","The main idea itself","The speaker's name","The length of the talk"]},
+{"q":"Which phrase usually signals a main idea?","o":["In conclusion","For instance","First","Specifically"]},
+{"q":"Which phrase usually signals a supporting detail?","o":["For example","Above all","In summary","The point is"]},
+{"q":"In the table comparison, the main idea is","o":["The tabletop","The legs","The paint","The floor"]}]},
+
+{"id":"en1-23","week":8,"title":"Reading Comprehension: More Practice with Context Clues","icon":"BookOpen","summary":"Definition, synonym, antonym, example and inference clues again, with new examples, a passage about a strict principal and evaluation practice.",
+"keyWords":["Contextual meaning","Meticulous","Stringent","Escalate","Fragile"],
+"sections":[
+{"h":"Why use context clues?","p":["When you meet a word you do not know, stopping to look it up in the dictionary every time slows you down. A better skill is to work out the meaning from the words around it. This is called contextual word meaning. It is quicker, keeps you reading smoothly and helps you remember the word."]},
+{"h":"The five clue types with fresh examples","p":["Learn them well; they are tested often."],
+"tbl":{"head":["Clue type","Signal words","Example and meaning"],"rows":[
+["Definition or restatement","is, are, means, is called, which is, or, in other words, that is","The anthology, which is a collection of poems, was on the desk. (An anthology is a collection of poems.)"],
+["Synonym or comparison","or, like, similar to","The teacher was stern, or very strict, with latecomers. (Stern means strict.)"],
+["Antonym or contrast","but, however, unlike, on the other hand, whereas","Unlike his generous brother, Tunde is stingy. (Stingy is the opposite of generous.)"],
+["Example or illustration","such as, for example, for instance, including","Domestic animals, such as goats, cows and sheep, live near man. (Tamed animals that live at home.)"],
+["Inference or general context","none; use logic","The car careened off the wet road, smashed through the barrier and tumbled into the ditch. (Careened means to swerve wildly out of control.)"]]}},
+{"h":"Practice passage","p":["The new principal, Mr Ade, was meticulous about punctuality. He checked the school gate himself at 7:31 am, writing down the name of every latecomer. He believed that small habits built character. Though some teachers found his rules stringent, the results were impressive. In just one term, students became more disciplined, and the school's overall academic performance began to escalate.","Meticulous: from his behaviour (checking the gate and writing every name) it means very careful and paying attention to detail.","Stringent: some teachers found the rules hard to follow; so stringent means very strict.","Escalate: the results were impressive and students were more disciplined; so escalate means to increase or rise."]},
+{"h":"Evaluation practice","p":["Work out the word in bold: (a) The baby was very fragile, so we had to handle her gently and carefully. Fragile means delicate and easily harmed. The clue is inference (we had to be gentle). (b) His performance was outstanding; everyone in the audience praised him loudly. Outstanding means excellent. (c) He was famished after school, so he ate two large plates of rice. Famished means extremely hungry.","Why are context clues better than relying only on a dictionary? They are faster, they keep your reading flowing, they help you remember the word in a real situation, and a dictionary may not be available when you read."]}
+],
+"activity":"Choose a short article of three or four paragraphs from a reputable newspaper. Pick five words that are new or hard. Make a table with four columns: unfamiliar word, my guess from the context, dictionary meaning, clue I used. Fill it in.",
+"check":[
+{"q":"'The teacher was stern, or very strict.' Which clue type is this?","o":["Synonym or restatement","Antonym","Inference","None"]},
+{"q":"In the passage, 'meticulous' means","o":["Very careful and exact","Lazy","Noisy","Angry"]},
+{"q":"'Escalate' in the passage means","o":["Increase","Decrease","Stop","Hide"]},
+{"q":"'He was famished after school, so he ate two large plates of rice.' 'Famished' means","o":["Very hungry","Very sleepy","Very happy","Very tall"]},
+{"q":"Which signal word often shows contrast?","o":["Unlike","Such as","Is called","For example"]}]},
+
+{"id":"en1-24","week":8,"title":"Continuous Writing: A Narrative with a National-Values Theme","icon":"PenLine","summary":"Plot structure (introduction, rising action, climax, falling action, resolution), characters, setting, point of view, and 'show, don't tell', using a story about a corrupt governor.",
+"keyWords":["Plot","Rising action","Falling action","Resolution","Show don't tell","Theme"],
+"sections":[
+{"h":"Purpose of the task","p":["A narrative tells a story that can be real or imagined. It entertains, and it often teaches a lesson. Today's topic is 'The Story of the Governor Who Stole Millions from the State Treasury'. It is about national values: honesty, integrity and accountability. Your story should show what corruption causes and why honesty in public service matters."]},
+{"h":"The five parts of a plot","p":["Learn them in order. Each one has a job. The picture shows the shape of a story: it climbs to the climax and then comes down to the resolution."],
+"img":{"src":"eng-plot-arc.png","alt":"A rising and falling curve showing the five parts of a story: introduction, rising action, climax at the top, falling action and resolution","cap":"The shape of a story's plot."},
+"tbl":{"head":["Part","What happens","Example"],"rows":[
+["Introduction (exposition)","Characters and setting are introduced","A popular new governor promises a time of prosperity"],
+["Rising action","The problem begins and grows","Hospitals decay while the governor lives in luxury"],
+["Climax","The turning point","The governor is caught"],
+["Falling action","The results of the climax","The arrest and the trial"],
+["Resolution","The story ends","He is jailed and the people learn a lesson"]]}},
+{"h":"Characters, setting, point of view and theme","p":["Characters: give people names and personalities (Governor Balogun, a brave journalist called Amina, a worried citizen). Setting: the time and place (a lavish Government House, a poorly equipped hospital, a tense courtroom). Point of view: first person (I saw the governor...) is told by a witness. Third person (Governor Balogun did...) is told by a narrator who knows everything. Third person is best for this topic. Theme or moral lesson: the main message, for example 'corruption leads to downfall', 'honesty is the best policy', 'the truth will always come out'."]},
+{"h":"Show, don't tell","p":["Telling only states a fact. Showing paints a picture with details, and it is stronger.","Telling: The governor was corrupt. Showing: While the state's hospitals had no medicine, Governor Balogun's children flew to London for a common cold.","Telling: The roads were bad. Showing: Cars swerved and bounced, avoiding potholes as large as basins, turning a ten-minute drive into an hour-long ordeal.","Use the past tense (he stole, they discovered, he was arrested) and linking words (at first, as time passed, suddenly, eventually, finally)."]},
+{"h":"Useful vocabulary","p":["embezzlement (stealing money entrusted to you), misappropriation (using funds wrongly), accountability (being answerable for your actions), lavish (very rich and showy), investigative (digging for facts), corrupt, scandal, regime (a government in power), legacy (what you leave behind), justice, dilapidated (in bad repair), poverty-stricken."]},
+{"h":"Sample outline","p":["Title: The Golden Handshake that Became a Steel Shackle.","Introduction: Chief Balogun is newly elected and charming. His speech promises 'an era of prosperity' and an end to 'the sins of the past'. The people are hopeful.","Rising action: years pass. Prosperity is only for the governor and his friends. Show a run-down school or hospital. Contrast it with his private jets and houses abroad. A young journalist, Amina, starts to ask about a State Infrastructure Fund that seems to have vanished.","Climax: a whistle-blower gives Amina bank documents showing 500 million naira going to the governor's private account. Her newspaper publishes the story and the EFCC raids the governor's office.","Falling action: the governor is arrested and removed from office. The trial is long but the evidence is clear.","Resolution: he is found guilty and jailed. The people learn about accountability and the power of a free press, and promise to be more watchful. A leader's true legacy is integrity, not wealth."]}
+],
+"activity":"Using the outline and tips, write your own story called 'The Dishonest Accountant' of 300 to 350 words about a company accountant who steals from his boss. Make sure it has a clear climax (how he is caught) and a strong moral at the end.",
+"check":[
+{"q":"What is the correct order of the plot parts?","o":["Introduction, rising action, climax, falling action, resolution","Climax, introduction, resolution, rising action, falling action","Resolution, climax, introduction, falling action, rising action","Rising action, introduction, falling action, climax, resolution"]},
+{"q":"'Show, don't tell' means","o":["Use details that paint a picture instead of only stating facts","Use only pictures","Never use description","Always use dialogue"]},
+{"q":"Which point of view is recommended for this story?","o":["Third person","First person","Second person","No point of view"]},
+{"q":"The theme of a story is","o":["Its main message","Its title","Its first sentence","Its length"]},
+{"q":"Which is an example of 'showing'?","o":["Cars bounced past potholes as large as basins","The roads were bad","He was corrupt","It was hot"]}]},
+
+{"id":"en1-25","week":8,"title":"Grammar: When Not to Use 'The'","icon":"PenLine","summary":"The zero article: diseases, mountains, lakes and continents, institutions, countries, meals, languages and subjects, and the difference between 'in prison' and 'in the prison'.",
+"keyWords":["Zero article","Institution","Definite article","Proper noun"],
+"sections":[
+{"h":"Recap","p":["We use 'the' to refer to a specific noun that both the speaker and listener know about: The teacher entered the class. But 'the' is often wrongly used. These are the situations where we leave it out (the zero article)."]},
+{"h":"Diseases","p":["Do not use 'the' before most disease names. Wrong: The malaria is dangerous. Right: Malaria is dangerous. Wrong: He is suffering from the typhoid. Right: He is suffering from typhoid.","Exceptions: some diseases with plural-looking names take 'the' (the measles, the mumps), and we use 'the' when another noun is the head: The malaria outbreak in Kano was severe."]},
+{"h":"Geographical names","p":["No 'the' before single mountains, single lakes and continents. Right: Mount Everest is high. Lake Chad is drying up. He visited Africa.","Use 'the' for mountain ranges, groups of lakes and groups of islands: the Alps, the Himalayas, the Great Lakes, the Philippines, the West Indies."]},
+{"h":"Institutions: purpose or building?","p":["When we talk about the purpose of an institution, we omit 'the'. When we talk about the actual building or object, we use 'the'."],
+"tbl":{"head":["Without 'the' (purpose)","With 'the' (building or object)"],"rows":[
+["He is at school. (He is a student.)","He went to the school to paint it. (He is a painter.)"],
+["She went to church on Sunday. (to worship)","She visited the church to admire its design. (a tourist)"],
+["My father is in prison. (He is a prisoner.)","The governor visited the prison. (a visitor)"],
+["She is in hospital. (She is a patient.)","He went to the hospital to see his friend. (a visitor)"],
+["He went to bed. (to sleep)","I sat on the bed. (the furniture)"]]}},
+{"h":"Countries, meals, languages and subjects","p":["Most countries take no 'the': Nigeria, Ghana, Canada, France, China. Use 'the' for countries with plural names or descriptive names: the Netherlands, the Philippines, the United States, the United Kingdom, the Federal Republic of Nigeria, the People's Republic of China.","Do not use 'the' with general meals (We had breakfast at 8 am), languages (She speaks English fluently) or school subjects (Mathematics is my best subject)."]},
+{"h":"Correct the mistakes","p":["The malaria kills many people every year. Right: Malaria kills many people every year.","We climbed the Mount Kilimanjaro. Right: We climbed Mount Kilimanjaro.","He plays the football every weekend. Right: He plays football every weekend.","The students went to the bed late. Right: The students went to bed late.","She is studying the history of the United States. This is correct: 'the history of the United States' is a specific phrase and the country name has 'the'."]}
+],
+"activity":"Write a short paragraph of five to seven sentences about your daily routine using the words breakfast, school, lunch and bed. Do not use 'the' before them. Then write another paragraph about Nigeria's rivers and mountains, using or leaving out 'the' correctly.",
+"check":[
+{"q":"Which sentence is correct?","o":["Malaria is dangerous.","The malaria is dangerous.","A malaria is dangerous.","Malarias are dangerous."]},
+{"q":"Which is correct?","o":["Lake Chad is drying up.","The Lake Chad is drying up.","A Lake Chad is drying up.","Lakes Chad is drying up."]},
+{"q":"'My father is in prison' means","o":["He is a prisoner","He is visiting the building","He is a builder there","He is guarding it"]},
+{"q":"Which takes 'the'?","o":["The United Kingdom","Nigeria","France","Ghana"]},
+{"q":"Which is correct?","o":["She speaks English fluently.","She speaks the English fluently.","She speaks an English fluently.","She speaks Englishes fluently."]}]}
+]

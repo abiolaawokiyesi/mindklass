@@ -1,0 +1,90 @@
+[
+{"id":"ma1-17","week":9,"title":"Quadratic Expressions: Factorisation","icon":"Layers","summary":"What a quadratic equation is, and how to factorise: the difference of two squares, trinomials with a = 1, trinomials with a not equal to 1 (the AC method), and common factors.",
+"keyWords":["Quadratic","Factorisation","Difference of two squares","Trinomial","Common factor"],
+"sections":[
+{"h":"From linear to quadratic","p":["A linear equation such as 2x + 3 = 11 has one solution (x = 4) and its graph is a straight line. A quadratic equation such as x² − 4x + 3 = 0 has the highest power of x equal to 2. It can have up to two solutions (here x = 1 or x = 3) and its graph is a curve called a parabola.","The standard form is ax² + bx + c = 0 where a, b and c are numbers and a is not 0. For x² − 5x + 6 = 0: a = 1, b = −5, c = 6. For 2x² + 3x − 4 = 0: a = 2, b = 3, c = −4. For 4x² − 9 = 0: a = 4, b = 0, c = −9.","Quadratics describe situations where change speeds up or slows down: a ball thrown in the air (h = −5t² + 20t), the profit of a business, the area of a rectangle (A = x(x + 3)) and the arch of a bridge."]},
+{"h":"What is factorisation?","p":["Factorisation means breaking an expression into simpler parts (factors) that multiply to give the original. 30 = 2 × 3 × 5. In the same way x² + 7x + 12 = (x + 3)(x + 4). Factorising helps us to simplify expressions, solve equations and see patterns."]},
+{"h":"Case 1: the difference of two squares","p":["a² − b² = (a − b)(a + b). Look for two perfect squares with a minus between them. Examples: x² − 49 = x² − 7² = (x − 7)(x + 7). 4y² − 25 = (2y)² − 5² = (2y − 5)(2y + 5). 9 − 16z² = (3 − 4z)(3 + 4z). x² − 121 = (x − 11)(x + 11)."]},
+{"h":"Case 2: x² + bx + c","p":["Find two numbers that multiply to give c and add to give b. Example: x² + 7x + 12. Pairs that multiply to 12: (1, 12), (2, 6), (3, 4). Which pair adds to 7? 3 + 4 = 7. So x² + 7x + 12 = (x + 3)(x + 4).","Example: x² − 5x − 14. The numbers multiply to −14 and add to −5: 2 and −7. So (x + 2)(x − 7).","More: x² + 10x + 21 = (x + 3)(x + 7); x² + 2x − 15 = (x + 5)(x − 3).","Memory aid: the SUM tells you what to add, the PRODUCT tells you what to multiply."]},
+{"h":"Case 3: ax² + bx + c where a is not 1 (the AC method)","p":["Step 1: multiply a × c. Step 2: find two numbers that multiply to a × c and add to b. Step 3: split the middle term using these numbers. Step 4: group in pairs and take out common factors.","Example: 3x² + 10x − 8. a × c = 3 × (−8) = −24. Two numbers with product −24 and sum 10: −2 and 12. Split: 3x² − 2x + 12x − 8. Group: (3x² − 2x) + (12x − 8) = x(3x − 2) + 4(3x − 2) = (x + 4)(3x − 2). Check by expanding: 3x² − 2x + 12x − 8 = 3x² + 10x − 8. Correct.","Another: 5x² − 13x − 6. a × c = −30. Numbers with product −30 and sum −13: −15 and 2. 5x² − 15x + 2x − 6 = 5x(x − 3) + 2(x − 3) = (5x + 2)(x − 3)."]},
+{"h":"Always take out the common factor first","p":["3x² − 12x has the common factor 3x. So 3x² − 12x = 3x(x − 4). Looking for a common factor first makes the problem easier."]}
+],
+"activity":"Factorise x² − 121, x² + 10x + 21, x² + 2x − 15 and 5x² − 13x − 6. Check: (x − 11)(x + 11); (x + 3)(x + 7); (x + 5)(x − 3); (5x + 2)(x − 3).",
+"check":[
+{"q":"Factorise x² − 49.","o":["(x − 7)(x + 7)","(x − 7)²","(x − 49)(x + 1)","(x + 7)²"]},
+{"q":"Factorise x² + 7x + 12.","o":["(x + 3)(x + 4)","(x + 2)(x + 6)","(x + 1)(x + 12)","(x − 3)(x − 4)"]},
+{"q":"Factorise x² − 5x − 14.","o":["(x + 2)(x − 7)","(x − 2)(x + 7)","(x + 14)(x − 1)","(x − 2)(x − 7)"]},
+{"q":"Factorise 3x² + 10x − 8.","o":["(x + 4)(3x − 2)","(3x + 4)(x − 2)","(3x − 4)(x + 2)","(x − 4)(3x + 2)"]},
+{"q":"Factorise 3x² − 12x.","o":["3x(x − 4)","3(x² − 12x)","x(3x − 12)","3x(x + 4)"]}]},
+
+{"id":"ma1-18","week":9,"title":"Solving Quadratic Equations by Factorisation","icon":"Layers","summary":"The zero product rule, step-by-step solving, worked examples, common mistakes, and word problems.",
+"keyWords":["Zero product property","Roots","Standard form","Word problem"],
+"sections":[
+{"h":"The zero product rule","p":["If M × N = 0, then M = 0 or N = 0 (or both). The only way a product can be zero is for at least one factor to be zero. This turns one quadratic equation into two simple linear equations."]},
+{"h":"The four steps","p":["Step 1: write the equation in standard form ax² + bx + c = 0. Step 2: factorise the left side. Step 3: set each factor equal to zero. Step 4: solve each simple equation."]},
+{"h":"Worked examples","p":["Example 1: solve x² − 8x + 15 = 0. Numbers that multiply to 15 and add to −8: −3 and −5. (x − 3)(x − 5) = 0. So x = 3 or x = 5. The graph of y = x² − 8x + 15 crosses the x-axis at 3 and 5.","Example 2: solve 6x² − 5x = 4. Standard form: 6x² − 5x − 4 = 0. a × c = −24. Numbers with product −24 and sum −5: 3 and −8. 6x² + 3x − 8x − 4 = 0, so 3x(2x + 1) − 4(2x + 1) = 0, which gives (3x − 4)(2x + 1) = 0. So x = 4/3 or x = −1/2. Check x = 4/3: 6 × 16/9 − 5 × 4/3 = 32/3 − 20/3 = 4. Correct.","Example 3: solve 4x² − 25 = 0. This is a difference of squares: (2x − 5)(2x + 5) = 0, so x = 5/2 or x = −5/2.","Example 4: solve 3x² − 12x = 0. Take out the common factor: 3x(x − 4) = 0. So x = 0 or x = 4.","Example 5: solve x² − 9x = 0: x(x − 9) = 0, so x = 0 or x = 9. Example 6: solve x² − 11x + 28 = 0: (x − 4)(x − 7) = 0, so x = 4 or x = 7.","Example 7: solve x(x + 3) = 10. Expand: x² + 3x − 10 = 0. (x + 5)(x − 2) = 0, so x = 2 or x = −5. Example 8: solve 3x² + 19x = 14. 3x² + 19x − 14 = 0 gives (3x − 2)(x + 7) = 0, so x = 2/3 or x = −7."]},
+{"h":"Word problems","p":["Problem: the product of two consecutive positive integers is 56. Find them. Let the integers be n and n + 1. n(n + 1) = 56, so n² + n − 56 = 0. Two numbers that multiply to −56 and add to 1: −7 and 8. (n − 7)(n + 8) = 0, so n = 7 or n = −8. We need positive integers, so n = 7. The integers are 7 and 8 (check: 7 × 8 = 56).","Problem: the product of two consecutive odd integers is 63. Let them be n and n + 2. n(n + 2) = 63, so n² + 2n − 63 = 0, (n + 9)(n − 7) = 0. So n = 7 (the integers 7 and 9) or n = −9 (the integers −9 and −7)."]},
+{"h":"Common pitfalls and tips","p":["Always put the equation in standard form before factorising. Check the signs: the numbers must add to b and multiply to a × c. Check your answers by substituting. Always take out the common factor first. Remember that not all quadratics factorise nicely: for example x² + 9 = 0 has no real solutions because no real number squared gives −9."]}
+],
+"activity":"Solve x² − 9x = 0, x² − 11x + 28 = 0 and 4x² − 25 = 0. Check: x = 0 or 9; x = 4 or 7; x = ±5/2.",
+"check":[
+{"q":"Solve x² − 8x + 15 = 0.","o":["x = 3 or x = 5","x = −3 or x = −5","x = 8 or x = 15","x = 1 or x = 15"]},
+{"q":"Solve x² − 9x = 0.","o":["x = 0 or x = 9","x = 9 only","x = 3 or x = −3","x = 0 only"]},
+{"q":"The zero product rule says that if M × N = 0, then","o":["M = 0 or N = 0","M = N","M and N are both 1","M + N = 0"]},
+{"q":"Solve 4x² − 25 = 0.","o":["x = 5/2 or x = −5/2","x = 25/4","x = 5 or x = −5","x = 2 or x = −2"]},
+{"q":"The product of two consecutive positive integers is 56. They are","o":["7 and 8","6 and 9","8 and 9","5 and 11"]}]},
+
+{"id":"ma1-19","week":10,"title":"Forming a Quadratic Equation from Its Roots","icon":"Layers","summary":"The roots-to-equation method, the sum and product formula x² − (sum)x + (product) = 0, and worked examples with whole, fraction and surd roots.",
+"keyWords":["Roots","Sum of roots","Product of roots","Conjugate roots"],
+"sections":[
+{"h":"Roots, equation and graph go together","p":["The roots (solutions) of a quadratic equation, its equation and its graph are three ways of showing the same thing. This week we go from the roots back to the equation."]},
+{"h":"The method","p":["If the roots are α and β (alpha and beta), the factors are (x − α) and (x − β). So (x − α)(x − β) = 0. Expand: x² − βx − αx + αβ = 0, which is x² − (α + β)x + αβ = 0.","Golden formula: x² − (sum of roots)x + (product of roots) = 0. The sum of the roots gives the coefficient of x (with a minus sign) and the product gives the constant term."]},
+{"h":"Example 1: integer roots","p":["Find the equation whose roots are 4 and −3. Sum = 4 + (−3) = 1. Product = 4 × (−3) = −12. So x² − 1x − 12 = 0, that is x² − x − 12 = 0. Check: (x − 4)(x + 3) = x² − x − 12."]},
+{"h":"Example 2: fraction roots","p":["Find the equation whose roots are 1/2 and 3/2. Sum = 1/2 + 3/2 = 2. Product = (1/2)(3/2) = 3/4. So x² − 2x + 3/4 = 0. Multiply by 4 to clear the fraction: 4x² − 8x + 3 = 0. Check: (2x − 1)(2x − 3) = 4x² − 8x + 3."]},
+{"h":"Example 3: roots with a square root","p":["Find the equation whose roots are 2 + √3 and 2 − √3. Sum = (2 + √3) + (2 − √3) = 4. Product = (2 + √3)(2 − √3) = 4 − 3 = 1. So x² − 4x + 1 = 0. When the roots are a pair like a ± b√c, the sum and product are always whole numbers or fractions."]},
+{"h":"More examples","p":["Roots 5 and 2: x² − 7x + 10 = 0. Roots 0 and −7: sum −7, product 0, so x² + 7x = 0. Roots 2/3 and −1/2: sum 1/6, product −1/3, so x² − x/6 − 1/3 = 0, or 6x² − x − 2 = 0. Sum of roots 5 and product −14: x² − 5x − 14 = 0.","In reverse: for 2x² − 6x + 5 = 0, divide by 2 to get x² − 3x + 2.5 = 0. So the sum of the roots is 3 and the product is 2.5."]}
+],
+"activity":"Find the equation with roots 5 and 2, and the equation with roots 0 and −7. Check: x² − 7x + 10 = 0 and x² + 7x = 0.",
+"check":[
+{"q":"The equation with roots 4 and −3 is","o":["x² − x − 12 = 0","x² + x − 12 = 0","x² − 7x + 12 = 0","x² − x + 12 = 0"]},
+{"q":"The formula for forming a quadratic from its roots is","o":["x² − (sum)x + (product) = 0","x² + (sum)x − (product) = 0","x² − (product)x + (sum) = 0","x² + (sum)x + (product) = 0"]},
+{"q":"The equation with roots 5 and 2 is","o":["x² − 7x + 10 = 0","x² + 7x + 10 = 0","x² − 10x + 7 = 0","x² − 3x + 10 = 0"]},
+{"q":"For 2x² − 6x + 5 = 0, the sum of the roots is","o":["3","6","2.5","−3"]},
+{"q":"The product of the roots 2 + √3 and 2 − √3 is","o":["1","4","7","2"]}]},
+
+{"id":"ma1-20","week":10,"title":"Drawing the Graph of a Quadratic","icon":"BarChart2","summary":"The parabola, its features (vertex, axis of symmetry, roots, y-intercept), and the five steps to draw an accurate graph with a worked example.",
+"keyWords":["Parabola","Vertex","Axis of symmetry","Table of values","y-intercept"],
+"sections":[
+{"h":"The parabola","p":["The graph of a quadratic is a smooth curve called a parabola. If a is positive (a > 0), it is U-shaped and has a lowest point (a minimum). If a is negative (a < 0), it is n-shaped and has a highest point (a maximum).","Key features: the vertex is the turning point; the axis of symmetry is the vertical line through the vertex (the curve is a mirror image on both sides); the roots are where the curve crosses the x-axis (y = 0); the y-intercept is where it crosses the y-axis (x = 0)."]},
+{"h":"Five steps to draw a quadratic graph","p":["Step 1: make a table of values with x-values around the expected vertex. Step 2: work out each y-value by substituting. Step 3: choose scales so the graph fits the page. Step 4: plot the points carefully. Step 5: draw a smooth curve through the points (never straight lines between them)."]},
+{"h":"Worked example: y = x² − 2x − 3 for −2 ≤ x ≤ 4","p":["Table of values: for x = −2, y = 4 + 4 − 3 = 5. For x = −1: 1 + 2 − 3 = 0. For x = 0: −3. For x = 1: 1 − 2 − 3 = −4. For x = 2: 4 − 4 − 3 = −3. For x = 3: 9 − 6 − 3 = 0. For x = 4: 16 − 8 − 3 = 5."],
+"tbl":{"head":["x","−2","−1","0","1","2","3","4"],"rows":[["y = x² − 2x − 3","5","0","−3","−4","−3","0","5"]]},
+"img":{"src":"mth-quadratic-graph.png","alt":"Graph of y = x squared minus 2x minus 3: a U-shaped curve through the points (−2, 5), (−1, 0), (0, −3), (1, −4), (2, −3), (3, 0) and (4, 5)","cap":"The graph of y = x² − 2x − 3 with its vertex at (1, −4), roots at −1 and 3, and axis of symmetry x = 1."}},
+{"h":"Reading the features","p":["Roots: x = −1 and x = 3 (where the curve crosses the x-axis). Vertex: (1, −4), a minimum point. Axis of symmetry: x = 1. y-intercept: (0, −3). The minimum value of y is −4.","A quick way to find the axis of symmetry is x = −b/(2a). Here a = 1 and b = −2 so x = 2/2 = 1."]},
+{"h":"Another curve: y = 8 − 2x − x²","p":["This has a = −1, so it is n-shaped with a maximum. The vertex is at (−1, 9). The roots of 8 − 2x − x² = 0 are x = −4 and x = 2. The maximum value of y is 9."]}
+],
+"activity":"Draw the graph of y = 8 − 2x − x² for −5 ≤ x ≤ 3 on graph paper. Mark the vertex (−1, 9) and the roots −4 and 2.",
+"check":[
+{"q":"A parabola with a > 0 is","o":["U-shaped with a minimum","n-shaped with a maximum","A straight line","A circle"]},
+{"q":"The roots of a quadratic graph are where the curve","o":["Crosses the x-axis","Crosses the y-axis","Has its vertex","Starts"]},
+{"q":"The vertex of y = x² − 2x − 3 is","o":["(1, −4)","(−1, 0)","(3, 0)","(0, −3)"]},
+{"q":"The axis of symmetry of y = x² − 2x − 3 is","o":["x = 1","x = −1","x = 3","y = 1"]},
+{"q":"The minimum value of y in y = x² − 2x − 3 is","o":["−4","−3","0","1"]}]},
+
+{"id":"ma1-21","week":10,"title":"Using Quadratic Graphs and Applications","icon":"BarChart2","summary":"Three things you can find from a graph, how to solve related equations, the number of roots, and real-life problems about a garden and a thrown ball.",
+"keyWords":["Related equation","Number of roots","Maximum value","Projectile"],
+"sections":[
+{"h":"Three uses of a graph","p":["1. Finding the roots: the roots of x² − 2x − 3 = 0 are where y = 0: x = −1 and x = 3.","2. Finding a maximum or minimum: for y = x² − 2x − 3 the vertex (1, −4) gives the minimum value −4.","3. Solving a related equation: to solve x² − 2x − 1 = 0, rewrite it as x² − 2x − 3 = 2. So draw the line y = 2 on the same graph and read the x-values where it cuts the curve: x ≈ −0.4 and x ≈ 2.4. In the same way, for y = 8 − 2x − x² the equation 8 − 2x − x² = 5 is solved by drawing y = 5. This gives x ≈ −3 and x ≈ 1."]},
+{"h":"How many roots?","p":["A parabola can cross the x-axis at two points (two different roots), touch it at one point (one repeated root) or miss it completely (no real roots). In later work you will meet the discriminant b² − 4ac: if it is positive there are two roots, if it is zero there is one repeated root, and if it is negative there are no real roots."]},
+{"h":"Example: the garden","p":["A rectangular garden is 4 m longer than it is wide, and its area is 45 m². Find its size. Let the width be w, so the length is w + 4. Area: w(w + 4) = 45, so w² + 4w − 45 = 0. Factorise: numbers that multiply to −45 and add to 4 are 9 and −5. (w + 9)(w − 5) = 0, so w = −9 or w = 5. A width cannot be negative, so w = 5. The length is 9. Check: 5 × 9 = 45 m². The garden is 5 m by 9 m."]},
+{"h":"Example: the thrown ball","p":["A ball is thrown upward. Its height in metres after t seconds is h = −5t² + 20t. Find the greatest height and when it lands. Since a = −5 is negative, the graph is n-shaped, so the vertex is the maximum. The vertex is at t = −b/(2a) = −20/(2 × −5) = 2 seconds. The maximum height is −5(2)² + 20(2) = −20 + 40 = 20 m. The ball is on the ground when h = 0: −5t² + 20t = 0, so −5t(t − 4) = 0 and t = 0 (the start) or t = 4. It lands after 4 seconds.","Another: h = −4t² + 16t. The vertex is at t = 2, with a maximum height of −16 + 32 = 16 m. The height is 12 m when −4t² + 16t − 12 = 0, which is t² − 4t + 3 = 0, so t = 1 or t = 3 seconds."]},
+{"h":"Study tips","p":["Check roots by substituting. Choose x-values around the vertex when you draw a graph. Clear fractions by multiplying through. Reject answers that do not make sense (a negative length). Do not forget units. Do not join plotted points with straight lines."]}
+],
+"activity":"A quadratic graph passes through (1, 0), (3, 0) and (0, 6). Write its equation. (Answer: y = 2(x − 1)(x − 3) = 2x² − 8x + 6.) Then the equation of the thrown ball h = −4t² + 16t: when does it hit the ground? (Answer: t = 4 s.)",
+"check":[
+{"q":"A rectangular garden is 4 m longer than wide with an area of 45 m². Its width is","o":["5 m","9 m","4 m","45 m"]},
+{"q":"For h = −5t² + 20t, the maximum height is","o":["20 m","40 m","10 m","5 m"]},
+{"q":"For h = −5t² + 20t, the ball lands after","o":["4 s","2 s","20 s","5 s"]},
+{"q":"To solve x² − 2x − 1 = 0 from the graph of y = x² − 2x − 3, draw the line","o":["y = 2","y = 0","y = −1","y = 3"]},
+{"q":"A parabola that does not touch the x-axis has","o":["No real roots","Two roots","One root","Three roots"]}]}
+]

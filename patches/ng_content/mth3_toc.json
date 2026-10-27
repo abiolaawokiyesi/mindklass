@@ -1,0 +1,37 @@
+[
+{"id":"ma3-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Mathematics Third Term covers (mensuration and statistics), how to use the notes, and a map of every unit.",
+"keyWords":["Mensuration","Arcs and sectors","Surface area","Volume","Statistics","Table of contents"],
+"sections":[
+{"h":"Welcome to Third Term","p":["Welcome to the last term of SS1 Mathematics. This term has two big themes. The first is mensuration: measuring lengths, areas and volumes, from arcs and sectors of circles to the surface area and volume of solids such as cylinders, cones, pyramids and frustums. The second is statistics: collecting data, putting it in tables and showing it in graphs such as bar charts, histograms, pie charts and frequency polygons.","Both themes are very useful: engineers, builders, farmers, nurses, businesses and governments all use them. They also carry many marks in WAEC, NECO and JAMB, so take your time over every worked example."]},
+{"h":"How to use these notes","p":["Read each unit slowly and study the pictures. Try the worked examples yourself before you read the solution. Learn the formulas and write them in your notebook. At the end of each unit, do the activity and the practice questions. The practice questions do not count towards a mark; they help you check your understanding. Answer them all correctly to complete the unit.","You need a scientific calculator, a ruler, compasses, a protractor and graph paper. The midterm examination is in Week 5 and there is a break in Week 7, so there are no new units for those weeks. Use them to revise."]},
+{"h":"Table of contents: Mensuration (Weeks 1 to 6)","p":["Circles, solids, frustums and compound shapes."],
+"tbl":{"head":["Unit","Week","Lesson"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","The circle: parts and the length of an arc"],
+["3","1","The perimeter of a sector"],
+["4","2","Area of a sector and area of a segment"],
+["5","2","From a sector to a cone"],
+["6","3","Surface area of solids: cube, cuboid and cylinder"],
+["7","3","Surface area of solids: cone, prism and pyramid"],
+["8","4","Volume of prisms: cube, cuboid, cylinder and triangular prism"],
+["9","4","Volume of pyramids and cones"],
+["10","6","The frustum: volume and surface area"],
+["11","6","Compound shapes and the sphere"]]}},
+{"h":"Table of contents: Statistics and revision (Weeks 8 to 11)","p":["Data, tables, graphs and revision."],
+"tbl":{"head":["Unit","Week","Lesson"],"rows":[
+["12","8","Statistics: collecting and classifying data"],
+["13","8","Frequency tables for raw data"],
+["14","9","Grouped data: class intervals, boundaries and midpoints"],
+["15","9","Bar charts, line graphs and histograms"],
+["16","10","Pie charts"],
+["17","10","Frequency polygons"],
+["18","11","Revision of Third Term Mathematics"]]}},
+{"h":"Tips for the term","p":["Draw a diagram for every mensuration problem and label the sizes. Always check whether a formula needs the vertical height or the slant height. Keep the units: length in cm, area in cm² and volume in cm³. In statistics, choose the right graph for the data type, label the axes and give each graph a title."]}
+],
+"activity":"Write the title 'SS1 Mathematics, Third Term' in your notebook. Draw a circle with compasses, mark its centre, a radius, a diameter, a chord and an arc, and label them.",
+"check":[
+{"q":"Which unit teaches pie charts?","o":["Unit 16","Unit 2","Unit 10","Unit 7"]},
+{"q":"How many units are in this Third Term course (including this one)?","o":["18","11","7","25"]},
+{"q":"Which two themes does this term cover?","o":["Mensuration and statistics","Algebra and logic","Trigonometry and loci","Indices and logarithms"]},
+{"q":"Volume is measured in","o":["Cubic units such as cm³","Square units such as cm²","Degrees","Metres only"]}]}
+]

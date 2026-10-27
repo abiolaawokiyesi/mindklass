@@ -1,0 +1,101 @@
+[
+{"id":"ma1-22","week":11,"title":"Logical Reasoning: Simple Statements and Truth Values","icon":"Target","summary":"What a statement (proposition) is, what is not a statement, truth values, and how to tell the difference.",
+"keyWords":["Statement","Proposition","True","False","Open sentence"],
+"sections":[
+{"h":"Why logic matters","p":["Mathematics is about careful thinking and proof. Logic decides whether an argument is valid. It is also the base of computer programming (if-else rules), law, science (testing a hypothesis) and everyday decisions such as 'if it rains, I will take an umbrella'."]},
+{"h":"What is a simple statement?","p":["A simple statement (or proposition) is a sentence that declares a fact and can be clearly called either true (T) or false (F), but not both and not neither. We use small letters p, q, r and s to stand for statements.","A false statement is still a statement, because it has a definite truth value (false)."],
+"tbl":{"head":["Letter","Statement","Truth value","Reason"],"rows":[
+["p","Lagos is a city in Nigeria.","True","A fact that can be checked"],
+["q","The human head is made of wood.","False","Not correct"],
+["r","2 + 5 = 7","True","A true mathematical fact"],
+["s","10 < 3","False","A false mathematical claim"]]}},
+{"h":"What is not a statement","p":["A question (What is your name?) asks and does not declare. A command (Pass the salt.) tells someone to act. An opinion (This food is delicious.) is a personal feeling and cannot be checked. An exclamation (Wow, amazing!) expresses emotion. An open sentence (x + 3 = 8 or x > 10) has a letter in it, so it is true or false only when we know x."]},
+{"h":"Practice","p":["Which are simple statements? (a) The year 2024 is a leap year. Yes, true (2024 ÷ 4 = 506 with no remainder). (b) Solve the equation. No, a command. (c) Red is a beautiful colour. No, an opinion. (d) 5 − 1 = 3. Yes, false (5 − 1 = 4). (e) x > 10. No, an open sentence.","More: The square root of 16 is 4 (true statement). Water boils at 100 °C at sea level (true statement). Please solve this problem (command). That movie was boring (opinion). 'This sentence is false' is a paradox: if it is true then it is false, and if it is false then it is true, so it has no consistent truth value and is not a simple statement."]},
+{"h":"True and false examples","p":["True: Nigeria gained independence in 1960. The sum of the angles in a triangle is 180°. Water freezes at 0 °C at standard pressure. Paris is in France. 7 × 8 = 56.","False: There are 8 days in a week. Humans can breathe underwater. 5 × 6 = 31. Rome is in Asia. 9 − 4 = 6."]}
+],
+"activity":"Write three true and three false simple statements, from mathematics, geography and science. Find three sentences in a newspaper headline page that are not statements and say why.",
+"check":[
+{"q":"A simple statement is a sentence that is","o":["Either true or false","A question","A command","An opinion"]},
+{"q":"Which of these is a statement?","o":["5 is a prime number.","Close the door.","How are you?","He is very smart."]},
+{"q":"Which is an open sentence?","o":["x + 3 = 8","2 + 5 = 7","Lagos is in Nigeria","10 < 3"]},
+{"q":"Is '5 − 1 = 3' a statement?","o":["Yes, and it is false","Yes, and it is true","No, it is a command","No, it is an opinion"]},
+{"q":"'This sentence is false' is","o":["A paradox, not a simple statement","A true statement","A false statement","A command"]}]},
+
+{"id":"ma1-23","week":11,"title":"Logical Reasoning: Negation","icon":"Target","summary":"The negation of a statement, the symbol ~, how to form correct negations, the truth table of negation, and common mistakes (such as 'all' and 'some').",
+"keyWords":["Negation","Truth table","Opposite","Fallacy"],
+"sections":[
+{"h":"What is negation?","p":["The negation of a statement says the opposite: it denies the original. The symbol is ~ and ~p is read 'not p'. Example: p: It is raining. ~p: It is not raining. p: 2 + 2 = 4. ~p: 2 + 2 ≠ 4."]},
+{"h":"How to form a negation","p":["Method 1: say 'It is not the case that...'. p: Monday is the first day of the week. ~p: It is not the case that Monday is the first day of the week.","Method 2: put 'not' in the right place. p: Monday is the first day of the week. ~p: Monday is not the first day of the week.","Method 3: reverse the maths symbol. > becomes ≤. < becomes ≥. = becomes ≠. For example, p: x > 5 gives ~p: x ≤ 5. And r: 10 ≥ 7 gives ~r: 10 < 7.","If the statement already has 'not', take it away: q: A triangle does not have 4 sides. ~q: A triangle has 4 sides."]},
+{"h":"The truth table","p":["Negation always flips the truth value: if p is true then ~p is false, and if p is false then ~p is true."],
+"tbl":{"head":["p","~p","Example"],"rows":[
+["T","F","p: It is raining (true). ~p: It is not raining (false)."],
+["F","T","p: 2 + 2 = 5 (false). ~p: 2 + 2 ≠ 5 (true)."]]}},
+{"h":"A tricky one: all and some","p":["The negation of 'All cats are black' is NOT 'No cats are black'. It is 'Not all cats are black', or 'Some cats are not black'. If 'All cats are black' is false, it does not mean that no cat is black; it only means at least one cat is not black.","Example: let p: A square has four equal sides (true), and q: 2 is an odd number (false). Then ~p: A square does not have four equal sides (false), and ~q: 2 is not an odd number (true)."]},
+{"h":"Common mistakes and fallacies in thinking","p":["Do not confuse an opinion with a statement: ask 'can it be checked as true or false?'. Make sure the negation completely reverses the meaning. Do not treat an open sentence as a statement.","Some wrong arguments (fallacies) in everyday life: attacking the person instead of the idea (Your idea is wrong because you are young); assuming one thing caused another (I wore red and won, so red is lucky); jumping to a conclusion from too little evidence (I met one rude person from that city, so everyone there is rude); using feelings instead of reasons."]}
+],
+"activity":"Write the negation of: (a) All birds can fly. (b) A rhombus is not a square. (c) 12 is a multiple of 5. (d) x < 5. (Answers: some birds cannot fly; a rhombus is a square; 12 is not a multiple of 5; x ≥ 5.)",
+"check":[
+{"q":"The negation of p: 'The sun rises in the West' is","o":["The sun does not rise in the West","The sun rises in the East only","The sun does not exist","The sun sets in the East"]},
+{"q":"The negation of 'x < 5' is","o":["x ≥ 5","x > 5","x ≤ 5","x = 5"]},
+{"q":"The negation of 'All cats are black' is","o":["Some cats are not black","No cats are black","All cats are white","Some cats are black"]},
+{"q":"If p is false, ~p is","o":["True","False","Both","Neither"]},
+{"q":"The negation of '10 ≥ 7' is","o":["10 < 7","10 ≤ 7","10 > 7","10 = 7"]}]},
+
+{"id":"ma1-24","week":12,"title":"Compound Statements: AND and OR","icon":"Target","summary":"Joining simple statements, the symbols for AND (conjunction) and OR (disjunction), their truth tables and examples, and how to translate sentences into symbols.",
+"keyWords":["Compound statement","Conjunction","Disjunction","Truth table"],
+"sections":[
+{"h":"From simple to compound","p":["A compound statement joins two or more simple statements with a connective such as AND, OR or IF-THEN. Compound statements let us describe real situations: 'If it is raining, then I will take an umbrella'. The symbols are ∧ (and), ∨ (or), → (if...then), ↔ (if and only if) and ~ (not)."]},
+{"h":"Conjunction: AND (∧)","p":["p ∧ q is read 'p and q'. It is true only when both p and q are true. Think of it as a demanding teacher: both must be correct."],
+"tbl":{"head":["p","q","p ∧ q"],"rows":[["T","T","T"],["T","F","F"],["F","T","F"],["F","F","F"]]},
+"ex":{"t":"Example","b":["p: You have a ticket (true). q: The show is today (true).","p ∧ q: You have a ticket and the show is today. This is true.","If either one is false, the whole statement is false."]}},
+{"h":"Disjunction: OR (∨)","p":["p ∨ q is read 'p or q'. It is false only when both p and q are false. This is the inclusive OR: one, or the other, or both."],
+"tbl":{"head":["p","q","p ∨ q"],"rows":[["T","T","T"],["T","F","T"],["F","T","T"],["F","F","F"]]},
+"ex":{"t":"Example","b":["p: I will have tea. q: I will have coffee.","p ∨ q: I will have tea or coffee. It is true if I have either, or both. It is false only if I have neither."]}},
+{"h":"Translating between English and symbols","p":["Let p: The food is hot. Let q: The drink is cold.","The food is hot and the drink is cold: p ∧ q.","The food is not hot or the drink is cold: ~p ∨ q.","If the food is hot, then the drink is not cold: p → ~q.","Let p: It is sunny. Let q: It is hot. 'It is not sunny and it is hot' is ~p ∧ q."]}
+],
+"activity":"Let p = 'An elephant can fly' (false) and q = 'A square has 4 sides' (true). Find the truth values of p ∧ q and p ∨ q. (Answers: false and true.)",
+"check":[
+{"q":"p ∧ q is true only when","o":["Both p and q are true","Either p or q is true","Both are false","p is false"]},
+{"q":"p ∨ q is false only when","o":["Both p and q are false","Both are true","p is true","q is true"]},
+{"q":"The symbol for 'and' is","o":["∧","∨","→","↔"]},
+{"q":"If p is true and q is false, then p ∨ q is","o":["True","False","Neither","Both"]},
+{"q":"'It is not sunny and it is hot' is written","o":["~p ∧ q","p ∧ ~q","~(p ∧ q)","p ∨ q"]}]},
+
+{"id":"ma1-25","week":12,"title":"Compound Statements: IF-THEN, IF AND ONLY IF and Truth Tables","icon":"Target","summary":"The conditional and biconditional, how to build truth tables, tautologies and contradictions, and uses in computing.",
+"keyWords":["Conditional","Biconditional","Antecedent","Tautology","Contradiction"],
+"sections":[
+{"h":"The conditional: IF p THEN q (p → q)","p":["p is the antecedent (the condition) and q is the consequent (the result). p → q is false only when p is true and q is false (a broken promise). In all other cases it is true.","Example: p: It is raining. q: The ground is wet. p → q: If it is raining, then the ground is wet. It is false only when it is raining and the ground is dry. If it is not raining, the promise is not tested, so the statement counts as true by convention."],
+"tbl":{"head":["p","q","p → q"],"rows":[["T","T","T"],["T","F","F"],["F","T","T"],["F","F","T"]]}},
+{"h":"The biconditional: p IF AND ONLY IF q (p ↔ q)","p":["p ↔ q is true when p and q have the same truth value, and false when they are different. It means (p → q) and (q → p) both hold.","Example: A figure is a square if and only if it has four equal sides and four right angles. Both parts describe exactly the same thing."],
+"tbl":{"head":["p","q","p ↔ q"],"rows":[["T","T","T"],["T","F","F"],["F","T","F"],["F","F","T"]]}},
+{"h":"Summary of the four connectives","p":["AND: true only with T, T. OR: false only with F, F. IF-THEN: false only with T then F. IF AND ONLY IF: true only when the values match."],
+"tbl":{"head":["p","q","p ∧ q","p ∨ q","p → q","p ↔ q"],"rows":[["T","T","T","T","T","T"],["T","F","F","T","F","F"],["F","T","F","T","T","F"],["F","F","F","F","T","T"]]}},
+{"h":"How to build a truth table","p":["List all the combinations of T and F for the letters. Work out the inner parts first and then work outwards. Example: p ∧ ~q. Columns: p, q, ~q, p ∧ ~q. Rows: TT gives F, F, so p ∧ ~q is F. TF gives T, so T. FT gives F. FF gives F. So p ∧ ~q is true only when p is true and q is false.","Example: p ∨ ~q. TT: ~q = F, so T. TF: ~q = T, so T. FT: ~q = F, so F. FF: ~q = T, so T.","Example: (p ∨ q) → p. TT gives T. TF gives T. FT: p ∨ q = T, p = F, so F. FF: p ∨ q = F, so T."]},
+{"h":"Tautology and contradiction","p":["A tautology is always true whatever the truth values: p ∨ ~p (it is raining or it is not raining). A contradiction is always false: p ∧ ~p (it is raining and it is not raining).","Evaluating: if p is T and q is T, then p → ~q is T → F, which is F. If p is F and q is F, then p ↔ q is T. If p: Lagos is in Ghana (F) and q: 2 × 3 = 6 (T), then p → q is F → T = T."]},
+{"h":"Logic in computing","p":["Computer programs use these ideas all the time. IF (age >= 18) AND (has_id = True) THEN grant access, ELSE refuse. A contract might say IF (contract signed) AND (payment made) THEN the obligation is met. In science, IF the hypothesis is true THEN we expect a result; if the result does not happen, the hypothesis is false."]}
+],
+"activity":"Build the truth table for (p → q) ∧ (q → p) and compare it with p ↔ q. They match. Then build the truth table for p ∧ ~p. It is all F, so it is a contradiction.",
+"check":[
+{"q":"p → q is false only when","o":["p is true and q is false","p is false and q is true","Both are false","Both are true"]},
+{"q":"p ↔ q is true when","o":["p and q have the same truth value","p and q are different","p is true","q is false"]},
+{"q":"If p = T and q = T, then p → ~q is","o":["False","True","Neither","Both"]},
+{"q":"A statement that is always true is a","o":["Tautology","Contradiction","Negation","Conditional only"]},
+{"q":"p ∧ ~p is","o":["A contradiction","A tautology","Always true","Sometimes true"]}]},
+
+{"id":"ma1-26","week":13,"title":"Revision of First Term Mathematics","icon":"ClipboardCheck","summary":"A topic-by-topic revision guide for First Term: key formulas, a three-level revision method, a self-check for each topic, and exam tips.",
+"keyWords":["Revision","Key formulas","Self-check","Exam skills"],
+"sections":[
+{"h":"The Term 1 journey","p":["Week 1 number bases, Week 2 modular arithmetic, Week 3 indices, Week 4 logarithms, Week 6 calculations with logarithms, Week 8 changing the subject and variation, Week 9 quadratic equations by factorising, Week 10 quadratic roots and graphs, Weeks 11 and 12 logical reasoning. Mathematics builds step by step, and each topic supports the next."]},
+{"h":"A three-level revision plan","p":["Level 1, understanding the why: definitions, meanings and why a formula works. Level 2, doing the how: methods and steps. Level 3, knowing the when: which method to use for which kind of question. Spend time on all three levels. Do many past WAEC and NECO questions."]},
+{"h":"Key points to remember","p":["Number bases: to base 10, expand with place values. From base 10, repeated division (whole part) and repeated multiplication (fraction). Carry and borrow the base.","Modular arithmetic: a ≡ b (mod m) if m divides a − b. Reduce first, then calculate. Add m to a negative result.","Indices: aᵐ × aⁿ = aᵐ⁺ⁿ, aᵐ ÷ aⁿ = aᵐ⁻ⁿ, (aᵐ)ⁿ = aᵐⁿ, a⁰ = 1, a⁻ⁿ = 1/aⁿ, a^(1/n) = the nth root. Equal bases, equal indices.","Logarithms: y = aˣ means x = logₐ y. log(MN) = log M + log N, log(M/N) = log M − log N, log Mᵖ = p log M. Keep the mantissa positive.","Formulas and variation: do the same to both sides; unwrap using reverse BODMAS. y = kx, y = k/x, y = kxz.","Quadratics: factorise, then use the zero product rule. Roots give x² − (sum)x + (product) = 0. A graph shows roots, vertex and axis of symmetry.","Logic: statements are true or false. ~p flips the truth value. p ∧ q needs both true. p ∨ q needs one. p → q fails only on T then F. p ↔ q needs matching values."]},
+{"h":"A quick self-check (try each without notes)","p":["Convert 1101₂ to base 10 (13). Evaluate −20 (mod 6) (4). Write 0.00032 in standard form (3.2 × 10⁻⁴). Solve 4^(x+1) = 8 (x = 1/2). Write 2⁵ = 32 in log form (log₂ 32 = 5). Make C the subject of F = (9/5)C + 32 (C = 5(F − 32)/9). If y ∝ 1/x and y = 5 when x = 4, find y when x = 10 (2). Factorise x² + 2x − 15 ((x + 5)(x − 3)). Find the equation with roots 5 and 2 (x² − 7x + 10 = 0). Write the negation of 'x < 5' (x ≥ 5)."]},
+{"h":"Exam tips","p":["Read each question twice. Show every step, because marks are given for method. Write units where needed. Check your answers by substituting back. Manage your time: do the easy questions first. Stay calm; you have prepared well."]}
+],
+"activity":"Make a one-page summary sheet for Term 1: one line of key formulas for each topic. Use it to quiz a friend or family member.",
+"check":[
+{"q":"Convert 1101₂ to base 10.","o":["13","11","15","9"]},
+{"q":"What is −20 (mod 6)?","o":["4","2","−2","14"]},
+{"q":"Write 0.00032 in standard form.","o":["3.2 × 10⁻⁴","3.2 × 10⁴","32 × 10⁻⁵","0.32 × 10⁻³"]},
+{"q":"Which statement is true about p → q?","o":["It is false only when p is true and q is false","It is false when p is false","It is always true","It is false only when both are true"]},
+{"q":"Which is the best way to revise?","o":["Practise past questions and check your working","Only read the notes once","Skip the hard topics","Memorise answers without understanding"]}]}
+]

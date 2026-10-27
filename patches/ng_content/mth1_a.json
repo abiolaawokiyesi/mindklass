@@ -1,0 +1,148 @@
+[
+{"id":"ma1-02","week":1,"title":"Number Bases: Meaning, Place Value and Changing to Base 10","icon":"BarChart2","summary":"What a number base is, the place-value chart, and how to change a number from any base to base 10.",
+"keyWords":["Number base","Binary","Octal","Decimal","Hexadecimal","Place value"],
+"sections":[
+{"h":"What is a number base?","p":["A number base (or radix) is the number of different digits, counting zero, that a number system uses. We count in base 10 (decimal) because we have ten fingers. The digits are 0 to 9. When we reach 9 and want to add 1, we 'reset' the units to 0 and carry 1 to the next place: 10.","Every base works in the same way. The base tells us when counting resets. In base 10, after 9 comes 10 (one group of ten and no ones). In base 2, after 1 comes 10 (one group of two and no ones). In base 5, after 4 comes 10 (one group of five and no ones)."],
+"tbl":{"head":["Base","Name","Digits used","Where it is used"],"rows":[
+["2","Binary","0, 1","Computer processors and storage (on or off)"],
+["5","Quinary","0 to 4","Used for practice in class"],
+["8","Octal","0 to 7","Some computer systems"],
+["10","Decimal","0 to 9","Everyday counting, money, measuring"],
+["16","Hexadecimal","0 to 9 and A to F","Web colour codes, computer memory addresses"]]}},
+{"h":"Why other bases exist","p":["People use base 10 because we count on our fingers. Computers use base 2 because their circuits have only two states, on and off. Base 16 is a short way of writing long binary numbers. Base 60 is used in time (60 seconds in a minute) and in angles (60 minutes in a degree)."]},
+{"h":"The place-value chart","p":["In base x, each place is a power of x. For a number written (digits)ₓ the places from the right are x⁰, x¹, x², and so on. After the point they are x⁻¹, x⁻², x⁻³. In base 5 the places are 25, 5, 1, then 0.2 and 0.04.","The number (243)₅ has 2 in the 25s place, 4 in the 5s place and 3 in the units place. The small number written below and to the right of a number, such as ₅, shows its base. A digit must always be smaller than the base: (396)₇ is not a valid number because 9 is bigger than 6, the largest digit in base 7."]},
+{"h":"Changing from another base to base 10","p":["Method: write each digit with its place value, multiply and add.","Example 1: change (243)₅ to base 10. (243)₅ = 2 × 5² + 4 × 5¹ + 3 × 5⁰ = 2 × 25 + 4 × 5 + 3 × 1 = 50 + 20 + 3 = 73. So (243)₅ = 73₁₀.","Example 2: change (11011)₂ to base 10. The places are 16, 8, 4, 2, 1. So 1 × 16 + 1 × 8 + 0 × 4 + 1 × 2 + 1 × 1 = 16 + 8 + 0 + 2 + 1 = 27. So (11011)₂ = 27₁₀.","Example 3 (with a fraction): change (12.34)₅ to base 10. The whole part is 1 × 5 + 2 × 1 = 7. The fraction part is 3 × 5⁻¹ + 4 × 5⁻² = 3 × 0.2 + 4 × 0.04 = 0.6 + 0.16 = 0.76. So (12.34)₅ = 7.76₁₀.","Example 4: change (2A9)₁₆ to base 10. In hexadecimal A = 10, B = 11, C = 12, D = 13, E = 14, F = 15. So 2 × 256 + 10 × 16 + 9 × 1 = 512 + 160 + 9 = 681."]}
+],
+"activity":"Convert (324)₅, (101101)₂ and (2A9)₁₆ to base 10 and check your answers against these: 89, 45 and 681.",
+"check":[
+{"q":"What is (243)₅ in base 10?","o":["73","243","27","123"]},
+{"q":"What is (11011)₂ in base 10?","o":["27","11011","13","31"]},
+{"q":"Why is (396)₇ not a valid number?","o":["The digit 9 is larger than 6","It has three digits","It is too large","It has no fraction"]},
+{"q":"In hexadecimal, what does the digit F stand for?","o":["15","6","16","10"]},
+{"q":"What is (12.34)₅ in base 10?","o":["7.76","12.34","6.4","7.64"]}]},
+
+{"id":"ma1-03","week":1,"title":"Changing from Base 10 to Other Bases","icon":"BarChart2","summary":"Repeated division for whole numbers, repeated multiplication for fractions, with worked examples.",
+"keyWords":["Repeated division","Repeated multiplication","Remainder","Binary fraction"],
+"sections":[
+{"h":"Whole numbers: repeated division","p":["To change a base 10 whole number to another base: divide by the new base and write the remainder. Then divide the quotient again. Keep going until the quotient is 0. Read the remainders from the bottom to the top.","Example 1: change 59₁₀ to base 2. 59 ÷ 2 = 29 remainder 1. 29 ÷ 2 = 14 remainder 1. 14 ÷ 2 = 7 remainder 0. 7 ÷ 2 = 3 remainder 1. 3 ÷ 2 = 1 remainder 1. 1 ÷ 2 = 0 remainder 1. Reading from the bottom up: 111011₂.","Check: 1 × 32 + 1 × 16 + 1 × 8 + 0 × 4 + 1 × 2 + 1 × 1 = 32 + 16 + 8 + 2 + 1 = 59. Correct.","Example 2: change 127₁₀ to base 8. 127 ÷ 8 = 15 remainder 7. 15 ÷ 8 = 1 remainder 7. 1 ÷ 8 = 0 remainder 1. Reading up: 177₈."]},
+{"h":"Fractions: repeated multiplication","p":["To change a base 10 fraction: multiply the fraction by the new base. Write down the whole-number part of the answer. Take the fractional part and multiply again. Stop when the fractional part is 0 (or when a pattern repeats). Read the whole-number parts from top to bottom.","Example 3: change 0.375₁₀ to base 2. 0.375 × 2 = 0.75, whole part 0. 0.75 × 2 = 1.5, whole part 1. 0.5 × 2 = 1.0, whole part 1. Reading down: 0.011₂.","Example 4: change 0.625₁₀ to base 2. 0.625 × 2 = 1.25 (1). 0.25 × 2 = 0.5 (0). 0.5 × 2 = 1.0 (1). Reading down: 0.101₂."]},
+{"h":"Whole part and fraction together","p":["Example 5: change 26.8₁₀ to base 5. Whole part: 26 ÷ 5 = 5 remainder 1; 5 ÷ 5 = 1 remainder 0; 1 ÷ 5 = 0 remainder 1. Reading up: 101. Fraction part: 0.8 × 5 = 4.0, whole part 4, fraction 0. So the fraction is 0.4. Answer: 26.8₁₀ = 101.4₅.","Example 6: change 44.75₁₀ to base 2. Whole part 44 gives 101100₂. Fraction 0.75 × 2 = 1.5 (1), 0.5 × 2 = 1.0 (1), so 0.11₂. Answer: 101100.11₂.","Example 7: change 158₁₀ to base 5. 158 ÷ 5 = 31 remainder 3; 31 ÷ 5 = 6 remainder 1; 6 ÷ 5 = 1 remainder 1; 1 ÷ 5 = 0 remainder 1. Reading up: 1113₅."]},
+{"h":"Quick reference","p":["To base 10: expand with place values. From base 10 (whole number): repeated division, read remainders upward. From base 10 (fraction): repeated multiplication, read whole parts downward. Between binary and hexadecimal: group binary digits in fours, because 2⁴ = 16."]}
+],
+"activity":"Convert 127₁₀ to base 8, 0.625₁₀ to base 2 and 158₁₀ to base 5. Check your answers with 177₈, 0.101₂ and 1113₅.",
+"check":[
+{"q":"What is 59₁₀ in base 2?","o":["111011","110111","101110","111101"]},
+{"q":"Which method is used to change the fraction part to a new base?","o":["Repeated multiplication","Repeated division","Repeated subtraction","Repeated addition"]},
+{"q":"What is 0.375₁₀ in base 2?","o":["0.011","0.110","0.101","0.111"]},
+{"q":"In repeated division, the remainders are read","o":["From bottom to top","From top to bottom","In any order","From the middle"]},
+{"q":"What is 127₁₀ in base 8?","o":["177","771","117","717"]}]},
+
+{"id":"ma1-04","week":1,"title":"Adding, Subtracting and Multiplying in Other Bases","icon":"BarChart2","summary":"The golden rule (carry and borrow the base), worked examples in bases 2, 4, 5 and 8, and where number bases are used in computers.",
+"keyWords":["Carry","Borrow","Base","Binary multiplication","Hexadecimal"],
+"sections":[
+{"h":"The golden rule","p":["All the steps are the same as in base 10, but the number you carry or borrow is the base, not 10. In base 5 you carry 1 whenever a column reaches 5. In base 8 you carry when a column reaches 8."]},
+{"h":"Addition","p":["Add column by column. If the sum is equal to or bigger than the base, divide by the base: write the remainder and carry the quotient.","Example 1: add 243₅ + 134₅. Units: 3 + 4 = 7. 7 ÷ 5 = 1 remainder 2. Write 2, carry 1. Fives: 4 + 3 + 1 = 8. 8 ÷ 5 = 1 remainder 3. Write 3, carry 1. Twenty-fives: 2 + 1 + 1 = 4. Write 4. Answer: 432₅.","Check in base 10: 243₅ = 73, 134₅ = 44, and 73 + 44 = 117, which is 432₅. Correct.","Example 2: add 132₄ + 211₄. Units: 2 + 1 = 3. Fours: 3 + 1 = 4 = 1 remainder 0 in base 4. Write 0, carry 1. Sixteens: 1 + 2 + 1 = 4 = 10₄. Answer: 1003₄. (Check: 30 + 37 = 67 = 1003₄.)"]},
+{"h":"Subtraction","p":["When you borrow, you borrow one group of the base, not ten.","Example 3: subtract 412₈ − 153₈. Units: 2 is less than 3, so borrow from the middle column. The middle 1 becomes 0 and the units become 2 + 8 = 10. Then 10 − 3 = 7. Middle: 0 is less than 5, so borrow from the left. The 4 becomes 3 and the middle becomes 0 + 8 = 8. Then 8 − 5 = 3. Left: 3 − 1 = 2. Answer: 237₈.","Example 4: subtract 503₆ − 245₆. Check by base 10: 503₆ = 183 and 245₆ = 101. 183 − 101 = 82 = 214₆. Answer: 214₆."]},
+{"h":"Multiplication","p":["Use long multiplication and carry the base.","Example 5: multiply 110₂ × 11₂. 110 × 1 = 110. 110 × 10 = 1100 (shift left). Add: 110 + 1100 = 10010₂. Check: 6 × 3 = 18 = 10010₂.","Example 6: multiply 23₅ × 14₅. In base 10: 23₅ = 13 and 14₅ = 9, so the product is 117 = 432₅. Answer: 432₅."]},
+{"h":"Where bases are used in computing","p":["Binary (base 2) is used inside processors and for storing files. Octal (base 8) is used in some computer systems, such as file permissions. Hexadecimal (base 16) is used for memory addresses and colour codes on web pages. For example, #FF5733 means red FF₁₆ = 255, green 57₁₆ = 87 and blue 33₁₆ = 51.","One byte is 8 bits, or 2 hexadecimal digits. The largest number that 8 bits can hold is 11111111₂ = 255. If you add 1, the number overflows and the computer shows 00000000."]}
+],
+"activity":"Calculate (132)₄ + (211)₄ and (503)₆ − (245)₆ and (23)₅ × (14)₅. Check your answers against 1003₄, 214₆ and 432₅.",
+"check":[
+{"q":"In base 5, 4 + 3 equals","o":["12₅","7₅","3₅","21₅"]},
+{"q":"243₅ + 134₅ equals","o":["432₅","377₅","1000₅","421₅"]},
+{"q":"When you borrow in base 8, you borrow","o":["8","10","1","16"]},
+{"q":"110₂ × 11₂ equals","o":["10010₂","1100₂","1111₂","10001₂"]},
+{"q":"What is the largest number that 8 bits can hold?","o":["255","256","127","128"]}]},
+
+{"id":"ma1-05","week":2,"title":"Modular Arithmetic: Clocks, Congruence and Remainders","icon":"BarChart2","summary":"The clock model, the meaning of congruence modulo m, finding a remainder, and handling negative numbers.",
+"keyWords":["Modulus","Congruent","Remainder","Residue","Clock arithmetic"],
+"sections":[
+{"h":"The clock model","p":["Look at a clock. If it is 9 o'clock now and you add 5 hours, it becomes 2 o'clock, not 14 o'clock. The time wraps around after 12. This wrapping around is the idea of modular arithmetic. We care only about the remainder after dividing by a fixed number called the modulus. For a clock the modulus is 12.","In ordinary arithmetic, 9 + 5 = 14. In arithmetic modulo 12, 14 ÷ 12 = 1 remainder 2, so we write 9 + 5 ≡ 2 (mod 12). Read it: nine plus five is congruent to two, modulo twelve.","Another example: modulo 5, the numbers go 0, 1, 2, 3, 4 and then back to 0. If you start at 2 and add 4, you go 3, 4, 0, 1 and land on 1. So 2 + 4 ≡ 1 (mod 5)."]},
+{"h":"Congruence","p":["Two numbers a and b are congruent modulo m, written a ≡ b (mod m), if m divides the difference (a − b) exactly.","Example: is 17 ≡ 5 (mod 6)? 17 − 5 = 12, and 12 ÷ 6 = 2 exactly. Yes, so 17 ≡ 5 (mod 6).","All numbers that give the same remainder belong to one group called a congruence class. In mod 5: 0, 5, 10, 15 and so on all go to 0. And 1, 6, 11, 16 all go to 1. Even negative numbers belong: −4 also goes to 1 because −4 + 5 = 1."]},
+{"h":"Finding the value modulo m","p":["Divide by m. The remainder is the answer, and it is always between 0 and m − 1.","Examples: 25 (mod 4): 25 ÷ 4 = 6 remainder 1, so 25 ≡ 1 (mod 4). 10 (mod 7): 10 ÷ 7 = 1 remainder 3, so 10 ≡ 3. 47 (mod 6): 47 ÷ 6 = 7 remainder 5, so 47 ≡ 5. 100 (mod 9): 100 ÷ 9 = 11 remainder 1, so 100 ≡ 1."]},
+{"h":"Negative numbers","p":["We want a positive remainder. Keep adding the modulus until you get a number from 0 to m − 1.","Example: find −14 (mod 3). −14 + 3 = −11; −11 + 3 = −8; −8 + 3 = −5; −5 + 3 = −2; −2 + 3 = 1. So −14 ≡ 1 (mod 3).","A quicker way: add the nearest multiple of m that makes the number positive. −20 (mod 6): the nearest multiple of 6 above 20 is 24, and −20 + 24 = 4. So −20 ≡ 4 (mod 6)."]}
+],
+"activity":"Work out 100 (mod 9), −20 (mod 6) and 55 (mod 8). Check: 1, 4 and 7. Then say what time it will be 30 hours after 8 o'clock (use mod 12 on a clock face).",
+"check":[
+{"q":"Evaluate 47 (mod 6).","o":["5","7","1","11"]},
+{"q":"Evaluate −20 (mod 6).","o":["4","2","−2","14"]},
+{"q":"17 ≡ 5 (mod 6) because","o":["17 − 5 = 12 is divisible by 6","17 + 5 is divisible by 6","17 is bigger than 6","5 is prime"]},
+{"q":"In mod 5, the only possible results are","o":["0, 1, 2, 3, 4","1, 2, 3, 4, 5","0 to 10","Any whole number"]},
+{"q":"Evaluate 25 (mod 4).","o":["1","6","0","2"]}]},
+
+{"id":"ma1-06","week":2,"title":"Operations in Modular Arithmetic and Where It Is Used","icon":"BarChart2","summary":"Adding, subtracting and multiplying with remainders, worked examples, and uses in days of the week, clocks, ISBN codes and codes (ciphers).",
+"keyWords":["Modular addition","Modular multiplication","Days of the week","Caesar cipher","Check digit"],
+"sections":[
+{"h":"Reduce first, then calculate","p":["You can do addition, subtraction and multiplication on the small remainders instead of the large numbers. The answer is congruent. Rule: find a (mod m) and b (mod m), do the operation on those remainders, then take mod m again. If the result is negative, add m."]},
+{"h":"Worked examples","p":["Example 1: (38 + 29) (mod 3). Add first: 38 + 29 = 67, and 67 ÷ 3 = 22 remainder 1. Reduce first: 38 ≡ 2 and 29 ≡ 2, so 2 + 2 = 4, and 4 ≡ 1. Both give 1.","Example 2: (15 × 22) (mod 7). 15 ≡ 1 and 22 ≡ 1, so 1 × 1 = 1. Check: 330 ÷ 7 = 47 remainder 1. Answer: 1.","Example 3: (25 − 12) (mod 8). 25 ≡ 1 and 12 ≡ 4, so 1 − 4 = −3. Add 8: −3 + 8 = 5. Answer: 5.","Example 4: (83 × 56 + 12) (mod 9). 83 ≡ 2, 56 ≡ 2, 12 ≡ 3. So 2 × 2 + 3 = 7. Answer: 7.","Example 5: (45 + 52) (mod 5): 45 ≡ 0, 52 ≡ 2, so the result is 2. (14 × 10) (mod 4): 14 ≡ 2, 10 ≡ 2, 2 × 2 = 4 ≡ 0. And (12 × 11 × 10) (mod 6): 12 ≡ 0, so the product is 0."]},
+{"h":"Uses in daily life","p":["Days of the week (mod 7). Let Sunday = 0, Monday = 1, Tuesday = 2, Wednesday = 3, Thursday = 4, Friday = 5, Saturday = 6. If today is Wednesday (3), what day is it 90 days from now? (3 + 90) mod 7 = 93 mod 7 = 2 (because 93 = 13 × 7 + 2). Day 2 is Tuesday.","Clock time (mod 12 or mod 24). If it is 7:00 pm (19:00) now, what time will it be in 40 hours? (19 + 40) mod 24 = 59 mod 24 = 11. So it will be 11:00 am.","A repeating cycle: if a cycle repeats every 4 days and today is day 0, then in 100 days the position is 100 mod 4 = 0, the start of the cycle."]},
+{"h":"Uses in computer science","p":["ISBN check digits: the last digit of a book's ISBN is worked out using mod 11 to catch typing mistakes. Cyclic redundancy checks use modular arithmetic to detect errors in stored data. The Caesar cipher shifts each letter along the alphabet, working mod 26. For example, with a shift of 3, A becomes D and Y becomes B."]},
+{"h":"Solving a simple modular equation","p":["Find n (between 0 and 4) if 4n ≡ 3 (mod 5). Try each value: n = 0 gives 0; n = 1 gives 4; n = 2 gives 8 ≡ 3 (works); So n = 2."]}
+],
+"activity":"If today is Friday, what day is it after 100 days? Use Fri = 5 and mod 7. (Answer: (5 + 100) mod 7 = 105 mod 7 = 0, which is Sunday.)",
+"check":[
+{"q":"Evaluate (38 + 29) (mod 3).","o":["1","2","0","67"]},
+{"q":"Evaluate (25 − 12) (mod 8).","o":["5","3","13","−3"]},
+{"q":"If today is Wednesday, what day is it 90 days from now?","o":["Tuesday","Monday","Wednesday","Friday"]},
+{"q":"Evaluate (14 × 10) (mod 4).","o":["0","2","1","3"]},
+{"q":"Which cipher is based on mod 26?","o":["Caesar cipher","ISBN code","Binary code","Roman numerals"]}]},
+
+{"id":"ma1-07","week":3,"title":"Indices and Standard Form","icon":"Zap","summary":"What indices (powers) mean, the parts of an index expression, and how to write large and small numbers in standard form.",
+"keyWords":["Index","Base","Exponent","Power","Standard form"],
+"sections":[
+{"h":"What is an index?","p":["An index (also called an exponent or power) is a short way to write repeated multiplication. 2 × 2 × 2 × 2 × 2 = 2⁵. Here 2 is the base and 5 is the index (the exponent or power). Read it 'two to the power five'. Indices help us write very large and very small numbers in a short way.","Growth by doubling is a good picture: bacteria that double every hour. Hour 0: 1 = 2⁰. Hour 1: 2 = 2¹. Hour 2: 4 = 2². Hour 3: 8 = 2³. Hour 4: 16 = 2⁴. If you put ₦1,000 in a place that doubles every year, you have ₦2,000, ₦4,000, ₦8,000 and so on: 1000 × 2ⁿ."]},
+{"h":"Powers of 2 worth knowing","p":["Learn these. They are used often in computers."],
+"tbl":{"head":["Power","Value","Example"],"rows":[
+["2⁰","1","A single bacterium"],["2¹","2","Two coins"],["2²","4","Four directions"],["2³","8","Eight (bits in a byte, nearly)"],["2⁴","16","A hexadecimal digit"],["2⁵","32","Adult human teeth"],["2⁶","64","Squares on a chessboard"],["2⁸","256","One byte"],["2¹⁰","1,024","One kilobyte"],["2⁻¹","0.5","Half"],["2⁻²","0.25","Quarter"],["2⁻³","0.125","An eighth"]]}},
+{"h":"Standard form (scientific notation)","p":["Standard form is a way to write very large or very small numbers as A × 10ⁿ, where A is from 1 up to (but not including) 10, and n is a whole number.","Large numbers have a positive n. Move the decimal point to the left until there is one digit before it, and count the places. 4,750,000 = 4.75 × 10⁶ (moved 6 places left).","Small numbers have a negative n. Move the point to the right. 0.00032 = 3.2 × 10⁻⁴ (moved 4 places right). Memory aid: moving left gives a positive index; moving right gives a negative index.","To go back to an ordinary number, move the point the other way. 5.67 × 10⁻⁴ = 0.000567. Also 0.000507 = 5.07 × 10⁻⁴."]}
+],
+"activity":"Write 63,000,000 and 0.0000092 in standard form. Check: 6.3 × 10⁷ and 9.2 × 10⁻⁶.",
+"check":[
+{"q":"2⁵ equals","o":["32","10","25","16"]},
+{"q":"Write 4,750,000 in standard form.","o":["4.75 × 10⁶","47.5 × 10⁵","4.75 × 10⁵","0.475 × 10⁷"]},
+{"q":"Write 0.00032 in standard form.","o":["3.2 × 10⁻⁴","3.2 × 10⁴","32 × 10⁻⁵","0.32 × 10⁻³"]},
+{"q":"5.67 × 10⁻⁴ as an ordinary number is","o":["0.000567","56700","0.00567","567000"]},
+{"q":"In 7³, the base is","o":["7","3","21","73"]}]},
+
+{"id":"ma1-08","week":3,"title":"The Laws of Indices","icon":"Zap","summary":"The multiplication, division, power, zero, negative and fractional laws of indices, and why they work, with worked examples.",
+"keyWords":["Law of indices","Zero index","Negative index","Fractional index","Reciprocal"],
+"sections":[
+{"h":"The laws","p":["Learn this table. Here a is any non-zero number and m and n are indices."],
+"tbl":{"head":["Law","Rule","Example"],"rows":[
+["Multiplication","aᵐ × aⁿ = aᵐ⁺ⁿ (same base: add the indices)","y⁵ × y³ = y⁸"],
+["Division","aᵐ ÷ aⁿ = aᵐ⁻ⁿ (same base: subtract the indices)","y⁹ ÷ y² = y⁷"],
+["Power of a power","(aᵐ)ⁿ = aᵐⁿ (multiply the indices)","(y³)⁴ = y¹²"],
+["Zero index","a⁰ = 1","7⁰ = 1"],
+["Negative index","a⁻ⁿ = 1 / aⁿ","3⁻² = 1/9"],
+["Fractional index","a^(1/n) = the nth root of a","64^(1/3) = 4"],
+["Combined fractional index","a^(m/n) = (the nth root of a) to the power m","27^(2/3) = 3² = 9"]]}},
+{"h":"Why do these laws work?","p":["Multiplication: y⁵ × y³ = (y·y·y·y·y) × (y·y·y) = y⁸, so we add the indices. Division: y⁹ ÷ y² cancels two y's from the top and the bottom, leaving y⁷. Power of a power: (y³)⁴ is four groups of y³, which is 3 × 4 = 12 y's, so y¹².","Why is a⁰ = 1? Look at the pattern: 3⁴ = 81, 3³ = 27 (81 ÷ 3), 3² = 9 (27 ÷ 3), 3¹ = 3 (9 ÷ 3). Dividing by 3 once more gives 3⁰ = 1. Negative indices carry on the pattern: 2³ = 8, and 2⁻³ = 1/8, the reciprocal."]},
+{"h":"Worked example 1","p":["Simplify (81/16)^(−3/4). Step 1: the negative index means turn the fraction upside down, giving (16/81)^(3/4). Step 2: the fractional index 3/4 means take the 4th root and then cube. The 4th root of 16 is 2 and the 4th root of 81 is 3, so we get (2/3)³. Step 3: cube it: 8/27. Answer: 8/27."]},
+{"h":"Worked example 2","p":["Simplify (x²y⁻¹)³ / (x⁴y⁵). Step 1: apply the power to the top: x⁶y⁻³. Step 2: divide by subtracting: x^(6−4) × y^(−3−5) = x²y⁻⁸. Step 3: turn the negative index into a fraction: x² / y⁸. Answer: x²/y⁸."]},
+{"h":"More examples","p":["100^(1/2) × 100⁰ = 10 × 1 = 10. (64/9)^(−1/2) = (9/64)^(1/2) = 3/8. x³y² ÷ (x⁵y⁻¹) = x⁻²y³ = y³/x²."]}
+],
+"activity":"Simplify y³ × y⁵ ÷ y⁴ and (2x³)² and 8^(2/3). Check: y⁴, 4x⁶ and 4.",
+"check":[
+{"q":"a⁵ × a³ equals","o":["a⁸","a¹⁵","a²","2a⁸"]},
+{"q":"(y³)⁴ equals","o":["y¹²","y⁷","y⁸¹","y³⁴"]},
+{"q":"3⁻² equals","o":["1/9","−9","−6","9"]},
+{"q":"64^(1/3) equals","o":["4","21","8","32"]},
+{"q":"Evaluate (64/9)^(−1/2).","o":["3/8","8/3","−8/3","9/64"]}]},
+
+{"id":"ma1-09","week":3,"title":"Solving Equations with Indices","icon":"Zap","summary":"The golden rule for equations with powers, making bases the same, and the substitution method, with fully worked examples.",
+"keyWords":["Exponential equation","Same base","Substitution","Quadratic form"],
+"sections":[
+{"h":"The golden rule","p":["If aˣ = aʸ and a is not 0 or 1, then x = y. In words: if two powers of the same base are equal, then their indices are equal. So the plan is: write both sides as powers of the same base, then equate the indices.","Useful conversions: 4 = 2², 8 = 2³, 16 = 2⁴, 32 = 2⁵, 9 = 3², 27 = 3³, 81 = 3⁴, 25 = 5², 125 = 5³, 625 = 5⁴."]},
+{"h":"Example 1 and Example 2","p":["Solve 5ˣ = 125. Write 125 = 5³. So 5ˣ = 5³ and x = 3.","Solve 4^(x+1) = 8. Write 4 = 2² and 8 = 2³. So 2^(2(x+1)) = 2³. Then 2x + 2 = 3, so x = 1/2."]},
+{"h":"Example 3: both sides need changing","p":["Solve 9^(x−1) = 27^(x+2). Write both sides with base 3. 9^(x−1) = (3²)^(x−1) = 3^(2(x−1)). 27^(x+2) = (3³)^(x+2) = 3^(3(x+2)). Equate the indices: 2(x − 1) = 3(x + 2). Then 2x − 2 = 3x + 6. So 2x − 3x = 6 + 2, which gives −x = 8, so x = −8."]},
+{"h":"Example 4: the substitution method","p":["Solve 4ˣ − 3(2ˣ) − 4 = 0. Step 1: notice that 4ˣ = (2ˣ)². Let y = 2ˣ. Then the equation becomes y² − 3y − 4 = 0. Step 2: factorise: (y − 4)(y + 1) = 0. So y = 4 or y = −1. Step 3: go back to 2ˣ. Case 1: 2ˣ = 4 = 2², so x = 2. Case 2: 2ˣ = −1 has no solution because 2ˣ is always positive. Answer: x = 2.","Another: solve 3²ʸ − 10(3ʸ) + 9 = 0. Let u = 3ʸ: u² − 10u + 9 = 0, so (u − 1)(u − 9) = 0, u = 1 or 9. So 3ʸ = 1 gives y = 0 and 3ʸ = 9 gives y = 2."]},
+{"h":"A trick question","p":["If 2ˣ = 5, find 2^(x+2). 2^(x+2) = 2ˣ × 2² = 5 × 4 = 20."]}
+],
+"activity":"Solve 3ˣ = 81, 8ˣ = 32 and 2^(2x−1) = 16. Check: x = 4, x = 5/3 and x = 5/2.",
+"check":[
+{"q":"Solve 5ˣ = 125.","o":["x = 3","x = 25","x = 5","x = 2"]},
+{"q":"Solve 4^(x+1) = 8.","o":["x = 1/2","x = 2","x = 1","x = 3/2"]},
+{"q":"Solve 9^(x−1) = 27^(x+2).","o":["x = −8","x = 8","x = 4","x = −4"]},
+{"q":"If 2ˣ = 5, then 2^(x+2) equals","o":["20","7","10","25"]},
+{"q":"In 4ˣ − 3(2ˣ) − 4 = 0, which substitution helps?","o":["y = 2ˣ","y = 4","y = x","y = 3"]}]}
+]

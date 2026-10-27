@@ -1,0 +1,193 @@
+[
+{"id":"ph1-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Physics is about, how to use these notes, and a map of every unit in First Term.",
+"keyWords":["Physics","Measurement","Motion","Table of contents"],
+"sections":[
+{"h":"Welcome to SS1 Physics","p":["Physics is the science that explains how the world works. It tells us why a ball falls, why a car needs fuel to move, why a stone sinks but a ship floats, and how sound and light travel to us. Everything you see around you in Nigeria, from a generator to a mobile phone to the rain on a zinc roof, follows the rules of Physics.","This is the First Term course of SS1 Physics. It follows the Nigerian curriculum scheme of work for SS1 and prepares you for WAEC, NECO and later for JAMB. In this term you will learn how to measure things properly, how to describe movement, and how to calculate things like speed, acceleration and distance."]},
+{"h":"How to use these notes","p":["Each unit is short enough to finish in one sitting. Read it slowly, one section at a time. Look carefully at every picture, because Physics is easier to understand when you can see it.","When you meet a worked example, cover the answer with your hand, try the working yourself, and only then check. This is the best way to get better at calculations.","At the end of every unit there are practice questions. They do not count towards any mark. They are there to help you check that you really understood. Answer them all correctly to complete the unit and move to the next one.","Keep a notebook and a calculator close by. Copy the formulas into your notebook in your own handwriting, because writing them down helps you remember them."]},
+{"h":"Table of contents for First Term","p":["The units follow the weekly scheme of work. Some topics are split into two or more units so that each one stays easy to digest."],
+"tbl":{"head":["Unit","Week","What you will learn"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Physical quantities: fundamental quantities and their units"],
+["3","1","Derived quantities, dimensions and changing units"],
+["4","2","Measuring mass, weight, length and time"],
+["5","2","Using instruments well and avoiding errors"],
+["6","3","Position, distance and displacement"],
+["7","3","Showing movement on graphs and number lines"],
+["8","4 - 6","Scalar and vector quantities"],
+["9","4 - 6","Adding vectors"],
+["10","8","Speed and velocity"],
+["11","8","Acceleration"],
+["12","8","Graphs of motion"],
+["13","8","Using a velocity-time graph"],
+["14","9 - 10","Motion, its types, and force"],
+["15","9 - 10","Friction"],
+["16","9 - 10","Equations of motion"],
+["17","9 - 10","Free fall and gravity"]]}},
+{"h":"Tips for doing well in Physics","p":["Learn the definitions word for word, because examiners give marks for correct definitions. Always write the unit with your final answer: an answer like 50 with no unit loses a mark. Write the formula first, then put in the numbers, then work out the answer. Practise past WAEC and NECO questions regularly. If a topic is hard, go back to the picture and the simple example first, then try the harder one."]}
+],
+"activity":"Get a notebook and write today's date and the title 'SS1 Physics - First Term' on the first page. Then write down three things around you that move (for example a fan, a car, a pot of boiling water) and three things that you would like to measure at home (for example the length of your table, your mass, the time you take to walk to school).",
+"check":[
+{"q":"What is the best way to use a worked example?","o":["Try it yourself first, then check the answer","Only read the answer at once","Skip it completely","Copy it without thinking"]},
+{"q":"In which unit do you learn about speed and velocity?","o":["Unit 10","Unit 2","Unit 5","Unit 17"]},
+{"q":"Do the practice questions at the end of each unit count towards a term mark?","o":["No, they only help you check your understanding","Yes, they are the final exam","Yes, they give 50 marks","Only in Week 1"]},
+{"q":"What must you always write with a final answer in a calculation?","o":["The unit","A drawing","The date","The teacher's name"]}]},
+
+{"id":"ph1-02","week":1,"title":"Physical Quantities: Fundamental Quantities and Units","icon":"Target","summary":"What a physical quantity is, the seven fundamental quantities, their SI units and the instruments used to measure them.",
+"keyWords":["Physical quantity","Fundamental quantity","SI unit","Metre","Kilogram","Second"],
+"sections":[
+{"h":"What is a physical quantity?","p":["A physical quantity is anything about a material or a system that we can measure. Length of a table, mass of a bag of rice, time to boil water and temperature of the room are all physical quantities.","A measurement always has two parts: a number and a unit. When we say a table is 2 metres long, '2' is the number and 'metre' is the unit. A number alone, like '2', tells us nothing. Always give both.","Physical quantities are put into two groups: fundamental quantities and derived quantities."]},
+{"h":"Fundamental quantities","p":["Fundamental quantities are the basic quantities. They stand on their own and cannot be written in terms of any other quantity. Think of them as the building blocks of Physics.","Scientists around the world agreed to use the same units so that everybody can understand each other. This agreed set is called the SI system (International System of Units). SI comes from the French name Systeme International d'Unites.","There are seven fundamental quantities. In SS1 you will use the first four most often: length, mass, time and temperature."],
+"tbl":{"head":["Fundamental quantity","SI unit","Symbol","Instrument used"],"rows":[
+["Length","metre","m","Ruler, metre rule, tape measure"],
+["Mass","kilogram","kg","Beam balance, scale"],
+["Time","second","s","Stopwatch, clock"],
+["Electric current","ampere","A","Ammeter"],
+["Temperature","kelvin","K","Thermometer"],
+["Amount of substance","mole","mol","Chemical balance"],
+["Luminous intensity","candela","cd","Photometer"]]}},
+{"h":"The pictures of common measuring instruments","p":["The picture below shows many instruments used in Physics laboratories. Some of them you will meet in this course: the metre rule and vernier callipers for length, the micrometer screw gauge for very small lengths, the stopwatch for time, the thermometer for temperature and the top pan balance for mass. The voltmeter, ammeter and galvanometer are used for electricity, which you will study in later classes."],
+"img":{"src":"phy-instruments.jpg","alt":"Poster of measuring instruments: micrometer, metre ruler, protractor, vernier callipers, thermometer, stopwatch, voltmeter, ammeter, galvanometer, top pan balance and cathode-ray oscilloscope","cap":"Common measuring instruments used in Physics."}},
+{"h":"Features of fundamental quantities","p":["They are independent: you cannot get one of them by combining the others. For example, you cannot get length from mass and time.","Each has a standard SI unit that everybody agrees on.","They are used to build all the other quantities, which are called derived quantities. You will study these in the next unit."],
+"ex":{"t":"Quick check","b":["Is 'speed' a fundamental quantity? No. Speed is distance divided by time, so it is made from two other quantities. It is a derived quantity.","Is 'time' fundamental? Yes. We cannot write time in terms of any other quantity."]}}
+],
+"activity":"Look at the instrument picture above. Choose five instruments and write, for each one, the quantity it measures and the SI unit of that quantity. Example: Stopwatch - measures time - second (s).",
+"check":[
+{"q":"How many fundamental quantities are there in the SI system?","o":["Seven","Four","Nine","Twelve"]},
+{"q":"What is the SI unit of mass?","o":["Kilogram","Gram","Newton","Metre"]},
+{"q":"Which of these is a fundamental quantity?","o":["Time","Speed","Area","Force"]},
+{"q":"What does SI stand for?","o":["International System of Units","Standard Instrument","Scientific Index","Simple Inch"]},
+{"q":"Which instrument is used to measure temperature?","o":["Thermometer","Ammeter","Stopwatch","Metre rule"]}]},
+
+{"id":"ph1-03","week":1,"title":"Derived Quantities, Dimensions and Changing Units","icon":"BarChart2","summary":"How derived quantities are made from fundamental ones, what dimensions are, why units matter, and how to convert between units.",
+"keyWords":["Derived quantity","Dimension","Newton","Joule","Prefix","Unit conversion"],
+"sections":[
+{"h":"Derived quantities","p":["A derived quantity is made by combining fundamental quantities using multiplication or division. For example, area is length multiplied by length, so its unit is metre multiplied by metre, written m². Velocity is displacement divided by time, so its unit is metre per second, written m/s or ms⁻¹.","Their units are called derived units. Some derived units are so common that they have special names, like the newton for force and the joule for energy."],
+"tbl":{"head":["Derived quantity","Formula","SI unit","In fundamental units"],"rows":[
+["Area","Length x width","m²","m²"],
+["Volume","Length x width x height","m³","m³"],
+["Density","Mass / volume","kg/m³","kg m⁻³"],
+["Velocity","Displacement / time","m/s","m s⁻¹"],
+["Acceleration","Change in velocity / time","m/s²","m s⁻²"],
+["Force","Mass x acceleration","newton (N)","kg m s⁻²"],
+["Work or energy","Force x distance","joule (J)","kg m² s⁻²"],
+["Power","Work / time","watt (W)","kg m² s⁻³"],
+["Pressure","Force / area","pascal (Pa)","kg m⁻¹ s⁻²"]]},
+"ex":{"t":"Worked example: unit of force","b":["Force = mass x acceleration.","Unit of mass = kg. Unit of acceleration = m/s², which is m s⁻².","So the unit of force = kg x m s⁻² = kg m s⁻². This is given the special name newton (N).","So 1 N = 1 kg m s⁻²."]}},
+{"h":"Dimensions","p":["Dimensions show which fundamental quantities a derived quantity is made from. We use capital letters in square brackets: [M] for mass, [L] for length and [T] for time.","To find the dimension of a quantity, write its formula and replace each quantity by its letter. A power tells how many times that quantity appears."],
+"tbl":{"head":["Quantity","Formula","Dimension"],"rows":[
+["Velocity","Displacement / time","[L][T⁻¹]"],
+["Acceleration","Velocity / time","[L][T⁻²]"],
+["Force","Mass x acceleration","[M][L][T⁻²]"],
+["Work","Force x distance","[M][L²][T⁻²]"]]},
+"ex":{"t":"Worked example: dimension of pressure","b":["Pressure = force / area.","Dimension of force = [M][L][T⁻²]. Dimension of area = [L²].","Pressure = [M][L][T⁻²] / [L²] = [M][L⁻¹][T⁻²]."]}},
+{"h":"What dimensions are used for","p":["Checking whether an equation is correct. Both sides of a correct equation must have the same dimension.","Working out a relationship between quantities.","Changing units from one system to another."]},
+{"h":"Why units and measurements matter","p":["Standardisation: the same unit is used everywhere in the world, so a kilogram of rice in Lagos is the same as a kilogram of rice in London.","Accuracy: careful measurement reduces mistakes in experiments.","Reproducibility: another person can repeat your experiment and get the same result.","Communication: scientists can share results with each other without confusion."]},
+{"h":"Changing from one unit to another","p":["Sometimes the unit given in a question is not the unit you need. You must change it before you calculate. Use prefixes to help you. A prefix is a short word placed before a unit to make it bigger or smaller."],
+"tbl":{"head":["Prefix","Symbol","Meaning (multiplier)"],"rows":[
+["mega","M","1 000 000 (10⁶)"],
+["kilo","k","1 000 (10³)"],
+["centi","c","0.01 (10⁻²)"],
+["milli","m","0.001 (10⁻³)"],
+["micro","µ","0.000001 (10⁻⁶)"]]},
+"ex":{"t":"Worked examples","b":["Change 100 cm to metres. 1 m = 100 cm, so 100 cm = 100 / 100 = 1 m.","Change 2 hours to seconds. 1 hour = 60 x 60 = 3600 s, so 2 hours = 2 x 3600 = 7200 s.","Change 3.5 km to metres. 1 km = 1000 m, so 3.5 km = 3.5 x 1000 = 3500 m."]}}
+],
+"activity":"Find the dimension of density (mass divided by volume) and of velocity multiplied by time. Then convert your own height from centimetres to metres.",
+"check":[
+{"q":"What is the unit of force in terms of fundamental units?","o":["kg m s⁻²","kg m² s⁻²","kg m⁻¹ s⁻²","m s⁻¹"]},
+{"q":"What is the dimension of velocity?","o":["[L][T⁻¹]","[L][T⁻²]","[M][L][T⁻²]","[L²]"]},
+{"q":"Change 2 hours to seconds.","o":["7200 s","120 s","3600 s","720 s"]},
+{"q":"What does the prefix 'kilo' mean?","o":["1000 times","100 times","0.001 times","1 000 000 times"]},
+{"q":"Which of these is a derived quantity?","o":["Pressure","Time","Mass","Length"]}]},
+
+{"id":"ph1-04","week":2,"title":"Measuring Mass, Weight, Length and Time","icon":"ClipboardCheck","summary":"Definitions, units and instruments for mass, weight, length and time, with worked examples.",
+"keyWords":["Mass","Weight","Gravity","Length","Time","Vernier callipers","Micrometer screw gauge"],
+"sections":[
+{"h":"Mass","p":["Mass is the amount of matter in a body. It is a scalar quantity, which means it has size only and no direction. The SI unit is the kilogram (kg).","Mass is measured with a beam balance, a triple beam balance, an electronic (digital) balance, or a chemical balance when the mass is very small.","Example: a bag of rice has a mass of 25 kg. Your mass is the same on Earth, on the Moon, and in space."]},
+{"h":"Weight","p":["Weight is the force with which the Earth pulls a body towards its centre. Weight is a force, so it is a vector quantity (it has size and direction, and the direction is downwards). The SI unit is the newton (N).","Weight = mass x acceleration due to gravity, or W = mg. On Earth, g = 9.8 m/s² (often taken as 10 m/s² in calculations). Weight is measured with a spring balance or a newton meter."],
+"ex":{"t":"Worked example","b":["A body has a mass of 5 kg. Find its weight on Earth.","W = mg = 5 x 9.8 = 49 N.","The same body on the Moon, where g = 1.6 m/s², weighs 5 x 1.6 = 8 N. Its mass is still 5 kg."]}},
+{"h":"The difference between mass and weight","p":["Mass stays the same everywhere. Weight changes from place to place because the pull of gravity is different. That is why astronauts feel light on the Moon but their mass has not changed at all."],
+"tbl":{"head":["Mass","Weight"],"rows":[
+["Amount of matter in a body","Pull of gravity on a body"],
+["Scalar","Vector (acts downwards)"],
+["Measured in kilogram (kg)","Measured in newton (N)"],
+["Measured with a beam balance","Measured with a spring balance"],
+["Same everywhere","Changes with the value of g"]]}},
+{"h":"Length","p":["Length is the distance between two points. It is a scalar quantity. The SI unit is the metre (m). Different instruments are chosen for different jobs."],
+"tbl":{"head":["Instrument","Range","Smallest reading (accuracy)"],"rows":[
+["Ruler or metre rule","Up to 1 m","1 mm (0.1 cm)"],
+["Tape measure","Up to 50 m","1 mm"],
+["Vernier callipers","Up to about 15 cm","0.01 cm (0.1 mm)"],
+["Micrometer screw gauge","Up to about 2.5 cm","0.01 mm"]]},
+"ex":{"t":"Useful length conversions","b":["1 km = 1000 m","1 m = 100 cm = 1000 mm","1 inch = 2.54 cm"]}},
+{"h":"Time","p":["Time is the ongoing sequence of events. It is a scalar quantity and its SI unit is the second (s). We measure time with a clock or a stopwatch. A pendulum clock is often used in experiments.","Conversions: 1 minute = 60 s; 1 hour = 3600 s; 1 day = 86 400 s."]}
+],
+"activity":"Measure the length of your exercise book in centimetres and then change it to metres. Time yourself walking 20 steps with the stopwatch on a phone. Write both results with their units.",
+"check":[
+{"q":"What is the weight of an object of mass 20 kg on Earth? (g = 10 m/s²)","o":["200 N","2 N","20 N","2000 N"]},
+{"q":"Which instrument measures weight?","o":["Spring balance","Beam balance","Metre rule","Stopwatch"]},
+{"q":"Which quantity changes from place to place?","o":["Weight","Mass","Length","Time"]},
+{"q":"Which instrument gives the most accurate length for a small wire?","o":["Micrometer screw gauge","Metre rule","Tape measure","Stopwatch"]},
+{"q":"How many seconds are in one hour?","o":["3600","60","360","24 000"]}]},
+
+{"id":"ph1-05","week":2,"title":"Using Instruments Well and Avoiding Errors","icon":"CheckCircle","summary":"Common errors in measurement, how to avoid them, and why careful measurement matters.",
+"keyWords":["Parallax error","Zero error","Instrumental error","Reaction time","Accuracy"],
+"sections":[
+{"h":"Why errors happen","p":["No measurement is ever perfect. A small difference always exists between the reading we get and the true value. This difference is called an error. A good scientist cannot remove all errors but learns to reduce them."]},
+{"h":"Common errors in measurement","p":["Parallax error: this happens when you look at a scale from the wrong angle. The reading seems to move when your eye moves. To avoid it, always place your eye directly in front of the mark, at eye level, so that your line of sight is at 90 degrees to the scale.","Zero error: this happens when the instrument does not read zero when it should. For example a ruler whose end is worn away, or a balance that reads 2 g with nothing on it. You must either correct the instrument or add or subtract the zero error from every reading.","Instrumental error: the instrument is faulty or was not made or marked properly (for example a stretched spring in a spring balance). Use well-kept instruments and check them against a known standard.","Human reaction time: when you start and stop a stopwatch by hand, there is a small delay of about 0.2 second. To reduce its effect, time many swings and divide, instead of timing just one."]},
+{"h":"Good habits for accurate measurement","p":["Take readings at eye level.","Make sure the instrument is clean and in good condition.","Always check for zero error before you start.","Repeat each measurement at least three times and take the average.","Write the unit with every reading."],
+"ex":{"t":"Worked example: reducing reaction-time error","b":["A pendulum is timed for 20 complete swings and the stopwatch shows 36.0 s.","Time for one swing = 36.0 / 20 = 1.8 s.","The 0.2 s reaction delay is now shared over 20 swings, so its effect on one swing is only 0.01 s."]}},
+{"h":"Where careful measurement is used","p":["Measurement gives science its accuracy and lets us compare and predict things. It is used every day in industry, engineering, building, medicine and farming: a nurse measures the dose of a drug, an engineer measures the length of a steel beam, and a baker measures the mass of flour. Accuracy and correct use of instruments give reliable results in any experiment."]}
+],
+"activity":"Use a ruler to measure the width of your desk three times, once with your eye directly above the mark, once from the left and once from the right. Compare the readings and explain what you notice.",
+"check":[
+{"q":"What causes parallax error?","o":["Looking at a scale from the wrong angle","A broken stopwatch","Using the wrong unit","Heavy objects"]},
+{"q":"What is a zero error?","o":["The instrument does not read zero when it should","The instrument reads 100","The scale is too long","The reading is always correct"]},
+{"q":"How can reaction time error be reduced when timing a pendulum?","o":["Time many swings and divide","Time only one swing","Use a ruler","Close your eyes"]},
+{"q":"Where should your eye be when reading a scale?","o":["Directly in front of the mark at eye level","Far to the left","Above the scale at an angle","Anywhere"]}]},
+
+{"id":"ph1-06","week":3,"title":"Position, Distance and Displacement","icon":"Target","summary":"The meaning of position, distance and displacement, how they differ, and how to calculate each one.",
+"keyWords":["Position","Reference point","Distance","Displacement","Scalar","Vector"],
+"sections":[
+{"h":"Position","p":["Position is where an object is, compared with a fixed point called the reference point or origin. We usually say how far it is from the origin and in which direction (left or right, north or south).","Example: a student sitting 2 m to the right of the board is at position +2 m. A student sitting 2 m to the left of the board is at position -2 m."]},
+{"h":"Distance","p":["Distance is the total length of the path an object travels, no matter which direction it goes. Distance is a scalar quantity, which means it has size only. It is always positive and its unit is the metre (m).","Example 1: you walk 4 m forward and then 4 m back. The total distance = 4 + 4 = 8 m.","Example 2: you walk 6 m east and then 4 m west. The total distance = 6 + 4 = 10 m."]},
+{"h":"Displacement","p":["Displacement is the straight line from the starting point to the finishing point, together with its direction. It tells you how far out of place you are and in which direction. Displacement is a vector quantity: it has size and direction. It can be positive, negative or zero. Its unit is also the metre.","Example: you walk 4 m forward and 4 m back. You are back where you started, so your displacement is 0 m, even though you walked 8 m."]},
+{"h":"Distance compared with displacement","p":["A good way to remember: distance is how much ground you covered, displacement is how far you are from the start."],
+"tbl":{"head":["Feature","Distance","Displacement"],"rows":[
+["Type of quantity","Scalar","Vector"],
+["Direction","Not needed","Needed"],
+["Can it be negative?","No","Yes, if opposite to the chosen positive direction"],
+["Depends on","The path taken","Only the start and finish points"],
+["Symbol","d","s or Δx"],
+["4 m forward and 4 m back","8 m","0 m"]]}},
+{"h":"Worked examples","p":["Look at each example, then try it again without looking."],
+"ex":{"t":"Worked examples","b":["A boy walks 6 m east and then 3 m west. Total distance = 6 + 3 = 9 m. Displacement = 6 - 3 = 3 m east.","A girl walks 10 m north and then 10 m south. Distance = 10 + 10 = 20 m. Displacement = 0 m, because she is back at the start.","An athlete runs once round a circular track of radius 70 m. Distance = circumference = 2πr = 2 x 3.142 x 70 = 439.88 m. Displacement = 0 m, because the athlete finishes at the start."]}},
+{"h":"Real-life uses","p":["In a 400 m race on a round track, the distance run is 400 m but the displacement after one full lap is zero.","A car's odometer shows distance travelled. A GPS shows displacement, because it shows where you are compared with where you started.","Pilots and ship captains must use displacement, because they need to know direction as well as distance."]}
+],
+"activity":"Draw a straight line on the floor or on a sheet of paper. Mark 0 in the middle, +5 m to the right and -5 m to the left. Walk (or move a small stone) from 0 to +5 and back to 0. Write the distance and the displacement at each stage.",
+"check":[
+{"q":"A man walks 4 m forward and 4 m back. What is his displacement?","o":["0 m","8 m","4 m","-8 m"]},
+{"q":"For the same walk, what is the distance?","o":["8 m","0 m","4 m","16 m"]},
+{"q":"Which quantity needs a direction?","o":["Displacement","Distance","Time","Mass"]},
+{"q":"A girl walks 6 m east and then 4 m west. What is her displacement?","o":["2 m east","10 m east","2 m west","10 m west"]},
+{"q":"Which statement is true?","o":["Distance is always positive","Displacement is always positive","Distance can be zero after a full lap","Distance is a vector"]}]},
+
+{"id":"ph1-07","week":3,"title":"Showing Movement on Graphs and Number Lines","icon":"BarChart2","summary":"How to read position-time and distance-time graphs, how to use a number line, and how to find the size and direction of a displacement.",
+"keyWords":["Position-time graph","Distance-time graph","Slope","Number line","Pythagoras"],
+"sections":[
+{"h":"Graphs of position, displacement and distance","p":["A graph is a picture of movement. For a position-time graph, time is on the horizontal axis (x-axis) and position is on the vertical axis (y-axis). Read the shape of the line like a story:","A flat horizontal line means the object is not moving (it is stationary). A line sloping upwards means it is moving away from the origin. A line sloping downwards means it is moving towards the origin. The steeper the line, the faster the movement. The slope of the line tells you the velocity.","A displacement-time graph looks the same, but it shows displacement (change in position with direction). Its slope is the velocity.","A distance-time graph shows only the total ground covered, so it never goes downwards. Its slope is the speed."]},
+{"h":"The three basic shapes","p":["The picture shows three position-time graphs: a stationary object (flat line), an object moving at uniform speed (straight sloping line) and an object whose speed is changing (a curve)."],
+"img":{"src":"phy-pos-time-graphs.png","alt":"Three graphs of distance against time: a horizontal line for a stationary object, a straight sloping line for uniform speed and a curve for non-uniform speed","cap":"Stationary object, uniform speed and non-uniform speed."}},
+{"h":"Using a number line","p":["Draw a straight line. Mark 0 as the origin. Put positive numbers to the right and negative numbers to the left. Now you can show position and displacement clearly.","A student walks from 0 to +5 m: distance = 5 m and displacement = +5 m. She then walks back to 0: total distance = 10 m and displacement = 0 m.","Remember that distance graphs do not show direction."]},
+{"h":"When the movement is at a right angle","p":["Sometimes a body moves in two directions that are at right angles, for example 100 km north and then 60 km east. The displacement is the straight line from start to finish. Use Pythagoras' theorem and trigonometry to find its size and direction."],
+"ex":{"t":"Worked example (WAEC style)","b":["A motorist travels 100 km due north and then 60 km due east.","Size of displacement = √(100² + 60²) = √(10 000 + 3 600) = √13 600 = 116.6 km.","Direction: tan θ = 60 / 100 = 0.6, so θ = 31 degrees. The motorist is 116.6 km from the start, 31 degrees east of north.","Total distance travelled = 100 + 60 = 160 km. Notice that distance (160 km) and displacement (116.6 km) are different."]}},
+{"h":"More examples","p":["Work through these and check your answer in the practice questions."],
+"ex":{"t":"Example","b":["If a body moves from A to B and back to A in 20 s, covering 40 m in total, its displacement is 0 m and its average speed = total distance / total time = 40 / 20 = 2 m/s.","A student walks round a field 40 m long and 30 m wide. One full lap = 40 + 30 + 40 + 30 = 140 m. The displacement after a full lap is 0. From one corner to the opposite corner the displacement is √(40² + 30²) = √2500 = 50 m."]}}
+],
+"activity":"Draw a position-time graph for this story: you stay at home for 2 minutes, walk away from home for 3 minutes, stand still for 2 minutes and then walk back home in 3 minutes. Label each part (stationary, moving away, stationary, moving back).",
+"check":[
+{"q":"What does a horizontal line on a position-time graph show?","o":["The object is not moving","The object is speeding up","The object is returning","The object has zero mass"]},
+{"q":"What does the slope of a displacement-time graph give?","o":["Velocity","Mass","Distance","Weight"]},
+{"q":"A boy walks 3 m east then 4 m north. What is the size of his displacement?","o":["5 m","7 m","1 m","12 m"]},
+{"q":"What is the total distance in the question above?","o":["7 m","5 m","1 m","12 m"]},
+{"q":"Which graph can never slope downwards?","o":["Distance-time graph","Position-time graph","Displacement-time graph","Velocity-time graph"]}]}
+]

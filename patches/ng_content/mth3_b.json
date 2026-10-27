@@ -1,0 +1,50 @@
+[
+{"id":"ma3-06","week":3,"title":"Surface Area of Solids: Cube, Cuboid and Cylinder","icon":"Layers","summary":"What surface area and a net are, and the formulas and worked examples for the total surface area of a cube, a cuboid and a cylinder.",
+"keyWords":["Surface area","Net","Cube","Cuboid","Cylinder","Curved surface area"],
+"sections":[
+{"h":"What is surface area?","p":["The surface area (SA) of a solid is the total area of all its faces. Imagine opening a box and laying it flat. The flat shape is called the net, and its area is the surface area. It is measured in square units such as cm² or m².","Surface area is needed for painting (how much paint to buy), packaging (how much material to wrap a product), manufacturing (how much metal sheet), and building (how much roofing)."],
+"img":{"src":"mth-solids.png","alt":"Six solids: cube, cuboid, cylinder, cone, square-based pyramid and triangular prism","cap":"Common solids used in mensuration."}},
+{"h":"The cube","p":["A cube has 6 equal square faces. If the side is l, one face has area l², so the total surface area is TSA = 6l². Example: a cube of side 5 cm has TSA = 6 × 25 = 150 cm²."]},
+{"h":"The cuboid","p":["A cuboid has 6 rectangular faces in 3 pairs. With length l, width w and height h: the top and bottom have area 2lw, the front and back have area 2lh, and the left and right have area 2wh. So TSA = 2(lw + lh + wh).","Example: a cuboid with l = 8 cm, w = 5 cm and h = 4 cm. TSA = 2(8 × 5 + 8 × 4 + 5 × 4) = 2(40 + 32 + 20) = 2 × 92 = 184 cm².","Example: a room 10 m long, 8 m wide and 3 m high. The four walls and the ceiling (no floor): walls = 2(10 + 8) × 3 = 108 m², ceiling = 10 × 8 = 80 m². Total = 188 m²."]},
+{"h":"The closed cylinder","p":["A cylinder has two circular ends and one curved side. If you unroll the curved side it is a rectangle with height h and width equal to the circumference 2πr. So CSA = 2πrh. The two circles have area 2 × πr². The total surface area is TSA = 2πr² + 2πrh = 2πr(r + h).","Example: a closed tin with r = 7 cm and h = 10 cm (π = 22/7). TSA = 2 × (22/7) × 7 × (7 + 10) = 44 × 17 = 748 cm². Check: two circles 2 × (22/7) × 49 = 308 cm², curved part 2 × (22/7) × 7 × 10 = 440 cm², and 308 + 440 = 748.","Example: a cylinder of radius 5 cm has CSA = 100π cm². Then 2π × 5 × h = 100π, so h = 10 cm. Its TSA = 100π + 2π × 25 = 150π cm²."]}
+],
+"activity":"Find the total surface area of a cuboid 6 cm by 4 cm by 3 cm. (Answer: 2(24 + 18 + 12) = 108 cm².) Then find the total surface area of a closed cylinder with r = 7 cm and h = 3 cm (π = 22/7). (Answer: 440 cm².)",
+"check":[
+{"q":"The total surface area of a cube of side l is","o":["6l²","l³","4l²","12l"]},
+{"q":"The total surface area of a cuboid is","o":["2(lw + lh + wh)","lwh","2(l + w + h)","lw + lh + wh"]},
+{"q":"The curved surface area of a cylinder is","o":["2πrh","πr²h","2πr²","πrh"]},
+{"q":"A cube has side 5 cm. Its total surface area is","o":["150 cm²","125 cm²","100 cm²","30 cm²"]},
+{"q":"A closed tin has r = 7 cm and h = 10 cm (π = 22/7). Its TSA is","o":["748 cm²","440 cm²","308 cm²","1540 cm²"]}]},
+
+{"id":"ma3-07","week":3,"title":"Surface Area of Solids: Cone, Prism and Pyramid","icon":"Layers","summary":"The total surface area of a cone, a prism and a square-based pyramid, with the 'slant height' and worked examples.",
+"keyWords":["Cone","Slant height","Prism","Pyramid","Total surface area"]
+,"sections":[
+{"h":"The cone","p":["A cone has one circular base and one curved side. With base radius R and slant height l: area of base = πR²; curved surface area (CSA) = πRl; total surface area TSA = πR² + πRl = πR(R + l).","The vertical height h, the base radius R and the slant height l form a right-angled triangle, so l² = h² + R². Example: R = 3 and h = 4 gives l = √(9 + 16) = 5.","Example: find the TSA of a cone with R = 5 cm and h = 12 cm (leave π). First find l: l² = 12² + 5² = 144 + 25 = 169, so l = 13 cm. TSA = π × 5 × (5 + 13) = π × 5 × 18 = 90π cm² (about 282.74 cm²). (The numbers 5, 12 and 13 form a famous Pythagorean triple.)","Example: a cone with slant height 10 cm and base radius 6 cm. The height h = √(100 − 36) = 8 cm. TSA = π × 6 × (6 + 10) = 96π cm²."]},
+{"h":"The prism","p":["A prism is a solid with the same cross-section all the way along its length (a cylinder is a circular prism). The total surface area is TSA = 2 × (area of the cross-section) + (perimeter of the cross-section × length). The two ends are the cross-sections, and the side faces unroll into one big rectangle of width equal to the perimeter and height equal to the length.","Example: a triangular prism with a right-angled triangle end with sides 3 cm, 4 cm and 5 cm and length 10 cm. The area of one end = ½ × 3 × 4 = 6 cm². The perimeter of the end = 3 + 4 + 5 = 12 cm. TSA = 2 × 6 + 12 × 10 = 12 + 120 = 132 cm²."]},
+{"h":"The square-based pyramid","p":["A pyramid has a polygon base and triangular faces that meet at a point (the apex). For a square-based pyramid with base side l, there is one square base and four triangular faces. If s is the slant height of a triangle face (not the vertical height h), the area of one face is ½ × l × s. So TSA = l² + 4 × ½ × l × s = l² + 2ls.","Example: a square pyramid with base side 10 cm and slant height 12 cm. TSA = 10² + 2 × 10 × 12 = 100 + 240 = 340 cm²."]},
+{"h":"Do not mix up the two heights","p":["The slant height s (or l) is measured along a sloping face. The vertical height h is measured straight up from the base centre to the apex. Use the right-angled triangle to link them: s² = h² + (half the base)² for a square pyramid, and l² = h² + R² for a cone."]}
+],
+"activity":"Find the total surface area of a cone with R = 3 cm and h = 4 cm. (Answer: l = 5 cm; TSA = π × 3 × (3 + 5) = 24π cm².)",
+"check":[
+{"q":"The total surface area of a cone is","o":["πR(R + l)","πRl","πR²h","2πR(R + h)"]},
+{"q":"A cone has R = 5 cm and h = 12 cm. Its slant height is","o":["13 cm","17 cm","7 cm","60 cm"]},
+{"q":"A cone has R = 5 cm and h = 12 cm. Its TSA is","o":["90π cm²","65π cm²","25π cm²","60π cm²"]},
+{"q":"The TSA of a prism is","o":["2 × cross-section area + perimeter × length","Base area × height","One third of base × height","πr²h"]},
+{"q":"A square pyramid has base 10 cm and slant height 12 cm. Its TSA is","o":["340 cm²","240 cm²","120 cm²","100 cm²"]}]},
+
+{"id":"ma3-08","week":4,"title":"Volume of Prisms: Cube, Cuboid, Cylinder and Triangular Prism","icon":"Layers","summary":"What volume means, the rule volume of a prism = base area × height, and the formulas and examples for the cube, cuboid, cylinder and triangular prism.",
+"keyWords":["Volume","Cubic units","Cross-section","Prism"],
+"sections":[
+{"h":"What is volume?","p":["Volume is the amount of space a solid takes up, or how much it can hold: water, sand, air or grain. It is measured in cubic units such as cm³ or m³. Area covers a surface in square units; volume fills space in cubic units. Volume is needed for concrete in a foundation, medicine doses, recipes, shipping containers, grain stores and fuel tanks."]},
+{"h":"The prism rule","p":["A prism has the same cross-section all along its length. If you slice it anywhere along its length, the slice looks the same as the base. The volume of a prism = area of the base (cross-section) × height (or length). V = A × h. Imagine a stack of identical slices: the area of each slice multiplied by how many slices tall."]},
+{"h":"Formulas for the common prisms","p":["Cube of side l: the base is l² and the height is l, so V = l³. Example: l = 3 cm gives V = 27 cm³.","Cuboid: the base is l × w and the height is h, so V = lwh. Example: l = 4, w = 3, h = 2 gives V = 24 cm³.","Cylinder: the base is πr² and the height is h, so V = πr²h. Example: r = 7 cm and h = 10 cm (π = 22/7) gives V = (22/7) × 49 × 10 = 1540 cm³.","Triangular prism: the base is a triangle with area ½bH and the length is L, so V = ½bH × L. Example: b = 6, H = 4 and L = 10 gives V = (½ × 6 × 4) × 10 = 12 × 10 = 120 cm³."]},
+{"h":"Changing units","p":["1 cm³ = 1 millilitre (ml) and 1000 cm³ = 1 litre. 1 m³ = 1,000,000 cm³ = 1000 litres. So a tank of volume 1540 cm³ holds 1.54 litres of water. Always make sure all lengths are in the same unit before you multiply."]}
+],
+"activity":"Find the volume of a cuboid 12 cm by 5 cm by 4 cm (240 cm³) and of a cylinder with r = 7 cm and h = 3 cm (π = 22/7) (462 cm³). How many litres is 5000 cm³? (5 litres.)",
+"check":[
+{"q":"The volume of a prism is","o":["Base area × height","Base perimeter × height","½ × base × height","Surface area × height"]},
+{"q":"The volume of a cube of side 3 cm is","o":["27 cm³","9 cm³","18 cm³","54 cm³"]},
+{"q":"The volume of a cylinder is","o":["πr²h","2πrh","πrh","⅓πr²h"]},
+{"q":"A triangular prism has b = 6, H = 4 and L = 10. Its volume is","o":["120 cm³","240 cm³","60 cm³","24 cm³"]},
+{"q":"1000 cm³ is equal to","o":["1 litre","1 millilitre","10 litres","100 litres"]}]}
+]

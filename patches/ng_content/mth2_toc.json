@@ -1,0 +1,37 @@
+[
+{"id":"ma2-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Mathematics Second Term covers (geometry and trigonometry), how to use the notes, and a map of every unit.",
+"keyWords":["Constructions","Loci","Theorems","Riders","Trigonometry","Table of contents"],
+"sections":[
+{"h":"Welcome to Second Term","p":["Welcome back. In First Term you worked with numbers, algebra and logic. In Second Term the main subject is geometry and trigonometry. You will draw exact shapes with a ruler and compasses, study the paths of moving points (loci), prove important theorems about triangles and parallel lines, and meet trigonometry, which links angles and lengths and is used by engineers, pilots and surveyors.","Geometry needs a sharp pencil, a ruler, compasses, a protractor (for checking) and a clean page. Many questions in WAEC and NECO ask you to draw, so practise often."]},
+{"h":"How to use these notes","p":["Read each unit slowly and look at every picture. When there is a construction, copy it on paper with your own tools, step by step. Do the activity at the end of each unit. Then do the practice questions. They do not count towards a mark; they help you check your understanding. Answer them all correctly to complete the unit.","The midterm examination falls in Week 5 and there is a break in Week 7, so there are no new units for those weeks. Use them to revise."]},
+{"h":"Table of contents: Weeks 1 to 4","p":["Constructions, loci, theorems and riders."],
+"tbl":{"head":["Unit","Week","Lesson"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Constructions: bisecting angles and making 60°, 90°, 30° and 45°"],
+["3","1","Constructing angles like 135° and constructing triangles"],
+["4","2","Copying an angle and constructing quadrilaterals"],
+["5","2","Locus: the path of a moving point"],
+["6","2","Constructing loci and solving locus problems"],
+["7","3","Proofs in geometry: the angle sum of a triangle"],
+["8","3","The exterior angle of a triangle"],
+["9","4","Riders: the angle toolbox"],
+["10","4","Congruent triangles, polygons, parallelograms and the intercept theorem"],
+["11","4","Solving riders: worked examples"]]}},
+{"h":"Table of contents: Weeks 6 to 11","p":["Trigonometry and revision."],
+"tbl":{"head":["Unit","Week","Lesson"],"rows":[
+["12","6","Trigonometric ratios: sine, cosine and tangent"],
+["13","6","Using trigonometry to find sides and angles"],
+["14","8","Trigonometric ratios of 30°, 45° and 60°"],
+["15","9","Angles of elevation and depression"],
+["16","9","Trigonometric ratios of angles from 0° to 360°"],
+["17","10","The unit circle and the graphs of sine, cosine and tangent"],
+["18","11","Revision of Second Term Mathematics"]]}},
+{"h":"Tips for geometry and trigonometry","p":["Always draw a clear diagram and label it. In constructions, do not rub out your arcs. In riders, write a reason for every step. In trigonometry, label the sides (opposite, adjacent, hypotenuse) before you choose a ratio, and make sure your calculator is in degree mode."]}
+],
+"activity":"Check that you have a ruler, a pair of compasses, a protractor and a sharp pencil. Draw a straight line and a circle with your compasses to test them.",
+"check":[
+{"q":"Which unit teaches angles of elevation and depression?","o":["Unit 15","Unit 2","Unit 7","Unit 18"]},
+{"q":"How many units are in this course (including this one)?","o":["18","11","26","7"]},
+{"q":"In trigonometry, your calculator should be in","o":["Degree mode","Radian mode","Binary mode","Statistics mode"]},
+{"q":"In a construction, you should","o":["Keep your arcs visible","Rub out the arcs","Use a calculator","Use only a protractor"]}]}
+]

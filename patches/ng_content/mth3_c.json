@@ -1,0 +1,54 @@
+[
+{"id":"ma3-09","week":4,"title":"Volume of Pyramids and Cones","icon":"Layers","summary":"The one-third rule for pyramids and cones, why you must use the vertical height, and worked examples including finding a missing radius or height.",
+"keyWords":["Pyramid","Cone","One-third rule","Vertical height","Slant height"],
+"sections":[
+{"h":"The one-third rule","p":["A pyramid has a polygon base and rises to a point (the apex). A cone is a pyramid with a circular base. The volume of any pyramid or cone is exactly one third of the volume of the prism with the same base and the same height. So V = ⅓ × base area × vertical height.","Square-based pyramid: V = ⅓ l² h. Cone: V = ⅓ πr² h. Example: l = 6 and h = 9 gives V = ⅓ × 36 × 9 = 108 cm³. A cone and a cylinder with the same radius and height: the cone is exactly one third of the cylinder. If the cylinder's volume is 30 m³ the cone's is 10 m³."]},
+{"h":"Use the vertical height","p":["The height h in the volume formula is the vertical height from the base to the apex, never the slant height. If you are given the slant height, use Pythagoras to find h first. For a cone: l² = h² + r². For a square pyramid with base l: s² = h² + (l/2)²."]},
+{"h":"Example 1: a cone with given slant height","p":["A cone has radius 7 cm and slant height 25 cm. Then h = √(25² − 7²) = √(625 − 49) = √576 = 24 cm. V = ⅓ × (22/7) × 49 × 24 = ⅓ × 22 × 7 × 24 = 1232 cm³."]},
+{"h":"Example 2: working backwards","p":["A cone has volume 110 cm³ and height 21 cm. Find its base radius. (π = 22/7.) V = ⅓πr²h, so 110 = ⅓ × (22/7) × r² × 21 = 22 × r². So r² = 110 ÷ 22 = 5 and r = √5 ≈ 2.24 cm. Check: ⅓ × (22/7) × 5 × 21 = 110. ✓"]},
+{"h":"Example 3: pyramid with a slant height","p":["A square-based pyramid has base side 10 cm and slant height 13 cm (the height of a triangular face). Find the volume. First find the vertical height: the right-angled triangle uses half the base (5 cm), the vertical height h and the slant height 13. 13² = h² + 5², so h² = 169 − 25 = 144 and h = 12 cm. V = ⅓ × 10 × 10 × 12 = 400 cm³.","More: a square pyramid with base 18 cm and vertical height 12 cm has V = ⅓ × 324 × 12 = 1296 cm³."]},
+{"h":"Example 4: a cylinder in litres","p":["A cylindrical oil drum has radius 0.7 m and height 1.5 m. How many litres can it hold? (π = 22/7; 1 m³ = 1000 litres.) V = (22/7) × 0.7² × 1.5 = (22/7) × 0.49 × 1.5 = 2.31 m³ = 2310 litres.","A cylinder 20 cm deep holds 3.08 litres. Its volume is 3080 cm³, so πr² × 20 = 3080, which gives r² = 49 and r = 7 cm."]}
+],
+"activity":"Find the volume of a cone with radius 3 cm and vertical height 4 cm (leave π). (Answer: ⅓ × π × 9 × 4 = 12π cm³.)",
+"check":[
+{"q":"The volume of a cone is","o":["⅓πr²h","πr²h","2πrh","½πr²h"]},
+{"q":"A pyramid has volume","o":["⅓ × base area × height","base area × height","½ × base area × height","base area + height"]},
+{"q":"In the volume of a cone, h is the","o":["Vertical height","Slant height","Diameter","Radius"]},
+{"q":"A cone and cylinder have the same radius and height. The cylinder's volume is 30 m³. The cone's volume is","o":["10 m³","15 m³","60 m³","90 m³"]},
+{"q":"A square pyramid has base 18 cm and vertical height 12 cm. Its volume is","o":["1296 cm³","3888 cm³","432 cm³","216 cm³"]}]},
+
+{"id":"ma3-10","week":6,"title":"The Frustum: Volume and Surface Area","icon":"Layers","summary":"What a frustum is, finding the missing height using similar triangles, and the 'large cone minus small cone' method for volume and surface area.",
+"keyWords":["Frustum","Similar triangles","Large cone minus small cone","Slant height"],
+"sections":[
+{"h":"What is a frustum?","p":["A frustum is what is left when you cut off the top of a cone or pyramid with a cut parallel to the base. A bucket, a flower pot, a lampshade, a drinking cup and a trash can are frustums. The method is always: large cone (or pyramid) minus small cone (or pyramid)."],
+"img":{"src":"mth-frustum.png","alt":"A large cone with its top cut off by a cut parallel to the base, leaving a frustum of height h_f, with the small cone of radius r and height h_s removed","cap":"Frustum = large cone − small cone."}},
+{"h":"Finding the missing height","p":["Let R be the radius of the large base (bottom), r the radius of the small top, H the height of the whole original cone, h_s the height of the cone that was removed and h_f the height of the frustum, so H = h_s + h_f. The small cone and the large cone are similar, so r/R = h_s/H = h_s/(h_s + h_f). Solve this to find h_s."]},
+{"h":"Volume and surface area of a frustum","p":["Volume of frustum = volume of large cone − volume of small cone = ⅓πR²H − ⅓πr²h_s. The same idea works for a pyramid: ⅓ × (large base area) × H − ⅓ × (small base area) × h_s.","Curved surface area = πRL − πrl, where L and l are the slant heights of the large and small cones. Total surface area = πr² (top) + πR² (bottom) + π(RL − rl)."]},
+{"h":"Example 1: a bucket","p":["A bucket is 28 cm high. Its bottom radius is R = 15 cm and its top radius is r = 10 cm. Find its volume (π = 22/7). Treat it as a frustum with the small cone removed from the top.","Step 1: r/R = h_s/(h_s + 28). So 10/15 = h_s/(h_s + 28), that is 2/3 = h_s/(h_s + 28). Cross-multiply: 2(h_s + 28) = 3h_s, so 2h_s + 56 = 3h_s and h_s = 56 cm. Then H = 56 + 28 = 84 cm.","Step 2: large cone V = ⅓ × (22/7) × 15² × 84 = ⅓ × (22/7) × 225 × 84 = 19,800 cm³. Small cone V = ⅓ × (22/7) × 10² × 56 = 17,600/3 ≈ 5,866.67 cm³.","Step 3: frustum = 19,800 − 5,866.67 = 13,933.33 cm³ (exactly 41,800/3 cm³)."]},
+{"h":"Example 2: more practice","p":["A frustum of a cone has top radius 5 cm, bottom radius 10 cm and vertical height 12 cm. Find h_s: 5/10 = h_s/(h_s + 12), so 1/2 = h_s/(h_s + 12), giving h_s + 12 = 2h_s, so h_s = 12 and H = 24 cm. Volume = ⅓π(10² × 24 − 5² × 12) = ⅓π(2400 − 300) = 700π cm³ = 2200 cm³ (π = 22/7).","A frustum of a square pyramid has bottom side 15 cm, top side 5 cm and height 6 cm. Ratio: 5/15 = 1/3 = h_s/(h_s + 6), so h_s + 6 = 3h_s, h_s = 3 and H = 9 cm. Volume = ⅓ × 15² × 9 − ⅓ × 5² × 3 = 675 − 25 = 650 cm³."]}
+],
+"activity":"A frustum of a cone has bottom radius 6 cm, top radius 3 cm and height 8 cm. Find the height of the cone that was cut off. (Answer: 3/6 = h_s/(h_s + 8), so h_s = 8 cm.)",
+"check":[
+{"q":"A frustum is","o":["A cone or pyramid with its top cut off by a parallel cut","A sphere","A cylinder","A cube"]},
+{"q":"To find the volume of a frustum you","o":["Subtract the small cone from the large cone","Add the cones","Multiply the radii","Use πr²h only"]},
+{"q":"The missing height of a frustum is found using","o":["Similar triangles","The area of the base","Circle theorems","Averages"]},
+{"q":"A frustum has top radius 5, bottom radius 10 and height 12. The height of the cut-off cone is","o":["12 cm","6 cm","24 cm","10 cm"]},
+{"q":"The curved surface area of a frustum is","o":["πRL − πrl","πR² + πr²","πRl","2π(R + r)"]}]},
+
+{"id":"ma3-11","week":6,"title":"Compound Shapes and the Sphere","icon":"Layers","summary":"Volumes and surface areas of solids made by joining others (cone on cylinder, hemisphere on cylinder), the volume of a sphere and hemisphere, and how to handle hidden faces.",
+"keyWords":["Compound shape","Hemisphere","Sphere","Hidden surface"],
+"sections":[
+{"h":"What is a compound shape?","p":["A compound shape is a solid made by joining two or more simple solids, for example a cone on a cylinder (a pencil or a rocket), a hemisphere on a cylinder (a capsule, a water tank), or a pyramid on a cube (a hut)."]},
+{"h":"Rules","p":["Volume: find the volume of each part and add them. Surface area: find the surface area of each part and add them, but take away any faces that are hidden by the join. For a cone sitting on a cylinder, do not count the cone's base or the cylinder's top. For a hemisphere on a cylinder, do not count the cylinder's top circle or the flat face of the hemisphere. Count only the surfaces you can see."]},
+{"h":"The sphere and hemisphere","p":["Sphere: V = (4/3)πr³ and surface area = 4πr². Hemisphere: V = (2/3)πr³ and curved surface area = 2πr² (the flat circular face has area πr² if it is exposed)."]},
+{"h":"Example 1: volume","p":["A hemisphere of radius 7 cm sits on top of a cylinder of radius 7 cm and height 10 cm. Find the total volume (π = 22/7).","Cylinder: V = πr²h = (22/7) × 49 × 10 = 1540 cm³. Hemisphere: V = (2/3)πr³ = (2/3) × (22/7) × 343 = (2 × 22 × 49)/3 = 2156/3 ≈ 718.67 cm³. Total = 1540 + 718.67 = 2258.67 cm³ (about 2259 cm³)."]},
+{"h":"Example 2: volume and surface area","p":["A solid is a cylinder of height 10 cm and radius 3 cm with a hemisphere of radius 3 cm on top. Find (a) the volume and (b) the total surface area.","(a) Cylinder: π × 9 × 10 = 90π cm³. Hemisphere: (2/3)π × 27 = 18π cm³. Total volume = 108π cm³.","(b) Visible surfaces: the curved side of the cylinder 2π × 3 × 10 = 60π cm², the circular base of the cylinder π × 9 = 9π cm², and the curved surface of the hemisphere 2π × 9 = 18π cm². Total surface area = 60π + 9π + 18π = 87π cm²."]}
+],
+"activity":"A cone of radius 3 cm and height 4 cm sits on top of a cylinder of radius 3 cm and height 5 cm. Find the total volume in terms of π. (Answer: ⅓π × 9 × 4 + π × 9 × 5 = 12π + 45π = 57π cm³.)",
+"check":[
+{"q":"The volume of a sphere is","o":["(4/3)πr³","4πr²","(2/3)πr³","πr²h"]},
+{"q":"The volume of a hemisphere is","o":["(2/3)πr³","(4/3)πr³","2πr²","πr³"]},
+{"q":"For the total surface area of a compound shape you must","o":["Leave out the hidden faces","Include all faces","Only add the biggest face","Multiply the surface areas"]},
+{"q":"A hemisphere of radius 7 cm on a cylinder of radius 7 cm and height 10 cm has volume about (π = 22/7)","o":["2259 cm³","1540 cm³","719 cm³","4000 cm³"]},
+{"q":"The surface area of a sphere is","o":["4πr²","πr²","(4/3)πr³","2πr²"]}]}
+]

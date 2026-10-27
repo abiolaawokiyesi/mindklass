@@ -1,0 +1,139 @@
+[
+{"id":"ph1-08","week":4,"title":"Scalar and Vector Quantities","icon":"Layers","summary":"The difference between scalars and vectors, with examples, and how to draw a vector as an arrow.",
+"keyWords":["Scalar","Vector","Magnitude","Direction","Arrow","Scale"],
+"sections":[
+{"h":"Scalar quantities","p":["A scalar quantity has size (magnitude) only. It has no direction. If I tell you the temperature is 30 degrees Celsius, you do not ask 'which direction?'. That is a scalar.","Common scalars: mass, time, temperature, distance, speed, energy, work, power, density and volume."]},
+{"h":"Vector quantities","p":["A vector quantity has both size and direction. If I tell you a force of 20 N, you still need to know which way it pushes. That is a vector.","Common vectors: displacement, velocity, acceleration, force, weight, momentum, electric field intensity and magnetic field strength."]},
+{"h":"Scalars compared with vectors","p":["Notice that pairs often go together: distance (scalar) and displacement (vector); speed (scalar) and velocity (vector)."],
+"tbl":{"head":["Feature","Scalar","Vector"],"rows":[
+["Definition","Size only","Size and direction"],
+["How they add","Ordinary arithmetic (5 kg + 3 kg = 8 kg)","Parallelogram or triangle law (direction matters)"],
+["How it is shown","A number with a unit","An arrow"],
+["Example","Temperature 30 °C","Force 20 N east"],
+["If you turn round","Does not change","Direction changes"]]}},
+{"h":"Drawing a vector","p":["A vector is drawn as an arrow. The length of the arrow shows the size. The direction the arrow points shows the direction. The start of the arrow is called the tail and the pointed end is the head. We choose a scale so the drawing fits on the page.","In the picture, the vector OA is a force of 4 N acting at 30 degrees to the horizontal. The scale is 1 cm = 1 N, so the arrow is drawn 4 cm long, with its tail at O and its head at A."],
+"img":{"src":"phy-vector-representation.jpg","alt":"A vector OA of 4 N drawn as a 4 cm arrow at 30 degrees to the x-axis, with tail at O and head at A","cap":"Representation of a vector: scale 1 cm = 1 N."},
+"ex":{"t":"Worked example: draw a force of 6 N at 30° to the horizontal","b":["Choose a scale, for example 1 cm = 1 N.","Draw a horizontal line from a point O.","Use a protractor to mark 30° above the line.","Draw an arrow 6 cm long along the 30° line and put the arrowhead at the end.","Label it '6 N at 30°'."]}}
+],
+"activity":"Write down ten quantities you know (for example mass, velocity, time, force). Put them in two columns, scalar and vector. Then draw an arrow to show 'a boy kicks a ball to the east with a force of 10 N' using a scale of 1 cm = 2 N.",
+"check":[
+{"q":"Which of these is a scalar?","o":["Temperature","Force","Velocity","Displacement"]},
+{"q":"Which of these is a vector?","o":["Displacement","Distance","Mass","Time"]},
+{"q":"In the arrow picture of a vector, what does the length of the arrow show?","o":["The size of the quantity","The direction","The time","The colour"]},
+{"q":"Which pair is correct?","o":["Speed is a scalar and velocity is a vector","Speed is a vector and velocity is a scalar","Both are vectors","Both are scalars"]},
+{"q":"Which quantity is a scalar?","o":["Energy","Weight","Acceleration","Momentum"]}]},
+
+{"id":"ph1-09","week":4,"title":"Adding Vectors","icon":"Layers","summary":"How to add vectors that point in the same direction, in opposite directions, or at a right angle, with worked examples.",
+"keyWords":["Resultant","Pythagoras","Parallelogram law","Triangle law","Component"],
+"sections":[
+{"h":"Why vectors are added in a special way","p":["Vectors cannot be added like ordinary numbers because direction matters. Two forces of 5 N can add up to 10 N, or to 0 N, or to something in between, depending on how they point. The single vector that has the same effect as the vectors together is called the resultant."]},
+{"h":"Four cases","p":["Case 1: two forces in the same direction along a straight line. They help each other, so the resultant R = F1 + F2.","Case 2: two forces in opposite directions along a straight line. They work against each other, so R = F1 - F2, and the resultant points in the direction of the bigger force.","Case 3: two forces at a right angle (90 degrees). Use Pythagoras' theorem: R² = F1² + F2². The angle θ of the resultant can be found from tan θ = F2 / F1.","Case 4: two forces at any other angle, between 0 and 180 degrees. Use the triangle law or the parallelogram law: draw the vectors tail to head, and the resultant goes from the first tail to the last head."]},
+{"h":"The triangle law","p":["To add vectors A and B by the triangle law, draw A first. Then draw B starting from the head of A. The resultant R is the third side of the triangle, drawn from the start of A to the end of B, so R = A + B.","When the angle between A and B is θ, the size of the resultant is R = √(A² + B² + 2AB cos θ). The largest possible resultant is A + B (when θ = 0°) and the smallest is A - B (when θ = 180°)."],
+"img":{"src":"phy-vector-triangle.png","alt":"Triangle law of vector addition: vector A, then vector B drawn from the head of A, and the resultant R from the tail of A to the head of B","cap":"Triangle law: R = A + B."}},
+{"h":"Worked example 1: the boat and the river","p":["A boat travels due east at 40 m/s across a river that flows due south at 30 m/s. What is the resultant speed of the boat?"],
+"img":{"src":"phy-vector-boat.jpg","alt":"A right-angled triangle with 40 m/s along the top, 30 m/s down the side and the resultant R as the slanting side","cap":"The two velocities are at right angles."},
+"ex":{"t":"Solution","b":["The two velocities are at 90°, so R² = 40² + 30².","R² = 1600 + 900 = 2500.","R = √2500 = 50 m/s."]}},
+{"h":"Worked example 2: the aircraft in the wind","p":["An aircraft tries to fly due north at 100 km/h, but the wind blows from east to west at 60 km/h. Find the resultant velocity."],
+"ex":{"t":"Solution","b":["The two velocities are at right angles, so RV² = 100² + 60² = 10 000 + 3 600 = 13 600.","RV = √13 600 = 116.7 km/h, which is about 117 km/h.","The angle west of north: tan θ = 60 / 100 = 0.6, so θ = 31°.","Answer: 117 km/h in the direction N 31° W."]}},
+{"h":"Worked example 3: the girl at school","p":["A girl walks 40 m due east from the laboratory to the staff room and then 30 m due north to her classroom. How far is she from the laboratory in a straight line?"],
+"img":{"src":"phy-vector-school.jpg","alt":"A right-angled triangle with 40 m along the base and 30 m up the side","cap":"40 m east then 30 m north."},
+"ex":{"t":"Solution","b":["R² = 40² + 30² = 1600 + 900 = 2500.","R = √2500 = 50 m.","The distance walked is 70 m, but the displacement is only 50 m."]}},
+{"h":"Splitting a vector into parts (resolving)","p":["The opposite of adding is resolving. A slanting vector can be split into a horizontal part and a vertical part. If a force F acts at an angle θ above the horizontal, then the horizontal part is F cos θ and the vertical part is F sin θ.","Example: a boy pushes a box with a force of 15 N at 30° to the horizontal. Horizontal part = 15 cos 30° = 15 x 0.866 = 13.0 N. Vertical part = 15 sin 30° = 15 x 0.5 = 7.5 N."]}
+],
+"activity":"A man walks 6 km north and then 8 km east. Draw the path to scale (1 cm = 1 km), measure the straight-line distance from the start with your ruler, then check your answer using Pythagoras' theorem (you should get 10 km).",
+"check":[
+{"q":"Two forces of 6 N and 8 N act at a right angle. What is the resultant?","o":["10 N","14 N","2 N","48 N"]},
+{"q":"Two forces of 7 N and 3 N act in opposite directions. What is the resultant?","o":["4 N","10 N","21 N","2 N"]},
+{"q":"What is the horizontal part of a force F acting at angle θ above the horizontal?","o":["F cos θ","F sin θ","F tan θ","F / θ"]},
+{"q":"Which law is used to add two vectors at a general angle?","o":["Triangle or parallelogram law","Law of floatation","Boyle's law","Ohm's law"]},
+{"q":"A boy walks 3 km north and 4 km east. What is his displacement?","o":["5 km","7 km","1 km","12 km"]}]},
+
+{"id":"ph1-10","week":8,"title":"Speed and Velocity","icon":"Zap","summary":"Definitions, formulas and types of speed and velocity, and how they differ, with worked examples.",
+"keyWords":["Speed","Velocity","Uniform speed","Average speed","Instantaneous speed"],
+"sections":[
+{"h":"Speed","p":["Speed is the distance travelled in one unit of time. It is a scalar quantity. The SI unit is metres per second (m/s).","Speed = distance / time.","If a cyclist covers 150 m in 30 s, speed = 150 / 30 = 5 m/s."]},
+{"h":"Types of speed","p":["Uniform speed (constant speed): the body covers equal distances in equal times, no matter how small the time. A car on cruise control is an example. Its distance-time graph is a straight sloping line.","Variable (non-uniform) speed: the speed keeps changing. Its distance-time graph is a curve.","Average speed: total distance divided by total time. Average speed = total distance / total time.","Instantaneous speed: the speed at one particular moment, like the number on the speedometer at that moment."],
+"img":{"src":"phy-speed-uniform.jpg","alt":"A distance-time graph with a straight line labelled uniform speed","cap":"Uniform speed: a straight line on a distance-time graph."}},
+{"h":"A curve shows changing speed","p":["When the speed changes, the line on a distance-time graph is curved. Compare this graph with the straight line above."],
+"img":{"src":"phy-speed-variable.jpg","alt":"A distance-time graph with a curved line labelled variable speed","cap":"Variable speed: a curved line."}},
+{"h":"Velocity","p":["Velocity is the rate of change of displacement. It is the speed in a stated direction, so it is a vector quantity. The SI unit is m/s.","Velocity = displacement / time.","A body has uniform velocity when it is displaced by equal amounts in equal times, in the same direction.","Example: a runner moves 200 m east in 40 s. Velocity = 200 / 40 = 5 m/s east."]},
+{"h":"Speed compared with velocity","p":["The two are not the same. A car going round a roundabout at a steady 50 km/h has a constant speed but its velocity keeps changing because its direction keeps changing."],
+"tbl":{"head":["Speed","Velocity"],"rows":[
+["Scalar (size only)","Vector (size and direction)"],
+["Always positive","Can be positive or negative"],
+["Depends on distance","Depends on displacement"],
+["Example: 50 km/h","Example: 50 km/h east"]]},
+"ex":{"t":"Worked example: average speed","b":["A train travels 500 km in 5 hours. Average speed = 500 / 5 = 100 km/h.","To change to m/s: 100 km/h = 100 x 1000 / 3600 = 27.8 m/s."]}}
+],
+"activity":"Walk 20 m in your compound or school corridor. Time yourself with a stopwatch and work out your average speed in m/s. Then walk the same 20 m again quickly and compare.",
+"check":[
+{"q":"A cyclist covers 150 m in 30 s. What is his speed?","o":["5 m/s","180 m/s","4500 m/s","0.2 m/s"]},
+{"q":"Which of these is a vector?","o":["Velocity","Speed","Distance","Time"]},
+{"q":"What does a straight sloping line on a distance-time graph show?","o":["Uniform speed","Zero speed","Changing speed","Acceleration"]},
+{"q":"A train travels 500 km in 5 hours. What is its average speed?","o":["100 km/h","2500 km/h","10 km/h","1 km/h"]},
+{"q":"A runner moves 200 m east in 40 s. What is his velocity?","o":["5 m/s east","5 m/s west","8000 m/s","0.2 m/s east"]}]},
+
+{"id":"ph1-11","week":8,"title":"Acceleration","icon":"Zap","summary":"What acceleration and deceleration mean, the formula a = (v - u) / t, and worked examples.",
+"keyWords":["Acceleration","Deceleration","Retardation","Initial velocity","Final velocity"],
+"sections":[
+{"h":"What is acceleration?","p":["Acceleration is the rate of change of velocity. It tells how quickly the velocity is changing. It is a vector quantity and its SI unit is metres per second squared (m/s²).","Acceleration = change in velocity / time taken, or a = (v - u) / t.","Here u is the starting (initial) velocity, v is the final velocity and t is the time taken. The 'squared' in the unit comes from dividing a velocity (m/s) by a time (s)."]},
+{"h":"Types of acceleration","p":["Positive acceleration: the velocity increases (a car speeding up).","Negative acceleration, also called deceleration or retardation: the velocity decreases (a car braking). In calculations the value of a is negative.","Uniform acceleration: the velocity changes by equal amounts in equal times. A stone falling freely under gravity is an example (about 10 m/s² every second)."]},
+{"h":"Worked examples","p":["Take your time and follow the steps."],
+"ex":{"t":"Example 1","b":["A car speeds up from 10 m/s to 30 m/s in 5 s. Find its acceleration.","a = (v - u) / t = (30 - 10) / 5 = 20 / 5 = 4 m/s²."]}},
+{"h":"A braking car","p":["Example 2: a car slows from 25 m/s to 10 m/s in 3 s. a = (10 - 25) / 3 = -15 / 3 = -5 m/s². The negative sign shows deceleration. The car loses 5 m/s of velocity every second."]},
+{"h":"A car starting from rest","p":["Example 3: a vehicle starts from rest and reaches 30 m/s in 6 s. Rest means u = 0. a = (30 - 0) / 6 = 5 m/s². This means its velocity grows by 5 m/s each second."]},
+{"h":"Thinking questions","p":["Can an object have zero velocity and still have acceleration? Yes. At the very top of its flight, a ball thrown upwards stops for an instant (v = 0) but gravity is still pulling it, so it still accelerates downwards at about 10 m/s².","Can a car travel at constant speed and still be accelerating? Yes, if it changes direction, because its velocity is changing."]}
+],
+"activity":"Think about a school bus leaving the bus stop. Write what happens to the velocity as it pulls away (positive acceleration), as it moves steadily (zero acceleration) and as it stops at the next stop (deceleration).",
+"check":[
+{"q":"What is the SI unit of acceleration?","o":["m/s²","m/s","N","kg"]},
+{"q":"A car goes from 10 m/s to 30 m/s in 5 s. What is its acceleration?","o":["4 m/s²","6 m/s²","2 m/s²","40 m/s²"]},
+{"q":"What does a negative acceleration (deceleration) mean?","o":["The velocity is decreasing","The car is going backwards forever","The mass is negative","The car has no force"]},
+{"q":"A vehicle starts from rest and reaches 30 m/s in 6 s. Its acceleration is","o":["5 m/s²","180 m/s²","24 m/s²","0.2 m/s²"]},
+{"q":"What does 'u' stand for in a = (v - u) / t?","o":["Initial velocity","Final velocity","Time","Mass"]}]},
+
+{"id":"ph1-12","week":8,"title":"Graphs of Motion","icon":"BarChart2","summary":"How to read displacement-time and velocity-time graphs, and what the slope tells you.",
+"keyWords":["Displacement-time graph","Velocity-time graph","Slope","Gradient","Uniform motion"],
+"sections":[
+{"h":"Why we draw graphs","p":["A graph shows a whole journey at a glance. In Physics we meet two main motion graphs: the displacement-time graph and the velocity-time graph. In both, time is on the horizontal axis."]},
+{"h":"Displacement-time graph","p":["Here is a displacement-time graph of a journey from A to D. Read it like a story. From A to B the line slopes upwards: the object is moving away from the start with a steady velocity. From B to C the line is flat: the displacement is not changing, so the object has stopped. From C to D the line slopes steeply downwards: the object is travelling back to the start, and quickly, because the line is steep.","The slope (gradient) of a displacement-time graph is the velocity. The steeper the line, the greater the velocity."],
+"img":{"src":"phy-disp-time.jpg","alt":"A displacement-time graph with points A, B, C and D: rising from A to B, flat from B to C, and falling from C to D","cap":"Displacement-time graph: moving away, resting, then returning."}},
+{"h":"Velocity-time graph","p":["In a velocity-time graph the vertical axis shows velocity. A horizontal line means constant velocity (no acceleration). A line sloping upwards means the velocity is increasing: the object has positive acceleration. A line sloping downwards means the velocity is decreasing: the object has deceleration.","The slope of a velocity-time graph is the acceleration. The area under the graph is the distance travelled (you will use this in the next unit)."],
+"img":{"src":"phy-vt-trapezoid.jpg","alt":"A velocity-time graph shaped like a trapezium: rising from the start, flat in the middle and falling to the time axis","cap":"A journey that speeds up, runs at a steady velocity, and then slows to a stop."}},
+{"h":"Summary of what the shapes mean","p":["Learn these shapes. They are asked in every WAEC and NECO paper."],
+"tbl":{"head":["Graph shape","Displacement-time graph","Velocity-time graph"],"rows":[
+["Horizontal line","At rest","Constant velocity, zero acceleration"],
+["Straight line up","Constant velocity","Constant acceleration"],
+["Straight line down","Returning with constant velocity","Constant deceleration"],
+["Curve","Velocity is changing","Acceleration is changing"],
+["Slope gives","Velocity","Acceleration"],
+["Area under graph gives","Nothing useful","Distance travelled"]]}}
+],
+"activity":"Sketch three small velocity-time graphs on one page: (a) uniform acceleration, (b) constant velocity, (c) deceleration. Under each one write what the slope tells you.",
+"check":[
+{"q":"What does the slope of a velocity-time graph give?","o":["Acceleration","Distance","Displacement","Mass"]},
+{"q":"What does a horizontal line on a velocity-time graph show?","o":["Constant velocity","The object is at rest","Increasing acceleration","Free fall"]},
+{"q":"What does the slope of a displacement-time graph give?","o":["Velocity","Acceleration","Force","Weight"]},
+{"q":"A downward sloping line on a velocity-time graph shows","o":["Deceleration","Uniform velocity","The object is at rest","Increasing speed"]},
+{"q":"What does the area under a velocity-time graph give?","o":["Distance travelled","Acceleration","Time","Mass"]}]},
+
+{"id":"ph1-13","week":8,"title":"Using a Velocity-Time Graph","icon":"BarChart2","summary":"Finding distance, acceleration and retardation from a velocity-time graph, with two fully worked examples.",
+"keyWords":["Area under graph","Trapezium","Triangle","Rectangle","Retardation"],
+"sections":[
+{"h":"Three things you can find","p":["From a velocity-time graph you can find: (1) the acceleration or retardation, which is the slope of the line, (2) the distance travelled, which is the area between the line and the time axis, and (3) the velocity at any moment, which you read from the vertical axis.","To find an area, split the shape into simple parts: a rectangle has area = length x width and a triangle has area = ½ x base x height."]},
+{"h":"Worked example 1","p":["A car starts from rest and accelerates uniformly for 20 s to reach 25 m/s. It keeps this speed for 30 s and then slows uniformly to rest. The total time for the journey is 60 s. (a) Sketch the velocity-time graph. (b) Find the total distance travelled."],
+"img":{"src":"phy-vt-example1.png","alt":"Velocity-time graph: rising from 0 to 25 m/s in 20 s, constant at 25 m/s until 50 s, falling to 0 at 60 s, with three shaded areas","cap":"The graph for Worked example 1. The three shaded parts are a triangle, a rectangle and another triangle."},
+"ex":{"t":"Solution","b":["(a) Velocity starts at 0 and rises in a straight line to 25 m/s at t = 20 s. It stays at 25 m/s from t = 20 s to t = 50 s. It then falls in a straight line to 0 at t = 60 s.","(b) Distance = area under the graph, split into three parts.","Acceleration part (triangle): ½ x 20 x 25 = 250 m.","Constant velocity part (rectangle): 30 x 25 = 750 m.","Slowing part (triangle): ½ x 10 x 25 = 125 m.","Total distance = 250 + 750 + 125 = 1125 m."]}},
+{"h":"Worked example 2","p":["A body starts from rest and travels 120 m, 300 m and 180 m in three successive equal time intervals of 12 s each. During each interval it is uniformly accelerated. Sketch the velocity-time graph and find the velocity at the end of each interval."],
+"img":{"src":"phy-vt-example2.jpg","alt":"Velocity-time graph with points at 12 s (20 m/s), 24 s (30 m/s) and 36 s (0 m/s)","cap":"The graph for Worked example 2."},
+"ex":{"t":"Solution","b":["For uniform acceleration, average velocity = (u + v) / 2, and distance = average velocity x time.","Interval 1 (0 to 12 s): average velocity = 120 / 12 = 10 m/s. Starting from 0: (0 + v) / 2 = 10, so v = 20 m/s.","Interval 2 (12 s to 24 s): average velocity = 300 / 12 = 25 m/s. (20 + v) / 2 = 25, so v = 30 m/s.","Interval 3 (24 s to 36 s): average velocity = 180 / 12 = 15 m/s. (30 + v) / 2 = 15, so v = 0 m/s.","Velocities at the end of the intervals: 20 m/s, 30 m/s and 0 m/s. The graph is a straight line up to 20 m/s at 12 s, then up to 30 m/s at 24 s, then down to 0 at 36 s."]}},
+{"h":"Finding acceleration and retardation from a graph","p":["Acceleration = slope = change in velocity / change in time. In Worked example 1, the first part has acceleration = 25 / 20 = 1.25 m/s². The last part has retardation = 25 / 10 = 2.5 m/s² (the velocity falls by 25 m/s in 10 s)."]}
+],
+"activity":"Draw a velocity-time graph for a bus that accelerates from rest to 10 m/s in 5 s, moves at 10 m/s for 10 s, and then stops in 5 s. Find the total distance by splitting the graph into shapes (answer: 25 + 100 + 25 = 150 m).",
+"check":[
+{"q":"The area under a velocity-time graph gives","o":["Distance travelled","Acceleration","Force","Mass"]},
+{"q":"A triangle has base 20 s and height 25 m/s. What is its area?","o":["250 m","500 m","45 m","125 m"]},
+{"q":"A car travels at 25 m/s for 30 s. What distance does it cover?","o":["750 m","55 m","25 m","0.83 m"]},
+{"q":"In the first part of Worked example 1, what is the acceleration?","o":["1.25 m/s²","25 m/s²","20 m/s²","0.8 m/s²"]},
+{"q":"A horizontal section of a velocity-time graph means","o":["Constant velocity","Increasing velocity","The object has stopped","Deceleration"]}]}
+]

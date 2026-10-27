@@ -1,0 +1,123 @@
+[
+{"id":"ph3-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What you will learn in SS1 Physics Third Term and a map of every unit.",
+"keyWords":["Fluids","Gas laws","Simple harmonic motion","Projectile","Waves","Table of contents"],
+"sections":[
+{"h":"Welcome to the last term of SS1 Physics","p":["In Third Term you will study some of the most interesting ideas in Physics. You will find out why ships float, how a hydraulic jack lifts a car, why the pressure in a tyre rises when the air gets hot, why a pendulum swings in a regular rhythm, how a thrown ball travels and how waves, such as sound and light, carry energy from place to place.","Take your time and do not rush. Look at every picture. Work through the worked examples slowly, and then try each practice question."]},
+{"h":"Table of contents for Third Term","p":["The units follow the weekly scheme of work."],
+"tbl":{"head":["Unit","Week","What you will learn"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Fluids at rest: pressure in a liquid"],
+["3","1","Pascal's principle and its uses"],
+["4","1","Archimedes' principle, relative density and floating"],
+["5","1","Fluids in motion: streamline flow, continuity and Bernoulli"],
+["6","1","Surface tension"],
+["7","2 - 3","Kinetic theory of gases and Boyle's law"],
+["8","2 - 3","Charles's law and the pressure law"],
+["9","2 - 3","The general gas law, the ideal gas and molar volume"],
+["10","4 - 6","Simple harmonic motion"],
+["11","4 - 6","Energy in SHM and the simple pendulum"],
+["12","8","Projectile motion"],
+["13","8","Projectile calculations"],
+["14","9","Waves and their parts"],
+["15","9","Transverse and longitudinal waves"],
+["16","10","Properties of waves"],
+["17","10","Wave calculations and graphs"]]}},
+{"h":"Some advice for the term","p":["Write each formula on a card with the meaning of every letter and its unit. Practise changing units (for example °C to kelvin) because many mistakes in this term come from forgetting this step. Draw neat diagrams and label them. Finish the practice questions of each unit before moving on."]}
+],
+"activity":"Pick one topic from the table of contents that you think you already know a little about (for example waves, because of sound or light). Write down two things you already know about it and one question you hope to find out.",
+"check":[
+{"q":"In which unit will you learn about Boyle's law?","o":["Unit 7","Unit 2","Unit 12","Unit 16"]},
+{"q":"What topic is studied in Week 8?","o":["Projectile motion","Fluids","Waves","Pendulum"]},
+{"q":"How many units are in this term (including this one)?","o":["17","10","6","12"]},
+{"q":"What unit conversion is often forgotten in the gas laws?","o":["°C to kelvin","Metres to inches","Hours to days","Newton to joule"]}]},
+
+{"id":"ph3-02","week":1,"title":"Fluids at Rest: Pressure in a Liquid","icon":"Layers","summary":"What a fluid is, how pressure acts in a liquid at rest, the formula P = ρgh, what affects it and worked examples.",
+"keyWords":["Fluid","Pressure","Density","Depth","Pascal"],
+"sections":[
+{"h":"What is a fluid?","p":["A fluid is any substance that can flow and take the shape of its container. Liquids and gases are fluids. Fluids have no fixed shape, they push in all directions, they can flow easily and gases can also be compressed.","This topic has two parts: fluids at rest (fluid statics) and fluids in motion (fluid dynamics). The picture shows how the topic is divided."],
+"img":{"src":"phy-fluids-overview.jpg","alt":"A diagram with Fluids at Rest and Motion in the centre, linked to pressure, density, buoyancy, Pascal's principle, flow rate, viscosity, continuity equation and Bernoulli's principle","cap":"The ideas in this topic: fluids at rest and fluids in motion."}},
+{"h":"Pressure","p":["Pressure is the force acting on each unit of area. Pressure = force / area, or P = F / A. The SI unit is the pascal (Pa), which is one newton per square metre (N/m²)."]},
+{"h":"Pressure inside a liquid","p":["A liquid has weight, so the liquid above a point presses down on that point. The deeper you go, the more liquid is above you and the greater the pressure. This is why a diver feels more pressure in his ears deeper down, and why the walls of a dam are built thicker at the bottom.","Formula: P = ρgh, where P is the pressure (Pa), ρ (rho) is the density of the liquid (kg/m³), g is the acceleration due to gravity (9.8 m/s² or about 10 m/s²) and h is the depth below the surface (m).","Facts about pressure in a liquid at rest: it increases with depth; at the same depth it is the same in all directions; and it does not depend on the shape of the container or the amount of liquid, only on the depth and the density."]},
+{"h":"What affects the pressure at a point","p":["Only two things: the depth of the point below the surface, and the density of the liquid. Deeper means more pressure. A denser liquid (like mercury) gives more pressure at the same depth than a less dense liquid (like water)."]},
+{"h":"The pressure difference gives upthrust","p":["Look at the picture of a cylinder in a liquid. The pressure P1 on the bottom face is bigger than the pressure P2 on the top face because the bottom is deeper. This difference pushes the cylinder upwards. That upward push is called upthrust, which you will meet again in Unit 4."],
+"img":{"src":"phy-pressure-cylinder.jpg","alt":"A cylinder submerged in a liquid with arrows showing a smaller pressure P2 on the top face and a larger pressure P1 on the bottom face","cap":"The bottom of the cylinder is deeper, so P1 is greater than P2."}},
+{"h":"Worked examples","p":["Try them yourself first."],
+"ex":{"t":"Examples","b":["Pressure at a depth of 5 m in water (ρ = 1000 kg/m³, g = 9.8 m/s²): P = ρgh = 1000 x 9.8 x 5 = 49 000 Pa.","Pressure at a depth of 10 m in sea water of density 1030 kg/m³ (g = 10 m/s²): P = 1030 x 10 x 10 = 103 000 Pa.","A liquid of volume 2.00 m³ and density 1000 kg/m³ is mixed with 3.00 m³ of another liquid of density 8000 kg/m³. Density of the mixture = total mass / total volume = (2 x 1000 + 3 x 8000) / (2 + 3) = 26 000 / 5 = 5200 kg/m³."]}}
+],
+"activity":"Take an empty plastic bottle and make three small holes at different heights on one side (ask an adult to help). Fill the bottle with water and watch the water jets. Which jet goes furthest? Explain using pressure and depth.",
+"check":[
+{"q":"The formula for pressure at a depth h in a liquid is","o":["P = ρgh","P = ρg / h","P = h / ρg","P = ρ / hg"]},
+{"q":"The pressure at a depth of 5 m in water (ρ = 1000 kg/m³, g = 10 m/s²) is","o":["50 000 Pa","5000 Pa","500 Pa","200 Pa"]},
+{"q":"Pressure in a liquid at rest","o":["Is the same in all directions at one point","Acts only downwards","Acts only at the surface","Decreases with depth"]},
+{"q":"Which two factors affect pressure at a point in a liquid?","o":["Depth and density","Shape and colour","Volume and mass of the container","Temperature of the room and time"]},
+{"q":"The SI unit of pressure is","o":["Pascal","Newton","Joule","Watt"]}]},
+
+{"id":"ph3-03","week":1,"title":"Pascal's Principle and Its Uses","icon":"Zap","summary":"Pascal's principle, the formula F1/A1 = F2/A2, and how hydraulic machines such as lifts and car brakes work.",
+"keyWords":["Pascal's principle","Hydraulic press","Piston","Transmitted pressure"],
+"sections":[
+{"h":"Pascal's principle","p":["Pascal's principle states that pressure applied to a confined (enclosed) fluid is transmitted equally and without loss in all directions through the fluid.","If we push on one piston with force F1 and area A1, the pressure is F1 / A1. This same pressure acts on a second piston of area A2 and gives a force F2. So F1 / A1 = F2 / A2. A small force on a small piston gives a big force on a big piston."]},
+{"h":"How the hydraulic press works","p":["A hydraulic machine has two cylinders of different widths joined together and filled with oil. Oil is used because it cannot be compressed easily and it does not rust the metal. When you push down the small piston, the oil pushes the big piston up with a much bigger force. The big piston moves a shorter distance than the small piston, so work is not created from nothing."]},
+{"h":"Applications","p":["Hydraulic lifts and jacks that raise cars in a workshop.","Car brakes: when you press the brake pedal, the pressure is passed through the brake fluid to all four wheels at once.","Hydraulic presses that squeeze metal sheets or oil seeds.","Dentists' and barbers' chairs.","The arms of excavators and bulldozers."]},
+{"h":"Worked example","p":["A hydraulic press has a small piston of area 0.01 m² and a large piston of area 0.5 m². A force of 200 N is applied to the small piston. Find the force on the large piston."],
+"ex":{"t":"Solution","b":["F1 / A1 = F2 / A2, so F2 = F1 x A2 / A1.","F2 = 200 x 0.5 / 0.01 = 100 / 0.01 = 10 000 N.","The force is multiplied by 50, because the area of the big piston is 50 times that of the small one."]}},
+{"h":"Another example","p":["A small piston of area 5 cm² is pushed with a force of 40 N. What load can the large piston of area 400 cm² lift? Pressure = 40 / 5 = 8 N/cm². Force on the big piston = 8 x 400 = 3200 N."]}
+],
+"activity":"Join two syringes of different sizes with a short plastic tube and fill them with water. Push the small syringe and watch the big one move. Then push the big one. Which needs more force? Explain.",
+"check":[
+{"q":"Pascal's principle says that pressure in an enclosed fluid is","o":["Transmitted equally in all directions","Lost quickly","Only upward","Zero"]},
+{"q":"The formula for a hydraulic machine is","o":["F1/A1 = F2/A2","F1 x A1 = F2 x A2","F1 + A1 = F2 + A2","F1/A2 = F2/A1"]},
+{"q":"A force of 200 N acts on a piston of area 0.01 m². The big piston has area 0.5 m². The force on it is","o":["10 000 N","4 N","200 N","100 N"]},
+{"q":"Which device uses Pascal's principle?","o":["Car brakes","A thermometer","A pendulum clock","A mirror"]},
+{"q":"Why is oil used in a hydraulic machine?","o":["It is not easily compressed","It is light","It is hot","It is a gas"]}]},
+
+{"id":"ph3-04","week":1,"title":"Archimedes' Principle, Relative Density and Floating","icon":"Landmark","summary":"Upthrust, Archimedes' principle, apparent weight, finding relative density of a stone, and the law of floatation.",
+"keyWords":["Upthrust","Archimedes' principle","Apparent weight","Relative density","Law of floatation"],
+"sections":[
+{"h":"Upthrust and Archimedes' principle","p":["When you put an object in water, the water pushes up on it. This upward force is called upthrust. That is why you feel lighter in a swimming pool.","Archimedes' principle states that when a body is wholly or partly immersed in a fluid, it experiences an upthrust equal to the weight of the fluid displaced.","Upthrust = weight of fluid displaced = ρ x g x V, where ρ is the density of the fluid, g is gravity and V is the volume of fluid displaced.","Apparent weight = true weight (weight in air) - upthrust."]},
+{"h":"Worked examples on upthrust","p":["Look at each one carefully."],
+"ex":{"t":"Examples","b":["A body weighing 14 N in air is partly immersed in water and displaces 200 g (0.2 kg) of water. Upthrust = weight of water displaced = 0.2 x 10 = 2 N.","A metal cube of volume 0.002 m³ is immersed in a liquid of density 1200 kg/m³ (g = 10 m/s²). Upthrust = ρgV = 1200 x 10 x 0.002 = 24 N. If its weight in air is 25 N, its apparent weight in the liquid = 25 - 24 = 1 N."]}},
+{"h":"Finding the relative density of a stone","p":["Relative density = density of a substance / density of water. It has no unit.","Method: weigh the stone in air (W1). Weigh the stone when it is fully immersed in water (W2). The upthrust = W1 - W2. Because the upthrust equals the weight of an equal volume of water, relative density = weight in air / upthrust = W1 / (W1 - W2).","Example: a stone weighs 4.0 N in air and 3.0 N in water. Upthrust = 1.0 N. Relative density = 4.0 / 1.0 = 4. So the stone is 4 times denser than water."]},
+{"h":"The law of floatation","p":["The law of floatation states that a floating body displaces its own weight of the fluid in which it floats. That means a body floats when its weight is equal to the upthrust on it.","An object floats if its density is less than the density of the fluid. It sinks if its density is greater. Steel sinks but a steel ship floats because the ship is hollow: its average density (including the air inside) is smaller than the density of water, so it can displace a lot of water."]},
+{"h":"Applications","p":["Ships and submarines (a submarine fills tanks with water to sink and with air to rise).","Hydrometers, which measure the density of liquids such as battery acid and milk.","Ice floats on water because its density is slightly less.","Life jackets and floating logs.","Icebergs, where about nine-tenths of the ice is below the water."]}
+],
+"activity":"Place a small stone, a coin, a piece of wood and a plastic bottle cap in a bowl of water. Write which ones float and which sink. For each, say how its density compares with that of water.",
+"check":[
+{"q":"Archimedes' principle says upthrust equals","o":["The weight of the fluid displaced","The weight of the object","The volume of the object","The mass of the fluid"]},
+{"q":"Apparent weight is","o":["Weight in air minus upthrust","Weight in air plus upthrust","Upthrust minus weight","Mass x gravity"]},
+{"q":"A stone weighs 4 N in air and 3 N in water. Its relative density is","o":["4","3","1","0.25"]},
+{"q":"A body floats when","o":["Its weight equals the upthrust","Its weight is greater than the upthrust","Its mass is zero","It has no volume"]},
+{"q":"A ship made of steel floats because","o":["Its average density is less than that of water","Steel is lighter than water","The sea is dense","It is very big"]}]},
+
+{"id":"ph3-05","week":1,"title":"Fluids in Motion: Streamline Flow, Continuity and Bernoulli","icon":"Zap","summary":"Streamline and turbulent flow, the equation of continuity, Bernoulli's principle and where they are used.",
+"keyWords":["Streamline flow","Turbulent flow","Equation of continuity","Bernoulli's principle"],
+"sections":[
+{"h":"Streamline and turbulent flow","p":["Streamline (laminar) flow is smooth flow in parallel layers that do not mix, such as oil moving slowly in a narrow pipe. It happens with low velocity, smooth surfaces and small pipes.","Turbulent flow is irregular, swirling flow, such as a waterfall or a fast river. It happens at high speed or around obstacles."]},
+{"h":"The equation of continuity","p":["For a steady flow of a fluid that cannot be compressed, the amount of fluid passing each point every second is the same. So the cross-sectional area A times the velocity v is the same everywhere: A1v1 = A2v2.","This means a fluid flows faster in a narrow pipe and slower in a wide pipe. Your thumb over the end of a garden hose makes the water shoot out faster. Blood speeds up where an artery narrows. Irrigation pipes and water mains are designed with this rule."],
+"ex":{"t":"Worked example","b":["A pipe has cross-sectional areas 0.04 m² and 0.01 m² at its two ends. Water enters at 3 m/s. Find the exit velocity.","A1v1 = A2v2, so 0.04 x 3 = 0.01 x v2.","v2 = 0.12 / 0.01 = 12 m/s."]}},
+{"h":"Bernoulli's principle","p":["Bernoulli's principle states that in the streamline flow of a fluid, the sum of the pressure energy, kinetic energy and potential energy per unit volume is constant: P + ½ρv² + ρgh = constant.","P is the pressure, ρ the density, v the velocity and h the height. The most important idea is this: where a fluid moves faster, its pressure is lower."]},
+{"h":"Uses of Bernoulli's principle","p":["Aeroplane wings: the wing is curved on top, so air flows faster over the top than below. The pressure above is lower than below, which gives an upward force (lift).","Atomisers and sprayers (perfume, insecticide): fast air across a tube lowers the pressure and pulls liquid up.","Chimneys and carburettors.","Sailing and the swerving of a spinning ball."]}
+],
+"activity":"Hold a strip of paper just below your lower lip and blow hard across the top. Watch the paper rise. Explain it with Bernoulli's principle.",
+"check":[
+{"q":"The equation of continuity is","o":["A1v1 = A2v2","A1 + v1 = A2 + v2","A1/v1 = A2v2","A1v2 = A2v2"]},
+{"q":"A pipe narrows. The fluid speed","o":["Increases","Decreases","Does not change","Becomes zero"]},
+{"q":"According to Bernoulli's principle, where the fluid moves faster the pressure is","o":["Lower","Higher","The same","Always zero"]},
+{"q":"Water enters a pipe of area 0.04 m² at 3 m/s and leaves through 0.01 m². The exit speed is","o":["12 m/s","0.75 m/s","3 m/s","0.12 m/s"]},
+{"q":"A waterfall shows","o":["Turbulent flow","Streamline flow","Zero flow","Frozen flow"]}]},
+
+{"id":"ph3-06","week":1,"title":"Surface Tension","icon":"Layers","summary":"What surface tension is, its effects, what affects it, and how it can be reduced.",
+"keyWords":["Surface tension","Cohesion","Impurities","Detergent","Meniscus"],
+"sections":[
+{"h":"What is surface tension?","p":["The surface of a liquid behaves like a stretched elastic skin. The force acting along the surface of a liquid that causes this is called surface tension. It is caused by the attraction between the molecules of the liquid (cohesion). A molecule inside a liquid is pulled equally in all directions, but a molecule at the surface is pulled only inwards and sideways, so the surface tries to become as small as possible."]},
+{"h":"Effects of surface tension","p":["A pond skater (a small insect) walks on the surface of water without sinking.","A needle or a razor blade, placed carefully, floats on water.","Mercury forms round beads and raindrops are round.","Water forms small round drops on a waxed or oily surface.","Soap bubbles are round, and a small amount of liquid hangs from a tap before dropping."]},
+{"h":"What affects surface tension?","p":["The type of liquid: mercury has a very large surface tension; water is medium; alcohol is small.","Temperature: surface tension decreases when the temperature rises, so hot water is better at cleaning.","Impurities: most dissolved impurities, such as soap or detergent, reduce the surface tension."]},
+{"h":"Reducing surface tension","p":["Raise the temperature of the liquid.","Add soap or detergent. This is why soapy water spreads and cleans well.","Add alcohol or camphor to the water.","Remember that a high surface tension is what lets small insects and a needle stay on top of water. When the surface tension is reduced (for example by soap), they sink."]}
+],
+"activity":"Fill a glass to the brim with water and carefully float a small dry paper clip on the surface by lowering it with a folded tissue. Then add a drop of washing-up liquid and watch what happens. Explain.",
+"check":[
+{"q":"Surface tension makes the surface of a liquid behave like","o":["A stretched elastic skin","A hard stone","A gas","A mirror"]},
+{"q":"Which of these is caused by surface tension?","o":["A pond skater walking on water","The weight of a stone","A magnet attracting iron","Sunlight"]},
+{"q":"Adding detergent to water","o":["Reduces the surface tension","Raises the surface tension","Makes no difference","Freezes it"]},
+{"q":"When temperature rises, surface tension","o":["Decreases","Increases","Stays the same","Doubles"]},
+{"q":"Mercury forms round beads because","o":["Of strong surface tension","Of low density","Of gravity being zero","Of its colour"]}]}
+]

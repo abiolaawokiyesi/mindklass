@@ -1,0 +1,89 @@
+[
+{"id":"ph1-14","week":9,"title":"Motion, Its Types, and Force","icon":"Zap","summary":"Rest and motion, the five types of motion, and what a force is, with its effects and kinds.",
+"keyWords":["Rest","Motion","Translational","Rotational","Oscillatory","Force","Newton"],
+"sections":[
+{"h":"Rest and motion","p":["Motion is a change in the position of a body with time, measured from a fixed reference point. A body is at rest if its position does not change with time. A body is in motion if its position changes with time.","Rest and motion are relative. A passenger sitting still in a moving bus is at rest compared with the seat but in motion compared with a tree by the roadside."]},
+{"h":"Types of motion","p":["Translational motion: movement of the whole body from one place to another along a straight or curved path.","Linear motion: a kind of translational motion along a straight line (a car on a straight road, a falling stone).","Rotational motion: the body spins about an axis (a ceiling fan, the wheels of a bicycle).","Oscillatory (vibratory) motion: back-and-forth movement about a fixed point (a pendulum, a guitar string).","Circular motion: movement along a circle (the Moon going round the Earth).","Random motion: irregular, unpredictable movement (smoke particles, gas molecules)."],
+"img":{"src":"phy-types-of-motion.png","alt":"Five panels showing linear motion, curvilinear motion, circular motion, rotational motion and oscillatory motion","cap":"Types of motion with examples."}},
+{"h":"What causes motion? Force","p":["A force is a push or a pull that can start, stop or change the motion of a body, or change its shape. Force is a vector quantity, so it has size and direction. The SI unit is the newton (N).","Force = mass x acceleration, or F = ma. A force of 1 N gives a mass of 1 kg an acceleration of 1 m/s².","Example: what force gives a 4 kg trolley an acceleration of 3 m/s²? F = 4 x 3 = 12 N."]},
+{"h":"What a force can do","p":["Start or stop a motion (kicking a stationary ball; a goalkeeper stopping it).","Change the direction of an object (a hockey stick turning the ball).","Change the speed of an object (pressing the accelerator).","Change the shape or size of an object (squeezing a sponge, stretching a spring)."]},
+{"h":"Kinds of force","p":["Contact forces need the objects to touch: applied force, friction, tension in a rope, normal reaction from a surface, and air resistance.","Non-contact (field) forces act across a distance: gravitational force, magnetic force and electrostatic force."]}
+],
+"activity":"Walk around your home or school for five minutes. List one example of each type of motion (linear, rotational, oscillatory, circular, random) and say which force is causing it.",
+"check":[
+{"q":"The motion of a ceiling fan is","o":["Rotational","Linear","Random","Translational only"]},
+{"q":"What is the SI unit of force?","o":["Newton","Joule","Watt","Pascal"]},
+{"q":"A pendulum swinging back and forth shows","o":["Oscillatory motion","Linear motion","Random motion","No motion"]},
+{"q":"Which force is a non-contact force?","o":["Gravitational force","Friction","Tension","Air resistance"]},
+{"q":"What force gives a 4 kg mass an acceleration of 3 m/s²?","o":["12 N","7 N","1.33 N","0.75 N"]}]},
+
+{"id":"ph1-15","week":9,"title":"Friction","icon":"Shield","summary":"What friction is, its types, advantages, disadvantages, how to increase or reduce it, and a worked calculation.",
+"keyWords":["Friction","Static friction","Kinetic friction","Normal reaction","Lubrication"],
+"sections":[
+{"h":"What is friction?","p":["Friction is a force that opposes the movement, or the tendency to move, of two surfaces in contact. It always acts in the direction opposite to the motion. Rub your two palms together quickly: the warmth you feel is caused by friction."]},
+{"h":"Types of friction","p":["Static friction is the force that must be overcome to start a body moving. It acts on a body that is not moving yet.","Kinetic (dynamic) friction acts on a body that is already sliding. Static friction is greater than kinetic friction, which is why it is harder to get a heavy box moving than to keep it moving.","The size of the friction force depends on how rough the surfaces are and how hard they press together: F = μN, where μ (mu) is the coefficient of friction (it has no unit) and N is the normal reaction, the force with which the surface pushes up on the body. On a flat floor N = mg."]},
+{"h":"Advantages of friction","p":["It lets us walk and drive without slipping.","It makes the brakes of vehicles work.","It lets us grip and hold tools.","It lets belts and pulleys work in machines."]},
+{"h":"Disadvantages of friction","p":["It wears out machine parts and tyres.","It wastes energy as heat.","It lowers the efficiency of moving parts.","It makes moving heavy objects harder."]},
+{"h":"Reducing and increasing friction","p":["To reduce friction: use oil or grease (lubrication), polish the surfaces, use ball bearings or rollers, and give vehicles and aircraft a streamlined shape.","To increase friction: use rough surfaces, increase the weight pressing down, put treads on tyres, and wear rubber-soled shoes."],
+"tbl":{"head":["Where friction is used","How it helps"],"rows":[
+["Car brakes","Brake pads grip the wheel to slow it"],
+["Conveyor belts","The belt grips the rollers and the load"],
+["Shoes","Rough soles stop you from slipping"],
+["Climbing","Hands and feet grip the surface"]]}},
+{"h":"Worked example","p":["A box of mass 5 kg is pulled along a horizontal floor with a force of 30 N. The coefficient of kinetic friction between the box and the floor is 0.2. Find the acceleration of the box. (g = 9.8 m/s²)"],
+"ex":{"t":"Solution","b":["Normal reaction N = mg = 5 x 9.8 = 49 N.","Friction force = μN = 0.2 x 49 = 9.8 N.","Net force = 30 - 9.8 = 20.2 N.","Acceleration a = net force / mass = 20.2 / 5 = 4.04 m/s²."]}}
+],
+"activity":"Slide a book across a table, then slide it across a carpet or a rough mat. Which is harder? Explain with the word 'friction'. Then try placing a few pencils under the book as rollers and see what happens.",
+"check":[
+{"q":"Friction always acts","o":["Opposite to the motion","In the same direction as the motion","Upwards","Only on liquids"]},
+{"q":"Which is larger?","o":["Static friction","Kinetic friction","They are always equal","Neither exists"]},
+{"q":"Which of these reduces friction?","o":["Oil or grease","Rough surface","Tyre treads","Rubber soles"]},
+{"q":"A box of mass 5 kg has μ = 0.2 with the floor (g = 10 m/s²). What is the friction force?","o":["10 N","1 N","25 N","50 N"]},
+{"q":"Friction is a disadvantage because it","o":["Wastes energy as heat","Lets us walk","Makes brakes work","Lets belts work"]}]},
+
+{"id":"ph1-16","week":10,"title":"Equations of Motion","icon":"Zap","summary":"The three equations for uniform acceleration, where they come from, and worked examples.",
+"keyWords":["Uniform acceleration","Initial velocity","Final velocity","Displacement","Equations of motion"],
+"sections":[
+{"h":"When can we use them?","p":["The equations of motion are three formulas that link five quantities: u (initial velocity), v (final velocity), a (acceleration), t (time) and s (displacement). They work only when the acceleration is uniform (constant) and the motion is in a straight line."]},
+{"h":"Where they come from","p":["Start with the definition of acceleration: a = (v - u) / t. Rearranging gives the first equation: v = u + at.","For uniform acceleration, the average velocity is (u + v) / 2. Distance = average velocity x time, so s = ((u + v) / 2) x t. Replacing v with u + at gives the second equation: s = ut + ½at².","Finally, remove t between the first two equations to get the third: v² = u² + 2as."]},
+{"h":"The three equations","p":["Learn them by heart. Choose the one that has the quantity you want and the quantities you know."],
+"tbl":{"head":["Equation","Use it when you do not have"],"rows":[
+["v = u + at","s (displacement)"],
+["s = ut + ½at²","v (final velocity)"],
+["v² = u² + 2as","t (time)"]]}},
+{"h":"Worked example 1","p":["A car accelerates uniformly from rest at 2 m/s² for 10 s. Find (a) its final velocity and (b) the distance covered."],
+"ex":{"t":"Solution","b":["u = 0, a = 2 m/s², t = 10 s.","(a) v = u + at = 0 + 2 x 10 = 20 m/s.","(b) s = ut + ½at² = 0 + ½ x 2 x 10² = ½ x 2 x 100 = 100 m."]}},
+{"h":"Worked example 2","p":["An object has an initial velocity of 5 m/s and accelerates uniformly to 25 m/s over a distance of 60 m. Find the acceleration."],
+"ex":{"t":"Solution","b":["u = 5 m/s, v = 25 m/s, s = 60 m, a = ?","Use v² = u² + 2as.","625 = 25 + 2 x a x 60, so 625 = 25 + 120a.","600 = 120a, so a = 5 m/s²."]}},
+{"h":"Worked example 3","p":["A body starts from rest and accelerates uniformly at 2 m/s². Find its velocity after it has travelled 9 m."],
+"ex":{"t":"Solution","b":["u = 0, a = 2 m/s², s = 9 m, v = ?","v² = u² + 2as = 0 + 2 x 2 x 9 = 36.","v = √36 = 6 m/s."]}},
+{"h":"More practice examples","p":["A body with an initial velocity of 12 m/s accelerates at 3 m/s² for 4 s. Final velocity v = 12 + 3 x 4 = 24 m/s. Distance s = 12 x 4 + ½ x 3 x 16 = 48 + 24 = 72 m.","A car takes off from rest and covers 80 m in 10 s. Use s = ut + ½at² with u = 0: 80 = ½ x a x 100, so a = 1.6 m/s²."]}
+],
+"activity":"Write the three equations of motion on a small card and stick it inside your notebook. Then solve: a bus starts from rest and accelerates at 1.5 m/s² for 8 s. Find the final velocity and the distance covered (answers: 12 m/s and 48 m).",
+"check":[
+{"q":"Which equation links velocity, acceleration and time?","o":["v = u + at","v² = u² + 2as","s = ut + ½at²","F = ma"]},
+{"q":"A car starts from rest and accelerates at 2 m/s² for 10 s. What is its final velocity?","o":["20 m/s","12 m/s","5 m/s","0.2 m/s"]},
+{"q":"A body starts from rest at 2 m/s². Its velocity after 9 m is","o":["6 m/s","18 m/s","36 m/s","3 m/s"]},
+{"q":"The equations of motion work only when","o":["Acceleration is uniform","The mass is large","There is friction","The speed is above 10 m/s"]},
+{"q":"A body starts at 12 m/s and accelerates at 3 m/s² for 4 s. What is its final velocity?","o":["24 m/s","15 m/s","48 m/s","36 m/s"]}]},
+
+{"id":"ph1-17","week":10,"title":"Free Fall and Gravity","icon":"Landmark","summary":"Motion under gravity: objects thrown upwards, dropped, or thrown horizontally, with worked examples.",
+"keyWords":["Gravity","Free fall","g = 9.8 m/s²","Maximum height","Time of flight"]
+,"sections":[
+{"h":"What is free fall?","p":["When an object is thrown upwards or released from a height and only gravity acts on it, it is in free fall. Near the surface of the Earth, gravity gives every falling object the same acceleration, g = 9.8 m/s² (about 10 m/s²), downwards. A heavy stone and a light stone dropped together reach the ground together if air resistance is small. In the equations of motion we simply replace a with g."]},
+{"h":"Equations for free fall","p":["When an object moves upwards, gravity slows it down, so a = -g. The equations of motion become: v = u - gt, h = ut - ½gt² and v² = u² - 2gh. When an object falls downwards, gravity speeds it up, so a = +g and we use v = u + gt, h = ut + ½gt² and v² = u² + 2gh.","At the highest point of its flight, an object thrown upwards has v = 0 for an instant. The time to rise to the top is t = u / g and the greatest height is h = u² / 2g."]},
+{"h":"Worked example 1: a ball thrown upwards","p":["A ball is thrown upwards at 20 m/s. Find (a) the time it takes to reach its highest point and (b) the greatest height. Take g = 10 m/s²."],
+"ex":{"t":"Solution","b":["u = 20 m/s, v = 0 at the top, g = 10 m/s².","(a) v = u - gt gives 0 = 20 - 10t, so t = 2 s.","(b) v² = u² - 2gh gives 0 = 400 - 20h, so h = 20 m.","The ball takes another 2 s to fall back, so the total time of flight is 4 s."]}},
+{"h":"Worked example 2: a stone dropped from a height","p":["A stone is dropped from the top of a tower 45 m high. How long does it take to hit the ground, and how fast is it moving when it lands? (g = 10 m/s²)"],
+"ex":{"t":"Solution","b":["u = 0, h = 45 m, a = g = 10 m/s².","h = ½gt² gives 45 = 5t², so t² = 9 and t = 3 s.","v = u + gt = 0 + 10 x 3 = 30 m/s."]}},
+{"h":"Worked example 3: thrown horizontally","p":["A particle is thrown horizontally at 10 m/s from the top of a tower 20 m high. Find the horizontal distance travelled before it hits level ground. (g = 10 m/s²)"],
+"ex":{"t":"Solution","b":["The vertical motion and the horizontal motion are independent. Downwards: initial vertical velocity = 0, h = 20 m.","h = ½gt² gives 20 = 5t², so t² = 4 and t = 2 s.","Horizontally the velocity stays 10 m/s (no force acts sideways).","Horizontal distance = 10 x 2 = 20 m."]}}
+],
+"activity":"Drop a small stone from the height of your shoulder and time its fall with a phone stopwatch (it will be very short). Then measure your shoulder height and use h = ½gt² to find t, and compare it with your measured time.",
+"check":[
+{"q":"What is the value of g near the Earth's surface?","o":["About 10 m/s²","About 1 m/s²","About 100 m/s²","0 m/s²"]},
+{"q":"A ball is thrown up at 20 m/s (g = 10 m/s²). How long does it take to reach the top?","o":["2 s","4 s","20 s","0.5 s"]},
+{"q":"A stone is dropped from 45 m (g = 10 m/s²). How long does it take to land?","o":["3 s","9 s","4.5 s","1.5 s"]},
+{"q":"What is the velocity of a ball at the top of its flight?","o":["Zero for an instant","Equal to g","Equal to u","Maximum"]},
+{"q":"Which is true for the horizontal motion of a projectile (no air resistance)?","o":["The velocity stays constant","The velocity keeps increasing","The velocity decreases to zero","It equals g"]}]}
+]

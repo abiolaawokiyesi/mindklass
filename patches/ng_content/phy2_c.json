@@ -1,0 +1,101 @@
+[
+{"id":"ph2-14","week":8,"title":"Heat Measurement and Specific Heat Capacity","icon":"Zap","summary":"How heat moves, units of heat, specific heat capacity, the formula Q = mcΔθ and worked examples.",
+"keyWords":["Heat energy","Specific heat capacity","Heat capacity","Joule","Calorie"],
+"sections":[
+{"h":"Heat energy and its units","p":["Heat is energy that flows from a hot place to a cold place. It travels by conduction (through solids), convection (in liquids and gases) and radiation (as waves, like the heat from the Sun). The SI unit of heat is the joule (J). An older unit is the calorie: 1 calorie = 4.186 J. Heat is a scalar quantity."]},
+{"h":"Specific heat capacity","p":["Different materials need different amounts of heat to warm up. A pot of water takes much longer to heat than an equal mass of iron.","Specific heat capacity (c) is the amount of heat needed to raise the temperature of 1 kg of a substance by 1 °C (or 1 K). Its unit is joule per kilogram per kelvin (J/kg K).","The heat Q needed (or given out) is Q = m c Δθ, where m = mass in kg, c = specific heat capacity and Δθ = change of temperature (final minus initial)."],
+"tbl":{"head":["Substance","Specific heat capacity (J/kg K)"],"rows":[
+["Water","4200"],["Ice","2100"],["Aluminium","900"],["Iron","460"],["Copper","390"]]}},
+{"h":"Why water is special","p":["Water has a very high specific heat capacity. It takes a lot of heat to warm up and gives out a lot when it cools. That is why the sea stays cooler than the land during the day, why hot water bottles keep us warm, and why water is used to cool car engines."]},
+{"h":"Heat capacity","p":["The heat capacity (C) of a whole body is the heat needed to raise its temperature by 1 K. Heat capacity = mass x specific heat capacity, so C = mc. Its unit is J/K. So Q = C Δθ."]},
+{"h":"Worked examples","p":["Take your time with the numbers."],
+"ex":{"t":"Examples","b":["Heat needed to raise 1.5 kg of water from 25 °C to 100 °C: Q = mcΔθ = 1.5 x 4200 x (100 - 25) = 6300 x 75 = 472 500 J.","A 2 kg metal needs 7200 J to rise from 20 °C to 80 °C. c = Q / (mΔθ) = 7200 / (2 x 60) = 60 J/kg K.","How much heat is given out when 3 kg of iron cools from 150 °C to 50 °C? Q = 3 x 460 x 100 = 138 000 J."]}}
+],
+"activity":"Take two equal cups, one with water and one with dry sand. Put them in the sun for 30 minutes and then feel which is hotter. Explain the difference using specific heat capacity.",
+"check":[
+{"q":"What is the unit of specific heat capacity?","o":["J/kg K","J/s","N/m","kg/m³"]},
+{"q":"Q = mcΔθ is the heat needed to","o":["Change the temperature","Change the state","Increase the mass","Reduce the volume"]},
+{"q":"Heat needed to raise 2 kg of water by 10 K (c = 4200 J/kg K) is","o":["84 000 J","8400 J","840 J","42 000 J"]},
+{"q":"A 2 kg metal needs 7200 J to rise 60 °C. Its specific heat capacity is","o":["60 J/kg K","120 J/kg K","240 J/kg K","432 000 J/kg K"]},
+{"q":"1 calorie is about","o":["4.186 J","1 J","100 J","0.5 J"]}]},
+
+{"id":"ph2-15","week":8,"title":"Latent Heat","icon":"Zap","summary":"What latent heat is, latent heat of fusion and vaporisation, the formula Q = mL, and worked examples.",
+"keyWords":["Latent heat","Fusion","Vaporisation","Change of state","Melting point"],
+"sections":[
+{"h":"Heat that does not change the temperature","p":["When you heat ice, its temperature rises to 0 °C. Then it starts melting, and while it melts the temperature stays at 0 °C, even though you keep supplying heat. The same thing happens when water boils: it stays at 100 °C. The heat is not raising the temperature; it is breaking the forces that hold the particles together.","Latent heat is the heat energy absorbed or released when a substance changes state without any change of temperature."]},
+{"h":"Two kinds of latent heat","p":["Specific latent heat of fusion (Lf): the heat needed to change 1 kg of a solid to a liquid at its melting point, without a change of temperature.","Specific latent heat of vaporisation (Lv): the heat needed to change 1 kg of a liquid to a gas at its boiling point, without a change of temperature.","Formula: Q = mL, where m is the mass (kg) and L is the specific latent heat (J/kg).","The same amounts of heat are given out in the reverse changes (freezing and condensing)."],
+"tbl":{"head":["Substance","Latent heat of fusion (J/kg)","Latent heat of vaporisation (J/kg)"],"rows":[
+["Water / ice","3.34 x 10⁵","2.26 x 10⁶"],
+["Alcohol","-","about 8.5 x 10⁵"]]}},
+{"h":"Why steam burns more than boiling water","p":["Steam at 100 °C carries 2.26 million joules of extra heat per kilogram compared with water at 100 °C. When steam touches your skin and turns back to water, it gives out all that latent heat, so it burns much more than boiling water. Sweating cools you for the same reason: sweat takes latent heat from your skin when it evaporates."]},
+{"h":"Worked examples","p":["Check the calculation each time."],
+"ex":{"t":"Examples","b":["A 0.5 kg substance absorbs 167 000 J to vaporise. L = Q / m = 167 000 / 0.5 = 334 000 J/kg.","A 0.3 kg substance melts at 0 °C using 100 000 J. Lf = 100 000 / 0.3 = 3.33 x 10⁵ J/kg.","Heat needed to melt 2 kg of ice at 0 °C: Q = mL = 2 x 3.34 x 10⁵ = 6.68 x 10⁵ J.","A box of volume 0.28 m³ is 70% filled with iron filings at 25 °C. Find the energy to melt 10% of the filings. (Density of iron 8000 kg/m³, latent heat of fusion 1.38 x 10⁵ J/kg, specific heat capacity 460 J/kg K, melting point 1500 °C.) Mass of filings = 0.28 x 0.70 x 8000 = 1568 kg. 10% of this = 156.8 kg. Heat to warm it from 25 °C to 1500 °C: mcΔθ = 156.8 x 460 x 1475 = 1.064 x 10⁸ J. Heat to melt it: mL = 156.8 x 1.38 x 10⁵ = 2.16 x 10⁷ J. Total = 1.064 x 10⁸ + 0.216 x 10⁸ = 1.28 x 10⁸ J."]}}
+],
+"activity":"Put an ice cube in a cup with a thermometer. Record the temperature every minute while it melts. What do you notice about the reading while the ice is melting? Explain with latent heat.",
+"check":[
+{"q":"Latent heat is the heat absorbed during a change of state with","o":["No change in temperature","A rise in temperature","A fall in temperature","A change in mass"]},
+{"q":"Which formula gives the heat for a change of state?","o":["Q = mL","Q = mcΔθ","Q = Fd","Q = mgh"]},
+{"q":"The heat needed to melt 2 kg of ice at 0 °C (Lf = 3.34 x 10⁵ J/kg) is","o":["6.68 x 10⁵ J","3.34 x 10⁵ J","1.67 x 10⁵ J","3.34 x 10⁶ J"]},
+{"q":"Steam burns more than boiling water because","o":["Steam gives out latent heat when it condenses","Steam is heavier","Steam is colder","Steam has no energy"]},
+{"q":"A 0.5 kg substance absorbs 167 000 J to vaporise. Its latent heat is","o":["334 000 J/kg","83 500 J/kg","167 000 J/kg","668 000 J/kg"]}]},
+
+{"id":"ph2-16","week":9,"title":"Calorimetry and the Method of Mixtures","icon":"BarChart2","summary":"How heat exchange is measured, the rule heat lost = heat gained, and worked examples with mixtures and electric heaters.",
+"keyWords":["Calorimetry","Calorimeter","Heat lost = heat gained","Method of mixtures","Electrical method"],
+"sections":[
+{"h":"What is calorimetry?","p":["Calorimetry is the measurement of the heat exchanged in a physical or chemical process. The container used is called a calorimeter. It is usually a thin metal can (copper or aluminium) with a lid, surrounded by an insulator, so that very little heat is lost to the air."]},
+{"h":"The main rule","p":["When a hot substance is mixed with a cold one and no heat escapes to the surroundings, the heat lost by the hot substance equals the heat gained by the cold substance (and the calorimeter): heat lost = heat gained.","Using Q = mcΔθ on both sides gives a simple equation. The final temperature is the same for everything in the mixture."]},
+{"h":"Ways of measuring heat","p":["Method of mixtures: mix hot and cold substances and measure the final temperature.","Electrical method: a heater of known power (P = VI) supplies heat for a measured time, so the energy supplied is E = VIt = Pt.","Using a temperature change: apply Q = mcΔθ to a substance whose specific heat capacity is known."]},
+{"h":"Worked example 1: a simple mixture","p":["200 g of water at 80 °C is mixed with 300 g of water at 20 °C. Find the final temperature. (Ignore heat losses.)"],
+"ex":{"t":"Solution","b":["Let the final temperature be θ. Heat lost by hot water = 0.2 x 4200 x (80 - θ). Heat gained by cold water = 0.3 x 4200 x (θ - 20).","Equate: 0.2 (80 - θ) = 0.3 (θ - 20), so 16 - 0.2θ = 0.3θ - 6.","22 = 0.5θ, so θ = 44 °C."]}},
+{"h":"Worked example 2: the nursing mother","p":["A nursing mother prepared baby's milk at 85 °C. To cool 300 g of the milk to 40 °C, she placed the bottle in an aluminium bowl of heat capacity 90 J/K containing 500 g of water at 26 °C. Find the specific heat capacity of the milk. (Specific heat capacity of water = 4200 J/kg K; neglect heat losses and the heat capacity of the bottle.)"],
+"ex":{"t":"Solution","b":["Heat lost by the milk = heat gained by the water + heat gained by the bowl.","0.3 x cm x (85 - 40) = 0.5 x 4200 x (40 - 26) + 90 x (40 - 26).","13.5 cm = 29 400 + 1260 = 30 660.","cm = 30 660 / 13.5 = 2271 J/kg K."]}},
+{"h":"Worked example 3: the electric heater","p":["A 40 V electric heater supplies a current of 12 A to a body of mass 1.5 kg that is already at its melting point. The body melts completely, then its temperature rises by 60 °C in a further 72 s. Find its specific heat capacity."],
+"ex":{"t":"Solution","b":["Energy supplied in the 72 s = VIt = 40 x 12 x 72 = 34 560 J.","This energy raised the temperature by 60 °C: 34 560 = 1.5 x c x 60 = 90c.","c = 34 560 / 90 = 384 J/kg K."]}}
+],
+"activity":"Mix half a cup of hot tap water with half a cup of cold water. Measure each temperature before mixing and the final temperature. Is the final temperature roughly halfway between the two? Explain what you find.",
+"check":[
+{"q":"In calorimetry, if no heat is lost to the surroundings,","o":["Heat lost = heat gained","Heat lost is zero","Heat gained is always more","Temperature does not change"]},
+{"q":"The energy supplied by an electric heater is","o":["VIt","mgh","Fd","P / t"]},
+{"q":"200 g of water at 80 °C mixes with 300 g of water at 20 °C. The final temperature is","o":["44 °C","50 °C","56 °C","100 °C"]},
+{"q":"A heater of 40 V and 12 A is on for 72 s. How much energy does it supply?","o":["34 560 J","480 J","864 J","3456 J"]},
+{"q":"Why is a calorimeter surrounded by insulation?","o":["To reduce heat loss","To increase mass","To make it heavier","To make it shine"]}]},
+
+{"id":"ph2-17","week":10,"title":"The Particulate Nature of Matter","icon":"Layers","summary":"What matter is, the idea that all matter is made of particles, and how particles are arranged in solids, liquids and gases.",
+"keyWords":["Matter","Particle","Atom","Molecule","Ion","Intermolecular forces"],
+"sections":[
+{"h":"What is matter?","p":["Matter is anything that has mass and takes up space (volume). A stone, water and air are all matter. Light and sound are not matter, because they have no mass."]},
+{"h":"Matter is made of tiny particles","p":["The particulate nature of matter means that all matter is made of very small separate pieces called particles. Depending on the substance, the particles are atoms, molecules or ions. An atom is the smallest particle of an element. A molecule is a group of two or more atoms joined together (water molecules are made of two hydrogen atoms and one oxygen atom). An ion is an atom, or group of atoms, that carries an electric charge.","The particles are extremely small and cannot be seen with the naked eye. They are always moving. They attract each other with forces called intermolecular forces. There are spaces between the particles, and these spaces are large in gases."]},
+{"h":"The three states of matter","p":["The picture shows the three states of matter, solid, liquid and gas, and how the particles are arranged in each. Read the table below as well."],
+"img":{"src":"phy-states-of-matter.jpg","alt":"Diagram of particle arrangement in a solid, a liquid and a gas, with the key ideas that matter is made of tiny particles that are always in motion and a cycle of changes of state","cap":"Particles in a solid, a liquid and a gas."},
+"tbl":{"head":["Property","Solid","Liquid","Gas"],"rows":[
+["Particle arrangement","Tightly packed in fixed positions","Close together but able to slide","Far apart and free to move"],
+["Particle motion","Vibrate about fixed positions","Slide past one another","Move fast and randomly"],
+["Intermolecular forces","Very strong","Medium","Very weak"],
+["Shape","Fixed","Takes the shape of its container","Takes the shape of its container"],
+["Volume","Fixed","Fixed","Fills the whole container"]]}},
+{"h":"Changes of state","p":["When a solid is heated, its particles gain energy and vibrate harder until they break out of their fixed positions: the solid melts into a liquid. With more heat the particles move faster and escape from the liquid: the liquid boils (or evaporates) into a gas. When a gas is cooled, the particles slow down and come together again (condensation), and when a liquid is cooled, it freezes. All these changes show that matter is made of particles whose motion depends on the amount of energy they have."]}
+],
+"activity":"Draw three boxes. In the first draw six particles tightly packed in a grid (solid). In the second draw six particles close together but not in a grid (liquid). In the third draw six particles far apart with arrows for movement (gas). Label each box.",
+"check":[
+{"q":"Matter is anything that","o":["Has mass and takes up space","Has only colour","Is always solid","Can be seen"]},
+{"q":"In a solid the particles","o":["Vibrate about fixed positions","Move freely","Are far apart","Do not attract each other"]},
+{"q":"Which state has the weakest forces between particles?","o":["Gas","Liquid","Solid","Ice"]},
+{"q":"A molecule is","o":["Two or more atoms joined together","A single electron","A charged ion only","A cell"]},
+{"q":"A liquid","o":["Has a fixed volume but no fixed shape","Has a fixed shape","Fills any container completely","Has no volume"]}]},
+
+{"id":"ph2-18","week":10,"title":"Diffusion, Brownian Motion and the Kinetic Theory","icon":"Layers","summary":"Evidence that particles move: diffusion and Brownian motion, the kinetic theory of matter, and its everyday applications.",
+"keyWords":["Diffusion","Brownian motion","Kinetic theory","Average kinetic energy"],
+"sections":[
+{"h":"Diffusion","p":["Diffusion is the spreading of particles from a region where there are many of them (high concentration) to a region where there are fewer (low concentration), until they are evenly spread. It happens fastest in gases, slower in liquids and very slowly in solids.","Examples: perfume spreads through a room; a drop of ink spreads through a glass of water; crystals of potassium permanganate placed in water colour all of the water without stirring; the smell of cooking gas or fried plantain spreads from the kitchen to the house.","Explanation: the particles are always moving and bumping into each other, so over time they spread out evenly."]},
+{"h":"Brownian motion","p":["Brownian motion is the random, zig-zag movement of tiny visible particles, such as pollen grains in water or smoke particles in air, caused by collisions with the much smaller, invisible molecules of the fluid around them. It was first seen by Robert Brown with pollen grains.","You can see it by looking at smoke in a small glass cell with a microscope. The smoke specks dance about randomly. This is strong evidence that the molecules of air are always moving and that matter is made of particles."]},
+{"h":"The kinetic theory of matter","p":["The kinetic theory explains the behaviour of matter by the motion of its particles. Its main ideas are: matter is made of very small particles; the particles are always in constant random motion; there are spaces between the particles; collisions between particles and with the walls of the container are perfectly elastic (no energy is lost); temperature is a measure of the average kinetic energy of the particles; and the forces between particles are strong in solids, weaker in liquids and almost zero in gases."]},
+{"h":"Applications and everyday examples","p":["Perfume spreading in air is diffusion in gases.","Sugar dissolving in water is particles mixing and spreading.","A car tyre becomes harder in the afternoon because the air molecules gain kinetic energy and hit the tyre wall harder.","A refrigerator works using latent heat and the motion of molecules.","Boiling water produces steam because the molecules move so fast that they escape from the liquid."]}
+],
+"activity":"Drop a small amount of ink or a coloured tablet in a glass of still water. Watch for ten minutes and describe how the colour spreads. Which kinetic theory idea does this show?",
+"check":[
+{"q":"Diffusion is the spreading of particles from","o":["High concentration to low concentration","Low concentration to high concentration","Hot to cold only","Solid to gas only"]},
+{"q":"Brownian motion is","o":["Random movement of small visible particles due to collisions with molecules","The movement of a pendulum","Movement of sound","A type of friction"]},
+{"q":"Diffusion is fastest in","o":["Gases","Liquids","Solids","It is the same everywhere"]},
+{"q":"According to the kinetic theory, temperature measures the","o":["Average kinetic energy of the particles","Mass of the particles","Colour of the particles","Number of atoms only"]},
+{"q":"A car tyre gets harder in the afternoon because","o":["The air molecules gain kinetic energy","The tyre shrinks","The air disappears","The rubber freezes"]}]}
+]

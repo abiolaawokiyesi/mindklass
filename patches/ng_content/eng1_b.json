@@ -1,0 +1,203 @@
+[
+{"id":"en1-10","week":3,"title":"Spoken English: The Fricative Sounds /θ/, /ð/, /ʃ/, /ʒ/ and /z/","icon":"Volume2","summary":"How to say five difficult consonant sounds correctly: voiceless and voiced pairs, spellings, example words, minimal pairs and sentence drills.",
+"keyWords":["Fricative","Voiced","Voiceless","Minimal pair","Phonetic symbol"],
+"sections":[
+{"h":"What are fricatives?","p":["A fricative is a consonant sound made by forcing air through a narrow gap so that a hissing or rubbing sound is produced. These five sounds are often hard for Nigerian speakers of English because many of our local languages do not use the same tongue and teeth positions. Common mistakes: saying /t/ for /θ/ (tink instead of think), /d/ for /ð/ (dis instead of this) and /s/ for /ʃ/ (see instead of she).","Voiced means your vocal cords vibrate. Put your fingers on your throat (Adam's apple). If you feel a buzz, the sound is voiced. If you feel nothing, it is voiceless."]},
+{"h":"The /θ/ sound (voiceless dental fricative)","p":["How to make it: put the tip of your tongue lightly between your upper and lower front teeth. Breathe out so the air slips between tongue and teeth. Do not vibrate your vocal cords. It is a soft hiss. Spelling: th.","Examples. Beginning: think, thin, theme, three, thief, thunder. Middle: author, bathroom, method, nothing. End: bath, mouth, path, cloth, breath, fourth."]},
+{"h":"The /ð/ sound (voiced dental fricative)","p":["This is the sister sound of /θ/. Put your tongue in exactly the same place, but this time hum, so the throat vibrates. Spelling: th.","Examples. Beginning: this, that, the, them, then, though. Middle: mother, father, brother, weather, other. End (rare): breathe, bathe, clothe, soothe.","Key contrast: breath /breθ/ (noun, no voice) and breathe /briːð/ (verb, voiced). bath /bɑːθ/ (noun) and bathe /beɪð/ (verb)."]},
+{"h":"The /ʃ/ sound (voiceless)","p":["This is the 'be quiet' sound. Round your lips slightly. Raise the front of your tongue towards the roof of your mouth, just behind the bump behind your top teeth, and push air out over the tongue. No vibration. Spellings: sh, ti, si, ci, ch (in some words).","Examples. Beginning: she, ship, shop, shout, sure, sugar. Middle: nation, station, motion, ancient, machine. End: fish, wash, push, cash, dish."]},
+{"h":"The /ʒ/ sound (voiced)","p":["This is the sister sound of /ʃ/. Use the same mouth position but vibrate the vocal cords. It is less common. Spellings: s, si, ge.","Examples. Beginning (very rare): genre. Middle: measure, pleasure, treasure, vision, television, usual. End: beige, garage, mirage."]},
+{"h":"The /z/ sound (voiced)","p":["This is the buzzing sound of a bee or a zip. It is the voiced sister of /s/. Place your tongue as for /s/ and vibrate your vocal cords. Spellings: z and s.","Examples. Beginning: zoo, zebra, zip, zero. Middle: lazy, easy, music, busy. End: is, was, has, breeze, please, noise."]},
+{"h":"Minimal pairs for practice","p":["Minimal pairs are two words that are the same except for one sound. Say them aloud to train your ear and tongue."],
+"tbl":{"head":["Contrast","Pair 1","Pair 2","Pair 3"],"rows":[
+["/θ/ and /ð/","thin /θɪn/","this /ðɪs/","breath and breathe"],
+["/ʃ/ and /ʒ/","mission /mɪʃən/","vision /vɪʒən/","pressure /preʃə/"],
+["/s/ and /ʃ/","sip /sɪp/","ship /ʃɪp/","see and she"],
+["/s/ and /z/","price /praɪs/","prize /praɪz/","ice and eyes"],
+["/t/ and /θ/ (error)","tank","thank","tree and three"],
+["/d/ and /ð/ (error)","den /den/","then /ðen/","day and they"]]}},
+{"h":"Sentence drills","p":["Their father thinks that this thing is better than that thing.","My brother took a bath and then went to bathe the dog.","They thanked the author for the thoroughly good book.","She usually measures the treasure on television.","The explosion caused confusion in the garage.","It was a pleasure to wash Sheila's special beige shirt.","Zainab's lazy cousins refused to pick the beans."]}
+],
+"activity":"Record yourself reading the sentence drills on your phone. Listen back and choose one sound you need to practise. Then find ten words with 'th' in a newspaper and sort them into two columns: pronounced /θ/ and pronounced /ð/.",
+"check":[
+{"q":"A fricative sound is made by","o":["Forcing air through a narrow gap","Stopping the air completely","Humming only","Opening the mouth wide"]},
+{"q":"Which of these sounds is voiced?","o":["/ð/","/θ/","/ʃ/","/s/"]},
+{"q":"In which word does 'th' have the voiceless sound /θ/?","o":["Think","This","Mother","Breathe"]},
+{"q":"Which word has the /ʒ/ sound?","o":["Measure","Ship","Zoo","Nation"]},
+{"q":"A Nigerian speaker who says 'dis' for 'this' is replacing /ð/ with","o":["/d/","/z/","/t/","/s/"]}]},
+
+{"id":"en1-11","week":3,"title":"Vocabulary: Words Associated with Agriculture","icon":"Landmark","summary":"Words for farming activities, tools and structures, and crops, soil and nutrients, with meanings and example sentences.",
+"keyWords":["Agriculture","Cultivation","Harvesting","Fertiliser","Erosion"],
+"sections":[
+{"h":"What is agriculture?","p":["Agriculture is the science, art and practice of cultivating the soil, growing crops and raising animals (livestock) for food, wool and other products. It is the backbone of Nigeria's economy and gives us the food we eat every day. Like every field, it has its own special words."]},
+{"h":"Farming activities and processes","p":["These words describe the work a farmer does."],
+"tbl":{"head":["Word","Meaning","Example sentence"],"rows":[
+["Cultivation","Preparing and using land for growing crops","Cultivation of the land began after the first rain."],
+["Tillage","Preparing land by digging, ploughing or turning the soil","Tillage helps to loosen the soil and control weeds."],
+["Planting","Putting seeds or seedlings into the soil","The farmers are planting maize for the new season."],
+["Weeding","Removing unwanted plants (weeds) from a farm","Weeding is essential so crops can get enough nutrients."],
+["Pruning","Cutting off dead or unwanted branches","The farmer was pruning the cocoa trees to improve the yield."],
+["Staking","Supporting a plant with sticks so it grows upright","Staking is necessary for plants like yams and tomatoes."],
+["Harvesting","Gathering mature crops from the field","Harvesting the yams is hard but rewarding work."],
+["Irrigation","Supplying land with water by artificial means","They use irrigation to farm during the dry season."],
+["Grazing","Animals feeding on growing grass","The cattle were grazing peacefully in the field."]]}},
+{"h":"Tools, equipment and farm structures","p":["These words name the things a farmer uses."],
+"tbl":{"head":["Word","Meaning","Example sentence"],"rows":[
+["Hoe","A hand tool with a flat blade for digging and weeding","My grandmother uses a hoe on her small farm."],
+["Cutlass","A short, heavy, single-edged blade for clearing bush","He used a cutlass to clear a path through the weeds."],
+["Tractor","A powerful vehicle for pulling farm machinery","A tractor can plough a large field in one day."],
+["Plough","A large tool for turning over the soil before planting","The plough was pulled by two bulls."],
+["Silo","A tall airtight tower for storing grain or animal feed","The farmer stored the harvested maize in the silo."],
+["Barn","A large building for storing hay or housing livestock","They kept the yams in the barn to keep them dry."]]}},
+{"h":"Crops, soil and nutrients","p":["These words describe what grows and what helps it grow."],
+"tbl":{"head":["Word","Meaning","Example sentence"],"rows":[
+["Crop","A plant such as cassava, maize or rice grown by farmers","Yam is a very important crop in this region."],
+["Seedling","A very young plant that has grown from a seed","He carefully watered the tomato seedlings."],
+["Fertility","The ability of soil to support plant growth","Crop rotation helps to maintain soil fertility."],
+["Manure","Natural fertiliser made from animal dung","Spreading manure on the farm enriches the soil."],
+["Fertiliser","A natural or chemical substance added to soil to make it more fertile","You must apply fertiliser if you want a big harvest."],
+["Pesticide","A chemical used to kill insects or pests that destroy crops","Farmers spray pesticides to protect their cotton."],
+["Erosion","Soil being washed or blown away by water or wind","Planting trees can help prevent soil erosion."]]}},
+{"h":"Cash crops and staple crops","p":["A cash crop is grown to be sold (for example cocoa, cotton and groundnut). A staple crop is a main food that the family eats (for example yam, cassava and maize). Name three of each from your own community."]}
+],
+"activity":"Write a short paragraph of about 100 words called 'A Day on My Father's Farm'. Use at least six of the new words, such as cultivation, hoe, weeding, harvest, barn and crops. Also draw and label five farm tools.",
+"check":[
+{"q":"What is harvesting?","o":["Gathering mature crops from the field","Putting seeds in the soil","Cutting dead branches","Removing weeds"]},
+{"q":"A chemical used to kill insects that destroy crops is a","o":["Pesticide","Manure","Silo","Hoe"]},
+{"q":"A tall tower used to store grain is a","o":["Silo","Barn","Plough","Tractor"]},
+{"q":"What is the difference between manure and fertiliser?","o":["Manure comes from animal waste","Manure is always chemical","Fertiliser is animal waste only","There is no difference at all"]},
+{"q":"Supplying land with water by artificial means is","o":["Irrigation","Grazing","Pruning","Staking"]}]},
+
+{"id":"en1-12","week":3,"title":"Reading Comprehension: Word Meanings in a Passage on Farming","icon":"BookOpen","summary":"A practice passage on modern and traditional farming, with comprehension questions and word-in-context practice.",
+"keyWords":["Subsistence","Rudimentary","Mechanised","Erosion","Bountiful"],
+"sections":[
+{"h":"Recap: context clues","p":["Remember: a definition clue gives the meaning (A silo, which is a tower for storing grain, stood nearby). An example clue gives examples (He grows staple crops such as yam, cassava and maize). An antonym or contrast clue gives an opposite (The old farmer preferred manual methods, but his son used mechanised tools like tractors). An inference clue needs you to think (The soil was barren; nothing would grow on it)."]},
+{"h":"The passage","p":["Read slowly. The words in bold in your textbook are subsistence, rudimentary, mechanised, erosion and bountiful.","Modern agriculture is very different from the farming of our ancestors. In the past, most farming was subsistence farming, where farmers grew just enough food to feed their own families. They used rudimentary tools like hoes and cutlasses and relied on manure (animal waste) to improve soil fertility.","Today, many farms are large-scale, commercial operations. This mechanised farming uses complex machinery like tractors for ploughing and harvesters for gathering crops. Instead of just manure, farmers now use chemical fertilisers to enrich the soil and pesticides to protect crops from insects. While this is more efficient, it can be expensive.","A major challenge for all farmers is erosion, the process where wind or water wears away the rich topsoil. Another is drought. To combat a lack of rain, some farms have built complex irrigation systems, using pipes and sprinklers to water the fields. The goal is to ensure a bountiful harvest, one that is plentiful and feeds the nation."]},
+{"h":"Comprehension questions with answers","p":["1. Main topic: how farming has changed from old methods to modern methods, and the problems farmers face.","2. Subsistence farming is growing just enough food for the family. Commercial farming is large-scale farming for sale.","3. Two rudimentary tools: hoes and cutlasses.","4. Two modern methods: chemical fertilisers (to enrich soil) and pesticides (to protect crops).","5. Irrigation solves the problem of too little rain (drought)."]},
+{"h":"Vocabulary in context","p":["Subsistence: the passage says farmers grew 'just enough food to feed their own families', so subsistence means at the level needed just to live.","Rudimentary: hoes and cutlasses are given as examples of simple tools, and they are contrasted with 'complex machinery', so rudimentary means basic or simple.","Mechanised: it is contrasted with rudimentary tools and tractors are given as an example, so mechanised means done with machines.","Erosion: a definition clue follows it: the process where wind or water wears away the rich topsoil.","Bountiful: the synonym 'plentiful' follows it, so a bountiful harvest is a large, plentiful harvest."]}
+],
+"activity":"Write your own sentences using subsistence, mechanised, erosion and irrigation. Then write a short paragraph of three to five sentences on 'Why Farming is Important to Nigeria', using at least two words from the agriculture vocabulary.",
+"check":[
+{"q":"In the passage, 'subsistence farming' means farming that","o":["Grows just enough food for the family","Sells crops to other countries","Uses large machines","Uses chemicals only"]},
+{"q":"'Rudimentary' means","o":["Basic or simple","Complex","Modern","Expensive"]},
+{"q":"Which problem does irrigation solve?","o":["Lack of rain","Too many insects","Weeds","Low prices"]},
+{"q":"What is erosion according to the passage?","o":["Wind or water wearing away the topsoil","Planting crops in rows","Using a tractor","Storing grain"]},
+{"q":"'A bountiful harvest' is one that is","o":["Plentiful","Small","Damaged","Late"]}]},
+
+{"id":"en1-13","week":4,"title":"Grammar: Countable and Uncountable Nouns","icon":"PenLine","summary":"The difference between countable and uncountable nouns, quantifiers (many, much, few, little), partitives, and special cases such as news and trousers.",
+"keyWords":["Countable noun","Uncountable noun","Quantifier","Partitive","Plural form"],
+"sections":[
+{"h":"Countable nouns","p":["Countable nouns name things that we can count one by one. They have a singular and a plural form: a book, two books; one chair, six chairs; an idea, many ideas. Some plurals are irregular: man to men, woman to women, child to children, foot to feet, tooth to teeth, person to people, mouse to mice.","Rules for using them: a singular countable noun needs a determiner before it (a, an, the, my, this). Wrong: I saw bird fly. Right: I saw a bird fly. They go with quantifiers that show number: many, few, a few, several, a number of, these, those. Example: Many students attended the lecture."]},
+{"h":"Uncountable nouns","p":["Uncountable (mass) nouns name things that cannot be counted one by one: substances, materials, ideas or masses. They have no plural form: we do not say informations, advices or furnitures. They take a singular verb: The water is cold. This information is vital.","Common groups: liquids and gases (water, milk, oil, petrol, air); materials (wood, glass, paper, gold, rice, sugar, flour, cement); abstract ideas (information, advice, news, knowledge, happiness, love, courage); general groups (furniture, luggage, money, traffic); subjects and activities (mathematics, physics, football, swimming).","We cannot say 'an advice'. To count them, we use partitives (units of measure): a piece of advice, a bottle of water, a grain of rice, a loaf of bread, a cup of tea, an item of news, a piece of furniture. They go with quantifiers that show amount: much, little, a little, a lot of, plenty of, some, any. Example: There isn't much information on that topic. I need a little sugar for my tea."]},
+{"h":"Countable and uncountable side by side","p":["Use this table to choose the right quantifier."],
+"tbl":{"head":["","Countable","Uncountable"],"rows":[
+["Can you count them?","Yes","No"],
+["Plural form?","Yes (books)","No (information)"],
+["With a/an?","Yes (a book)","No (a piece of advice)"],
+["How many / how much?","How many books?","How much water?"],
+["Quantifiers","many, few, a few, several","much, little, a little, a lot of"]]}},
+{"h":"Special cases","p":["Plural in form, singular in meaning: news, mathematics, physics, economics, politics, athletics. They take a singular verb. The news is on at 6 pm. Mathematics is an important subject.","Always plural: trousers, scissors, spectacles, shorts, jeans, pliers, congratulations, thanks, premises. They take a plural verb. My trousers are new. The scissors are on the table. To make them singular, use 'a pair of': I bought a pair of trousers."]},
+{"h":"Correct the mistakes","p":["She gave me many advices. Correct: She gave me a lot of advice (or many pieces of advice).","The furnitures are in the lorry. Correct: The furniture is in the lorry.","I need an information about the school. Correct: I need some information about the school.","Politics are a dirty game. Correct: Politics is a dirty game.","My jean is torn. Correct: My jeans are torn."]}
+],
+"activity":"Write a short paragraph of five or six lines describing your classroom. Use at least four countable and four uncountable nouns, and underline them.",
+"check":[
+{"q":"Which of these nouns is uncountable?","o":["Information","Chair","Student","Idea"]},
+{"q":"Which sentence is correct?","o":["The news is surprising.","The news are surprising.","The newses are surprising.","The new is surprising."]},
+{"q":"Which quantifier goes with an uncountable noun?","o":["Much","Many","Few","Several"]},
+{"q":"Which is correct?","o":["My trousers are new.","My trouser is new.","My trousers is new.","My trouser are new."]},
+{"q":"Which phrase counts an uncountable noun correctly?","o":["A piece of furniture","An furniture","Two furnitures","A furnitures"]}]},
+
+{"id":"en1-14","week":4,"title":"Listening Comprehension: A Poem, 'The Rainy Morning'","icon":"Volume2","summary":"Listening for the main idea, details, mood and rhyme in a short poem, with new words and discussion questions.",
+"keyWords":["Poem","Mood","Rhyme","Dawn","Lawn","Bloom"],
+"sections":[
+{"h":"Before you listen: three new words","p":["Dawn: the very beginning of the morning, when light first appears. Lawn: an area of short grass in a garden or park. Bloom (verb): to open up, as when a flower opens."]},
+{"h":"The poem: The Rainy Morning","p":["Ask someone to read it twice, or read it aloud yourself and listen carefully.","The rain began at dawn,","Falling softly on the lawn.","Children stayed inside the room,","Watching flowers start to bloom.","The farmer smiled beneath the sky,","For crops will grow when fields are dry."]},
+{"h":"Questions and answers","p":["1. The poem is mainly about a rainy morning and how people feel about it.","2. The rain began at dawn.","3. The children were inside the room, watching the flowers start to bloom.","4. The farmer smiled because the rain would help his crops to grow.","5. 'When fields are dry' means that the rain is welcome because the fields were dry before the rain.","6. Rhyming words: dawn and lawn, room and bloom, sky and dry."]},
+{"h":"Mood and rhyme","p":["The mood is the feeling of a poem. Here the mood is calm, happy and hopeful. Rhyme is when the end sounds of lines are the same: dawn and lawn, room and bloom, sky and dry. Poets use rhyme to make poems musical and easy to remember. This poem is written in rhyming pairs, called couplets."]},
+{"h":"Why listening skills matter","p":["Good listening helps you learn in class, keeps you safe from danger when you hear warnings, and helps you understand other people. To be a good listener: pay attention, avoid distractions and do not interrupt."]}
+],
+"activity":"Listen to a five-minute news summary on radio or television tonight. Write down the three main topics. Then write two new words you heard, find their meanings and use each in a sentence.",
+"check":[
+{"q":"When did the rain begin in the poem?","o":["At dawn","At night","At noon","At sunset"]},
+{"q":"Why did the farmer smile?","o":["The rain would help his crops grow","He liked the lawn","The children were playing","He was going to town"]},
+{"q":"Which pair of words rhymes?","o":["Sky and dry","Rain and lawn","Room and farmer","Dawn and bloom"]},
+{"q":"What is the mood of the poem?","o":["Calm and hopeful","Angry","Sad and lonely","Frightened"]},
+{"q":"The word 'dawn' means","o":["The beginning of the morning","The end of the day","A kind of grass","A type of flower"]}]},
+
+{"id":"en1-15","week":4,"title":"Reading Comprehension: A Cultural Day Celebration","icon":"BookOpen","summary":"A passage about a school cultural day, with comprehension questions and vocabulary-in-context practice.",
+"keyWords":["Cultural day","Attire","Diversity","Showcase","Creativity"],
+"sections":[
+{"h":"Before you read","p":["Cultural day is when a school celebrates the traditions of its people, such as clothing, food, music and dance. Read the passage twice. First read for the general idea; second time, read for details."]},
+{"h":"The passage","p":["Last Saturday, our school organised a cultural day celebration. It was a day set aside to appreciate the rich and diverse traditions of our country. Students came in different traditional attires, representing various tribes in Nigeria. There were Igbos in their isi-agu outfits, Yorubas in flowing agbada, and Hausas in their babanriga and elegant veils.","The event was a feast for the senses. There were displays of energetic local dances, mouth-watering traditional dishes, and short drama sketches showing historical events. Parents and teachers were visibly impressed by the students' creativity and talent. In his closing speech, the principal praised everyone for showcasing the beauty of our culture, reminding us that 'our diversity is our strength.'"]},
+{"h":"Comprehension questions and answers","p":["1. The purpose was to appreciate the rich and diverse traditions of the country.","2. Students wore traditional attires from different tribes (isi-agu, agbada, babanriga).","3. Two activities: local dances, traditional dishes, or drama sketches.","4. Parents and teachers were impressed.","5. The principal's message: 'our diversity is our strength'.","6. Main idea: a school cultural day celebrated Nigeria's different cultures and showed that diversity is a strength."]},
+{"h":"Vocabulary in context","p":["Attires: clothes. The passage talks about students wearing different traditional outfits.","Displays: shows or presentations, such as dances, food and drama.","Creativity: the ability to use new ideas and to be original.","To showcase: to show something in a way that displays its best qualities.","Agbada: from the context (flowing, worn by Yorubas) it is a type of clothing, a wide flowing robe."]},
+{"h":"Writing a summary","p":["A summary gives the main points in your own words and is much shorter than the original. Example in three sentences: A school celebrated a cultural day in which students wore traditional dress of different tribes. There were dances, food and drama, and parents and teachers were impressed. The principal said that diversity is our strength."]}
+],
+"activity":"In a short paragraph, explain why you think a cultural day is important in a school. Then write a three-sentence summary of the passage in your own words.",
+"check":[
+{"q":"What was the purpose of the cultural day?","o":["To appreciate the traditions of the country","To raise school fees","To play football","To close the school"]},
+{"q":"What does 'attires' mean?","o":["Clothes","Food","Dances","Speeches"]},
+{"q":"What was the principal's main message?","o":["Our diversity is our strength","School is closed","Parents must pay","Dance is hard"]},
+{"q":"To 'showcase' something means to","o":["Show it at its best","Hide it","Sell it","Break it"]},
+{"q":"What is the main idea of the passage?","o":["A school celebrated Nigeria's cultures","A school held a football match","A school closed early","A school held an exam"]}]},
+
+{"id":"en1-16","week":4,"title":"Continuous Writing: 'A Day I Will Never Forget'","icon":"PenLine","summary":"Features of a good narrative (tense, order, point of view, characters, setting and plot) and a full outline for writing about a memorable day.",
+"keyWords":["Point of view","Setting","Plot","Rising action","Transition words"],
+"sections":[
+{"h":"Features of a good narrative","p":["Tense: mostly past tense (I saw, he ran, we were shouting, it had happened). Structure: events in chronological order. Point of view: usually first person (I, me, we, our). Key elements: characters (the people in the story), setting (where and when it happens) and plot (the sequence of events with an introduction, rising action, climax and resolution). Language: sensory details, vivid verbs (dashed instead of ran, whispered instead of said) and transition words (first, next, later, suddenly, finally)."]},
+{"h":"The shape of the plot","p":["Picture the plot as a hill: the story climbs through the rising action to the climax, then comes down through the falling action to the resolution."],
+"img":{"src":"eng-plot-arc.png","alt":"A rising and falling curve showing the five parts of a story: introduction, rising action, climax at the top, falling action and resolution","cap":"The shape of a story's plot."}},
+{"h":"Sample outline: A Day I Will Never Forget","p":["Introduction (paragraph 1). Hook: start with a sentence that grabs the reader's attention. Example: My hands were trembling and my heart was beating like a drum. Set the scene: introduce the day, the place and the general feeling. Example: It was the day of the state mathematics competition and I was the one chosen to represent my school.","Body, rising action (paragraphs 2 and 3). Describe the events leading to the main moment and build up suspense. Example: the journey to the city, the huge hall, the stern look of the quizmaster. Describe the challenge. Example: the first few questions were impossible and our score was falling behind.","Climax (paragraph 4). The main event, the most exciting part. Example: the final tie-breaker question came and no one else on my team knew it. All eyes were on me. I took a deep breath and remembered a formula my teacher had shown me the day before.","Conclusion (paragraph 5). Resolution: what happened in the end. Reflection: why you will never forget the day and what you learned. Example: when they announced our school as the winner, the hall erupted. I learned that preparation and courage are the keys to success."]},
+{"h":"Tips for a strong essay","p":["Plan before you write: one line for each paragraph. Keep to one main story. Use new paragraphs for new events. Check that your verbs are all in the past tense. Read your work aloud to find mistakes. Underline five vivid verbs you used and ask if they could be stronger."]}
+],
+"activity":"Write a composition of about 250 words on 'A Day I Will Never Forget' (a happy, sad, scary or embarrassing day). Follow the structure, and then underline five vivid verbs you used.",
+"check":[
+{"q":"What is the climax of a story?","o":["The most exciting part","The first sentence","The title","The lesson"]},
+{"q":"In which tense is a narrative usually written?","o":["Past","Future","Present","Conditional"]},
+{"q":"Which point of view does a personal narrative usually use?","o":["First person (I, we)","Second person (you)","Third person only","No person"]},
+{"q":"Which is a transition word?","o":["Suddenly","Table","Happy","Green"]},
+{"q":"The setting of a story tells","o":["Where and when the story takes place","What the lesson is","Who the author is","How long it is"]}]},
+
+{"id":"en1-17","week":4,"title":"Grammar: Types of Nouns","icon":"Layers","summary":"Proper, common, concrete, abstract and collective nouns, and how one noun can belong to several types.",
+"keyWords":["Proper noun","Common noun","Concrete noun","Abstract noun","Collective noun"],
+"sections":[
+{"h":"Five types of noun","p":["Nouns can be sorted in several ways. This table summarises the five main types."],
+"tbl":{"head":["Type","Definition","Examples"],"rows":[
+["Proper noun","The name of a specific person, place, organisation or thing; it starts with a capital letter","Nigeria, Mary, Lagos, Coca-Cola, Mr Ade"],
+["Common noun","A general name for people, places, things or ideas","boy, city, table, teacher, country"],
+["Concrete noun","Something you can see, touch, hear, smell or taste","book, chair, tree, ball, music, perfume"],
+["Abstract noun","An idea, feeling, quality or concept you cannot touch","love, wisdom, happiness, anger, courage, time"],
+["Collective noun","The name of a group treated as one unit","team, class, herd, flock, crowd, family, army"]]}},
+{"h":"One noun, many labels","p":["A noun can be classified in more than one way. Love is a common, abstract and uncountable noun. Book is a common, concrete and countable noun. Nigeria is a proper, concrete and countable noun (one country)."]},
+{"h":"Worked example","p":["Classify the nouns in the sentence: The class showed kindness to the old man in Abuja.","class: collective, common, concrete, countable. kindness: abstract, common, uncountable. man: common, concrete, countable. Abuja: proper, concrete."]},
+{"h":"Telling the difference","p":["Proper or common? If it is the name of one particular person, place or thing, it is proper and takes a capital letter (Lagos). If it is a general name, it is common (city).","Concrete or abstract? Ask: can I see, hear, touch, smell or taste it? If yes, it is concrete. If it is a feeling or idea, it is abstract (beauty)."]}
+],
+"activity":"Identify and classify all the nouns in this paragraph: 'Nigeria is a country with great beauty and diversity. The people show courage and unity during festivals.' Then write five sentences, each containing at least two different types of noun.",
+"check":[
+{"q":"Which of these is a proper noun?","o":["Lagos","City","Table","Teacher"]},
+{"q":"Which noun is abstract?","o":["Beauty","Chair","Book","Ball"]},
+{"q":"'Flock' (of birds) is a","o":["Collective noun","Proper noun","Abstract noun","Pronoun"]},
+{"q":"Which noun is concrete?","o":["Tree","Love","Wisdom","Anger"]},
+{"q":"The main difference between a proper noun and a common noun is","o":["A proper noun names a specific person, place or thing","A proper noun is never a person","A common noun starts with a capital letter","There is no difference"]}]},
+
+{"id":"en1-18","week":6,"title":"Spoken English: Consonant Clusters with /w/","icon":"Volume2","summary":"The /w/ glide and the clusters /tw/, /dw/, /sw/, /kw/ and /gw/: how to say them smoothly, with word lists, minimal pairs and sentence drills.",
+"keyWords":["Semi-vowel","Glide","Consonant cluster","/tw/","/sw/","/kw/"],
+"sections":[
+{"h":"The /w/ glide","p":["The /w/ sound (as in wet) is a semi-vowel, also called a glide. Air flows smoothly with no friction, so it is not a full consonant, but it cannot form a syllable alone, so it is not a vowel.","To make /w/: round your lips tightly and push them forward as if to say 'oo'. Keep your tongue high at the back. Then glide into the next vowel by letting your lips relax.","When /w/ follows another consonant (/t/, /s/, /k/, /g/, /d/) it makes a consonant cluster. The two sounds must blend: round your lips for /w/ while you are still forming the first consonant. A common mistake is to say the sounds separately ('tu-win' for twin) or to leave out the /w/."]},
+{"h":"The five clusters","p":["Learn how each is made and practise the example words."],
+"tbl":{"head":["Cluster","How to make it","Examples"],"rows":[
+["/tw/","Tongue tip on the ridge behind the top teeth for /t/; round your lips before releasing, release together","twin, twelve, twenty, twist, twig, twilight, between"],
+["/dw/","Same as /tw/ but voiced; use your vocal cords","dwell, dwarf, dwindle, dwelling"],
+["/sw/","Start the hissing /s/ and round your lips for /w/ while hissing","sweet, swim, sweep, switch, swear, swing, swan"],
+["/kw/","Back of tongue to the soft palate for /k/ (spelled qu); round lips before release","queen, quick, quiet, quake, question, equal, request"],
+["/gw/","Same as /kw/ but voiced","language, anguish, linguist, Gwen, guava, penguin"]]}},
+{"h":"Practice drills","p":["Minimal pairs: tick and quick; tip and twin; sit and sweet; get and Gwen; dell and dwell.","Sentences to read aloud, blending the clusters smoothly: The twins swept twenty-two rooms quickly. The queen spoke quietly about the dwarf. Gwen swam with the swan, swirling in the water. I have a question about the twist in the plot. The dwindling light of twilight made the dwelling look eerie."]}
+],
+"activity":"Find two words for each cluster (/tw/, /dw/, /sw/, /kw/, /gw/) that were not used in this unit. Write five sentences, each with at least two cluster words, and record yourself reading them. Listen back and note one sound to improve.",
+"check":[
+{"q":"The /w/ sound is called a","o":["Semi-vowel or glide","Fricative","Plosive","Nasal"]},
+{"q":"Which word contains the /kw/ cluster?","o":["Queen","Twin","Swim","Dwell"]},
+{"q":"A common mistake with 'twin' is","o":["Saying the two sounds separately ('tu-win')","Saying it too loud","Saying it too fast","Saying it with a smile"]},
+{"q":"How do you make /w/?","o":["Round your lips and push them forward","Press your tongue on your teeth","Close your mouth","Open your mouth wide"]},
+{"q":"Which word has the /sw/ cluster?","o":["Sweet","Twelve","Dwarf","Guava"]}]}
+]
