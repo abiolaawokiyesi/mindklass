@@ -19,6 +19,10 @@ After the first Vercel deploy, in the Supabase dashboard go to **Authentication 
 
 Without this, sign-in confirmation and password-reset links can send users to the wrong address.
 
+## Staff performance tables (one-time)
+
+Run supabase/staff_performance.sql once in the Supabase dashboard (SQL Editor > paste > Run). It creates staff_members, staff_tasks, staff_day_reviews, staff_weekly_plans, the staff_daily_summary view and the access rules. It does not change existing tables. Until it is run, staff entries are kept on the device only and the admin page shows a setup card with the same SQL.
+
 ## 1. Push to GitHub
 
 Install Git first if needed (`winget install Git.Git`), then open a terminal in this folder.

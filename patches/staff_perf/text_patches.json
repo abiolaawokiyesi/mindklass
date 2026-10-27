@@ -1,0 +1,86 @@
+[
+    {
+        "name":  "user object carries the staff request",
+        "old":  "function Di(h,b){let a=b?.details||{};return{id:h.id,",
+        "new":  "function Di(h,b){let a=b?.details||{};return{id:h.id,staffReq:h.user_metadata\u0026\u0026h.user_metadata.staff_position?{position:h.user_metadata.staff_position,manager:h.user_metadata.staff_manager||\"\"}:null,",
+        "marker":  "staffReq:h.user_metadata"
+    },
+    {
+        "name":  "role option",
+        "old":  "e(\"option\",{value:\"professional\",children:\"Other Professional\"})",
+        "new":  "e(\"option\",{value:\"professional\",children:\"Other Professional\"}),e(\"option\",{value:\"staff\",children:\"MindKlass Staff / Associate\"})",
+        "marker":  "MindKlass Staff / Associate"
+    },
+    {
+        "name":  "role grid columns",
+        "old":  "gridTemplateColumns:U.role===\"student\"||U.role===\"professional\"?Oe\u003c480?\"1fr\":\"1fr 1fr\":\"1fr\"",
+        "new":  "gridTemplateColumns:U.role===\"student\"||U.role===\"professional\"||U.role===\"staff\"?Oe\u003c480?\"1fr\":\"1fr 1fr\":\"1fr\"",
+        "marker":  "U.role===\"professional\"||U.role===\"staff\"?Oe\u003c480"
+    },
+    {
+        "name":  "staff fields",
+        "old":  "(U.role===\"teacher\"||U.role===\"professional\")\u0026\u0026t(\"div\",{style:{marginBottom:9},children:[e(\"label\",{style:s,children:\"Place of Work\"})",
+        "new":  "U.role===\"staff\"\u0026\u0026t(\"div\",{style:{marginBottom:9},children:[e(\"label\",{style:s,children:\"Your position\"}),t(\"select\",{style:o,value:U.staffPos||\"\",onChange:r=\u003eBe(l=\u003e({...l,staffPos:r.target.value})),children:[e(\"option\",{value:\"\",children:\"- Select your position -\"}),MKS_POSITIONS.map(r=\u003ee(\"option\",{value:r,children:r},r))]})]}),U.role===\"staff\"\u0026\u0026U.staffPos===\"Other (type your position)\"\u0026\u0026t(\"div\",{style:{marginBottom:9,gridColumn:\"1 / -1\"},children:[e(\"label\",{style:s,children:\"Type your position\"}),e(\"input\",{style:o,placeholder:\"e.g. Research Associate\",value:U.staffOther||\"\",onChange:r=\u003eBe(l=\u003e({...l,staffOther:r.target.value}))})]}),U.role===\"staff\"\u0026\u0026t(\"div\",{style:{marginBottom:9,gridColumn:\"1 / -1\"},children:[e(\"label\",{style:s,children:\"Line manager (optional)\"}),e(\"input\",{style:o,placeholder:\"Who do you report to?\",value:U.staffMgr||\"\",onChange:r=\u003eBe(l=\u003e({...l,staffMgr:r.target.value}))})]}),U.role===\"staff\"\u0026\u0026e(\"p\",{style:{fontSize:11,color:a.muted,margin:\"0 0 9px\",gridColumn:\"1 / -1\",lineHeight:1.5},children:\"Staff accounts are checked and approved by the administrator before the staff tracker opens.\"}),(U.role===\"teacher\"||U.role===\"professional\")\u0026\u0026t(\"div\",{style:{marginBottom:9},children:[e(\"label\",{style:s,children:\"Place of Work\"})",
+        "marker":  "children:\"Your position\""
+    },
+    {
+        "name":  "position check",
+        "old":  "if(U.role===\"professional\"\u0026\u0026!U.profession){ve(\"Please choose your profession.\");return}",
+        "new":  "if(U.role===\"professional\"\u0026\u0026!U.profession){ve(\"Please choose your profession.\");return}if(U.role===\"staff\"\u0026\u0026!(U.staffPos===\"Other (type your position)\"?(U.staffOther||\"\").trim():(U.staffPos||\"\"))){ve(\"Please choose or type your position at MindKlass.\");return}",
+        "marker":  "Please choose or type your position"
+    },
+    {
+        "name":  "sign-up metadata",
+        "old":  "role:U.role,ref_used:s,country:U.country,currency:r,phone:U.phone.trim(),profession:U.role===\"professional\"?U.profession:\"\",school:U.role===\"student\"?(U.school||\"\").trim():\"\",workplace:U.role===\"teacher\"||U.role===\"professional\"?(U.workplace||\"\").trim():\"\"}",
+        "new":  "role:U.role===\"staff\"?\"professional\":U.role,ref_used:s,country:U.country,currency:r,phone:U.phone.trim(),profession:U.role===\"professional\"?U.profession:U.role===\"staff\"?\"MindKlass Staff\":\"\",school:U.role===\"student\"?(U.school||\"\").trim():\"\",workplace:U.role===\"teacher\"||U.role===\"professional\"?(U.workplace||\"\").trim():U.role===\"staff\"?\"MindKlass\":\"\",staff_position:U.role===\"staff\"?(U.staffPos===\"Other (type your position)\"?(U.staffOther||\"\").trim():(U.staffPos||\"\")):\"\",staff_manager:U.role===\"staff\"?(U.staffMgr||\"\").trim():\"\"}",
+        "marker":  "staff_position:U.role===\"staff\""
+    },
+    {
+        "name":  "profile update",
+        "old":  "profession:U.role===\"professional\"?U.profession:null,details:{school:U.role===\"student\"?(U.school||\"\").trim():null,workplace:U.role===\"teacher\"||U.role===\"professional\"?(U.workplace||\"\").trim():null,phone:U.phone.trim()||null}",
+        "new":  "profession:U.role===\"professional\"?U.profession:U.role===\"staff\"?\"MindKlass Staff\":null,details:{school:U.role===\"student\"?(U.school||\"\").trim():null,workplace:U.role===\"teacher\"||U.role===\"professional\"?(U.workplace||\"\").trim():U.role===\"staff\"?\"MindKlass\":null,phone:U.phone.trim()||null}",
+        "marker":  "U.role===\"staff\"?\"MindKlass\":null"
+    },
+    {
+        "name":  "staff membership state",
+        "old":  "let ot=y?.role?.startsWith(\"visitor\");",
+        "new":  "var mkSS=f(null),mkStf=mkSS[0],setMkStf=mkSS[1],mkSR=f(0),mkTick=mkSR[0],setMkTick=mkSR[1];de(()=\u003e{if(!y||!y.id||String(y.role||\"\").startsWith(\"visitor\")){setMkStf(null);return}let live=!0;mksApi.loadMember(y.id).then(r=\u003e{if(!live)return;if(r.error){setMkStf(null);return}if(r.data){setMkStf(r.data);return}if(y.staffReq\u0026\u0026y.staffReq.position){mksApi.requestStaff(y.id,y.staffReq.position,y.staffReq.manager).then(r2=\u003e{if(live\u0026\u0026r2.data)setMkStf(Object.assign({status:\"pending\"},r2.data))})}else setMkStf(null)}).catch(()=\u003e{});return()=\u003e{live=!1}},[y\u0026\u0026y.id,mkTick]);let ot=y?.role?.startsWith(\"visitor\");",
+        "marker":  "mkStf=mkSS[0]"
+    },
+    {
+        "name":  "staff nav item",
+        "old":  ".concat(dt?[{id:\"training\",I:we,l:\"Teacher\u0027s Course\"}]:[]),yd=i=\u003e{",
+        "new":  ".concat(dt?[{id:\"training\",I:we,l:\"Teacher\u0027s Course\"}]:[]).concat((mkStf||(y\u0026\u0026y.staffReq))\u0026\u0026!dt\u0026\u0026L!==\"admin\"?[{id:\"staffhub\",I:Ge,l:\"Staff Tracker\"}]:[]),yd=i=\u003e{",
+        "marker":  "id:\"staffhub\",I:Ge"
+    },
+    {
+        "name":  "admin nav item",
+        "old":  "{id:\"users\",I:Ue,l:\"Users\"},{id:\"approvals\",I:Ei,l:\"Course Approvals\"}",
+        "new":  "{id:\"users\",I:Ue,l:\"Users\"},{id:\"staffperf\",I:pt,l:\"Staff Performance\"},{id:\"approvals\",I:Ei,l:\"Course Approvals\"}",
+        "marker":  "id:\"staffperf\",I:pt"
+    },
+    {
+        "name":  "staff pages",
+        "old":  "if(G===\"ipersonality\")return J({children:e(MK25,{T:a,isMobile:X,card:k,bP:C,bO:R})});",
+        "new":  "if(G===\"staffhub\")return J({children:e(MkStaffHub,{T:a,isMobile:X,card:k,bP:C,bO:R,user:y,staff:mkStf,onStaff:()=\u003esetMkTick(n=\u003en+1)})});if(G===\"staffperf\"\u0026\u0026L===\"admin\")return J({children:e(MkStaffAdmin,{T:a,isMobile:X,card:k,bP:C,bO:R,user:y})});if(G===\"ipersonality\")return J({children:e(MK25,{T:a,isMobile:X,card:k,bP:C,bO:R})});",
+        "marker":  "G===\"staffhub\")return J"
+    },
+    {
+        "name":  "route slugs",
+        "old":  "\"push\":\"push\",\"child\":\"child\"};var MK_SLUGS=",
+        "new":  "\"push\":\"push\",\"child\":\"child\",\"stafftracker\":\"staffhub\",\"staff\":\"staffhub\",\"staffperformance\":\"staffperf\"};var MK_SLUGS=",
+        "marker":  "\"stafftracker\":\"staffhub\""
+    },
+    {
+        "name":  "page slugs",
+        "old":  "\"push\":\"Notifications\",\"child\":\"Child\"};var MK_VIEW_TO_SLUG",
+        "new":  "\"push\":\"Notifications\",\"child\":\"Child\",\"staffhub\":\"StaffTracker\",\"staffperf\":\"StaffPerformance\"};var MK_VIEW_TO_SLUG",
+        "marker":  "\"staffhub\":\"StaffTracker\""
+    },
+    {
+        "name":  "flyer on sign-in page",
+        "old":  "e(Id,{}),t(\"div\",{className:\"mk-auth-card\"",
+        "new":  "e(Id,{auth:!0}),t(\"div\",{className:\"mk-auth-card\"",
+        "marker":  "e(Id,{auth:!0})"
+    }
+]
