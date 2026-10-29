@@ -1,0 +1,33 @@
+{
+  "name": "MindKlass — Ada, Live Tutor",
+  "short_name": "Ada",
+  "description": "A talking tutor that teaches your MindKlass courses and answers questions in your own language.",
+  "start_url": "/classroom",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070a11",
+  "theme_color": "#070a11",
+  "lang": "en",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "/static/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

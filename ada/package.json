@@ -1,0 +1,24 @@
+{
+  "name": "webapp",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "wrangler pages dev",
+    "deploy": "npm run build && wrangler pages deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings",
+    "kb:seed": "node scripts/gen-seed.mjs",
+    "db:migrate:local": "wrangler d1 migrations apply mindklass-avatar-production --local",
+    "db:migrate:prod": "wrangler d1 migrations apply mindklass-avatar-production --remote"
+  },
+  "dependencies": {
+    "hono": "^4.13.14"
+  },
+  "devDependencies": {
+    "@hono/vite-build": "^1.11.1",
+    "@hono/vite-dev-server": "^0.26.1",
+    "playwright": "^1.64.1",
+    "vite": "^8.1.4",
+    "wrangler": "^4.110.0"
+  }
+}

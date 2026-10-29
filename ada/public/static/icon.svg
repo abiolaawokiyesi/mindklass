@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="MindKlass Ada avatar">
+  <defs>
+    <radialGradient id="bg" cx="45%" cy="32%" r="78%">
+      <stop offset="0" stop-color="#26365e"/>
+      <stop offset="0.55" stop-color="#131c30"/>
+      <stop offset="1" stop-color="#080b13"/>
+    </radialGradient>
+    <radialGradient id="skin" cx="38%" cy="30%" r="72%">
+      <stop offset="0" stop-color="#d09b72"/>
+      <stop offset="0.45" stop-color="#a4694a"/>
+      <stop offset="0.82" stop-color="#6d4028"/>
+      <stop offset="1" stop-color="#472514"/>
+    </radialGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2a2c"/>
+      <stop offset="0.6" stop-color="#171014"/>
+      <stop offset="1" stop-color="#0b080b"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7ff3dc"/>
+      <stop offset="1" stop-color="#2bbfa8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- shoulders -->
+  <path d="M96 512c0-88 64-140 160-140s160 52 160 140z" fill="#1b2740"/>
+  <path d="M256 372c34 0 62 6 84 18-22 12-50 18-84 18s-62-6-84-18c22-12 50-18 84-18z" fill="#0c1526" opacity="0.55"/>
+
+  <!-- neck -->
+  <path d="M218 300h76v86c0 16-14 26-38 26s-38-10-38-26z" fill="#7a4a2f"/>
+
+  <!-- head -->
+  <path d="M256 104c62 0 100 42 100 104 0 24-4 46-10 64-8 26-24 48-46 62-12 8-28 12-44 12s-32-4-44-12c-22-14-38-36-46-62-6-18-10-40-10-64 0-62 38-104 100-104z" fill="url(#skin)"/>
+
+  <!-- hair -->
+  <path d="M156 208c-6-64 36-108 100-108s106 44 100 108c-2-28-10-44-26-52-18 12-42 18-74 18s-56-6-74-18c-16 8-24 24-26 52z" fill="url(#hair)"/>
+
+  <!-- brows -->
+  <path d="M196 214q22-12 44-2" stroke="#1a0f0a" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <path d="M272 212q22-10 44 2" stroke="#1a0f0a" stroke-width="9" stroke-linecap="round" fill="none"/>
+
+  <!-- eyes -->
+  <ellipse cx="220" cy="240" rx="20" ry="13" fill="#f7f1ec"/>
+  <ellipse cx="292" cy="240" rx="20" ry="13" fill="#f7f1ec"/>
+  <circle cx="221" cy="240" r="9.5" fill="#4a2c14"/>
+  <circle cx="293" cy="240" r="9.5" fill="#4a2c14"/>
+  <circle cx="218" cy="237" r="3.4" fill="#fff"/>
+  <circle cx="290" cy="237" r="3.4" fill="#fff"/>
+
+  <!-- smile -->
+  <path d="M228 302q28 18 56 0" stroke="#5e2a28" stroke-width="9" stroke-linecap="round" fill="none"/>
+
+  <!-- live-tutor pulse -->
+  <circle cx="392" cy="120" r="30" fill="url(#teal)" opacity="0.18"/>
+  <circle cx="392" cy="120" r="16" fill="url(#teal)"/>
+  <circle cx="392" cy="120" r="7" fill="#071118"/>
+</svg>

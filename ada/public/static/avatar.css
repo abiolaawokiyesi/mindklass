@@ -1,0 +1,361 @@
+/* MindKlass Avatar Engine — UI
+   Design intent: the avatar is the product, so the chrome recedes. Deep navy
+   stage, one accent, generous type. Everything sized for a 360px Android first. */
+
+:root {
+  --bg: #070a11;
+  --bg-2: #0c1220;
+  --panel: rgba(255, 255, 255, 0.045);
+  --panel-solid: #0f1626;
+  --line: rgba(255, 255, 255, 0.09);
+  --line-strong: rgba(255, 255, 255, 0.16);
+  --ink: #eef2fb;
+  --ink-2: #a9b5cd;
+  --ink-3: #6f7d99;
+  --accent: #6d8bff;
+  --accent-2: #43e0c8;
+  --warn: #ffb454;
+  --danger: #ff6b6b;
+  --radius: 16px;
+  --radius-sm: 11px;
+  --shadow: 0 18px 50px -22px rgba(0, 0, 0, 0.9);
+  --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--ink);
+  background:
+    radial-gradient(1100px 700px at 12% -12%, #1b2a55 0%, transparent 60%),
+    radial-gradient(900px 620px at 92% 6%, #103c3c 0%, transparent 55%),
+    var(--bg);
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+.mk-app { display: flex; flex-direction: column; height: 100dvh; min-height: 100dvh; }
+
+/* ---------------------------------------------------------------- top bar */
+
+.mk-topbar {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(7, 10, 17, 0.72);
+  backdrop-filter: blur(14px);
+  position: sticky; top: 0; z-index: 20;
+}
+.mk-brand { display: flex; align-items: center; gap: 9px; min-width: 0; }
+.mk-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--accent-2);
+  box-shadow: 0 0 0 3px rgba(67, 224, 200, 0.16), 0 0 16px rgba(67, 224, 200, 0.7);
+  flex: none;
+}
+.mk-brand-text { font-weight: 700; letter-spacing: -0.01em; }
+.mk-brand-sub {
+  color: var(--ink-3); font-size: 12px; padding-left: 9px; margin-left: 2px;
+  border-left: 1px solid var(--line-strong); white-space: nowrap;
+}
+.mk-topbar-actions { display: flex; align-items: center; gap: 8px; }
+
+.mk-pill {
+  font: inherit; font-size: 12px; color: var(--ink-2);
+  background: var(--panel); border: 1px solid var(--line);
+  padding: 6px 11px; border-radius: 999px; cursor: default; white-space: nowrap;
+}
+.mk-pill[data-tone="ok"] { color: #9ff5e5; border-color: rgba(67, 224, 200, 0.32); }
+.mk-pill[data-tone="warn"] { color: #ffd7a1; border-color: rgba(255, 180, 84, 0.32); }
+.mk-icon-btn {
+  width: 30px; height: 30px; border-radius: 50%;
+  background: var(--panel); border: 1px solid var(--line);
+  color: var(--ink-2); font: inherit; cursor: pointer;
+}
+.mk-icon-btn:hover { color: var(--ink); border-color: var(--line-strong); }
+
+/* ----------------------------------------------------------------- layout */
+
+.mk-main {
+  flex: 1; min-height: 0;
+  display: grid;
+  grid-template-columns: 264px minmax(0, 1fr) 380px;
+  gap: 14px;
+  padding: 14px 16px 16px;
+}
+
+.mk-rail {
+  display: flex; flex-direction: column; min-height: 0;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.015));
+  overflow: hidden;
+}
+.mk-rail-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  padding: 13px 14px 10px; border-bottom: 1px solid var(--line);
+}
+.mk-rail-head h2, .mk-chat-head h2 {
+  margin: 0; font-size: 12px; font-weight: 700;
+  letter-spacing: 0.09em; text-transform: uppercase; color: var(--ink-3);
+}
+.mk-muted { color: var(--ink-3); font-size: 12px; }
+.mk-courses { padding: 8px; overflow-y: auto; display: flex; flex-direction: column; gap: 7px; }
+
+.mk-course {
+  display: block; width: 100%; text-align: left; cursor: pointer;
+  font: inherit; color: inherit;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--course-accent, var(--accent));
+  border-radius: var(--radius-sm);
+  padding: 10px 11px;
+  transition: background 0.15s ease, transform 0.15s ease, border-color 0.15s ease;
+}
+.mk-course:hover { background: rgba(255,255,255,0.07); transform: translateY(-1px); }
+.mk-course[aria-current="true"] {
+  background: rgba(109, 139, 255, 0.14);
+  border-color: rgba(109, 139, 255, 0.45);
+}
+.mk-course-subject {
+  font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--course-accent, var(--accent)); font-weight: 700;
+}
+.mk-course-title { display: block; font-size: 13.5px; font-weight: 600; margin: 3px 0 3px; line-height: 1.28; }
+.mk-course-meta { font-size: 11px; color: var(--ink-3); }
+
+/* ------------------------------------------------------------------ stage */
+
+.mk-stage-wrap { display: flex; flex-direction: column; min-height: 0; gap: 10px; }
+.mk-stage {
+  position: relative; flex: 1; min-height: 320px;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  overflow: hidden;
+  background:
+    radial-gradient(72% 62% at 50% 30%, #24365f 0%, #121a2c 46%, #080c14 100%);
+  box-shadow: var(--shadow);
+  isolation: isolate;
+}
+#mk-canvas { display: block; width: 100%; height: 100%; }
+.mk-stage-vignette {
+  position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(120% 90% at 50% 42%, transparent 52%, rgba(0,0,0,0.62) 100%);
+}
+
+.mk-stage-overlay { position: absolute; inset: 0; pointer-events: none; display: flex; flex-direction: column; justify-content: space-between; }
+.mk-avatar-meta { display: flex; gap: 6px; padding: 12px; }
+.mk-chip {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.02em;
+  background: rgba(10, 15, 26, 0.66); border: 1px solid var(--line-strong);
+  color: var(--ink-2); padding: 4px 9px; border-radius: 999px;
+  backdrop-filter: blur(8px);
+}
+.mk-chip-ghost { color: #9ff5e5; border-color: rgba(67,224,200,0.4); }
+
+/* Caption occupies its own band at the bottom, above the transport controls, so
+   the two can never collide however long the sentence is. */
+.mk-stage-caption {
+  padding: 26px 16px 62px;
+  background: linear-gradient(to top, rgba(5, 8, 14, 0.94) 30%, rgba(5, 8, 14, 0.72) 68%, transparent 100%);
+}
+.mk-caption {
+  margin: 0 auto; max-width: 68ch;
+  font-size: 14.5px; line-height: 1.55; color: #eef3fd;
+  text-shadow: 0 2px 18px rgba(0,0,0,0.85);
+  min-height: 1.55em;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+
+.mk-stage-controls {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 10px 12px 12px; pointer-events: none;
+}
+.mk-stage-controls > * { pointer-events: auto; }
+
+.mk-mic {
+  display: inline-flex; align-items: center; gap: 7px;
+  font: inherit; font-size: 13px; font-weight: 600; color: #06121a;
+  background: linear-gradient(180deg, #7ff3dc, #35cdb4);
+  border: 0; border-radius: 999px; padding: 9px 15px; cursor: pointer;
+  box-shadow: 0 8px 24px -8px rgba(67, 224, 200, 0.8);
+}
+.mk-mic[aria-pressed="true"] {
+  background: linear-gradient(180deg, #ff9a9a, #f2536b); color: #21060b;
+  animation: mk-pulse 1.5s ease-in-out infinite;
+}
+.mk-mic:disabled { opacity: 0.4; cursor: not-allowed; }
+@keyframes mk-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(242, 83, 107, 0.45); }
+  50% { box-shadow: 0 0 0 12px rgba(242, 83, 107, 0); }
+}
+
+.mk-round {
+  width: 38px; height: 38px; border-radius: 50%;
+  background: rgba(12, 18, 32, 0.78); border: 1px solid var(--line-strong);
+  color: var(--ink); font-size: 14px; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  backdrop-filter: blur(10px);
+}
+.mk-round:hover { border-color: rgba(255,255,255,0.34); }
+.mk-round-wide { width: auto; border-radius: 999px; padding: 0 13px; gap: 6px; font-size: 12px; font-weight: 600; }
+.mk-round[aria-pressed="true"] { background: rgba(109,139,255,0.3); border-color: rgba(109,139,255,0.7); }
+
+/* ------------------------------------------------------------- lesson bar */
+
+.mk-lesson-bar {
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--panel-solid);
+  padding: 10px 12px;
+  display: grid; gap: 9px;
+}
+.mk-lesson-progress { height: 4px; border-radius: 999px; background: rgba(255,255,255,0.1); overflow: hidden; }
+.mk-lesson-fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); transition: width 0.4s ease; }
+.mk-lesson-meta { display: flex; justify-content: space-between; gap: 10px; font-size: 12.5px; }
+.mk-lesson-meta #mk-lesson-title { font-weight: 600; }
+.mk-lesson-actions { display: flex; gap: 7px; }
+.mk-ghost-btn {
+  font: inherit; font-size: 12.5px; color: var(--ink-2); cursor: pointer;
+  background: rgba(255,255,255,0.05); border: 1px solid var(--line);
+  padding: 6px 12px; border-radius: 9px;
+}
+.mk-ghost-btn:hover { color: var(--ink); border-color: var(--line-strong); }
+.mk-ghost-primary { color: #fff; background: rgba(109,139,255,0.26); border-color: rgba(109,139,255,0.55); }
+
+/* ------------------------------------------------------------------- chat */
+
+.mk-chat {
+  display: flex; flex-direction: column; min-height: 0;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.012));
+  overflow: hidden;
+}
+.mk-chat-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  padding: 13px 14px 10px; border-bottom: 1px solid var(--line); gap: 8px;
+}
+.mk-messages { flex: 1; overflow-y: auto; padding: 12px; display: flex; flex-direction: column; gap: 10px; scroll-behavior: smooth; }
+
+.mk-msg { max-width: 95%; font-size: 13.5px; line-height: 1.52; }
+.mk-msg-body {
+  padding: 9px 12px; border-radius: 13px; white-space: pre-wrap; word-break: break-word;
+  border: 1px solid transparent;
+}
+.mk-msg[data-role="assistant"] .mk-msg-body {
+  background: rgba(109,139,255,0.13); border-color: rgba(109,139,255,0.24); border-bottom-left-radius: 4px;
+}
+.mk-msg[data-role="user"] { align-self: flex-end; }
+.mk-msg[data-role="user"] .mk-msg-body {
+  background: rgba(255,255,255,0.09); border-color: var(--line); border-bottom-right-radius: 4px;
+}
+.mk-msg-meta { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 5px; font-size: 10.5px; color: var(--ink-3); }
+.mk-tag {
+  border: 1px solid var(--line); border-radius: 999px; padding: 1px 7px; color: var(--ink-3);
+}
+.mk-tag-src { color: #a9c0ff; border-color: rgba(109,139,255,0.4); }
+.mk-typing span {
+  display: inline-block; width: 5px; height: 5px; margin-right: 3px; border-radius: 50%;
+  background: var(--ink-2); animation: mk-bounce 1s infinite;
+}
+.mk-typing span:nth-child(2) { animation-delay: 0.14s; }
+.mk-typing span:nth-child(3) { animation-delay: 0.28s; }
+@keyframes mk-bounce { 0%, 60%, 100% { transform: translateY(0); opacity: 0.45; } 30% { transform: translateY(-4px); opacity: 1; } }
+
+.mk-suggestions { display: flex; gap: 6px; padding: 0 12px 8px; flex-wrap: wrap; }
+.mk-suggest {
+  font: inherit; font-size: 11.5px; color: var(--ink-2); cursor: pointer;
+  background: rgba(255,255,255,0.04); border: 1px solid var(--line);
+  border-radius: 999px; padding: 5px 10px;
+}
+.mk-suggest:hover { color: var(--ink); border-color: var(--line-strong); }
+
+.mk-composer {
+  display: flex; gap: 8px; align-items: flex-end;
+  padding: 10px 12px 12px; border-top: 1px solid var(--line);
+}
+#mk-input {
+  flex: 1; resize: none; max-height: 120px; min-height: 38px;
+  font: inherit; font-size: 13.5px; color: var(--ink);
+  background: rgba(4, 8, 16, 0.6); border: 1px solid var(--line);
+  border-radius: 11px; padding: 9px 11px; line-height: 1.4;
+}
+#mk-input:focus { outline: none; border-color: rgba(109,139,255,0.6); box-shadow: 0 0 0 3px rgba(109,139,255,0.14); }
+#mk-input::placeholder { color: var(--ink-3); }
+.mk-send {
+  width: 38px; height: 38px; border-radius: 11px; flex: none; cursor: pointer;
+  background: linear-gradient(180deg, #8ea6ff, #5b7bfa); border: 0; color: #08101f;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.mk-send:disabled { opacity: 0.45; cursor: wait; }
+
+/* ---------------------------------------------------------------- dialogs */
+
+.mk-dialog {
+  border: 1px solid var(--line-strong); border-radius: 18px; padding: 0;
+  background: var(--panel-solid); color: var(--ink);
+  width: min(520px, calc(100vw - 32px)); box-shadow: var(--shadow);
+}
+.mk-dialog::backdrop { background: rgba(4, 7, 13, 0.72); backdrop-filter: blur(3px); }
+.mk-dialog form { padding: 18px; display: grid; gap: 10px; }
+.mk-dialog h3 { margin: 0; font-size: 16px; }
+.mk-dialog p { margin: 0; }
+.mk-lang-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 6px; max-height: 46vh; overflow-y: auto; padding: 2px; }
+.mk-lang {
+  font: inherit; text-align: left; cursor: pointer; color: var(--ink);
+  background: rgba(255,255,255,0.04); border: 1px solid var(--line);
+  border-radius: 10px; padding: 8px 10px; font-size: 13px;
+}
+.mk-lang small { display: block; color: var(--ink-3); font-size: 10.5px; margin-top: 2px; }
+.mk-lang[aria-current="true"] { border-color: rgba(109,139,255,0.7); background: rgba(109,139,255,0.16); }
+.mk-help-list { margin: 0; padding-left: 18px; display: grid; gap: 7px; font-size: 13.5px; line-height: 1.5; color: var(--ink-2); }
+.mk-help-list strong { color: var(--ink); }
+
+/* ------------------------------------------------------------------ toast */
+
+.mk-toast {
+  position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%);
+  max-width: min(560px, calc(100vw - 28px));
+  background: rgba(16, 23, 38, 0.97); border: 1px solid var(--line-strong);
+  color: var(--ink); font-size: 13px; line-height: 1.45;
+  padding: 10px 14px; border-radius: 12px; box-shadow: var(--shadow); z-index: 60;
+}
+
+/* ------------------------------------------------------------- responsive */
+
+@media (max-width: 1180px) {
+  .mk-main { grid-template-columns: 220px minmax(0, 1fr) 330px; gap: 11px; }
+}
+@media (max-width: 980px) {
+  /* Fixed grid rows let the lesson bar overflow its row and bleed into the chat
+     panel, so the stacked layout is a plain column flow instead. */
+  .mk-main {
+    display: flex; flex-direction: column;
+    height: auto; min-height: 0;
+    overflow-y: auto;
+    gap: 10px;
+    padding-bottom: 18px;
+  }
+  .mk-stage-wrap { flex: 0 0 auto; }
+  .mk-stage { height: min(58vh, 460px); min-height: 300px; flex: none; }
+  .mk-lesson-bar { flex: none; }
+  .mk-chat { flex: 1 1 auto; min-height: 340px; }
+  .mk-rail { display: none; }
+  .mk-rail.mk-open {
+    display: flex; position: fixed; inset: 56px 12px auto 12px; z-index: 30;
+    max-height: 58vh; background: var(--panel-solid); box-shadow: var(--shadow);
+  }
+}
+@media (max-width: 560px) {
+  .mk-topbar { padding: 8px 12px; }
+  .mk-brand-sub { display: none; }
+  .mk-main { padding: 10px; gap: 9px; }
+  .mk-stage { height: min(52vh, 400px); min-height: 280px; }
+  .mk-caption { font-size: 13.5px; }
+  .mk-mic-label { display: none; }
+  .mk-stage-controls { gap: 6px; padding: 9px; }
+  .mk-stage-caption { padding: 22px 13px 58px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}

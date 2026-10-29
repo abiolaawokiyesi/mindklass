@@ -1,0 +1,4 @@
+/*
+  Content-Security-Policy: frame-ancestors 'self' https://www.mindklass.com https://mindklass.com http://localhost:*
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Content-Type-Options: nosniff

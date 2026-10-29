@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mindklass-avatar",
+  "compatibility_date": "2026-10-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": "./dist",
+
+  // NOTE: only D1 is bound here on purpose.
+  // Cloudflare Pages/Workers compatible: no KV, no cron triggers, no Node fs.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "mindklass-avatar-production",
+      "database_id": "local-dev-placeholder"
+    }
+  ],
+
+  // The tutor model, its address and the key are set as Pages secrets (see
+  // FREE_SETUP.md). A plain var with the same name would clash with the secret.
+  "vars": {}
+}
