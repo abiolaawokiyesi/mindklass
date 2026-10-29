@@ -1,0 +1,162 @@
+[
+{"id":"ec23-10","week":4,"title":"NEEDS: The National Economic Empowerment and Development Strategy","icon":"Landmark",
+"summary":"Nigeria's home-grown reform plan under President Obasanjo: its objectives, reform pillars, achievements and failures.",
+"keyWords":["NEEDS","Wealth creation","Value reorientation","Debt relief","Privatisation","Anti-corruption"],
+"sections":[
+{"h":"A home-grown reform plan","p":["NEEDS was Nigeria's own medium-term development strategy, launched under President Olusegun Obasanjo around 2003 to 2004 (the first phase ran to about 2007, and your lesson note gives the span as 2003 to 2009; follow your teacher's dates). It responded to the failures of earlier rigid plans and was prepared with the views of many groups."]},
+{"h":"Objectives","p":["1. Wealth creation: diversify away from oil and build a strong private sector. 2. Poverty reduction: jobs and better living standards. 3. Value reorientation: fight corruption and encourage openness and hard work. 4. Employment generation for the young."]},
+{"h":"Reform pillars","p":["Privatisation and liberalisation: selling or commercialising inefficient state firms such as NITEL and Nigeria Airways. Banking sector consolidation: the 2004 to 2005 reform that raised bank capital to ₦25 billion. Public sector reform: a more efficient, accountable civil service. Anti-corruption drive: strengthening the EFCC and the ICPC."],"img":{"src":"eco2-bank-consolidation.jpg","alt":"A funnel showing 89 fragile banks before 2004 reduced by a CBN directive of a ₦25 billion minimum capital to 25 stronger banks after 2005","cap":"Banking consolidation: from 89 banks to 25."}},
+{"h":"Achievements","p":["Macroeconomic stability and major debt relief from the Paris Club in 2005, which freed money for development. A stronger, more confident banking system. Governance and anti-corruption placed at the centre of public debate."]},
+{"h":"Failures and shortcomings","p":["Little effect on poverty and unemployment for ordinary Nigerians. An implementation gap: many reforms were not fully carried out in all sectors and states. Corruption remained a systemic problem even though agencies were created."]},
+{"h":"Three reasons why NEEDS failed (WAEC style)","p":["(1) Weak implementation: the plan was ambitious but was not followed through in many sectors and states. (2) Corruption: funds were misused and cases against offenders were slow. (3) The benefits did not reach ordinary people: growth was not job-creating, so poverty stayed high. Other reasons: poor power supply, weak institutions and the global price swings."]}
+],
+"activity":"State the objectives and two pillars of NEEDS. Discuss three reasons why NEEDS did not achieve its objectives.",
+"check":[
+{"q":"NEEDS was launched under President","o":["Obasanjo","Yar'Adua","Buhari","Gowon"]},
+{"q":"The 2004/2005 bank minimum capital was","o":["₦25 billion","₦2 billion","₦500 million","₦5 trillion"]},
+{"q":"Paris Club debt relief came in","o":["2005","1960","1986","2020"]},
+{"q":"A failure of NEEDS was","o":["Little effect on poverty","Too much poverty reduction","Zero banks","No reforms"]},
+{"q":"'Value reorientation' means","o":["Changing attitudes to honesty and hard work","Changing the value of the naira","Selling banks","Printing money"]}
+]},
+
+{"id":"ec23-11","week":4,"title":"Vision 2020 and the Common Threads of Failure","icon":"Target",
+"summary":"Nigeria's target to be among the top 20 economies, its pillars and targets, why it was not realised, and what all three plans share.",
+"keyWords":["Vision 2020","Top 20 economies","Implementation failure","Political will","Structural problems"],
+"sections":[
+{"h":"The aspiration","p":["Vision 20:2020 was launched around 2009 under President Umaru Yar'Adua. It was a long-term framework with a bold goal: to make Nigeria one of the 20 largest economies in the world by 2020."]},
+{"h":"Pillars","p":["1. Economic development: fast, sustained growth (the lesson note says over 13% a year) and a more diversified economy. 2. Social development: progress in education, health and housing to raise the Human Development Index. 3. Institutional development and governance: a transparent, efficient and accountable public sector."]},
+{"h":"Targets","p":["A GDP per capita of at least about $4,000; strong growth in non-oil exports; reliable power (the lesson note says at least 20,000 MW; other versions of the plan quote higher figures, so check your teacher's notes); and a modern, linked transport network."]},
+{"h":"Why it was not realised","p":["1. Implementation failure: the plan was not carried out year after year through successive governments. 2. Lack of political will: new governments preferred their own programmes. 3. Persistent structural problems: corruption, poor infrastructure (especially power) and insecurity. 4. Over-dependence on oil: the 2014 oil price crash and later shocks upset plans. 5. Inadequate funding for infrastructure and human capital."]},
+{"h":"Legacy","p":["The target was missed, but the plan was a useful exercise in long-term thinking. It showed the gap between Nigeria's potential and reality and that consistent implementation, good governance and stable politics are essential."]},
+{"h":"The ambition-reality gap","p":["Picture a podium for the 'Top 20 economies': in the vision, Nigeria's flag stands on it; in reality, roadblocks marked 'poor power supply', 'corruption', 'insecurity' and 'policy inconsistency' stand in the way."]},
+{"h":"Common threads of failure","p":["The MDGs, NEEDS and Vision 2020 all suffered from weak implementation, corruption, political instability and failure to address root causes such as poor infrastructure and weak institutions. A perfect plan on paper is useless without political will and effective governance."]}
+],
+"activity":"Explain why Vision 2020 was not realised. Compare what the MDGs, NEEDS and Vision 2020 had in common. Suggest what a new plan would need to succeed.",
+"check":[
+{"q":"Vision 2020 aimed to place Nigeria among the","o":["Top 20 economies","Top 5 economies","Top 100 economies","Top 3 economies"]},
+{"q":"A reason for failure was","o":["Poor implementation","Too much power supply","Too few plans","Excess funding"]},
+{"q":"Vision 2020 was launched around","o":["2009","1960","1986","2015"]},
+{"q":"The three plans share","o":["Weak implementation and corruption","Perfect success","No goals","No funding needs"]},
+{"q":"A GDP per capita target was about","o":["$4,000","$40","$400,000","$4"]}
+]},
+
+{"id":"ec23-12","week":6,"title":"Nigeria's Development Challenges (1): Poverty","icon":"Users",
+"summary":"The meaning, scale, causes and cure of poverty in Nigeria, the poverty cycle, and the agencies and programmes against it.",
+"keyWords":["Poverty","Extreme poverty","Vicious cycle","NAPEP","N-Power","Social safety nets"],
+"sections":[
+{"h":"The paradox of potential","p":["Nigeria has rich resources, a young population and enterprising people, but deep, linked problems hold it back. They form a vicious circle that hinders growth and keeps people poor."]},
+{"h":"What is poverty?","p":["Poverty is a state of severe deprivation in which people cannot meet the minimum standard of living; it is not only low income but lack of education, health care, clean water, sanitation and security. The World Bank defined extreme poverty as living on less than $2.15 a day; in 2025 the line was updated to $3.00 a day (at 2021 prices). National Bureau of Statistics reports have found that more than 80 million Nigerians live below the national poverty line."]},
+{"h":"The vicious cycle","p":["Poverty leads to poor health and malnutrition; this leads to low productivity and lack of education; this leads to unemployment and underemployment; and back to poverty."],"img":{"src":"eco2-poverty-cycle.jpg","alt":"A cycle from poverty and low income to poor health and malnutrition, low productivity and lack of education, and unemployment and underemployment, returning to poverty","cap":"The vicious cycle of poverty."}},
+{"h":"Causes","p":["High unemployment and underemployment; low farm productivity from outdated methods; inflation, which cuts the buying power of households; poor access to education and health care; corruption and conflict."]},
+{"h":"Agencies and programmes","p":["National Poverty Eradication Programme (NAPEP, set up in 2001): vocational training, graduate internships and micro-credit. National Directorate of Employment (NDE): skills training, entrepreneurship and public works. More recently, N-Power and the Government Enterprise and Empowerment Programme (GEEP) under the Social Investment Programme, which gave temporary jobs and loans to vulnerable groups."]},
+{"h":"Methods of reducing poverty","p":["Sustained growth with fairness, so that jobs are created and benefits spread. Investment in education and health. Rural development: roads, storage and credit for farmers. Social safety nets such as cash transfers and school feeding for the poorest."]},
+{"h":"Poverty as a cause and a consequence","p":["Poverty is a consequence of unemployment, poor schooling and weak infrastructure, and it is a cause of poor health, low skills, low savings and low demand, which in turn slow growth. It is both effect and cause in a loop."]}
+],
+"activity":"Explain the statement 'Poverty in Nigeria is both a cause and a consequence of other economic challenges.' List three programmes against poverty and say how each works.",
+"check":[
+{"q":"Poverty is more than low income because it includes","o":["Lack of education, health and services","Only low prices","Only high taxes","Only imports"]},
+{"q":"NAPEP was set up in","o":["2001","1960","1986","2020"]},
+{"q":"A social safety net is","o":["Direct help for the poorest","A fishing net","A tax","A bank"]},
+{"q":"The vicious cycle of poverty","o":["Reinforces itself","Disappears alone","Ends with oil","Has no causes"]},
+{"q":"N-Power was meant to give","o":["Temporary jobs and training","Free oil","Free cars","Tax holidays"]}
+]},
+
+{"id":"ec23-13","week":6,"title":"Nigeria's Development Challenges (2): Corruption, Power, Unemployment and Infrastructure","icon":"Shield",
+"summary":"How corruption, the power deficit, unemployment and the infrastructure gap hold back development.",
+"keyWords":["Corruption","Power deficit","Unemployment","Underemployment","Youth bulge","Infrastructure"],
+"sections":[
+{"h":"Corruption: the cancer within","p":["Corruption is the abuse of entrusted power for private gain. Forms: grand corruption (theft of public funds by high officials), bribery, embezzlement, nepotism and contract inflation. Economic effects: misallocation of resources (money for roads, schools and power is siphoned off); lower foreign direct investment; higher costs of doing business (like an unofficial tax); loss of public trust, leading to apathy and unrest."]},
+{"h":"Power and energy inadequacy","p":["Reliable, affordable power is the lifeblood of a modern economy. Nigeria, with over 200 million people, generates only a few thousand megawatts on the grid (the lesson note says 3,000 to 5,000 MW), against an estimated need of at least 20,000 MW; South Africa, with a smaller population, generates far more. Effects: very high production costs because firms and homes run generators; closed or relocated factories; job losses; and poor health care, schooling and quality of life."]},
+{"h":"Unemployment and underemployment","p":["Unemployment: people who are able and willing to work cannot find jobs. Underemployment: people work in jobs that do not use their skills, or part-time when they want full-time. The 'youth bulge': Nigeria is very young, millions enter the labour market every year, and the formal sector cannot absorb them, causing frustration and social tension."]},
+{"h":"Two policies for youth unemployment (assignment)","p":["(1) Technical and vocational training linked to employers, so that young people gain skills that the market needs. (2) Support for start-ups and small firms, with credit, business training and fixes to power and transport, so that young people create jobs. Other ideas: public works, agriculture value chains and digital skills."]},
+{"h":"Infrastructure deficit","p":["Beyond power: poor roads, weak railways and congested ports raise the cost and time of moving goods; low-quality broadband limits the digital economy; lack of clean water and sanitation causes health crises."]},
+{"h":"How corruption and power failure work together","p":["Corruption drains the money for power plants and lines, so the supply stays weak. Weak power raises costs and kills factories, so jobs and tax income fall. Less tax income leaves less money for power, and the cycle continues."]}
+],
+"activity":"Discuss how corruption and power inadequacy are linked and together hinder Nigeria's economic development. Propose two realistic solutions to youth unemployment.",
+"check":[
+{"q":"Corruption is the abuse of","o":["Entrusted power for private gain","Free speech","Public holidays","Taxes"]},
+{"q":"Poor power supply leads to","o":["High production costs","Low costs","More factories","Cheap goods"]},
+{"q":"Underemployment means","o":["Working below one's skills or hours wanted","Having no job","Retired","Studying"]},
+{"q":"The 'youth bulge' is","o":["A large young population","A big building","A tax","A market"]},
+{"q":"Corruption reduces","o":["Foreign direct investment","Prices of food","Tax collection fines","Child births"]}
+]},
+
+{"id":"ec23-14","week":6,"title":"Nigeria's Development Challenges (3): Oil Dependence, Inflation and the Web of Problems","icon":"BarChart2",
+"summary":"The mono-product economy, inflation and currency instability, and how all the challenges connect.",
+"keyWords":["Mono-product economy","Oil price shock","Inflation","Naira volatility","Interconnected challenges"],
+"sections":[
+{"h":"Heavy dependence on crude oil","p":["Despite attempts at diversification, government revenue and foreign exchange still rely heavily on crude oil. Vulnerability to world shocks: oil price falls in 2014 to 2016 and 2020 caused crises, reduced reserves and led to currency weakness and inflation. Dutch disease: the oil sector crowds out agriculture and manufacturing through a strong currency. Volatile revenue makes long-term planning very hard."]},
+{"h":"Inflation and currency instability","p":["High inflation: Nigeria often has double-digit inflation caused by food supply problems, currency weakness and high energy costs. Effects: inflation erodes savings, cuts buying power and creates uncertainty for business. Naira volatility: when the naira falls, imported machinery, medicine and fuel cost more, and the naira cost of foreign debt rises."]},
+{"h":"The interconnected web","p":["Corruption causes an infrastructure deficit, especially in power. Poor infrastructure causes low productivity and high unemployment. Unemployment and low productivity keep poverty high. Poverty and a weak economy increase dependence on oil, whose price swings feed inflation. The cycle continues."]},
+{"h":"Breaking out","p":["No single fix works. A joined-up strategy is needed: good governance and strong institutions; investment in power, transport and other infrastructure; investment in education and health; diversification into agriculture, manufacturing and technology; and stable macroeconomic policy."]},
+{"h":"Model answer: poverty as cause and consequence","p":["Poverty results from unemployment, poor schooling and weak infrastructure, which are failures of the economy. But poverty is also a cause: poor people cannot afford good health or education, so their productivity stays low; they save little, so investment is low; and they have little money to spend, so demand and growth are weak. So poverty both results from and feeds the other challenges."]}
+],
+"activity":"Draw a diagram connecting corruption, infrastructure, unemployment, poverty, oil dependence and inflation. Explain how an oil price crash can lead to inflation in Nigeria.",
+"check":[
+{"q":"A mono-product economy depends on","o":["One main product","Many products","No exports","Only services"]},
+{"q":"A weaker naira makes imports","o":["Dearer","Cheaper","Free","Illegal"]},
+{"q":"The challenges are","o":["Interconnected","Unrelated","Imaginary","Solved"]},
+{"q":"An oil price fall tends to","o":["Reduce foreign reserves","Raise reserves","Cut inflation always","End debt"]},
+{"q":"A strategy to break out must be","o":["Holistic","Limited to one problem","Ignored","Secret"]}
+]},
+
+{"id":"ec23-15","week":8,"title":"Economic Reform Programmes and the Banking Consolidation","icon":"Landmark",
+"summary":"What economic reform is, the 1986 Structural Adjustment Programme, and the 2004 to 2005 banking consolidation with a recent update.",
+"keyWords":["Economic reform","Structural Adjustment Programme","Consolidation","Merger","Acquisition","Capital base"],
+"sections":[
+{"h":"Why reform?","p":["Imagine a car that keeps breaking down and burning too much fuel: the owner can keep paying for repairs or send it for a major overhaul. In the same way, a country whose economy is inefficient and heavily in debt may begin an economic reform programme: a set of major, deliberate changes to economic policies, laws and institutions to make the economy more efficient, stable and growing, without changing the basic system (for example, from capitalism to socialism)."]},
+{"h":"The Nigerian context","p":["By the 1980s Nigeria faced a severe crisis: falling oil prices, a huge foreign debt and inefficient state firms. In 1986 it adopted the Structural Adjustment Programme (SAP), which included currency devaluation, removal of subsidies, trade liberalisation and privatisation, and opened the way to later reforms."]},
+{"h":"Banking consolidation (2004 to 2005)","p":["Led by Professor Charles Soludo, Governor of the CBN. All commercial banks had to raise their minimum capital from ₦2 billion to ₦25 billion by 31 December 2005.","Why? Many banks were small, weak and likely to fail, which put depositors at risk; the public and foreign investors had lost confidence; small banks could not fund big projects; and they could not compete globally.","How? By merger (two or more banks forming one, for example Stanbic Bank and IBTC became Stanbic IBTC), by acquisition (a strong bank taking over a weak one) or by raising fresh capital from shareholders or new investors.","Outcome: the number of banks fell from 89 to 25; the banks were stronger and more stable; local and international confidence returned; and banks invested in technology such as ATMs and online banking."]},
+{"h":"The other side","p":["Some consolidated banks later failed because of poor governance and risky lending, and in 2009 the CBN had to rescue several. Size alone does not guarantee safety; good management and supervision matter too."]},
+{"h":"A recent update","p":["In 2024 the CBN announced a new round of capital requirements (for example, ₦500 billion for banks with an international licence, ₦200 billion for national banks and ₦50 billion for regional banks) with a deadline in 2026. Check the CBN website for the latest figures. The idea is the same as in 2004: stronger banks that can finance a larger economy."]}
+],
+"activity":"Describe the 2004 banking consolidation: its objective and how it was achieved. Explain what the 1986 SAP was.",
+"check":[
+{"q":"The 2004 consolidation raised bank capital to","o":["₦25 billion","₦2 billion","₦500 million","₦1 trillion"]},
+{"q":"It was led by","o":["Charles Soludo","Olusegun Obasanjo only","Umaru Yar'Adua","Ibrahim Babangida"]},
+{"q":"The number of banks fell from","o":["89 to 25","100 to 50","25 to 89","10 to 5"]},
+{"q":"A merger is","o":["Two banks combining","A bank closing","A loan","A tax"]},
+{"q":"SAP was adopted in","o":["1986","1960","2004","2015"]}
+]},
+
+{"id":"ec23-16","week":8,"title":"Privatisation and Commercialisation","icon":"Layers",
+"summary":"The meaning, methods, advantages and disadvantages of privatisation and of commercialisation, with Nigerian examples.",
+"keyWords":["Privatisation","Commercialisation","State-owned enterprise","Divestment","Monopoly","Asset stripping"],
+"sections":[
+{"h":"The government's role","p":["These two reforms reduce the government's direct involvement in running businesses."],"img":{"src":"eco2-privatisation-spectrum.jpg","alt":"A spectrum from state-owned enterprise through commercialised and partially privatised to fully privatised, with increasing private sector involvement and efficiency","cap":"From state-owned to fully private."}},
+{"h":"Privatisation","p":["Privatisation is the full or partial transfer of ownership, control and management of state-owned enterprises (SOEs) from the government to private individuals or companies.","Why? Inefficiency and losses (NITEL, Nigeria Airways); poor service quality; corruption and mismanagement; and the need to raise money.","Methods: full privatisation (sale of 100%), for example the sale of Afribank and Union Bank shares; partial privatisation or divestment (the government sells a large share but keeps some), for example the sale of the power distribution companies (Discos) in 2013, where private buyers took most of the shares."]},
+{"h":"Advantages and disadvantages of privatisation","p":["Advantages: more efficiency and profit through private management and a profit motive; better service from competition; less government spending on losses so that money can go to health and education; and foreign investment. Disadvantages: job losses when firms cut costs; private monopolies that charge high prices; asset stripping (buying a firm, selling its land and machines and closing it); and unaffordable essential services (water, power) for the poor."]},
+{"h":"Commercialisation","p":["Commercialisation is restructuring a state-owned enterprise to run on a profit-oriented, commercial basis without a change in ownership. The government stays the owner, but the firm is expected to behave like a private company.","Types: full commercialisation, in which the firm funds all its operations and capital projects from its own income with no subsidy (the NNPC was expected to work this way); partial commercialisation, in which the firm covers its running costs but may get government grants for big projects (for example NIPOST)."]},
+{"h":"Advantages and disadvantages of commercialisation","p":["Advantages: efficiency from the profit motive; financial discipline; and government keeps control of strategic assets. Disadvantages: a 'business as usual' culture may continue; political interference; and partly commercialised bodies may still need subsidies."]},
+{"h":"Privatisation and commercialisation compared","p":["Study the table."],"tbl":{"head":["Feature","Privatisation","Commercialisation"],"rows":[["Ownership","Changes to private owners","Remains with the government"],["Control","Private managers","Managers under government, run commercially"],["Nigerian example","Sale of the Discos; Afribank","NNPC (commercial basis); NIPOST"],["Main risk","Monopoly, asset stripping, job losses","Political interference, continued inefficiency"]]}},
+{"h":"A note on the NNPC","p":["The NNPC was turned into a limited liability company (NNPC Ltd) in 2022 under the Petroleum Industry Act, which is a further step in running it on commercial lines."]}
+],
+"activity":"Differentiate privatisation from commercialisation with one Nigerian example each. Discuss three advantages and three disadvantages of privatisation.",
+"check":[
+{"q":"Privatisation changes","o":["Ownership","Nothing","The currency","The tax rate"]},
+{"q":"Commercialisation keeps","o":["Government ownership","Private ownership only","Foreign ownership only","No owner"]},
+{"q":"A danger of privatisation is","o":["Asset stripping","Perfect competition always","More subsidies","Less profit"]},
+{"q":"NITEL and Nigeria Airways were","o":["State-owned enterprises","Banks","Insurance firms","Farms"]},
+{"q":"Selling a large share but keeping some is","o":["Partial privatisation","Full commercialisation","Nationalisation","Taxation"]}
+]},
+
+{"id":"ec23-17","week":10,"title":"Third Term Revision and Past Question Drilling","icon":"ClipboardCheck",
+"summary":"A checklist for the whole third term, how to attack WAEC, NECO and JAMB questions, and model outlines.",
+"keyWords":["Revision","Past questions","Command words","Time management","Model answers"],
+"sections":[
+{"h":"Checklist","p":["Economic planning: meaning, aims, types, Nigeria's plans and problems. International organisations: IMF, World Bank, ECOWAS, AfDB, UNCTAD, OPEC. National strategies: MDGs, NEEDS, Vision 2020. Development challenges: poverty, corruption, power, unemployment, infrastructure, oil dependence, inflation. Reforms: SAP, banking consolidation, privatisation, commercialisation."]},
+{"h":"Command words","p":["Define: give the exact meaning. State or list: give points without explanation. Explain: give the point and the reason. Discuss: give both sides and a judgement. Distinguish or differentiate: show the difference using a pair of points. Outline: give main points briefly. Compare: show similarities and differences."]},
+{"h":"Time management","p":["In a three-hour paper, plan your time by marks. Read all questions first; start with the one you know best; keep a clock; write short, clear paragraphs; and leave five minutes to check."]},
+{"h":"Model outline: why NEEDS failed (WAEC)","p":["Introduction: NEEDS was a reform plan launched around 2003 to 2004. Point 1: weak implementation. Point 2: corruption. Point 3: no job creation, so poverty remained. Conclusion: good plans fail without political will."]},
+{"h":"Quick facts","p":["IMF and World Bank: 1944, Washington. ECOWAS: 1975, Abuja (12 members after 2025). AfDB: 1964, Abidjan. UNCTAD: 1964, Geneva. OPEC: 1960, Vienna; Nigeria joined 1971. MDGs: 2000 to 2015, eight goals. Banks: 89 to 25, ₦25 billion. SAP: 1986."]},
+{"h":"Preparing for the final examination","p":["Revise across all three terms. Use past WAEC, NECO and JAMB questions, mark yourself honestly, and keep a list of the topics you miss. Draw and label diagrams often (money market, circular flow). Practise calculations (GNP, NI, comparative advantage, BOP classification)."]}
+],
+"activity":"Answer one WAEC-style past question from each term in exam time, mark it honestly and list three points to improve.",
+"check":[
+{"q":"'Discuss' means","o":["Give both sides and a judgement","Give only a definition","Give a one-word answer","Copy the question"]},
+{"q":"The AfDB was founded in","o":["1964","1975","1944","2003"]},
+{"q":"The MDGs ran from","o":["2000 to 2015","1986 to 1999","2015 to 2030","1960 to 1975"]},
+{"q":"Past questions should be","o":["Answered in exam time and marked","Ignored","Only read","Shared only"]},
+{"q":"The banking consolidation reduced banks to","o":["25","89","50","10"]}
+]}
+]

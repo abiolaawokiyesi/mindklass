@@ -1,0 +1,168 @@
+[
+{"id":"sc31-02","week":1,"title":"Review of JSS 2: Matter, Energy and the Five Kingdoms","icon":"BookOpen",
+"summary":"A quick revision of matter, its states and classes, energy and its conservation, and the five kingdoms of living things.",
+"keyWords":["Matter","Element","Compound","Mixture","Energy","Five kingdoms"],
+"sections":[
+{"h":"Matter","p":["Matter is anything that has mass and takes up space (has volume). It exists in three states. A solid has a definite shape and volume. A liquid has no fixed shape but a definite volume. A gas has no fixed shape and no fixed volume."]},
+{"h":"Elements, compounds and mixtures","p":["Study the table."],"tbl":{"head":["Kind","Meaning","Examples"],"rows":[["Element","A pure substance that cannot be broken down into simpler substances","Iron, oxygen, carbon"],["Compound","Two or more elements joined chemically","Water (H₂O), carbon dioxide (CO₂)"],["Mixture","Two or more substances mixed physically, not chemically joined","Sand and water, salt solution"]]}},
+{"h":"Separating mixtures","p":["In JSS 2 you learnt filtration (to separate an insoluble solid from a liquid), evaporation (to get a dissolved solid back), sieving (to separate solids of different sizes) and decantation (to pour off a liquid from a settled solid)."]},
+{"h":"Energy","p":["Energy is the ability to do work. The forms you met are potential (stored), kinetic (movement), heat, light, sound, electrical and chemical energy. The principle of conservation of energy says that energy cannot be created or destroyed, but can change from one form to another. For example, in a torch the chemical energy in the battery becomes electrical energy, which the bulb changes into light and heat."]},
+{"h":"The five kingdoms of living things","p":["Study the table."],"tbl":{"head":["Kingdom","Features","Examples"],"rows":[["Monera","Single-celled with no true nucleus (prokaryotes)","Bacteria, blue-green algae"],["Protista","Mostly single-celled, with a nucleus","Amoeba, paramecium"],["Fungi","Cannot make their own food; absorb food from dead or living matter; most are many-celled, but yeast is single-celled","Mushroom, mould, yeast"],["Plantae","Many-celled; make their own food by photosynthesis","Mango tree, maize, fern"],["Animalia","Many-celled; cannot make their own food; most can move","Insects, fish, lions, humans"]]}},
+{"h":"A correction to a common idea","p":["The lesson note calls fungi 'plant-like'. Fungi are not plants. They have no chlorophyll and so cannot make their own food, and their cell walls are made of a different material (chitin) from plant cell walls (cellulose). This is why fungi have their own kingdom."]}
+],
+"activity":"Write one sentence each to define matter and energy. List the five kingdoms with one example each. Say what makes a compound different from a mixture.",
+"check":[
+{"q":"Which of these is a compound?","o":["Water","Iron","Oxygen","Sand and water"]},
+{"q":"A liquid has","o":["A definite volume but no fixed shape","A fixed shape and volume","No volume","No mass"]},
+{"q":"The principle of conservation of energy says energy","o":["Can only change from one form to another","Can be created","Can be destroyed","Never changes form"]},
+{"q":"Bacteria belong to the kingdom","o":["Monera","Plantae","Fungi","Animalia"]},
+{"q":"Organisms that make their own food by photosynthesis belong to","o":["Plantae","Fungi","Animalia","Monera only"]}
+]},
+
+{"id":"sc31-03","week":1,"title":"Laboratory Conduct and Safety","icon":"Shield",
+"summary":"Ten safety rules for the laboratory, the safety equipment to know, and what to do when something goes wrong.",
+"keyWords":["Safety","Goggles","Fire extinguisher","First aid","Eye-wash"],
+"sections":[
+{"h":"Why safety matters","p":["The laboratory is a place for discovery, but it can be dangerous. Chemicals can burn, glass can cut and flames can start fires. Safety is the most important rule in science."]},
+{"h":"The ten rules","p":["1. Never enter the laboratory without a teacher or the lab attendant. 2. No eating, drinking or playing in the lab, because food and drink can pick up poisonous chemicals. 3. Wear protective clothing (lab coat, goggles) when told. 4. Read all the instructions before starting. 5. Never taste, smell or touch chemicals unless you are told to. 6. To smell a chemical, waft the vapour towards your nose with your hand; never sniff straight from the container. 7. Report all accidents, breakages and spills to the teacher at once. 8. When heating a test tube, point it away from yourself and others. 9. Clean your workspace and wash your hands before leaving. 10. Know where the safety equipment is: fire extinguisher, first-aid box and eye-wash station."]},
+{"h":"What to do if you break a beaker","p":["Do not pick up the glass with your bare hands. Tell the teacher straight away, keep others away from the broken glass, and let the teacher or lab attendant clean it up with a brush and pan."]},
+{"h":"What lies ahead in JSS 3","p":["First term is about our planet: ecosystems, natural resources, environmental hazards, environmental health, waste, climate change and sustainable development. Second term is about living things and matter: cells, tissues, heredity, adaptation, atoms and molecules, changes in matter, water and air, and microorganisms. Third term is about energy, machines, science and technology, ICT and careers."]}
+],
+"activity":"Write the five safety rules you think are most important and give a reason for each. Explain why eating is not allowed in a laboratory.",
+"check":[
+{"q":"To smell a chemical safely you should","o":["Waft the vapour towards your nose","Sniff directly from the bottle","Put your nose in the container","Taste a little"]},
+{"q":"When heating a test tube, point it","o":["Away from yourself and others","At your friend","At your face","Straight up at the ceiling light"]},
+{"q":"If a beaker breaks, you should first","o":["Tell the teacher","Pick up the glass with bare hands","Hide it","Throw it in the sink"]},
+{"q":"Food is banned in the lab because it","o":["Can be contaminated with chemicals","Is expensive","Smells good","Is heavy"]},
+{"q":"Which is lab safety equipment?","o":["Fire extinguisher","Football","Textbook","Pencil"]}
+]},
+
+{"id":"sc31-04","week":2,"title":"The Ecosystem: Meaning and Components","icon":"Layers",
+"summary":"What an ecosystem is, its living (biotic) and non-living (abiotic) parts, and how producers, consumers and decomposers are grouped.",
+"keyWords":["Ecosystem","Biotic","Abiotic","Producer","Consumer","Decomposer"],
+"sections":[
+{"h":"What is an ecosystem?","p":["An ecosystem is a community of living things (biotic) interacting with their non-living surroundings (abiotic) in a particular area. It can be as big as an ocean or a desert, or as small as a pond or a rotting log."]},
+{"h":"Biotic components (living)","p":["The living or once-living parts of an ecosystem are grouped by how they get energy.","Producers (autotrophs) make their own food, usually using sunlight: plants and algae. Consumers (heterotrophs) get energy by eating other living things. Primary consumers eat producers (grasshopper, cow, rabbit; these are herbivores). Secondary consumers eat primary consumers (frog, fox; carnivores or omnivores). Tertiary consumers eat secondary consumers (snake, hawk). Decomposers break down dead plants, animals and waste and return nutrients to the soil (bacteria and fungi)."]},
+{"h":"Abiotic components (non-living)","p":["Sunlight, water, air, soil, temperature and salinity (how salty the water is) are the non-living parts. They decide what can live in a place."]},
+{"h":"A school garden","p":["Study the table of a typical school garden."],"tbl":{"head":["Biotic","Abiotic"],"rows":[["Grass and flowers (producers)","Sunlight"],["Grasshoppers and caterpillars (primary consumers)","Water from rain or a tap"],["Lizards and birds (secondary consumers)","Soil"],["Mushrooms and bacteria (decomposers)","Air and temperature"]]}},
+{"h":"Interdependence","p":["Everything in an ecosystem depends on something else. Plants need soil, water and sunlight. Animals need plants for food and water to drink. Decomposers need dead organisms to feed on. Plants in turn need the nutrients that decomposers release into the soil."]}
+],
+"activity":"Define an ecosystem. List three biotic and three abiotic parts of your school compound. Explain why decomposers are important.",
+"check":[
+{"q":"The living parts of an ecosystem are called","o":["Biotic components","Abiotic components","Resources only","Minerals"]},
+{"q":"A grasshopper that eats grass is a","o":["Primary consumer","Producer","Decomposer","Tertiary consumer"]},
+{"q":"Which is an abiotic component?","o":["Sunlight","Frog","Mushroom","Grass"]},
+{"q":"Decomposers","o":["Break down dead matter and return nutrients to the soil","Make food by photosynthesis","Eat only living animals","Do not need energy"]},
+{"q":"An ecosystem can be as small as","o":["A pond or a rotting log","Nothing at all","A single atom","Only a whole continent"]}
+]},
+
+{"id":"sc31-05","week":2,"title":"Food Chains, Food Webs and Energy Flow","icon":"BarChart2",
+"summary":"How energy moves from the sun through producers and consumers, the difference between a food chain and a food web, and the 10% rule.",
+"keyWords":["Food chain","Food web","Energy flow","10% rule","Trophic level"],
+"sections":[
+{"h":"Energy flow","p":["The ultimate source of energy for almost every ecosystem is the Sun. Energy flows in one direction only: from the Sun to producers, then to consumers. It does not go round in a circle (unlike nutrients, which are recycled)."]},
+{"h":"Food chain","p":["A food chain is a single pathway showing who eats whom. Example: grass → grasshopper → frog → snake → hawk. The grass is the producer; the grasshopper is the primary consumer; the frog is the secondary consumer; the snake is the tertiary consumer; the hawk is the quaternary (fourth-level) consumer. The arrows show the direction in which energy goes, from the food to the one that eats it. (The lesson note's first list calls the hawk a tertiary consumer; in this chain the snake is tertiary and the hawk is quaternary.)"],"img":{"src":"sci3-food-chain.jpg","alt":"A circular food chain: green plant (producer), grasshopper (primary consumer), frog (secondary consumer), snake (tertiary consumer), hawk and fungi shown as final consumers","cap":"A food chain. The hawk and the fungi are the last links; fungi break down dead matter."}},
+{"h":"Food web","p":["A food web is many food chains joined together. It is more realistic, because most animals eat more than one thing. A hawk, for example, may eat snakes, rats and frogs. If one organism is removed from a web, the others can find other food, so a web is more stable than a single chain."]},
+{"h":"The 10% rule","p":["When a grasshopper eats grass it gets only about 10% of the energy in the grass. The other 90% is lost as heat or used by the plant for living. So at each step up the chain only about 10% of the energy passes on. This is why a food chain is short (usually four or five links), and why the hawk at the top gets very little of the original Sun energy. It is also why there are far fewer hawks than grasshoppers.","Worked example: if the grass holds 10,000 units of energy, the grasshopper gets about 1,000, the frog about 100, the snake about 10 and the hawk about 1."]}
+],
+"activity":"Draw a food chain of four links from your area and label producer, primary, secondary and tertiary consumers. Draw a food web with at least five organisms. State the 10% rule.",
+"check":[
+{"q":"The ultimate source of energy for most ecosystems is the","o":["Sun","Soil","Wind","Water"]},
+{"q":"In grass → grasshopper → frog → snake, the frog is the","o":["Secondary consumer","Producer","Primary consumer","Decomposer"]},
+{"q":"A food web is","o":["Many food chains linked together","A single food chain","A spider web","A kind of net"]},
+{"q":"About what percentage of energy passes to the next level?","o":["10%","90%","50%","100%"]},
+{"q":"Energy in an ecosystem flows","o":["In one direction","In a circle","Back to the Sun","Only underground"]}
+]},
+
+{"id":"sc31-06","week":2,"title":"Balance of Nature and the Disruption of Ecosystems","icon":"Shield",
+"summary":"How populations are kept in check, and how deforestation, pollution, overhunting and invasive species upset the balance.",
+"keyWords":["Balance of nature","Deforestation","Overhunting","Invasive species","Pollution"],
+"sections":[
+{"h":"The balance of nature","p":["In a healthy ecosystem each population is kept in check by food supply, predators and disease. There is a balance between producers, consumers and decomposers. If one part is removed, the whole system is affected. For example, if all the frogs are removed, the grasshoppers may increase hugely and eat all the grass."]},
+{"h":"How people disturb ecosystems","p":["Study the table."],"tbl":{"head":["Activity","Effect"],"rows":[["Deforestation (cutting down trees)","Removes producers, destroys habitats and leads to soil erosion"],["Pollution","Chemicals and waste kill plants and animals (see the later units on environmental health and waste)"],["Overhunting and overfishing","Removes too many consumers from the web, causing imbalance"],["Introducing invasive species","A new plant or animal with no natural enemies takes over and crowds out the local ones"]]}},
+{"h":"An example of an invasive species","p":["Water hyacinth is a floating plant from South America. It spread over many rivers and lagoons in Nigeria, including around Lagos. It covers the water, blocks sunlight and boats, and takes oxygen from the water, so fish die."]},
+{"h":"What we can do","p":["Plant trees, fish and hunt only within limits and seasons set by law, protect forests and wildlife in reserves and national parks, and keep rubbish and chemicals out of rivers."]}
+],
+"activity":"Explain the balance of nature with an example. Describe two human activities that can disrupt an ecosystem and suggest how each can be reduced.",
+"check":[
+{"q":"Removing all the frogs from a food web may cause","o":["Grasshoppers to increase greatly","Grass to increase","Snakes to double at once","Nothing"]},
+{"q":"Cutting down forests is called","o":["Deforestation","Afforestation","Conservation","Recycling"]},
+{"q":"An invasive species","o":["Has no natural enemies in its new home","Is always native","Is always small","Is always helpful"]},
+{"q":"Overfishing","o":["Removes too many consumers","Adds producers","Plants trees","Cleans the water"]},
+{"q":"A healthy ecosystem has","o":["Balance between producers, consumers and decomposers","Only consumers","Only producers","No decomposers"]}
+]},
+
+{"id":"sc31-07","week":3,"title":"Natural Resources: Renewable and Non-Renewable","icon":"Landmark",
+"summary":"What natural resources are, the two types with examples, and where Nigeria's main resources are found.",
+"keyWords":["Natural resources","Renewable","Non-renewable","Fossil fuels","Minerals"],
+"sections":[
+{"h":"What are natural resources?","p":["Natural resources are materials from nature that are useful to people. They are 'gifts of nature' used for survival and for the economy. In Nigeria they include crude oil, natural gas, coal, tin, limestone, forests, water, sunlight and fertile soil."]},
+{"h":"Renewable resources","p":["These can be replaced by nature in a fairly short time, so they will not run out if we manage them wisely. Examples: sunlight (solar energy), water (hydropower, replaced by the water cycle), wind, forests (can be replanted) and living things such as crops and animals (which reproduce). Soil is renewable only very slowly, so it must be protected from erosion."]},
+{"h":"Non-renewable resources","p":["These exist in a fixed amount and took millions of years to form. Once used up, they are gone for a very long time. Examples: fossil fuels (crude oil, natural gas and coal, which come from the remains of ancient plants and animals) and minerals."]},
+{"h":"Where in Nigeria?","p":["Study the table."],"tbl":{"head":["Resource","Where it is found or used","Type"],"rows":[["Crude oil and natural gas","The Niger Delta and offshore","Non-renewable"],["Coal","Enugu area","Non-renewable"],["Tin","Jos Plateau","Non-renewable"],["Limestone","Several states, used for cement","Non-renewable"],["Iron ore","Kogi (steel complex at Ajaokuta)","Non-renewable"],["Forests, rivers, sunlight, wind","Across the country","Renewable"]]}}
+],
+"activity":"List three renewable and three non-renewable resources found in Nigeria. Say why crude oil is non-renewable.",
+"check":[
+{"q":"Which is a renewable resource?","o":["Sunlight","Crude oil","Coal","Tin"]},
+{"q":"Crude oil is non-renewable because","o":["It took millions of years to form","It is liquid","It is black","It is found in water"]},
+{"q":"Coal in Nigeria is mined near","o":["Enugu","Lagos Island","Lake Chad","Calabar harbour"]},
+{"q":"Resources that are replaced by nature in a short time are","o":["Renewable","Non-renewable","Useless","Artificial"]},
+{"q":"Fossil fuels come from","o":["Remains of ancient plants and animals","Wind","Sunlight","Rocks only"]}
+]},
+
+{"id":"sc31-08","week":3,"title":"Importance and Conservation of Natural Resources","icon":"Heart",
+"summary":"How resources support the economy, why depending on one resource is risky, and how to conserve resources with the 3 Rs, afforestation and laws.",
+"keyWords":["Revenue","Foreign exchange","Raw materials","Conservation","Afforestation","3 Rs"],
+"sections":[
+{"h":"Importance to the national economy","p":["Government revenue: Nigeria earns most of its government income from selling crude oil, which pays for roads, schools and hospitals. Foreign exchange: selling oil and gas abroad earns foreign money (such as US dollars) used to buy goods we do not make. Raw materials: limestone for cement, timber for furniture and paper, crude oil for petrol, kerosene and plastics. Employment: oil and gas, mining and farming give millions of people jobs."]},
+{"h":"Danger of depending on one resource","p":["If a country depends on only one resource, a fall in its price or the running out of the resource can badly damage the economy. That is why Nigeria is encouraged to develop farming, manufacturing, technology and other resources too (diversification)."]},
+{"h":"Conservation","p":["Conservation is the wise and careful use and protection of resources to prevent waste and running out. We conserve so that the resources will still be there for future generations."]},
+{"h":"Methods of conservation","p":["The 3 Rs: Reduce (use less, for example switch off lights), Reuse (use things again, for example refill water bottles), Recycle (turn waste into new products, for example plastic and paper). Afforestation: planting new trees to replace those cut. Using alternatives: moving from petrol and diesel to renewable energy such as solar. Laws: national parks that protect forests and wildlife, and punishments for illegal mining and oil spills."]},
+{"h":"Field observation project","p":["Walk around the school compound for 15 minutes and list all the natural resources you can see, then say whether each is renewable or not. For example: sunlight (renewable), trees (renewable), water from a tap or well (renewable), wind (renewable), stones and gravel (non-renewable), soil (renewable if protected)."]}
+],
+"activity":"Do the field observation and make a table of what you found. Explain the 3 Rs with one example each. Say why depending on only one resource is dangerous.",
+"check":[
+{"q":"Conservation means","o":["Wise use and protection of resources","Using as much as possible","Selling everything","Burning waste"]},
+{"q":"Planting new trees to replace those cut is","o":["Afforestation","Deforestation","Erosion","Recycling"]},
+{"q":"Reducing means","o":["Using less","Using again","Making new things from waste","Throwing away"]},
+{"q":"Limestone is the raw material for","o":["Cement","Plastics","Petrol","Paper"]},
+{"q":"Selling oil abroad earns","o":["Foreign exchange","Rain","Soil","Forests"]}
+]},
+
+{"id":"sc31-09","week":4,"title":"Environmental Hazards (1): Drought and Desertification","icon":"Zap",
+"summary":"The meaning, causes, effects and control of drought and desertification, with the Great Green Wall.",
+"keyWords":["Hazard","Disaster","Drought","Desertification","Overgrazing","Great Green Wall"],
+"sections":[
+{"h":"Hazard and disaster","p":["An environmental hazard is a natural or man-made event that could harm people, property and the environment. When a hazard actually causes harm, it is called a disaster."]},
+{"h":"Drought","p":["A drought is a long period of abnormally low rainfall, leading to a serious shortage of water. Causes: natural changes in the climate, and human activities such as deforestation (trees help to make rain). Effects: crop failure, famine (shortage of food), death of livestock, and rivers and lakes drying up, such as the shrinking of Lake Chad. Control: irrigation (bringing water to farms), afforestation, and dams to store water in the rainy season."]},
+{"h":"Desertification","p":["Desertification is the process by which fertile land in dry regions slowly turns into desert. It is a big problem in northern Nigeria (Sokoto, Kano, Borno and other states). Causes: drought; overgrazing (too many cattle and goats eat all the grass and leave the soil bare); and deforestation for firewood, which exposes the soil to sun and wind. Control: planting trees, especially shelter belts that break the wind, and controlled grazing (moving animals from plot to plot so the grass can grow back)."]},
+{"h":"The Great Green Wall","p":["The Great Green Wall is an African-led project to plant a belt of trees and restore land across the Sahel region, south of the Sahara, from Senegal to Djibouti. Nigeria takes part in it. It aims to slow the spread of the desert, bring back farmland and give people jobs."]},
+{"h":"Drought and desertification compared","p":["Study the table."],"tbl":{"head":["Feature","Drought","Desertification"],"rows":[["Meaning","A spell of very little rain","Fertile land turning into desert"],["Time","Can end when the rains return","Long-lasting; the land is permanently damaged"],["Main causes","Lack of rainfall","Drought, overgrazing, deforestation"],["Control","Irrigation, dams","Tree planting, controlled grazing"]]}}
+],
+"activity":"Explain the difference between drought and desertification. Name two human causes of desertification. Find out and write two sentences on the Great Green Wall.",
+"check":[
+{"q":"Desertification is","o":["Fertile land turning into desert","A flood","A volcano","A kind of storm"]},
+{"q":"Overgrazing means","o":["Too many animals eating the grass","Planting grass","Too much rain","Cutting trees only"]},
+{"q":"A way to control desertification is","o":["Planting shelter belts of trees","Cutting more trees","Burning grass","Overgrazing"]},
+{"q":"A hazard that has caused harm is called a","o":["Disaster","Resource","Reserve","Habitat"]},
+{"q":"Dams help to control drought by","o":["Storing water for the dry season","Making rain","Removing sunshine","Blocking wind"]}
+]},
+
+{"id":"sc31-10","week":4,"title":"Environmental Hazards (2): Erosion, Flooding and Preparedness","icon":"Zap",
+"summary":"Types and control of soil erosion, causes and prevention of flooding, and how to be prepared for disasters.",
+"keyWords":["Erosion","Terracing","Contour ploughing","Flooding","Drainage","Disaster preparedness"],
+"sections":[
+{"h":"Soil erosion","p":["Soil erosion is the washing or blowing away of the topsoil, the most fertile layer. Wind erosion blows dry, bare soil away (common in the north). Water erosion is when rain washes soil away; it is a massive problem in south-eastern Nigeria, for example the Agulu-Nanka gullies in Anambra State. Causes: deforestation, overgrazing and poor farming such as ploughing down a slope. Control: plant cover crops and trees (roots hold the soil), terracing (cutting steps into a hillside to slow the water) and contour ploughing (ploughing across the slope, not down it)."]},
+{"h":"Flooding","p":["Flooding is an overflow of water onto land that is normally dry. It is a problem in coastal cities such as Lagos and along rivers such as the Niger and Benue. Causes: heavy rainfall; poor drainage, with gutters and canals blocked by refuse; and building on waterways or drainage channels. Control: build and clear gutters and canals; stop building on waterways (by law); and use dams to control river flow."]},
+{"h":"Disaster preparedness","p":["Disaster preparedness means taking steps before a hazard strikes to reduce its harm. Examples: listen to warnings from the Nigerian Meteorological Agency (NiMet) and the flood outlook issued by the government; teach people what to do (for example move to higher ground in a flood); keep emergency food, water and a first-aid kit; and clear gutters before the rainy season starts."]},
+{"h":"The four hazards in one table","p":["Study the table."],"tbl":{"head":["Hazard","Meaning","Cause","Prevention"],"rows":[["Drought","Long period of very low rain","Climate change, deforestation","Irrigation, dams, tree planting"],["Desertification","Fertile land becomes desert","Overgrazing, deforestation, drought","Shelter belts, controlled grazing"],["Erosion","Topsoil is washed or blown away","Deforestation, overgrazing, poor farming","Terracing, contour ploughing, cover crops"],["Flooding","Water overflows onto dry land","Heavy rain, blocked drains, building on waterways","Clean drains, laws, dams"]]}}
+],
+"activity":"Fill in the table for the four hazards from memory. Say which hazard affects your area most and what could be done about it. List three things a family can do to prepare for a flood.",
+"check":[
+{"q":"Ploughing across a slope is called","o":["Contour ploughing","Terracing","Irrigation","Afforestation"]},
+{"q":"Blocked gutters mostly cause","o":["Flooding","Drought","Desertification","Earthquakes"]},
+{"q":"Topsoil is washed away in","o":["Water erosion","Drought","Photosynthesis","Condensation"]},
+{"q":"Disaster preparedness means","o":["Acting before a hazard strikes","Waiting for the disaster","Ignoring warnings","Blaming others"]},
+{"q":"Terracing is","o":["Cutting steps into a hillside","Planting rice","Building a dam","Burning bush"]}
+]}
+]

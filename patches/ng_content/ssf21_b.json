@@ -1,0 +1,175 @@
+[
+{"id":"fa21-10","week":6,"title":"New Profit-Sharing Ratio and the Sacrificing Ratio","icon":"BarChart2",
+"summary":"How to work out the new ratio when a partner is admitted and how to find each old partner's sacrifice, with fraction examples.",
+"keyWords":["New ratio","Old ratio","Sacrifice","Gaining ratio","Fractions"],
+"sections":[
+{"h":"Agreeing the new ratio","p":["When a new partner is admitted, the partners must agree the new profit-sharing ratio. It depends on the share the new partner is to receive, whether the old partners give up equal or unequal parts, and any special agreement about future profits."]},
+{"h":"Example 1: the new partner takes from the old partners in the old ratio","p":["A and B share profits 3 : 2. C is admitted and takes 1/5 of the profit. The remaining 4/5 is shared between A and B in 3 : 2.","A: 3/5 of 4/5 = 12/25. B: 2/5 of 4/5 = 8/25. C: 1/5 = 5/25. New ratio A : B : C = 12 : 8 : 5.","Sacrifice = old share – new share. A: 3/5 – 12/25 = 15/25 – 12/25 = 3/25. B: 2/5 – 8/25 = 10/25 – 8/25 = 2/25. Sacrificing ratio A : B = 3 : 2. (When the new partner takes from the old partners in their old ratio, the sacrificing ratio is the same as the old ratio.)"],"tbl":{"head":["Partner","Old share","New share","Sacrifice"],"rows":[["A","15/25","12/25","3/25"],["B","10/25","8/25","2/25"],["C","","5/25","(gain)"],["Total","1","1","5/25 (= C's share)"]]}},
+{"h":"Example 2: the new ratio is given","p":["A and B share 3 : 2. The new ratio of A : B : C is 5 : 3 : 2. Write the shares over 10: old A 6/10, B 4/10; new A 5/10, B 3/10, C 2/10. Sacrifice: A = 6/10 – 5/10 = 1/10; B = 4/10 – 3/10 = 1/10. So the sacrificing ratio is 1 : 1, and C's goodwill would be shared equally by A and B."]},
+{"h":"Example 3: one partner gives up the whole share","p":["A and B share equally. C takes 1/4, all from A. New: A = 1/2 – 1/4 = 1/4, B = 1/2, C = 1/4. New ratio 1 : 2 : 1. Sacrifice: A 1/4, B nothing. A receives all of C's goodwill."]},
+{"h":"The gaining ratio","p":["The gaining ratio is used when a partner retires or dies and the continuing partners gain: gaining ratio = new ratio – old ratio. You will meet it in later work."]},
+{"h":"A step-by-step method","p":["1. Write the old shares as fractions with a common denominator. 2. Write the new shares the same way. 3. Subtract new from old for each old partner. 4. Express the answers as a ratio. 5. Check that the sacrifices add up to the new partner's share."]}
+],
+"activity":"A and B share 3 : 2 and C is admitted with 1/5 share. Work out (a) the new ratio (12 : 8 : 5) and (b) the sacrificing ratio (3 : 2). Then try: A, B and C share 3 : 2 : 1 and D takes 1/4 share from A and B equally.",
+"check":[
+{"q":"Sacrificing ratio is","o":["Old share minus new share","New share minus old share","Capital ratio","Total profit"]},
+{"q":"A and B share 3 : 2 and C takes 1/5. A's new share is","o":["12/25","3/5","9/25","1/5"]},
+{"q":"The new ratio of A, B and C is","o":["12 : 8 : 5","3 : 2 : 1","6 : 4 : 5","1 : 1 : 1"]},
+{"q":"If a new partner takes only from A, who receives the goodwill?","o":["A","B","C","The bank"]},
+{"q":"Sacrifices of the old partners add up to","o":["The new partner's share","One whole","Zero","The old ratio"]}
+]},
+
+{"id":"fa21-11","week":6,"title":"Journal Entries on Admission: A Full Worked Example","icon":"ClipboardCheck",
+"summary":"The four journals used on admission and a complete worked example including the solution to the assignment.",
+"keyWords":["Journal","Goodwill","Capital","Revaluation","Write off"],
+"sections":[
+{"h":"The journals at a glance","p":["Study the table."],"tbl":{"head":["Situation","Debit","Credit"],"rows":[["New partner brings capital and goodwill in cash","Bank","New partner's capital; old partners' capital (goodwill, sacrificing ratio)"],["Profit on revaluation","Revaluation account","Old partners' capital (old ratio)"],["Loss on revaluation","Old partners' capital (old ratio)","Revaluation account"],["Goodwill raised","Goodwill account","Old partners' capital (old ratio)"],["Goodwill written off","All partners' capital (new ratio)","Goodwill account"]]}},
+{"h":"Assignment worked through","p":["A and B share profits 3 : 2. C is admitted and brings ₦60,000 as capital and ₦20,000 as goodwill. The goodwill is shared by A and B in their sacrificing ratio.","Working note for the sacrificing ratio: the question does not state C's share, so we take the share from the earlier question (1/5), which C takes from A and B in their old ratio. The new ratio is A 12/25, B 8/25, C 5/25. A sacrifices 3/25 and B sacrifices 2/25, so the sacrificing ratio is 3 : 2.","Goodwill ₦20,000 shared 3 : 2: A = 12,000; B = 8,000.","Journal: Dr Bank 80,000. Cr C's capital 60,000. Cr A's capital 12,000. Cr B's capital 8,000. (Being capital and goodwill brought in by C; the goodwill is shared between A and B in their sacrificing ratio 3 : 2.)"],"tbl":{"head":["Account","Dr (₦)","Cr (₦)"],"rows":[["Bank","80,000",""],["C's capital","","60,000"],["A's capital (goodwill)","","12,000"],["B's capital (goodwill)","","8,000"],["Total","80,000","80,000"]]}},
+{"h":"A fuller example","p":["A and B (ratio 3 : 2) have capitals ₦60,000 and ₦40,000. Their buildings of ₦100,000 are revalued at ₦120,000. C is admitted for 1/5 share and pays ₦60,000 for capital and ₦20,000 for goodwill.","1. Revaluation: Dr Buildings 20,000; Cr Revaluation account 20,000. Then Dr Revaluation 20,000; Cr A's capital 12,000; Cr B's capital 8,000 (old ratio 3 : 2).","2. Cash and goodwill: as above, A +12,000 and B +8,000.","New capital balances: A = 60,000 + 12,000 + 12,000 = 84,000; B = 40,000 + 8,000 + 8,000 = 56,000; C = 60,000. Total capital = ₦200,000."]},
+{"h":"Goodwill raised and written off","p":["Goodwill is valued at ₦50,000. A and B (3 : 2) are admitted with C into the new ratio 12 : 8 : 5.","Raise: Dr Goodwill 50,000; Cr A's capital 30,000; Cr B's capital 20,000.","Write off: Dr A 24,000 (12/25), Dr B 16,000 (8/25), Dr C 10,000 (5/25); Cr Goodwill 50,000.","Net effect: A gains 6,000 (30,000 – 24,000), B gains 4,000 (20,000 – 16,000), and C pays 10,000 (shown as a reduction in capital). This is the same as C paying the old partners in their sacrificing ratio 3 : 2."]}
+],
+"activity":"Pass the journal entries for the following: D is admitted to the firm of E and F (ratio 1 : 1) and brings ₦100,000 capital and ₦30,000 goodwill in cash. Goodwill is shared in the sacrificing ratio 1 : 1. (Dr Bank 130,000; Cr D's capital 100,000; Cr E's capital 15,000; Cr F's capital 15,000.)",
+"check":[
+{"q":"When goodwill is brought in cash, the debit is to","o":["Bank","Goodwill account","Old partners' capital","Revaluation account"]},
+{"q":"Goodwill ₦20,000 shared 3 : 2 gives A","o":["₦12,000","₦8,000","₦10,000","₦20,000"]},
+{"q":"For a loss on revaluation, the debit is to","o":["Old partners' capital accounts","Revaluation account","Bank","Goodwill"]},
+{"q":"Written-off goodwill is shared in the","o":["New ratio","Old ratio","Capital ratio","Sacrificing ratio only"]},
+{"q":"Total debits in the journal for C's admission equal","o":["Total credits","Zero","Twice the credits","Half the credits"]}
+]},
+
+{"id":"fa21-12","week":8,"title":"Non-Profit Organisations and the Receipts and Payments Account","icon":"Users",
+"summary":"Why clubs and societies do not prepare trading accounts, and the meaning, features and format of the receipts and payments account.",
+"keyWords":["Non-profit organisation","Receipts and payments","Cash basis","Subscriptions","Entrance fees"],
+"sections":[
+{"h":"Organisations that do not aim at profit","p":["Schools, clubs, associations, churches and mosques are non-profit organisations. They exist to serve members or the public, not to make a profit. So they do not prepare Trading and Profit and Loss Accounts. Instead they prepare a Receipts and Payments Account and an Income and Expenditure Account."]},
+{"h":"The Receipts and Payments Account","p":["It is a summary of all the cash and bank transactions of the organisation for a period (usually a year). It is the cash book written as a summary.","It is prepared on a cash basis: it records the actual cash received and paid, whatever period it relates to.","Features: like a cash book, with cash and bank; includes both capital and revenue items; includes payments for the past or next year; does not separate recurring from non-recurring items; shows the opening and closing balances; does not show surplus or deficit; it only shows money movements."]},
+{"h":"Format","p":["Receipts go on the debit side; payments go on the credit side. The balance carried down is the closing cash and bank balance."],"tbl":{"head":["Dr (receipts)","₦","Cr (payments)","₦"],"rows":[["Balance b/d (cash and bank)","xxx","Rent","xxx"],["Subscriptions","xxx","Salaries","xxx"],["Donations","xxx","Purchase of equipment","xxx"],["Entrance fees","xxx","Electricity","xxx"],["Sale of assets","xxx","Balance c/d","xxx"],["Total","xxx","Total","xxx"]]}},
+{"h":"Typical receipts and payments of a club","p":["Receipts: members' subscriptions; entrance fees; donations; sale of old assets; interest; proceeds from social events or games. Payments: salaries and wages; rent and electricity; stationery; purchase of equipment or furniture; prizes; repairs; refreshments."]},
+{"h":"Capital items and revenue items","p":["Capital receipts or payments change the assets or the fund of the club (sale or purchase of furniture, building fund donations, life membership fees). Revenue items are the normal day-to-day income and expenses (subscriptions, wages). The receipts and payments account shows both. The income and expenditure account (next unit) shows only revenue items."]}
+],
+"activity":"Give four examples of non-profit organisations in your area. Explain why a youth club does not prepare a profit and loss account. List three receipts and three payments of a school alumni association.",
+"check":[
+{"q":"A receipts and payments account is a summary of","o":["Cash and bank transactions","Credit sales","Profit","Assets"]},
+{"q":"It is prepared on a","o":["Cash basis","Accrual basis","Cost basis","Fair value basis"]},
+{"q":"The balance carried down on it is the","o":["Closing cash and bank balance","Surplus","Deficit","Profit"]},
+{"q":"A non-profit organisation does NOT prepare a","o":["Trading account","Receipts and payments account","Income and expenditure account","Balance sheet"]},
+{"q":"Receipts are recorded on the","o":["Debit side","Credit side","Both sides","Neither side"]}
+]},
+
+{"id":"fa21-13","week":8,"title":"The Income and Expenditure Account","icon":"Landmark",
+"summary":"Preparing the income and expenditure account from receipts and payments: surplus or deficit, accrual adjustments and the differences between the two accounts.",
+"keyWords":["Income and expenditure","Surplus","Deficit","Accrual basis","Capital items","Prepaid"],
+"sections":[
+{"h":"Meaning","p":["The Income and Expenditure Account is like the Profit and Loss Account of a business. It finds the surplus (income more than expenditure) or the deficit (expenditure more than income) of a non-profit organisation for the period. It is prepared on an accrual basis: it records the income earned and the expenses incurred in the year, whether or not cash has been received or paid."]},
+{"h":"Features","p":["It records only revenue items: capital items are left out. It includes only items relating to the current year, adjusted for amounts accrued or prepaid. It includes depreciation. It does not show cash opening or closing balances. If Income is more than Expenditure the balance is a surplus; if Expenditure is more than Income it is a deficit."]},
+{"h":"Format","p":["Expenditure on the debit side; income on the credit side."],"tbl":{"head":["Dr (expenditure)","₦","Cr (income)","₦"],"rows":[["Salaries","xxx","Subscriptions","xxx"],["Electricity","xxx","Donations (revenue)","xxx"],["Depreciation","xxx","Entrance fees (if revenue)","xxx"],["Printing and stationery","xxx","Interest received","xxx"],["Surplus (excess of income)","xxx","",""],["Total","xxx","Total","xxx"]]}},
+{"h":"Receipts and payments account compared with income and expenditure account","p":["Study the table."],"tbl":{"head":["Basis","Receipts and payments","Income and expenditure"],"rows":[["Accounting basis","Cash basis","Accrual basis"],["Items","All cash receipts and payments","Revenue items only"],["Capital items","Included","Excluded"],["Opening and closing balances","Shown","Not shown"],["Purpose","To show the cash flow","To find the surplus or deficit"],["Adjustments (accruals and prepayments)","Not needed","Needed"]]}},
+{"h":"Steps for converting to an income and expenditure account","p":["1. Start from the receipts and payments account. 2. Remove capital items (sale or purchase of assets, capital donations, legacies, building fund). 3. Adjust for accrued and prepaid income and expenses (add what is owing, remove what belongs to other years). 4. Add depreciation on assets. 5. Add up both sides; the balance is the surplus or deficit. 6. The surplus or deficit is added to or taken from the accumulated fund on the balance sheet."]},
+{"h":"A rule for subscriptions","p":["Subscriptions for the year = cash received – arrears for last year received this year – subscriptions paid in advance for next year + arrears for this year not yet paid. Treat each item carefully: this rule shows the accrual idea."]}
+],
+"activity":"State three differences between a receipts and payments account and an income and expenditure account. Explain why capital receipts are left out of the income and expenditure account but appear in the receipts and payments account (they are not income of the year; the cash book must show all cash).",
+"check":[
+{"q":"An excess of income over expenditure is a","o":["Surplus","Deficit","Loss","Capital"]},
+{"q":"The income and expenditure account is prepared on the","o":["Accrual basis","Cash basis","Market basis","Guess basis"]},
+{"q":"Which is excluded from the income and expenditure account?","o":["Purchase of furniture","Salaries","Electricity","Depreciation"]},
+{"q":"Which account shows opening and closing cash balances?","o":["Receipts and payments","Income and expenditure","Trading","Appropriation"]},
+{"q":"The surplus is added to the","o":["Accumulated fund","Cash","Debtors","Drawings"]}
+]},
+
+{"id":"fa21-14","week":8,"title":"Non-Profit Accounts: Worked Example and Solutions","icon":"ClipboardCheck",
+"summary":"The ABC Club example in full, and the solution to both assignments.",
+"keyWords":["ABC Club","Closing balance","Surplus","Subscriptions in arrears","Depreciation"],
+"sections":[
+{"h":"ABC Club: the information","p":["Receipts: opening balance ₦10,000; subscriptions ₦50,000; donations ₦20,000; sale of old chairs ₦15,000. Payments: salaries ₦30,000; stationery ₦5,000; electricity ₦4,000; purchase of furniture ₦25,000. Closing balance = ?"]},
+{"h":"A. Receipts and payments account","p":["Total receipts = 10,000 + 50,000 + 20,000 + 15,000 = 95,000. Total payments = 30,000 + 5,000 + 4,000 + 25,000 = 64,000. Closing balance = 95,000 – 64,000 = ₦31,000."],"tbl":{"head":["Dr","₦","Cr","₦"],"rows":[["Opening balance","10,000","Salaries","30,000"],["Subscriptions","50,000","Stationery","5,000"],["Donations","20,000","Electricity","4,000"],["Sale of old chairs","15,000","Furniture purchased","25,000"],["","","Closing balance","31,000"],["Total","95,000","Total","95,000"]]}},
+{"h":"B. Income and expenditure account","p":["Assume ₦20,000 of the donations is capital, and ₦5,000 of the subscriptions received relates to the previous year.","Income: subscriptions 50,000 – 5,000 = 45,000. (The donation of 20,000 is capital, so it is left out; the sale of chairs and the purchase of furniture are capital items, so they are left out.) Expenditure: salaries 30,000 + stationery 5,000 + electricity 4,000 = 39,000. Surplus = 45,000 – 39,000 = ₦6,000."],"tbl":{"head":["Dr","₦","Cr","₦"],"rows":[["Salaries","30,000","Subscriptions (50,000 – 5,000 for last year)","45,000"],["Stationery","5,000","",""],["Electricity","4,000","",""],["Surplus","6,000","",""],["Total","45,000","Total","45,000"]]}},
+{"h":"Solution to the assignments","p":["Assignment 1: opening ₦5,000; subscriptions ₦30,000; donations ₦10,000 = receipts 45,000. Payments: equipment 15,000; salaries 12,000; stationery 3,000 = 30,000. Closing balance = ₦15,000.","Assignment 2: all the ₦10,000 donations are capital, so they are left out. Subscriptions = 30,000 – 2,000 (last year) = 28,000. Expenditure: salaries 12,000 + stationery 3,000 + depreciation 1,000 = 16,000. The purchase of equipment is capital and is left out. Surplus = 28,000 – 16,000 = ₦12,000."]},
+{"h":"A comment on the source","p":["In the lesson note the balance sheet or fund is not shown. In real accounts, the surplus is added to the accumulated fund (the club's capital) and the equipment, furniture and cash are shown as assets in a balance sheet."]}
+],
+"activity":"A club received ₦40,000 subscriptions (of which ₦4,000 is for next year) and paid ₦22,000 for wages, ₦3,000 for electricity and bought a printer for ₦18,000. Prepare an income and expenditure account. (Income 36,000, expenditure 25,000, surplus 11,000.)",
+"check":[
+{"q":"ABC Club's closing cash balance is","o":["₦31,000","₦95,000","₦64,000","₦6,000"]},
+{"q":"ABC Club's surplus is","o":["₦6,000","₦31,000","₦45,000","₦39,000"]},
+{"q":"Assignment 1 closing balance is","o":["₦15,000","₦30,000","₦45,000","₦5,000"]},
+{"q":"Assignment 2 surplus is","o":["₦12,000","₦28,000","₦16,000","₦10,000"]},
+{"q":"A sale of old chairs is treated as","o":["A capital receipt, left out of income","Income of the year","A subscription","An expense"]}
+]},
+
+{"id":"fa21-15","week":9,"title":"Single Entry and Incomplete Records","icon":"BookOpen",
+"summary":"What single entry is, why some traders use it, its features and limitations and how it compares with double entry.",
+"keyWords":["Single entry","Incomplete records","Double entry","Trial balance","Limitations"],
+"sections":[
+{"h":"Meaning","p":["Most established businesses keep full double-entry records, where every transaction has a debit and a credit. Small traders, however, may not know accounting or may not wish to pay an accountant, so they keep only part of the records. This is called single entry or incomplete records.","Typically such a trader keeps the cash and bank transactions and the personal accounts of debtors and creditors. The trader leaves out complete ledger accounts (capital, expenses, income), real and nominal accounts, and regular balancing."]},
+{"h":"Features","p":["The double-entry principle is not applied consistently. Often only personal accounts and cash and bank records exist. Real and nominal accounts (assets, liabilities, expenses and incomes) are not fully kept. A trial balance cannot be prepared. The final accounts (Trading and Profit and Loss) cannot be prepared directly without extra work."]},
+{"h":"Why some businesses use it","p":["Lack of accounting knowledge; small size of the business; wish to reduce the cost of keeping books; informal arrangements; little legal need for detailed reports."]},
+{"h":"Limitations","p":["Errors and fraud are not easy to discover. A reliable trial balance cannot be made. The true financial position is hard to see. It is not good enough for planning or decisions. It is not accepted for tax purposes or by auditors, banks and investors."]},
+{"h":"Single entry and double entry compared","p":["Study the table."],"tbl":{"head":["Basis","Single entry","Double entry"],"rows":[["Principle","Incomplete","Complete (debit equals credit)"],["Trial balance","Cannot be prepared","Can be prepared"],["Accuracy","Less reliable","Highly reliable"],["Error detection","Difficult","Easy: the books check themselves"],["Acceptance for tax and law","Not accepted","Required"]]}},
+{"h":"What to do about it","p":["An accountant must convert the incomplete records into useful information. There are two main ways: the statement of affairs method (next unit) and reconstruction of the missing accounts (the unit after)."]}
+],
+"activity":"Define single entry. List three limitations. Give two reasons why a market trader might use it. Explain why a bank may refuse a loan to a trader who keeps only single-entry records.",
+"check":[
+{"q":"In single entry, a trial balance","o":["Cannot be prepared","Is always prepared","Is audited by the bank","Is the same as capital"]},
+{"q":"A trader using single entry usually keeps","o":["Cash and personal accounts","Complete ledgers","Only a balance sheet","Only assets"]},
+{"q":"A limitation of single entry is","o":["Errors are hard to detect","Perfect accuracy","Easy audit","Easy tax filing"]},
+{"q":"A reason for using single entry is","o":["Lack of accounting knowledge","Need to file company returns","Listing on the stock exchange","Large size"]},
+{"q":"Double entry means each transaction has","o":["A debit and a credit","Only a debit","Only a credit","No entry"]}
+]},
+
+{"id":"fa21-16","week":9,"title":"Statement of Affairs Method: Finding Profit from Capital","icon":"BarChart2",
+"summary":"How to find profit when only assets and liabilities are known, using the statement of affairs and the capital formula, with worked examples and solutions.",
+"keyWords":["Statement of affairs","Opening capital","Closing capital","Drawings","Additional capital"],
+"sections":[
+{"h":"The idea","p":["The statement of affairs lists the assets and liabilities of the trader at a date. The difference is the capital: Capital = Assets – Liabilities. If we find the capital at the start and at the end of the year, the change tells us how much profit was made, after allowing for drawings and any new capital put in."]},
+{"h":"The formula","p":["Profit or loss = Closing capital – Opening capital + Drawings – Additional capital introduced.","Why? Closing capital = Opening capital + Profit + Additional capital – Drawings. Rearranging gives the formula. If the answer is negative, it is a loss."]},
+{"h":"Example","p":["Opening capital ₦100,000; closing capital ₦130,000; drawings ₦15,000; additional capital ₦5,000. Profit = 130,000 – 100,000 + 15,000 – 5,000 = ₦40,000."]},
+{"h":"Preparing the statement of affairs","p":["Step 1: list the assets at the date (cash, bank, stock, debtors, furniture) with their values. Step 2: list the liabilities (creditors, loans, bank overdraft). Step 3: capital = total assets – total liabilities. Do this for the opening date and the closing date."],"tbl":{"head":["Item","Opening (₦)","Closing (₦)"],"rows":[["Premises","80,000","80,000"],["Stock","30,000","40,000"],["Debtors","20,000","30,000"],["Cash and bank","10,000","15,000"],["Total assets","140,000","165,000"],["Less creditors","40,000","35,000"],["Capital (assets – liabilities)","100,000","130,000"]]}},
+{"h":"Solutions to the questions","p":["Evaluation question 5: opening 80,000; closing 120,000; drawings 10,000; additional capital 5,000. Profit = 120,000 – 80,000 + 10,000 – 5,000 = ₦45,000.","Assignment: opening 60,000; closing 85,000; drawings 12,000; additional capital 8,000. Profit = 85,000 – 60,000 + 12,000 – 8,000 = ₦29,000.","Items usually missing in single entry: complete ledger accounts; capital account; expense accounts (rent, wages); income accounts; asset accounts; the trial balance. (Any three.)"]},
+{"h":"Statement of affairs and balance sheet","p":["They look alike (assets, liabilities, capital) but a balance sheet comes from double-entry records and balances because of the books, while a statement of affairs is an estimate made from lists and valuations, and the capital is the balancing figure."]}
+],
+"activity":"A trader's opening capital was ₦60,000. At the end of the year his assets were ₦150,000 and his liabilities ₦50,000. He drew ₦20,000 and put in ₦10,000 more. Find the profit. (Closing capital 100,000; profit = 100,000 – 60,000 + 20,000 – 10,000 = ₦50,000.)",
+"check":[
+{"q":"Capital equals","o":["Assets – liabilities","Assets + liabilities","Liabilities – assets","Sales – expenses"]},
+{"q":"Closing 130,000, opening 100,000, drawings 15,000, extra capital 5,000 gives profit","o":["₦40,000","₦30,000","₦20,000","₦50,000"]},
+{"q":"Drawings are","o":["Added back when finding profit","Subtracted twice","Ignored","Added to liabilities"]},
+{"q":"Additional capital is","o":["Subtracted when finding profit","Added to drawings","Ignored","Treated as sales"]},
+{"q":"A negative answer from the formula means a","o":["Loss","Profit","Gain on sale","Surplus"]}
+]},
+
+{"id":"fa21-17","week":9,"title":"Reconstructing the Missing Accounts","icon":"BookOpen",
+"summary":"How to rebuild total debtors, total creditors and cash records to find credit sales and credit purchases, with a worked example.",
+"keyWords":["Total debtors account","Total creditors account","Credit sales","Credit purchases","Cash book summary"],
+"sections":[
+{"h":"Why reconstruct?","p":["The second way to deal with incomplete records is to rebuild the missing accounts from the information we do have. The three most useful reconstructions are the cash and bank summary, the total debtors account and the total creditors account. The missing figure in each is found as the balancing figure."]},
+{"h":"Total debtors account","p":["It collects everything that changed the total owed by customers. Debit side: opening debtors; credit sales (the balancing figure if unknown). Credit side: cash and cheques received from debtors; discount allowed; bad debts written off; sales returns; closing debtors."],"tbl":{"head":["Dr","₦","Cr","₦"],"rows":[["Balance b/d (opening debtors)","20,000","Cash received from debtors","150,000"],["Credit sales (balancing figure)","170,000","Discount allowed","3,000"],["","","Bad debts","2,000"],["","","Balance c/d (closing debtors)","35,000"],["Total","190,000","Total","190,000"]]}},
+{"h":"Total creditors account","p":["Credit side: opening creditors; credit purchases (the balancing figure). Debit side: cash paid to creditors; discount received; purchases returns; closing creditors."],"tbl":{"head":["Dr","₦","Cr","₦"],"rows":[["Cash paid to creditors","90,000","Balance b/d (opening creditors)","25,000"],["Discount received","2,000","Credit purchases (balancing figure)","85,000"],["Balance c/d (closing creditors)","18,000","",""],["Total","110,000","Total","110,000"]]}},
+{"h":"Putting it together","p":["Total sales = cash sales + credit sales (from the debtors account). Total purchases = cash purchases + credit purchases (from the creditors account). With these figures and the expenses from the cash book, a trading account and a profit and loss account can be prepared, and the balance sheet figures are taken from the statement of affairs."]},
+{"h":"The cash book summary","p":["List all receipts and payments from the cash book. The opening balance and the closing balance help to find any missing item (such as cash drawings or cash sales) as the balancing figure. Always check that total receipts equal total payments."]},
+{"h":"Note on the lesson","p":["The lesson note only lists these accounts; the examples above are our own to show how the balancing figures work."]}
+],
+"activity":"A trader's opening debtors were ₦12,000. During the year, ₦80,000 was received from debtors, ₦1,000 discount was allowed, and closing debtors were ₦15,000. Find the credit sales. (Total credits 96,000; less opening 12,000 gives credit sales ₦84,000.)",
+"check":[
+{"q":"In the total debtors account, credit sales are","o":["The balancing figure on the debit side","Always known","On the credit side","Ignored"]},
+{"q":"Cash received from debtors is on the","o":["Credit side of the debtors account","Debit side","Trading account","Balance sheet only"]},
+{"q":"In the total creditors account, credit purchases are on the","o":["Credit side","Debit side","Both","Neither"]},
+{"q":"Discount allowed appears on the","o":["Credit side of the debtors account","Debit side of the debtors account","Creditors account","Capital account"]},
+{"q":"Total sales equal","o":["Cash sales + credit sales","Credit sales only","Debtors","Cash received"]}
+]},
+
+{"id":"fa21-18","week":11,"title":"First Term Revision: Partnership, Non-Profit and Single Entry","icon":"ClipboardCheck",
+"summary":"A checklist of the term's formulas and formats, with the answers to the main assignments in one place.",
+"keyWords":["Revision","Appropriation","Goodwill","Surplus","Statement of affairs"],
+"sections":[
+{"h":"Checklist","p":["Appropriation account: net profit, interest on capital, salaries, interest on drawings (credit side), remaining profit in the ratio. Capital accounts: fixed and fluctuating. Current account: debit drawings and interest on drawings; credit interest on capital, salary and profit share. Admission of a partner: reasons; revaluation (old ratio); new ratio; sacrificing ratio; goodwill journals. Non-profit accounts: receipts and payments (cash basis); income and expenditure (accrual basis). Single entry: statement of affairs; reconstruct debtors and creditors."]},
+{"h":"Formulas","p":["Interest on capital = capital × rate. Remaining profit = net profit + interest on drawings – salaries – interest on capital. Sacrificing ratio = old share – new share. Profit (single entry) = closing capital – opening capital + drawings – additional capital. Surplus = income – expenditure."]},
+{"h":"Answers to the assignments","p":["Appropriation (C and D): interest 5,000 and 7,000; remaining 81,000; C 32,400, D 48,600. Capital account (C): closing balance 112,000. Current account B (Week 3): 20,600 credit. Current account B (Week 4): 19,000 credit. Admission: new ratio 12 : 8 : 5; sacrifice 3 : 2; journal Dr Bank 80,000, Cr C 60,000, Cr A 12,000, Cr B 8,000. Club R and P: ABC closing 31,000; assignment closing 15,000. I and E: ABC surplus 6,000; assignment surplus 12,000. Single entry: profits 45,000 and 29,000."]},
+{"h":"How to revise","p":["Redraw each format from memory. Redo each worked example without looking. Check that both sides of every account add to the same total. Teach a friend the difference between sacrificing ratio and profit-sharing ratio. Do one past paper in exam time and mark it honestly."]}
+],
+"activity":"Complete a past-paper question on partnership appropriation and one on income and expenditure in exam conditions. List your three most common errors and how to avoid them.",
+"check":[
+{"q":"Which account uses the cash basis?","o":["Receipts and payments","Income and expenditure","Appropriation","Current account"]},
+{"q":"Interest on drawings appears","o":["On the credit side of the appropriation account","On the debit side of the appropriation account","In the trading account","In the balance sheet only"]},
+{"q":"The sacrificing ratio is found from","o":["Old and new ratios","Capital balances","Salaries","Drawings"]},
+{"q":"The statement of affairs method finds","o":["Profit from capital figures","Cash book balances","Debtors","The trial balance"]},
+{"q":"A surplus is added to the","o":["Accumulated fund","Drawings","Debtors","Salaries"]}
+]}
+]

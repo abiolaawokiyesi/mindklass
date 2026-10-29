@@ -1,0 +1,158 @@
+[
+    {
+        "id":  "sc33-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Energy and society: energy transformation, heat transfer, electrical energy, science and development, machines, ICT, careers and science projects.",
+        "keyWords":  [
+                         "JSS 3 Intermediate Science Third Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to JSS 3 Intermediate Science Third Term",
+                             "p":  [
+                                       "Welcome to JSS 3 Intermediate Science for the third term. You will study energy transformation, heat transfer, electrical energy, science and national development, machines, ICT, careers in science and technology, and science projects.",
+                                       "Each unit has an activity and check questions. Try the simple experiments at home or in school and always follow the safety advice."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for JSS 3 Intermediate Science Third Term",
+                             "p":  [
+                                       "The units below follow the school scheme of work week by week."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Energy and Energy Transformation"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Examples of Energy Transformation and Conservation of Energy"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Heat and Heat Transfer: Conduction and Convection"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Radiation, Conductors, Insulators and the Vacuum Flask"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "Electrical Energy: Sources, Current and Circuits"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Series and Parallel Circuits, Home Wiring and Saving Electricity"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "4",
+                                                          "Science, Technology and National Development"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "Research, Contributions of Science and Technology, and Great Innovators"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "6",
+                                                          "Work, Machines and Simple Machines"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "The Six Simple Machines and Mechanical Advantage"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "8",
+                                                          "ICT and Scientific Advancement: Data and Analysis"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "8",
+                                                          "The Internet, Communication and Global Learning"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "9",
+                                                          "Careers in Science and Technology"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "9",
+                                                          "Skills for Science Careers and Why They Matter to Nigeria"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "10",
+                                                          "The Scientific Method"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "10",
+                                                          "Planning, Teamwork and Presenting a Science Exhibition"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "11",
+                                                          "Third Term Revision: Energy, Heat, Electricity, Machines and Science in Society"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic comes first in third term?",
+                          "o":  [
+                                    "Energy transformation",
+                                    "The cell",
+                                    "Ecosystems",
+                                    "Atoms"
+                                ]
+                      },
+                      {
+                          "q":  "How many options does each check question have?",
+                          "o":  [
+                                    "Four",
+                                    "Two",
+                                    "Six",
+                                    "One"
+                                ]
+                      },
+                      {
+                          "q":  "When doing experiments you should",
+                          "o":  [
+                                    "Follow the safety advice",
+                                    "Ignore safety",
+                                    "Work alone with chemicals",
+                                    "Run in the lab"
+                                ]
+                      }
+                  ]
+    }
+]

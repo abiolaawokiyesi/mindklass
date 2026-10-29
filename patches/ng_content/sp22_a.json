@@ -1,0 +1,127 @@
+[
+{"id":"sp22-02","week":1,"title":"Electric Field: Meaning, Strength and Coulomb's Law","icon":"Zap",
+"summary":"What an electric field is, its direction, the field strength E = F/q, the field of a point charge, and Coulomb's law with units and the constants.",
+"keyWords":["Electric field","Source charge","Test charge","Field strength","Coulomb's law","Permittivity"],
+"sections":[
+{"h":"Meaning of an electric field","p":["An electric field is a region of space around a charged body in which another charge feels a force. It is a vector field because it has both size (magnitude) and direction. Two key terms: the source charge Q is the charge that creates the field; the test charge q is a very small positive charge placed in the field to find out what the field is like."]},
+{"h":"Direction of the field","p":["The direction of an electric field at a point is the direction of the force on a small positive test charge placed there. So the field of a positive charge points outward (radiates away from it) and the field of a negative charge points inward (towards it)."]},
+{"h":"Electric field strength, E","p":["Electric field strength is the force per unit positive charge on a small test charge in the field: E = F ÷ q. Its unit is newton per coulomb (N/C), which is the same as volt per metre (V/m). Here F is the force on the test charge in newtons and q is the size of the test charge in coulombs.","From this: F = qE. A charge of 4 nC in a field where the force is 5 × 10⁻⁴ N has E = 5 × 10⁻⁴ ÷ 4 × 10⁻⁹ = 1.25 × 10⁵ N/C."]},
+{"h":"Field of a point charge","p":["For a point charge Q, the strength at a distance r is E = kQ ÷ r², where k = 1 ÷ 4πε₀ = 8.99 × 10⁹ N m²/C² (usually rounded to 9 × 10⁹) and ε₀ = 8.85 × 10⁻¹² C²/N m² is the permittivity of free space.","Derivation: by Coulomb's law the force on a test charge q is F = kQq ÷ r². Dividing by q gives E = F ÷ q = kQ ÷ r². This is the derivation asked for in the theory questions."]},
+{"h":"Coulomb's law","p":["The force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them: F = kq₁q₂ ÷ r². F is in newtons, q₁ and q₂ in coulombs and r in metres. The force is attractive if the charges are unlike and repulsive if they are like."]},
+{"h":"Properties of electric fields","p":["Study the table."],"tbl":{"head":["Property","Explanation"],"rows":[["Vector field","Has magnitude and direction"],["Inverse square law","The strength falls as the distance grows (double the distance, a quarter of the strength)"],["Direction","The direction of the force on a positive test charge"],["Conservative","The work done in moving a charge does not depend on the path taken"],["Superposition","The total field is the vector sum of all the separate fields"],["Depends on the medium","The field (and force) is weaker in an insulating material than in a vacuum, because E = Q ÷ 4πεr², where ε = ε₀εr and εr is the relative permittivity"]]}}
+],
+"activity":"Define an electric field and state its unit. Derive E = kQ/r². Calculate the force between a 6 µC charge and an 8 µC charge 3 m apart (0.048 N).",
+"check":[
+{"q":"The direction of an electric field is the direction of force on","o":["A small positive test charge","A negative charge","A neutral body","A magnet"]},
+{"q":"The unit of electric field strength is","o":["N/C","N/kg","T","J/s"]},
+{"q":"The field of a point charge is proportional to","o":["1/r²","r","r²","1/r"]},
+{"q":"Like charges","o":["Repel","Attract","Have no force","Cancel"]},
+{"q":"The constant k = 1/4πε₀ is about","o":["9 × 10⁹ N m²/C²","6.67 × 10⁻¹¹ N m²/kg²","1.6 × 10⁻¹⁹ C","3 × 10⁸ m/s"]}
+]},
+
+{"id":"sp22-03","week":1,"title":"Electric Field Lines, Uniform Fields, Conductors and Insulators","icon":"Zap",
+"summary":"How electric field lines are drawn and what they show, uniform and non-uniform fields, conductors and insulators, and a comparison with gravitational fields.",
+"keyWords":["Field lines","Dipole","Uniform field","Non-uniform field","Conductor","Insulator","Resistance"],
+"sections":[
+{"h":"Field lines (lines of force)","p":["Field lines are imaginary lines that show the direction of the electric field. Their properties: they begin on positive charges and end on negative charges; they never cross; the closer together they are, the stronger the field; and they meet the surface of a conductor at right angles."]},
+{"h":"Patterns","p":["A single positive charge: lines radiate outward. A single negative charge: lines point inward. Two like charges: the lines push each other away and curve apart (see the pictures in the First Term course). Two opposite charges (a dipole): the lines start on the positive charge and end on the negative one in curved paths."]},
+{"h":"Uniform and non-uniform fields","p":["In a uniform field the strength is the same everywhere in size and direction. You get one between two parallel plates, where the lines are straight, parallel and equally spaced. In a non-uniform field the strength changes from place to place, as around a point charge or an irregular body."]},
+{"h":"Conductors and insulators","p":["A conductor lets electric current flow easily: all metals (silver, copper, iron, aluminium, zinc, brass), water with salts in it, acid solutions, damp air. An insulator does not: ebonite, glass, dry wood, plastic. Resistance is the opposition to the flow of current. Its SI unit is the ohm (Ω). A component made to give a certain resistance in a circuit is called a resistor."]},
+{"h":"Electric and gravitational fields compared","p":["Study the table."],"tbl":{"head":["Feature","Electric field","Gravitational field"],"rows":[["Source","Electric charge","Mass"],["Nature of force","Attractive or repulsive","Always attractive"],["Inverse square law","Yes","Yes"],["Field lines","From positive to negative","Towards the mass"],["Test object","A small positive charge","A small mass"],["Constant","k = 1/4πε₀ = 9 × 10⁹","G = 6.67 × 10⁻¹¹"],["Strength in everyday life","Very strong","Very weak (only noticeable for huge masses)"]]}},
+{"h":"Applications of electric fields","p":["Cathode ray tubes (an electric field deflects the electron beam). Photocopiers and laser printers (static electric fields). Electrostatic precipitators (remove particles from smoke). Capacitors (store energy in an electric field). Particle accelerators (electric fields speed up charged particles)."]}
+],
+"activity":"List four properties of electric field lines. Compare gravitational and electric fields in at least four points. Draw the field lines for a positive charge, a dipole and two like charges.",
+"check":[
+{"q":"Electric field lines","o":["Never cross each other","Cross at neutral points","Start on negative charges","Are always straight"]},
+{"q":"A uniform field is found between","o":["Two parallel plates","A single point charge","Two like charges","A bar magnet"]},
+{"q":"Which of these is a conductor?","o":["Copper","Glass","Dry wood","Ebonite"]},
+{"q":"The SI unit of resistance is the","o":["Ohm","Volt","Ampere","Watt"]},
+{"q":"The force from gravity is","o":["Always attractive","Sometimes repulsive","Zero","Stronger than the electric force for atoms"]}
+]},
+
+{"id":"sp22-04","week":1,"title":"Resistors in Series and Parallel, and Worked Examples on Electric Fields","icon":"Zap",
+"summary":"Resistor combinations with examples, then fully worked and corrected calculations on field strength, with answers to the evaluation and assignment.",
+"keyWords":["Series","Parallel","Effective resistance","Field strength","Calculation"],
+"sections":[
+{"h":"Series connection","p":["Resistors are joined end to end and the same current passes through each one. The total (effective) resistance is R = R₁ + R₂ + R₃ + … + Rₙ. Example 1: six resistors of 4 Ω in series give R = 6 × 4 = 24 Ω."]},
+{"h":"Parallel connection","p":["Resistors are joined side by side between two common points. The current splits, with more current flowing through the smaller resistance. The total resistance is given by 1/R = 1/R₁ + 1/R₂ + … + 1/Rₙ. The total is always smaller than the smallest resistor."]},
+{"h":"A mixed example","p":["A 35 kΩ resistor is in series with a 40 kΩ resistor. What resistance R must be connected in parallel with the combination to give 25 kΩ?","Series part: 35 + 40 = 75 kΩ. Then 1/25 = 1/R + 1/75, so 1/R = 1/25 – 1/75 = 3/75 – 1/75 = 2/75. So R = 75 ÷ 2 = 37.5 kΩ."]},
+{"h":"Worked examples on field strength","p":["1. Electric field 0.1 m from a point charge of 2.0 × 10⁻⁶ C: E = kQ/r² = (9 × 10⁹ × 2.0 × 10⁻⁶) ÷ (0.1)² = 1.8 × 10⁴ ÷ 0.01 = 1.8 × 10⁶ N/C. (The lesson note gave 1.8 × 10⁵ N/C, which is ten times too small, and wrote the unit of charge as C². The unit of charge is C, not C².)","2. A 4 nC charge feels a force of 5 × 10⁻⁴ N: E = F/q = 5 × 10⁻⁴ ÷ 4 × 10⁻⁹ = 1.25 × 10⁵ N/C.","3. E at 20 cm from a charge of 6 × 10⁻⁵ C: E = (9 × 10⁹ × 6 × 10⁻⁵) ÷ (0.2)² = 5.4 × 10⁵ ÷ 0.04 = 1.35 × 10⁷ N/C."]},
+{"h":"Answers to the evaluation and assignment","p":["Objective questions: electric field strength is force per unit charge (B); its SI unit is N/C (C); field lines never cross each other (D).","Theory: a 2 µC charge feeling 0.01 N has E = 0.01 ÷ 2 × 10⁻⁶ = 5,000 N/C. A test charge of 4 µC feeling 2 × 10⁻² N has E = 2 × 10⁻² ÷ 4 × 10⁻⁶ = 5,000 N/C. Two charges of 6 µC and 8 µC 3 m apart: F = 9 × 10⁹ × 6 × 10⁻⁶ × 8 × 10⁻⁶ ÷ 3² = 0.432 ÷ 9 = 0.048 N (repulsive, as the charges are alike)."]}
+],
+"activity":"Find the total resistance of 10 Ω, 20 Ω and 30 Ω in series (60 Ω) and in parallel (about 5.45 Ω). Recalculate the field 0.1 m from a 2 µC charge and say why the note's answer is wrong.",
+"check":[
+{"q":"Three resistors of 4 Ω in series give","o":["12 Ω","4/3 Ω","1.33 Ω","16 Ω"]},
+{"q":"In a parallel circuit the total resistance is","o":["Less than the smallest resistor","More than the largest","Equal to the sum","Always 1 Ω"]},
+{"q":"E at 0.1 m from a 2.0 × 10⁻⁶ C charge is","o":["1.8 × 10⁶ N/C","1.8 × 10⁵ N/C","1.8 × 10⁴ N/C","1.8 × 10⁷ N/C"]},
+{"q":"A force of 0.01 N on a 2 µC charge gives E =","o":["5,000 N/C","0.02 N/C","20,000 N/C","500 N/C"]},
+{"q":"The unit of charge is the","o":["Coulomb","Newton","Tesla","Ohm"]}
+]},
+
+{"id":"sp22-05","week":2,"title":"Magnetic Fields: Sources, Field Lines and Patterns","icon":"Layers",
+"summary":"What a magnetic field is, where it comes from, how its lines are drawn, the patterns around magnets, wires, loops and solenoids, and the right-hand rules.",
+"keyWords":["Magnetic field","Permanent magnet","Electromagnet","Solenoid","Field lines","Right-hand grip rule"],
+"sections":[
+{"h":"Meaning","p":["A magnetic field is the region around a magnet, a current-carrying conductor or a moving charge in which a magnetic force acts on other magnetic materials or moving charges."]},
+{"h":"Sources","p":["Permanent magnets: bar, horseshoe and neodymium magnets; the field is strongest at the poles. Current-carrying conductors: any wire with current has a magnetic field round it. Solenoids and electromagnets: a solenoid is a long coil that acts like a bar magnet when current flows; an electromagnet is a solenoid with a soft iron core, which makes the field much stronger. Moving charges: every moving charge produces a magnetic field, which is the basis of electromagnetism."]},
+{"h":"Magnetic field lines","p":["Field lines are imaginary lines showing the direction and strength of the field. Their properties: they come out from the north pole and go into the south pole outside the magnet; they form closed loops, going through the magnet from south to north; they never cross; closer lines mean a stronger field; the tangent to a line at a point gives the direction of the field there; and the lines behave as if they are stretched (tension) and push each other sideways."]},
+{"h":"Patterns of magnetic field","p":["Bar magnet: symmetrical loops from north to south, strongest at the poles. Straight wire: concentric circles round the wire. Circular loop: circles that are strongest and densest at the centre of the loop. Solenoid: like a bar magnet, strong and almost uniform inside, weak and spreading outside; the polarity depends on the direction of the current."]},
+{"h":"Right-hand rules","p":["Right-hand grip rule (straight wire): grip the wire with the right hand so that the thumb points in the direction of the current; the fingers curl in the direction of the magnetic field.","Right-hand solenoid rule: curl the fingers of the right hand in the direction of the current in the coils; the thumb points to the magnetic north pole of the solenoid."]},
+{"h":"Uses of electromagnets","p":["Generators and motors; lifting iron scrap and separating it from rubbish; cranes carrying heavy iron objects; electric bells and telephone earpieces; relays (switches controlled by electromagnets); industrial robots in car factories; MRI scanners in hospitals."]},
+{"h":"How to make an electromagnet stronger","p":["Increase the current; increase the number of turns of wire; wind the turns closer together (more turns per metre); use a soft iron core (not steel, because soft iron loses its magnetism when the current is switched off)."]}
+],
+"activity":"State five properties of magnetic field lines. Describe the right-hand grip rule and the solenoid rule. List three ways of making an electromagnet stronger.",
+"check":[
+{"q":"Outside a magnet, field lines go from","o":["North pole to south pole","South pole to north pole","Left to right","Inside to outside"]},
+{"q":"The field round a straight current-carrying wire is","o":["Concentric circles","Straight lines along the wire","Zero","Radial"]},
+{"q":"In the right-hand grip rule the thumb shows the","o":["Direction of current","Direction of the field","Direction of the force","Direction of the voltage"]},
+{"q":"An electromagnet is made stronger by","o":["More turns and an iron core","Fewer turns","Removing the current","A plastic core"]},
+{"q":"A solenoid behaves like a","o":["Bar magnet","Battery","Capacitor","Resistor"]}
+]},
+
+{"id":"sp22-06","week":2,"title":"Magnetic Flux, Force on a Conductor and the Motor Effect","icon":"Layers",
+"summary":"Flux and flux density, the force on a current in a field with Fleming's left-hand rule, the field of a loop (with the formula corrected), worked examples and applications.",
+"keyWords":["Magnetic flux","Flux density","Tesla","Motor effect","Fleming's left-hand rule","Permeability"],
+"sections":[
+{"h":"Magnetic flux and flux density","p":["Magnetic flux Φ is the number of magnetic field lines passing through a surface: Φ = BA cos θ, where B is the flux density in tesla (T), A is the area in m², and θ is the angle between the field B and the normal (the line at right angles) to the area. The unit of flux is the weber (Wb).","Magnetic flux density B is the flux per unit area: B = Φ ÷ (A cos θ). Its SI unit is the tesla: 1 T = 1 Wb/m²."]},
+{"h":"Force on a current-carrying conductor","p":["A wire carrying current in a magnetic field feels a force. This is the motor effect, the principle of the electric motor. The size of the force is F = BIL sin θ, where B is the flux density (T), I the current (A), L the length of wire in the field (m), and θ the angle between the wire and the field. The force is greatest (F = BIL) when the wire is at right angles to the field (θ = 90°), and zero when the wire is parallel to it."]},
+{"h":"Fleming's left-hand rule","p":["Hold the thumb, first finger and second finger of the left hand at right angles to each other. The First finger points in the direction of the Field, the seCond finger points in the direction of the Current, and the thuMb points in the direction of the Motion (the force)."]},
+{"h":"Field at the centre of a circular coil","p":["For a single circular loop of radius R carrying current I, the field at the centre is B = μ₀I ÷ 2R. For a coil of N turns, B = μ₀NI ÷ 2R. Here μ₀ = 4π × 10⁻⁷ T m/A is the permeability of free space. (The lesson note's text prints these as 'μ₀I^2R', which is a broken version of μ₀I ÷ 2R: the 2 is in the denominator.)","Example: a single loop of radius 0.10 m carries 2.0 A. B = 4π × 10⁻⁷ × 2.0 ÷ (2 × 0.10) = 1.26 × 10⁻⁵ T."]},
+{"h":"Electricity and magnetism are linked","p":["A current produces a magnetic field. A changing magnetic field produces (induces) an electric current. This link (electromagnetic induction) is used in generators, motors and transformers."]},
+{"h":"Worked examples","p":["1. A wire 10 cm long carries 4.0 A in a field of flux density 2.0 T. The wire makes 60° with the field. F = BIL sin θ = 2.0 × 4.0 × 0.10 × sin 60° = 0.8 × 0.866 = 0.69 N.","2. The same wire at right angles to the field (the maximum force): F = BIL = 2.0 × 4.0 × 0.10 = 0.8 N.","3. Evaluation question 4: a wire 0.5 m long carries 10 A at 90° to a 0.3 T field: F = 0.3 × 10 × 0.5 = 1.5 N."]},
+{"h":"Applications of magnetic fields","p":["Electric motors; generators; transformers; MRI scanners; loudspeakers and microphones; maglev trains (floating on electromagnets); magnetic stripes on cards; hard disks and tapes; particle accelerators; compasses (the Earth has a magnetic field)."]},
+{"h":"Answers to the assignment","p":["Permanent magnets and electromagnets: a permanent magnet is always magnetic and cannot be switched off; an electromagnet works only while current flows. A permanent magnet has a fixed strength and polarity; an electromagnet's strength can be changed by changing the current or turns, and its polarity reversed by reversing the current. An electromagnet needs a power supply; a permanent magnet does not. An electromagnet can be made very strong; a permanent magnet's strength is limited. A permanent magnet can lose its magnetism if heated or hammered; an electromagnet cannot lose its strength in that way.","DC motor in brief: a rectangular coil sits between the poles of a magnet. The current in the two sides of the coil flows in opposite directions, so the force on one side is up and on the other down, and the coil turns. A split-ring commutator reverses the current every half turn so the coil keeps turning in the same direction, and brushes make contact with the commutator."]}
+],
+"activity":"Write down the formula for the force on a current-carrying wire and say when it is greatest. Find the force on a 2 m wire carrying 6 A at right angles to a 0.5 T field (6 N).",
+"check":[
+{"q":"The SI unit of magnetic flux density is the","o":["Tesla","Weber","Henry","Farad"]},
+{"q":"The force on a wire is greatest when it is","o":["At 90° to the field","Parallel to the field","At 45° to the field","In no field"]},
+{"q":"In Fleming's left-hand rule the thumb shows","o":["Motion (force)","Current","Field","Voltage"]},
+{"q":"The force on a 0.5 m wire carrying 10 A at 90° in a 0.3 T field is","o":["1.5 N","15 N","0.15 N","3.0 N"]},
+{"q":"The motor effect is the working principle of the","o":["Electric motor","Generator","Transformer","Battery"]}
+]},
+
+{"id":"sp22-07","week":3,"title":"The Electromagnetic Field: Components, Waves and Faraday's Law","icon":"Zap",
+"summary":"The electric and magnetic parts of an electromagnetic field, how it arises, how it travels as waves, the Lorentz force, induction, and a comparison of the three fields.",
+"keyWords":["Electromagnetic field","Maxwell","Lorentz force","Faraday's law","Lenz's law","Electromagnetic wave"],
+"sections":[
+{"h":"Meaning","p":["An electromagnetic field is a field made by charged objects, with an electric part and a magnetic part that interact with each other and with other charged particles. It is the region where electric and magnetic forces act together because of moving charges (such as electric currents)."]},
+{"h":"Components","p":["The electric field E is produced by charges (stationary or moving), points from positive to negative charges and is measured in volts per metre (V/m). The magnetic field B is produced by moving charges (current), its direction is given by the right-hand rules and it is measured in tesla (T). In an electromagnetic wave the two fields are at right angles to each other and to the direction in which the wave travels."]},
+{"h":"Origin","p":["A stationary charge makes only an electric field. A moving charge (a current) makes both an electric and a magnetic field. An accelerating charge sends out electromagnetic radiation, such as radio waves and X-rays."]},
+{"h":"A self-travelling wave","p":["According to Maxwell's equations, a changing electric field makes a magnetic field, and a changing magnetic field makes an electric field. Each keeps making the other, so the fields travel through space on their own as electromagnetic waves, such as light, at the speed c = 3 × 10⁸ m/s in a vacuum."]},
+{"h":"Properties","p":["It has oscillating electric and magnetic fields. The fields are perpendicular to each other. The wave travels in a direction perpendicular to both. It travels at the speed of light in a vacuum. It can exert forces on charges. It carries energy and momentum (for example, radiation pressure)."]},
+{"h":"The Lorentz force","p":["The total force on a moving charge q in an electromagnetic field is F = q(E + v × B): the electric force qE plus the magnetic force on the moving charge. (For a charge moving at 90° to B, the magnetic part is qvB.)"]},
+{"h":"Electromagnetic induction","p":["Michael Faraday discovered that an e.m.f. is produced in a conductor when the magnetic flux through it changes. Faraday's law: the induced e.m.f. is proportional to the rate of change of flux linkage, ε = –N (ΔΦ ÷ Δt). The minus sign is Lenz's law: the induced e.m.f. acts in a direction to oppose the change that produces it. These laws are the basis of generators, transformers and inductors."]},
+{"h":"Electric, magnetic and electromagnetic fields compared","p":["Study the table."],"tbl":{"head":["Feature","Electric field","Magnetic field","Electromagnetic field"],"rows":[["Source","Charges","Moving charges (current) and magnets","Moving or accelerating charges"],["Vector?","Yes","Yes","Yes"],["Acts on","Charges","Moving charges","Both charges and currents"],["Produces","Force on charges","Circular field round current","Radiation and travelling energy"],["Unit","V/m (N/C)","Tesla (T)","Combination of E and B units"],["Independent?","Yes (static charge)","Yes (a magnet)","The E and B parts are linked"]]}},
+{"h":"Answers to evaluation question 7","p":["A wire carries 6 A at right angles to a 0.5 T field. The force on 2 m of it is F = BIL = 0.5 × 6 × 2 = 6 N."]},
+{"h":"Mobile phones","p":["A phone changes your voice into an electrical signal and then into radio waves (a changing electromagnetic field) sent to a mast. The mast passes the signal on to the other phone, which does the reverse. Wi-Fi, Bluetooth and television use the same idea with different frequencies."]}
+],
+"activity":"Explain how a moving electric charge gives rise to an electromagnetic field. Describe the direction and structure of an electromagnetic wave. State Faraday's law and Lenz's law. Explain the role of electromagnetic waves in a mobile phone call.",
+"check":[
+{"q":"A stationary charge produces","o":["Only an electric field","Only a magnetic field","Both fields","No field"]},
+{"q":"In an electromagnetic wave, E and B are","o":["Perpendicular to each other","Parallel","Opposite in direction only","Not related"]},
+{"q":"The speed of electromagnetic waves in a vacuum is","o":["3 × 10⁸ m/s","340 m/s","3 × 10⁶ m/s","9.8 m/s"]},
+{"q":"Lenz's law says the induced e.m.f. will","o":["Oppose the change producing it","Help the change","Be zero","Be constant"]},
+{"q":"The force on 2 m of a wire carrying 6 A at 90° in a 0.5 T field is","o":["6 N","3 N","12 N","1.5 N"]}
+]}
+]

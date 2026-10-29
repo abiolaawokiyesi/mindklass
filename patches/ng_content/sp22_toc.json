@@ -1,0 +1,138 @@
+[
+    {
+        "id":  "sp22-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Physics Second Term, with a table of contents covering electric, magnetic and electromagnetic fields, a.c. circuits, batteries and solar collectors.",
+        "keyWords":  [
+                         "SS2 Physics Second Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Physics Second Term",
+                             "p":  [
+                                       "Welcome to SS2 Physics for the second term. You will study electric fields, magnetic fields, electromagnetic fields, simple a.c. circuits, batteries and solar collectors, in simple language with worked examples.",
+                                       "Each unit has an activity and check questions. Where the original note had a mistake in a formula or a calculation, we correct it in the unit and explain why."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Physics Second Term",
+                             "p":  [
+                                       "The units below follow the school scheme of work week by week."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Electric Field: Meaning, Strength and Coulomb\u0027s Law"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Electric Field Lines, Uniform Fields, Conductors and Insulators"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "1",
+                                                          "Resistors in Series and Parallel, and Worked Examples on Electric Fields"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Magnetic Fields: Sources, Field Lines and Patterns"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "2",
+                                                          "Magnetic Flux, Force on a Conductor and the Motor Effect"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "The Electromagnetic Field: Components, Waves and Faraday\u0027s Law"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "4",
+                                                          "Alternating Current: Meaning, Characteristics and Reactance"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "R-L, R-C and R-L-C Circuits: Impedance, Power and Resonance"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "4",
+                                                          "A.C. Circuit Calculations with Corrected Answers"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "Batteries: Cells, e.m.f., Internal Resistance and Safety"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "8",
+                                                          "Solar Collectors: Types, Components and Comparison with Solar Panels"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "8",
+                                                          "Solar Collectors: Uses, Design for Efficiency and Calculations"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "9",
+                                                          "Second Term Revision: Fields, A.C., Batteries and Solar Collectors"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic comes first in SS2 Physics Second Term?",
+                          "o":  [
+                                    "Electric field",
+                                    "Nuclear fusion",
+                                    "Photoelectric effect",
+                                    "Electroplating"
+                                ]
+                      },
+                      {
+                          "q":  "What do you do with the check questions in each unit?",
+                          "o":  [
+                                    "Answer them to test yourself",
+                                    "Skip them",
+                                    "Copy them",
+                                    "Ignore them"
+                                ]
+                      },
+                      {
+                          "q":  "The best way to learn the calculations is to",
+                          "o":  [
+                                    "Redo the worked examples yourself",
+                                    "Only read the answers",
+                                    "Memorise the numbers",
+                                    "Skip them"
+                                ]
+                      }
+                  ]
+    }
+]

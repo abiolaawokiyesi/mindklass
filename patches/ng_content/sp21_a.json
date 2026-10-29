@@ -1,0 +1,184 @@
+[
+{"id":"sp21-02","week":1,"title":"The Nature of Light and the Electromagnetic Spectrum","icon":"Zap",
+"summary":"Light as an electromagnetic wave: its properties, speed, frequency and wavelength ranges, the spectrum, and how fast light travels in different materials.",
+"keyWords":["Light","Electromagnetic wave","Transverse wave","Wavelength","Frequency","Speed of light","Spectrum"],
+"sections":[
+{"h":"What is light?","p":["Light is a form of electromagnetic radiation that the human eye can detect. It shows a dual nature: sometimes it behaves like a stream of particles (photons, in quantum theory) and sometimes like a wave. In these units we study its wave nature."]},
+{"h":"Properties of light waves","p":["Study the table."],"tbl":{"head":["Property","Description"],"rows":[["Type","Electromagnetic wave"],["Nature","Transverse (the vibration is at right angles to the direction of travel)"],["Medium","Does not need a medium; it travels through a vacuum"],["Speed in a vacuum","3.0 × 10⁸ m/s"],["Frequency range (visible)","About 4 × 10¹⁴ Hz to 7.5 × 10¹⁴ Hz"],["Wavelength range (visible)","About 400 nm (violet) to 700 nm (red)"]]}},
+{"h":"The wave equation for light","p":["For any wave, speed = frequency × wavelength: c = fλ. For light in a vacuum, c = 3.0 × 10⁸ m/s. So λ = c ÷ f and f = c ÷ λ. Worked examples: a light of frequency 5 × 10¹⁴ Hz has wavelength λ = 3 × 10⁸ ÷ 5 × 10¹⁴ = 6.0 × 10⁻⁷ m = 600 nm (orange). A light of wavelength 600 nm has frequency f = 3 × 10⁸ ÷ 6 × 10⁻⁷ = 5 × 10¹⁴ Hz."]},
+{"h":"Speed of light in different media","p":["Light travels fastest in a vacuum and slows down in matter. The lesson note gives about 2.98 × 10⁸ m/s for air; in fact the value is almost the same as in a vacuum, about 2.997 × 10⁸ m/s, which we usually round to 3.0 × 10⁸ m/s."],"tbl":{"head":["Medium","Approximate speed (m/s)"],"rows":[["Vacuum","3.0 × 10⁸"],["Air","about 3.0 × 10⁸ (very slightly less)"],["Water","about 2.25 × 10⁸"],["Glass","about 2.0 × 10⁸"]]}},
+{"h":"The electromagnetic spectrum","p":["Light is a small part of the electromagnetic spectrum. In order of increasing frequency (and decreasing wavelength): radio waves, microwaves, infrared, visible light, ultraviolet, X-rays and gamma rays. All travel at the same speed in a vacuum and are transverse waves; they differ in frequency and wavelength, and in how they interact with matter."]},
+{"h":"Uses of parts of the spectrum","p":["Radio: broadcasting and mobile phones. Microwaves: cooking and satellite links. Infrared: remote controls and heaters. Visible light: seeing. Ultraviolet: sterilising and detecting fake notes. X-rays: medical imaging. Gamma rays: sterilising equipment and treating cancer."]}
+],
+"activity":"State four properties of light waves. Calculate the wavelength of light of frequency 5 × 10¹⁴ Hz (600 nm) and the frequency of light of wavelength 600 nm (5 × 10¹⁴ Hz). List the parts of the electromagnetic spectrum in order of increasing frequency.",
+"check":[
+{"q":"Light is a","o":["Transverse electromagnetic wave","Longitudinal sound wave","Mechanical wave only","Particle only"]},
+{"q":"The speed of light in a vacuum is","o":["3.0 × 10⁸ m/s","3.4 × 10² m/s","3.0 × 10⁶ m/s","3.0 × 10¹⁰ km/s"]},
+{"q":"Visible light has wavelengths from about","o":["400 nm to 700 nm","4 nm to 7 nm","4 mm to 7 mm","40 m to 70 m"]},
+{"q":"Which has the highest frequency?","o":["Gamma rays","Radio waves","Infrared","Visible light"]},
+{"q":"Light needs","o":["No medium","Air","Water","Glass"]}
+]},
+
+{"id":"sp21-03","week":1,"title":"Reflection of Light and Spherical Mirrors","icon":"Layers",
+"summary":"The laws of reflection, concave and convex mirrors, the parts of a spherical mirror and the image formed for each object position.",
+"keyWords":["Reflection","Laws of reflection","Concave mirror","Convex mirror","Focal length","Radius of curvature"],
+"sections":[
+{"h":"Reflection","p":["Reflection is the bouncing back of light from a surface. Laws of reflection: (1) the angle of incidence equals the angle of reflection; (2) the incident ray, the reflected ray and the normal (the line at right angles to the surface) all lie in the same plane. Uses: mirrors, periscopes and rear-view mirrors."]},
+{"h":"Concave and convex mirrors","p":["A concave mirror (converging mirror) curves inward, like the inside of a spoon. A convex mirror (diverging mirror) curves outward, like the back of a spoon."]},
+{"h":"Parts of a spherical mirror","p":["Pole (P): the centre of the mirror surface. Centre of curvature (C): the centre of the sphere of which the mirror is a part. Radius of curvature (R): the distance CP. Principal axis: the line through P and C. Principal focus (F): the point where parallel rays meet (concave) or seem to come from (convex) after reflection. Focal length (f): the distance PF. For a spherical mirror, f = R ÷ 2."]},
+{"h":"Concave mirror: images for different object positions","p":["Study the table."],"tbl":{"head":["Object position","Image position","Nature of the image"],"rows":[["At infinity","At F","Real, inverted, very small"],["Beyond C","Between C and F","Real, inverted, smaller"],["At C","At C","Real, inverted, same size"],["Between C and F","Beyond C","Real, inverted, larger"],["At F","At infinity","Real, inverted, very large"],["Between F and P","Behind the mirror","Virtual, erect, larger"]]}},
+{"h":"Convex mirror","p":["For every object position the image is virtual, erect, smaller and formed behind the mirror, between the pole and the focus."]},
+{"h":"Real and virtual images","p":["A real image is formed where rays actually meet and can be caught on a screen. A virtual image is formed where rays only seem to come from; it cannot be caught on a screen and appears behind the mirror."]}
+],
+"activity":"State the two laws of reflection. Define the pole, centre of curvature and principal focus of a concave mirror. Describe the image when an object is placed between F and P of a concave mirror.",
+"check":[
+{"q":"The focal length of a mirror of radius 20 cm is","o":["10 cm","40 cm","20 cm","5 cm"]},
+{"q":"A convex mirror always forms an image that is","o":["Virtual, erect and smaller","Real and inverted","Real and larger","Inverted and virtual"]},
+{"q":"An object at C of a concave mirror gives an image","o":["At C, same size, real and inverted","At infinity","Behind the mirror","Smaller than the object"]},
+{"q":"The angle of incidence equals the","o":["Angle of reflection","Angle of refraction","Critical angle","Angle of deviation"]},
+{"q":"A virtual image can be caught on","o":["No screen","A screen","Film only","A wall only"]}
+]},
+
+{"id":"sp21-04","week":1,"title":"The Mirror Formula, Magnification and Uses of Mirrors","icon":"Target",
+"summary":"The mirror formula 1/f = 1/u + 1/v and magnification, a simple sign convention, two corrected worked examples and the uses of concave and convex mirrors.",
+"keyWords":["Mirror formula","Magnification","Real-is-positive","Image distance","Object distance"],
+"sections":[
+{"h":"The formulas","p":["Mirror formula: 1/f = 1/u + 1/v, where f is the focal length, u the object distance and v the image distance. Magnification: M = image height ÷ object height = v ÷ u.","Sign convention used here (real-is-positive): distances of real objects and real images are positive; distances of virtual images are negative; the focal length of a concave mirror is positive and that of a convex mirror is negative. A correction to the lesson note: it says that the focal length of a concave mirror is positive when the image is real and negative when virtual. This is wrong; the sign of f depends only on the type of mirror (concave positive, convex negative), while the sign of v tells you whether the image is real or virtual."]},
+{"h":"Worked example 1","p":["An object is 30 cm in front of a concave mirror of focal length 10 cm. Find the image position, nature and magnification.","1/v = 1/f – 1/u = 1/10 – 1/30 = 3/30 – 1/30 = 2/30 = 1/15. So v = +15 cm: the image is real, inverted and 15 cm in front of the mirror.","M = v ÷ u = 15 ÷ 30 = 0.5. The image is half the size of the object (diminished)."]},
+{"h":"Worked example 2","p":["An object is 1.0 m from a concave mirror of radius of curvature 4.0 m. Describe the image.","f = R ÷ 2 = 4.0 ÷ 2 = 2.0 m. The object is inside the focal length (u = 1.0 m < f = 2.0 m).","1/v = 1/f – 1/u = 1/2 – 1/1 = –1/2. So v = –2.0 m. The negative sign shows a virtual image, 2.0 m behind the mirror. M = v ÷ u = 2.0 ÷ 1.0 = 2 in size: the image is erect and twice as big (magnified). (The lesson note stops at v = –2; the description above completes the answer.)"]},
+{"h":"Uses of concave mirrors","p":["Torches, flashlights and car headlamps (the lamp is at the focus, so a strong parallel beam comes out); shaving and make-up mirrors (a magnified, upright image); telescopes and solar cookers (they collect and focus light)."]},
+{"h":"Uses of convex mirrors","p":["Rear-view mirrors in vehicles (a wide field of view); security mirrors in shops and corridors; mirrors at road junctions and blind corners."]},
+{"h":"Quick checks","p":["If the object is at the focus of a concave mirror, 1/v = 1/f – 1/f = 0, so v is infinite: the rays come out parallel. A plane mirror has an infinite focal length, giving v = –u and M = 1: a virtual image as far behind the mirror as the object is in front."]}
+],
+"activity":"An object is 20 cm from a concave mirror of focal length 15 cm. Find v and M. (v = 60 cm, real; M = 3, enlarged and inverted.) Explain why a convex mirror is used as a car's rear-view mirror.",
+"check":[
+{"q":"The mirror formula is","o":["1/f = 1/u + 1/v","f = u + v","1/f = u + v","f = uv"]},
+{"q":"Magnification equals","o":["v ÷ u","u ÷ v","f ÷ u","u × v"]},
+{"q":"Object 30 cm, f = 10 cm concave gives v of","o":["15 cm","30 cm","–15 cm","10 cm"]},
+{"q":"A negative image distance means the image is","o":["Virtual","Real","At infinity","Inverted only"]},
+{"q":"The focal length of a convex mirror is","o":["Negative","Positive","Zero","Infinite"]}
+]},
+
+{"id":"sp21-05","week":1,"title":"Refraction of Light, Snell's Law and Critical Angle","icon":"Target",
+"summary":"How light bends at a boundary, the refractive index and Snell's law, the critical angle and total internal reflection, with worked examples.",
+"keyWords":["Refraction","Refractive index","Snell's law","Critical angle","Total internal reflection"],
+"sections":[
+{"h":"Refraction","p":["Refraction is the bending of light when it passes from one transparent medium into another. It is caused by a change in the speed of light. Light bends towards the normal when it enters a medium where it travels more slowly (air to glass) and away from the normal when it enters a medium where it is faster."]},
+{"h":"Snell's law and the refractive index","p":["sin i ÷ sin r = constant = n (the refractive index of the second medium relative to the first), where i is the angle of incidence and r the angle of refraction. Also n = v₁ ÷ v₂ (speed in the first medium divided by speed in the second); for light from a vacuum or air into a material, n = c ÷ v. Water has n ≈ 1.33; glass about 1.5; diamond about 2.4."]},
+{"h":"Worked example 1","p":["A ray strikes a glass block at 45°. n = 1.5. sin r = sin 45° ÷ 1.5 = 0.7071 ÷ 1.5 = 0.4714, so r = 28.1°."]},
+{"h":"Worked example 2: reflected and refracted rays at 90°","p":["A ray of light meets an air-glass boundary at an angle θ. The angle between the partly reflected ray and the refracted ray is 90°. Find θ when n = 1.50.","The reflected ray makes angle θ with the normal; the refracted ray makes angle r on the other side. Angles on a straight line: θ + 90° + r = 180°, so r = 90° – θ. Then n = sin θ ÷ sin r = sin θ ÷ sin(90° – θ) = sin θ ÷ cos θ = tan θ. So tan θ = 1.5 and θ = tan⁻¹(1.5) = 56.3°. (The lesson note's algebra is confused in the middle, but its answer of 56.31° is right. This angle is called the polarising or Brewster angle.)"]},
+{"h":"Critical angle and total internal reflection","p":["When light goes from a denser to a less dense medium (glass to air), it bends away from the normal. At a particular angle of incidence, the critical angle C, the refracted ray travels along the boundary (r = 90°). For angles larger than C, no light escapes: all of it is reflected back (total internal reflection). sin C = 1 ÷ n.","Example: glass to air, n = 1.5. sin C = 1 ÷ 1.5 = 0.6667, so C = 41.8°."]},
+{"h":"Uses","p":["Lenses, spectacles, cameras and prisms (refraction). Total internal reflection is used in optical fibres (which carry telephone and internet signals), in prism binoculars, periscopes and bicycle reflectors, and it causes the sparkle of diamonds. Mirages are also caused by refraction."]},
+{"h":"A correction on optical fibres","p":["The lesson note's table says that interference is used in fibre optics. Optical fibres work by total internal reflection, not interference. Interference is used in anti-reflection coatings and in instruments called interferometers."]}
+],
+"activity":"A ray enters water (n = 1.33) from air at 40°. Find the angle of refraction (28.9°). Find the critical angle for water to air (48.8°). Explain how an optical fibre works.",
+"check":[
+{"q":"Refraction is caused by a change in the","o":["Speed of light","Colour only","Frequency of light","Mass of light"]},
+{"q":"Snell's law gives n =","o":["sin i ÷ sin r","sin r ÷ sin i","i ÷ r","cos i ÷ cos r"]},
+{"q":"Critical angle for glass (n = 1.5) is about","o":["41.8°","60°","30°","90°"]},
+{"q":"Total internal reflection occurs when light","o":["Goes from dense to less dense medium above the critical angle","Goes from air to glass","Hits a plane mirror","Has no wavelength"]},
+{"q":"Optical fibres use","o":["Total internal reflection","Interference only","Polarisation only","Diffraction only"]}
+]},
+
+{"id":"sp21-06","week":2,"title":"Dispersion and the Prism","icon":"Zap",
+"summary":"The splitting of white light into colours, the order of the spectrum, the factors that affect the angle of deviation and a worked minimum deviation example.",
+"keyWords":["Dispersion","Prism","Spectrum","Minimum deviation","Angle of deviation","Rainbow"],
+"sections":[
+{"h":"Dispersion","p":["Dispersion is the splitting of white light into its component colours when it passes through a prism. It happens because different colours travel at different speeds in glass, so they are refracted by different amounts. Violet bends most and red least. The colours in order are red, orange, yellow, green, blue, indigo, violet (ROYGBIV). A rainbow is formed when sunlight is refracted, reflected and dispersed by raindrops."]},
+{"h":"Deviation by a prism","p":["The angle of deviation D is the angle between the incident ray's direction and the emergent ray's direction. It depends on: 1. the refracting angle A of the prism; 2. the refractive index of the prism material; 3. the angle of incidence. The deviation is smallest at one particular angle of incidence, the minimum deviation Dm, when the ray passes symmetrically through the prism."]},
+{"h":"The minimum deviation formula","p":["n = sin[(A + Dm) ÷ 2] ÷ sin(A ÷ 2). At minimum deviation the angle of refraction inside the prism at each face is r = A ÷ 2."]},
+{"h":"Worked example","p":["The angle of refraction r of a ray through a glass prism of refractive index 1.5 is 29.0° at minimum deviation. Calculate the minimum deviation.","A = 2r = 58°. sin[(A + Dm) ÷ 2] = n sin(A ÷ 2) = 1.5 × sin 29° = 1.5 × 0.4848 = 0.7272. So (A + Dm) ÷ 2 = sin⁻¹(0.7272) = 46.67°, so A + Dm = 93.34° and Dm = 93.34° – 58° = 35.3°."]},
+{"h":"Recombining colours","p":["A second prism turned the opposite way can recombine the colours into white light. Newton showed that a prism does not make the colours but only separates the colours that are already in white light."]},
+{"h":"Uses","p":["Spectrometers use prisms to study the colours (spectra) emitted by materials; binoculars and periscopes use prisms to turn light; cameras use lenses designed to reduce the colour fringes caused by dispersion (chromatic aberration)."]}
+],
+"activity":"List the colours of the spectrum in order. Explain why violet light is bent more than red. List three factors that affect the deviation produced by a prism.",
+"check":[
+{"q":"Violet light is deviated","o":["More than red","Less than red","The same as red","Not at all"]},
+{"q":"Dispersion is the","o":["Splitting of white light into colours","Bending of light round corners","Reflection of light","Polarisation of light"]},
+{"q":"The first colour in the spectrum order is","o":["Red","Violet","Green","Blue"]},
+{"q":"The formula for n of a prism at minimum deviation is","o":["sin[(A+Dm)/2] ÷ sin(A/2)","sin A ÷ sin Dm","tan A","A ÷ Dm"]},
+{"q":"A rainbow is caused by","o":["Refraction, reflection and dispersion in raindrops","Diffraction only","Polarisation","Sound waves"]}
+]},
+
+{"id":"sp21-07","week":2,"title":"Diffraction, Interference and Polarisation of Light","icon":"Layers",
+"summary":"The wave properties that prove light is a wave: diffraction, Young's double-slit interference, and polarisation, with their uses.",
+"keyWords":["Diffraction","Interference","Young's double slit","Constructive","Destructive","Polarisation","Polaroid"],
+"sections":[
+{"h":"Diffraction","p":["Diffraction is the bending or spreading of waves around obstacles or through small openings. It is most noticeable when the opening is about the same size as the wavelength, and for longer wavelengths. Uses: it limits the sharpness of images in telescopes and microscopes and is used in diffraction gratings in spectroscopes."]},
+{"h":"Interference","p":["Interference happens when two waves overlap to make a new pattern. Constructive interference: the crests meet crests, making brighter light (bright fringes). Destructive interference: a crest meets a trough, making dark fringes. For a lasting pattern the two sources must be coherent (same frequency and a constant phase difference).","Young's double-slit experiment (1801): light from a single source falls on two narrow slits close together; the two beams overlap on a screen and form alternate bright and dark fringes. This proves that light is a wave, because only waves can interfere. Fringe spacing x = λD ÷ a, where D is the distance to the screen and a the slit separation."]},
+{"h":"Worked example","p":["In a double-slit experiment, a = 0.50 mm, D = 2.0 m and the fringe spacing is 2.4 mm. Find the wavelength. λ = xa ÷ D = (2.4 × 10⁻³ × 0.50 × 10⁻³) ÷ 2.0 = 6.0 × 10⁻⁷ m = 600 nm."]},
+{"h":"Polarisation","p":["Light waves vibrate in all planes at right angles to the direction of travel. Polarised light vibrates in only one plane. Only transverse waves can be polarised, so the fact that light can be polarised proves that it is a transverse wave; sound cannot be polarised."]},
+{"h":"Uses of polaroid","p":["It removes glare from reflected light (polarised sunglasses and camera filters). It reduces the intensity of sunlight. It is used in saccharimetry (measuring the concentration of sugar solutions, because sugar rotates the plane of polarised light), in stress analysis of materials (photoelasticity) and in LCD screens and 3D cinema glasses."]},
+{"h":"Applications of light's wave properties","p":["Study the table. The lesson note's table is corrected (fibre optics uses total internal reflection, not interference)."],"tbl":{"head":["Property","Application"],"rows":[["Reflection","Mirrors, solar cookers, periscopes"],["Refraction","Lenses, spectacles, cameras, optical fibres (with total internal reflection)"],["Dispersion","Rainbow, spectrometer"],["Diffraction","Diffraction gratings, spectroscopy"],["Interference","Anti-reflection coatings, interferometers, holography"],["Polarisation","Sunglasses, LCD screens, stress analysis"]]}}
+],
+"activity":"Explain Young's double-slit experiment and what it proves. Discuss polarisation and give two practical applications. Why can sound waves not be polarised?",
+"check":[
+{"q":"Young's experiment shows that light","o":["Is a wave","Is a particle only","Is a sound","Has no colour"]},
+{"q":"Destructive interference gives","o":["Dark fringes","Bright fringes","Louder sound only","Higher frequency"]},
+{"q":"Only transverse waves can be","o":["Polarised","Heard","Refracted","Reflected"]},
+{"q":"Polaroid sunglasses reduce","o":["Glare","Heat from the ground","Sound","Gravity"]},
+{"q":"Diffraction is greatest when the opening is","o":["About the size of the wavelength","Very large","Zero","A mirror"]}
+]},
+
+{"id":"sp21-08","week":2,"title":"Light Waves: Worked Answers to the Evaluation and Assignment","icon":"ClipboardCheck",
+"summary":"Model answers to the questions on light waves, with the key diagrams to draw.",
+"keyWords":["Wavelength","Frequency","Refraction","Polarisation","Young's experiment"],
+"sections":[
+{"h":"Define light as a wave; three wave properties","p":["Light is a transverse electromagnetic wave. It shows reflection, refraction, diffraction, interference and polarisation. (Any three.)"]},
+{"h":"Two laws of reflection","p":["1. The angle of incidence equals the angle of reflection. 2. The incident ray, the reflected ray and the normal at the point of incidence lie in the same plane."]},
+{"h":"Calculations","p":["Wavelength for f = 5 × 10¹⁴ Hz: λ = c ÷ f = 3 × 10⁸ ÷ 5 × 10¹⁴ = 6.0 × 10⁻⁷ m. Frequency for λ = 600 nm: f = 3 × 10⁸ ÷ 6 × 10⁻⁷ = 5 × 10¹⁴ Hz. Refraction at 45° in glass (n = 1.5): r = 28.1°."]},
+{"h":"Diagrams to draw","p":["Reflection: a mirror, a normal, an incident ray and a reflected ray at equal angles to the normal, with the angles marked. Refraction: a boundary, the normal, a ray bending towards the normal in the denser medium. Dispersion: a triangular prism with a white ray entering and a fan of colours leaving, violet bent most and red least."]},
+{"h":"Example: an eye defect","p":["A student reads the board clearly but needs spectacles to read a book. This is long-sightedness (hypermetropia, or in an older person presbyopia). It is corrected with convex lenses."]},
+{"h":"Revision grid","p":["Reflection: i = r. Mirror: 1/f = 1/u + 1/v; M = v/u; f = R/2. Refraction: n = sin i/sin r; sin C = 1/n. Dispersion: violet bent most. Interference: Young's slits; x = λD/a. Polarisation: only transverse waves."]}
+],
+"activity":"Draw the three diagrams (reflection, refraction and dispersion) neatly with labels. Then try this: a light of wavelength 500 nm enters glass of n = 1.5; find its speed in glass (2.0 × 10⁸ m/s) and wavelength (333 nm).",
+"check":[
+{"q":"Light of frequency 5 × 10¹⁴ Hz has wavelength","o":["6.0 × 10⁻⁷ m","1.7 × 10⁶ m","3 × 10⁸ m","5 × 10⁻¹⁴ m"]},
+{"q":"A student needing spectacles to read has","o":["Long-sightedness","Short-sightedness","Colour blindness","Cataract"]},
+{"q":"A ray at 45° into glass (n = 1.5) has r of about","o":["28°","45°","60°","90°"]},
+{"q":"Light changes speed when it","o":["Enters a new medium","Reflects only","Is white","Is polarised"]},
+{"q":"A convex lens corrects","o":["Long-sightedness","Short-sightedness","Astigmatism only","Colour blindness"]}
+]},
+
+{"id":"sp21-09","week":3,"title":"Sound Waves: Production, Propagation and Characteristics","icon":"Volume2",
+"summary":"What sound is, how it is made and travels, resonance and vibrating strings, and the frequency, amplitude, wavelength and speed of sound waves.",
+"keyWords":["Sound","Longitudinal wave","Compression","Rarefaction","Resonance","Overtone","Wave equation"],
+"sections":[
+{"h":"Meaning","p":["Sound is a form of energy made by vibrating objects and carried through a material medium (solid, liquid or gas) as longitudinal mechanical waves. Sound waves travel by compressions (regions of high pressure where the particles are crowded) and rarefactions (regions of low pressure where the particles are spread apart). They cannot travel in a vacuum and travel faster in solids than in liquids and gases."],"img":{"src":"phy2-sound-wave.jpg","alt":"A loudspeaker sending compressions and rarefactions to an ear, with a graph of the wave showing wavelength, amplitude, frequency and the direction of propagation","cap":"A sound wave: compressions, rarefactions, wavelength and amplitude."}},
+{"h":"Production","p":["Sound is made by vibrating bodies: vocal cords, the strings of instruments, loudspeaker cones. The vibration makes neighbouring air particles vibrate, producing the compressions and rarefactions."]},
+{"h":"Characteristics","p":["Frequency (f): the number of vibrations per second, in hertz (Hz); it decides the pitch. Amplitude (A): the maximum displacement of the particles; it decides the loudness. Wavelength (λ): the distance between two successive compressions (or rarefactions). Speed (v): v = fλ."]},
+{"h":"Range of hearing","p":["Infrasonic: below 20 Hz (earthquake waves, elephants' calls). Audible: 20 Hz to 20,000 Hz (the human range). Ultrasonic: above 20,000 Hz (bats, sonar, medical ultrasound)."]},
+{"h":"Speed of sound in different media","p":["Sound is fastest in solids and slowest in gases because particles in solids are closer together and more elastic."],"tbl":{"head":["Medium","Speed (m/s)"],"rows":[["Air at 20 °C","343"],["Water","1,480"],["Iron","5,120"]]}},
+{"h":"Resonance","p":["Resonance is the large vibration that occurs when a body is made to vibrate at its own natural frequency by a periodic force of the same frequency. (Your lesson note describes it as a body 'transferring its frequency' to others, which is incomplete.) Examples: a child's swing pushed at the right rhythm, a glass shattered by a loud note of the right frequency, an air column in a bottle that 'sings' when you blow across the top."]},
+{"h":"Vibrating strings","p":["A string fixed at both ends vibrates in segments with nodes (no movement) at the ends. The fundamental (first harmonic) has one loop, length L = λ/2, so f₀ = v ÷ 2L. The first overtone has two loops: L = λ, f = 2f₀. The second overtone has three loops, as in the picture: L = 3λ/2, so f₃ = 3f₀."],"img":{"src":"phy2-standing-wave.jpg","alt":"A string fixed at points B and C vibrating in three loops, each loop half a wavelength long, with the total length L marked","cap":"The second overtone of a string: three loops, L = 3λ/2."}}
+],
+"activity":"Define sound and explain how it is produced. State three characteristics of sound waves. Explain what resonance is and give two examples. Draw a labelled longitudinal wave showing compression and rarefaction.",
+"check":[
+{"q":"Sound waves are","o":["Longitudinal","Transverse","Electromagnetic","Polarised"]},
+{"q":"Sound cannot travel through","o":["A vacuum","Water","Iron","Air"]},
+{"q":"The audible range of humans is","o":["20 Hz to 20,000 Hz","2 Hz to 200 Hz","200 kHz upwards","0 to 20 Hz"]},
+{"q":"Loudness depends on","o":["Amplitude","Wavelength only","Speed only","Medium only"]},
+{"q":"A string with three loops has frequency","o":["3 times the fundamental","The fundamental","Half the fundamental","Twice the fundamental"]}
+]},
+
+{"id":"sp21-10","week":3,"title":"Behaviour of Sound: Echoes, Refraction, Diffraction, Interference and Beats","icon":"Volume2",
+"summary":"How sound is reflected, refracted, diffracted and interferes, beats, and worked calculations on speed, frequency and echoes.",
+"keyWords":["Echo","Refraction of sound","Diffraction","Interference","Beats","Beat frequency"],
+"sections":[
+{"h":"Reflection: echoes","p":["Sound is reflected by hard surfaces. An echo is heard when the reflected sound reaches you at least 0.1 s after the original sound, so that the two can be told apart. With the speed of sound 340 m/s, the minimum distance to the reflector is about 340 × 0.1 ÷ 2 = 17 m. Distance to a reflecting wall: d = v t ÷ 2, because the sound goes there and back."]},
+{"h":"Refraction","p":["Sound bends when it passes between layers where its speed is different, for example warm and cold air. At night the ground is cold and the air above it warmer, so sound bends back to the ground and travels further, which is why distant sounds are heard clearly at night."]},
+{"h":"Diffraction","p":["Sound bends round obstacles and through openings, and we hear someone speaking round a corner. It is easy for sound because its wavelength (about 0.3 m to 3 m for speech) is similar to the size of doors and obstacles; light has a very small wavelength, so it does not appear to bend round a door."]},
+{"h":"Interference","p":["When two sound waves overlap, the result is loud (constructive) or soft (destructive). Noise-cancelling headphones make a wave exactly opposite to the noise so that it cancels it."]},
+{"h":"Beats","p":["When two sounds of slightly different frequencies f₁ and f₂ are heard together, the loudness rises and falls regularly. These are beats. The beat frequency = f₁ – f₂ (the difference). Piano tuners use beats: they listen for the beats to vanish when two notes are in tune."]},
+{"h":"Worked calculations","p":["1. Speed: f = 250 Hz, λ = 1.4 m. v = fλ = 250 × 1.4 = 350 m/s.","2. Frequency: v = 340 m/s, λ = 0.85 m. f = v ÷ λ = 340 ÷ 0.85 = 400 Hz. (The lesson note writes the formula as f = vλ by mistake; the answer 400 Hz is right.)","3. Beats: a sonometer wire of 259 Hz and a tuning fork of 256 Hz give 259 – 256 = 3 beats per second.","4. Frequency: v = 330 m/s, λ = 1.1 m. f = 330 ÷ 1.1 = 300 Hz.","5. Echo: heard 1.5 s after the sound is made, v = 340 m/s. d = vt ÷ 2 = 340 × 1.5 ÷ 2 = 255 m."]},
+{"h":"Light waves and sound waves compared","p":["Study the table."],"tbl":{"head":["Feature","Sound","Light"],"rows":[["Type of wave","Longitudinal, mechanical","Transverse, electromagnetic"],["Medium","Needs a material medium","No medium needed"],["Speed","About 340 m/s in air","3 × 10⁸ m/s in a vacuum"],["Speed in solids, liquids","Faster in solids","Slower in matter"],["Polarisation","Cannot be polarised","Can be polarised"],["Detected by","Ear","Eye"]]}}
+],
+"activity":"Explain how echoes are formed. Calculate the distance to a cliff if an echo is heard 2.0 s after a shout (340 m). Find the beat frequency for notes of 440 Hz and 436 Hz (4 Hz). List five differences between sound waves and light waves.",
+"check":[
+{"q":"The distance to a wall from an echo is","o":["v × t ÷ 2","v × t","v ÷ t","t ÷ v"]},
+{"q":"For an echo to be heard separately, the delay must be at least","o":["0.1 s","1 s","0.01 s","10 s"]},
+{"q":"Beat frequency equals","o":["f₁ – f₂","f₁ + f₂","f₁ × f₂","f₁ ÷ f₂"]},
+{"q":"Speed 340 m/s and wavelength 0.85 m give frequency","o":["400 Hz","289 Hz","340 Hz","0.0025 Hz"]},
+{"q":"Sound bends round corners because of","o":["Diffraction","Reflection","Dispersion","Polarisation"]}
+]}
+]

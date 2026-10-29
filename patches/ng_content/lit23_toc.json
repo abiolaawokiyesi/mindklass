@@ -1,0 +1,138 @@
+[
+    {
+        "id":  "li23-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Literature Third Term: African drama and two non-African plays, A Man for All Seasons and An Inspector Calls.",
+        "keyWords":  [
+                         "SS2 Literature in English - Third Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Literature in English - Third Term",
+                             "p":  [
+                                       "Welcome to SS2 Literature in English, Third Term. This term is about drama. You learn what makes African drama special, study The Marriage of Anansewa by Efua Sutherland, and then two non-African plays: A Man for All Seasons by Robert Bolt and An Inspector Calls by J. B. Priestley.",
+                                       "Plays are written to be performed, so try to read the parts aloud with friends or act a scene. Where small details may differ between editions of a play, the unit tells you to follow your own edition."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Literature in English - Third Term",
+                             "p":  [
+                                       "Here is the plan for the term. Tick each unit when you finish it."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "What Drama Is and What Makes African Drama Special"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "2",
+                                                          "Efua Sutherland and the Anansegoro: Background of The Marriage of Anansewa"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "The Marriage of Anansewa: Act One"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "3",
+                                                          "The Marriage of Anansewa: Acts Two and Three"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "The Marriage of Anansewa: Characters and Themes"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "4",
+                                                          "The Marriage of Anansewa: Style and the Ambiguous Moral"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "6",
+                                                          "A Man for All Seasons: The Playwright and the History Behind the Play"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "6",
+                                                          "A Man for All Seasons: The Story of the Two Acts"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "8",
+                                                          "A Man for All Seasons: Themes, Characters and Style"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "9",
+                                                          "An Inspector Calls: The Playwright, Setting and Story"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "9",
+                                                          "An Inspector Calls: Characters"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "10",
+                                                          "An Inspector Calls: Themes and Dramatic Techniques"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "11",
+                                                          "Third Term Revision: Comparing the Three Plays"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "This term is about which kind of literature?",
+                          "o":  [
+                                    "Drama",
+                                    "Poetry",
+                                    "Prose",
+                                    "Letters"
+                                ]
+                      },
+                      {
+                          "q":  "Which African play do you study?",
+                          "o":  [
+                                    "The Marriage of Anansewa",
+                                    "Death and the Kings Horseman",
+                                    "The Lion and the Jewel",
+                                    "Our Husband Has Gone Mad Again"
+                                ]
+                      },
+                      {
+                          "q":  "The term ends with",
+                          "o":  [
+                                    "A comparison of the three plays",
+                                    "A poem",
+                                    "A novel",
+                                    "A test only"
+                                ]
+                      }
+                  ]
+    }
+]

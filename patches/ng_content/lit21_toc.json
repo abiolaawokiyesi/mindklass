@@ -1,0 +1,158 @@
+[
+    {
+        "id":  "li21-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Literature First Term: African and non-African poetry, with a method for reading and writing about poems.",
+        "keyWords":  [
+                         "SS2 Literature in English - First Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Literature in English - First Term",
+                             "p":  [
+                                       "Welcome to SS2 Literature in English, First Term. This term is about poetry. You will read African poems by Okara, Soyinka, Osundare, Cheney-Coker, Afriyie-Vidza and Kamara, and non-African poems by Angelou, Byron, Heaney and Adcock, and learn how to explain their themes, tone and devices.",
+                                       "Always read the poem itself in your anthology first. Where the lesson note could not be checked against the printed poem, or differs from other published readings, the unit says so plainly."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Literature in English - First Term",
+                             "p":  [
+                                       "Here is the plan for the term. Tick each unit when you finish it."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "How to Study a Poem: Tools You Will Use All Term"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Gabriel Okara: \"Once Upon a Time\" (Content)"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "1",
+                                                          "\"Once Upon a Time\": Themes and Poetic Devices"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Wole Soyinka: \"Night\" (Poet, Poem and a Warning)"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "2",
+                                                          "\"Night\": Themes, Structure and Devices"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Niyi Osundare: \"Not My Business\" (Content)"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "3",
+                                                          "\"Not My Business\": Themes, Tone and Devices"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "Syl Cheney-Coker: \"The Breast of the Sea\" (Content)"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "4",
+                                                          "\"The Breast of the Sea\": Themes, Imagery and Devices"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "S.O.H. Afriyie-Vidza: \"Hearty Garlands\""
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "6",
+                                                          "Elizabeth L. A. Kamara: \"New Tongue\""
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "6",
+                                                          "Comparing Poems: Tone and Word Choice"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "8",
+                                                          "Maya Angelou: \"Still I Rise\""
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "9",
+                                                          "Lord Byron: \"She Walks in Beauty\""
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "10",
+                                                          "Seamus Heaney: \"Digging\""
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "10",
+                                                          "Fleur Adcock: \"The Telephone Call\""
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "11",
+                                                          "First Term Review: All Eight Poems"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which poet wrote \"Not My Business\"?",
+                          "o":  [
+                                    "Niyi Osundare",
+                                    "Gabriel Okara",
+                                    "Maya Angelou",
+                                    "Lord Byron"
+                                ]
+                      },
+                      {
+                          "q":  "Where do you learn the poetry terms for the term?",
+                          "o":  [
+                                    "The first unit after this one",
+                                    "Week 11 only",
+                                    "Nowhere",
+                                    "In the drama term"
+                                ]
+                      },
+                      {
+                          "q":  "The term ends with",
+                          "o":  [
+                                    "A review of all the poems",
+                                    "A play",
+                                    "A novel",
+                                    "A test only"
+                                ]
+                      }
+                  ]
+    }
+]

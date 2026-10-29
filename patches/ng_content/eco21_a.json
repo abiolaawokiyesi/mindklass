@@ -1,0 +1,195 @@
+[
+{"id":"ec21-02","week":1,"title":"Fiscal Policy: Meaning and Tools","icon":"Landmark",
+"summary":"What fiscal policy is, how the government uses taxation and spending as two levers, and the difference between expansionary and contractionary policy.",
+"keyWords":["Fiscal policy","Taxation","Government expenditure","Expansionary","Contractionary","Aggregate demand"],
+"sections":[
+{"h":"The government's wallet","p":["Think of a household. It earns an income and spends on food, rent and school fees, and a careful household plans how much to spend and how much to save. A government does the same on a very large scale. Fiscal policy is the government's plan for using its ability to tax and to spend in order to influence the economy. It is one of the two main tools for managing an economy; the other is monetary policy, which you study later this term."],"img":{"src":"eco2-fiscal-wallet.jpg","alt":"A wallet marked with a government building, with tax revenue flowing in and government spending flowing out to roads, schools and salaries, and arrows for contractionary and expansionary policy","cap":"Taxes flow in and spending flows out of the government's wallet."}},
+{"h":"Meaning","p":["Fiscal policy is the deliberate use of government revenue (mainly taxation) and government expenditure to influence the level of economic activity. Its goals are economic growth, full employment and stable prices. In Nigeria the main document that sets out the fiscal policy for a year is the Annual Budget (the Appropriation Bill).","A correction: your lesson note says the budget is presented by the Minister of Finance on behalf of the President. In practice the President presents the budget proposal to the National Assembly, which debates and passes it; the ministers responsible for finance and for budget and planning prepare it."]},
+{"h":"Tool 1: taxation (government revenue)","p":["Tax is a compulsory payment demanded by the government from people, firms and goods. It is the government's main source of income.","To slow down an overheated economy (contractionary policy): raise taxes. People and firms have less disposable income, so they spend (C) and invest (I) less. Aggregate demand falls and prices cool down.","To boost a weak economy (expansionary policy): cut taxes. People keep more of their money, spend and invest more, aggregate demand rises, firms hire more workers and the economy grows.","Direct taxes are paid on income and wealth (personal income tax, company income tax). Indirect taxes are charged on goods and services (value added tax, customs duties, excise duties)."]},
+{"h":"Tool 2: government expenditure","p":["Government spending (G) is part of aggregate demand: AD = C + I + G + (X – M).","Expansionary: spend more. Capital expenditure (roads, schools, hospitals, power plants) creates jobs now and raises the economy's capacity later. Recurrent expenditure (salaries, running offices) gives workers more to spend.","Contractionary: spend less. Demand falls and inflation eases, but jobs and public services may suffer."]},
+{"h":"Expansionary and contractionary policy compared","p":["Study the table."],"tbl":{"head":["Type","When used","Tax","Government spending","Effect"],"rows":[["Expansionary","Recession, unemployment","Cut","Increase","Raises demand, output and jobs; may raise prices"],["Contractionary","High inflation, overheating","Raise","Cut","Lowers demand and prices; may slow growth and raise unemployment"]]}}
+],
+"activity":"Define fiscal policy in your own words. Explain the two tools of fiscal policy. Say which policy you would recommend if prices are rising too fast and why.",
+"check":[
+{"q":"Fiscal policy is the use of","o":["Taxation and government spending","Interest rates only","Printing money only","Exchange rates only"]},
+{"q":"To cool an overheated economy the government should","o":["Raise taxes","Cut taxes","Raise all wages","Print money"]},
+{"q":"Value added tax is an example of an","o":["Indirect tax","Direct tax","Tariff only","Loan"]},
+{"q":"Spending on roads and power plants is","o":["Capital expenditure","Recurrent expenditure","A tax","A subsidy only"]},
+{"q":"AD = C + I + G +","o":["(X – M)","(M – X)","T","S"]}
+]},
+
+{"id":"ec21-03","week":1,"title":"Objectives and Limitations of Fiscal Policy","icon":"Target",
+"summary":"The five aims of fiscal policy and six reasons why it does not always work, especially in Nigeria, with model answers to the take-home questions.",
+"keyWords":["Full employment","Price stability","Equitable distribution","Time lags","Crowding-out","Informal sector"],
+"sections":[
+{"h":"Objectives","p":["1. Full employment: most people who want a job can find one (cut taxes, increase spending). 2. Price stability: stop prices rising too fast (raise taxes, cut spending). 3. Economic growth: a rising output of goods and services, helped by spending on infrastructure and education. 4. Fairer distribution of income: progressive taxes (the rich pay a higher percentage) and spending on public health and education narrow the gap between rich and poor. 5. Balance of payments stability: for example, high tariffs on luxury imports can reduce a trade deficit."]},
+{"h":"Limitations","p":["1. Time lags: recognition lag (it takes time to see the problem), decision lag (the National Assembly takes time to agree) and implementation lag (a road takes years to build). By the time the policy works, the problem may have changed.","2. Political interference: spending more and taxing less is popular, so governments find it easy; raising taxes and cutting spending is unpopular even when needed.","3. Crowding-out: when the government borrows heavily to spend more, interest rates can rise and private firms find borrowing too costly, so private investment falls.","4. Poor data: unreliable figures on GDP, jobs and prices lead to wrong decisions.","5. The informal sector: roadside traders and artisans pay little formal tax, so tax changes affect them less.","6. Corruption: money for a hospital may be stolen and never reach the economy."]},
+{"h":"Model answers","p":["Inflation is rising fast. What should the government do? It should use contractionary fiscal policy: raise taxes (for example, on luxury goods or higher incomes) so that people spend less, and cut or delay non-essential spending, or run a budget surplus. This lowers aggregate demand, so there is less money chasing goods and prices ease. It should also invest in production (power, roads) so that supply rises over time.","Capital and recurrent expenditure: capital expenditure builds assets such as roads and schools; recurrent expenditure pays for running costs such as salaries. Capital expenditure usually does more for long-term growth because it expands the economy's productive capacity, but recurrent spending on teachers and health workers is also needed to use the assets.","Two ways taxes can make income more equal: progressive income tax (higher earners pay a higher rate), and high excise duties on luxury goods with VAT exemptions on basic foods."]},
+{"h":"Nigerian example","p":["Time lags and political interference can be seen when a budget is passed months late, or when the capital budget is only partly released and projects stand unfinished. Both reduce the effect of the planned spending."]}
+],
+"activity":"State three objectives of fiscal policy. Explain the crowding-out effect. Discuss with examples: 'Fiscal policy is difficult to implement in Nigeria due to political interference and time lags.'",
+"check":[
+{"q":"The delay between a problem starting and the government noticing is the","o":["Recognition lag","Decision lag","Implementation lag","Crowding-out"]},
+{"q":"Crowding-out happens when government borrowing","o":["Pushes up interest rates and reduces private investment","Cuts taxes","Raises exports","Reduces prices"]},
+{"q":"A progressive tax","o":["Takes a higher percentage from the rich","Takes the same from everyone","Only taxes goods","Only taxes firms"]},
+{"q":"A limitation of fiscal policy in Nigeria is","o":["A large informal sector","Too much accurate data","No politics","No budget"]},
+{"q":"Expansionary policy tends to","o":["Increase employment","Cut all jobs","Stop growth","End borrowing"]}
+]},
+
+{"id":"ec21-04","week":2,"title":"The Budget: Balanced, Surplus and Deficit","icon":"BarChart2",
+"summary":"The annual budget, the three kinds of budget and how a deficit can be financed.",
+"keyWords":["Budget","Balanced budget","Budget surplus","Budget deficit","Domestic borrowing","Ways and means"],
+"sections":[
+{"h":"The annual plan","p":["A budget is a yearly statement of the government's expected revenue and planned expenditure. How the government balances them affects the whole economy."],"img":{"src":"eco2-budgets.jpg","alt":"Three weighing scales showing a surplus budget (revenue heavier), a balanced budget (level) and a deficit budget (expenditure heavier)","cap":"Surplus, balanced and deficit budgets."}},
+{"h":"The three kinds","p":["Balanced budget: total revenue equals total expenditure. It is 'neutral': the government puts back what it takes out. Classical economists thought it the prudent ideal.","Budget surplus (revenue greater than expenditure, G < T): the government has money left. It is contractionary or 'deflationary' because it takes more out of the economy than it puts in.","Budget deficit (expenditure greater than revenue, G > T): the government spends more than it earns. It is expansionary or 'reflationary' because it puts more into the economy than it takes out. Most governments run deficits most of the time."]},
+{"h":"How a deficit is financed","p":["1. Borrowing. Domestic borrowing: selling government bonds to people, banks and pension funds in the country (for example Federal Government savings bonds). External borrowing: loans from other countries, the World Bank, the IMF or international markets (Eurobonds).","2. Printing money ('ways and means'): the government borrows directly from the Central Bank, which creates new money. This is the most inflationary method, because the money supply rises without more goods ('too much money chasing too few goods').","3. Selling assets (privatisation): selling state-owned businesses to private investors.","4. Raising taxes or cutting spending also reduces the deficit but is unpopular."]},
+{"h":"A simple example","p":["Revenue ₦8 trillion and spending ₦10 trillion give a deficit of ₦2 trillion. If the government sells ₦1.5 trillion of bonds and borrows ₦0.5 trillion abroad, the deficit is financed by borrowing. A revenue of ₦10 trillion against spending of ₦9 trillion gives a surplus of ₦1 trillion."]}
+],
+"activity":"Define an annual budget. Differentiate between a budget surplus and a budget deficit. List three ways of financing a deficit. Explain which type of budget is expansionary and why.",
+"check":[
+{"q":"A budget deficit means","o":["Expenditure is greater than revenue","Revenue is greater than expenditure","They are equal","There is no budget"]},
+{"q":"An expansionary budget is a","o":["Deficit","Surplus","Balanced budget only","Tax holiday"]},
+{"q":"The most inflationary way to finance a deficit is","o":["Printing money","Selling bonds","Raising taxes","Cutting spending"]},
+{"q":"Selling state-owned businesses is","o":["Privatisation","Devaluation","Taxation","Subsidy"]},
+{"q":"A balanced budget occurs when","o":["Revenue equals expenditure","Revenue is double expenditure","Spending is zero","Taxes are zero"]}
+]},
+
+{"id":"ec21-05","week":2,"title":"Effects, Advantages and Disadvantages of Each Budget Type","icon":"Landmark",
+"summary":"What each kind of budget does to the economy, with the pro-cyclical problem, the uses of a surplus and the case for and against deficits.",
+"keyWords":["Pro-cyclical","Sovereign wealth fund","Automatic stabiliser","National debt","Crowding-out"],
+"sections":[
+{"h":"Balanced budget","p":["Effects: stable, because the government is 'not rocking the boat', and no new public debt. Advantages: fiscal discipline, no debt burden, confidence of investors. Disadvantage: it is pro-cyclical. In a recession, tax revenue falls automatically; to keep the budget balanced the government must cut spending or raise taxes, and both actions make the recession worse."]},
+{"h":"Budget surplus","p":["Effects: contractionary; it can be used to pay down debt or saved, for example in a sovereign wealth fund such as Nigeria's NSIA (Nigeria Sovereign Investment Authority).","Advantages: fights demand-pull inflation; reduces debt and interest costs; builds a 'rainy day' fund for an oil price crash. Disadvantages: can cause or deepen a recession and unemployment if the economy is not overheating; politically unpopular, because people want the surplus to be spent."]},
+{"h":"Budget deficit","p":["Effects: expansionary; it increases aggregate demand and also increases national debt.","Advantages: the main tool against recession (the Keynesian remedy), because spending replaces the missing demand of households and firms; it can pay for long-term capital projects (power, railways); and it acts as an automatic stabiliser (when the economy weakens, taxes fall and welfare spending rises).","Disadvantages: inflation if the economy is near full employment, especially if money is printed; heavy national debt and interest payments; crowding-out of private investment."]},
+{"h":"Is a deficit always bad?","p":["No. A deficit that builds roads, power stations or schools and raises future output can be good, provided the debt can be repaid and the money is not stolen or wasted. A deficit that funds only consumption, or that is financed by printing money, is dangerous. A good answer to this question gives both sides and a judgement."]},
+{"h":"The Minister's choice in a severe recession","p":["Propose a deficit budget: cut taxes for households and small firms, increase capital spending on roads and power, and finance it by borrowing from the public. Explain to the National Assembly that this will raise demand, create jobs and widen the tax base, and that the debt will be repaid out of the larger economy later."]}
+],
+"activity":"Explain the pro-cyclical problem of a balanced budget in a recession. State two advantages and two disadvantages of a budget surplus. Say why a deficit is sometimes the right choice.",
+"check":[
+{"q":"A balanced budget in a recession is","o":["Pro-cyclical and can make it worse","Always the best","Impossible","Expansionary"]},
+{"q":"A budget surplus is useful against","o":["Demand-pull inflation","Recession","Unemployment","Deflation"]},
+{"q":"Nigeria's sovereign wealth fund is the","o":["NSIA","CBN","NNPC","SEC"]},
+{"q":"An automatic stabiliser creates a deficit when","o":["The economy weakens","The economy overheats","Taxes rise","Spending stops"]},
+{"q":"A big disadvantage of persistent deficits is","o":["Rising national debt","Falling taxes","Perfect stability","No inflation ever"]}
+]},
+
+{"id":"ec21-06","week":3,"title":"National Income Accounting: GDP, GNP, NNP, NI, PI and DI","icon":"BarChart2",
+"summary":"What national income accounting measures, and the meaning, formula and difference of each measure, with worked calculations.",
+"keyWords":["GDP","GNP","NFIA","NNP","National income","Personal income","Disposable income"],
+"sections":[
+{"h":"Measuring the economy","p":["How do we know whether a country is growing or shrinking? We measure. National income accounting is the system economists and governments use to measure the total production, income and spending of a country over a period (a quarter or a year). It gives the headline numbers we hear on the news, like GDP."]},
+{"h":"GDP: Gross Domestic Product","p":["GDP is the total market value of all final goods and services produced within the geographical boundaries of a country in a given period. 'Market value': we add up different things using money prices. 'Final': only final goods are counted, to avoid double counting (we count the price of the bread, not the flour, wheat and yeast separately). 'Within the boundaries': what matters is where production happens, not who owns the firm. A car made by a Japanese company in its Lagos factory is part of Nigeria's GDP. The profit of a Nigerian firm in Ghana is not."]},
+{"h":"GNP and NFIA","p":["GNP (Gross National Product) is the value of all final goods and services produced by the citizens and companies of a country wherever they are. It measures output by ownership.","GNP = GDP + Net Factor Income from Abroad (NFIA). NFIA = income earned abroad by Nigerians and Nigerian firms – income earned in Nigeria by foreigners and foreign firms. For Nigeria, NFIA is usually negative because many foreign companies take profits out, so GDP is greater than GNP."]},
+{"h":"NNP, NI, PI and DI","p":["NNP (Net National Product) = GNP – depreciation. Depreciation (consumption of fixed capital) is the wearing out of machines and buildings. GNP is 'gross' because it ignores this cost.","NI (National Income) = NNP – indirect taxes + subsidies. It is the total income earned by the factors of production: wages, rent, interest and profit. Indirect taxes (such as VAT) go to government, not to factors, and subsidies add to what factors receive.","PI (Personal Income) = NI – (corporate taxes + retained earnings) + transfer payments. It is the income received by households before personal tax. Transfer payments (pensions, allowances) are received without producing anything.","DI (Disposable Income) = PI – personal income taxes. It is what households can spend or save: DI = C + S."]},
+{"h":"Worked example (assignment 1)","p":["GDP = ₦5,000bn; NFIA = –₦200bn; depreciation = ₦300bn; indirect taxes = ₦150bn; subsidies = ₦50bn.","(a) GNP = GDP + NFIA = 5,000 – 200 = ₦4,800bn. (b) NNP = GNP – depreciation = 4,800 – 300 = ₦4,500bn. (c) NI = NNP – indirect taxes + subsidies = 4,500 – 150 + 50 = ₦4,400bn."]},
+{"h":"PI or DI?","p":["Disposable income is the better indicator of the spending power of households, because it is what is left after income tax."]}
+],
+"activity":"Calculate GNP, NNP and NI from: GDP ₦8,000bn; NFIA –₦300bn; depreciation ₦500bn; indirect taxes ₦200bn; subsidies ₦100bn. (GNP 7,700; NNP 7,200; NI 7,100.) Explain why a car made in Nigeria by a Japanese firm is part of Nigeria's GDP but not Nigeria's GNP.",
+"check":[
+{"q":"GNP = GDP +","o":["Net factor income from abroad","Depreciation","Indirect taxes","Imports"]},
+{"q":"NNP = GNP –","o":["Depreciation","Taxes","Subsidies","Exports"]},
+{"q":"GDP 5,000, NFIA –200 gives GNP of","o":["₦4,800bn","₦5,200bn","₦5,000bn","₦4,000bn"]},
+{"q":"The better indicator of household spending power is","o":["Disposable income","GDP","NNP","Government spending"]},
+{"q":"Transfer payments include","o":["Pensions","Wages","Rent","Profit"]}
+]},
+
+{"id":"ec21-07","week":3,"title":"Three Ways of Measuring National Income","icon":"Layers",
+"summary":"The output, income and expenditure approaches with the circular flow of income, value added and a worked example of each.",
+"keyWords":["Output approach","Value added","Income approach","Expenditure approach","Circular flow","Net exports"],
+"sections":[
+{"h":"The circular flow","p":["In theory, the three methods give the same answer, because every naira spent on output becomes someone's income. The diagram shows households, firms, government and the foreign sector linked by flows of goods, factor services and money."],"img":{"src":"eco2-circular-flow.jpg","alt":"A circular flow of income diagram with households, firms, government and the foreign sector, showing consumption, investment, government spending, taxes, savings, exports and imports","cap":"The circular flow of income and the three approaches."}},
+{"h":"1. The output (product) approach","p":["Add up the value added at each stage of production. Value added = value of a firm's output – value of the intermediate goods it bought. Example: a farmer sells wheat for ₦100 (value added ₦100). A miller buys it and sells flour for ₦150 (value added ₦50). A baker buys the flour and sells bread for ₦250 (value added ₦100). GDP = 100 + 50 + 100 = ₦250, the price of the final bread. This method avoids double counting."]},
+{"h":"2. The income approach","p":["Add up all incomes paid to the factors of production: National Income = wages (labour) + rent (land) + interest (capital) + profits (enterprise). It shows who earned the income."]},
+{"h":"3. The expenditure approach","p":["Add up spending on final goods and services: GDP = C + I + G + (X – M).","C (consumption): spending by households. I (investment): spending by firms on factories and machines (not buying shares). G: spending by all levels of government. (X – M): net exports, exports minus imports.","Example: C = ₦600bn, I = ₦150bn, G = ₦200bn, X = ₦120bn, M = ₦100bn. GDP = 600 + 150 + 200 + (120 – 100) = ₦970bn. It shows who bought the output."]},
+{"h":"Choosing a method","p":["The output method is best for avoiding double counting and shows the contribution of each sector; the income method shows how income is shared; the expenditure method shows the use of output."]}
+],
+"activity":"List the three methods of measuring national income. Calculate GDP: C = ₦400bn, I = ₦100bn, G = ₦150bn, X = ₦90bn, M = ₦140bn. (₦700bn.) Explain double counting and which method avoids it.",
+"check":[
+{"q":"The method that adds value at each stage is the","o":["Output approach","Income approach","Expenditure approach","Tax approach"]},
+{"q":"In GDP = C + I + G + (X – M), G stands for","o":["Government spending","Gold","Gross","Growth"]},
+{"q":"Value added =","o":["Output value – intermediate goods","Output + intermediate goods","Profit only","Wages only"]},
+{"q":"C 600, I 150, G 200, X 120, M 100 gives GDP of","o":["₦970bn","₦1,170bn","₦850bn","₦600bn"]},
+{"q":"Counting an intermediate good and the final good is","o":["Double counting","Value adding","Depreciation","Investment"]}
+]},
+
+{"id":"ec21-08","week":3,"title":"Uses and Limitations of National Income Data","icon":"ClipboardCheck",
+"summary":"Why governments and students use national income data, and why GDP is an imperfect measure of well-being.",
+"keyWords":["GDP per capita","Economic planning","Informal sector","Non-market activity","Welfare","Inequality"],
+"sections":[
+{"h":"Uses","p":["1. Measuring economic growth: is GDP higher than last year? 2. International comparison: GDP per capita (GDP ÷ population) lets us compare Nigeria with Ghana or South Africa. 3. Economic planning: if investment is low, the government makes policies to raise it. 4. Structural analysis: it shows what the economy is made of, for example the share of agriculture, oil and services. 5. Income distribution: it shows how income is shared among wages, rent, interest and profit."]},
+{"h":"Limitations","p":["1. The informal sector: a large part of Nigeria's activity (traders, artisans, subsistence farmers) is not recorded, so official figures understate the true size of the economy. 2. Unpaid work: housework, child care and a farmer eating his own food are not counted. 3. Data errors: collecting data is hard and costly. 4. Double counting by mistake can inflate figures. 5. GDP does not measure welfare: it ignores leisure (if everyone works 100 hours GDP rises but life gets worse); it ignores damage to the environment (an oil spill raises GDP through the clean-up spending); it ignores inequality (GDP can grow while all the gain goes to the richest 1%)."]},
+{"h":"Model answer: 'GDP is a poor measure of well-being'","p":["GDP counts only what is bought and sold. It leaves out unpaid work such as parenting, it does not show how income is shared, and it treats harmful activities such as oil spills as additions to output. A country with a high GDP per capita could still have poor health, long working hours and a polluted environment. So other measures, such as the Human Development Index (income, education and life expectancy), are used together with GDP."]},
+{"h":"The informal sector and accuracy","p":["Because roadside traders and many artisans are not registered or taxed, their output is partly missing from the official figures. Nigeria's GDP was 'rebased' in 2014 to include new sectors, which raised the official figure a lot. The lesson is that GDP figures are estimates and can be revised."]}
+],
+"activity":"Give three reasons why GDP is a poor measure of a nation's well-being. Explain how a large informal sector makes official GDP less accurate. State two uses of national income data.",
+"check":[
+{"q":"GDP per capita is","o":["GDP ÷ population","GDP × population","GNP – GDP","GDP + tax"]},
+{"q":"A limitation of GDP is that it","o":["Ignores unpaid housework","Counts everything exactly","Measures happiness","Has no data"]},
+{"q":"An oil spill clean-up","o":["Raises GDP though it harms welfare","Lowers GDP","Has no effect on GDP","Is not counted ever"]},
+{"q":"The informal sector makes official GDP","o":["Understated","Overstated","Exact","Zero"]},
+{"q":"Another measure of well-being is the","o":["Human Development Index","Consumer index only","Rainfall index","Bond index"]}
+]},
+
+{"id":"ec21-09","week":4,"title":"Money and the Demand for Money (Keynes's Liquidity Preference)","icon":"Layers",
+"summary":"The functions of money and the three motives for holding money: transactions, precaution and speculation.",
+"keyWords":["Money","Liquidity preference","Transactions motive","Precautionary motive","Speculative motive","Bond price"],
+"sections":[
+{"h":"Why do we hold money?","p":["Money in your pocket earns little or nothing, while it could be earning interest in bonds or shares. Why then do we hold it? John Maynard Keynes explained this with his theory of liquidity preference: the desire to hold wealth in the form of cash (liquid) rather than assets that are hard to turn into cash (illiquid), such as land or shares."]},
+{"h":"Recap: functions of money","p":["Money is anything generally accepted as payment for goods and services. Medium of exchange (it buys things); unit of account (it measures value); store of value (it keeps purchasing power over time); standard of deferred payment (it allows borrowing and lending)."]},
+{"h":"The money market","p":["The graph shows the demand for money (MD), which slopes downward, and the supply of money (MS), a vertical line because the central bank controls it. They meet at the equilibrium interest rate."],"img":{"src":"eco2-money-market.jpg","alt":"A graph with interest rate on the vertical axis and quantity of money on the horizontal axis showing a vertical money supply curve controlled by the CBN and a downward-sloping money demand curve meeting at the equilibrium rate","cap":"The money market: supply (vertical) and demand (downward sloping)."}},
+{"h":"1. The transactions motive","p":["People hold money to pay for everyday, expected spending: bus fare, lunch, data, airtime, rent. The main determinant is the level of income: richer people make more transactions and hold more. This motive is not very sensitive to interest rates."]},
+{"h":"2. The precautionary motive","p":["Money held 'just in case' for unexpected needs (an illness, a repair) or a sudden bargain. Again the main determinant is income, and it also rises with uncertainty. It is not very sensitive to interest rates."]},
+{"h":"3. The speculative motive","p":["Money held as an asset in the hope of making a profit from changes in the price of other assets, mainly bonds. This is the only motive that depends mainly on the interest rate. The next unit explains it in steps."]},
+{"h":"Total demand","p":["Total demand for money = transactions and precautionary demand L1(Y) + speculative demand L2(r), where Y is income and r is the interest rate."]},
+{"h":"Personal examples","p":["Transactions: the ₦500 you carry for transport and lunch. Precaution: the money your family keeps aside in case of sickness. Speculation: an investor who sells bonds and holds cash while waiting for a better time to buy."]}
+],
+"activity":"Define 'liquidity preference'. List and explain Keynes's three motives. State the main determinant of each. Give a personal example of the transactions and precautionary motives.",
+"check":[
+{"q":"Liquidity preference is the desire to hold","o":["Cash rather than illiquid assets","Land only","Shares only","Debts"]},
+{"q":"The main determinant of the transactions motive is","o":["Income","Interest rate","Weather","Age"]},
+{"q":"Money held for emergencies is the","o":["Precautionary motive","Transactions motive","Speculative motive","Investment motive"]},
+{"q":"The speculative motive depends mainly on the","o":["Interest rate","Income","Wages","Exports"]},
+{"q":"Money supply is shown as a vertical line because","o":["The central bank controls it","It never changes","It is zero","Banks ignore it"]}
+]},
+
+{"id":"ec21-10","week":4,"title":"The Speculative Demand for Money and Bond Prices","icon":"BarChart2",
+"summary":"Why bond prices and interest rates move in opposite directions, and why speculative demand for money is high when interest rates are low.",
+"keyWords":["Bond","Coupon","Inverse relationship","Opportunity cost","Idle cash"],
+"sections":[
+{"h":"Bonds and interest rates","p":["A bond is a loan to a government or firm that pays a fixed coupon (yearly interest). Suppose your old bond pays ₦100 a year. If market interest rates rise, new bonds pay, say, ₦200, so nobody wants your old bond unless its price falls. If market interest rates fall, new bonds pay only ₦50, so your bond becomes attractive and its price rises. The price of a bond and the interest rate move in opposite directions."]},
+{"h":"When the interest rate is high","p":["People expect rates to fall in future, and therefore bond prices to rise. They want to buy bonds now while they are cheap. They do not want idle cash, because holding cash costs a lot in lost interest (a high opportunity cost). Speculative demand for money is low."]},
+{"h":"When the interest rate is low","p":["People expect rates to rise, so bond prices to fall. They do not want bonds that are about to lose value, so they sell bonds and hold cash until rates go up. Speculative demand for money is high."]},
+{"h":"Putting it together","p":["Speculative demand is inversely related to the interest rate. This is why the demand curve for money slopes downward: lower interest rate, more money demanded."]},
+{"h":"A numerical illustration","p":["A bond paying ₦100 a year is worth ₦1,000 when the interest rate is 10% (100 ÷ 0.10). If the rate rises to 20%, the bond is worth ₦500 (100 ÷ 0.20): the price has halved. If the rate falls to 5%, its price rises to ₦2,000 (100 ÷ 0.05)."]},
+{"h":"Link to Nigeria","p":["When the Central Bank raises its policy rate, interest rates in the market tend to rise and the price of existing government bonds falls; when it cuts rates, the reverse happens. Investors watch these moves closely."]}
+],
+"activity":"Explain in detail why speculative demand for money is high when interest rates are low. Work out the price of a bond that pays ₦200 a year when the interest rate is 8%. (₦2,500.)",
+"check":[
+{"q":"Bond prices and interest rates move","o":["In opposite directions","Together","Independently","Randomly"]},
+{"q":"When interest rates are low, speculative demand for money is","o":["High","Low","Zero","Unchanged"]},
+{"q":"A bond paying ₦100 at 10% is worth","o":["₦1,000","₦100","₦10","₦10,000"]},
+{"q":"People sell bonds and hold cash when they expect interest rates to","o":["Rise","Fall","Stay at zero","Disappear"]},
+{"q":"The opportunity cost of holding cash is higher when rates are","o":["High","Low","Zero","Negative"]}
+]},
+
+{"id":"ec21-11","week":4,"title":"The Supply of Money and the Tools of the Central Bank","icon":"Landmark",
+"summary":"What the money supply is, and how the CBN uses open market operations, the cash reserve ratio and the monetary policy rate to control it.",
+"keyWords":["Money supply","CBN","Open market operations","Cash reserve ratio","Monetary policy rate","Money multiplier"],
+"sections":[
+{"h":"The money supply","p":["The supply of money (MS) is the total stock of money in the economy at a point in time: cash in circulation, bank deposits and other liquid assets. It is controlled by the Central Bank of Nigeria (CBN) through monetary policy."]},
+{"h":"1. Open market operations (OMO)","p":["The most common tool. To increase the money supply, the CBN buys government securities from commercial banks and pays with new money, which gives the banking system more liquidity. To decrease it, the CBN sells securities; the banks pay for them and the money leaves the system."]},
+{"h":"2. The cash reserve ratio (CRR)","p":["The percentage of deposits that banks must keep with the CBN and cannot lend. Lowering the CRR (say from 20% to 10%) leaves banks with more to lend, so credit and the money supply increase through the money multiplier. Raising it does the opposite."]},
+{"h":"3. The monetary policy rate (MPR)","p":["The 'official' interest rate at which the CBN lends to banks. A lower MPR makes borrowing cheaper, so banks lend more and money supply rises; a higher MPR makes borrowing dearer and reduces lending. The note calls the MPR the 'bank rate'; in Nigeria the MPR is the main policy rate."]},
+{"h":"The CBN's toolbox compared","p":["Study the table."],"tbl":{"head":["Tool","To increase the money supply","To reduce the money supply"],"rows":[["Open market operations","Buy securities","Sell securities"],["Cash reserve ratio","Lower it","Raise it"],["Monetary policy rate","Lower it","Raise it"]]}},
+{"h":"How the money multiplier works","p":["If the CRR is 10%, a ₦1,000 deposit allows a bank to lend ₦900. That ₦900 is deposited in another bank, which can lend ₦810, and so on. The maximum total deposits created = 1,000 × (1 ÷ 0.10) = ₦10,000. So lowering the CRR raises the money multiplier (from 1 ÷ 0.20 = 5 to 1 ÷ 0.10 = 10)."]},
+{"h":"Three tools to reduce the money supply","p":["Sell government securities in the open market; raise the cash reserve ratio; raise the monetary policy rate."]}
+],
+"activity":"Describe three tools the CBN can use to reduce the money supply. Explain how lowering the CRR increases the money supply. Draw the money market diagram and show the equilibrium interest rate.",
+"check":[
+{"q":"To reduce the money supply the CBN should","o":["Sell securities","Buy securities","Lower the CRR","Lower the MPR"]},
+{"q":"The cash reserve ratio is the percentage of deposits banks","o":["Must keep and cannot lend","Can lend freely","Pay as tax","Give to customers"]},
+{"q":"A lower MPR tends to","o":["Increase lending","Reduce lending","Stop all lending","Raise the CRR"]},
+{"q":"A CRR of 10% gives a money multiplier of","o":["10","5","2","100"]},
+{"q":"The money supply is controlled by the","o":["Central Bank of Nigeria","NNPC","SEC","Local government"]}
+]}
+]

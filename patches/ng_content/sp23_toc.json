@@ -1,0 +1,153 @@
+[
+    {
+        "id":  "sp23-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Physics Third Term, with a table of contents covering continuity testing, electroplating, atomic and nuclear physics, quantum ideas and energy.",
+        "keyWords":  [
+                         "SS2 Physics Third Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Physics Third Term",
+                             "p":  [
+                                       "Welcome to SS2 Physics for the third term. You will study continuity testing, electroplating, applications of electromagnetic fields, models of the atom, the nucleus, energy quantisation, duality of matter and energy and society.",
+                                       "Each unit has an activity and check questions. Where the lesson note had a mistake, we correct it and explain why."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Physics Third Term",
+                             "p":  [
+                                       "The units below follow the school scheme of work week by week."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Electrical Continuity Testing"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "2",
+                                                          "Electroplating"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "3",
+                                                          "Applications of Electromagnetic Fields (1): Induction, Eddy Currents, Generators and Motors"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "3",
+                                                          "Applications of Electromagnetic Fields (2): MRI, Induction Heating, Wireless Power and Risks"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "4",
+                                                          "Models of the Atom (1): Democritus, Dalton, Thomson and Rutherford"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "4",
+                                                          "Models of the Atom (2): Bohr and Quantum Mechanical Models"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "6",
+                                                          "The Nucleus (1): Constituents, Isotopes, Mass Defect and Half-Life"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "6",
+                                                          "The Nucleus (2): Fission, Fusion, Reactors, Uses and Hazards"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "6",
+                                                          "Nuclear Calculations with Corrected Answers"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "8",
+                                                          "Energy Quantisation: Levels, Quanta and Planck\u0027s Hypothesis"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "8",
+                                                          "The Photoelectric Effect and Worked Answers"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "9",
+                                                          "Duality of Matter (1): Wave-Particle Duality and de Broglie\u0027s Hypothesis"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "9",
+                                                          "Duality of Matter (2): Technologies and Worked Answers"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "10",
+                                                          "Energy and Society (1): Forms and Sources of Energy and Their Impact"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "10",
+                                                          "Energy and Society (2): Conservation, Comparison of Sources and Solutions"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "11",
+                                                          "Third Term Revision: Electroplating, Induction, the Atom and Energy"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic is in the third term of SS2 Physics?",
+                          "o":  [
+                                    "Electroplating, atomic models and the nucleus",
+                                    "Light and sound only",
+                                    "Batteries only",
+                                    "Fiscal policy"
+                                ]
+                      },
+                      {
+                          "q":  "How many options does each check question have?",
+                          "o":  [
+                                    "Four",
+                                    "Two",
+                                    "Six",
+                                    "One"
+                                ]
+                      },
+                      {
+                          "q":  "A good habit while studying is to",
+                          "o":  [
+                                    "Draw the diagrams and redo the calculations",
+                                    "Only read quickly",
+                                    "Skip the pictures",
+                                    "Avoid practice"
+                                ]
+                      }
+                  ]
+    }
+]

@@ -1,0 +1,126 @@
+[
+{"id":"fa23-02","week":1,"title":"The Capital Market and Methods of Raising Funds (Part 1)","icon":"Landmark",
+"summary":"The meaning of the capital market and the first group of methods: public offer, rights issue, private placement and offer for sale.",
+"keyWords":["Capital market","Public offer","Rights issue","Private placement","Offer for sale","Issuing house"],
+"sections":[
+{"h":"What is the capital market?","p":["The capital market is the part of the financial system that deals with long-term borrowing and lending, usually for more than one year. It is where shares and bonds are issued and traded. Those who take part include public and private companies, government bodies, investment banks, stockbrokers, and big (institutional) and small (retail) investors.","Companies and governments use it to find large sums for expansion, projects and infrastructure."]},
+{"h":"1. Public offer","p":["A company issues new shares to the public through a prospectus. Investors apply for a number of shares. It is usual for public limited companies that want more capital. Example: a large company offering shares to the public on the Nigerian Exchange."]},
+{"h":"2. Rights issue","p":["New shares are offered to existing shareholders in proportion to what they hold. Existing owners have the first chance to buy. The shares are usually priced below the market price to encourage take-up. Benefit: owners keep their control and are not diluted."]},
+{"h":"3. Private placement","p":["Shares are offered to chosen investors (institutions, private equity firms or selected persons) and not to the general public. It is faster, cheaper and has fewer rules. It is common among private companies and start-ups, or companies that want money without going public."]},
+{"h":"4. Offer for sale","p":["Shares are sold to the public through an issuing house. In the lesson note's version, existing shareholders sell their shares, so the company receives no new capital but ownership changes. Note that in other books a company may itself sell its new shares to an issuing house for resale, and in that case the company does receive money. Always read the question to see who is selling."]},
+{"h":"Public offer and private placement compared","p":["Study the table."],"tbl":{"head":["Feature","Public offer","Private placement"],"rows":[["Who may buy","The general public","Chosen investors only"],["Rules and approval","Heavy (SEC approval, prospectus)","Lighter"],["Speed","Slow","Fast"],["Cost","High","Lower"],["Raises","Large sums","Smaller to medium sums"]]}}
+],
+"activity":"Explain the difference between a public offer and a private placement. State what a rights issue is and why it is offered at a discount. A company wants ₦5 billion but does not wish to go public: which method may it use, and why? (A private placement or bond issue to institutions.)",
+"check":[
+{"q":"The capital market deals with funds for","o":["More than one year","Less than one year","One week","One day"]},
+{"q":"A rights issue is offered to","o":["Existing shareholders","The general public only","Non-members","Banks only"]},
+{"q":"A private placement sells shares to","o":["Selected investors","Everybody","Nobody","Only the government"]},
+{"q":"A rights issue is usually priced","o":["Below market price","Far above market price","At zero","At random"]},
+{"q":"A public offer is made using a","o":["Prospectus","Cash book","Deed","Receipt"]}
+]},
+
+{"id":"fa23-03","week":1,"title":"Raising Funds in the Capital Market (Part 2): Bonds, IPOs and Advisers","icon":"BarChart2",
+"summary":"Debentures and bonds, the IPO, government securities, venture capital, the intermediaries involved and the advantages and disadvantages of the capital market.",
+"keyWords":["Bond","Debenture","IPO","Government securities","Venture capital","Stockbroker"]
+,"sections":[
+{"h":"5. Debenture and bond issues","p":["Companies and governments borrow from the public for a fixed period at a fixed rate of interest. Investors get regular interest and the principal back at maturity. Bonds and debentures can be traded in the capital market. Example: Federal Government bonds issued through the Debt Management Office."]},
+{"h":"6. Initial Public Offering (IPO)","p":["An IPO is the first time that a private company offers its shares to the public. It marks the change from a private to a public company. It needs heavy regulation, a prospectus and much publicity."]},
+{"h":"7. Government securities","p":["Governments issue long-term securities (bonds) to fund projects or cover deficits. They are low-risk because the government stands behind them."]},
+{"h":"8. Venture capital and private equity","p":["Start-ups and growing firms raise money by selling a share in the business to venture capital or private equity firms. The investors give money in return for ownership and often help to run the business."]},
+{"h":"Intermediaries","p":["Stockbrokers buy and sell securities for clients. Issuing houses help firms to prepare and manage public offers. Registrars keep the register of shareholders and handle their records. The Securities and Exchange Commission (SEC) regulates the market and protects investors."]},
+{"h":"Advantages","p":["Access to large long-term capital. Better public image and credibility. More liquidity and value for shareholders. Less reliance on bank loans. A wider spread of ownership."]},
+{"h":"Disadvantages","p":["High costs: underwriting, legal and listing fees. Disclosure rules may reveal plans to competitors. Control is diluted when new shareholders join. Exposure to market ups and downs."]},
+{"h":"Bond and debenture compared","p":["Both are debt instruments with fixed interest. A debenture is issued by a company, often secured on assets. A bond is a more general term, issued by governments or companies, and is usually traded on the market, often unsecured. In Nigeria the difference is small and the words are sometimes used loosely."]},
+{"h":"Table for the assignment","p":["Compare the three methods."],"tbl":{"head":["Heading","Rights issue","Public offer","Private placement"],"rows":[["Target investors","Existing shareholders","General public","Selected investors"],["Regulatory burden","Moderate","High","Low"],["Speed","Fairly quick","Slow","Quick"],["Cost of issue","Moderate","High","Low"]]}}
+],
+"activity":"List the intermediaries in a public offer and say what each does. State two advantages and two disadvantages of raising funds from the capital market. Explain the difference between a bond and a debenture.",
+"check":[
+{"q":"The first sale of a private company's shares to the public is the","o":["IPO","Rights issue","Bonus issue","Placement"]},
+{"q":"A bond is a","o":["Debt instrument","Share","Dividend","Asset"]},
+{"q":"A registrar","o":["Keeps the share register","Regulates the market","Buys and sells shares","Audits the company"]},
+{"q":"Venture capital investors receive","o":["Part ownership","Only interest","Nothing","Tax"]},
+{"q":"A disadvantage of the capital market is","o":["High cost of issuance","No regulation","No capital","No visibility"]}
+]},
+
+{"id":"fa23-04","week":2,"title":"Requirements for Accessing the Capital Market (Part 1)","icon":"ClipboardCheck",
+"summary":"The regulators and the first requirements a company must meet: legal incorporation, capital, performance and governance.",
+"keyWords":["SEC","NGX","CAC","Plc","Minimum share capital","Corporate governance"],
+"sections":[
+{"h":"Access is not automatic","p":["Accessing the capital market means that a company has met the conditions to raise money by selling shares, bonds or other securities to the public or to institutions, through a stock exchange or over-the-counter platforms. It requires transparency, legal compliance and financial readiness."]},
+{"h":"The regulators","p":["Securities and Exchange Commission (SEC): the overall regulator of the market. Nigerian Exchange Group (NGX): oversees listing and trading. Corporate Affairs Commission (CAC): registers companies and enforces company law."]},
+{"h":"Requirement 1: legal incorporation","p":["The company must be registered with the CAC as a public limited company (Plc), with a valid Certificate of Incorporation. Its memorandum and articles must allow it to offer shares to the public."]},
+{"h":"Requirement 2: minimum share capital","p":["The company must meet the minimum capital required by the SEC and the NGX. The lesson note says about ₦300 million for the main board, depending on sector. Listing rules are changed from time to time and differ between boards, so check the current NGX rulebook before quoting a figure."]},
+{"h":"Requirement 3: financial performance","p":["The company must have a record of profitable trading, usually two to three years, and present audited financial statements signed by licensed professionals."]},
+{"h":"Requirement 4: corporate governance","p":["A working board of directors with independent directors; follow the Nigerian Code of Corporate Governance, so that the company is transparent, accountable and fair to all shareholders."]},
+{"h":"Why these rules?","p":["The public will trust the company with its savings. The rules protect investors from fraud and from companies that are weak or badly managed."]}
+],
+"activity":"Name three regulatory authorities that a company must satisfy before accessing the capital market. List and explain four requirements. Why must the accounts be audited?",
+"check":[
+{"q":"The overall regulator of the capital market is the","o":["SEC","CAC","FIRS","NDIC"]},
+{"q":"A company must first be registered as a","o":["Public limited company","Sole trader","Partnership","Club"]},
+{"q":"Audited accounts are signed by","o":["Licensed professionals","Customers","Any friend","The workers"]},
+{"q":"A company must have a good record of","o":["Profitable trading","Late tax","Losses only","Secret accounts"]},
+{"q":"Corporate governance means","o":["Good management and fair, open running of the company","Free shares to staff","No directors","No audits"]}
+]},
+
+{"id":"fa23-05","week":2,"title":"Requirements for Accessing the Capital Market (Part 2): Documents, Advisers and Duties after Listing","icon":"ClipboardCheck",
+"summary":"Disclosure and documentation, professional advisers, the prospectus, approvals and the duties that continue after listing.",
+"keyWords":["Disclosure","Issuing house","Prospectus","Approval","Annual General Meeting","Ongoing compliance"],
+"sections":[
+{"h":"Requirement 5: disclosure and documents","p":["The company submits to the SEC and the NGX: audited financial statements (at least three years); the application form and prospectus or information memorandum; details of directors and top management; the capital structure and a list of shareholders; proof that taxes have been paid."]},
+{"h":"Requirement 6: professional advisers","p":["The company must engage approved capital market operators: issuing houses to manage the offer; stockbrokers to deal with the exchange; registrars to keep the share register; and auditors, solicitors and financial advisers."]},
+{"h":"Requirement 7: the prospectus","p":["A prospectus is a legal document that describes the offer to the public. It must tell the truth about the company's history, finances, risks and management. The SEC must vet and approve it. If it contains false information, directors can be punished."]},
+{"h":"Requirement 8: approvals","p":["The offer must be registered and approved by the SEC. The NGX reviews the documents before approving the listing."]},
+{"h":"Requirement 9: duties after listing","p":["Regular reports (quarterly and yearly). Prompt public notice of important events such as changes on the board, mergers or big contracts. Annual General Meetings (AGMs) for shareholders. Declaring dividends and running the business openly."]},
+{"h":"Importance of these requirements","p":["They protect investors, build public confidence, encourage long-term investing, make the company more disciplined and open, and give it access to wide and often cheaper capital."]},
+{"h":"Step-by-step summary for the assignment","p":["1. Register as a Plc and obtain the certificate of incorporation. 2. Meet the capital and profit tests. 3. Appoint advisers (issuing house, stockbroker, registrar, auditor, solicitor). 4. Prepare audited accounts and the prospectus. 5. Apply to the SEC and the NGX. 6. Receive approval. 7. Offer the shares. 8. After listing, keep reporting and holding AGMs."]},
+{"h":"Legal and financial requirements compared","p":["Legal requirements: registration, Plc status, memorandum and articles, SEC and NGX approval. Financial requirements: minimum capital, profit record, audited accounts, tax compliance."]}
+],
+"activity":"Outline the step-by-step requirements a company must meet before the SEC approves its public offering. Explain why a prospectus must be approved by the SEC. State two duties of a listed company after it lists.",
+"check":[
+{"q":"A prospectus must be approved by the","o":["SEC","Local market","Bank manager","Newspaper"]},
+{"q":"An issuing house","o":["Manages the offer","Prints money","Owns the exchange","Audits government"]},
+{"q":"A listed company must hold","o":["Annual General Meetings","No meetings","Meetings only in private","Meetings every hour"]},
+{"q":"Audited accounts for at least","o":["Three years are usually required","One day","One week","Ten years"]},
+{"q":"Quarterly and yearly reports are","o":["Post-listing duties","Optional gifts","Pre-registration forms","Tax refunds"]}
+]},
+
+{"id":"fa23-06","week":3,"title":"Benefits of the Capital Market to Companies, Governments and Investors","icon":"BarChart2",
+"summary":"How companies, governments and investors benefit, with the meaning of capital gains, dividend income and diversification.",
+"keyWords":["Long-term funds","Cost-effective financing","Capital gain","Dividend","Portfolio diversification","Liquidity"],
+"sections":[
+{"h":"Recap","p":["The capital market is the part of the financial market for long-term instruments such as shares, bonds and debentures. It includes the NGX, the SEC, stockbrokers, issuing houses and other operators."]},
+{"h":"Benefits to companies and governments","p":["1. Access to long-term funds for expansion, infrastructure or new ideas. 2. Cost-effective financing: often cheaper than bank loans for large projects. 3. Business growth: money to launch new products, employ more people and enter new markets. 4. Better corporate governance: listed companies must be open and responsible. 5. Public confidence and credibility with investors, banks and customers. 6. Liquidity for the owners: existing shareholders can sell shares and turn ownership into cash."]},
+{"h":"Benefits to investors","p":["1. Investment opportunities: shares, bonds, mutual funds. 2. Capital gains: profit when the price of a security rises. For example, shares bought at ₦20 and sold at ₦30 give a gain of ₦10 a share. 3. Dividend and interest income: shares pay dividends, bonds pay interest. 4. Portfolio diversification: spreading money across companies and sectors so that a loss in one is balanced by gains in others, which reduces risk. 5. Ownership in companies, with a vote at meetings."]},
+{"h":"Why capital market finance can be better than a bank loan","p":["The money does not need to be repaid on a fixed date if it is raised by shares. There is no collateral to give the bank. The company can raise very large sums from many people. The cost can be lower and the money is long term, but note the costs of issue and disclosure."]},
+{"h":"Portfolio diversification: an example","p":["An investor with ₦300,000 puts ₦100,000 each in a bank share, a food company share and a Federal Government bond. If the food company has a bad year, the other two may still do well, so the overall return is steadier than if all the money was in one share."]}
+],
+"activity":"State three benefits of the capital market to companies and four benefits to investors. Explain how diversification reduces risk. Write a paragraph on why capital market finance may be better than a bank loan.",
+"check":[
+{"q":"Profit made when the price of a share rises is a","o":["Capital gain","Dividend","Salary","Interest"]},
+{"q":"Spreading investments among different securities is","o":["Diversification","Inflation","Liquidation","Taxation"]},
+{"q":"A bond pays","o":["Interest","Dividend","Salary","Rent"]},
+{"q":"A benefit to the owners of a listed company is","o":["Liquidity of shares","No audit","No tax","No governance"]},
+{"q":"For large projects, capital market money is often","o":["Cheaper than a bank loan","Always dearer","Free","Illegal"]}
+]},
+
+{"id":"fa23-07","week":3,"title":"Benefits to the Economy and the Challenges of the Capital Market","icon":"Landmark",
+"summary":"How the capital market helps national development, its specific benefits for Nigeria, and its limits.",
+"keyWords":["Economic development","Idle funds","Foreign investment","Privatisation","Volatility"],
+"sections":[
+{"h":"Benefits to the economy","p":["1. Economic development: money raised is invested in factories, farms and infrastructure, which creates jobs and raises GDP. 2. Mobilisation of idle funds: savings that would lie idle are put to work. 3. Efficient allocation of resources: money goes to businesses and sectors with the best prospects. 4. Less government borrowing: the private sector can fund projects itself. 5. Foreign investment: a strong market attracts foreign direct and portfolio investment."]},
+{"h":"Benefits to the government","p":["It can sell bonds to finance roads, power and schools, and to cover deficits. It can sell its shares in state companies to the public (privatisation), which brings in money and improves efficiency. It gains tax from the profit of companies and from investors."]},
+{"h":"Specific benefits to Nigeria","p":["Federal Government bonds finance infrastructure. Privatisation of state-owned firms. Investor education and openness through the SEC and the NGX. Young founders, including technology start-ups, can find equity funding. Investment decisions of many people can have an indirect effect on interest rates and inflation."]},
+{"h":"Challenges","p":["Many people in rural areas do not know how the market works. Prices go up and down, and investors can lose money. Some companies do not obey the rules. In some developing markets investors are not well protected."]},
+{"h":"The balance","p":["Even with these problems, a well regulated capital market benefits companies, investors and the nation. The solution is better education, stronger regulation and honest companies."]},
+{"h":"A table for the assignment","p":["Compare the benefits."],"tbl":{"head":["Group","Main benefits"],"rows":[["Companies","Long-term capital, growth, credibility, liquidity for owners"],["Investors","Capital gains, dividends and interest, diversification, ownership"],["The economy","Jobs, mobilised savings, efficient use of resources, foreign investment"]]}}
+],
+"activity":"Write an essay on 'How the capital market promotes economic development in Nigeria'. List four benefits of the capital market to governments. Explain two challenges and suggest a remedy for each.",
+"check":[
+{"q":"The sale of state companies to the public is","o":["Privatisation","Inflation","Devaluation","Taxation"]},
+{"q":"Idle funds mobilised by the capital market are used for","o":["Productive investment","Hiding money","Burning money","Nothing"]},
+{"q":"A challenge of the capital market is","o":["Market volatility","Free money","Fixed prices","No rules"]},
+{"q":"Foreign investment is","o":["Attracted by a strong capital market","Banned","Unrelated","Only by banks"]},
+{"q":"A bond issue by the government helps to","o":["Finance infrastructure","Reduce all taxes","Close the exchange","Stop trade"]}
+]}
+]

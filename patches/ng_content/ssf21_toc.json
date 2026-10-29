@@ -1,0 +1,158 @@
+[
+    {
+        "id":  "fa21-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Financial Accounting First Term: partnership accounts, admission of a partner and goodwill, non-profit accounts and single entry.",
+        "keyWords":  [
+                         "SS2 Financial Accounting - First Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Financial Accounting - First Term",
+                             "p":  [
+                                       "Welcome to SS2 Financial Accounting, First Term. You will learn how a partnership shares its profit, keeps capital and current accounts, and admits a new partner with goodwill. Then you will see how clubs and societies keep accounts, and how to find profit when a trader keeps incomplete records.",
+                                       "Work every example with a pencil, and always check that both sides of an account add up to the same total. Where the original lesson note had an error or missing number, a correction is explained in the unit."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Financial Accounting - First Term",
+                             "p":  [
+                                       "Here is the plan for the term. Tick each unit when you finish it."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "The Profit and Loss Appropriation Account"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Appropriation Account: Worked Examples"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Partnership Capital Accounts: Fixed and Fluctuating"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Capital Accounts: Worked Examples"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "The Partnership Current Account"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Current Account: Worked Examples and Solutions"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "6",
+                                                          "Admission of a New Partner: Reasons and Revaluation"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "6",
+                                                          "Goodwill: Meaning and Treatment"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "6",
+                                                          "New Profit-Sharing Ratio and the Sacrificing Ratio"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "Journal Entries on Admission: A Full Worked Example"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "8",
+                                                          "Non-Profit Organisations and the Receipts and Payments Account"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "8",
+                                                          "The Income and Expenditure Account"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "8",
+                                                          "Non-Profit Accounts: Worked Example and Solutions"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "9",
+                                                          "Single Entry and Incomplete Records"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "9",
+                                                          "Statement of Affairs Method: Finding Profit from Capital"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "9",
+                                                          "Reconstructing the Missing Accounts"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "11",
+                                                          "First Term Revision: Partnership, Non-Profit and Single Entry"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic opens the term?",
+                          "o":  [
+                                    "The appropriation account",
+                                    "Hire purchase",
+                                    "Issue of shares",
+                                    "The capital market"
+                                ]
+                      },
+                      {
+                          "q":  "Where do you study single entry?",
+                          "o":  [
+                                    "Week 9 units",
+                                    "Week 1 units",
+                                    "The second term",
+                                    "Nowhere"
+                                ]
+                      },
+                      {
+                          "q":  "The term ends with",
+                          "o":  [
+                                    "Revision",
+                                    "A new topic on shares",
+                                    "Loan capital",
+                                    "Hire purchase"
+                                ]
+                      }
+                  ]
+    }
+]

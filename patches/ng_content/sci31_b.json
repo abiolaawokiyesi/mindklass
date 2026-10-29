@@ -1,0 +1,146 @@
+[
+{"id":"sc31-11","week":6,"title":"Environmental Health: Meaning and Components","icon":"Heart",
+"summary":"What environmental health is, the six components of a healthy environment and why a clean environment protects health.",
+"keyWords":["Environmental health","Potable water","Vector control","Sanitation","Noise control"],
+"sections":[
+{"h":"Meaning","p":["Environmental health is the part of public health that studies how people and their surroundings affect each other. Its aim is to keep people healthy by making sure that the environment is safe and clean."],"img":{"src":"sci3-env-health.jpg","alt":"A person at the centre with water safety, clean air, vector control, waste management and personal hygiene around her, and an environmental health officer","cap":"The parts of a healthy environment."}},
+{"h":"Components of a healthy environment","p":["Study the table."],"tbl":{"head":["Component","Meaning"],"rows":[["Clean air","Free from smoke, dust and chemical pollution"],["Safe water","Free from germs, chemicals and waste (potable, which means fit to drink)"],["Waste management","Proper collection and disposal of refuse and sewage"],["Safe food","Food free from germs and chemicals"],["Vector control","Controlling pests that spread disease, such as mosquitoes, rats and flies"],["Noise control","No harmful or stressful noise"]]}},
+{"h":"Why a clean environment matters","p":["It prevents disease, which is the most important reason: clean water prevents cholera and typhoid; controlling mosquitoes prevents malaria; controlling rats prevents Lassa fever; clean air reduces breathing problems such as asthma. It improves quality of life: a clean, quiet, green place lowers stress. It has economic benefits: healthy people work and study better, and the government spends less on treating preventable diseases. It also protects the ecosystem: birds, fish and other wildlife can live there."]}
+],
+"activity":"List four components of a healthy environment. Explain, with examples, why preventing disease is the most important reason for keeping the environment clean.",
+"check":[
+{"q":"Water fit to drink is called","o":["Potable water","Sewage","Effluent","Brine"]},
+{"q":"Mosquito control helps to prevent","o":["Malaria","Cholera","Asthma","Typhoid"]},
+{"q":"Cholera and typhoid are mainly prevented by","o":["Clean water","Noise control","Tree planting","Fresh air only"]},
+{"q":"A vector is","o":["A pest that spreads disease","A kind of soil","A type of waste","A medicine"]},
+{"q":"Rats are linked with","o":["Lassa fever","Malaria","Cholera","Asthma"]}
+]},
+
+{"id":"sc31-12","week":6,"title":"Roles in Environmental Health: You, the Government and Health Officers","icon":"Users",
+"summary":"What individuals and governments must do to keep the environment healthy, and the work of environmental health officers.",
+"keyWords":["Sanitation","LAWMA","Environmental Health Officer","Wole-Wole","Hygiene"],
+"sections":[
+{"h":"Your role","p":["Dispose of waste properly: bag it and never throw it into gutters. Keep yourself, your clothes and your home clean (personal hygiene). Practise sanitation: clear gutters and do not leave stagnant water, where mosquitoes breed. Reduce pollution: do not burn rubbish, and walk or use public transport for short trips. Report broken sewage pipes and large rubbish heaps to the authorities."]},
+{"h":"The government's role","p":["Provide infrastructure: water treatment plants, drains and landfills. Organise and fund waste agencies, such as the Lagos Waste Management Authority (LAWMA) in Lagos State. Make and enforce laws, for example pollution limits for factories and penalties for dumping. Run public education campaigns on hygiene. Employ environmental health officers to inspect and enforce standards."]},
+{"h":"Environmental health officers","p":["They used to be called sanitary inspectors, and in Yoruba many people call them 'Wole-Wole'. They are government workers who inspect houses, markets and restaurants for cleanliness; enforce sanitation laws (for example during monthly environmental sanitation exercises in states where they are held); teach people about hygiene; and control pests and outbreaks of disease."]}
+],
+"activity":"List two things you do and two things the government does to keep your area healthy. Find out the name of the waste management agency in your state.",
+"check":[
+{"q":"Stagnant water is dangerous because","o":["Mosquitoes breed in it","It is cold","It is clean","It cures malaria"]},
+{"q":"LAWMA is","o":["The waste management agency in Lagos","A kind of soap","A mosquito","A river"]},
+{"q":"An environmental health officer","o":["Inspects places and enforces sanitation laws","Sells medicine","Plants crops","Repairs cars"]},
+{"q":"Which is a role of the individual?","o":["Bag your waste properly","Build treatment plants","Pass laws","Employ officers"]},
+{"q":"Which is a role of the government?","o":["Build drainage systems","Wash your hands for you","Throw rubbish in drains","Burn waste at home"]}
+]},
+
+{"id":"sc31-13","week":8,"title":"Waste: Types and Methods of Disposal","icon":"Layers",
+"summary":"Solid, liquid and gaseous waste, unsafe and safe ways of disposing of it, and how landfills, incineration and composting work.",
+"keyWords":["Waste","Sewage","Effluent","Sanitary landfill","Incineration","Composting"],
+"sections":[
+{"h":"What is waste?","p":["Waste (refuse) is any material that is no longer wanted and is thrown away."]},
+{"h":"Types of waste","p":["Solid waste (refuse): rubbish from homes, schools and markets, such as plastic bottles, food scraps, paper and cans. Liquid waste: sewage (wastewater from toilets, sinks and bathrooms) and effluent (chemical waste water from factories). Gaseous waste: harmful gases from factories, vehicle exhausts and burning rubbish, such as carbon monoxide."]},
+{"h":"Unsafe methods","p":["Dumping in gutters or rivers causes flooding and water pollution. Uncontrolled burning causes air pollution and harms health."]},
+{"h":"Proper methods","p":["Sanitary landfill: a large, deep pit far from the city; waste is spread in thin layers and covered with soil every day, so there is no smell and rats and flies cannot breed. Incineration: burning waste at very high temperature in a controlled plant (roughly 850 to over 1,000 °C), which reduces its volume by up to about 90%; the heat can be used to make electricity (waste-to-energy). Recycling: turning waste into new products (see the next unit). Composting: letting food scraps and leaves (biodegradable waste) rot down to make fertiliser."]},
+{"h":"Biodegradable and non-biodegradable","p":["Biodegradable waste, such as food and paper, is broken down by microbes. Non-biodegradable waste, such as plastics and glass, is not broken down quickly and stays in the environment for a very long time. That is why we should reduce it."]}
+],
+"activity":"List the three types of waste with examples. Explain how a sanitary landfill differs from an open dump. Make a small compost heap at home or school.",
+"check":[
+{"q":"Sewage is","o":["Liquid waste","Solid waste","Gaseous waste","Fresh water"]},
+{"q":"Waste is covered with soil each day in a","o":["Sanitary landfill","Incinerator","Compost heap","River"]},
+{"q":"Composting is used for","o":["Organic (food) waste","Glass","Metal","Plastic"]},
+{"q":"Carbon monoxide from burning rubbish is","o":["Gaseous waste","Solid waste","Liquid waste","A fertiliser"]},
+{"q":"Incineration","o":["Burns waste at high temperature","Buries waste","Dumps waste in rivers","Makes compost"]}
+]},
+
+{"id":"sc31-14","week":8,"title":"The 3 Rs, Recycling and the Effects of Poor Waste Management","icon":"Heart",
+"summary":"The waste hierarchy of reduce, reuse and recycle, why recycling matters, a waste-sorting activity, and the harm done by poor waste management.",
+"keyWords":["Reduce","Reuse","Recycle","Waste hierarchy","Sorting"],
+"sections":[
+{"h":"The waste hierarchy","p":["The 3 Rs, in order of importance, are the best plan for managing waste."],"img":{"src":"sci3-3rs.jpg","alt":"Three arrows labelled reduce, reuse and recycle in a cycle, with a sanitary landfill and an incineration plant below","cap":"Reduce, reuse and recycle, with landfill and incineration as the last resorts."}},
+{"h":"Reduce, reuse, recycle","p":["1. Reduce is the best choice: use less in the first place, for example buy goods with little packaging and carry your own bag. 2. Reuse: use an item more than once, for example refill a water bottle, keep glass jars for storage, pass on old clothes. 3. Recycle is the last choice: turn waste into new materials and objects, such as plastic (PET) bottles, glass, paper, aluminium cans and steel."]},
+{"h":"Why recycle?","p":["It saves natural resources (recycled paper saves trees). It saves energy (it takes much less energy to recycle aluminium than to make it from raw ore). It reduces the amount of rubbish in landfills. It can also create jobs, for example for people who collect and process plastic."]},
+{"h":"Effects of poor waste management","p":["Disease outbreaks: rubbish attracts rats, flies and mosquitoes, which spread Lassa fever, cholera and malaria. Flooding: waste blocks drains and gutters. Pollution: waste pollutes water and the air (when burnt). An ugly environment: a dirty community looks unpleasant and can put off visitors and lower property values."]},
+{"h":"Waste-sorting activity","p":["Your teacher brings a bag of clean mixed waste. Sort the items into bins: recyclable (plastic bottle, paper); reusable (old cloth, which can be used as a rag); compostable (banana peel); and general waste for the landfill (food wrapper)."]}
+],
+"activity":"Explain the difference between reduce and reuse with an example for each. Say why reduce is the best of the 3 Rs. List three things at home that could be reused.",
+"check":[
+{"q":"The best of the 3 Rs is","o":["Reduce","Reuse","Recycle","Burning"]},
+{"q":"Refilling a water bottle is an example of","o":["Reuse","Recycle","Reduce","Dumping"]},
+{"q":"Recycling aluminium saves","o":["Energy","Nothing","Water only","Sunshine"]},
+{"q":"A banana peel should go in the","o":["Compost bin","Recycling bin for plastic","Gutter","River"]},
+{"q":"Waste in gutters most directly causes","o":["Flooding","Drought","Earthquakes","Rainbows"]}
+]},
+
+{"id":"sc31-15","week":9,"title":"Weather, Climate and the Greenhouse Effect","icon":"Camera",
+"summary":"The difference between weather and climate, what climate change and global warming are, and how greenhouse gases heat the Earth.",
+"keyWords":["Weather","Climate","Climate change","Global warming","Greenhouse effect","Carbon dioxide"],
+"sections":[
+{"h":"Weather and climate","p":["Weather is the state of the atmosphere over a short time: 'it is raining today', 'it is hot this afternoon'. Climate is the average weather of a place over a long time (30 years or more): 'Lagos has a warm, wet climate', 'Kano has a hot, dry climate'."]},
+{"h":"Climate change and global warming","p":["Climate change is a big, long-term change in the average weather patterns of a region or of the whole Earth. Global warming is the long-term rise in the temperature of the Earth's climate since about 1850 to 1900, mainly because of human activities. Global warming is the main cause of present climate change."]},
+{"h":"The greenhouse effect","p":["The Earth is wrapped in a 'blanket' of gases, the atmosphere. Sunlight passes through the blanket and warms the Earth. The warm Earth sends heat back out. Greenhouse gases (carbon dioxide, methane, water vapour and others) trap some of this outgoing heat and keep the planet warm. This natural greenhouse effect is good: without it the Earth would be freezing.","The problem is that since the Industrial Revolution people have been burning fossil fuels (coal, oil and gas) in factories, vehicles and power stations. This releases extra carbon dioxide, so the blanket gets thicker, traps too much heat and causes global warming."]},
+{"h":"Main causes","p":["Burning fossil fuels, which gives off carbon dioxide. Deforestation: trees absorb carbon dioxide, so cutting them down leaves more of it in the air. Agriculture: cattle and rice fields give off methane, another strong greenhouse gas. Burning refuse and gas flaring also add to the problem."]}
+],
+"activity":"Define weather and climate and give one example of each. Explain the greenhouse effect in your own words. Link deforestation to global warming.",
+"check":[
+{"q":"The average weather of a place over many years is its","o":["Climate","Weather","Season","Storm"]},
+{"q":"The main greenhouse gas from burning fossil fuels is","o":["Carbon dioxide","Oxygen","Nitrogen","Helium"]},
+{"q":"Trees reduce global warming because they","o":["Absorb carbon dioxide","Make heat","Release carbon dioxide","Block rain"]},
+{"q":"Methane comes from","o":["Cattle and rice fields","Wind","Sunlight","Rain"]},
+{"q":"Global warming is the","o":["Long-term rise in Earth's temperature","Weather today","Cold weather","A kind of rain"]}
+]},
+
+{"id":"sc31-16","week":9,"title":"Effects of Climate Change, Mitigation and Adaptation","icon":"Shield",
+"summary":"What global warming does in Nigeria and the world, and the difference between stopping the cause (mitigation) and managing the effects (adaptation), with the tree-planting activity.",
+"keyWords":["Sea-level rise","Extreme weather","Mitigation","Adaptation","Afforestation","Biodiversity"],
+"sections":[
+{"h":"Effects","p":["Rising sea level: ice melts and warm water expands, which threatens coastal cities such as Lagos, Port Harcourt and Calabar. More extreme weather: heavier rain and floods in the south and worse droughts and desertification in the north. Disrupted farming: floods and droughts destroy crops and cause food shortages. Loss of biodiversity: plants and animals die because they cannot adapt fast enough."]},
+{"h":"Mitigation and adaptation","p":["Study the table."],"tbl":{"head":["Mitigation","Adaptation"],"rows":[["Actions to reduce greenhouse gases (solve the cause)","Actions to cope with changes that cannot be avoided (manage the effects)"],["Switch to solar, wind and hydro power","Build sea walls and improve drainage against floods"],["Plant trees (afforestation)","Grow drought-resistant crops"],["Use energy efficiently and follow the 3 Rs","Build irrigation systems"]]}},
+{"h":"The sea wall at Lagos","p":["Eko Atlantic, a new city on land reclaimed from the Atlantic Ocean in Lagos, is protected by a long sea wall that people call the 'Great Wall of Lagos'. It is an example of adaptation: it does not stop sea level rise, but it protects the coast."]},
+{"h":"School tree planting","p":["The single best mitigation action a school can take is to plant trees. Trees absorb carbon dioxide, give shade that cools the school, and their roots hold the soil to prevent erosion. In class, plant one or two saplings, label them, water them and record their growth."]}
+],
+"activity":"Give one example of mitigation and one of adaptation. Write a short paragraph explaining why tree planting is an important science project.",
+"check":[
+{"q":"Planting trees to reduce carbon dioxide is","o":["Mitigation","Adaptation","Erosion","Pollution"]},
+{"q":"Building a sea wall is an example of","o":["Adaptation","Mitigation","Deforestation","Burning"]},
+{"q":"Rising sea levels threaten","o":["Coastal cities","The Sahara only","Mountains only","Deserts only"]},
+{"q":"Drought-resistant crops are a form of","o":["Adaptation","Mitigation","Pollution","Erosion"]},
+{"q":"Melting ice and expanding warm water cause","o":["Sea level rise","Drought","Earthquakes","Wind"]}
+]},
+
+{"id":"sc31-17","week":10,"title":"Sustainable Development, the SDGs and a School Eco-Project","icon":"Award",
+"summary":"The meaning of sustainable development, its three pillars, the Sustainable Development Goals that protect the environment, and a plan for a school eco-project.",
+"keyWords":["Sustainable development","Three pillars","SDGs","Brundtland","Eco-project"],
+"sections":[
+{"h":"Meaning","p":["In 1987 the Brundtland Report defined sustainable development as development that meets the needs of the present without making it harder for future generations to meet their own needs. In simple words: live well today without destroying the planet for our children and grandchildren.","Not sustainable: cutting down all the trees in a forest and selling the wood. Sustainable: cutting 100 trees and planting 200 new ones, so there is wood now and a forest later."]},
+{"h":"The three pillars","p":["Study the table."],"tbl":{"head":["Pillar","Meaning","Example"],"rows":[["Environmental","Protect the planet, conserve resources, cut pollution","Using solar power"],["Economic","Create jobs and wealth that can last","A business that does not use up its own raw materials"],["Social","A good quality of life for all people","Schools, health care, human rights"]]}},
+{"h":"The Sustainable Development Goals (SDGs)","p":["The SDGs, also called the Global Goals, are 17 goals adopted by all United Nations countries in 2015, to be reached by 2030. Goals linked to the environment include: Goal 6 Clean Water and Sanitation; Goal 7 Affordable and Clean Energy; Goal 11 Sustainable Cities and Communities; Goal 13 Climate Action; Goal 14 Life Below Water; Goal 15 Life on Land."]},
+{"h":"School eco-project ideas","p":["1. Waste sorting: labelled bins for paper, plastic bottles and general waste. 2. Tree planting around the compound. 3. A 'Lights Out' campaign with posters reminding everyone to turn off lights and fans. 4. A school garden for vegetables. To plan a project: state the aim, who will do what, what materials you need, how long it will take, and how you will know it worked."]},
+{"h":"Environmental protection","p":["Environmental protection is the heart of sustainability. It includes conserving resources, protecting ecosystems, managing waste and pollution, and fighting climate change, which are the topics of this term."]}
+],
+"activity":"Write the Brundtland definition from memory. Write down SDG 13, 14 and 15. Write a one-paragraph plan for a school eco-project.",
+"check":[
+{"q":"Sustainable development meets needs of the present","o":["Without harming future generations","By using up all resources","Only for rich people","By stopping industry"]},
+{"q":"The three pillars are environmental, economic and","o":["Social","Political","Military","Musical"]},
+{"q":"SDG 13 is","o":["Climate Action","Clean Water and Sanitation","Life Below Water","Life on Land"]},
+{"q":"The SDGs were adopted in","o":["2015","1987","2030","1960"]},
+{"q":"Cutting 100 trees and planting 200 is","o":["Sustainable","Not sustainable","Erosion","Pollution"]}
+]},
+
+{"id":"sc31-18","week":11,"title":"First Term Revision: Ecosystems, Resources, Hazards, Health, Waste and Climate","icon":"ClipboardCheck",
+"summary":"A checklist and key points for the whole of first term, with practical revision tasks.",
+"keyWords":["Revision","Ecosystem","Hazards","Waste","Climate","Sustainability"],
+"sections":[
+{"h":"Checklist","p":["Foundations: matter, energy, the five kingdoms, lab safety. Ecosystems: biotic and abiotic parts, food chains and webs, the 10% rule, balance of nature. Resources: renewable and non-renewable, importance, conservation. Hazards: drought, desertification, erosion, flooding and preparedness. Health: components of a healthy environment, roles of people and government. Waste: types, disposal, 3 Rs. Climate: weather versus climate, greenhouse effect, mitigation and adaptation. Sustainability: three pillars and SDGs."]},
+{"h":"Key points","p":["Energy comes from the Sun and flows in one direction through food chains, with about 10% passed on at each step. Non-renewable resources include crude oil, gas, coal and minerals; renewable ones include sunlight, wind, water and forests. Soil erosion is checked by terracing and contour ploughing. Drought is a lack of rain; desertification is land becoming desert. Reduce comes before reuse and recycle. Mitigation stops the cause of climate change; adaptation copes with its effects."]},
+{"h":"Practical revision","p":["Draw a food web. Sort a bag of waste into recycle, reuse, compost and landfill. Debate: what is the best way to control flooding in Lagos? Prepare a table of the four hazards from memory."]},
+{"h":"Exam tips","p":["Learn the definitions word for word. When asked to 'list', give short points. When asked to 'explain', give a reason or example. Draw neat labelled diagrams. Use Nigerian examples such as Lake Chad, the Niger Delta, Agulu-Nanka and Lagos."]}
+],
+"activity":"Make a one-page summary of the term and test yourself with the evaluation questions from each unit.",
+"check":[
+{"q":"The 10% rule describes","o":["Energy passed to the next level","Rainfall","Waste recycled","Trees planted"]},
+{"q":"Which is a non-renewable resource?","o":["Natural gas","Wind","Sunlight","Forests"]},
+{"q":"Contour ploughing helps to control","o":["Erosion","Drought","Noise","Fire"]},
+{"q":"Which of the 3 Rs is best?","o":["Reduce","Recycle","Reuse","None"]},
+{"q":"Mitigation of climate change means","o":["Reducing the causes","Coping with the effects","Ignoring it","Causing it"]}
+]}
+]

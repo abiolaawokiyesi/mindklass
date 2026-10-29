@@ -1,0 +1,175 @@
+[
+{"id":"ec21-12","week":6,"title":"Inflation: Meaning and Types","icon":"BarChart2",
+"summary":"The meaning of inflation with its key words, and its types by rate (creeping to hyperinflation) and by cause.",
+"keyWords":["Inflation","Persistent","Appreciable","General price level","Hyperinflation","Purchasing power"],
+"sections":[
+{"h":"What is inflation?","p":["Inflation is a persistent and appreciable increase in the general price level of goods and services in an economy over a period of time."],"img":{"src":"eco2-inflation-deflation.jpg","alt":"An illustration comparing inflation (more money, fewer goods, rising prices, reduced purchasing power) with deflation (waiting for cheaper prices, falling prices, increased debt burden)","cap":"Inflation and deflation."}},
+{"h":"The key words","p":["Persistent: it continues; a one-time rise, such as a fuel price jump for one weekend, is not inflation. Appreciable: the rise is big enough to be noticed. General price level: the average price of a basket of goods rises, not just yam or cars. The main effect is that inflation reduces the purchasing power of money: ₦10,000 buys less this year than last year."]},
+{"h":"Types by rate","p":["Creeping inflation: mild, about 1 to 3% a year; some economists regard it as healthy. Walking inflation: moderate, about 3 to 10%; a cause for concern. Galloping (runaway) inflation: high, 20%, 50% or 100% a year; serious. Hyperinflation: extremely fast and out of control; prices change daily or hourly (Germany in the 1920s, Zimbabwe in the 2000s). Note: the lesson note says 500% a year; economists often define hyperinflation as more than 50% a month, which is far higher still."]},
+{"h":"Types by cause","p":["Demand-pull inflation: 'too much money chasing too few goods'; total demand grows faster than total supply. Triggers: a deficit financed by printing money (rising MS); a big rise in government spending; large tax cuts (more C); a sudden rise in export demand.","Cost-push inflation: the cost of production rises and firms pass it on in higher prices. Triggers: wage-push (strong unions win pay rises unrelated to productivity); import cost-push (a weaker naira makes imported raw materials, machines and fuel dearer); supply shocks (a bad harvest, floods or war)."]},
+{"h":"Measuring inflation","p":["Inflation is measured by the percentage change in a price index such as the Consumer Price Index (CPI), which tracks the cost of a typical basket of goods and services. If the CPI rises from 150 to 165 in a year, inflation is (165 – 150) ÷ 150 × 100 = 10%."]}
+],
+"activity":"Define inflation using the words 'persistent', 'appreciable' and 'general'. Differentiate demand-pull from cost-push inflation. Calculate the inflation rate when the CPI rises from 200 to 230. (15%.)",
+"check":[
+{"q":"Inflation is a persistent rise in the","o":["General price level","Price of one good","Exchange rate only","Population"]},
+{"q":"'Too much money chasing too few goods' is","o":["Demand-pull inflation","Cost-push inflation","Deflation","Stagnation"]},
+{"q":"A fall in the naira that raises import costs causes","o":["Cost-push inflation","Demand-pull inflation","Deflation","Lower prices"]},
+{"q":"Inflation reduces","o":["Purchasing power","Prices","Wages in all cases","Debt for lenders"]},
+{"q":"CPI rising from 150 to 165 is inflation of","o":["10%","15%","1.5%","110%"]}
+]},
+
+{"id":"ec21-13","week":6,"title":"Effects and Control of Inflation","icon":"Target",
+"summary":"Who gains and loses from inflation, its other effects and the policies used to control demand-pull and cost-push inflation.",
+"keyWords":["Creditors","Debtors","Saving","Balance of payments","Contractionary policy","Supply-side policy"]
+,"sections":[
+{"h":"Negative effects","p":["1. Reduces purchasing power and living standards, especially for people on fixed incomes. 2. Hurts creditors (lenders): money lent today buys less when it is repaid. 3. Benefits debtors (borrowers): they repay with 'cheaper' money. 4. Discourages saving: people spend before money loses value. 5. Creates uncertainty: firms cannot plan, so long-term investment suffers. 6. Harms the balance of payments: home goods become dearer than foreign ones, so exports fall and imports rise."]},
+{"h":"Possible positive effects of mild inflation","p":["May encourage investment because firms receive rising prices. It lets real wages adjust without employers cutting money wages."]},
+{"h":"Who is hurt and who gains from unexpected inflation?","p":["Hurt: savers, lenders, pensioners and workers on fixed pay. Gain: borrowers (including governments with big debts), owners of assets whose prices rise (land, houses) and traders who can raise prices quickly."]},
+{"h":"Controlling demand-pull inflation (contractionary policies)","p":["Monetary: the CBN raises the MPR, raises the CRR and sells securities, which reduce the money supply and make borrowing dearer. Fiscal: the government cuts spending and raises taxes (aiming for a budget surplus) to reduce aggregate demand."]},
+{"h":"Controlling cost-push inflation (harder)","p":["Supply-side policies: invest in power, roads and ports to lower production costs. Income policies: wage controls (politically difficult). Subsidies on inputs such as fertiliser or fuel, which are costly for the government. Strengthening the naira to reduce import costs."]},
+{"h":"Devaluation and cost-push inflation","p":["If the naira falls from ₦500 to ₦1,000 per dollar, an imported machine priced at $1,000 costs ₦500,000 at first and ₦1,000,000 after. Firms that use imported inputs face double the cost and raise prices. This is import cost-push inflation."]}
+],
+"activity":"Give two monetary and two fiscal policies to control demand-pull inflation. Explain why cost-push inflation is harder to control. Say who is hurt and who benefits from unexpected inflation.",
+"check":[
+{"q":"Inflation benefits","o":["Borrowers","Lenders","Savers","Pensioners"]},
+{"q":"To fight demand-pull inflation the CBN may","o":["Raise the MPR","Lower the MPR","Buy securities","Lower the CRR"]},
+{"q":"Cost-push inflation is eased by","o":["Cheaper inputs and better infrastructure","Printing money","More tax cuts","More imports of luxury goods"]},
+{"q":"A fall in the value of the naira","o":["Raises import prices","Lowers import prices","Does nothing","Cuts debt"]},
+{"q":"Inflation makes savers","o":["Worse off","Better off","Unchanged always","Taxed"]}
+]},
+
+{"id":"ec21-14","week":6,"title":"Deflation and Stagflation","icon":"BarChart2",
+"summary":"The meaning, causes, effects and control of deflation, why it is dangerous, and what stagflation is.",
+"keyWords":["Deflation","Deflationary spiral","Debt burden","Sticky wages","Stagflation"],
+"sections":[
+{"h":"What is deflation?","p":["Deflation is a persistent fall in the general price level (a negative inflation rate). It is the opposite of inflation."]},
+{"h":"Causes","p":["A severe fall in aggregate demand (a deep recession), when people and firms stop spending. A productivity boom (a 'good' cause), when technology makes goods much cheaper, for example computers and phones."]},
+{"h":"Effects: why it can be worse than inflation","p":["1. Postponed spending: if prices will be lower next month, people wait, so demand collapses and prices fall further.","2. A heavier real debt burden: a loan of ₦100,000 must be repaid with money that is now worth more, which crushes borrowers and leads to bankruptcies.","3. Falling profits and rising unemployment: firms receive less for goods but wages are 'sticky' (slow to fall), so they dismiss workers, and demand falls again.","4. The deflationary spiral: prices fall, people stop spending, firms sack workers, demand falls, prices fall further."]},
+{"h":"Control","p":["Expansionary policies. Monetary: the CBN cuts interest rates and buys securities to pump money into the economy. Fiscal: the government raises spending and cuts taxes (a large deficit) to restore demand."]},
+{"h":"A little inflation, a little deflation","p":["The statement 'a little inflation is good, a little deflation is a disaster' has some truth: mild inflation can keep spending and investment moving, while deflation triggers the spiral and raises the real burden of debt. But even mild inflation hurts people on fixed incomes, and a fall in prices caused by better technology can be healthy, so the statement is not true in every case."]},
+{"h":"Stagflation (assignment)","p":["Stagflation is a situation of stagnant growth (or recession) and high unemployment together with high inflation. It is caused by a supply shock such as a sudden rise in oil prices or wage-push pressure, which raises costs and prices while it cuts output. It is hard to solve because the usual cures conflict: fighting inflation (higher interest rates, less spending) deepens unemployment, while fighting unemployment (more spending) worsens inflation. Supply-side policies are the best answer, but they take time."]}
+],
+"activity":"Define deflation and explain why it is often worse than inflation. Explain stagflation and why policymakers find it hard to solve.",
+"check":[
+{"q":"Deflation is a persistent fall in the","o":["General price level","Exchange rate","Population","Taxes"]},
+{"q":"Deflation makes debts","o":["Heavier in real terms","Lighter","Disappear","Unchanged"]},
+{"q":"The deflationary spiral begins with","o":["Falling prices and falling spending","Rising wages","Printing money","Cutting taxes"]},
+{"q":"Stagflation combines","o":["High inflation and high unemployment","Low inflation and full employment","Deflation and growth","Boom and surplus"]},
+{"q":"To fight deflation the government may","o":["Increase spending","Cut spending","Raise taxes","Close banks"]}
+]},
+
+{"id":"ec21-15","week":8,"title":"Economic Lessons from the Asian Tigers and Japan","icon":"Landmark",
+"summary":"The four lessons of the Asian Tigers (export orientation, human capital, saving, good governance) and the lessons of Japan (quality, partnership, adaptation).",
+"keyWords":["Asian Tigers","Export-oriented industrialisation","Import substitution","Total Quality Management","MITI"],
+"sections":[
+{"h":"Why look abroad?","p":["Some countries moved from poverty to wealth in a few decades; others stayed rich for centuries. What did they do right, and what can Nigeria, rich in resources but struggling to develop, learn?"]},
+{"h":"The Asian Tigers","p":["The four original Tigers are South Korea, Taiwan, Singapore and Hong Kong. They grew very fast from the 1960s to the 1990s. South Korea was poorer than many African countries in 1960 and is today home to Samsung, Hyundai and LG."],"tbl":{"head":["Lesson","What it means"],"rows":[["Export-oriented industrialisation (EOI)","They made high-quality goods for the world market, which forced firms to be efficient and competitive. Nigeria tried import substitution (making at home what it imported), which protected weak firms"],["Investment in human capital","Universal literacy first, then high-quality education, especially science, technology, engineering and mathematics"],["High saving and investment","Citizens and governments saved a large share of income (over 30%), and the savings financed factories and infrastructure"],["Stable, development-minded government","Low corruption, rule of law and strategic partnership between government and business"]]}},
+{"h":"Lessons from Japan","p":["Japan rebuilt itself after the Second World War and by the 1980s had the world's second largest economy. Lessons: 1. Total Quality Management (TQM): competing on quality and reliability, not just on price; Toyota and Sony became symbols of zero-defect work. 2. Government-industry partnership: the Ministry of International Trade and Industry (MITI) worked with firms to win markets in textiles, steel, ships, cars and electronics. 3. Adapting and improving: Japanese firms took technology from the West and made it better and cheaper."]},
+{"h":"EOI and import substitution compared","p":["Study the table."],"tbl":{"head":["Feature","Export-oriented (EOI)","Import substitution (ISI)"],"rows":[["Market","The whole world","The home market"],["Competition","High, so firms must be efficient","Low, because of protection"],["Examples","South Korea, Singapore","Nigeria in the 1970s and 1980s"],["Risk","Depends on world demand","Weak, inefficient industries"]]}},
+{"h":"A fair note","p":["Success also had costs and conditions: some Tiger governments were authoritarian and many people worked very long hours. Nigeria must choose what suits its own people and learn the lessons without copying everything."]}
+],
+"activity":"List the four Asian Tigers. Explain export-oriented industrialisation. Compare EOI and import substitution and say which is better for Nigeria today. State a lesson Nigeria can learn from Japan and explain TQM.",
+"check":[
+{"q":"The four original Asian Tigers include","o":["South Korea and Singapore","Nigeria and Ghana","Brazil and Mexico","India and Pakistan"]},
+{"q":"Making goods for the world market is","o":["Export-oriented industrialisation","Import substitution","A tariff","A subsidy"]},
+{"q":"TQM stands for","o":["Total Quality Management","Total Quota Money","Trade Quality Model","Tax Quality Method"]},
+{"q":"MITI was Japan's","o":["Ministry of International Trade and Industry","Central bank","Stock exchange","Army"]},
+{"q":"A key to Tiger success was high","o":["Savings and investment","Corruption","Imports of luxuries","Unemployment"]}
+]},
+
+{"id":"ec21-16","week":8,"title":"Lessons from Europe and America, and What Nigeria Can Learn","icon":"Target",
+"summary":"The lessons of strong institutions, economic integration and the social market from Europe, and entrepreneurship, research and deep financial markets from the USA, with a summary for Nigeria.",
+"keyWords":["Rule of law","Economic integration","Single market","Social market","Entrepreneurship","Venture capital"],
+"sections":[
+{"h":"Lessons from Europe (for example Germany and the UK)","p":["1. Strong institutions: the rule of law is the most important. Businesses prosper where contracts are enforced, property is protected and the law is clear, fair and predictable.","2. Economic integration: the European Union created a single market without trade barriers among its member states (27 members and about 450 million people), which gives firms big markets and economies of scale. A lesson for ECOWAS.","3. The social market model (Germany): a competitive economy together with a strong safety net (good public health care, unemployment benefit, pensions), which gives social and political stability."]},
+{"h":"Lessons from America","p":["1. A culture of entrepreneurship and innovation: risk-taking is admired and failure is a stepping stone. The Silicon Valley model, in which venture capitalists fund risky new ideas, produced giants such as Google, Apple and Amazon.","2. World-class universities and research that work with industry (MIT, Stanford, Harvard).","3. Deep, liquid financial markets: a well-regulated stock market lets firms raise large sums from the public."]},
+{"h":"What Nigeria can learn","p":["1. Human capital over natural resources: invest in people (education and health), not only in oil. 2. 'Export or die': diversify exports into manufacturing and services. 3. Institutions matter most: fight corruption, uphold the rule of law and enforce contracts. 4. Save and invest: save more (for example by growing the sovereign wealth fund) and build power and transport. 5. Support entrepreneurs in technology, agriculture and entertainment."]},
+{"h":"Model answer: 'Strong institutions matter more than natural resources'","p":["South Korea and Singapore have few natural resources but became rich through strong institutions, education and exports. Nigeria has large oil wealth but weak institutions, high corruption and unstable policy, and remains poor in per capita terms. This suggests that it is institutions, rather than resources, that decide whether a country develops. Resources can even be a curse where institutions are weak (see the oil unit)."]},
+{"h":"The Silicon Valley model and Nigeria","p":["Nigeria already has a growing technology scene (Lagos, Abuja), with payment firms such as Paystack and Flutterwave. Steps to build on it: reliable power and internet, a clear legal framework, access to venture capital and angel investors, links between universities and start-ups, and a culture that accepts failure and learns from it."]}
+],
+"activity":"State one lesson Nigeria can learn from the USA and one from Europe. Discuss with reference to Nigeria and South Korea or Singapore whether strong institutions matter more than natural resources. Explain why a high national savings rate helps growth.",
+"check":[
+{"q":"The most important lesson from Europe is","o":["Strong institutions and the rule of law","Oil exports","Printing money","Closing borders"]},
+{"q":"Venture capital funds","o":["Risky new businesses","Only old banks","Only governments","Charity"]},
+{"q":"The EU is an example of","o":["Economic integration","Import substitution","Autarky","A tax haven"]},
+{"q":"For Nigeria, ECOWAS can learn from the EU's","o":["Single market","Oil price","Space programme","Currency crisis"]},
+{"q":"Nigeria should invest more in","o":["Human capital","Only crude oil","Only imports","Nothing"]}
+]},
+
+{"id":"ec21-17","week":9,"title":"Human Capital Development","icon":"Users",
+"summary":"The meaning and importance of human capital, the problems in Nigeria (funding, quality, brain drain, health, corruption) and the solutions.",
+"keyWords":["Human capital","Skills mismatch","Brain drain","TVET","Productivity","Primary health care"],
+"sections":[
+{"h":"Meaning","p":["Human capital is the stock of knowledge, skills, health and habits in a person that lets him or her work and produce value. Physical capital is a factory or a machine; human capital is the skill of the engineer who designed the factory, the knowledge of the technician and the health of the worker. Human capital development (HCD) is the process of increasing this stock in a population: education, training and health care."],"img":{"src":"eco2-human-capital.jpg","alt":"A tree whose roots are investment in education and health, whose trunk is human capital and whose fruits are higher productivity, innovation and economic growth","cap":"Human capital is the root of growth."}},
+{"h":"Why it matters","p":["1. Boosts productivity (a skilled, healthy worker produces more per hour). 2. Fosters innovation and technology (the foundation of a knowledge economy). 3. Attracts foreign direct investment (firms go where they find skilled workers). 4. Reduces poverty and inequality (education and health give social mobility). 5. Improves adaptability (workers can move from farming to IT). 6. Better governance (educated citizens demand accountability)."]},
+{"h":"Problems in Nigeria","p":["1. Underfunding of education and health: spending is below the UNESCO guideline (15 to 20% of the budget for education), and many people pay for health care out of pocket.","2. Poor quality and mismatch: lack of laboratories, books and computers; an out-of-date curriculum built on rote learning; graduates in fields with few jobs while technicians, plumbers and IT experts are scarce.","3. Brain drain: doctors, engineers and IT workers trained at home emigrate because of low pay and poor working conditions, which is a net loss.","4. Poor health: preventable diseases such as malaria, high infant and maternal deaths and stunting reduce productivity.","5. Corruption: funds for schools and hospitals are misused."]},
+{"h":"Solutions","p":["1. More and better-targeted funding (teacher training and primary health care, not only buildings). 2. Curriculum reform with 21st-century skills; expand Technical and Vocational Education and Training (TVET) and STEM. 3. Reduce brain drain by fixing the economy and improving pay and conditions for key professionals. 4. Invest in primary health care: sanitation, clean water, vaccination and nutrition. 5. Partnerships between universities and industry so that teaching matches the needs of employers."]},
+{"h":"Model answer: 'rich in human resources but poor in human capital'","p":["Nigeria has a large and young population (human resources) but many people lack education, skills and good health, so they are not productive. Numbers alone do not create wealth; skills and health do. A big population with poor human capital can be a burden, while a well-trained one is a 'demographic dividend'."]},
+{"h":"A poverty cycle","p":["Poverty and low income lead to poor health and malnutrition, which cause low productivity and lack of education, which cause unemployment and underemployment, which lead back to poverty."]}
+],
+"activity":"Define human capital and HCD. State three reasons why HCD is crucial for growth. Discuss three problems of HCD in Nigeria and propose a detailed solution to one. Explain how high malaria rates reduce national productivity.",
+"check":[
+{"q":"Human capital is the","o":["Skills, knowledge and health of people","Number of factories","Money in banks","Land area"]},
+{"q":"The 'brain drain' is the","o":["Emigration of skilled people","Loss of electricity","Closing of schools","Fall of prices"]},
+{"q":"TVET stands for","o":["Technical and Vocational Education and Training","Trade Visa Education Test","Total Vocational English Test","Technical Visa Exchange Training"]},
+{"q":"A skills mismatch means","o":["Graduates' skills differ from what employers need","Everyone is employed","Too few schools only","No graduates"]},
+{"q":"The cheapest way to improve national health is","o":["Primary health care and prevention","Only large hospitals","Ignoring disease","Importing medicine only"]}
+]},
+
+{"id":"ec21-18","week":10,"title":"Petroleum and the Nigerian Economy: History and Contributions","icon":"Landmark",
+"summary":"The discovery of oil, the oil boom, and why oil is small in GDP but huge in government revenue and exports.",
+"keyWords":["Oloibiri","OPEC","Oil boom","GDP contribution","Government revenue","Foreign exchange"],
+"sections":[
+{"h":"History","p":["Oil was first found in commercial quantities in 1956 at Oloibiri (in present-day Bayelsa State) by Shell-BP. The first shipment was exported in 1958. Nigeria joined OPEC in 1971. In the 1970s, especially after the 1973 Yom Kippur War, world oil prices soared: the 'oil boom', with huge government income and spending.","Before oil, Nigeria's economy was diversified and led by agriculture (groundnuts, palm oil, cocoa, rubber and cotton). In the boom, farming and other sectors were neglected and oil became the dominant force."]},
+{"h":"Oil's contribution is lop-sided","p":["1. GDP: relatively small. The oil and gas sector contributes roughly 5 to 12% of GDP, because services (telecoms, banking, Nollywood), agriculture and trade are much larger parts of daily activity.","2. Government revenue: very large. Oil has traditionally supplied the majority (often 70 to 90%) of the federal government's revenue through taxes, royalties and sales of oil. In recent years the share has fallen in some years, so always check the latest data.","3. Export earnings (foreign exchange): overwhelmingly dominant. Crude oil and gas have usually been about 90% of what Nigeria earns in foreign currency."]},
+{"h":"The core problem","p":["The government's budget and the country's supply of foreign currency depend on one volatile commodity, even though oil is not the largest source of jobs or output."]},
+{"h":"A rough comparison","p":["Study the table. The figures are approximate and illustrative, and they change from year to year."],"tbl":{"head":["Measure","Oil share","Non-oil share"],"rows":[["Share of GDP","About 5 to 12%","About 88 to 95%"],["Share of federal revenue","Traditionally 70 to 90%","Traditionally 10 to 30%"],["Share of export earnings","About 90%","About 10%"]]}},
+{"h":"A note on the lesson note's picture","p":["The picture in your lesson note (three pie charts) has labels that do not agree with its own text (for example it shows oil revenue as 60% and 40% at the same time and has a spelling error), so we use the table above instead."]},
+{"h":"The OPEC balancing act","p":["OPEC, the Organisation of the Petroleum Exporting Countries, tries to balance the supply of oil with world demand to keep prices stable by agreeing production quotas among members."],"img":{"src":"eco2-opec-balance.jpg","alt":"A balance with oil supply on one side and consumer demand on the other, held by a hand, to show OPEC balancing supply and demand","cap":"OPEC's balancing act."}}
+],
+"activity":"State when and where oil was first discovered in commercial quantities in Nigeria. Explain why oil is small in GDP but large in government revenue and exports. Find the latest figures for oil's share of Nigeria's revenue.",
+"check":[
+{"q":"Oil was first found in commercial quantities at","o":["Oloibiri","Lagos","Kano","Enugu"]},
+{"q":"Nigeria joined OPEC in","o":["1971","1956","1990","1960"]},
+{"q":"Oil's share of GDP is relatively","o":["Small","The largest","The only part","Negative"]},
+{"q":"Oil supplies most of Nigeria's","o":["Government revenue and export earnings","Farm output","School fees","Telecom jobs"]},
+{"q":"Before oil, the economy was led by","o":["Agriculture","Steel","Space","Banking"]}
+]},
+
+{"id":"ec21-19","week":10,"title":"Dutch Disease, Oil Dependence and Diversification","icon":"Target",
+"summary":"The resource curse and Dutch disease step by step, other problems of oil dependence, and the strategies for diversifying the economy.",
+"keyWords":["Resource curse","Dutch disease","Rent-seeking","Environmental damage","Diversification","Value chain"],
+"sections":[
+{"h":"Problems of depending on oil","p":["1. The resource curse: countries with huge natural resources often have slower development, more corruption and more conflict than countries with few.","2. Dutch disease (the economic side of the curse): Step 1: big oil exports bring in a flood of dollars. Step 2: demand for the naira rises and the naira becomes strong (overvalued). Step 3: a strong naira makes other exports (cocoa, textiles) too dear for foreign buyers and makes imports (rice, cars, toothpicks) cheaper. Result: farming and manufacturing cannot compete and are abandoned. (Note: in reality the Nigerian naira has fallen sharply in recent years because of other causes, but the idea explains how an oil boom can hurt other sectors.)","3. Price volatility: when the world oil price swings, so does the budget. 'Boom and bust' makes long-term planning hard.","4. Corruption and rent-seeking: oil money is 'easy money' from extraction, not production, so people compete for a 'slice of the national cake' (contracts and subsidies) instead of 'baking a new cake' by starting businesses.","5. Neglect of other sectors.","6. Environmental damage: oil spills and gas flaring in the Niger Delta have ruined farmland and fisheries, causing poverty, conflict and unrest."]},
+{"h":"Diversification","p":["Diversification is shifting away from dependence on oil and building other productive sectors.","1. Agriculture and agro-processing: move from subsistence to commercial, mechanised farming; add value (process cocoa into chocolate and tomatoes into paste).","2. Manufacturing and industry: Special Economic Zones with reliable power and security.","3. Services and the 'new' economy: information technology, fintech and entertainment (Nollywood and Afrobeats).","4. Solid minerals: gold, lithium, tin and others, developed openly and sustainably.","Key enablers: reliable electricity, roads and ports, and better human capital."]},
+{"h":"Model answer: oil, curse or blessing?","p":["For the 'blessing': oil gave Nigeria revenue, foreign exchange, jobs and national projects. For the 'curse': it caused neglect of farming, corruption, boom and bust, and damage in the Niger Delta. The results depend on how the wealth is managed. Countries such as Norway turned oil into a savings fund, while Nigeria has often spent it quickly. A balanced answer says oil is a blessing only if institutions are strong."]},
+{"h":"Strategy example: agriculture","p":["Build rural roads and storage; give farmers improved seeds, credit and insurance; set up processing plants close to farms; protect land rights; open export markets with quality standards. These steps create jobs, raise non-oil exports and earn foreign currency."]},
+{"h":"Impacts in the Niger Delta","p":["Environmental: oil spills pollute rivers and soil, gas flaring pollutes the air and fisheries decline. Social: loss of livelihoods, health problems, poverty and conflict. Economic: loss of farm and fishing income. Remedies include clean-up programmes, stricter rules, community involvement and sharing benefits fairly."]}
+],
+"activity":"Explain Dutch disease step by step with Nigeria's agriculture and manufacturing as examples. Why is Nigeria vulnerable to oil price falls? Draw up a strategy to diversify in agriculture or information technology.",
+"check":[
+{"q":"The 'resource curse' says resource-rich countries often have","o":["Slower development and more corruption","Faster growth always","No corruption","No conflict"]},
+{"q":"Dutch disease makes other exports","o":["Too expensive abroad","Cheaper abroad","Free","Impossible to price"]},
+{"q":"Rent-seeking means","o":["Trying to get a share of easy wealth","Building houses","Paying rent","Farming"]},
+{"q":"Turning raw cocoa into chocolate is","o":["Adding value","Dutch disease","A tariff","Importing"]},
+{"q":"Diversification means","o":["Developing many sectors","Depending on oil only","Closing factories","Reducing trade"]}
+]},
+
+{"id":"ec21-20","week":11,"title":"First Term Revision: Fiscal Policy to Oil","icon":"ClipboardCheck",
+"summary":"A checklist, the key formulas and quick answers for the first term, with advice on writing economics essays.",
+"keyWords":["Revision","Formulas","Fiscal policy","Money","Inflation","Development"],
+"sections":[
+{"h":"Checklist","p":["Fiscal policy: meaning, tools, objectives, limitations. Budgets: balanced, surplus, deficit; financing deficits. National income: GDP, GNP, NNP, NI, PI, DI; three methods; uses and limits. Money: functions; Keynes's three motives; bonds and interest rates; money supply and CBN tools. Inflation and deflation: types, causes, effects, control; stagflation. Lessons from other countries. Human capital. Petroleum, Dutch disease and diversification."]},
+{"h":"Formulas","p":["AD = C + I + G + (X – M). GNP = GDP + NFIA. NNP = GNP – depreciation. NI = NNP – indirect taxes + subsidies. PI = NI – (corporate taxes + retained earnings) + transfers. DI = PI – personal taxes = C + S. Value added = output – intermediate goods. MD = L1(Y) + L2(r). Bond price = coupon ÷ interest rate. Money multiplier = 1 ÷ CRR. Inflation = change in CPI ÷ old CPI × 100."]},
+{"h":"Quick answers","p":["Expansionary budget: a deficit. Most inflationary financing: printing money. Raising the MPR: reduces money supply. GNP = 4,800 and NNP = 4,500, NI = 4,400 in the worked example. Bond prices fall when interest rates rise. Stagflation: inflation plus unemployment. Dutch disease: a strong currency hurts non-oil sectors."]},
+{"h":"How to write an economics essay","p":["Define the key term; state your point; explain how and why it works (a chain of reasons); give a Nigerian example; consider the other side; end with a judgement. Use diagrams where possible and label them clearly."]}
+],
+"activity":"Write a one-page answer to: 'Crude oil has been more of a curse than a blessing to Nigeria.' Then do a full past paper and list three mistakes to avoid.",
+"check":[
+{"q":"A budget deficit is financed by","o":["Borrowing, printing money or selling assets","Surplus only","Taxes only","Nothing"]},
+{"q":"Raising the MPR tends to","o":["Reduce the money supply","Increase the money supply","Cut taxes","Lower inflation to zero always"]},
+{"q":"NI = NNP – indirect taxes +","o":["Subsidies","Depreciation","Imports","Exports"]},
+{"q":"Stagflation is","o":["Inflation with unemployment","Falling prices only","Booming growth","A budget surplus"]},
+{"q":"A strong currency harms","o":["Non-oil exports","Oil only","Imports only","Nothing"]}
+]}
+]

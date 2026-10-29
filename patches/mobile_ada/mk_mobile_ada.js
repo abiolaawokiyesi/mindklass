@@ -5,10 +5,10 @@
    at module level and be called from the main component. */
 function MkAdaIcon(p){var s=p.size||16;return e("svg",{width:s,height:s,viewBox:"0 0 24 24",fill:"none",stroke:p.color||"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round",style:p.style,children:[e("circle",{cx:12,cy:8,r:4},"a"),e("path",{d:"M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"},"b"),e("path",{d:"M10 7.6h.01M14 7.6h.01"},"c")]})}
 function MkMenuIcon(p){var s=p.size||18;return e("svg",{width:s,height:s,viewBox:"0 0 24 24",fill:"none",stroke:p.color||"currentColor",strokeWidth:2.2,strokeLinecap:"round",style:p.style,children:[e("path",{d:"M4 7h16"},"a"),e("path",{d:"M4 12h16"},"b"),e("path",{d:"M4 17h10"},"c")]})}
-function mkWithAda(role,list){try{if(role==="parent"||!role)return list;if(list.some(function(i){return i.id==="ada"}))return list;var at=list.findIndex(function(i){return i.id==="learn"});var out=list.slice();out.splice(at>=0?at+1:Math.min(1,out.length),0,{id:"ada",I:MkAdaIcon,l:"Ask Ada"});return out}catch(x){return list}}
-var MK_NAV_GROUPS=[["General",["home","courses","learn","general","jamb","training","ada"]],["Study",["assignments","quiz","gradebook","attendance","behavior","child","downloads","games","whiteboard","ipersonality"]],["Manage",["users","staffperf","staffhub","approvals","coursebuilder","exams","fees","push"]],["Connect",["community","messages","meetings","careers","blog","refer"]],["Account",["profile"]]];
-var MK_TABS={student:["home","learn","ada","courses"],teacher:["home","courses","ada","learn"],admin:["home","users","approvals","learn"],parent:["home","child","gradebook","messages"],professional:["home","general","ada","quiz"]};
-var MK_TAB_LABEL={home:"Home",courses:"Courses",learn:"Subjects",general:"General",ada:"Ada",users:"Users",approvals:"Approvals",child:"My Child",gradebook:"Report",messages:"Messages",quiz:"Tests"};
+function mkWithAda(role,list){try{if(role==="parent"||!role)return list;var out=list.slice();if(!out.some(function(i){return i.id==="progress"})){var h=out.findIndex(function(i){return i.id==="home"});out.splice(h>=0?h+1:0,0,{id:"progress",I:pt,l:role==="admin"?"All Progress":"My Progress"})}if(!out.some(function(i){return i.id==="ada"})){var at=out.findIndex(function(i){return i.id==="learn"});out.splice(at>=0?at+1:Math.min(1,out.length),0,{id:"ada",I:MkAdaIcon,l:"Ask Ada"})}return out}catch(x){return list}}
+var MK_NAV_GROUPS=[["General",["home","progress","courses","learn","general","jamb","training","ada"]],["Study",["assignments","quiz","gradebook","attendance","behavior","child","downloads","games","whiteboard","ipersonality"]],["Manage",["users","staffperf","staffhub","approvals","coursebuilder","exams","fees","push"]],["Connect",["community","messages","meetings","careers","blog","refer"]],["Account",["profile"]]];
+var MK_TABS={student:["home","learn","ada","progress"],teacher:["home","courses","ada","learn"],admin:["home","users","progress","approvals"],parent:["home","child","gradebook","messages"],professional:["home","general","ada","quiz"]};
+var MK_TAB_LABEL={home:"Home",progress:"Progress",courses:"Courses",learn:"Subjects",general:"General",ada:"Ada",users:"Users",approvals:"Approvals",child:"My Child",gradebook:"Report",messages:"Messages",quiz:"Tests"};
 var MK_ROLE_LABEL={student:"Student",teacher:"Teacher",admin:"Administrator",parent:"Parent",professional:"Professional"};
 function MkBottomNav(p){
   var a=p.a,ids=MK_TABS[p.role]||MK_TABS.student;
@@ -102,5 +102,195 @@ function MkSubjectTiles(p){
 function MkLevelChips(p){
   var a=p.a,lv=["All","SS1","SS2","SS3"];
   return e("div",{style:{display:"flex",flexWrap:"wrap",gap:7,margin:"-6px 0 16px"},children:lv.map(function(x){var on=p.v===x;return e("button",{onClick:function(){p.set(x)},style:{fontSize:12,fontWeight:800,padding:"5px 14px",borderRadius:99,cursor:"pointer",border:on?"1.5px solid #059669":"1.5px solid "+a.bd,background:on?"#059669":a.card,color:on?"#fff":a.txt},children:x==="All"?"All classes":x},x)})});
+}
+/* ---- Alerts for course applications and approvals (no database change needed) ---- */
+function mkSeenLoad(){try{return new Set(JSON.parse(localStorage.getItem("mk_seen_alerts")||"[]"))}catch(x){return new Set()}}
+function mkSynthAlerts(o){
+  var out=[];
+  try{
+    var me=o.user&&o.user.id,seen=o.seen||new Set(),now=Date.now(),lim=14*864e5;
+    [o.student||[],o.teacher||[]].forEach(function(list){
+      list.forEach(function(ap){
+        var name=ap.title||ap.subject||"a course";
+        if(o.role==="admin"){
+          if(ap.status==="pending"){
+            var id="app-"+ap.id+"-pending";
+            out.push({id:id,title:"New course application",body:(ap.name||ap.nick||"A learner")+" applied for "+name+(ap.appliedAt?" ("+ap.appliedAt+")":"")+". Open Course Approvals to approve or decline.",type:"approval",audience:"admin",urgent:!0,date:ap.appliedAt||"",ts:Date.parse(ap.appliedAt)||0,read:seen.has(id)});
+          }
+        }else if(me&&ap.userId===me&&(ap.status==="approved"||ap.status==="rejected"||ap.status==="revoked")){
+          var dts=ap.decidedTs?Date.parse(ap.decidedTs):0;
+          if(dts&&now-dts>lim)return;
+          var id2="app-"+ap.id+"-"+ap.status;
+          var body=ap.status==="approved"?"Good news! Your application for "+name+" has been approved. Open Subjects or My Progress to start learning.":ap.status==="rejected"?"Your application for "+name+" was not approved this time. You can contact the administrator for help.":"Your access to "+name+" has been removed by the administrator.";
+          out.push({id:id2,title:ap.status==="approved"?"Course approved":ap.status==="rejected"?"Application not approved":"Access removed",body:body,type:"approval",audience:o.role,urgent:ap.status==="approved",date:ap.decidedAt||"",ts:dts,read:seen.has(id2)});
+        }
+      });
+    });
+  }catch(x){}
+  out.sort(function(a,b){return b.ts-a.ts});
+  return out;
+}
+/* ---- Progress dashboard ---- */
+function MkDonut(p){
+  var r=54,c=2*Math.PI*r,off=0,tot=p.segs.reduce(function(s,x){return s+x.v},0);
+  var kids=[e("circle",{cx:70,cy:70,r:r,fill:"none",stroke:p.track,strokeWidth:22},"track")];
+  if(tot>0)p.segs.forEach(function(sg,i){
+    if(sg.v<=0)return;
+    var len=c*sg.v/tot;
+    kids.push(e("circle",{cx:70,cy:70,r:r,fill:"none",stroke:sg.c,strokeWidth:22,strokeDasharray:len+" "+(c-len),strokeDashoffset:-off,transform:"rotate(-90 70 70)"},"s"+i));
+    off+=len;
+  });
+  kids.push(e("text",{x:70,y:68,textAnchor:"middle",fontSize:24,fontWeight:900,fill:p.txt,fontFamily:"Outfit,sans-serif",children:p.center},"ct"));
+  kids.push(e("text",{x:70,y:86,textAnchor:"middle",fontSize:10,fill:p.muted,children:p.sub},"sb"));
+  return e("svg",{viewBox:"0 0 140 140",width:p.size||150,height:p.size||150,role:"img","aria-label":p.label||"Chart",children:kids});
+}
+function MkCal(p){
+  var a=p.a,s=f(0),off=s[0],setOff=s[1];
+  var base=new Date();base.setDate(1);base.setMonth(base.getMonth()+off);
+  var y=base.getFullYear(),m=base.getMonth(),first=(new Date(y,m,1).getDay()+6)%7,days=new Date(y,m+1,0).getDate(),prev=new Date(y,m,0).getDate();
+  var today=new Date(),tk=today.getFullYear()+"-"+String(today.getMonth()+1).padStart(2,"0")+"-"+String(today.getDate()).padStart(2,"0");
+  var cells=[];
+  for(var i=0;i<42;i++){
+    var d=i-first+1,inM=d>=1&&d<=days,label=inM?d:(d<1?prev+d:d-days);
+    var key=inM?y+"-"+String(m+1).padStart(2,"0")+"-"+String(d).padStart(2,"0"):"";
+    var mk=inM&&p.marks[key]||"";
+    var bg="transparent",col=inM?a.txt:a.muted;
+    if(key===tk){bg="#1842a8";col="#fff"}else if(mk==="exam"){bg="#d97706";col="#fff"}else if(mk==="active"){bg="#059669";col="#fff"}
+    cells.push(e("div",{style:{height:32,display:"flex",alignItems:"center",justifyContent:"center"},children:e("span",{style:{width:28,height:28,borderRadius:"50%",background:bg,color:col,fontSize:12,fontWeight:bg==="transparent"?500:800,opacity:inM?1:.4,display:"flex",alignItems:"center",justifyContent:"center"},children:label})},i));
+  }
+  var head=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(function(x){return e("div",{style:{textAlign:"center",fontSize:10,fontWeight:800,color:a.muted,padding:"4px 0"},children:x},x)});
+  var nb=function(dir,txt){return e("button",{onClick:function(){setOff(off+dir)},"aria-label":dir<0?"Previous month":"Next month",style:{background:"none",border:"none",cursor:"pointer",color:a.muted,fontSize:18,padding:"0 8px"},children:txt})};
+  return t("div",{children:[
+    t("div",{style:{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:6},children:[nb(-1,"\u2039"),e("div",{style:{fontWeight:800,color:a.head,fontSize:14},children:base.toLocaleString("en",{month:"long",year:"numeric"})}),nb(1,"\u203A")]}),
+    e("div",{style:{display:"grid",gridTemplateColumns:"repeat(7,1fr)"},children:head.concat(cells)}),
+    t("div",{style:{display:"flex",flexWrap:"wrap",gap:"4px 12px",marginTop:10,fontSize:11,color:a.muted},children:[
+      t("span",{children:[e("i",{style:{display:"inline-block",width:9,height:9,borderRadius:"50%",background:"#1842a8",marginRight:5}}),"Today"]},"a"),
+      t("span",{children:[e("i",{style:{display:"inline-block",width:9,height:9,borderRadius:"50%",background:"#059669",marginRight:5}}),"Learning activity"]},"b"),
+      t("span",{children:[e("i",{style:{display:"inline-block",width:9,height:9,borderRadius:"50%",background:"#d97706",marginRight:5}}),"Assessment opens"]},"c")]})]});
+}
+function mkBar(a,pct,col){return e("div",{style:{height:7,background:a.border,borderRadius:99,overflow:"hidden"},children:e("div",{style:{height:"100%",width:Math.max(0,Math.min(100,pct))+"%",background:col||"#1842a8",borderRadius:99,transition:"width .4s"}})})}
+function MkProgress(p){
+  var a=p.a,k=p.k,X=p.X,admin=p.role==="admin",me=p.user&&p.user.id;
+  var s1=f([]),rows=s1[0],setRows=s1[1],s2=f(!0),loading=s2[0],setLoading=s2[1],s3=f(""),qs=s3[0],setQs=s3[1],s4=f("all"),cf=s4[0],setCf=s4[1],s5=f(0),tick=s5[0],setTick=s5[1];
+  de(function(){
+    if(p.guest||!me){setLoading(!1);return}
+    var dead=!1;setLoading(!0);
+    (async function(){
+      var q=p.sb.from("course_progress").select("*, profiles(nick,name)");if(!admin)q=q.eq("user_id",me);
+      var r=await q;
+      if(r.error){q=p.sb.from("course_progress").select("*");if(!admin)q=q.eq("user_id",me);r=await q}
+      if(!dead){setRows(r.data||[]);setLoading(!1)}
+    })().catch(function(){if(!dead)setLoading(!1)});
+    return function(){dead=!0};
+  },[me,admin,tick]);
+  var cat=function(kind,key){return(kind==="tr"?p.Fe:p.Ce)[key]||null};
+  var total=function(c){return c&&c.units?c.units.length:0};
+  var titleOf=function(c,key){return c?(c.group?c.group+" - "+(c.termLabel||c.title):(c.title||c.subject||key)):key};
+  var marks={};
+  rows.forEach(function(r){if(r.updated_at){marks[String(r.updated_at).slice(0,10)]="active"}});
+  Object.keys(p.exams||{}).forEach(function(kk){var v=p.exams[kk];if(v)marks[String(v).slice(0,10)]="exam"});
+  var cardWrap=function(child,extra){return e("div",{style:Object.assign({},k,extra||{}),children:child})};
+  var h3=function(txt){return e("h3",{style:{fontSize:14,fontWeight:800,color:a.head,margin:"0 0 12px",fontFamily:"Outfit,sans-serif"},children:txt})};
+  var tile=function(v,l,col){return t("div",{style:Object.assign({},k,{padding:14,textAlign:"center"}),children:[e("div",{style:{fontSize:22,fontWeight:900,color:col,fontFamily:"Outfit,sans-serif"},children:v}),e("div",{style:{fontSize:11,color:a.muted,marginTop:2},children:l})]},l)};
+  var status=function(done,tot){return tot>0&&done>=tot?"Completed":done>0?"In progress":"Not started"};
+  var stCol={"Completed":"#059669","In progress":"#1842a8","Not started":"#94a3b8"};
+  var head=t("div",{style:{background:"linear-gradient(135deg,#0d1f4b,#1842a8)",borderRadius:18,padding:X?"16px":"22px",marginBottom:14,color:"#fff"},children:[
+    e("h1",{style:{fontSize:X?20:24,fontWeight:900,fontFamily:"Outfit,sans-serif",margin:0},children:admin?"Progress of all learners":"My Progress"}),
+    e("p",{style:{fontSize:12.5,margin:"4px 0 0",color:"rgba(255,255,255,.82)",lineHeight:1.5},children:admin?"See how every learner is moving through their courses. Learners only see their own progress.":"See how far you have come in each course and what to do next."})]});
+  if(p.guest||!me){
+    return t("div",{children:[head,cardWrap(t("div",{style:{textAlign:"center",padding:"18px 8px"},children:[e("div",{style:{fontWeight:900,color:a.head,fontSize:15,marginBottom:6},children:"Log in to see your progress"}),e("p",{style:{fontSize:12.5,color:a.muted,margin:"0 auto 12px",maxWidth:420,lineHeight:1.6},children:"Your progress is saved to your account, so you can pick up where you stopped on any device."}),e("button",{onClick:p.login,style:{border:"none",borderRadius:10,padding:"10px 20px",background:"#1842a8",color:"#fff",fontWeight:800,cursor:"pointer",fontFamily:"inherit"},children:"Log in"})]}))]});
+  }
+  var layout=function(main,side){return e("div",{style:{display:"grid",gridTemplateColumns:X?"1fr":"minmax(0,1fr) 300px",gap:14,alignItems:"start"},children:[e("div",{children:main},"m"),e("div",{children:side},"s")]})};
+  var calCard=cardWrap([h3("Calendar"),e(MkCal,{a:a,marks:marks})],{marginBottom:14});
+  /* ------------- learner view ------------- */
+  if(!admin){
+    var mine={};
+    var courses=[];
+    (p.apps||[]).forEach(function(ap){
+      if(ap.userId!==me||!(ap.status==="approved"||ap.status==="pending"))return;
+      var c=p.Ce[ap.journey];if(!c)return;
+      var done=(p.mine[ap.journey]||[]).length,tot=total(c);
+      courses.push({key:ap.journey,title:titleOf(c,ap.journey),sub:c.cat||c.subject||"",done:Math.min(done,tot||done),tot:tot,pct:tot?Math.round(Math.min(done,tot)/tot*100):0,ap:ap.status});
+    });
+    var seenKeys={};courses.forEach(function(c){seenKeys[c.key]=1});
+    rows.forEach(function(r){
+      if(r.kind==="tr"||seenKeys[r.course_key])return;
+      var c=p.Ce[r.course_key];if(!c)return;
+      var done=(p.mine[r.course_key]||r.completed_units||[]).length,tot=total(c);
+      courses.push({key:r.course_key,title:titleOf(c,r.course_key),sub:c.cat||c.subject||"",done:Math.min(done,tot||done),tot:tot,pct:tot?Math.round(Math.min(done,tot)/tot*100):0,ap:"approved"});
+    });
+    var active=courses.filter(function(c){return c.ap==="approved"}),pending=courses.filter(function(c){return c.ap==="pending"});
+    var unitsDone=active.reduce(function(s,c){return s+c.done},0),unitsTot=active.reduce(function(s,c){return s+c.tot},0);
+    var attempted=0;
+    active.forEach(function(c){var ch=p.checks[c.key]||{},dn=p.mine[c.key]||[];Object.keys(ch).forEach(function(u){if(dn.indexOf(u)<0)attempted++})});
+    var remaining=Math.max(0,unitsTot-unitsDone-attempted);
+    var overall=unitsTot?Math.round(unitsDone/unitsTot*100):0;
+    var cards=active.slice(0,2).concat(pending.slice(0,Math.max(0,2-active.length))).map(function(c,i){
+      var col=["#1842a8","#7c3aed","#059669","#d97706"][i%4];
+      return t("button",{onClick:function(){p.go(c.key)},style:Object.assign({},k,{textAlign:"left",cursor:"pointer",borderLeft:"4px solid "+col,display:"flex",flexDirection:"column",gap:6,fontFamily:"inherit"}),children:[
+        e("div",{style:{fontWeight:800,color:a.head,fontSize:13.5,lineHeight:1.35},children:c.title}),
+        e("div",{style:{fontSize:11,color:a.muted},children:c.sub}),
+        c.ap==="pending"?e("div",{style:{fontSize:11,fontWeight:800,color:"#d97706"},children:"Waiting for approval"}):t("div",{children:[mkBar(a,c.pct,col),e("div",{style:{fontSize:11,fontWeight:800,color:col,marginTop:5},children:c.done+" of "+c.tot+" units \u00B7 "+c.pct+"%"})]})]},c.key);
+    });
+    var more=courses.length>cards.length?courses.length-cards.length:0;
+    var courseRow=courses.length===0?cardWrap(t("div",{style:{textAlign:"center",padding:"14px 6px"},children:[e("div",{style:{fontWeight:900,color:a.head,fontSize:15,marginBottom:6},children:"You have not started a course yet"}),e("p",{style:{fontSize:12.5,color:a.muted,margin:"0 auto 12px",maxWidth:440,lineHeight:1.6},children:"Choose a subject, apply, and once the administrator approves you, your progress will appear here. You will get an alert when you are approved."}),e("button",{onClick:p.browse,style:{border:"none",borderRadius:10,padding:"10px 20px",background:"#1842a8",color:"#fff",fontWeight:800,cursor:"pointer",fontFamily:"inherit"},children:"Browse subjects"})]}),{marginBottom:14}):
+      e("div",{style:{display:"grid",gridTemplateColumns:X?"1fr":"repeat(3,minmax(0,1fr))",gap:12,marginBottom:14},children:cards.concat(more>0?[t("button",{onClick:function(){document.getElementById("mk-prog-list")&&document.getElementById("mk-prog-list").scrollIntoView({behavior:"smooth"})},style:Object.assign({},k,{textAlign:"left",cursor:"pointer",fontFamily:"inherit"}),children:[e("div",{style:{fontWeight:900,fontSize:22,color:a.head},children:more+" more"}),e("div",{style:{fontSize:12,color:"#1842a8",fontWeight:800,marginTop:4},children:"Show all"})]},"more")]:[])});
+    var promo=cardWrap(t("div",{style:{display:"flex",gap:14,alignItems:"center",flexWrap:"wrap"},children:[
+      e("div",{style:{width:54,height:54,borderRadius:"50%",background:"rgba(217,119,6,.15)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:26,flexShrink:0},children:"\uD83D\uDCA1"}),
+      t("div",{style:{flex:1,minWidth:200},children:[e("div",{style:{fontWeight:900,color:a.head,fontSize:15},children:"Take more courses to reach your goals"}),e("div",{style:{fontSize:12.5,color:a.muted,lineHeight:1.5,marginTop:2},children:"Our subjects help you build skills, prepare for exams and open new doors."})]}),
+      e("button",{onClick:p.browse,style:{border:"none",borderRadius:99,padding:"10px 22px",background:"linear-gradient(135deg,#f5b301,#d97706)",color:"#fff",fontWeight:800,cursor:"pointer",fontFamily:"inherit"},children:"Browse"})]}),{marginBottom:14});
+    var donutCard=cardWrap([h3("Unit status"),t("div",{style:{display:"flex",alignItems:"center",gap:16,flexWrap:"wrap",justifyContent:"center"},children:[
+      e(MkDonut,{segs:[{v:unitsDone,c:"#059669"},{v:attempted,c:"#1842a8"},{v:remaining,c:"#cbd5e1"}],track:a.border,txt:a.head,muted:a.muted,center:overall+"%",sub:"complete",label:"Unit status"}),
+      t("div",{style:{fontSize:12,color:a.txt,display:"flex",flexDirection:"column",gap:7},children:[
+        t("span",{children:[e("i",{style:{display:"inline-block",width:10,height:10,borderRadius:"50%",background:"#059669",marginRight:7}}),"Completed ("+unitsDone+")"]},"a"),
+        t("span",{children:[e("i",{style:{display:"inline-block",width:10,height:10,borderRadius:"50%",background:"#1842a8",marginRight:7}}),"Started, checks not passed ("+attempted+")"]},"b"),
+        t("span",{children:[e("i",{style:{display:"inline-block",width:10,height:10,borderRadius:"50%",background:"#cbd5e1",marginRight:7}}),"Not started ("+remaining+")"]},"c")]})]})]);
+    var barsCard=cardWrap([e("div",{id:"mk-prog-list"},"anchor"),h3("Learning progress"),active.length===0?e("div",{style:{fontSize:12.5,color:a.muted},children:"No approved courses yet."}):e("div",{style:{display:"flex",flexDirection:"column",gap:14},children:active.map(function(c){return e("button",{onClick:function(){p.go(c.key)},style:{background:"none",border:"none",textAlign:"left",cursor:"pointer",padding:0,fontFamily:"inherit"},children:t("div",{children:[t("div",{style:{display:"flex",justifyContent:"space-between",gap:8,fontSize:12,color:a.txt,marginBottom:5},children:[e("span",{style:{fontWeight:700},children:c.title}),e("span",{style:{fontWeight:900,color:"#1842a8"},children:c.pct+"%"})]}),mkBar(a,c.pct)]})},c.key)})})]);
+    var tiles=e("div",{style:{display:"grid",gridTemplateColumns:"repeat(2,minmax(0,1fr))",gap:12,marginBottom:14},children:[tile(unitsDone+" / "+unitsTot,"Units completed","#059669"),tile(String(pending.length),"Awaiting approval","#d97706")]});
+    var side=[calCard,cardWrap(t("div",{style:{textAlign:"center"},children:[e("div",{style:{fontWeight:900,color:a.head,fontSize:15},children:"Stuck on a topic?"}),e("p",{style:{fontSize:12.5,color:a.muted,lineHeight:1.55,margin:"6px 0 12px"},children:"Ask Ada, your live tutor, to explain it in your own language."}),e("button",{onClick:p.ada,style:{border:"none",borderRadius:99,padding:"10px 22px",background:"linear-gradient(135deg,#7c3aed,#1842a8)",color:"#fff",fontWeight:800,cursor:"pointer",fontFamily:"inherit"},children:"Ask Ada"})]}))];
+    return t("div",{children:[head,loading?e("div",{style:{fontSize:12,color:a.muted,marginBottom:8},children:"Loading your progress..."}):null,layout([e("h2",{style:{fontSize:16,fontWeight:900,color:a.head,fontFamily:"Outfit,sans-serif",margin:"0 0 10px"},children:"Your Courses"},"h"),courseRow,promo,e("div",{style:{display:"grid",gridTemplateColumns:X?"1fr":"1fr 1fr",gap:12,marginBottom:14},children:[donutCard,barsCard]}),tiles],side)]});
+  }
+  /* ------------- administrator view ------------- */
+  var map={};
+  var add=function(kind,uid,name,key,done,last){
+    var id=kind+"|"+uid+"|"+key;
+    if(!map[id])map[id]={kind:kind,uid:uid,name:name||"Learner",key:key,done:0,last:""};
+    if(done!=null)map[id].done=Math.max(map[id].done,done);
+    if(last&&last>map[id].last)map[id].last=last;
+    if(name&&map[id].name==="Learner")map[id].name=name;
+  };
+  rows.forEach(function(r){add(r.kind==="tr"?"tr":"sj",r.user_id,(r.profiles&&(r.profiles.name||r.profiles.nick))||"",r.course_key,(r.completed_units||[]).length,r.updated_at||"")});
+  (p.apps||[]).forEach(function(ap){if(ap.status==="approved")add("sj",ap.userId,ap.name||ap.nick,ap.journey,null,"")});
+  (p.tapps||[]).forEach(function(ap){if(ap.status==="approved")add("tr",ap.userId,ap.name||ap.nick,ap.course,null,"")});
+  var list=Object.keys(map).map(function(id){
+    var r=map[id],c=cat(r.kind,r.key),tot=total(c),done=tot?Math.min(r.done,tot):r.done;
+    return {kind:r.kind,uid:r.uid,name:r.name,key:r.key,title:titleOf(c,r.key),done:done,tot:tot,pct:tot?Math.round(done/tot*100):0,last:r.last,st:status(done,tot)};
+  });
+  var courseKeys=[];list.forEach(function(r){if(courseKeys.indexOf(r.key)<0)courseKeys.push(r.key)});
+  var shown=list.filter(function(r){return(cf==="all"||r.key===cf)&&(!qs||(r.name+" "+r.title).toLowerCase().indexOf(qs.toLowerCase())>=0)}).sort(function(x,y2){return(y2.last||"").localeCompare(x.last||"")||x.name.localeCompare(y2.name)});
+  var learners={};list.forEach(function(r){learners[r.uid]=1});
+  var cnt={"Completed":0,"In progress":0,"Not started":0};list.forEach(function(r){cnt[r.st]++});
+  var avg=list.length?Math.round(list.reduce(function(s,r){return s+r.pct},0)/list.length):0;
+  var pend=(p.apps||[]).concat(p.tapps||[]).filter(function(ap){return ap.status==="pending"}).length;
+  var perCourse=courseKeys.map(function(key){var rs=list.filter(function(r){return r.key===key});return{key:key,title:rs[0].title,n:rs.length,avg:Math.round(rs.reduce(function(s,r){return s+r.pct},0)/rs.length)}}).sort(function(x,y2){return y2.n-x.n}).slice(0,8);
+  var tilesA=e("div",{style:{display:"grid",gridTemplateColumns:X?"repeat(2,minmax(0,1fr))":"repeat(5,minmax(0,1fr))",gap:12,marginBottom:14},children:[tile(String(Object.keys(learners).length),"Learners tracked","#1842a8"),tile(String(list.length),"Course enrolments","#7c3aed"),tile(avg+"%","Average completion","#059669"),tile(String(cnt["Completed"]),"Courses completed","#059669"),tile(String(pend),"Applications waiting","#d97706")]});
+  var donutA=cardWrap([h3("Enrolment status"),t("div",{style:{display:"flex",alignItems:"center",gap:16,flexWrap:"wrap",justifyContent:"center"},children:[
+    e(MkDonut,{segs:[{v:cnt["Completed"],c:"#059669"},{v:cnt["In progress"],c:"#1842a8"},{v:cnt["Not started"],c:"#cbd5e1"}],track:a.border,txt:a.head,muted:a.muted,center:String(list.length),sub:"enrolments",label:"Enrolment status"}),
+    t("div",{style:{fontSize:12,color:a.txt,display:"flex",flexDirection:"column",gap:7},children:["Completed","In progress","Not started"].map(function(nm){return t("span",{children:[e("i",{style:{display:"inline-block",width:10,height:10,borderRadius:"50%",background:nm==="Not started"?"#cbd5e1":stCol[nm],marginRight:7}}),nm+" ("+cnt[nm]+")"]},nm)})})]})]);
+  var barsA=cardWrap([h3("Courses by average completion"),perCourse.length===0?e("div",{style:{fontSize:12.5,color:a.muted},children:"No learners are enrolled yet."}):e("div",{style:{display:"flex",flexDirection:"column",gap:12},children:perCourse.map(function(c){return t("div",{children:[t("div",{style:{display:"flex",justifyContent:"space-between",gap:8,fontSize:12,color:a.txt,marginBottom:4},children:[e("span",{style:{fontWeight:700},children:c.title+" ("+c.n+")"}),e("span",{style:{fontWeight:900,color:"#1842a8"},children:c.avg+"%"})]}),mkBar(a,c.avg)]},c.key)})})]);
+  var sel={border:"1.5px solid "+a.bd,background:a.card,color:a.txt,borderRadius:10,padding:"9px 11px",fontSize:12.5,fontFamily:"inherit"};
+  var table=cardWrap([t("div",{style:{display:"flex",gap:8,flexWrap:"wrap",alignItems:"center",justifyContent:"space-between",marginBottom:10},children:[h3("Everyone's progress"),t("div",{style:{display:"flex",gap:8,flexWrap:"wrap"},children:[
+    e("input",{value:qs,onChange:function(ev){setQs(ev.target.value)},placeholder:"Search name or course",style:Object.assign({},sel,{minWidth:150})}),
+    t("select",{value:cf,onChange:function(ev){setCf(ev.target.value)},style:sel,children:[e("option",{value:"all",children:"All courses"},"all")].concat(courseKeys.map(function(key){var r=list.find(function(x){return x.key===key});return e("option",{value:key,children:r?r.title:key},key)}))}),
+    e("button",{onClick:function(){setTick(tick+1)},style:Object.assign({},sel,{cursor:"pointer",fontWeight:800}),children:"Refresh"})]})]}),
+    shown.length===0?e("div",{style:{fontSize:12.5,color:a.muted,padding:"10px 0"},children:loading?"Loading...":"No matching learners yet. If you expected to see learners here, run supabase/progress_dashboard.sql once so administrators can read all progress."}):e("div",{style:{overflowX:"auto"},children:t("table",{style:{width:"100%",borderCollapse:"collapse",minWidth:560,fontSize:12.5},children:[
+      e("thead",{children:e("tr",{children:["Learner","Course","Progress","Units","Last active"].map(function(h){return e("th",{style:{textAlign:"left",padding:"8px 10px",background:a.pale,color:a.head,fontWeight:800,borderBottom:"1px solid "+a.border},children:h},h)})})}),
+      e("tbody",{children:shown.slice(0,200).map(function(r,i){return t("tr",{children:[
+        e("td",{style:{padding:"8px 10px",borderTop:"1px solid "+a.border,fontWeight:700,color:a.head},children:r.name}),
+        e("td",{style:{padding:"8px 10px",borderTop:"1px solid "+a.border,color:a.txt},children:r.title+(r.kind==="tr"?" (teacher)":"")}),
+        e("td",{style:{padding:"8px 10px",borderTop:"1px solid "+a.border,minWidth:130},children:t("div",{children:[mkBar(a,r.pct,stCol[r.st]),e("div",{style:{fontSize:10.5,marginTop:3,color:stCol[r.st],fontWeight:800},children:r.pct+"% \u00B7 "+r.st})]})}),
+        e("td",{style:{padding:"8px 10px",borderTop:"1px solid "+a.border,color:a.txt},children:r.done+" / "+r.tot}),
+        e("td",{style:{padding:"8px 10px",borderTop:"1px solid "+a.border,color:a.muted},children:r.last?new Date(r.last).toLocaleDateString():"Not yet"})]},i)})})]})})]);
+  return t("div",{children:[head,tilesA,layout([e("div",{style:{display:"grid",gridTemplateColumns:X?"1fr":"1fr 1fr",gap:12,marginBottom:14},children:[donutA,barsA]}),table],[calCard])]});
 }
 /*MK-MOBILE-END*/

@@ -1,0 +1,144 @@
+[
+{"id":"sp22-08","week":4,"title":"Alternating Current: Meaning, Characteristics and Reactance","icon":"BarChart2",
+"summary":"What alternating current is, its peak, rms, frequency and period, and how a resistor, inductor and capacitor behave in an a.c. circuit.",
+"keyWords":["Alternating current","Frequency","Period","RMS value","Inductive reactance","Capacitive reactance"],
+"sections":[
+{"h":"Meaning","p":["Alternating current (a.c.) is a current that reverses its direction regularly and changes continuously with time. Direct current (d.c.) flows in one direction only. An a.c. usually follows a sine wave: I = I₀ sin(ωt), where I₀ is the peak current, ω = 2πf is the angular frequency, f is the frequency in hertz and t is the time in seconds."]},
+{"h":"Characteristics","p":["Frequency f: the number of cycles per second, in hertz (Hz). Period T: the time for one complete cycle, T = 1 ÷ f. Amplitude (peak value): the maximum value of the current or voltage. Root mean square (r.m.s.) value: the steady d.c. value that would give the same heating effect. I_rms = I₀ ÷ √2 (about 0.707 I₀) and V_rms = V₀ ÷ √2.","Example: the Nigerian mains supply is about 230 V (r.m.s.) at 50 Hz. Its peak voltage is 230 × √2 ≈ 325 V and its period is 1 ÷ 50 = 0.02 s."]},
+{"h":"A.C. and D.C. compared","p":["Study the table."],"tbl":{"head":["Feature","A.C.","D.C."],"rows":[["Direction","Reverses regularly","One direction only"],["Source","Generators (alternators), the mains","Cells, batteries, solar panels"],["Transmission over long distances","Easy and efficient with transformers","Needs special equipment"],["Frequency","50 Hz (Nigeria) or 60 Hz (some countries)","Zero"],["Typical uses","Homes, industry, motors","Electronics, charging, torches"]]}},
+{"h":"Components in a.c. circuits","p":["A resistor (R): the voltage and current are in phase, and Ohm's law applies, V = IR.","An inductor (L): the current lags behind the voltage by 90°. Its opposition to the current is called inductive reactance, X_L = 2πfL, where L is the inductance in henry (H). It increases with frequency.","A capacitor (C): the current leads the voltage by 90°. Its opposition is the capacitive reactance, X_C = 1 ÷ (2πfC), where C is the capacitance in farad (F). It falls as the frequency rises. For a capacitor V = IX_C. (The lesson note writes V = IX_L here by mistake.)","Reactance and resistance are both measured in ohms."]},
+{"h":"Memory aid","p":["ELI the ICE man: in an inductor (L) the e.m.f. (E) comes before the current (I), so current lags; in a capacitor (C) the current (I) comes before the e.m.f. (E), so current leads."]}
+],
+"activity":"Define a.c. and list four of its characteristics. Calculate the peak voltage of a 230 V r.m.s. supply (325 V). Say how the reactance of an inductor changes when the frequency doubles.",
+"check":[
+{"q":"The period of a 50 Hz supply is","o":["0.02 s","50 s","0.2 s","5 s"]},
+{"q":"I_rms equals","o":["I₀ ÷ √2","I₀ × √2","I₀ ÷ 2","2I₀"]},
+{"q":"In a pure inductor the current","o":["Lags the voltage by 90°","Leads the voltage by 90°","Is in phase with the voltage","Is zero"]},
+{"q":"Inductive reactance is given by","o":["2πfL","1/2πfL","2πfC","1/2πfC"]},
+{"q":"The capacitive reactance of a capacitor","o":["Decreases as frequency increases","Increases as frequency increases","Is constant","Is zero"]}
+]},
+
+{"id":"sp22-09","week":4,"title":"R-L, R-C and R-L-C Circuits: Impedance, Power and Resonance","icon":"BarChart2",
+"summary":"How the three components combine, impedance and phase angle, power and power factor, resonance and the resonant frequency.",
+"keyWords":["Impedance","Phase angle","Phasor","Power factor","Resonance","Resonant frequency"],
+"sections":[
+{"h":"R-L circuit","p":["A resistor and an inductor in series. The voltage leads the current. The impedance (the total opposition) is Z = √(R² + X_L²), and the phase angle is given by tan φ = X_L ÷ R."]},
+{"h":"R-C circuit","p":["A resistor and a capacitor in series. The current leads the voltage. Z = √(R² + X_C²), and tan φ = X_C ÷ R."]},
+{"h":"Series R-L-C circuit","p":["All three in series. The net reactance is X = X_L – X_C. The impedance is Z = √(R² + (X_L – X_C)²) and the phase angle tan φ = (X_L – X_C) ÷ R. The current is I = V ÷ Z.","Because X_L and X_C act in opposite directions, they partly cancel. The phasor diagram below shows this: reactances are drawn at right angles to the resistance, then added as vectors to get Z."],"img":{"src":"phy2-impedance.jpg","alt":"Three phasor diagrams: (a) X_L upward, X_C downward and R to the right; (b) the net reactance X_L minus X_C at right angles to R; (c) the impedance Z as the diagonal","cap":"Building the impedance Z from R and the net reactance."}},
+{"h":"Phasor diagrams","p":["Phasors are rotating vectors that represent sinusoidal voltages and currents, and are used to show the phase relationship between them. In a pure R, V and I are in phase; in a pure L, V leads I by 90°; in a pure C, I leads V by 90°; in an R-L-C circuit the resultant is found by vector addition."]},
+{"h":"Power in a.c. circuits","p":["Study the table."],"tbl":{"head":["Type of power","Symbol","Formula","Unit"],"rows":[["Apparent power","S","S = V_rms × I_rms","volt-ampere (VA)"],["Real (active) power","P","P = VI cos φ","watt (W)"],["Reactive power","Q","Q = VI sin φ","volt-ampere reactive (VAR)"],["Power factor","none","cos φ = P ÷ S = R ÷ Z","no unit"]]}},
+{"h":"Resonance","p":["In a series R-L-C circuit, resonance occurs when X_L = X_C, that is, 2πfL = 1 ÷ 2πfC. At resonance the impedance is smallest (Z = R), the circuit behaves like a pure resistor, the current is largest, the voltage and current are in phase and the power factor is 1.","The resonant frequency is f₀ = 1 ÷ (2π√(LC)).","To see why, look at what happens as the frequency changes. For L = 1.0 H and C = 2.0 µF: at 50 Hz, X_L = 314 Ω and X_C = 1,592 Ω (so the capacitor dominates); at 112.5 Hz, X_L ≈ 707 Ω and X_C ≈ 707 Ω (they are equal: resonance); at 200 Hz, X_L = 1,257 Ω and X_C = 398 Ω (the inductor dominates). The lesson note's own picture was not suitable for reproduction (it mixed up the axes), so we give this table instead."]},
+{"h":"Applications","p":["Power distribution on the grid (the national grid, once run by NEPA). Transformers (they work only with a.c.). Induction motors. Radio and TV tuners (they use resonance in R-L-C circuits to pick one station). Circuit breakers and relays. Household appliances such as fans and refrigerators. Signal processing in electronics."]}
+],
+"activity":"State the condition for resonance and write the formula for f₀. List the formulas for Z, X_L, X_C, P and the power factor. Explain why a radio tuner uses resonance.",
+"check":[
+{"q":"At resonance in a series R-L-C circuit","o":["X_L = X_C","X_L is zero","R is zero","Z is infinite"]},
+{"q":"Resonant frequency f₀ is","o":["1/(2π√LC)","2π√LC","1/(2πLC)","√LC"]},
+{"q":"The power factor equals","o":["cos φ","sin φ","tan φ","1/cos φ"]},
+{"q":"At resonance the current is","o":["At its maximum","At its minimum","Zero","Infinite"]},
+{"q":"Impedance in an R-L-C series circuit is","o":["√(R² + (X_L – X_C)²)","R + X_L + X_C","R² + X²","R – X"]}
+]},
+
+{"id":"sp22-10","week":4,"title":"A.C. Circuit Calculations with Corrected Answers","icon":"ClipboardCheck",
+"summary":"Step-by-step solutions on impedance, power loss, resonance and capacitive reactance, with the arithmetic slips in the lesson note put right.",
+"keyWords":["Impedance","Power loss","Resonant frequency","Reactance","Worked example"],
+"sections":[
+{"h":"Example 1: power lost in an inductor","p":["An inductor of 120 mH and resistance 5 Ω is connected to a 220 V, 60 Hz supply. Find the power loss.","X_L = 2πfL = 2π × 60 × 0.12 = 45.24 Ω. Z = √(R² + X_L²) = √(25 + 2,046.6) = √2,071.6 = 45.51 Ω. I = V ÷ Z = 220 ÷ 45.51 = 4.83 A. P = I²R = (4.83)² × 5 ≈ 117 W."]},
+{"h":"Example 2: the R-C circuit","p":["A resistor of 10³ Ω is in series with a capacitor of reactance 10³√3 Ω. Z = √(R² + X_C²) = √(10⁶ + 3 × 10⁶) = √(4 × 10⁶) = 2 × 10³ Ω = 2,000 Ω."]},
+{"h":"Example 3: impedance of an R-L circuit","p":["An inductor of 0.5 H and resistance 50 Ω is connected to a 60 Hz supply. Find Z.","X_L = 2π × 60 × 0.5 = 188.5 Ω. Z = √(50² + 188.5²) = √(2,500 + 35,532) = √38,032 = 195 Ω. (The lesson note shows 188.6² as 3,559.96, which is a slip: 188.5² is about 35,532. Its final answer of 195 Ω is correct. The frequency is printed as '60 1b' and the resistance with a stray symbol, but they mean 60 Hz and 50 Ω.)"]},
+{"h":"Example 4: resonance","p":["An inductor of 1.0 H is in series with a capacitor of 2.0 µF. Find the resonant frequency. f₀ = 1 ÷ (2π√(LC)) = 1 ÷ (2π√(1.0 × 2.0 × 10⁻⁶)) = 1 ÷ (2π × 1.414 × 10⁻³) = 1 ÷ 8.886 × 10⁻³ = 112.5 Hz."]},
+{"h":"Example 5: series R-L-C","p":["R = 10 Ω, X_C = 4 Ω and X_L = 9 Ω (the lesson note writes 'X_C = 4F' by mistake; reactance is measured in ohms, not farads). Net reactance = 9 – 4 = 5 Ω. Z = √(10² + 5²) = √125 = 11.2 Ω. The circuit is shown below."],"img":{"src":"phy2-rlc-circuit.jpg","alt":"A series circuit with a 10 ohm resistor, a 4 ohm capacitor and a 9 ohm inductor connected to an a.c. source","cap":"A series R-L-C circuit with R = 10 Ω, X_C = 4 Ω and X_L = 9 Ω."}},
+{"h":"Evaluation answers","p":["Capacitive reactance of a 100 µF capacitor at 50 Hz: X_C = 1 ÷ (2π × 50 × 100 × 10⁻⁶) = 1 ÷ 0.03142 = 31.8 Ω.","Power factor: it tells how much of the apparent power does useful work: cos φ = R ÷ Z. A low power factor means more current for the same useful power, so thicker cables and greater losses; industries correct it with capacitors."]}
+],
+"activity":"Find the reactance of a 0.2 H inductor at 50 Hz (62.8 Ω). Find the impedance of a 30 Ω resistor in series with a 40 Ω net reactance (50 Ω).",
+"check":[
+{"q":"The impedance of R = 10 Ω, X_L = 9 Ω and X_C = 4 Ω in series is about","o":["11.2 Ω","23 Ω","15 Ω","5 Ω"]},
+{"q":"The resonant frequency for L = 1.0 H and C = 2.0 µF is about","o":["112.5 Hz","50 Hz","1,125 Hz","11.25 Hz"]},
+{"q":"X_C of 100 µF at 50 Hz is about","o":["31.8 Ω","3.18 Ω","318 Ω","0.03 Ω"]},
+{"q":"R = 1,000 Ω and X_C = 1,000√3 Ω gives Z =","o":["2,000 Ω","1,000 Ω","4,000 Ω","2,732 Ω"]},
+{"q":"A low power factor means","o":["Larger current for the same useful power","Smaller current","No losses","No voltage"]}
+]},
+
+{"id":"sp22-11","week":6,"title":"Batteries: Cells, e.m.f., Internal Resistance and Safety","icon":"Zap",
+"summary":"What batteries are, primary and secondary types, how a cell works, e.m.f. versus terminal voltage, internal resistance, connecting cells, and safe use, with worked answers.",
+"keyWords":["Battery","Cell","Primary cell","Secondary cell","e.m.f.","Internal resistance","Terminal voltage"],
+"sections":[
+{"h":"Definition","p":["A battery is a device that changes chemical energy into electrical energy by electrochemical reactions between two electrodes in an electrolyte. A single unit is a cell; a battery is two or more cells joined in series or parallel to give a greater voltage or current."]},
+{"h":"Types","p":["Primary batteries cannot be recharged: the chemical reaction cannot be reversed. Examples: dry (Leclanché) cell, alkaline cell, mercury cell, zinc-carbon cell. Secondary batteries can be recharged: the reaction is reversible. Examples: lead-acid accumulator, nickel-cadmium, lithium-ion, nickel-metal hydride."]},
+{"h":"How a simple cell works","p":["A cell has two electrodes (anode and cathode), an electrolyte (a solution or paste in which ions move), and an external circuit that gives a path for the electrons. Chemical reactions between the electrodes and the electrolyte free electrons at one electrode; they flow through the external circuit to the other electrode, giving an electric current."]},
+{"h":"e.m.f. and terminal voltage","p":["The electromotive force (e.m.f., E) is the energy supplied by a source per unit charge in driving charge round the complete circuit, including inside the cell: E = W ÷ Q. Its unit is the volt. Terminal voltage V is the voltage measured across the terminals while the cell is supplying current: V = E – Ir, where I is the current and r the internal resistance. The 'lost volts' Ir is used up inside the cell."]},
+{"h":"Internal resistance","p":["A real cell is not a perfect voltage source: the materials inside have resistance r. It causes a voltage drop inside the cell when current flows, and the greater the internal resistance, the more energy is lost as heat. That is why a battery's voltage falls when it supplies a large current."]},
+{"h":"Connecting cells","p":["In series (positive of one to the negative of the next) the e.m.f.s add: E_total = E₁ + E₂ + … + Eₙ, and the internal resistances also add. In parallel (all positives together and all negatives together) the voltage stays the same (for identical cells) but the cells share the current, so the battery lasts longer and the internal resistance is smaller."]},
+{"h":"Worked example","p":["A battery of e.m.f. 12 V and internal resistance 0.5 Ω is connected to a 5.5 Ω resistor. Total resistance = 5.5 + 0.5 = 6.0 Ω. Current I = E ÷ (R + r) = 12 ÷ 6.0 = 2.0 A. Terminal voltage V = E – Ir = 12 – 2.0 × 0.5 = 11 V."]},
+{"h":"Advantages, limits and uses","p":["Advantages: portable and compact; quiet and clean; useful in remote places; rechargeable types reduce waste; many sizes. Limits: limited capacity and life; pollution if wrongly thrown away; can leak or explode if abused; rechargeable batteries lose capacity with time; internal resistance reduces efficiency.","Uses: torches, phones and tablets, laptops, car batteries, storing solar energy, medical devices (such as pacemakers), remote controls, power banks and UPS units."]},
+{"h":"Safety","p":["Do not mix old and new batteries. Do not short-circuit the terminals. Keep batteries away from heat and fire. Store them in a cool, dry place. Recycle dead batteries properly. Wear gloves and eye protection when handling lead-acid batteries. Never try to recharge a non-rechargeable cell."]},
+{"h":"Extra detail: the dry cell and the accumulator","p":["A Leclanché dry cell has a zinc case (the negative electrode), a carbon rod surrounded by manganese dioxide (the positive electrode) and an ammonium chloride paste as the electrolyte; it gives about 1.5 V. A lead-acid accumulator gives about 2 V per cell, so a 12 V car battery has six cells in series."]}
+],
+"activity":"Define e.m.f. and terminal voltage and state how they differ. A 6.0 V battery of internal resistance 1.0 Ω drives a current through a 5.0 Ω resistor; find the current (1.0 A) and terminal voltage (5.0 V).",
+"check":[
+{"q":"The terminal voltage of a cell supplying current is","o":["E – Ir","E + Ir","E × r","E ÷ r"]},
+{"q":"A rechargeable cell is","o":["A secondary cell","A primary cell","A dry cell only","A solar cell"]},
+{"q":"Cells in series have a total e.m.f. that is","o":["The sum of the e.m.f.s","The average","Always 1.5 V","Zero"]},
+{"q":"12 V e.m.f., r = 0.5 Ω and R = 5.5 Ω give a current of","o":["2 A","24 A","0.5 A","6 A"]},
+{"q":"A source of energy that cannot be recharged is a","o":["Primary cell","Lead-acid accumulator","Li-ion battery","NiMH cell"]}
+]},
+
+{"id":"sp22-12","week":8,"title":"Solar Collectors: Types, Components and Comparison with Solar Panels","icon":"Zap",
+"summary":"How a solar collector turns sunlight into heat, its three main types, parts of a flat-plate collector and how it differs from a photovoltaic panel.",
+"keyWords":["Solar collector","Flat-plate collector","Evacuated tube","Parabolic","Absorber plate","Photovoltaic"],
+"sections":[
+{"h":"Definition","p":["A solar collector is a device that absorbs sunlight and converts it into heat, which is used to heat a fluid such as water or air. It is part of solar thermal energy systems, as opposed to photovoltaic (PV) panels, which convert sunlight into electricity."]},
+{"h":"Working principle","p":["1. A dark surface (the absorber plate) absorbs sunlight. 2. Light energy changes to heat. 3. The heat passes to a working fluid (water, air or antifreeze). 4. The hot fluid is used directly or stored in an insulated tank."]},
+{"h":"Main types","p":["Flat-plate collector: the most common type for homes; an insulated box with a transparent cover and a dark absorber plate; the fluid flows through tubes fixed to the plate. Evacuated-tube collector: parallel glass tubes with a vacuum between two layers to cut heat loss; works better in colder climates. Concentrating (parabolic) collector: mirrors or lenses focus sunlight onto a small area to reach high temperatures; used in industry and power plants."]},
+{"h":"Parts of a flat-plate collector","p":["Study the table."],"tbl":{"head":["Part","Purpose"],"rows":[["Transparent cover (glazing)","Lets sunlight in and reduces heat loss (the greenhouse effect)"],["Absorber plate","Painted black to absorb the most energy"],["Tubes or channels","Carry the fluid that collects the heat"],["Insulation","Stops heat escaping from the back and sides"],["Casing","A protective box that gives support"],["Storage tank","Stores the hot fluid for use when there is no sun"],["Pump (optional)","Circulates the fluid in active systems"]]}},
+{"h":"Solar collector and solar panel compared","p":["Study the table."],"tbl":{"head":["Feature","Solar collector","Solar (PV) panel"],"rows":[["Changes sunlight into","Heat","Electricity"],["Output","Hot water or air","Electric current (d.c.)"],["Main use","Water and space heating","Powering electronics and appliances"],["Typical efficiency","About 60 to 80% (thermal)","About 15 to 25% (electrical)"],["Storage","Insulated hot-water tank","Batteries"]]}}
+],
+"activity":"Explain how a flat-plate collector works. Name its parts and one purpose for each. State three differences between a solar collector and a solar panel.",
+"check":[
+{"q":"A solar collector changes sunlight into","o":["Heat","Electricity","Sound","Magnetism"]},
+{"q":"The absorber plate is painted black to","o":["Absorb more sunlight","Reflect light","Look neat","Resist rust"]},
+{"q":"The glass cover","o":["Lets light in and cuts heat loss","Absorbs all light","Cools the water","Makes electricity"]},
+{"q":"Evacuated-tube collectors have","o":["A vacuum to reduce heat loss","No glass","No water","A battery"]},
+{"q":"A photovoltaic panel produces","o":["Electricity","Hot water","Sound","Steam"]}
+]},
+
+{"id":"sp22-13","week":8,"title":"Solar Collectors: Uses, Design for Efficiency and Calculations","icon":"Zap",
+"summary":"Advantages, limits and applications of solar collectors, passive and active systems, the design factors for efficiency and the heat-collected calculation.",
+"keyWords":["Passive system","Active system","Thermosiphon","Tilt angle","Insolation","Efficiency"],
+"sections":[
+{"h":"Advantages","p":["A renewable source. Low running cost after installation. Friendly to the environment with no greenhouse gases made when running. Quiet. Good for rural and off-grid areas. Less dependence on fossil fuels. Simple upkeep and long life."]},
+{"h":"Limitations","p":["Depends on sunshine (less effective on cloudy and rainy days). The cost of installing it can be high. It needs space. Heat is lost at night if the storage is poor. It is not suitable for portable use. It may need antifreeze in cold climates (not an issue in Nigeria)."]},
+{"h":"Applications","p":["Heating water in homes; heating swimming pools; space heating; industrial process heating; solar desalination (making fresh water from sea water); heating greenhouses; solar cookers; solar drying of crops such as grain, cassava and pepper."]},
+{"h":"Passive and active systems","p":["A passive system has no pump or controller. The water moves by natural circulation (thermosiphon): hot water is lighter and rises to the tank above, and cooler water sinks to the collector. It is simple, cheap and needs little maintenance. An active system uses pumps and controls to circulate the fluid; it is more efficient and suits larger or multi-storey buildings."]},
+{"h":"Design for efficiency","p":["Tilt angle: roughly equal to the local latitude for the best absorption. Orientation: face the equator (south in the Northern Hemisphere, as in Nigeria; north in the Southern Hemisphere). Insulation: stops heat loss from the back and sides. Absorber material: a good conductor of heat such as copper or aluminium. Colour: black, to absorb the most radiation. Keep the cover clean and free of shade."]},
+{"h":"Heat collected","p":["The useful heat power collected is approximately Q = A × S × η, where A is the area of the collector (m²), S is the solar intensity or insolation (W/m²) and η is the efficiency (usually 0.6 to 0.8). Q is a power in watts, not an amount of energy in joules; multiply by time to get energy.","Evaluation question 7: area 1.5 m², insolation 800 W/m², efficiency 65%. Q = 1.5 × 800 × 0.65 = 780 W. (The question calls it a 'solar panel', but because it asks for heat it is really a collector.)"]},
+{"h":"Care of a solar thermal system","p":["Clean the cover regularly. Check pipes and joints for leaks. Check the insulation and the tank. Make sure no shade covers the collector. Drain or protect the system in freezing conditions (not usual in Nigeria). Have it checked by a technician once a year."]}
+],
+"activity":"State four advantages and four limits of solar collectors. Find the heat power from a 2.0 m² collector with 750 W/m² and 70% efficiency (1,050 W). Describe how thermosiphon works.",
+"check":[
+{"q":"A passive solar water heater moves water by","o":["Thermosiphon","A pump","A fan","Magnetism"]},
+{"q":"Q = A × S × η gives","o":["Heat power collected","Voltage","Charge","Frequency"]},
+{"q":"1.5 m², 800 W/m² and 65% give","o":["780 W","1,200 W","520 W","1,845 W"]},
+{"q":"In Nigeria a collector should face","o":["South","North","East only","West only"]},
+{"q":"A good absorber material is","o":["Copper","Plastic","Wood","Glass"]}
+]},
+
+{"id":"sp22-14","week":9,"title":"Second Term Revision: Fields, A.C., Batteries and Solar Collectors","icon":"ClipboardCheck",
+"summary":"A checklist, formulas and the corrections made in the second term.",
+"keyWords":["Revision","Formulas","Corrections"],
+"sections":[
+{"h":"Checklist","p":["Electric field: definition, direction, E = F/q, E = kQ/r², Coulomb's law, field lines, uniform fields. Resistors: series and parallel. Magnetic field: sources, lines, rules, flux, F = BIL sin θ. Electromagnetic field: components, waves, Faraday's and Lenz's laws. A.C.: rms, reactance, impedance, power, resonance. Batteries: types, e.m.f., internal resistance. Solar collectors: types, parts, Q = ASη."]},
+{"h":"Key formulas","p":["E = F/q; E = kQ/r²; F = kq₁q₂/r². R = R₁ + R₂ (series); 1/R = 1/R₁ + 1/R₂ (parallel). Φ = BA cos θ; F = BIL sin θ; B = μ₀I/2R. I_rms = I₀/√2; X_L = 2πfL; X_C = 1/2πfC; Z = √(R² + (X_L – X_C)²); f₀ = 1/2π√(LC); P = VI cos φ. V = E – Ir. Q = ASη."]},
+{"h":"Corrections to remember","p":["The field 0.1 m from 2.0 × 10⁻⁶ C is 1.8 × 10⁶ N/C (not 10⁵). The field at the centre of a loop is μ₀I/2R. For a capacitor, V = IX_C (not X_L). X_L = 188.5 Ω gives Z = 195 Ω for the 0.5 H inductor. The unit of reactance is the ohm, not the farad. The solar collector gives heat power in watts."]},
+{"h":"Quick answers","p":["Force between 6 µC and 8 µC at 3 m: 0.048 N. 0.5 m, 10 A, 0.3 T: 1.5 N. 2 m, 6 A, 0.5 T: 6 N. R-L-C with R = 10 Ω, X_L = 9 Ω, X_C = 4 Ω: Z = 11.2 Ω. f₀ for 1 H and 2 µF: 112.5 Hz. X_C of 100 µF at 50 Hz: 31.8 Ω. Battery example: 2 A and 11 V. Collector example: 780 W."]},
+{"h":"How to revise","p":["Redo each worked example from the units. Draw field-line patterns and the phasor diagram of Z. Practise the unit and formula table until you can write it from memory."]}
+],
+"activity":"Make a one-page formula sheet for the second term and test yourself without looking. Then try a past WAEC or NECO paper on electric and magnetic fields.",
+"check":[
+{"q":"The field of a point charge Q at distance r is","o":["kQ/r²","kQ/r","kQr","kQ²/r"]},
+{"q":"The field at the centre of a circular coil of N turns is","o":["μ₀NI/2R","μ₀NI/R²","μ₀NI × 2R","μ₀I/2πR²"]},
+{"q":"The unit of reactance is","o":["Ohm","Farad","Henry","Hertz"]},
+{"q":"A battery of 12 V, r = 0.5 Ω and a 5.5 Ω load has terminal voltage","o":["11 V","12 V","6 V","1 V"]},
+{"q":"The efficiency of a typical solar thermal collector is about","o":["60 to 80%","1 to 5%","100%","15 to 25%"]}
+]}
+]

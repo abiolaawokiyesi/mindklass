@@ -1,0 +1,158 @@
+[
+    {
+        "id":  "sc31-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Our planet and how we live on it: ecosystems, natural resources, hazards, environmental health, waste, climate change and sustainable development.",
+        "keyWords":  [
+                         "JSS 3 Intermediate Science First Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to JSS 3 Intermediate Science First Term",
+                             "p":  [
+                                       "Welcome to JSS 3 Intermediate Science for the first term. You will review your JSS 2 work and then study our planet: ecosystems, natural resources, environmental hazards, environmental health, waste and recycling, climate change and sustainable development.",
+                                       "Each unit has an activity and check questions. Where the lesson note has a small mistake, we put it right in the unit and explain why."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for JSS 3 Intermediate Science First Term",
+                             "p":  [
+                                       "The units below follow the school scheme of work week by week."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Review of JSS 2: Matter, Energy and the Five Kingdoms"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Laboratory Conduct and Safety"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "The Ecosystem: Meaning and Components"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Food Chains, Food Webs and Energy Flow"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "2",
+                                                          "Balance of Nature and the Disruption of Ecosystems"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Natural Resources: Renewable and Non-Renewable"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "3",
+                                                          "Importance and Conservation of Natural Resources"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "Environmental Hazards (1): Drought and Desertification"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "4",
+                                                          "Environmental Hazards (2): Erosion, Flooding and Preparedness"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "Environmental Health: Meaning and Components"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "6",
+                                                          "Roles in Environmental Health: You, the Government and Health Officers"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "8",
+                                                          "Waste: Types and Methods of Disposal"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "8",
+                                                          "The 3 Rs, Recycling and the Effects of Poor Waste Management"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "9",
+                                                          "Weather, Climate and the Greenhouse Effect"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "9",
+                                                          "Effects of Climate Change, Mitigation and Adaptation"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "10",
+                                                          "Sustainable Development, the SDGs and a School Eco-Project"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "11",
+                                                          "First Term Revision: Ecosystems, Resources, Hazards, Health, Waste and Climate"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "What is the first topic you will review in JSS 3 first term?",
+                          "o":  [
+                                    "Matter, energy and lab safety",
+                                    "Heredity only",
+                                    "Electric circuits",
+                                    "Machines"
+                                ]
+                      },
+                      {
+                          "q":  "How many options does each check question have?",
+                          "o":  [
+                                    "Four",
+                                    "Two",
+                                    "Six",
+                                    "One"
+                                ]
+                      },
+                      {
+                          "q":  "The best way to use these notes is to",
+                          "o":  [
+                                    "Read, try the activities and answer the check questions",
+                                    "Only read the titles",
+                                    "Skip the diagrams",
+                                    "Memorise without understanding"
+                                ]
+                      }
+                  ]
+    }
+]

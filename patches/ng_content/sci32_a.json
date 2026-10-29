@@ -1,0 +1,162 @@
+[
+{"id":"sc32-02","week":1,"title":"The Cell and the Cell Theory","icon":"Layers",
+"summary":"The cell as the basic unit of life, single-celled and many-celled organisms, and the three ideas of the cell theory.",
+"keyWords":["Cell","Unicellular","Multicellular","Cell theory","Schleiden","Schwann","Virchow"],
+"sections":[
+{"h":"What is a cell?","p":["The cell is the smallest unit of structure and function of living things. It is the 'building block' of life. Some organisms, such as amoeba and bacteria, are made of just one cell (unicellular). Others, such as humans, are made of trillions of cells (multicellular)."]},
+{"h":"The cell theory","p":["The cell theory was developed by Matthias Schleiden, Theodor Schwann and Rudolf Virchow. It has three main ideas: 1. All living things are made of one or more cells. 2. The cell is the basic unit of structure and function in living things. 3. All new cells come from cells that already exist (by cell division)."]},
+{"h":"Cells are small","p":["Most cells are far too small to see with the naked eye. We need a microscope to see them. The first person to see and name cells was Robert Hooke in 1665, when he looked at thin slices of cork."]},
+{"h":"Cells with different jobs","p":["In a many-celled organism, cells have different shapes for their jobs. Red blood cells are small and round to carry oxygen. Nerve cells are long to carry messages. Muscle cells can shorten to cause movement. Root hair cells have thin extensions to take in water."]}
+],
+"activity":"Define a cell. State the three ideas of the cell theory. Give one example of a unicellular and one of a multicellular organism.",
+"check":[
+{"q":"The basic unit of structure and function of living things is the","o":["Cell","Organ","Tissue","Atom"]},
+{"q":"Which is unicellular?","o":["Amoeba","Human","Mango tree","Lion"]},
+{"q":"According to the cell theory new cells come from","o":["Existing cells","Non-living matter","Water","Air"]},
+{"q":"Cells were first named by","o":["Robert Hooke","Dalton","Newton","Darwin"]},
+{"q":"Humans are","o":["Multicellular","Unicellular","Single atoms","Non-living"]}
+]},
+
+{"id":"sc32-03","week":1,"title":"Cell Organelles and Their Functions","icon":"Layers",
+"summary":"The parts of a cell, from the nucleus to the cell wall, with the job each one does, shown on a diagram of a plant and an animal cell.",
+"keyWords":["Organelle","Nucleus","Mitochondrion","Ribosome","Vacuole","Chloroplast","Cell wall"],
+"sections":[
+{"h":"Organelles","p":["Organelles ('little organs') are the specialised parts inside a cell, each doing a particular job to keep the cell alive."],"img":{"src":"sci3-cells.jpg","alt":"A plant cell and an animal cell with the nucleus, nucleolus, mitochondrion, ribosomes, vacuole, chloroplast, cell wall, cytoplasm and other organelles labelled","cap":"A plant cell (left) and an animal cell (right)."}},
+{"h":"Functions","p":["Study the table."],"tbl":{"head":["Organelle","Function"],"rows":[["Cytoplasm","Jelly-like fluid that fills the cell; many chemical reactions take place in it"],["Cell membrane","Thin, flexible barrier around the cell; selectively permeable, so it controls what enters and leaves"],["Nucleus","The control centre; holds the chromosomes (DNA) with the instructions for growth and reproduction"],["Mitochondrion (plural mitochondria)","The 'powerhouse'; the place of respiration, which releases energy from glucose"],["Ribosomes","Tiny 'factories' that make proteins for growth and repair"],["Vacuole","A storage bag for water, food and waste. In plants it is one large central vacuole full of cell sap"],["Cell wall (plants, fungi and bacteria)","Tough outer layer made of cellulose in plants; gives support and shape"],["Chloroplast (plants only)","Site of photosynthesis; contains chlorophyll, which absorbs sunlight"]]}},
+{"h":"What 'selectively permeable' means","p":["The cell membrane lets some things pass (water, oxygen, dissolved food) and stops others. It is like a security gate that checks who may go in and out."]}
+],
+"activity":"Draw and label a plant cell and an animal cell. Make a table of the functions of the nucleus, mitochondrion, chloroplast and cell wall.",
+"check":[
+{"q":"The 'control centre' of the cell is the","o":["Nucleus","Vacuole","Cell wall","Ribosome"]},
+{"q":"Respiration takes place in the","o":["Mitochondrion","Chloroplast","Cell wall","Nucleus"]},
+{"q":"Photosynthesis takes place in the","o":["Chloroplast","Mitochondrion","Nucleus","Cell membrane"]},
+{"q":"A semi-permeable cell membrane","o":["Controls what enters and leaves the cell","Lets everything in","Lets nothing in","Makes proteins"]},
+{"q":"Ribosomes make","o":["Proteins","Chlorophyll","Cellulose","Glucose"]}
+]},
+
+{"id":"sc32-04","week":1,"title":"Plant Cells and Animal Cells Compared, and Using a Microscope","icon":"Camera",
+"summary":"Five differences between plant and animal cells, and how to use a light microscope to see onion and cheek cells.",
+"keyWords":["Plant cell","Animal cell","Microscope","Eyepiece","Objective lens","Stage"],
+"sections":[
+{"h":"Differences","p":["Study the table."],"tbl":{"head":["Feature","Animal cell","Plant cell"],"rows":[["Shape","Round or irregular","Fixed, box-like"],["Cell wall","Absent","Present (cellulose)"],["Vacuole","Absent, or small and many","One large central vacuole"],["Chloroplasts","Absent (cannot make food)","Present (make food)"],["Food stored as","Glycogen","Starch"]]}},
+{"h":"Why do plants have these extras?","p":["Plants stand still and make their own food, so they need a rigid cell wall for support, chloroplasts for photosynthesis and a big vacuole of water to keep the cells firm (turgid). Animals move about and eat food, so they need flexible cells and no chloroplasts."]},
+{"h":"The light microscope","p":["A microscope lets us see objects too small for the naked eye. Eyepiece: the lens you look through. Objective lenses: the lenses that magnify the specimen. Stage: the platform that holds the slide. Coarse and fine focus knobs: make the picture sharp. Light source: a mirror or lamp. The total magnification is the eyepiece magnification multiplied by the objective magnification, for example 10 × 40 = 400 times."]},
+{"h":"Looking at cells","p":["Onion cells: peel a thin layer from the inside of an onion scale, place it on a slide with a drop of water or iodine stain, lower a cover slip gently and look. You will see rectangular cells with cell walls and nuclei. Cheek cells: gently scrape the inside of your cheek with a clean cotton bud, smear it on a slide with a drop of stain, and you will see irregular cells with nuclei but no cell walls. Always start with the lowest-power lens and use the coarse focus first."]}
+],
+"activity":"List five differences between plant and animal cells. Name four parts of a microscope and say what each does.",
+"check":[
+{"q":"Which is found in plant cells but not animal cells?","o":["Cell wall","Nucleus","Cell membrane","Cytoplasm"]},
+{"q":"Plants store food as","o":["Starch","Glycogen","Protein only","Fat only"]},
+{"q":"With a 10× eyepiece and a 40× objective the magnification is","o":["400×","50×","4×","14×"]},
+{"q":"The lens you look through on a microscope is the","o":["Eyepiece","Stage","Mirror","Focus knob"]},
+{"q":"Animal cells usually have","o":["No cell wall","A large central vacuole","Chloroplasts","A fixed rectangular shape"]}
+]},
+
+{"id":"sc32-05","week":2,"title":"Levels of Organisation and Tissues","icon":"Layers",
+"summary":"From cell to organism, the school analogy, and the main animal and plant tissues.",
+"keyWords":["Tissue","Organ","Organ system","Organism","Epithelial","Xylem","Phloem"],
+"sections":[
+{"h":"Levels of organisation","p":["In many-celled organisms the body is built up in levels. Level 1, cells: the basic unit (muscle cell, nerve cell, skin cell). Level 2, tissues: a group of similar cells doing one job. Level 3, organs: different tissues working together to do a big job. Level 4, organ systems: several organs working together for a main life process. Level 5, the organism: the whole living thing (a human, a dog, a tree)."],"img":{"src":"sci3-organisation.jpg","alt":"A pyramid from atoms and molecules at the top, through cells, tissues, organs and organ systems down to the whole organism","cap":"Levels of organisation, from small to large."}},
+{"h":"A school analogy","p":["A cell is like one student. A tissue is like a class of students doing the same kind of work. An organ is like a department (with students and teachers who have different jobs). An organ system is like the whole school. The organism is the whole education system working as one."]},
+{"h":"Animal tissues","p":["Study the table."],"tbl":{"head":["Tissue","Function","Examples"],"rows":[["Epithelial","Covers and protects; lines organs","Skin, lining of the mouth and stomach"],["Connective","Connects, supports and binds","Bone, cartilage, blood, tendons, ligaments"],["Muscle","Contracts and relaxes to cause movement","Biceps, heart muscle"],["Nervous","Carries electrical messages","Brain, spinal cord, nerves"]]}},
+{"h":"Plant tissues","p":["Meristematic tissue: at the tips of roots and shoots; cells divide to give growth. Dermal tissue: the outer 'skin' (epidermis) that protects the plant. Vascular tissue: the transport system. Xylem carries water and minerals up from the roots. Phloem carries food (sugars) made in the leaves to all other parts of the plant, both up and down. (The lesson note says phloem carries food 'down'; it carries it to wherever it is needed.) Ground tissue: fills the space between the others and includes the cells that do photosynthesis."]}
+],
+"activity":"Write the five levels of organisation in order. Name the four animal tissues with an example of each. Say what xylem and phloem carry.",
+"check":[
+{"q":"A group of similar cells doing one job is a","o":["Tissue","Organ","Organism","Organ system"]},
+{"q":"Bone and blood are examples of","o":["Connective tissue","Muscle tissue","Nervous tissue","Epithelial tissue"]},
+{"q":"Xylem carries","o":["Water and minerals up","Sugars down only","Oxygen","Blood"]},
+{"q":"The correct order from small to large is","o":["Cell, tissue, organ, system, organism","Organ, cell, tissue, system, organism","Tissue, cell, organ, organism, system","Organism, system, organ, tissue, cell"]},
+{"q":"Nervous tissue is found in the","o":["Brain","Skin only","Bones","Stomach lining only"]}
+]},
+
+{"id":"sc32-06","week":2,"title":"Organs, Organ Systems and Coordination","icon":"Heart",
+"summary":"Examples of organs and the main human organ systems, and how they work together.",
+"keyWords":["Organ","Digestive system","Circulatory system","Respiratory system","Excretory system","Coordination"],
+"sections":[
+{"h":"Organs","p":["An organ is made of several tissues working together. The stomach, for example, has muscle tissue to churn food, epithelial tissue to line it and nervous tissue to control it. Other organs: heart, lungs, brain, kidney, and, in plants, the leaf, stem and root."]},
+{"h":"Main organ systems","p":["Study the table."],"tbl":{"head":["System","Organs","Function"],"rows":[["Digestive","Mouth, stomach, small and large intestine, liver","Breaks down and absorbs food"],["Circulatory","Heart, blood vessels, blood","Carries oxygen and nutrients round the body"],["Respiratory","Nose, trachea, lungs","Takes in oxygen and removes carbon dioxide"],["Excretory","Kidneys, ureters, bladder","Removes waste from the blood"],["Nervous","Brain, spinal cord, nerves","Controls and coordinates the body"],["Skeletal and muscular","Bones, muscles","Support and movement"]]}},
+{"h":"Coordination","p":["The systems must work together, or coordinate, to keep us alive. When you run, your muscles (muscular system) need more oxygen. Your lungs (respiratory system) work faster to take it in and your heart (circulatory system) pumps faster to carry it to the muscles. The brain (nervous system) controls all this. If one system fails, the others are affected."]}
+],
+"activity":"Choose two organ systems and give the function and two organs of each. Explain why coordination between systems matters, using running as an example.",
+"check":[
+{"q":"The system that breaks down and absorbs food is the","o":["Digestive system","Respiratory system","Excretory system","Nervous system"]},
+{"q":"The heart belongs to the","o":["Circulatory system","Digestive system","Nervous system","Excretory system"]},
+{"q":"The kidneys belong to the","o":["Excretory system","Respiratory system","Circulatory system","Skeletal system"]},
+{"q":"When you run, your heartbeat","o":["Speeds up to carry more oxygen","Stops","Slows down","Is not affected"]},
+{"q":"An organ is made of","o":["Several tissues","One cell","Atoms only","One molecule"]}
+]},
+
+{"id":"sc32-07","week":3,"title":"Heredity: Genes, Inherited and Acquired Traits","icon":"Users",
+"summary":"What heredity and genetics are, how genes pass traits, and the difference between inherited and acquired traits.",
+"keyWords":["Heredity","Genetics","Gene","DNA","Chromosome","Inherited trait","Acquired trait"],
+"sections":[
+{"h":"Heredity and genetics","p":["Heredity is the passing of traits (characteristics) from parents to their children. It is why children look like their parents. Genetics is the science that studies heredity.","Genes are the units of heredity: short pieces of DNA (deoxyribonucleic acid) on the chromosomes in the nucleus of our cells. Genes are like an instruction manual that decides our traits. A human cell has 46 chromosomes, 23 from each parent."],"img":{"src":"sci3-heredity.jpg","alt":"Human chromosomes with a man and a woman and arrows pointing to a child, showing that traits come from both parents","cap":"A child receives half of its chromosomes from each parent."}},
+{"h":"Inherited traits","p":["These are features you are born with, passed on through genes. You cannot choose them. Examples: blood group (A, B, AB, O), skin colour, eye colour, natural hair colour and texture, and the shape of your face."]},
+{"h":"Acquired traits","p":["These are features you get during your life. They are not in your genes and cannot be passed on to your children. Examples: scars, muscles from exercise, speaking English or Yoruba, knowledge from school, a tattoo, tribal marks, and bleached skin."]},
+{"h":"A quick test","p":["Is the ability to speak French inherited or acquired? Acquired, because a child born to French speakers who is brought up elsewhere will not speak French unless taught."]}
+],
+"activity":"Define heredity, gene and trait. List three inherited and three acquired traits. Name the acid that carries genetic information.",
+"check":[
+{"q":"Genes are found on","o":["Chromosomes in the nucleus","The cell wall","The vacuole","Ribosomes"]},
+{"q":"Which is an inherited trait?","o":["Blood group","A scar","Speaking French","Muscles from exercise"]},
+{"q":"Which is an acquired trait?","o":["A scar","Eye colour","Blood group","Skin colour"]},
+{"q":"DNA stands for","o":["Deoxyribonucleic acid","Dioxide nitrogen acid","Dense natural acid","Double nucleus acid"]},
+{"q":"Acquired traits","o":["Cannot be passed to children through genes","Are always inherited","Are in the DNA","Are blood groups"]}
+]},
+
+{"id":"sc32-08","week":3,"title":"Variation and Simple Genetic Inheritance","icon":"Layers",
+"summary":"Why individuals differ, why variation helps species survive, and how dominant and recessive genes work with a Punnett square.",
+"keyWords":["Variation","Dominant","Recessive","Punnett square","Genotype","Phenotype"],
+"sections":[
+{"h":"Variation","p":["Variation means the differences in traits among individuals of the same species. This is why people in your class (except identical twins) look different. Causes: sexual reproduction mixes genes from two parents to give new combinations; mutations (changes in genes) give new traits; and the environment can change how traits show, for example two plants with the same genes grow to different heights if one gets more sunlight."],"img":{"src":"sci3-genetics.jpg","alt":"A diagram of four related ideas: variation, heredity, genes and inheritance","cap":"Genetics: variation, heredity, genes and inheritance."}},
+{"h":"Why variation is important","p":["Variation is the raw material for adaptation and evolution. It lets a species survive when the environment changes. Example: in a flock of goats, some have thick fur and some thin. If the weather turns very cold, the thin-furred ones may die while the thick-furred ones live, breed and pass on the thick-fur gene."]},
+{"h":"Dominant and recessive genes","p":["For each trait you have two genes, one from each parent. A dominant gene shows its trait whenever it is present, and is written with a capital letter (T for tall). A recessive gene shows its trait only when there is no dominant gene, and is written with a small letter (t for short). Dominant does not mean 'stronger' or 'more common'; it only means that it shows up when both are present.","Tall plant: TT or Tt. Short plant: tt only."]},
+{"h":"A Punnett square","p":["The father has free earlobes (Ee, with E dominant) and the mother has attached earlobes (ee). Each parent passes on one gene. The Punnett square shows the possible children."],"tbl":{"head":["","E (father)","e (father)"],"rows":[["e (mother)","Ee free","ee attached"],["e (mother)","Ee free","ee attached"]]}},
+{"h":"Reading the result","p":["Two of the four boxes are ee, so there is a 50% chance that a child has attached earlobes. (Ear-lobe shape is used in schools as a simple example; in reality it is not controlled by a single gene, so real families may not follow this pattern exactly.)"]}
+],
+"activity":"Explain why variation helps a species. Draw a Punnett square for Tt × Tt and give the ratio of tall to short (3 : 1). Say what the percentage chance of an attached earlobe is for the example in this unit.",
+"check":[
+{"q":"A dominant gene is written with a","o":["Capital letter","Small letter","Number","Symbol"]},
+{"q":"A plant with Tt is","o":["Tall","Short","Dead","Sterile"]},
+{"q":"Variation helps a species to","o":["Survive changes in the environment","Stay the same","Die out","Avoid reproduction"]},
+{"q":"For Ee × ee, the chance of ee children is","o":["50%","25%","75%","100%"]},
+{"q":"A recessive trait shows when","o":["Both genes are recessive","One gene is dominant","The gene is missing","The plant is big"]}
+]},
+
+{"id":"sc32-09","week":4,"title":"Adaptation: Habitat and Structural Adaptations","icon":"Shield",
+"summary":"What adaptation is, why it matters, and how animals and plants are built for their habitats, including the camel, fish, cactus, polar bear and Galapagos finches.",
+"keyWords":["Habitat","Adaptation","Structural adaptation","Camel","Gills","Cactus","Finches"],
+"sections":[
+{"h":"Habitat and adaptation","p":["A habitat is the natural home of an organism, such as the desert, a river or a forest. An adaptation is a special feature or behaviour that helps an organism survive and reproduce in its habitat. Well-adapted organisms find food, escape enemies and have young; poorly adapted ones die out."]},
+{"h":"Structural (physical) adaptations","p":["Study the table."],"tbl":{"head":["Organism","Habitat","Adaptation and its purpose"],"rows":[["Camel","Desert","Hump stores fat, which can be broken down for energy (and gives some water); long eyelashes keep out sand; wide flat feet stop it sinking in the sand"],["Fish","Water","Gills take in oxygen dissolved in water; fins and a streamlined body for fast swimming; scales for protection"],["Cactus","Desert","Spines instead of leaves cut water loss and keep animals away; thick fleshy stem stores water"],["Polar bear","Arctic","Thick fur and blubber (fat) for warmth; white-looking fur helps it hide"]]}},
+{"h":"A correction about the camel","p":["Many people think the camel's hump stores water. It stores fat. When the fat is used up in the body, it gives energy, and some water is made as a by-product."]},
+{"h":"Beaks of the Galapagos finches","p":["The picture shows the finches that Charles Darwin studied on the Galapagos Islands. Their beaks differ in shape and size depending on what they eat: large strong beaks for cracking seeds, thin pointed beaks for catching insects, and so on. This is a structural adaptation to food."],"img":{"src":"sci3-finches.jpg","alt":"A circular chart of Galapagos finch species around an ancestral seed-eating ground finch showing different beak shapes for seeds, insects, buds and fruits and cactus","cap":"Different beaks for different foods (adaptive radiation of Galapagos finches)."}}
+],
+"activity":"Choose a habitat. Describe one plant and one animal living there and give two adaptations of each with how they help it survive.",
+"check":[
+{"q":"The natural home of an organism is its","o":["Habitat","Adaptation","Niche only","Colony"]},
+{"q":"A fish's gills are a","o":["Structural adaptation","Behavioural adaptation","Acquired trait","Disease"]},
+{"q":"A camel's hump stores","o":["Fat","Water","Sand","Milk"]},
+{"q":"A cactus has spines to","o":["Reduce water loss","Make flowers","Absorb more water","Attract bees"]},
+{"q":"Finch beaks differ according to","o":["The food they eat","Their colour","The size of the island only","Their age"]}
+]},
+
+{"id":"sc32-10","week":4,"title":"Behavioural and Functional Adaptations, and Why Adaptation Matters","icon":"Shield",
+"summary":"Actions and body processes that help survival, such as migration, hibernation, venom and colour change, and why adaptation is vital.",
+"keyWords":["Behavioural adaptation","Functional adaptation","Migration","Hibernation","Nocturnal","Venom"],
+"sections":[
+{"h":"Behavioural adaptations","p":["These are actions an organism takes to survive. Migration: many birds travel long distances to find food or a warmer place (some European birds spend our dry season in Nigeria). Hibernation: some animals, such as bears, sleep through the winter to save energy when food is scarce. Nocturnal activity: owls, rats and bats rest in the hot day and come out at night. Living in groups: lions hunt as a pride, and meerkats post a lookout."]},
+{"h":"Functional (physiological) adaptations","p":["These are internal body processes or chemicals. Poison or venom: snakes make venom to kill prey, and some plants make poison against plant-eaters. Colour change: a chameleon changes its skin colour. It does this mainly to communicate with other chameleons and to control its body temperature, and sometimes to blend in with its surroundings. (The lesson note gives camouflage as the main purpose.) Other examples: sweating to cool the body and a thick layer of mucus on fish to protect from germs."]},
+{"h":"The three types compared","p":["Study the table."],"tbl":{"head":["Type","Meaning","Examples"],"rows":[["Structural","Body parts","Gills, camel's hump, cactus spines"],["Behavioural","Actions","Migration, hibernation, hunting in groups"],["Functional","Body processes","Venom, sweating, colour change"]]}},
+{"h":"Why adaptation matters","p":["Adaptation lets a species survive and keep reproducing in its habitat. When the environment changes faster than a species can adapt, the species may die out (become extinct). This is why protecting habitats is important."]}
+],
+"activity":"Define the three types of adaptation with an example each. Say what type of adaptation a bird flying south for the winter shows.",
+"check":[
+{"q":"Migration is a","o":["Behavioural adaptation","Structural adaptation","Acquired disease","Functional adaptation only"]},
+{"q":"Venom production by snakes is a","o":["Functional adaptation","Behavioural adaptation","Structural only","Genetic disease"]},
+{"q":"Animals active at night are","o":["Nocturnal","Diurnal","Hibernating","Sessile"]},
+{"q":"Bears sleeping through winter is","o":["Hibernation","Migration","Camouflage","Gills"]},
+{"q":"Species that cannot adapt to change may","o":["Become extinct","Grow larger","Become plants","Move to the Sun"]}
+]}
+]

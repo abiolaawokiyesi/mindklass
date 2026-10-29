@@ -44,8 +44,8 @@ if ($b -ge 0) {
 }
 
 # --- routes: /Ada
-Swap 'route table' '"staffperformance":"staffperf"};var MK_SLUGS=' '"staffperformance":"staffperf","ada":"ada"};var MK_SLUGS='
-Swap 'slug table' '"staffperf":"StaffPerformance"};var MK_VIEW_TO_SLUG' '"staffperf":"StaffPerformance","ada":"Ada"};var MK_VIEW_TO_SLUG'
+Swap 'route table' '"staffperformance":"staffperf"};var MK_SLUGS=' '"staffperformance":"staffperf","ada":"ada","progress":"progress"};var MK_SLUGS='
+Swap 'slug table' '"staffperf":"StaffPerformance"};var MK_VIEW_TO_SLUG' '"staffperf":"StaffPerformance","ada":"Ada","progress":"Progress"};var MK_VIEW_TO_SLUG'
 
 # --- state
 Swap 'state' '[mkQ,mkSetQ]=f(()=>mkSearchPrefill())' '[mkQ,mkSetQ]=f(()=>mkSearchPrefill()),[mkDrawer,mkSetDrawer]=f(!1),[mkLvl,mkSetLvl]=f("All")'
@@ -83,5 +83,12 @@ Swap 'subject tiles' $grid ($tiles + $grid)
 # --- Nigerian Curriculum: SS1 / SS2 / SS3 chips + filter
 Swap 'level chips' '}),(()=>{let p=(o||s||Ji==="All"?n:n.filter(([,d])=>(d.cat||d.subject)===Ji)).filter(([mk_k,mk_c])=>mkCourseMatch(mk_c,mk_k,mkQ));' '}),Ji==="Nigerian Curriculum"&&!o&&!s&&e(MkLevelChips,{a,v:mkLvl,set:mkSetLvl}),(()=>{let p=(o||s||Ji==="All"?n:n.filter(([,d])=>(d.cat||d.subject)===Ji)).filter(([mk_k,mk_c])=>mkCourseMatch(mk_c,mk_k,mkQ)).filter(([,mk_d])=>Ji!=="Nigerian Curriculum"||mkLvl==="All"||String(mk_d.group||"").indexOf(mkLvl)===0);'
 
+
+# --- progress dashboard route, alerts for applications and approvals ---
+Swap 'seen state' '[mkDrawer,mkSetDrawer]=f(!1),[mkLvl,mkSetLvl]=f("All")' '[mkDrawer,mkSetDrawer]=f(!1),[mkLvl,mkSetLvl]=f("All"),[mkSeen,mkSetSeen]=f(()=>mkSeenLoad())'
+Swap 'alert list' 'Ti=()=>Jn.filter(i=>i.audience==="all"||i.audience===L),ja=' 'Ti=()=>mkSynthAlerts({role:L,user:y,student:Ct,teacher:Gt,seen:mkSeen}).concat(Jn.filter(i=>i.audience==="all"||i.audience===L)),ja='
+Swap 'mark alerts read' 'ud=async()=>{let i=Jn.filter(o=>!o.read)' 'ud=async()=>{mkSetSeen(mk_s=>{let mk_n=new Set(mk_s);Ti().forEach(mk_a=>mk_n.add(mk_a.id));try{localStorage.setItem("mk_seen_alerts",JSON.stringify([...mk_n].slice(-400)))}catch{}return mk_n});let i=Jn.filter(o=>!o.read)'
+Swap 'application polling' 'de(()=>{try{sessionStorage.setItem("mk_tab",G)}catch{}try{mkPushView(G)}catch{}},[G]),' 'de(()=>{try{sessionStorage.setItem("mk_tab",G)}catch{}try{mkPushView(G)}catch{}},[G]),de(()=>{if(!y?.id||dt)return;let mk_t=()=>{if(document.visibilityState==="visible"&&navigator.onLine!==!1)nt()};let mk_iv=setInterval(mk_t,45e3);window.addEventListener("focus",mk_t);return()=>{clearInterval(mk_iv);window.removeEventListener("focus",mk_t)}},[y?.id]),'
+Swap 'progress view' 'if(G==="ada")return J({children:e(MkAda,{a,k,X,role:L,guest:dt})});' 'if(G==="progress")return J({children:e(MkProgress,{a,k,X,role:L,user:y,guest:dt,Ce,Fe,mine:ii,checks:In,apps:Ct,tapps:Gt,exams:Ir,sb:M,go:mk_c=>{yd("learn"),mkSetQ(mk_c)},browse:()=>yd("learn"),ada:()=>yd("ada"),login:()=>Pa("in")})});if(G==="ada")return J({children:e(MkAda,{a,k,X,role:L,guest:dt})});'
 [IO.File]::WriteAllText($path, $d, $enc)
 Write-Host "patched: $path"

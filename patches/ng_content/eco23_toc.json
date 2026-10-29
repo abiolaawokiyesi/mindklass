@@ -1,0 +1,153 @@
+[
+    {
+        "id":  "ec23-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Economics Third Term: economic planning, international economic organisations, national development strategies, Nigeria\u0027s development challenges and economic reforms.",
+        "keyWords":  [
+                         "SS2 Economics - Third Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Economics - Third Term",
+                             "p":  [
+                                       "Welcome to SS2 Economics, Third Term. You will learn how nations plan their development, how organisations such as the IMF, the World Bank, ECOWAS, the AfDB, UNCTAD and OPEC work, why plans like the MDGs, NEEDS and Vision 2020 fell short, what challenges hold Nigeria back and how reforms such as bank consolidation and privatisation work.",
+                                       "Facts about organisations change (for example ECOWAS and OPEC membership), so the notes mark where to check the latest information. Where the lesson note had an error or an out-of-date figure, a correction is explained in the unit."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Economics - Third Term",
+                             "p":  [
+                                       "Here is the plan for the term. Tick each unit when you finish it."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Economic Development Planning: Meaning, Aims and Types"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Nigeria\u0027s Planning Experience and Its Problems"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "The International Monetary Fund (IMF)"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "The World Bank and How It Differs from the IMF"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "2",
+                                                          "ECOWAS: The Economic Community of West African States"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "The African Development Bank and UNCTAD"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "3",
+                                                          "OPEC: The Organisation of the Petroleum Exporting Countries"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "The Millennium Development Goals (MDGs)"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "4",
+                                                          "NEEDS: The National Economic Empowerment and Development Strategy"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "4",
+                                                          "Vision 2020 and the Common Threads of Failure"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "6",
+                                                          "Nigeria\u0027s Development Challenges (1): Poverty"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "6",
+                                                          "Nigeria\u0027s Development Challenges (2): Corruption, Power, Unemployment and Infrastructure"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "6",
+                                                          "Nigeria\u0027s Development Challenges (3): Oil Dependence, Inflation and the Web of Problems"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "8",
+                                                          "Economic Reform Programmes and the Banking Consolidation"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "8",
+                                                          "Privatisation and Commercialisation"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "10",
+                                                          "Third Term Revision and Past Question Drilling"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic opens the term?",
+                          "o":  [
+                                    "Economic development planning",
+                                    "Fiscal policy",
+                                    "Money",
+                                    "Trade"
+                                ]
+                      },
+                      {
+                          "q":  "Where do you study the IMF and the World Bank?",
+                          "o":  [
+                                    "The international organisations units",
+                                    "The money units",
+                                    "The BOP units",
+                                    "Nowhere"
+                                ]
+                      },
+                      {
+                          "q":  "The term ends with",
+                          "o":  [
+                                    "Revision and past questions",
+                                    "A new organisation",
+                                    "Budgets",
+                                    "GDP"
+                                ]
+                      }
+                  ]
+    }
+]

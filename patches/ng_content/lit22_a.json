@@ -1,0 +1,150 @@
+[
+{"id":"li22-02","week":1,"title":"Welcome Back: Review of Poetry and Introduction to Prose","icon":"BookOpen",
+"summary":"A quick review of first term, what prose is, and the plot of a story, including Freytag's pyramid.",
+"keyWords":["Prose","Plot","Exposition","Rising action","Climax","Falling action","Resolution"],
+"sections":[
+{"h":"Looking back","p":["Last term you learned to find the theme (the central message) and the poetic devices (the tools) in a poem. This term you will use the same skills on prose: stories and novels. Review last term's poems briefly, especially the themes of 'Once Upon a Time' and 'Still I Rise', before you start."]},
+{"h":"What is prose?","p":["Prose is language in its ordinary form, without the regular rhythm of poetry. It is the language of everyday speech, novels, short stories, articles and textbooks. Poetry uses lines and stanzas; prose uses sentences and paragraphs. Prose can still be very beautiful, and it often uses the same devices as poetry."]},
+{"h":"Plot","p":["Plot is the arrangement of the events of a story, the 'what happens'. The author arranges them to build suspense and feeling. A common pattern is Freytag's pyramid."],"tbl":{"head":["Stage","What happens"],"rows":[["Exposition","The beginning: we meet the characters and the setting and learn the basic conflict"],["Rising action","Events and complications that build tension"],["Climax","The turning point: the moment of greatest tension when the main conflict comes to a head"],["Falling action","Events after the climax; tension drops and loose ends are tied"],["Resolution (dénouement)","The end: the conflict is settled and a new normal begins"]]}},
+{"h":"A short example","p":["Take the folktale of the tortoise who wanted to go to the feast in the sky. Exposition: there is famine and the birds are invited to the feast. Rising action: the tortoise persuades the birds to lend him feathers, then tricks them about his name. Climax: the tortoise is alone at the feast and eats all the food. Falling action: the angry birds take back their feathers. Resolution: he falls to earth and his shell cracks. You will learn the same stages in the novels this term."]},
+{"h":"Non-linear plots","p":["Many modern novels do not follow the order of time. They use flashbacks (scenes from the past) and a frame story (a story inside which another story is told). You will meet both in the novels this term."]}
+],
+"activity":"Pick a story you know well (a fairy tale or parable). Write out its exposition, rising action, climax, falling action and resolution in one sentence each.",
+"check":[
+{"q":"Prose is written in","o":["Sentences and paragraphs","Stanzas only","Rhymes only","Songs only"]},
+{"q":"The turning point of a story is the","o":["Climax","Exposition","Resolution","Title"]},
+{"q":"The beginning of a story that introduces characters is the","o":["Exposition","Climax","Falling action","Refrain"]},
+{"q":"Scenes from the past inside a story are","o":["Flashbacks","Refrains","Stanzas","Metaphors"]},
+{"q":"The end where the conflict is settled is the","o":["Resolution","Exposition","Rising action","Plot"]}
+]},
+
+{"id":"li22-03","week":1,"title":"Character, Setting, Theme and Point of View","icon":"Users",
+"summary":"The other building blocks of prose and the terms for types of character, kinds of setting and narrators.",
+"keyWords":["Protagonist","Antagonist","Round character","Flat character","Dynamic","Static","Setting","Theme","Point of view"],
+"sections":[
+{"h":"Character and characterization","p":["A character is a person, animal or being who takes part in the story. Characterization is how the author shows us the character. Direct: the author tells us ('He was a kind man'). Indirect: the author shows us through the character's speech, thoughts, actions, appearance and what others say."]},
+{"h":"Types of character","p":["Study the table."],"tbl":{"head":["Type","Meaning"],"rows":[["Protagonist","The main character who faces the central conflict"],["Antagonist","The person or force that opposes the protagonist"],["Round character","Complex and realistic, with several sides"],["Flat character","Simple, one-sided, often a type"],["Dynamic character","Changes in an important way during the story"],["Static character","Stays the same from beginning to end"],["Foil","A character who contrasts with another to bring out the other's qualities"]]}},
+{"h":"Setting","p":["Setting is the time and place of the story. Physical setting: where (a village, a city, a room). Temporal setting: when (a century, a year, one day). Social or atmospheric setting: the society, customs, politics and mood (a time of war and fear, a strict religious society)."]},
+{"h":"Theme","p":["Theme is the central idea or message of a story, its comment on human life. A theme is a general statement, for example 'Power corrupts' or 'The past cannot be escaped'. A topic is a single word (war); a theme says something about it ('War destroys childhood')."]},
+{"h":"Point of view","p":["First person: the narrator is a character and says 'I'; we know only what that person knows. Third-person limited: the narrator is outside the story but follows one character's thoughts. Third-person omniscient: the narrator is outside the story and can enter the thoughts of any character and knows the past and future."]}
+],
+"activity":"Choose a story or film you know and name its protagonist, antagonist, setting (physical, time, social), theme and point of view.",
+"check":[
+{"q":"A character who changes greatly in the story is","o":["Dynamic","Static","Flat","A foil"]},
+{"q":"The main character facing the conflict is the","o":["Protagonist","Antagonist","Narrator","Foil"]},
+{"q":"A narrator who says 'I' is in the","o":["First person","Third person","Omniscient mode","Second person"]},
+{"q":"The time and place of a story form its","o":["Setting","Plot","Theme","Tone"]},
+{"q":"A character who is simple and one-sided is","o":["Flat","Round","Dynamic","Dramatic"]}
+]},
+
+{"id":"li22-04","week":2,"title":"Redemption Road by Elma Shaw: Author, Context and an Important Correction","icon":"Landmark",
+"summary":"The novel, its post-war Liberian background and why the lesson note's summary of the story cannot be trusted.",
+"keyWords":["Elma Shaw","Liberia","Civil war","Trauma","Redemption","Set text"],
+"sections":[
+{"h":"The novel and its author","p":["Redemption Road is a novel by the Liberian writer Elma Shaw, first published in 2008 by Cotton Tree Press. It is often described as Liberia's first post-war novel and is one of the African prose set texts for the West African senior secondary Literature in English syllabus."]},
+{"h":"Background: the Liberian civil wars","p":["Liberia suffered two civil wars (1989 to 1997 and 1999 to 2003) with great loss of life, the recruitment of child soldiers and the breakdown of society. Many survivors lived alongside people who had hurt them, and many wartime commanders were never punished. Women and children were among the worst affected. After the war the country had to find a way to heal."]},
+{"h":"An important correction","p":["Your lesson note says in places that it is 'a guide to the likely events' of the novel. The note's story does not match the novel as other published guides describe it. For example, the note names the main character Bendite Kizeku, gives her a husband Gracious who is secretly 'General Cobra', a journalist friend Moses and a girl called Life in a coma after a car accident. These names and events are not those of the novel's main story as described elsewhere (see the next unit): the heroine is Bendu Lewis, who runs a peace organisation; the villain, who is called Commander Cobra in the war, lives under another name, and there is no car accident that puts a child in a coma.","What to do: use the lesson note only for the method (how to analyse plot, character, setting, theme and style). Take the story from the novel itself. Read the book, and treat the summaries in these units as an outline to check against your copy. In an exam, never write about events you cannot find in the book."]},
+{"h":"Why this matters","p":["A student who writes about a different plot from the one in the book will lose marks even if the analysis sounds good. The safest route is to read the novel at least once, mark the main events, and write short notes in your own words."]}
+],
+"activity":"Find out when the two Liberian civil wars happened and what a 'child soldier' is. Obtain a copy of the novel and write down the name of the main character and the place where the story begins.",
+"check":[
+{"q":"Redemption Road was written by","o":["Elma Shaw","Wole Soyinka","Chinua Achebe","Efua Sutherland"]},
+{"q":"The novel is set after the","o":["Liberian civil wars","Second World War","Biafran war","First World War"]},
+{"q":"A safe way to prepare for a set text is to","o":["Read the book itself","Use only a rough summary","Guess the events","Copy the lesson note blindly"]},
+{"q":"Child soldiers are","o":["Children recruited to fight","Soldiers in a school","Toy soldiers","Retired soldiers"]},
+{"q":"Elma Shaw is from","o":["Liberia","Kenya","Canada","India"]}
+]},
+
+{"id":"li22-05","week":3,"title":"Redemption Road: The Story as Published Guides Describe It","icon":"BookOpen",
+"summary":"The main events of the novel in order: Bendu Lewis, her wartime past, Commander Cobra, the kidnapping, the confession and the road to healing.",
+"keyWords":["Bendu Lewis","Peace in Practice","Commander Cobra","Moses Varney","Confession","Reconciliation"],
+"sections":[
+{"h":"How to use this unit","p":["This outline comes from published study guides, not from the lesson note. Check each point against the book and your teacher's notes. Names are spelled as in those guides."]},
+{"h":"The main events","p":["1. The family of Bendu Lewis gathers to mark ten years since the death of her grandmother, Granny May, who died at Charlue Town during the war. Bendu was with her at the end, but she cannot explain what happened, because telling it would mean revealing her own past at a rebel camp called Duluma.","2. Bendu, in her late twenties, runs an organisation called Peace in Practice, which helps survivors of the war to recover. She hides her own history from everyone.","3. Chance meetings with a man called Moses Varney, who was her captor, Commander Cobra, at Duluma, bring back her nightmares. She tells her family and friends, and against her friend Agnes's advice she goes to the police, only to learn that no crime can be proved against him.","4. When he hears about her case, Varney kidnaps her, attacks her at a lagoon and threatens to expose her secrets and kill her. She escapes.","5. She reaches her brother Calvin's house and is taken to hospital. There she confesses what she did in the war, including a daughter she left behind at Duluma. After the confession Varney no longer has any hold over her.","6. Her family stands by her: her sister Siatta takes her in and her mother Eva comes from the United States to support her."]},
+{"h":"Climax and resolution","p":["Climax: the kidnapping at the lagoon and her escape, which are followed by her confession in hospital, the turning point towards redemption. Resolution: Bendu searches for her daughter and is reunited with her through the Red Cross. She learns that her brother Benji gave his life so that others might live, and she writes a symbolic letter to those who hurt her. Other characters also find a kind of peace: Calvin sets up a scholarship scheme; Tenneh, a survivor who was raped by soldiers, accepts that she is HIV positive and becomes a counsellor to others; and Siatta divorces her unfaithful husband Terrance and mends her relationship with her daughters."]},
+{"h":"Your own plot chart","p":["Draw Freytag's pyramid for the novel using the book. For example: exposition: the remembrance of Granny May and Bendu's work; rising action: the meetings with Varney, her fear and her visit to the police; climax: the lagoon; falling action: the hospital and the family; resolution: the search for her daughter and the letter."]},
+{"h":"Dual time","p":["The story moves between the present (post-war Liberia) and memories of the war. Memories of Duluma and Charlue Town break into the present and explain why Bendu acts as she does."]}
+],
+"activity":"Write a plot chart (exposition to resolution) in your own words from your copy of the novel. Explain in two sentences why Bendu cannot tell her family how her grandmother died.",
+"check":[
+{"q":"The main character is","o":["Bendu Lewis","Life","Gracious","Moses the journalist"]},
+{"q":"The organisation she runs is called","o":["Peace in Practice","Redemption Road Foundation","Hope Hospital","Cobra Trust"]},
+{"q":"The villain from the war is known as","o":["Commander Cobra","General Tiger","Captain Eagle","Colonel Lion"]},
+{"q":"Her confession is made in","o":["A hospital","A church","A market","A court"]},
+{"q":"She is reunited with her daughter through the","o":["Red Cross","Police","Ministry of Gender","Radio"]}
+]},
+
+{"id":"li22-06","week":3,"title":"Redemption Road: Characters","icon":"Users",
+"summary":"The main characters, their roles and what each stands for, and how to write a character analysis.",
+"keyWords":["Bendu Lewis","Commander Cobra","Agnes","Calvin","Siatta","Eva Lewis","Tenneh"],
+"sections":[
+{"h":"Main characters","p":["Study the table. Details come from published guides; check them against the book."],"tbl":{"head":["Character","Role","What she or he stands for"],"rows":[["Bendu Lewis","Protagonist: a counsellor who runs Peace in Practice; carries a secret from the war","The survivor who must face her past to heal"],["Commander Cobra (Moses Varney)","Antagonist: her wartime captor, now living under another name","Impunity: war criminals who escape punishment"],["Granny May","Bendu's grandmother, who died in the war","Family memory and loss"],["Agnes","Bendu's friend and co-director","Caution and loyalty"],["Calvin","Bendu's brother, who helps her after her escape","Support and hope for the future"],["Siatta","Bendu's sister, who takes her in","Family care"],["Eva Lewis","Bendu's mother","A mother's love and grief"],["Benji","Bendu's brother who died in the 1980 coup","Sacrifice"],["Tenneh","A survivor of rape who becomes a peer counsellor","Courage and recovery"],["Terrance","Siatta's unfaithful husband","Betrayal inside the family"]]}},
+{"h":"Bendu as a dynamic character","p":["At the start Bendu is a helper of others who hides her own wounds; she is silent and guilty. Through the story she faces Varney and confesses; by the end she has told her truth, searched for her daughter and made peace with her past. This is a big change, so she is a dynamic and round character."]},
+{"h":"Varney as antagonist","p":["Varney is the human enemy, but he also stands for something larger: a country in which people who committed terrible crimes can live freely. He uses fear and threats to keep Bendu silent."]},
+{"h":"How to write a character analysis","p":["Use the structure: who the character is; qualities shown by what she says and does (with a reference to the book); how she changes; what she stands for. Write two short paragraphs. Always support every quality with an event from the book."]}
+],
+"activity":"Write a two-paragraph character analysis of Bendu Lewis using three events from the book. State what Commander Cobra represents.",
+"check":[
+{"q":"Bendu Lewis is a","o":["Dynamic character","Static character","Flat minor character","Narrator only"]},
+{"q":"Commander Cobra stands for","o":["Impunity","Charity","Education","Fashion"]},
+{"q":"Tenneh becomes a","o":["Peer counsellor","Soldier","Judge","Journalist"]},
+{"q":"Calvin helps Bendu after her","o":["Escape","Wedding","Graduation","Journey abroad"]},
+{"q":"A character analysis should be supported by","o":["Events from the book","Guesses","Gossip","Other books only"]}
+]},
+
+{"id":"li22-07","week":3,"title":"Redemption Road: Setting","icon":"Landmark",
+"summary":"The physical, time and social setting of the novel and why the setting is so important.",
+"keyWords":["Monrovia","Duluma camp","Charlue Town","Charles Taylor","Post-war society","Atmosphere"],
+"sections":[
+{"h":"Physical setting","p":["The story is set in Liberia. Published guides name Duluma camp (the rebel camp of Bendu's wartime past), Charlue Town (where her grandmother died), Gardnersville (a suburb of Monrovia) and Freetown in Sierra Leone, where one character goes to follow a war crimes tribunal. Check the exact places in your copy of the book."]},
+{"h":"Time setting","p":["The present of the story is in post-war Liberia under the government of Charles Taylor, a time of fragile peace; the past is the years of the civil war, which keep returning in memory. (Your lesson note placed the story in 2005 to 2007, after the election of Ellen Johnson Sirleaf. That date is not given by the published guides; check the book.)"]},
+{"h":"Social and atmospheric setting","p":["The mood is one of uneasy peace: people are trying to live ordinary lives while carrying deep wounds. Survivors live near perpetrators; there is fear, silence and distrust; and there is also a movement towards healing through counselling, family and truth-telling."]},
+{"h":"Why setting matters","p":["The war is not only background; it is the reason the characters act as they do. The novel shows that peace in a country is not only the end of fighting but also the healing of people. Without the Liberian setting the story would lose its meaning."]},
+{"h":"Writing about setting","p":["Say where and when; give one example of a place and what it means (for example, Duluma as the place of her guilt); say how the setting affects the characters and the theme."]}
+],
+"activity":"Explain in two paragraphs why it is impossible to understand Redemption Road without knowing about the Liberian civil war.",
+"check":[
+{"q":"The story is set in","o":["Liberia","Kenya","Canada","Peru"]},
+{"q":"Duluma is","o":["A rebel camp","A school","A market","A hotel"]},
+{"q":"The social atmosphere is one of","o":["Uneasy peace","Total joy","Carnival","Complete safety"]},
+{"q":"The civil war is","o":["The cause of the characters' trauma","Irrelevant","A comedy","A sport"]},
+{"q":"Setting includes","o":["Place, time and social surroundings","Only the weather","Only the title","Only the names"]}
+]},
+
+{"id":"li22-08","week":4,"title":"Redemption Road: Themes","icon":"Target",
+"summary":"Redemption, justice, healing, truth and family support, with examples and a model answer on justice and reconciliation.",
+"keyWords":["Redemption","Justice","Healing","Truth-telling","Impunity","Forgiveness"],
+"sections":[
+{"h":"Main themes","p":["Redemption: Bendu's journey from silence and guilt to confession and peace; the title suggests a road to be walked. Justice and accountability: Bendu tries to bring a war criminal to the law, but finds that the law cannot reach him easily, which raises the question of impunity. Healing from trauma: counselling, family support, confession and time all help to heal. Truth-telling: Varney keeps power by threatening to reveal her secrets; Bendu takes his power away by speaking the truth herself. Family and community: relatives and friends give her a place to recover. The legacy of war: the past remains alive in the present."]},
+{"h":"Supporting characters and themes","p":["Tenneh shows courage and healing after sexual violence and illness. Calvin's scholarship scheme shows how people can give back to the community. Siatta's divorce shows a woman choosing dignity. Eva's journey home shows a mother's love."]},
+{"h":"Model answer: 'There can be no true reconciliation without justice'","p":["The novel shows that peace is fragile when those who did terrible things walk free. Bendu goes to the police because she believes a war criminal should answer for his crimes, and her disappointment shows how weak justice can be after war. Yet the novel also shows that healing starts when people tell the truth, even without a court. For the writer, justice means more than punishment: it means that wrongs are spoken, heard and not repeated. Without it, any reconciliation is only silence."]},
+{"h":"How to write about a theme","p":["Name the theme; explain what the writer says about it; give two examples from the book; end by saying what the reader learns."]}
+],
+"activity":"Write two paragraphs on the theme of justice and accountability in the novel. Explain how truth-telling takes away the villain's power.",
+"check":[
+{"q":"A central theme of the novel is","o":["Redemption","Sport","Tourism","Farming"]},
+{"q":"Bendu takes away Varney's hold by","o":["Telling the truth herself","Hiding","Paying him","Leaving the country"]},
+{"q":"'Impunity' means","o":["Escaping punishment","Being rewarded","Being honest","Being young"]},
+{"q":"Healing in the novel comes from","o":["Truth, family and counselling","Revenge only","Silence only","Money only"]},
+{"q":"Tenneh represents","o":["Courage and recovery","Greed","Power","Betrayal"]}
+]},
+
+{"id":"li22-09","week":6,"title":"Redemption Road: Style, Structure and Symbolism","icon":"PenLine",
+"summary":"How the past and present are woven together, what the title and names suggest, and how to write about a novel's technique.",
+"keyWords":["Flashback","Structure","Symbolism","Title","Irony","Narrative technique"],
+"sections":[
+{"h":"Past and present","p":["The novel moves between present-day Liberia and the war years. Memory interrupts the present. This shows that for survivors of trauma the past is not finished: it keeps returning as nightmares and as chance meetings. The flashbacks explain the character's secrets and build suspense."]},
+{"h":"Symbolism","p":["The title 'Redemption Road' suggests a journey, a road from guilt to freedom, from trauma to healing. Names and places carry meaning: Duluma stands for the place of the character's guilt and the war years; the confession in hospital is a kind of rebirth; the reunion with her daughter stands for a future that is restored. The name 'Cobra' suggests danger and a hidden poison."]},
+{"h":"Point of view and language","p":["Check in your copy whether the story is told in the first or the third person and whose thoughts we are allowed to enter, because your lesson note's statements on point of view belong to its own version of the story. Note, too, the plain, direct language of the book, which makes painful events easy to follow."]},
+{"h":"The ending","p":["The ending is hopeful but not perfectly happy: the war has left losses that cannot be undone, but the characters find new ways to live. This hope is one of the novel's main messages: healing is possible when people tell the truth and support each other."]},
+{"h":"How to write about technique","p":["Pick a technique (flashback, symbol, irony, point of view), say where it is used, and explain its effect on the reader and the theme. One precise example is worth more than a list of terms."]}
+],
+"activity":"Explain the effect of the flashbacks in the novel in one paragraph. Say what the title suggests. State which point of view is used, with evidence from the first chapter of your copy.",
+"check":[
+{"q":"Flashbacks in the novel show that","o":["The past still affects the present","The past is forgotten","The story has no plot","There is no conflict"]},
+{"q":"The title 'Redemption Road' suggests","o":["A journey from guilt to healing","A shopping street","A race","A farm"]},
+{"q":"The ending is","o":["Hopeful but not perfect","Totally tragic","Totally comic","Unfinished"]},
+{"q":"To write about technique you should","o":["Name it and explain its effect","List terms only","Retell only","Quote nothing"]},
+{"q":"The name 'Cobra' suggests","o":["Danger and hidden poison","Peace","Wealth","Wisdom"]}
+]}
+]

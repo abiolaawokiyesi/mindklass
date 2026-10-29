@@ -1,0 +1,117 @@
+[
+{"id":"fa22-09","week":6,"title":"Shares: Meaning, Types and Methods of Issue","icon":"Landmark",
+"summary":"What a share is, the types of share, and the five methods of issuing shares, including the two meanings of 'offer for sale'.",
+"keyWords":["Share","Ordinary share","Preference share","Rights issue","Private placement","Bonus issue"],
+"sections":[
+{"h":"What is a share?","p":["A share is a unit of ownership in a company. A company issues shares to get capital for starting, expanding or financing special projects, without borrowing. Shares are bought by the public or by existing shareholders. The issue of shares is governed by CAMA. Shares may be issued for cash or for something else of value, such as land, equipment or services (non-cash consideration)."]},
+{"h":"Types of share","p":["Ordinary shares: carry voting rights; the dividend depends on profit, so it can be large or nothing; ordinary shareholders are the real owners and carry the most risk. Preference shares: paid a fixed dividend before ordinary shareholders and repaid first if the company is wound up; usually without a vote. Deferred shares: dividends only after all other shares have been paid. Redeemable shares: shares that the company can buy back at an agreed time."]},
+{"h":"Ordinary and preference shares compared","p":["Study the table."],"tbl":{"head":["Feature","Ordinary shares","Preference shares"],"rows":[["Dividend","Varies with profit","Fixed rate"],["Priority","Paid after preference","Paid first"],["Voting","Usually yes","Usually no"],["Repayment on winding up","After preference","Before ordinary"],["Risk","Higher","Lower"]]}},
+{"h":"Methods of issuing shares","p":["1. Offer for subscription (public issue): the company invites the public to apply for shares through a prospectus. Applicants send money with their applications; the company allots shares. Used when large sums are needed.","2. Offer for sale: the company (or its existing shareholders) sells shares to an issuing house, which then sells them to the public. The company avoids the work of dealing with many applicants. Careful: if the sellers are existing shareholders, the company gets no new money, only the ownership changes hands; if the company itself sells to the issuing house, the company does receive the money.","3. Rights issue: existing shareholders are offered new shares in proportion to what they already hold, often at a price below the market price. It raises money and keeps control with the present owners.","4. Private placement: shares are sold to chosen investors or institutions, not to the public. It is quicker and cheaper, with fewer rules.","5. Bonus (scrip) issue: free shares given to existing shareholders in proportion to their holdings. No money comes in. It changes reserves into share capital."]},
+{"h":"A correction of spelling","p":["The note says 'Right Issue'. The correct term is rights issue (more than one right)."]}
+],
+"activity":"List and explain four methods of issuing shares. State two differences between ordinary and preference shares. Explain why a company might choose a rights issue instead of a public offer.",
+"check":[
+{"q":"Shares that carry voting rights and a variable dividend are","o":["Ordinary shares","Preference shares","Debentures","Bonds"]},
+{"q":"A fixed dividend and priority belong to","o":["Preference shares","Ordinary shares","Deferred shares","Bonus shares"]},
+{"q":"Free shares to existing shareholders are a","o":["Bonus issue","Rights issue","Private placement","Public offer"]},
+{"q":"A company invites the public by a prospectus in an","o":["Offer for subscription","Bonus issue","Private placement","Rights issue"]},
+{"q":"Shares offered first to existing shareholders in proportion to their holdings are a","o":["Rights issue","Public issue","Bonus issue","Debenture"]}
+]},
+
+{"id":"fa22-10","week":6,"title":"Issuing Shares for Cash: Steps and Journal Entries","icon":"ClipboardCheck",
+"summary":"The steps of an issue for cash and the six journal entries for application, allotment and call, with a worked example.",
+"keyWords":["Application","Allotment","Call","Share capital","Par value","Journal"],
+"sections":[
+{"h":"Steps","p":["1. Authorisation: the Articles must allow the issue. 2. Prospectus or offer document: published if the shares are offered to the public. 3. Application: investors apply and send application money. 4. Allotment: the directors decide how many shares to give each applicant. 5. Calls: the company may ask for the rest of the money in instalments."]},
+{"h":"Worked example","p":["XYZ Plc issues 100,000 ordinary shares of ₦1 each at par, payable 50 kobo on application, 30 kobo on allotment and 20 kobo on the final call. Total capital = 100,000 × ₦1 = ₦100,000. Application = 100,000 × 0.50 = ₦50,000. Allotment = 100,000 × 0.30 = ₦30,000. Final call = 100,000 × 0.20 = ₦20,000."]},
+{"h":"The journal entries","p":["Each instalment goes through a temporary account (Application, Allotment or Call) and is then moved to Share Capital."],"tbl":{"head":["Stage","Debit","Credit","₦"],"rows":[["1. Application money received","Bank","Share Application","50,000"],["2. Transfer of application","Share Application","Share Capital","50,000"],["3. Allotment money received","Bank","Share Allotment","30,000"],["4. Transfer of allotment","Share Allotment","Share Capital","30,000"],["5. Final call received","Bank","Share Call","20,000"],["6. Transfer of call","Share Call","Share Capital","20,000"]]}},
+{"h":"Why use the temporary accounts?","p":["Allotment and calls are due on a date; the company can see who has paid and who has not (calls in arrears). If an applicant is refused shares, the application money is refunded from the application account. After all the transfers, the Share Capital account shows ₦100,000, the full value of shares issued."]},
+{"h":"Shares issued at a premium","p":["If shares of ₦1 are sold for ₦1.20, the extra 20 kobo is a share premium. It is credited to a Share Premium Account (not Share Capital). The premium is part of the money the company receives, but it is not part of the nominal capital."]}
+],
+"activity":"Record the journal entries for an issue of 50,000 ordinary shares of ₦2 each at par, payable ₦1 on application, ₦0.60 on allotment and ₦0.40 on the final call. (Application ₦50,000, allotment ₦30,000, call ₦20,000.)",
+"check":[
+{"q":"Application money received is debited to","o":["Bank","Share Capital","Share Application","Share Premium"]},
+{"q":"After the application is accepted it is transferred to","o":["Share Capital","Bank","Debtors","Drawings"]},
+{"q":"100,000 shares at ₦1 give share capital of","o":["₦100,000","₦1","₦50,000","₦200,000"]},
+{"q":"The extra money paid above par is","o":["Share premium","Dividend","Interest","Discount"]},
+{"q":"The directors decide how many shares applicants get at","o":["Allotment","Application","Prospectus","Incorporation"]}
+]},
+
+{"id":"fa22-11","week":6,"title":"Over-subscription and Under-subscription, with a Worked Assignment","icon":"BarChart2",
+"summary":"What happens when applications exceed or fall short of the shares offered, and the full solution to the XYZ Plc assignment.",
+"keyWords":["Over-subscription","Pro-rata allotment","Refund","Under-subscription","Minimum subscription"],
+"sections":[
+{"h":"Over-subscription","p":["Over-subscription happens when the public applies for more shares than the company offers. The directors can give shares to some applicants and refuse others, or give each applicant a part of what he or she asked for (a pro-rata allotment). The extra application money is either refunded or kept and used to pay the allotment due."]},
+{"h":"Under-subscription","p":["Under-subscription happens when applications are fewer than the shares offered. If the shares subscribed are fewer than the minimum subscription fixed by law, the issue fails and all money is refunded. Often an underwriter (a financial institution) agrees to buy the shares that the public does not."]},
+{"h":"Assignment: XYZ Plc","p":["XYZ Plc offered 80,000 shares of ₦2 each, payable ₦1 on application and ₦1 on allotment. Applications were received for 100,000 shares. The directors allotted shares pro rata to all applicants, and the surplus application money was applied to allotment.","Step 1: money received on application = 100,000 × ₦1 = ₦100,000.","Step 2: shares allotted 80,000. Pro rata means 80,000 ÷ 100,000 = 4 shares for every 5 applied for. Application money needed for 80,000 shares = 80,000 × ₦1 = ₦80,000.","Step 3: surplus application money = 100,000 – 80,000 = ₦20,000, applied to allotment.","Step 4: allotment due = 80,000 × ₦1 = ₦80,000. Less surplus 20,000. Cash to be received on allotment = ₦60,000."]},
+{"h":"The journal entries","p":["Study the table."],"tbl":{"head":["Entry","Debit","Credit","₦"],"rows":[["Application money received on 100,000 shares","Bank","Share Application","100,000"],["Transfer of application on 80,000 shares","Share Application","Share Capital","80,000"],["Surplus applied to allotment","Share Application","Share Allotment","20,000"],["Allotment due on 80,000 shares","Share Allotment","Share Capital","80,000"],["Cash received on allotment","Bank","Share Allotment","60,000"]]}},
+{"h":"Ledger checks","p":["Share Application account: debit 100,000 (transfers: 80,000 to Share Capital and 20,000 to Share Allotment); credit 100,000 from the bank. It balances at zero. Share Allotment account: debit 80,000; credits 20,000 (from application) and 60,000 (bank). It also balances at zero. Share Capital account: credit 160,000 (80,000 shares × ₦2). Bank: debit 100,000 + 60,000 = 160,000."]},
+{"h":"If some applicants are refused","p":["If the directors reject some applications completely, the application money of those applicants is refunded: Dr Share Application, Cr Bank. Then the rest is allotted in the usual way."]}
+],
+"activity":"Redo the XYZ Plc assignment if the directors had refused 10,000 of the 100,000 shares applied for and refunded the money, and then allotted 80,000 shares to the others (₦90,000 received, 80,000 transferred to capital, ₦10,000 surplus). Explain over-subscription and how it is treated in accounts.",
+"check":[
+{"q":"Over-subscription means applications are","o":["More than the shares offered","Less than the shares offered","Equal to the shares offered","Cancelled"]},
+{"q":"A pro-rata allotment gives each applicant","o":["The same proportion of what he or she applied for","Nothing","Everything he or she asked for","Only one share"]},
+{"q":"For XYZ Plc, the surplus application money was","o":["₦20,000","₦80,000","₦100,000","₦60,000"]},
+{"q":"Cash received on allotment for XYZ Plc was","o":["₦60,000","₦80,000","₦20,000","₦100,000"]},
+{"q":"If the minimum subscription is not reached, the money is","o":["Refunded","Kept","Paid as dividend","Used for salaries"]}
+]},
+
+{"id":"fa22-12","week":8,"title":"Loan Capital: Meaning, Features and Types","icon":"BarChart2",
+"summary":"What loan capital is, its features and types (debentures, bonds, term loans, mortgages) and how it differs from share capital.",
+"keyWords":["Loan capital","Debenture","Bond","Term loan","Mortgage","Interest"],
+"sections":[
+{"h":"Meaning","p":["Loan capital is money borrowed by a company from outside (individuals, banks or other institutions). It must be repaid on an agreed date with interest. Unlike share capital, it gives the lender no ownership. It is normally used for long-term finance and comes as debentures, bonds, term loans or mortgages."]},
+{"h":"Features","p":["It is a debt: it must be repaid whether the company makes a profit or a loss. Interest is fixed or variable and paid at agreed times. Lenders are not owners and usually have no vote. In liquidation, lenders are paid before shareholders. It has a fixed term, for example 5, 10 or 15 years. It may be secured on the company's assets or unsecured."]},
+{"h":"Types","p":["Debentures: a written acknowledgement of a debt issued by the company, usually under its seal; secured or unsecured; redeemable or irredeemable; interest is paid whatever the profits. Bonds: like debentures, often used for government or large company borrowing; can be traded in the capital market. Term loans: borrowed from banks or other institutions for a fixed time and repaid by instalments or at the end. Mortgages: long-term loans secured on land or buildings."]},
+{"h":"Share capital and loan capital compared","p":["Study the table."],"tbl":{"head":["Basis","Share capital","Loan capital"],"rows":[["Meaning","Ownership of the company","A debt of the company"],["Voting rights","Shareholders may vote","Lenders cannot vote"],["Repayment","Not normally repaid","Repaid on agreed terms"],["Return","Dividend (may be nil)","Interest (must be paid)"],["Risk to the investor","Higher","Lower"],["In liquidation","Paid after lenders","Paid before shareholders"]]}},
+{"h":"Advantages of loan capital","p":["Owners keep control, because lenders do not vote. A fixed cost, so after paying it, all other profit belongs to the owners. Interest is allowed as an expense, which lowers the tax paid. Terms can be fitted to the company's ability to pay."]},
+{"h":"Disadvantages","p":["It must be repaid whatever happens. The interest burden reduces profit. Too much borrowing (high gearing) strains liquidity and can lead to collapse. Security may have to be pledged."]}
+],
+"activity":"Explain the difference between a debenture holder and a shareholder. List two risks of relying too much on loan capital. State two advantages of loan capital over share capital.",
+"check":[
+{"q":"Loan capital is","o":["Borrowed money repaid with interest","The owners' money","A gift","A share"]},
+{"q":"A debenture holder is a","o":["Lender","Owner","Director","Auditor"]},
+{"q":"In liquidation, lenders are paid","o":["Before shareholders","After shareholders","Never","At the same time as dividends"]},
+{"q":"A loan secured on land or buildings is a","o":["Mortgage","Preference share","Bonus share","Dividend"]},
+{"q":"A benefit of loan capital is that","o":["Lenders have no vote","It need not be repaid","It has no interest","It gives ownership"]}
+]},
+
+{"id":"fa22-13","week":8,"title":"Accounting for Loan Capital and Interest","icon":"ClipboardCheck",
+"summary":"The journal entries when a loan is received, interest is paid and the loan is repaid, with the solutions to the questions.",
+"keyWords":["Loan payable","Interest expense","Journal","Debenture interest","Repayment"],
+"sections":[
+{"h":"Receiving the loan","p":["A company borrows ₦1,000,000 from a bank at 10% a year for 5 years. Entry: Dr Bank ₦1,000,000; Cr Loan payable (a long-term liability) ₦1,000,000. (Being a loan received from the bank.)"]},
+{"h":"Paying interest each year","p":["Yearly interest = ₦1,000,000 × 10% = ₦100,000. Entry: Dr Interest expense ₦100,000; Cr Bank ₦100,000. The interest expense is charged to the Profit and Loss Account for the year (it reduces profit). If the interest is not yet paid at the year end, it is an accrued expense: Dr Interest expense, Cr Accrued interest (a current liability)."]},
+{"h":"Repaying the loan","p":["Dr Loan payable; Cr Bank for the amount repaid. If the loan is repaid in instalments, the part that falls due within a year is a current liability and the rest remains long term."]},
+{"h":"Debentures","p":["When a company issues ₦500,000 of 12% debentures at par: Dr Bank 500,000; Cr Debentures 500,000. Yearly interest = 12% × 500,000 = ₦60,000 (Dr Debenture interest, Cr Bank). In the balance sheet, debentures are shown as a non-current liability (long-term loan)."]},
+{"h":"Solutions to the questions","p":["Evaluation 5: ₦500,000 at 12% gives interest ₦60,000 for one year.","Assignment 3: ₦2,000,000 of bonds at 8% gives interest ₦160,000 a year.","Debenture holders and shareholders: debenture holders are lenders; they get fixed interest which must be paid even if there is no profit; they are paid before shareholders in liquidation and have no vote. Shareholders are owners; they get dividends only if profit is made and vote at meetings.","Two risks of too much borrowing: (1) interest and repayments must be paid even in a bad year, so the company may fail; (2) lenders may take the secured assets if the company defaults."]},
+{"h":"Interest for part of a year","p":["If ₦1,000,000 is borrowed on 1 October at 10% a year, the interest for the three months to 31 December is 1,000,000 × 10% × 3/12 = ₦25,000."]}
+],
+"activity":"A company borrows ₦3,000,000 at 15% a year. Record the borrowing and one year's interest, and find the interest for 8 months. (Interest ₦450,000 a year; for 8 months ₦300,000.)",
+"check":[
+{"q":"When a loan is received, the credit goes to","o":["Loan payable","Bank","Interest expense","Capital"]},
+{"q":"Interest on ₦500,000 at 12% for a year is","o":["₦60,000","₦12,000","₦600,000","₦6,000"]},
+{"q":"Interest on ₦2,000,000 bonds at 8% is","o":["₦160,000","₦16,000","₦80,000","₦1,600,000"]},
+{"q":"Interest paid is debited to","o":["Interest expense","Loan payable","Capital","Sales"]},
+{"q":"Debentures in the balance sheet are shown as","o":["Long-term liability","Current asset","Capital","Stock"]}
+]},
+
+{"id":"fa22-14","week":11,"title":"Second Term Revision: Companies, Shares and Loans","icon":"ClipboardCheck",
+"summary":"A checklist for the term with the key differences, the CAMA reminders and the answers to the main assignments.",
+"keyWords":["Revision","Company","Share capital","Loan capital","CAMA 2020"],
+"sections":[
+{"h":"Checklist","p":["Formation of a company: stages and documents. Private and public companies, and quoted and unquoted companies. The financial system: institutions, markets, instruments, laws, functions. Issue of shares: types, methods, journals, over- and under-subscription. Loan capital: types, features, accounting."]},
+{"h":"Answers to the assignments","p":["Seven people who want to sell shares to the public: a public company (Plc), because only a public company can invite the public to buy shares. A company raising capital quickly by selling ownership to the public: it should become a public (and preferably quoted) company; benefits: large capital, liquidity, credibility. Journal entries for three-instalment issue: see the XYZ Plc table. XYZ Plc assignment: cash on application ₦100,000; surplus ₦20,000; cash on allotment ₦60,000; share capital ₦160,000. Loan interest: ₦60,000 and ₦160,000."]},
+{"h":"Reminders on the law","p":["CAMA 2020 allows a private company with one member and requires a public company to have at least two. Minimum issued share capital: ₦100,000 for a private and ₦2,000,000 for a public company. The older figures (2 or 7 members; maximum 50 for a private company) and a separate certificate of commencement appear in older textbooks, so use them only if your examiner expects them."]},
+{"h":"How to revise","p":["Make a one-page comparison table: private and public; quoted and unquoted; share and loan capital; ordinary and preference shares. Redo the XYZ Plc entries from memory. Teach someone how a company is formed. Do a past paper in exam time."]}
+],
+"activity":"Write the comparison tables from memory and check them against the units. Do a full past paper for the second term and list three errors you made and how to fix them.",
+"check":[
+{"q":"Only a public company can","o":["Invite the public to buy shares","Be registered","Own property","Pay tax"]},
+{"q":"Loan interest must be paid","o":["Even if there is no profit","Only if there is profit","Never","Only to shareholders"]},
+{"q":"Application money for shares is first credited to","o":["Share Application account","Share Capital","Drawings","Debtors"]},
+{"q":"Quoted companies are traded on a","o":["Stock exchange","Notice board","Bank branch","Post office"]},
+{"q":"The financial system moves funds from","o":["Savers to borrowers","Banks to the sea","Teachers to students only","Nowhere"]}
+]}
+]

@@ -1,0 +1,149 @@
+[
+{"id":"sc32-11","week":6,"title":"Atoms and Molecules","icon":"Zap",
+"summary":"The structure of an atom, the charges of protons, neutrons and electrons, and the difference between an atom, an element, a molecule, a compound and a mixture.",
+"keyWords":["Atom","Proton","Neutron","Electron","Nucleus","Molecule"],
+"sections":[
+{"h":"The atom","p":["An atom is the smallest particle of an element that can take part in a chemical reaction. It is the building block of all matter. An atom has two parts. The nucleus is the tiny, dense centre and contains protons (positive charge, +) and neutrons (no charge). The electron shells are the regions around the nucleus where the electrons move at great speed; electrons carry a negative charge (–). A neutral atom has the same number of protons as electrons, so the total charge is zero."],"tbl":{"head":["Particle","Charge","Where found"],"rows":[["Proton","Positive (+)","Nucleus"],["Neutron","None (neutral)","Nucleus"],["Electron","Negative (–)","Shells around the nucleus"]]}},
+{"h":"An atom and a molecule","p":["The picture shows an atom of oxygen with 8 protons, 8 neutrons and 8 electrons, and a molecule of water made from one oxygen atom and two hydrogen atoms."],"img":{"src":"sci3-atom-molecule.jpg","alt":"An oxygen atom with 8 protons, 8 neutrons and 8 electrons beside a water molecule with one oxygen atom and two hydrogen atoms","cap":"An atom of oxygen and a molecule of water (H₂O)."}},
+{"h":"Elements, compounds, molecules and mixtures","p":["An element is a pure substance made of only one kind of atom (gold, oxygen). A compound is a pure substance made of two or more different kinds of atoms chemically joined in a fixed ratio (water is always two hydrogen atoms to one oxygen atom). A molecule is the smallest particle of an element or compound that can exist on its own (a molecule of oxygen, O₂, or of water, H₂O). A mixture is two or more substances physically mixed, not chemically joined (salt water). Air is a mixture; water is a compound."]}
+],
+"activity":"Draw and label a helium atom (2 protons, 2 neutrons, 2 electrons). State the charge of each sub-atomic particle. Explain the difference between an element and a compound.",
+"check":[
+{"q":"Which particle has a negative charge?","o":["Electron","Proton","Neutron","Nucleus"]},
+{"q":"The nucleus contains","o":["Protons and neutrons","Electrons only","Electrons and neutrons","Only protons and electrons"]},
+{"q":"A neutral atom has","o":["Equal numbers of protons and electrons","More electrons than protons","More protons than electrons","No protons"]},
+{"q":"Water is a","o":["Compound","Element","Mixture","Atom"]},
+{"q":"A molecule of oxygen is written","o":["O₂","O","O₃ only","2O only"]}
+]},
+
+{"id":"sc32-12","week":6,"title":"Chemical Symbols, Formulae and Simple Equations","icon":"PenLine",
+"summary":"The symbols of the first 20 elements, how to read a chemical formula, and how to write simple word and chemical equations.",
+"keyWords":["Symbol","Formula","Reactant","Product","Equation","Balanced"],
+"sections":[
+{"h":"Chemical symbols","p":["A chemical symbol is a short form of one or two letters for an element. The first letter is always a capital and the second, if there is one, is small. Some symbols come from Latin names: Na for sodium (natrium) and K for potassium (kalium)."]},
+{"h":"The first 20 elements","p":["Study the table."],"tbl":{"head":["No.","Element","Symbol","No.","Element","Symbol"],"rows":[["1","Hydrogen","H","11","Sodium","Na"],["2","Helium","He","12","Magnesium","Mg"],["3","Lithium","Li","13","Aluminium","Al"],["4","Beryllium","Be","14","Silicon","Si"],["5","Boron","B","15","Phosphorus","P"],["6","Carbon","C","16","Sulphur","S"],["7","Nitrogen","N","17","Chlorine","Cl"],["8","Oxygen","O","18","Argon","Ar"],["9","Fluorine","F","19","Potassium","K"],["10","Neon","Ne","20","Calcium","Ca"]]}},
+{"h":"Chemical formulae","p":["A chemical formula shows which elements, and how many atoms of each, are in one molecule of a compound. The small number after a symbol (subscript) gives the number of atoms. Water, H₂O: 2 hydrogen atoms and 1 oxygen atom. Carbon dioxide, CO₂: 1 carbon and 2 oxygen. Table salt, NaCl: 1 sodium and 1 chlorine. Methane, CH₄: 1 carbon and 4 hydrogen. Glucose, C₆H₁₂O₆: 6 carbon, 12 hydrogen and 6 oxygen."]},
+{"h":"Chemical equations","p":["A chemical equation is a short 'sentence' describing a chemical reaction. The reactants (what you start with) are on the left and the products (what you end with) are on the right, with an arrow between them.","Burning carbon: word equation carbon + oxygen → carbon dioxide; chemical equation C + O₂ → CO₂.","Making water: hydrogen + oxygen → water; 2H₂ + O₂ → 2H₂O. This is balanced, because there are 4 hydrogen atoms and 2 oxygen atoms on each side. Atoms are not made or lost in a reaction, only rearranged."]},
+{"h":"Symbol and formula: the difference","p":["A symbol stands for one element (Na). A formula stands for a compound or a molecule (NaCl, H₂O, O₂)."]}
+],
+"activity":"Write the symbols of the first ten elements from memory. Write formulae for table salt, water and methane. Write the word equation for carbon burning in oxygen.",
+"check":[
+{"q":"The symbol for sodium is","o":["Na","S","So","N"]},
+{"q":"The formula CO₂ tells us there is","o":["1 carbon and 2 oxygen atoms","2 carbon and 1 oxygen atom","1 carbon and 1 oxygen atom","2 carbon atoms"]},
+{"q":"In a chemical equation the substances on the left are the","o":["Reactants","Products","Catalysts","Solvents"]},
+{"q":"The formula of methane is","o":["CH₄","C₄H","CH₂","C₂H₄"]},
+{"q":"2H₂ + O₂ → 2H₂O is","o":["A balanced equation","An unbalanced equation","A word equation","A mixture"]}
+]},
+
+{"id":"sc32-13","week":8,"title":"Physical and Chemical Changes","icon":"Zap",
+"summary":"The difference between physical and chemical changes, reversible and irreversible changes, and a simple experiment with vinegar and baking soda.",
+"keyWords":["Physical change","Chemical change","Reversible","Irreversible","Combustion","Rusting"],
+"sections":[
+{"h":"Physical changes","p":["A physical change changes the form or appearance of a substance but not what it is. No new substance forms. The change is usually reversible, and little or no energy is given out. Examples: melting (ice to water), freezing, evaporation (boiling water), condensation (water drops on a cold glass), dissolving salt or sugar (you can get the salt back by evaporating the water), cutting paper, crushing a can and breaking glass."]},
+{"h":"Chemical changes","p":["A chemical change (chemical reaction) forms one or more new substances with different properties. The change is usually irreversible, and heat, light or sound is often given out or taken in. Examples: burning wood, paper or gas; rusting (iron + oxygen → iron oxide); frying an egg; digesting food; rotting of food or leaves; an acid reacting with a carbonate."]},
+{"h":"Comparing the two","p":["Study the table."],"tbl":{"head":["Feature","Physical change","Chemical change"],"rows":[["New substance","No","Yes"],["Reversible?","Usually yes","Usually no"],["Energy change","Little or none","Often heat, light or sound"],["Examples","Melting ice, dissolving sugar","Burning, rusting, cooking"]]}},
+{"h":"Simple experiment","p":["Reaction of an acid with a carbonate. Materials: vinegar (an acid), baking soda (sodium hydrogencarbonate, a carbonate), a cup. Method: pour some vinegar into the cup and add a spoonful of baking soda. Observation: the mixture fizzes and gives off a gas. Conclusion: a new substance, carbon dioxide gas, has been made, and the change cannot be reversed, so it is a chemical change. (You can show that the gas is carbon dioxide by passing it into limewater, which turns milky.)"]},
+{"h":"Answers to the assignment","p":["Rusting of a nail: chemical. Boiling water: physical. Burning a candle: chemical (the wax burns, though some wax only melts, which is physical). Dissolving sugar in tea: physical. Baking a cake: chemical. Cutting cloth: physical. Digesting food: chemical. Freezing water into ice: physical."]}
+],
+"activity":"Classify ten changes from your kitchen as physical or chemical and give a reason for each. Perform the vinegar and baking soda experiment and describe what you saw.",
+"check":[
+{"q":"Which is a chemical change?","o":["Burning paper","Melting ice","Dissolving sugar","Cutting cloth"]},
+{"q":"A physical change","o":["Forms no new substance","Always forms a gas","Cannot be reversed","Gives a new compound"]},
+{"q":"Frying an egg is","o":["Irreversible","Easily reversed","A physical change","Not a change"]},
+{"q":"The gas given off by vinegar and baking soda is","o":["Carbon dioxide","Oxygen","Hydrogen","Nitrogen"]},
+{"q":"Rusting forms","o":["Iron oxide","Pure iron","Salt","Water only"]}
+]},
+
+{"id":"sc32-14","week":9,"title":"Water: Composition, Uses and Purification","icon":"Zap",
+"summary":"The formula and uses of water, how it is cleaned in a treatment plant in five steps, and how to save it.",
+"keyWords":["Water","Potable","Screening","Coagulation","Sedimentation","Filtration","Disinfection"],
+"sections":[
+{"h":"Composition and uses","p":["Water (H₂O) is a compound of 2 hydrogen atoms and 1 oxygen atom. Uses: drinking (essential for life, digestion and blood circulation); domestic use (cooking, washing, bathing, cleaning); agriculture (irrigation); industry (a coolant, a solvent, and for generating electricity in hydroelectric power stations such as Kainji, Jebba and Shiroro)."]},
+{"h":"Making water safe","p":["Water purification removes dirt, chemicals and germs to make water safe to drink (potable). Simple methods at home: boiling and filtering."]},
+{"h":"Municipal water treatment (large scale)","p":["Study the table."],"tbl":{"head":["Step","What happens"],"rows":[["1. Screening","Removes large objects such as sticks and leaves"],["2. Coagulation and flocculation","A chemical such as alum is added so that tiny dirt particles clump together into floc"],["3. Sedimentation","The heavy floc settles to the bottom of the tank"],["4. Filtration","The clear water on top is passed through layers of sand and gravel to remove fine particles"],["5. Disinfection","Chlorine is added to kill any remaining germs"]]}},
+{"h":"Saving water","p":["Turn off taps, mend leaking pipes, collect rainwater, and reuse water where possible (for example, use water from washing vegetables on plants)."]}
+],
+"activity":"List three uses of water. Write the five steps of water treatment in order. Explain why chlorine is added last.",
+"check":[
+{"q":"The formula of water is","o":["H₂O","HO₂","H₂O₂","CO₂"]},
+{"q":"Chlorine is added to water to","o":["Kill germs","Remove sticks","Make floc","Filter sand"]},
+{"q":"The correct first step of water treatment is","o":["Screening","Disinfection","Filtration","Sedimentation"]},
+{"q":"Alum is used for","o":["Coagulation","Disinfection","Screening","Boiling"]},
+{"q":"Drinkable water is called","o":["Potable water","Brine","Sewage","Distillate only"]}
+]},
+
+{"id":"sc32-15","week":9,"title":"Air: Composition, Uses and Air Pressure","icon":"Camera",
+"summary":"The gases in air and their uses, why air is a mixture, what air pressure is, and two simple experiments that show it.",
+"keyWords":["Air","Nitrogen","Oxygen","Carbon dioxide","Air pressure","Experiment"],
+"sections":[
+{"h":"Composition of air","p":["Air is a mixture of gases. Study the table."],"tbl":{"head":["Gas","Approximate amount","Use"],"rows":[["Nitrogen (N₂)","78%","Part of proteins for growth (plants get it from the soil)"],["Oxygen (O₂)","21%","Respiration in animals and plants; burning"],["Argon (Ar)","About 0.9%","Used in some light bulbs"],["Carbon dioxide (CO₂)","About 0.04%","Photosynthesis in plants"],["Water vapour, dust","Varies","Gives rain and clouds"]]}},
+{"h":"Why air is a mixture","p":["The gases in air are not chemically joined and can be separated. They keep their own properties, and the amounts can vary from place to place. Water is a compound: the hydrogen and oxygen are chemically joined in a fixed ratio and the water looks nothing like the two gases."]},
+{"h":"Air pressure","p":["Air pressure is the force of the weight of the air above us pressing on everything on the Earth's surface. We do not feel it because it presses on us equally from all directions and because our bodies push back from inside."]},
+{"h":"Experiment 1: the crushing can","p":["Put a little water in an empty aluminium drink can and heat it until the water boils and steam comes out. Use tongs. Quickly turn the can upside down into a bowl of cold water. The can is crushed at once. Explanation: the steam inside condenses and the pressure inside the can falls very low. The much higher air pressure outside pushes the can in. (Adult supervision is needed because of the hot can.)"]},
+{"h":"Experiment 2: the inverted glass","p":["Fill a glass to the brim with water, place a flat piece of card on top, hold it, and turn the glass upside down. The card stays in place and the water does not fall out. Explanation: the air pressure pushing up on the card is greater than the weight of the water pushing down."]}
+],
+"activity":"Draw a pie chart or bar chart of the composition of air. Explain why air is a mixture and water is a compound. Explain in your own words why the can is crushed.",
+"check":[
+{"q":"The most abundant gas in air is","o":["Nitrogen","Oxygen","Carbon dioxide","Argon"]},
+{"q":"The gas needed for respiration is","o":["Oxygen","Nitrogen","Argon","Hydrogen"]},
+{"q":"Air is classified as a","o":["Mixture","Compound","Element","Atom"]},
+{"q":"Air pressure is","o":["The weight of air pressing on the Earth","The wind only","A kind of heat","A sound"]},
+{"q":"Plants need which gas from air for photosynthesis?","o":["Carbon dioxide","Nitrogen","Argon","Neon"]}
+]},
+
+{"id":"sc32-16","week":10,"title":"Microorganisms and Pathogens","icon":"Shield",
+"summary":"What microorganisms are, the main kinds, and the diseases caused by pathogens.",
+"keyWords":["Microorganism","Pathogen","Bacteria","Virus","Fungi","Protozoa"],
+"sections":[
+{"h":"Microorganisms","p":["A microorganism (microbe) is a living thing too small to see with the naked eye. They are found everywhere: in air, water, soil and in our bodies. Many are harmless or useful (they make yoghurt and bread and break down waste), but some cause disease."]},
+{"h":"Kinds of microorganisms","p":["Bacteria: single-celled; most are harmless, some cause disease. Viruses: the smallest; they can reproduce only inside the cells of a living host, and many cause disease. Fungi: such as yeast and moulds. Protozoa: single-celled, 'animal-like' microbes."]},
+{"h":"Pathogens and the diseases they cause","p":["A pathogen is a microorganism that causes disease. Study the table."],"tbl":{"head":["Pathogen type","Diseases"],"rows":[["Virus","Influenza (flu), COVID-19, HIV/AIDS, measles, polio, Lassa fever"],["Bacteria","Cholera, typhoid, tuberculosis"],["Fungi","Ringworm, athlete's foot"],["Protozoa","Malaria (Plasmodium), amoebic dysentery (Amoeba)"]]}},
+{"h":"Notes","p":["Lassa fever is caused by a virus carried by a type of rat. Ringworm is not caused by a worm; it is a fungus infection of the skin. Antibiotics work against bacteria but not against viruses."]},
+{"h":"Virus and bacterium compared","p":["Study the table."],"tbl":{"head":["Feature","Bacterium","Virus"],"rows":[["Cell","Single cell with its own cell structure","No cell; genetic material inside a protein coat"],["Reproduction","Can reproduce by itself","Only inside a living host cell"],["Size","Small","Much smaller"],["Treatment","Antibiotics","Vaccines prevent; antiviral drugs for some"]]}}
+],
+"activity":"Define microorganism and pathogen. Make a table of malaria, cholera and tuberculosis with the pathogen type of each. State two differences between a virus and a bacterium.",
+"check":[
+{"q":"A pathogen is a","o":["Microorganism that causes disease","Kind of soil","Vaccine","Antibody"]},
+{"q":"Malaria is caused by a","o":["Protozoan","Virus","Fungus","Worm"]},
+{"q":"Cholera is caused by","o":["Bacteria","Virus","Protozoa","Fungi"]},
+{"q":"Ringworm is caused by a","o":["Fungus","Worm","Bacterium","Virus"]},
+{"q":"Which microbes can reproduce only inside a host cell?","o":["Viruses","Bacteria","Protozoa","Yeast"]}
+]},
+
+{"id":"sc32-17","week":10,"title":"Disease Transmission, Vaccination and Hygiene","icon":"Heart",
+"summary":"How diseases spread, how vaccines protect us, and the personal and community habits that prevent infection.",
+"keyWords":["Transmission","Vector","Vaccine","Antibody","Immunity","Hand washing"],
+"sections":[
+{"h":"How diseases spread","p":["Study the table."],"tbl":{"head":["Route","How it spreads","Examples"],"rows":[["Air-borne","Droplets from coughs and sneezes","Tuberculosis, colds, COVID-19"],["Water-borne","Drinking water contaminated with sewage","Cholera, typhoid"],["Vector-borne","An animal carries the germ","Malaria (female Anopheles mosquito)"],["Food-borne","Contaminated or undercooked food","Food poisoning, typhoid"],["Contact and blood","Touching an infected person or contact with infected blood","Ringworm, HIV/AIDS"]]}},
+{"h":"A note on Lassa fever","p":["Lassa fever is spread mainly when people come into contact with food or surfaces soiled by the urine or droppings of infected rats, and then it can spread from person to person. The rat is a carrier rather than a true vector, but controlling rats and keeping food covered still prevents it."]},
+{"h":"Vaccination","p":["A vaccine contains a dead or weakened pathogen, or a piece of one. When it is given (by injection or drops), the immune system learns to make antibodies against that germ and remembers it. If the real germ enters later, the body destroys it quickly. This gives immunity without causing the disease. Examples: polio, measles, tuberculosis (BCG) and COVID-19 vaccines. Antibodies are proteins made by the body to fight a particular germ."]},
+{"h":"Hygiene and prevention","p":["Hand washing with soap and water, after using the toilet and before eating, is the most important habit. Boil or treat drinking water. Dispose of waste properly to keep away rats and flies. Control vectors: sleep under an insecticide-treated net and clear stagnant water. Practise food safety: wash fruit and vegetables and cook meat well. Quarantine and isolation: keep sick people away from others to stop a disease from spreading."]},
+{"h":"Why hand washing works","p":["Soap lifts germs and dirt off the skin and water rinses them away. Our hands touch our mouth, nose, eyes and food all day, so clean hands cut off the main route by which germs enter the body."]}
+],
+"activity":"Define pathogen, vector and vaccination. Explain in your own words why hand washing is so effective. List five hygiene habits that prevent disease.",
+"check":[
+{"q":"Malaria is spread by a","o":["Female Anopheles mosquito","Rat","Housefly","Cockroach"]},
+{"q":"A vaccine works by","o":["Teaching the body to make antibodies","Killing all germs at once","Feeding the body","Removing waste"]},
+{"q":"Which is the most important hygiene habit?","o":["Hand washing with soap","Eating more","Sleeping late","Wearing a hat"]},
+{"q":"Cholera is spread mainly through","o":["Contaminated water","Air","Mosquitoes","Blood only"]},
+{"q":"Antibodies are","o":["Proteins that fight germs","Germs","Vectors","Vaccines"]}
+]},
+
+{"id":"sc32-18","week":11,"title":"Second Term Revision: Cells to Diseases","icon":"ClipboardCheck",
+"summary":"A checklist of second term topics with key facts and practical revision tasks.",
+"keyWords":["Revision","Cell","Heredity","Adaptation","Atoms","Pathogens"],
+"sections":[
+{"h":"Checklist","p":["The cell: cell theory, organelles and their functions, plant versus animal cells. Levels of organisation: cell, tissue, organ, organ system, organism; four animal tissues; organ systems. Heredity: gene, trait, inherited and acquired traits, variation, dominant and recessive genes. Adaptation: habitat, structural, behavioural and functional adaptations. Atoms and molecules: protons, neutrons, electrons, symbols, formulae and equations. Changes in matter: physical and chemical. Water and air: purification, composition, pressure. Diseases: pathogens, transmission, vaccination, hygiene."]},
+{"h":"Key facts","p":["Nucleus: control centre. Mitochondrion: respiration. Chloroplast: photosynthesis. Cell wall: plants only. Proton +, neutron 0, electron –. Physical change: no new substance; chemical change: new substance. Air: nitrogen 78%, oxygen 21%. Water treatment: screening, coagulation, sedimentation, filtration, disinfection. Vaccines build immunity. Hand washing is the best personal hygiene habit."]},
+{"h":"Practical revision","p":["Draw and label plant and animal cells. Work out a dominant and recessive problem with a Punnett square. Sort a list of changes into physical and chemical. List diseases with their pathogen and how they spread."]},
+{"h":"Exam tips","p":["Learn the definitions. Draw diagrams large and label them with straight lines. For 'differences', use a table with two columns. In experiments, write aim, materials, method, observation and conclusion."]}
+],
+"activity":"Make a one-page summary of the term. Test yourself with the evaluation questions in each unit.",
+"check":[
+{"q":"Which organelle is the site of respiration?","o":["Mitochondrion","Chloroplast","Nucleus","Vacuole"]},
+{"q":"An example of a chemical change is","o":["Rusting","Melting","Dissolving","Cutting"]},
+{"q":"Which pair is correct?","o":["Malaria – protozoan","Cholera – virus","Ringworm – bacterium","Measles – fungus"]},
+{"q":"A neutral atom has equal numbers of","o":["Protons and electrons","Protons and neutrons","Neutrons and electrons","None"]},
+{"q":"Coagulation in water treatment makes","o":["Dirt particles clump together","Water boil","Germs grow","Air dissolve"]}
+]}
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "id":  "sp21-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Physics First Term, with a table of contents covering light, sound, the eye, electric charges and fields.",
+        "keyWords":  [
+                         "SS2 Physics First Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Physics First Term",
+                             "p":  [
+                                       "Welcome to SS2 Physics for the first term. This course takes you through light waves, sound waves, the human eye, electric charges, fields and the gravitational field, in simple language with worked examples.",
+                                       "Each unit has a short activity and check questions. Where the original lesson note had a mistake, we correct it inside the unit and explain why."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Physics First Term",
+                             "p":  [
+                                       "The units below follow the school scheme of work week by week."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "The Nature of Light and the Electromagnetic Spectrum"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Reflection of Light and Spherical Mirrors"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "1",
+                                                          "The Mirror Formula, Magnification and Uses of Mirrors"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "1",
+                                                          "Refraction of Light, Snell\u0027s Law and Critical Angle"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "2",
+                                                          "Dispersion and the Prism"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "2",
+                                                          "Diffraction, Interference and Polarisation of Light"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "2",
+                                                          "Light Waves: Worked Answers to the Evaluation and Assignment"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "3",
+                                                          "Sound Waves: Production, Propagation and Characteristics"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "3",
+                                                          "Behaviour of Sound: Echoes, Refraction, Diffraction, Interference and Beats"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "4",
+                                                          "The Human Eye: Structure and Image Formation"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "4",
+                                                          "Accommodation, Defects of Vision and Care of the Eyes"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "6",
+                                                          "Applications of Sound Waves (1): Medicine, Communication and Industry"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "6",
+                                                          "Applications of Sound Waves (2): Nature, Seismology, Sonar and Limits"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "8",
+                                                          "Electric Charges: Nature and Methods of Charging"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "8",
+                                                          "Properties of Charge, Conductors, the Electroscope and Applications"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "9",
+                                                          "Fields: Description, Types, Field Lines and Field Strength"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "10",
+                                                          "The Gravitational Field: Newton\u0027s Law, Field Strength and Weight"
+                                                      ],
+                                                      [
+                                                          "19",
+                                                          "11",
+                                                          "First Term Revision: Light, Sound, the Eye, Charges and Fields"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic is in the first term of SS2 Physics?",
+                          "o":  [
+                                    "Light waves, sound waves and the eye",
+                                    "Nuclear fission only",
+                                    "Organic chemistry",
+                                    "Parliamentary systems"
+                                ]
+                      },
+                      {
+                          "q":  "How many check questions will you meet in each unit?",
+                          "o":  [
+                                    "At least three",
+                                    "None",
+                                    "Exactly one",
+                                    "Only on the last day"
+                                ]
+                      },
+                      {
+                          "q":  "The best way to use these notes is to",
+                          "o":  [
+                                    "Read, draw the diagrams and redo the worked examples",
+                                    "Read once and stop",
+                                    "Only look at the pictures",
+                                    "Skip the calculations"
+                                ]
+                      }
+                  ]
+    }
+]

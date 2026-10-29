@@ -1,0 +1,143 @@
+[
+    {
+        "id":  "fa23-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Financial Accounting Third Term: the capital market, final accounts, regulation, and hire purchase and instalment payment.",
+        "keyWords":  [
+                         "SS2 Financial Accounting - Third Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Financial Accounting - Third Term",
+                             "p":  [
+                                       "Welcome to SS2 Financial Accounting, Third Term. You will learn how companies and governments raise money in the capital market, how to prepare final accounts, how the market is regulated, and how hire purchase and instalment payment are accounted for.",
+                                       "Work each example with a pencil and check that your totals balance. Where the original lesson note had an error (for example a balance sheet that did not balance), the correction is explained in the unit."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Financial Accounting - Third Term",
+                             "p":  [
+                                       "Here is the plan for the term. Tick each unit when you finish it."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "The Capital Market and Methods of Raising Funds (Part 1)"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Raising Funds in the Capital Market (Part 2): Bonds, IPOs and Advisers"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Requirements for Accessing the Capital Market (Part 1)"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Requirements for Accessing the Capital Market (Part 2): Documents, Advisers and Duties after Listing"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "Benefits of the Capital Market to Companies, Governments and Investors"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Benefits to the Economy and the Challenges of the Capital Market"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "4",
+                                                          "Final Accounts: Meaning, Objectives and the Trading Account"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "Profit and Loss Account and Balance Sheet"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "6",
+                                                          "Regulation of the Capital Market: Bodies and Their Functions"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "Laws, Importance and Challenges of Capital Market Regulation"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "8",
+                                                          "Hire Purchase and Instalment Payment: Meaning and Differences"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "8",
+                                                          "Accounting for Hire Purchase (Buyer\u0027s Books)"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "8",
+                                                          "Accounting for Instalment Purchases and a Comparison Table"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "11",
+                                                          "Third Term Revision: Capital Market, Final Accounts and Hire Purchase"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic opens the term?",
+                          "o":  [
+                                    "Raising funds from the capital market",
+                                    "Partnership accounts",
+                                    "Single entry",
+                                    "Shares"
+                                ]
+                      },
+                      {
+                          "q":  "Where do you study final accounts?",
+                          "o":  [
+                                    "Week 4 units",
+                                    "Week 1 units",
+                                    "The first term",
+                                    "Nowhere"
+                                ]
+                      },
+                      {
+                          "q":  "The term ends with",
+                          "o":  [
+                                    "Revision",
+                                    "Appropriation accounts",
+                                    "Formation of a company",
+                                    "Capital accounts"
+                                ]
+                      }
+                  ]
+    }
+]

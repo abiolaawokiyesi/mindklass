@@ -1,0 +1,143 @@
+[
+    {
+        "id":  "li22-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Literature Second Term: the elements of prose and two set novels, Redemption Road and Path of Lucas.",
+        "keyWords":  [
+                         "SS2 Literature in English - Second Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Literature in English - Second Term",
+                             "p":  [
+                                       "Welcome to SS2 Literature in English, Second Term. This term is about prose. You learn the building blocks of a story (plot, character, setting, theme and point of view) and apply them to two novels: Redemption Road by Elma Shaw (African) and Path of Lucas by Susanne Bellefeuille (non-African).",
+                                       "An important warning: the lesson note for both novels described events that do not match published descriptions of the books. These units give the story as other guides describe it and explain the difference. Always read the novels themselves."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Literature in English - Second Term",
+                             "p":  [
+                                       "Here is the plan for the term. Tick each unit when you finish it."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Welcome Back: Review of Poetry and Introduction to Prose"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Character, Setting, Theme and Point of View"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Redemption Road by Elma Shaw: Author, Context and an Important Correction"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "3",
+                                                          "Redemption Road: The Story as Published Guides Describe It"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "Redemption Road: Characters"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Redemption Road: Setting"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "4",
+                                                          "Redemption Road: Themes"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "6",
+                                                          "Redemption Road: Style, Structure and Symbolism"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "8",
+                                                          "Path of Lucas by Susanne Bellefeuille: Author, Context and an Important Correction"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "9",
+                                                          "Path of Lucas: The Story as Published Guides Describe It"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "9",
+                                                          "Path of Lucas: Characters and Setting"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "10",
+                                                          "Path of Lucas: Themes and Narrative Technique"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "11",
+                                                          "Comparing Redemption Road and Path of Lucas"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "11",
+                                                          "Second Term Revision: Prose Terms and the Two Novels"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "This term is about which kind of literature?",
+                          "o":  [
+                                    "Prose",
+                                    "Poetry",
+                                    "Drama",
+                                    "Letters"
+                                ]
+                      },
+                      {
+                          "q":  "Which two novels do you study?",
+                          "o":  [
+                                    "Redemption Road and Path of Lucas",
+                                    "Things Fall Apart and Half of a Yellow Sun",
+                                    "Purple Hibiscus and The Voice",
+                                    "Blood of a Stranger and Chike"
+                                ]
+                      },
+                      {
+                          "q":  "The term ends with",
+                          "o":  [
+                                    "Revision and comparison",
+                                    "A new play",
+                                    "A poem",
+                                    "Nothing"
+                                ]
+                      }
+                  ]
+    }
+]

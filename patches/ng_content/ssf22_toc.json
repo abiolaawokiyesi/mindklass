@@ -1,0 +1,138 @@
+[
+    {
+        "id":  "fa22-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Financial Accounting Second Term: forming a company, types of company, the financial system, shares and loan capital.",
+        "keyWords":  [
+                         "SS2 Financial Accounting - Second Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Financial Accounting - Second Term",
+                             "p":  [
+                                       "Welcome to SS2 Financial Accounting, Second Term. You will learn how a company is formed and the different kinds of company, how the financial system moves savings to borrowers, and how companies raise money by issuing shares and by borrowing.",
+                                       "Work every journal entry with a pencil. Where the original lesson note followed an older law or had an error, a correction is explained in the unit."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Financial Accounting - Second Term",
+                             "p":  [
+                                       "Here is the plan for the term. Tick each unit when you finish it."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "What a Company Is and How It Is Formed"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "The Memorandum, the Articles and the Types of Company"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Private Companies"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Public Companies and the Differences from Private Companies"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "Quoted and Unquoted Companies"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "4",
+                                                          "The Financial System: Institutions and Instruments"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "4",
+                                                          "Financial Markets and the Functions of the Financial System"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "6",
+                                                          "Shares: Meaning, Types and Methods of Issue"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "6",
+                                                          "Issuing Shares for Cash: Steps and Journal Entries"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "Over-subscription and Under-subscription, with a Worked Assignment"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "8",
+                                                          "Loan Capital: Meaning, Features and Types"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "8",
+                                                          "Accounting for Loan Capital and Interest"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "11",
+                                                          "Second Term Revision: Companies, Shares and Loans"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic opens the term?",
+                          "o":  [
+                                    "Formation of a company",
+                                    "Hire purchase",
+                                    "Final accounts",
+                                    "Single entry"
+                                ]
+                      },
+                      {
+                          "q":  "Where do you learn about issuing shares?",
+                          "o":  [
+                                    "Week 6 units",
+                                    "Week 1 units",
+                                    "The third term",
+                                    "Nowhere"
+                                ]
+                      },
+                      {
+                          "q":  "The term ends with",
+                          "o":  [
+                                    "Revision",
+                                    "A new topic on partnership",
+                                    "Hire purchase",
+                                    "Final accounts"
+                                ]
+                      }
+                  ]
+    }
+]

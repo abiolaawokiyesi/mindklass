@@ -1,0 +1,201 @@
+﻿[
+{"id":"sp23-08","week":6,"title":"The Nucleus (1): Constituents, Isotopes, Mass Defect and Half-Life","icon":"Layers",
+"summary":"What the nucleus is made of, nucleon and proton numbers, isotopes and nuclides, mass defect, binding energy, stability and half-life.",
+"keyWords":["Nucleus","Proton","Neutron","Nucleon number","Isotope","Mass defect","Binding energy","Half-life"],
+"sections":[
+{"h":"The nucleus","p":["The nucleus is the small, dense centre of an atom, where nearly all its mass is. It was discovered by Rutherford in 1911 through the gold foil experiment. It is positively charged and takes up only a tiny fraction of the atom's volume."]},
+{"h":"What is in the nucleus?","p":["Protons are positively charged; each carries +1.6 × 10⁻¹⁹ C. The number of protons decides the element and is called the proton number or atomic number (Z). Neutrons have no charge and almost the same mass as a proton; they add mass and affect stability. Protons and neutrons together are called nucleons."]},
+{"h":"Nucleon number, proton number, isotopes and nuclides","p":["Nucleon number (mass number) A is the total number of protons and neutrons: A = Z + N, where N is the number of neutrons. Proton number Z identifies the element (hydrogen has Z = 1).","Isotopes are atoms of the same element (same proton number) with different nucleon numbers (different numbers of neutrons). Hydrogen has three: protium ¹₁H, deuterium ²₁H and tritium ³₁H.","A nuclide is a particular kind of nucleus with a given Z and A, written ᴬ_Z X. Example: ¹⁴₆C is a carbon nuclide with 6 protons and 14 – 6 = 8 neutrons."]},
+{"h":"Mass defect and binding energy","p":["Mass defect (Δm) is the difference between the total mass of the separate nucleons and the actual mass of the nucleus. The missing mass has been changed into the energy that holds the nucleons together.","Binding energy is the energy needed to split a nucleus into its separate protons and neutrons. It shows how stable the nucleus is. It is found from Einstein's equation E = Δm c², where c = 3 × 10⁸ m/s. In atomic mass units, 1 u = 1.66 × 10⁻²⁷ kg, which is equivalent to 931 MeV."]},
+{"h":"Nuclear stability","p":["Stable nuclei have a suitable ratio of neutrons to protons. A nucleus with too many or too few neutrons is unstable and undergoes radioactive decay."]},
+{"h":"Half-life","p":["The half-life T is the time taken for half of the atoms in a radioactive sample to decay. T = 0.693 ÷ λ, where λ is the decay constant. (The lesson note prints 0.692; the correct value is ln 2 = 0.693.)","Example: a sample of 80 g has a half-life of 5 days. After 5 days 40 g is left, after 10 days 20 g, after 15 days 10 g."]}
+],
+"activity":"Define isotope and nuclide. Write the number of protons and neutrons in ¹⁴₆C and in ²³⁵₉₂U (6 and 8; 92 and 143). State what is meant by half-life.",
+"check":[
+{"q":"Nucleon number is the number of","o":["Protons plus neutrons","Protons only","Neutrons only","Electrons"]},
+{"q":"Isotopes of an element have the same","o":["Proton number","Neutron number","Nucleon number","Mass"]},
+{"q":"¹⁴₆C has how many neutrons?","o":["8","6","14","20"]},
+{"q":"Binding energy is found from","o":["E = Δm c²","E = mgh","E = ½mv²","E = hf"]},
+{"q":"The half-life is T =","o":["0.693/λ","λ/0.693","0.693λ","1/λ²"]}
+]},
+
+{"id":"sp23-09","week":6,"title":"The Nucleus (2): Fission, Fusion, Reactors, Uses and Hazards","icon":"Zap",
+"summary":"Nuclear fission and fusion, the parts of a nuclear reactor and what each does, the uses of nuclear energy and radiation, and their dangers.",
+"keyWords":["Fission","Fusion","Chain reaction","Moderator","Control rods","Coolant","Radioactive waste"],
+"sections":[
+{"h":"Nuclear fission","p":["Fission is the splitting of the nucleus of a heavy atom, usually after it absorbs a neutron, into two smaller nuclei, with the release of a large amount of energy and extra neutrons. Example: ²³⁵₉₂U + ¹₀n → ¹⁴⁸₅₇La + ⁸⁵₃₅Br + 3 ¹₀n + energy. (Check: nucleon numbers 235 + 1 = 148 + 85 + 3 and proton numbers 92 = 57 + 35.) It is used in nuclear reactors and in atomic bombs. If the extra neutrons cause further fissions, there is a chain reaction."]},
+{"h":"Nuclear fusion","p":["Fusion is the joining of two light nuclei (for example hydrogen isotopes) to form a heavier nucleus, with the release of energy. It happens naturally in stars, including the Sun, and needs extremely high temperature and pressure. For the same mass of fuel, fusion releases more energy than fission; however, a single fission releases more energy than a single fusion reaction. (The lesson note says only 'more energy than fission'.)"]},
+{"h":"Fission and fusion compared","p":["Study the table."],"tbl":{"head":["Feature","Fission","Fusion"],"rows":[["Process","A heavy nucleus splits","Light nuclei join"],["Example fuel","Uranium-235","Hydrogen isotopes (deuterium, tritium)"],["Conditions","Neutron bombardment","Very high temperature and pressure"],["Occurs naturally","No (made in reactors and bombs)","Yes, in stars"],["Waste","Long-lived radioactive waste","Much less radioactive waste"],["Control on Earth","Used in power stations today","Still under research for power"]]}},
+{"h":"Parts of a nuclear reactor","p":["Study the table."],"tbl":{"head":["Part","Function","Examples"],"rows":[["Nuclear fuel","Supplies the energy","Uranium-235, plutonium"],["Moderator","Slows fast neutrons so they can cause more fission","Graphite, heavy water, ordinary water"],["Control rods","Absorb neutrons to control (or stop) the reaction","Boron, cadmium"],["Coolant","Carries the heat from the core to a boiler (heat exchanger)","Water, carbon dioxide, liquid sodium"],["Turbine","Steam from the heated water turns the turbine, which drives a generator that makes electricity","Steam turbine with a generator"],["Cooling tower","Gets rid of the heat that cannot be turned into electricity (a result of the laws of thermodynamics)","Large concrete towers at power stations"]]}},
+{"h":"Uses of nuclear energy","p":["Medicine: radiation therapy for cancer; radioisotopes in scans (for example iodine-131 for the thyroid). Industry: tracers and radiation to test materials; sterilising medical equipment. Agriculture: radiation to improve crops, to preserve food and to control pests. Power generation: reactors such as the pressurised water reactor (PWR) and the boiling water reactor (BWR)."]},
+{"h":"Hazards","p":["High doses of radiation can cause cancer, genetic mutations and radiation sickness. Radioactive waste stays dangerous for a very long time. Accidents such as Chernobyl (1986) and Fukushima (2011) can have terrible effects. Advantages: a very large amount of energy from a small amount of fuel, and low carbon emissions during operation."]}
+],
+"activity":"State two differences between fission and fusion. Name four parts of a nuclear reactor and say what each does. Give one medical, one industrial and one agricultural use of nuclear radiation.",
+"check":[
+{"q":"Control rods are made of","o":["Boron or cadmium","Graphite","Iron","Copper"]},
+{"q":"The moderator is used to","o":["Slow down fast neutrons","Absorb neutrons","Cool the reactor","Turn the turbine"]},
+{"q":"Fusion happens naturally in","o":["Stars","Rivers","Batteries","Wires"]},
+{"q":"A chain reaction in fission is caused by","o":["Released neutrons causing more fission","Heat only","Light","Sound"]},
+{"q":"Fission splits a","o":["Heavy nucleus","Light nucleus","Electron","Photon"]}
+]},
+
+{"id":"sp23-10","week":6,"title":"Nuclear Calculations with Corrected Answers","icon":"ClipboardCheck",
+"summary":"Decay equations, mass defect to energy, and binding energies of helium and lithium, with every answer worked out.",
+"keyWords":["Alpha decay","Mass defect","Binding energy","MeV","Worked example"],
+"sections":[
+{"h":"Example 1: alpha decay of americium-241","p":["²⁴¹₉₅Am decays into neptunium ²³⁷_cNp and an alpha particle ᵇ_aα. Find a, b and c.","An alpha particle is a helium nucleus, ⁴₂He, so b = 4 and a = 2. The proton numbers must balance: 95 = c + 2, so c = 93. The decay is ²⁴¹₉₅Am → ²³⁷₉₃Np + ⁴₂He. The number of neutrons in the americium nucleus is 241 – 95 = 146; in neptunium it is 237 – 93 = 144."]},
+{"h":"Example 2: mass defect to energy","p":["A nucleus has a mass defect of 0.0025 u. Convert it to kg: 0.0025 × 1.66 × 10⁻²⁷ = 4.15 × 10⁻³⁰ kg. E = Δm c² = 4.15 × 10⁻³⁰ × (3 × 10⁸)² = 3.735 × 10⁻¹³ J. Alternatively, 0.0025 × 931 = 2.33 MeV. (The lesson note leaves out the units and prints 10⁻² instead of 10⁻²⁷ in one place.)"]},
+{"h":"Example 3: mass defect in grams","p":["The mass defect is 2.0 × 10⁻⁶ g. Convert to kg: 2.0 × 10⁻⁶ g = 2.0 × 10⁻⁹ kg. E = Δm c² = 2.0 × 10⁻⁹ × 9 × 10¹⁶ = 1.8 × 10⁸ J."]},
+{"h":"Evaluation answers","p":["A helium nucleus with a mass defect of 0.0304 u: binding energy = 0.0304 × 931 = 28.3 MeV.","A lithium nucleus with a mass defect of 0.035 u: binding energy = 0.035 × 931 = 32.6 MeV.","Mass number and atomic number: the mass number (nucleon number) is the number of protons plus neutrons; the atomic number (proton number) is the number of protons only.","Two differences between fission and fusion: fission splits a heavy nucleus and fusion joins light nuclei; fission works with neutron bombardment, but fusion needs extremely high temperature.","Isotope: atoms with the same proton number but different nucleon numbers. Hydrogen examples: protium and deuterium (also tritium)."]},
+{"h":"Advantages and disadvantages of nuclear power","p":["Advantages: a huge amount of energy from little fuel; reliable day and night; low greenhouse gas emissions in operation. Disadvantages: radioactive waste that must be stored safely for thousands of years; the risk of accidents; high cost of building and closing a plant; the danger of weapons use."]}
+],
+"activity":"Find the energy in MeV for a mass defect of 0.0152 u (14.2 MeV). Write the alpha decay of radium-226 (atomic number 88) to radon (²²²₈₆Rn + ⁴₂He).",
+"check":[
+{"q":"A helium nucleus with mass defect 0.0304 u has binding energy of","o":["28.3 MeV","0.0304 MeV","931 MeV","3.04 MeV"]},
+{"q":"For ²⁴¹₉₅Am → ²³⁷ₓNp + ⁴₂He, x is","o":["93","97","95","91"]},
+{"q":"A mass defect of 2.0 × 10⁻⁹ kg releases","o":["1.8 × 10⁸ J","1.8 × 10⁻⁸ J","6 × 10⁻¹ J","1.8 × 10²⁵ J"]},
+{"q":"1 u is equivalent to about","o":["931 MeV","1.6 MeV","9.8 MeV","3 × 10⁸ MeV"]},
+{"q":"An alpha particle is","o":["A helium nucleus","An electron","A neutron","A photon"]}
+]},
+
+{"id":"sp23-11","week":8,"title":"Energy Quantisation: Levels, Quanta and Planck's Hypothesis","icon":"BarChart2",
+"summary":"Why energy comes in packets, atomic energy levels, absorption and emission, Planck's E = hf and line spectra.",
+"keyWords":["Quantisation","Quantum","Ground state","Excited state","Planck's constant","Line spectrum"],
+"sections":[
+{"h":"Introduction","p":["Before the early 20th century scientists believed energy could change smoothly and continuously. Experiments on atoms showed that, at the atomic scale, energy comes in separate packets, called quanta. This idea is called energy quantisation."]},
+{"h":"Energy levels in atoms","p":["Energy quantisation means that electrons in atoms can only have certain fixed energies, not any value. The energy levels are labelled by quantum numbers n = 1, 2, 3 … They are like the rungs of a ladder: an electron can stand on one rung or another, but not between them.","Ground state: the lowest level (n = 1), where the electron is most stable. Excited state: any higher level (n = 2, 3 …), where the electron has gained energy."]},
+{"h":"Transitions","p":["An electron can absorb energy and jump up to a higher level (excitation), or lose energy and fall to a lower level (de-excitation), giving out light. The energy exchanged is always a fixed quantum: ΔE = E_higher – E_lower = hf, where h = 6.63 × 10⁻³⁴ J s is Planck's constant and f is the frequency of the radiation."]},
+{"h":"Planck's hypothesis (1900)","p":["Max Planck proposed that energy is sent out or taken in as separate quanta, and that the energy of one quantum is proportional to the frequency of the radiation: E = hf. This began quantum theory. E is the energy of one quantum (in joules), h is Planck's constant and f is the frequency (in hertz). Higher frequency means more energy per quantum, so ultraviolet light is more energetic than red light."]},
+{"h":"Line spectra","p":["When electrons in an atom change levels, they give out or take in light of particular frequencies. Each element therefore makes a line spectrum (separate bright lines on a dark background for emission, dark lines on a bright background for absorption), instead of a continuous spectrum (all colours together, like sunlight through a prism). For hydrogen, the visible lines (the Balmer series) come from electrons falling to level n = 2. The lines are like fingerprints and are used in chemical analysis and in astronomy."]},
+{"h":"Why it matters","p":["It explains why atoms are stable (electrons can only be at fixed levels); the lines of the spectra; the photoelectric effect; and it is the base for quantum mechanics, modern electronics, lasers and semiconductors."]}
+],
+"activity":"Define energy quantisation. Explain why atoms give line spectra. Calculate the energy of a photon of frequency 5.0 × 10¹⁴ Hz (3.3 × 10⁻¹⁹ J).",
+"check":[
+{"q":"Planck's equation is","o":["E = hf","E = mc²","E = mgh","E = ½mv²"]},
+{"q":"The ground state is","o":["The lowest energy level","The highest level","The nucleus","Any level above n = 1"]},
+{"q":"A photon is emitted when an electron","o":["Falls to a lower level","Jumps to a higher level","Is stationary","Leaves the nucleus"]},
+{"q":"Atoms give out","o":["Line spectra of fixed frequencies","Only continuous spectra","No light","Only sound"]},
+{"q":"The unit of Planck's constant is","o":["J s","J/s","N m","W"]}
+]},
+
+{"id":"sp23-12","week":8,"title":"The Photoelectric Effect and Worked Answers","icon":"BarChart2",
+"summary":"Observations of the photoelectric effect, Einstein's explanation, the work function and threshold frequency, and the calculations from the evaluation and assignment.",
+"keyWords":["Photoelectric effect","Photon","Threshold frequency","Work function","Kinetic energy"],
+"sections":[
+{"h":"What it is","p":["The photoelectric effect is the release of electrons from a metal surface when light of high enough frequency shines on it."]},
+{"h":"Observations","p":["1. No electrons are emitted if the frequency is below a threshold frequency f₀, however bright the light. 2. The maximum kinetic energy of the emitted electrons depends on the frequency, not the brightness. 3. The number of electrons emitted depends on the brightness (intensity), if the frequency is above the threshold. 4. The emission is immediate, with no delay.","The wave theory of light could not explain these; Einstein explained them with Planck's idea."]},
+{"h":"Einstein's explanation (1905)","p":["Light is made of packets of energy called photons, each with energy E = hf. A photon gives all its energy to one electron. Some of this energy (the work function φ) is used to free the electron from the metal, and the rest becomes its kinetic energy: hf = φ + ½mv²max. The work function φ is the minimum energy needed to free an electron, and the threshold frequency is f₀ = φ ÷ h.","Why light below the threshold does nothing: each photon has too little energy (hf < φ), and an electron takes energy from only one photon at a time, so making the light brighter (more photons) does not help."]},
+{"h":"Worked example","p":["A metal has φ = 3.3 × 10⁻¹⁹ J. Its threshold frequency is f₀ = 3.3 × 10⁻¹⁹ ÷ 6.63 × 10⁻³⁴ = 5.0 × 10¹⁴ Hz. Light of frequency 6.0 × 10¹⁴ Hz gives a maximum kinetic energy of hf – φ = 6.63 × 10⁻³⁴ × 6.0 × 10¹⁴ – 3.3 × 10⁻¹⁹ = 3.98 × 10⁻¹⁹ – 3.3 × 10⁻¹⁹ = 6.8 × 10⁻²⁰ J."]},
+{"h":"Answers to the past questions","p":["A photon of energy 3.0 × 10⁻¹⁹ J (h = 6.63 × 10⁻³⁴ J s): f = E ÷ h = 3.0 × 10⁻¹⁹ ÷ 6.63 × 10⁻³⁴ = 4.5 × 10¹⁴ Hz.","An electron absorbs 4.14 × 10⁻¹⁹ J: f = 4.14 × 10⁻¹⁹ ÷ 6.63 × 10⁻³⁴ = 6.2 × 10¹⁴ Hz.","Energy quantisation and line spectra: electrons have only fixed energy levels. When one falls from a higher to a lower level it emits a photon of energy hf equal to the difference, which gives one line of fixed frequency; so each element has its own set of lines."]},
+{"h":"Continuous and line spectra","p":["A continuous spectrum has all colours without gaps, for example light from a hot filament or sunlight through a prism. A line spectrum has only separate lines of particular colours, for example light from heated hydrogen, sodium (yellow) or neon."]},
+{"h":"Why hydrogen gives light of fixed wavelengths","p":["Hydrogen's electron can only occupy fixed levels (Eₙ = –13.6 ÷ n² eV). The differences between them are fixed, so the photons that come out have fixed energies and therefore fixed frequencies and wavelengths."]}
+],
+"activity":"Explain the photoelectric effect and say how it supports the quantum theory of light. Find the frequency of a photon whose energy is 4.14 × 10⁻¹⁹ J (6.2 × 10¹⁴ Hz).",
+"check":[
+{"q":"The photoelectric equation is","o":["hf = φ + ½mv²","hf = φ – mc²","E = mc²","hf = mgh"]},
+{"q":"Brighter light above threshold frequency increases the","o":["Number of electrons emitted","Energy of each electron","Threshold frequency","Work function"]},
+{"q":"A photon of 3.0 × 10⁻¹⁹ J has frequency about","o":["4.5 × 10¹⁴ Hz","2.0 × 10⁻⁵³ Hz","4.5 × 10⁻¹⁴ Hz","1.0 × 10¹⁵ Hz"]},
+{"q":"The minimum energy to free an electron is the","o":["Work function","Photon","Quantum number","Wavelength"]},
+{"q":"No emission below the threshold is because","o":["Each photon has too little energy","The light is too bright","The metal is cold","Electrons are heavy"]}
+]},
+
+{"id":"sp23-13","week":9,"title":"Duality of Matter (1): Wave-Particle Duality and de Broglie's Hypothesis","icon":"Layers",
+"summary":"Light as both wave and particle, matter as both particle and wave, the de Broglie wavelength and the experiments that prove it.",
+"keyWords":["Wave-particle duality","de Broglie wavelength","Matter wave","Davisson-Germer","Double slit"],
+"sections":[
+{"h":"Introduction","p":["In classical physics, matter was thought of as particles and light as waves. Experiments in the 20th century showed that both light and matter can show wave-like and particle-like behaviour, depending on the situation. This is called wave-particle duality."]},
+{"h":"Early evidence","p":["Photoelectric effect (1905): Einstein showed that light, usually seen as a wave, behaves like a stream of particles (photons) when it frees electrons from a metal. Electron diffraction (1927): electrons, usually seen as particles, make diffraction and interference patterns when they pass through a crystal or a double slit, which is typical wave behaviour."]},
+{"h":"de Broglie's hypothesis (1924)","p":["Louis de Broglie suggested that every moving particle has a wave connected with it, the matter wave. Its wavelength is λ = h ÷ p = h ÷ mv, where h = 6.63 × 10⁻³⁴ J s, m is the mass in kg and v is the speed in m/s.","The wavelength is smaller for heavier or faster particles. For everyday objects it is so small that we cannot detect it, while for tiny particles such as electrons it is large enough to observe. Example: a 1,000 kg car at 20 m/s has λ = 6.63 × 10⁻³⁴ ÷ 2 × 10⁴ = 3.3 × 10⁻³⁸ m, far too small to notice."]},
+{"h":"Experimental evidence","p":["Davisson-Germer experiment (1927): Clinton Davisson and Lester Germer fired electrons at a nickel crystal. The scattered electrons made a diffraction pattern, something that only waves do. This confirmed de Broglie's hypothesis.","Double slit with electrons: even when electrons pass through a double slit one at a time, an interference pattern builds up on the screen. Each electron behaves as a wave that interferes with itself."]},
+{"h":"What duality means","p":["It does not mean that a particle is a wave and a particle at once. It means that the electron, photon and so on are quantum objects that need both descriptions, and we see one aspect or the other depending on the experiment."]},
+{"h":"Implications","p":["Limits of classical physics: it cannot describe the behaviour of subatomic particles, which led to quantum mechanics. Probability: because of their wave nature, position and momentum cannot both be predicted exactly, so particles are described by probability waves. Uncertainty principle: Heisenberg's principle follows from duality; the more exactly we know the momentum, the less exactly we know the position. Atomic structure: the wave nature of electrons explains why electrons exist at fixed energy levels and do not spiral into the nucleus."]}
+],
+"activity":"State de Broglie's equation and explain each symbol. Explain why we cannot see the wave nature of a moving car. Describe the Davisson-Germer experiment.",
+"check":[
+{"q":"The de Broglie wavelength is","o":["h/mv","mv/h","hmv","mc²"]},
+{"q":"Electron diffraction showed that electrons","o":["Behave as waves","Are charged","Are heavy","Are photons"]},
+{"q":"The wave nature of a car is not noticeable because its wavelength is","o":["Extremely small","Extremely large","Zero charge","Infinite"]},
+{"q":"The Davisson-Germer experiment used","o":["A nickel crystal","A gold foil","A prism","A lens"]},
+{"q":"Heisenberg's uncertainty principle limits knowing","o":["Position and momentum together","Mass and charge","Heat and light","Voltage and current"]}
+]},
+
+{"id":"sp23-14","week":9,"title":"Duality of Matter (2): Technologies and Worked Answers","icon":"Layers",
+"summary":"Electron microscopes and other technologies built on wave properties of matter, and the corrected wavelength calculations.",
+"keyWords":["Electron microscope","Tunnelling","Quantum computing","Semiconductor","de Broglie calculation"],
+"sections":[
+{"h":"Electron microscope","p":["It uses the wave nature of electrons. Since fast electrons have much smaller wavelengths than visible light, an electron microscope can see much smaller details (a higher resolution) than a light microscope."]},
+{"h":"Scanning tunnelling microscope","p":["It uses quantum tunnelling, in which electrons cross a tiny gap that classical physics says they could not cross. The current through the gap is used to make images of surfaces atom by atom."]},
+{"h":"Quantum computing and semiconductors","p":["Semiconductors: the behaviour of electrons in silicon is described by wave mechanics, and it makes all modern electronics work. Quantum computers use quantum states (qubits) that can be in combinations of states (superposition), which is related to wave behaviour, and can solve some problems much faster than ordinary computers. (The lesson note says they use 'the dual nature of particles'; superposition and interference are a more exact description.)"]},
+{"h":"Particle accelerators","p":["Accelerators speed up charged particles using electric fields and steer them with magnetic fields. At high energies the particles' wavelengths are very small, so they are used to probe very small structures such as the inside of the nucleus."]},
+{"h":"Worked answers","p":["1. A particle of mass 9.1 × 10⁻³¹ kg moves at 2.0 × 10⁶ m/s. λ = h ÷ mv = 6.63 × 10⁻³⁴ ÷ (9.1 × 10⁻³¹ × 2.0 × 10⁶) = 6.63 × 10⁻³⁴ ÷ 1.82 × 10⁻²⁴ = 3.6 × 10⁻¹⁰ m.","2. A proton moving at 5.0 × 10⁵ m/s. The lesson note gives the mass as 67 × 10⁻²⁷ kg, which is a mistake; the mass of a proton is 1.67 × 10⁻²⁷ kg. λ = 6.63 × 10⁻³⁴ ÷ (1.67 × 10⁻²⁷ × 5.0 × 10⁵) = 6.63 × 10⁻³⁴ ÷ 8.35 × 10⁻²² = 7.9 × 10⁻¹³ m.","3. Why is the wave nature of a car not seen? Its mass is large, so its wavelength h/mv is extremely small, much smaller than anything we can detect. An electron has a tiny mass so its wavelength is comparable with the spacing of atoms in a crystal, which makes diffraction possible.","4. Deriving the de Broglie equation: for a photon, E = hf = hc ÷ λ and E = pc, so p = h ÷ λ, or λ = h ÷ p. De Broglie suggested that the same relation holds for matter, with p = mv, giving λ = h ÷ mv."]},
+{"h":"Significance for modern atomic theory","p":["De Broglie's idea explained Bohr's quantised orbits as standing waves of the electron around the nucleus, and led to Schrödinger's wave mechanics and the orbital model."]}
+],
+"activity":"Calculate the de Broglie wavelength of a 70 kg person walking at 1.5 m/s (6.3 × 10⁻³⁶ m). Name two devices that use the wave nature of electrons.",
+"check":[
+{"q":"An electron microscope has high resolution because electrons have","o":["Very small wavelengths","Large mass","No charge","High voltage only"]},
+{"q":"The wavelength of 9.1 × 10⁻³¹ kg at 2.0 × 10⁶ m/s is about","o":["3.6 × 10⁻¹⁰ m","3.6 × 10⁻²⁸ m","3.6 m","3.6 × 10⁻³⁴ m"]},
+{"q":"The mass of a proton is about","o":["1.67 × 10⁻²⁷ kg","67 × 10⁻²⁷ kg","9.1 × 10⁻³¹ kg","6.63 × 10⁻³⁴ kg"]},
+{"q":"A scanning tunnelling microscope uses","o":["Quantum tunnelling","Sound","X-rays","Gravity"]},
+{"q":"For a photon, momentum is","o":["h/λ","hλ","λ/h","h²/λ"]}
+]},
+
+{"id":"sp23-15","week":10,"title":"Energy and Society (1): Forms and Sources of Energy and Their Impact","icon":"Zap",
+"summary":"What energy is, its forms, renewable and non-renewable sources and how energy affects development, health and the environment.",
+"keyWords":["Energy","Kinetic energy","Potential energy","Renewable","Non-renewable","Fossil fuels"],
+"sections":[
+{"h":"Meaning of energy","p":["Energy is the capacity to do work or cause change. It is needed for every activity, from moving and growing to production and communication. Energy can change from one form to another but is never created or destroyed."]},
+{"h":"Forms of energy","p":["Study the table."],"tbl":{"head":["Form","Meaning","Formula or example"],"rows":[["Kinetic energy","Energy of motion","KE = ½mv²"],["Potential energy","Energy stored because of position or condition","PE = mgh"],["Thermal energy","Internal energy of the random motion of particles","Linked to temperature"],["Electrical energy","From the movement of electric charges","Powers appliances"],["Chemical energy","Stored in chemical bonds","Food, fuel, batteries"],["Nuclear energy","Stored in the nucleus","Fission and fusion"],["Sound energy","Carried by sound waves","Vibrations of particles"],["Radiant (light) energy","Carried by electromagnetic waves","Visible light, X-rays, UV"]]}},
+{"h":"Sources","p":["Renewable sources are replaced naturally within a human lifetime: solar, wind, hydropower (moving water), biomass (organic matter), geothermal (heat from inside the Earth) and tidal energy. Non-renewable sources are limited and will run out: fossil fuels (coal, crude oil, natural gas) and nuclear fuels (uranium and plutonium)."]},
+{"h":"Energy and society","p":["Social development: energy powers transport, lighting, cooking, communication, schools, hospitals and water supply, and raises the quality of life and economic opportunities. Technology: industry, manufacturing and digital systems depend on energy; electricity supports computers, robots and the internet. Health: energy gives clean water, cold storage for medicines and working hospitals; but pollution from burning fossil fuels causes breathing diseases and cancer."]},
+{"h":"Environment","p":["Burning fossil fuels causes air pollution, global warming and climate change. Cutting trees for firewood or charcoal causes habitat loss and reduces biodiversity. Oil spills (as in the Niger Delta), acid rain and radioactive waste also harm the environment."]},
+{"h":"Nigeria's position","p":["Nigeria makes most of its grid electricity from natural gas and from hydropower dams such as Kainji, Jebba and Shiroro. Many households and businesses still depend on petrol and diesel generators, which are costly and noisy and release pollution. The country has high sunshine, which gives great potential for solar energy."]}
+],
+"activity":"Define energy and list five forms. Explain the difference between renewable and non-renewable sources with two examples each. Discuss three effects of energy use on the environment.",
+"check":[
+{"q":"Kinetic energy is","o":["½mv²","mgh","hf","mc²"]},
+{"q":"Which is a renewable source?","o":["Solar","Coal","Natural gas","Uranium"]},
+{"q":"Burning fossil fuels mainly causes","o":["Global warming","More rain only","Cooling","Magnetism"]},
+{"q":"Potential energy is given by","o":["mgh","½mv²","hf","IV"]},
+{"q":"Geothermal energy comes from","o":["Heat inside the Earth","The wind","The Moon","Plants"]}
+]},
+
+{"id":"sp23-16","week":10,"title":"Energy and Society (2): Conservation, Comparison of Sources and Solutions","icon":"Zap",
+"summary":"Saving energy, comparing sources, the energy challenges of the world and Nigeria, practical solutions and answers to the questions.",
+"keyWords":["Conservation","Sustainability","Energy security","Diversification","Renewable transition"],
+"sections":[
+{"h":"Energy conservation","p":["Energy conservation means using energy efficiently and wasting less. Ways: use energy-saving appliances such as LED bulbs and efficient refrigerators; switch off devices that are not in use; insulate buildings; use public transport and share vehicles; service generators and vehicles regularly; use solar water heaters and solar cookers."]},
+{"h":"Why sustainability matters","p":["It reduces damage to the environment, makes sure that future generations have energy, builds economic strength, cuts energy bills and supports global climate goals such as the Paris Agreement."]},
+{"h":"Comparison of sources","p":["Study the table."],"tbl":{"head":["Source","Advantages","Limitations"],"rows":[["Solar","Clean, renewable, low maintenance","Depends on weather; high set-up cost"],["Hydro","Renewable, reliable, efficient","Disturbs ecosystems; expensive to build"],["Wind","Renewable, no emissions","Noise, appearance, variable output"],["Fossil fuels","High energy, easy to transport","Pollution, will run out, global warming"],["Nuclear","Large energy, low emissions","Radioactive waste, risk of accidents"],["Biomass","Uses waste, renewable","Air pollution, deforestation"]]}},
+{"h":"Challenges","p":["Too much dependence on fossil fuels (depletion and pollution). Energy insecurity: many places, especially rural Africa, have no reliable electricity. Climate change from greenhouse gases. Conflicts over energy resources. The high first cost of changing to renewable energy."]},
+{"h":"Practical solutions","p":["Invest in renewable energy (government and private sector). Educate the public about efficiency. Make and enforce energy standards. Transfer clean technology. Diversify the mix of sources, so that no single source is relied on."]},
+{"h":"Answers to the questions","p":["Nuclear energy: two advantages are a great amount of energy from a little fuel and low carbon emissions in operation; two disadvantages are radioactive waste and the danger of accidents.","Renewable and non-renewable: renewable sources are naturally replaced (solar, wind); non-renewable sources are finite (coal, crude oil).","Three ways to save energy in homes and industries: LED lamps, switching off unused devices and insulating buildings or machines.","Hydro and fossil fuels: hydro is renewable, has no air pollution and a low running cost, but dams are costly and can flood land and disturb ecosystems; fossil fuels give plenty of energy and are easy to move but pollute, release greenhouse gases and are finite.","Two realistic ways for Nigeria to cut its dependence on fossil fuels: expand solar systems and mini-grids for homes, farms and businesses, especially in the sunny north; and add more hydropower and make better use of the gas now flared. Reducing waste by using efficient appliances also helps.","Five conservation practices: switch off lights when leaving a room; use LED bulbs; unplug chargers; cook with a lid on the pot; walk or use public transport for short trips."]}
+],
+"activity":"Write an energy-saving plan for your home with five actions and how each helps. Argue for or against building a nuclear power plant in Nigeria.",
+"check":[
+{"q":"Energy conservation means","o":["Using energy efficiently","Producing more energy","Using only fossil fuels","Stopping industry"]},
+{"q":"A disadvantage of wind power is","o":["Variable output","Air pollution","Radioactive waste","Oil spills"]},
+{"q":"A source that gives radioactive waste is","o":["Nuclear","Solar","Wind","Hydro"]},
+{"q":"A good way to reduce reliance on fossil fuels is","o":["Solar and other renewables","More diesel generators","Burning more wood","Importing more petrol"]},
+{"q":"Diversification of energy means","o":["Using a mix of sources","Using one source","Stopping energy use","Importing all energy"]}
+]},
+
+{"id":"sp23-17","week":11,"title":"Third Term Revision: Electroplating, Induction, the Atom and Energy","icon":"ClipboardCheck",
+"summary":"A checklist and quick answers for the third term, with the corrections made to the lesson note.",
+"keyWords":["Revision","Formulas","Corrections","Quick answers"],
+"sections":[
+{"h":"Checklist","p":["Continuity testing: tools, procedure, safety. Electroplating: principle, reactions, uses. Electromagnetic fields: induction, generators, motors, transformers, MRI. Atomic models: Dalton, Thomson, Rutherford, Bohr, quantum. The nucleus: isotopes, mass defect, fission, fusion, reactor. Quantisation and the photoelectric effect. Duality and de Broglie. Energy and society."]},
+{"h":"Key formulas","p":["m = Zit; V_s/V_p = N_s/N_p; Eₙ = –13.6/n² eV; mvr = nh/2π; A = Z + N; E = Δm c²; T = 0.693/λ; E = hf; hf = φ + ½mv²; f₀ = φ/h; λ = h/mv; KE = ½mv²; PE = mgh."]},
+{"h":"Corrections made in this term","p":["Electromotive force in a generator is induced, not 'reduced'. Half-life T = 0.693/λ. Bohr: Eₙ = –13.6/n² eV and mvr = nh/2π. de Broglie: λ = h/mv. The proton's mass is 1.67 × 10⁻²⁷ kg, not 67 × 10⁻²⁷ kg. Thomson found the electron in 1897 and proposed the plum-pudding model in 1904. Fusion releases more energy than fission per kilogram of fuel, not per reaction."]},
+{"h":"Quick answers","p":["Helium mass defect 0.0304 u: 28.3 MeV. Lithium 0.035 u: 32.6 MeV. 0.0025 u: 2.33 MeV. 2.0 × 10⁻⁹ kg: 1.8 × 10⁸ J. Photon of 3.0 × 10⁻¹⁹ J: 4.5 × 10¹⁴ Hz. Electron at 2.0 × 10⁶ m/s: 3.6 × 10⁻¹⁰ m. Proton at 5.0 × 10⁵ m/s: 7.9 × 10⁻¹³ m."]},
+{"h":"How to revise","p":["Draw the electroplating set-up, the a.c. generator and the five atomic models. Redo all calculations. Practise WAEC and NECO past questions on atomic and nuclear physics."]}
+],
+"activity":"Make a mind map of the third term. Do a past paper on atomic and nuclear physics under exam conditions.",
+"check":[
+{"q":"The mass deposited in electroplating is","o":["m = Zit","m = Z/it","m = it/Z","m = Z + it"]},
+{"q":"The proton's mass is about","o":["1.67 × 10⁻²⁷ kg","9.1 × 10⁻³¹ kg","6.63 × 10⁻³⁴ kg","67 × 10⁻²⁷ kg"]},
+{"q":"The photoelectric equation is","o":["hf = φ + ½mv²","E = mc²","λ = h/mv","T = 0.693/λ"]},
+{"q":"The Bohr energy of level n is","o":["–13.6/n² eV","+13.6n eV","–13.6n² eV","13.6/n eV"]},
+{"q":"Fusion powers","o":["The Sun and stars","Coal stations","Nigeria's hydro dams","Car batteries"]}
+]}
+]
+

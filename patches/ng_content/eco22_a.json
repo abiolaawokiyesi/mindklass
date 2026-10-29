@@ -1,0 +1,291 @@
+[
+{"id":"ec22-02","week":1,"title":"The Secondary Sector: The Manufacturing Industry","icon":"Layers",
+"summary":"The meaning, features, importance and Nigerian problems of manufacturing.",
+"keyWords":["Secondary sector","Manufacturing","Capital-intensive","Linkages","Dumping","Epileptic power"],
+"sections":[
+{"h":"The secondary sector","p":["Economic activity is grouped into the primary sector (farming, fishing, mining), the secondary sector (manufacturing and construction) and the tertiary sector (services). The secondary sector is the engine of industrialisation, turning raw materials into finished products."],"img":{"src":"eco2-manufacturing-construction.jpg","alt":"A factory turning raw materials into finished goods beside a crane building a structure from inputs, labelled manufacturing and construction","cap":"Manufacturing and construction."}},
+{"h":"Meaning and examples","p":["Manufacturing is the process of changing raw materials and intermediate goods into finished goods using machines, tools and labour. Examples: a textile mill turns cotton into fabric; a food factory turns tomatoes into tomato paste; a car plant assembles parts into a car; a soap or cement factory."]},
+{"h":"Features","p":["It is a secondary activity. It involves mass production in a factory. It is capital-intensive (it needs money for machines and technology). It makes tangible goods you can touch. It has strong linkages with other sectors: it buys from farms and mines and sells through traders and transporters."]},
+{"h":"Importance","p":["1. Creates jobs for many skills (workers, engineers, managers). 2. Raises GDP. 3. Reduces import dependence and saves foreign exchange. 4. Creates linkages: a food factory gives farmers a market and transport firms business. 5. Earns foreign exchange when goods are exported. 6. Develops skills: it is a training ground for technical and managerial human capital."]},
+{"h":"Problems in Nigeria","p":["1. Epileptic power supply: the number one problem. Factories run costly diesel generators, which raise costs and make products uncompetitive. 2. Poor infrastructure: bad roads, congested ports and weak railways raise transport costs. 3. Lack of finance: high interest rates and few long-term loans. 4. Foreign competition: cheap, often subsidised, imports flood the market, including dumping (selling abroad below cost). 5. Inconsistent government policy: sudden changes in tariffs, bans and taxes. 6. Shortage of skilled technicians and engineers."]},
+{"h":"A three-point plan (assignment)","p":["As Minister of Industry: (1) Fix power by supporting embedded and renewable power for industrial clusters and special economic zones; (2) Provide long-term, low-interest finance through development banks; (3) Keep trade and tax policy stable for several years and train technicians through TVET, so that investors can plan."]}
+],
+"activity":"Define manufacturing and give two Nigerian examples. State three features. 'Manufacturing is the true engine of economic growth': discuss with five contributions.",
+"check":[
+{"q":"Turning cotton into cloth is","o":["Manufacturing","Farming","Trading only","Banking"]},
+{"q":"The number one problem of Nigerian manufacturers is","o":["Unreliable electricity","Too many skilled workers","Cheap fuel","No imports"]},
+{"q":"Manufacturing is part of the","o":["Secondary sector","Primary sector","Tertiary sector","Informal sector only"]},
+{"q":"Dumping is selling goods abroad at","o":["Below production cost","Above all prices","A fair profit","Auction"]},
+{"q":"Manufacturing is capital-intensive because it needs","o":["Machines and technology","No money","Only land","Only labour"]}
+]},
+
+{"id":"ec22-03","week":1,"title":"The Construction Industry","icon":"Landmark",
+"summary":"The meaning, features, importance and problems of the construction industry, and a comparison with manufacturing.",
+"keyWords":["Construction","Infrastructure","Project-based","Gestation period","Project abandonment","Artisans"],
+"sections":[
+{"h":"Meaning","p":["The construction industry is the part of the secondary sector concerned with planning, designing and building structures and infrastructure: roads, bridges, dams, railways, airports, houses, schools, hospitals and offices."]},
+{"h":"Features","p":["Project-based: every project is different. On-site work, not in a factory. Capital-intensive. A long gestation period (projects take long to finish). It is a good indicator of the health of the economy."]},
+{"h":"Importance","p":["1. It builds the 'backbone' of infrastructure that every industry needs. 2. It employs many skilled (engineers, architects) and unskilled workers. 3. A boom in building signals that a country is investing and developing. 4. It stimulates demand for cement, steel, wood and glass, which helps manufacturing. 5. It provides schools, hospitals and homes, which improve the quality of life."]},
+{"h":"Problems in Nigeria","p":["1. High and unstable cost of materials, especially cement. 2. Corruption: inflated contracts, kickbacks and poor-quality materials. 3. Abandoned projects: started and not finished because of a change of government, lack of funds or corruption. 4. Shortage of trained artisans (plumbers, electricians, masons, welders). 5. Funding problems: late payment for government jobs and high interest rates for private developers. 6. Collapsed buildings show the danger of weak regulation and poor materials."]},
+{"h":"Manufacturing and construction compared","p":["Study the table."],"tbl":{"head":["Criterion","Manufacturing","Construction"],"rows":[["Location of work","In a factory","On the building site"],["Nature of output","Many identical, movable goods","Fixed structures, each different"],["Production process","Mass production on an assembly line","Project by project over a long time"],["Examples","Cement, soap, textiles","Roads, bridges, houses"]]}},
+{"h":"Why a building boom is a sign of a healthy economy","p":["Builders only build when they expect demand and have access to money. A boom shows confidence, investment and growing incomes; it also creates jobs and demand for materials, so it spreads through the economy. (But a boom built on borrowed money and speculation can burst, as in some countries' house-price crashes.)"]}
+],
+"activity":"Explain four problems hindering the construction industry in Nigeria. Compare manufacturing and construction on location, output and production. Why is a construction boom a sign of a healthy economy?",
+"check":[
+{"q":"Building a bridge is part of","o":["Construction","Manufacturing","Farming","Trading"]},
+{"q":"A feature of construction is","o":["A long gestation period","Mass production in a factory","No capital","No skills"]},
+{"q":"Abandoned government projects are caused by","o":["Changes of government, lack of funds and corruption","Too much cement","Too many artisans","Low taxes"]},
+{"q":"Construction raises demand for","o":["Cement and steel","Only food","Only clothes","Nothing"]},
+{"q":"Construction work is done","o":["On site","In a factory only","At sea only","Online"]}
+]},
+
+{"id":"ec22-04","week":2,"title":"Financial Markets and Why They Must Be Regulated","icon":"Shield",
+"summary":"The money and capital markets, and the five reasons why the financial system needs referees.",
+"keyWords":["Financial market","Money market","Capital market","Systemic risk","Confidence","Money laundering"],
+"sections":[
+{"h":"The football match analogy","p":["Imagine a football match with no referee, no rules and no lines on the field: it would be chaos. The financial market is the 'field' where money and financial assets such as shares and bonds are traded. Without rules and referees, savings would be stolen, banks would collapse and the economy would fail."]},
+{"h":"Overview of the markets","p":["A financial market is any marketplace where securities (financial assets) are traded. It connects lenders (people with spare money) to borrowers (people who need money)."],"tbl":{"head":["Market","What","Time","Instruments","Purpose"],"rows":[["Money market","Short-term funds","Less than one year","Treasury bills, commercial papers, bankers' acceptances","Day-to-day liquidity"],["Capital market","Long-term funds","More than one year","Shares and bonds","Long-term investment such as factories and government projects"]]}},
+{"h":"The need for regulation","p":["1. Protect investors and depositors from cheating and fraud. 2. Ensure financial stability: stop the collapse of a bank from causing a wider crisis (systemic risk). 3. Maintain confidence: people must feel safe to save and invest; if confidence is lost the system fails. 4. Prevent financial crime such as fraud, market manipulation and money laundering. 5. Ensure transparency: companies and banks must give clear, accurate and timely information."]},
+{"h":"Systemic risk","p":["Systemic risk is the danger that the failure of one bank or financial firm will spread to others and bring down the whole system, for example when depositors panic and rush to withdraw money (a bank run). Regulators prevent it by setting capital rules, supervising banks, insuring deposits and acting as a lender of last resort."]},
+{"h":"Investor protection and depositor protection","p":["Depositors keep money in bank accounts and expect to get it back in full on demand; protection means deposit insurance and bank supervision. Investors buy shares or bonds and accept that prices may go up or down; protection means they must not be cheated, so they get true information, fair markets and punishment of fraud. The difference is that an investor's risk of a fall in market prices is not insured, but fraud and unfair practice are regulated."]}
+],
+"activity":"Explain the football analogy for financial regulation. Distinguish between the money market and the capital market with two instruments each. State four reasons why financial markets must be regulated.",
+"check":[
+{"q":"Treasury bills are traded in the","o":["Money market","Capital market","Foreign market only","Property market"]},
+{"q":"Shares and bonds are traded in the","o":["Capital market","Money market","Bakery market","Local market"]},
+{"q":"The danger that one failure spreads through the system is","o":["Systemic risk","Inflation","Depreciation","Subsidy"]},
+{"q":"A bank run is a","o":["Panic withdrawal by depositors","Marathon","Loan","Tax"]},
+{"q":"One reason for regulation is to","o":["Maintain public confidence","Close all banks","Raise fraud","Hide data"]}
+]},
+
+{"id":"ec22-05","week":2,"title":"Types of Regulatory Agencies","icon":"Layers",
+"summary":"Statutory regulators, self-regulatory organisations and government policy bodies with Nigerian examples.",
+"keyWords":["Statutory regulator","Self-regulatory organisation","CBN","SEC","NDIC","NAICOM"],
+"sections":[
+{"h":"Three kinds of referee","p":["Study the table."],"tbl":{"head":["Type","Who they are","Examples"],"rows":[["Statutory (apex) regulators","Government agencies created by an Act of the National Assembly, with legal power to make rules, watch institutions and punish offenders","CBN (banks), SEC (capital market), NDIC (insures bank deposits), NAICOM (insurance), PenCom (pensions)"],["Self-regulatory organisations (SROs)","Market participants given power to regulate themselves and their members","Nigerian Exchange Group (NGX), formerly the Nigerian Stock Exchange"],["Government policy bodies","Set the overall economic policy the regulators follow","Federal Ministry of Finance (and the Ministry of Budget and Economic Planning)"]]}},
+{"h":"A note on the ministries","p":["In 2023 the old Federal Ministry of Finance, Budget and National Planning was split into the Federal Ministry of Finance and the Federal Ministry of Budget and Economic Planning. When an exam asks about the 'Ministry of Finance', follow your syllabus."]},
+{"h":"Regulators compared","p":["The CBN supervises banks and manages monetary policy. The SEC regulates the capital market. The NDIC protects depositors by insurance and acts as liquidator of failed banks. NAICOM regulates insurers. The NGX runs the market and its own listing rules. The Ministry of Finance makes fiscal policy. Notice how each protects a different group: bank customers, investors, policyholders."]}
+],
+"activity":"List the three types of regulatory agency and the role of each. Say what a statutory regulator is and give an example. Name the main SRO in Nigeria.",
+"check":[
+{"q":"A statutory regulator is created by","o":["An Act of the National Assembly","A market vote","A bank","A school"]},
+{"q":"The main SRO in Nigeria is the","o":["Nigerian Exchange Group","CBN","NDIC","NAICOM"]},
+{"q":"Insurance is regulated by","o":["NAICOM","SEC","NGX","CAC"]},
+{"q":"The capital market is regulated by the","o":["SEC","NDIC","NAICOM","FIRS"]},
+{"q":"Banks are regulated by the","o":["CBN","SEC only","NAICOM","NGX"]}
+]},
+
+{"id":"ec22-06","week":3,"title":"The Central Bank of Nigeria (CBN)","icon":"Landmark",
+"summary":"The six functions of the CBN, its importance and its challenges.",
+"keyWords":["Monetary policy","Banker to government","Lender of last resort","Currency","Foreign reserves","Bank supervision"],
+"sections":[
+{"h":"The apex regulator","p":["The CBN is the apex regulator of the financial system, the 'banker's bank' and the government's bank."]},
+{"h":"Functions","p":["1. Monetary policy management (its most important job): it controls money and credit to fight inflation and promote growth, using open market operations, the monetary policy rate (MPR) and the cash reserve ratio (CRR).","2. Banker and financial adviser to the government: it keeps the government's accounts, receives revenue, makes payments, and issues and manages government securities such as treasury bills.","3. Banker to other banks and lender of last resort: it holds commercial banks' accounts and lends to a bank that has a short-term shortage of cash so that a temporary problem does not become a collapse.","4. Issue of currency: it is the only body allowed to print and issue the naira.","5. Management of foreign reserves: it holds the country's reserves of dollars, pounds and other currencies to support the exchange rate and pay for imports.","6. Banking supervision: it licenses, supervises and examines banks to keep them safe and sound."]},
+{"h":"Importance and challenges","p":["Importance: stable prices, a sound banking system and confidence in the naira. Challenges: balancing the fight against inflation (which needs high interest rates) with the need to promote growth (low rates); managing the exchange rate; and political interference."]},
+{"h":"Three tools of monetary policy (assignment)","p":["Open market operations (buying or selling government securities to add or remove money); the MPR (the benchmark interest rate that shows the policy stance and affects all lending rates); the cash reserve ratio (the share of deposits that banks must keep with the CBN)."]},
+{"h":"MPR and the CBN","p":["The monetary policy rate is set by the CBN's Monetary Policy Committee (MPC), which meets several times a year and announces whether to raise, cut or hold the rate."]}
+],
+"activity":"Explain three key tools the CBN uses to manage monetary policy. What does 'lender of last resort' mean? Which agency sets the MPR?",
+"check":[
+{"q":"The only body allowed to issue naira is the","o":["CBN","NDIC","SEC","NGX"]},
+{"q":"The 'lender of last resort' lends to","o":["A bank with a short-term cash problem","The public","Foreign governments only","NAICOM"]},
+{"q":"The CBN's most important job is","o":["Monetary policy","Selling shares","Building roads","Collecting VAT"]},
+{"q":"The MPR is set by the","o":["CBN","SEC","NGX","Ministry of Works"]},
+{"q":"The CBN holds the country's","o":["Foreign reserves","Farms","Schools","Cement"]}
+]},
+
+{"id":"ec22-07","week":3,"title":"The NDIC and the SEC","icon":"Shield",
+"summary":"Deposit insurance and bank failure resolution by the NDIC, investor protection and market regulation by the SEC, with the current insurance limit.",
+"keyWords":["Deposit insurance","Liquidator","Moral hazard","Investor protection","Prospectus","Insider trading"],
+"sections":[
+{"h":"The NDIC: protector of depositors","p":["The Nigeria Deposit Insurance Corporation builds confidence in the banking system.","1. Deposit guarantee: it insures bank deposits up to a maximum. The lesson note gives ₦500,000, which was the old limit. In May 2024 the NDIC raised the maximum insured amount for deposit money banks to ₦5 million per depositor per bank (and also raised the limits for microfinance banks and others). If a bank fails, the NDIC pays insured depositors.","2. Banking supervision: it works with the CBN.","3. Failure resolution: when a bank cannot be saved, the NDIC is liquidator: it takes over, sells assets and pays depositors and other creditors.","Importance: it prevents bank runs. Challenges: recovering assets from directors of failed banks; moral hazard (banks may take more risks because depositors are insured)."]},
+{"h":"The SEC: the capital market 'police'","p":["The Securities and Exchange Commission is the apex regulator of the capital market.","1. Investor protection (its main duty) against fraud and unfair practice. 2. Regulation of the market: it registers and supervises operators such as the NGX, stockbrokers and issuing houses. 3. Registration of securities: any company selling shares or bonds to the public must register them with the SEC and publish a prospectus. 4. Market development: new products, investor education and openness. 5. Enforcement: it investigates insider trading and other abuses and can fine or ban operators.","Challenges: new products such as fintech and crypto-assets; low investor knowledge; enforcing rules against powerful persons."]},
+{"h":"Insider trading","p":["Insider trading is buying or selling securities using secret, important information that is not yet public. It is unfair to other investors. The SEC is the agency responsible for fighting it."]},
+{"h":"A failed bank: who does what?","p":["The CBN licenses and supervises the bank and may revoke its licence. The NDIC then acts as liquidator and pays insured depositors. The SEC is involved only if the bank's shares are traded."]},
+{"h":"Confidence is worth more than money","p":["Is the NDIC more important for public confidence than for the money it pays out? Many economists say yes: because depositors know their savings are protected, they do not panic and queue to withdraw, so the existence of the insurance prevents the very crisis it covers."]}
+],
+"activity":"Differentiate between the roles of the CBN and the NDIC in handling a failing bank. What is insider trading and which agency fights it? Compare the focus of the CBN with that of the SEC.",
+"check":[
+{"q":"The agency that insures bank deposits is the","o":["NDIC","SEC","NAICOM","NGX"]},
+{"q":"The NDIC's deposit limit for commercial banks (since 2024) is","o":["₦5 million","₦50,000","₦500","₦50 million"]},
+{"q":"The primary mandate of the SEC is","o":["Investor protection","Printing money","Building roads","Insurance claims"]},
+{"q":"The liquidator of a failed bank is the","o":["NDIC","SEC","NGX","NAICOM"]},
+{"q":"Moral hazard means banks may","o":["Take more risks because depositors are insured","Close early","Pay more tax","Lend less"]}
+]},
+
+{"id":"ec22-08","week":4,"title":"The NGX, NAICOM and the Ministry of Finance","icon":"Landmark",
+"summary":"How the exchange, the insurance regulator and the finance ministry fit into the system, and the difference between the SEC and the NGX.",
+"keyWords":["NGX","Listing requirements","Price discovery","NAICOM","Solvency margin","Fiscal policy"],
+"sections":[
+{"h":"The Nigerian Exchange Group (NGX)","p":["Formerly the Nigerian Stock Exchange (NSE). It is not a government regulator but a self-regulatory organisation: it is the marketplace itself, a company that provides the platform for trading shares and bonds.","Functions: 1. Provides a marketplace (now mostly electronic). 2. Sets listing requirements that a company must meet before its shares are traded (profit record, transparency, size). 3. Self-regulation: it makes and enforces conduct rules for its trading members, the stockbroking firms. 4. Price discovery: continuous buying and selling shows the market price of a share. 5. Provides market information on share prices and company performance."]},
+{"h":"SEC and NGX: the difference","p":["The SEC regulates the whole capital market, including the NGX itself. The NGX regulates its own trading platform and its members. A company that wants its shares traded must meet the NGX listing requirements and have its offer registered with the SEC."]},
+{"h":"NAICOM: the insurance regulator","p":["The National Insurance Commission is to insurance what the CBN is to banking. Functions: regulate and supervise all insurers and reinsurers; license new insurance companies, brokers and agents; protect policyholders (its main goal) by making sure that insurers can pay claims; ensure solvency by setting minimum capital (solvency margins); and approve new insurance products.","If insurance were unregulated, weak or dishonest firms could take premiums and refuse to pay claims, so people would stop trusting insurance and the risks of the economy would be higher."]},
+{"h":"The Federal Ministry of Finance","p":["It is the central policy-making arm of the federal government on financial matters. Roles: fiscal policy management (designing the tax and spending plan, the federal budget); managing public finance (revenue and spending); public debt management (domestic and external debts); policy oversight of agencies such as the CBN, SEC and NDIC; and formulating economic policy."]},
+{"h":"Fiscal and monetary policy","p":["The Ministry of Finance deals with fiscal policy (taxes, spending, borrowing); the CBN deals with monetary policy (money supply and interest rates). Both aim at stable prices, growth and jobs, and they must work together."]}
+],
+"activity":"Explain the differences between the roles of the SEC and the NGX. Why is NAICOM needed? 'The Ministry of Finance deals with fiscal policy while the CBN deals with monetary policy': explain.",
+"check":[
+{"q":"The NGX is a","o":["Self-regulatory organisation","Statutory regulator","Ministry","Bank"]},
+{"q":"NAICOM's main goal is to protect","o":["Policyholders","Depositors","Shareholders only","Importers"]},
+{"q":"Fiscal policy is managed by the","o":["Ministry of Finance","NAICOM","NGX","Stockbrokers"]},
+{"q":"A company's shares are traded after it meets the","o":["NGX listing requirements","NAICOM rules","NDIC rules","Customs rules"]},
+{"q":"Price discovery on the exchange is the","o":["Setting of market prices by buying and selling","Printing money","Registering firms","Taxation"]}
+]},
+
+{"id":"ec22-09","week":6,"title":"International Trade: Meaning, Importance and Problems","icon":"Target",
+"summary":"The meaning and types of international trade, the benefits and problems, and the infant industry argument.",
+"keyWords":["International trade","Bilateral","Multilateral","Foreign exchange","Tariff","Infant industry"],
+"sections":[
+{"h":"Why trade?","p":["Why does Nigeria not grow its own iPhones? Why does Japan buy crude oil from Nigeria? Because of international trade, the exchange of goods and services between countries. No country is self-sufficient. Trade lets countries specialise in what they do best, which raises efficiency and living standards."]},
+{"h":"Types","p":["Bilateral trade: between two countries (for example Nigeria and Ghana). Multilateral trade: among three or more countries, for example under the World Trade Organisation (WTO) or ECOWAS. Visible trade is in goods; invisible trade is in services."]},
+{"h":"Benefits","p":["1. Access to goods and services a country cannot produce, or cannot produce efficiently (Nigeria cannot grow apples). 2. A source of foreign exchange from exports to pay for imports. 3. Specialisation, which raises world output. 4. Larger markets and economies of scale (lower average cost from mass production). 5. Job creation in manufacturing, transport and farming for export. 6. Cooperation and cultural links."]},
+{"h":"Problems","p":["1. Trade barriers: tariffs (taxes on imports) and quotas (limits on imports). 2. Exchange rate instability: a falling naira makes imports dear. 3. Dumping: selling at a price below cost in another country to destroy local industries. 4. Over-specialisation: dependence on one product (oil) exposes a country to price swings. 5. Infant industries cannot compete with large foreign firms without protection."]},
+{"h":"The infant industry argument","p":["A new ('infant') industry has high costs because it is small and inexperienced. The argument is that the government should protect it temporarily with tariffs or quotas until it grows strong enough to compete. Danger: protection may last forever and leave the industry lazy and inefficient, and consumers pay higher prices."]},
+{"h":"Over-specialisation in oil","p":["Nigeria earns about 90% of its foreign exchange from crude oil. When oil prices fall, export earnings, government revenue and the naira all come under pressure. The remedy is diversification into agriculture, manufacturing and services."]}
+],
+"activity":"State three benefits of international trade for Nigeria. What is dumping? Explain the infant industry argument and why a government may use a tariff.",
+"check":[
+{"q":"Trade among three or more countries is","o":["Multilateral","Bilateral","Domestic","Barter only"]},
+{"q":"A tariff is a","o":["Tax on imports","Limit on exports","Subsidy","Loan"]},
+{"q":"Exports earn","o":["Foreign exchange","Only taxes","Only loans","Nothing"]},
+{"q":"A quota is a","o":["Limit on the quantity of imports","Tax on exports","Aid","Loan"]},
+{"q":"The infant industry argument supports","o":["Temporary protection","Free dumping","Closing factories","Banning exports"]}
+]},
+
+{"id":"ec22-10","week":6,"title":"Theories of Trade: Absolute and Comparative Advantage","icon":"BarChart2",
+"summary":"Adam Smith's absolute advantage and David Ricardo's comparative advantage, with worked examples and the solution to the rice and beans question.",
+"keyWords":["Absolute advantage","Comparative advantage","Opportunity cost","Specialisation","Adam Smith","David Ricardo"],
+"sections":[
+{"h":"Absolute advantage (Adam Smith)","p":["A country has an absolute advantage in a good if it can produce more of it (or the same with fewer resources) than another country. Smith said each country should specialise in the goods in which it has an absolute advantage and trade.","Example: Ghana makes 20 units of cocoa and 2 laptops per worker; Japan makes 5 units of cocoa and 10 laptops. Ghana is better at cocoa (20 > 5) and Japan at laptops (10 > 2). Ghana should produce cocoa, Japan laptops, and they should trade."]},
+{"h":"Comparative advantage (David Ricardo)","p":["What if one country is better at everything? A country has a comparative advantage in a good if it can produce it at a lower opportunity cost than the other. Opportunity cost is what you give up to produce something else. Ricardo showed that countries gain by specialising in the goods with the lowest opportunity cost, even without an absolute advantage."]},
+{"h":"Worked example","p":["Per day: Nigeria makes 6 wheat or 2 cloth; Chad makes 1 wheat or 1 cloth. Nigeria has an absolute advantage in both. Opportunity costs: Nigeria: 1 wheat = 2/6 = 0.33 cloth; 1 cloth = 6/2 = 3 wheat. Chad: 1 wheat = 1 cloth; 1 cloth = 1 wheat. Wheat: Nigeria's cost (0.33 cloth) is lower than Chad's (1 cloth), so Nigeria should specialise in wheat. Cloth: Chad's cost (1 wheat) is lower than Nigeria's (3 wheat), so Chad should specialise in cloth. Both can consume more than before by trading."],"tbl":{"head":["Country","Wheat per day","Cloth per day","Opp. cost of 1 wheat","Opp. cost of 1 cloth"],"rows":[["Nigeria","6","2","0.33 cloth","3 wheat"],["Chad","1","1","1 cloth","1 wheat"]]}},
+{"h":"The terms of trade must be between the two cost ratios","p":["Both gain if 1 wheat trades for between 0.33 and 1 cloth. For example, at 1 wheat for 0.6 cloth, Nigeria gets 0.6 cloth for a wheat that costs it only 0.33 cloth, and Chad gets wheat for 0.6 cloth instead of 1 cloth."]},
+{"h":"Assignment: rice and beans","p":["Country A: 40 rice or 10 beans per acre. Country B: 20 rice or 5 beans.","(a) Absolute advantage: A in both rice (40 > 20) and beans (10 > 5).","(b) Opportunity cost of 1 rice: A = 10/40 = 0.25 beans; B = 5/20 = 0.25 beans.","(c) Opportunity cost of 1 bean: A = 40/10 = 4 rice; B = 20/5 = 4 rice.","(d) Comparative advantage: neither; the opportunity costs are the same.","(e) Trade: there are no gains from specialisation, because the opportunity costs are equal. (Trade could still help for other reasons, such as variety.)"]},
+{"h":"A comparative advantage picture","p":["A table of the 'laptop and T-shirt' type in your lesson note picture contains spelling and labelling errors, so we use the worked examples above instead."]}
+],
+"activity":"Explain the difference between absolute and comparative advantage. Work out the comparative advantage in this table: Country X makes 12 yams or 6 radios; Country Y makes 4 yams or 4 radios. (X: yams 0.5 radio; radios 2 yams. Y: yams 1 radio; radios 1 yam. X in yams, Y in radios.)",
+"check":[
+{"q":"Adam Smith's theory is about","o":["Absolute advantage","Comparative advantage","Dumping","Tariffs"]},
+{"q":"Opportunity cost is","o":["What is given up to get something else","The price paid","The profit","The tax"]},
+{"q":"A country should specialise where its opportunity cost is","o":["Lowest","Highest","Zero","Equal to price"]},
+{"q":"If opportunity costs are equal, trade gives","o":["No gains from specialisation","Maximum gains","Losses to both","A tariff"]},
+{"q":"Nigeria 6 wheat or 2 cloth: opportunity cost of 1 wheat is","o":["0.33 cloth","3 cloth","6 cloth","2 cloth"]}
+]},
+
+{"id":"ec22-11","week":6,"title":"Trade Barriers, Non-Tariff Barriers and the WTO","icon":"Shield",
+"summary":"Tariffs, quotas and non-tariff barriers, why governments use them, and the role of the World Trade Organisation.",
+"keyWords":["Tariff","Quota","Embargo","Non-tariff barrier","WTO","Protection"],
+"sections":[
+{"h":"Barriers to trade","p":["A government may restrict imports to protect local producers, save foreign exchange or raise revenue. Tariffs are taxes on imports. Quotas are limits on the quantity that can be imported. Non-tariff barriers restrict trade in other ways."]},
+{"h":"Three non-tariff barriers","p":["1. Import licences and bans: only licensed firms may import, or certain goods are prohibited (for example, Nigeria's bans on some imports such as certain foods). 2. Quality and safety standards: strict rules on health, labelling or technical standards that foreign goods find costly to meet. 3. Administrative delays and customs procedures: slow clearance and heavy paperwork. Others: embargoes (a total ban on trade with a country), foreign exchange restrictions and subsidies to local producers."]},
+{"h":"Why use a tariff?","p":["To protect infant industries; to raise government revenue; to reduce a trade deficit; to discourage dumping; and to protect jobs. Disadvantages: consumers pay higher prices; inefficient industries survive; other countries may retaliate; and smuggling can increase."]},
+{"h":"The World Trade Organisation (WTO)","p":["The WTO is the international body, based in Geneva, that sets the rules of trade among its member countries, helps to reduce trade barriers through negotiation and settles trade disputes between members. It began in 1995 as the successor to the GATT agreement. Nigeria is a member."]},
+{"h":"ECOWAS and regional trade","p":["Regional groups such as ECOWAS and the African Continental Free Trade Area (AfCFTA) aim to reduce barriers among members so that West African and African firms can sell in a larger market."]}
+],
+"activity":"Explain three non-tariff barriers. Why might a government use a tariff? Write what you know about the role of the WTO.",
+"check":[
+{"q":"A total ban on trade with a country is an","o":["Embargo","Quota","Tariff","Subsidy"]},
+{"q":"The WTO helps to","o":["Settle trade disputes","Print money","Collect VAT","Insure banks"]},
+{"q":"An import licence is a","o":["Non-tariff barrier","Tariff","Aid","Quota only"]},
+{"q":"A downside of tariffs is","o":["Higher prices for consumers","Cheaper goods","More imports","Lower tax"]},
+{"q":"AfCFTA is a","o":["African free trade area","Bank","Oil group","Football league"]}
+]},
+
+{"id":"ec22-12","week":8,"title":"Economic Growth and Economic Development","icon":"Target",
+"summary":"The meaning and difference of growth and development, real and nominal GDP, and why growth is necessary but not sufficient.",
+"keyWords":["Economic growth","Economic development","Real GDP","Nominal GDP","GDP per capita","Quality of life"],
+"sections":[
+{"h":"Are they the same?","p":["The words are often used together, but they mean different things. An economy can grow while many of its people remain poor."],"img":{"src":"eco2-growth-development.jpg","alt":"A picture of a plain pie labelled economic growth (pie size only) beside a pie being shared by a table of people labelled economic development, with improvements in living standards","cap":"Growth is the size of the pie; development is how it is shared and used."}},
+{"h":"Economic growth","p":["Economic growth is the increase in a country's total output of goods and services over time. It is a quantitative measure, usually the percentage rise in real GDP (GDP adjusted for inflation). Example: real GDP rises from ₦100 trillion to ₦103 trillion: growth = (103 – 100) ÷ 100 × 100 = 3%."]},
+{"h":"Real and nominal GDP","p":["Nominal GDP is measured at current prices, so it can rise just because prices rose. Real GDP removes the effect of price changes, so it shows the true change in output. That is why real GDP is the better measure of growth. Example: nominal GDP rises by 20% but prices rise 15%: real growth is only about 5%."]},
+{"h":"Economic development","p":["Economic development is a broader, qualitative idea: an improvement in the quality of life of the people. It includes growth plus better living standards, education, health and life expectancy, lower poverty and unemployment, political freedom and access to clean water and sanitation."]},
+{"h":"The difference","p":["Study the table."],"tbl":{"head":["Feature","Economic growth","Economic development"],"rows":[["Nature","Quantitative (numbers)","Qualitative (quality of life)"],["Focus","Rise in real GDP","Improvement in well-being"],["Measure","Percentage change in real GDP","HDI, literacy, infant mortality"],["Scope","Narrow","Broad"],["Pie picture","The size of the pie","How the pie is shared and used"]]}},
+{"h":"The key relationship","p":["Growth without development is possible: in the 1970s oil boom Nigeria's GDP grew rapidly, but most people saw little improvement in schools, hospitals and roads. Development without growth is not possible: schools and doctors must be paid for from a growing economy. So growth is necessary but not sufficient for development."]},
+{"h":"Per capita example","p":["If real GDP grows 5% and the population grows 5%, GDP per capita (GDP ÷ population) does not change, so the average person is no richer. For per capita income to rise, output must grow faster than population."]}
+],
+"activity":"Define economic growth and economic development. Explain 'growth is necessary but not sufficient for development', using Nigeria as an example. Why is real GDP better than nominal GDP?",
+"check":[
+{"q":"Economic growth is measured by the change in","o":["Real GDP","Population","Imports","Interest"]},
+{"q":"Economic development includes","o":["Better health, education and living standards","Only a bigger GDP","Only exports","Only prices"]},
+{"q":"Real GDP is adjusted for","o":["Inflation","Population","Imports","Taxes"]},
+{"q":"If GDP grows 5% and population 5%, per capita income","o":["Stays the same","Doubles","Falls by half","Rises 10%"]},
+{"q":"Growth without development happened in Nigeria during the","o":["1970s oil boom","Stone Age","1800s","2030s"]}
+]},
+
+{"id":"ec22-13","week":8,"title":"Indicators, Obstacles and Strategies for Development","icon":"BarChart2",
+"summary":"The measures of development (HDI and others), the obstacles in Nigeria and a three-point strategy.",
+"keyWords":["Human Development Index","Infant mortality","Literacy rate","Infrastructure","Governance","Diversification"],
+"sections":[
+{"h":"Indicators of development","p":["Because GDP is not enough, economists also use: the Human Development Index (HDI) of the United Nations, which combines income (GNI per capita), health (life expectancy) and education (years of schooling); the infant mortality rate (babies who die before their first birthday, per 1,000 births); the literacy rate (share of adults who can read and write); and access to clean water and sanitation."]},
+{"h":"Obstacles to development in Nigeria","p":["1. Corruption steals money meant for development. 2. Poor infrastructure, especially power, cripples industry. 3. Weak institutions and bad governance: inconsistent policies and weak rule of law. 4. Over-dependence on one commodity (oil). 5. Poor human capital: an uneducated, unhealthy workforce is unproductive."]},
+{"h":"Strategies","p":["1. Invest in human capital: fund and reform education and health. 2. Invest in infrastructure: reliable power, roads and ports. 3. Diversify the economy: agriculture, manufacturing and technology. 4. Fight corruption by openness and accountability in public spending. 5. Provide good governance: a stable, predictable and business-friendly climate."]},
+{"h":"A three-point plan","p":["(1) Fix electricity and transport so that factories and farms can work; (2) put more money into primary health care, basic education and technical training, with strict checks on spending; (3) open up trade and finance for small businesses and reduce corruption by publishing contracts and budgets."]},
+{"h":"A poverty cycle","p":["Poverty and low income lead to poor health and malnutrition, then low productivity and lack of education, then unemployment, and back to poverty. Policies must break the cycle at several points at once."],"img":{"src":"eco2-poverty-cycle.jpg","alt":"A cycle diagram from poverty and low income to poor health and malnutrition, low productivity and lack of education, and unemployment and underemployment, returning to poverty","cap":"The cycle of poverty."}}
+],
+"activity":"What does the HDI measure? Discuss three obstacles to development in Nigeria. Suggest a realistic three-point strategy to promote real development.",
+"check":[
+{"q":"The HDI combines income, health and","o":["Education","Exports","Tax","Population only"]},
+{"q":"Infant mortality is measured per","o":["1,000 births","100 people","1 million people","10 children"]},
+{"q":"A major obstacle to development in Nigeria is","o":["Corruption","Too many roads","Too much power","Low population"]},
+{"q":"A development strategy is","o":["Investing in human capital","Ignoring health","Closing schools","Stopping trade"]},
+{"q":"The literacy rate is the percentage of adults who","o":["Can read and write","Own a car","Pay tax","Have a job"]}
+]},
+
+{"id":"ec22-14","week":9,"title":"The Balance of Payments: Structure and Accounts","icon":"Layers",
+"summary":"What the balance of payments records, the credit and debit rule, the current, capital and financial accounts, and surplus and deficit.",
+"keyWords":["Balance of payments","Current account","Balance of trade","Capital account","Financial account","FDI"],
+"sections":[
+{"h":"The country's scorecard","p":["When Nigerians import cars from Japan, money flows out. When Nigeria exports crude oil, money flows in. When a Nigerian in the USA sends money home (remittances), money flows in. The balance of payments (BOP) is a country's official record of all economic transactions between its residents and the rest of the world over a period, usually a year. It is kept by double entry: credits (+) for transactions that bring money in, debits (–) for those that send money out."]},
+{"h":"The current account","p":["It records trade in goods and services, income and transfers: 1. Balance of trade (visible balance): exports of goods (+) minus imports of goods (–). 2. Balance of services (invisible balance): services sold abroad (a tourist paying a Nigerian hotel, +) and bought (shipping on a foreign ship, –). 3. Net income: income of Nigerians from abroad (+), and profits paid to foreigners (for example profit sent home by a foreign-owned company, –). 4. Net current transfers: remittances and aid received (+), aid sent out (–).","Balance of trade = exports of goods – imports of goods. Current account balance = balance of trade + balance of services + net income + net transfers."]},
+{"h":"The capital account","p":["A small account for non-financial transfers such as debt forgiveness and the transfer of patents and copyrights."]},
+{"h":"The financial account","p":["Flows of money for investment: foreign direct investment (FDI: long-term, such as foreigners building a factory in Nigeria, +; Nigerians investing abroad, –); portfolio investment (buying 'paper' assets such as shares and bonds, often short-term); and other investment such as loans."]},
+{"h":"Balance, surplus and deficit","p":["In accounting terms the three accounts together always sum to zero (apart from small errors and omissions) because every transaction has two sides. In everyday economics we say there is a BOP surplus when credits exceed debits on the main items (money flowing in is more than flowing out, so reserves build up) and a BOP deficit when debits exceed credits (money flowing out is more than flowing in, so foreign reserves fall)."]},
+{"h":"BOT and BOP","p":["The balance of trade counts only visible goods; the balance of payments counts goods, services, income, transfers, capital and financial flows. A country can have a trade surplus but a BOP deficit if, for example, it pays heavy debt service."]},
+{"h":"Classifying transactions (assignment)","p":["(a) A Nigerian imports a car: debit. (b) Nigeria exports crude oil to the USA: credit. (c) A Nigerian in London sends money home: credit (current transfer). (d) A Nigerian company pays a dividend to its parent in South Africa: debit (income paid abroad). (e) A German company builds a factory in Lagos: credit (FDI)."]}
+],
+"activity":"Define the balance of payments. Distinguish between credit and debit items. List the four components of the current account. Explain the difference between the balance of trade and the balance of payments.",
+"check":[
+{"q":"A credit item in the BOP is","o":["An export","An import","Paying foreign debt","A dividend paid abroad"]},
+{"q":"Balance of trade =","o":["Exports of goods – imports of goods","Exports + imports","Imports – exports","GDP – GNP"]},
+{"q":"FDI is a","o":["Long-term investment from abroad","Tourist spending","Short-term tax","A tariff"]},
+{"q":"Remittances are part of","o":["Current transfers","Imports","Exports","FDI"]},
+{"q":"A BOP deficit means foreign reserves tend to","o":["Fall","Rise","Stay at zero","Double"]}
+]},
+
+{"id":"ec22-15","week":9,"title":"Causes and Correction of BOP Deficits","icon":"Target",
+"summary":"Why Nigeria often has BOP problems, and the policies used to correct them: devaluation, tariffs, spending cuts, supply-side policy and exchange controls.",
+"keyWords":["Import dependence","Capital flight","Debt servicing","Devaluation","Expenditure switching","Export promotion"],
+"sections":[
+{"h":"Causes of a deficit","p":["1. High import dependence: a large appetite for foreign cars, phones and clothes. 2. A narrow export base: reliance on oil means export earnings collapse when its price falls. 3. Capital flight: large (often illegal) movement of money out of the country. 4. Heavy external debt service: a large part of foreign earnings goes to repay loans. 5. Low foreign investment where the country seems unsafe or unprofitable."]},
+{"h":"Corrective policies","p":["1. Expenditure-switching policies (make imports dearer): devaluation, which makes the naira cheaper so that imports cost more and exports are cheaper to foreigners; and tariffs and quotas.","2. Expenditure-dampening policies (cut total spending): contractionary fiscal policy (higher taxes, less spending) and contractionary monetary policy (higher interest rates). Drawback: these can cause recession and unemployment.","3. Supply-side policies, the best long-term solution: export promotion and diversification into agriculture, manufacturing and technology so that the country earns more foreign exchange.","4. Foreign exchange controls: the government rations foreign currency and decides who may import what."]},
+{"h":"How devaluation is meant to work","p":["Suppose the naira falls from ₦500 to ₦1,000 per dollar. A Nigerian export priced at $10 now brings ₦10,000 instead of ₦5,000, so it is more attractive to producers, and foreigners find it cheaper in dollar terms. Imports priced in dollars cost twice as many naira, so people buy fewer. Exports rise, imports fall, and the BOP improves. For this to work, demand for exports and imports must be responsive (the Marshall-Lerner condition) and the country must be able to supply more exports. Note: when a currency is allowed to float down, as the naira has been since 2023, the correct word is depreciation; devaluation means an official, deliberate cut under a fixed rate."]},
+{"h":"FDI and portfolio investment compared","p":["FDI is a long-term investment in a physical business (a factory) with control; it is stable and brings jobs and technology. Portfolio investment is the purchase of shares and bonds without control; it is short-term and can leave quickly (hot money)."]},
+{"h":"The best long-term solution","p":["Diversification and export promotion, because they raise the supply of foreign exchange instead of just rationing demand. Short-term measures such as controls and tariffs only hide the problem and can cause shortages and smuggling."]}
+],
+"activity":"Explain two main causes of a BOP deficit in Nigeria. Explain devaluation and how it should correct a deficit. Differentiate FDI and portfolio investment. State the most sustainable long-term solution.",
+"check":[
+{"q":"Devaluation makes exports","o":["Cheaper to foreigners","Dearer to foreigners","Impossible","Free"]},
+{"q":"Capital flight is the","o":["Movement of money out of the country","Flying of goods","Import of capital","A tax"]},
+{"q":"The best long-term solution to BOP deficits is","o":["Export diversification","Exchange controls only","More imports","Printing money"]},
+{"q":"Expenditure-dampening policies","o":["Reduce total spending","Raise total spending","Cut imports by ban only","Raise exports directly"]},
+{"q":"Heavy debt service worsens the BOP because","o":["Foreign currency flows out","Imports fall","Exports rise","Prices fall"]}
+]},
+
+{"id":"ec22-16","week":10,"title":"Second Term Revision: Industry, Regulation, Trade, Development and BOP","icon":"ClipboardCheck",
+"summary":"A checklist, formulas and quick answers for the second term.",
+"keyWords":["Revision","Regulators","Comparative advantage","Growth and development","Balance of payments"],
+"sections":[
+{"h":"Checklist","p":["Manufacturing and construction: meaning, features, importance, problems. Financial regulation: why, the three kinds of agency, the CBN, NDIC, SEC, NGX, NAICOM and the Ministry of Finance. International trade: benefits, problems, absolute and comparative advantage, barriers, WTO. Growth and development: indicators, obstacles, strategies. Balance of payments: accounts, causes of deficit, corrections."]},
+{"h":"Formulas and rules","p":["Opportunity cost of A in terms of B = quantity of B given up ÷ quantity of A gained. Growth rate = (new real GDP – old) ÷ old × 100. GDP per capita = GDP ÷ population. Balance of trade = exports – imports of goods. Current account balance = BOT + services + net income + net transfers."]},
+{"h":"Quick answers","p":["Who pays insured depositors of a failed bank? The NDIC (limit ₦5 million for commercial banks since 2024). Who regulates insurers? NAICOM. NGX is an SRO. Rice and beans question: no comparative advantage because both opportunity costs are equal. Real GDP and population both up 5%: per capita unchanged. Classification: car import debit; oil export credit; remittance credit; dividend to South Africa debit; FDI credit."]},
+{"h":"Revision plan","p":["Draw a regulators chart; redo the comparative advantage tables; classify five new BOP transactions; write a paragraph on each obstacle to development; do a past paper in exam time and mark it."]}
+],
+"activity":"Write a one-page answer: 'A deficit in the balance of payments is a major economic problem.' Why? Then finish a full past paper and list three mistakes.",
+"check":[
+{"q":"The apex regulator of banks is the","o":["CBN","NAICOM","NGX","FIRS"]},
+{"q":"A country should specialise where its opportunity cost is","o":["Lowest","Highest","Equal","Unknown"]},
+{"q":"Growth is necessary but","o":["Not sufficient for development","Enough for development","Irrelevant","Harmful"]},
+{"q":"A foreign company building a factory in Lagos is a BOP","o":["Credit","Debit","Zero","Tariff"]},
+{"q":"A balance of trade deficit means","o":["Imports of goods exceed exports of goods","Exports exceed imports","No trade","Perfect balance"]}
+]}
+]

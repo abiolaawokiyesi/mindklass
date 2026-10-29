@@ -1,0 +1,159 @@
+[
+{"id":"fa23-08","week":4,"title":"Final Accounts: Meaning, Objectives and the Trading Account","icon":"BarChart2",
+"summary":"What final accounts are, why they are prepared, and how to prepare a trading account to find gross profit with a worked example.",
+"keyWords":["Final accounts","Trading account","Cost of goods sold","Gross profit","Carriage inwards","Returns inwards"],
+"sections":[
+{"h":"Meaning and objectives","p":["Final accounts are the financial statements prepared at the end of an accounting period (usually a year) to show the profit or loss and the financial position of a business. They come from the trial balance and adjusted ledger balances.","Objectives: to find the net result (profit or loss); to show the financial position; to help owners, lenders and managers to decide; to meet legal and tax rules; to give information to investors and lenders."]},
+{"h":"Parts of the final accounts","p":["Three statements for a sole trader or partnership: the Trading Account (gross profit), the Profit and Loss Account (net profit) and the Balance Sheet (position)."]},
+{"h":"The Trading Account","p":["It shows the gross profit or gross loss from buying and selling goods. Gross profit = Net sales – Cost of goods sold (COGS).","Net sales = Sales – Returns inwards (goods customers sent back).","Cost of goods sold = Opening stock + Purchases (less returns outwards) + Carriage inwards – Closing stock. (Carriage inwards, the cost of bringing goods in, is part of the cost of the goods.)"]},
+{"h":"Worked example (the question in the notes)","p":["Sales ₦200,000; opening stock ₦30,000; purchases ₦100,000; carriage inwards ₦10,000; closing stock ₦20,000.","COGS = 30,000 + 100,000 + 10,000 – 20,000 = ₦120,000. Gross profit = 200,000 – 120,000 = ₦80,000."],"tbl":{"head":["Trading account for the year ended 31 December","₦","₦"],"rows":[["Sales","","200,000"],["Less returns inwards","","nil"],["Net sales","","200,000"],["Opening stock","30,000",""],["Add purchases","100,000",""],["Add carriage inwards","10,000",""],["Goods available for sale","140,000",""],["Less closing stock","(20,000)",""],["Cost of goods sold","","120,000"],["Gross profit","","80,000"]]}},
+{"h":"A correction of the layout","p":["The lesson note's trading account mixes the 'Net Sales' and 'Cost of Goods Sold' lines in the wrong columns. The vertical layout above is clearer and is accepted by examiners. In the T-account layout, opening stock, purchases and carriage inwards are on the debit side; sales less returns inwards on the credit side; the closing stock is shown as a deduction (or on the credit side); the balancing figure is the gross profit carried down."]},
+{"h":"Gross profit percentage","p":["Gross profit as a percentage of sales = 80,000 ÷ 200,000 × 100 = 40%. It helps to compare years."]}
+],
+"activity":"Prepare a trading account: sales ₦500,000; returns inwards ₦20,000; opening stock ₦60,000; purchases ₦300,000; returns outwards ₦10,000; carriage inwards ₦5,000; closing stock ₦45,000. (Net sales 480,000; net purchases 290,000; COGS 310,000; gross profit 170,000.)",
+"check":[
+{"q":"Gross profit equals","o":["Net sales – cost of goods sold","Sales + purchases","Purchases – sales","Net profit – expenses"]},
+{"q":"Sales 200,000, COGS 120,000 give gross profit","o":["₦80,000","₦320,000","₦120,000","₦200,000"]},
+{"q":"Carriage inwards is part of","o":["Cost of goods sold","Selling expenses","Capital","Drawings"]},
+{"q":"Closing stock is","o":["Deducted to find cost of goods sold","Added to purchases","An expense","Capital"]},
+{"q":"Returns inwards are","o":["Deducted from sales","Added to purchases","Deducted from drawings","Expenses"]}
+]},
+
+{"id":"fa23-09","week":4,"title":"Profit and Loss Account and Balance Sheet","icon":"BarChart2",
+"summary":"Finding net profit, the layout of a vertical balance sheet, and a corrected solution to the balance sheet assignment.",
+"keyWords":["Net profit","Expenses","Discount received","Balance sheet","Fixed assets","Current assets","Closing capital"],
+"sections":[
+{"h":"Profit and Loss Account","p":["It starts with the gross profit and adds other incomes (discount received, commission received, rent received) and takes away all running expenses (salaries, rent, electricity, stationery, depreciation). The result is the net profit or net loss. Net profit = gross profit + other income – expenses."],"tbl":{"head":["Dr (expenses)","₦","Cr (incomes)","₦"],"rows":[["Salaries","xxx","Gross profit b/d","xxx"],["Rent","xxx","Discount received","xxx"],["Stationery","xxx","Commission received","xxx"],["Depreciation","xxx","",""],["Net profit c/d","xxx","",""],["Total","xxx","Total","xxx"]]}},
+{"h":"The balance sheet","p":["A balance sheet shows the assets, liabilities and capital at a date. Assets = Liabilities + Capital.","Fixed assets (non-current): land, buildings, furniture, machines. Current assets: stock, debtors, bank, cash. Current liabilities: creditors, bank overdraft. Capital: opening capital + net profit – drawings = closing capital."]},
+{"h":"A worked full example","p":["Trial balance items: opening stock 30,000; purchases 100,000; carriage inwards 10,000; salaries 15,000; rent 8,000; stationery 2,000; furniture 30,000; debtors 60,000; cash 50,000; drawings 10,000; sales 200,000; creditors 20,000; capital 95,000 (the balancing figure). Closing stock ₦20,000.","Trading account: gross profit ₦80,000 (as before). Profit and loss: expenses 15,000 + 8,000 + 2,000 = 25,000; net profit = 80,000 – 25,000 = ₦55,000.","Closing capital = 95,000 + 55,000 – 10,000 = ₦140,000."],"tbl":{"head":["Balance sheet as at 31 December","₦","₦"],"rows":[["Fixed assets: furniture","","30,000"],["Current assets: stock","20,000",""],["Debtors","60,000",""],["Cash","50,000","130,000"],["Total assets","","160,000"],["Current liabilities: creditors","","(20,000)"],["Net assets","","140,000"],["Capital: opening","","95,000"],["Add net profit","","55,000"],["Less drawings","","(10,000)"],["Closing capital","","140,000"]]}},
+{"h":"The balance sheet assignment: a data error","p":["The assignment gives capital ₦150,000, drawings ₦10,000, net profit ₦40,000, creditors ₦20,000, cash ₦50,000, debtors ₦60,000, stock ₦70,000 and furniture ₦30,000. Assets = 30,000 + 70,000 + 60,000 + 50,000 = ₦210,000. Capital side: 150,000 + 40,000 – 10,000 = 180,000, plus creditors 20,000 = ₦200,000. The two sides differ by ₦10,000, so the balance sheet cannot balance as the question is written.","This is an error in the lesson note, not your mistake. A simple repair that gives a balanced sheet: creditors ₦30,000. Then the capital side is 180,000 + 30,000 = ₦210,000 and it balances. In an examination, always check that assets equal capital plus liabilities, and tell the examiner if the figures do not agree."]},
+{"h":"Adjustments before the final accounts","p":["Accrued expenses (owed but not paid) and prepaid expenses (paid in advance). Depreciation of fixed assets. Provision for bad debts. Closing stock. These affect both the Profit and Loss Account and the Balance Sheet. Example: rent paid ₦8,000 includes ₦1,000 prepaid. Rent expense in the P&L = 7,000; prepaid rent 1,000 is a current asset."]}
+],
+"activity":"Prepare the corrected balance sheet from the assignment (with creditors ₦30,000) and show that it balances at ₦210,000. List four users of final accounts and what each wants to know (owners: profit; banks: ability to repay; tax authority: profit for tax; investors: return).",
+"check":[
+{"q":"Net profit equals","o":["Gross profit + other income – expenses","Sales – purchases","Assets – capital","Drawings + capital"]},
+{"q":"Closing capital =","o":["Opening capital + net profit – drawings","Opening capital – net profit","Net profit + drawings","Assets + liabilities"]},
+{"q":"Creditors are","o":["Current liabilities","Fixed assets","Capital","Expenses"]},
+{"q":"A balance sheet must satisfy","o":["Assets = liabilities + capital","Assets = sales","Capital = profit","Liabilities = drawings"]},
+{"q":"Depreciation is shown as","o":["An expense in the profit and loss account","Capital","Drawings","A debtor"]}
+]},
+
+{"id":"fa23-10","week":6,"title":"Regulation of the Capital Market: Bodies and Their Functions","icon":"Shield",
+"summary":"What capital market regulation is for, and the roles of the SEC, NGX, CBN, PenCom and CAC.",
+"keyWords":["Regulation","SEC","NGX","CBN","PenCom","CAC"],
+"sections":[
+{"h":"Meaning and aims","p":["Capital market regulation is the laws, rules, bodies and procedures that supervise and control the market. Its aims: protect investors; keep the market fair and open; keep the financial system stable; prevent fraud, insider trading (using secret information to trade) and price manipulation."]},
+{"h":"Objectives","p":["Ensure market integrity. Protect investors. Promote confidence. Help the market to grow. Enforce standards of disclosure and honest conduct."]},
+{"h":"The Securities and Exchange Commission (SEC)","p":["The apex regulator of the capital market, set up under the Investments and Securities Act. Functions: registers and licenses capital market operators; approves public offers, mergers and takeovers; watches trading to stop manipulation; enforces the rules and punishes offenders; educates investors."]},
+{"h":"The Nigerian Exchange Group (NGX)","p":["Formerly the Nigerian Stock Exchange (NSE). It is a self-regulatory organisation: it runs the market where securities are traded. Functions: provides the trading platform and listing services; makes sure companies meet listing rules; suspends or removes companies that break the rules; monitors trading and reports unusual activity."]},
+{"h":"The Central Bank of Nigeria (CBN)","p":["Mainly the monetary authority, but it indirectly affects the capital market by supervising banks that take part in it and by keeping the financial system stable."]},
+{"h":"The National Pension Commission (PenCom)","p":["It regulates how pension funds are invested in the capital market, so that retirement savings are safe."]},
+{"h":"The Corporate Affairs Commission (CAC)","p":["It registers companies and enforces the Companies and Allied Matters Act, ensuring proper incorporation and corporate governance."]},
+{"h":"SEC and CAC compared","p":["Study the table."],"tbl":{"head":["Feature","SEC","CAC"],"rows":[["Main job","Regulates the capital market and its operators","Registers companies and enforces company law"],["Law","Investments and Securities Act","Companies and Allied Matters Act"],["Approves","Public offers, mergers, operators","Incorporation, annual returns"],["Protects","Investors","Company members and the public"]]}}
+],
+"activity":"Name four bodies that regulate Nigeria's capital market. State three objectives of regulation. Explain two ways in which regulation protects investors. Describe the role of the NGX.",
+"check":[
+{"q":"The apex regulator of the capital market is the","o":["SEC","CAC","FIRS","NBS"]},
+{"q":"The NGX was formerly the","o":["Nigerian Stock Exchange","Central Bank","Pension Commission","Customs Service"]},
+{"q":"Pension fund investments are regulated by","o":["PenCom","NDIC","CAC","NIMASA"]},
+{"q":"Insider trading means trading","o":["On secret information","On the open market only","With government permission","With a licence"]},
+{"q":"The CAC enforces the","o":["Companies and Allied Matters Act","Pension Act","Banking Act","Customs Act"]}
+]},
+
+{"id":"fa23-11","week":6,"title":"Laws, Importance and Challenges of Capital Market Regulation","icon":"Shield",
+"summary":"The laws and rules that regulate the market, why regulation matters, and its challenges and solutions.",
+"keyWords":["Investments and Securities Act","Listing rules","Code of governance","Anti-money laundering","Minority shareholders"],
+"sections":[
+{"h":"Instruments of regulation","p":["The Investments and Securities Act (ISA); the Companies and Allied Matters Act (CAMA); the NGX listing rules; SEC rules, guidelines and circulars; the Nigerian Code of Corporate Governance; and the anti-money laundering laws. Note: the ISA has been updated by a newer Act; check the current name and year on the SEC website."]},
+{"h":"Why regulation is important","p":["It prevents fraud and insider trading. It builds investor confidence, so more people take part. It makes the market more stable. It protects minority shareholders (those with few shares) from being cheated by big owners. It enforces disclosure and openness. It encourages ethical business."]},
+{"h":"Challenges","p":["Weak enforcement of the laws. Insider trading and other dishonest practices. Poor investor knowledge. Slow court cases. Weak technology for watching the market."]},
+{"h":"Solutions","p":["Keep reforming the laws; educate investors; use digital systems to watch the market; punish offenders quickly and fairly; train regulators."]},
+{"h":"A short case","p":["A director learns that his company is about to be taken over at a high price and buys shares secretly before the news is public. This is insider trading. The SEC can fine him, order him to give up the profit and take him to court. The rule protects other investors, who did not have the information."]},
+{"h":"Five reasons regulation is important (assignment)","p":["1. Prevents fraud. 2. Protects investors. 3. Builds confidence. 4. Promotes stability. 5. Ensures openness and honest reporting."]}
+],
+"activity":"Outline five reasons why regulation is important to the development of the capital market. Explain two challenges of regulating the market and suggest solutions. Create a table comparing the SEC and the CAC.",
+"check":[
+{"q":"Protecting small shareholders is part of","o":["Regulation","Inflation","Dividend","Taxation"]},
+{"q":"A challenge in regulation is","o":["Weak enforcement","Too many honest firms","Perfect knowledge","No investors"]},
+{"q":"The Nigerian Code of Corporate Governance guides","o":["How companies are run","How banks print money","Tax rates","School fees"]},
+{"q":"A way to improve regulation is","o":["Investor education","Ignore offenders","Hide information","Close the market"]},
+{"q":"Anti-money laundering laws stop","o":["Dirty money entering the market","Interest payments","Dividends","Stock tips"]}
+]},
+
+{"id":"fa23-12","week":8,"title":"Hire Purchase and Instalment Payment: Meaning and Differences","icon":"Landmark",
+"summary":"What hire purchase and instalment payment (credit sale) are, who owns the goods, and how they differ.",
+"keyWords":["Hire purchase","Instalment payment","Cash price","Deposit","Hire purchase price","Repossession"],
+"sections":[
+{"h":"Buying now and paying later","p":["Many individuals and businesses acquire goods without paying the full price at once. Two common methods are hire purchase and instalment payment. Both let the buyer use the goods at once and pay over time, but ownership and the accounting treatment differ."]},
+{"h":"Hire purchase","p":["The buyer takes the goods at once but becomes the legal owner only after the last instalment is paid. Features: payments are made by instalments; interest is usually charged; the seller keeps ownership until full payment; if the buyer defaults the seller can take the goods back (repossess); the buyer can usually return the goods before full payment; hire purchase is regulated by law (the Hire Purchase Act and similar laws)."]},
+{"h":"Instalment payment (credit sale)","p":["The buyer becomes the owner as soon as the contract is made but pays by instalments. If the buyer fails to pay, the seller cannot take the goods back but may sue for the money. The buyer bears all the risk from delivery, may not return the goods unless defective, and may pay interest."]},
+{"h":"Differences","p":["Study the table."],"tbl":{"head":["Feature","Hire purchase","Instalment payment"],"rows":[["Ownership passes","After the final payment","At once, when the agreement is made"],["Seller can repossess","Yes","No (can sue for payment)"],["Buyer may end the agreement","Yes, by returning the goods","No, must complete the payments or be sued"],["Risk","Shared until the last payment","Buyer bears all risk after delivery"],["Law","Hire purchase laws","Treated as an ordinary sale"]]}},
+{"h":"Terms in an agreement","p":["Cash price: the price if paid in full at once. Deposit: the first payment made by the buyer. Hire purchase price: the total paid by the buyer = deposit + instalments (this is higher than the cash price). Instalments: regular payments. Interest: the extra cost for paying over time = hire purchase price – cash price. Balance due: what is left after the deposit."]},
+{"h":"Advantages and disadvantages","p":["Hire purchase: advantages: immediate use; payment spread; helpful when capital is small. Disadvantages: higher total cost; risk of repossession; ownership delayed. Instalment payment: advantages: immediate ownership; fixed repayments; suits creditworthy buyers. Disadvantages: the buyer bears all risk from day one; legal action on default; goods cannot be returned."]},
+{"h":"Why a seller may prefer hire purchase","p":["The seller keeps ownership, so the goods can be taken back if the buyer does not pay. That is why sellers like hire purchase for expensive goods such as vehicles and machines, while a credit sale depends on trusting the buyer."]}
+],
+"activity":"Define hire purchase. State three features of instalment payment. Mention two differences between the two methods. Why might a seller prefer hire purchase to an instalment sale?",
+"check":[
+{"q":"In hire purchase, ownership passes","o":["After the last payment","At once","Never","Before the deposit"]},
+{"q":"A seller may repossess goods in","o":["Hire purchase","Instalment payment","A cash sale","A gift"]},
+{"q":"The hire purchase price is","o":["Deposit plus all instalments","The cash price only","The deposit only","The interest only"]},
+{"q":"Interest in a hire purchase equals","o":["Hire purchase price – cash price","Cash price – deposit","Deposit – instalments","Zero"]},
+{"q":"In instalment payment, if the buyer defaults, the seller","o":["Can sue for the money","Can take the goods back","Must give a refund","Loses ownership"]}
+]},
+
+{"id":"fa23-13","week":8,"title":"Accounting for Hire Purchase (Buyer's Books)","icon":"ClipboardCheck",
+"summary":"A corrected worked example with the journal entries, the hire vendor account and treatment of interest, and the solutions to the questions.",
+"keyWords":["Hire vendor account","Interest","Equipment account","Depreciation","Instalment"],
+"sections":[
+{"h":"A correction first","p":["The lesson note's example says cash price ₦200,000, deposit ₦50,000 and 3 yearly payments of ₦50,000 'which include interest'. But 50,000 + 3 × 50,000 = ₦200,000, the same as the cash price, so there is no interest at all. A real hire purchase costs more than the cash price. We therefore use a corrected example."]},
+{"h":"The example","p":["Cash price of equipment ₦200,000. Deposit ₦50,000. Three yearly instalments of ₦60,000. Hire purchase price = 50,000 + 3 × 60,000 = ₦230,000. Interest = 230,000 – 200,000 = ₦30,000 (₦10,000 a year, shared equally for simplicity)."]},
+{"h":"The journal entries","p":["Study the table."],"tbl":{"head":["When","Debit","Credit","₦"],"rows":[["At purchase (at the cash price)","Equipment","Hire vendor","200,000"],["Deposit paid","Hire vendor","Bank","50,000"],["End of year 1: interest","Interest expense","Hire vendor","10,000"],["End of year 1: instalment","Hire vendor","Bank","60,000"],["Year 2: interest","Interest expense","Hire vendor","10,000"],["Year 2: instalment","Hire vendor","Bank","60,000"],["Year 3: interest","Interest expense","Hire vendor","10,000"],["Year 3: instalment","Hire vendor","Bank","60,000"]]}},
+{"h":"The hire vendor account","p":["Balance after purchase: 200,000. After the deposit: 150,000. Year 1: + 10,000 interest = 160,000; – 60,000 = 100,000. Year 2: + 10,000 = 110,000; – 60,000 = 50,000. Year 3: + 10,000 = 60,000; – 60,000 = nil. The account is cleared at the end, and total interest of ₦30,000 has been charged to the Profit and Loss Account over three years. In real life, interest is charged on the unpaid balance each year, so it falls as the balance falls."]},
+{"h":"Depreciation","p":["The buyer treats the equipment as his own asset from the start, and depreciates it on the cash price, for example 20% a year: ₦40,000 a year. Dr Depreciation expense 40,000; Cr Provision for depreciation 40,000."]},
+{"h":"Solutions to the questions","p":["Question 5: hire purchase of ₦120,000 with deposit ₦40,000 and two annual instalments of ₦40,000. The total paid is 40,000 + 80,000 = ₦120,000, the same as the price, so there is no interest. Entries: Dr Equipment 120,000, Cr Hire vendor 120,000; Dr Hire vendor 40,000, Cr Bank 40,000; year 1 and year 2: Dr Hire vendor 40,000, Cr Bank 40,000.","Assignment 3: furniture worth ₦180,000 bought with ₦60,000 down and three yearly instalments, total payments ₦210,000. Interest = 210,000 – 180,000 = ₦30,000. Each instalment = (210,000 – 60,000) ÷ 3 = ₦50,000.","Treatment of interest: the interest is not part of the cost of the asset. It is an expense of each year in which it arises and is charged to the Profit and Loss Account."]}
+],
+"activity":"A buyer buys a machine on hire purchase: cash price ₦120,000; deposit ₦30,000; three yearly instalments of ₦40,000. Find the hire purchase price and the interest and write the entries. (HP price ₦150,000; interest ₦30,000.)",
+"check":[
+{"q":"At purchase the asset is recorded at the","o":["Cash price","Hire purchase price","Deposit","Interest"]},
+{"q":"Interest on hire purchase is charged to the","o":["Profit and loss account","Equipment account","Capital","Drawings"]},
+{"q":"Deposit 50,000 + 3 × 60,000 gives a hire purchase price of","o":["₦230,000","₦180,000","₦200,000","₦110,000"]},
+{"q":"Furniture ₦180,000 with total payments ₦210,000 has interest","o":["₦30,000","₦60,000","₦180,000","₦210,000"]},
+{"q":"The hire vendor account is credited with","o":["Cash price and interest","Deposit only","Depreciation","Drawings"]}
+]},
+
+{"id":"fa23-14","week":8,"title":"Accounting for Instalment Purchases and a Comparison Table","icon":"ClipboardCheck",
+"summary":"The journal entries when ownership passes at once, and a table comparing hire purchase and instalment payment under five headings.",
+"keyWords":["Instalment purchase","Creditor","Interest expense","Ownership","Legal protection"],
+"sections":[
+{"h":"Instalment purchase (buyer's books)","p":["Ownership passes at once, so the asset is recorded at the cash price, and the seller is a creditor. At purchase: Dr Asset account (cash price); Cr Creditor (cash price). Each payment: Dr Creditor; Cr Bank. Interest for the period: Dr Interest expense; Cr Creditor (or Bank, if paid with the instalment). The lesson note says to debit the asset with the 'total price'; it is better to debit the cash price and treat the interest separately, because the interest is a financing cost, not part of the asset."]},
+{"h":"Worked example","p":["A company buys a van for ₦900,000 on instalment: ₦300,000 now, and ₦300,000 at the end of each of the next two years, plus interest of ₦30,000 a year paid with each instalment.","Purchase: Dr Van 900,000; Cr Creditor 900,000. Payment now: Dr Creditor 300,000; Cr Bank 300,000. End of year 1: Dr Creditor 300,000, Dr Interest expense 30,000; Cr Bank 330,000. End of year 2: the same."],"tbl":{"head":["When","Debit","Credit","₦"],"rows":[["Purchase","Van","Creditor","900,000"],["Down payment","Creditor","Bank","300,000"],["End of year 1","Creditor","Bank","300,000"],["End of year 1","Interest expense","Bank","30,000"],["End of year 2","Creditor","Bank","300,000"],["End of year 2","Interest expense","Bank","30,000"]]}},
+{"h":"Comparison table (assignment 2)","p":["Five headings."],"tbl":{"head":["Heading","Hire purchase","Instalment payment"],"rows":[["Ownership","After final payment","At once"],["Default consequence","Seller can repossess the goods","Seller can only sue for the money"],["Payment terms","Deposit and instalments with interest","Agreed instalments, with or without interest"],["Legal protection","Hire purchase laws protect the buyer (for example, rules on repossession)","Ordinary sale of goods law"],["Accounting treatment","Asset at cash price; hire vendor account; interest separate","Asset at cash price; creditor account; interest separate"]]}},
+{"h":"Choosing between them","p":["A buyer with a low income and little trust from sellers may find hire purchase easier. A buyer who wants ownership at once (for example to modify or sell the item) and has good credit may prefer an instalment sale. A seller who fears default prefers hire purchase because the goods can be taken back."]}
+],
+"activity":"Prepare journal entries for a generator bought on instalment for ₦600,000 with ₦200,000 paid at once and the rest in two equal yearly instalments, each with ₦20,000 interest. Compare hire purchase and instalment payment in a table with five headings.",
+"check":[
+{"q":"In an instalment purchase the asset is debited at","o":["The cash price","The deposit","The interest","Zero"]},
+{"q":"The seller in an instalment sale is a","o":["Creditor of the buyer","Debtor of the buyer","Owner of the goods","Auditor"]},
+{"q":"Interest on an instalment purchase is","o":["An expense","An asset","Capital","A refund"]},
+{"q":"On default in an instalment sale the seller can","o":["Sue for payment","Repossess the goods","Cancel ownership","Do nothing"]},
+{"q":"A hire purchase buyer who defaults may lose the goods because","o":["The seller still owns them","The bank owns them","They are free","The law ignores it"]}
+]},
+
+{"id":"fa23-15","week":11,"title":"Third Term Revision: Capital Market, Final Accounts and Hire Purchase","icon":"ClipboardCheck",
+"summary":"A checklist with the formulas and the answers to the main questions of the term.",
+"keyWords":["Revision","Capital market","Final accounts","Hire purchase","Regulation"],
+"sections":[
+{"h":"Checklist","p":["Methods of raising funds: public offer, rights issue, private placement, offer for sale, bonds, IPO, government securities, venture capital. Requirements for access. Benefits of the capital market. Final accounts: trading, profit and loss, balance sheet and adjustments. Regulation: the SEC, NGX, CBN, PenCom, CAC. Hire purchase and instalment payment."]},
+{"h":"Formulas","p":["Gross profit = net sales – cost of goods sold. COGS = opening stock + purchases + carriage inwards – closing stock. Net profit = gross profit + other income – expenses. Closing capital = opening capital + net profit – drawings. Assets = liabilities + capital. Hire purchase price = deposit + instalments. Interest = hire purchase price – cash price."]},
+{"h":"Answers to questions","p":["Trading account question: COGS ₦120,000 and gross profit ₦80,000. The balance sheet assignment does not balance as given (assets ₦210,000, capital side ₦200,000), so change creditors to ₦30,000 to balance. Hire purchase assignment 3: interest ₦30,000, instalments ₦50,000. Question 5: no interest because total paid equals the price."]},
+{"h":"How to revise","p":["Re-do the trading, P&L and balance sheet from the full example without looking. Learn the three methods of raising funds in a table. Draw a chart of the regulators and what each does. Practise the hire vendor account until it clears to nil. Do a past paper in exam time."]}
+],
+"activity":"Complete a past paper on final accounts and one on hire purchase. Mark them honestly and make a list of your three common mistakes.",
+"check":[
+{"q":"COGS = opening stock + purchases + carriage inwards –","o":["Closing stock","Sales","Drawings","Capital"]},
+{"q":"The regulator that approves public offers is the","o":["SEC","CBN","NIPOST","NUC"]},
+{"q":"Hire purchase interest equals","o":["HP price – cash price","Cash price – deposit","Deposit – price","Instalment only"]},
+{"q":"A balance sheet must have","o":["Equal totals on both sides","Bigger assets","Bigger capital","Zero capital"]},
+{"q":"A prospectus is needed for a","o":["Public offer","Private placement only","Cash sale","Bonus of stock"]}
+]}
+]

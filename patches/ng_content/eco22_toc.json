@@ -1,0 +1,148 @@
+[
+    {
+        "id":  "ec22-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Economics Second Term: manufacturing and construction, the regulation of financial markets, international trade, growth and development, and the balance of payments.",
+        "keyWords":  [
+                         "SS2 Economics - Second Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Economics - Second Term",
+                             "p":  [
+                                       "Welcome to SS2 Economics, Second Term. You will study manufacturing and construction, the agencies that regulate banks, insurance and the capital market, why nations trade and who gains, the difference between growth and development, and how a country records its dealings with the world.",
+                                       "Work through each numerical example (opportunity cost, balance of payments) with a pencil. Where the lesson note was out of date or had an error, a correction is explained in the unit."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Economics - Second Term",
+                             "p":  [
+                                       "Here is the plan for the term. Tick each unit when you finish it."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "The Secondary Sector: The Manufacturing Industry"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "The Construction Industry"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Financial Markets and Why They Must Be Regulated"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Types of Regulatory Agencies"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "The Central Bank of Nigeria (CBN)"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "The NDIC and the SEC"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "4",
+                                                          "The NGX, NAICOM and the Ministry of Finance"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "6",
+                                                          "International Trade: Meaning, Importance and Problems"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "6",
+                                                          "Theories of Trade: Absolute and Comparative Advantage"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "Trade Barriers, Non-Tariff Barriers and the WTO"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "8",
+                                                          "Economic Growth and Economic Development"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "8",
+                                                          "Indicators, Obstacles and Strategies for Development"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "9",
+                                                          "The Balance of Payments: Structure and Accounts"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "9",
+                                                          "Causes and Correction of BOP Deficits"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "10",
+                                                          "Second Term Revision: Industry, Regulation, Trade, Development and BOP"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which industries open the term?",
+                          "o":  [
+                                    "Manufacturing and construction",
+                                    "Banking",
+                                    "Oil",
+                                    "Farming"
+                                ]
+                      },
+                      {
+                          "q":  "Where do you study comparative advantage?",
+                          "o":  [
+                                    "International trade units",
+                                    "Fiscal policy units",
+                                    "The oil units",
+                                    "Nowhere"
+                                ]
+                      },
+                      {
+                          "q":  "The term ends with",
+                          "o":  [
+                                    "Revision",
+                                    "Money",
+                                    "Planning",
+                                    "Inflation"
+                                ]
+                      }
+                  ]
+    }
+]

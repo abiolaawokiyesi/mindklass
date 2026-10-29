@@ -1,0 +1,151 @@
+[
+{"id":"fa21-02","week":1,"title":"The Profit and Loss Appropriation Account","icon":"Landmark",
+"summary":"What the appropriation account is, how it differs from the profit and loss account, what goes into it and its format, with a correction on interest on drawings.",
+"keyWords":["Partnership","Appropriation","Interest on capital","Partner's salary","Interest on drawings","Profit-sharing ratio"],
+"sections":[
+{"h":"Where the profit goes","p":["A partnership is a business owned by two or more people. When the year ends, the Profit and Loss Account gives the net profit. But a partnership has a second question: how should this profit be shared among the partners? The Profit and Loss Appropriation Account answers it.","It is a continuation of the Profit and Loss Account. It is prepared only by partnerships (not by sole traders or companies), and it follows the partnership agreement or partnership deed, the written agreement between the partners."]},
+{"h":"Profit and Loss Account compared with Appropriation Account","p":["Study the table."],"tbl":{"head":["Basis","Profit and Loss Account","Profit and Loss Appropriation Account"],"rows":[["Purpose","To find the net profit or net loss","To show how the net profit or loss is shared"],["Prepared by","All kinds of businesses","Partnerships only"],["Items included","Expenses and incomes of the business (rent, wages, discount received)","Partners' salaries, interest on capital, interest on drawings, share of profit"],["Final result","Net profit or net loss","Each partner's share of profit"]]}},
+{"h":"The items in an appropriation account","p":["Net profit: brought down from the Profit and Loss Account. It starts the account on the credit side.","Interest on capital: a reward to each partner for the money he or she put into the business (a percentage of capital). It is an appropriation, not an expense of the business.","Partners' salaries: pay to a partner who works full time in the business, as agreed in the deed.","Interest on drawings: drawings are money or goods the partner takes out of the business. The business charges interest on them to discourage partners from taking too much too early.","Share of remaining profit (or loss): what is left after the above, shared in the agreed profit-sharing ratio, for example 3 : 2."]},
+{"h":"Format and an important correction","p":["The usual format has appropriations on the debit side and the sources of profit on the credit side. The lesson note put interest on drawings on the debit side. That is a mistake. Interest on drawings is an income to the firm taken from the partner, so it goes on the credit side, together with the net profit. It increases the profit to be shared. Interest on capital and salaries are on the debit side because they reduce the profit left to share."],"tbl":{"head":["Dr (appropriations)","₦","Cr (sources)","₦"],"rows":[["Interest on capital: A","xxx","Net profit b/d","xxx"],["Interest on capital: B","xxx","Interest on drawings: A","xxx"],["Partners' salaries: A","xxx","Interest on drawings: B","xxx"],["Partners' salaries: B","xxx","",""],["Share of remaining profit: A","xxx","",""],["Share of remaining profit: B","xxx","",""],["Total","xxx","Total","xxx"]]}},
+{"h":"Reminder about losses","p":["If the business made a net loss, interest on capital and salaries are still paid only if the deed says so; the loss then increases the amount to share. If the deed is silent, the partners share losses in the profit-sharing ratio (and, if nothing is written, equally)."]}
+],
+"activity":"Write out in your own words three differences between the Profit and Loss Account and the Appropriation Account. Explain why interest on drawings is a credit in the appropriation account. Calculate the interest on capital for a partner who put in ₦80,000 at 10% a year (₦8,000).",
+"check":[
+{"q":"The appropriation account is prepared by","o":["Partnerships","Sole traders","Companies","Government"]},
+{"q":"Interest on capital is a","o":["Reward for the capital a partner invested","Penalty for early withdrawal","Business expense for the tax man","Loan to the partner"]},
+{"q":"Interest on drawings is shown on the","o":["Credit side","Debit side with salaries","Balance sheet only","Trading account"]},
+{"q":"The balance left after interest and salaries is shared in the","o":["Profit-sharing ratio","Capital ratio only","Age of the partners","Alphabetical order"]},
+{"q":"A written agreement between partners is the","o":["Partnership deed","Balance sheet","Prospectus","Journal"]}
+]},
+
+{"id":"fa21-03","week":1,"title":"Appropriation Account: Worked Examples","icon":"Landmark",
+"summary":"A fully worked appropriation account and the solution to the assignment, with checking steps.",
+"keyWords":["Interest on capital","Salary","Remaining profit","Ratio","Check total"],
+"sections":[
+{"h":"Example 1","p":["Net profit ₦100,000. Partner A: capital ₦60,000, salary ₦10,000. Partner B: capital ₦40,000, salary ₦8,000. Interest on capital 10% a year. Profit-sharing ratio 3 : 2.","Step 1: interest on capital. A: 10% of 60,000 = 6,000. B: 10% of 40,000 = 4,000. Total 10,000.","Step 2: add the appropriations that come first: salaries 10,000 + 8,000 = 18,000; interest 10,000. Total 28,000.","Step 3: remaining profit = 100,000 – 28,000 = 72,000.","Step 4: share it 3 : 2. A = 3/5 × 72,000 = 43,200. B = 2/5 × 72,000 = 28,800.","Step 5: check: 43,200 + 28,800 = 72,000, and the debit side adds to 100,000, the same as the credit side."],"tbl":{"head":["Dr","₦","Cr","₦"],"rows":[["Salary: A","10,000","Net profit b/d","100,000"],["Salary: B","8,000","",""],["Interest on capital: A","6,000","",""],["Interest on capital: B","4,000","",""],["Share of profit: A (3/5 of 72,000)","43,200","",""],["Share of profit: B (2/5 of 72,000)","28,800","",""],["Total","100,000","Total","100,000"]]}},
+{"h":"Solution to the assignment","p":["Net profit ₦120,000. C: capital ₦50,000, salary ₦12,000. D: capital ₦70,000, salary ₦15,000. Interest 10%. Ratio 2 : 3.","Interest: C = 5,000; D = 7,000; total 12,000. Salaries: 12,000 + 15,000 = 27,000. Remaining profit = 120,000 – 27,000 – 12,000 = 81,000.","Shares: C = 2/5 × 81,000 = 32,400. D = 3/5 × 81,000 = 48,600. Check: 32,400 + 48,600 = 81,000.","Total for each partner (what each partner earns for the year): C = 12,000 + 5,000 + 32,400 = 49,400. D = 15,000 + 7,000 + 48,600 = 70,600. Together 120,000."]},
+{"h":"Example 2: with interest on drawings","p":["Net profit ₦90,000. Interest on drawings: A ₦1,000, B ₦2,000. Interest on capital: A ₦5,000, B ₦3,000. Salary: A ₦6,000. Ratio 1 : 1.","Total available to share = net profit + interest on drawings = 90,000 + 3,000 = 93,000. Take away interest on capital 8,000 and salary 6,000: 93,000 – 14,000 = 79,000. Each partner gets 39,500."]},
+{"h":"Common mistakes","p":["Sharing the whole net profit in the ratio and forgetting salaries and interest. Using the profit-sharing ratio for interest on capital (interest uses each partner's own capital). Putting interest on drawings on the debit side. Not checking that both sides add to the same total."]}
+],
+"activity":"Prepare the appropriation account for: net profit ₦150,000; X capital ₦100,000, Y capital ₦50,000; interest on capital 8%; salary to Y ₦20,000; ratio 3 : 1. (Interest X 8,000, Y 4,000; remaining 150,000 – 20,000 – 12,000 = 118,000; X 88,500, Y 29,500.)",
+"check":[
+{"q":"Net profit ₦100,000, salaries ₦18,000, interest ₦10,000. The remaining profit is","o":["₦72,000","₦82,000","₦90,000","₦28,000"]},
+{"q":"Remaining profit ₦72,000 shared 3 : 2 gives A","o":["₦43,200","₦28,800","₦36,000","₦48,000"]},
+{"q":"Interest on capital of ₦50,000 at 10% is","o":["₦5,000","₦500","₦50,000","₦10,000"]},
+{"q":"The two sides of the appropriation account must","o":["Add to the same total","Be different","Show zero","Show the balance sheet"]},
+{"q":"Interest on drawings makes the profit to share","o":["Bigger","Smaller","Zero","Unchanged"]}
+]},
+
+{"id":"fa21-04","week":2,"title":"Partnership Capital Accounts: Fixed and Fluctuating","icon":"BarChart2",
+"summary":"The meaning of a capital account and the two systems: fixed capital (with a current account) and fluctuating capital (everything in one account).",
+"keyWords":["Capital account","Fixed capital","Fluctuating capital","Drawings","Balance c/d"],
+"sections":[
+{"h":"What is a capital account?","p":["Each partner has a capital account. It shows how much the partner has put into the business. Depending on the system used, it may also show drawings, interest, salary and the share of profit."]},
+{"h":"Two systems","p":["Study the table."],"tbl":{"head":["Method","How it works"],"rows":[["Fixed capital","The capital stays the same year after year (it changes only if the partners agree to add or withdraw capital). Everything else (drawings, interest, salary, profit share) goes into a separate current account."],["Fluctuating capital","All transactions (drawings, interest, salary, profit share) go in the capital account itself, so the balance changes every year. There is no current account."]]}},
+{"h":"The fixed capital account","p":["Because only capital is recorded, it is a very short account: the capital introduced is on the credit side. The balance stays the same and is brought down on the first day of the next period."],"tbl":{"head":["Dr","₦","Cr","₦"],"rows":[["","","Capital introduced","xxxx"],["Balance c/d","xxxx","",""]]}},
+{"h":"The fluctuating capital account","p":["Credit side (it increases the partner's capital): capital introduced; interest on capital; partner's salary; share of profit. Debit side (it reduces capital): drawings; interest on drawings; share of any loss. The balance carried down is the partner's capital at the end of the year."],"tbl":{"head":["Dr","₦","Cr","₦"],"rows":[["Drawings","xxxx","Capital introduced / balance b/d","xxxx"],["Interest on drawings","xxxx","Interest on capital","xxxx"],["Balance c/d","xxxx","Salary","xxxx"],["","","Share of profit","xxxx"],["Total","xxxx","Total","xxxx"]]}},
+{"h":"Which method is better?","p":["Fixed capital shows the true amount invested, and the current account shows the partner's dealings with the business, so it is clearer; it is the method most used. Fluctuating capital is simpler (one account), but the real capital is mixed up with profits and drawings."]}
+],
+"activity":"List three items you would find on the credit side and three on the debit side of a fluctuating capital account. Explain why a partnership using fixed capital must also keep a current account.",
+"check":[
+{"q":"Under fixed capital, drawings are recorded in the","o":["Current account","Capital account","Trading account","Cash book only"]},
+{"q":"Under the fluctuating method, the capital account balance","o":["Changes often","Never changes","Is always zero","Is always debit"]},
+{"q":"Which is on the credit side of a fluctuating capital account?","o":["Interest on capital","Drawings","Interest on drawings","Share of loss"]},
+{"q":"Which is on the debit side of a fluctuating capital account?","o":["Drawings","Salary","Share of profit","Interest on capital"]},
+{"q":"Capital introduced is","o":["Credited to the partner's capital account","Debited to the capital account","Shown in the trading account","Ignored"]}
+]},
+
+{"id":"fa21-05","week":2,"title":"Capital Accounts: Worked Examples","icon":"BarChart2",
+"summary":"Worked fixed and fluctuating capital accounts, and the solution to the assignment.",
+"keyWords":["Capital introduced","Closing balance","Total","Balance c/d","Balance b/d"],
+"sections":[
+{"h":"Example 1: fixed capital","p":["Partner A capital ₦100,000 and partner B ₦80,000. Each account simply has the capital on the credit side and a balance of the same amount carried down."],"tbl":{"head":["Partner","Capital account entry","₦"],"rows":[["A","Cr Capital introduced","100,000"],["B","Cr Capital introduced","80,000"]]}},
+{"h":"Example 2: fluctuating capital","p":["Capital introduced ₦60,000; drawings ₦10,000; salary ₦12,000; interest on capital ₦6,000; share of profit ₦20,000.","Credit side total: 60,000 + 6,000 + 12,000 + 20,000 = 98,000. Debit side: drawings 10,000 and the balance c/d. Balance c/d = 98,000 – 10,000 = 88,000. Both sides total ₦98,000."],"tbl":{"head":["Dr","₦","Cr","₦"],"rows":[["Drawings","10,000","Capital introduced","60,000"],["Balance c/d","88,000","Interest on capital","6,000"],["","","Salary","12,000"],["","","Share of profit","20,000"],["Total","98,000","Total","98,000"]]}},
+{"h":"Solution to the assignment (Partner C)","p":["Capital introduced ₦90,000; interest on capital ₦9,000; salary ₦15,000; share of profit ₦18,000; drawings ₦20,000.","Credit total = 90,000 + 9,000 + 15,000 + 18,000 = 132,000. Closing balance = 132,000 – 20,000 = ₦112,000 (a credit balance, the capital the firm owes C)."]},
+{"h":"Tip for any capital or current account","p":["Add up the side that has more items, put the same total on both sides, and the difference is the balance carried down (balance c/d) on the lighter side. The next period begins with the same balance brought down (balance b/d) on the opposite side."]}
+],
+"activity":"Prepare a fluctuating capital account: capital ₦50,000; drawings ₦8,000; interest on capital ₦5,000; salary ₦6,000; share of profit ₦12,000. (Credits 73,000, balance c/d 65,000.)",
+"check":[
+{"q":"Credits 98,000 and drawings 10,000 give a balance c/d of","o":["₦88,000","₦108,000","₦98,000","₦10,000"]},
+{"q":"Closing balance of Partner C in the assignment is","o":["₦112,000","₦132,000","₦92,000","₦20,000"]},
+{"q":"The balance carried down is shown on the","o":["Lighter side","Heavier side","Both sides","Neither side"]},
+{"q":"Balance b/d appears","o":["At the start of the next period","At the end of the period","Only in the trading account","Never"]},
+{"q":"In the fixed capital method, the capital account only shows","o":["Capital introduced or withdrawn","Drawings","Salaries","Profit shares"]}
+]},
+
+{"id":"fa21-06","week":3,"title":"The Partnership Current Account","icon":"ClipboardCheck",
+"summary":"Why a current account is kept, its debit and credit items, its format, and what a debit or credit balance means.",
+"keyWords":["Current account","Drawings","Interest on capital","Salary","Credit balance","Debit balance"],
+"sections":[
+{"h":"Why do we need a current account?","p":["In a partnership, apart from the capital that each partner invests, partners take money out (drawings), earn salaries and interest, and share profits. Where are those things recorded? When fixed capital is used, in a current account, so that the capital account stays steady. It is kept only when partners use the fixed capital method."]},
+{"h":"Purposes and features","p":["Purposes: to record regular dealings between the partner and the firm (drawings, interest on drawings, interest on capital, salary, profit share); to keep the capital account fixed; to show how much the firm owes the partner or the partner owes the firm.","Features: every partner has a separate current account; it may have a credit or a debit balance; it is updated regularly, usually at the end of the period."]},
+{"h":"What goes on which side","p":["Credit side (increases what the firm owes the partner): interest on capital; partner's salary or commission; share of profit. Debit side (reduces it): drawings; interest on drawings; share of loss. Remember: the credit side is 'what the partner earns' and the debit side is 'what the partner has taken or been charged'."],"tbl":{"head":["Dr","₦","Cr","₦"],"rows":[["Drawings","xxxx","Balance b/d (if credit)","xxxx"],["Interest on drawings","xxxx","Interest on capital","xxxx"],["Share of loss","xxxx","Salary","xxxx"],["Balance c/d","xxxx","Share of profit","xxxx"],["Total","xxxx","Total","xxxx"]]}},
+{"h":"The closing balance","p":["Credit balance: the firm owes the partner (the partner earned more than he or she took out). It is added to the partner's capital on the balance sheet. Debit balance: the partner owes the firm (took out more than earned). It is deducted from the partner's capital on the balance sheet (the lesson note's phrase 'added to the capital account' applies when the balance is a credit)."]},
+{"h":"Why separate it from capital?","p":["Capital is a long-term investment. The partner's day-to-day dealings change every year. Keeping them in separate accounts makes it clear how much capital each partner has put in, and what the partner has earned and drawn."]}
+],
+"activity":"State two items on the debit side and two on the credit side of a current account. Say why a current account is kept separately from capital. In a partnership, what does a debit balance on a partner's current account mean?",
+"check":[
+{"q":"A current account is kept when partners use","o":["Fixed capital","Fluctuating capital","No capital","Sole trader capital"]},
+{"q":"Which is on the debit side?","o":["Drawings","Salary","Interest on capital","Share of profit"]},
+{"q":"A credit balance on a current account means the","o":["Firm owes the partner","Partner owes the firm","Partner has left","Account is closed"]},
+{"q":"Which is on the credit side?","o":["Share of profit","Drawings","Interest on drawings","Share of loss"]},
+{"q":"Each partner has","o":["A separate current account","One shared account","No account","Only a capital account"]}
+]},
+
+{"id":"fa21-07","week":3,"title":"Current Account: Worked Examples and Solutions","icon":"ClipboardCheck",
+"summary":"A worked current account, the solutions to both assignments, and how capital and current accounts fit together.",
+"keyWords":["Balance c/d","Credit balance","Total","Fixed capital","Closing balance"],
+"sections":[
+{"h":"Example","p":["Partner A: drawings ₦10,000; interest on drawings ₦500; interest on capital ₦6,000; salary ₦12,000; share of profit ₦20,000.","Credit total: 6,000 + 12,000 + 20,000 = 38,000. Debit: drawings 10,000 + interest on drawings 500 = 10,500; balance c/d = 38,000 – 10,500 = 27,500 (a credit balance)."],"tbl":{"head":["Dr","₦","Cr","₦"],"rows":[["Drawings","10,000","Interest on capital","6,000"],["Interest on drawings","500","Salary","12,000"],["Balance c/d","27,500","Share of profit","20,000"],["Total","38,000","Total","38,000"]]}},
+{"h":"Assignment: Partner B (Week 3)","p":["Drawings 8,000; interest on drawings 400; interest on capital 4,000; salary 10,000; share of profit 15,000.","Credits: 4,000 + 10,000 + 15,000 = 29,000. Debits: 8,000 + 400 = 8,400. Balance c/d = 29,000 – 8,400 = ₦20,600. It is a credit balance (the firm owes B ₦20,600)."]},
+{"h":"Assignment: Partner B (Week 4)","p":["Interest on capital 10,000; salary 5,000; drawings 7,000; interest on drawings 1,000; share of profit 12,000.","Credits: 10,000 + 5,000 + 12,000 = 27,000. Debits: 7,000 + 1,000 = 8,000. Balance c/d = 27,000 – 8,000 = ₦19,000 credit balance."]},
+{"h":"How capital and current accounts fit together","p":["Fixed capital: the capital account shows only the capital introduced (or later changes agreed by the partners). All other dealings go into the current account. At the end of the year, a partner's balance sheet figure is capital + credit balance on the current account (or capital – debit balance).","Fluctuating capital: one account does everything and there is no current account.","Balance sheet example: A's capital ₦100,000 (fixed) and current account credit ₦27,500 give a total interest of ₦127,500 in the firm."]},
+{"h":"Effects in one line","p":["Drawings: debit, reduces the balance. Interest on capital: credit, increases it. Interest on drawings: debit, reduces it. Salary: credit. Profit share: credit. Loss share: debit."]}
+],
+"activity":"Prepare a current account for Partner D: drawings ₦9,000; interest on drawings ₦450; interest on capital ₦3,000; salary ₦8,000; share of profit ₦10,000. Show whether the balance is debit or credit. (Credits 21,000; debits 9,450; balance c/d 11,550 credit.)",
+"check":[
+{"q":"Credits 38,000 and debits 10,500 give a balance c/d of","o":["₦27,500","₦48,500","₦10,500","₦38,000"]},
+{"q":"A closing balance of ₦20,600 on the credit side means","o":["The firm owes the partner ₦20,600","The partner owes ₦20,600","Capital is ₦20,600","Drawings are ₦20,600"]},
+{"q":"A partner's total interest = fixed capital 100,000 + credit current account 27,500 =","o":["₦127,500","₦72,500","₦100,000","₦27,500"]},
+{"q":"Interest on drawings is","o":["Debited to the current account","Credited to the current account","A salary","Capital introduced"]},
+{"q":"A debit balance on the current account is","o":["Deducted from capital on the balance sheet","Added to capital","Ignored","Added to profit"]}
+]},
+
+{"id":"fa21-08","week":6,"title":"Admission of a New Partner: Reasons and Revaluation","icon":"Users",
+"summary":"Why a new partner is admitted and how assets and liabilities are revalued before admission, with the revaluation account.",
+"keyWords":["New partner","Revaluation account","Old partners","Old ratio","Capital contribution"],
+"sections":[
+{"h":"Why admit a new partner?","p":["To bring in more capital for expansion or to pay debts. To bring in new skills, ideas or contacts. To share the work and management. To replace a partner who has retired or died. To improve the firm's credit standing or to reach new customers.","Admitting a partner changes the partnership: a new profit-sharing ratio, possibly a revaluation of assets and liabilities, and goodwill must be dealt with. In law, the old partnership ends and a new one begins, so the partners must agree on all these terms."]},
+{"h":"Why revalue assets and liabilities?","p":["Before the new partner joins, the old partners may revalue the assets and liabilities so that their values are fair (current market values). This ensures that the old partners get the benefit (or bear the loss) of any increase or decrease up to the date of admission, and that the new partner does not gain from undervalued assets or lose from overvalued ones."]},
+{"h":"The revaluation account","p":["It records the changes in values. Debit side (losses): decreases in assets and increases in liabilities. Credit side (gains): increases in assets and decreases in liabilities. The balance is the profit or loss on revaluation. It is shared by the old partners only, in their old profit-sharing ratio.","Profit on revaluation: debit Revaluation Account, credit old partners' capital accounts. Loss on revaluation: debit old partners' capital accounts, credit Revaluation Account."],"tbl":{"head":["Dr (losses)","₦","Cr (gains)","₦"],"rows":[["Decrease in assets","xxxx","Increase in assets","xxxx"],["Increase in liabilities","xxxx","Decrease in liabilities","xxxx"],["Profit on revaluation to old partners (balancing figure)","xxxx","",""],["Total","xxxx","Total","xxxx"]]}},
+{"h":"Worked example","p":["A and B share profits 3 : 2. Before C joins, land worth ₦400,000 is revalued at ₦500,000 and stock of ₦80,000 is written down to ₦70,000.","Gain on land: 100,000 (credit). Loss on stock: 10,000 (debit). Net profit on revaluation = 90,000. Shared in the old ratio 3 : 2: A = ₦54,000; B = ₦36,000.","Entries: Dr Land 100,000, Cr Revaluation 100,000. Dr Revaluation 10,000, Cr Stock 10,000. Dr Revaluation 90,000, Cr A's capital 54,000 and B's capital 36,000."]}
+],
+"activity":"List three reasons for admitting a new partner. Explain what a revaluation account does and who shares the profit or loss on revaluation. A and B (ratio 1 : 1) revalue a building up by ₦60,000 and equipment down by ₦20,000: find each partner's share of the profit (₦20,000 each).",
+"check":[
+{"q":"The profit on revaluation is shared by the","o":["Old partners in the old ratio","New partner only","All partners equally always","Bank"]},
+{"q":"An increase in the value of an asset is","o":["Credited to the revaluation account","Debited to the revaluation account","Shown in the cash book","Ignored"]},
+{"q":"A decrease in an asset is","o":["Debited to the revaluation account","Credited to it","Credited to capital","A gain"]},
+{"q":"A reason for admitting a new partner is","o":["To bring in more capital","To pay no tax","To close the business","To remove the deed"]},
+{"q":"The revaluation is done","o":["Before the new partner is admitted","After the new partner leaves","Never","Only by the new partner"]}
+]},
+
+{"id":"fa21-09","week":6,"title":"Goodwill: Meaning and Treatment","icon":"Landmark",
+"summary":"What goodwill is, why a new partner must pay for it and the three treatments: cash brought in, raised in the books, and raised then written off.",
+"keyWords":["Goodwill","Premium","Sacrificing ratio","Goodwill account","Write off"],
+"sections":[
+{"h":"What is goodwill?","p":["Goodwill is the extra value of a business because of its good name, regular customers, good location and skilled staff, which makes it earn more profit than other businesses of the same kind. It is an intangible asset (you cannot touch it). When a new partner joins, he or she will share in this extra profit in the future, so he or she must pay the old partners for it."]},
+{"h":"The sacrificing ratio","p":["Old partners give up some of their share of profit to the new partner. The share given up is the sacrifice. Sacrificing ratio = old ratio – new ratio for each old partner. Goodwill paid by the new partner is shared among the old partners in the sacrificing ratio."]},
+{"h":"Treatment 1: goodwill brought in cash by the new partner","p":["The new partner pays a premium (extra) for goodwill in cash, and it is credited to the old partners' capital accounts in their sacrificing ratio. Entry: Dr Bank, Cr Old partners' capital accounts."]},
+{"h":"Treatment 2: goodwill raised in the books","p":["The business raises goodwill as an asset (Dr Goodwill account) and credits the old partners' capital accounts, in their old ratio, because the goodwill was earned while they alone owned the business. Entry: Dr Goodwill, Cr Old partners' capital accounts (old ratio)."]},
+{"h":"Treatment 3: goodwill raised and immediately written off","p":["Under accounting rules, internally generated goodwill is not normally kept as an asset. So it is first raised (as above) and then written off at once against all the partners' capital accounts, including the new partner's, in the new profit-sharing ratio. Entry 1: Dr Goodwill, Cr Old partners' capital (old ratio). Entry 2: Dr All partners' capital (new ratio), Cr Goodwill. The old partners are compensated, because they receive the credit in the old ratio and bear only their part of the write-off."]},
+{"h":"A note on the old 'certainly' line","p":["The lesson note contains a stray sentence ('Certainly! Below is the structured journal format...') that is not part of the lesson; ignore it. Both journals above are the correct forms."]}
+],
+"activity":"Define goodwill. Explain the sacrificing ratio. State two methods of treating goodwill when a new partner is admitted and give the journal entry for each.",
+"check":[
+{"q":"Goodwill is","o":["An intangible asset","A bank loan","Stock","A tax"]},
+{"q":"Goodwill brought in cash is shared by the old partners in the","o":["Sacrificing ratio","New ratio","Capital ratio","Equal shares always"]},
+{"q":"When goodwill is raised, the credit goes to the","o":["Old partners' capital accounts","New partner's capital only","Bank","Trading account"]},
+{"q":"When goodwill is written off, it is shared by","o":["All partners in the new ratio","Old partners only","New partner only","The bank"]},
+{"q":"Sacrificing ratio equals","o":["Old ratio – new ratio","New ratio – old ratio","Capital ratio","Profit ratio"]}
+]}
+]

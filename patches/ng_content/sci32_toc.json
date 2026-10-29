@@ -1,0 +1,158 @@
+[
+    {
+        "id":  "sc32-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Living things and matter: the cell, tissues and organs, heredity, adaptation, atoms and molecules, changes in matter, water and air, and microorganisms and diseases.",
+        "keyWords":  [
+                         "JSS 3 Intermediate Science Second Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to JSS 3 Intermediate Science Second Term",
+                             "p":  [
+                                       "Welcome to JSS 3 Intermediate Science for the second term. You will study cells, tissues and organs, heredity and variation, adaptation, atoms and molecules, physical and chemical changes, water and air, and microorganisms and disease.",
+                                       "Each unit has an activity and check questions, with diagrams and worked examples. Corrections to the lesson note are explained where they occur."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for JSS 3 Intermediate Science Second Term",
+                             "p":  [
+                                       "The units below follow the school scheme of work week by week."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "The Cell and the Cell Theory"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Cell Organelles and Their Functions"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "1",
+                                                          "Plant Cells and Animal Cells Compared, and Using a Microscope"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Levels of Organisation and Tissues"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "2",
+                                                          "Organs, Organ Systems and Coordination"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Heredity: Genes, Inherited and Acquired Traits"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "3",
+                                                          "Variation and Simple Genetic Inheritance"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "Adaptation: Habitat and Structural Adaptations"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "4",
+                                                          "Behavioural and Functional Adaptations, and Why Adaptation Matters"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "Atoms and Molecules"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "6",
+                                                          "Chemical Symbols, Formulae and Simple Equations"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "8",
+                                                          "Physical and Chemical Changes"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "9",
+                                                          "Water: Composition, Uses and Purification"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "9",
+                                                          "Air: Composition, Uses and Air Pressure"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "10",
+                                                          "Microorganisms and Pathogens"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "10",
+                                                          "Disease Transmission, Vaccination and Hygiene"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "11",
+                                                          "Second Term Revision: Cells to Diseases"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic comes first in second term?",
+                          "o":  [
+                                    "The cell",
+                                    "Machines",
+                                    "Climate change",
+                                    "Energy transformation"
+                                ]
+                      },
+                      {
+                          "q":  "How many options does each check question have?",
+                          "o":  [
+                                    "Four",
+                                    "Two",
+                                    "Six",
+                                    "One"
+                                ]
+                      },
+                      {
+                          "q":  "A good study habit is to",
+                          "o":  [
+                                    "Draw and label the diagrams yourself",
+                                    "Ignore them",
+                                    "Copy only",
+                                    "Skip experiments"
+                                ]
+                      }
+                  ]
+    }
+]

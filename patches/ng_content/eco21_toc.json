@@ -1,0 +1,168 @@
+[
+    {
+        "id":  "ec21-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Economics First Term: fiscal policy and budgets, national income, money, inflation, lessons from other countries, human capital and petroleum.",
+        "keyWords":  [
+                         "SS2 Economics - First Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Economics - First Term",
+                             "p":  [
+                                       "Welcome to SS2 Economics, First Term. You will learn how governments use taxes and spending to steer the economy, how a country measures its income, why we hold money and how the central bank controls it, what causes inflation, what Nigeria can learn from other countries, and how oil shapes the economy.",
+                                       "Work every calculation with a pencil and draw the diagrams. Where the original lesson note needed a correction or an update, it is explained in the unit."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Economics - First Term",
+                             "p":  [
+                                       "Here is the plan for the term. Tick each unit when you finish it."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Fiscal Policy: Meaning and Tools"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Objectives and Limitations of Fiscal Policy"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "The Budget: Balanced, Surplus and Deficit"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Effects, Advantages and Disadvantages of Each Budget Type"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "National Income Accounting: GDP, GNP, NNP, NI, PI and DI"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Three Ways of Measuring National Income"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "3",
+                                                          "Uses and Limitations of National Income Data"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "Money and the Demand for Money (Keynes\u0027s Liquidity Preference)"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "4",
+                                                          "The Speculative Demand for Money and Bond Prices"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "4",
+                                                          "The Supply of Money and the Tools of the Central Bank"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "6",
+                                                          "Inflation: Meaning and Types"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "6",
+                                                          "Effects and Control of Inflation"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "6",
+                                                          "Deflation and Stagflation"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "8",
+                                                          "Economic Lessons from the Asian Tigers and Japan"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "8",
+                                                          "Lessons from Europe and America, and What Nigeria Can Learn"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "9",
+                                                          "Human Capital Development"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "10",
+                                                          "Petroleum and the Nigerian Economy: History and Contributions"
+                                                      ],
+                                                      [
+                                                          "19",
+                                                          "10",
+                                                          "Dutch Disease, Oil Dependence and Diversification"
+                                                      ],
+                                                      [
+                                                          "20",
+                                                          "11",
+                                                          "First Term Revision: Fiscal Policy to Oil"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic opens the term?",
+                          "o":  [
+                                    "Fiscal policy",
+                                    "Manufacturing",
+                                    "Economic planning",
+                                    "Balance of payments"
+                                ]
+                      },
+                      {
+                          "q":  "Where do you learn about the demand for money?",
+                          "o":  [
+                                    "The units on Keynes and money",
+                                    "The oil units",
+                                    "The development units",
+                                    "Nowhere"
+                                ]
+                      },
+                      {
+                          "q":  "The term ends with",
+                          "o":  [
+                                    "Revision",
+                                    "A new topic on trade",
+                                    "Planning",
+                                    "Reforms"
+                                ]
+                      }
+                  ]
+    }
+]

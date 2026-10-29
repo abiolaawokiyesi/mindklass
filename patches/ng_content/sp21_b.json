@@ -1,0 +1,184 @@
+[
+{"id":"sp21-11","week":4,"title":"The Human Eye: Structure and Image Formation","icon":"Camera",
+"summary":"The parts of the eye and their functions, how the eye forms an image, and a comparison with a camera.",
+"keyWords":["Cornea","Iris","Pupil","Lens","Retina","Optic nerve","Aqueous humour","Vitreous humour"],
+"sections":[
+{"h":"A natural optical instrument","p":["The eye detects light and changes it into electrical signals that are sent to the brain."],"img":{"src":"phy2-eye.jpg","alt":"A section of the human eye with the cornea, iris, lens, aqueous humour, vitreous humour, retina, choroid, fovea, sclera, suspensory ligaments and optic nerve labelled","cap":"The structure of the human eye."}},
+{"h":"Parts and functions","p":["Study the table."],"tbl":{"head":["Part","Function"],"rows":[["Cornea","Transparent front layer; does most of the bending of light into the eye"],["Iris","Coloured part that controls the size of the pupil and so the amount of light entering"],["Pupil","The opening in the centre of the iris through which light enters"],["Lens","Transparent, flexible convex lens that focuses light on the retina"],["Ciliary muscles","Change the curvature of the lens to focus on near or far objects (accommodation)"],["Retina","Light-sensitive layer with rods (dim light) and cones (colour); changes light into electrical impulses"],["Optic nerve","Carries the impulses from the retina to the brain"],["Aqueous humour","Watery fluid between the cornea and the lens; keeps the pressure and feeds the eye"],["Vitreous humour","Jelly-like substance between the lens and the retina; keeps the eyeball in shape"],["Sclera","The white, tough outer layer that protects the eye"],["Choroid","Dark, blood-rich layer under the retina; absorbs stray light and feeds the retina"]]}},
+{"h":"How the eye forms an image","p":["Light from an object enters through the cornea, passes through the aqueous humour, pupil, lens and vitreous humour, and falls on the retina. The cornea and lens together converge the rays to form a real, inverted and diminished image on the retina. The retina changes it into electrical signals carried by the optic nerve to the brain, which interprets the image as upright. The light is bent most at the cornea; the lens does the fine focusing."]},
+{"h":"The pupil reflex","p":["In bright light the iris makes the pupil smaller to protect the retina; in dim light it makes the pupil larger to let in more light."]},
+{"h":"The eye and the camera","p":["Study the table."],"tbl":{"head":["Feature","Human eye","Camera"],"rows":[["Image-forming part","Lens (and cornea)","Camera lens"],["Light-sensitive surface","Retina","Film or digital sensor"],["Control of light","Iris and pupil","Diaphragm and aperture"],["Focusing","Ciliary muscles change the shape of the lens","The lens is moved towards or away from the sensor"],["Protection","Eyelids and tears","Casing and lens cap"]]}}
+],
+"activity":"List five parts of the eye with their functions. Explain how the eye forms an image. Give two differences between the eye and a camera.",
+"check":[
+{"q":"The part that controls the amount of light entering the eye is the","o":["Iris","Retina","Cornea","Lens"]},
+{"q":"The image formed on the retina is","o":["Real, inverted and diminished","Virtual and erect","Real and enlarged","Virtual and inverted"]},
+{"q":"The light-sensitive layer is the","o":["Retina","Sclera","Cornea","Choroid"]},
+{"q":"The optic nerve carries impulses to the","o":["Brain","Lens","Iris","Heart"]},
+{"q":"The camera's 'retina' is the","o":["Film or sensor","Lens cap","Flash","Case"]}
+]},
+
+{"id":"sp21-12","week":4,"title":"Accommodation, Defects of Vision and Care of the Eyes","icon":"Camera",
+"summary":"How the eye focuses on near and far objects, the defects of vision and how lenses correct them, with worked answers to the past questions.",
+"keyWords":["Accommodation","Myopia","Hypermetropia","Astigmatism","Presbyopia","Cataract","Colour blindness"],
+"sections":[
+{"h":"Accommodation","p":["Accommodation is the ability of the eye to change the focal length of its lens so that it can focus on near or distant objects. Near object: the ciliary muscles contract, the suspensory ligaments slacken, and the lens becomes thicker and more convex (shorter focal length). Distant object: the ciliary muscles relax, the ligaments pull the lens flatter (longer focal length)."]},
+{"h":"Defects of vision and their correction","p":["Study the table."],"tbl":{"head":["Defect","What happens","Cause","Correction"],"rows":[["Short-sightedness (myopia)","Near objects are clear, distant ones blurred; the image forms in front of the retina","Eyeball too long, or lens too curved","Concave (diverging) lens"],["Long-sightedness (hypermetropia)","Distant objects are clear, near ones blurred; the image forms behind the retina","Eyeball too short, or lens too flat","Convex (converging) lens"],["Astigmatism","Blurred or distorted vision at all distances","Irregular curve of the cornea or lens","Cylindrical lens"],["Presbyopia","Difficulty focusing on near objects with age","Weakening of the ciliary muscles and stiffer lens","Bifocal lenses or reading glasses"],["Cataract","Cloudy lens, blurred vision","Ageing, injury, diabetes","Surgery to replace the lens"],["Colour blindness","Cannot tell some colours apart","Inherited fault in cone cells","No full cure; colour filters can help"]]}},
+{"h":"How the lenses work","p":["A concave lens spreads the rays out slightly before they enter the eye, so that a short-sighted eye brings them to a focus further back, on the retina. A convex lens makes the rays converge a little before entering, so that a long-sighted eye can focus them on the retina."]},
+{"h":"Care of the eyes","p":["Do not read in dim light. Never look directly at the sun or at lasers. See an optometrist regularly. Eat foods rich in vitamin A (carrots, spinach, palm oil, liver). Limit screen time and rest your eyes. Wear protective goggles when needed (in the laboratory, welding or grinding). Keep your hands clean to prevent eye infections."]},
+{"h":"Answers to the exam questions","p":["The part controlling the light entering the eye: the iris (C). The defect caused by an eyeball that is too long: short-sightedness (C). Defect corrected by a concave lens: myopia, because the lens diverges the rays so that the image falls on the retina instead of in front of it. A lens for long-sightedness: convex, because it converges the rays so that the image falls on the retina instead of behind it. Astigmatism: corrected with cylindrical lenses that compensate for the uneven curvature of the cornea."]}
+],
+"activity":"Explain how the eye accommodates to focus on near and far objects. State the defect corrected by a concave lens and how it works. Describe a lens correction for astigmatism.",
+"check":[
+{"q":"To see a near object the ciliary muscles","o":["Contract","Relax","Stop","Break"]},
+{"q":"Short-sightedness is corrected by a","o":["Concave lens","Convex lens","Plane mirror","Cylindrical lens"]},
+{"q":"Long-sightedness is caused by an eyeball that is","o":["Too short","Too long","Square","Cloudy"]},
+{"q":"Clouding of the lens is","o":["Cataract","Astigmatism","Myopia","Colour blindness"]},
+{"q":"A vitamin that helps the eyes is","o":["Vitamin A","Vitamin K","Vitamin B12 only","Vitamin D only"]}
+]},
+
+{"id":"sp21-13","week":6,"title":"Applications of Sound Waves (1): Medicine, Communication and Industry","icon":"Volume2",
+"summary":"The properties of sound used in technology, and its applications in medicine, communication and industry.",
+"keyWords":["Ultrasound","Sonography","Lithotripsy","Microphone","Loudspeaker","Non-destructive testing"],
+"sections":[
+{"h":"Properties that make applications possible","p":["Reflection (echoes) is used in sonar and echolocation. Refraction is used in focusing sound. Diffraction explains how sound spreads from loudspeakers. Interference is used in noise-cancelling headphones. Frequency decides whether sound is audible, ultrasonic or infrasonic. Amplitude and intensity decide loudness and are measured by alarms and sound-level meters."]},
+{"h":"1. Medicine","p":["Diagnostic ultrasound (sonography): sound above 20 kHz (in practice 1 to 20 MHz) is directed into the body, and echoes from tissues of different density are recorded to make an image of the foetus, liver, kidneys or heart. Advantages: safe (it does not use ionising radiation), real-time and painless. Limits: it cannot pass through bones or gas-filled organs.","Therapeutic ultrasound: used in physiotherapy to treat muscle injuries and pain; the vibrations produce gentle heat in tissue. High-intensity focused ultrasound breaks up kidney stones (lithotripsy)."]},
+{"h":"2. Communication","p":["Microphones change sound (mechanical waves) into electrical signals; loudspeakers do the reverse. They are used in phones, public address systems, radios and hearing aids. In telephony, speech is changed into electrical (and then radio) signals for long-distance transmission, as in GSM networks. Voice assistants such as Siri, Alexa and Google Assistant use microphones and software to recognise speech."]},
+{"h":"3. Industry and engineering","p":["Ultrasonic cleaning: high-frequency vibrations in a liquid shake dirt off jewellery, watches and circuit boards. Non-destructive testing (NDT): ultrasonic pulses detect cracks inside aircraft parts, pipelines and bridges; a crack reflects the pulse back sooner. Ultrasonic welding joins plastics and thin metals."]},
+{"h":"4. Music and entertainment","p":["Musical instruments: strings (violin, guitar), air columns (flute, trumpet) and membranes (drums) produce sound by vibration. In studios, microphones, speakers and equalisers adjust the amplitude and frequency to improve sound quality."]},
+{"h":"5. Security","p":["Ultrasonic motion detectors send out sound and sense changes in the reflected pattern when something moves. Burglar alarms with sound sensors can react to particular sounds, for example breaking glass."]}
+],
+"activity":"Explain how ultrasound is used in medical imaging and give one limitation. State how ultrasound can find a crack in a metal part. Name two uses of ultrasound in industry.",
+"check":[
+{"q":"Ultrasound has a frequency","o":["Above 20,000 Hz","Below 20 Hz","Of exactly 20 Hz","Of zero"]},
+{"q":"Medical ultrasound is useful because it is","o":["Safe and non-ionising","Radioactive","Invisible light","Slow"]},
+{"q":"A microphone changes","o":["Sound into electrical signals","Light into sound","Heat into sound","Electricity into light"]},
+{"q":"Ultrasound can detect","o":["Cracks in metal","Gold only","Weather","Colour"]},
+{"q":"Lithotripsy breaks up","o":["Kidney stones","Bones","Teeth","Blood"]}
+]},
+
+{"id":"sp21-14","week":6,"title":"Applications of Sound Waves (2): Nature, Seismology, Sonar and Limits","icon":"Volume2",
+"summary":"Echolocation, animal communication, seismic waves, how sonar finds depth and distance, the difference between radar and sonar, and the limits of sound technology.",
+"keyWords":["Echolocation","Seismic waves","Sonar","Radar","Depth finding","Limitations"],
+"sections":[
+{"h":"Nature and biology","p":["Echolocation: bats, dolphins, whales and some birds send out ultrasonic sounds and listen to the returning echoes to avoid obstacles, find prey and move in the dark. Animal communication: elephants use infrasound that travels long distances; many animals detect thunder or the movement of predators."]},
+{"h":"Seismology","p":["Seismic waves are vibrations that travel through the Earth after an earthquake or an explosion. They are mechanical waves like sound, but they are not simply 'sound waves' (some are transverse, and they are mostly infrasonic). Geophones detect them. They are used for earthquake warning systems, volcano monitoring and exploration for oil and minerals: in a seismic survey, reflected waves from underground layers are recorded and used to map rock structure."]},
+{"h":"Sonar","p":["SONAR (Sound Navigation and Ranging) uses ultrasonic pulses sent out underwater; the echo's time gives the distance to an object. Depth = v × t ÷ 2, where t is the time for the pulse to go and return and the speed in sea water is about 1,500 m/s. It is used by submarines and ships for navigation, by fishing boats to find shoals of fish, and for mapping the sea floor. Example: an echo returns 0.40 s after a pulse; depth = 1,500 × 0.40 ÷ 2 = 300 m."],"img":{"src":"phy2-sonar.jpg","alt":"A ship sending sonar pulses towards a submarine and a target under the water","cap":"Sonar: a ship detects objects under the water using echoes."}},
+{"h":"Radar and sonar","p":["Radar uses radio waves (electromagnetic, which travel in air and a vacuum) while sonar uses sound (mechanical). Sonar is used underwater because radio waves are quickly absorbed by water, while sound travels well in it."]},
+{"h":"Limitations of sound technology","p":["Sound cannot travel through a vacuum. It is affected by obstacles, temperature, pressure and humidity. High-frequency ultrasonic equipment is costly. Noise pollution and distortion affect communication. Sound has a shorter range than radio waves or light."]},
+{"h":"Noise pollution","p":["Loud noise from generators, traffic and music can damage hearing (above about 85 dB over long periods), cause stress and disturb sleep. Remedies: silencers, ear protection, soundproofing, planning of noisy activities and rules about noise levels."]}
+],
+"activity":"Define sonar and state one industrial use. Explain how echolocation works and name two animals that use it. List three limits of sound technology. Research how sound waves are used in oil and gas exploration.",
+"check":[
+{"q":"Sonar uses","o":["Sound pulses","Radio waves","X-rays","Light"]},
+{"q":"A pulse returns after 0.40 s in water (1,500 m/s). Depth is","o":["300 m","600 m","150 m","3,750 m"]},
+{"q":"Bats find prey by","o":["Echolocation","Smell only","X-rays","Radar"]},
+{"q":"Sonar is preferred underwater because","o":["Sound travels well in water","Radio travels better","Light is faster","There is no sound"]},
+{"q":"Geophones detect","o":["Ground vibrations","Light","Radio signals","Smells"]}
+]},
+
+{"id":"sp21-15","week":8,"title":"Electric Charges: Nature and Methods of Charging","icon":"Zap",
+"summary":"What electric charge is, positive and negative charges, the law of charges and charging by friction, conduction and induction.",
+"keyWords":["Electric charge","Coulomb","Friction","Conduction","Induction","Earthing"],
+"sections":[
+{"h":"Electric charge","p":["Electric charge is a basic property of matter that makes it feel a force in an electric (and magnetic) field. Its SI unit is the coulomb (C); the symbol is q or Q. Atoms contain protons (positive), electrons (negative) and neutrons (neutral). Protons and electrons carry equal and opposite charges, so an atom is normally neutral. A body becomes charged when it gains or loses electrons: it becomes negative if it gains electrons and positive if it loses them. Protons stay in the nucleus; only electrons move."]},
+{"h":"Law of charges","p":["Like charges repel; unlike charges attract."],"img":{"src":"phy2-sphere-induction.jpg","alt":"A charged ebonite rod near an insulated metal sphere with positive charges on the near side and negative charges on the far side","cap":"A charged rod redistributes the charge on a nearby metal sphere."}},
+{"h":"1. Charging by friction","p":["When two different materials are rubbed together, electrons move from one to the other. A glass rod rubbed with silk becomes positive (it loses electrons) and the silk negative. An ebonite rod rubbed with fur becomes negative (it gains electrons) and the fur positive. A polythene rod rubbed with a cloth becomes negative."]},
+{"h":"2. Charging by conduction (contact)","p":["A charged body touches a neutral conductor. Charge flows between them, and the neutral body gets a charge of the same sign as the charged body."]},
+{"h":"3. Charging by induction","p":["A charged body is brought near (without touching) a neutral conductor on an insulating stand. Charges in the conductor separate: opposite charge on the near side and like charge on the far side. If the far side is earthed for a moment, the repelled charge flows to earth. When the earth wire is removed and then the charged rod taken away, the conductor is left with a charge of the opposite sign to the rod. Example: a negative rod brings positive charge to the conductor."],"img":{"src":"phy2-induction.jpg","alt":"Charging a conductor positively by induction: a negative rod nearby, free electrons moving away, a brief flow of electrons to earth, and the conductor left positively charged","cap":"Charging positively by induction."}},
+{"h":"Induction compared with conduction","p":["In conduction the charged body touches the conductor and gives it the same sign of charge. In induction there is no contact and the conductor gets the opposite sign, and the charged body does not lose any of its charge."]}
+],
+"activity":"Define electric charge and give its unit. Explain three methods of charging a body. Say what charge a glass rod gets when rubbed with silk and why. Describe how to give a metal sphere a positive charge by induction using a negative rod.",
+"check":[
+{"q":"The SI unit of charge is the","o":["Coulomb","Volt","Ampere","Ohm"]},
+{"q":"A body becomes negative when it","o":["Gains electrons","Loses electrons","Gains protons","Loses neutrons"]},
+{"q":"Like charges","o":["Repel","Attract","Cancel","Do nothing"]},
+{"q":"Charging by induction leaves a body with","o":["Opposite charge to the rod","The same charge as the rod","No charge","A magnetic field"]},
+{"q":"A glass rod rubbed with silk becomes","o":["Positive","Negative","Neutral","Magnetic"]}
+]},
+
+{"id":"sp21-16","week":8,"title":"Properties of Charge, Conductors, the Electroscope and Applications","icon":"Zap",
+"summary":"Conservation and quantisation of charge, conductors, insulators and semiconductors, the gold-leaf electroscope, and the uses of static electricity.",
+"keyWords":["Conservation of charge","Quantisation","Elementary charge","Conductor","Insulator","Electroscope"],
+"sections":[
+{"h":"Properties of charge","p":["1. There are two types only: positive and negative. 2. Charges add algebraically: +5 C and –3 C give +2 C. 3. Conservation of charge: charge can be neither created nor destroyed, only transferred; in an isolated system the total charge stays constant. 4. Quantisation: charge exists in whole-number multiples of the elementary charge e = 1.6 × 10⁻¹⁹ C, so q = ne. Example: q = 5 × 1.6 × 10⁻¹⁹ = 8.0 × 10⁻¹⁹ C. The smallest free charge is 1.6 × 10⁻¹⁹ C. 5. Charges exert electrostatic forces on one another, given by Coulomb's law."]},
+{"h":"Charge calculations","p":["The charge carried by 4.0 × 10¹⁹ electrons is q = ne = 4.0 × 10¹⁹ × 1.6 × 10⁻¹⁹ = 6.4 C. The number of electrons in a charge of 3.2 × 10⁻⁶ C is n = q ÷ e = 3.2 × 10⁻⁶ ÷ 1.6 × 10⁻¹⁹ = 2.0 × 10¹³."]},
+{"h":"Conductors, insulators and semiconductors","p":["Conductors let charge move freely: copper, aluminium, graphite, salt solution. Insulators do not: rubber, glass, plastic, dry wood. Semiconductors conduct poorly when cold but better when heated or when small amounts of other elements are added (doping): silicon and germanium, used in diodes and transistors."]},
+{"h":"The gold-leaf electroscope","p":["It has a metal cap (disc) joined by a brass rod to a strip of gold leaf inside a glass-fronted case (the earthed metal case or jar). When a charged body touches the cap, charge runs down the rod and into the leaf, and the leaf is repelled from the rod: the leaf rises. Uses: to detect charge; to find the sign of a charge (bring a known charged rod near the cap; if the leaf rises more, the charges are the same; if it falls, they are opposite); to compare quantities of charge roughly (greater divergence, more charge); and to test whether a material is an insulator (a good insulator does not discharge the leaf)."]},
+{"h":"A picture of the electroscope","p":["The picture in your lesson note is a poster from a video channel with a watermark, so we do not reproduce it. Draw your own: a brass disc on top of a brass rod, an insulating plug, a glass jar and a gold leaf hanging from the rod."]},
+{"h":"Applications of electric charges","p":["Photocopiers and laser printers (the drum is charged where toner must stick). Spray painting (paint droplets and the object carry opposite charges, giving an even coat with little waste). Electrostatic precipitators in factory chimneys remove dust and soot. Air purifiers. Lightning is a huge discharge of static charge in clouds; lightning conductors on tall buildings protect them by providing a safe path to earth."]},
+{"h":"Static electricity dangers","p":["Sparks can ignite petrol vapour, so fuel tankers are earthed with a chain, and a person should not use a phone while fuelling. Lightning kills people on open ground or under tall trees; stay in a building or a car."]}
+],
+"activity":"Calculate the charge carried by 4.0 × 10¹⁹ electrons (6.4 C). State five differences between conductors and insulators. Describe how a gold-leaf electroscope is used to find the sign of a charge.",
+"check":[
+{"q":"The minimum charge a body can have is","o":["1.6 × 10⁻¹⁹ C","9.8 N/kg","3.0 × 10⁸ C","6.02 × 10²³ C"]},
+{"q":"Charge is conserved means it","o":["Cannot be created or destroyed","Is always zero","Can vanish","Is always positive"]},
+{"q":"4.0 × 10¹⁹ electrons carry","o":["6.4 C","1.6 C","4.0 C","0.64 C"]},
+{"q":"A material that conducts better when heated and doped is a","o":["Semiconductor","Insulator","Superconductor only","Dielectric only"]},
+{"q":"In a gold-leaf electroscope, a charge makes the leaf","o":["Rise (diverge)","Fall","Melt","Turn gold"]}
+]},
+
+{"id":"sp21-17","week":9,"title":"Fields: Description, Types, Field Lines and Field Strength","icon":"Layers",
+"summary":"What a field is, the gravitational, electric and magnetic fields, how field lines show them, the field strength formulas and the inverse square law.",
+"keyWords":["Field","Field lines","Gravitational field","Electric field","Magnetic field","Field strength","Inverse square law"],
+"sections":[
+{"h":"Meaning of a field","p":["A field is a region of space in which an object experiences a force because of another object, without touching it. Fields explain 'action at a distance'. A scalar field has only magnitude at each point (the temperature in a room); a vector field has magnitude and direction (gravitational, electric and magnetic fields)."]},
+{"h":"The three fields","p":["Study the table."],"tbl":{"head":["Field","Source","Acts on","Force","Example"],"rows":[["Gravitational","Mass","Other masses","Always attractive","Earth pulling objects down"],["Electric","Electric charge","Other charges","Attractive or repulsive","Charged balloons"],["Magnetic","Moving charges or magnets","Magnetic materials or moving charges","Attractive or repulsive","Two bar magnets; a wire and a compass"]]}},
+{"h":"Field lines","p":["Field lines are imaginary lines that show the direction (and strength) of a field. The direction shows how a small test object would move or be pushed. Where the lines are closer, the field is stronger. Field lines never cross. Electric field lines go from positive to negative charges. Gravitational field lines point towards the mass. Magnetic field lines go from the north pole to the south pole outside the magnet (and continue inside from south to north, forming closed loops)."],"img":{"src":"phy2-gravity-radial.jpg","alt":"Field lines pointing radially inward toward a mass M, showing that the gravitational field around a mass is radial","cap":"The gravitational field around a mass is radial."}},
+{"h":"Like charges","p":["Between two like charges the field lines curve away from each other and there is a neutral point halfway between them where the field is zero."],"img":{"src":"phy2-field-like-positive.jpg","alt":"Electric field lines around two positive charges pointing outward and bending away from each other","cap":"Field of two positive charges (like charges)."}},
+{"h":"Two negative charges","p":["Two negative charges behave in the same way, but the field lines point inward toward each charge instead of outward."],"img":{"src":"phy2-field-like-negative.jpg","alt":"Electric field lines around two negative charges pointing inward and bending away from each other","cap":"Field of two negative charges (like charges)."}},
+{"h":"A bar magnet","p":["Magnetic field lines come out of the north pole, curve round and enter the south pole. They are closest together at the poles, where the field is strongest."],"img":{"src":"phy2-bar-magnet.jpg","alt":"Magnetic field lines around a bar magnet leaving the north pole and entering the south pole","cap":"The magnetic field of a bar magnet."}},
+{"h":"Field strength","p":["Field strength is the force per unit quantity placed in the field. Gravitational: g = F ÷ m = GM ÷ r², in N/kg, with G = 6.674 × 10⁻¹¹ N m²/kg². Electric: E = F ÷ q = kQ ÷ r², in N/C (or V/m), with k = 8.99 × 10⁹ N m²/C². Magnetic: B = F ÷ (I L sin θ), in tesla (T). Inverse square law: for gravitational and electric fields, if the distance is doubled, the field strength falls to a quarter."]},
+{"h":"Superposition","p":["When several fields act at a point, the resultant field is the vector sum of the separate fields. Examples: two charges, two magnets, or two masses."]}
+],
+"activity":"Define a field and list three types. Compare gravitational, electric and magnetic fields under four headings. A force of 2 N acts on a 0.5 C charge: find E (4 N/C). Draw the field lines for a pair of unlike charges and a bar magnet.",
+"check":[
+{"q":"Electric field lines go from","o":["Positive to negative","Negative to positive","North to south","Left to right"]},
+{"q":"Gravitational field lines point","o":["Towards the mass","Away from the mass","Sideways","Randomly"]},
+{"q":"The unit of electric field strength is","o":["N/C","N/kg","T","C/N"]},
+{"q":"Doubling the distance makes the field strength","o":["One quarter","Half","Double","Four times"]},
+{"q":"Which field can be attractive or repulsive?","o":["Electric and magnetic","Only gravitational","None","Only gravitational and electric"]}
+]},
+
+{"id":"sp21-18","week":10,"title":"The Gravitational Field: Newton's Law, Field Strength and Weight","icon":"Target",
+"summary":"Newton's law of gravitation, gravitational field strength g, weight, the variation of g with height and depth, potential energy, and worked examples with a corrected one.",
+"keyWords":["Newton's law of gravitation","Gravitational field strength","Weight","Altitude","Gravitational potential energy"],
+"sections":[
+{"h":"Gravitational field","p":["A gravitational field is the region around a mass in which another mass feels an attractive force. It is a vector field, always pointing toward the source mass. It exists around every mass but is noticeable only near big bodies such as the Earth, planets and stars."],"img":{"src":"phy2-earth-gravity.jpg","alt":"Gravitational field lines pointing inward to the centre of the Earth, with the planet surface and distances r and 2r marked","cap":"Field lines around a spherical body point toward its centre."}},
+{"h":"Newton's law of universal gravitation","p":["Every particle attracts every other particle with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between their centres: F = Gm₁m₂ ÷ r². G = 6.674 × 10⁻¹¹ N m²/kg² (the universal gravitational constant)."]},
+{"h":"Gravitational field strength","p":["g = F ÷ m = GM ÷ r², in N/kg: the force per unit mass on a small test mass. At the Earth's surface g = GM ÷ R² ≈ 9.8 N/kg (using M = 5.98 × 10²⁴ kg and R = 6.37 × 10⁶ m). Weight W = mg is a force (a vector, in newtons); mass is a scalar, in kilograms, and does not change from place to place."]},
+{"h":"Variation of g","p":["With height h above the surface: g_h = GM ÷ (R + h)²; g decreases as h increases. With depth d below the surface (assuming constant density): g_d = g₀(1 – d ÷ R); g decreases linearly to zero at the centre."]},
+{"h":"Gravitational potential energy","p":["U = –GMm ÷ r. The negative sign shows that the field is attractive: work must be done to separate the masses. At infinite separation U = 0."]},
+{"h":"Properties and applications","p":["A gravitational field is a vector field, conservative (the work done does not depend on the path), always attractive, obeys the inverse square law, has infinite range and obeys superposition. Applications: weight, satellite orbits, space travel, free fall and projectile motion, tides (the Moon's pull on the oceans), and the structure of stars and galaxies."]},
+{"h":"Worked examples","p":["1. The Earth's surface: g = GM ÷ R² = (6.7 × 10⁻¹¹ × 6 × 10²⁴) ÷ (6.4 × 10⁶)² = 4.02 × 10¹⁴ ÷ 4.096 × 10¹³ = 9.8 N/kg.","2. Force between a star of mass 2.00 × 10³⁰ kg and the Earth (5.98 × 10²⁴ kg), 1.50 × 10⁸ km apart. Convert the distance to metres: r = 1.50 × 10⁸ km = 1.50 × 10¹¹ m. F = Gm₁m₂ ÷ r² = (6.67 × 10⁻¹¹ × 5.98 × 10²⁴ × 2.00 × 10³⁰) ÷ (1.50 × 10¹¹)² = 7.977 × 10⁴⁴ ÷ 2.25 × 10²² = 3.55 × 10²² N. (The lesson note forgot to change kilometres to metres and got 3.55 × 10²⁸ N, which is a million times too large.)","3. The force between two point masses is 10⁻⁴ N at 0.18 m. At 0.06 m: F ∝ 1/r², so F₂ = F₁ × (0.18 ÷ 0.06)² = 10⁻⁴ × 9 = 9 × 10⁻⁴ N.","4. g at 4 m from 10 kg: g = 6.674 × 10⁻¹¹ × 10 ÷ 4² = 4.17 × 10⁻¹¹ N/kg (tiny, which is why we do not feel the pull of everyday objects).","5. A 60.0 kg object feels a force of 1.002 × 10² N on the Moon: g = F ÷ m = 100.2 ÷ 60 = 1.67 N/kg."]},
+{"h":"Assignment answers","p":["Satellite 400 km up: r = 6.37 × 10⁶ + 0.40 × 10⁶ = 6.77 × 10⁶ m. g = GM ÷ r² = (6.674 × 10⁻¹¹ × 5.98 × 10²⁴) ÷ (6.77 × 10⁶)² = 3.991 × 10¹⁴ ÷ 4.583 × 10¹³ = 8.71 N/kg.","A man weighs 800 N on Earth: his mass = 800 ÷ 9.8 = 81.6 kg. On the Moon: W = 81.6 × 1.63 = 133 N.","A 50 kg body where g = 9.8 N/kg weighs W = 50 × 9.8 = 490 N."]},
+{"h":"Why astronauts float","p":["Astronauts in orbit are still pulled by gravity (g is about 8.7 N/kg at 400 km), but the station and the astronauts are in free fall around the Earth together, so they feel weightless."]}
+],
+"activity":"State Newton's law of gravitation. Derive g = GM/R². Describe how g changes with height. Work out the gravitational field strength at a height of 1,000 km above the Earth's surface (7.3 N/kg).",
+"check":[
+{"q":"Gravitational force is always","o":["Attractive","Repulsive","Zero","Either"]},
+{"q":"If the distance between two bodies is halved, the force becomes","o":["Four times","Double","Half","A quarter"]},
+{"q":"Which stays constant wherever you are?","o":["Mass","Weight","Gravitational force","g"]},
+{"q":"A 50 kg body weighs, with g = 9.8 N/kg,","o":["490 N","50 N","5 N","4.9 N"]},
+{"q":"g decreases with","o":["Increasing height","Decreasing height","Increasing mass of the body","Increasing temperature"]}
+]},
+
+{"id":"sp21-19","week":11,"title":"First Term Revision: Light, Sound, the Eye, Charges and Fields","icon":"ClipboardCheck",
+"summary":"A checklist, key formulas and quick answers for the first term, with a note on the three common calculation traps.",
+"keyWords":["Revision","Formulas","Light","Sound","Fields"],
+"sections":[
+{"h":"Checklist","p":["Light waves: nature, spectrum, reflection, mirrors, refraction, critical angle, dispersion, prisms, diffraction, interference, polarisation. Sound: production, characteristics, behaviour, beats, echoes, applications. The eye: structure, image formation, accommodation, defects. Electric charges: nature, charging, conservation, electroscope. Fields: types, field lines, field strength. Gravitational field: Newton's law, g, weight."]},
+{"h":"Key formulas","p":["c = fλ; v = fλ. 1/f = 1/u + 1/v; M = v/u; f = R/2. n = sin i/sin r; sin C = 1/n; n = sin[(A + Dm)/2] / sin(A/2). x = λD/a. Echo: d = vt/2. Beats: f₁ – f₂. q = ne; e = 1.6 × 10⁻¹⁹ C. g = GM/r²; F = Gm₁m₂/r²; E = F/q = kQ/r²; W = mg."]},
+{"h":"Three traps","p":["1. Units: change kilometres to metres before using the gravitation formula (that was the error in the star and Earth example). 2. Formula order: f = v ÷ λ, not vλ. 3. Signs: use one sign convention for mirrors and stick to it."]},
+{"h":"Quick answers","p":["Critical angle in glass (n = 1.5): 41.8°. Echo from a cliff after 2.0 s (340 m/s): 340 m. Beats from 440 Hz and 436 Hz: 4 Hz. Charge of 4.0 × 10¹⁹ electrons: 6.4 C. Satellite g at 400 km: 8.71 N/kg. Moon weight of the 800 N man: 133 N."]},
+{"h":"How to revise","p":["Redo every worked example without looking. Draw every diagram: image formation by concave mirrors, refraction, prism, eye, standing wave, induction, field lines. Practise past WAEC and NECO questions on optics and fields in exam time."]}
+],
+"activity":"Do a mixed past paper (objective and theory) in exam time. List three formulas you forgot and three diagrams you drew badly, and practise them again.",
+"check":[
+{"q":"The critical angle of glass (n = 1.5) is about","o":["42°","56°","30°","90°"]},
+{"q":"f = v ÷ λ is the","o":["Wave equation rearranged","Mirror formula","Snell's law","Coulomb's law"]},
+{"q":"The mirror formula is","o":["1/f = 1/u + 1/v","f = u + v","v = fλ","F = ma"]},
+{"q":"Charge of 4.0 × 10¹⁹ electrons is","o":["6.4 C","0.64 C","64 C","4.0 C"]},
+{"q":"Before using Gm₁m₂/r² convert distance to","o":["Metres","Kilometres","Centimetres","Miles"]}
+]}
+]

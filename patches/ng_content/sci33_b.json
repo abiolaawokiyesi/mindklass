@@ -1,0 +1,167 @@
+[
+{"id":"sc33-10","week":6,"title":"Work, Machines and Simple Machines","icon":"Layers",
+"summary":"The scientific meaning of work, what a machine does, the terms load, effort and pivot, and the difference between simple and compound machines.",
+"keyWords":["Work","Machine","Load","Effort","Pivot","Compound machine"],
+"sections":[
+{"h":"Work","p":["In science, work is done when a force moves an object over a distance. Work = force × distance moved in the direction of the force, and is measured in joules. If you push a wall and it does not move, you do no work on it in the scientific sense."]},
+{"h":"Machine","p":["A machine is a device that makes work easier. It can do this in three ways: by reducing the effort needed (a lever); by changing the direction of the force (a pulley); and by increasing speed or distance moved (bicycle gears). A machine does not give you extra energy: the work you get out can never be more than the work you put in."]},
+{"h":"Key terms","p":["Load (L): the force or weight to be moved. Effort (E): the force you apply to the machine. Pivot (fulcrum): the fixed point about which a lever turns."]},
+{"h":"Simple and compound machines","p":["A simple machine has one or two moving parts and makes work easier. There are six kinds (see the next unit). A compound machine is made of two or more simple machines working together. Examples: a wheelbarrow (a lever and a wheel and axle), a bicycle (levers, wheels and axles, gears), a car, scissors (two levers and two wedges)."]}
+],
+"activity":"Define work and a machine. State the three ways a machine makes work easier. Name three compound machines found at home.",
+"check":[
+{"q":"Work is done when a force","o":["Moves an object over a distance","Is applied to a wall that does not move","Is thought about","Is stored"]},
+{"q":"The force you apply to a machine is called the","o":["Effort","Load","Pivot","Output"]},
+{"q":"The fixed point of a lever is the","o":["Pivot","Effort","Load","Wheel"]},
+{"q":"A bicycle is a","o":["Compound machine","Simple machine only","Natural object","Chemical"]},
+{"q":"A pulley can","o":["Change the direction of a force","Create energy","Stop gravity","Remove friction"]}
+]},
+
+{"id":"sc33-11","week":6,"title":"The Six Simple Machines and Mechanical Advantage","icon":"Layers",
+"summary":"The lever, pulley, wheel and axle, inclined plane, wedge and screw with examples, the formula for mechanical advantage and a ruler demonstration.",
+"keyWords":["Lever","Pulley","Wheel and axle","Inclined plane","Wedge","Screw","Mechanical advantage"],
+"sections":[
+{"h":"The six simple machines","p":["Study the table."],"tbl":{"head":["Machine","What it is","Examples"],"rows":[["Lever","A rigid bar turning about a pivot","See-saw, crowbar, bottle opener, wheelbarrow, scissors"],["Pulley","A grooved wheel with a rope or chain over it","Flagpole, crane, well"],["Wheel and axle","A large wheel fixed to a smaller rod; one turns the other","Doorknob, steering wheel, tap handle"],["Inclined plane","A flat sloping surface; less effort over a longer distance","Ramp, slide"],["Wedge","Two inclined planes back to back, used to split things","Axe, knife, nail, front teeth"],["Screw","An inclined plane wrapped round a cylinder","Screw, bolt, car jack"]]}},
+{"h":"Mechanical advantage (MA)","p":["Mechanical advantage tells how many times a machine multiplies your effort: MA = Load ÷ Effort. It has no unit because it is a ratio of two forces.","Example: you lift a load of 100 N with an effort of 20 N. MA = 100 ÷ 20 = 5. The machine multiplies your effort by 5. You must however move the effort through a greater distance than the load moves, so you do not gain any work."]},
+{"h":"Pulley example","p":["A single fixed pulley lifts a 50 N bucket of water with an effort of 50 N. MA = 50 ÷ 50 = 1. The pulley does not reduce the effort; it changes its direction, so you can pull down instead of lifting up."]},
+{"h":"Demonstration with a lever","p":["Use a ruler as the lever and a pencil as the pivot. Place a heavy book (the load) near one end. Put the pencil under the 10 cm mark and push down on the other end to lift the book. Now move the pencil closer to the book. It becomes easier to lift, because the effort is now further from the pivot than the load is, so the MA is greater."]},
+{"h":"Answers to the assignment","p":["(a) A knife: a wedge (the blade). (b) A bottle opener: a lever. (c) A bicycle: a compound machine with levers (pedals, brake levers), wheels and axles, and gears. Two simple machines in the kitchen: a knife (wedge) and a tin opener (wheel and axle with a wedge), or a bottle opener (lever)."]}
+],
+"activity":"List the six simple machines with an example of each. Calculate MA for a load of 200 N lifted with 50 N (4). Find the simple machines on your bicycle.",
+"check":[
+{"q":"MA is calculated as","o":["Load ÷ Effort","Effort ÷ Load","Load × Effort","Load – Effort"]},
+{"q":"A load of 100 N lifted with 20 N gives MA of","o":["5","0.2","80","2000"]},
+{"q":"An axe is an example of a","o":["Wedge","Pulley","Screw","Lever only"]},
+{"q":"A ramp is an","o":["Inclined plane","Lever","Screw","Pulley"]},
+{"q":"A single fixed pulley has an MA of about","o":["1","10","0","100"]}
+]},
+
+{"id":"sc33-12","week":8,"title":"ICT and Scientific Advancement: Data and Analysis","icon":"LayoutDashboard",
+"summary":"What ICT is, and how it has changed the way scientists collect, store and analyse data and run simulations.",
+"keyWords":["ICT","Data collection","Cloud storage","Simulation","Analysis"],
+"sections":[
+{"h":"What is ICT?","p":["ICT stands for Information and Communication Technology. It covers all the technologies used to store, process, find and share information: computers, smartphones, the Internet, software such as spreadsheets, email and satellites."]},
+{"h":"Data collection and storage","p":["Before ICT, scientists wrote observations in a notebook, which was slow and limited. Now digital sensors (thermometers, weather stations, satellite scanners) collect huge amounts of data every second, day and night, called big data. The data is stored on powerful computers, hard drives or in the cloud (storage on servers reached through the Internet), where it is safe and can be reached from anywhere."]},
+{"h":"Data analysis and simulation","p":["Before ICT, calculations were done by hand: slow and easy to get wrong. Now computers and software such as Excel can analyse millions of numbers in seconds and show patterns in charts. Scientists also run simulations: computer models used to test things that are too big, too small, too dangerous or too slow to test in real life, for example a car crash, climate change over 100 years or the spread of a virus."]},
+{"h":"Examples near you","p":["NiMet uses satellites and weather stations to forecast weather for Nigerian farmers and airlines. Hospitals store patient records and scan results on computers. Researchers share data by email and video calls."]}
+],
+"activity":"Define ICT. Explain how a scientist could use ICT for data collection and for data analysis. Say what cloud storage is.",
+"check":[
+{"q":"ICT stands for","o":["Information and Communication Technology","Internet and Computer Tools","Information and Chemical Technology","Industry and Communication Training"]},
+{"q":"A simulation is a","o":["Computer model of a real situation","Real experiment only","Written letter","Kind of battery"]},
+{"q":"Cloud storage keeps data","o":["On servers reached through the Internet","Only on paper","Only in your head","In the sky"]},
+{"q":"Digital sensors help scientists to","o":["Collect large amounts of data quickly","Avoid measuring","Stop research","Write letters"]},
+{"q":"Spreadsheet software helps to","o":["Analyse many numbers quickly","Cook food","Grow plants","Make rain"]}
+]},
+
+{"id":"sc33-13","week":8,"title":"The Internet, Communication and Global Learning","icon":"LayoutDashboard",
+"summary":"How the Internet connects scientists and learners around the world, and how to use it safely and well.",
+"keyWords":["Internet","Collaboration","Open access","Crowdsourcing","Online safety"],
+"sections":[
+{"h":"Communication and collaboration","p":["Before ICT, scientists sent letters that took weeks or months. Today a scientist in Nigeria can share data at once with a scientist in Japan by email, video conferencing or online research portals. This speeds up discovery."]},
+{"h":"Access to information","p":["Before ICT, a student relied on the books in the local library. With the Internet a student can find articles, videos, lectures and research papers from all over the world."]},
+{"h":"The Internet","p":["The Internet is a global network of computers. It is the most powerful ICT tool for science. It allows global collaboration (scientists on different continents worked together on the Human Genome Project); open access (many research papers are free online); and crowdsourcing (scientists ask the public to help, for example by reporting bird sightings or lending the spare power of home computers)."]},
+{"h":"Using the Internet well","p":["Check whether the website is reliable: look for the author, the date and other sources that agree. Do not share passwords or personal details. Do not believe every message you receive. Respect other people's work by giving credit and not copying."]},
+{"h":"A task to think about","p":["Imagine you are a Nigerian scientist who finds a plant that might help to treat malaria. You would record your results carefully, store the data safely, write up your findings, send them by email to other researchers and publish them in a science journal online. You would also test the plant safely and have your results checked by other scientists before anyone uses it as a medicine."]}
+],
+"activity":"List three roles of ICT in science. Say how you could use the Internet to find out about the Great Green Wall and how you would check that the information is reliable.",
+"check":[
+{"q":"The Internet is a","o":["Global network of computers","Single computer","Radio only","Book"]},
+{"q":"Crowdsourcing in science means","o":["Asking the public to help","Hiding results","Selling data","Avoiding teamwork"]},
+{"q":"Which is a safe habit online?","o":["Keep passwords private","Share passwords","Open unknown links","Believe every post"]},
+{"q":"Open-access papers are","o":["Free to read online","Secret","Only in paper form","Only for doctors"]},
+{"q":"Email helps scientists to","o":["Share results quickly","Slow research","Stop sharing","Lose data"]}
+]},
+
+{"id":"sc33-14","week":9,"title":"Careers in Science and Technology","icon":"Users",
+"summary":"The main career fields in medicine, engineering, ICT and research, and what each professional does.",
+"keyWords":["Career","Pharmacist","Engineer","Software developer","Research"],
+"sections":[
+{"h":"Why science and technology careers?","p":["These are jobs that need science, mathematics and technology to solve problems and create new things. They are among the most important jobs for building a modern country."],"img":{"src":"sci3-stem-careers.jpg","alt":"Medical and research, engineering, ICT and programming, and agricultural science careers, linked by maths, problem solving and innovation","cap":"STEM careers: medicine, engineering, ICT and agriculture."}},
+{"h":"The medical field","p":["Doctor: finds out what is wrong with a patient and treats illness and injury. Pharmacist: prepares and gives out medicines and is an expert on drugs. Medical laboratory scientist: tests blood, tissue and other fluids to help doctors diagnose disease. Nurse: cares for patients in hospitals and clinics. Radiographer: works the X-ray, CT and MRI scanners."]},
+{"h":"The engineering field","p":["Civil engineer: designs and builds roads, bridges, dams and big buildings. Electrical engineer: designs electrical systems, power grids, electronics and computers. Mechanical engineer: designs machines such as engines, generators and cars. Chemical engineer: designs ways of turning raw materials into products, for example refining petroleum, making soap and processing food."]},
+{"h":"The ICT field","p":["Software developer (programmer): writes the code for programs, apps and websites. Network administrator: runs and protects the computer network of a company or school. Data scientist: studies large amounts of data to find patterns and predict what may happen. Cybersecurity expert: protects computer systems from hackers and viruses."]},
+{"h":"The research field","p":["Biologist or biotechnologist: studies living things and may develop new medicines or crops. Chemist: studies substances and may invent new materials such as plastics or batteries. Physicist: studies energy and matter and may work in space science or energy. Geologist: studies the Earth and looks for oil, gas and minerals. Agricultural scientist: improves crops, animals and farming methods."]}
+],
+"activity":"Choose one career. Write one paragraph describing what that person does and list the JSS subjects that are most important for it. Say how a pharmacist differs from a medical laboratory scientist.",
+"check":[
+{"q":"A civil engineer designs","o":["Roads, bridges and dams","Computer apps","Medicines","Cars only"]},
+{"q":"A software developer","o":["Writes code for programs and apps","Treats patients","Builds roads","Studies rocks"]},
+{"q":"A pharmacist","o":["Prepares and gives out medicines","Builds bridges","Writes software","Studies stars"]},
+{"q":"A geologist studies","o":["The Earth and its rocks","Plants only","Computers only","Medicines"]},
+{"q":"A radiographer operates","o":["X-ray and MRI scanners","Bulldozers","Websites","Tractors"]}
+]},
+
+{"id":"sc33-15","week":9,"title":"Skills for Science Careers and Why They Matter to Nigeria","icon":"Award",
+"summary":"The skills needed for careers in science and technology and how skilled professionals build the nation.",
+"keyWords":["Skills","Problem solving","Analytical","Creativity","Self-reliance"],
+"sections":[
+{"h":"Skills you need","p":["1. A strong foundation in mathematics, physics, chemistry and biology. 2. Problem solving: the main job is finding answers to hard problems. 3. Analytical skills: looking at data and understanding what it means. 4. Creativity and curiosity: thinking of new ideas and asking 'Why?' 5. ICT skills: almost every science and technology job needs computer skills. 6. Teamwork and communication: most work is done in groups and results must be explained clearly."]},
+{"h":"Importance to national growth","p":["A nation cannot develop without its own scientists, doctors and engineers. Health: more doctors and nurses mean a healthier, more productive population. Infrastructure: civil engineers build the roads and bridges that carry goods. The economy: ICT professionals and engineers start companies (for example the Nigerian financial technology companies Paystack and Flutterwave), create jobs and solve local problems. Self-reliance: with its own experts a country does not depend on others to build its infrastructure or solve its problems."]},
+{"h":"Planning your own path","p":["Pay special attention to mathematics and English, which are needed for almost every course at university. Join the science club and take part in science fairs. Read about people in your chosen career. Talk to a professional if you can. Choose your senior secondary subjects with your career in mind (for example biology and chemistry for medicine; physics and further mathematics for engineering)."]}
+],
+"activity":"Write down five skills of a good scientist. Explain one reason why science careers matter for Nigeria's development.",
+"check":[
+{"q":"The most important school subject for most science careers is","o":["Mathematics","Drawing only","Music only","Games"]},
+{"q":"Analytical skills mean","o":["Understanding what data shows","Running fast","Singing","Drawing"]},
+{"q":"A country with its own engineers","o":["Depends less on others","Cannot build roads","Needs no science","Has no problems"]},
+{"q":"Paystack and Flutterwave are","o":["Nigerian technology companies","Rivers","Types of cars","Universities"]},
+{"q":"Which subject helps for medicine?","o":["Biology","Woodwork only","Fine art only","Typing only"]}
+]},
+
+{"id":"sc33-16","week":10,"title":"The Scientific Method","icon":"Target",
+"summary":"The steps of a science project from question to conclusion, with the idea of a fair test.",
+"keyWords":["Scientific method","Hypothesis","Fair test","Variable","Control","Conclusion"],
+"sections":[
+{"h":"What is a science project?","p":["A science project is a hands-on investigation that uses the scientific method to answer a question or solve a problem. It is not just building a model; it is an experiment designed to find an answer."]},
+{"h":"The steps","p":["1. Ask a question (problem). A bad question is a plain fact such as 'What is a plant?'. A good question can be tested: 'Does the colour of light change how fast a plant grows?' 2. Do background research: find out what is already known. 3. Form a hypothesis: an educated guess you can test, for example 'The plant under blue light will grow tallest.' 4. Design and carry out an experiment: plan a fair test. 5. Collect and record data in a table or chart. 6. Analyse the data: what do your results show? 7. Draw a conclusion: say whether your hypothesis was correct. 8. Present your findings. (Some books combine steps and count seven; the order is what matters.)"]},
+{"h":"A fair test","p":["In a fair test you change only one thing, the independent variable (for example the colour of the light), and measure what happens, the dependent variable (the height of the plant). Everything else must be kept the same; these are the constants (the water, the soil, the type of plant, the temperature and the time). A control is a sample treated normally for comparison, for example a plant in ordinary light. Repeat the test several times to make the results reliable."]},
+{"h":"A worked project plan","p":["Question: Which brand of paper towel absorbs the most water? Hypothesis: Brand A will absorb the most. Method: take three brands; pour 20 ml of water into a dish; hold a sheet of Brand A in it for 10 seconds; measure the water that is left; repeat for B and C, and repeat each three times. Constants: the amount of water, the size of the sheet, the time and the dish. Independent variable: the brand. Dependent variable: the amount of water absorbed."]}
+],
+"activity":"Write the steps of the scientific method in order. Explain independent variable, constant and control. Plan a project on 'What type of soil holds the most water?'.",
+"check":[
+{"q":"A hypothesis is","o":["A testable educated guess","A final answer","A random wish","A result"]},
+{"q":"In a fair test you change","o":["Only one variable","Everything","Nothing","Two variables at once"]},
+{"q":"Things kept the same in a test are the","o":["Constants","Independent variables","Conclusions","Hypotheses"]},
+{"q":"Which is a good science question?","o":["Does light colour affect plant growth?","What is a plant?","Is science nice?","Who is tall?"]},
+{"q":"A conclusion says","o":["Whether the hypothesis was supported","What to do next year","Who won","How long the lesson was"]}
+]},
+
+{"id":"sc33-17","week":10,"title":"Planning, Teamwork and Presenting a Science Exhibition","icon":"Megaphone",
+"summary":"How to plan a project, share the work in a team, present at an exhibition and reflect on what you have learnt.",
+"keyWords":["Planning","Teamwork","Display board","Oral presentation","Reflection"],
+"sections":[
+{"h":"Planning","p":["Planning is the most important step. Write down your question, your hypothesis, a list of the materials and the steps. Decide who will do what and by when. Think about safety."]},
+{"h":"Teamwork","p":["Most projects are too big for one person. Divide the roles: one person does research, one collects materials, one takes measurements, one records data and one prepares the display. Listen to each other and share ideas to find the best solution. A good team respects every member."]},
+{"h":"The exhibition","p":["A science exhibition is where you present your project. You usually need: a display board (a large folded card) showing title, question, hypothesis, method, data and conclusion; the experiment itself so that you can show it working; and an oral presentation of two to five minutes in which you explain what you did and what you found. Practise your talk, speak clearly and be ready for questions."]},
+{"h":"Assessment","p":["Projects are marked on the creativity of the question, correct use of the scientific method, the clarity of the data and results, and how well you present and explain the work."]},
+{"h":"Reflection","p":["Ask yourself: What went right? What went wrong? What would I do differently next time? Reflection turns experience into learning."]},
+{"h":"Project ideas","p":["Which soil holds the most water? Does salt change how quickly ice melts? Which fruit peel keeps its colour longest? How much does a solar cooker raise the temperature of water? Which material is the best heat insulator for a cup?"]}
+],
+"activity":"Plan a project with your group. Write the roles of each member, prepare a display board and practise a three-minute talk.",
+"check":[
+{"q":"The most important step in a project is","o":["Planning","Showing off","Skipping the test","Guessing the answer"]},
+{"q":"A display board shows","o":["Title, hypothesis, method, data and conclusion","Only a picture","Only the cost","Nothing"]},
+{"q":"Teamwork helps because","o":["Work is shared and ideas are pooled","One person does everything","There is no need to plan","Mistakes are hidden"]},
+{"q":"Reflection means","o":["Thinking about what went right and wrong","Looking in a mirror","Copying a friend","Ignoring results"]},
+{"q":"An oral presentation usually lasts about","o":["2 to 5 minutes","2 hours","30 seconds","One day"]}
+]},
+
+{"id":"sc33-18","week":11,"title":"Third Term Revision: Energy, Heat, Electricity, Machines and Science in Society","icon":"ClipboardCheck",
+"summary":"A checklist of third term topics with key facts and revision practicals.",
+"keyWords":["Revision","Energy","Heat transfer","Circuits","Machines","Scientific method"],
+"sections":[
+{"h":"Checklist","p":["Energy: forms, transformations, conservation, potential and kinetic energy. Heat: conduction, convection, radiation, conductors and insulators, the vacuum flask. Electricity: sources, circuits and symbols, series and parallel, home wiring, safety, saving electricity. Science and development: science, technology, R&D, discovery, invention, innovation. Machines: work, the six simple machines, mechanical advantage. ICT: data, simulation, the Internet. Careers and skills. The scientific method and projects."]},
+{"h":"Key facts","p":["Energy cannot be created or destroyed. Conduction in solids, convection in fluids, radiation needs no medium. Homes are wired in parallel; the earth wire protects from shocks. MA = Load ÷ Effort. Science is knowing why; technology is applying it. A fair test changes one variable and keeps the others constant."]},
+{"h":"Practical revision","p":["Trace the energy transformations in five devices. Identify the simple machines on a bicycle. Build a simple circuit and draw it. Design an experiment to answer one question of your own."]},
+{"h":"Exam tips","p":["For 'trace the energy', write the forms in order with arrows. For circuits, use correct symbols and a ruler. For calculations, write the formula, substitute, then give the answer with its unit."]}
+],
+"activity":"Make a one-page summary of the term and test yourself with the evaluation questions in each unit.",
+"check":[
+{"q":"The energy change in an electric fan is","o":["Electrical to mechanical (plus sound and heat)","Chemical to light","Light to chemical","Sound to heat only"]},
+{"q":"Heat travelling through a vacuum is","o":["Radiation","Conduction","Convection","Evaporation"]},
+{"q":"Homes are wired in","o":["Parallel","Series only","A knot","Circles"]},
+{"q":"MA of 50 N effort lifting 200 N is","o":["4","0.25","150","10000"]},
+{"q":"In a fair test you keep","o":["Everything but one variable the same","All variables changing","Nothing the same","The results hidden"]}
+]}
+]

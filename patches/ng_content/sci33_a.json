@@ -1,0 +1,148 @@
+[
+{"id":"sc33-02","week":1,"title":"Energy and Energy Transformation","icon":"Zap",
+"summary":"What energy is, its forms and unit, and how energy changes from one form to another with some of it always turning to heat.",
+"keyWords":["Energy","Joule","Work","Energy transformation","Input","Output"],
+"sections":[
+{"h":"Energy and work","p":["Energy is the ability to do work. Work is done when a force moves an object. The SI unit of energy and of work is the joule (J)."]},
+{"h":"Forms of energy","p":["Study the table."],"tbl":{"head":["Form","Meaning","Example"],"rows":[["Chemical","Stored in the bonds of atoms and molecules","Food, batteries, petrol"],["Electrical","The movement of electrons","Electricity in wires"],["Mechanical","Energy of motion (kinetic) or position (potential)","A moving car, a stretched spring"],["Heat (thermal)","Vibration of the particles in a substance","A hot pot"],["Light (radiant)","Energy carried by electromagnetic waves","Sunlight"],["Sound","Energy carried by vibrations as waves","A drum"]]}},
+{"h":"Energy transformation","p":["Energy transformation (or conversion) is the changing of energy from one form to another. We do not 'use up' energy; we change it into the form we need. In every change some energy turns into heat that is not useful (it is wasted), which is why machines feel warm."],"img":{"src":"sci3-energy-transform.jpg","alt":"Pairs of pictures showing chemical to light in a torch, chemical to mechanical in a car, chemical to mechanical in a cyclist, electrical to light in a bulb, electrical to heat in an oven and light to chemical in a tree","cap":"Everyday energy transformations."}},
+{"h":"Input and output","p":["To describe a transformation, name the input energy (what goes in) and the output energy (what comes out). In a torch, the input is chemical energy from the battery and the useful output is light; the wasted output is heat."]}
+],
+"activity":"Define energy and energy transformation. List five forms of energy with an example of each. Give the input and the output forms for a torch.",
+"check":[
+{"q":"The SI unit of energy is the","o":["Joule","Newton","Watt","Metre"]},
+{"q":"In a torch the useful output energy is","o":["Light","Sound","Chemical","Magnetic"]},
+{"q":"Energy stored in food is","o":["Chemical energy","Heat energy","Sound energy","Light energy"]},
+{"q":"In most energy changes some energy is wasted as","o":["Heat","Water","Food","Rain"]},
+{"q":"A tree turning sunlight into food changes light energy to","o":["Chemical energy","Sound","Electrical energy","Wind"]}
+]},
+
+{"id":"sc33-03","week":1,"title":"Examples of Energy Transformation and Conservation of Energy","icon":"Zap",
+"summary":"Tracing the energy path in six devices, the principle of conservation of energy, and the dropped ball and pendulum demonstrations.",
+"keyWords":["Conservation of energy","Potential energy","Kinetic energy","Pendulum","Hydroelectric"],
+"sections":[
+{"h":"Tracing the path of energy","p":["Study the table."],"tbl":{"head":["Device","Energy path"],"rows":[["Battery torch","Chemical → electrical → light + heat (wasted)"],["Running person","Chemical (food) → mechanical (kinetic) + heat"],["Solar panel running a fan","Light → electrical → mechanical (spinning blades)"],["Electric fan","Electrical → mechanical + sound + heat"],["Hydroelectric dam","Potential (water high up) → kinetic (falling water) → mechanical (turbine) → electrical"],["Burning wood","Chemical → heat + light"]]}},
+{"h":"The principle of conservation of energy","p":["Energy cannot be created or destroyed. It can only change from one form to another. The total energy stays the same. When you use a torch, the chemical energy in the battery is not gone; it has turned into an equal total of light and heat."]},
+{"h":"Demonstration 1: the dropped ball","p":["A ball held high has potential energy because of its height. When it is dropped, it loses height (potential energy goes down) and gains speed (kinetic energy goes up). Just before it hits the ground, almost all the potential energy has become kinetic energy (a little goes to air resistance as heat)."]},
+{"h":"Demonstration 2: the simple pendulum","p":["Pull the bob to one side (position A): it has maximum potential energy. Release it: at the bottom (position B) its energy is mostly kinetic and it moves fastest. At the other side (position C) it stops for a moment and the energy is potential again. The pendulum changes energy between potential and kinetic again and again, but slowly comes to rest because some energy goes to heat through friction with the air and the pivot."]},
+{"h":"Answers to assignment questions","p":["(a) A car engine burning petrol: chemical → heat → mechanical (movement), with sound and heat wasted. (b) A solar-powered calculator: light → electrical → light (the display) and a little heat. (c) A person shouting: chemical (food) → mechanical (muscles) → sound. (d) A windmill making electricity: kinetic (wind) → mechanical (turning blades) → electrical.","A bouncing ball does not return to its starting height because on each bounce some of its energy is changed to heat and sound, so there is less energy left to lift it. Energy is not lost from the universe; it is spread into the surroundings."]}
+],
+"activity":"Trace the energy transformation in a phone charger and a bicycle dynamo lamp. Use the pendulum to explain conservation of energy.",
+"check":[
+{"q":"At the highest point of a pendulum swing the energy is mostly","o":["Potential","Kinetic","Sound","Chemical"]},
+{"q":"At the bottom of the swing the energy is mostly","o":["Kinetic","Potential","Chemical","Magnetic"]},
+{"q":"Conservation of energy means energy","o":["Cannot be created or destroyed","Is always used up","Can be made from nothing","Is always lost"]},
+{"q":"In a hydroelectric dam, falling water first has","o":["Potential energy then kinetic energy","Light energy","Sound energy","Chemical energy"]},
+{"q":"A bouncing ball loses height because some energy becomes","o":["Heat and sound","Light only","Food","Water"]}
+]},
+
+{"id":"sc33-04","week":2,"title":"Heat and Heat Transfer: Conduction and Convection","icon":"Zap",
+"summary":"What heat is, why it flows from hot to cold, and how it moves through solids by conduction and through liquids and gases by convection.",
+"keyWords":["Heat","Conduction","Convection","Convection current","Sea breeze"],
+"sections":[
+{"h":"Heat","p":["Heat (thermal energy) is energy that passes from a hotter object to a colder object. It is linked to the energy of motion of the particles in a substance: the hotter the substance, the faster its particles move or vibrate. Heat always flows from hot to cold, never the other way by itself."]},
+{"h":"Conduction","p":["Conduction is the transfer of heat through a substance by direct contact, from particle to particle, without the particles themselves moving from their places. They vibrate and pass the energy along. It happens mainly in solids. Example 1: the handle of a metal spoon in hot tea gets hot. Example 2: frying an egg: heat conducts from the stove to the pan and from the pan to the egg."]},
+{"h":"Convection","p":["Convection is the transfer of heat through liquids and gases by the movement of the fluid itself. How a convection current forms: 1. The fluid at the bottom is heated. 2. It expands and becomes less dense (lighter). 3. The hot, light fluid rises. 4. The colder, denser fluid at the top sinks to take its place. 5. This is heated in turn and the cycle goes on.","Examples: water boiling in a pot; and the sea breeze. In the day the land heats faster than the sea, so the warm air over the land rises and cool air from the sea moves in to take its place. At night the land cools faster, and the breeze blows from land to sea (a land breeze)."]},
+{"h":"Why conduction in solids and convection in fluids?","p":["In a solid, the particles are packed tightly and cannot move about, so they can only pass energy by vibrating against each other. In liquids and gases the particles are free to move, so the hot particles themselves can carry the heat from one place to another."]}
+],
+"activity":"Define conduction and convection and give two examples of each. Explain, with a labelled diagram, how a convection current forms when water is boiled.",
+"check":[
+{"q":"Heat always flows from","o":["Hot to cold","Cold to hot","Left to right","Up only"]},
+{"q":"Conduction occurs mainly in","o":["Solids","Gases","A vacuum","Plasma only"]},
+{"q":"Convection happens in","o":["Liquids and gases","Solids only","A vacuum","Metals only"]},
+{"q":"Hot fluid rises because it is","o":["Less dense","More dense","Colder","Heavier"]},
+{"q":"A sea breeze blows from the","o":["Sea to the land in the day","Land to the sea in the day","Mountains only","Sky"]}
+]},
+
+{"id":"sc33-05","week":2,"title":"Radiation, Conductors, Insulators and the Vacuum Flask","icon":"Zap",
+"summary":"How heat travels as infrared waves, which materials conduct or insulate heat, and how a vacuum flask stops all three kinds of heat transfer.",
+"keyWords":["Radiation","Infrared","Conductor","Insulator","Vacuum flask"],
+"sections":[
+{"h":"Radiation","p":["Radiation is the transfer of heat as electromagnetic waves, mostly infrared. It needs no medium: it can travel through a vacuum. Examples: heat from the Sun reaching the Earth across millions of kilometres of empty space; feeling the heat of a bonfire from a distance even though the air between you and the fire is not moving. Dark, rough surfaces absorb and give out radiation well; shiny surfaces reflect it."]},
+{"h":"The three methods compared","p":["Study the table."],"tbl":{"head":["Method","Medium","How","Example"],"rows":[["Conduction","Solids mainly","Particles pass energy by vibrating","Hot spoon handle"],["Convection","Liquids and gases","Fluid itself moves","Boiling water, sea breeze"],["Radiation","None needed (works in a vacuum)","Infrared waves","Sun, fire"]]}},
+{"h":"Conductors and insulators of heat","p":["Conductors let heat pass easily: all metals such as silver, copper, aluminium and iron. That is why cooking pots are made of metal. Insulators do not let heat pass easily: wood, plastic, glass, rubber, cloth and air (trapped air is a very good insulator). That is why pot handles are plastic or wood, and why we wear thick, fluffy clothes in cold weather: they trap air."]},
+{"h":"The vacuum flask","p":["A vacuum (thermos) flask keeps hot things hot and cold things cold by stopping all three kinds of heat transfer. It has two walls, like a bottle inside a bottle. Conduction is reduced because the stopper is plastic (an insulator) and the two walls touch only at the neck. Convection is stopped because there is a vacuum between the walls: no air, so no moving fluid. Radiation is reduced because the walls are coated with a shiny silver layer that reflects the heat back."]},
+{"h":"A note on the microwave oven","p":["The lesson note lists a microwave oven as an example of radiation. A microwave oven does use radiation (microwaves), but it works differently from heat radiation from the Sun: microwaves make the water molecules in food vibrate, and that heats the food from inside."]}
+],
+"activity":"Draw a table of conduction, convection and radiation. Explain why pot handles are plastic and why a vacuum flask has a shiny inner surface.",
+"check":[
+{"q":"Heat from the Sun reaches the Earth by","o":["Radiation","Conduction","Convection","Evaporation"]},
+{"q":"Which is a good insulator of heat?","o":["Wood","Copper","Iron","Aluminium"]},
+{"q":"A vacuum flask stops convection because there is","o":["No air between the walls","A metal lid","Cold water","A handle"]},
+{"q":"The shiny layer in a flask reduces","o":["Radiation","Conduction through the stopper","Evaporation of metal","Sound"]},
+{"q":"Cooking pots are made of metal because metals are","o":["Good conductors of heat","Good insulators","Light","Cheap only"]}
+]},
+
+{"id":"sc33-06","week":3,"title":"Electrical Energy: Sources, Current and Circuits","icon":"Zap",
+"summary":"What electrical energy and current are, the sources of electricity, and how a simple circuit is made and drawn with standard symbols.",
+"keyWords":["Electrical energy","Electric current","Ampere","Generator","Circuit","Switch"],
+"sections":[
+{"h":"Electrical energy and current","p":["Electrical energy is energy from the movement of electric charges, usually electrons. Electric current is the flow of charge through a conductor. It is measured in amperes (A)."]},
+{"h":"Sources of electrical energy","p":["Cells and batteries: chemical reactions push electrons through a wire (remote controls, phones, cars). Generators: a turbine turned by water, wind or steam from burning gas spins a magnet near coils of wire, which makes electrons move; this is how most large-scale power is made. Solar panels (photovoltaic cells): turn light directly into electricity. Others: wind turbines, hydropower dams and nuclear power stations. In Nigeria most grid electricity comes from gas-fired power stations and hydropower dams such as Kainji, Jebba and Shiroro; many homes also use solar panels and generators."]},
+{"h":"Electric circuit","p":["An electric circuit is a complete closed path in which current can flow. If the path is broken, for example by a cut wire or an open switch, it is an open circuit and the current stops."]},
+{"h":"Circuit symbols","p":["Study the table."],"tbl":{"head":["Component","Symbol","Note"],"rows":[["Connecting wire","a straight line","Carries current"],["Cell","a long thin line and a short thick line","Long line is positive, short line is negative"],["Battery","two or more cells","More cells give more voltage"],["Bulb (lamp)","a circle with a cross inside","Gives light"],["Switch, open","a line with a gap","Circuit is broken"],["Switch, closed","a line with no gap","Circuit is complete"]]}},
+{"h":"A simple circuit","p":["Connect a cell, a switch and a bulb in one loop with wires. When the switch is closed, current flows and the bulb lights. When it is open, the bulb goes out. Electrical energy from the cell becomes light and heat in the bulb."]}
+],
+"activity":"Draw a circuit with a cell, a closed switch and a bulb using the correct symbols. Name three sources of electrical energy.",
+"check":[
+{"q":"Electric current is measured in","o":["Amperes","Joules","Metres","Kilograms"]},
+{"q":"Current flows only in a","o":["Closed circuit","Open circuit","Broken wire","Vacuum"]},
+{"q":"The long line in a cell symbol is the","o":["Positive terminal","Negative terminal","Switch","Wire"]},
+{"q":"Solar panels change","o":["Light into electricity","Heat into sound","Sound into light","Electricity into light"]},
+{"q":"An open switch","o":["Breaks the circuit","Completes the circuit","Makes a cell","Makes a bulb"]}
+]},
+
+{"id":"sc33-07","week":3,"title":"Series and Parallel Circuits, Home Wiring and Saving Electricity","icon":"Shield",
+"summary":"The two ways of joining bulbs, why homes use parallel wiring, the live, neutral and earth wires, safety rules and ways to save electricity.",
+"keyWords":["Series circuit","Parallel circuit","Live","Neutral","Earth","Fuse","Conservation"],
+"sections":[
+{"h":"Series and parallel circuits","p":["Study the table."],"tbl":{"head":["Feature","Series","Parallel"],"rows":[["Path","One single path","Separate branches"],["If one bulb breaks","All the others go out","The other branches stay lit"],["Brightness with more bulbs","Each bulb gets dimmer","Each bulb stays bright"],["Use","Simple circuits, some old fairy lights","Home wiring"]]}},
+{"h":"Why homes are wired in parallel","p":["If your lights were in series, one blown bulb would put out every light in the house, and each bulb would be dim. In parallel, each appliance gets the full voltage and can be switched on and off by itself."]},
+{"h":"The three wires","p":["The live wire (brown) carries the high voltage to the appliance. The neutral wire (blue) completes the circuit by carrying current back. The earth wire (green and yellow stripes) is a safety wire joined to the metal case of an appliance and to the ground. If the live wire touches the case, current goes safely to earth, the fuse blows, and you are not shocked. A fuse is a thin wire that melts if the current is too high and breaks the circuit."]},
+{"h":"Electrical safety rules","p":["1. Never touch switches, sockets or appliances with wet hands. 2. Do not overload a socket with too many powerful appliances, because it can start a fire. 3. Do not use appliances with frayed or broken wires. 4. Never poke metal objects or fingers into a socket. 5. Switch an appliance off before unplugging it. 6. Do not fly kites near overhead power lines. Never touch a fallen electric wire; call the power company."]},
+{"h":"Saving electricity","p":["Turn off lights and fans when you leave a room. Use energy-saving LED bulbs instead of old filament bulbs. Unplug TVs and chargers when not in use. Make sure the refrigerator door seals tightly. Saving electricity saves money and burns less fuel."]}
+],
+"activity":"Draw a circuit with two cells, a switch and two bulbs in series, and another with the bulbs in parallel. Explain what the earth wire does. List three ways to save electricity at home.",
+"check":[
+{"q":"Houses are wired in parallel so that","o":["One faulty bulb does not switch off the others","Bulbs are dimmer","Wires are shorter","Fuses are not needed"]},
+{"q":"The earth wire","o":["Carries fault current safely to the ground","Is the hot wire","Carries current back","Is not needed"]},
+{"q":"The colour of the live wire is","o":["Brown","Blue","Green and yellow","Black only"]},
+{"q":"Which is unsafe?","o":["Touching a switch with wet hands","Switching off before unplugging","Using an undamaged cable","Using an LED bulb"]},
+{"q":"A fuse","o":["Melts and breaks the circuit when current is too high","Increases the current","Stores charge","Makes light"]}
+]},
+
+{"id":"sc33-08","week":4,"title":"Science, Technology and National Development","icon":"Landmark",
+"summary":"The meanings of science, technology and national development, and how they feed one another in a loop.",
+"keyWords":["Science","Technology","National development","Feedback loop","Penicillin"],
+"sections":[
+{"h":"Key terms","p":["Science is a systematic way of getting knowledge about the natural world by observing, forming a hypothesis and experimenting. It asks 'why'. Technology is the use of scientific knowledge for practical purposes, the making of tools, machines and methods to solve problems. It asks 'how'. National development is the overall improvement of the quality of life and standard of living of the citizens of a country: a stronger economy, health care, education, roads, electricity and security."],"img":{"src":"sci3-stnd.jpg","alt":"Three connected gears labelled Science (knowledge and research), Technology (application and tools) and National Development (progress and economy)","cap":"Science, technology and national development drive one another."}},
+{"h":"The loop","p":["1. Science gives new knowledge and ideas. 2. Technology uses these ideas to make tools and solutions. 3. Development: these tools improve society, for example better medicine and faster communication. 4. A richer, better-educated country can pay for more science (universities and laboratories), which gives more knowledge, and the loop continues.","Example: Science: biologists found that the mould Penicillium kills bacteria. Technology: chemists and engineers learnt to produce penicillin in large amounts. Development: penicillin cures infections, saves millions of lives and improves national health."]},
+{"h":"Another picture","p":["The next picture shows the same message: science and technology hold the key to a nation's progress and quality of life."],"img":{"src":"sci3-science-nation.jpg","alt":"A poster titled What is Science and Technology in Nation Building with people, a globe, a wind turbine and a factory","cap":"Science and technology in nation building."}}
+],
+"activity":"Explain the link between science, technology and development using the mobile phone as your example. Say the difference between science and technology.",
+"check":[
+{"q":"Technology is the","o":["Application of scientific knowledge","Study of stars only","Rejection of science","Same as nature"]},
+{"q":"National development includes","o":["Better health, education and infrastructure","Only money","Only roads","Only laws"]},
+{"q":"Science is about","o":["Knowing why things happen","Making money","Playing games","Ignoring facts"]},
+{"q":"Penicillin was made possible by","o":["Science and technology together","Magic","Luck only","Engineering alone"]},
+{"q":"A richer country can","o":["Fund more science","Never do research","Stop learning","Stop building"]}
+]},
+
+{"id":"sc33-09","week":4,"title":"Research, Contributions of Science and Technology, and Great Innovators","icon":"Award",
+"summary":"Why research and development matters, how science and technology help farming, medicine, communication and industry, and the difference between a discovery, an invention and an innovation.",
+"keyWords":["R&D","Discovery","Invention","Innovation","Jelani Aliyu"],
+"sections":[
+{"h":"Research and development (R&D)","p":["Research is the engine of science: finding out new knowledge. Development is the engine of technology: turning knowledge into products and methods. A country that spends a lot on R&D in universities and research institutes finds new solutions and makes new products, so it develops faster. The USA, China and South Korea are leaders in technology partly because they spend large amounts on R&D."]},
+{"h":"Contributions to national development","p":["Study the table."],"tbl":{"head":["Sector","How science and technology help"],"rows":[["Agriculture","Tractors, fertilisers, improved seeds and irrigation raise food production and food security"],["Medicine","Understanding of disease plus vaccines, scanners and new drugs lead to longer, healthier lives"],["Communication","Satellites, fibre optics and mobile phones make business faster and connect people"],["Industry","Machines, robots and automation make manufacturing more efficient"]]}},
+{"h":"Discovery, invention and innovation","p":["A discovery is finding something that already exists in nature, such as Isaac Newton's work on gravity. An invention is making something new that did not exist before, such as Thomas Edison's practical electric light bulb. An innovation is taking an existing invention and improving it a great deal or finding a new use for it."]},
+{"h":"Notable innovators","p":["International: Thomas Edison (light bulb, phonograph); Alexander Graham Bell (telephone); Tim Berners-Lee (invented the World Wide Web, which runs on the Internet; he did not invent the Internet itself). Nigerian: Jelani Aliyu, a Nigerian-born car designer who led the design of the first Chevrolet Volt, a plug-in electric car with a petrol range extender (a hybrid, not a fully electric car as some say); Prof. Wole Soboyejo, a materials scientist. There are many local innovators who build machines for garri processing and palm oil extraction, and engineers and young people who develop apps and solar products."]}
+],
+"activity":"Choose agriculture, medicine or communication and explain two ways technology has helped it in Nigeria. Explain why R&D is important for a country.",
+"check":[
+{"q":"Finding something that already exists in nature is a","o":["Discovery","Invention","Innovation","Machine"]},
+{"q":"Creating something that did not exist before is an","o":["Invention","Discovery","Habitat","Reaction"]},
+{"q":"R&D means","o":["Research and development","Rest and drink","Read and decide","Rain and drought"]},
+{"q":"Tim Berners-Lee is known for the","o":["World Wide Web","Telephone","Light bulb","Steam engine"]},
+{"q":"Mobile phones help communication because they","o":["Connect people quickly","Cannot be used","Make food","Make rain"]}
+]}
+]

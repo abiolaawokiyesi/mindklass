@@ -1,0 +1,140 @@
+[
+{"id":"fa22-02","week":1,"title":"What a Company Is and How It Is Formed","icon":"Landmark",
+"summary":"The meaning of a company, its separate legal identity, and the four stages of formation in Nigeria, with a note on the law as it stands today.",
+"keyWords":["Company","Legal entity","Promotion","Incorporation","CAC","Certificate of Incorporation"],
+"sections":[
+{"h":"What is a company?","p":["A company is an artificial person created by law to carry on business. It has its own legal identity, separate from its owners, who are called shareholders (or members). It has perpetual succession: it continues even when shareholders die or change. It can own property, make contracts, sue and be sued in its own name."]},
+{"h":"What is formation?","p":["Formation of a company means registering it with the Corporate Affairs Commission (CAC) in Nigeria and doing everything the law requires so that it becomes a legal person able to begin business. The main law is the Companies and Allied Matters Act (CAMA)."]},
+{"h":"The four stages in the textbook","p":["A. Promotion. The idea is born. The promoters find a business opportunity, arrange the capital, hire lawyers and accountants and prepare the documents.","B. Incorporation (registration). The company is registered with the CAC. The documents usually submitted are the Memorandum and Articles of Association, the application form (CAC 1.1), a statement of share capital and the fees. When the CAC approves, it issues the Certificate of Incorporation, and the company becomes a legal entity.","C. Capital subscription. For a public company: the company issues a prospectus inviting the public to buy shares until the required minimum capital is raised.","D. Commencement of business. The textbook says a public company must obtain a Certificate of Commencement of Business and a private company can begin at once after incorporation."]},
+{"h":"A note on the law today","p":["The lesson note follows the older law. Under CAMA 2020, the certificate of incorporation is the main proof that the company exists; many current guides no longer list a separate certificate of commencement. If your teacher or exam question asks for the four stages, write them as in the textbook and say 'under the older law' where needed, and check the latest CAC guidance for real registrations."]},
+{"h":"Advantages of forming a company","p":["Separate legal identity. Limited liability: shareholders lose at most what they invested in shares. Perpetual succession. Ability to raise large capital, especially for public companies. Easy transfer of shares (in public companies)."]}
+],
+"activity":"Define a company. List the four stages of formation. Name three documents needed for incorporation. A group of young people want to start a technology company in Nigeria: list the steps they should follow.",
+"check":[
+{"q":"Companies in Nigeria are registered by the","o":["Corporate Affairs Commission","Central Bank","Stock exchange","Federal Inland Revenue Service"]},
+{"q":"A company's legal identity is","o":["Separate from its owners","The same as its owners","Owned by the CAC","Temporary"]},
+{"q":"The first stage of formation is","o":["Promotion","Incorporation","Dividend","Liquidation"]},
+{"q":"Proof that a company is registered is the","o":["Certificate of Incorporation","Prospectus","Balance sheet","Journal"]},
+{"q":"Perpetual succession means the company","o":["Continues despite changes in members","Dies with its owners","Has no assets","Never pays tax"]}
+]},
+
+{"id":"fa22-03","week":1,"title":"The Memorandum, the Articles and the Types of Company","icon":"ClipboardCheck",
+"summary":"The key documents used in formation and the types of company: private, public, guarantee and unlimited.",
+"keyWords":["Memorandum of Association","Articles of Association","Prospectus","Limited by guarantee","Unlimited company"],
+"sections":[
+{"h":"Memorandum of Association","p":["It defines the company's relationship with the outside world. It contains the company's name; its registered office; its objects (what it will do); the liability of members; and the share capital structure."]},
+{"h":"Articles of Association","p":["They are the company's internal rules: how directors are appointed; how meetings are held and votes counted; how dividends are paid; how shares may be transferred."]},
+{"h":"Other documents","p":["Certificate of Incorporation: issued by the CAC, confirms that the company legally exists. Prospectus: a public company's invitation to the public to buy its shares, giving details of the business, the management and the financial forecasts."]},
+{"h":"Memorandum and articles compared","p":["Study the table."],"tbl":{"head":["Feature","Memorandum","Articles"],"rows":[["Governs","The company's dealings with outsiders","The company's internal affairs"],["Contents","Name, office, objects, liability, share capital","Directors, meetings, voting, dividends, share transfer"],["Importance","The 'charter'; acts outside it are not valid","The 'rule book' for members and directors"]]}},
+{"h":"Types of company by formation","p":["Study the table."],"tbl":{"head":["Type","Description"],"rows":[["Private company limited by shares","For a small group; cannot invite the public to buy shares"],["Public company limited by shares","Can invite the public to buy shares, including through the stock exchange"],["Company limited by guarantee","Members promise to pay a fixed sum if the company is wound up; usually for non-profit bodies such as associations and societies"],["Unlimited company","Members are liable without limit for the company's debts"]]}},
+{"h":"A word on limited liability","p":["In a company limited by shares, a shareholder who has paid for all his or her shares cannot be asked to pay more, even if the company is in debt. This is the main reason why people prefer companies to sole traderships and partnerships for risky ventures."]}
+],
+"activity":"State the difference between the Memorandum and the Articles of Association. List what the Memorandum contains. Explain how a company limited by guarantee differs from one limited by shares.",
+"check":[
+{"q":"The internal rules of a company are in the","o":["Articles of Association","Memorandum of Association","Prospectus","Certificate"]},
+{"q":"The company's objects are stated in the","o":["Memorandum","Articles","Balance sheet","Cash book"]},
+{"q":"A company limited by guarantee is usually for","o":["Non-profit bodies","Banks only","Government","Sole traders"]},
+{"q":"In an unlimited company, members have","o":["Unlimited liability","Limited liability","No liability","Only tax liability"]},
+{"q":"A prospectus is used to","o":["Invite the public to buy shares","Pay tax","Register a business name","Close the company"]}
+]},
+
+{"id":"fa22-04","week":2,"title":"Private Companies","icon":"Users",
+"summary":"The meaning, features, advantages and disadvantages of private companies, with what CAMA 2020 changed.",
+"keyWords":["Private company","Limited (Ltd)","Share transfer restriction","Members","Minimum share capital"],
+"sections":[
+{"h":"Meaning","p":["A private company restricts the transfer of its shares and does not invite the public to buy shares. It is often owned by a family or a small group. Its name ends with 'Limited' (Ltd)."]},
+{"h":"Features in the lesson note","p":["Members: minimum 2 and maximum 50. No public offer of shares or debentures. Shares cannot be freely transferred; approval is needed. A minimum share capital is required (the note gives ₦100,000). Fewer legal formalities and a quick registration. It can start business at once after incorporation. Little public disclosure of its accounts."]},
+{"h":"What CAMA 2020 says","p":["The Companies and Allied Matters Act 2020 made important changes. A private company can now be formed by one person (a single-member company), so the old minimum of two members no longer applies to private companies. The minimum issued share capital is ₦100,000 for a private company. I could not confirm the 'maximum of 50 members' for private companies under the new law, so treat it as the older rule, and check the Act or a current CAC notice. In an examination, write the figure your teacher or syllabus uses."]},
+{"h":"Advantages","p":["The owners keep control. Quick decisions. Lower cost of formation. Confidentiality: its affairs are not published widely."]},
+{"h":"Disadvantages","p":["Limited access to capital (it cannot sell shares to the public). Shares are hard to sell or transfer. The owners carry more of the risk. Its growth is limited by what the owners can raise."]},
+{"h":"Examples","p":["Dangote Industries Limited and many family businesses and start-ups. Note: some companies in the Dangote group (such as Dangote Cement Plc) are public companies listed on the stock exchange; the parent is private."]}
+],
+"activity":"Define a private company and state three of its features. State two advantages and two disadvantages. Explain why a private company cannot raise money by asking the public to buy shares.",
+"check":[
+{"q":"The name of a private company ends with","o":["Limited (Ltd)","Plc","Inc","Group"]},
+{"q":"A private company cannot","o":["Invite the public to buy shares","Own property","Sue in its own name","Employ workers"]},
+{"q":"An advantage of a private company is","o":["Control stays with the owners","Large public capital","Free share transfer","Many shareholders"]},
+{"q":"A disadvantage is","o":["Limited access to capital","Heavy public disclosure","Free trading of shares","Stock exchange rules"]},
+{"q":"Under CAMA 2020 a private company can be formed by","o":["One person","Seven people only","The government only","A bank only"]}
+]},
+
+{"id":"fa22-05","week":2,"title":"Public Companies and the Differences from Private Companies","icon":"Landmark",
+"summary":"Features of public companies, a comparison table with private companies, similarities, advantages and disadvantages and a worked scenario.",
+"keyWords":["Public company","Plc","Share transfer","Disclosure","Stock exchange","SEC"],
+"sections":[
+{"h":"Meaning","p":["A public company may invite the public to buy its shares and debentures and may be listed on a stock exchange. It has more legal duties and can raise much more capital. Its name ends with 'Plc' (Public Limited Company)."]},
+{"h":"Features","p":["Members: at least two under CAMA 2020 (the lesson note gives seven, which was the older rule) and no maximum. It can offer shares to the public. Shares can be freely transferred. Accounts must be published. It can be listed. It is closely regulated by the CAC, the SEC and the stock exchange. The note says a certificate of commencement is needed; see the previous unit."]},
+{"h":"Private and public compared","p":["Study the table. The numbers in brackets are the lesson note's older figures."],"tbl":{"head":["Basis","Private company","Public company"],"rows":[["Minimum members","1 under CAMA 2020 (older law: 2)","2 under CAMA 2020 (older law: 7)"],["Maximum members","The older law gave 50","No limit"],["Public share offer","Not allowed","Allowed"],["Share transfer","Restricted","Freely transferable"],["Disclosure","Minimal","Extensive; accounts published"],["Name ending","Ltd","Plc"],["Minimum issued share capital","₦100,000","₦2,000,000"]]}},
+{"h":"Similarities","p":["Both are legal persons. Both must be registered with the CAC. Both can own property and sue or be sued. Both give shareholders limited liability. (A public company is the only one that may sell shares to the public.)"]},
+{"h":"Advantages of a public company","p":["Can raise a large amount of capital. Public recognition and credibility. Shares are easy to buy and sell. Broad ownership helps expansion."]},
+{"h":"Disadvantages","p":["Heavy regulation and cost. Sensitive information must be published. Slower decisions because many people have a say."]},
+{"h":"Scenario","p":["Seven people want to start a business and raise funds by selling shares to the public. They should form a public company (Plc), because only a public company can invite the public to buy shares. They will need a prospectus approved by the SEC, and they must obey the disclosure rules."]}
+],
+"activity":"List four features of a public company. State three differences between private and public companies. Explain why a public company is more heavily regulated than a private one (it deals with public money).",
+"check":[
+{"q":"A public company's name ends with","o":["Plc","Ltd","Inc","Co"]},
+{"q":"Only a public company can","o":["Invite the public to buy shares","Employ staff","Own property","Be registered"]},
+{"q":"Shares of a public company are","o":["Freely transferable","Not transferable","Owned by the CAC","Always free"]},
+{"q":"A feature that both types share is","o":["Limited liability","Public share offers","Free share transfer","Stock exchange listing"]},
+{"q":"The invitation to buy shares is in the","o":["Prospectus","Memorandum only","Journal","Balance sheet"]}
+]},
+
+{"id":"fa22-06","week":3,"title":"Quoted and Unquoted Companies","icon":"BarChart2",
+"summary":"The meaning, features, differences, advantages and disadvantages of quoted and unquoted companies, with examples.",
+"keyWords":["Quoted company","Unquoted company","Nigerian Exchange Group","Listing","Liquidity"],
+"sections":[
+{"h":"Quoted companies","p":["A quoted company is a public company whose shares are listed and traded on a recognised stock exchange, such as the Nigerian Exchange Group (NGX). It has met the exchange's listing rules, and its shares are owned by many members of the public."]},
+{"h":"Features of quoted companies","p":["Shares are traded publicly. Many shareholders. High disclosure: regular published reports. Regulated by the SEC and the NGX. High liquidity: shares are easy to sell. The market value of the company is known to everybody."]},
+{"h":"Unquoted companies","p":["An unquoted company is any private or public company whose shares are not listed on any stock exchange. Its shares are not traded in the open market. Ownership is often private or by a small group."]},
+{"h":"Features of unquoted companies","p":["Shares are not traded publicly. Private ownership. Lower disclosure. Low liquidity: shares are harder to sell. Less supervision: they obey the CAC (and the SEC for public ones) but not stock exchange rules."]},
+{"h":"Differences","p":["Study the table."],"tbl":{"head":["Basis","Quoted","Unquoted"],"rows":[["Listing","On a stock exchange","Not on a stock exchange"],["Share trading","Open and public","Not public"],["Ownership","Broad public","Restricted or private"],["Disclosure","High (audited accounts published)","Limited"],["Regulation","CAC, SEC and NGX","Mainly CAC (and SEC for public ones)"],["Access to capital","Easy from the public","Limited, mostly private placements"]]}},
+{"h":"Advantages and disadvantages of being quoted","p":["Advantages: access to large capital; better public image; liquidity for shareholders; public confidence; shares can be used for mergers. Disadvantages: strict rules and public scrutiny; high cost of listing and staying listed; effects of market ups and downs; owners lose some control."]},
+{"h":"Examples","p":["Quoted: Zenith Bank Plc, MTN Nigeria Communications Plc, Guinness Nigeria Plc, First Holdco (First HoldCo Plc, the former First Bank of Nigeria Holdings). Unquoted: Dangote Industries Limited, Coscharis Group, Emzor Pharmaceutical Industries Ltd, SLOT Nigeria. Company names change with mergers and restructuring, so check the NGX website for the current list."]}
+],
+"activity":"List the five largest companies you can find on the NGX website and say which sector each is in. State three differences between quoted and unquoted companies. A company wants to raise capital quickly by selling part of its ownership to the public: which type should it become, and what are the benefits?",
+"check":[
+{"q":"A quoted company's shares are traded on a","o":["Stock exchange","Local market only","School notice board","Post office"]},
+{"q":"A feature of unquoted companies is","o":["Shares are not traded publicly","Shares are sold on NGX","High disclosure","Broad public ownership"]},
+{"q":"A disadvantage of being quoted is","o":["High cost of compliance","Easy capital","More liquidity","Public confidence"]},
+{"q":"Quoted companies are regulated by","o":["CAC, SEC and the exchange","CAC only","Nobody","The school board"]},
+{"q":"Zenith Bank Plc is an example of a","o":["Quoted company","Sole trader","Partnership","Unquoted company"]}
+]},
+
+{"id":"fa22-07","week":4,"title":"The Financial System: Institutions and Instruments","icon":"Landmark",
+"summary":"The meaning of the financial system and its four parts: institutions, markets, instruments and laws, starting with institutions and instruments.",
+"keyWords":["Financial system","Depository institutions","Non-depository institutions","Regulators","Financial instruments"],
+"sections":[
+{"h":"Meaning","p":["Every modern economy needs a way to move money from people who have more than they need (savers) to people who need money (investors and borrowers). The financial system is the network of institutions, markets, instruments, laws and procedures that makes this possible. It collects savings and channels them into productive investments."]},
+{"h":"Four components","p":["The system has four main parts: financial institutions, financial markets, financial instruments, and financial laws and regulations."]},
+{"h":"Financial institutions","p":["Depository institutions accept deposits and lend: commercial banks, microfinance banks, mortgage banks. Non-depository institutions give financial services without taking deposits: insurance companies, pension fund administrators, investment banks. Regulatory institutions set and enforce the rules: the Central Bank of Nigeria (CBN), the Securities and Exchange Commission (SEC), the Nigeria Deposit Insurance Corporation (NDIC), and others such as PenCom for pensions."]},
+{"h":"Financial instruments","p":["These are contracts or documents used to raise or invest money. Examples: shares (equity); bonds (debt); treasury bills; commercial papers; mutual fund units (investment funds). Each has different risk and return: for example, treasury bills are short-term and low risk; shares are long-term and riskier."]},
+{"h":"Financial laws","p":["Rules that govern the system, for example the CBN Act, the Banks and Other Financial Institutions Act (BOFIA), the Investments and Securities Act (ISA) and the Pension Reform Act. They protect investors, keep the system stable and demand clear information."]}
+],
+"activity":"Define the financial system. Name three kinds of financial institution with an example of each. List five financial instruments used in Nigeria and say what each is used for.",
+"check":[
+{"q":"A commercial bank is a","o":["Depository institution","Regulator","Instrument","Law"]},
+{"q":"An insurance company is a","o":["Non-depository institution","Depository institution","Market","Instrument"]},
+{"q":"The CBN is a","o":["Regulatory institution","Commercial bank","Insurance company","Instrument"]},
+{"q":"A treasury bill is a financial","o":["Instrument","Institution","Regulator","Law"]},
+{"q":"The financial system moves money from","o":["Savers to borrowers","Borrowers to savers only","Banks to banks only","Nowhere"]}
+]},
+
+{"id":"fa22-08","week":4,"title":"Financial Markets and the Functions of the Financial System","icon":"BarChart2",
+"summary":"The money, capital, foreign exchange and derivatives markets, the functions and importance of a sound financial system.",
+"keyWords":["Money market","Capital market","Foreign exchange market","Derivatives","Financial inclusion"],
+"sections":[
+{"h":"Financial markets","p":["Financial markets are places (physical or electronic) where money, shares and bonds are bought and sold. The main types are in the table."],"tbl":{"head":["Market","What is traded","Time","Examples"],"rows":[["Money market","Short-term funds","Less than one year","Treasury bills, certificates of deposit, commercial papers"],["Capital market","Long-term funds","More than one year","Shares (equities) and bonds"],["Foreign exchange market","Foreign currencies","Any","Naira for dollars, pounds, euros"],["Derivatives market","Contracts based on other assets","Various","Futures and options"]]}},
+{"h":"Functions of the financial system","p":["1. Mobilisation of savings: encourages saving and makes the money available for investment. 2. Efficient allocation of capital: sends funds to where they are most productive. 3. Facilitating payments: banks and payment systems make trade safe and easy. 4. Risk management: insurance and other tools spread risk. 5. Monitoring and regulation: promotes honest practice and prevents crashes. 6. Economic growth: supports business, trade and infrastructure."]},
+{"h":"Why a sound financial system matters","p":["It encourages investment and new ideas. It reduces poverty through financial inclusion (more people can save and borrow safely, for example through mobile money and microfinance). It builds trust in the economy. It makes international trade and currency exchange possible. It supports government policy, for example by selling bonds."]},
+{"h":"The flow of funds","p":["Savers (households, firms) put money in banks, pension funds or buy securities. Financial institutions and markets pass the money on to borrowers (firms, government, individuals) who invest it. Borrowers pay interest, dividends or repay, and savers earn returns."]},
+{"h":"Financial markets compared with financial institutions","p":["Financial institutions are organisations (banks, insurers) that stand between savers and borrowers. Financial markets are the places where financial assets are traded. A stockbroking firm is an institution that works in the market."]}
+],
+"activity":"Distinguish between the capital market and the money market. Draw a flow chart of funds from savers through financial institutions to borrowers. Explain two ways in which the financial system helps economic development.",
+"check":[
+{"q":"The money market deals with funds for","o":["Less than one year","More than one year","Fifty years","Never"]},
+{"q":"Shares and bonds are traded in the","o":["Capital market","Money market","Foreign exchange market","Corner shop"]},
+{"q":"Buying dollars with naira takes place in the","o":["Foreign exchange market","Money market","Capital market","Insurance market"]},
+{"q":"One function of the financial system is","o":["Mobilising savings","Printing textbooks","Making cement","Building roads directly"]},
+{"q":"Financial inclusion means","o":["More people can use financial services","Fewer people save","Only banks save","No loans"]}
+]}
+]

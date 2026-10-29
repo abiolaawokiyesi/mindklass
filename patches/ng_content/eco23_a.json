@@ -1,0 +1,157 @@
+[
+{"id":"ec23-02","week":1,"title":"Economic Development Planning: Meaning, Aims and Types","icon":"Target",
+"summary":"What economic planning is, its seven aims and the main types of plan.",
+"keyWords":["Economic planning","Development planning","Comprehensive plan","Partial plan","Diversification","Resource allocation"],
+"sections":[
+{"h":"A roadmap for the nation","p":["Economic development planning is like drawing a roadmap for a country's future. It is the government's conscious effort to guide the economy towards chosen goals and to use resources wisely for fast and lasting growth."]},
+{"h":"Key concepts","p":["Economic planning: the deliberate allocation of a nation's resources by the government to different sectors in order to reach specific economic goals. Development planning: the strategic mapping of the actions the government will take to achieve overall growth and development. A plan is a rational, systematic use of resources, with government influence, direction and control."]},
+{"h":"Aims and objectives","p":["1. Increase employment. 2. Develop efficient technology. 3. Increase real income and living standards. 4. Allocate resources fairly across sectors and regions. 5. Diversify the economy away from a single sector such as oil. 6. Reduce income inequality. 7. Reduce foreign control by raising local ownership of the economy."]},
+{"h":"Types of planning","p":["Study the table."],"tbl":{"head":["Type","Meaning"],"rows":[["Financial planning","Concerned with sharing out national income among sectors"],["Strategic planning","Aimed at achieving a few specific, critical objectives"],["Comprehensive planning","Sets targets for all the main sectors of the economy (for example Nigeria's five-year plans)"],["Partial planning","Covers only one part of the economy, such as agriculture or education"],["Authoritarian (controlled) planning","Common in socialist systems; the government controls both the making and the carrying out of plans"]]}},
+{"h":"Benefits of planning to a nation","p":["It sets clear goals and priorities; avoids waste by using scarce resources where they matter most; creates jobs and reduces poverty in a purposeful way; makes it possible to measure progress; and attracts investors by making policy more predictable."]},
+{"h":"The planning cycle","p":["A plan goes through steps: set goals (for example job creation or diversification); formulate policies and strategies; implement the plan by allocating resources and carrying out projects; monitor and evaluate progress by collecting data; and use the feedback to adjust the plan. The picture of this cycle in your lesson note has a spelling error, so we describe it in words."]}
+],
+"activity":"Outline three benefits of economic planning. Differentiate between comprehensive and partial planning. Give three aims of a plan to reduce dependence on oil.",
+"check":[
+{"q":"Planning that covers all main sectors is","o":["Comprehensive","Partial","Strategic only","Financial only"]},
+{"q":"Planning of only agriculture is","o":["Partial planning","Comprehensive planning","Authoritarian planning","Budgeting"]},
+{"q":"An aim of planning is to","o":["Diversify the economy","Increase dependence on oil","Reduce jobs","Raise inequality"]},
+{"q":"Controlled planning is typical of","o":["Socialist systems","Free markets only","Barter","Traditional societies only"]},
+{"q":"Economic planning is the","o":["Deliberate allocation of resources to achieve goals","Random spending","Printing money","Collecting tax only"]}
+]},
+
+{"id":"ec23-03","week":1,"title":"Nigeria's Planning Experience and Its Problems","icon":"Landmark",
+"summary":"The national development plans from 1962 to NEEDS, and six reasons why planning has often failed.",
+"keyWords":["National Development Plan","NEEDS","Political instability","Cost overruns","Brain drain"],
+"sections":[
+{"h":"Nigeria's plans","p":["1st National Development Plan: 1962 to 1968. 2nd: 1970 to 1974 (after the civil war, focusing on reconstruction). 3rd: 1975 to 1980 (oil-boom years with very large spending). 4th: 1981 to 1985. Later came rolling plans, the National Economic Empowerment and Development Strategy (NEEDS) from 2003/2004, and Vision 20:2020 (you study these this term)."]},
+{"h":"Problems of planning in Nigeria","p":["1. Political instability: frequent changes of government lead to inconsistent policy and abandoned projects. 2. Inadequate capital: not enough money for projects. 3. Shortage of skilled personnel: lack of technical experts, partly through brain drain. 4. Rapid population growth: can outpace economic growth and strain resources. 5. Insufficient data: poor statistics cause wrong forecasts. 6. Poor implementation and cost overruns: projects are badly executed and costs exceed estimates. Add: corruption, and over-dependence on oil income, which makes budgets uncertain."]},
+{"h":"Why plans fail: an example","p":["A road is planned at ₦10 billion over three years. The government changes in year two, the new government prefers another project, funds are diverted, and the road is left half built. Costs rise by 40% from inflation. This shows political instability, poor implementation and cost overruns together."]},
+{"h":"What makes planning work?","p":["Political will and continuity across governments; reliable data; a skilled civil service; honest management of funds; the involvement of states, firms and citizens; and regular review."]}
+],
+"activity":"List Nigeria's four national development plans and their dates. Discuss four problems of economic planning in Nigeria.",
+"check":[
+{"q":"The 1st National Development Plan ran from","o":["1962 to 1968","1970 to 1974","1981 to 1985","2003 to 2009"]},
+{"q":"A problem of planning is","o":["Political instability","Too accurate data","Too many skilled workers","Low population"]},
+{"q":"Cost overruns mean","o":["Costs exceed estimates","Costs fall","No costs","Savings"]},
+{"q":"The brain drain reduces","o":["Skilled personnel","Corruption","Imports","Inflation"]},
+{"q":"Poor data causes","o":["Flawed planning","Perfect plans","Zero cost","More jobs"]}
+]},
+
+{"id":"ec23-04","week":2,"title":"The International Monetary Fund (IMF)","icon":"Landmark",
+"summary":"The IMF's origin, aims, quota system, criticisms and benefits to Nigeria.",
+"keyWords":["IMF","Bretton Woods","Quota","Special Drawing Rights","Conditionality","Structural adjustment"],
+"sections":[
+{"h":"No country is an island","p":["In a connected world, nations form economic organisations to deal with common problems, increase trade and promote stability."]},
+{"h":"The IMF: the global financial firefighter","p":["Founded in 1944 at the Bretton Woods Conference in New Hampshire, USA (it began operations soon after). Headquarters: Washington, D.C. Membership: about 190 countries. Main goal: the stability of the international monetary system, that is the system of exchange rates and payments that lets countries trade with each other."],"img":{"src":"eco2-imf-roles.jpg","alt":"Two panels showing the IMF's dual role: a firefighter putting out a balance of payments crisis as emergency response, and a doctor checking a globe as prevention through policy advice and monitoring","cap":"The IMF as firefighter and doctor."}},
+{"h":"Objectives","p":["1. Promote international monetary cooperation. 2. Encourage balanced growth of trade, which supports jobs and incomes. 3. Promote exchange rate stability. 4. Lend temporarily to members with balance of payments problems. 5. Give technical help and training."]},
+{"h":"The quota system","p":["Each member pays a quota based on the size of its economy. The quota decides its voting power (the USA, Japan and Germany have more votes), how much it can borrow, and its share of Special Drawing Rights (SDRs), an international reserve asset created by the IMF."]},
+{"h":"Criticisms","p":["Strict conditions (conditionality), often called structural adjustment programmes (SAPs), may require cuts in spending on health and education and the privatisation of state assets, which can cause hardship. Dominance of rich nations in voting. A 'one-size-fits-all' approach that does not fit local conditions."]},
+{"h":"Benefits to Nigeria and West Africa","p":["Support in a balance of payments crisis, for example after an oil price crash; policy credibility, because an IMF programme tells investors that a country is serious about sound policy; and data, assessments and advice."]},
+{"h":"Why might a country hesitate to borrow from the IMF?","p":["Because of the conditions: cutting subsidies, devaluing the currency, reducing public spending and privatising state firms are often unpopular and can hurt the poor in the short term; and a loan may also be seen as a loss of independence."]}
+],
+"activity":"State the main goal and three objectives of the IMF. Explain the quota system. Why might a developing country hesitate to borrow from the IMF?",
+"check":[
+{"q":"The IMF was founded at","o":["Bretton Woods in 1944","Lagos in 1975","Geneva in 1995","Abuja in 1999"]},
+{"q":"The IMF mainly lends to help with","o":["Balance of payments problems","Building schools only","Farming only","Elections"]},
+{"q":"A member's quota decides its","o":["Voting power and borrowing limit","Population","Language","Currency name"]},
+{"q":"Structural adjustment conditions often include","o":["Cutting public spending","Raising all wages","Banning trade","Printing money"]},
+{"q":"SDRs are","o":["An international reserve asset","A farm tool","A stock market","A tax"]}
+]},
+
+{"id":"ec23-05","week":2,"title":"The World Bank and How It Differs from the IMF","icon":"Landmark",
+"summary":"The aims of the World Bank, its benefits to Nigeria and a comparison with the IMF.",
+"keyWords":["World Bank","IBRD","Poverty reduction","Project finance","Reconstruction"],
+"sections":[
+{"h":"The global development partner","p":["The World Bank (International Bank for Reconstruction and Development, IBRD) was also founded in 1944 at Bretton Woods and has its headquarters in Washington, D.C. It is the IMF's sister organisation but with a different job: to reduce poverty and support long-term development by financing and advising on specific projects."]},
+{"h":"Objectives","p":["1. Finance reconstruction and development: roads, dams, power plants. 2. Promote foreign investment by guaranteeing loans. 3. Support sustainable development in education, health and the environment. 4. Provide technical expertise and research."]},
+{"h":"IMF and World Bank compared","p":["Study the table."],"tbl":{"head":["Feature","IMF","World Bank"],"rows":[["Focus","Short-term economic stability and macroeconomic problems","Long-term development and project finance"],["Purpose","Fix balance of payments, stabilise the currency","Fight poverty, build infrastructure"],["Time frame","Short to medium term (1 to 5 years)","Long term (5 to 20 years)"],["Typical help","Loans with policy conditions; advice","Project loans, grants and technical help"]]}},
+{"h":"Benefits to Nigeria","p":["Infrastructure: the Bank has supported roads, hydroelectric and power projects and rural water schemes. Your lesson note names the Lagos-Ibadan expressway; check this against your teacher's notes, because many roads have been financed from several sources. Human capital: funding for education and health, including campaigns against malaria and polio. Reconstruction: loans to help rebuild after the civil war."]},
+{"h":"Primary roles in one sentence each","p":["IMF: lender and adviser that keeps the international payments system stable and helps countries with short-term balance of payments crises. World Bank: lender and adviser that finances long-term development projects to reduce poverty."]}
+],
+"activity":"Differentiate between the primary roles of the IMF and the World Bank. State two benefits of the World Bank to Nigeria.",
+"check":[
+{"q":"The World Bank focuses on","o":["Long-term development","Short-term currency fixing only","Stock trading","Printing money"]},
+{"q":"The IMF focuses mainly on","o":["Short-term stability","Building dams","Farming loans","School feeding"]},
+{"q":"The World Bank's headquarters is in","o":["Washington, D.C.","Abuja","Geneva","Abidjan"]},
+{"q":"The World Bank can fund","o":["Roads and power plants","Only elections","Only salaries","Only imports"]},
+{"q":"The two institutions were founded at","o":["Bretton Woods","Lagos","Berlin","Paris"]}
+]},
+
+{"id":"ec23-06","week":2,"title":"ECOWAS: The Economic Community of West African States","icon":"Users",
+"summary":"The founding, aims, institutions, achievements and problems of ECOWAS, with a note on recent changes in membership.",
+"keyWords":["ECOWAS","Treaty of Lagos","Free trade area","Common market","ECOMOG","ETLS"],
+"sections":[
+{"h":"Our regional family","p":["ECOWAS was founded on 28 May 1975 by the Treaty of Lagos. Its headquarters is in Abuja, Nigeria. It had 15 member states. Note: in January 2025 Burkina Faso, Mali and Niger left the community, so it now has 12 members. Its main goal is economic integration and cooperation in West Africa."]},
+{"h":"Objectives","p":["1. Create a free trade area by removing customs duties and barriers among members. 2. Build a common market with free movement of people, goods, services and capital. 3. Harmonise agricultural, economic, monetary and industrial policies. 4. Promote peace and security through collective mechanisms."]},
+{"h":"Key institutions","p":["Authority of Heads of State and Government (the highest decision-making body); the ECOWAS Commission (administration); the Community Parliament (discussion); the Community Court of Justice (explains the treaty and settles disputes); and the ECOWAS Bank for Investment and Development (EBID), which finances projects."]},
+{"h":"Achievements","p":["The ECOWAS Trade Liberalisation Scheme (ETLS) for tariff-free movement of certain goods. The ECOWAS passport and visa-free travel for up to 90 days. ECOMOG, the ceasefire monitoring group that intervened in Liberia and Sierra Leone. Cooperation in health (fighting epidemics), sports and security."]},
+{"h":"Problems","p":["Similar economies: many members export similar raw materials such as cocoa, oil and cotton, so they compete instead of trading with each other. Poor infrastructure and slow border posts. Many currencies: the CFA franc (used by some) and the naira, cedi and others, which complicates monetary union (the planned 'eco' currency has been delayed). Political instability: coups and crises in some states. Border closures and non-tariff barriers."]},
+{"h":"Assignment answers","p":["Two achievements: free movement of people (visa-free travel) and peacekeeping (ECOMOG). Two challenges: the similarity of the members' economies, and political instability or poor infrastructure."]}
+],
+"activity":"State the year and treaty that created ECOWAS and its headquarters. Explain two achievements and two challenges of ECOWAS. Find out the current members.",
+"check":[
+{"q":"ECOWAS was created by the","o":["Treaty of Lagos","Treaty of Versailles","Treaty of Rome","Treaty of Abuja only"]},
+{"q":"ECOWAS headquarters is in","o":["Abuja","Lagos","Accra","Dakar"]},
+{"q":"ECOMOG is a","o":["Peacekeeping force","Bank","Court","Currency"]},
+{"q":"A problem of ECOWAS is","o":["Similar economies and poor infrastructure","Too many roads","One currency","No members"]},
+{"q":"The ECOWAS body that settles disputes is the","o":["Community Court of Justice","Parliament","Commission","EBID"]}
+]},
+
+{"id":"ec23-07","week":3,"title":"The African Development Bank and UNCTAD","icon":"Landmark",
+"summary":"The AfDB and UNCTAD: their founding, goals, functions and importance for developing countries.",
+"keyWords":["AfDB","UNCTAD","Regional integration","Commodity dependence","Soft infrastructure","Hard infrastructure"],
+"sections":[
+{"h":"The African Development Bank (AfDB)","p":["Africa's home-grown development fund. Founded in 1964; headquarters Abidjan, Côte d'Ivoire. Membership: 81 states (54 African and 27 non-African). Primary goal: to spur sustainable economic development and social progress in its African member countries.","Objectives: 1. Loans and grants for agriculture, health, education and infrastructure. 2. Mobilise public and private investment into Africa. 3. Policy advice and research. 4. Promote regional integration through cross-border projects such as roads and power pools.","Why it matters: it is African-led and understands African problems; it invests in 'soft' infrastructure (education, health) as well as 'hard' infrastructure (roads, power); and it encourages private firms to invest by funding risky projects."]},
+{"h":"UNCTAD","p":["The United Nations Conference on Trade and Development was set up in 1964 as a permanent organ of the UN General Assembly. Headquarters: Geneva, Switzerland. Primary goal: to help developing countries join the world economy fairly.","Objectives: 1. Make world trade rules development-friendly. 2. Help countries that depend on a few raw materials to diversify (commodity dependence). 3. Support debt management. 4. Analyse globalisation. It is a think-tank (the Trade and Development Report) and a forum where developing countries can speak out."]},
+{"h":"AfDB and the World Bank compared","p":["Both lend for development. The AfDB lends to African countries and is owned mainly by African members; the World Bank is global. The AfDB's focus is on African integration and projects; the World Bank's scope is wider."]},
+{"h":"Benefits to Nigeria","p":["AfDB financing for power, roads and agriculture projects and support for private investment; UNCTAD's research and advice on diversifying away from oil and on trade policy."]}
+],
+"activity":"Write short notes on the AfDB and UNCTAD (year founded, headquarters, goal and two objectives each). Explain why an African-led bank may be better placed to understand African problems.",
+"check":[
+{"q":"The AfDB's headquarters is in","o":["Abidjan","Abuja","Nairobi","Cairo"]},
+{"q":"UNCTAD's headquarters is in","o":["Geneva","New York","Lagos","Paris"]},
+{"q":"UNCTAD helps developing countries to","o":["Join the world economy fairly","Print money","Win football","Close borders"]},
+{"q":"The AfDB has","o":["81 member states","15 member states","200 member states","5 member states"]},
+{"q":"Roads and power plants are","o":["Hard infrastructure","Soft infrastructure","Human capital","Services only"]}
+]},
+
+{"id":"ec23-08","week":3,"title":"OPEC: The Organisation of the Petroleum Exporting Countries","icon":"BarChart2",
+"summary":"The founding, aims, quotas, achievements and challenges of OPEC and how it affects Nigeria.",
+"keyWords":["OPEC","Production quota","Price stability","Cartel","Shale oil","Energy transition"],
+"sections":[
+{"h":"The oil cartel","p":["OPEC was founded in 1960 in Baghdad by Iran, Iraq, Kuwait, Saudi Arabia and Venezuela. Its headquarters is in Vienna, Austria. Nigeria joined in 1971. The lesson note says it has 13 members; in recent years some members have left (for example Angola in 2024), so it now has fewer, about 12. A 'cartel' is a group of producers that agree to control output and price."],"img":{"src":"eco2-opec-balance.jpg","alt":"A balance with oil supply on one side and consumer demand on the other, held by a hand, to show OPEC balancing supply and demand","cap":"OPEC's balancing act."}},
+{"h":"Objectives","p":["1. Price stability: avoid harmful swings in oil prices. 2. A steady supply of petroleum to consumers. 3. A fair return for producers who invest in oil. 4. Production quotas to manage world supply."]},
+{"h":"How OPEC influences the market","p":["By agreeing to cut or raise production together. If members cut output, supply falls and prices tend to rise; if they raise output, prices tend to fall."]},
+{"h":"Achievements","p":["Higher prices and more control over oil resources for members in the 1970s; a major role in world politics and economics; a hub of information and analysis on the oil market."]},
+{"h":"Problems","p":["Quota cheating: members produce more than their quota for short-term income. Political rivalry, for example between Saudi Arabia and Iran. Rise of non-OPEC producers such as the USA (shale oil), Russia and Brazil. The energy transition to renewable energy, which may reduce long-term demand for oil."]},
+{"h":"Effects on Nigeria","p":["Nigeria's quota limits how much it may sell, and its revenue depends on the oil price that OPEC decisions influence. Quota limits, theft and pipeline damage have sometimes left Nigeria producing below its quota, which cuts income."]}
+],
+"activity":"State when and where OPEC was formed and its main goal. Explain how OPEC influences prices. Discuss two challenges facing OPEC.",
+"check":[
+{"q":"OPEC was founded in","o":["1960","1971","1944","1975"]},
+{"q":"OPEC's headquarters is in","o":["Vienna","Lagos","Washington","Baghdad"]},
+{"q":"If OPEC cuts production, prices tend to","o":["Rise","Fall","Stay at zero","Double every year"]},
+{"q":"Quota cheating means members","o":["Produce more than their limit","Produce less","Sell nothing","Leave OPEC"]},
+{"q":"Nigeria joined OPEC in","o":["1971","1960","1990","2000"]}
+]},
+
+{"id":"ec23-09","week":4,"title":"The Millennium Development Goals (MDGs)","icon":"Target",
+"summary":"The eight goals, what Nigeria achieved, why most were not met and how the story continues with the SDGs.",
+"keyWords":["MDGs","Poverty","Universal primary education","Child mortality","Maternal health","Partnership"],
+"sections":[
+{"h":"A global promise","p":["The MDGs were eight international development targets set after the UN Millennium Summit in 2000, when world leaders, including Nigeria's, promised to cut extreme poverty and improve human development by 2015."]},
+{"h":"The eight goals and Nigeria's record","p":["Study the table. These assessments follow your lesson note and are summaries."],"tbl":{"head":["Goal","Aim","Nigeria's performance"],"rows":[["1. Eradicate extreme poverty and hunger","Halve the share of people living on less than $1.25 a day and those who suffer hunger","Largely not met; growth did not much reduce poverty"],["2. Universal primary education","All children complete primary school","Partly met; enrolment rose but quality, dropout and infrastructure remained problems"],["3. Gender equality and empowerment of women","End gender disparity in education","Moderate progress; the gap narrowed but women were under-represented in politics and senior jobs"],["4. Reduce child mortality","Cut under-five deaths by two-thirds","Not met, though immunisation brought improvement"],["5. Improve maternal health","Cut maternal deaths by three-quarters","Not met; Nigeria remained among the worst in the world"],["6. Combat HIV/AIDS, malaria and other diseases","Halt and reverse their spread","Good progress; HIV prevalence fell and malaria control grew"],["7. Environmental sustainability","Integrate sustainable development into policy","Mixed; deforestation, pollution and poor access to water and sanitation remained"],["8. Global partnership for development","Open, fair trade and financial system; debt relief","Ongoing; debt and trade imbalances persisted"]]}},
+{"h":"Overall assessment","p":["The MDGs focused attention and resources on health and education, but Nigeria missed most targets. Reasons: weak implementation, corruption, too little funding and a lack of reliable data to track progress."]},
+{"h":"What came next","p":["In 2015 the world adopted the Sustainable Development Goals (SDGs), 17 goals to be met by 2030, which are wider than the MDGs and include climate action, clean energy and strong institutions."]},
+{"h":"A note on the lesson note's picture","p":["The scorecard picture in your lesson note has missing goals and garbled labels, so we use the table instead."]},
+{"h":"WAEC-style answer: four objectives of the MDGs","p":["Reduce poverty and hunger by half; give every child primary education; promote gender equality; reduce child deaths by two-thirds; cut maternal deaths by three-quarters; fight HIV/AIDS and malaria; protect the environment; build a global partnership for development. (Choose any four and explain each in one or two sentences.)"]}
+],
+"activity":"Explain any four objectives of the MDGs. Say which two goals Nigeria did best on and which two worst, with reasons. Find out what the SDGs are.",
+"check":[
+{"q":"The MDGs were set for the period","o":["2000 to 2015","1960 to 1970","2015 to 2030","1980 to 1990"]},
+{"q":"Number of MDGs is","o":["Eight","Seven","Ten","Seventeen"]},
+{"q":"Nigeria made good progress on","o":["HIV/AIDS and malaria control","Eradicating poverty","Reducing maternal deaths","Fixing power"]},
+{"q":"One reason for missing targets was","o":["Weak implementation and corruption","Too much data","Too much funding","No leaders"]},
+{"q":"The MDGs were followed by the","o":["SDGs","NEEDS","SAP","ECOMOG"]}
+]}
+]

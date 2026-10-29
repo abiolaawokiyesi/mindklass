@@ -1,4 +1,4 @@
-﻿@(
+@(
   @{ code = 'NG-SS1-ENG-T1'; group = 'SS1 English Studies'; subject = 'English Studies'; term = 1; termLabel = ('SS1 ' + [char]0xB7 + ' First Term'); title = 'SS1 English Studies: First Term Lesson Notes'
      tagline = 'Spoken English and sounds, vocabulary, reading and listening comprehension, narrative and descriptive writing, and grammar (nouns, noun phrases, nominalisation and irregular verbs). Simple notes with pictures, examples and practice questions.'
      months = 'Weeks 1 to 12'; files = @('eng1_toc.json', 'eng1_a.json', 'eng1_b.json', 'eng1_c.json', 'eng1_d.json', 'eng1_e.json') }
@@ -121,4 +121,40 @@
      months = 'Weeks 1 to 11'; files = @('ssb22_toc.json', 'ssb22_a.json', 'ssb22_b.json') }
   ,@{ code = 'NG-SS2-BIO-T3'; group = 'SS2 Biology'; subject = 'Biology'; term = 3; termLabel = ('SS2 ' + [char]0xB7 + ' Third Term'); title = 'SS2 Biology: Third Term Lesson Notes'
      tagline = 'The nervous system, the eye and ear, populations and ecosystems, human reproduction, seeds, fruits and dispersal, courtship and parental care.'
-     months = 'Weeks 1 to 10'; files = @('ssb23_toc.json', 'ssb23_a.json', 'ssb23_b.json', 'ssb23_c.json') })
+     months = 'Weeks 1 to 10'; files = @('ssb23_toc.json', 'ssb23_a.json', 'ssb23_b.json', 'ssb23_c.json') }
+  ,@{ code = 'NG-SS2-FACC-T1'; group = 'SS2 Financial Accounting'; subject = 'Financial Accounting'; term = 1; termLabel = ('SS2 ' + [char]0xB7 + ' First Term'); title = 'SS2 Financial Accounting: First Term Lesson Notes'
+     tagline = 'Partnership accounts: appropriation, capital and current accounts, admission of a partner and goodwill; non-profit accounts; and single entry, with worked examples in naira.'
+     months = 'Weeks 1 to 11'; files = @('ssf21_toc.json', 'ssf21_a.json', 'ssf21_b.json') }
+  ,@{ code = 'NG-SS2-FACC-T2'; group = 'SS2 Financial Accounting'; subject = 'Financial Accounting'; term = 2; termLabel = ('SS2 ' + [char]0xB7 + ' Second Term'); title = 'SS2 Financial Accounting: Second Term Lesson Notes'
+     tagline = 'Formation of a company, private and public, quoted and unquoted companies, the financial system, issue of shares with journal entries, and loan capital.'
+     months = 'Weeks 1 to 11'; files = @('ssf22_toc.json', 'ssf22_a.json', 'ssf22_b.json') }
+  ,@{ code = 'NG-SS2-FACC-T3'; group = 'SS2 Financial Accounting'; subject = 'Financial Accounting'; term = 3; termLabel = ('SS2 ' + [char]0xB7 + ' Third Term'); title = 'SS2 Financial Accounting: Third Term Lesson Notes'
+     tagline = 'The capital market, its requirements, benefits and regulation, final accounts with a full worked example, and hire purchase and instalment payment.'
+     months = 'Weeks 1 to 11'; files = @('ssf23_toc.json', 'ssf23_a.json', 'ssf23_b.json') }
+  ,@{ code = 'NG-SS2-LIT-T1'; group = 'SS2 Literature in English'; subject = 'Literature in English'; term = 1; termLabel = ('SS2 ' + [char]0xB7 + ' First Term'); title = 'SS2 Literature in English: First Term Lesson Notes'
+     tagline = 'African and non-African poetry: Okara, Soyinka, Osundare, Cheney-Coker, Afriyie-Vidza, Kamara, Angelou, Byron, Heaney and Adcock, with a method for analysing poems.'
+     months = 'Weeks 1 to 11'; files = @('lit21_toc.json', 'lit21_a.json', 'lit21_b.json') }
+  ,@{ code = 'NG-SS2-LIT-T2'; group = 'SS2 Literature in English'; subject = 'Literature in English'; term = 2; termLabel = ('SS2 ' + [char]0xB7 + ' Second Term'); title = 'SS2 Literature in English: Second Term Lesson Notes'
+     tagline = 'Prose: plot, character, setting, theme and point of view, and the set novels Redemption Road and Path of Lucas, with corrections to the lesson note and a comparison.'
+     months = 'Weeks 1 to 11'; files = @('lit22_toc.json', 'lit22_a.json', 'lit22_b.json') }
+  ,@{ code = 'NG-SS2-LIT-T3'; group = 'SS2 Literature in English'; subject = 'Literature in English'; term = 3; termLabel = ('SS2 ' + [char]0xB7 + ' Third Term'); title = 'SS2 Literature in English: Third Term Lesson Notes'
+     tagline = 'Drama: African drama and The Marriage of Anansewa, then A Man for All Seasons and An Inspector Calls, with themes, characters, style and a comparison of the three plays.'
+     months = 'Weeks 1 to 11'; files = @('lit23_toc.json', 'lit23_a.json', 'lit23_b.json') }
+  ,@{ code = 'NG-SS2-ECO-T1'; group = 'SS2 Economics'; subject = 'Economics'; term = 1; termLabel = ('SS2 ' + [char]0xB7 + ' First Term'); title = 'SS2 Economics: First Term Lesson Notes'
+     tagline = 'Fiscal policy, budgets, national income, demand for and supply of money, inflation and deflation, lessons from the Asian Tigers, human capital and the petroleum industry.'
+     months = 'Weeks 1 to 11'; files = @('eco21_toc.json', 'eco21_a.json', 'eco21_b.json') }
+  ,@{ code = 'NG-SS2-ECO-T2'; group = 'SS2 Economics'; subject = 'Economics'; term = 2; termLabel = ('SS2 ' + [char]0xB7 + ' Second Term'); title = 'SS2 Economics: Second Term Lesson Notes'
+     tagline = 'Manufacturing and construction, financial markets and their regulators, international trade, economic growth and development, and the balance of payments.'
+     months = 'Weeks 1 to 11'; files = @('eco22_toc.json', 'eco22_a.json') }
+  ,@{ code = 'NG-SS2-ECO-T3'; group = 'SS2 Economics'; subject = 'Economics'; term = 3; termLabel = ('SS2 ' + [char]0xB7 + ' Third Term'); title = 'SS2 Economics: Third Term Lesson Notes'
+     tagline = 'Economic planning, the IMF, World Bank, ECOWAS, AfDB, UNCTAD and OPEC, the MDGs, NEEDS and Vision 2020, and reforms such as privatisation and bank consolidation.'
+     months = 'Weeks 1 to 11'; files = @('eco23_toc.json', 'eco23_a.json', 'eco23_b.json') }
+  ,@{ code = 'NG-SS2-PHY-T1'; group = 'SS2 Physics'; subject = 'Physics'; term = 1; termLabel = ('SS2 ' + [char]0xB7 + ' First Term'); title = 'SS2 Physics: First Term Lesson Notes'
+     tagline = 'Light waves, mirrors, refraction and prisms, sound waves and sonar, the human eye, electric charges, fields and the gravitational field, with corrected worked examples.'
+     months = 'Weeks 1 to 11'; files = @('sp21_toc.json', 'sp21_a.json', 'sp21_b.json') }
+  ,@{ code = 'NG-SS2-PHY-T2'; group = 'SS2 Physics'; subject = 'Physics'; term = 2; termLabel = ('SS2 ' + [char]0xB7 + ' Second Term'); title = 'SS2 Physics: Second Term Lesson Notes'
+     tagline = 'Electric, magnetic and electromagnetic fields, simple a.c. circuits with impedance and resonance, batteries and internal resistance, and solar collectors.'
+     months = 'Weeks 1 to 11'; files = @('sp22_toc.json', 'sp22_a.json', 'sp22_b.json') }
+  ,@{ code = 'NG-SS2-PHY-T3'; group = 'SS2 Physics'; subject = 'Physics'; term = 3; termLabel = ('SS2 ' + [char]0xB7 + ' Third Term'); title = 'SS2 Physics: Third Term Lesson Notes'
+     tagline = 'Continuity testing, electroplating, applications of electromagnetic fields, models of the atom, the nucleus, quantisation, wave-particle duality and energy and society.'
+     months = 'Weeks 1 to 11'; files = @('sp23_toc.json', 'sp23_a.json', 'sp23_b.json') })
