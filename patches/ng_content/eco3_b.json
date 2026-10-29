@@ -1,0 +1,157 @@
+[
+{"id":"ec3-11","week":8,"title":"Price Determination: Equilibrium Price and Quantity","icon":"Zap","summary":"How demand and supply together fix the price in a free market, equilibrium point, price and quantity, and how to find them from a schedule or from equations.",
+"keyWords":["Price system","Equilibrium point","Equilibrium price","Equilibrium quantity","Excess supply"],
+"sections":[
+{"h":"The price system","p":["In a free market, price is decided by the interaction of demand and supply. This is called the price system or price mechanism. The price system decides how much of each good is produced, exchanged and shared. Behind every price are three things: the cost of making the good (which sets the lowest price a seller will accept), the demand of consumers (which sets the highest price buyers will pay) and competition between sellers."]},
+{"h":"Equilibrium","p":["The equilibrium point is the point where the demand curve cuts the supply curve. The equilibrium price is the price at which the quantity demanded equals the quantity supplied. The equilibrium quantity is the quantity bought and sold at that price. At the equilibrium price there is no shortage and no surplus, so there is no pressure for the price to change."],
+"img":{"src":"eco-equilibrium.png","alt":"Demand curve D sloping down and supply curve S sloping up, crossing at the equilibrium point at price 15 and quantity 60, with areas of excess supply above and excess demand below","cap":"Equilibrium price and quantity at the point where D and S cross."}},
+{"h":"From a schedule","p":["Yam: the table shows the quantity demanded (Qd) and the quantity supplied (Qs) at five prices. (In the source notes the headings Qs and Qd are written the wrong way round. The numbers only make sense if the first column is demand, because demand must fall as the price rises.)"],
+"tbl":{"head":["Price (₦)","Qd (kg)","Qs (kg)","Result"],"rows":[
+["25","20","100","Excess supply of 80 kg"],
+["20","40","80","Excess supply of 40 kg"],
+["15","60","60","Equilibrium"],
+["10","80","40","Excess demand of 40 kg"],
+["5","100","20","Excess demand of 80 kg"]]}},
+{"h":"What happens away from equilibrium?","p":["If the price is higher than the equilibrium price (for example, ₦25), sellers want to sell more than buyers want to buy. There is excess supply (a surplus), so sellers lower the price. If the price is lower than the equilibrium price, buyers want more than sellers will supply. There is excess demand (a shortage), so the price rises. In both cases the price moves back to the equilibrium."]},
+{"h":"Using equations","p":["Demand and supply can be written as equations. To find the equilibrium, set Qd = Qs, solve for the price, and then put that price into either equation.","Worked example: Qd = 35 − ½p and Qs = 20 + ¼p. Set 35 − ½p = 20 + ¼p. Move terms: 35 − 20 = ¼p + ½p, so 15 = ¾p, so p = 20. Then Qd = 35 − 10 = 25. Check with Qs = 20 + 5 = 25. Equilibrium price is 20 and equilibrium quantity is 25.","Practice A: Qd = 40 − 4p and Qs = 12p − 24. (a) Find the equilibrium price and quantity. (b) If p = 6, find the excess supply. Solution: 40 − 4p = 12p − 24, so 64 = 16p, p = 4, Q = 40 − 16 = 24. At p = 6: Qd = 40 − 24 = 16 and Qs = 72 − 24 = 48, so excess supply is 48 − 16 = 32.","Practice B: D = 20 − p/6 and S = 18 − p/8. Solution: 20 − p/6 = 18 − p/8, so 2 = p/6 − p/8 = p/24, p = 48, Q = 20 − 8 = 12. Check: S = 18 − 6 = 12."]}
+],
+"activity":"Solve Qd = 50 − 2p and Qs = 3p − 10 for the equilibrium price and quantity. (Answers: p = 12, Q = 26.)",
+"check":[
+{"q":"At the equilibrium price","o":["Quantity demanded equals quantity supplied","Demand is zero","Supply is zero","Price is zero"]},
+{"q":"A price above equilibrium causes","o":["Excess supply","Excess demand","No change","A shortage"]},
+{"q":"In the yam table, the equilibrium price is","o":["₦15","₦25","₦5","₦20"]},
+{"q":"In the yam table, the equilibrium quantity is","o":["60 kg","20 kg","100 kg","40 kg"]},
+{"q":"For Qd = 40 − 4p and Qs = 12p − 24 the equilibrium price is","o":["4","6","10","24"]}]},
+
+{"id":"ec3-12","week":8,"title":"Changes in Equilibrium Price and the Laws of Demand and Supply","icon":"BarChart2","summary":"What happens to price and quantity when demand or supply rises or falls, summarised in four rules and five laws.",
+"keyWords":["Increase in demand","Decrease in demand","Increase in supply","Decrease in supply","Shift of curve"],
+"sections":[
+{"h":"Four possible changes","p":["The equilibrium price changes when demand changes, supply changes, or both. There are four basic cases. In each case we change one curve and keep the other the same."]},
+{"h":"The four cases","p":["Increase in demand (the D curve shifts to the right): there is excess demand at the old price, so price rises and the quantity bought and sold also rises.","Decrease in demand (D shifts left): excess supply at the old price, so price falls and quantity falls.","Increase in supply (S shifts right): excess supply at the old price, so price falls but quantity rises.","Decrease in supply (S shifts left): excess demand at the old price, so price rises and quantity falls."],
+"tbl":{"head":["Change","Equilibrium price","Equilibrium quantity"],"rows":[
+["Demand increases","Rises","Rises"],
+["Demand decreases","Falls","Falls"],
+["Supply increases","Falls","Rises"],
+["Supply decreases","Rises","Falls"]]},
+"img":{"src":"eco-shifts.png","alt":"Four small graphs showing a rise in demand, a fall in demand, a rise in supply and a fall in supply, each with the old and new equilibrium","cap":"The four shifts. The dotted curve is the old curve, and the solid curve is the new one."}},
+{"h":"Examples from Nigeria","p":["Rise in demand: more people want rice before a festival, so the price of rice goes up. Fall in supply: floods destroy yam farms, so there are fewer yams and the price goes up. Rise in supply: a big tomato harvest, so tomato prices fall."]},
+{"h":"The laws of demand and supply","p":["1. Law of demand: the lower the price, the higher the quantity demanded, and the higher the price, the lower the quantity demanded.","2. Law of supply: the higher the price, the higher the quantity supplied, and the lower the price, the lower the quantity supplied.","3. The price at which quantity demanded equals quantity supplied is the equilibrium price.","4. An increase in demand raises both the equilibrium price and the equilibrium quantity, and a decrease in demand lowers both. (The source notes say 'quantity demanded' here, but it should be a change in demand.)","5. An increase in supply lowers the equilibrium price and raises the equilibrium quantity, and a decrease in supply raises the price and lowers the quantity."]}
+],
+"activity":"Say what happens to the price and quantity of petrol if (a) the demand for petrol rises, (b) the supply of petrol falls. Draw a quick graph for each.",
+"check":[
+{"q":"An increase in demand with supply constant will","o":["Raise price and quantity","Lower price and quantity","Raise price and lower quantity","Lower price and raise quantity"]},
+{"q":"An increase in supply with demand constant will","o":["Lower price and raise quantity","Raise price and quantity","Lower price and quantity","Raise price and lower quantity"]},
+{"q":"A decrease in supply will","o":["Raise price and lower quantity","Lower price and raise quantity","Lower both","Raise both"]},
+{"q":"A fall in demand creates at the old price","o":["Excess supply","Excess demand","Equilibrium","Nothing"]},
+{"q":"Floods destroying yam farms is a","o":["Fall in supply","Rise in demand","Rise in supply","Fall in demand"]}]},
+
+{"id":"ec3-13","week":8,"title":"Types of Demand and Types of Supply","icon":"Layers","summary":"Derived, joint, competitive and composite demand, and joint, competitive and composite supply, each with examples.",
+"keyWords":["Derived demand","Joint demand","Competitive demand","Composite demand","Joint supply"],
+"sections":[
+{"h":"Types of demand","p":["Derived demand: demand for one thing that comes from the demand for another. Demand for road construction creates demand for labour, cement and gravel. Flour and sugar are demanded because people demand bread.","Joint (complementary) demand: demand for two goods that are used together. Examples: bread and butter, tea and milk, car and petrol. When the demand for one rises, the demand for the other also rises.","Competitive demand: demand for goods that are close substitutes. Examples: one brand of detergent and another, butter and margarine. If the price of one goes up, people buy more of the other.","Composite demand: demand for a good that has more than one use. Example: sugar is used in homes for drinks and in industry for biscuits and sweets. If industry buys more, less is left for homes."]},
+{"h":"Types of supply","p":["Joint (complementary) supply: two or more goods are produced from the same source, so more of one means more of the other. Example: petrol and kerosene both come from crude oil; cattle give meat and hides.","Competitive supply: goods that serve the same purpose are supplied by different producers, or one producer must choose between them. Examples: fish and meat; one toothpaste brand and another. If a farmer uses land for maize, he cannot use the same land for yam.","Composite supply: a good that can be used for more than one purpose. The supply to one use reduces the supply available for the other. Example: sugarcane that can be used to make sugar or ethanol, or land that can be used for farms or buildings. (The source notes give crude oil, petrol and kerosene as the example of composite supply, but that is really joint supply, because both come out of the crude oil together.)"]},
+{"h":"Summary","p":["Study the table."],
+"tbl":{"head":["Type","Meaning","Example"],"rows":[
+["Derived demand","Demand for A comes from demand for B","Flour (from demand for bread)"],
+["Joint demand","Goods used together","Car and petrol"],
+["Competitive demand","Substitutes","Butter and margarine"],
+["Composite demand","One good with many uses","Sugar for homes and industry"],
+["Joint supply","Goods from one source","Petrol and kerosene"],
+["Competitive supply","Substitute products or uses","Maize and yam on the same land"],
+["Composite supply","One good with many uses","Land for farms or houses"]]}}
+],
+"activity":"For each pair say whether the demand is joint or competitive: (a) rice and stew, (b) Coke and Pepsi, (c) shoes and socks, (d) tea and coffee.",
+"check":[
+{"q":"Bread and butter are an example of","o":["Joint demand","Competitive demand","Derived demand","Composite demand"]},
+{"q":"Two brands of detergent show","o":["Competitive demand","Joint demand","Derived demand","Composite supply"]},
+{"q":"Demand for flour comes from demand for bread. This is","o":["Derived demand","Joint demand","Competitive supply","Composite demand"]},
+{"q":"Petrol and kerosene from crude oil is an example of","o":["Joint supply","Competitive supply","Composite demand","Derived demand"]},
+{"q":"Sugar used both at home and in industry shows","o":["Composite demand","Joint demand","Derived demand","Joint supply"]}]},
+
+{"id":"ec3-14","week":9,"title":"Market Structures: Perfect and Imperfect Markets","icon":"Users","summary":"What a market is, how markets are classified, and the features of a perfect market and of imperfect markets: monopolistic competition, oligopoly, duopoly, monopsony and oligopsony.",
+"keyWords":["Market","Perfect market","Imperfect market","Oligopoly","Monopsony"],
+"sections":[
+{"h":"What is a market structure?","p":["A market is any arrangement that brings buyers and sellers together to trade. Markets can be grouped by the type of goods (labour market, consumer goods market, capital market, money market), by how goods move, or by how prices are set (perfect and imperfect markets). Market structure means the features of a market, such as the number of buyers and sellers and the type of product."]},
+{"h":"Perfect market","p":["A perfect market is one in which the price is decided only by demand and supply, with no interference. It exists only if these conditions hold.","1. Homogeneous goods: all units are identical, with no brand names.","2. A very large number of buyers and sellers, none of whom can change the price on his own.","3. Perfect knowledge: buyers and sellers know all prices.","4. Free entry and exit of firms.","5. No cost of moving goods (assumed).","6. All firms have identical costs.","A perfect market does not exist in real life. It is a model. Farm produce markets come closest."]},
+{"h":"Imperfect market","p":["An imperfect market is one where the sellers or buyers can influence the price. Its features: goods are not identical (trademarks and branding); few buyers or sellers; information is not freely available; sellers can charge different prices to different people; firms cannot freely enter or leave; and transport costs exist."]},
+{"h":"Types of imperfect market","p":["Monopolistic competition: many sellers selling similar but not identical goods (restaurants, hair salons, soap brands). Oligopoly: a few large sellers; their actions affect each other (telecoms firms MTN, Airtel, Glo; cement producers). Duopoly: only two sellers. Monopsony: only one buyer (for example, one factory buying the whole of a local crop). Oligopsony: only a few buyers and many sellers. Monopoly: only one seller (see the next unit)."],
+"tbl":{"head":["Market","Sellers","Product","Entry","Example"],"rows":[
+["Perfect competition","Very many","Identical","Free","Local vegetable market"],
+["Monopolistic competition","Many","Differentiated","Easy","Restaurants, salons"],
+["Oligopoly","Few","Identical or differentiated","Difficult","Telecoms, cement"],
+["Monopoly","One","Unique, no close substitute","Blocked","Public water supply, NEPA in the past"]]},
+"img":{"src":"eco-market-structure.png","alt":"Four columns comparing monopoly, oligopoly, monopolistic competition and perfect competition by number of sellers, product and barriers to entry","cap":"The four main market structures compared."}}
+],
+"activity":"Pick four businesses in your area (for example, a pharmacy, a tomato seller, the electricity company, a fast food outlet). For each, decide which market structure it is closest to and give your reason.",
+"check":[
+{"q":"Identical goods and many sellers describe a","o":["Perfect market","Monopoly","Oligopoly","Duopoly"]},
+{"q":"A market with only one buyer is a","o":["Monopsony","Monopoly","Oligopoly","Duopoly"]},
+{"q":"A market with few large sellers is","o":["An oligopoly","A perfect market","A monopsony","A barter market"]},
+{"q":"In an imperfect market","o":["Sellers can influence price","Nobody can influence price","Goods are identical","Entry is always free"]},
+{"q":"A market with only two sellers is a","o":["Duopoly","Monopoly","Monopsony","Perfect market"]}]},
+
+{"id":"ec3-15","week":9,"title":"Monopoly","icon":"Shield","summary":"What a monopoly is, how it arises, its advantages and disadvantages, and how it can be controlled.",
+"keyWords":["Monopoly","Patent","Price maker","Supernormal profit","Control of monopoly"],
+"sections":[
+{"h":"Meaning","p":["A monopoly is a market with only one producer or seller of a good or service that has no close substitute. The monopolist is a price maker: he can choose the price (or the quantity) because there are no competitors, although he cannot decide both at once, because buyers decide how much to buy at that price."]},
+{"h":"Causes of monopoly","p":["Act of the government: a law gives one organisation the sole right to supply a good or service (for example, a public corporation). Patents and copyright: a patent gives an inventor the sole right to use his invention for a number of years. Natural causes: resources are unevenly spread, so some areas have resources that others lack (crude oil in the Niger Delta). Merging of firms: joining to eliminate competitors. Protection of public interest: government gives a firm special rights to supply essential services such as electricity. High technology: a firm with very advanced methods may produce so cheaply that competitors cannot survive."]},
+{"h":"Advantages of monopoly","p":["Less over-production because the monopolist estimates demand carefully. No wasteful duplication of resources. Possible efficiency and full use of resources. Because he produces on a large scale, cost and price per unit may be lower. Profits may be used for research and invention."]},
+{"h":"Disadvantages of monopoly","p":["Consumers may be exploited by high prices. The monopolist may restrict output (or hoard) to keep prices high. Lack of competition may reduce efficiency and creativity. Consumers have no choice. A big monopoly may pressurise the government to make laws in its favour."]},
+{"h":"Control of monopoly","p":["Government can set laws against unfair practices and fix maximum prices for monopolies. Government can allow other firms to enter (for example, by ending state monopolies, a process called privatisation or liberalisation). It can reduce import duties (tariffs) so that foreign goods compete with the monopolist. It can discourage mergers that create monopolies. It can encourage the production of substitutes. (The notes suggest stopping patents, but patents last only for a limited time and reward inventors, so abolishing them could reduce new inventions.)"]}
+],
+"activity":"Write down a monopoly in your community or state (for example, water supply or an electricity distribution company). Say who benefits and who may lose from it.",
+"check":[
+{"q":"A monopolist is","o":["The only seller of a good with no close substitute","One of many sellers","A buyer","A government tax officer"]},
+{"q":"A patent gives an inventor","o":["The sole right to use his invention for a period","A loan","A tax cut","Free raw materials"]},
+{"q":"A disadvantage of monopoly is","o":["Consumer exploitation","Economies of scale","Less duplication","More research"]},
+{"q":"One way to control monopoly is to","o":["Reduce import tariffs so foreign goods compete","Remove all laws","Raise tariffs to the highest level","Encourage mergers"]},
+{"q":"Crude oil in the Niger Delta is an example of a","o":["Natural cause of monopoly","Patent","Act of parliament","Merger"]}]},
+
+{"id":"ec3-16","week":9,"title":"Price and Output Under Perfect Competition, Monopoly and Oligopoly","icon":"BarChart2","summary":"How firms in different markets choose output and price, with graphs of short-run and long-run profit.",
+"keyWords":["MC = MR","Supernormal profit","Normal profit","Price taker","Collusion"],
+"sections":[
+{"h":"The rule for maximum profit","p":["Every firm earns the greatest profit at the output where marginal cost equals marginal revenue (MC = MR), with MC cutting MR from below. If it makes one more unit when MC is below MR, profit rises. If it makes one more unit when MC is above MR, profit falls."]},
+{"h":"Perfect competition","p":["The firm is a price taker, because there are many buyers and sellers. The price is set by demand and supply in the whole market. The firm's demand curve is a horizontal line at that price (AR = MR = P).","Short run: if the price is above the average cost at the profit-maximising output, the firm makes supernormal (abnormal) profit. This is the rectangle between price and AC.","Long run: supernormal profit attracts new firms. Supply rises and the price falls until it equals the lowest point of the AC curve. Then each firm earns only normal profit (just enough to keep it in business). Long-run equilibrium: MC = MR = AC = AR = P."],
+"img":{"src":"eco-perfect-comp.png","alt":"Two graphs of a perfectly competitive firm: on the left price above average cost gives a profit rectangle; on the right price equals the lowest average cost so only normal profit","cap":"A perfectly competitive firm: short run (left) and long run (right)."}},
+{"h":"Monopoly","p":["The monopolist controls the price or quantity. His demand curve is the downward-sloping AR curve and the MR curve lies below it. He makes maximum profit at MC = MR and charges the price shown on the AR curve at that output. If demand is inelastic (customers keep buying), he can charge a higher price; if demand is elastic, he must keep the price lower. Because new firms cannot enter, he can keep earning supernormal profit in both the short run and the long run."],
+"img":{"src":"eco-monopoly.png","alt":"Monopoly graph with downward AR and MR curves, U-shaped MC and AC, the profit-maximising output at MC equals MR and the profit rectangle between price and average cost","cap":"A monopolist maximises profit where MC = MR; the shaded rectangle is supernormal profit."}},
+{"h":"Oligopoly","p":["In an oligopoly, a few firms dominate. The price and output decisions of one affect the others. They may agree together (collude) to fix prices and share the market, in which case they act like a monopoly and earn high profit. Without such agreement, they avoid price wars because a price cut by one will be copied by the others. They compete instead by advertising, branding, packaging, quality and after-sales service. (The source notes claim that oligopolists with differentiated products can change prices without fear of rivals' reactions. This is not correct: firms in an oligopoly always watch their rivals.)"]}
+],
+"activity":"Explain why firms in an oligopoly spend heavily on advertising rather than cutting prices. Give a Nigerian example.",
+"check":[
+{"q":"Maximum profit occurs where","o":["MC = MR","AC = 0","TR = 0","MC = AC always"]},
+{"q":"In the long run, a perfectly competitive firm earns","o":["Normal profit","Supernormal profit","A loss always","Zero revenue"]},
+{"q":"Entry of new firms in perfect competition pushes price","o":["Down","Up","To infinity","To zero cost"]},
+{"q":"A monopolist can earn supernormal profit in the long run because","o":["New firms cannot enter","Demand is perfectly elastic","He is a price taker","Cost is zero"]},
+{"q":"When oligopolists agree on prices they are said to","o":["Collude","Compete freely","Be perfectly competitive","Export"]}]},
+
+{"id":"ec3-17","week":10,"title":"Industries in Nigeria","icon":"Layers","summary":"The four groups of Nigerian industry (primary, secondary, tertiary and emerging) and the main industrial zones and what each makes.",
+"keyWords":["Industry","Primary sector","Secondary sector","Tertiary sector","Industrial zones"],
+"sections":[
+{"h":"What is an industry?","p":["An industry is a group of businesses that produce similar goods or services. Industries are important to an economy because they create jobs, add value to raw materials and earn money from sales and exports."]},
+{"h":"Groups of industry in Nigeria","p":["Primary: farming (cocoa, cassava, palm oil, rubber), mining and forestry. Secondary: manufacturing (textiles, cement, food processing, assembly of vehicles) and construction, which builds roads, bridges and houses. Tertiary: services such as banking, education, health care, telecommunications, transport and tourism. Emerging sectors: new areas where technology and new business ideas are growing quickly, such as information technology (software and start-ups), financial technology and renewable energy (solar and wind)."]},
+{"h":"Major industrial zones","p":["Northern zone: Kano is the oldest industrial centre in the north, known for textiles, leather (tanneries) and food processing. Kaduna and Zaria have textile mills and vehicle assembly. The Federal Capital Territory, Abuja, is mainly administrative but has growing services and information technology. Other states of the north-central zone such as Niger, Kogi, Kwara, Plateau, Benue and Nasarawa have agricultural processing and solid minerals industries.","South-South (Niger Delta) zone: Edo and Delta have oil and gas, and Delta has oil refining. Port Harcourt in Rivers State is a major oil and gas centre with a refinery and petrochemical works. The Bonny liquefied natural gas (LNG) terminal is nearby.","Western zone: Lagos is the biggest economic centre, with manufacturing, finance, technology and media. Ikeja is known for electrical goods. Apapa and Tin Can have the biggest seaports. Ogun State, around Ota and Agbara, is a major industrial area for pharmaceuticals and consumer goods. The Dangote refinery and petrochemical plant is at Lekki, Lagos.","South-East zone: Aba is known for leather goods and clothing made by small firms, and Onitsha and Nnewi for trade and spare parts."],
+"img":{"src":"eco-industrial-zones.jpg","alt":"A map of Nigeria marking the Northern Industrial Zone at Kano and Zaria, the Western Industrial Zone at Lagos and Ota, and the South-Eastern Industrial Zone at Port Harcourt, with a key for textiles, motor vehicle assembly and beverages","cap":"Main industrial zones of Nigeria. Key: P = textile, M = motor vehicle assembly, C = beverage industry."}}
+],
+"activity":"Find out the main industry in your state. Is it primary, secondary or tertiary? Write down two products it makes or services it provides.",
+"check":[
+{"q":"Cement and textile production are","o":["Secondary industry","Primary industry","Tertiary industry","Emerging only"]},
+{"q":"Banking and health care are","o":["Tertiary industries","Primary industries","Secondary industries","Mining industries"]},
+{"q":"Kano is well known for","o":["Textiles, leather and food processing","Seaports","Oil refining","Coal mining"]},
+{"q":"Which Lagos area is known for large seaports?","o":["Apapa","Ikeja","Abuja","Zaria"]},
+{"q":"Solar energy and fintech are","o":["Emerging sectors","Primary industries","Barter","Cottage crafts"]}]},
+
+{"id":"ec3-18","week":10,"title":"Problems of Manufacturing Industries in Nigeria and Their Solutions","icon":"Shield","summary":"The main problems that slow down Nigerian industries and practical ways to solve them.",
+"keyWords":["Infrastructure","Access to finance","Skilled labour","Oil dependence","Local sourcing"],
+"sections":[
+{"h":"Problems","p":["1. Infrastructure: unreliable power supply and poor roads, rail and ports. Firms must run generators, which raises costs.","2. Policy changes: sudden changes in government policy, taxes and regulations make planning hard.","3. Insecurity: security problems in some regions disrupt production, transport and investment.","4. Access to finance: small and medium enterprises (SMEs) find it hard to get loans at reasonable interest rates.","5. Global economic conditions: world prices, exchange rates and trade rules affect firms that import materials or export goods.","6. Shortage of skilled labour: a lack of trained technicians and managers reduces productivity and new ideas.","7. Dependence on oil: heavy reliance on oil income makes the whole economy weak when oil prices fall, and gives industry less attention.","8. Other problems: competition from cheap imports, smuggling, multiple taxes, and a weak market for some local goods."]},
+{"h":"Possible solutions","p":["1. Infrastructure: invest in power (including solar), roads, rail and ports, with government and private partnership.","2. Policy: keep policies stable and clear, and let industry associations discuss policy with government.","3. Finance: banks and development banks should design special loans for manufacturers; government should support schemes that help SMEs; seek foreign investment.","4. Skills: link schools, technical colleges and universities with industry; offer apprenticeships and on-the-job training.","5. Exports: improve product quality, meet international standards, use trade agreements such as the African Continental Free Trade Area (AfCFTA) to find markets.","6. Local sourcing: use more local raw materials, support local suppliers and build a reliable supply chain.","7. Security: improve security so that factories and transport can operate safely.","8. Diversify the economy so that industry, agriculture and services produce more of the national income."]}
+],
+"activity":"Choose one problem and one solution from the lists. Write a short paragraph (five sentences) explaining how the solution would help a small factory in your area.",
+"check":[
+{"q":"Unreliable power supply raises costs because firms must","o":["Run generators","Close at noon","Lower wages","Stop buying materials"]},
+{"q":"Which helps solve the shortage of skilled labour?","o":["Apprenticeships and technical training","Cutting school funding","Banning exports","Closing universities"]},
+{"q":"Overdependence on oil makes the economy","o":["Vulnerable when oil prices fall","Stronger always","Free of risk","Independent of the world"]},
+{"q":"SMEs often struggle with","o":["Access to finance","Too much capital","No competition","No customers ever"]},
+{"q":"Using local raw materials helps by","o":["Building a reliable supply chain","Raising import bills","Reducing jobs","Ending exports"]}]}
+]

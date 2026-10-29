@@ -1,0 +1,141 @@
+[
+{"id":"fa3-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Financial Accounting Third Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Balance sheet","Control account","Depreciation","Manufacturing account","Working capital"],
+"sections":[
+{"h":"Welcome to Third Term","p":["In Second Term you prepared the trading account and the profit and loss account. In Third Term you complete the picture with the balance sheet, which shows what the business owns and owes at the end of the year. You also learn how large businesses keep control of their many debtors and creditors with control accounts, how to spread the cost of assets over their lives (depreciation), and how a factory works out the cost of the goods it makes (the manufacturing account).","Accounting is learned by doing. Copy each worked example in your notebook, cover the answer and try again. At the end of every unit are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit.","Some figures in the original lesson plan did not add up (for example some balance sheets did not balance). In these notes the figures are corrected and each correction is explained."]},
+{"h":"Table of contents for Third Term","p":["Week 5 is the midterm examination and Week 7 is the midterm break. Week 10 has no new content (it is for consolidation)."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","The balance sheet: meaning, purpose and the accounting equation"],
+["3","1","Classification of items, order of arrangement and working capital"],
+["4","2","Preparing a balance sheet: steps and formats"],
+["5","2","Worked examples, special items and common errors"],
+["6","3","Sales ledger control account: meaning and structure"],
+["7","3","Preparing a sales ledger control account and reconciling it"],
+["8","4","Purchases ledger control account"],
+["9","4","Contra entries, comparison and reconciliation"],
+["10","6","Depreciation: meaning, causes and reasons"],
+["11","6","The straight-line method"],
+["12","8","The reducing balance method"],
+["13","8","Comparing the two methods"],
+["14","9","Manufacturing account: meaning, purpose and classification of costs"],
+["15","9","Format, items and a worked example"],
+["16","11","Revision questions and answers"]]}}
+],
+"activity":"Look at the units. Which unit will teach you to work out what a business is worth? Which unit explains how a factory finds the cost of the goods it makes?",
+"check":[
+{"q":"In which unit do you study the balance sheet?","o":["Unit 2","Unit 8","Unit 11","Unit 15"]},
+{"q":"Which unit covers the reducing balance method?","o":["Unit 12","Unit 3","Unit 6","Unit 14"]},
+{"q":"In which unit do you study the purchases ledger control account?","o":["Unit 8","Unit 2","Unit 10","Unit 16"]},
+{"q":"Which unit covers the manufacturing account format?","o":["Unit 15","Unit 4","Unit 7","Unit 11"]}]},
+
+{"id":"fa3-02","week":1,"title":"The Balance Sheet: Meaning, Purpose and the Accounting Equation","icon":"Landmark","summary":"What a balance sheet is, why it is prepared, the accounting equation and how transactions affect it.",
+"keyWords":["Balance sheet","Financial position","Assets","Liabilities","Accounting equation"]
+,"sections":[
+{"h":"Meaning","p":["A balance sheet is a financial statement that shows the financial position of a business at a particular date by listing its assets, liabilities and capital. It is also called the statement of financial position or the position statement.","Key points: it shows what the business owns (assets); it shows what the business owes (liabilities); it shows the owner's interest (capital); it is prepared at a point in time, so the heading is 'as at 31 December 2024' and NOT 'for the year ended' (that is for the profit and loss account); it is the last of the financial statements; and it is not part of the double entry."]},
+{"h":"Purposes","p":["1. To show the financial position: the assets, the debts and the net worth. 2. To show the ability to pay debts (solvency and liquidity). 3. To help decisions on investment, lending and expansion. 4. To judge performance by looking at the growth of assets and capital and the level of debt. 5. To meet legal requirements: the Companies Act and tax rules. 6. To provide a basis for analysis and for comparing years and businesses. 7. To inform the owners, banks, investors, creditors and the government."]},
+{"h":"The accounting equation","p":["Assets = Capital + Liabilities. Rearranged, Capital = Assets − Liabilities. The equation must always balance. Assets are the resources the business owns. Capital is the owner's investment. Liabilities are amounts owed to outsiders. The business uses the owner's capital and borrowed money to buy its assets.","Example 1: assets ₦500,000, liabilities ₦200,000. Capital = 500,000 − 200,000 = ₦300,000. Check: 500,000 = 300,000 + 200,000.","Example 2: capital ₦400,000, liabilities ₦150,000. Assets = ₦550,000."]},
+{"h":"Effect of transactions","p":["Owner introduces more capital ₦50,000: cash (an asset) rises by ₦50,000 and capital rises by ₦50,000. The equation still balances.","Bought goods on credit ₦30,000: stock (an asset) rises by ₦30,000 and creditors (a liability) rise by ₦30,000.","Paid a creditor ₦20,000: cash falls by ₦20,000 and creditors fall by ₦20,000."]}
+],
+"activity":"Capital is ₦200,000 and liabilities are ₦80,000. What are the total assets? (₦280,000.)",
+"check":[
+{"q":"A balance sheet is prepared","o":["As at a date","For a year","For a month only","Never"]},
+{"q":"The accounting equation is","o":["Assets = Capital + Liabilities","Assets = Capital − Liabilities","Capital = Assets + Liabilities","Liabilities = Assets + Capital"]},
+{"q":"Assets ₦500,000 and liabilities ₦200,000 give capital of","o":["₦300,000","₦700,000","₦200,000","₦500,000"]},
+{"q":"The balance sheet shows","o":["The financial position","The profit only","The sales only","The wages only"]},
+{"q":"Owner adds ₦50,000 cash. Which increases?","o":["Cash and capital","Cash and creditors","Stock and creditors","Sales and cash"]}]},
+
+{"id":"fa3-03","week":1,"title":"Classification of Items, Order of Arrangement and Working Capital","icon":"Layers","summary":"Fixed assets and current assets, current and long-term liabilities, capital, the order of arrangement, balance sheet compared with trial balance and working capital.",
+"keyWords":["Fixed assets","Current assets","Long-term liabilities","Liquidity","Working capital"]
+,"sections":[
+{"h":"Assets","p":["Fixed (non-current) assets are used in the business for more than a year and are not meant for resale. Examples: land, buildings, machinery, motor vehicles, furniture and fittings, equipment, computers, goodwill, patents and trademarks. They are shown at cost less accumulated depreciation, which is the net book value. (Land is not usually depreciated.)","Current assets are short-term assets that change all the time and can be turned into cash within a year: stock, debtors, prepayments, bank, cash, short-term investments and bills receivable."]},
+{"h":"Liabilities","p":["Current liabilities are due within one year: creditors, bank overdraft, outstanding (accrued) expenses, short-term loans, bills payable and tax owing.","Long-term (non-current) liabilities are due after more than one year: long-term loans, mortgages, debentures and bonds."]},
+{"h":"Capital","p":["Closing capital = opening capital + additional capital + net profit − drawings (− net loss). It belongs to the owner."]},
+{"h":"Order of arrangement","p":["Fixed assets are listed by permanence: the most permanent first (land, buildings, plant and machinery, motor vehicles, furniture and fittings, equipment). Current assets are listed by liquidity (how easily they turn into cash): least liquid first, so stock, debtors, prepayments, bank and then cash. The reason is that stock is sold on credit to give debtors, who pay and so give cash. Current liabilities are listed by urgency, such as overdraft, creditors, outstanding expenses and short-term loans. Some businesses use the reverse order. Both are acceptable if you are consistent."]},
+{"h":"Balance sheet and trial balance compared","p":["Study the table."],
+"tbl":{"head":["Balance sheet","Trial balance"],"rows":[
+["A financial statement","A list of ledger balances"],
+["Shows the financial position","Checks arithmetical accuracy"],
+["Prepared after the profit and loss account","Prepared before the final accounts"],
+["For outside users as well as the owner","Mainly for internal use"],
+["Contains only real accounts and capital","Contains all accounts, including nominal"],
+["Assets = Capital + Liabilities","Debit balances = credit balances"],
+["Required by law for companies","Not required by law"]]}},
+{"h":"Working capital","p":["Working capital (net current assets) = current assets − current liabilities. It measures the ability to pay short-term debts and run day-to-day business.","Example: stock ₦50,000, debtors ₦80,000, bank ₦30,000, cash ₦10,000 give current assets of ₦170,000. Creditors ₦60,000 and outstanding expenses ₦10,000 give current liabilities of ₦70,000. Working capital = 170,000 − 70,000 = ₦100,000. A positive amount means the business can pay its short-term debts and still have funds to operate. Negative working capital (current liabilities greater than current assets) suggests liquidity problems."]}
+],
+"activity":"Arrange in order of liquidity, least liquid first: cash, stock, debtors, bank. (Stock, debtors, bank, cash.)",
+"check":[
+{"q":"Which is a fixed asset?","o":["Motor vehicle","Stock","Debtors","Cash"]},
+{"q":"Current assets are listed with the least liquid","o":["First","Last","In the middle","Not at all"]},
+{"q":"A bank overdraft is a","o":["Current liability","Fixed asset","Capital","Current asset"]},
+{"q":"Working capital =","o":["Current assets − current liabilities","Fixed assets − capital","Sales − purchases","Capital − drawings"]},
+{"q":"A loan repayable in 2030 is a","o":["Long-term liability","Current asset","Fixed asset","Drawing"]},
+{"q":"Closing capital = opening capital + profit −","o":["Drawings","Sales","Stock","Debtors"]}]},
+
+{"id":"fa3-04","week":2,"title":"Preparing a Balance Sheet: Steps and Formats","icon":"BarChart2","summary":"The six steps for preparing a balance sheet and the horizontal and vertical formats.",
+"keyWords":["Horizontal format","Vertical format","Net assets","Financed by","Net current assets"]
+,"sections":[
+{"h":"Six steps","p":["Step 1: identify the items: separate assets from liabilities and find the capital items and any adjustments. Step 2: classify them: fixed assets, current assets, current liabilities, long-term liabilities and capital. Step 3: calculate the capital: opening capital + additional capital + net profit − drawings − net loss. Step 4: arrange the items in order: fixed assets by permanence, current assets by liquidity, liabilities by urgency. Step 5: calculate the totals, the working capital and the net assets, and check that the equation balances. Step 6: present the statement neatly with a heading, 'as at' date, clear labels and ruled lines."]},
+{"h":"Horizontal (T) format","p":["The left side shows capital and liabilities (the sources of funds). The right side shows the assets (the uses of funds). Both sides must total the same amount."],
+"tbl":{"head":["Capital and liabilities","₦","Assets","₦"],"rows":[
+["Capital: opening + profit − drawings","XXX","Fixed assets (net)","XXX"],
+["Long-term liabilities","XXX","Current assets: stock, debtors, prepayments, bank, cash","XXX"],
+["Current liabilities: creditors, overdraft, outstanding expenses","XXX","",""],
+["Total","XXX","Total","XXX"]]}},
+{"h":"Vertical (modern) format","p":["The assets and liabilities come first and give the net assets, which must equal the capital shown under 'financed by'."],
+"tbl":{"head":["Balance sheet as at ...","₦","₦"],"rows":[
+["FIXED ASSETS (cost less provision for depreciation)","","XXX"],
+["CURRENT ASSETS: stock; debtors less provision for bad debts; prepayments; bank; cash","XXX",""],
+["Less CURRENT LIABILITIES: creditors; overdraft; outstanding expenses","(XXX)",""],
+["NET CURRENT ASSETS (working capital)","","XXX"],
+["TOTAL ASSETS LESS CURRENT LIABILITIES","","XXX"],
+["Less LONG-TERM LIABILITIES (loan, mortgage)","","(XXX)"],
+["NET ASSETS","","XXX"],
+["FINANCED BY: capital at start + additional capital + net profit","","XXX"],
+["Less drawings","","(XXX)"],
+["CAPITAL AT END OF YEAR","","XXX"]]}},
+{"h":"Note","p":["The top part of the vertical format shows the assets and liabilities. The bottom part shows the capital. The net assets must equal the capital. If they do not, there is an error somewhere."]}
+],
+"activity":"Prepare a vertical balance sheet: capital (1 Jan 2024) ₦292,250; net profit ₦70,000; drawings ₦35,000; land ₦180,000; buildings cost ₦140,000 with provision ₦28,000; furniture cost ₦50,000 with provision ₦15,000; stock ₦55,000; debtors ₦75,000 with provision ₦3,750; prepaid insurance ₦4,000; bank ₦32,000; cash ₦6,000; creditors ₦60,000; outstanding rent ₦8,000; loan (repayable 2029) ₦100,000. (Fixed assets 327,000; current assets 168,250; current liabilities 68,000; net current assets 100,250; net assets 327,250; capital 292,250 + 70,000 − 35,000 = 327,250. Your notes gave opening capital ₦250,000, which leaves a gap of ₦42,250.)",
+"check":[
+{"q":"In the vertical format, net assets must equal","o":["Capital","Sales","Creditors","Stock"]},
+{"q":"In the horizontal format, assets are on the","o":["Right","Left","Top","Bottom"]},
+{"q":"Fixed assets are shown at cost less","o":["Provision for depreciation","Drawings","Capital","Sales"]},
+{"q":"A balance sheet heading should say","o":["As at the date","For the year ended","Per month","Per week"]},
+{"q":"Net current assets are","o":["Current assets − current liabilities","Fixed assets − loans","Capital − drawings","Stock − debtors"]}]},
+
+{"id":"fa3-05","week":2,"title":"Worked Examples, Special Items and Common Errors","icon":"Target","summary":"Three corrected balance sheets (Tunde, Aduke and Bisi), how special items such as prepayments and overdrafts are treated, and ten common errors.",
+"keyWords":["Net book value","Net debtors","Prepayment","Closing capital","Additional capital"]
+,"sections":[
+{"h":"Example 1: Tunde Enterprises","p":["Balances at 31 December 2024: net profit for the year ₦60,000; drawings ₦25,000; land ₦100,000; buildings ₦80,000; motor vehicles ₦50,000; furniture ₦30,000; stock ₦40,000; debtors ₦55,000; bank ₦28,000; cash ₦5,000; creditors ₦45,000; loan (repayable 2027) ₦30,000.","Fixed assets ₦260,000. Current assets ₦128,000 (40,000 + 55,000 + 28,000 + 5,000). Total assets ₦388,000. Current liabilities ₦45,000 and long-term liability ₦30,000: total ₦75,000. So the capital must be 388,000 − 75,000 = ₦313,000 at the end. That means the opening capital must have been ₦278,000 (313,000 − 60,000 + 25,000). Your notes give opening capital of ₦150,000, which leaves the balance sheet ₦128,000 out. The correct opening capital is ₦278,000."]},
+{"h":"Example 2: Aduke Traders at 31 December 2024","p":["Trial balance (debit): drawings 30,000; premises 150,000; motor vehicles 80,000; furniture 50,000; stock (1 January) 40,000; purchases 180,000; carriage inwards 6,000; debtors 60,000; bank 25,000; cash 4,000; salaries 50,000; rent 20,000; insurance 8,000; discount allowed 3,000. Credit: sales 320,000; creditors 48,000; discount received 2,000; provision for depreciation, motor vehicles 16,000 and furniture 10,000; provision for bad debts 3,000; capital. Adjustments: closing stock ₦48,000; depreciate motor vehicles 20% and furniture 10%; provision for bad debts at 5% of debtors.","The debits total ₦706,000 and the credits without capital total ₦399,000, so the capital must be ₦307,000 (your notes show ₦200,000 and a trial balance that did not agree).","Trading account: sales 320,000; cost of goods sold 40,000 + 180,000 + 6,000 − 48,000 = 178,000; gross profit ₦142,000. Profit and loss: gross profit 142,000 + discount received 2,000 = 144,000; expenses salaries 50,000, rent 20,000, insurance 8,000, discount allowed 3,000, depreciation of motor vehicles 16,000 and furniture 5,000 = 102,000; net profit ₦42,000. The provision for bad debts is 5% of 60,000 = 3,000, the same as before, so no charge."],
+"tbl":{"head":["Aduke Traders: balance sheet at 31 December 2024","₦","₦"],"rows":[
+["Premises","","150,000"],
+["Motor vehicles 80,000 less provision 32,000","","48,000"],
+["Furniture 50,000 less provision 15,000","","35,000"],
+["Fixed assets","","233,000"],
+["Stock","","48,000"],
+["Debtors 60,000 less provision 3,000","","57,000"],
+["Bank","","25,000"],
+["Cash","","4,000"],
+["Current assets","","134,000"],
+["Less creditors","","(48,000)"],
+["Net current assets","","86,000"],
+["Net assets","","319,000"],
+["Capital (1 January 2024)","","307,000"],
+["Add net profit","","42,000"],
+["Less drawings","","(30,000)"],
+["Capital (31 December 2024)","","319,000"]]}},
+{"h":"Example 3: Bisi Enterprises at 30 June 2024","p":["Net profit ₦85,000; drawings ₦40,000; land ₦200,000; buildings cost ₦150,000 (provision ₦30,000); motor vehicles cost ₦120,000 (provision ₦40,000); furniture cost ₦60,000 (provision ₦18,000); stock ₦65,000; debtors ₦90,000 (provision ₦4,500); bank ₦35,000; cash ₦8,000; creditors ₦70,000; outstanding salaries ₦12,000; prepaid insurance ₦5,000; loan (repayable 2028) ₦80,000.","Fixed assets: 200,000 + 120,000 + 80,000 + 42,000 = ₦442,000. Current assets: stock 65,000, debtors net 85,500, prepaid insurance 5,000, bank 35,000, cash 8,000 = ₦198,500. Current liabilities 70,000 + 12,000 = ₦82,000. Net current assets ₦116,500. Less loan ₦80,000. Net assets ₦478,500.","Closing capital must be ₦478,500. So opening capital = 478,500 − 85,000 + 40,000 = ₦433,500. Your notes give ₦300,000, which leaves a ₦133,500 gap; the opening capital in the question should be ₦433,500 (or ₦133,500 of additional capital must have been introduced)."]},
+{"h":"Treatment of special items","p":["Depreciation: cost less provision for depreciation = net book value. Provision for bad debts: debtors less provision = net debtors. Accrued income (income receivable), such as rent receivable: a current asset. Accrued expenses (outstanding), such as wages owing: a current liability. Prepayments: a current asset. Income received in advance: a current liability. Bank overdraft: always a current liability. Additional capital: added to opening capital before the profit. Net loss: deducted from capital.","Example with additional capital: opening capital ₦100,000 + additional capital ₦50,000 = ₦150,000; + profit ₦30,000 = ₦180,000; − drawings ₦20,000 = closing capital ₦160,000."]},
+{"h":"Ten common errors","p":["1. Stock under fixed assets (it is a current asset). 2. Wrong order (cash before stock). 3. Forgetting depreciation. 4. Forgetting drawings in the capital. 5. Showing an overdraft as an asset. 6. Not deducting the provision from debtors. 7. Not checking that the equation balances. 8. Writing 'for the year ended' instead of 'as at'. 9. Including nominal accounts (expenses and income). 10. Poor presentation."]}
+],
+"activity":"Closing capital: opening capital ₦100,000; additional capital ₦50,000; net profit ₦30,000; drawings ₦20,000. (₦160,000.)",
+"check":[
+{"q":"Tunde's total assets are","o":["₦388,000","₦260,000","₦128,000","₦313,000"]},
+{"q":"Aduke's net profit is","o":["₦42,000","₦142,000","₦102,000","₦144,000"]},
+{"q":"Bisi's net assets are","o":["₦478,500","₦345,000","₦640,500","₦133,500"]},
+{"q":"Prepaid insurance is shown as a","o":["Current asset","Current liability","Fixed asset","Capital"]},
+{"q":"A bank overdraft is shown as a","o":["Current liability","Current asset","Fixed asset","Drawing"]},
+{"q":"Nominal accounts belong in the","o":["Profit and loss account, not the balance sheet","Balance sheet","Capital","Cash book only"]}]}
+]

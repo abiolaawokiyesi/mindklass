@@ -1,0 +1,122 @@
+[
+{"id":"e31-22","week":11,"title":"Pronouns: Personal and Possessive","icon":"Users",
+"summary":"Subject and object pronouns, possessive determiners and possessive pronouns, and the common errors 'between you and I' and 'its' with 'it's'.",
+"keyWords":["Pronoun","Subject pronoun","Object pronoun","Possessive determiner","Possessive pronoun","Its and it's"],
+"sections":[
+{"h":"What is a pronoun?","p":["A pronoun is a word that takes the place of a noun or a noun phrase. It avoids repeating the same noun. Without pronouns: Chinua said Chinua would bring Chinua's book, but Chinua forgot the book. With pronouns: Chinua said he would bring his book, but he forgot it."]},
+{"h":"Personal pronouns","p":["Personal pronouns refer to particular people or things and change their form (case) according to their job in the sentence.","Subject pronouns do the action: I, you, he, she, it, we, they. She is a brilliant lawyer. They are playing football.","Object pronouns receive the action or follow a preposition: me, you, him, her, it, us, them. The teacher praised him. Give the letter to me.","Common error: using a subject pronoun where an object pronoun is needed. Incorrect: This is between you and I. Correct: This is between you and me, because me is the object of the preposition between."]},
+{"h":"Possessive pronouns","p":["Possessive determiners (some books call them adjective pronouns) come before a noun: my, your, his, her, its, our, their. That is my car. Have you seen their new house?","Possessive pronouns stand alone and replace the whole noun phrase: mine, yours, his, hers, ours, theirs. That car is mine. Our results are similar to theirs.","Its and it's: its (no apostrophe) shows possession: The dog wagged its tail. It's is the short form of it is or it has: It's a beautiful day. No possessive pronoun has an apostrophe: yours, hers, ours, theirs."]}
+],
+"activity":"Correct these: The secret is safe between you and I (between you and me). The team celebrated it's victory (its victory). Write one sentence with a possessive pronoun that stands alone.",
+"check":[
+{"q":"Which is correct?","o":["This is between you and me.","This is between you and I.","This is between you and myself.","This is between yours and I."]},
+{"q":"'The teacher praised him.' 'Him' is an","o":["object pronoun","subject pronoun","possessive pronoun","reflexive pronoun"]},
+{"q":"'That car is ____' (a possessive pronoun)","o":["mine","my","me","I"]},
+{"q":"The correct form is","o":["The dog wagged its tail.","The dog wagged it's tail.","The dog wagged its' tail.","The dog wagged his'tail."]},
+{"q":"A pronoun takes the place of a","o":["noun or noun phrase","verb","adverb","preposition"]}
+]},
+
+{"id":"e31-23","week":11,"title":"Pronouns: Reflexive and Relative","icon":"Users",
+"summary":"Reflexive pronouns and their emphatic use, and relative pronouns (who, whom, whose, which, that) that introduce relative clauses.",
+"keyWords":["Reflexive pronoun","Emphatic use","Relative pronoun","Antecedent","Relative clause"],
+"sections":[
+{"h":"Reflexive pronouns","p":["Reflexive pronouns refer back to the subject, so the subject does the action and also receives it: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. She cut herself while cooking.","They are also used for emphasis. I myself saw the incident.","Common error: using a reflexive pronoun as a subject. Incorrect: My brother and myself will attend. Correct: My brother and I will attend."]},
+{"h":"Relative pronouns","p":["A relative pronoun introduces a relative (adjective) clause that gives more information about a noun. The noun is called the antecedent. The relative pronouns are who, whom, whose, which and that.","The woman who called you is my aunt. (who refers to the woman and is the subject of called.)","The man whom you met is the director. (whom is the object of met.)","This is the house whose roof was damaged. (whose shows possession.)","The book, which is on the table, is mine. (which is for things and animals.)","I need a phone that has a good camera. (that may be used for people or things, usually in restrictive clauses, which are clauses that are necessary to identify the noun.)"]},
+{"h":"Choosing who and whom","p":["Use who when the pronoun is the subject of the clause (who called). Use whom when it is the object (whom you met). In everyday speech, many people use who for both: The man who you met. In formal writing, use whom when the pronoun is the object."]}
+],
+"activity":"Correct: Myself and my family are going on holiday (My family and I are going on holiday). Fill in: The man ______ I saw at the cinema is my teacher (whom or who or that). Write a sentence using a reflexive pronoun as the object of a verb.",
+"check":[
+{"q":"Which sentence is correct?","o":["My brother and I will attend.","My brother and myself will attend.","Myself and my brother will attend.","My brother and me will attend."]},
+{"q":"'She cut herself.' 'Herself' is a","o":["reflexive pronoun","relative pronoun","demonstrative pronoun","possessive determiner"]},
+{"q":"In 'The man whom you met is the director', 'whom' is the","o":["object of met","subject of is","possessive","reflexive"]},
+{"q":"'Whose' shows","o":["possession","emphasis","distance","time"]},
+{"q":"The noun that a relative pronoun refers back to is the","o":["antecedent","headword only","complement","adverb"]}
+]},
+
+{"id":"e31-24","week":11,"title":"Pronouns: Demonstrative and Indefinite, with Practice","icon":"Users",
+"summary":"This, that, these and those; indefinite pronouns and their agreement with verbs; and corrections of five common pronoun errors.",
+"keyWords":["Demonstrative pronoun","Indefinite pronoun","Agreement","Singular","Plural"],
+"sections":[
+{"h":"Demonstrative pronouns","p":["Demonstrative pronouns point to things and show how near or far they are. This (singular, near): This is my favourite song. That (singular, far): That was a memorable day. These (plural, near): These are the documents you asked for. Those (plural, far): Look at those beautiful flowers!"]},
+{"h":"Indefinite pronouns","p":["Indefinite pronouns refer to non-specific people or things.","Singular (take a singular verb): someone, anybody, nobody, nothing, everything, everybody, each, either, neither. Everybody is welcome to attend. Each of the players has a unique skill.","Plural: both, few, many, several. Several of the students are absent.","Singular or plural, depending on meaning: all, some, any, none, most. Some of the cake is gone (a mass, singular). Some of the biscuits are gone (countable, plural)."]},
+{"h":"Correcting common errors","p":["(a) Incorrect: Myself and my family are going on holiday. Correct: My family and I are going on holiday.","(b) Incorrect: Each of the players have a unique skill. Correct: Each of the players has a unique skill (each is singular).","(c) Incorrect: That is the man who I saw at the cinema. In formal English: That is the man whom I saw at the cinema (who or that is common in speech).","(d) Incorrect: The team celebrated it's victory. Correct: The team celebrated its victory.","(e) Incorrect: She is more intelligent than him and I. Correct: She is more intelligent than he and I (are), or, in less formal English, than him and me."]}
+],
+"activity":"Write one sentence for each: a demonstrative pronoun as the subject; a singular indefinite pronoun as the subject; a relative pronoun introducing a clause; a possessive pronoun that stands alone; a reflexive pronoun as an object.",
+"check":[
+{"q":"Which is correct?","o":["Each of the players has a skill.","Each of the players have a skill.","Each of the players are skilled.","Each players has a skill."]},
+{"q":"'These' is","o":["plural and near","singular and far","singular and near","plural and far"]},
+{"q":"Which indefinite pronoun is plural?","o":["several","everybody","nobody","each"]},
+{"q":"'Everybody ____ welcome.'","o":["is","are","were","be"]},
+{"q":"'Some of the cake is gone.' Here 'some' refers to","o":["a mass (singular)","countable items (plural)","a person","a place"]}
+]},
+
+{"id":"e31-25","week":12,"title":"Listening Comprehension: Barriers to Good Listening","icon":"Heart",
+"summary":"What listening comprehension is, and four common barriers to effective listening with strategies to overcome each.",
+"keyWords":["Listening comprehension","Distraction","Prejudice","Rebuttal listening"],
+"sections":[
+{"h":"More than hearing","p":["Listening comprehension is active. It means paying attention to spoken language, understanding its meaning, judging the message and responding properly. In the examination it tests whether you can focus, filter information, find the speaker's main ideas and understand the purpose and tone."]},
+{"h":"Four barriers and how to overcome them","p":["1. External distractions: noise, poor sound quality, things happening around you. Strategy: choose a quiet place for practice; in the examination, block out background noise.","2. Internal distractions: your own thoughts, worries, tiredness or lack of interest. Strategy: notice the distracting thought, then deliberately bring your attention back to the speaker.","3. Prejudice or bias: judging a speaker by accent, appearance or topic, and so ignoring the message. Strategy: listen to the content and keep your feelings about the speaker separate.","4. Rebuttal listening: forming your own answer or argument while the speaker is still talking, so you miss key points. Strategy: understand the speaker's whole point before you start to judge or reply."]},
+{"h":"Preparing to listen","p":["Before a listening test, read the questions if you can. They tell you what to listen for. Sit upright, have a pencil ready and keep your eyes on your paper. Listen to the first sentences carefully, because they usually give the topic."]}
+],
+"activity":"Which of the four barriers is the biggest problem for you? Write two things you will do this week to improve. Practise by listening to a 5-minute radio talk without any other distraction.",
+"check":[
+{"q":"Planning your reply while the speaker is still talking is","o":["rebuttal listening","active listening","note-taking","skimming"]},
+{"q":"Noise in the hall is","o":["an external distraction","an internal distraction","prejudice","a signpost"]},
+{"q":"Judging a speaker by his accent is","o":["prejudice or bias","good listening","note-taking","paraphrasing"]},
+{"q":"Worry and tiredness are","o":["internal distractions","external distractions","signposts","examples"]},
+{"q":"Listening comprehension tests","o":["focus, filtering information and understanding purpose and tone","spelling only","handwriting","reading speed"]}
+]},
+
+{"id":"e31-26","week":12,"title":"Listening Comprehension: Note-Taking, Purpose and Practice","icon":"Heart",
+"summary":"Strategic note-taking, signposts, main ideas versus details, purpose and tone, and a practice listening script on the digital divide with model answers.",
+"keyWords":["Note-taking","Signposts","Main idea","Purpose","Tone","Digital divide"],
+"sections":[
+{"h":"Note-taking","p":["You cannot remember everything you hear, so take notes. Use a personal shorthand: & or + (and), w/ (with), w/o (without), → (leads to), ← (comes from), ∴ (therefore), e.g. (for example), i.e. (that is), govt (government), info (information). Do not write sentences; write the key nouns, verbs and ideas.","Heard: One of the most significant consequences of deforestation is the loss of biodiversity, which ultimately disrupts entire ecosystems. Notes: deforestation → loss biodiversity → disrupts ecosystems."]},
+{"h":"Signposts, main idea, purpose and tone","p":["Listen for signposts: introducing the main idea (My primary argument is..., The key thing to remember is...); listing (Firstly..., Another important factor..., On the one hand... on the other hand...); examples (For instance..., To illustrate..., Consider the case of...); emphasis (Crucially..., Above all...); concluding (In conclusion..., Therefore...).","The main idea is the most important point. Details, examples and statistics support it. Purpose: does the speaker want to inform, persuade, instruct or entertain? Tone: the speaker's attitude, such as serious, urgent, sarcastic, enthusiastic, critical or neutral, shown by choice of words, pace and intonation."]},
+{"h":"Practice script (to be read aloud twice)","p":["Good morning, students. My name is Dr. Bako, and I am here to talk about a critical issue of our time: the digital divide. The digital divide is not merely a buzzword; it refers to the growing gap between those who have ready access to modern information and communication technology, like computers and the internet, and those who do not. This is not just about owning a smartphone; it is a profound social and economic issue.","In Nigeria this divide is particularly stark. A secondary school student in Victoria Island, Lagos, might have unlimited Wi-Fi to stream educational videos and do research, while a student of the same age in a remote village in Borno State may have never seen a working computer. This creates a massive and deeply unfair inequality in educational opportunity from a very young age.","Why does this matter so much? Digital literacy is no longer a luxury or an optional skill; it has become the fundamental currency for taking part in the twenty-first-century economy. Without access to technology and the skills to use it, millions of our young people are being left behind on the global stage before they have even started the race. Therefore, I argue that it is the urgent and non-negotiable responsibility of both government and the private sector to invest heavily in rural broadband infrastructure and public digital literacy programmes. Thank you."]},
+{"h":"Questions and model answers","p":["1. Topic: the digital divide. 2. It refers to the growing gap between those who have easy access to modern information and communication technology and those who do not. 3. The contrast shows the unfair inequality in educational opportunity between well-connected urban students and rural students with no technology. 4. It means that digital skills are as necessary for taking part in the modern economy as money is for buying things. 5. The purpose is to persuade (and inform) the audience that government and the private sector must invest in rural broadband and digital literacy programmes."]}
+],
+"activity":"Listen to a 5 to 7 minute radio news bulletin tonight. State the main topic. Write down the three most important points in note form. Describe the presenter's tone in one sentence (neutral, urgent, sombre or optimistic).",
+"check":[
+{"q":"The topic of Dr. Bako's talk is","o":["the digital divide","deforestation","corruption","motor vehicles"]},
+{"q":"Dr. Bako's main purpose is to","o":["persuade people to invest in rural technology access","entertain","describe a festival","give instructions for repairing computers"]},
+{"q":"'Fundamental currency' means digital literacy is","o":["as necessary as money for taking part in the economy","a type of money","not important","a luxury"]},
+{"q":"In notes, the symbol ∴ means","o":["therefore","and","with","comes from"]},
+{"q":"A speaker who says 'For instance...' is","o":["giving an example","concluding","listing the first point","greeting"]}
+]},
+
+{"id":"e31-27","week":13,"title":"Spoken English: The Schwa /ə/","icon":"Zap",
+"summary":"The most common vowel sound in English: what the schwa is, why it occurs only in unstressed syllables, and how it gives English its stress-timed rhythm.",
+"keyWords":["Schwa","Unstressed syllable","Stress-timed","Syllable-timed","Weak vowel"],
+"sections":[
+{"h":"What is the schwa?","p":["The schwa, written /ə/, is the most common vowel sound in English. It is a short, weak, neutral vowel, like a soft 'uh'. It is the sound you make when your mouth, jaw and tongue are completely relaxed. It is the first and last sound in ago /əˈɡəʊ/.","Golden rule: the schwa occurs only in unstressed syllables. Any vowel letter (a, e, i, o, u) can be pronounced as a schwa when it is in a weak, unstressed syllable."]},
+{"h":"Why is it important?","p":["English is a stress-timed language: stressed syllables are strong and prominent and unstressed syllables are weakened, often to a schwa. Many Nigerian languages are syllable-timed, where every syllable has about the same weight. Mastering the schwa is a key step towards natural, fluent British English rhythm.","For example, in teacher /ˈtiːtʃə/, the first syllable is stressed and the second is a weak schwa. If every syllable is given a full vowel (tea-cher said as tea-cheh), the rhythm sounds unnatural."]},
+{"h":"Where is the schwa found?","p":["In this term we concentrate on the schwa at the end of a word. It is very common in words that end in -er, -or, -ar, -our, -a and -re. It also occurs at the beginning and middle of words in unstressed syllables (about, along, again, amazing, supply, police)."]}
+],
+"activity":"Say the word 'ago' slowly. Notice that both the first and last sounds are the same relaxed 'uh'. Now say 'banana' and count the schwas (two: ba-NA-na has schwa in the first and last syllables).",
+"check":[
+{"q":"The symbol for the schwa is","o":["/ə/","/ɪ/","/æ/","/ʌ/"]},
+{"q":"The schwa occurs only in","o":["unstressed syllables","stressed syllables","the first syllable only","silent letters"]},
+{"q":"English rhythm is described as","o":["stress-timed","syllable-timed","timeless","monotone"]},
+{"q":"The schwa is a","o":["short, weak, neutral vowel","long vowel","consonant","diphthong"]},
+{"q":"Which letter can represent a schwa?","o":["any vowel letter","only e","only a","only o"]}
+]},
+
+{"id":"e31-28","week":13,"title":"The Schwa in Word Endings and Practice","icon":"Zap",
+"summary":"Words with a schwa in -er, -or, -ar, -our, -a and -re endings and in unstressed beginnings, with transcription and reading practice.",
+"keyWords":["-er","-or","-ar","-our","Transcription","Reading practice"],
+"sections":[
+{"h":"Endings with a schwa","p":["-er: teacher /ˈtiːtʃə/, mother /ˈmʌðə/, computer /kəmˈpjuːtə/, clever /ˈklevə/, water /ˈwɔːtə/.","-or: doctor /ˈdɒktə/, actor /ˈæktə/, sailor /ˈseɪlə/, visitor /ˈvɪzɪtə/, tractor /ˈtræktə/.","-ar: sugar /ˈʃʊɡə/, liar /ˈlaɪə/, collar /ˈkɒlə/, cellar /ˈselə/, grammar /ˈɡræmə/.","-our (British): colour /ˈkʌlə/, favour /ˈfeɪvə/, honour /ˈɒnə/, labour /ˈleɪbə/.","-a and -re: Africa /ˈæfrɪkə/, area /ˈeəriə/, centre /ˈsentə/, theatre /ˈθɪətə/."]},
+{"h":"Schwa at the beginning or middle","p":["about /əˈbaʊt/, along /əˈlɒŋ/, again /əˈɡen/, amazing /əˈmeɪzɪŋ/, supply /səˈplaɪ/, police /pəˈliːs/, academy /əˈkædəmi/ (two schwas: the first and third syllables)."]},
+{"h":"Exceptions","p":["Not every final syllable has a schwa. The word prefer ends in a stressed vowel /prɪˈfɜː/, so it does not end in a schwa. The stress is on the last syllable. The endings of runner, mother and solar do have a schwa."]},
+{"h":"Reading practice","p":["Read aloud: The amazing doctor from America gave a lecture about better manners. He explained that it is proper to be a considerate speaker. Words with schwas include: the (before a consonant), amazing, doctor, America, a, lecture, about, better, manners, explained (first syllable), proper, to, a, considerate, speaker, and others. Keep the schwa short and weak. Do not give these syllables full vowels."]}
+],
+"activity":"Write each word in phonetic transcription and mark the schwa: banana /bəˈnɑːnə/, picture /ˈpɪktʃə/, colour /ˈkʌlə/, doctor /ˈdɒktə/, support /səˈpɔːt/, victory /ˈvɪktəri/, memory /ˈmeməri/. How many schwa sounds are in 'academy'? (two).",
+"check":[
+{"q":"Which word does NOT end in a schwa?","o":["prefer","runner","mother","solar"]},
+{"q":"'Doctor' is pronounced","o":["/ˈdɒktə/","/ˈdɒktɔː/","/ˈdɒktɔr/","/dɒkˈtɔː/"]},
+{"q":"In 'about' /əˈbaʊt/ the schwa is","o":["the first sound","the last sound","the diphthong","not present"]},
+{"q":"The number of schwas in 'academy' is","o":["2","1","3","0"]},
+{"q":"'Colour' is pronounced in British English as","o":["/ˈkʌlə/","/ˈkʌlɔː/","/ˈkɒlɔː/","/kəˈlʊə/"]}
+]}
+]

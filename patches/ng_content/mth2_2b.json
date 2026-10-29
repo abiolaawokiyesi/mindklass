@@ -1,0 +1,229 @@
+[
+{"id":"m22-13","week":6,"title":"Trigonometry I: The Sine Rule","icon":"Zap",
+"summary":"How to label any triangle and use the sine rule to find a missing side or angle, including the ambiguous case.",
+"keyWords":["Sine rule","Triangle notation","Ambiguous case","Angle sum of a triangle"],
+"sections":[
+{"h":"Labelling a triangle","p":["In triangle ABC, the angles are written with capital letters A, B, C at the corners. The sides are written with small letters. Side a is opposite angle A, side b is opposite angle B and side c is opposite angle C.","The sine and cosine rules work for every triangle, not only for right-angled ones. Remember that the angles of a triangle always add up to 180°."],"img":{"src":"mth2-triangle-labels.png","alt":"A triangle with corners A, B and C and the sides a, b and c opposite them","cap":"Side a is opposite angle A, and so on."}},
+{"h":"The sine rule","p":["In any triangle, a / sin A = b / sin B = c / sin C. You can also turn it upside down: sin A / a = sin B / b = sin C / c. Use the upside-down form when you are finding an angle.","Use the sine rule when you know (1) two angles and one side, or (2) two sides and an angle opposite one of them."]},
+{"h":"Example 1: finding a side","p":["In triangle ABC, A = 40°, B = 65° and a = 8 cm. Find b. a / sin A = b / sin B, so b = 8 × sin 65° / sin 40° = 8 × 0.9063 / 0.6428 = 11.28 cm."]},
+{"h":"Example 2: two sides to find","p":["In triangle XYZ, X = 35°, Y = 75° and z = 20 cm. Find Z, x and y. Z = 180° − 35° − 75° = 70°. x = 20 × sin 35° / sin 70° = 20 × 0.5736 / 0.9397 = 12.21 cm. y = 20 × sin 75° / sin 70° = 20 × 0.9659 / 0.9397 = 20.56 cm. (The largest side, 20.56, is opposite the largest angle, 75°.)"]},
+{"h":"Example 3: finding an angle and the ambiguous case","p":["In triangle ABC, a = 10 cm, b = 14 cm and A = 38°. Find B. sin B / b = sin A / a, so sin B = 14 × sin 38° / 10 = 14 × 0.6157 / 10 = 0.8619. Your calculator gives B = 59.5°. But sin of an angle is also positive in the second quadrant, so B = 180° − 59.5° = 120.5° is also possible. Is it? 38° + 120.5° = 158.5°, which is less than 180°, so the triangle can exist.","Both answers are correct: there are two possible triangles. This is called the ambiguous case. (Some books say that B must be acute because b is larger than a. That is not correct: b > a only tells us that B is larger than A.) When the question does not give a diagram or other information, give both answers."]}
+],
+"activity":"In triangle ABC, A = 45°, C = 70° and b = 12 cm. Find B (65°) and a (12 × sin 45° / sin 65° = 9.36 cm). In triangle XYZ, X = 50°, Y = 60° and x = 15 cm. Find y (15 × sin 60° / sin 50° = 16.96 cm).",
+"check":[
+{"q":"In the sine rule, a / sin A is equal to","o":["b / sin B","b / cos B","sin B / b","a / cos A"]},
+{"q":"A = 40°, B = 65°, a = 8 cm. Then b is about","o":["11.3 cm","5.7 cm","8.0 cm","13.2 cm"]},
+{"q":"If X = 35° and Y = 75°, then Z =","o":["70°","110°","40°","60°"]},
+{"q":"sin B = 0.8619 gives B = 59.5° or","o":["120.5°","90.5°","30.5°","149.5°"]},
+{"q":"The sine rule is used when we are given","o":["two angles and one side","three sides","two sides and the included angle only","no sides"]}
+]},
+
+{"id":"m22-14","week":6,"title":"The Cosine Rule","icon":"Target",
+"summary":"Using the cosine rule to find a side when two sides and the angle between them are known, or to find an angle when all three sides are known.",
+"keyWords":["Cosine rule","SAS","SSS","Included angle","Obtuse angle"],
+"sections":[
+{"h":"The rule","p":["In any triangle ABC: a² = b² + c² − 2bc cos A, b² = a² + c² − 2ac cos B and c² = a² + b² − 2ab cos C.","To find an angle, rearrange it: cos A = (b² + c² − a²) / (2bc).","Use the cosine rule when you know (1) two sides and the angle between them (SAS) to find the third side, or (2) all three sides (SSS) to find an angle.","If the angle is 90°, then cos 90° = 0 and the rule becomes Pythagoras: a² = b² + c²."]},
+{"h":"Example 1: finding a side","p":["In triangle PQR, p = 7 cm, q = 9 cm and R = 58°. Find r. r² = 7² + 9² − 2 × 7 × 9 × cos 58° = 49 + 81 − 126 × 0.5299 = 130 − 66.77 = 63.23. r = √63.23 = 7.95 cm."]},
+{"h":"Example 2: another side","p":["Two sides of a triangle are 8 cm and 11 cm and the angle between them is 64°. The third side: a² = 64 + 121 − 2 × 8 × 11 × cos 64° = 185 − 176 × 0.4384 = 185 − 77.15 = 107.85. a = 10.39 cm."]},
+{"h":"Example 3: finding an angle","p":["a = 12 cm, b = 15 cm, c = 18 cm. Find A. cos A = (15² + 18² − 12²) / (2 × 15 × 18) = (225 + 324 − 144) / 540 = 405 / 540 = 0.75. A = 41.41°."]},
+{"h":"Example 4: an obtuse angle","p":["A triangle has sides 5 cm, 7 cm and 9 cm. The largest angle is opposite the longest side. cos B = (5² + 7² − 9²) / (2 × 5 × 7) = (25 + 49 − 81) / 70 = −7 / 70 = −0.1. The negative answer tells us that the angle is obtuse: B = 95.74°."]},
+{"h":"Tip","p":["Be careful with the calculator: work out the product 2bc cos A first, then subtract it. Writing (b² + c² − 2bc) first and then multiplying by cos A is a common mistake."]}
+],
+"activity":"Two sides are 6 cm and 8 cm with an angle of 60° between them. Find the third side (√(36 + 64 − 48) = √52 = 7.21 cm). A triangle has sides 5, 7 and 8 cm. Find its three angles (opposite 5 cm: 38.21°; opposite 7 cm: 60°; opposite 8 cm: 81.79°).",
+"check":[
+{"q":"The cosine rule for side a is","o":["a² = b² + c² − 2bc cos A","a² = b² + c² + 2bc cos A","a = b + c − 2bc cos A","a² = b² − c² − 2bc cos A"]},
+{"q":"Sides 6 cm and 8 cm with 60° between them have a third side of about","o":["7.21 cm","10 cm","14 cm","2 cm"]},
+{"q":"For sides 12, 15 and 18 cm, cos A (A opposite 12 cm) is","o":["0.75","0.5","0.25","1"]},
+{"q":"A negative cosine means the angle is","o":["obtuse","acute","a right angle","zero"]},
+{"q":"When the angle is 90°, the cosine rule becomes","o":["Pythagoras' theorem","the sine rule","a = b","tan A = 1"]}
+]},
+
+{"id":"m22-15","week":6,"title":"Choosing the Rule and the Area of a Triangle","icon":"BarChart2",
+"summary":"How to decide between the sine and cosine rules, how to find the area of a triangle using two sides and the included angle, and problems on land and distances.",
+"keyWords":["Choosing a rule","Area of a triangle","Included angle","Problem solving"],
+"sections":[
+{"h":"Which rule should I use?","p":["Use the table to choose. Always draw and label the triangle first."],"tbl":{"head":["You are given","Use"],"rows":[["Two angles and one side","Sine rule (find the third angle first if needed)"],["Two sides and an angle opposite one of them","Sine rule (take care: ambiguous case)"],["Two sides and the angle between them","Cosine rule, to find the third side"],["Three sides","Cosine rule, to find an angle"]]}},
+{"h":"Steps for any problem","p":["1. Draw and label the triangle. 2. List what is given and what is wanted. 3. Choose the rule. 4. Substitute carefully. 5. Calculate and check that the answer is sensible: the longest side must be opposite the largest angle."]},
+{"h":"Area of a triangle","p":["Area = ½ × a × b × sin C, where C is the angle between sides a and b. The same applies to the other two pairs of sides.","Example. Two sides of 8 cm and 11 cm with 64° between them. Area = ½ × 8 × 11 × sin 64° = 44 × 0.8988 = 39.55 cm².","Check with the 13, 14, 15 triangle. The angle opposite 13 is 53.13°, between the sides 14 and 15. Area = ½ × 14 × 15 × sin 53.13° = 105 × 0.8 = 84 cm². This is the well-known area of the 13, 14, 15 triangle."]},
+{"h":"The 13, 14, 15 triangle","p":["Sides 13, 14, 15. The largest angle is opposite 15: cos = (13² + 14² − 15²) / (2 × 13 × 14) = 140 / 364 = 0.3846, so the angle is 67.38°. The smallest angle is opposite 13: 53.13°. The third angle is 180° − 67.38° − 53.13° = 59.49°."]},
+{"h":"A land problem","p":["A plot of land is a triangle. Two sides measure 18 m and 24 m and the angle between them is 58°. Third side² = 18² + 24² − 2 × 18 × 24 × cos 58° = 324 + 576 − 864 × 0.5299 = 900 − 457.85 = 442.15. The third side is 21.03 m. The area is ½ × 18 × 24 × sin 58° = 216 × 0.8480 = 183.2 m²."]},
+{"h":"Another example","p":["In triangle ABC, a = 20 cm, B = 48° and C = 67°. A = 180° − 48° − 67° = 65°. b = 20 × sin 48° / sin 65° = 16.40 cm. c = 20 × sin 67° / sin 65° = 20.31 cm."]}
+],
+"activity":"Find the area of a triangle with sides 10 cm and 12 cm and an included angle of 40° (½ × 10 × 12 × sin 40° = 38.57 cm²). Say which rule you would use for a triangle with sides 9, 12 and 55° between them (cosine rule; the third side is 10.06 cm).",
+"check":[
+{"q":"Given three sides of a triangle, to find an angle we use","o":["the cosine rule","the sine rule","Pythagoras only","the area formula only"]},
+{"q":"Given two angles and one side we use","o":["the sine rule","the cosine rule","the formula for the area only","Pythagoras"]},
+{"q":"The area of a triangle with sides 8 cm and 11 cm and 64° between them is about","o":["39.5 cm²","44 cm²","88 cm²","78.9 cm²"]},
+{"q":"Area = ½ ab sin C where C is the angle","o":["between sides a and b","opposite side a","opposite side b","at the largest corner"]},
+{"q":"A land plot has sides 18 m and 24 m with 58° between them. The third side is about","o":["21 m","42 m","6 m","30 m"]}
+]},
+
+{"id":"m22-16","week":8,"title":"Trigonometry II: Pythagoras and the Trigonometric Ratios","icon":"Layers",
+"summary":"A review of Pythagoras' theorem and of sine, cosine and tangent in right-angled triangles, with values for 30°, 45° and 60°.",
+"keyWords":["Pythagoras","Sine","Cosine","Tangent","Special angles"],
+"sections":[
+{"h":"Pythagoras' theorem","p":["In a right-angled triangle, the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides: c² = a² + b².","Example 1. Legs 3 and 4: c² = 9 + 16 = 25, c = 5. Example 2. Hypotenuse 13 and one leg 5: other leg² = 169 − 25 = 144, so the other leg = 12. These are Pythagorean triples: (3, 4, 5), (5, 12, 13), (8, 15, 17)."]},
+{"h":"The three ratios","p":["Name the sides from the point of view of the angle θ: the hypotenuse is the longest side, the opposite is the side facing θ, and the adjacent is the side next to θ (not the hypotenuse).","sin θ = opposite / hypotenuse. cos θ = adjacent / hypotenuse. tan θ = opposite / adjacent. A way to remember: SOH CAH TOA."],"img":{"src":"mth2-right-triangle.png","alt":"A right-angled triangle with the angle theta marked and the sides labelled adjacent, opposite and hypotenuse, with the formulas sin, cos and tan","cap":"SOH CAH TOA."}},
+{"h":"Special angles","p":["These values come from the equilateral triangle and the square and are worth learning."],"tbl":{"head":["Angle","sin","cos","tan"],"rows":[["30°","1/2 = 0.5","√3/2 ≈ 0.866","1/√3 ≈ 0.577"],["45°","√2/2 ≈ 0.707","√2/2 ≈ 0.707","1"],["60°","√3/2 ≈ 0.866","1/2 = 0.5","√3 ≈ 1.732"]]}},
+{"h":"Complementary angles","p":["sin θ = cos (90° − θ). For example sin 30° = cos 60° = 0.5."]},
+{"h":"Example 3: finding a side","p":["A right-angled triangle has an angle of 35° and the adjacent side is 7 cm. Opposite = 7 × tan 35° = 7 × 0.7002 = 4.90 cm. Hypotenuse = 7 / cos 35° = 7 / 0.8192 = 8.55 cm."]},
+{"h":"Example 4: finding an angle","p":["Opposite 5 and adjacent 12: tan θ = 5/12 = 0.4167, so θ = 22.62°. If cos θ = 0.6 then θ = 53.13°. With hypotenuse 10 cm and an angle of 30°: opposite = 10 × sin 30° = 5 cm and adjacent = 10 × cos 30° = 8.66 cm."]}
+],
+"activity":"A ladder 10 m long leans against a wall. It makes an angle of 60° with the ground. How high up the wall does it reach (10 × sin 60° = 8.66 m) and how far is its foot from the wall (10 × cos 60° = 5 m)?",
+"check":[
+{"q":"The hypotenuse when the other sides are 5 and 12 is","o":["13","17","7","60"]},
+{"q":"sin 30° =","o":["0.5","0.866","1","0.577"]},
+{"q":"tan θ is equal to","o":["opposite / adjacent","opposite / hypotenuse","adjacent / hypotenuse","hypotenuse / opposite"]},
+{"q":"cos 60° is the same as","o":["sin 30°","sin 60°","tan 30°","cos 30°"]},
+{"q":"If tan θ = 1, then θ =","o":["45°","30°","60°","90°"]}
+]},
+
+{"id":"m22-17","week":8,"title":"Angles of Elevation and Depression","icon":"Target",
+"summary":"Using trigonometry to find heights and distances when we look up at an object (elevation) or look down at it (depression).",
+"keyWords":["Angle of elevation","Angle of depression","Height","Distance","Horizontal line"],
+"sections":[
+{"h":"Meanings","p":["The angle of elevation is the angle between the horizontal and the line of sight when you look UP at an object. The angle of depression is the angle between the horizontal and the line of sight when you look DOWN at an object.","Both angles are measured from the horizontal line, never from the vertical. The angle of elevation of the top of a tower from a point P on the ground is equal to the angle of depression of P from the top of the tower, because they are alternate angles between parallel lines (the ground and the horizontal from the top)."],"img":{"src":"mth2-elevation.png","alt":"An observer on the ground looking up at the top of a tower, showing the angle of elevation at the observer and the equal angle of depression at the top of the tower","cap":"Angle of elevation = angle of depression."}},
+{"h":"Steps","p":["1. Draw a clear diagram with a horizontal line and a vertical line. 2. Mark the angle and the lengths. 3. Find the right-angled triangle. 4. Choose sine, cosine or tangent. 5. Solve and give the answer with units."]},
+{"h":"Example 1: a flagpole","p":["From a point 50 m from the foot of a flagpole, the angle of elevation of its top is 35°. Height = 50 × tan 35° = 50 × 0.7002 = 35.0 m."]},
+{"h":"Example 2: a ladder","p":["A ladder 6 m long makes an angle of 65° with the ground. Height reached = 6 × sin 65° = 5.44 m. Distance of its foot from the wall = 6 × cos 65° = 2.54 m."]},
+{"h":"Example 3: a cliff","p":["From the top of a cliff 40 m high, the angle of depression of a boat is 25°. The boat is a distance d from the foot of the cliff. tan 25° = 40 / d, so d = 40 / tan 25° = 40 / 0.4663 = 85.78 m."]},
+{"h":"Example 4: two observations","p":["From a point A the angle of elevation of the top of a tower is 30°. From a point B, 20 m nearer to the tower (in the same straight line), it is 45°. Let the tower be h m high and let B be d m from its foot. From B: h = d (since tan 45° = 1). From A: h = (d + 20) tan 30° = 0.5774 (d + 20). So d = 0.5774 d + 11.547, which gives 0.4226 d = 11.547 and d = 27.32 m. The tower is 27.3 m high."]}
+],
+"activity":"The angle of elevation of the top of a tower from a point 30 m away is 60°. Find the height of the tower (30 × tan 60° = 51.96 m). The angle of depression of a car from a window 20 m high is 30°. How far is the car from the building (20 / tan 30° = 34.64 m)?",
+"check":[
+{"q":"The angle of elevation is measured from the","o":["horizontal","vertical","ground slope","tower"]},
+{"q":"From 50 m away the angle of elevation of a flagpole top is 35°. Its height is about","o":["35 m","50 m","41 m","87 m"]},
+{"q":"A tower is seen at 60° from 30 m away. Its height is about","o":["52 m","17 m","30 m","60 m"]},
+{"q":"The angle of elevation of the top from the foot of the slope equals the angle of depression from the top. They are","o":["alternate angles","vertically opposite angles","supplementary","complementary"]},
+{"q":"A cliff of 40 m, angle of depression 25°. The horizontal distance is about","o":["85.8 m","18.7 m","40 m","94.1 m"]}
+]},
+
+{"id":"m22-18","week":9,"title":"Algebraic Fractions: Simplifying, Adding and Subtracting","icon":"Layers",
+"summary":"Simplifying fractions by factorising, and adding and subtracting algebraic fractions with a common denominator.",
+"keyWords":["Algebraic fraction","Factorise","Common denominator","LCM","Cancel"],
+"sections":[
+{"h":"Reminder with numbers","p":["1/2 + 1/3 = 3/6 + 2/6 = 5/6. We find a common denominator (the LCM of 2 and 3 is 6), write each fraction with it, and add the tops. Algebraic fractions work in the same way."]},
+{"h":"Simplifying","p":["To simplify, factorise the top and the bottom completely, then cancel common factors. You can only cancel factors that multiply the whole top and the whole bottom, never terms that are added.","Example 1. 6x² / 9x = (3x × 2x) / (3x × 3) = 2x/3.","Example 2. (x² − 9) / (x² + x − 6) = (x − 3)(x + 3) / ((x + 3)(x − 2)) = (x − 3) / (x − 2).","Example 3. (2x + 4) / (x² − 4) = 2(x + 2) / ((x − 2)(x + 2)) = 2 / (x − 2).","Wrong: (x + 3)/3 does not simplify to x + 1. The 3 in the top is added, not multiplied."]},
+{"h":"Adding fractions","p":["Example 1. 1/x + 2/(x + 1). The common denominator is x(x + 1). 1/x = (x + 1) / (x(x + 1)) and 2/(x + 1) = 2x / (x(x + 1)). Sum = (x + 1 + 2x) / (x(x + 1)) = (3x + 1) / (x(x + 1)).","Example 2. x/3 + (x + 1)/4. The common denominator is 12. = 4x/12 + 3(x + 1)/12 = (4x + 3x + 3)/12 = (7x + 3)/12."]},
+{"h":"Subtracting fractions","p":["Example. 3/(x − 1) − 2/(x + 2). The common denominator is (x − 1)(x + 2). = (3(x + 2) − 2(x − 1)) / ((x − 1)(x + 2)) = (3x + 6 − 2x + 2) / ((x − 1)(x + 2)) = (x + 8) / ((x − 1)(x + 2)). Take care with the minus sign: it changes the sign of every term in the second bracket."]},
+{"h":"Remember","p":["A denominator can never be 0. In (x − 3)/(x − 2), x cannot be 2."]}
+],
+"activity":"Simplify (x² − 4)/(x² − 5x + 6) (= (x + 2)/(x − 3)). Write as a single fraction 2/x + 3/(x − 1) ((5x − 2)/(x(x − 1))).",
+"check":[
+{"q":"6x² / 9x simplifies to","o":["2x/3","2/3","3x/2","6x"]},
+{"q":"(x² − 9) / (x² + x − 6) simplifies to","o":["(x − 3)/(x − 2)","(x + 3)/(x + 2)","x − 3","1"]},
+{"q":"1/x + 2/(x + 1) has numerator (over x(x + 1))","o":["3x + 1","3x","x + 3","2x + 1"]},
+{"q":"The common denominator of 1/3 and 1/4 is","o":["12","7","1","3"]},
+{"q":"3/(x − 1) − 2/(x + 2) has numerator","o":["x + 8","x + 4","x − 4","5x"]}
+]},
+
+{"id":"m22-19","week":9,"title":"Multiplying and Dividing Algebraic Fractions","icon":"Zap",
+"summary":"Multiply tops and bottoms after factorising and cancelling; to divide, turn the second fraction upside down and multiply.",
+"keyWords":["Multiply fractions","Divide fractions","Reciprocal","Cancel"],
+"sections":[
+{"h":"Multiplication","p":["Factorise everything first, cancel, then multiply the tops together and the bottoms together.","Example 1. (x + 2)/(x − 1) × (x − 1)/(x + 3). The (x − 1) cancels. Answer: (x + 2)/(x + 3).","Example 2. (2x/5) × (15/(4x²)) = 30x / (20x²) = 3 / (2x).","Example 3. (x² − 1)/x × x²/(x + 1) = ((x − 1)(x + 1) × x²) / (x (x + 1)) = x(x − 1)."]},
+{"h":"Division","p":["To divide by a fraction, multiply by its reciprocal (turn it upside down). A ÷ (B/C) = A × C/B.","Example 1. (3/x) ÷ (6/x²) = (3/x) × (x²/6) = 3x² / 6x = x/2.","Example 2. ((x² − 4)/(x + 1)) ÷ ((x − 2)/(x + 1)) = ((x − 2)(x + 2)/(x + 1)) × ((x + 1)/(x − 2)) = x + 2.","Example 3. (4x/9) ÷ (2/3) = (4x/9) × (3/2) = 12x/18 = 2x/3."]},
+{"h":"Common mistakes","p":["Do not turn over the first fraction. Do not cancel across a plus or minus sign. Do not forget to factorise before cancelling."]}
+],
+"activity":"Simplify (3x/4) × (8/(9x²)) (= 2/(3x)) and (x + 3)/(x − 2) ÷ (x² − 9)/(x − 2) (= 1/(x − 3)).",
+"check":[
+{"q":"(x + 2)/(x − 1) × (x − 1)/(x + 3) =","o":["(x + 2)/(x + 3)","1","(x + 2)(x + 3)","x + 3"]},
+{"q":"(2x/5) × (15/(4x²)) =","o":["3/(2x)","3x/2","30x","2x/3"]},
+{"q":"(3/x) ÷ (6/x²) =","o":["x/2","2/x","18/x³","x²/2"]},
+{"q":"To divide by a fraction we","o":["multiply by its reciprocal","subtract it","square it","add it"]},
+{"q":"In (x + 3)/(x − 2) the value of x that is not allowed is","o":["2","−3","3","0"]}
+]},
+
+{"id":"m22-20","week":9,"title":"Equations with Fractions and Everyday Problems","icon":"Target",
+"summary":"Solving equations that contain fractions by multiplying by the common denominator, and using fractions to solve work, money and tank problems.",
+"keyWords":["Fractional equation","Common denominator","Work problems","Everyday problems"],
+"sections":[
+{"h":"Method","p":["Find the lowest common denominator of all fractions. Multiply every term on both sides by it to remove the fractions. Solve the resulting equation. Check your answer in the original equation (and that it does not make a denominator zero)."]},
+{"h":"Example 1","p":["x/2 + x/3 = 10. Multiply by 6: 3x + 2x = 60, so 5x = 60 and x = 12. Check: 6 + 4 = 10. Correct."]},
+{"h":"Example 2","p":["(x + 1)/3 = (x − 1)/2. Cross-multiply: 2(x + 1) = 3(x − 1), so 2x + 2 = 3x − 3 and x = 5. Check: 6/3 = 2 and 4/2 = 2. Correct."]},
+{"h":"Example 3","p":["2/(x − 1) = 3/(x + 2). Cross-multiply: 2(x + 2) = 3(x − 1), so 2x + 4 = 3x − 3 and x = 7. Check: 2/6 = 1/3 and 3/9 = 1/3. Correct."]},
+{"h":"Example 4","p":["1/2 + 1/x = 3/4. Multiply every term by 4x: 2x + 4 = 3x, so x = 4. Check: 1/2 + 1/4 = 3/4. Correct."]},
+{"h":"Problem 1: filling a tank","p":["Pipe A fills a tank in 6 hours and pipe B fills it in 3 hours. Together they fill 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2 of the tank each hour. So the tank is full in 2 hours."]},
+{"h":"Problem 2: working together","p":["Ade can do a job in 10 days and Bola can do it in 15 days. In one day they do 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6 of the job. Together they take 6 days."]},
+{"h":"Problem 3: a salary","p":["A man spends 1/3 of his salary on rent and 1/4 on food. He has ₦25 000 left. Fraction left = 1 − 1/3 − 1/4 = 12/12 − 4/12 − 3/12 = 5/12. So 5/12 of the salary is ₦25 000 and the salary is 25 000 × 12 / 5 = ₦60 000. Check: rent ₦20 000, food ₦15 000, left ₦25 000. Total ₦60 000."]}
+],
+"activity":"Solve x/4 + x/6 = 5 (x = 12). A tap fills a bucket in 4 minutes and another in 12 minutes. How long do both take together? (1/4 + 1/12 = 1/3, so 3 minutes.)",
+"check":[
+{"q":"x/2 + x/3 = 10 gives x =","o":["12","10","6","5"]},
+{"q":"2/(x − 1) = 3/(x + 2) gives x =","o":["7","5","3","1"]},
+{"q":"Pipes that fill a tank in 6 hours and 3 hours together fill it in","o":["2 hours","9 hours","4.5 hours","1.5 hours"]},
+{"q":"Ade takes 10 days and Bola takes 15 days. Together they take","o":["6 days","25 days","12.5 days","5 days"]},
+{"q":"A man spends 1/3 and 1/4 of his salary and has ₦25 000 left. His salary is","o":["₦60 000","₦75 000","₦50 000","₦100 000"]}
+]},
+
+{"id":"m22-21","week":10,"title":"Further Trigonometry: Bearings","icon":"Zap",
+"summary":"What a bearing is, how to write bearings with three figures, how to change compass directions to bearings and how to find a back bearing.",
+"keyWords":["Bearing","Three-figure bearing","Compass bearing","Back bearing","North"],
+"sections":[
+{"h":"What is a bearing?","p":["A bearing is a direction. It is measured as an angle clockwise from North. A bearing is written with three figures, so 65° is written 065° and 5° is written 005°. Due North is 000°.","To find the bearing of B from A: stand at A, face North, and turn clockwise until you face B. The angle you turn through is the bearing. Draw a North line at A, not at B."],"img":{"src":"mth2-bearings.png","alt":"A North arrow from point O with the angle 065 degrees to point A and 290 degrees to point B, both measured clockwise from North","cap":"Bearings are measured clockwise from North."}},
+{"h":"Compass bearings","p":["Eight main directions have these bearings."],"tbl":{"head":["Direction","Bearing"],"rows":[["North (N)","000°"],["North-East (NE)","045°"],["East (E)","090°"],["South-East (SE)","135°"],["South (S)","180°"],["South-West (SW)","225°"],["West (W)","270°"],["North-West (NW)","315°"]]}},
+{"h":"Changing N30°E type directions","p":["Sometimes a direction is written from North or South towards East or West, for example N30°E. Start at N (or S) and turn the given angle towards E (or W).","N30°E = 030°. S40°E = 180° − 40° = 140°. S25°W = 180° + 25° = 205°. N50°W = 360° − 50° = 310°."]},
+{"h":"Back bearings","p":["The back bearing is the bearing of the starting point seen from the finishing point. Because the two North lines are parallel, the back bearing differs by 180°.","If the bearing is less than 180°, add 180°. If it is 180° or more, subtract 180°.","Example 1. The bearing of B from A is 070°. The bearing of A from B is 070° + 180° = 250°.","Example 2. If the bearing is 125°, the back bearing is 305°. If it is 310°, the back bearing is 130°."]}
+],
+"activity":"Write N60°W as a three-figure bearing (300°). Write S35°E as a bearing (145°). Find the back bearing of 048° (228°) and of 250° (070°).",
+"check":[
+{"q":"Bearings are measured","o":["clockwise from North","anticlockwise from North","clockwise from East","anticlockwise from East"]},
+{"q":"The bearing 5° is written","o":["005°","500°","050°","5°"]},
+{"q":"The bearing of South-West is","o":["225°","135°","315°","180°"]},
+{"q":"S40°E as a bearing is","o":["140°","220°","040°","320°"]},
+{"q":"The back bearing of 070° is","o":["250°","110°","070°","290°"]}
+]},
+
+{"id":"m22-22","week":10,"title":"Navigation Problems","icon":"Target",
+"summary":"Using bearings with Pythagoras, trigonometry and the sine and cosine rules to find distances between ships, planes and towns.",
+"keyWords":["Navigation","Distance","Ships","Cosine rule","Journey"],
+"sections":[
+{"h":"Method","p":["1. Draw a North line at each place where the direction changes. 2. Mark the bearings and distances. 3. Find the angle inside the triangle by using the rules about parallel lines and angles on a straight line. 4. Use Pythagoras, trigonometry, or the sine or cosine rule. Distance = speed × time."]},
+{"h":"Example 1: North then East","p":["A ship sails 20 km North and then 15 km East. The distance from the start is √(20² + 15²) = √625 = 25 km. The bearing of the final point from the start: tan θ = 15/20 = 0.75, so θ = 36.87°. The bearing is 037° (to the nearest degree)."]},
+{"h":"Example 2: two ships","p":["Two ships leave a port at the same time. One travels at 30 km/h on a bearing of 040° and the other at 25 km/h on a bearing of 130°. How far apart are they after 2 hours? First ship: 30 × 2 = 60 km. Second ship: 25 × 2 = 50 km. The angle between their paths is 130° − 40° = 90°, so by Pythagoras, d² = 60² + 50² = 3 600 + 2 500 = 6 100 and d = 78.10 km."]},
+{"h":"Example 3: a turn","p":["A boat sails 40 km on a bearing of 065° and then 30 km on a bearing of 140°. How far is it from its starting point? The angle inside the triangle at the turning point is 180° − (140° − 65°) = 180° − 75° = 105°. By the cosine rule, d² = 40² + 30² − 2 × 40 × 30 × cos 105° = 1 600 + 900 + 2 400 × 0.2588 = 2 500 + 621.2 = 3 121.2. d = 55.87 km."]},
+{"h":"Example 4: finding a bearing back home","p":["A plane flies 40 km on a bearing of 060° and then 30 km on a bearing of 150°. The turn is 90°, so the distance from start is √(40² + 30²) = 50 km. The angle at the start between the first leg and the line to the end is tan⁻¹(30/40) = 36.87°. The bearing of the end point from the start is 060° + 36.87° = 096.87°, about 097°. The bearing of the start from the end (the way home) is 097° + 180° = 277°."]}
+],
+"activity":"A man walks 12 km due North and then 5 km due East. How far is he from the start (13 km) and what is his bearing from the start (tan⁻¹(5/12) = 22.6°, so 023°)? What is the bearing of the start from him (203°)?",
+"check":[
+{"q":"A ship sails 20 km North and then 15 km East. Its distance from the start is","o":["25 km","35 km","5 km","18 km"]},
+{"q":"A ship sailing 20 km North and 15 km East is on a bearing from the start of about","o":["037°","053°","143°","217°"]},
+{"q":"Ships travelling 60 km on 040° and 50 km on 130° are apart by","o":["78.1 km","110 km","10 km","90 km"]},
+{"q":"The angle between 040° and 130° is","o":["90°","170°","40°","130°"]},
+{"q":"The back bearing of 097° is","o":["277°","083°","187°","097°"]}
+]},
+
+{"id":"m22-23","week":10,"title":"Chords, Arcs, Distance and Direction","icon":"BarChart2",
+"summary":"Using trigonometry to find the length of a chord or an arc, and to split a journey into east and north parts.",
+"keyWords":["Chord length","Arc length","East and north components","Direction"],
+"sections":[
+{"h":"Length of a chord","p":["A chord AB subtends an angle θ at the centre O of a circle of radius r. Draw OM perpendicular to AB. M is the midpoint, and the angle AOM is θ/2. So AM = r sin (θ/2), and chord AB = 2r sin (θ/2).","Example 1. r = 8 cm and θ = 60°. Chord = 2 × 8 × sin 30° = 8 cm. (The triangle OAB is equilateral, so the chord equals the radius.)","Example 2. r = 10 cm and θ = 80°. Chord = 2 × 10 × sin 40° = 20 × 0.6428 = 12.86 cm.","Example 3. r = 13 cm and the chord is 24 cm. sin (θ/2) = 12/13 = 0.9231, so θ/2 = 67.38° and θ = 134.76°, about 134.8°."]},
+{"h":"Length of an arc","p":["Arc length = (θ/360) × 2πr. Example. r = 10 cm and θ = 80°. Arc = (80/360) × 2 × 3.1416 × 10 = 0.2222 × 62.83 = 13.96 cm. Notice that the arc (13.96 cm) is a little longer than the chord (12.86 cm), as it should be."]},
+{"h":"Distance and direction: east and north parts","p":["A journey on a bearing can be split into two parts. For a distance d on a bearing θ: the East part = d sin θ and the North part = d cos θ. (For bearings above 90° these may be negative: a negative North part means going South.)","Example. A town B is 30 km from A on a bearing of 050°. East part = 30 × sin 50° = 30 × 0.7660 = 22.98 km. North part = 30 × cos 50° = 30 × 0.6428 = 19.28 km. B is about 23.0 km east and 19.3 km north of A.","Reverse example. A man walks 5 km east and 12 km north. The distance is √(25 + 144) = 13 km. tan θ = 5/12, so θ = 22.62°. The bearing is 023°."]}
+],
+"activity":"A chord of a circle of radius 6 cm subtends 90° at the centre. Find the chord length (2 × 6 × sin 45° = 8.49 cm) and the arc length (¼ × 2 × 3.1416 × 6 = 9.42 cm).",
+"check":[
+{"q":"The chord for r = 8 cm and θ = 60° is","o":["8 cm","4 cm","16 cm","6.9 cm"]},
+{"q":"The chord for r = 10 cm and θ = 80° is about","o":["12.9 cm","14.0 cm","20 cm","6.4 cm"]},
+{"q":"The arc for r = 10 cm and θ = 80° is about","o":["14.0 cm","12.9 cm","62.8 cm","8 cm"]},
+{"q":"A town 30 km away on a bearing of 050° is about how far east?","o":["23.0 km","19.3 km","30 km","15 km"]},
+{"q":"5 km east and 12 km north gives a distance of","o":["13 km","17 km","7 km","60 km"]}
+]},
+
+{"id":"m22-24","week":11,"title":"Second Term Revision","icon":"BookOpen",
+"summary":"A summary of the key facts of Second Term with mixed worked questions to prepare for the examination.",
+"keyWords":["Revision","Straight lines","Circle theorems","Sine rule","Cosine rule","Bearings"],
+"sections":[
+{"h":"Key facts","p":["Try to say each fact from memory before reading the answer."],"tbl":{"head":["Topic","Key facts"],"rows":[["Straight lines","m = (y₂ − y₁)/(x₂ − x₁); y = mx + c; parallel: m₁ = m₂; perpendicular: m₁m₂ = −1"],["Tangent","Perpendicular to the radius; tangents from a point are equal"],["Chords","The perpendicular from the centre bisects the chord"],["Angles in a circle","Centre = 2 × circumference; same segment equal; semicircle 90°; cyclic quadrilateral: opposite angles add to 180°"],["Sine rule","a/sin A = b/sin B = c/sin C"],["Cosine rule","a² = b² + c² − 2bc cos A"],["Area of triangle","½ ab sin C"],["Elevation and depression","Measured from the horizontal; they are equal alternate angles"],["Bearings","Clockwise from North, three figures; back bearing: ± 180°"]]}},
+{"h":"Mixed worked questions","p":["1. Find the line through (2, 3) and (4, 7). m = 4/2 = 2. y − 3 = 2(x − 2), so y = 2x − 1.","2. The tangent from P to a circle of radius 8 cm is 15 cm long. OP = √(8² + 15²) = √289 = 17 cm.","3. A cyclic quadrilateral has angle A = 100°. Angle C = 80°.","4. In triangle ABC, A = 40°, B = 65° and a = 8 cm: b = 8 sin 65° / sin 40° = 11.28 cm.","5. Solve x/2 + x/3 = 10: 5x = 60, x = 12.","6. A ship sails 20 km North then 15 km East. It is 25 km from the start, on a bearing of 037°. The way back is on a bearing of 217°."]},
+{"h":"Advice for the examination","p":["Draw a clear diagram for every geometry or trigonometry question. Write the reason for each angle you find. Set your calculator to degree mode. Write answers to the accuracy asked for and include units."]}
+],
+"activity":"Without notes, write the sine rule, the cosine rule and the formula for the area of a triangle. Then check against the table.",
+"check":[
+{"q":"The line through (2, 3) and (4, 7) has gradient","o":["2","4","1/2","7"]},
+{"q":"A tangent of 15 cm from P to a circle of radius 8 cm means OP =","o":["17 cm","23 cm","7 cm","12 cm"]},
+{"q":"A cyclic quadrilateral has angle A = 100°. Angle C =","o":["80°","100°","260°","90°"]},
+{"q":"The back bearing of 037° is","o":["217°","143°","323°","037°"]},
+{"q":"x/2 + x/3 = 10 gives","o":["x = 12","x = 6","x = 10","x = 5"]}
+]}
+]

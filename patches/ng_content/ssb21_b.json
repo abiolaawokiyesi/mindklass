@@ -1,0 +1,189 @@
+[
+{"id":"b21-11","week":6,"title":"The Mechanism of Breathing","icon":"Target",
+"summary":"How the diaphragm, ribs and intercostal muscles change the pressure in the chest to move air in and out, and a simple lung model.",
+"keyWords":["Diaphragm","Intercostal muscles","Inhalation","Exhalation","Boyle's law","Thoracic cavity"],
+"sections":[
+{"h":"Breathing is a pressure pump","p":["Air moves from a place of higher pressure to a place of lower pressure. Breathing works by changing the volume, and therefore the pressure, of the chest (thoracic) cavity. The lungs have no muscles of their own. They are pulled open and pushed shut by the diaphragm (a dome-shaped sheet of muscle under the lungs) and the intercostal muscles (between the ribs). Boyle's law says: when the volume of a gas increases, its pressure decreases (and the other way round)."],"img":{"src":"bio2-breathing.jpg","alt":"Diagrams of inhalation and exhalation showing the rib cage, diaphragm, and the movement of air into and out of the lungs","cap":"Inhalation and exhalation."}},
+{"h":"Inhalation (breathing in): an active process","p":["1. The external intercostal muscles contract and pull the rib cage up and out. 2. The diaphragm contracts and flattens, moving down. 3. The volume of the thoracic cavity increases. 4. The pressure inside the lungs falls below the pressure of the air outside. 5. Air rushes in until the two pressures are equal."]},
+{"h":"Exhalation (breathing out): usually passive","p":["1. The external intercostal muscles relax and the rib cage moves down and in (its weight and the elastic pull of the lungs help). 2. The diaphragm relaxes and returns to its dome shape. 3. The volume of the thoracic cavity decreases. 4. The pressure in the lungs rises above the outside pressure. 5. Air is pushed out.","Forced exhalation, as in coughing, blowing out candles or hard exercise, is active: the internal intercostal muscles and the muscles of the abdomen contract and squeeze the air out."]},
+{"h":"Summary table","p":["Compare the two actions."],"tbl":{"head":["Feature","Inhalation","Exhalation"],"rows":[["Intercostal muscles","External contract","External relax"],["Ribs","Move up and out","Move down and in"],["Diaphragm","Contracts and flattens","Relaxes and domes upwards"],["Chest volume","Increases","Decreases"],["Pressure in lungs","Lower than outside","Higher than outside"],["Air movement","In","Out"]]}},
+{"h":"A simple lung model","p":["Take a plastic bottle and cut off the base. Push a Y-shaped tube into the neck with a balloon tied on each arm (the lungs). Seal the cut end with a rubber sheet (the diaphragm). Pull the rubber sheet down: the volume inside the bottle increases, the pressure drops and the balloons inflate (inhalation). Push the sheet up: the balloons deflate (exhalation).","Limit of the model: the model cannot show the ribs and intercostal muscles, and real lungs are not hollow bags but spongy tissue with millions of alveoli."]}
+],
+"activity":"Build the lung model with a bottle, balloons and rubber sheet and explain inhalation and exhalation with it. Measure your breathing rate at rest and after one minute of skipping; predict and explain the change.",
+"check":[
+{"q":"During inhalation the diaphragm","o":["contracts and flattens","relaxes and domes up","stays still","moves up"]},
+{"q":"During inhalation the volume of the chest","o":["increases","decreases","stays the same","becomes zero"]},
+{"q":"Air enters the lungs because the pressure inside them is","o":["lower than outside","higher than outside","equal to the outside","zero"]},
+{"q":"Quiet exhalation is mainly","o":["a passive process","an active process","caused by the diaphragm contracting","caused by alveoli contracting"]},
+{"q":"Which muscles make forced exhalation?","o":["Internal intercostals and abdominal muscles","External intercostals only","The diaphragm only","The heart"]}
+]},
+
+{"id":"b21-12","week":8,"title":"Cellular Respiration: ATP and Aerobic Respiration","icon":"Zap",
+"summary":"ATP as the cell's energy currency, the equation and the three stages of aerobic respiration, with a note on the exact ATP yield.",
+"keyWords":["ATP","Glycolysis","Krebs cycle","Electron transport chain","Mitochondria","Aerobic respiration"],
+"sections":[
+{"h":"What is cellular respiration?","p":["Cellular respiration is the controlled release of energy from food, mainly glucose, inside living cells using enzymes. The energy is stored in a molecule called ATP (adenosine triphosphate), the 'energy currency' of the cell. Think of glucose as a large banknote and ATP as small coins that the cell can spend on moving, making proteins, active transport, nerve impulses and keeping warm.","ATP/ADP cycle: ATP has three phosphate groups. When a cell needs energy, an enzyme removes the last phosphate: ATP → ADP + Pᵢ + energy. Respiration provides the energy to join the phosphate back on: ADP + Pᵢ + energy → ATP. The cell keeps recycling the same molecules."]},
+{"h":"Aerobic respiration: the equation","p":["Word equation: glucose + oxygen → carbon dioxide + water + energy (ATP).","Balanced equation: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP (about 38 ATP in the school syllabus).","It is an oxidation reaction. The energy released was captured from sunlight in photosynthesis and stored in glucose."]},
+{"h":"The three stages","p":["1. Glycolysis (cytoplasm; no oxygen needed): one glucose (6 carbons) is split into two pyruvate molecules (3 carbons each). Net gain: 2 ATP and 2 NADH.","2. Krebs cycle (matrix of the mitochondrion; needs oxygen): pyruvate is completely broken down, giving off CO₂. It makes 2 ATP and loads many NADH and FADH₂ (electron carriers).","3. Electron transport chain (inner membrane of the mitochondrion): the electrons from NADH and FADH₂ pass along a chain of proteins and release energy that pumps hydrogen ions (H⁺) across the membrane. The ions flow back through the enzyme ATP synthase, which makes about 34 ATP. Oxygen is the final electron acceptor and joins with hydrogen to make water. This is why we must breathe in oxygen."]},
+{"h":"A note on the ATP total","p":["The figure 38 ATP is the traditional maximum used in Nigerian exams. Newer measurements show that, because of energy lost in moving molecules across the membranes, the real yield is closer to 30 to 32 ATP per glucose. For WAEC and NECO, write 38 (or 36 to 38); in higher studies use about 30 to 32. Either way, aerobic respiration gives about 15 times more ATP than anaerobic."]},
+{"h":"Why mitochondria are called the powerhouse","p":["Cells that need a lot of energy, such as muscle cells, sperm tails and the cells of the kidney tubule, have many mitochondria. The folded inner membrane (cristae) gives a large surface area for the electron transport chain."]}
+],
+"activity":"Write the word and balanced equations for aerobic respiration. Make a table of the three stages with the location, inputs and outputs. Explain why oxygen is needed even though glycolysis does not use it.",
+"check":[
+{"q":"The energy currency of the cell is","o":["ATP","DNA","glucose","water"]},
+{"q":"Glycolysis takes place in the","o":["cytoplasm","nucleus","mitochondrial matrix","ribosome"]},
+{"q":"The final electron acceptor in aerobic respiration is","o":["oxygen","carbon dioxide","glucose","water"]},
+{"q":"Most ATP is made in the","o":["electron transport chain","glycolysis","fermentation","digestion"]},
+{"q":"The products of aerobic respiration include","o":["carbon dioxide and water","lactic acid","ethanol","oxygen"]}
+]},
+
+{"id":"b21-13","week":8,"title":"Anaerobic Respiration, Oxygen Debt and Fermentation","icon":"BarChart2",
+"summary":"Respiration without oxygen in muscle and in yeast, oxygen debt, the uses of fermentation, and a comparison with aerobic respiration.",
+"keyWords":["Anaerobic respiration","Lactic acid","Oxygen debt","Fermentation","Ethanol","Yeast"],
+"sections":[
+{"h":"Anaerobic respiration","p":["Anaerobic respiration is the partial breakdown of glucose without oxygen. It takes place in the cytoplasm only and yields just 2 ATP per glucose (from glycolysis), because most of the energy stays locked in the end product."]},
+{"h":"In animal cells: lactic acid","p":["Equation: glucose → lactic acid + 2 ATP. During hard exercise, such as a sprint, the muscles use oxygen faster than the blood can bring it. Pyruvate is changed to lactic acid. This gives NAD⁺ back to the cell, so glycolysis can carry on making ATP quickly. The lactic acid builds up and causes tiredness, pain and cramp in the muscles.","Oxygen debt: after exercise we keep breathing hard and the heart beats fast. The extra oxygen is used to remove the lactic acid: the liver changes much of it back to glucose and some is oxidised completely to CO₂ and water. This extra oxygen is the oxygen debt that is being 'repaid'."]},
+{"h":"In yeast and plants: alcoholic fermentation","p":["Equation: glucose → ethanol + carbon dioxide + 2 ATP. Pyruvate first loses CO₂ to become ethanal (acetaldehyde), which is then changed to ethanol.","Uses: in baking, the CO₂ makes dough rise and the alcohol evaporates in the oven. In brewing, the ethanol makes palm wine, beer and other drinks (in Nigeria, burukutu and pito also use fermentation). In industry, yeast makes ethanol for biofuel from sugar cane or cassava starch."]},
+{"h":"Aerobic and anaerobic respiration compared","p":["Study the table."],"tbl":{"head":["Feature","Aerobic","Anaerobic"],"rows":[["Oxygen","Needed","Not needed"],["Site","Cytoplasm and mitochondria","Cytoplasm only"],["Breakdown of glucose","Complete","Partial"],["End products","CO₂ and water","Lactic acid (animals) or ethanol and CO₂ (yeast, plants)"],["ATP per glucose","About 38 (30 to 32 in recent figures)","2"],["Can it go on for long?","Yes, for hours","Only for short bursts"]]}},
+{"h":"Is anaerobic respiration a waste of glucose?","p":["It is a less efficient use of glucose, but it is very useful: it gives a quick burst of energy when oxygen is short (a sprint, escaping danger), it lets yeast and some bacteria live where there is no oxygen, and it is the basis of baking, brewing, yoghurt and bio-fuel production. So the statement is only partly true."]},
+{"h":"Experiment: yeast and temperature","p":["Mix yeast, sugar and warm water in separate tubes kept at 10, 25, 37 and 70 °C. Count the bubbles of CO₂ per minute (or collect the gas). Result: the rate rises with temperature up to about 37 to 40 °C, then drops sharply at 70 °C, because the enzymes are denatured."]}
+],
+"activity":"Explain what happens in the leg muscles during a 100 m sprint and how the body pays back the oxygen debt. Write the equations for lactic acid fermentation and alcoholic fermentation. Plan the yeast experiment and sketch the expected graph.",
+"check":[
+{"q":"Anaerobic respiration in muscles produces","o":["lactic acid","ethanol","carbon dioxide only","oxygen"]},
+{"q":"Yeast fermentation produces","o":["ethanol and carbon dioxide","lactic acid","water only","oxygen"]},
+{"q":"ATP produced per glucose in anaerobic respiration is","o":["2","38","36","0"]},
+{"q":"The oxygen debt is repaid by","o":["breathing hard after exercise","eating sugar","sleeping only","drinking water"]},
+{"q":"Dough rises in baking because of","o":["carbon dioxide from yeast","oxygen","lactic acid","steam only"]}
+]},
+
+{"id":"b21-14","week":9,"title":"Excretion and the Organs That Excrete","icon":"Layers",
+"summary":"Excretion compared with egestion, and how the lungs, skin and liver remove wastes, including deamination and the breakdown of haemoglobin.",
+"keyWords":["Excretion","Egestion","Deamination","Urea","Bilirubin","Sweat"],
+"sections":[
+{"h":"Excretion and egestion","p":["Excretion is the removal of the waste products of metabolism (chemical reactions in cells) from the body. Examples: carbon dioxide from respiration, and urea from the breakdown of amino acids. Egestion (defecation) is the removal of undigested food, such as the fibre from yam peel, which was never part of the body's cells. Faeces are therefore egested, not excreted (a common exam trap)."],"img":{"src":"bio2-excretion-routes.jpg","alt":"A diagram showing the excretory organs of the body: lungs, skin, liver and kidneys, with the waste each removes","cap":"The excretory organs."}},
+{"h":"The lungs","p":["Carbon dioxide and water vapour from cell respiration diffuse from the blood into the alveoli and are breathed out."]},
+{"h":"The skin","p":["Sweat glands release sweat: water, salts (NaCl), a little urea and lactic acid. Its main job is cooling by evaporation, but it also excretes a small amount of waste."]},
+{"h":"The liver: the body's chemical factory","p":["The liver does not expel wastes itself. It changes them so they can be excreted.","Deamination: excess amino acids cannot be stored. The liver removes the toxic amino group (–NH₂), which is changed into ammonia (NH₃) and quickly combined with CO₂ to make urea, a much less harmful substance. The remaining carbon part is used for energy or stored as fat. Urea goes into the blood to the kidneys.","Breakdown of haemoglobin: old red blood cells (they live about 120 days) are broken down in the liver and spleen. The iron is recycled to make new haemoglobin. The rest is turned into bile pigments (bilirubin), which leave in the bile into the intestine and give faeces its brown colour. In jaundice, bilirubin builds up and the skin and eyes turn yellow.","Detoxification: it changes alcohol, drugs and other poisons into harmless forms for the kidneys to excrete."]},
+{"h":"The kidneys","p":["The main organs of excretion for nitrogenous waste (especially urea). They also control the water and salt content of the blood (osmoregulation), which is the next topic."]}
+],
+"activity":"Make a table of four excretory organs and the waste each removes. Explain why faeces are egested and not excreted. Research how the liver is affected by too much alcohol.",
+"check":[
+{"q":"Which is an example of egestion?","o":["Removal of faeces","Removal of urine","Breathing out CO₂","Sweating"]},
+{"q":"The liver changes excess amino acids to","o":["urea","glucose only","bile","insulin"]},
+{"q":"The process of removing the amino group is called","o":["deamination","digestion","absorption","fermentation"]},
+{"q":"Bile pigments come from the breakdown of","o":["haemoglobin","starch","protein in food","fat"]},
+{"q":"The main nitrogenous excretory product of humans is","o":["urea","glucose","carbon dioxide","bile"]}
+]},
+
+{"id":"b21-15","week":9,"title":"The Urinary System and the Nephron","icon":"Target",
+"summary":"The organs of the urinary system, the structure of the nephron and the two stages of urine formation: ultrafiltration and selective reabsorption.",
+"keyWords":["Kidney","Ureter","Bladder","Nephron","Glomerulus","Ultrafiltration","Reabsorption"],
+"sections":[
+{"h":"The urinary system","p":["Kidneys (2): bean-shaped organs at the back of the abdomen. They filter the blood and make urine. Ureters (2): muscular tubes that carry urine to the bladder by peristalsis. Urinary bladder: a stretchy muscular bag that stores urine. Urethra: the tube that takes urine out of the body; it is longer in males than in females.","Blood reaches each kidney by the renal artery and leaves by the renal vein. A kidney has an outer cortex, an inner medulla and a space called the pelvis, which leads to the ureter."]},
+{"h":"The nephron: the working unit","p":["Each kidney has about one million microscopic nephrons.","1. The Malpighian body (renal corpuscle) is the filter. It has the glomerulus (a knot of capillaries) and the Bowman's capsule, a cup around it that collects the filtrate. 2. The renal tubule is the modifier: the proximal convoluted tubule (PCT), the loop of Henle (a U-shaped loop dipping into the medulla), the distal convoluted tubule (DCT) and the collecting duct, which takes urine to the pelvis."],"img":{"src":"bio2-nephron.jpg","alt":"A labelled nephron showing the glomerulus, Bowman's capsule, proximal tubule, loop of Henle, distal tubule, collecting duct and blood vessels","cap":"The nephron and its blood supply."}},
+{"h":"Stage 1: ultrafiltration (in the glomerulus)","p":["The afferent arteriole bringing blood in is wider than the efferent arteriole taking blood out. This makes the blood pressure inside the glomerulus very high. The pressure forces water and small molecules (urea, glucose, amino acids, salts) through the capillary wall, the basement membrane and the podocytes into the Bowman's capsule. Blood cells and large proteins are too big to pass. The fluid is called the glomerular filtrate: it is like plasma without proteins."]},
+{"h":"Stage 2: selective reabsorption (in the tubule)","p":["More than 99% of the filtrate goes back into the blood in the capillaries around the tubule, so the body does not lose useful things.","PCT: all the glucose and amino acids, vitamins and most of the ions (Na⁺, K⁺, Cl⁻) are taken back by active transport. Water then follows by osmosis (about 80%).","Loop of Henle: builds up a high salt concentration in the medulla, which is needed to save water.","DCT: fine-tunes the amount of salts and water, under the control of hormones.","Collecting duct: the last place where water is reabsorbed, under the control of ADH."]},
+{"h":"What is in the filtrate, and what is in urine?","p":["Compare these."],"tbl":{"head":["Substance","Blood plasma","Filtrate","Urine"],"rows":[["Proteins","Yes","No","No"],["Glucose","Yes","Yes","No (all reabsorbed)"],["Amino acids","Yes","Yes","No"],["Urea","Yes","Yes","Yes (more concentrated)"],["Water","Yes","Yes","Most reabsorbed"],["Blood cells","Yes","No","No"]]}},
+{"h":"A diabetes clue","p":["If glucose is in the urine, the tubule could not reabsorb all of it because the blood sugar was too high. This is one sign of diabetes mellitus, and a test strip dipped in urine can detect it."]}
+],
+"activity":"Trace a molecule of urea from the liver to the outside of the body, naming every organ and tube it passes. Draw a nephron and label where ultrafiltration (F) and most reabsorption (R) take place. Explain why there is glucose in the filtrate but not in the urine.",
+"check":[
+{"q":"Ultrafiltration takes place in the","o":["glomerulus and Bowman's capsule","loop of Henle","bladder","collecting duct"]},
+{"q":"All the glucose in the filtrate is reabsorbed in the","o":["proximal convoluted tubule","urethra","bladder","ureter"]},
+{"q":"The tube from the kidney to the bladder is the","o":["ureter","urethra","aorta","oesophagus"]},
+{"q":"High pressure in the glomerulus is due to","o":["the efferent arteriole being narrower","the afferent arteriole being narrower","a thick Bowman's capsule","the loop of Henle"]},
+{"q":"Which is NOT normally found in urine?","o":["Glucose","Urea","Salts","Water"]}
+]},
+
+{"id":"b21-16","week":9,"title":"Water Balance, ADH and Kidney Disorders","icon":"Heart",
+"summary":"How the hormone ADH controls the water content of the blood, and kidney stones, nephritis, kidney failure, dialysis and transplants.",
+"keyWords":["Osmoregulation","ADH","Dehydration","Dialysis","Kidney stones","Uraemia"],
+"sections":[
+{"h":"Osmoregulation and ADH","p":["The body must keep the water content of the blood steady. The hypothalamus in the brain detects the concentration of the blood. The pituitary gland releases the hormone ADH (antidiuretic hormone) into the blood, and ADH acts on the collecting ducts in the kidney."],"img":{"src":"bio2-adh.jpg","alt":"A diagram showing how ADH is released and acts on the kidney's collecting duct to control water reabsorption","cap":"The action of ADH."}},
+{"h":"When you are dehydrated","p":["The blood becomes too concentrated (low water potential). The hypothalamus signals the pituitary to release more ADH. ADH makes the walls of the collecting ducts more permeable to water, so more water is drawn back into the blood by the salty medulla. The result: a small volume of dark, concentrated urine, and you also feel thirsty."]},
+{"h":"When you have drunk a lot of water","p":["The blood is too dilute. Less ADH is released. The collecting ducts are less permeable, so less water is reabsorbed. The result: a large volume of pale, dilute urine. So if a person drinks a large volume of water, urine output increases. This is a negative feedback loop: the body corrects any change to bring the water level back to normal."]},
+{"h":"Diabetes insipidus and alcohol","p":["If the body makes too little ADH (diabetes insipidus), a person passes very large volumes of dilute urine and is always thirsty. Alcohol blocks the release of ADH, which is why people urinate more and become dehydrated after drinking it."]},
+{"h":"Disorders of the excretory system","p":["Kidney stones (renal calculi): crystals of salts such as calcium oxalate form in the kidney. If they move into the ureter, they cause severe pain and may block urine flow. Prevention: drink plenty of water.","Nephritis: swelling of the kidney, usually from infection or from the body's own immune system, which damages the nephrons.","Kidney (renal) failure: the kidneys can no longer filter blood and urea builds up (uraemia). Treatment: dialysis, where a machine acts as an artificial kidney, filtering the blood through a membrane, or a kidney transplant, where a healthy kidney from a matching donor replaces the failed one. A person can live with one kidney, so a living relative can donate.","Ethical issues: there are too few donors, and selling organs is illegal in Nigeria and many countries. Always take medical advice."]}
+],
+"activity":"Explain with a flow diagram how ADH regulates the water content of the blood. State what would happen to the urine of a person who drinks 2 litres of water quickly. Write a short report on organ donation and why it needs rules.",
+"check":[
+{"q":"ADH is released by the","o":["pituitary gland","kidney","liver","pancreas"]},
+{"q":"In dehydration, the amount of ADH","o":["increases","decreases","stays the same","falls to zero"]},
+{"q":"ADH makes the collecting duct","o":["more permeable to water","less permeable to water","produce urea","filter blood"]},
+{"q":"A machine that filters the blood of a person with kidney failure is a","o":["dialysis machine","nebuliser","ventilator","pacemaker"]},
+{"q":"After drinking a lot of water, urine becomes","o":["large in volume and dilute","small in volume and dark","very concentrated","absent"]}
+]},
+
+{"id":"b21-17","week":10,"title":"Nutrient Cycling and the Water Cycle","icon":"Layers",
+"summary":"Why elements are recycled, and the processes of the water cycle: evaporation, transpiration, condensation, precipitation and run-off.",
+"keyWords":["Biogeochemical cycle","Evaporation","Transpiration","Condensation","Precipitation","Infiltration"],
+"sections":[
+{"h":"Why do we need cycles?","p":["The amount of matter on Earth is fixed. Nothing new arrives, so the elements that make life, such as carbon, nitrogen and water, must be used over and over again. These biogeochemical cycles show how elements move from the environment into living things and back. Without recycling, the soil would run out of nutrients and ecosystems would collapse."]},
+{"h":"The water cycle (hydrological cycle)","p":["Water moves continuously on, above and below the surface of the Earth, powered by the Sun's energy."],"img":{"src":"bio2-water-cycle.jpg","alt":"The water cycle with evaporation from the sea, transpiration from plants, condensation into clouds, precipitation, run-off and infiltration","cap":"The water cycle."}},
+{"h":"The key processes","p":["Evaporation: liquid water turns to vapour, mainly from oceans, lakes and rivers.","Transpiration: loss of water vapour from the leaves of plants through the stomata. Together with evaporation it is called evapotranspiration. A large tree may release hundreds of litres a day.","Condensation: rising vapour cools and condenses on dust particles to form clouds.","Precipitation: water falls as rain, snow, sleet or hail when droplets become too heavy.","Run-off: water flows over the land into streams and rivers and back to the sea.","Infiltration (percolation): water soaks into the soil and refills underground water (aquifers). We get well and borehole water from this store."]},
+{"h":"Why water matters in biology","p":["Water is the universal solvent for chemical reactions, the medium of transport in blood and in xylem, and it keeps plant cells turgid. It also gives a stable temperature to cells and lakes.","Human influence: cutting down forests reduces transpiration and rainfall, and paving over soil reduces infiltration and increases flooding, a serious problem in Nigerian cities during the rainy season."]}
+],
+"activity":"Draw the water cycle from memory and label six processes. Explain the role of transpiration. Describe how deforestation can change the local water cycle.",
+"check":[
+{"q":"Loss of water vapour from leaves is","o":["transpiration","condensation","precipitation","infiltration"]},
+{"q":"Clouds are formed by","o":["condensation","evaporation","run-off","respiration"]},
+{"q":"Water soaking into the soil is called","o":["infiltration","run-off","evaporation","precipitation"]},
+{"q":"Energy for the water cycle comes from the","o":["Sun","Moon","wind only","soil"]},
+{"q":"Nutrient cycling is important because","o":["matter on Earth is fixed","energy is fixed","plants make oxygen","water is salty"]}
+]},
+
+{"id":"b21-18","week":10,"title":"The Carbon Cycle and Global Warming","icon":"Zap",
+"summary":"How carbon moves through photosynthesis, respiration, decomposition and combustion, and how people have upset the cycle.",
+"keyWords":["Carbon cycle","Photosynthesis","Decomposition","Combustion","Greenhouse effect","Fossil fuels"],
+"sections":[
+{"h":"Carbon: the backbone of life","p":["Every organic molecule (sugar, fat, protein, DNA) is built on carbon. The carbon cycle also shows the flow of energy, because carbon in food carries the energy that organisms use."],"img":{"src":"bio2-carbon-cycle.jpg","alt":"The carbon cycle showing carbon dioxide in the air, plants, animals, decomposers, fossil fuels and combustion","cap":"The carbon cycle."}},
+{"h":"The main processes","p":["Photosynthesis: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂. Green plants and algae take CO₂ from the air or water and build glucose. This is the main way carbon enters living things, and the main process that removes CO₂ from the air on a large scale (the oceans also dissolve some).","Respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP. All living things, including plants and decomposers, release CO₂ back to the air.","Feeding: carbon passes from plants to animals along food chains.","Decomposition: bacteria and fungi break down dead plants, animals and wastes, releasing CO₂ by respiration and returning nutrients to the soil. Where the dead remains are buried without oxygen over millions of years, they become coal, oil and natural gas (fossil fuels).","Combustion: burning wood or fossil fuels releases CO₂. Natural examples are bush fires; human examples are generators, vehicles, gas flaring and factories."]},
+{"h":"Human impact","p":["Burning of fossil fuels adds large amounts of 'old' carbon quickly, and deforestation reduces the number of plants that take in CO₂. The CO₂ level in the air has risen steadily. CO₂ is a greenhouse gas: it traps heat in the atmosphere, causing the enhanced greenhouse effect, global warming, melting ice, rising sea level and changes in rainfall.","Ways to help: plant trees, use solar and other clean energy, reduce gas flaring, use public transport, and recycle."]}
+],
+"activity":"Draw the carbon cycle and mark where CO₂ is removed from and added to the air. Explain two human activities that disturb the cycle and their effect. Find out how gas flaring affects communities in the Niger Delta.",
+"check":[
+{"q":"The process that takes CO₂ from the air into plants is","o":["photosynthesis","respiration","combustion","decomposition"]},
+{"q":"Fossil fuels are formed from","o":["remains of ancient organisms","rocks only","air","water"]},
+{"q":"Which activity does NOT release CO₂?","o":["Photosynthesis","Respiration","Burning wood","Decomposition"]},
+{"q":"A greenhouse gas is","o":["carbon dioxide","oxygen","nitrogen","argon"]},
+{"q":"Deforestation increases CO₂ because","o":["fewer plants remove it","trees make it","soil makes it","clouds make it"]}
+]},
+
+{"id":"b21-19","week":10,"title":"The Nitrogen Cycle","icon":"Layers",
+"summary":"The five processes of the nitrogen cycle, the bacteria that carry them out, and why leguminous crops improve the soil.",
+"keyWords":["Nitrogen fixation","Ammonification","Nitrification","Denitrification","Rhizobium","Nitrates"],
+"sections":[
+{"h":"The problem of unusable nitrogen","p":["Nitrogen gas (N₂) is about 78% of the air, but it is so unreactive that plants and animals cannot use it directly. They need it in the form of nitrates to build proteins, DNA and chlorophyll. The nitrogen cycle, driven by microbes, changes it into useful forms and back."],"img":{"src":"bio2-nitrogen-cycle.jpg","alt":"The nitrogen cycle showing nitrogen fixation, nitrification, assimilation, ammonification and denitrification","cap":"The nitrogen cycle."}},
+{"h":"The processes","p":["Study the table."],"tbl":{"head":["Process","What happens","Agents"],"rows":[["Nitrogen fixation","N₂ → ammonia/ammonium","Symbiotic Rhizobium in root nodules of legumes (beans, cowpea, groundnut); free-living Azotobacter and Clostridium; lightning; the Haber process in industry"],["Ammonification","Dead remains and wastes (urea, uric acid) → ammonia/ammonium","Decomposers: bacteria and fungi"],["Nitrification","Ammonium → nitrites → nitrates","Step 1: Nitrosomonas; step 2: Nitrobacter; needs oxygen, so it occurs in well-aerated soil"],["Assimilation","Plants absorb nitrates and make proteins, DNA and chlorophyll; animals get nitrogen by eating","Plants and animals"],["Denitrification","Nitrates → nitrogen gas","Denitrifying bacteria such as Pseudomonas; work without oxygen in waterlogged soil"]]}},
+{"h":"Farming applications","p":["Farmers use crop rotation or intercropping with legumes to put nitrogen back in the soil without buying fertiliser. Good drainage and ploughing keep soil aerated, so denitrification is low and nitrification is high. Too much nitrate fertiliser can be washed into rivers and lakes, causing eutrophication (a burst of algae growth that uses up the oxygen).","The Haber process fixes nitrogen industrially: N₂ + 3H₂ ⇌ 2NH₃ makes fertiliser that feeds billions, but its misuse pollutes water. Both sides matter in the debate."]}
+],
+"activity":"Make a table naming the bacteria for fixation in roots, conversion of ammonia to nitrite, nitrite to nitrate, and nitrate to nitrogen gas. Explain why farmers plant beans or groundnut in rotation with maize. Describe what happens in waterlogged soil.",
+"check":[
+{"q":"Bacteria in the root nodules of legumes are","o":["Rhizobium","Nitrobacter","Pseudomonas","Nitrosomonas"]},
+{"q":"Nitrates are changed to nitrogen gas by","o":["denitrification","nitrification","assimilation","fixation"]},
+{"q":"Nitrosomonas changes","o":["ammonium to nitrite","nitrite to nitrate","nitrate to nitrogen","nitrogen to ammonia"]},
+{"q":"Plants take up nitrogen mostly as","o":["nitrates","nitrogen gas","ammonia gas","nitrogen oxide"]},
+{"q":"Breaking down dead remains to ammonia is","o":["ammonification","fixation","assimilation","nitrification"]}
+]},
+
+{"id":"b21-20","week":11,"title":"First Term Revision: Connecting the Systems","icon":"Star",
+"summary":"The story of a glucose molecule and a protein molecule, a topic-by-topic revision guide and worked answers to the self-assessment questions.",
+"keyWords":["Revision","Integration","Active recall","Eutrophication","Turgidity"],
+"sections":[
+{"h":"Biology is one connected story","p":["The digestive, circulatory, respiratory and excretory systems work together. Cycles in nature connect the whole organism to the environment. Revise by following a molecule from the plate to the cell to the waste."]},
+{"h":"The story of a glucose molecule (from bread)","p":["Digestion: amylase in saliva and pancreatic juice and maltase in the ileum break starch to glucose. Absorption: glucose is actively transported into the villi of the ileum. Transport: the hepatic portal vein takes it to the liver, then the systemic circulation takes it to a muscle cell. Respiration: in the mitochondria, it is used in aerobic respiration to make ATP. Waste: CO₂ goes in the blood to the lungs and is breathed out; the water goes with the urine."]},
+{"h":"The story of a protein molecule (from fish)","p":["Digestion: pepsin (stomach), trypsin (duodenum) and peptidases (ileum) break it into amino acids. Absorption and transport: the amino acids go to the liver. Assimilation: used to build muscle and enzymes. Waste: excess amino acids are deaminated in the liver and make urea. Excretion: the urea is filtered by the kidneys and leaves in the urine."]},
+{"h":"Revision checklist","p":["Digestive system: the five stages of nutrition, enzyme table, villus, ileum adaptations, role of bile.","Transport: SA:V, diffusion, osmosis, active transport, heart, double circulation, vessels, blood and clotting.","Respiratory system: path of air, alveoli adaptations, breathing mechanism, aerobic and anaerobic respiration, oxygen debt.","Excretory system: excretion versus egestion, liver, nephron, ultrafiltration, reabsorption, ADH.","Nutrient cycles: water, carbon, nitrogen and the bacteria involved.","Diagrams to practise: alimentary canal; a villus; the heart; artery, vein and capillary; red cells in three solutions; respiratory tract; alveolus; breathing; urinary system; nephron; carbon and nitrogen cycles."]},
+{"h":"Worked answers to the self-test","p":["1. How do circulation and respiration supply a muscle cell? Air reaches the alveoli; oxygen diffuses into the blood and joins haemoglobin in the red cells; the heart pumps this blood through the aorta and arteries to the capillaries in the muscle; the oxygen is released and diffuses into the cell for respiration. CO₂ made by respiration diffuses into the blood, goes by the veins and vena cava to the heart, then through the pulmonary artery to the lungs, where it diffuses into the alveoli and is breathed out.","2. Fertiliser and fish deaths (eutrophication): nitrates wash into the lake after heavy rain. Algae grow rapidly (an algal bloom) and cover the surface. Light cannot reach plants below, which die. Bacteria decompose the dead algae and plants and use up the dissolved oxygen. The fish and other animals suffocate and die.","3. Celery in distilled water: the water has a higher water potential than the cells, so water enters the cells by osmosis. The cells become turgid and the celery stalk becomes firm and crisp."]},
+{"h":"How to revise well","p":["Active recall: close the book and draw or write from memory, then check. Spaced repetition: revise a topic on several days, not once. Teach someone: explain the nitrogen cycle to a friend. Past questions: practise under timed conditions, then list your three most common mistakes."]}
+],
+"activity":"Fill a 'Topic and confidence (1 to 5)' table for the term. For every topic scored 3 or less, write one action (for example 'redraw the heart three times'). Complete one full past paper and mark it honestly.",
+"check":[
+{"q":"Excess amino acids are changed to urea in the","o":["liver","kidney","heart","lung"]},
+{"q":"A plant cell placed in pure water becomes","o":["turgid","plasmolysed","dead at once","smaller"]},
+{"q":"Which sequence is correct for a glucose molecule?","o":["Ileum, hepatic portal vein, liver, muscle cell","Liver, ileum, muscle, stomach","Stomach, aorta, kidney, brain","Mouth, bladder, heart, lung"]},
+{"q":"Fish die in a lake with too much fertiliser because","o":["decomposers use up the oxygen","the fish eat fertiliser","the water gets too cold","nitrates are poison gas"]},
+{"q":"Active recall means","o":["testing yourself from memory","re-reading notes only","copying notes","sleeping with the book"]}
+]}
+]

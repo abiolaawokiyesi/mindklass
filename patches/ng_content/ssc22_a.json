@@ -1,0 +1,178 @@
+[
+{"id":"c22-02","week":1,"title":"Saponification: The Chemistry of Soap Making","icon":"Layers",
+"summary":"Fats and oils as triglycerides, saponification with an alkali, the laboratory preparation of soap and the types of soap.",
+"keyWords":["Saponification","Triglyceride","Glycerol","Soap","Salting out","Fatty acid"],
+"sections":[
+{"h":"A short history","p":["People in ancient Babylon (about 2800 BC) boiled fats with ashes to make a crude soap. The ancient Egyptians used a similar mixture to wash linen and to treat skin diseases. In the 19th century soap making became a large industry as the chemistry of fats and alkalis was understood. Detergents were first made in 1916 in Germany, during the First World War, because of a shortage of natural fats and oils."]},
+{"h":"Fats and oils","p":["Fats and oils are triglycerides: esters formed when glycerol, C₃H₅(OH)₃, combines with three fatty acids. Fats are solid at room temperature and are rich in saturated fatty acids (tallow, butter). Oils are liquid at room temperature and are rich in unsaturated fatty acids (palm oil, groundnut oil).","Common fatty acids: stearic acid C₁₇H₃₅COOH, palmitic acid C₁₅H₃₁COOH and oleic acid C₁₇H₃₃COOH."]},
+{"h":"Saponification","p":["Saponification is the hydrolysis of a fat or oil by a strong alkali (NaOH or KOH) to give soap and glycerol.","C₃H₅(OOCR)₃ + 3NaOH → C₃H₅(OH)₃ + 3RCOONa","fat or oil + sodium hydroxide → glycerol + soap (the sodium salt of a fatty acid)."]},
+{"h":"Laboratory preparation of soap","p":["Materials: palm oil, NaOH pellets, distilled water, ethanol, concentrated sodium chloride solution.","1. Dissolve the NaOH pellets in water to make caustic soda solution (handle with care: it burns the skin). 2. Mix the palm oil with ethanol in a beaker (the ethanol helps the oil and alkali to mix). 3. Add the NaOH solution and heat gently for 30 to 40 minutes, stirring, without splashing. 4. A thick paste forms. 5. Add concentrated NaCl solution to make the soap separate (salting out). 6. Filter and wash the soap with a little distilled water. 7. Dry it and mould it.","Observation: the soap separates as a solid (it is less soluble in salt solution), while the glycerol stays in the liquid."]},
+{"h":"Types of soap","p":["Hard soap: the sodium salt of a fatty acid, made with NaOH; solid; used for laundry. Soft soap: the potassium salt, made with KOH; soft or semi-liquid; used in shampoos and shaving creams. Medicated soap: contains an antiseptic such as triclosan or sulphur. Toilet soap: perfumed and mild on the skin. Transparent soap: made with extra glycerol and sugar."]}
+],
+"activity":"Define saponification and write the equation. Design a step-by-step laboratory procedure for making soap from palm oil. Differentiate between hard soap and soft soap, with one use of each.",
+"check":[
+{"q":"Saponification is the reaction of a fat or oil with","o":["a strong alkali","a strong acid","water only","hydrogen"]},
+{"q":"The by-product of saponification is","o":["glycerol","ethanol","glucose","methanol"]},
+{"q":"Soft soap is the","o":["potassium salt of a fatty acid","sodium salt of a fatty acid","calcium salt","sulphonate"]},
+{"q":"Concentrated NaCl solution is added to","o":["make the soap separate","dissolve the soap","neutralise the alkali","make glycerol"]},
+{"q":"Fats and oils are","o":["triglycerides","polysaccharides","amino acids","alcohols"]}
+]},
+
+{"id":"c22-03","week":1,"title":"Cleaning Action of Soap and Detergents","icon":"Layers",
+"summary":"Hydrophilic heads and hydrophobic tails, micelles, why soap fails in hard water, and how detergents are different and better in some ways.",
+"keyWords":["Micelle","Hydrophobic","Hydrophilic","Scum","Detergent","Biodegradable"],
+"sections":[
+{"h":"The soap molecule","p":["A soap molecule has two parts. The hydrophobic tail (R–) is a long hydrocarbon chain that repels water and dissolves in oil and grease. The hydrophilic head (–COO⁻Na⁺) is polar and dissolves in water."]},
+{"h":"How soap cleans","p":["When soap meets greasy dirt on cloth, the tails go into the grease and the heads stay in the water. The soap molecules gather into balls called micelles with the grease trapped inside and the heads on the outside. The micelles stay suspended in the water (because the charged heads repel one another) and are washed away when we rinse."],"img":{"src":"chm2-soap-micelle.jpg","alt":"A soap micelle with a grease droplet in the middle, hydrophobic tails pointing inwards and hydrophilic heads pointing out towards water molecules","cap":"A soap micelle traps grease."}},
+{"h":"Limitations of soap","p":["Soap does not work well in hard water, which has Ca²⁺, Mg²⁺ or Fe²⁺ ions. These ions form an insoluble scum: 2RCOO⁻Na⁺ + Ca²⁺ → (RCOO)₂Ca↓ + 2Na⁺. The scum wastes the soap and leaves a grey film on clothes. Soap also fails in acidic water, because H⁺ ions change the soap back to the fatty acid, which is insoluble: RCOO⁻ + H⁺ → RCOOH."]},
+{"h":"Detergents","p":["Detergents are synthetic cleaning agents made from petroleum products. They have a hydrocarbon tail like soap, but the head is a sulphonate (–SO₃⁻Na⁺) or sulphate (–OSO₃⁻Na⁺) group. Their calcium and magnesium salts are soluble, so they do not form scum.","Types: anionic (negative head, for example sodium alkylbenzene sulphonate in washing powders), cationic (positive head, for example quaternary ammonium salts in hair conditioners) and non-ionic (polar groups without charge, for example ethoxylated alcohols)."]},
+{"h":"Advantages of detergents over soaps","p":["They work in both soft and hard water; they form no scum; they work in acidic and neutral solutions; and they can be designed for special jobs (dishwashing, shampoos, industrial cleaners)."]},
+{"h":"Environmental concerns","p":["Soaps are fully biodegradable. Early detergents had branched chains that bacteria could not break down. They caused thick foam on rivers and lakes, blocked the dissolving of oxygen and harmed aquatic life. Modern detergents have straight (linear) chains, which are biodegradable. Detergents that contain phosphates can also cause eutrophication."]},
+{"h":"Uses","p":["Soap: bathing, laundry, textile industry, shaving creams. Detergents: washing powders, dishwashing liquids, shampoos, industrial degreasers, and emulsifiers in food and medicines."]}
+],
+"activity":"Describe the cleaning action of soap using micelles. Explain why soap forms scum in hard water but detergents do not. Compare the effect of soaps and detergents on the environment.",
+"check":[
+{"q":"The part of a soap molecule that dissolves in grease is the","o":["hydrophobic tail","hydrophilic head","metal ion","carboxylate group"]},
+{"q":"Soap forms scum with","o":["Ca²⁺ and Mg²⁺ ions","Na⁺ ions","Cl⁻ ions","K⁺ ions"]},
+{"q":"A micelle has the grease","o":["inside, with heads outside","outside, with heads inside","separate from the soap","dissolved in water"]},
+{"q":"Detergents are made from","o":["petroleum products","palm oil only","animal fat only","wood ash"]},
+{"q":"Modern detergents are biodegradable because their chains are","o":["linear (straight)","branched","aromatic only","very short"]}
+]},
+
+{"id":"c22-04","week":2,"title":"Nuclear Chemistry: Radioactivity and Radioactive Emissions","icon":"Zap",
+"summary":"What nuclear chemistry studies, how nuclear and chemical reactions differ, and the nature of alpha, beta and gamma radiation with nuclear equations.",
+"keyWords":["Radioactivity","Radioisotope","Alpha particle","Beta particle","Gamma ray","Nuclear equation"],
+"sections":[
+{"h":"Nuclear chemistry","p":["Nuclear chemistry studies the structure of the nucleus and the changes it undergoes. Ordinary chemistry deals with the outer electrons. Nuclear reactions involve the nucleus (protons and neutrons) and give enormous amounts of energy, about a million times more per atom than chemical reactions."],"tbl":{"head":["Feature","Chemical reaction","Nuclear reaction"],"rows":[["Part involved","Outer electrons","The nucleus"],["Energy change","Small (kJ/mol)","Very large (about 10⁶ times more)"],["Conditions","Affected by temperature, pressure and catalysts","Not affected by ordinary conditions"],["Products","Same elements in new compounds","New elements or isotopes"]]}},
+{"h":"History","p":["1896: Henri Becquerel discovered radioactivity in uranium salts. 1898: Marie and Pierre Curie isolated polonium and radium. Ernest Rutherford identified alpha and beta radiation. 1932: James Chadwick discovered the neutron."]},
+{"h":"Radioactivity","p":["Radioactivity is the spontaneous emission of particles (alpha, beta) or electromagnetic radiation (gamma) from the nucleus of an unstable atom, until it changes into a more stable form. Unstable atoms are called radioisotopes: uranium-238, thorium-232, carbon-14, radium-226, iodine-131."]},
+{"h":"Alpha (α) particles","p":["An alpha particle is 2 protons and 2 neutrons: a helium nucleus, ⁴₂He. Charge +2, relative mass 4. Slow (about a tenth of the speed of light). Penetrating power: very low (stopped by a sheet of paper or the skin). Ionising power: very high. Example: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He. Another: ²¹⁰₈₄Po → ²⁰⁶₈₂Pb + ⁴₂He. In alpha decay, the mass number falls by 4 and the atomic number falls by 2."]},
+{"h":"Beta (β) particles","p":["A beta particle is a fast electron (β⁻, charge −1) or a positron (β⁺, charge +1). Its mass is negligible and its speed is close to the speed of light. Penetrating power: moderate (stopped by a few millimetres of aluminium). Ionising power: medium. Example: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e (β⁻). In beta decay, the mass number is unchanged and the atomic number increases by 1 (a neutron changes into a proton)."]},
+{"h":"Gamma (γ) rays","p":["Gamma rays are high-frequency electromagnetic waves. No charge and no mass. They travel at the speed of light. Penetrating power: very high (they need thick lead or concrete to stop them). Ionising power: low. They usually come with alpha or beta emission and carry away extra energy; they do not change the atomic number or mass number."],"img":{"src":"chm2-radiation-penetration.jpg","alt":"Alpha particles stopped by paper, beta particles stopped by aluminium and gamma rays stopped by a lead wall","cap":"The penetrating power of α, β and γ radiation."}},
+{"h":"Features of radioactive decay","p":["It is spontaneous (heat, pressure and catalysts do not change it). It makes new nuclei (daughter nuclei). It gives out large amounts of energy. It follows a fixed rate measured by the half-life."]}
+],
+"activity":"Define nuclear chemistry and radioactivity. State three differences between chemical and nuclear reactions. Complete: ²¹⁰₈₄Po → ? + ⁴₂He (²⁰⁶₈₂Pb). Compare α, β and γ in charge, mass and penetrating power.",
+"check":[
+{"q":"An alpha particle is the same as a","o":["helium nucleus","electron","proton","neutron"]},
+{"q":"The radiation with the greatest penetrating power is","o":["gamma","alpha","beta","all equal"]},
+{"q":"In alpha decay the atomic number","o":["falls by 2","rises by 2","falls by 4","does not change"]},
+{"q":"¹⁴₆C decays by β⁻ emission to","o":["¹⁴₇N","¹⁴₅B","¹³₆C","¹⁰₄Be"]},
+{"q":"Radioactive decay is affected by","o":["nothing in ordinary conditions","temperature only","pressure only","a catalyst"]}
+]},
+
+{"id":"c22-05","week":2,"title":"Half-Life, Applications and Dangers of Radioactivity","icon":"Target",
+"summary":"The half-life of a radioisotope with calculations, the uses of radioactivity in medicine, farming, industry, archaeology and energy, and its dangers.",
+"keyWords":["Half-life","Carbon-14 dating","Tracer","Nuclear fission","Radiation hazard"],
+"sections":[
+{"h":"Half-life","p":["The half-life (T½) is the time taken for half of the nuclei in a sample to decay. It is constant for each radioisotope and does not depend on the amount, temperature or pressure.","Example 1. A sample of 80 g of a radioisotope has a half-life of 5 days. After 5 days: 40 g; after 10 days: 20 g; after 15 days: 10 g.","Example 2. The half-life of carbon-14 is 5 730 years. A fossil has one quarter of the carbon-14 of a living organism. One quarter is two half-lives (1 → ½ → ¼), so its age is about 2 × 5 730 = 11 460 years."]},
+{"h":"Uses of radioactivity","p":["Medicine: cobalt-60 gamma rays destroy cancer cells (radiotherapy); technetium-99m is a tracer for imaging organs; iodine-131 treats an overactive thyroid and goitre.","Agriculture: radioisotopes trace how plants take up fertiliser; radiation sterilises pests and keeps food from spoiling (food irradiation).","Industry: beta radiation gauges the thickness of paper, plastic and metal sheets; tracers find leaks in pipes; gamma radiography finds cracks in metal parts.","Archaeology and geology: carbon-14 dating gives the age of fossils, bones and objects up to about 50 000 years old. Uranium-lead dating gives the age of rocks, which can be millions or billions of years old.","Energy: nuclear fission of uranium-235 and plutonium-239 in reactors heats water to make steam that drives turbines to produce electricity. A reactor uses far less fuel than a coal power station."]},
+{"h":"Why is carbon-14 used for dating?","p":["Carbon-14 is taken in by all living things. When an organism dies it stops taking in carbon, and the carbon-14 already in it decays with a known half-life (5 730 years). Measuring what is left gives the time since death."]},
+{"h":"Dangers","p":["Radiation can cause cancer, mutations (genetic damage) and burns, and radiation sickness at high doses. Nuclear waste stays dangerous for thousands of years and is difficult to store. Accidents such as Chernobyl (1986) and Fukushima (2011) show the risks. Nuclear weapons can cause mass destruction. Gamma rays are especially dangerous because they penetrate deep into the body, while alpha particles are most harmful if the source is swallowed or breathed in."]},
+{"h":"Advantages and disadvantages of nuclear energy","p":["Advantages: a very large amount of energy from a small mass of fuel and no carbon dioxide from the reactor. Disadvantages: dangerous waste, the risk of accidents, a very high building cost and the possible misuse of the technology for weapons."]}
+],
+"activity":"Mention four useful applications of radioactivity and three dangers. A sample of 160 g has a half-life of 3 hours; how much remains after 9 hours (20 g)? Write a short note on how a nuclear power station produces electricity.",
+"check":[
+{"q":"After 3 half-lives, the fraction of a sample remaining is","o":["1/8","1/6","1/3","1/4"]},
+{"q":"Carbon-14 dating is used to find the age of","o":["fossils and ancient bones","rocks of millions of years","new metals","minerals only"]},
+{"q":"Iodine-131 is used to treat","o":["thyroid disorders","fractures","malaria","anaemia"]},
+{"q":"A fossil has 1/4 of the original carbon-14. Its age is about","o":["11 460 years","5 730 years","2 865 years","22 920 years"]},
+{"q":"Which radiation is used to control the thickness of paper?","o":["beta","alpha","visible light","sound"]}
+]},
+
+{"id":"c22-06","week":3,"title":"The Halogens: Properties and Trends","icon":"Layers",
+"summary":"The Group 17 elements, their physical and chemical properties, displacement reactions, bleaching, and the trends down the group.",
+"keyWords":["Halogen","Diatomic","Displacement","Oxidising agent","Reactivity trend","Electronegativity"],
+"sections":[
+{"h":"The halogens","p":["The halogens are the non-metals of Group 17 (Group VIIA): fluorine (F), chlorine (Cl), bromine (Br), iodine (I) and astatine (At). The name means 'salt-former', because they combine easily with metals to form salts such as NaCl. They have seven electrons in the outer shell (ns²np⁵), so they readily gain one electron to form halide ions (X⁻) and are strong oxidising agents. They exist as diatomic molecules (F₂, Cl₂, Br₂, I₂) and are never found free in nature."]},
+{"h":"Physical properties","p":["Fluorine is a pale yellow gas. Chlorine is a greenish-yellow gas. Bromine is a reddish-brown liquid. Iodine is a grey-black solid that sublimes to a purple vapour. The colour gets darker, and the melting point, boiling point and density increase down the group (stronger van der Waals forces between larger molecules). They are poor conductors. They are slightly soluble in water and more soluble in organic solvents such as hexane and CCl₄, in which they show clear colours."],"img":{"src":"chm2-halogen-trends.jpg","alt":"The halogens fluorine, chlorine, bromine and iodine with their colours and states and an arrow showing reactivity decreasing down the group","cap":"Trends in Group 17."}},
+{"h":"Chemical properties","p":["1. Reactivity decreases down the group: F₂ > Cl₂ > Br₂ > I₂. Reason: the atoms get larger and there is more shielding, so the atom attracts an extra electron less strongly (electronegativity falls).","2. Displacement: a more reactive halogen displaces a less reactive one from its salt. Cl₂ + 2KBr → 2KCl + Br₂ (the solution turns red-brown). Cl₂ + 2KI → 2KCl + I₂ (brown or purple). Br₂ + 2KI → 2KBr + I₂. Iodine cannot displace chlorine or bromine.","3. With hydrogen: H₂ + X₂ → 2HX. Fluorine reacts explosively even in the dark; chlorine explosively in sunlight; bromine slowly on heating; iodine only partly (the HI formed breaks down easily).","4. With metals: 2Na + Cl₂ → 2NaCl (ionic halides).","5. With water: Cl₂ + H₂O ⇌ HCl + HOCl. Hypochlorous acid, HOCl, is the bleach and germ killer: HOCl → HCl + [O]. The released oxygen bleaches coloured substances. A damp litmus paper is bleached by chlorine."]},
+{"h":"Trends down the group","p":["Atomic radius increases; ionisation energy and electronegativity decrease; reactivity and oxidising power decrease; melting and boiling points increase. The reducing power of the halide ions increases: I⁻ is the strongest reducing agent."]}
+],
+"activity":"Why are the halogens called 'salt formers'? Give the states and colours of F₂, Cl₂, Br₂ and I₂. Explain why reactivity decreases down the group. Write equations for chlorine with hydrogen, with sodium and with potassium bromide solution.",
+"check":[
+{"q":"Bromine at room temperature is a","o":["reddish-brown liquid","green gas","grey solid","colourless gas"]},
+{"q":"The most reactive halogen is","o":["fluorine","chlorine","bromine","iodine"]},
+{"q":"Cl₂ + 2KBr →","o":["2KCl + Br₂","2KBr + Cl₂","no reaction","KCl + KBr"]},
+{"q":"The bleaching action of chlorine water is due to","o":["hypochlorous acid","hydrochloric acid","chloride ions","hydrogen"]},
+{"q":"Halogens have how many electrons in the outer shell?","o":["7","1","8","5"]}
+]},
+
+{"id":"c22-07","week":3,"title":"Fluorine, Chlorine, Bromine and Iodine: Uses, Effects and Tests","icon":"Target",
+"summary":"The occurrence, uses and health effects of each halogen, and simple laboratory tests.",
+"keyWords":["Fluorine","Chlorine","Bromine","Iodine","Teflon","Iodised salt","Starch test"],
+"sections":[
+{"h":"Fluorine","p":["A pale yellow, poisonous gas with a sharp smell; the most electronegative element. Occurs as fluorspar CaF₂, cryolite Na₃AlF₆ and fluorapatite. It reacts explosively with hydrogen even in the dark. Uses: making fluorocarbons such as Teflon (PTFE) for non-stick pans; making UF₆ for nuclear fuel; fluoride in toothpaste and water to prevent tooth decay. Too much fluoride causes fluorosis (brown teeth and weak bones)."]},
+{"h":"Chlorine","p":["A greenish-yellow gas with a choking smell, denser than air. Occurs mainly as sodium chloride. Uses: killing germs in drinking water and swimming pools; making hydrochloric acid, PVC, pesticides and antiseptics; bleaching cloth and paper; making chloroform and other chlorinated solvents. Chlorine is poisonous and was used as a weapon in the First World War. In water treatment the amount is very small and carefully controlled, so the water is safe to drink while the germs are killed."]},
+{"h":"Bromine","p":["A reddish-brown volatile liquid with suffocating fumes. Occurs in sea water as bromides. Uses: flame retardants, dyes, some medicines, silver bromide in photographic film, and water treatment. Its vapour irritates eyes and skin."]},
+{"h":"Iodine","p":["A grey-black shiny solid that sublimes to a purple vapour. Found in seaweed and iodised salts. The least reactive common halogen. Uses: tincture of iodine as an antiseptic; iodised salt to prevent goitre; making dyes and medicines; the starch test. Iodine is needed to make the thyroid hormone: lack of it causes goitre, and too much causes an overactive thyroid."]},
+{"h":"Laboratory demonstrations","p":["Displacement: chlorine water + potassium iodide solution gives a brown-purple colour of iodine; chlorine water + potassium bromide solution gives red-brown bromine. Starch test: iodine turns starch solution blue-black. Bleaching: damp litmus paper is bleached by chlorine gas."]},
+{"h":"Everyday importance","p":["Medicine (iodine antiseptic, halogenated drugs and anaesthetics); food (iodised salt, fluoride toothpaste); water treatment (chlorine); plastics (PVC and Teflon); photography (silver bromide and silver iodide); dyes and bleaches."]}
+],
+"activity":"State four uses each of chlorine and iodine. Explain why chlorine is used in water treatment even though it is poisonous. Complete a table of the appearance, state, common compounds and uses of the four halogens.",
+"check":[
+{"q":"Iodised salt prevents","o":["goitre","scurvy","anaemia","malaria"]},
+{"q":"Teflon is made using","o":["fluorine","chlorine","bromine","iodine"]},
+{"q":"Iodine turns starch","o":["blue-black","red","green","colourless"]},
+{"q":"Chlorine in drinking water","o":["kills germs","removes salt","softens water","adds iron"]},
+{"q":"Silver bromide is used in","o":["photography","batteries","fertilisers","soaps"]}
+]},
+
+{"id":"c22-08","week":4,"title":"Alkali Metals (Group 1)","icon":"Zap",
+"summary":"Properties, trends, reactions and uses of lithium, sodium, potassium and the other Group 1 metals.",
+"keyWords":["Alkali metals","Group 1","Flame test","Sodium","Potassium","Reactivity"],
+"sections":[
+{"h":"The Group 1 metals","p":["Lithium (Li), sodium (Na), potassium (K), rubidium (Rb), caesium (Cs) and francium (Fr). They are called alkali metals because their hydroxides are strong alkalis. They are soft, silvery metals that react vigorously with water to give an alkaline hydroxide and hydrogen. Sodium and potassium are stored under oil because they react with air and water."]},
+{"h":"General properties","p":["Electronic configuration ns¹: one outer electron, which is easily lost, so they form M⁺ ions. Metallic character and reactivity increase down the group (bigger atoms hold the outer electron less tightly). They are soft (they can be cut with a knife) and get softer down the group. Low melting and boiling points that decrease down the group. Low density: lithium, sodium and potassium float on water. Flame colours: lithium crimson-red, sodium yellow, potassium lilac, rubidium red-violet, caesium blue-violet."]},
+{"h":"Reactions","p":["1. With oxygen: 4Na + O₂ → 2Na₂O (lithium gives the oxide; sodium also gives the peroxide Na₂O₂ in excess air).","2. With water: 2Na + 2H₂O → 2NaOH + H₂. Sodium floats, melts into a ball, fizzes and moves about; potassium burns with a lilac flame. The solution turns red litmus blue.","3. With halogens: 2K + Cl₂ → 2KCl (ionic halides).","4. With acids: very violent (dangerous) reactions that give a salt and hydrogen."]},
+{"h":"Uses","p":["Sodium vapour lamps for street lighting; lithium in rechargeable batteries; potassium compounds in fertilisers and soap making; liquid sodium as a coolant in some nuclear reactors; sodium hydroxide in making soap, paper and detergents; sodium chloride as food and a raw material in industry."]}
+],
+"activity":"List four properties of alkali metals. Write equations for sodium with water and potassium with chlorine. Explain why sodium and potassium are stored under oil. State three uses of sodium.",
+"check":[
+{"q":"Alkali metals have how many electrons in the outer shell?","o":["1","2","7","8"]},
+{"q":"Sodium burns in a flame test with a","o":["yellow colour","lilac colour","red colour","green colour"]},
+{"q":"The reactivity of Group 1 metals","o":["increases down the group","decreases down the group","is the same","is zero"]},
+{"q":"2Na + 2H₂O →","o":["2NaOH + H₂","Na₂O + H₂","2NaH + O₂","NaOH + O₂"]},
+{"q":"Sodium and potassium are stored under","o":["oil","water","acid","air"]}
+]},
+
+{"id":"c22-09","week":4,"title":"Alkaline Earth Metals (Group 2) and Flame Tests","icon":"Layers",
+"summary":"Properties, trends, reactions and uses of magnesium, calcium and the other Group 2 metals, and a comparison with Group 1.",
+"keyWords":["Alkaline earth metals","Group 2","Magnesium","Calcium","Flame colour","Comparison"],
+"sections":[
+{"h":"The Group 2 metals","p":["Beryllium (Be), magnesium (Mg), calcium (Ca), strontium (Sr), barium (Ba) and radium (Ra). Their oxides and hydroxides are alkaline but less soluble than those of Group 1, and the metals are found in the Earth's crust (hence 'alkaline earth'). They are harder and denser than the alkali metals and less reactive."]},
+{"h":"General properties","p":["Electronic configuration ns²: two outer electrons, so they form M²⁺ ions. Metallic character and reactivity increase down the group. Higher melting and boiling points than Group 1. Flame colours: calcium brick-red, strontium crimson, barium apple-green (magnesium gives no coloured flame)."],"img":{"src":"chm2-flame-colours.jpg","alt":"Flame test colours of lithium, sodium, potassium, calcium, strontium and barium","cap":"Flame colours of alkali and alkaline earth metals."}},
+{"h":"Reactions","p":["1. With oxygen: 2Ca + O₂ → 2CaO; magnesium burns with a dazzling white flame, 2Mg + O₂ → 2MgO.","2. With water: reactivity increases down the group. Calcium reacts slowly with cold water: Ca + 2H₂O → Ca(OH)₂ + H₂. Magnesium reacts very slowly with cold water but burns in steam: Mg + H₂O(g) → MgO + H₂.","3. With acids: Mg + 2HCl → MgCl₂ + H₂.","4. With halogens: Sr + Cl₂ → SrCl₂."]},
+{"h":"Uses","p":["Magnesium: light alloys for aircraft, fireworks and flares, and in medicine (antacids, milk of magnesia). Calcium: cement, plaster of Paris, building materials and lime for soil. Strontium: red colour in fireworks. Barium: the 'barium meal' used in X-ray pictures of the gut, paints and ceramics. Radium: once used in luminous paints; now used in cancer treatment."]},
+{"h":"Group 1 and Group 2 compared","p":["Group 1 has ns¹, very high reactivity, soft metals, very low melting points, low ionisation energy and mostly soluble compounds. Group 2 has ns², moderate reactivity, harder metals, higher melting points, higher ionisation energy and less soluble compounds. Sodium and potassium are more reactive than magnesium and calcium because it is easier to lose one electron than two."]}
+],
+"activity":"List four properties of Group 2 metals. Write equations for magnesium with hydrochloric acid and calcium with oxygen. Explain why alkali metals are more reactive than alkaline earth metals. State two biological roles of calcium and magnesium (bones and teeth; chlorophyll and enzymes).",
+"check":[
+{"q":"Calcium burns in a flame test with a","o":["brick-red colour","yellow colour","lilac colour","green colour"]},
+{"q":"Group 2 metals have how many electrons in the outer shell?","o":["2","1","3","7"]},
+{"q":"Which is used in X-ray photographs of the gut?","o":["barium","strontium","calcium","sodium"]},
+{"q":"Group 2 metals compared with Group 1 are","o":["less reactive and harder","more reactive and softer","equally reactive","gases"]},
+{"q":"Ca + 2H₂O →","o":["Ca(OH)₂ + H₂","CaO + H₂","CaH₂ + O₂","Ca(OH)₂ + O₂"]}
+]},
+
+{"id":"c22-10","week":6,"title":"Transition Elements and Complex Compounds","icon":"BarChart2",
+"summary":"What a transition element is, electronic configurations, variable oxidation states, coloured compounds, catalytic action and complex ions.",
+"keyWords":["Transition element","d-block","Variable oxidation state","Complex ion","Ligand","Catalyst"],
+"sections":[
+{"h":"What is a transition element?","p":["Transition elements are the d-block elements, in the middle of the periodic table (Groups 3 to 12): titanium, vanadium, chromium, manganese, iron, cobalt, nickel, copper and others. A transition element is one that forms at least one stable ion with an incomplete d sub-shell. Zinc is not a typical transition element, because Zn²⁺ is [Ar]3d¹⁰ (a full d sub-shell). General configuration: (n−1)d¹⁻¹⁰ ns⁰⁻²."],"img":{"src":"chm2-transition-props.jpg","alt":"A summary of the properties of transition elements: coloured ions, catalytic action, variable oxidation states and complex ions","cap":"Properties of transition elements."}},
+{"h":"Electronic configurations","p":["Iron: [Ar]3d⁶4s². Copper: [Ar]3d¹⁰4s¹. Chromium: [Ar]3d⁵4s¹. (Cr and Cu take an electron from 4s to give a half-full or full 3d sub-shell, which is more stable.) Zinc: [Ar]3d¹⁰4s²."]},
+{"h":"Properties","p":["Physical: high melting and boiling points (except Zn and Hg), hard and dense, good conductors, shiny, and some are magnetic (Fe, Co, Ni are ferromagnetic). Chemical: variable oxidation states, coloured ions and compounds, stable complex ions and catalytic activity."]},
+{"h":"Variable oxidation states","p":["The energy difference between the 3d and 4s electrons is small, so both can be lost. Iron: +2 (FeCl₂, green) and +3 (FeCl₃, yellow-brown). Manganese: +2 (pink), +4 (MnO₂, brown), +6, +7 (KMnO₄, purple). Chromium: +2 (blue), +3 (green), +6 (K₂Cr₂O₇, orange). Copper: +1 (CuCl, white) and +2 (CuSO₄, blue)."]},
+{"h":"Colour","p":["Colours come from d–d electron transitions. In a complex the d orbitals split into two levels. An electron absorbs light of the energy needed to jump between them, and we see the complementary colour. Examples: Fe²⁺(aq) pale green; Fe³⁺(aq) yellow-brown; Cu²⁺(aq) blue; Cr₂O₇²⁻ orange; MnO₄⁻ purple."]},
+{"h":"Catalysts","p":["Fe in the Haber process; V₂O₅ in the Contact process; Ni in the hydrogenation of oils; MnO₂ in 2KClO₃ → 2KCl + 3O₂. They give another path with lower activation energy and can change their oxidation state easily."]},
+{"h":"Complex compounds","p":["A complex ion has a central metal ion surrounded by ligands, joined by coordinate (dative covalent) bonds. A ligand is a molecule or ion with a lone pair (H₂O, NH₃, Cl⁻, CN⁻). The coordination number is the number of coordinate bonds. Examples: [Cu(NH₃)₄]²⁺ deep blue; [Fe(CN)₆]³⁻ yellow; [Ag(NH₃)₂]⁺ colourless (Tollens' reagent). Shapes: octahedral (6 ligands, [Fe(H₂O)₆]²⁺), tetrahedral (4, [CuCl₄]²⁻) and square planar (4, [Ni(CN)₄]²⁻)."]},
+{"h":"Importance","p":["Industry: catalysts, plating with nickel and chromium, pigments and dyes, and stainless steel (iron with chromium and nickel). Biology: haemoglobin (Fe²⁺) carries oxygen; vitamin B12 contains cobalt; cytochromes (Fe, Cu) carry electrons in respiration. Environment: Cr(VI), Cd and Hg are toxic pollutants."]}
+],
+"activity":"Define a transition element and say why zinc is not one. Write the configurations of Fe, Cu and Cr. Name two properties that make transition metals good catalysts. Describe the shapes of octahedral, tetrahedral and square planar complexes.",
+"check":[
+{"q":"Which is NOT a typical transition element?","o":["zinc","iron","copper","nickel"]},
+{"q":"KMnO₄ is","o":["purple","pale green","blue","colourless"]},
+{"q":"The ion Fe³⁺ has oxidation state","o":["+3","+2","+6","+1"]},
+{"q":"A ligand donates","o":["a lone pair of electrons","a proton","a neutron","an alpha particle"]},
+{"q":"The catalyst in the Contact process is","o":["V₂O₅","Fe","Ni","MnO₂"]}
+]}
+]

@@ -1,0 +1,188 @@
+[
+{"id":"e21-22","week":9,"title":"Comprehension: Reading and Note-Taking","icon":"Target","summary":"Why note-taking is an active skill, and three methods: the outline method, the Cornell method, and abbreviations and symbols.",
+"keyWords":["Note-taking","Outline method","Cornell method","Cue column","Abbreviations"]
+,"sections":[
+{"h":"Why take notes?","p":["Note-taking joins passive reading to active understanding. It makes you look for the structure of a text and produce a short personal record for later. It improves understanding and memory."]},
+{"h":"The outline method","p":["A structured, layered format that follows the text's own order (I, A, 1, a). Example from a text on climate change: I. Causes of climate change. A. Greenhouse gas emissions: 1. burning fossil fuels (coal, oil, gas); 2. deforestation. B. Agricultural practices: 1. methane from livestock; 2. nitrogen fertilisers."]},
+{"h":"The Cornell method","p":["Divide the page into three parts: the main notes column on the right (about 70 per cent) for your notes in your own words; the cue column on the left (about 20 per cent), where, afterwards, you write key questions or keywords; and a summary area at the bottom (about 10 per cent), where you write a two- or three-sentence summary of the page. It is excellent for revision because you can cover the notes and answer the cues.","Example. Cue: 'What is nominalisation?' Notes: 'Turning verbs or adjectives into nouns; makes writing more formal; decide to decision.' Summary: 'Nominalisation forms nouns from other word classes and is vital for academic writing.'"]},
+{"h":"Abbreviations and symbols","p":["Develop your own short forms: & or + (and); w/ (with); w/o (without); e.g. (for example); i.e. (that is); an arrow (leads to); ∴ (therefore); govt (government); dept (department); diff (difference); info (information)."]}
+],
+"activity":"Take notes on this passage with the outline method: 'The wide use of smartphones has changed human behaviour. They give unequalled connectivity and let people keep relationships across distance. But constant connection can lead to \"phubbing\", ignoring someone by looking at your phone. This can lower the quality of face-to-face talk. Studies show that too much phone use in company can bring feelings of exclusion and less satisfaction in relationships.'",
+"check":[
+{"q":"Which method has a cue column?","o":["Cornell","Outline","Spider","Letter"]},
+{"q":"'e.g.' means","o":["For example","That is","And","Therefore"]},
+{"q":"The summary in the Cornell method goes","o":["At the bottom","On the left","At the top","On the back"]},
+{"q":"The outline method is","o":["Hierarchical","Random","Circular only","Musical"]},
+{"q":"Note-taking is an active skill because it","o":["Makes you analyse as you read","Lets you sleep","Replaces reading","Needs no thinking"]}]},
+
+{"id":"e21-23","week":9,"title":"Oral English: Emphatic Stress","icon":"Zap","summary":"How stressing a particular word in a sentence changes its meaning, with a worked example and practice.",
+"keyWords":["Emphatic stress","Contrastive stress","Sentence stress","Focus","Meaning"]
+,"sections":[
+{"h":"What is emphatic stress?","p":["Emphatic (contrastive or sentence) stress puts special force on one word in a sentence to show a contrast or correct a misunderstanding. The same sentence can mean different things depending on which word is stressed. It carries nuance and hidden meaning."]},
+{"h":"Neutral and emphatic stress","p":["In a neutral statement the stress usually falls on the last content word (noun, verb, adjective, adverb): 'My brother bought a new CAR.'","Emphatic stress changes the meaning: 'MY brother bought a new car' (mine, not yours). 'My BROTHER bought a new car' (not my sister or father). 'My brother BOUGHT a new car' (he bought it, he did not steal or borrow it). 'My brother bought a NEW car' (new, not second-hand). 'My brother bought a new CAR' (a car, not a motorbike or a van)."]},
+{"h":"A worked example","p":["Implied question: 'Did the tall student answer the easy question?' Reply: 'No, the tall student answered the DIFFICULT question.' The stress on 'difficult' contrasts with the unstated 'easy'."]}
+],
+"activity":"Write 'The young artist painted the old church' four times, with a different word stressed each time, and give the implied question or contrast for each. For 'I don't think he should get the job', which word shows that someone else might think he should? (I.)",
+"check":[
+{"q":"Emphatic stress is used to","o":["Highlight a contrast or correct a misunderstanding","Show spelling","Count syllables","Mark vowels"]},
+{"q":"In a neutral sentence, stress usually falls on the","o":["Last content word","First word","Verb 'to be'","Punctuation"]},
+{"q":"'My BROTHER bought a car' means","o":["Not someone else","Not a car","Not recently","Not bought"]},
+{"q":"'He BOUGHT it' implies he","o":["Did not steal or borrow it","Sold it","Lost it","Made it"]},
+{"q":"Stress on 'DIFFICULT' contrasts with","o":["Easy","Tall","Student","Question"]}]},
+
+{"id":"e21-24","week":9,"title":"Summary Writing: Summarising Arguments","icon":"Target","summary":"How to summarise an argumentative passage: find the contention, the supporting reasons and the rebuttal, then paraphrase in the given limit.",
+"keyWords":["Contention","Supporting reasons","Rebuttal","Signal phrases","Paraphrase"]
+,"sections":[
+{"h":"Summarising persuasion","p":["When you summarise an argumentative passage you do not list facts; you boil down the author's persuasive case. You must find the central claim and the plan of the reasoning."]},
+{"h":"Four steps","p":["1. Find the contention (thesis): the main claim, usually in the introduction and conclusion. Signal phrases: 'I argue that...', 'This essay will show...'.","2. Find the supporting reasons: the main pillars of the argument, usually one per paragraph (two or three). Signals: 'Firstly...', 'Furthermore...', 'Another reason...'.","3. Find the rebuttal: a strong writer states a counter-argument and refutes it. Include this in your summary. Signals: 'Some may argue that...', 'While it is true that...', 'However...'.","4. Combine and paraphrase in a short, connected summary in your own words, within the limit."]},
+{"h":"Practice","p":["'Homework should be abolished in secondary schools. It puts needless pressure on students who already spend six or more hours in class. Furthermore, it worsens social inequality, since students from richer homes have more resources and help. While some say homework reinforces learning, this is mistaken: tired, frustrated work late at night leads to shallow learning and resentment of education.'","Contention: homework should be abolished. Reason: it overloads students (and worsens inequality). Counter-argument and rebuttal: some say it reinforces learning, but tired late-night work produces shallow learning. Summary: 'The author argues that homework should be abolished because it overloads students and widens inequality, and rejects the claim that it aids learning, saying tired work is shallow.'"]}
+],
+"activity":"Find a 300-word editorial. In no more than three sentences, summarise the main contention, the two strongest reasons and (if present) the counter-argument with its rebuttal. Should a summary of an argument include your own opinion? (No.)",
+"check":[
+{"q":"The contention is the","o":["Main claim","Last sentence","Example","Title"]},
+{"q":"A rebuttal is","o":["A reply to a counter-argument","The first reason","A quotation","The conclusion"]},
+{"q":"Your summary should","o":["Leave out your own opinion","Add your opinion","Copy the passage","Add examples"]},
+{"q":"'Some may argue that...' signals a","o":["Counter-argument","Conclusion","Contention","Hook"]},
+{"q":"'Firstly' and 'Furthermore' signal","o":["Supporting reasons","Rebuttal","Conclusion","Question"]}]},
+
+{"id":"e21-25","week":9,"title":"Vocabulary: Words of the Week 9","icon":"BookOpen","summary":"Ten words: pliable, pittance, vapid, sublime, abdicate, accede, abnegation, apathetic, animated and coalesce.",
+"keyWords":["Pliable","Pittance","Abdicate","Apathetic","Coalesce"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Pliable (adj.)","Easily bent; easily influenced","supple, adaptable"],
+["Pittance (n.)","A very small amount of money paid for work","meagre sum"],
+["Vapid (adj.)","Dull, offering nothing stimulating","insipid, flat"],
+["Sublime (adj.)","Of great beauty or grandeur","majestic"],
+["Abdicate (v.)","To give up a throne; to fail in a duty","resign, relinquish"],
+["Accede (v.)","To agree to a demand or request","consent"],
+["Abnegation (n.)","Self-denial; rejecting something","renunciation"],
+["Apathetic (adj.)","Showing no interest","indifferent"],
+["Animated (adj.)","Full of life or excitement","lively"],
+["Coalesce (v.)","To come together as one","merge, unite"]]}}
+],
+"activity":"Write five sentences using: pliable, vapid, accede, apathetic, coalesce. What is a very small amount of money for work called? (A pittance.)",
+"check":[
+{"q":"A 'pittance' is","o":["A tiny amount of money","A large gift","A tax","A bill"]},
+{"q":"To 'abdicate' is to","o":["Give up a throne","Take a throne","Fight","Decorate"]},
+{"q":"'Apathetic' means","o":["Showing no interest","Very eager","Angry","Brave"]},
+{"q":"To 'coalesce' is to","o":["Come together","Fall apart","Run away","Argue"]},
+{"q":"'Vapid' means","o":["Dull","Exciting","Loud","Strong"]}]},
+
+{"id":"e21-26","week":10,"title":"Structure: Adverbs and Adverbial Phrases","icon":"Layers","summary":"What adverbs and adverbial phrases do, the five functions (manner, place, time, frequency and degree), what they can modify and how adverbs are formed.",
+"keyWords":["Adverb","Adverbial phrase","Manner","Frequency","Degree"]
+,"sections":[
+{"h":"What they do","p":["An adverb is usually one word; an adverbial phrase is a group of words doing the same job. They answer: How? When? Where? How often? To what extent?"]},
+{"h":"The five functions","p":["Study the table."],
+"tbl":{"head":["Function","Adverb","Adverbial phrase"],"rows":[
+["Manner (how?)","He ran quickly.","He ran with incredible speed."],
+["Place (where?)","She waited outside.","She waited in the garden."],
+["Time (when?)","The train arrived late.","The train arrived after the scheduled time."],
+["Frequency (how often?)","He often visits.","He visits every single day without fail."],
+["Degree (to what extent?)","The film was very good.","The film was extremely entertaining."]]}},
+{"h":"Key points","p":["Adverbs can modify verbs (she sings beautifully), adjectives (he is remarkably tall) and other adverbs (she sings incredibly beautifully). Many adverbs of manner are formed by adding -ly to an adjective (quick, quickly), but many common ones do not (fast, hard, late, well)."]}
+],
+"activity":"Name the function: 'She will call you tomorrow' (time); 'He completed the task with great skill' (manner); 'They meet once a week' (frequency); 'I am completely exhausted' (degree); 'The cat slept under the bed' (place). Write a sentence with an adverbial phrase of time.",
+"check":[
+{"q":"An adverb can modify","o":["Verbs, adjectives and other adverbs","Only nouns","Only verbs","Only pronouns"]},
+{"q":"'Once a week' shows","o":["Frequency","Place","Manner","Degree"]},
+{"q":"'Fast' as in 'He ran fast' is","o":["An adverb without -ly","A noun","A pronoun","An adjective only"]},
+{"q":"'With great skill' is an adverbial phrase of","o":["Manner","Place","Time","Degree"]},
+{"q":"'Very' in 'very good' shows","o":["Degree","Time","Place","Frequency"]}]},
+
+{"id":"e21-27","week":10,"title":"Vocabulary: Colour, Smell and Taste","icon":"Heart","summary":"Precise words for colour, smell and taste that make descriptive writing vivid.",
+"keyWords":["Hue","Aroma","Stench","Bland","Pungent"]
+,"sections":[
+{"h":"Why sensory words?","p":["Precise words for colour, smell and taste take your reader from a plain description to a vivid picture. They are very useful in descriptive essays, stories and creative writing."]},
+{"h":"Colour","p":["Study the table."],
+"tbl":{"head":["Word","Meaning"],"rows":[
+["Hue","The pure colour itself (red, blue, yellow)"],
+["Tint","A colour mixed with white, lighter (pink is a tint of red)"],
+["Shade","A colour mixed with black, darker (navy blue)"],
+["Vibrant, vivid","Intense and bright"],
+["Gaudy, garish","Too bright, in poor taste"],
+["Subdued, muted","Soft and quiet, not bright"],
+["Drab","Dull and boring, often brown or grey"]]}},
+{"h":"Smell","p":["Aroma: a distinct, usually pleasant smell (fresh coffee). Fragrance, scent: a sweet smell from flowers or perfume. Bouquet: a complex pleasing smell, used for wine. Stench, reek: a strong, very unpleasant smell. Odour: a neutral word, often unpleasant. Pungent: sharp and strong, pleasant or not. Musty: stale and damp, from lack of air."]},
+{"h":"Taste","p":["Sweet (sugar, honey), sour (lemon, vinegar), bitter (bitter leaf, dark chocolate), salty, savoury or umami (a meaty or brothy taste, as in grilled meat, mushrooms), bland (without strong flavour), spicy (hot and piquant) and acrid (sharp, unpleasant, as in burnt things)."]}
+],
+"activity":"Sort into colour (C), smell (S) or taste (T): pungent, vibrant, savoury, musty, gaudy. Give a better word for 'good smell' in 'The soup had a good smell'. Write 60 to 100 words about a busy street food market using at least five of the words. (pungent S or T; vibrant C; savoury T; musty S; gaudy C. Aroma.)",
+"check":[
+{"q":"A colour mixed with white is a","o":["Tint","Shade","Hue only","Stench"]},
+{"q":"A very unpleasant smell is a","o":["Stench","Aroma","Fragrance","Bouquet"]},
+{"q":"The fifth basic taste is","o":["Umami (savoury)","Bland","Sweet","Sour"]},
+{"q":"'Gaudy' describes","o":["Too-bright colours","Soft colours","Dark smells","Salty food"]},
+{"q":"'Musty' describes a","o":["Stale, damp smell","Fresh scent","Bright colour","Sweet taste"]}]},
+
+{"id":"e21-28","week":10,"title":"Listening: Tone, Purpose and Figurative Expressions","icon":"Users","summary":"How to decode a speaker's tone and purpose and recognise idioms, similes, metaphors and hyperbole.",
+"keyWords":["Tone","Purpose","Idiom","Simile","Metaphor"]
+,"sections":[
+{"h":"Beyond the words","p":["Advanced listening means understanding not only what is said but how it is said: the speaker's tone (attitude), purpose (goal) and figurative language."]},
+{"h":"Tone and purpose","p":["Tone is the speaker's feeling towards the subject or audience: sarcastic, angry, joyful, sombre, nostalgic, condescending, urgent, wistful, ironic. Purpose is the main aim: to inform (a news report), to persuade (a political speech), to entertain (a comedian), to warn (a safety announcement) or to instruct (a teacher)."]},
+{"h":"Figurative expressions","p":["An idiom is a phrase whose meaning is not clear from its words ('It's raining cats and dogs' means it is raining heavily). A simile compares using like or as ('as quiet as a mouse'). A metaphor says one thing is another ('The news was a dagger to his heart'). Hyperbole is deliberate exaggeration ('I've told you a million times')."]},
+{"h":"Examples","p":["A firefighter showing schoolchildren how to leave a building: calm, clear tone; purpose to instruct. A film critic calling a film 'a soulless, derivative cash-grab': scornful tone; purpose to criticise. 'The politician's speech was a lot of hot air' is an idiom meaning it was empty talk. 'Her smile was a ray of sunshine' is a metaphor."]}
+],
+"activity":"Listen to two different speakers today (a newsreader, a teacher, an advertisement). For each, write 2 to 3 sentences naming the tone and purpose with one reason.",
+"check":[
+{"q":"The speaker's attitude is the","o":["Tone","Purpose","Plot","Stress"]},
+{"q":"A safety announcement mainly aims to","o":["Warn","Entertain","Sell","Mock"]},
+{"q":"'It's raining cats and dogs' is an","o":["Idiom","Simile","Question","Oxymoron"]},
+{"q":"'Her smile was a ray of sunshine' is a","o":["Metaphor","Simile","Idiom","Hyperbole"]},
+{"q":"A film critic's scornful description shows","o":["A critical tone","A joyful tone","An urgent tone","A wistful tone"]}]},
+
+{"id":"e21-29","week":10,"title":"Writing: the Scientific Report","icon":"Target","summary":"The seven-part structure of a scientific report, its formal passive style and a worked example about light and bean seedlings.",
+"keyWords":["Aim","Apparatus","Method","Results","Discussion"]
+,"sections":[
+{"h":"Purpose and style","p":["A scientific report describes the process and results of an investigation so that others can understand it and repeat it. It is formal and objective, usually in the past tense and passive voice to stress the action rather than the doer ('the beaker was heated', not 'I heated the beaker')."]},
+{"h":"Seven parts","p":["1. Title: clear and specific, such as 'An Experiment to Find the Effect of Light on the Growth of Bean Seedlings'. 2. Aim: one sentence stating what you set out to find ('To find whether bean seedlings grow taller in direct sunlight or in complete darkness'). 3. Apparatus or materials: a list of everything used. 4. Method: a numbered, step-by-step account in the past tense, detailed enough to be repeated. 5. Results: the data without interpretation (tables, graphs, observations). 6. Discussion: the most important part: what the results mean, why they came out so, and any odd results. 7. Conclusion: a short answer to the aim."]},
+{"h":"A worked example","p":["Method: 1. Two bean seedlings were planted in identical pots with the same soil. 2. Plant A was placed on a sunny windowsill. 3. Plant B was put in a dark cupboard. 4. Each plant was given 50 ml of water daily. 5. The height of each plant was measured every 48 hours for two weeks.","Discussion: 'Plant A grew tall and green. Plant B grew tall but was yellow and spindly. This suggests that light is needed for photosynthesis, which produces chlorophyll and supports healthy growth.' Conclusion: 'Bean seedlings will grow in darkness, but need sunlight for healthy growth and chlorophyll.'"]}
+],
+"activity":"Put in order: Discussion, Aim, Title, Method, Conclusion, Results. (Title, Aim, Method, Results, Discussion, Conclusion; apparatus comes before method.) Why is 'I think we should heat the mixture' wrong in a method? (It is an opinion, in the present tense and the first person.) Write a 300 to 400-word report on a simple experiment.",
+"check":[
+{"q":"The method of a report is written in the","o":["Past tense","Future tense","Present tense","Imperative only"]},
+{"q":"Results should contain","o":["Data without interpretation","Opinions","Jokes","Quotations"]},
+{"q":"The discussion","o":["Explains what the results mean","Lists apparatus","Gives the title","Copies the aim"]},
+{"q":"The passive voice is used to","o":["Stress the action","Show feelings","Address the reader","Ask questions"]},
+{"q":"The aim is","o":["A statement of what you set out to find","The result","A list of tools","The last line"]}]},
+
+{"id":"e21-30","week":10,"title":"Vocabulary: Words of the Week 10","icon":"BookOpen","summary":"Ten words: connive, daunting, promulgate, rancour, serene, clandestine, prescient, servile, torpid and trite.",
+"keyWords":["Connive","Daunting","Prescient","Clandestine","Trite"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Connive (v.)","To secretly allow something wrong to happen","collude, conspire"],
+["Daunting (adj.)","Seeming difficult; intimidating","formidable"],
+["Promulgate (v.)","To make widely known; to put a law into effect formally","proclaim"],
+["Rancour (n.)","Long-standing bitterness","animosity, ill will"],
+["Serene (adj.)","Calm and untroubled","tranquil"],
+["Clandestine (adj.)","Secret, especially illicit","covert"],
+["Prescient (adj.)","Knowing events before they happen","far-sighted"],
+["Servile (adj.)","Too eager to serve or please","obsequious"],
+["Torpid (adj.)","Inactive; lethargic","sluggish"],
+["Trite (adj.)","Overused, unoriginal","clichéd, banal"]]}}
+],
+"activity":"Write five sentences using: daunting, rancour, serene, prescient, torpid. What is wrong with a 'trite' idea? (It is overused and not original.)",
+"check":[
+{"q":"A 'clandestine' meeting is","o":["Secret","Public","Loud","Short"]},
+{"q":"'Trite' means","o":["Overused","New","Rude","Funny"]},
+{"q":"To 'promulgate' a law is to","o":["Announce it formally","Break it","Hide it","Forget it"]},
+{"q":"'Prescient' means","o":["Seeing events in advance","Ignorant","Slow","Careless"]},
+{"q":"'Servile' means","o":["Too willing to please","Rude","Proud","Strong"]}]},
+
+{"id":"e21-31","week":11,"title":"Revision","icon":"Target","summary":"A summary of the term's grammar, oral English, writing, comprehension and vocabulary, with revision tasks.",
+"keyWords":["Revision","Grammar","Oral English","Essay","Vocabulary"]
+,"sections":[
+{"h":"Grammar","p":["Nominalisation: verbs and adjectives become nouns by suffix (decide, decision; pure, purity; strong, strength) or conversion (a run). Noun phrases: determiner, pre-modifiers, headword, post-modifiers; functions: subject, object, subject complement, object complement, object of a preposition; a noun clause has its own subject and verb. Pronouns: personal, possessive, demonstrative, interrogative, reflexive, relative, reciprocal and indefinite. Plurals: regular, irregular (men, children, sheep), foreign (cacti, data, crises, criteria) and compound (mothers-in-law). Adverbs and adverbial phrases: manner, place, time, frequency, degree."]},
+{"h":"Oral English","p":["Voiced consonants vibrate the vocal cords (b, d, g, v, z); voiceless do not (p, t, k, f, s). Clusters: initial (street) and final (desks, glimpsed); avoid epenthesis. Transcription uses the IPA. Stress: first syllable for two-syllable nouns and adjectives, second for many verbs; before -tion, -ic, -ity; on -ee and -eer; first element of compound nouns. Emphatic stress changes meaning."]},
+{"h":"Writing","p":["Expository essay: hook, background, thesis; three body paragraphs; conclusion; objective tone. Argumentative essay: contention, two points, counter-argument and rebuttal, conclusion with a clincher. Scientific report: title, aim, apparatus, method (past tense, passive), results, discussion, conclusion."]},
+{"h":"Comprehension and summary","p":["Summary: read the question; read for gist; read again and underline; paraphrase; write and connect within the limit. Main idea and supporting details. Notes: outline and Cornell methods. Listening stages: hearing, attending, understanding, responding, remembering. Tone and purpose; idioms, similes and metaphors."]},
+{"h":"Revision tasks","p":["Nominalise five verbs and five adjectives. Find a complex sentence and list its noun phrases and their functions. Write the plurals of crisis, formula, brother-in-law, goose and radius. Transcribe and stress: development, political, engineer, overcome. Write an outline for an expository and an argumentative essay on a current issue. Summarise an editorial in three sentences. Make flashcards for 20 words of the week."]}
+],
+"activity":"Do revision tasks 1 to 4 above in your notebook, then check each against the units.",
+"check":[
+{"q":"The noun from 'argue' is","o":["Argument","Argued","Arguing","Argumental"]},
+{"q":"The plural of 'crisis' is","o":["Crises","Crisises","Crisis","Crisi"]},
+{"q":"A scientific report's method uses the","o":["Past tense passive","Future tense","Commands only","Questions"]},
+{"q":"Two-syllable nouns usually stress the","o":["First syllable","Second syllable","Both","Neither"]},
+{"q":"The counter-argument belongs in the","o":["Argumentative essay","Scientific report","Recipe","Telephone call"]}]}
+]

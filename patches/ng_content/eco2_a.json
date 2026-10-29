@@ -1,0 +1,201 @@
+[
+{"id":"ec2-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Economics Second Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Nigerian economy","Agriculture","Mining","Money","Table of contents"],
+"sections":[
+{"h":"Welcome to Second Term","p":["In First Term you learned the basic ideas of economics. In Second Term you will apply them to Nigeria. You will study how the Nigerian economy is built, what each part of the country produces, how we farm and mine, how banks and other financial institutions work, what money is and why we use it, how goods travel from the factory to your home, how businesses raise money, and how a country chooses between producing different goods.","The notes are written in simple words with tables and diagrams. Read each unit slowly and try the practice questions at the end. They do not count towards a mark; they help you to check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for Second Term","p":["The units follow the scheme of work. Weeks 5 and 7 are midterm weeks."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","The Nigerian economy and the structure of industry"],
+["3","1","Economic activities of the six geopolitical zones"],
+["4","2","Agriculture: meaning, components and systems"],
+["5","2","Importance and problems of agriculture, and how Nigerian farming has changed"],
+["6","3","Mining: meaning, components, minerals and their uses"],
+["7","3","Effects of mining and how to reduce the bad effects"],
+["8","4","Financial institutions and their types"],
+["9","4","The money market, the capital market and other institutions"],
+["10","6","Money and trade by barter"],
+["11","6","Functions and qualities of money"],
+["12","6","Types of money, money and barter compared, and why people hold money"],
+["13","8","Channels of distribution: the wholesaler and the retailer"],
+["14","8","Government, co-operative societies and distribution"],
+["15","9","Business finance: equity and debt"],
+["16","9","Business finance: hybrid and alternative sources"],
+["17","10","The production possibility curve and opportunity cost"],
+["18","10","Total, average and marginal productivity"]]}},
+{"h":"Good habits for the subject","p":["Collect pictures or news about Nigerian farms, mines, banks and markets. Learn each definition word for word. Draw every table and graph in your notebook. For essay questions, define the term, list the points, explain each point in one or two sentences and give a Nigerian example."]}
+],
+"activity":"Look at the list of units. Choose the one you think you will find hardest and write one thing you will do to prepare for it.",
+"check":[
+{"q":"In which unit do you study the functions of money?","o":["Unit 11","Unit 4","Unit 6","Unit 16"]},
+{"q":"Which unit covers the production possibility curve?","o":["Unit 17","Unit 2","Unit 9","Unit 13"]},
+{"q":"What are the practice questions for?","o":["To check your understanding","To replace the notes","To give a final mark","To skip the unit"]},
+{"q":"In which unit do you study mining?","o":["Unit 6","Unit 3","Unit 12","Unit 15"]}]},
+
+{"id":"ec2-02","week":1,"title":"The Nigerian Economy and the Structure of Industry","icon":"Landmark","summary":"Nigeria's mixed economy, its size and exports, and the three groups of industry: primary, secondary and tertiary.",
+"keyWords":["Mixed economy","Petroleum","Primary industry","Secondary industry","Tertiary industry"],
+"sections":[
+{"h":"General overview","p":["Nigeria has a mixed economy. Private businesses own most of the economic activity, but the government regulates some sectors and controls others (for example, parts of oil and gas, power and railways). Private businesses try to earn profit, so the economy is capitalist at its core.","Nigeria has over 200 million people, which makes it one of the most populous countries in the world and the largest in Africa. A large population gives a large labour force and a large market for goods.","Nigeria depends heavily on exports and imports. Petroleum is the biggest export, and Nigeria is one of the largest oil exporters in Africa. In recent years, about 90 per cent of Nigeria's export earnings have come from petroleum and gas. Most of its crude oil is bought by countries such as India, Spain, the Netherlands and the United States. Relying on one product is risky, because a fall in oil prices reduces the country's income."]},
+{"h":"The three groups of industry","p":["Industries are grouped by what they do with resources."],
+"tbl":{"head":["Industry","What it does","Examples"],"rows":[
+["Primary","Takes (extracts) natural resources from land, water and under the ground. It is called primary because every other industry depends on it.","Farming, fishing, forestry, mining, quarrying, crude oil drilling"],
+["Secondary","Changes the raw materials from primary industry into finished goods (manufacturing and construction).","Cement, steel, cars, textiles, food processing, refining oil"],
+["Tertiary","Provides services. It sells and moves goods and helps people.","Banking, teaching, health care, transport, hairdressing, telecoms services, trading"]]}},
+{"h":"How the three industries work together","p":["Think of a loaf of bread. The farmer (primary) grows wheat. The flour mill and bakery (secondary) turn it into bread. The shop owner and the delivery rider (tertiary) bring the bread to you. If any group stops working, the others suffer.","The secondary sector has great power to change an economy because it adds value to raw materials, gives skilled jobs and creates goods for export. The tertiary sector is now the largest sector of the world economy by value, and in Nigeria it is also the biggest part of the economy."]},
+{"h":"Other exports","p":["Besides oil, Nigeria exports agricultural products such as cocoa, rubber, sesame seeds, cashew nuts and palm products. Palm oil was Nigeria's most important export before oil was found."]}
+],
+"activity":"Pick any product in your home (for example a pair of shoes). Say which part of it came from primary industry, which from secondary industry and which services (tertiary) helped it to reach you.",
+"check":[
+{"q":"Nigeria's economy is best described as a","o":["Mixed economy","Pure socialist economy","Barter economy","Closed economy"]},
+{"q":"Farming and mining belong to","o":["Primary industry","Secondary industry","Tertiary industry","Service industry"]},
+{"q":"A bakery turning flour into bread is","o":["Secondary industry","Primary industry","Tertiary industry","Extraction"]},
+{"q":"Banking, teaching and transport are","o":["Tertiary industries","Primary industries","Secondary industries","Extractive industries"]},
+{"q":"The largest export earner of Nigeria is","o":["Petroleum","Cocoa","Rubber","Groundnut"]}]},
+
+{"id":"ec2-03","week":1,"title":"Economic Activities of the Six Geopolitical Zones","icon":"Layers","summary":"The states in each of Nigeria's six zones and the main things people do and produce there.",
+"keyWords":["Geopolitical zone","North-West","South-South","Crude oil","Farming"],
+"sections":[
+{"h":"Six zones","p":["Nigeria is divided into six geopolitical zones: North-West, North-East, North-Central, South-West, South-East and South-South. The land, climate and resources are different in each zone, so people do different kinds of work. This is an example of geographical specialisation, which you studied in First Term."]},
+{"h":"Summary table","p":["Study the table, then read the notes below it."],
+"tbl":{"head":["Zone","States","Main economic activities"],"rows":[
+["North-West","Sokoto, Zamfara, Kebbi, Katsina, Jigawa, Kano, Kaduna","Farming, fishing, rearing cattle, sheep and goats; limestone in Sokoto; trading and light industry in Kano"],
+["North-East","Yobe, Borno, Bauchi, Gombe, Adamawa, Taraba","Farming, fishing (Lake Chad), livestock; small-scale mining; the zone has the fewest minerals"],
+["North-Central","Benue, Kogi, Nasarawa, Niger, Plateau and the Federal Capital Territory (Abuja)","Farming, fishing, hunting, trading, weaving, dyeing, blacksmithing; tin and columbite (Jos), iron ore and gold; limestone (Benue); hydroelectric power (Kainji)"],
+["South-West","Lagos, Ogun, Oyo, Ondo, Ekiti, Osun","Tree crops (cocoa, rubber, kola, oil palm), poultry, piggery, trade and industry, limestone in Ogun, ports"],
+["South-East","Anambra, Imo, Enugu, Abia, Ebonyi","Farming (oil palm, rubber, kola, yam, cassava, rice), coal, petroleum, limestone; heavy trading and local manufacturing in Abia and Anambra"],
+["South-South","Edo, Delta, Rivers, Bayelsa, Cross River, Akwa Ibom","Crude oil and gas, limestone in Edo, fishing, cocoa, oil palm, rubber, trading, banking and seaports"]]}},
+{"h":"Why zones are different","p":["The north has wide, dry savanna land that suits grains (millet, sorghum, maize), groundnut, cotton and cattle. The middle belt has fertile soil and big rivers, the Niger and the Benue, for farming and fishing. The forest and coastal south has heavy rain, which is good for root crops such as yam and cassava and for tree crops such as cocoa and oil palm. The creeks and the Atlantic coast of the Niger Delta give fishing, and the oil is under the delta."]}
+],
+"activity":"Write down your own state and zone. List three economic activities in your state and say which of the three groups of industry each one belongs to.",
+"check":[
+{"q":"Which zone is the main oil-producing region?","o":["South-South","North-West","North-East","South-West"]},
+{"q":"Tin and columbite are mined at","o":["Jos in Plateau State","Sokoto","Warri","Aba"]},
+{"q":"Kano is in the","o":["North-West","South-East","North-East","South-West"]},
+{"q":"The Federal Capital Territory is in the","o":["North-Central","North-West","South-South","South-East"]},
+{"q":"Cocoa is mostly grown in the","o":["South-West","North-East","North-West","Sahel"]}]},
+
+{"id":"ec2-04","week":2,"title":"Agriculture: Meaning, Components and Systems","icon":"Layers","summary":"What agriculture is, its four parts (crops, livestock, fishing, forestry), food crops and cash crops, and the four farming systems.",
+"keyWords":["Agriculture","Livestock","Forestry","Food crops","Cash crops"],
+"sections":[
+{"h":"Meaning of agriculture","p":["Agriculture is the production of crops, animals, fish and forest resources for food and other uses by people. It is the main job of a very large share of people in West Africa."]},
+{"h":"Components of agriculture","p":["Crop production: growing crops. Food crops are grown mainly to be eaten at home, such as maize, rice, beans, cocoyam, yam, tomatoes, millet. Cash crops are grown mainly to be sold at home or abroad, such as cocoa, oil palm, rubber, palm kernel, cotton and groundnut. A crop can be both: a farmer may eat some of his maize and sell the rest.","Livestock: rearing domestic animals such as cattle, goats, sheep, pigs, horses and donkeys, and also poultry. Most are reared for meat, milk, eggs, hides and work.","Fishing: catching and breeding fish from rivers, lakes, ponds and the sea. It is a main job in riverine and coastal areas.","Forestry: looking after economic trees and taking products from forests such as timber, plywood, poles, paper pulp and boats."]},
+{"h":"Systems of agriculture","p":["Plantation farming: large estates of land permanently planted with one commercial crop, such as rubber, oil palm, sugarcane or cotton. The land may belong to government, private people or companies. It needs a lot of capital and many workers.","Peasant (subsistence) farming: farming on small pieces of land, mostly by family labour, with simple tools such as cutlasses, hoes and axes. Much of the produce is eaten by the family and only the surplus is sold. Land is often owned by the family or community.","Co-operative farming: farmers form a society or union to help one another. Together they obtain loans, buy fertiliser and seeds, hire or buy machines and sell their produce at better prices.","Mechanized farming: using machines such as tractors, ploughs and harvesters instead of human labour. It allows large-scale production, but machines are costly and the system is not yet widespread in West Africa."]},
+{"h":"Comparing the systems","p":["Study this table."],
+"tbl":{"head":["System","Size of farm","Labour and tools","Main aim"],"rows":[
+["Plantation","Very large","Hired workers, some machines","Sell to industries or export"],
+["Peasant","Small","Family labour, cutlass and hoe","Feed the family, sell surplus"],
+["Co-operative","Small farms joined together","Members share costs and equipment","Get credit and better prices"],
+["Mechanized","Large","Tractors and machines","High output with few workers"]]}}
+],
+"activity":"List four food crops and four cash crops grown near your home. Name one crop that is both.",
+"check":[
+{"q":"Crops grown mainly for sale are called","o":["Cash crops","Food crops","Subsistence crops","Forest crops"]},
+{"q":"Subsistence farming is another name for","o":["Peasant farming","Plantation farming","Mechanized farming","Co-operative farming"]},
+{"q":"Which is a component of agriculture?","o":["Fishing","Mining","Teaching","Banking"]},
+{"q":"The system that uses tractors and harvesters is","o":["Mechanized farming","Peasant farming","Fishing","Forestry"]},
+{"q":"Farmers who join together to obtain loans form a","o":["Co-operative","Plantation","Peasant farm","Ranch"]}]},
+
+{"id":"ec2-05","week":2,"title":"Importance and Problems of Agriculture, and How Nigerian Farming Has Changed","icon":"Zap","summary":"Why agriculture matters, the problems farmers face and their solutions, and the story of Nigerian agriculture since oil was found.",
+"keyWords":["Importance of agriculture","Problems","Solutions","Food shortage","Operation Feed the Nation"],
+"sections":[
+{"h":"Importance of agriculture","p":["It gives raw materials to industries (cotton for textiles, cocoa for chocolate, rubber for tyres). It gives food. It gives jobs to many people. It creates a market for industrial products such as tools, fertiliser and clothes. It is a source of income for farmers and of foreign exchange for the country. It supplies labour to industries when people move from farms to towns."]},
+{"h":"Problems of agriculture","p":["Illiteracy and ignorance of modern methods. Lack of medical facilities in rural areas. Use of crude tools such as hoes and cutlasses. Poverty of farmers. Lack of credit (loans). Poor storage, so food rots. Poor roads and transport. Problems of the land tenure system (land is divided among families or owned by a few, so farms are small). Pests and diseases. Natural disasters such as flood and drought."]},
+{"h":"Solutions to the problems","p":["Give farmers cheap loans. Build better roads and storage. Discourage the movement of young people from rural areas to towns (by providing amenities there). Encourage the use of machines. Control pests and diseases. Provide medical facilities. Educate farmers. Use research to produce improved seeds and animals. Use irrigation so that farming does not depend only on rain."]},
+{"h":"The story of Nigerian agriculture","p":["Before the 1970s, Nigeria exported cocoa, palm oil, groundnut and cotton. When oil prices rose sharply in the 1970s, money from petroleum became the main source of income. Many young people left the villages for the towns, and farm production fell. By the mid-1970s Nigeria had to import food such as rice. Population also grew fast, so the food shortage became worse.","Many farmers are small-scale, using hoes and cutlasses on small plots. Poor storage, poor transport, lack of money and the shortage of land hold farm output down. Yam and cassava are the main food crops in the south. Sorghum, millet, cowpea (beans) and maize are the main food crops in the north. Rice is grown in many areas. Oil palm, cocoa and rubber are the main industrial crops of the south, and groundnut and cotton of the north. Cocoa is still the biggest agricultural export.","Governments have tried to help. The Operation Feed the Nation programme (1976 to 1980) encouraged people to farm any empty plot of land. In the 1980s the government closed the produce marketing boards, which had paid farmers prices fixed by government, so that farmers could be paid better prices and plant more tree crops. Governments also set up plantations of oil palm, rubber and cocoa. Fulani herders are still the main source of beef, and fishing supplies more than half of the fish eaten in the country. Lake Chad, the coastal waters and the rivers are the main sources of fish."]}
+],
+"activity":"Imagine you are a farmer near your town. Write down three problems you meet and one way the government or you can solve each of them.",
+"check":[
+{"q":"Poor storage facilities cause farmers to","o":["Lose produce through spoilage","Earn more money","Use more machines","Plant less cash crops only"]},
+{"q":"Which is a solution to the problems of agriculture?","o":["Giving credit to farmers","Using only the hoe","Closing roads","Stopping education"]},
+{"q":"Agriculture provides raw materials for","o":["Industries","Banks only","Schools only","Ports only"]},
+{"q":"Nigeria began importing basic foods like rice mainly because","o":["Farm output fell while oil money grew and population rose","Farmers had too many machines","Nobody liked rice","Oil was banned"]},
+{"q":"Cotton and groundnut are the main industrial crops of the","o":["North","South-South coast","Atlantic Ocean","Niger Delta"]}]},
+
+{"id":"ec2-06","week":3,"title":"Mining: Meaning, Components, Minerals and Their Uses","icon":"Layers","summary":"What mining is, the three parts of the mining sector, Nigerian minerals and where they are found, and what they are used for.",
+"keyWords":["Mining","Upstream","Midstream","Minerals","Limestone"],
+"sections":[
+{"h":"Meaning of mining","p":["Mining is taking useful minerals and metals out of the earth, including from under the sea. Examples are crude oil, gold, iron ore, diamond, coal, limestone, copper and gravel. Crude oil was first found in commercial quantity at Oloibiri (now in Bayelsa State) in 1956 and became the most important source of government money and foreign exchange. Coal mining began near Enugu in 1915."]},
+{"h":"The mining sector","p":["The mining sector is all the businesses that look for mineral deposits and take valuable minerals from the earth to sell. It has three components.","1. Exploration and mining (upstream): finding mineral deposits in amounts large enough to be worth mining, and then digging them out.","2. Processing and beneficiation (midstream): changing minerals from their natural form into finished or semi-finished goods. For example, cement companies turn limestone into cement, and a jeweller turns raw gold into rings and watches.","3. Marketing and transportation: wholesalers, retailers, agents and drivers who move the products to the final users."]},
+{"h":"Minerals in Nigeria and where they are found","p":["Nigeria has many minerals, which can be grouped as follows. (The states listed are the main areas.)"],
+"tbl":{"head":["Group","Mineral","Where found"],"rows":[
+["Industrial","Barite","Benue, Plateau, Cross River"],
+["Industrial","Kaolin (kaolinite)","Imo, Enugu, Ondo, Edo"],
+["Industrial","Limestone","Sokoto, Bauchi, Gombe, Benue, Ogun, Edo"],
+["Industrial","Gypsum","Imo, Kogi, Adamawa, Bayelsa"],
+["Energy","Coal","Enugu, Anambra, Benue, Delta"],
+["Energy","Lignite","Enugu, Delta"],
+["Energy","Uranium","Cross River, Akwa Ibom, Bayelsa (reported)"],
+["Metallic ores","Gold","Osun, Niger, Kebbi, Zamfara, Katsina"],
+["Metallic ores","Tin and columbite","Plateau (Jos), Bauchi"],
+["Metallic ores","Iron ore","Kogi (Itakpe), Ebonyi"],
+["Metallic ores","Copper and silver","Kogi, Abia, Plateau, Kwara"],
+["Metallic ores","Lead and zinc","Ebonyi, Akwa Ibom"],
+["Gemstones","Sapphire","Yobe, Plateau, Taraba, Bauchi, Kaduna"],
+["Gemstones","Emerald","Kogi, Taraba, Bauchi, Osun"],
+["Gemstones","Tourmaline","Plateau (Jos), Oyo"],
+["Gemstones","Garnet","Oyo, Osun, Bauchi"],
+["Energy","Crude oil and gas","Niger Delta and offshore"]]}},
+{"h":"Uses of mining products","p":["Gold: jewellery, medals, statues, trophies, watches, and as a store of value. Diamond: jewellery, cutting and drilling. Silver: jewellery, silverware and coins. Coal: cooking, making electricity and in metal industries. Gypsum: wallboard, cement and plaster (POP). Granite: building roads, bridges and tiles. Kaolin: paper, cement, rubber and ceramics (pottery). Limestone: cement. Emerald and sapphire: gemstones for jewellery. (The notes also claim that gemstones relieve stress and improve vision. There is no scientific proof of such health benefits, so do not write that in an exam.)"]}
+],
+"activity":"Find out which minerals are mined in your state or a neighbouring state and what they are used for.",
+"check":[
+{"q":"Changing limestone into cement belongs to the","o":["Midstream (processing)","Upstream (exploration)","Marketing component","Forestry"]},
+{"q":"Finding mineral deposits is the","o":["Upstream (exploration) stage","Midstream stage","Retail stage","Advertising stage"]},
+{"q":"Which mineral is used to make cement?","o":["Limestone","Gold","Diamond","Silver"]},
+{"q":"Coal in Nigeria is found mainly around","o":["Enugu","Kano","Lagos","Sokoto"]},
+{"q":"Gold is used for","o":["Jewellery and trophies","Making cement","Cooking","Making paper"]}]},
+
+{"id":"ec2-07","week":3,"title":"Effects of Mining and How to Reduce the Bad Effects","icon":"Shield","summary":"The good and bad effects of mining on a country and its people, and the steps that can reduce harm.",
+"keyWords":["Revenue","Foreign exchange","Deforestation","Pollution","Regulation"],
+"sections":[
+{"h":"Positive effects of mining","p":["Revenue: taxes, royalties and licence fees from mining companies give money to government. Raw materials: limestone for cement, granite and gravel for building. Better living standards: money from minerals can pay for roads, schools, hospitals and power. Foreign exchange: exports of oil, coal and tin earn dollars and other foreign money and can improve the balance of payments (the record of a country's payments to other countries and receipts from them in a year). Employment: mining gives jobs in digging, processing, transport and sales."]},
+{"h":"Negative effects of mining","p":["Deforestation: large areas of forest are cleared for mines. Food chain damage: mining chemicals and heavy metals enter water and soil, poison plants and fish and finally harm people who eat them. Air pollution: heavy machines and burning gas release harmful gases and dust. Erosion: digging deep pits makes land unfit for farming and houses. Noise: loud machines can damage the hearing of workers who have no ear protection. In oil areas such as the Niger Delta, oil spills also destroy farms and fishing waters."]},
+{"h":"Ways to reduce the bad effects","p":["Government rules: laws that make companies mine responsibly, protect workers and clean up after mining. Reduce consumption: when we buy the newest phone or clothes we do not need, factories use more minerals. Using things longer reduces demand. Education: teach children and the public about the harm mining can do. Proper waste disposal: companies should treat and recycle waste. Better efficiency: watching the supply chain closely helps to find where waste can be cut, so mining harms the environment less. Replanting trees and restoring mined land also helps."]}
+],
+"activity":"Make a two-column table of three good and three bad effects of mining. Then write one rule you would make if you were the Minister of Mines.",
+"check":[
+{"q":"Which is a positive effect of mining?","o":["Foreign exchange earnings","Deforestation","Soil erosion","Noise damage"]},
+{"q":"Mining chemicals entering rivers harms people through the","o":["Food chain","Taxes","Banks","Roads"]},
+{"q":"A way to reduce the harm of mining is","o":["Government regulation","Removing all rules","Cutting more forest","Dumping waste anywhere"]},
+{"q":"Royalties paid by mining companies are a source of","o":["Government revenue","Pollution","Unemployment","Erosion"]},
+{"q":"Loud mining machines can damage","o":["Workers' hearing","Taxes","Exports","Cement"]}]},
+
+{"id":"ec2-08","week":4,"title":"Financial Institutions and Their Types","icon":"Landmark","summary":"What a financial institution is, and the traditional institutions, insurance companies, the central bank, commercial banks, development banks and the stock exchange.",
+"keyWords":["Financial institution","Esusu","Central Bank","Commercial bank","Development bank"],
+"sections":[
+{"h":"Meaning","p":["Financial institutions are organisations that deal mainly in money. They collect savings and spare money from individuals and firms and lend it to those who need it for spending or investment. They link savers with borrowers."]},
+{"h":"Traditional institutions: the esusu","p":["The esusu (also called ajo or adashi in different areas) is a traditional savings club. Members agree to pay a fixed sum at regular times, and each time one member collects the whole amount, until everyone has received a turn. It is a way of saving and borrowing without a bank."]},
+{"h":"Insurance companies","p":["An insurance company protects a person or business against loss. The customer pays a small amount, called a premium, and the company pays when the loss it has agreed to cover (fire, theft, accident, death) happens. Insurance companies also invest the premiums they collect."]},
+{"h":"The Central Bank of Nigeria (CBN)","p":["The central bank manages the country's money and banking system. Its functions are to issue notes and coins; to act as the bankers' bank (commercial banks keep accounts with it); to act as banker and adviser to the government; to act as lender of last resort (commercial banks borrow from it when no one else will lend); to control the supply of money and credit; and to look after the foreign reserves."]},
+{"h":"Commercial banks","p":["Commercial banks accept deposits from customers and pay them back on demand. Their functions are to accept deposits (current, savings and fixed deposit accounts); to lend money to individuals, businesses and government; to keep valuables safely; to make payments and transfers for customers (cheques, transfers, cards); and to help government to circulate new money and withdraw old money. Examples: Access Bank, GTBank, Zenith Bank, First Bank, UBA."]},
+{"h":"Development banks","p":["Development banks are set up by government to give long-term loans at low interest to special sectors such as agriculture, industry and housing that ordinary banks may not want to lend to. Examples in Nigeria are the Bank of Industry (BOI), the Bank of Agriculture (BOA) and the Federal Mortgage Bank. (Older notes mention NIDB, NBCI and NACB. These were merged into newer banks such as the Bank of Industry.)"]},
+{"h":"The stock exchange","p":["The stock exchange is a market that brings together people who want to sell shares and stocks and people who want to buy them. In Nigeria it is now called the Nigerian Exchange (NGX) in Lagos."]}
+],
+"activity":"Ask an adult whether they belong to an esusu or ajo. Find out how it works and write the steps.",
+"check":[
+{"q":"The 'bankers' bank' is the","o":["Central Bank","Commercial bank","Development bank","Stock exchange"]},
+{"q":"A premium is paid to","o":["An insurance company","A school","A farmer","The stock exchange"]},
+{"q":"The esusu is a","o":["Traditional savings club","Commercial bank","Stock market","Development bank"]},
+{"q":"Which institution gives long-term loans to special sectors like agriculture?","o":["Development bank","Esusu","Bureau de change","Insurance"]},
+{"q":"The lender of last resort is the","o":["Central Bank","Esusu","Stock exchange","Insurance company"]}]},
+
+{"id":"ec2-09","week":4,"title":"The Money Market, the Capital Market and Other Institutions","icon":"BarChart2","summary":"Short-term and long-term markets for money, primary and secondary markets, and special terms such as bureau de change, debenture and market capitalisation.",
+"keyWords":["Money market","Capital market","Primary market","Secondary market","Debenture"],
+"sections":[
+{"h":"The money market","p":["The money market is where short-term funds (usually one year or less) are lent and borrowed. It helps those with too little money (the deficit sector) to borrow from those with extra money (the surplus sector). The institutions in it are commercial banks, merchant banks, the Central Bank, discount houses and hire purchase companies. Its benefits: the public can invest money for a short time and earn interest, and firms and governments can borrow quickly for short-term projects."]},
+{"h":"The capital market","p":["The capital market is the market for long-term funds (more than one year) used for investment. The Nigerian Exchange is its centre. The capital market has two divisions. The primary market sells new securities (new shares and debentures) for the first time. Ways of offering include offer for subscription (inviting the public to buy), rights issue and debentures. The secondary market is the stock exchange, where securities that were already issued are bought and sold between investors. Institutions that work in this market include insurance companies, issuing houses, development banks, investment banks, mortgage banks and the stock exchange."],
+"tbl":{"head":["","Money market","Capital market"],"rows":[
+["Type of funds","Short-term (up to one year)","Long-term (over one year)"],
+["Main use","Working capital, short loans","Buying assets, expansion, big projects"],
+["Instruments","Treasury bills, bank loans, commercial paper","Shares, bonds, debentures"],
+["Main institutions","Banks, discount houses","Stock exchange, issuing houses"]]}},
+{"h":"Other terms","p":["Bureau de change: a licensed business that buys and sells foreign money (for example dollars and pounds). They were authorised in 1989 to make foreign exchange easier to get for small users.","Discount house: a special non-bank institution that collects money from the surplus sector and channels it to the deficit sector. It acts between the CBN, banks and other institutions.","Distressed banks: banks with problems such as shortage of cash, poor earnings and loans that are not repaid.","New issues: shares or other securities offered to the public for the first time in the primary market.","Rights issue: new shares offered first to the company's existing shareholders in proportion to the shares they hold, usually at a price below the market price.","Debenture: a loan to a company that earns fixed interest.","Preference share: a share whose holders are paid their fixed dividend before ordinary shareholders.","Market capitalisation: the market value of all a company's shares. It equals the price of one share multiplied by the number of shares. Example: 1 million shares at N50 each gives N50 million."]}
+],
+"activity":"A company has 2,000,000 shares and each share costs N30. Work out its market capitalisation. (Answer: N60,000,000.)",
+"check":[
+{"q":"The market for short-term funds is the","o":["Money market","Capital market","Stock exchange only","Barter market"]},
+{"q":"New shares sold for the first time are sold in the","o":["Primary market","Secondary market","Money market","Retail market"]},
+{"q":"A bureau de change deals in","o":["Foreign currency","Cement","Insurance","Cocoa"]},
+{"q":"Market capitalisation equals","o":["Share price × number of shares","Profit × tax","Shares ÷ price","Dividends + interest"]},
+{"q":"A debenture earns","o":["Fixed interest","No return","A variable dividend only","Rent"]}]}
+]

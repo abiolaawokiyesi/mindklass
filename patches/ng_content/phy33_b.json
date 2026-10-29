@@ -1,0 +1,198 @@
+[
+{"id":"p31-11","week":3,"title":"Uses of Machines and Their Role in Nigeria's Economy","icon":"Landmark",
+"summary":"How machines are used in agriculture, construction, transport and the home, and how they help productivity and development in Nigeria.",
+"keyWords":["Mechanisation","Productivity","Agriculture","Construction","Transport","Domestic machines"],
+"sections":[
+{"h":"Practical work with simple machines","p":["A metre rule pivoted on a fulcrum, with the effort and load at different places, shows the three classes of lever. Pulley systems made from string and wheels can be used to lift weights and study MA and VR. An inclined plane can be used to compare the effort needed to lift a load along a slope with lifting it straight up."]},
+{"h":"Machines in different fields","p":["Agriculture: ploughs, harvesters, tractors and hoes. Mechanisation reduces the time and labour needed and raises farm output.","Construction: cranes (pulleys and levers), bulldozers and forklifts move heavy materials with less human effort.","Transportation: bicycles, cars and aeroplanes combine levers, wheels and axles. They improve mobility and the speed of travel.","Domestic use: scissors, knives, blenders and sewing machines make everyday tasks more efficient."]},
+{"h":"Machines and the economy of Nigeria","p":["1. Higher productivity: fewer workers produce more. 2. Time saving: tilling a farm that took days by hand can take hours with a tractor. 3. Less fatigue: hard and repetitive work becomes easier. 4. Industrial growth: factories mass-produce goods. 5. Jobs: machines reduce some manual work but create jobs in manufacturing, repair, maintenance and design. 6. National income: efficient industries increase exports and GDP.","Limits in Nigeria: unreliable electricity, poor roads and other infrastructure, too few technically trained people and the high cost of equipment."]}
+],
+"activity":"How do machines contribute to the development of the Nigerian economy? Discuss four ways in which machines are used in transportation and their importance.",
+"check":[
+{"q":"A crane is a compound machine made of","o":["a pulley and a lever","a wedge only","two screws","a ramp only"]},
+{"q":"Mechanisation of farming","o":["raises output and reduces time and labour","reduces output","needs no skill","makes soil poorer"]},
+{"q":"Which is a limit to machine use in Nigeria?","o":["inadequate power supply","too much rain","too many experts","low cost of equipment"]},
+{"q":"Machines create jobs in","o":["repair, maintenance and manufacturing","no sector","only farming","only teaching"]},
+{"q":"A blender is a","o":["domestic machine","pulley","wedge","lever only"]}
+]},
+
+{"id":"p31-12","week":4,"title":"Maintenance of Machines: Importance and Types","icon":"Shield",
+"summary":"Why machines need regular maintenance, and the three types: preventive, predictive and corrective.",
+"keyWords":["Maintenance","Preventive","Predictive","Corrective","Downtime"],
+"sections":[
+{"h":"Why maintain machines?","p":["Machines are used in homes, factories and transport. Because of continuous use they wear out. Without care their efficiency falls and they may break down or cause accidents. Learning how to maintain and repair machines is an important skill for work in technology and industry.","Benefits of regular maintenance: better performance (less wasted energy), longer life, prevention of big failures by finding small faults early, safety, less downtime (time when the machine is not working) and lower cost, because preventing a fault is cheaper than repairing it or buying a new machine."]},
+{"h":"Types of maintenance","p":["Preventive maintenance is done regularly whether or not the machine has a fault: cleaning, lubrication, inspection and tightening of bolts. Its aim is to prevent failures. Example: changing the engine oil every 5 000 km.","Predictive maintenance is based on data, sensors or trends: vibration analysis or thermal imaging can predict a failure before it happens. It is cost-effective because servicing is done only when needed. Example: a thermal camera shows a hot bearing in a factory motor.","Corrective (reactive) maintenance is done after a fault has occurred: replacing parts, major repairs or an overhaul to restore function. Example: replacing a burnt-out motor."]},
+{"h":"Preventive and corrective compared","p":["Preventive maintenance is planned and prevents breakdowns; it is cheaper over time. Corrective maintenance is a reaction to a breakdown; it is often more expensive and causes downtime."]}
+],
+"activity":"State three types of machine maintenance and give an example of each. Differentiate between preventive and corrective maintenance.",
+"check":[
+{"q":"Maintenance done regularly whether or not a fault exists is","o":["preventive","corrective","predictive only","emergency"]},
+{"q":"Maintenance done after a fault has occurred is","o":["corrective","preventive","predictive","none of these"]},
+{"q":"Using vibration analysis to predict failure is","o":["predictive maintenance","corrective maintenance","preventive cleaning","a fault"]},
+{"q":"Regular maintenance","o":["reduces downtime and cost","increases breakdowns","makes machines unsafe","wastes energy"]},
+{"q":"Time when a machine is not working is","o":["downtime","uptime","efficiency","load"]}
+]},
+
+{"id":"p31-13","week":4,"title":"Faults, Servicing, Safety and Tools","icon":"Shield",
+"summary":"Common faults of machines and their remedies, basic maintenance practices, routine servicing and safety rules and tools for repair.",
+"keyWords":["Lubrication","Faults","Servicing","Safety","Spanner","Multimeter","Torque wrench"],
+"sections":[
+{"h":"Common faults and corrective measures","p":["Study the table."],"tbl":{"head":["Machine","Common faults","Corrective measures"],"rows":[["Bicycle","Chain slips, brake failure, flat tyre","Tighten the chain, adjust brake pads, patch the tube"],["Internal combustion engine","Oil leakage, overheating, ignition failure","Replace the gasket, check the coolant, replace the spark plug"],["Pump","Seal leakage, poor suction","Replace seals, clean or replace filters"],["Electric generator","Low output, noise, excessive vibration","Tighten bolts, clean connections, align rotors"],["Fan or pulley system","Belt slip, excessive noise","Adjust the tension, lubricate the bearings"]]}},
+{"h":"Basic practices","p":["Lubrication reduces friction between moving parts and prevents wear and overheating (grease and oil). Cleaning removes dirt that can cause blockage, corrosion and contamination. Part replacement: replace worn belts, filters and spark plugs promptly. Alignment and tensioning keep belts, chains and gears from slipping. Inspection: regular checks for strange sounds, vibration and wear give early warning."]},
+{"h":"Routine servicing","p":["Engines: oil change, filter replacement (oil, air, fuel), spark plug inspection, battery check, radiator flushing. Pumps: impeller inspection, seal replacement, pipe checks, cleaning filters and valves. Bicycles: chain lubrication and tension, brake alignment, tyre inflation and patching, gear adjustment. Farm machines: hydraulic fluid check, tyre pressure and tread, blade sharpening, greasing joints."]},
+{"h":"Safety rules","p":["Switch off and unplug the machine before repair. Wear gloves, goggles and boots. Work in a dry, well-ventilated place. Use the right tool for each job. Follow the maker's manual."]},
+{"h":"Basic tools","p":["Screwdriver (tightening and loosening screws), spanner or wrench (nuts and bolts), pliers (holding or cutting wire), multimeter (measuring voltage, current and resistance), grease gun (applying grease), torque wrench (tightening bolts to the correct tightness)."]},
+{"h":"Effects on industry","p":["Maintenance raises productivity, makes the workplace safer, saves money, helps to meet legal safety standards and protects the environment because well-kept machines are more efficient and pollute less."]}
+],
+"activity":"List three common faults in a bicycle and give a corrective measure for each. State two safety precautions during machine maintenance. Draw a toolbox and list five tools with their uses.",
+"check":[
+{"q":"A multimeter is used to","o":["measure electrical values","tighten nuts","apply grease","cut wire"]},
+{"q":"Before repairing an electric machine you should","o":["switch off and unplug it","leave it running","use wet hands","remove the guards only"]},
+{"q":"A chain that slips on a bicycle is corrected by","o":["tightening the chain","adding air to the brakes","replacing the pedals","painting the frame"]},
+{"q":"Lubrication","o":["reduces friction and wear","increases friction","wastes oil only","stops electricity"]},
+{"q":"A torque wrench is used to","o":["tighten bolts to the correct tightness","cut wire","measure speed","pump air"]}
+]},
+
+{"id":"p31-14","week":6,"title":"Dams: Structure and Functions","icon":"Landmark",
+"summary":"What a dam is, its main parts (reservoir, spillway, penstock, turbine, generator, powerhouse) and its many functions.",
+"keyWords":["Dam","Reservoir","Spillway","Penstock","Turbine","Generator","Powerhouse"],
+"sections":[
+{"h":"What is a dam?","p":["A dam is a large structure built across a river or stream to hold back water and form a reservoir or lake. It is a strong barrier, usually of concrete, earth or stone, made to control the natural flow of water."]},
+{"h":"The parts of a dam","p":["Reservoir: the man-made lake behind the dam that stores water. Intake: the opening that lets water into the penstock. Spillway: a channel that safely releases extra water downstream to prevent overflow. Penstock: a large pipe that carries water from the reservoir to the turbine. Turbine: a wheel that is turned by the flowing water. Generator: changes the mechanical energy of the turbine into electrical energy. Powerhouse: the building that houses the turbines and generators."],"img":{"src":"phy3-dam.jpg","alt":"A cross-section of a hydroelectric dam showing the reservoir, intake, penstock, turbine, generator, powerhouse, transformer and river","cap":"A hydroelectric dam in cross-section."}},
+{"h":"Functions of a dam","p":["1. Water storage: provides water through the year, especially in the dry season. 2. Irrigation: water for farmland. 3. Hydroelectric power generation. 4. Flood control: regulates the flow of the river. 5. Domestic and industrial water supply. 6. Recreation: fishing, boating and tourism."]}
+],
+"activity":"Draw and label the basic parts of a hydroelectric power plant. Write short notes on the penstock, the turbine and the generator.",
+"check":[
+{"q":"The pipe that carries water from the reservoir to the turbine is the","o":["penstock","spillway","generator","powerhouse"]},
+{"q":"The channel that releases excess water safely is the","o":["spillway","penstock","turbine","intake"]},
+{"q":"A generator changes","o":["mechanical energy to electrical energy","electrical energy to mechanical","light to heat","heat to sound"]},
+{"q":"A dam can be used for all of these EXCEPT","o":["making iron","irrigation","flood control","electricity"]},
+{"q":"The man-made lake behind a dam is the","o":["reservoir","spillway","powerhouse","transformer"]}
+]},
+
+{"id":"p31-15","week":6,"title":"Hydroelectric Power Generation and Its Efficiency","icon":"Zap",
+"summary":"How the energy of water becomes electricity, a power calculation, and the advantages of hydroelectric power over fossil fuels and other renewables.",
+"keyWords":["Hydroelectric power","Potential energy","Efficiency","Renewable","Power calculation"],
+"sections":[
+{"h":"Steps in generating electricity","p":["1. Water stored at height in the reservoir has gravitational potential energy. 2. When released, it flows down the penstock and gains kinetic energy. 3. The fast water strikes the turbine blades and makes the turbine spin (mechanical energy). 4. The turbine turns a generator, which changes the mechanical energy into electrical energy by electromagnetic induction. 5. Transformers step up the voltage for transmission.","The process is clean and renewable: it does not burn fossil fuels or release greenhouse gases."]},
+{"h":"A power calculation","p":["Water of mass m falling through a height h loses potential energy mgh. If a mass of 1 000 kg of water falls through 100 m every second, and g = 10 m/s², the power of the falling water is mgh ÷ t = 1 000 × 10 × 100 ÷ 1 = 1 000 000 W = 1 MW. If the power station is 90% efficient, the electrical output is 0.9 MW = 900 kW."]},
+{"h":"Efficiency and reliability","p":["Hydroelectric stations are 85% to 95% efficient, much higher than fossil fuel plants. They are reliable as long as there is enough water, renewable (the water cycle refills the reservoir), have low running costs once built, and give no air pollution."]},
+{"h":"Comparison with other sources","p":["Hydroelectric power is more steady than solar or wind power, which depend on the weather."],"tbl":{"head":["Source","Advantages","Limitations"],"rows":[["Hydroelectric","High efficiency, reliable, clean","Environmental impact, displaces people, needs a suitable river"],["Solar","No emissions, abundant sunshine","Works only in daytime, storage is costly"],["Wind","Clean and can be scaled up","Unpredictable and noisy"],["Biomass","Uses waste and is renewable","May cause pollution and use much land"]]}}
+],
+"activity":"Explain how a hydroelectric power station converts the energy of water into electricity. State three advantages and two disadvantages of hydroelectric power. 2 000 kg of water falls through 50 m each second (g = 10 m/s²). Find the power of the water (1 000 000 W) and the output at 90% efficiency (900 000 W).",
+"check":[
+{"q":"The energy chain of a hydroelectric station is","o":["potential → kinetic → mechanical → electrical","electrical → mechanical → kinetic","chemical → thermal → electrical","light → chemical → electrical"]},
+{"q":"The efficiency of hydroelectric stations is about","o":["85% to 95%","10% to 20%","30%","100%"]},
+{"q":"1 000 kg of water falling 100 m each second (g = 10) gives a power of","o":["1 MW","100 kW","10 kW","10 MW"]},
+{"q":"A disadvantage of hydroelectric power is","o":["displacement of people","greenhouse gas emissions","fuel cost","noise from chimneys"]},
+{"q":"Hydroelectric power is more consistent than solar because","o":["it does not depend directly on daily weather","the sun never shines","it uses coal","it needs no water"]}
+]},
+
+{"id":"p31-16","week":6,"title":"Major Dams in Nigeria and Environmental Issues","icon":"Landmark",
+"summary":"Kainji, Jebba, Shiroro and Zungeru dams, and the environmental and social problems that dams cause.",
+"keyWords":["Kainji","Jebba","Shiroro","Zungeru","Displacement","Siltation"],
+"sections":[
+{"h":"Major dams","p":["Kainji Dam: on the River Niger, Nigeria's first big hydroelectric dam, with a capacity of about 760 MW. It supplies the national grid and supports agriculture and fishing.","Jebba Dam: downstream of Kainji on the River Niger, about 578 MW. It supplements Kainji and supports irrigation.","Shiroro Dam: on the River Kaduna in Niger State, about 600 MW. It is a major source of power for the north.","Zungeru Dam: on the River Kaduna, about 700 MW. (Older notes call it under development. It has since been completed and brought into service in stages.)"]},
+{"h":"Environmental and social problems","p":["1. Displacement of people: large areas are flooded and whole communities have to move. Resettlement during the Kainji project is an example.","2. Ecological change: river life is disturbed, and water quality and the flow of silt downstream change.","3. High cost: very large capital and many years to build.","4. Risk of failure: a broken dam can cause catastrophic flooding and loss of life.","5. Siltation: mud and sand collect in the reservoir and reduce its storage over time."]},
+{"h":"Reducing the harm","p":["Plan and pay for fair resettlement of affected communities; carry out environmental impact assessments before building; manage the catchment area by planting trees to reduce siltation; regularly inspect and maintain the dam; and release enough water downstream to protect aquatic life and farmers."]}
+],
+"activity":"Identify two major dams in Nigeria and state one contribution of each to the national grid. Describe three environmental problems caused by dam construction. Suggest measures to reduce the negative effects.",
+"check":[
+{"q":"Kainji Dam is on the River","o":["Niger","Kaduna","Benue","Ogun"]},
+{"q":"Jebba Dam is","o":["downstream of Kainji","upstream of Kainji","on the Benue","in Lagos"]},
+{"q":"Shiroro Dam is on the River","o":["Kaduna","Niger","Cross River","Osun"]},
+{"q":"Accumulation of mud in a reservoir is","o":["siltation","irrigation","erosion","evaporation"]},
+{"q":"A social problem of large dams is","o":["displacement of communities","too much rainfall","lack of water","greater noise only"]}
+]},
+
+{"id":"p31-17","week":8,"title":"Rockets: How They Work","icon":"Zap",
+"summary":"How a rocket works (Newton's third law), the parts and stages of a multistage rocket, thrust, and escape velocity with calculations.",
+"keyWords":["Rocket","Newton's third law","Thrust","Multistage rocket","Escape velocity","Payload"],
+"sections":[
+{"h":"What is a rocket?","p":["A rocket is a vehicle pushed forward by the high-speed ejection of gases produced by burning fuel under high pressure. It is used for space exploration, military uses and launching satellites. A rocket works in the atmosphere and in the vacuum of space because it carries its own oxidiser and does not need oxygen from the air."]},
+{"h":"The working principle: Newton's third law","p":["Newton's third law says that for every action there is an equal and opposite reaction. The rocket pushes hot gas downwards at high speed (action). The gas pushes the rocket upwards (reaction). This force is called thrust. The burning fuel makes high-pressure gas in the combustion chamber, and the gas escapes through a narrow nozzle at the bottom.","Thrust = (mass of gas ejected per second) × (velocity of the gas) = (Δm/Δt) × v. Example: a rocket ejects 25 kg of gas per second at 4 000 m/s. Thrust = 25 × 4 000 = 100 000 N = 100 kN."]},
+{"h":"Parts and stages","p":["The main parts are the payload (the cargo, such as a satellite), the propellant system (fuel and oxidiser), the engine with nozzle, the control system (gyroscopes, computers and sensors for guidance) and the stage structure. A multistage rocket has two or more stages, each with its own engine and fuel. As each stage uses its fuel it drops away, so the rocket gets lighter and the next stage can work more efficiently. The first stage lifts the rocket off the ground, the second stage continues the climb and the final stage puts the payload into its orbit."],"img":{"src":"phy3-rocket.png","alt":"A rocket with a payload, a second stage, a first stage and a nozzle with exhaust gas going down and thrust acting upwards","cap":"A multistage rocket."}},
+{"h":"Escape velocity","p":["Escape velocity is the minimum speed that an object must have to leave the gravitational pull of a planet without further propulsion. For the Earth it is about 11.2 km/s, which is 11 200 m/s or about 40 300 km/h. (11.2 km/s × 3 600 = 40 320 km/h; some books give 40 270.)","It can be calculated from v = √(2gR) where g = 9.8 m/s² and the radius of the Earth R = 6.4 × 10⁶ m: v = √(2 × 9.8 × 6.4 × 10⁶) = √(1.2544 × 10⁸) = 11 200 m/s."]}
+],
+"activity":"A rocket in space ejects gas at 4 000 m/s and uses 25 kg of gas per second. Find the thrust (100 000 N). Define escape velocity and state its value for Earth (11.2 km/s). Draw and label the stages of a multistage rocket.",
+"check":[
+{"q":"A rocket works because of Newton's","o":["third law","first law only","law of cooling","law of gravitation only"]},
+{"q":"Thrust of a rocket ejecting 25 kg/s of gas at 4 000 m/s is","o":["100 000 N","160 N","1 000 N","100 N"]},
+{"q":"The escape velocity of the Earth is about","o":["11.2 km/s","7 km/s","1 km/s","300 km/s"]},
+{"q":"In a multistage rocket, spent stages are dropped to","o":["reduce mass and improve efficiency","add weight","stop the engine","slow the rocket"]},
+{"q":"The cargo carried by a rocket is the","o":["payload","nozzle","oxidiser","spillway"]}
+]},
+
+{"id":"p31-18","week":8,"title":"Satellites and Orbits","icon":"Landmark",
+"summary":"Natural and artificial satellites, types and uses of artificial satellites, orbits (LEO, MEO and GEO) and the risks of space operations.",
+"keyWords":["Satellite","Orbit","Geostationary","Low Earth orbit","Space debris"],
+"sections":[
+{"h":"What is a satellite?","p":["A satellite is any object that orbits another object in space. A natural satellite, like the Moon, orbits a planet. An artificial satellite is a man-made object put into orbit for a purpose."]},
+{"h":"Types and uses of artificial satellites","p":["Communication satellites carry radio, television, telephone and internet signals. Navigation satellites give GPS services for position and tracking. Weather satellites observe clouds, storms and climate. Surveillance satellites are used for military watching and border control. Research satellites carry out scientific observations.","In everyday life: meteorology (forecasting storms and rainfall), agriculture (crop monitoring and land use), telecommunications (phones, internet, TV), disaster monitoring (floods, fires, drought) and the military (surveillance and navigation)."]},
+{"h":"Orbits","p":["A satellite stays in orbit because gravity provides the force that keeps it moving round the Earth, while its sideways speed (orbital velocity, about 7.8 km/s near the Earth) stops it falling to the ground. Orbits are described by altitude, orbital velocity and inclination (the angle between the orbit and the equator)."],"img":{"src":"phy3-orbits.png","alt":"The Earth with three orbit rings: low Earth orbit, medium Earth orbit and geostationary orbit","cap":"Low, medium and geostationary orbits (not to scale)."}},
+{"h":"Three kinds of orbit","p":["Low Earth orbit (LEO): 160 to 2 000 km; used for Earth observation. Medium Earth orbit (MEO): about 2 000 to 35 000 km; used for GPS. Geostationary orbit (GEO): about 35 786 km above the equator; the satellite takes 24 hours to go round, the same time as the Earth turns, so it stays above the same point on the Earth. This is ideal for communication satellites."]},
+{"h":"Challenges and risks","p":["Space debris (dead satellites and rocket parts) can collide with working satellites. Technical failures during launch or in orbit can end a mission. The cost of building, launching and running satellites is high. Satellites can be used for spying, causing tension between countries. Cosmic rays and solar radiation can damage the electronics."]}
+],
+"activity":"Differentiate between natural and artificial satellites. List four types of artificial satellites with one use each. Explain two challenges of satellite operations and two ways space debris affects satellites.",
+"check":[
+{"q":"A satellite that stays above the same point on the Earth is in","o":["geostationary orbit","low Earth orbit","a polar orbit only","no orbit"]},
+{"q":"The Moon is a","o":["natural satellite","artificial satellite","rocket","weather satellite"]},
+{"q":"GPS satellites are mainly in","o":["medium Earth orbit","low Earth orbit","geostationary orbit only","no orbit"]},
+{"q":"A geostationary orbit has an altitude of about","o":["35 786 km","160 km","2 000 km","384 000 km"]},
+{"q":"A weather satellite is used to","o":["monitor climate and storms","send TV only","shoot rockets","dig wells"]}
+]},
+
+{"id":"p31-19","week":9,"title":"NigeriaSat-1: Nigeria's First Earth Observation Satellite","icon":"Landmark",
+"summary":"The launch, aims, technical features and benefits of NigeriaSat-1, and the work of NASRDA.",
+"keyWords":["NigeriaSat-1","Earth observation","Disaster Monitoring Constellation","NASRDA","Remote sensing"],
+"sections":[
+{"h":"Introduction","p":["NigeriaSat-1 was Nigeria's first Earth observation satellite. (Some course outlines write it as Niger-SAT 1; the correct name is NigeriaSat-1.) It was launched on 27 September 2003 from the Plesetsk Cosmodrome in Russia on a Kosmos-3M rocket. It joined the Disaster Monitoring Constellation (DMC), a network of small Earth observation satellites owned by different countries which cooperate in monitoring the environment and disasters. It was built with the help of Surrey Satellite Technology Ltd (SSTL) in the United Kingdom."]},
+{"h":"Objectives","p":["1. Environmental monitoring: changes in land cover, deforestation, desertification and water bodies. 2. Disaster management: quick pictures of floods, oil spills, droughts and fires. 3. Land use and urban planning: high-resolution images for maps and planning. 4. Agricultural planning: crop health, land use and seasonal changes for food security. 5. Population and resource mapping: help for censuses and for finding resources."]},
+{"h":"Technical features","p":["NigeriaSat-1 was a microsatellite of about 100 kg. Its multispectral imager had a ground resolution of 32 m and a swath width of about 600 km. It could revisit any point on the Earth every few days (the DMC as a whole gives daily coverage). It stored images and sent them to ground stations, and the images were analysed and distributed by the National Space Research and Development Agency (NASRDA)."]},
+{"h":"Contributions to national planning","p":["Urban planning and infrastructure: monitoring the growth of cities and roads. Disaster preparedness: early warnings and damage assessment after disasters. Agriculture and food security: crop monitoring, drought prediction and mapping of farmland. Environment: watching erosion, oil spills and illegal logging. Education and research: images used by universities for research and training."]},
+{"h":"NASRDA","p":["NASRDA is Nigeria's main space agency. It coordinates satellite launches and missions, manages ground stations, trains Nigerian engineers, works with other space agencies and the DMC, and plans future projects such as NigeriaSat-2, NigeriaSat-X and the communication satellite NigComSat-1R. NigeriaSat-2 and NigeriaSat-X (launched in 2011) are further Earth observation satellites, with NigeriaSat-2 giving much sharper pictures."]}
+],
+"activity":"Explain how NigeriaSat-1 has helped agriculture in Nigeria. State two objectives of NigeriaSat-1 and why each is important. Draw a diagram showing a satellite in orbit sending data to a ground station.",
+"check":[
+{"q":"NigeriaSat-1 was launched in","o":["2003","2007","2011","1999"]},
+{"q":"It was launched from","o":["Russia","China","Nigeria","the United States"]},
+{"q":"NigeriaSat-1 was part of the","o":["Disaster Monitoring Constellation","International Space Station","Nigerian Communication Network","GPS system"]},
+{"q":"The main purpose of NigeriaSat-1 was","o":["environmental and disaster monitoring","TV broadcasting","military attack","astronomy only"]},
+{"q":"The agency that manages Nigeria's satellite programme is","o":["NASRDA","NNPC","WAEC","NEPA"]}
+]},
+
+{"id":"p31-20","week":10,"title":"NigComSat-1: Nigeria's Communication Satellite","icon":"Landmark",
+"summary":"The launch, failure and replacement of NigComSat-1, its transponders and frequency bands, and its impact and challenges.",
+"keyWords":["NigComSat-1","Communication satellite","Transponder","C-band","Ku-band","NigComSat-1R"],
+"sections":[
+{"h":"What is NigComSat-1?","p":["NigComSat-1 (in some outlines written as NICOM-SAT 1) was Nigeria's first communication satellite. It was built to improve the country's ICT network and to reduce the digital divide in rural and underserved areas. It was built for Nigeria by the China Great Wall Industry Corporation (CGWIC) and launched by a Chinese rocket. It was designed to support telecommunications, satellite broadcasting, broadband internet, telemedicine and distance education."]},
+{"h":"Launch history","p":["Launched on 13 May 2007 from the Xichang Satellite Launch Centre in China by a Long March 3B rocket. Placed in geostationary orbit at longitude 42.5° East. In November 2008 a fault in its solar array caused a loss of power and the satellite was shut down early. Its replacement, NigComSat-1R, was launched by CGWIC from China on 19 December 2011 and continues to serve Nigeria and Africa."]},
+{"h":"Functions","p":["1. Telecommunication: voice and data for mobile operators and private networks. 2. Broadcasting: satellite TV and radio for media houses. 3. Internet access: broadband for places with no fibre-optic cables. 4. Telemedicine: rural clinics linked to hospitals in cities for diagnosis and consultation. 5. Distance learning: online classes and learning materials for remote students."]},
+{"h":"Payload: transponders and frequency bands","p":["NigComSat-1 had 28 active transponders in four frequency bands."],"tbl":{"head":["Band","Main use"],"rows":[["C-band","Wide coverage and little affected by weather; satellite TV and voice"],["Ku-band","Higher bandwidth: data broadcasting and broadband internet"],["Ka-band","High-speed internet and multimedia with great capacity"],["L-band","Mobile communication and navigation"]]}},
+{"h":"Impact and challenges","p":["Impact: spreads services to remote areas (digital inclusion), improves broadband, supports e-government, helps the ICT industry to create jobs and supports smart education and health. Economically it earns revenue and reduces the cost of leasing foreign satellite capacity; in education and health it brings distance learning and telemedicine.","Challenges: technical failure (the 2008 solar array fault); the very high cost of launch and running; security threats such as hacking and jamming; too few trained Nigerian satellite engineers; and slow policies and weak infrastructure. To succeed, Nigeria must encourage STEM education, invest in local space research, partner with other space agencies and inspire young people to choose careers in space science."]}
+],
+"activity":"Write short notes on the functions of the C, Ku, Ka and L bands. State the satellite that replaced NigComSat-1 and when (NigComSat-1R, 19 December 2011). Write a short essay on why Nigerian youth should be encouraged to pursue careers in space technology.",
+"check":[
+{"q":"The main function of NigComSat-1 is","o":["communication services","weather forecasting","military attacks","Earth imaging"]},
+{"q":"NigComSat-1 was launched in","o":["2007","2003","2011","2005"]},
+{"q":"The satellite that replaced it is","o":["NigComSat-1R","NigComSat-X","NigComSat-1B","NigeriaSat-2"]},
+{"q":"Data and broadband services mainly use the","o":["Ku-band","L-band","C-band only","audio band"]},
+{"q":"The cause of the 2008 failure was","o":["a solar array fault","a collision with debris","a rocket explosion","a hacker attack"]}
+]},
+
+{"id":"p31-21","week":10,"title":"First Term Revision","icon":"BookOpen",
+"summary":"A summary of the formulas and ideas of First Term with mixed solved questions.",
+"keyWords":["Revision","Efficiency","Transformer","MA and VR","Thrust"],
+"sections":[
+{"h":"Key formulas and facts","p":["Use this table to revise."],"tbl":{"head":["Topic","Key facts"],"rows":[["Energy conversion","Energy cannot be created or destroyed; efficiency = useful output ÷ input × 100%"],["Transmission","Mechanical, electrical, hydraulic; AC for grids, HVDC for very long links"],["Transformer","Vp / Vs = Np / Ns = Is / Ip; step-up Ns > Np; step-down Ns < Np"],["Power loss","P(loss) = I²R; high voltage means low current and low loss"],["Machines","MA = load ÷ effort; VR = effort distance ÷ load distance; efficiency = MA ÷ VR × 100%"],["Maintenance","Preventive, predictive, corrective; safety first"],["Dams","Reservoir, penstock, turbine, generator; potential → kinetic → mechanical → electrical"],["Rockets","Newton's third law; thrust = (mass per second) × speed of gas; escape velocity 11.2 km/s"],["Satellites","LEO, MEO, GEO; NigeriaSat-1 (2003), NigComSat-1 (2007), NigComSat-1R (2011)"]]}},
+{"h":"Mixed worked questions","p":["1. A system receives 4 000 J and gives 2 800 J useful output. Efficiency = 70%.","2. A transformer has 400 and 100 turns and an input of 240 V. Output = 60 V.","3. A 12 kW, 2 kV supply through a 20 Ω cable has a loss of 720 W.","4. A lever has load 100 N and effort 20 N. MA = 5. A machine with MA 3 and VR 4 has an efficiency of 75%.","5. A rocket ejects 25 kg/s of gas at 4 000 m/s. Thrust = 100 000 N.","6. Name the satellite that replaced NigComSat-1: NigComSat-1R."]}
+],
+"activity":"Without notes, write the formulas for efficiency, the transformer equation, power loss in a cable, MA, VR and thrust. Check them against the table.",
+"check":[
+{"q":"The transformer equation is","o":["Vp/Vs = Np/Ns","Vp × Np = Vs/Ns","Vp + Vs = Np + Ns","Vp/Np = Ns/Vs"]},
+{"q":"The efficiency of a system with 2 800 J useful out of 4 000 J is","o":["70%","28%","1.43%","40%"]},
+{"q":"Power loss in a cable is","o":["I²R","V²R","IV","R/I"]},
+{"q":"Thrust of a rocket equals","o":["mass of gas per second × velocity of gas","mass × height","pressure × area","speed × time"]},
+{"q":"A satellite in geostationary orbit stays above","o":["one point on the equator","the north pole","a different place each hour","the Moon"]}
+]}
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "id":  "c22-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "An introduction to SS2 Chemistry Second Term and the list of all units: soap and detergents, nuclear chemistry, halogens, metals, transition elements, non-metals, water and pollution.",
+        "keyWords":  [
+                         "SS2 Chemistry Second Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Chemistry Second Term",
+                             "p":  [
+                                       "This term you study soap making and detergents, radioactivity, the halogens, alkali and alkaline earth metals, transition elements, the reactivity series and refining of metals, hydrogen, oxygen and nitrogen, hardness and purification of water, and environmental pollution.",
+                                       "The check questions at the end of each unit do not count towards a mark, but they show you what you have understood."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Chemistry Second Term",
+                             "p":  [
+                                       "Week 5 is the midterm examination and Week 7 is the midterm break."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Saponification: The Chemistry of Soap Making"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Cleaning Action of Soap and Detergents"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Nuclear Chemistry: Radioactivity and Radioactive Emissions"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Half-Life, Applications and Dangers of Radioactivity"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "The Halogens: Properties and Trends"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Fluorine, Chlorine, Bromine and Iodine: Uses, Effects and Tests"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "4",
+                                                          "Alkali Metals (Group 1)"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "Alkaline Earth Metals (Group 2) and Flame Tests"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "6",
+                                                          "Transition Elements and Complex Compounds"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "8",
+                                                          "The Reactivity Series of Metals"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "8",
+                                                          "Refining of Metals"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "9",
+                                                          "Non-Metals: General Properties and Hydrogen"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "9",
+                                                          "Oxygen and Nitrogen"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "10",
+                                                          "Hardness of Water"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "10",
+                                                          "Purification of Water and Water Quality Control"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "11",
+                                                          "Environmental Pollution: Types and Causes"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "11",
+                                                          "Effects and Control of Pollution"
+                                                      ],
+                                                      [
+                                                          "19",
+                                                          "11",
+                                                          "Second Term Revision"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic is studied in Week 10?",
+                          "o":  [
+                                    "Water: hardness and purification",
+                                    "Halogens",
+                                    "Nuclear chemistry",
+                                    "Soap"
+                                ]
+                      },
+                      {
+                          "q":  "Halogens are studied in Week",
+                          "o":  [
+                                    "3",
+                                    "1",
+                                    "8",
+                                    "11"
+                                ]
+                      },
+                      {
+                          "q":  "Transition elements are studied in Week",
+                          "o":  [
+                                    "6",
+                                    "2",
+                                    "9",
+                                    "10"
+                                ]
+                      }
+                  ]
+    }
+]

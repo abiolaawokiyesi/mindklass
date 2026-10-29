@@ -1,0 +1,109 @@
+[
+{"id":"fm3-08","week":8,"title":"History and Nature of Operations Research","icon":"Landmark","summary":"What operations research is, where it began, where it is used, and the three main models: linear programming, transportation and assignment.",
+"keyWords":["Operations research","Optimisation","Model","Objective function","Constraint"],
+"sections":[
+{"h":"What is operations research?","p":["Operations Research (OR) is the scientific approach to decision-making that seeks the best (optimal) course of action when resources are limited. It is sometimes called the 'science of better'. It helps to answer questions like: How can we maximise profit or minimise cost? What is the shortest route? How should we share limited resources most efficiently?","The method: real-life problem → build a mathematical model → analyse and solve it → choose the best decision → carry it out."]},
+{"h":"History","p":["OR began in World War II (1939 to 1945). The military needed scientific answers to operational problems: how to find enemy submarines, how to place radar and anti-aircraft defences, and how to arrange convoys to reduce ship losses. Teams of scientists, mathematicians and engineers studied the data and proposed the best strategies. After the war, the same methods were adopted by business, industry and government."]},
+{"h":"Scope: where OR is used","p":["Study the table."],
+"tbl":{"head":["Field","Example","Objective"],"rows":[
+["Business and finance","Product mix, pricing, stock levels","Maximise profit or minimise cost"],
+["Transport and logistics","Shortest delivery routes","Minimise time or fuel"],
+["Airlines","Scheduling flights and crews","Maximise seat use, reduce delays"],
+["Manufacturing","Production schedules","Minimise waste and cost"],
+["Engineering and telecoms","Network and pipeline design","Maximise connectivity"],
+["Health services","Assigning doctors to shifts","Improve patient coverage"],
+["Agriculture","Allocating land to crops","Maximise yield per hectare"]]}},
+{"h":"Models of OR","p":["A model is a simplified mathematical picture of a real situation, used to test decisions before applying them.","Linear programming (LP): finds the best value of an objective function (such as profit) subject to linear constraints. Example: a bakery makes bread and cakes with profit N5 per loaf and N8 per cake, using x loaves and y cakes. The objective is P = 5x + 8y and a constraint might be 2x + 3y ≤ 60.","Transportation model: finds the cheapest way to send goods from several sources (factories) to several destinations (depots), such as a cement company with 3 factories and 5 depots.","Assignment model: a special transportation problem that gives each worker exactly one job (or each machine one task) so that the total time or cost is least."],
+"tbl":{"head":["Model","Purpose","Key feature","Example"],"rows":[
+["Linear programming","Optimise profit or cost","Objective function and constraints","Production planning"],
+["Transportation","Minimise distribution cost","Many sources and destinations","Delivering cement"],
+["Assignment","Match jobs to workers","One-to-one assignment","Task scheduling"]]}},
+{"h":"Writing an LP problem","p":["A company makes chairs (x) and tables (y), with profit N5 per chair and N8 per table. Objective function: P = 5x + 8y. If each chair takes 2 hours, each table takes 3 hours, and 60 hours of labour are available, the constraint is 2x + 3y ≤ 60. Also x ≥ 0 and y ≥ 0."]}
+],
+"activity":"Write one real example from your school or community where OR could help, and say which model (LP, transportation or assignment) fits. (For example, assigning teachers to classes is an assignment model.)",
+"check":[
+{"q":"Operations research began in","o":["World War II","The 1990s","The 1500s","1800"]},
+{"q":"The main goal of OR is","o":["Optimisation","Memorisation","Subtraction","Description"]},
+{"q":"Which model matches workers to jobs one-to-one?","o":["Assignment model","Transportation model","Linear programming only","None"]},
+{"q":"A linear programming problem has an objective function and","o":["Constraints","Decimals","Fractions","Angles"]},
+{"q":"The model that finds the cheapest way to move goods from factories to depots is","o":["Transportation","Assignment","Median","Range"]}]},
+
+{"id":"fm3-09","week":9,"title":"Linear Programming: Formulation and Graphical Solution","icon":"BarChart2","summary":"How to write an LP problem, draw the constraints, find the feasible region and its corner points, and choose the best point, with two worked examples.",
+"keyWords":["Objective function","Constraint","Feasible region","Corner point","Optimal solution"]
+,"sections":[
+{"h":"Key terms","p":["Objective function: the expression to maximise or minimise. Constraints: limits on the resources, written as linear inequalities. Feasible region: the set of all points that satisfy every constraint. Optimal point: the corner point (vertex) of the feasible region that gives the best value of the objective function."]},
+{"h":"Steps of the graphical method","p":["1. Define the decision variables (x, y). 2. Write the objective function. 3. Write the constraints. 4. Add the non-negativity conditions x ≥ 0, y ≥ 0. 5. Graph each constraint line (turn the inequality into an equation, find two points). 6. Shade to find the feasible region. 7. Find the corner points (read them from the graph or solve the equations of the lines that meet there). 8. Put each corner point into the objective function and choose the best."]},
+{"h":"Worked example 1: tables and chairs","p":["A company makes tables (x) and chairs (y). Profit: N25 per table and N15 per chair. Wood: 4x + 3y ≤ 120. Labour: 2x + 3y ≤ 72. Maximise P = 25x + 15y.","Wood line: 4x + 3y = 120 passes through (0, 40) and (30, 0). Labour line: 2x + 3y = 72 passes through (0, 24) and (36, 0). The lines meet where 4x + 3y = 120 and 2x + 3y = 72. Subtract: 2x = 48, x = 24. Then 48 + 3y = 72 gives y = 8. So the intersection is (24, 8).","The corner points of the feasible region are (0, 0), (30, 0), (24, 8) and (0, 24). Profit at each: (0, 0): 0. (30, 0): 25 × 30 = N750. (24, 8): 600 + 120 = N720. (0, 24): 15 × 24 = N360. The maximum profit is N750, at (30, 0): make 30 tables and no chairs."],
+"img":{"src":"fm-lp-region.png","alt":"A graph with two lines, wood 4x + 3y = 120 and labour 2x + 3y = 72, the shaded feasible region with corners (0,0), (30,0), (24,8) and (0,24), and the corner point values of profit marked","cap":"The feasible region and corner points for the tables-and-chairs problem."}},
+{"h":"Worked example 2: farm plan","p":["A farmer plants maize (x hectares) and beans (y hectares). He has 100 hectares and N240,000. Maize costs N2,000 per hectare and beans N3,000 per hectare. Profit is N400 per hectare of maize and N500 per hectare of beans. Formulate: maximise P = 400x + 500y subject to x + y ≤ 100; 2000x + 3000y ≤ 240000 (that is 2x + 3y ≤ 240); x ≥ 0, y ≥ 0.","Corner points: (0, 0); (100, 0) (capital 200,000 is fine); (0, 80) (3y = 240); and the intersection of x + y = 100 and 2x + 3y = 240, which gives y = 40, x = 60, so (60, 40). Profit: (0, 0): 0; (100, 0): N40,000; (60, 40): 24,000 + 20,000 = N44,000; (0, 80): N40,000. The best plan is 60 hectares of maize and 40 of beans, with profit N44,000."]},
+{"h":"Worked example 3: exam questions","p":["A student answers x questions from Section A and y from Section B: x + y ≤ 10; x ≥ 4; y ≥ 2. Section A questions carry 5 marks and Section B questions 8 marks. Maximise M = 5x + 8y. Corner points of the region: (4, 2), (8, 2), (4, 6). Marks: (4, 2): 20 + 16 = 36. (8, 2): 40 + 16 = 56. (4, 6): 20 + 48 = 68. The maximum is 68 marks with 4 questions from Section A and 6 from Section B."]}
+],
+"activity":"Solve: maximise P = 3x + 2y with x + y ≤ 4, x ≤ 3, x ≥ 0, y ≥ 0. (Corners (0,0), (3,0), (3,1), (0,4): P = 0, 9, 11, 8. The best is 11 at (3, 1).)",
+"check":[
+{"q":"The feasible region is the set of points that","o":["Satisfy all the constraints","Lie on the x-axis","Are negative","Maximise nothing"]},
+{"q":"The best value of the objective function occurs at a","o":["Corner point (vertex)","Midpoint of an edge only","Random point","The origin always"]},
+{"q":"In the tables and chairs problem, the maximum profit is","o":["N750","N720","N360","N1,000"]},
+{"q":"The lines 4x + 3y = 120 and 2x + 3y = 72 meet at","o":["(24, 8)","(30, 0)","(0, 24)","(12, 24)"]},
+{"q":"The farm problem's best plan is","o":["60 ha maize, 40 ha beans","100 ha maize","80 ha beans","50 ha of each"]}]},
+
+{"id":"fm3-10","week":9,"title":"The Transportation Model","icon":"Layers","summary":"How to set up a transportation table and find a starting solution using the North-West Corner method and the Least Cost method, with cost comparison.",
+"keyWords":["Transportation table","Supply","Demand","North-West corner","Least cost method"]
+,"sections":[
+{"h":"The problem","p":["The transportation model finds the cheapest way to move goods from several sources (factories) to several destinations (warehouses or markets), when we know the cost per unit on each route, the supply at each source and the demand at each destination. If total supply equals total demand, the problem is balanced."]},
+{"h":"A transportation table","p":["Costs per unit (N) from factories F₁, F₂, F₃ to warehouses W₁, W₂, W₃. Total supply = 100 + 150 + 120 = 370 = total demand 80 + 110 + 180, so it is balanced."],
+"tbl":{"head":["","W₁","W₂","W₃","Supply"],"rows":[["F₁","5","7","8","100"],["F₂","6","4","9","150"],["F₃","7","8","5","120"],["Demand","80","110","180","370"]]}},
+{"h":"North-West Corner (NWC) method","p":["Start at the top-left (north-west) cell. Give it as many units as possible (the smaller of the supply and the demand). Cross out the row or column that is satisfied, then move right (if demand is met) or down (if supply is used up). Repeat.","F₁ to W₁: 80 units at N5 = N400. F₁ has 20 left: F₁ to W₂: 20 at N7 = N140. W₂ still needs 90: F₂ to W₂: 90 at N4 = N360. F₂ has 60 left: F₂ to W₃: 60 at N9 = N540. F₃ to W₃: 120 at N5 = N600. Total cost = 400 + 140 + 360 + 540 + 600 = N2,040."]},
+{"h":"Least Cost Method (LCM)","p":["Find the cell with the smallest cost. Give it as many units as possible. Cross out the satisfied row or column. Repeat with the smallest remaining cost.","The smallest cost is 4 (F₂ to W₂): 110 units = N440, and W₂ is full. The next smallest is 5 (F₁ to W₁ and F₃ to W₃, a tie): F₁ to W₁: 80 = N400; F₃ to W₃: 120 = N600. Remaining: F₁ has 20 and F₂ has 40, both for W₃ (which needs 60 more): F₁ to W₃: 20 at N8 = N160; F₂ to W₃: 40 at N9 = N360. Total cost = 440 + 400 + 600 + 160 + 360 = N1,960."]},
+{"h":"Comparing","p":["LCM (N1,960) is cheaper than NWC (N2,040) because it looks at the costs, while NWC ignores them. Both methods give a starting (basic feasible) solution. The LCM is usually closer to the best, but in general neither is guaranteed to be the cheapest possible; more advanced methods can improve a starting solution.","Practice. Two sources S₁ (supply 50) and S₂ (supply 60), two destinations D₁ (demand 40) and D₂ (demand 70). Costs: S₁ to D₁ 10, S₁ to D₂ 12, S₂ to D₁ 9, S₂ to D₂ 7. NWC: S₁→D₁ 40 (400), S₁→D₂ 10 (120), S₂→D₂ 60 (420) = N940. LCM: cheapest is 7 (S₂→D₂): 60 units (420); D₂ needs 10 more; the next cheapest is 9 (S₂→D₁) but S₂ is empty, so next is 10 (S₁→D₁): 40 (400); then S₁→D₂ 10 (120): total N940. Here both methods give the same cost."]}
+],
+"activity":"Why must total supply equal total demand for the methods in this unit? What would you do if supply exceeded demand? (Add a dummy destination with zero costs to absorb the extra supply.)",
+"check":[
+{"q":"The NWC method starts at the","o":["Top-left cell","Cheapest cell","Bottom-right cell","Largest supply"]},
+{"q":"The Least Cost method starts with the","o":["Cell with the smallest cost","Cell with the largest demand","Top-left cell","Random cell"]},
+{"q":"A balanced problem has","o":["Total supply equal to total demand","More supply than demand","No costs","One destination"]},
+{"q":"In the example, the NWC cost is","o":["N2,040","N1,960","N1,000","N2,500"]},
+{"q":"In the example, the LCM cost is","o":["N1,960","N2,040","N940","N2,400"]}]},
+
+{"id":"fm3-11","week":10,"title":"The Assignment Model and the Hungarian Method","icon":"Target","summary":"What the assignment model is and how to solve it with the Hungarian algorithm: row and column reduction, covering zeros, improving the matrix and making the assignment.",
+"keyWords":["Assignment model","Hungarian method","Row reduction","Column reduction","Covering lines"]
+,"sections":[
+{"h":"The model","p":["The assignment model gives n workers n jobs, one each, so that the total cost (or time) is as small as possible (or the total efficiency as large as possible). It is a special case of the transportation model in which the number of sources equals the number of destinations and each supply and demand is 1. It is used for workers to jobs, machines to tasks, teachers to classes and vehicles to routes."]},
+{"h":"The Hungarian algorithm","p":["Step 1: row reduction. In each row subtract the smallest number from every number in that row. Step 2: column reduction. In each column subtract the smallest number in that column from every number. Step 3: cover all the zeros with the fewest straight lines (horizontal or vertical). If the number of lines equals n, the solution is optimal. Step 4: if the number of lines is less than n, find the smallest uncovered number; subtract it from all uncovered numbers and add it to numbers covered by two lines. Step 5: repeat steps 3 and 4. Step 6: make the assignment: pick a row or column with a single zero, assign it, cross out other zeros in its row and column, continue. Work out the total cost from the original table."]},
+{"h":"Worked example 1","p":["Costs ($): A: J1 25, J2 20, J3 23; B: 15, 18, 17; C: 19, 22, 21. Row reduction: A (min 20): 5, 0, 3. B (min 15): 0, 3, 2. C (min 19): 0, 3, 2. Column reduction: J1 minimum 0, J2 minimum 0, J3 minimum 2: subtract 2 from column J3: A: 5, 0, 1; B: 0, 3, 0; C: 0, 3, 0.","Cover the zeros: row B, row C and column J2 give 3 lines, which equals n = 3. The solution is optimal. A has only one zero, so A → J2. Then B and C share J1 and J3: either B→J1, C→J3 or B→J3, C→J1. Costs: 20 + 15 + 21 = 56 or 20 + 17 + 19 = 56. The minimum total cost is $56 (two equally good assignments)."]},
+{"h":"Worked example 2 (needs step 4)","p":["Costs: A: T1 10, T2 15, T3 9; B: 9, 18, 5; C: 6, 14, 3. Row reduction (minima 9, 5, 3): A: 1, 6, 0; B: 4, 13, 0; C: 3, 11, 0. Column reduction (minima 1, 6, 0): A: 0, 0, 0; B: 3, 7, 0; C: 2, 5, 0. Cover the zeros: row A and column T3 cover all zeros with only 2 lines, which is less than n = 3. The smallest uncovered number is 2. Subtract 2 from the uncovered numbers and add 2 to the number covered twice (A, T3): A: 0, 0, 2; B: 1, 5, 0; C: 0, 3, 0. Now it takes 3 lines (for example columns T1, T2 and T3), so it is optimal. Assign: A → T2 (the only zero in column T2), then B → T3 and C → T1. Cost = 15 + 5 + 6 = 26. This is the minimum."]},
+{"h":"Practice with answer","p":["Costs: X: P 8, Q 6, R 10; Y: 10, 12, 11; Z: 7, 8, 9. Checking all 6 possible assignments gives totals 25, 24, 29, 27, 28 and 29. The minimum is 24: X → Q (6), Y → R (11), Z → P (7)."]},
+{"h":"Questions","p":["Why do the column reduction after the row reduction? Because some columns may still have no zero, and every worker and job needs at least one zero to work with. What if lines < n? Perform step 4 and test again."]}
+],
+"activity":"Solve with the Hungarian method: X: P 8, Q 6, R 10; Y: 10, 12, 11; Z: 7, 8, 9. (X→Q, Y→R, Z→P; total 24.)",
+"check":[
+{"q":"In the Hungarian method, the first step is","o":["Row reduction","Column covering","Final assignment","Adding a dummy"]},
+{"q":"The solution is optimal when the number of covering lines equals","o":["n (the number of jobs)","n + 1","1","0"]},
+{"q":"In worked example 1, the minimum total cost is","o":["$56","$58","$60","$52"]},
+{"q":"The assignment model gives each worker","o":["Exactly one job","Two jobs","No job","All jobs"]},
+{"q":"If lines are fewer than n, you","o":["Improve the matrix and test again","Stop","Add all numbers","Divide by n"]}]},
+
+{"id":"fm3-12","week":11,"title":"Revision","icon":"Target","summary":"A summary of the statistics and operations research methods in this term with mixed practice problems and answers.",
+"keyWords":["Revision","Statistics","Linear programming","Transportation","Hungarian method"]
+,"sections":[
+{"h":"What to review","p":["Statistics: mean, median and mode from grouped data; quartiles; standard deviation; coefficient of variation. Linear programming: forming the constraints and objective function, and the graphical solution. Transportation: the NWC and Least Cost methods. Assignment: the Hungarian algorithm."]},
+{"h":"Formula sheet","p":["Study the table."],
+"tbl":{"head":["Topic","Key formulas"],"rows":[
+["Mean (grouped)","x̄ = Σfx ÷ Σf"],
+["Median","L₁ + [(N/2 − cfb) ÷ f_m] × C"],
+["Mode","L₁ + [Δ₁ ÷ (Δ₁ + Δ₂)] × C"],
+["Quantile position","Q₁ = N/4, Q₃ = 3N/4, D₇ = 7N/10, P₄₀ = 40N/100"],
+["Spread","Range, IQR = Q₃ − Q₁, M.D. = Σf|x − x̄| ÷ Σf, σ² = Σfx²/Σf − x̄²"],
+["CV","(σ ÷ x̄) × 100%"]]}},
+{"h":"Practice 1: statistics","p":["A battery company tested 100 batteries: 50–59 h: 8; 60–69: 15; 70–79: 40; 80–89: 30; 90–99: 7. Midpoints: 54.5, 64.5, 74.5, 84.5, 94.5. Σfx = 436 + 967.5 + 2980 + 2535 + 661.5 = 7580. (a) Mean = 75.8. (b) Median: N/2 = 50, in the class 70–79 (cfb = 23): 69.5 + [(50 − 23)/40] × 10 = 76.25. (c) Σfx² = 8(54.5²) + 15(64.5²) + 40(74.5²) + 30(84.5²) + 7(94.5²) = 584,895. Variance = 584,895/100 − 75.8² = 5848.95 − 5745.64 = 103.31; σ = 10.16. (d) CV = 10.16/75.8 × 100 = 13.4%."]},
+{"h":"Practice 2: linear programming","p":["A farmer has 100 hectares and N240,000 for maize (x) and beans (y). Maximise P = 400x + 500y subject to x + y ≤ 100, 2x + 3y ≤ 240, x ≥ 0, y ≥ 0. The corners are (0, 0), (100, 0), (60, 40) and (0, 80). The best is (60, 40) with profit N44,000."]},
+{"h":"Practice 3: assignment","p":["Costs: X: 8, 6, 10; Y: 10, 12, 11; Z: 7, 8, 9 for jobs P, Q, R. Row reduction: X: 2, 0, 4; Y: 0, 2, 1; Z: 0, 1, 2. Column reduction: P min 0; Q min 0; R min 1: X: 2, 0, 3; Y: 0, 2, 0; Z: 0, 1, 1. Cover the zeros with column P, column R and row X: 3 lines = n, so it is optimal. Row X has one zero, so X → Q; row Z has one zero, so Z → P; that leaves Y → R. Cost: 6 + 11 + 7 = 24."]},
+{"h":"Revision questions","p":["State four steps of the Hungarian algorithm. How do you know that an assignment solution is optimal? How does the assignment model relate to the transportation model? Name three uses of assignment optimisation. What does the coefficient of variation measure? Create a 4 × 4 assignment problem of your own and solve it completely. Make a summary sheet of the algorithms of the term."]}
+],
+"activity":"Prepare a one-page summary of the term's algorithms (statistics, linear programming, transportation and assignment). Swap it with a friend and check each other's.",
+"check":[
+{"q":"The mean of the batteries example is","o":["75.8","76.25","70","80"]},
+{"q":"The best plan of the farm problem is at","o":["(60, 40)","(100, 0)","(0, 80)","(0, 0)"]},
+{"q":"The assignment of cost matrix X: 8, 6, 10; Y: 10, 12, 11; Z: 7, 8, 9 costs at least","o":["24","25","27","29"]},
+{"q":"The coefficient of variation measures","o":["Relative spread","Central value","The median","The range only"]},
+{"q":"The IQR is","o":["Q₃ − Q₁","Q₁ + Q₃","Q₂","N/4"]}]}
+]

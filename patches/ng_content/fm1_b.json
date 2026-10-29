@@ -1,0 +1,126 @@
+[
+{"id":"fm1-09","week":6,"title":"Linear Inequalities in Two Variables","icon":"Layers","summary":"How to graph an inequality such as ax + by > c, using a dashed or solid boundary line and a test point, with several worked examples.",
+"keyWords":["Boundary line","Dashed line","Test point","Shading","Feasible region"],
+"sections":[
+{"h":"The idea","p":["An inequality in two variables has the form ax + by > c or ax + by ≤ c. Its solution is a region of the coordinate plane, not a single point: every point in the region makes the inequality true."]},
+{"h":"Steps for graphing","p":["1. Change the inequality to an equation to get the boundary line.","2. Draw the boundary: a dashed line for < or > (points on the line are not solutions) and a solid line for ≤ or ≥ (points on the line are solutions).","3. Test a point not on the line, usually the origin (0, 0). Put it in the original inequality. If it is true, shade the side containing the point. If false, shade the other side. (If the line passes through the origin, test another point such as (1, 0).)"]},
+{"h":"Worked examples","p":["Example 1. Graph 2x − y < 3. Boundary: 2x − y = 3, which is y = 2x − 3 (gradient 2, y-intercept −3). Points (0, −3) and (2, 1). Draw it dashed. Test (0, 0): 2(0) − 0 < 3 gives 0 < 3, true. Shade the side containing the origin, which is the region above the line.","Example 2. Graph y > −x + 1. Boundary: y = −x + 1 (gradient −1, intercept 1), dashed. Test (0, 0): 0 > 0 + 1 gives 0 > 1, false. Shade the side not containing the origin, the region above the line.","Example 3. Graph x ≥ 3. The boundary is the vertical line x = 3, solid. The region is to the right of the line.","Example 4. Graph 3x + 2y ≤ 6. Boundary 3x + 2y = 6, solid, through (2, 0) and (0, 3). Test (0, 0): 0 ≤ 6, true. Shade the side with the origin (below the line).","Example 5. Show the region x > 0, y > 0, x + y < 5. This is a triangle in the first quadrant with corners (0, 0), (5, 0) and (0, 5). All three boundaries are dashed, because all the signs are strict. Shade the inside of the triangle.","Example 6. Graph y < 4 and x ≥ −1. The region is below the dashed horizontal line y = 4 and to the right of (and on) the solid vertical line x = −1."],
+"img":{"src":"fm-inequality.png","alt":"Two graphs: the region above the dashed line y = 2x − 3 shaded for 2x − y < 3, and the region above the dashed line y = −x + 1 shaded for y > −x + 1","cap":"Shaded regions for 2x − y < 3 (left) and y > −x + 1 (right)."}},
+{"h":"Several inequalities together","p":["When there are several inequalities, shade the region where all of them are true at once. This is the feasible region. It is used in linear programming in Third Term."]}
+],
+"activity":"Graph x > 0, y > 0 and x + y < 5. List one point that is a solution and one that is not. (For example (1, 1) is a solution; (4, 4) is not.)",
+"check":[
+{"q":"A dashed boundary line is used for","o":["< or >","≤ or ≥","=","Any inequality"]},
+{"q":"To decide which side to shade, we","o":["Test a point such as (0, 0)","Guess","Always shade above","Always shade below"]},
+{"q":"For y > −x + 1, the origin","o":["Is not in the region","Is in the region","Is on the line","Cannot be tested"]},
+{"q":"x ≥ 3 is the region","o":["To the right of and on the vertical line x = 3","Above the line","Left of x = 3","Below y = 3"]},
+{"q":"The solution of an inequality in two variables is","o":["A region","A single point","A number","A letter"]}]},
+
+{"id":"fm1-10","week":8,"title":"Binary Operations","icon":"Zap","summary":"What a binary operation is, its properties (closure, commutative, associative, distributive), identity and inverse elements, and operation tables.",
+"keyWords":["Binary operation","Closure","Commutative","Identity element","Inverse"],
+"sections":[
+{"h":"What is a binary operation?","p":["A binary operation is a rule that combines two elements to give one element. 'Binary' means two inputs. Familiar examples are a + b, a − b and a × b. We can also invent our own using symbols such as *, ⊙ or Δ.","If * is a binary operation on a set S, then a * b must belong to S for all a and b in S. Example: if a * b = a + b + 2ab, then 3 * 5 = 3 + 5 + 2(3)(5) = 8 + 30 = 38."]},
+{"h":"Properties","p":["Closure: a * b is in S for every a, b in S (for example, the integers are closed under addition). Commutative: a * b = b * a. Associative: (a * b) * c = a * (b * c). Distributive: a * (b + c) = (a * b) + (a * c), for example multiplication over addition."]},
+{"h":"Identity element","p":["An element e is the identity if a * e = e * a = a for every a. For addition, e = 0. For multiplication, e = 1."]},
+{"h":"Inverse element","p":["The inverse of a, written a⁻¹, satisfies a * a⁻¹ = a⁻¹ * a = e. For addition, the inverse of a is −a. For multiplication, the inverse of a is 1/a (a ≠ 0)."]},
+{"h":"Operation (Cayley) tables","p":["For a small finite set we can write an operation table. Let S = {1, 2, 3, 4} and a Δ b = (a × b) mod 5, meaning the remainder after dividing a × b by 5."],
+"tbl":{"head":["Δ","1","2","3","4"],"rows":[["1","1","2","3","4"],["2","2","4","1","3"],["3","3","1","4","2"],["4","4","3","2","1"]]}},
+{"h":"Reading the table","p":["Closed: every entry belongs to S. Commutative: the table is symmetrical about the main diagonal. Identity: the row and column for 1 repeat the headings, so e = 1. Inverses: look for the identity in each row: 1 → 1, 2 ↔ 3 (because 2 Δ 3 = 1), 4 → 4 (4 Δ 4 = 1)."]},
+{"h":"Worked examples","p":["Example 1. For a * b = a + b + ab: (a) it is commutative because a + b + ab = b + a + ba. (b) Identity: a * e = a gives a + e + ae = a, so e(1 + a) = 0, hence e = 0. (c) Inverse of 5: 5 * x = 0 gives 5 + x + 5x = 0, 6x = −5, x = −5/6.","Example 2. For a * b = a + b − 3, find the identity: a + e − 3 = a gives e = 3. The inverse of 10: 10 + x − 3 = 3 gives x = −4.","Example 3. With p Δ q = p + q + 1: identity: p + e + 1 = p, so e = −1. Inverse of 7: 7 + x + 1 = −1, so x = −9.","Example 4. a * b = 2a − b. Then 3 * 5 = 6 − 5 = 1 and 5 * 3 = 10 − 3 = 7. They are different, so * is not commutative.","Example 5. Using the Δ table: (2 Δ 4) Δ 3 = 3 Δ 3 = 4. The inverse of 4 is 4."]}
+],
+"activity":"For x ⊙ y = x + y − 2xy, test whether it is commutative. Is it associative? (Commutative: yes. Associative: (x⊙y)⊙z = x + y + z − 2xy − 2xz − 2yz + 4xyz, and the same for x⊙(y⊙z), so yes.)",
+"check":[
+{"q":"If a * b = a + b − 3, the identity element is","o":["3","0","−3","1"]},
+{"q":"A table symmetrical about the main diagonal shows the operation is","o":["Commutative","Associative","Not closed","Without identity"]},
+{"q":"The identity for ordinary multiplication is","o":["1","0","−1","10"]},
+{"q":"If a * b = 2a − b, then 3 * 5 equals","o":["1","7","11","−1"]},
+{"q":"The inverse of a under addition is","o":["−a","1/a","a","0"]}]},
+
+{"id":"fm1-11","week":9,"title":"Functions: Definition and Types of Mapping","icon":"Layers","summary":"What a function is, domain, co-domain and range, one-to-one, many-to-one, onto and into mappings, and the classes of function.",
+"keyWords":["Function","Domain","Co-domain","Range","One-to-one"],
+"sections":[
+{"h":"The function machine","p":["A function is a rule that gives each input exactly one output. Think of a machine: you put in x, the machine follows the rule, and out comes y = f(x). For the rule ×2 + 3: input 2 gives 7, input 5 gives 13, and input 8 gives 19."]},
+{"h":"Definition","p":["A function f from a set A to a set B assigns to each element x of A exactly one element y of B. We write f : A → B and y = f(x). A is the domain (the set of inputs). B is the co-domain. The range is the set of outputs actually obtained; it is a subset of B.","Example: domain A = {1, 2, 3, 4}, rule f(x) = x + 2, co-domain B = {3, 4, 5, 6, 7}. The range is {3, 4, 5, 6}."]},
+{"h":"Types of mapping","p":["One-to-one (injective): different inputs always give different outputs. Example: f(x) = x + 1. Its graph passes the horizontal line test (no horizontal line meets it twice).","Many-to-one: two or more inputs give the same output. Example: f(x) = x²: f(−2) = f(2) = 4. It fails the horizontal line test, so it is not one-to-one.","Onto (surjective): every element of the co-domain is an output, so range = co-domain. Example: f(x) = x − 1 with domain {2, 3, 4} and co-domain {1, 2, 3}.","Into: the range is a proper subset of the co-domain, so some co-domain elements are not used. Example: f(x) = 2x with domain {1, 2, 3} and co-domain {1, 2, 3, 4, 5, 6}: the range is {2, 4, 6}."]},
+{"h":"Classes of function","p":["Study the table."],
+"tbl":{"head":["Function","Rule","Description"],"rows":[
+["Constant","f(x) = c","Same output always; horizontal line"],
+["Identity","f(x) = x","Output equals input; the line y = x"],
+["Linear","f(x) = mx + c","Straight line"],
+["Quadratic","f(x) = ax² + bx + c","Parabola"],
+["Exponential","f(x) = aˣ","Grows or decays rapidly"],
+["Logarithmic","f(x) = log_a x","Inverse of exponential"],
+["Trigonometric","f(x) = sin x, cos x","Periodic wave"],
+["Composite","(f ∘ g)(x) = f(g(x))","A function of a function"],
+["Inverse","f⁻¹(x)","Reverses f"]]}},
+{"h":"Graphs of some functions","p":["f(x) = x is a diagonal line through (0, 0). f(x) = x² is a parabola opening upward. f(x) = 1/x is a hyperbola that approaches both axes without touching them (it is undefined at x = 0). f(x) = 2ˣ rises rapidly. f(x) = log x is the mirror image of the exponential in the line y = x."]},
+{"h":"Domain and range questions","p":["The domain of f(x) = 1/(x − 2) is all real numbers except x = 2 (we cannot divide by zero). The range of f(x) = x² + 1 is y ≥ 1. f(x) = |x| is many-to-one (f(−3) = f(3) = 3), so it is not one-to-one. The difference between the co-domain and the range: the co-domain is the set of allowed outputs; the range is the set of outputs that actually occur."]}
+],
+"activity":"Is f(x) = x² a function from the real numbers to the real numbers? Is it one-to-one? Is it onto? (Yes it is a function; not one-to-one; not onto because negative numbers are never outputs.)",
+"check":[
+{"q":"A function gives each input","o":["Exactly one output","Two outputs","No output","Many outputs"]},
+{"q":"f(x) = x² is","o":["Many-to-one","One-to-one","A constant function","An identity function"]},
+{"q":"The domain of f(x) = 1/(x − 2) excludes","o":["x = 2","x = 0","x = 1","x = −2"]},
+{"q":"If range = co-domain, the function is","o":["Onto","Into","Constant","Undefined"]},
+{"q":"The set of all outputs actually obtained is the","o":["Range","Domain","Co-domain only","Inverse"]}]},
+
+{"id":"fm1-12","week":9,"title":"Composite and Inverse Functions","icon":"Target","summary":"How to find a composite function f(g(x)) and an inverse function, with worked examples and checks.",
+"keyWords":["Composite function","Inverse function","f(g(x))","Swap x and y","Horizontal line test"]
+,"sections":[
+{"h":"Composite functions","p":["A composite function (f ∘ g)(x) = f(g(x)) means 'do g first, then f'. Method: take f(x) and replace every x by the expression for g(x).","Example 1. f(x) = 2x + 1 and g(x) = x² − 3. (a) f(g(x)) = 2(x² − 3) + 1 = 2x² − 5. (b) g(f(x)) = (2x + 1)² − 3 = 4x² + 4x − 2. (c) f(f(2)) = f(5) = 11. Notice that f(g(x)) and g(f(x)) are usually different.","Example 2. f(x) = x² and g(x) = x + 1. Then f(g(x)) = (x + 1)². Example 3. f(x) = 2x − 3 and g(x) = 1/x. f(g(x)) = 2/x − 3; g(f(x)) = 1/(2x − 3); g(f(2)) = g(1) = 1."]},
+{"h":"Inverse functions","p":["The inverse f⁻¹ reverses f: if f(a) = b then f⁻¹(b) = a. Only a one-to-one function has an inverse. To find it: 1. Write y = f(x). 2. Swap x and y. 3. Solve for y. 4. Write y as f⁻¹(x).","Example 4. f(x) = 2x + 3. y = 2x + 3. Swap: x = 2y + 3. Solve: y = (x − 3)/2. So f⁻¹(x) = (x − 3)/2.","Example 5. Find the inverse of f(x) = (3x − 1)/(x + 5). Step 1: y = (3x − 1)/(x + 5). Step 2: x = (3y − 1)/(y + 5). Step 3: multiply by (y + 5): x(y + 5) = 3y − 1, so xy + 5x = 3y − 1, xy − 3y = −5x − 1, y(x − 3) = −5x − 1, y = (−5x − 1)/(x − 3) = (5x + 1)/(3 − x). So f⁻¹(x) = (5x + 1)/(3 − x).","Example 6. h(x) = (x + 1)/2. y = (x + 1)/2, swap: x = (y + 1)/2, y = 2x − 1. So h⁻¹(x) = 2x − 1."]},
+{"h":"Check with composition","p":["A function and its inverse undo each other: f(f⁻¹(x)) = x and f⁻¹(f(x)) = x. For f(x) = 3x − 1: f⁻¹(x) = (x + 1)/3. Then (f ∘ f⁻¹)(5) = f(2) = 5, as expected.","Example 7. f(x) = 2x + 1 and g(x) = 3x − 1: find x such that f(g(x)) = g(f(x)). f(g(x)) = 2(3x − 1) + 1 = 6x − 1. g(f(x)) = 3(2x + 1) − 1 = 6x + 2. These are never equal (6x − 1 ≠ 6x + 2), so there is no solution."]},
+{"h":"Summary","p":["Study the table."],
+"tbl":{"head":["Concept","Symbol","Idea"],"rows":[
+["Function","f : A → B","One input gives one output"],
+["Composite","(f ∘ g)(x) = f(g(x))","Combine two functions"],
+["Inverse","f⁻¹(x)","Reverses f"],
+["One-to-one","","Each x gives a unique y"],
+["Onto","","Range = co-domain"]]}}
+],
+"activity":"Find the inverse of g(x) = (x + 4)/(2x − 3). (Swap x and y: x = (y + 4)/(2y − 3); 2xy − 3x = y + 4; y(2x − 1) = 3x + 4; g⁻¹(x) = (3x + 4)/(2x − 1).)",
+"check":[
+{"q":"If f(x) = 2x + 1 and g(x) = x² − 3, then f(g(x)) is","o":["2x² − 5","4x² + 4x − 2","2x² − 3","x² − 2"]},
+{"q":"The inverse of f(x) = 2x + 3 is","o":["(x − 3)/2","2x − 3","(x + 3)/2","x/2 + 3"]},
+{"q":"Which step is used to find an inverse?","o":["Swap x and y, then solve for y","Add x and y","Multiply by zero","Differentiate"]},
+{"q":"f(f⁻¹(x)) equals","o":["x","f(x)","0","1"]},
+{"q":"If f(x) = 2x + 1, then f(f(2)) is","o":["11","5","9","7"]}]},
+
+{"id":"fm1-13","week":10,"title":"Arithmetic Progression","icon":"BarChart2","summary":"What a sequence and a series are, and the formulas for the nth term and the sum of an arithmetic progression (A.P.), with worked examples.",
+"keyWords":["Sequence","Series","Arithmetic progression","Common difference","Sum"]
+,"sections":[
+{"h":"Sequences and series","p":["A sequence is an ordered list of numbers that follow a rule, such as 2, 4, 6, 8, 10, ... Each number is a term. The first term is a and the nth term is Tₙ (or Uₙ). When the terms are added we get a series: 2 + 4 + 6 + 8 + ... Patterns of numbers occur in house numbers, seats in a hall and regular savings."]},
+{"h":"Arithmetic progression (A.P.)","p":["An A.P. is a sequence in which each term differs from the one before by a fixed number called the common difference d. Examples: 2, 4, 6, 8, ... (d = 2); 100, 90, 80, 70, ... (d = −10). General form: a, a + d, a + 2d, a + 3d, ...","nth term: Tₙ = a + (n − 1)d.","Sum of n terms: Sₙ = (n/2)[2a + (n − 1)d], or Sₙ = (n/2)(a + l), where l is the last term."]},
+{"h":"Illustration","p":["For 3, 7, 11, 15, ...: a = 3, d = 4. The terms are 3, 3 + 4 = 7, 3 + 8 = 11, 3 + 12 = 15. The common difference d = T₂ − T₁."]},
+{"h":"Worked examples","p":["Example 1. Find the 15th term of 5, 8, 11, 14, ... a = 5, d = 3. T₁₅ = 5 + 14 × 3 = 47.","Example 2. Sum of the first 10 terms of 2, 5, 8, 11, ... a = 2, d = 3, n = 10. S₁₀ = (10/2)[2(2) + 9 × 3] = 5 × 31 = 155.","Example 3. The 1st term of an A.P. is 7 and the 5th is 19. Find d. 7 + 4d = 19, so d = 3.","Example 4. Find the 20th term of 4, 9, 14, ... d = 5; T₂₀ = 4 + 19 × 5 = 99.","Example 5. The 5th and 10th terms are 18 and 33. Find a and d, and S₁₅. a + 4d = 18 and a + 9d = 33. Subtract: 5d = 15, d = 3, a = 6. S₁₅ = (15/2)[12 + 14 × 3] = 7.5 × 54 = 405.","Example 6. Find the sum of all 3-digit numbers divisible by 9. The first is 108 and the last is 999. n: 108 + (n − 1) × 9 = 999 gives n = 100. S = (100/2)(108 + 999) = 50 × 1107 = 55,350.","Example 7. Write the first 5 terms with a = 4, d = 5: 4, 9, 14, 19, 24."]},
+{"h":"Uses","p":["A.P. models salary increments, equal savings every month, seat numbers in a stadium (each row has a fixed number more seats) and simple interest."]}
+],
+"activity":"A savings box starts with N500 and N200 is added each week. How much is in it after 12 weeks, counting the first N500 as week 1? (T₁₂ = 500 + 11 × 200 = N2,700.)",
+"check":[
+{"q":"The nth term of an A.P. is","o":["a + (n − 1)d","ar^(n−1)","a + nd + 1","nd"]},
+{"q":"The 15th term of 5, 8, 11, ... is","o":["47","45","50","44"]},
+{"q":"The sum of the first 10 terms of 2, 5, 8, ... is","o":["155","150","100","160"]},
+{"q":"In an A.P. with a = 7 and T₅ = 19, d is","o":["3","4","2","5"]},
+{"q":"In the sequence 100, 90, 80, ..., the common difference is","o":["−10","10","100","−100"]}]},
+
+{"id":"fm1-14","week":10,"title":"Geometric and Harmonic Progressions","icon":"Zap","summary":"The geometric progression (G.P.) with its nth term, finite sum and sum to infinity, and the harmonic progression, with worked examples and a comparison.",
+"keyWords":["Geometric progression","Common ratio","Sum to infinity","Harmonic progression","Reciprocal"]
+,"sections":[
+{"h":"Geometric progression (G.P.)","p":["A G.P. is a sequence in which each term after the first is found by multiplying the one before by a fixed number called the common ratio r. Examples: 2, 4, 8, 16, ... (r = 2); 81, 27, 9, 3, ... (r = 1/3). General form: a, ar, ar², ar³, ...","nth term: Tₙ = a rⁿ⁻¹. Sum of n terms: Sₙ = a(rⁿ − 1)/(r − 1) for r ≠ 1 (or a(1 − rⁿ)/(1 − r)). Sum to infinity, when |r| < 1: S∞ = a/(1 − r)."]},
+{"h":"Worked examples","p":["Example 1. 5th term of 3, 6, 12, 24, ... a = 3, r = 2: T₅ = 3 × 2⁴ = 48.","Example 2. Sum of the first 5 terms of 2, 6, 18, 54, ... a = 2, r = 3: S₅ = 2(3⁵ − 1)/(3 − 1) = 2 × 242/2 = 242.","Example 3. Sum to infinity of 10, 5, 2.5, 1.25, ... a = 10, r = 1/2: S∞ = 10/(1 − 1/2) = 20.","Example 4. 10th term when a = 2 and r = 3: T₁₀ = 2 × 3⁹ = 39,366.","Example 5. Sum of the first 6 terms with a = 5 and r = 2: S₆ = 5(2⁶ − 1)/(2 − 1) = 5 × 63 = 315.","Example 6. Sum to infinity of 12, 8, 16/3, ...: r = 8/12 = 2/3, so S∞ = 12/(1/3) = 36.","Example 7. The 3rd and 7th terms of a G.P. are 16 and 256. (a) ar² = 16 and ar⁶ = 256. Divide: r⁴ = 16, so r = 2 (taking the positive value; r = −2 also works). (b) a = 16/4 = 4. (c) T₁₀ = 4 × 2⁹ = 2,048.","Example 8. A G.P. has a = 2 and r = 1/2. S∞ = 2/(1/2) = 4; T₈ = 2 × (1/2)⁷ = 1/64."]},
+{"h":"Harmonic progression (H.P.)","p":["A harmonic progression is a sequence whose reciprocals form an A.P. Example: 1, 1/2, 1/3, 1/4, ... is an H.P. because 1, 2, 3, 4, ... is an A.P. The nth term of an H.P. is 1/[a + (n − 1)d], where a and d belong to the corresponding A.P.","Example 9. The first 5 terms of the H.P. whose A.P. is 2, 4, 6, 8, 10 are 1/2, 1/4, 1/6, 1/8, 1/10.","Example 10. If 1/a, 1/b, 1/c are in A.P., then 2/b = 1/a + 1/c = (a + c)/(ac), so b = 2ac/(a + c)."]},
+{"h":"Comparison","p":["Study the table."],
+"tbl":{"head":["Progression","Definition","General term","Constant"],"rows":[
+["Arithmetic","Add the same number","Tₙ = a + (n − 1)d","Common difference d"],
+["Geometric","Multiply by the same number","Tₙ = arⁿ⁻¹","Common ratio r"],
+["Harmonic","Reciprocals form an A.P.","Tₙ = 1/[a + (n − 1)d]","Difference of reciprocals"]]}},
+{"h":"Uses","p":["A.P.: salary increments, regular savings. G.P.: population growth, compound interest, depreciation, a bouncing ball. H.P.: average speeds and resistances in parallel."]}
+],
+"activity":"A ball is dropped from 8 m and rebounds to half its previous height each time. Find the total distance it falls (ignoring the upward movements): a = 8 and r = 1/2, so S∞ = 8/(1/2) = 16 m. What is the total distance travelled up and down? (16 + 8 = 24 m.)",
+"check":[
+{"q":"The nth term of a G.P. is","o":["arⁿ⁻¹","a + (n − 1)d","1/(a + nd)","a/n"]},
+{"q":"The sum to infinity of 10, 5, 2.5, ... is","o":["20","15","10","25"]},
+{"q":"The 5th term of 3, 6, 12, 24, ... is","o":["48","30","96","36"]},
+{"q":"A harmonic progression is one whose reciprocals form","o":["An A.P.","A G.P.","A constant","A square"]},
+{"q":"The sum to infinity formula applies when","o":["|r| < 1","r > 1","r = 1","r = 0 only"]}]}
+]

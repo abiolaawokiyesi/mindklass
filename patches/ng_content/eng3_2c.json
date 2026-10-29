@@ -1,0 +1,196 @@
+[
+{"id":"e32-19","week":8,"title":"Report Writing: The Official (Incident) Report","icon":"Target",
+"summary":"The features of a formal report (formal tone, past tense, passive voice) and the format of an incident report with a model.",
+"keyWords":["Report","Passive voice","Past tense","Findings","Recommendation"],
+"sections":[
+{"h":"What is a report?","p":["A report is a formal, structured document that presents facts about an event, situation or investigation. Its main purpose is to inform, not to entertain or give personal opinion. Objectivity and clarity matter most."]},
+{"h":"Three features","p":["Formal tone: use standard English, no contractions (do not, not don't) and no slang. Past tense: a report describes things that have already happened. Passive voice: often used to stress the action rather than the doer, which makes the report more objective. Active: The student broke the window. Passive: The window was broken."]},
+{"h":"Format of an incident report","p":["Title: clear and descriptive, such as REPORT ON THE VANDALISM OF SCHOOL PROPERTY. To: the reader (The Principal). From: your name and position (John Bako, Senior Prefect). Date: the date of submission.","Introduction: the purpose, what happened, where and when. Example: This report describes the vandalism that took place in the SS3 Science Laboratory on the evening of Monday, 12th November, 2025.","Body (findings): a chronological, factual account in paragraphs. Example: At about 4:15 p.m. I was alerted by a noise from the laboratory. On investigation, I found that three glass beakers had been broken. The laboratory attendant, Mr. Musa, was called and the scene was secured.","Conclusion and recommendation: the outcome and next steps. Example: In conclusion, property worth about ₦25,000 was destroyed. It is recommended that the school management review security after hours and that the culprits, if identified, be made to replace the damaged items.","Sign-off: signature and full name."]},
+{"h":"Writing tips","p":["Give times, places and names. Report only what you saw or what you were told, and say which is which. Do not add opinions. Use the passive voice where it helps, but do not use it so much that the report is hard to read."]}
+],
+"activity":"You are the class prefect. Yesterday during lunch two students fought in your class, breaking a window pane and damaging two desks. Write a formal report to the Principal. Invent plausible names and times and follow the format exactly.",
+"check":[
+{"q":"A report is mainly written in the","o":["past tense","future tense only","present continuous only","imperative"]},
+{"q":"The passive voice in a report","o":["stresses the action and makes the tone more objective","adds emotion","is not allowed","is used for questions only"]},
+{"q":"Which belongs in a report?","o":["The window was broken at about 1 p.m.","I think the boys are wicked.","Wow, it was terrible!","They're rubbish!"]},
+{"q":"The part that suggests what should be done next is the","o":["recommendation","title","date","salutation"]},
+{"q":"The report's 'From' line gives","o":["your name and position","the reader's name","the date only","the school address"]}
+]},
+
+{"id":"e32-20","week":8,"title":"Report of a Meeting: Minutes","icon":"Users",
+"summary":"How to write the minutes of a meeting: title, attendance, apologies, agenda, matters arising, business, any other business and adjournment.",
+"keyWords":["Minutes","Present","Absent with apology","Matters arising","A.O.B.","Adjournment"],
+"sections":[
+{"h":"What are minutes?","p":["Minutes are the official report of a meeting. They record who attended, what was discussed, what was decided and who is to do what. They are written in the past tense, in a formal and objective tone."]},
+{"h":"The format","p":["Title: MINUTES OF THE MEETING OF THE LITERARY AND DEBATING SOCIETY HELD ON (date) AT (place).","Present: the list of people who attended. Absent with apology: those who told the secretary beforehand that they could not come.","Agenda: the list of topics.","1. Opening: the time and any formalities such as the opening prayer.","2. Matters arising: reading and approving the minutes of the last meeting, and follow-up on actions from it.","3. Business of the day: an account of each item on the agenda, with the discussion, the decisions and who is responsible for each action. An Action column may help.","4. Any other business (A.O.B.): topics not on the main agenda.","5. Adjournment: the time the meeting ended.","Signatures: the secretary and the chairman or president."]},
+{"h":"Incident report and minutes compared","p":["The body of an incident report is a chronological account of what happened. The business of the day in minutes is organised by agenda item, not by time, and records decisions and responsibilities. Both use formal language and the past tense."]},
+{"h":"Short example","p":["The meeting was called to order at 2:00 p.m. by the President, Miss Amaka Obi, who led the opening prayer. The minutes of the last meeting were read, corrected and adopted. Under business of the day, the Secretary reported that the society's debate against Government College would hold on 3rd March. It was resolved that five members would represent the society. Mr. Eze was asked to prepare the team. There being no other business, the meeting was adjourned at 3:15 p.m."]}
+],
+"activity":"Write the minutes of a class meeting (invent names and dates) that discussed a class excursion. Include present, absent with apology, agenda, matters arising, business, A.O.B. and adjournment.",
+"check":[
+{"q":"People who told the secretary they could not come are listed as","o":["absent with apology","present","visitors","officers"]},
+{"q":"The last item recorded in minutes is usually","o":["adjournment","opening","apologies","matters arising"]},
+{"q":"Minutes are written in","o":["the past tense","the future tense","the imperative","slang"]},
+{"q":"Topics not on the main agenda come under","o":["any other business","matters arising","apologies","opening"]},
+{"q":"Minutes are signed by the","o":["secretary and chairman","reporter","editor","treasurer only"]}
+]},
+
+{"id":"e32-21","week":8,"title":"Comprehension: Corruption","icon":"BookOpen",
+"summary":"A comprehension passage on corruption with five questions of different types and model answers.",
+"keyWords":["Comprehension","Nepotism","Metastasize","Meritocracy","Inference"],
+"sections":[
+{"h":"The passage","p":["Corruption is a cancer that has metastasized to every part of our nation's body politic. It is not just the politician who embezzles public funds; it is the clerk who demands a 'softener' to find your file, the student who pays to have exam questions leaked, and the citizen who offers a 'tip' to a police officer to avoid a penalty. This endemic culture of 'cutting corners' has dire consequences.","Firstly, it destroys meritocracy. When jobs and contracts are awarded because of nepotism or bribes rather than skill and qualification, the most competent people are pushed aside. This leads to profound inefficiency: bridges collapse because the contractor used substandard materials, and public services fail because the managers are incompetent. Secondly, it creates a deep public cynicism. Citizens begin to believe that success is impossible through hard work and honesty, leading to a breakdown of societal values and an increase in petty and grand corruption."]},
+{"h":"Questions and model answers","p":["1. (Factual) Besides politicians, what two other examples of corrupt acts are given? Answer: A clerk who demands a softener (a bribe) to find a file, a student who pays to have exam questions leaked, and a citizen who gives a tip to a police officer to avoid a penalty. Any two.","2. (Vocabulary) What does 'metastasized' suggest about corruption? Answer: It suggests that corruption has spread from one place to every part of society, as a cancer spreads through the body, and is dangerous and hard to remove.","3. (Vocabulary) The meaning of 'nepotism'. Answer: Favouring relatives or friends, for example by giving them jobs, without regard to merit.","4. (Inferential) The first major consequence and its direct result. Answer: Corruption destroys meritocracy (the system of rewarding ability); the direct result is profound inefficiency because the most competent people are sidelined.","5. (Global) The author's main argument about citizens' attitudes. Answer: Corruption makes citizens cynical; they come to believe that hard work and honesty cannot bring success, so values break down and corruption increases."]},
+{"h":"How corruption leads to inefficiency","p":["Unqualified people get contracts and jobs. A contractor who got a contract through bribes uses poor materials, so bridges collapse. Managers who got their posts through nepotism are incompetent, so public services fail."]}
+],
+"activity":"Write full answers to the five questions without looking at the model answers. Then compare and improve.",
+"check":[
+{"q":"'Nepotism' means","o":["favouring relatives and friends","hard work","honesty","strict rules"]},
+{"q":"'Metastasized' suggests corruption has","o":["spread throughout society","disappeared","been cured","started recently"]},
+{"q":"According to the passage, the first consequence of corruption is the destruction of","o":["meritocracy","democracy","roads only","education only"]},
+{"q":"Corruption makes citizens","o":["cynical","hopeful","more honest","patient"]},
+{"q":"An example of corruption in the passage is","o":["a student paying to have exam questions leaked","a clerk who works hard","a politician who resigns","a teacher who retires"]}
+]},
+
+{"id":"e32-22","week":8,"title":"Vocabulary: Idioms and Idiomatic Expressions","icon":"Zap",
+"summary":"Six common idioms with meanings and examples, and how to use idioms in your own writing.",
+"keyWords":["Idiom","Silver spoon","Black sheep","Bull by the horns","Spill the beans","Blue moon","Chip on shoulder"],
+"sections":[
+{"h":"What are idioms?","p":["Idioms are fixed expressions whose meanings are not clear from the words themselves. They are an important part of fluent, natural English and are often tested in comprehension and essays."]},
+{"h":"Six idioms","p":["Born with a silver spoon in one's mouth: to be born into a rich and privileged family. Example: He never worried about tuition fees; he was born with a silver spoon in his mouth.","The black sheep of the family: a person whom the family sees as a disgrace or failure, often because he is different or has done something shameful. Example: While all his brothers are doctors and lawyers, Ade is the black sheep of the family for becoming an artist.","Take the bull by the horns: to face a difficult or dangerous situation directly and bravely. Example: Instead of ignoring the debts, the manager took the bull by the horns and reorganised the company's finances.","Spill the beans: to reveal a secret, often by accident. Example: We were planning a surprise party, but her brother spilled the beans a day before.","Once in a blue moon: very rarely. Example: He visits his hometown once in a blue moon.","A chip on one's shoulder: an attitude of constant hostility or defensiveness because of a feeling of having been wronged or of being inferior. Example: He has had a chip on his shoulder ever since he was passed over for promotion."]},
+{"h":"Using idioms well","p":["Use an idiom only when it fits the meaning. Do not change the words: say take the bull by the horns, not take the cow by the horns. Do not use too many in one piece of writing. In formal essays use idioms sparingly. In the examination, if you are asked for the meaning of an idiom, give the figurative meaning, not the literal one."]}
+],
+"activity":"Write a sentence of your own for each of: once in a blue moon, spill the beans, a chip on his shoulder. What does 'take the bull by the horns' mean? (to face a difficulty directly and bravely).",
+"check":[
+{"q":"'Born with a silver spoon in his mouth' means","o":["born into a wealthy family","born clumsy","born sick","born in a restaurant"]},
+{"q":"To 'spill the beans' is to","o":["reveal a secret","waste food","cook a meal","make a mistake in cooking"]},
+{"q":"'Once in a blue moon' means","o":["very rarely","every day","every month","at night"]},
+{"q":"'The black sheep of the family' is a person who","o":["is considered a disgrace","is the oldest","is rich","is a farmer"]},
+{"q":"To 'take the bull by the horns' is to","o":["face a difficulty bravely","fight an animal","run away","be foolish"]}
+]},
+
+{"id":"e32-23","week":9,"title":"Listening: Following Instructions Accurately","icon":"Heart",
+"summary":"Strategies for following spoken instructions: signal words, prepositions, visualising and checking, with a practice example.",
+"keyWords":["Instructions","Sequence words","Conditions","Prepositions","Visualise"],
+"sections":[
+{"h":"Why this skill matters","p":["Following instructions correctly is vital in school, at work and in daily life. It needs active, focused listening and careful processing."]},
+{"h":"The strategy","p":["a. Remove distractions and listen actively. Do not assume you know what comes next.","b. Notice signal words. Sequence: first, then, next, after that, finally. Condition: before you begin, once you have, if... then... Priority: the most important step is, make sure that, crucially.","c. Notice small prepositions that change meaning: in the box and on the box; through the door and towards the door.","d. Visualise the process: make a mental film of yourself doing the steps.","e. Confirm and clarify: repeat the instructions in your own words or ask a precise question, such as So, after I connect the red wire, should I turn the switch on or off?"]},
+{"h":"Practice","p":["Instruction: To assemble this bookshelf, first lay the side panels on the floor. Then, using the longer screws, attach the back panel to the side panels. Before you tighten them completely, slot in the middle shelves. Finally, tighten all the screws fully and turn the bookshelf upright.","Analysis: the sequence words (first, then, finally) and the condition (before you tighten them completely) are vital. If you tighten the screws before slotting in the shelves, the shelves will not fit.","Make a list: 1. Lay the side panels on the floor. 2. Attach the back panel with the longer screws. 3. Slot in the middle shelves. 4. Tighten all the screws. 5. Stand the bookshelf upright."]},
+{"h":"In the examination","p":["In the examination, the instructions on the paper are the first test of this skill. Read them carefully: 'in one sentence', 'list two', 'not more than 50 words' and 'answer any three questions' all change what you must do."]}
+],
+"activity":"Ask a friend to read you the steps for making a cup of tea or fried rice once. Write the steps in order. Check against the original. Which sequence words did you notice?",
+"check":[
+{"q":"Words like 'first', 'next' and 'finally' are","o":["sequence words","prepositions","adjuncts of place","nouns"]},
+{"q":"'Before you tighten them' is a","o":["condition","sequence word only","greeting","noun"]},
+{"q":"'In the box' and 'on the box' differ because of the","o":["preposition","noun","tense","adjective"]},
+{"q":"To check that you understood, you should","o":["repeat the instructions in your own words","guess","sleep","ignore"]},
+{"q":"In the bookshelf example the shelves are slotted in","o":["before the screws are fully tightened","after the bookshelf is upright","last","never"]}
+]},
+
+{"id":"e32-24","week":9,"title":"Reading: Summarising Argumentative Passages","icon":"Target",
+"summary":"How to find the thesis, supporting reasons, counter-argument and rebuttal in an argumentative passage, and how to write a short summary from them.",
+"keyWords":["Argumentative passage","Thesis","Pillars","Counter-argument","Rebuttal"],
+"sections":[
+{"h":"How an argument is built","p":["Summarising an argument means finding not only what the author says but how the case is built."]},
+{"h":"The technique","p":["a. Find the core argument (thesis): the one sentence that shows the author's stand, in the introduction or conclusion. Example: The government should introduce a sugar tax to combat rising obesity and diabetes.","b. Find the supporting reasons (pillars): usually one in each body paragraph. Pillar 1: A sugar tax would reduce the consumption of sugary drinks. Pillar 2: The money raised could pay for public health campaigns.","c. Find the counter-argument and rebuttal, if present. A strong argument admits the opposing view and then answers it. Counter-argument: Critics say a sugar tax is regressive and unfairly hits the poor. Rebuttal: However, the health benefits for poorer communities, who suffer most from these diseases, would far outweigh the small financial cost.","d. Write the summary: join these elements in a short paragraph."]},
+{"h":"Sample summary","p":["The author argues for a sugar tax to improve public health, saying it would reduce consumption and pay for health programmes. Although he admits that the tax may be regressive, he maintains that the health benefits for vulnerable groups justify it."]},
+{"h":"Useful verbs","p":["argues, claims, maintains, contends, admits, acknowledges, concedes, rejects, refutes, concludes."]}
+]
+,"activity":"Find an opinion article or letter to the editor. Write a 4 or 5 sentence summary that gives the main argument, at least one supporting reason and any counter-argument.",
+"check":[
+{"q":"The main stand of the author is the","o":["thesis","rebuttal","example","title"]},
+{"q":"The answer the author gives to an opposing view is the","o":["rebuttal","thesis","pillar","fallacy"]},
+{"q":"The main supporting points of an argument are its","o":["pillars","verbs","titles","fallacies"]},
+{"q":"A summary of an argument should include","o":["main argument, reasons and counter-argument","every example","the author's biography","personal opinion"]},
+{"q":"Which verb shows the author admits an opposing view?","o":["acknowledges","rejects","refutes","denies"]}
+]},
+
+{"id":"e32-25","week":9,"title":"Grammar: Adverbial Clauses","icon":"Layers",
+"summary":"Adverbial clauses of cause, purpose, condition and contrast, with signal words, examples and practice.",
+"keyWords":["Adverbial clause","Cause","Purpose","Condition","Contrast","Signal words"],
+"sections":[
+{"h":"What is an adverbial clause?","p":["An adverbial clause is a subordinate clause that works as an adverb. It modifies a verb, an adjective or another adverb and gives information about time, reason, condition and so on. It cannot stand alone as a sentence."]},
+{"h":"Types and signal words","p":["Cause or reason (Why?): because, since, as. The match was cancelled because the pitch was waterlogged.","Purpose (For what aim?): so that, in order that. He saved his money so that he could buy a new laptop.","Condition (Under what condition?): if, unless, provided that, as long as. If it rains tomorrow, the outdoor concert will be moved indoors. You will not succeed unless you work hard.","Contrast or concession (In spite of what?): although, though, even though, while, whereas. Although he was the favourite, he lost the election. I prefer romantic comedies, while my brother prefers action films.","(Adverbial clauses of time use when, before, after, until, while. Clauses of place use where and wherever.)"]},
+{"h":"Common errors","p":["Do not use two conjunctions together: Although he was very rich, he was not happy (not Although he was very rich but he was not happy). Use a comma after an adverbial clause that comes first. Unless means if not: do not write unless you do not work."]},
+{"h":"Practice with sample answers","p":["I will not speak to him again unless he apologises (condition). She left the house early so that she would not miss the bus (purpose). Although he was injured, he managed to finish the race (contrast). The students were excited because the trip had been confirmed (cause).","In 'She studied every day so that she would pass her exams', the adverbial clause is so that she would pass her exams: a clause of purpose."]}
+],
+"activity":"Complete with the clause named: I will go to the party ______ (condition). She worked hard ______ (purpose). ______, he did not give up (contrast). We stayed indoors ______ (cause).",
+"check":[
+{"q":"'Because the pitch was waterlogged' is a clause of","o":["cause","purpose","condition","contrast"]},
+{"q":"'So that she would pass' is a clause of","o":["purpose","cause","contrast","condition"]},
+{"q":"'Although' introduces a clause of","o":["contrast","cause","purpose","condition"]},
+{"q":"'Unless you work hard' is a clause of","o":["condition","cause","purpose","contrast"]},
+{"q":"Which is correct?","o":["Although he was rich, he was unhappy.","Although he was rich but he was unhappy.","Though he was rich but unhappy.","Although rich but unhappy he."]}
+]},
+
+{"id":"e32-26","week":9,"title":"Report Writing: The Investigative Report","icon":"Target",
+"summary":"The template of a formal investigative report: terms of reference, procedure, findings, conclusion and recommendations, with a model on missing sports equipment.",
+"keyWords":["Investigative report","Terms of reference","Findings","Conclusion","Recommendations"],
+"sections":[
+{"h":"What is it?","p":["An investigative report is a formal document that presents the findings of an inquiry. It must be objective and based on evidence, and it must lead the reader logically from the question to the conclusion."]},
+{"h":"The template","p":["Title: REPORT OF THE INVESTIGATION INTO THE THEFT OF SPORTS EQUIPMENT. To: The Principal. From: your name, Chairman, Students' Disciplinary Committee. Date.","1.0 Introduction (terms of reference): why the investigation was held and what it was to find out. Example: This report presents the findings of the investigation begun on 18th May, 2025, on the instruction of the Principal, into the disappearance of footballs and jerseys from the sports store.","2.0 Procedure: how the investigation was done. Example: The committee examined the store's inventory and sign-out log and interviewed the Sports Prefect, the storekeeper and three members of the football team.","3.0 Findings: a neutral presentation of the evidence, in numbered points. 3.1 The inventory check showed a shortage of five footballs and ten jerseys. 3.2 The sign-out log for the past month was incomplete. 3.3 The Sports Prefect stated that he had lent the equipment to a community youth team without permission. 3.4 The storekeeper confirmed this and said he had been pressed to release the items.","4.0 Conclusion: a short summary of the facts established. The committee concludes that the missing equipment was taken from the store by the Sports Prefect, who lent it to an unauthorised outside group against school policy.","5.0 Recommendations: practical suggestions based on the conclusion. The committee recommends that: (i) the Sports Prefect be relieved of his duties; (ii) the missing equipment be recovered at once; (iii) a stricter system for checking out sports equipment be introduced.","Sign-off: signature, name and position."]},
+{"h":"Findings and conclusion compared","p":["Findings are the facts and evidence discovered, set out neutrally in detail. The conclusion is a short statement of what those facts prove. Recommendations say what should be done about it."]}
+],
+"activity":"You are captain of your school debating team, which lost an important inter-school debate. The Principal wants a report on the reasons. Write an investigative report with findings such as lack of preparation, weak research and nervousness, and with recommendations.",
+"check":[
+{"q":"The section that presents the evidence in numbered points is the","o":["findings","title","recommendations","date"]},
+{"q":"'Terms of reference' are found in the","o":["introduction","conclusion","recommendations","sign-off"]},
+{"q":"Actionable suggestions based on the conclusion are the","o":["recommendations","findings","procedure","title"]},
+{"q":"The procedure section describes","o":["how the investigation was done","the final result","the writer's feelings","the date"]},
+{"q":"An investigative report must be","o":["objective and evidence-based","emotional","humorous","unstructured"]}
+]},
+
+{"id":"e32-27","week":10,"title":"Drama: Listening to Plays and the Architecture of a Play","icon":"Landmark",
+"summary":"How to listen for meaning in a dramatic performance, and the terms act, scene, dialogue, monologue, soliloquy, aside, stage directions, plot, climax and theme.",
+"keyWords":["Act","Scene","Soliloquy","Aside","Stage directions","Climax","Theme"],
+"sections":[
+{"h":"Listening to a play","p":["When you listen to a radio play or a performance, you are an aural detective. There is no picture, so every sound is a clue.","Tone of voice and delivery: a character's true feelings are often shown by how something is said: trembling with fear, booming with authority, sneering, hesitant. Pace, pitch and volume carry subtext.","Sound effects: rain and thunder set a scene of trouble; a door slamming shows an argument; approaching footsteps build suspense.","Music and silence: music sets the mood (tense, romantic, tragic). Silence can be stronger than words, showing shock or deep thought."]},
+{"h":"Story and theme","p":["Plot is the chain of events. Find the central conflict: man against man (two characters opposed), man against society (a character challenging traditions or laws) or man against himself (inner doubt). Theme is the central idea the play explores: the corrupting effect of power, the struggle between tradition and change, the strength of love."]},
+{"h":"Structure","p":["Act: a major division of a play, like a chapter. Scene: a part of an act, usually a change of place or a jump in time."]},
+{"h":"Dramatic speech","p":["Dialogue: conversation between characters, the main way of telling the story. Monologue: a long speech by one character to others who are on stage. Soliloquy: a speech by a character alone on stage, speaking his private thoughts aloud to the audience; Hamlet's To be, or not to be is a soliloquy. Aside: a short remark spoken to the audience that the other characters on stage, by convention, cannot hear."]},
+{"h":"The playwright's instructions","p":["Stage directions are the bracketed or italic words in a script that are not spoken. They describe the setting, movements, expressions, tones and sound effects. Example: [KOLA enters abruptly, slamming the door. He is breathing heavily and looks frantic.]","Climax: the highest point of tension, or the turning point of the plot, where the main conflict must be faced and resolved."]}
+],
+"activity":"Define aside, stage direction, soliloquy and act, with a brief example for each. Write a 10 to 15 line dialogue between two students who find a lost wallet, one wanting to keep the money and the other wanting to hand it in. Include a stage direction and an aside.",
+"check":[
+{"q":"A speech by a character alone on stage, revealing his thoughts, is a","o":["soliloquy","monologue to others","aside to others","dialogue"]},
+{"q":"Words in a script that are not spoken but describe action are","o":["stage directions","dialogue","soliloquy","theme"]},
+{"q":"A remark to the audience that other characters cannot hear is an","o":["aside","act","scene","climax"]},
+{"q":"The highest point of tension in a play is the","o":["climax","theme","scene","dialogue"]},
+{"q":"A major division of a play is an","o":["act","aside","aim","apology"]}
+]},
+
+{"id":"e32-28","week":10,"title":"Revision of a Prescribed Text: The Blood of a Stranger","icon":"Landmark",
+"summary":"The plot, characters and themes of Dele Charley's play The Blood of a Stranger, with corrections to common mistakes about the story.",
+"keyWords":["The Blood of a Stranger","Whitehead","Maligu","Kindo","Soko","Colonial exploitation"],
+"sections":[
+{"h":"The play","p":["The Blood of a Stranger is a play by the Sierra Leonean playwright Dele Charley. (Some printed notes give the author as D.K. Gbegba; the author is Dele Charley.) It is set in the traditional kingdom of Mandoland and is a symbolic story of colonial exploitation.","Check this text against your own copy of the play and your teacher's notes, because published summaries differ in small details."]},
+{"h":"Plot","p":["Maligu, the king's literate chief adviser, persuades the priest Soko to invent a prophecy that a stranger is coming. King Santigi and the people accept it; only Kindo, the chief warrior and heir to the throne, doubts it. Mr. Whitehead, a white colonial agent, arrives and says that he wants to farm tobacco, but he really wants the land's diamonds. He refuses to pay homage to the king and gives the villagers liquor, and the community begins to break down. His Black assistant, Parker, does his dirty work.","Soko, afraid, wants to withdraw from the scheme, and Whitehead has him killed by Parker. Kindo then kills Parker. A false sacrifice is staged, in which Maligu plays the priest and Parker's blood is spilled instead of that of a maiden. Kindo exposes the plot, but Maligu and Whitehead have him banished and the king agrees. At the end, Whitehead dies at Kindo's spear and Kindo goes into exile."]},
+{"h":"Main characters","p":["Whitehead: a colonial agent, greedy and dishonest; his name is symbolic. Maligu: the greedy, literate adviser who betrays his people for money. Kindo: the brave and honest warrior, the only one who sees the truth. Soko: the priest who is forced to lie and pays with his life. Santigi: the weak and easily led king. Wara: Kindo's woman, treated as an outsider because of her mother's background; she resists Whitehead. Parker: Whitehead's assistant."]},
+{"h":"Themes","p":["Colonial exploitation: Whitehead is a symbol of colonial powers that came to Africa under false pretences to take its wealth. Greed and betrayal: Maligu and Soko betray the community for personal gain. Tradition and its misuse: the priest's authority is used for selfish ends. Integrity: Kindo alone questions the lies. Outsiders: Wara is a stranger in her own community.","Types of conflict: man against man (Kindo against Whitehead and Maligu), man against society (Kindo against the king and a deceived people)."]},
+{"h":"A note on what the earlier notes got wrong","p":["Some textbooks say that Kindo is killed, that Soko is exiled and that the villagers rise up under Wara to kill Whitehead. In the play, Kindo is banished, Soko is killed on Whitehead's order, and Whitehead dies at Kindo's spear. Always use the text itself in an examination."]}
+],
+"activity":"In one paragraph explain how the theme of greed and corruption is developed in the play, with reference to at least one character (for example Maligu, who betrays the community for money). State Whitehead's stated reason for coming (to farm tobacco) and his real motive (to get the diamonds).",
+"check":[
+{"q":"The author of The Blood of a Stranger is","o":["Dele Charley","Wole Soyinka","J.P. Clark","D.K. Gbegba"]},
+{"q":"Whitehead says he has come to","o":["farm tobacco","mine diamonds","build a school","visit the king"]},
+{"q":"Whitehead's real motive is","o":["to get the land's diamonds","to teach","to find gold","to marry"]},
+{"q":"The chief warrior who doubts the prophecy is","o":["Kindo","Maligu","Parker","Santigi"]},
+{"q":"A major theme of the play is","o":["colonial exploitation","romantic love only","sport","sea travel"]}
+]},
+
+{"id":"e32-29","week":11,"title":"Second Term Revision and Practice Assignment","icon":"BookOpen",
+"summary":"A revision checklist of every topic of Second Term and a full practice assignment with model answers.",
+"keyWords":["Revision","Checklist","Error correction","Practice paper"],
+"sections":[
+{"h":"Revision checklist","p":["Vocabulary: government and administration (democracy, revenue, bureaucracy, agency, white paper, gazette, circular, memorandum, agenda, minutes, Permanent Secretary, cadre); law and order (plaintiff, defendant, tribunal, justice, civil rights, litigation, verdict, acquitted, convicted); idioms (six); Latin and Greek roots.","Spoken English and listening: rhythm, rhyme, tone and enjambment; paraphrasing a poem heard; logos, pathos, ethos and rebuttal; following instructions; listening to drama.","Grammar: adjuncts (time, place, manner, reason, frequency); defining and non-defining clauses; adverbial clauses (cause, purpose, condition, contrast); simple, compound and complex sentences.","Writing: audience and register; revising an expository essay; letter to the editor; incident report; minutes; investigative report.","Reading: summary by outlining; summarising an argument; paraphrasing; comprehension.","Literature (drama): act, scene, dialogue, monologue, soliloquy, aside, stage directions, plot, climax, theme; The Blood of a Stranger."]},
+{"h":"Practice assignment (90 minutes)","p":["1. Correct the errors. (a) The man who his car was stolen reported to the police. (b) Although he was very rich but he was not happy. (c) The principal, gave the students, who failed, a stern warning.","Model answers: (a) The man whose car was stolen reported to the police. (b) Although he was very rich, he was not happy. (c) The principal gave the students who failed a stern warning. (If only some students failed and the clause is extra information, the clause may be set off by commas: The principal gave the students, who had failed, a stern warning. In (c) the original comma after principal is wrong in either case.)","2. Vocabulary. (a) The government will soon publish a white paper on its findings. (b) The lawyer argued that his client's civil rights had been violated. (c) He was born with a silver spoon and never had to work.","3. Writing. Write a letter of not more than 150 words to the editor, for or against: Mobile phones should be banned in secondary schools. Use a title and the correct format.","4. Summary. In three sentences, summarise the two main consequences of corruption and the underlying cause in the Week 8 passage. Model: Corruption destroys meritocracy because jobs and contracts go to relatives and bribes instead of to the qualified, which leads to inefficiency such as collapsing bridges and failing services. It also makes citizens cynical, so that they believe hard work and honesty cannot succeed, and values break down. The underlying cause is a widespread culture of cutting corners, in which many people offer or accept bribes.","5. Literature. In one paragraph, explain how greed and corruption are shown in The Blood of a Stranger, with reference to at least one character."]}
+],
+"activity":"Do the practice assignment under examination conditions (90 minutes) and mark it against the model answers. Make a note of every error and revise the topic.",
+"check":[
+{"q":"'The man whose car was stolen reported to the police.' 'Whose' shows","o":["possession","time","place","contrast"]},
+{"q":"Which is correct?","o":["Although he was rich, he was unhappy.","Although he was rich but he was unhappy.","Rich although but unhappy he.","Although but rich he was unhappy."]},
+{"q":"The government report that gives its official position on a commission's findings is a","o":["white paper","gazette","circular","memo"]},
+{"q":"'Civil rights' are","o":["citizens' rights to freedom and equality","court fines","police ranks","tax rules"]},
+{"q":"A letter to a newspaper editor should end with","o":["Yours faithfully,","Love,","Cheers,","See you,"]}
+]}
+]

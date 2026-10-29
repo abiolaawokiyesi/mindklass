@@ -1,0 +1,185 @@
+[
+{"id":"ec2-10","week":6,"title":"Money and Trade by Barter","icon":"Landmark","summary":"What money is, how barter works, its advantages and problems, and how money began.",
+"keyWords":["Money","Barter","Double coincidence of wants","Legal tender","Cowries"],
+"sections":[
+{"h":"What is money?","p":["Money is anything that people in a country generally accept as payment for goods and services and for paying debts. It is a medium of exchange that represents value. Money that the law says must be accepted is called legal tender. In Nigeria the legal tender is the naira (N) in notes and coins issued by the Central Bank of Nigeria."]},
+{"h":"Trade by barter","p":["Barter is the direct exchange of goods or services for other goods or services, without using money. It is the oldest form of trade. Examples: exchanging a science textbook for a history textbook, a farmer giving yams for a fisherman's fish, or a plumber repairing a pipe for a dentist who treats the plumber's teeth."]},
+{"h":"Advantages of barter","p":["It is a practical way to trade when people have little cash or when the economy is weak. It uses goods and services that would otherwise be wasted. Natural resources are less likely to be over-used because people trade only what they need. Wealth and power are less likely to be gathered in a few hands. There is no balance of payments or foreign exchange crisis. It reduces waste because people swap what they do not need."]},
+{"h":"Problems of barter","p":["There is no common measure of value, so it is hard to decide how many tomatoes equal one shirt. There is no standard unit of account. There is the double coincidence of wants problem: you must find someone who needs what you have and also has what you need. It is hard to store wealth, especially in perishable goods like yam and fresh tomatoes. It is not possible to make deferred payments (promising to pay later) easily. Large items such as a cow cannot be divided without losing their value."]},
+{"h":"How money began","p":["Money began because of the problems of barter. In the past, different commodities were used as money in different places: cattle, cowries, shells, salt, tobacco and beads. Cowries were used as money in West Africa for centuries. Later, precious metals such as gold and silver were used because they last long, can be divided and are valuable in small amounts.","Paper money began with goldsmiths in London who gave receipts for gold deposited with them. People found it easier to trade with the receipts than with the gold, so the receipts became banknotes and the goldsmiths became bankers. Today, most countries use paper money and coins that are not backed by gold. They work because people trust the government that issued them."]}
+],
+"activity":"Imagine you have 3 tubers of yam and want a pair of shoes. Write what could go wrong if the shoe seller does not want yam. Then explain how money solves this.",
+"check":[
+{"q":"Barter means","o":["Exchanging goods for goods without money","Paying with cheques","Buying with credit cards","Saving in a bank"]},
+{"q":"Needing to find someone who wants what you have and has what you want is","o":["Double coincidence of wants","Inflation","Division of labour","Deferred payment"]},
+{"q":"Which was once used as money in West Africa?","o":["Cowries","Plastic cards","Cheques","Bitcoin"]},
+{"q":"Paper money first came from","o":["Goldsmiths' receipts","Bank loans","Insurance","Cattle"]},
+{"q":"The legal tender in Nigeria is the","o":["Naira","Dollar","Pound","Cowrie"]}]},
+
+{"id":"ec2-11","week":6,"title":"Functions and Qualities of Money","icon":"Zap","summary":"The five functions of money, and the qualities that make good money, including acceptability, portability, durability, divisibility and stability.",
+"keyWords":["Medium of exchange","Store of value","Unit of account","Deferred payment","Stability"],
+"sections":[
+{"h":"Functions of money","p":["1. Medium of exchange: money is accepted in return for goods and services. This removes the problem of double coincidence of wants. This is its most important function.","2. Store of value: money can be kept and used later. To be a good store of value, it must keep its worth over time. If it lost value quickly, nobody would accept it as payment.","3. Unit of account (measure of value): money gives a common unit for pricing everything. We say a pen costs N200 and a book costs N1,000, so we can compare them, record business accounts, and compare wages for different jobs.","4. Standard for deferred (later) payment: money lets people buy now and pay later, borrow and lend, and make contracts that are paid in the future, such as loans and mortgages.","Some books list 'measure of value' and 'unit of account' separately, but they are the same idea."]},
+{"h":"Qualities (characteristics) of good money","p":["General acceptability: everybody is willing to take it, and the law makes it legal tender. Portability: it is easy to carry and move. Durability: it lasts for a long time without wearing out. Ice and fruits are poor money because they melt or spoil. Divisibility: it can be split into small units to buy small things. A cow cannot be divided without losing its value, but N1,000 can be divided into smaller notes and coins. Homogeneity: all units of the same value look and feel the same and are of equal quality. Cognizability: it is easy to recognise and tell its value, and difficult to forge. Stability: its value does not change much from time to time. This is the most important quality, because if the value keeps changing, money cannot work as a measure of value or a store of value. Relative scarcity: it must not be too plentiful, or it will lose its value."],
+"tbl":{"head":["Quality","Meaning","Example of a good or poor money"],"rows":[
+["Acceptability","Everyone takes it","Naira notes: good"],
+["Portability","Easy to carry","Cattle: poor"],
+["Durability","Lasts long","Fruits: poor"],
+["Divisibility","Can be split into units","Notes and coins: good; a cow: poor"],
+["Homogeneity","Units are identical","Two N100 notes: good"],
+["Stability","Value stays steady","Currency in a time of high inflation: poor"]]}}
+],
+"activity":"Choose three items (a goat, a naira note, a mango). For each, say whether it is good money and give two qualities it has or lacks.",
+"check":[
+{"q":"The most important function of money is as a","o":["Medium of exchange","Gift","Weapon","Decoration"]},
+{"q":"Money lets us record the price of different goods in the same unit. This is","o":["Unit of account","Store of value","Legal tender","Divisibility"]},
+{"q":"A cow is a poor form of money because it lacks","o":["Divisibility","Value","Size","Weight"]},
+{"q":"Two ₦100 notes are of the same size and value. This is","o":["Homogeneity","Scarcity","Portability","Stability"]},
+{"q":"The most essential quality of money is often said to be","o":["Stability","Colour","Weight","Size"]}]},
+
+{"id":"ec2-12","week":6,"title":"Types of Money, Money Compared with Barter, and Why People Hold Money","icon":"Layers","summary":"Commodity, representative, fiat, token and deposit money, similarities and differences between money and barter, and the three motives for holding money.",
+"keyWords":["Commodity money","Fiat money","Token money","Deposit money","Liquidity preference"],
+"sections":[
+{"h":"Types (forms) of money","p":["Commodity money: a useful item with value of its own that is used as money, such as gold, cattle, beads and salt.","Representative money: a paper certificate that stands for a commodity kept in a vault. For example, a certificate that can be exchanged for a fixed amount of gold.","Fiat money: money that the government says is legal tender but that is not backed by gold or another commodity. Its value comes from the order of the government and people's trust. Nigerian naira notes are fiat money.","Bank notes and coins (currency): money issued by the central bank, in denominations such as N100, N200, N500 and N1,000. (The old N5, N10, N20 and N50 notes are now coins or are no longer used.)","Token money: coins or notes whose face value is greater than the value of the metal or paper they are made from.","Deposit (bank) money: money in the bank accounts of customers. It can be moved by transfer, cheque or card. A cheque is only an order to the bank to pay; the cheque is not itself money."]},
+{"h":"Money and barter compared","p":["Similarities: the price of goods in both is decided by demand and supply; money and other goods both have markets; the value of both can go up or down; both are used in exchange; people demand both.","Differences: money does not need a double coincidence of wants but barter does. Money gives a common measure of value but barter does not. Money is easy to move but many goods are not. Money is generally acceptable but goods are not. Money can be divided into small units but many goods cannot. Money can last long and store value but many goods spoil."]},
+{"h":"Why people hold money","p":["Economists give three motives (reasons) for holding money in cash form. The transactions motive: to pay for daily needs such as food, transport and school fees. The precautionary motive: to be ready for emergencies such as illness, accidents or death. The speculative motive: to keep cash because you expect prices of goods or shares to fall (so you can buy cheaply later) or to wait for a good chance to invest.","People also hold money because it is a good store of value and is generally acceptable. (The source notes list these two as additional points, but strictly they are reasons why money is useful rather than motives for holding it.)"]}
+],
+"activity":"Draw a table with three columns: type of money, meaning, one example. Fill in at least five types.",
+"check":[
+{"q":"Money declared legal tender by government but not backed by gold is","o":["Fiat money","Commodity money","Representative money","Barter"]},
+{"q":"Holding money to pay for unexpected illness is the","o":["Precautionary motive","Transactions motive","Speculative motive","Barter motive"]},
+{"q":"Cattle and beads are examples of","o":["Commodity money","Fiat money","Deposit money","Token money"]},
+{"q":"Money in a customer's bank account is","o":["Deposit money","Commodity money","Token money","Barter"]},
+{"q":"A difference between money and barter is that money","o":["Needs no double coincidence of wants","Cannot be divided","Cannot be stored","Is not accepted"]}]},
+
+{"id":"ec2-13","week":8,"title":"Channels of Distribution: The Wholesaler and the Retailer","icon":"Users","summary":"The path goods take from producer to consumer, and the functions of wholesalers and retailers.",
+"keyWords":["Channel of distribution","Wholesaler","Retailer","Break bulk","Middlemen"],
+"sections":[
+{"h":"What is a channel of distribution?","p":["A channel of distribution is the path a product takes from the producer to the consumer. It includes the people and firms in between (agents, wholesalers and retailers) and the services of transport, storage and finance. Good distribution makes sure that the right product gets to the right place, at the right time, in the right amount and at a price people can pay."],
+"img":{"src":"eco-channels.png","alt":"Four routes from producer to consumer: direct; producer to retailer to consumer; the long chain through wholesaler and retailer; and the route through an agent","cap":"Channels of distribution. The longer the chain, the more middlemen there are."}},
+{"h":"The wholesaler","p":["A wholesaler buys goods in large quantities from producers and sells them in smaller quantities to retailers.","Functions to the manufacturer: finds a market and advertises products; gives information about the market (what sells and what does not); finances the producer by buying and paying quickly; stores goods so that the producer does not need big warehouses; bears risks such as falling prices, damage and spoilage; gives advice on the kind and quantity of goods to produce.","Functions to the retailer: allows the retailer to stock many kinds of goods; breaks bulk (sells in small amounts because manufacturers sell only in large amounts); gives credit; may deliver goods and so saves the retailer the cost of a van; introduces new products; helps to promote the retailer's sales."]},
+{"h":"The retailer","p":["The retailer is the last link in the chain. Retailers buy from wholesalers and sell to the final consumer.","Functions: they keep a variety of goods near where consumers live. They sometimes sell on credit. They advise customers on the best brand and how to use it. Retail trade needs little capital, so it gives work to many people. They tell producers what customers want, so production is not wasted, and tell customers about new products. They give after-sales service such as delivery and servicing of TVs, cars and radios. They open for long hours, even on holidays, and are close to homes."]}
+],
+"activity":"Trace a packet of noodles from the factory to your home. List each person or business it passes through.",
+"check":[
+{"q":"The last link in the chain of distribution is the","o":["Retailer","Wholesaler","Manufacturer","Agent"]},
+{"q":"A wholesaler who sells in small amounts is performing","o":["Breaking bulk","Advertising only","Exporting","Banking"]},
+{"q":"Who buys from the manufacturer in large quantities?","o":["Wholesaler","Consumer","Retailer","Hawker"]},
+{"q":"After-sales service is performed by the","o":["Retailer","Mining company","Central Bank","Tax office"]},
+{"q":"Which does a wholesaler do for the manufacturer?","o":["Bears risk and stores goods","Sells to final consumers only","Prints money","Grows crops"]}]},
+
+{"id":"ec2-14","week":8,"title":"Government, Co-operative Societies and Distribution","icon":"Landmark","summary":"How government agencies and co-operative societies help distribution and keep prices fair.",
+"keyWords":["Government agencies","Co-operative society","Middlemen","Hoarding","Price stabilisation"],
+"sections":[
+{"h":"The role of government","p":["Government trading agencies (for example, state-owned stores and marketing boards) join in distributive trade to protect consumers. They reduce the number of middlemen in the chain. They reduce the exploitation of consumers by middlemen. They help to stabilise prices. They ensure a regular supply of goods. They prevent hoarding (keeping goods hidden to sell later at higher prices)."]},
+{"h":"Co-operative societies","p":["A co-operative society is a group of people with the same goal who pool their resources. It is run democratically: each member has one vote regardless of how much they have put in. Profits are shared according to how much each member has purchased (or sold) through the society.","Types: consumers' co-operative societies (which may be wholesale or retail associations) and farmers' (producers') co-operative societies."]},
+{"h":"Role of co-operatives in distribution","p":["They give credit to members. They stop hoarding by middlemen. They bring products closer to members. They help stabilise prices by selling at lower prices to members. They sell goods in small amounts to members."]}
+],
+"activity":"Find out whether there is a co-operative society in your school, church or community. Write down what it does for its members.",
+"check":[
+{"q":"Hoarding means","o":["Hiding goods to sell later at higher prices","Selling goods at fair prices","Exporting goods","Advertising goods"]},
+{"q":"In a co-operative society, each member usually has","o":["One vote","Votes equal to money paid","No vote","Votes according to age"]},
+{"q":"Government agencies in distribution aim to","o":["Reduce exploitation by middlemen","Increase middlemen","Raise prices","Stop supply"]},
+{"q":"Profits of a consumers' co-operative are shared according to","o":["Purchases made by members","Age of members","Height of members","Random choice"]}]},
+
+{"id":"ec2-15","week":9,"title":"Business Finance: Equity and Debt","icon":"BarChart2","summary":"How a business raises money by selling ownership (ordinary and preference shares, retained profit) or by borrowing (loans, overdrafts, trade credit, bonds).",
+"keyWords":["Equity","Ordinary shares","Preference shares","Retained earnings","Debt"],
+"sections":[
+{"h":"Why businesses need finance","p":["Finance is the lifeblood of a business. Firms need money to buy equipment and stock, pay workers and expand. The money can come from the owners (equity) or from lenders (debt). Each method has costs and benefits, so a business chooses according to cost, control, repayment terms and its stage of growth."]},
+{"h":"Equity financing: ordinary shares","p":["In equity financing, a company raises money by selling a share of ownership. Buyers become shareholders and share in profits.","Ordinary shares (common stock): holders have voting rights, for example in electing directors. The dividend is not fixed; it is paid only if the company declares a profit. If the company closes down, ordinary shareholders are paid last, so the risk is high. Advantages to the company: no repayment duty, and attracts long-term investors. Disadvantages: control is shared with more people (dilution), and dividends are not an expense that reduces tax."]},
+{"h":"Preference shares","p":["Preference shareholders usually get a fixed dividend, paid before ordinary shareholders, but normally have no voting rights. If the company closes, they are paid before ordinary shareholders but after lenders. Advantages: steady income to investors and lower risk than ordinary shares. Disadvantages: the fixed dividend is a cost to the company whenever profit is available, and preference holders do not gain much when the company grows."]},
+{"h":"Retained earnings","p":["Retained earnings (ploughed-back profit) are profits kept in the business rather than shared as dividends. Advantages: no interest and no repayment, and owners keep full control. Disadvantages: limited by how much profit the company makes, and shareholders may be unhappy if they expected dividends."]},
+{"h":"Debt financing","p":["In debt financing, a business borrows money and repays it with interest. Lenders do not become owners.","Short-term loans: an overdraft lets a business withdraw more than it has in its account up to an agreed limit, and interest is charged only on the amount used. Trade credit means a supplier lets the business take goods now and pay in about 30 to 90 days. Advantages: flexible and easy to get; trade credit usually needs no security. Disadvantages: overdrafts have high interest, and late payment can spoil relations with suppliers.","Long-term loans: term loans are repaid over several years; mortgages are loans secured on property. Advantages: a fixed repayment plan helps planning, and the interest is normally an allowable business expense. Disadvantages: strict repayment, and a defaulter can lose the asset pledged as security; a good credit record is needed.","Bonds (debentures): long-term loans from investors, paid with regular interest and with the principal returned at a fixed date. Advantages: usually lower interest than bank loans, and they can be traded. Disadvantages: the company must pay even in bad times, and it needs a good credit rating."]},
+{"h":"Equity compared with debt","p":["Study the table."],
+"tbl":{"head":["","Equity","Debt"],"rows":[
+["Source","Owners and shareholders","Banks, bondholders, suppliers"],
+["Repayment","None required","Must be repaid with interest"],
+["Control","Shared with new owners","Owners keep control"],
+["Reward to investors","Dividend if profit is made","Fixed interest"],
+["Risk to business","Lower","Higher if profit falls"]]}}
+],
+"activity":"A company needs N10 million. Write which source you would suggest, equity or debt, and give two reasons.",
+"check":[
+{"q":"Holders of ordinary shares usually have","o":["Voting rights","Fixed dividends always","Payment before lenders","No risk"]},
+{"q":"Profit kept in the business is called","o":["Retained earnings","Overdraft","Debenture","Trade credit"]},
+{"q":"A debenture is a","o":["Long-term loan to a company","Ordinary share","Gift","Tax"]},
+{"q":"Which does a business have to repay with interest?","o":["Debt","Ordinary shares","Retained profit","Owner's capital"]},
+{"q":"Preference shareholders are usually paid","o":["Before ordinary shareholders","After ordinary shareholders","Never","Only when they vote"]}]},
+
+{"id":"ec2-16","week":9,"title":"Business Finance: Hybrid and Alternative Sources","icon":"Zap","summary":"Convertible debentures, leasing, venture capital, angel investors and crowdfunding, with how to choose a source.",
+"keyWords":["Convertible debenture","Leasing","Venture capital","Angel investor","Crowdfunding"],
+"sections":[
+{"h":"Hybrid instruments","p":["A hybrid instrument has features of both equity and debt. A convertible debenture is a loan that can later be changed into shares in the company. Advantages: lower interest because of the conversion option, and the company does not give up ownership immediately. Disadvantage: ownership is shared later if the debenture holders convert."]},
+{"h":"Leasing","p":["In leasing, a business uses an asset (such as a vehicle or machine) and pays regular rent to the owner (the lessor), who keeps ownership. Advantages: no big cost at the start, and access to modern equipment without long-term commitment. Disadvantages: total payments may be more than the purchase price, and the business gets no ownership benefits."]},
+{"h":"Venture capital and angel investors","p":["Venture capital firms invest money in young businesses with high growth potential in return for part-ownership (equity). Angel investors are wealthy individuals who invest their own money in early-stage businesses. Advantages: they bring advice, skills and business contacts, and the money need not be repaid if the business fails. Disadvantages: the founders lose some control, and the investors expect large returns."]},
+{"h":"Crowdfunding","p":["Crowdfunding means raising small amounts of money from many people, usually through websites. Advantages: no need for banks, and public interest shows whether the idea has a market. Disadvantages: strong competition for attention, and ideas shown publicly can be copied."]},
+{"h":"Choosing the best source","p":["The best source depends on cost, control, repayment terms and the stage of the business. Equity avoids debt but shares ownership. Debt keeps control but must be repaid. Hybrid and alternative sources can suit businesses with special needs. Other sources in Nigeria include cooperative loans, the Bank of Industry, microfinance banks, esusu contributions and government grants."]}
+],
+"activity":"A young tailor wants a new sewing machine but has no savings. Compare leasing, a bank loan and asking an angel investor. Which would you advise and why?",
+"check":[
+{"q":"Using an asset and paying rent to the owner is","o":["Leasing","Buying","Barter","Retained profit"]},
+{"q":"A bond that can be changed to shares is a","o":["Convertible debenture","Overdraft","Mortgage","Trade credit"]},
+{"q":"Raising small sums from many people online is","o":["Crowdfunding","Leasing","Mortgage","Rights issue"]},
+{"q":"Venture capital usually gives money in return for","o":["Part-ownership","Nothing","Fixed rent","Gold"]},
+{"q":"A disadvantage of venture capital is","o":["Founders may lose some control","No advice","Must repay even if it fails","Cannot be used"]}]},
+
+{"id":"ec2-17","week":10,"title":"The Production Possibility Curve and Opportunity Cost","icon":"Target","summary":"How a country's choices between two goods are shown on the PPC, why it slopes downward and curves outward, and the link with opportunity cost.",
+"keyWords":["Production possibility curve","Opportunity cost","Scarcity","Efficient","Capital goods"],
+"sections":[
+{"h":"What is the PPC?","p":["The production possibility curve (PPC), also called the production possibility boundary, is a graph that shows all the combinations of two goods that a country can produce when it uses all its resources fully and efficiently with the technology it has.","The main idea: resources are limited. To make more of one good, the country must make less of the other. So the PPC slopes downward from left to right."]},
+{"h":"Example: consumer goods and capital goods","p":["Consumer goods (such as food and clothes) satisfy wants directly. Capital goods (such as machines) are used to make other goods. A country has the following choices.",
+"If the country puts all its resources into capital goods, it can make 140 units of capital goods and no consumer goods. If it puts everything into consumer goods, it can make 140 units of consumer goods and no capital goods."],
+"tbl":{"head":["Combination","Consumer goods","Capital goods","Capital goods given up for extra consumer goods"],"rows":[
+["A","0","140","-"],
+["B","40","130","10 for 40"],
+["C","60","120","10 for 20"],
+["D","80","100","20 for 20"],
+["E","100","80","20 for 20"],
+["F","120","50","30 for 20"],
+["G","140","0","50 for 20"]]},
+"img":{"src":"eco-ppc.png","alt":"A curve bowed outward from 140 capital goods at the top left to 140 consumer goods at the bottom right, with points inside and outside the curve marked","cap":"The PPC for consumer goods and capital goods. Points on the curve are efficient; inside the curve is wasteful; outside is not possible now."}},
+{"h":"Reading the graph","p":["On the curve: resources are fully used. Inside the curve (point X): some resources are idle or wasted, for example because of unemployment, so the economy could produce more. Outside the curve (point Y): production is not possible with the present resources and technology. The curve can move outwards if the country gets more resources or better technology (economic growth)."]},
+{"h":"PPC and opportunity cost","p":["Opportunity cost is the next best alternative that is given up when a choice is made. On the PPC, the opportunity cost of getting more of one good is the amount of the other good given up. In the table above, going from D to E means 20 more consumer goods, which costs 20 capital goods. Going from F to G costs 50 capital goods for the same 20 consumer goods. The cost rises because resources are not equally good at making both goods; this is why the curve bends outward.","Second example, with a simple table (cattle and motor vehicles). Notice how the cattle given up for each extra 30 vehicles keeps growing."],
+"tbl":{"head":["Combination","Heads of cattle","Motor vehicles","Cattle given up"],"rows":[
+["A","200","0","-"],
+["B","180","30","20"],
+["C","150","60","30"],
+["D","110","90","40"],
+["E","60","120","50"],
+["F","0","150","60"]]}},
+{"h":"A correction to the source notes","p":["The original South Africa table in the notes lists the points A to F as (200, 0), (170, 30), (100, 70), (80, 130), (40, 150), (0, 180). From C to D, only 20 cattle are given up for 60 more vehicles, which would mean the cost is falling, and it would not make a smooth curve. For clean practice we use the table above."]}
+],
+"activity":"A country can make these combinations of military goods and civilian goods (tonnes): 0 and 200, 20 and 160, 40 and 120, 60 and 80, 80 and 40, 100 and 0. Draw the PPC. What is the opportunity cost of 20 tonnes of military goods? (Answer: 40 tonnes of civilian goods; the curve is a straight line.)",
+"check":[
+{"q":"The PPC slopes downward because","o":["More of one good means less of the other","Prices fall","Taxes rise","Money is scarce only"]},
+{"q":"A point inside the PPC shows","o":["Resources not fully used","Maximum output","An impossible output","Higher technology"]},
+{"q":"A point outside the PPC is","o":["Not attainable with present resources","Efficient","Wasteful","Fixed"]},
+{"q":"Opportunity cost is","o":["The next best alternative given up","Money spent","The cheapest option","Interest earned"]},
+{"q":"Better technology will","o":["Shift the PPC outward","Shift the PPC inward","Remove the PPC","Make the PPC vertical"]}]},
+
+{"id":"ec2-18","week":10,"title":"Total, Average and Marginal Productivity","icon":"BarChart2","summary":"How to work out total, average and marginal product, with a worked table, graphs and the link between them.",
+"keyWords":["Total product","Average product","Marginal product","Variable factor","Diminishing returns"],
+"sections":[
+{"h":"Total product (TP)","p":["Total product (or total output) is the whole quantity produced by all the units of the factors employed. TP = AP × number of workers.","Example: 60 men work on a farm and each produces an average of 30 tonnes of rice. TP = 30 × 60 = 1,800 tonnes."]},
+{"h":"Average product (AP)","p":["Average product is the output per unit of the variable factor (such as labour). AP = TP ÷ number of workers.","Example: 4,000 tonnes of maize are harvested by 80 men in a day. AP = 4,000 ÷ 80 = 50 tonnes per person."]},
+{"h":"Marginal product (MP)","p":["Marginal product is the extra output obtained when one more unit of the variable factor is used. MP = change in TP ÷ change in number of workers. MP can be negative when adding a worker lowers the total output (for example because the field is too crowded).","Example: if the farm adds one man to the 80 men and the harvest becomes 4,080 tonnes, MP = (4,080 − 4,000) ÷ (81 − 80) = 80 tonnes."]},
+{"h":"A worked table","p":["Here is a table for a small farm where land is fixed and the number of workers is changed."],
+"tbl":{"head":["Workers","Total product (kg)","Average product (kg)","Marginal product (kg)"],"rows":[
+["1","4","4","-"],
+["2","12","6","8"],
+["3","24","8","12"],
+["4","40","10","16"],
+["5","45","9","5"],
+["6","48","8","3"],
+["7","42","6","-6"]]},
+"img":{"src":"eco-tpapmp.png","alt":"Two graphs: total product rising to a peak at 6 workers and then falling; average and marginal product curves with marginal product crossing average product at its highest point and going negative at 7 workers","cap":"Total product (top) and average and marginal product (bottom), from the table."}},
+{"h":"How they are related","p":["At first, TP, AP and MP all rise because workers can share tasks and use the land better. MP rises to a highest point (here at 4 workers) and then falls. This is the law of diminishing returns: when more of a variable factor is added to a fixed factor, the extra output eventually starts to fall. TP rises fastest while MP is rising and reaches its highest point when MP is zero or just before it becomes negative. After that, TP falls and MP is negative. MP cuts the AP curve at the highest point of AP (the table shows AP highest at 4 workers, where MP is 16; after that MP is lower than AP so AP falls)."]}
+],
+"activity":"A farm with 5 workers harvests 90 bags. With 6 workers it harvests 96 bags. Find the AP with 6 workers and the MP of the sixth worker. (Answers: AP = 16 bags; MP = 6 bags.)",
+"check":[
+{"q":"Average product equals","o":["Total product ÷ number of workers","Total product × workers","Change in TP ÷ workers","Workers ÷ TP"]},
+{"q":"Marginal product is","o":["The extra output from one more worker","Total output","Output per worker","Price of output"]},
+{"q":"If 30 workers produce 600 units, the average product is","o":["20 units","18,000 units","570 units","630 units"]},
+{"q":"When adding a worker lowers total output, MP is","o":["Negative","Positive","Equal to AP","Infinite"]},
+{"q":"In the table, total product is highest at","o":["6 workers","7 workers","3 workers","1 worker"]}]}
+]

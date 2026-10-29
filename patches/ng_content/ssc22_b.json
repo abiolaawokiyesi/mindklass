@@ -1,0 +1,173 @@
+[
+{"id":"c22-11","week":8,"title":"The Reactivity Series of Metals","icon":"Zap",
+"summary":"The order of reactivity of metals, why it differs, how metals react with oxygen, water, acids and salt solutions, and what the series is used for.",
+"keyWords":["Reactivity series","Displacement","Ionisation energy","Corrosion","Galvanising","Noble metal"],
+"sections":[
+{"h":"The series","p":["Metals do not all react with the same vigour. Potassium and sodium are extremely reactive; gold and platinum are almost inert. Chemists list metals in order of reactivity in the reactivity series: K, Na, Ca, Mg, Al, Zn, Fe, Sn, Pb, (H), Cu, Hg, Ag, Au, Pt.","Top (K, Na, Ca, Mg, Al): very reactive. Middle (Zn, Fe, Sn, Pb): moderately reactive, need heat or steam. Bottom (Cu, Hg, Ag, Au, Pt): least reactive, the noble metals, and are found uncombined in nature."],"img":{"src":"chm2-reactivity-series.jpg","alt":"A staircase diagram of the reactivity series of metals from potassium at the top to platinum at the bottom, with reactivity increasing upwards","cap":"The reactivity series."}},
+{"h":"Why do metals differ?","p":["Reactivity depends on how easily a metal loses electrons to form positive ions. Metals with low ionisation energy (K, Na) lose electrons easily. Metals such as gold and platinum have high ionisation energy and do not form ions easily."]},
+{"h":"Reactions that show reactivity","p":["With oxygen: K and Na burn quickly in air; Mg burns with a dazzling white flame (2Mg + O₂ → 2MgO); Al forms a thin protective layer of Al₂O₃, which is why it does not corrode away; iron slowly forms rust (hydrated iron(III) oxide) in air and water; copper only tarnishes slowly; gold and platinum do not react.","With water: K and Na react violently with cold water (2Na + 2H₂O → 2NaOH + H₂); calcium reacts less violently (Ca + 2H₂O → Ca(OH)₂ + H₂); magnesium reacts slowly with hot water and burns in steam; zinc and iron react only with steam to give the oxide and hydrogen; copper, silver and gold do not react.","With dilute acids: metals above hydrogen displace hydrogen: Zn + H₂SO₄ → ZnSO₄ + H₂. Metals below hydrogen (Cu, Ag, Au) do not react.","Displacement from solutions: a more reactive metal displaces a less reactive one from a salt solution. Zn + CuSO₄ → ZnSO₄ + Cu. An iron nail in copper(II) sulphate solution gets a brown coating of copper and the blue colour fades."]},
+{"h":"Questions in the examination","p":["Order of Zn, Cu, Na, Fe from most to least reactive: Na, Zn, Fe, Cu. Zinc displaces copper from CuSO₄ because zinc is more reactive; copper cannot displace zinc from ZnSO₄ because it is less reactive. Calcium reacts more vigorously with water than magnesium, giving Ca(OH)₂ and H₂, while magnesium reacts only slowly. Aluminium is reactive but resists corrosion because of its protective oxide layer."]},
+{"h":"Uses of the series","p":["To predict which metals can extract others from their compounds; to explain corrosion resistance (gold for jewellery); to design sacrificial protection: zinc coating (galvanising) protects iron because zinc is more reactive and corrodes in its place; and in industry for choosing methods of extraction."]}
+],
+"activity":"Arrange zinc, copper, sodium and iron in order of decreasing reactivity. State three observations when sodium is put in cold water (floats, fizzes, melts into a ball, moves about). A student puts an iron nail in copper(II) sulphate solution; describe and explain what happens.",
+"check":[
+{"q":"The most reactive metal in the list K, Zn, Cu, Fe is","o":["K","Zn","Cu","Fe"]},
+{"q":"Zn + CuSO₄ →","o":["ZnSO₄ + Cu","CuZn + SO₄","no reaction","Zn + CuO"]},
+{"q":"Aluminium resists corrosion because it","o":["forms a protective oxide layer","is unreactive","is a noble metal","is heavy"]},
+{"q":"Metals below hydrogen in the series","o":["do not displace hydrogen from dilute acids","displace hydrogen easily","explode in acid","dissolve in water"]},
+{"q":"Zinc protects iron in galvanising because zinc is","o":["more reactive than iron","less reactive than iron","a non-metal","a gas"]}
+]},
+
+{"id":"c22-12","week":8,"title":"Refining of Metals","icon":"Target",
+"summary":"Why metals must be refined and the methods used: electrolytic refining, liquation, distillation, zone refining and cupellation.",
+"keyWords":["Refining","Electrolytic refining","Anode mud","Liquation","Zone refining","Cupellation"],
+"sections":[
+{"h":"Why refine?","p":["Metals obtained from their ores are not pure: they contain sand, clay or other metals. Refining improves strength, electrical conductivity and usefulness. Copper must be pure for electric wires, aluminium for aircraft, gold and silver for jewellery, and silicon and germanium must be ultra-pure for electronic chips."]},
+{"h":"1. Electrolytic refining","p":["The most common method, used for copper, silver, gold and others. The impure metal is the anode, a thin sheet of pure metal is the cathode, and the electrolyte is a solution of a salt of the metal.","Copper refining: electrolyte CuSO₄ with H₂SO₄. Anode: Cu → Cu²⁺ + 2e⁻ (the impure copper dissolves). Cathode: Cu²⁺ + 2e⁻ → Cu (pure copper is deposited). Metals less reactive than copper (silver, gold) do not dissolve and fall to the bottom as anode mud, which is valuable. More reactive impurities (such as zinc and iron) dissolve and stay in solution."]},
+{"h":"2. Liquation","p":["For metals with low melting points (tin, lead). The impure metal is heated on a sloping surface. The pure metal melts and flows down, and the impurities with high melting points stay behind."]},
+{"h":"3. Distillation","p":["For volatile metals such as zinc and mercury. The impure metal is heated until it vaporises; the vapour is condensed to pure metal."]},
+{"h":"4. Zone refining","p":["For metals that must be extremely pure (silicon, germanium). A narrow molten zone is passed slowly along a rod by a moving heater. Impurities are more soluble in the molten zone, so they are carried to one end, leaving pure metal behind."]},
+{"h":"5. Cupellation","p":["For silver and other noble metals. The impure metal is heated in a porous cup (a cupel) in air. Base metals such as lead and copper oxidise and are absorbed by the cupel, leaving the pure noble metal."]},
+{"h":"A calculation","p":["A 500 g sample of impure zinc contains 10% impurities. Mass of impurities = 10/100 × 500 = 50 g. Pure zinc = 500 − 50 = 450 g (if the refining removes all of the impurities)."]}
+],
+"activity":"List four methods of refining metals and name a metal purified by each. In the electrolytic refining of copper, state the function of the anode, the cathode and the electrolyte. Why do silver and gold collect in the anode mud (they are less reactive than copper and do not dissolve)? Why is zone refining suited to silicon?",
+"check":[
+{"q":"In electrolytic refining of copper the cathode is","o":["pure copper","impure copper","carbon only","zinc"]},
+{"q":"Gold and silver in impure copper collect as","o":["anode mud","cathode deposit","gas","solution"]},
+{"q":"Zone refining is used for","o":["silicon and germanium","iron","lead","sodium"]},
+{"q":"Liquation is suitable for metals with","o":["low melting points","very high melting points","magnetic properties","coloured ions"]},
+{"q":"500 g of zinc with 10% impurities gives pure zinc of","o":["450 g","50 g","400 g","490 g"]}
+]},
+
+{"id":"c22-13","week":9,"title":"Non-Metals: General Properties and Hydrogen","icon":"Layers",
+"summary":"General properties of non-metals, and the occurrence, preparation, properties and uses of hydrogen.",
+"keyWords":["Non-metal","Hydrogen","Reducing agent","Haber process","Hydrogenation","Test for hydrogen"],
+"sections":[
+{"h":"General properties of non-metals","p":["Non-metals are on the right of the periodic table (hydrogen is an exception). They usually gain electrons to form negative ions, or share electrons in covalent bonds. They are electronegative. They are not shiny, malleable or ductile. They may be solids (sulphur, phosphorus, carbon), a liquid (bromine) or gases (hydrogen, oxygen, nitrogen, chlorine).","They are poor conductors of electricity (except graphite); they have low melting and boiling points (except diamond and graphite); they form acidic oxides (CO₂, SO₂, P₂O₅); they form volatile covalent compounds with hydrogen (HCl, NH₃); and they have variable oxidation states."]},
+{"h":"Hydrogen: occurrence","p":["Hydrogen is the most abundant element in the universe. On Earth it is found combined in water, hydrocarbons (CH₄), acids (HCl, H₂SO₄) and living matter (proteins, carbohydrates, fats)."]},
+{"h":"Laboratory preparation","p":["Zinc and dilute hydrochloric acid: Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g). Use a flask, thistle funnel and delivery tube. Collect over water or by upward delivery (downward displacement of air), because hydrogen is much less dense than air. Dry it with calcium chloride or concentrated sulphuric acid.","Another way: 2Na + 2H₂O → 2NaOH + H₂ (dangerous, only for demonstration). Test for hydrogen: it burns with a 'pop' when a lighted splint is put to it."]},
+{"h":"Physical properties","p":["A colourless, odourless, tasteless gas. The lightest gas (density about 0.07 relative to air, which is 1). Slightly soluble in water. Neutral to litmus."]},
+{"h":"Chemical properties","p":["1. Burns in oxygen with a pale blue flame to form water: 2H₂ + O₂ → 2H₂O. 2. With chlorine in sunlight (explosive): H₂ + Cl₂ → 2HCl. 3. As a reducing agent, it reduces metal oxides: CuO + H₂ → Cu + H₂O (black copper oxide turns pink-brown). 4. With nitrogen to make ammonia: N₂ + 3H₂ ⇌ 2NH₃ (iron catalyst, about 450 °C, 200 atm). 5. With unsaturated compounds in the presence of nickel (hydrogenation): C₂H₄ + H₂ → C₂H₆."]},
+{"h":"Uses","p":["Making ammonia (Haber process) for fertilisers; hydrogenation of vegetable oils to make margarine; rocket fuel (liquid hydrogen with liquid oxygen); oxy-hydrogen flames for welding; as a reducing agent in extracting metals; filling balloons (non-flammable helium is used instead, for safety)."]}
+],
+"activity":"List four general properties of non-metals. Write equations for the laboratory preparation of hydrogen. Why is hydrogen called a reducing agent? State three uses of hydrogen.",
+"check":[
+{"q":"Hydrogen is tested with a lighted splint, which gives","o":["a pop","a bright flame only","no reaction","a green flame"]},
+{"q":"Zn + 2HCl →","o":["ZnCl₂ + H₂","ZnH₂ + Cl₂","ZnO + HCl","Zn + HClO"]},
+{"q":"Hydrogen reduces CuO to","o":["copper","copper sulphate","copper hydroxide","copper carbonate"]},
+{"q":"Non-metal oxides are generally","o":["acidic","basic","neutral only","amphoteric only"]},
+{"q":"The metal catalyst in the hydrogenation of oils is","o":["nickel","iron","vanadium","platinum only"]}
+]},
+
+{"id":"c22-14","week":9,"title":"Oxygen and Nitrogen","icon":"Target",
+"summary":"Occurrence, preparation, properties and uses of oxygen and nitrogen, with a comparison table for hydrogen, oxygen and nitrogen.",
+"keyWords":["Oxygen","Nitrogen","Oxide","Haber process","Liquid air","Inert"],
+"sections":[
+{"h":"Oxygen: occurrence and preparation","p":["Oxygen makes up about 21% of air and is found in water, oxides and minerals. Laboratory preparations: (1) decomposition of hydrogen peroxide with manganese(IV) oxide as catalyst: 2H₂O₂ → 2H₂O + O₂; (2) heating potassium chlorate with MnO₂: 2KClO₃ → 2KCl + 3O₂. Collect over water. Dry with calcium chloride or concentrated H₂SO₄. Test: it relights a glowing splint. Industrially it is obtained by the fractional distillation of liquid air."],"img":{"src":"chm2-nonmetal-cycle.jpg","alt":"A cycle diagram of hydrogen, oxygen and nitrogen with their sources and uses","cap":"Hydrogen, oxygen and nitrogen and their uses."}},
+{"h":"Oxygen: properties and uses","p":["Colourless, odourless, tasteless gas; slightly soluble in water; a little denser than air; neutral to litmus. It supports combustion (a candle burns brighter in it). With metals: 2Mg + O₂ → 2MgO. With non-metals: C + O₂ → CO₂; S + O₂ → SO₂. Oxides may be basic (Na₂O, CaO), acidic (SO₂, CO₂) or amphoteric (ZnO, Al₂O₃).","Uses: respiration and combustion; oxygen for patients in hospitals; oxy-acetylene welding; steel making; and the oxidiser in rocket fuel."]},
+{"h":"Nitrogen: occurrence and preparation","p":["Nitrogen makes up about 78% of air. It is found in nitrates (KNO₃, NaNO₃), proteins and fertilisers. Industrially it is obtained by the fractional distillation of liquid air (nitrogen boils at −196 °C, before oxygen at −183 °C). Removing oxygen from air with alkaline pyrogallol leaves nitrogen mixed with noble gases. Pure nitrogen in the laboratory: heat ammonium nitrite, NH₄NO₂ → N₂ + 2H₂O (usually made by warming ammonium chloride with sodium nitrite solution)."]},
+{"h":"Nitrogen: properties and uses","p":["Colourless, odourless, tasteless gas, slightly soluble in water, a little lighter than air. It is very unreactive at room temperature because of the strong triple bond N≡N. At high temperature or in an electric spark: N₂ + 3H₂ ⇌ 2NH₃ (with Fe catalyst, 450 °C, 200 atm); N₂ + O₂ → 2NO; 3Mg + N₂ → Mg₃N₂ (magnesium nitride).","Uses: making ammonia and fertilisers; nitric acid (the Ostwald process); liquid nitrogen as a coolant; an inert atmosphere for packing food and in electric bulbs; and explosives (TNT, nitroglycerine)."]},
+{"h":"Comparison","p":["Study the table."],"tbl":{"head":["Property","Hydrogen (H₂)","Oxygen (O₂)","Nitrogen (N₂)"],"rows":[["Percentage in air","0.01% or less","21%","78%"],["Density","Lightest gas","Heavier than air","Slightly lighter than air"],["Reactivity","Moderate; reducing agent","Strong oxidising agent","Very unreactive at room temperature"],["Solubility in water","Slightly soluble","Slightly soluble","Slightly soluble"],["Industrial use","Haber process, welding","Respiration, welding, steel","Fertilisers, preservation"]]}}
+],
+"activity":"Write balanced equations for oxygen with magnesium, carbon and sulphur. Explain why nitrogen is unreactive at room temperature. Explain the roles of the iron catalyst and of high pressure and moderate temperature in the Haber process. Describe an industrial use of liquid hydrogen, liquid oxygen and liquid nitrogen.",
+"check":[
+{"q":"Oxygen relights a","o":["glowing splint","damp litmus","limewater","burning magnesium only"]},
+{"q":"Nitrogen is unreactive at room temperature because of its","o":["strong triple bond","low density","colour","solubility"]},
+{"q":"Industrially, nitrogen is obtained from","o":["liquid air","water","limestone","petrol"]},
+{"q":"2KClO₃ (with MnO₂, heat) gives","o":["2KCl + 3O₂","K₂O + Cl₂ + O₂","KCl + 3O₂","2K + Cl₂ + O₂"]},
+{"q":"The percentage of nitrogen in air is about","o":["78%","21%","1%","50%"]}
+]},
+
+{"id":"c22-15","week":10,"title":"Hardness of Water","icon":"Layers",
+"summary":"What makes water hard, temporary and permanent hardness, and methods of softening hard water with equations.",
+"keyWords":["Hard water","Temporary hardness","Permanent hardness","Washing soda","Zeolite","Calgon"],
+"sections":[
+{"h":"What is hard water?","p":["Hard water does not form a lather easily with soap but makes a white scum. It contains dissolved salts of calcium and magnesium. Soft water lathers easily. 2C₁₇H₃₅COONa + Ca²⁺ → (C₁₇H₃₅COO)₂Ca↓ + 2Na⁺ (scum)."]},
+{"h":"Temporary hardness","p":["Caused by calcium hydrogencarbonate, Ca(HCO₃)₂, and magnesium hydrogencarbonate, Mg(HCO₃)₂. They form when rain water containing dissolved CO₂ flows over limestone or chalk: CaCO₃ + CO₂ + H₂O → Ca(HCO₃)₂ (soluble).","Removal: (1) boiling: Ca(HCO₃)₂ → CaCO₃↓ + CO₂ + H₂O (the insoluble carbonate forms 'fur' or scale in kettles and boilers); (2) adding slaked lime, Ca(OH)₂ (Clark's method): Ca(HCO₃)₂ + Ca(OH)₂ → 2CaCO₃↓ + 2H₂O."]},
+{"h":"Permanent hardness","p":["Caused by the sulphates and chlorides (and nitrates) of calcium and magnesium (CaSO₄, MgSO₄, CaCl₂, MgCl₂). They are soluble and cannot be removed by boiling.","Removal: (1) washing soda, Na₂CO₃: CaSO₄ + Na₂CO₃ → CaCO₃↓ + Na₂SO₄ (also removes temporary hardness). (2) Ion exchange (zeolite or permutit): zeolite is a sodium aluminosilicate, Na₂Z. Na₂Z + Ca²⁺ → CaZ + 2Na⁺. When the zeolite is used up, it is regenerated by passing concentrated sodium chloride solution through it. (3) Calgon: sodium hexametaphosphate binds Ca²⁺ and Mg²⁺ in a soluble complex, so they cannot form scum."]},
+{"h":"Advantages and disadvantages of hard water","p":["Advantages: the calcium helps to build bones and teeth, and it gives a good taste. Disadvantages: it wastes soap, leaves scum, and forms scale in boilers, kettles and pipes, which wastes fuel and can block pipes."]},
+{"h":"Test","p":["Shake a sample with soap solution. Soft water gives a lather at once. Hard water gives scum, and more soap is needed before lather forms. After boiling, if the lather forms easily, the hardness was temporary."]}
+],
+"activity":"Distinguish between temporary and permanent hardness, with causes. Show with equations how boiling removes temporary hardness and how washing soda removes permanent hardness. Write short notes on the ion exchange and Calgon methods.",
+"check":[
+{"q":"Temporary hardness is caused by","o":["calcium hydrogencarbonate","calcium sulphate","sodium chloride","potassium nitrate"]},
+{"q":"Permanent hardness is removed by","o":["washing soda","boiling","filtering","cooling"]},
+{"q":"Boiling temporary hard water produces","o":["a precipitate of CaCO₃","CaSO₄","NaCl","soap"]},
+{"q":"A zeolite is regenerated with","o":["concentrated NaCl solution","dilute HCl","limewater","distilled water"]},
+{"q":"Hard water with soap gives","o":["scum","a good lather","a gas","a blue colour"]}
+]},
+
+{"id":"c22-16","week":10,"title":"Purification of Water and Water Quality Control","icon":"Heart",
+"summary":"The steps of municipal water treatment, distilled water, the parameters of water quality and why quality control is important.",
+"keyWords":["Water purification","Coagulation","Alum","Chlorination","Water quality","Potable water"],
+"sections":[
+{"h":"Purifying water","p":["Water purification removes unwanted chemical, biological and physical impurities to make water safe to drink and to use. Steps in a municipal water works:"],"img":{"src":"chm2-water-purification.jpg","alt":"A flow diagram of water purification: screening, sedimentation, coagulation, filtration, chlorination and storage","cap":"Steps in water treatment."}},
+{"h":"The steps","p":["1. Screening: wire screens remove leaves, sticks and plastics. 2. Sedimentation: the water stands in large tanks so that suspended particles settle. 3. Coagulation (flocculation): alum, KAl(SO₄)₂·12H₂O, is added. It hydrolyses to give jelly-like Al(OH)₃, which traps fine particles, bacteria and colloids in large lumps (flocs) that settle. 4. Filtration: through beds of sand, gravel and sometimes activated charcoal; the charcoal removes bad taste and smell. 5. Chlorination: a small amount of chlorine, or sodium hypochlorite, kills germs: Cl₂ + H₂O → HCl + HOCl, where hypochlorous acid is the germ killer. 6. Aeration: air is bubbled through to remove H₂S and CO₂ and to add oxygen, which improves the taste. 7. Softening where needed (lime-soda or ion exchange). 8. Distillation: for laboratories only; it gives pure water free from salts and germs."]},
+{"h":"Distilled water and potable water","p":["Distilled water is pure water made by distillation, with no dissolved salts. It is used in laboratories, for preparing solutions and in car batteries, but it is not good for regular drinking because it lacks minerals. Potable water is safe to drink: it is free from harmful germs and poisons, though it contains useful dissolved minerals."]},
+{"h":"Water quality control","p":["This means monitoring, testing and regulating water so that it meets safety standards.","Physical: colourless, tasteless, odourless and clear (low turbidity).","Chemical: pH 6.5 to 8.5; hardness below about 150 ppm; low chloride; no lead, cadmium, mercury or arsenic above safe limits.","Biological: free from harmful microbes; coliform bacteria show faecal contamination."]},
+{"h":"Why quality control matters","p":["It prevents cholera, dysentery and typhoid; it protects public health; it prevents scale and corrosion in boilers and pipes; it ensures suitable water for medicines, drinks, textiles and electronics; and it meets standards set by WHO and NAFDAC. Governments can protect water quality by treating sewage, controlling industrial waste, testing supplies regularly, protecting water sources and educating the public."]}
+],
+"activity":"List six steps in municipal water treatment. Mention three physical, three chemical and two biological parameters of water quality. Distinguish between distilled water and potable water, with a use of each.",
+"check":[
+{"q":"Alum is used in water treatment for","o":["coagulation","softening only","bleaching","distillation"]},
+{"q":"The germ killer in chlorinated water is","o":["hypochlorous acid","hydrochloric acid","sodium chloride","chloride ions"]},
+{"q":"The acceptable pH range for drinking water is","o":["6.5 to 8.5","1 to 3","10 to 14","3 to 5"]},
+{"q":"Coliform bacteria show","o":["faecal contamination","hard water","low pH","dissolved oxygen"]},
+{"q":"Activated charcoal removes","o":["bad taste and smell","hardness","chloride","germs only"]}
+]},
+
+{"id":"c22-17","week":11,"title":"Environmental Pollution: Types and Causes","icon":"Heart",
+"summary":"Pollution and pollutants, biodegradable and non-biodegradable pollutants, and the causes of air, water, soil, noise, thermal and radioactive pollution.",
+"keyWords":["Pollution","Pollutant","Biodegradable","Smog","Eutrophication","Soil pollution"],
+"sections":[
+{"h":"Meaning","p":["The environment is everything around us that affects living things: air, water, soil, plants and animals. Pollution is a harmful change in the physical, chemical or biological character of the environment. It may be natural (volcanic eruptions, dust storms) or man-made (industry, deforestation, burning of fuels). A pollutant is a substance that causes pollution.","Biodegradable pollutants are broken down by microbes (food waste, sewage, paper). Non-biodegradable pollutants stay in the environment and build up in food chains (plastics, heavy metals, DDT, radioactive isotopes)."]},
+{"h":"Air pollution","p":["Carbon monoxide: from incomplete burning of petrol; it combines with haemoglobin. Carbon dioxide: burning fuels and deforestation; global warming. Sulphur dioxide: coal burning, refineries, volcanoes; acid rain. Nitrogen oxides: vehicles and industry; smog and acid rain. Particulates (dust, smoke, soot, asbestos): factories and cement works; lung disease. CFCs: refrigerants and aerosols; they destroy the ozone layer. Smog in big cities reduces visibility and causes breathing problems."]},
+{"h":"Water pollution","p":["Sewage and domestic waste (cholera, typhoid, dysentery). Industrial effluents with mercury, cadmium and lead (the Minamata disease in Japan was mercury poisoning from industrial waste). Agricultural run-off with nitrates and phosphates: eutrophication, from nutrients to algal bloom to oxygen loss to death of aquatic life. Oil spills coat the water surface and stop oxygen dissolving."]},
+{"h":"Soil pollution","p":["The damage of land by harmful chemicals, waste or bad land use: too much pesticide (for example DDT) and fertiliser; dumping of plastics, metals and glass; oil spills; acid rain; and mining waste."]},
+{"h":"Other types","p":["Noise pollution: unwanted loud sound from traffic, generators, machines and loudspeakers; it causes stress and hearing loss. Thermal pollution: hot waste water from power stations and factories reduces the oxygen in rivers. Radioactive pollution: from nuclear accidents, nuclear tests and waste; the radiation lasts a very long time (Chernobyl 1986 and Fukushima 2011)."]}
+],
+"activity":"Define pollution. Distinguish between biodegradable and non-biodegradable pollutants, with examples. List four causes of air pollution and say how each affects health. Describe eutrophication.",
+"check":[
+{"q":"A non-biodegradable pollutant is","o":["plastic","food waste","sewage","paper"]},
+{"q":"Carbon monoxide is poisonous because it","o":["combines with haemoglobin","dissolves in blood","makes the blood acidic","is radioactive"]},
+{"q":"Minamata disease was caused by","o":["mercury","lead","chlorine","sulphur"]},
+{"q":"Hot water from a factory causes","o":["thermal pollution","noise pollution","acid rain","smog"]},
+{"q":"The gases that destroy the ozone layer are","o":["CFCs","CO₂","N₂","CH₄ only"]}
+]},
+
+{"id":"c22-18","week":11,"title":"Effects and Control of Pollution","icon":"Shield",
+"summary":"How pollution harms health, plants, aquatic life, climate and ecosystems, and the control measures for each kind of pollution.",
+"keyWords":["Effects of pollution","Acid rain","Ozone","Control measures","Catalytic converter","Sustainability"],
+"sections":[
+{"h":"Effects of pollution","p":["On health: breathing diseases (asthma, bronchitis, lung cancer) from air pollutants; brain and nerve damage from lead and mercury; stomach diseases from dirty water; stress and hearing loss from noise.","On plants and farming: acid rain destroys crops and washes out soil nutrients; heavy metals build up in plants and enter food chains; oil spills ruin farmland.","On water life: fish kills from oxygen loss after eutrophication; mercury and cadmium in fish are harmful when eaten; oil spills and acidification damage coral reefs.","On climate and ecosystems: global warming from CO₂ and CH₄; ozone layer damage that increases ultraviolet radiation (skin cancer and cataracts); loss of species and biodiversity."]},
+{"h":"Acid rain (revision)","p":["SO₂ and NOₓ dissolve in rain to form H₂SO₄ and HNO₃. Effects: kills plants and fish in lakes, damages soil, corrodes buildings, statues and metal roofs, and harms health."]},
+{"h":"Control: air","p":["Use cleaner fuels (biofuel, LPG, solar); fit catalytic converters to vehicles (they change CO and NOₓ to CO₂ and N₂); fit scrubbers and filters to factory chimneys; plant trees (afforestation) to absorb CO₂."]},
+{"h":"Control: water and soil","p":["Treat sewage before release; use biodegradable detergents; clean up oil spills quickly with dispersants and absorbents; control industrial effluent by law. Recycle and reuse materials; practise organic farming to reduce fertiliser and pesticide use; use controlled landfills and proper waste disposal."]},
+{"h":"Control: noise, heat and radiation","p":["Use silencers on engines and machines; separate residential and industrial areas by law; enforce noise rules. Cool hot waste water before releasing it, using cooling towers. Store nuclear waste securely underground, follow international treaties and use shielding and monitoring in nuclear plants."]},
+{"h":"Why control pollution?","p":["It protects the health of people and animals; it protects living things and ecosystems; it helps to prevent climate change and disasters; it makes sure that resources can be used for a long time (sustainability); and it leaves a cleaner world for future generations."]}
+],
+"activity":"Explain how acid rain forms and give three harmful effects. Mention two historical examples of radioactive pollution and their results. Write a short report on three practical ways your community can reduce pollution.",
+"check":[
+{"q":"A catalytic converter in a car changes","o":["CO and NOₓ into CO₂ and N₂","water into steam","petrol into diesel","CO₂ into O₂"]},
+{"q":"Ozone layer damage increases","o":["ultraviolet radiation at the surface","infrared radiation","rainfall","wind speed"]},
+{"q":"A way to reduce soil pollution is","o":["recycling non-biodegradable waste","burning plastic","using more pesticides","dumping waste in rivers"]},
+{"q":"Cooling towers reduce","o":["thermal pollution","noise pollution","acid rain","soil erosion"]},
+{"q":"Planting trees helps to reduce","o":["carbon dioxide in the air","noise only","radiation","oil spills"]}
+]},
+
+{"id":"c22-19","week":11,"title":"Second Term Revision","icon":"BookOpen",
+"summary":"A revision table and mixed practice questions for Second Term Chemistry.",
+"keyWords":["Revision","Soap","Nuclear","Halogens","Metals","Water","Pollution"],
+"sections":[
+{"h":"Key facts","p":["Use the table to revise."],"tbl":{"head":["Topic","Key facts"],"rows":[["Soap and detergents","Saponification: fat + NaOH → glycerol + soap; micelles; scum in hard water; detergents are biodegradable if linear"],["Nuclear chemistry","α (He nucleus), β (electron), γ (waves); half-life; uses and dangers"],["Halogens","Reactivity falls down the group; displacement reactions; Cl₂ bleaches by HOCl"],["Groups 1 and 2","ns¹ and ns²; reactivity increases down the group; flame colours"],["Transition elements","Variable oxidation states, coloured ions, catalysts, complex ions"],["Metals","Reactivity series; refining by electrolysis; displacement"],["Non-metals","H₂ (reducing agent), O₂ (supports burning), N₂ (inert)"],["Water","Temporary hardness: boiling; permanent: washing soda or ion exchange; treatment steps"],["Pollution","Air, water, soil, noise, thermal and radioactive; control measures"]]}},
+{"h":"Mixed practice","p":["1. Write the equation for the saponification of a triglyceride with NaOH. 2. A 160 g sample with a half-life of 3 hours: after 9 hours, 20 g remain. 3. Cl₂ + 2KBr → 2KCl + Br₂. 4. Name the colour of the flame of sodium (yellow), potassium (lilac) and calcium (brick-red). 5. Name the metal that is more reactive: zinc or copper (zinc). 6. How is temporary hardness removed? (By boiling: Ca(HCO₃)₂ → CaCO₃ + CO₂ + H₂O.) 7. What gas causes acid rain? (SO₂ and NOₓ.)"]}
+],
+"activity":"Without notes, write the equation for saponification, the order of the halogens by reactivity, and the steps of water treatment. Check against the table.",
+"check":[
+{"q":"Soap and glycerol are formed when a fat is heated with","o":["NaOH","HCl","water only","hydrogen"]},
+{"q":"After 3 half-lives, 80 g of a radioisotope becomes","o":["10 g","40 g","20 g","27 g"]},
+{"q":"Temporary hardness is removed by","o":["boiling","adding salt","cooling","filtering"]},
+{"q":"The most reactive halogen is","o":["fluorine","chlorine","bromine","iodine"]},
+{"q":"A gas that causes acid rain is","o":["SO₂","N₂","O₂","He"]}
+]}
+]

@@ -1,0 +1,209 @@
+[
+{"id":"ch3-10","week":6,"title":"Chemical Reactions: Combination and Decomposition","icon":"Zap","summary":"What a chemical reaction is, its signs, and the combination and decomposition types with equations and uses.",
+"keyWords":["Chemical reaction","Combination","Decomposition","Thermal decomposition","Electrolysis"]
+,"sections":[
+{"h":"What is a chemical reaction?","p":["A chemical reaction is a process in which substances (reactants) change into new substances (products) with different composition and properties. In it, bonds in the reactants are broken and new bonds are formed. Example: 2H₂(g) + O₂(g) → 2H₂O(l).","Signs of a chemical reaction: a gas is given off; a colour change; heat or light is given out or taken in; a precipitate (solid) forms. Other features: there is always an energy change; mass is conserved (the law of conservation of mass); many reactions cannot easily be reversed.","Everyday examples: cooking food, burning fuel, rusting of iron, photosynthesis."]},
+{"h":"Types of reaction","p":["Reactions can be grouped as combination, decomposition and displacement (and others, such as neutralisation and redox, which you have met). This unit covers the first two."]},
+{"h":"Combination (synthesis) reactions","p":["Two or more simple substances join to form one product: A + B → AB.","Examples: 2Mg(s) + O₂(g) → 2MgO(s) (magnesium burns with a bright white flame, leaving white ash). C(s) + O₂(g) → CO₂(g). N₂(g) + 3H₂(g) → 2NH₃(g) (Haber process). CaO(s) + H₂O(l) → Ca(OH)₂(aq) (making slaked lime, used in cement and to treat acid soil).","Features: usually exothermic (give out heat) and only one product. Uses: burning fuels for energy, making ammonia for fertiliser, cement.","Note: the source notes give photosynthesis as an example of combination. Photosynthesis (6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂) is not a simple one-product combination and is endothermic, as it takes in energy from sunlight, so we do not treat it as a typical combination reaction. Also, not every combination reaction is exothermic (N₂ + O₂ → 2NO takes in heat)."]},
+{"h":"Decomposition reactions","p":["One compound breaks down into two or more simpler substances: AB → A + B. Usually energy must be supplied (endothermic).","Thermal decomposition (by heat): CaCO₃(s) → CaO(s) + CO₂(g); 2KClO₃(s) → 2KCl(s) + 3O₂(g) (with MnO₂ as a catalyst; used to prepare oxygen in the laboratory).","Electrolytic decomposition (by electricity): 2H₂O(l) → 2H₂(g) + O₂(g) (by electrolysis).","Photolytic decomposition (by light): 2AgCl(s) → 2Ag(s) + Cl₂(g). This is why silver salts are kept in dark bottles and why photographic film is kept away from light.","Uses: preparing gases in the laboratory, making lime from limestone, electrolysis, photography. Decomposition of food by microbes leads to spoilage."]},
+{"h":"Summary","p":["Study the table."],
+"tbl":{"head":["Type","General form","Example","Energy"],"rows":[
+["Combination","A + B → AB","2Mg + O₂ → 2MgO","Usually exothermic"],
+["Decomposition","AB → A + B","CaCO₃ → CaO + CO₂","Usually endothermic"]]}}
+],
+"activity":"Write balanced equations for (a) burning of magnesium in oxygen, (b) heating calcium carbonate. Say which is combination and which is decomposition.",
+"check":[
+{"q":"2Mg + O₂ → 2MgO is a","o":["Combination reaction","Decomposition reaction","Displacement reaction","Neutralisation"]},
+{"q":"CaCO₃ → CaO + CO₂ is a","o":["Thermal decomposition","Combination","Displacement","Neutralisation"]},
+{"q":"A sign of a chemical reaction is","o":["A gas given off or a colour change","A change of shape only","Dissolving sugar only","Tearing paper"]},
+{"q":"Silver salts are stored in dark bottles because they undergo","o":["Photolytic decomposition","Combustion","Neutralisation","Evaporation"]},
+{"q":"Decomposition reactions generally","o":["Absorb energy","Release large amounts of heat always","Give one product","Need no energy"]}]},
+
+{"id":"ch3-11","week":6,"title":"Displacement Reactions and the Reactivity Series","icon":"Target","summary":"How a more reactive element displaces a less reactive one, with metals and halogens, the reactivity series, and uses such as galvanising.",
+"keyWords":["Displacement","Reactivity series","Galvanising","Halogen","More reactive"]
+,"sections":[
+{"h":"What is displacement?","p":["In a displacement reaction a more reactive element takes the place of a less reactive element in a compound: A + BC → AC + B.","Examples: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s): zinc is more reactive than copper, so it displaces copper (the blue solution fades and brown copper forms). Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s): iron displaces copper (an iron nail in copper sulphate becomes coated with copper). Cl₂(g) + 2KBr(aq) → 2KCl(aq) + Br₂(aq): chlorine is more reactive than bromine, so it displaces bromine (the solution turns orange).","The reverse reactions do not happen: copper does not displace zinc from zinc sulphate, because copper is less reactive than zinc."]},
+{"h":"The reactivity series","p":["The reactivity series lists metals from the most reactive to the least reactive. A metal higher in the list can displace one lower in the list from its compound."],
+"img":{"src":"chem-reactivity-series.png","alt":"A vertical list of metals from potassium at the top, most reactive, through sodium, calcium, magnesium, aluminium, zinc, iron, lead, hydrogen, copper, silver to gold at the bottom, least reactive","cap":"The reactivity series of metals."}},
+{"h":"Uses and applications","p":["Extraction of metals: carbon displaces (reduces) iron from its oxide, Fe₂O₃ + 3CO → 2Fe + 3CO₂, because carbon is more reactive than iron in a furnace. Galvanising: iron is coated with zinc; even if scratched the zinc, being more reactive, reacts first, so the iron does not rust. Recovering metals: copper can be recovered from solution by adding scrap iron. Water purification: halogen displacement and the reactions of chlorine.","Predicting: will Fe react with CuSO₄? Yes (iron is above copper). Will Cu react with ZnSO₄? No. Will Mg react with HCl? Yes (magnesium is above hydrogen), giving hydrogen and magnesium chloride."]},
+{"h":"Summary table","p":["Study the table."],
+"tbl":{"head":["Type","General form","Example","Notes"],"rows":[
+["Combination","A + B → AB","2Mg + O₂ → 2MgO","Often exothermic"],
+["Decomposition","AB → A + B","CaCO₃ → CaO + CO₂","Often endothermic"],
+["Displacement","A + BC → AC + B","Zn + CuSO₄ → ZnSO₄ + Cu","Depends on reactivity"]]}}
+],
+"activity":"Use the reactivity series to say whether each will happen: (a) Fe + CuSO₄, (b) Cu + ZnSO₄, (c) Mg + HCl. (Answers: yes, no, yes.)",
+"check":[
+{"q":"Zn + CuSO₄ → ZnSO₄ + Cu happens because zinc is","o":["More reactive than copper","Less reactive than copper","A gas","A non-metal"]},
+{"q":"Which metal is most reactive?","o":["Potassium","Gold","Copper","Iron"]},
+{"q":"Galvanising protects iron using","o":["Zinc","Gold","Copper","Plastic only"]},
+{"q":"Chlorine displaces bromine from potassium bromide because chlorine is","o":["More reactive","Less reactive","Heavier","A metal"]},
+{"q":"Cu + ZnSO₄ will","o":["Not react","Give zinc and copper sulphate","Explode","Give hydrogen"]}]},
+
+{"id":"ch3-12","week":8,"title":"Energy Changes: Exothermic and Endothermic Reactions","icon":"Zap","summary":"How reactions give out or take in energy, enthalpy change ΔH, activation energy and energy profile diagrams.",
+"keyWords":["Exothermic","Endothermic","Enthalpy change","Activation energy","Energy profile"]
+,"sections":[
+{"h":"Energy in reactions","p":["Every chemical reaction involves a change of energy. Energy may appear as heat, light, sound or electricity. Energy can be given out to the surroundings or taken in from them. Knowing this helps us to predict whether a reaction will go, to explain temperature changes and to use chemical energy in industry, in living things and in the home."]},
+{"h":"Definitions","p":["An exothermic reaction gives out heat (or other energy) to the surroundings, so the surroundings get hotter. Example: burning methane, CH₄ + 2O₂ → CO₂ + 2H₂O + heat.","An endothermic reaction takes in heat from the surroundings, so the surroundings get colder. Example: thermal decomposition of calcium carbonate, CaCO₃ → CaO + CO₂ (heat is taken in)."]},
+{"h":"Principles","p":["1. Conservation of energy: energy is never created or destroyed, only changed from one form to another. In a reaction, energy passes between the reacting substances and their surroundings.","2. Enthalpy change (ΔH): the heat change of a reaction at constant pressure. ΔH is negative for exothermic reactions (energy released) and positive for endothermic reactions (energy absorbed).","3. Activation energy (Eₐ): even exothermic reactions need a minimum energy to start, to break the first bonds in the reactants. A match must be struck before it burns, even though burning is exothermic.","Energy changes come from bond breaking and bond making: breaking bonds takes in energy; making bonds gives out energy. If more energy is given out in making bonds than is taken in to break bonds, the reaction is exothermic."]},
+{"h":"Energy profile diagrams","p":["In an exothermic reaction the reactants are higher in energy than the products. The energy difference is released, and ΔH is negative. In an endothermic reaction, the products are higher in energy than the reactants, the difference is absorbed, and ΔH is positive. In both cases, there is an energy 'hill', the activation energy, between the reactants and the products."],
+"img":{"src":"chem-energy-profiles.png","alt":"Two energy profile diagrams: exothermic with reactants high and products lower and ΔH negative, and endothermic with reactants low and products higher and ΔH positive, each showing an activation energy hill","cap":"Energy profile diagrams for exothermic and endothermic reactions."}}
+],
+"activity":"Sketch the energy profile for the combustion of methane. Label reactants, products, activation energy and ΔH.",
+"check":[
+{"q":"An exothermic reaction","o":["Gives out heat","Takes in heat","Has no energy change","Always needs electricity"]},
+{"q":"For an endothermic reaction ΔH is","o":["Positive","Negative","Zero","Always 100"]},
+{"q":"The minimum energy needed to start a reaction is the","o":["Activation energy","Enthalpy","Heat of solution","Mass number"]},
+{"q":"In an exothermic reaction the products have","o":["Less energy than the reactants","More energy than the reactants","The same energy","No energy"]},
+{"q":"Burning methane is","o":["Exothermic","Endothermic","Neither","A decomposition only"]}]},
+
+{"id":"ch3-13","week":8,"title":"Examples, Uses and Comparison of Energy Changes","icon":"Layers","summary":"Characteristics and examples of exothermic and endothermic changes, simple experiments, real-life uses and a comparison table.",
+"keyWords":["Combustion","Respiration","Photosynthesis","Cold pack","Dissolving"]
+,"sections":[
+{"h":"Characteristics of exothermic reactions","p":["Heat is given out and the surroundings become warmer. ΔH is negative. The products are more stable (lower in energy) than the reactants. Examples: combustion of fuels (methane, propane, petrol); respiration, C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy; neutralisation, HCl + NaOH → NaCl + H₂O + heat; freezing of water, which gives out heat as ice forms; adding quicklime to water; dissolving sodium hydroxide in water."]},
+{"h":"Characteristics of endothermic reactions","p":["Heat is taken in and the surroundings become colder. ΔH is positive. The products are higher in energy than the reactants. They often need a continuous supply of energy. Examples: photosynthesis, 6CO₂ + 6H₂O + sunlight → C₆H₁₂O₆ + 6O₂; thermal decomposition of calcium carbonate; dissolving ammonium chloride in water; electrolysis of water, 2H₂O + energy → 2H₂ + O₂; melting ice (a change of state that takes in heat)."]},
+{"h":"Simple experiments","p":["Study the table."],
+"tbl":{"head":["Experiment","Observation","Type"],"rows":[
+["Dissolve NaOH in water","Beaker becomes hot","Exothermic"],
+["Dissolve NH₄Cl in water","Beaker becomes cold","Endothermic"],
+["Burn a candle","Heat and light are given out","Exothermic"],
+["Heat KClO₃ with MnO₂","Oxygen forms; needs heating","Endothermic"],
+["Add dilute acid to alkali and take the temperature","Temperature rises","Exothermic"]]}},
+{"h":"Uses","p":["Industry: exothermic: burning fuels for energy, neutralisation in manufacturing, the Haber process for ammonia. Endothermic: electrolysis to extract metals, thermal cracking of hydrocarbons. Living things: respiration (exothermic) supplies energy for life; photosynthesis (endothermic) stores sunlight energy in glucose. Daily life: burning gas or charcoal for cooking, heat packs and fireworks (exothermic); instant cold packs for injuries, which contain ammonium nitrate dissolving in water (endothermic)."]},
+{"h":"Comparison","p":["Study the table."],
+"tbl":{"head":["Feature","Exothermic","Endothermic"],"rows":[
+["Heat flow","Out to surroundings","In from surroundings"],
+["Surroundings","Temperature rises","Temperature falls"],
+["ΔH","Negative","Positive"],
+["Stability of products","More stable than reactants","Less stable than reactants"],
+["Energy supply","Often self-sustaining once started","Needs continuous energy"],
+["Examples","Combustion, neutralisation, respiration","Photosynthesis, decomposition, electrolysis"]]}}
+],
+"activity":"Explain with equations why dissolving NaOH in water is exothermic but dissolving NH₄Cl is endothermic, using the idea of energy to break the solid and energy given out when ions meet water.",
+"check":[
+{"q":"Dissolving ammonium chloride in water makes the beaker feel","o":["Cold","Hot","Unchanged","Wet only"]},
+{"q":"Photosynthesis is","o":["Endothermic","Exothermic","Neither","Combustion"]},
+{"q":"Respiration is","o":["Exothermic","Endothermic","A decomposition only","Not a reaction"]},
+{"q":"Neutralisation reactions are","o":["Exothermic","Endothermic","Not chemical","Always cold"]},
+{"q":"Electrolysis of water is","o":["Endothermic","Exothermic","Neutral","Combustion"]}]},
+
+{"id":"ch3-14","week":9,"title":"Rates of Reaction and the Factors That Affect Them","icon":"BarChart2","summary":"What the rate of reaction is, how to measure it, and how concentration, temperature, pressure, surface area, the nature of the reactants and light change it.",
+"keyWords":["Rate of reaction","Concentration","Temperature","Surface area","Pressure"]
+,"sections":[
+{"h":"What is the rate of a reaction?","p":["The rate of reaction is how fast reactants are changed into products. It tells us how much reactant is used or how much product is formed in a given time. Rate = change in concentration of a reactant (or product) ÷ time taken. Units: mol dm⁻³ s⁻¹ for concentration, cm³ s⁻¹ for the volume of gas given off, or g s⁻¹ for a change in mass."]},
+{"h":"Ways of measuring the rate","p":["Gas given off: collect the gas in a gas syringe or an upturned measuring cylinder (for example, magnesium with hydrochloric acid). Loss of mass: put the flask on a balance and watch the mass fall as gas escapes (marble chips with acid). Colour change: watch the colour fade or appear. Cloudiness: time how long it takes for a cross under the flask to disappear as a precipitate forms (sodium thiosulphate with hydrochloric acid gives sulphur)."]},
+{"h":"Factors that affect the rate","p":["1. Nature of the reactants: ionic reactions in solution, such as HCl + NaOH → NaCl + H₂O, are very fast because the ions are already free. Reactions that must break strong covalent bonds, such as methane with chlorine, are slow unless there is light or heat.","2. Concentration: a higher concentration means more particles in the same volume, so more collisions each second, so a faster reaction. 2 mol/dm³ HCl reacts with magnesium faster than 0.5 mol/dm³ HCl. On a graph of volume of gas against time, the curve is steeper.","3. Temperature: a higher temperature gives the particles more energy, so they move faster, collide more often, and more of the collisions have enough energy to react. As a rough rule, the rate about doubles for every 10 °C rise. Food spoils faster in warm weather and lasts longer in a refrigerator.","4. Pressure (for gases): raising the pressure squeezes gas particles closer together, so there are more collisions. The Haber process, N₂ + 3H₂ → 2NH₃, uses high pressure.","5. Surface area: a reaction takes place at the surface of a solid. Powder has a larger surface than lumps, so it reacts faster. Powdered calcium carbonate reacts faster with acid than marble chips; sawdust burns faster than a log; flour dust can explode.","6. Light: some reactions are speeded up or started by light (photochemical reactions), for example photosynthesis, 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, and the decomposition of silver halides in photography, 2AgCl → 2Ag + Cl₂.","7. A catalyst (see the next unit)."]},
+{"h":"Summary","p":["Study the table."],
+"tbl":{"head":["Factor","Change","Effect on rate"],"rows":[
+["Concentration","Increase","Faster"],
+["Temperature","Increase","Faster"],
+["Pressure (gases)","Increase","Faster"],
+["Surface area","Make powder","Faster"],
+["Catalyst","Add","Faster"],
+["Light (photochemical)","Add light","Faster"]]}}
+],
+"activity":"Explain why a piece of firewood split into thin sticks burns faster than a whole log. Use the words 'surface area' and 'collisions'.",
+"check":[
+{"q":"Increasing the concentration of a reactant","o":["Increases the rate","Decreases the rate","Does not change the rate","Stops the reaction"]},
+{"q":"Powdered marble reacts faster than marble chips because of larger","o":["Surface area","Mass","Density","Colour"]},
+{"q":"A rough rule is that the rate doubles for about each","o":["10 °C rise","1 °C rise","100 °C rise","50 °C fall"]},
+{"q":"Pressure affects the rate of reactions involving","o":["Gases","Solids only","Liquids only","Metals only"]},
+{"q":"The unit of rate in terms of a volume of gas is","o":["cm³ s⁻¹","mol","kg","°C"]}]},
+
+{"id":"ch3-15","week":9,"title":"Collision Theory, Catalysts and Industrial Uses","icon":"Target","summary":"Why particles must collide effectively, how catalysts lower the activation energy, the types of catalysis, and how rate ideas are used in industry.",
+"keyWords":["Collision theory","Activation energy","Catalyst","Haber process","Contact process"]
+,"sections":[
+{"h":"Collision theory","p":["For a reaction to happen, particles must collide; the collision must be effective, meaning they hit with the right orientation and with enough energy; and the minimum energy needed is the activation energy (Eₐ). Most collisions are not effective. Anything that increases the number of effective collisions per second raises the rate."]},
+{"h":"Catalysts","p":["A catalyst is a substance that speeds up a reaction without being used up or permanently changed. It works by providing a different path with a lower activation energy, so more particles have enough energy to react. A catalyst does not change the products or the total energy released.","Examples: manganese(IV) oxide, MnO₂, catalyses the decomposition of hydrogen peroxide into oxygen and water (2H₂O₂ → 2H₂O + O₂). Iron catalyses the Haber process. Nickel catalyses the hydrogenation of vegetable oils to make margarine. Enzymes are the catalysts of living things."],
+"img":{"src":"chem-catalyst-profile.png","alt":"An energy profile with a high hill for the uncatalysed reaction and a lower hill for the catalysed reaction, between the same reactants and products","cap":"A catalyst lowers the activation energy."}},
+{"h":"Types of catalysis","p":["Homogeneous catalysis: the catalyst is in the same state as the reactants (for example, nitrogen monoxide gas catalysing the oxidation of sulphur dioxide gas in an older process). Heterogeneous catalysis: the catalyst is in a different state (solid iron in the gaseous Haber process). Autocatalysis: one of the products speeds up the reaction (in the hydrolysis of an ester, the acid produced acts as catalyst)."]},
+{"h":"Experiments to show the effects","p":["Concentration: magnesium with hydrochloric acid of different concentrations; measure the hydrogen given off. Temperature: sodium thiosulphate with hydrochloric acid at different temperatures; time the disappearance of a cross. Catalyst: hydrogen peroxide with and without manganese(IV) oxide; collect the oxygen. Surface area: calcium carbonate powder and marble chips with acid."]},
+{"h":"Industrial uses of rate ideas","p":["Haber process (ammonia): iron catalyst, about 200 atmospheres pressure and 450 °C: a high enough temperature for a good rate, without losing too much ammonia. Contact process (sulphuric acid): vanadium(V) oxide catalyst, about 450 °C. Hydrogenation of oils: nickel catalyst to make margarine. Polymerisation: catalysts control the rate and the yield of plastics. In all industries the aim is to make products quickly and cheaply and with little waste."]}
+],
+"activity":"Why does powdered zinc react faster with dilute hydrochloric acid than zinc granules? Why does a catalyst not get used up?",
+"check":[
+{"q":"The minimum energy needed to start a reaction is the","o":["Activation energy","Heat of reaction","Bond energy","Kinetic energy only"]},
+{"q":"A catalyst works by","o":["Providing a path with lower activation energy","Raising the temperature","Adding more reactant","Being consumed"]},
+{"q":"The catalyst in the Haber process is","o":["Iron","Platinum gauze only","Nickel","Manganese(IV) oxide"]},
+{"q":"MnO₂ catalyses the decomposition of","o":["Hydrogen peroxide","Water","Methane","Salt"]},
+{"q":"For a reaction to occur, the particles must","o":["Collide effectively","Stay far apart","Be cold","Have no energy"]}]},
+
+{"id":"ch3-16","week":10,"title":"Reversible Reactions and Chemical Equilibrium","icon":"Layers","summary":"Irreversible and reversible reactions, what dynamic equilibrium is, and what happens to the concentrations over time.",
+"keyWords":["Reversible reaction","Irreversible reaction","Dynamic equilibrium","Forward reaction","Backward reaction"]
+,"sections":[
+{"h":"Irreversible reactions","p":["An irreversible reaction goes in one direction only, from reactants to products, and the products cannot easily change back. Examples: burning methane, CH₄ + 2O₂ → CO₂ + 2H₂O; neutralisation, HCl + NaOH → NaCl + H₂O."]},
+{"h":"Reversible reactions","p":["A reversible reaction can go in both directions under the same conditions. It is shown by a double arrow ⇌. Examples: the Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g); heating calcium carbonate in a closed vessel, CaCO₃(s) ⇌ CaO(s) + CO₂(g), where the products can recombine; heating blue hydrated copper(II) sulphate gives white anhydrous copper(II) sulphate and water, and adding water changes it back to blue (a test for water)."]},
+{"h":"Chemical equilibrium","p":["In a reversible reaction carried out in a closed system, the forward and backward reactions both happen until a state called dynamic equilibrium is reached. At equilibrium: the rate of the forward reaction equals the rate of the backward reaction; the concentrations of the reactants and products stay constant (they are not necessarily equal); and the system is dynamic: the reactions still go on, but there is no overall change.","In the Haber process, at first the formation of NH₃ is fast. As NH₃ builds up, it decomposes back to N₂ and H₂ faster, until the two rates are equal."],
+"img":{"src":"chem-equilibrium-graph.png","alt":"A graph of concentration against time: the concentrations of nitrogen and hydrogen fall and the concentration of ammonia rises until all three become constant at equilibrium","cap":"Concentrations change until equilibrium is reached, then stay constant."}},
+{"h":"Reaching equilibrium from either side","p":["The same equilibrium mixture is reached whether we start with N₂ and H₂ or start with NH₃, provided the conditions are the same. This is shown by the two graphs in many textbooks: starting with reactants, the reactants fall and the product rises; starting with the product, the product falls and the reactants rise; in both cases the concentrations level off."]}
+],
+"activity":"Give two examples each of reversible and irreversible reactions. What does a double arrow mean?",
+"check":[
+{"q":"At equilibrium, the rate of the forward reaction is","o":["Equal to the rate of the backward reaction","Zero","Greater than the backward rate","Less than the backward rate"]},
+{"q":"A reversible reaction is shown with","o":["⇌","→","=","↑"]},
+{"q":"At equilibrium, the concentrations","o":["Stay constant","Keep rising","Keep falling","Are always equal"]},
+{"q":"Which is irreversible?","o":["Burning methane","Haber process","Heating hydrated copper sulphate in a closed system","CaCO₃ ⇌ CaO + CO₂ in a closed vessel"]},
+{"q":"Dynamic equilibrium means the reactions","o":["Continue in both directions","Have stopped","Go only forward","Are very slow only"]}]},
+
+{"id":"ch3-17","week":10,"title":"Le Chatelier's Principle and the Equilibrium Constant","icon":"Zap","summary":"How changes in concentration, pressure, temperature and catalyst affect an equilibrium, the equilibrium constant Kc with a calculation, and the Haber and Contact processes.",
+"keyWords":["Le Chatelier's principle","Equilibrium constant","Kc","Haber process","Contact process"]
+,"sections":[
+{"h":"Le Chatelier's principle","p":["If a system at equilibrium is disturbed by a change in concentration, pressure or temperature, the system shifts in the direction that opposes the change and tries to restore balance."]},
+{"h":"Effect of concentration","p":["Adding more reactant shifts the equilibrium towards the products. Adding more product shifts it towards the reactants. In N₂ + 3H₂ ⇌ 2NH₃, adding more H₂ moves the equilibrium to the right (more NH₃); adding NH₃ moves it to the left. Removing NH₃ as it is formed moves it to the right, which is what is done in industry."]},
+{"h":"Effect of pressure (gases)","p":["Raising the pressure favours the side with fewer gas molecules; lowering the pressure favours the side with more gas molecules. In N₂ + 3H₂ ⇌ 2NH₃ there are 4 moles of gas on the left and 2 on the right. High pressure moves the equilibrium to the right (more NH₃)."]},
+{"h":"Effect of temperature","p":["For a reaction that is exothermic in the forward direction, raising the temperature shifts the equilibrium backward (towards the reactants) and lowering the temperature shifts it forward. For an endothermic forward reaction, raising the temperature shifts it forward. The Haber reaction is exothermic: N₂ + 3H₂ ⇌ 2NH₃ + heat, so a high temperature gives less ammonia."]},
+{"h":"Effect of a catalyst","p":["A catalyst speeds up the forward and backward reactions equally. It lets the system reach equilibrium sooner but does not change the position of equilibrium or the amount of product at equilibrium."]},
+{"h":"The equilibrium constant, Kc","p":["For the reaction aA + bB ⇌ cC + dD, at a fixed temperature: Kc = [C]ᶜ[D]ᵈ ÷ ([A]ᵃ[B]ᵇ), where the square brackets mean concentration in mol/dm³. A large Kc means that products are favoured at equilibrium; a small Kc means reactants are favoured. Kc changes only with temperature.","Example: for N₂ + 3H₂ ⇌ 2NH₃, Kc = [NH₃]² ÷ ([N₂][H₂]³). At equilibrium, [NH₃] = 0.2, [N₂] = 0.1 and [H₂] = 0.3 mol/dm³. Kc = 0.2² ÷ (0.1 × 0.3³) = 0.04 ÷ (0.1 × 0.027) = 0.04 ÷ 0.0027 = 14.8 (units mol⁻² dm⁶)."]},
+{"h":"Industrial applications","p":["Haber process, N₂ + 3H₂ ⇌ 2NH₃ (exothermic): high pressure (about 200 atmospheres) favours the forward reaction; a moderate temperature (about 450 °C) is a compromise, because a lower temperature gives more ammonia but too slowly; iron with promoters is the catalyst; ammonia is liquefied and removed, and unreacted gas is recycled.","Contact process, 2SO₂ + O₂ ⇌ 2SO₃ (exothermic, ΔH about −197 kJ per mole of O₂): a vanadium(V) oxide catalyst; a temperature of about 450 °C as a compromise. High pressure would favour SO₃ (3 moles to 2), but the yield is already high at about 1 to 2 atmospheres, so very high pressure is not worth the cost. (The source notes say 'high pressure and low temperature'. That favours the forward reaction in theory, but in practice, moderate conditions are chosen.)","In the body, oxygen and carbon dioxide in the blood follow equilibrium ideas, and Le Chatelier's principle helps to explain gas exchange in the lungs."]},
+{"h":"Practice with answers","p":["For CO + 2H₂ ⇌ CH₃OH (forward exothermic; 3 moles of gas to 1): raising the pressure gives more methanol; lowering the temperature gives more methanol; adding a catalyst does not change the yield, it only reaches equilibrium faster."]}
+],
+"activity":"For N₂ + 3H₂ ⇌ 2NH₃ + heat, say how the amount of ammonia changes when (a) the pressure is raised, (b) the temperature is raised, (c) a catalyst is added. (Answers: increases; decreases; no change.)",
+"check":[
+{"q":"Raising the pressure shifts an equilibrium towards the side with","o":["Fewer gas molecules","More gas molecules","Heavier molecules","No gas"]},
+{"q":"For an exothermic forward reaction, raising the temperature","o":["Shifts the equilibrium backward","Shifts it forward","Has no effect","Stops the reaction"]},
+{"q":"A catalyst","o":["Does not change the position of equilibrium","Increases the yield at equilibrium","Reduces the yield","Reverses the reaction"]},
+{"q":"In Kc = [NH₃]² ÷ ([N₂][H₂]³), a large Kc means","o":["Products are favoured","Reactants are favoured","No reaction","A catalyst is present"]},
+{"q":"Adding more N₂ to N₂ + 3H₂ ⇌ 2NH₃ shifts the equilibrium","o":["To the right","To the left","Nowhere","Stops it"]}]},
+
+{"id":"ch3-18","week":11,"title":"Metals and Non-Metals: Properties","icon":"Layers","summary":"Where metals and non-metals are found in the periodic table, their physical and chemical properties, metalloids and a comparison table.",
+"keyWords":["Metal","Non-metal","Metalloid","Conductivity","Malleability"]
+,"sections":[
+{"h":"Introduction","p":["Elements are grouped as metals and non-metals according to their properties. Metals are on the left and in the centre of the periodic table; non-metals are on the right. A staircase line separates them. They form the materials of industry, farming, building, medicine and technology."]},
+{"h":"Metals","p":["Metals readily lose electrons to form positive ions (cations) and have metallic bonding.","Physical properties: malleable (can be hammered into sheets, like aluminium foil); ductile (can be drawn into wires, like copper); good conductors of heat and electricity because of free (delocalised) electrons; most have high melting and boiling points (mercury is a liquid at room temperature, and Group 1 metals melt at low temperatures); high density; shiny when polished (metallic lustre); sonorous (ring when struck); strong; can form alloys (brass, bronze, steel).","Chemical properties: they lose electrons easily (electropositive); they form basic oxides, 4Na + O₂ → 2Na₂O (some oxides are amphoteric, such as aluminium oxide); they react with water to differing degrees (sodium violently, calcium more slowly, gold not at all); most react with dilute acids to give a salt and hydrogen (except copper, mercury, silver, gold and platinum); they form chlorides, 2Na + Cl₂ → 2NaCl; they form ionic compounds."]},
+{"h":"Non-metals","p":["Non-metals tend to gain or share electrons, forming negative ions or covalent compounds.","Physical properties: poor conductors of heat and electricity (graphite is an exception); low melting and boiling points; many are gases or brittle solids; not malleable or ductile; usually low density; dull, with no metallic lustre; brittle; they exist in all three states (oxygen is a gas, bromine a liquid, sulphur a solid); some have allotropes (carbon as diamond and graphite, oxygen as O₂ and O₃).","Chemical properties: they gain or share electrons (electronegative); their oxides are acidic, for example CO₂ + H₂O → H₂CO₃; they form covalent compounds with hydrogen (HCl, CH₄); with metals they form ionic compounds (NaCl); across a period, non-metal reactivity generally increases."]},
+{"h":"Metalloids","p":["Metalloids have properties between those of metals and non-metals. Examples: boron, silicon, arsenic, antimony and tellurium. Many are semiconductors, so silicon is used in electronics and computer chips."]},
+{"h":"Metals compared with non-metals","p":["Study the table."],
+"tbl":{"head":["Property","Metals","Non-metals"],"rows":[
+["Position in periodic table","Left and centre","Right"],
+["Electrical conduction","Good","Poor (except graphite)"],
+["Appearance","Shiny","Dull"],
+["State at room temperature","Solid (except mercury)","Solid, liquid or gas"],
+["Malleability and ductility","Malleable and ductile","Brittle"],
+["Oxides","Basic (or amphoteric)","Acidic"],
+["Bonding","Metallic, ionic","Covalent"],
+["Electronegativity","Low","High"]]}}
+],
+"activity":"Make a table with six differences between metals and non-metals and give one example of each.",
+"check":[
+{"q":"Which property do metals have?","o":["Good electrical conductivity","Brittleness","Acidic oxides","Low density always"]},
+{"q":"Oxides of non-metals are generally","o":["Acidic","Basic","Neutral always","Metallic"]},
+{"q":"A metalloid is","o":["Silicon","Sodium","Oxygen","Iron"]},
+{"q":"Which is a liquid metal at room temperature?","o":["Mercury","Iron","Sodium","Copper"]},
+{"q":"Metals conduct electricity because they have","o":["Free (delocalised) electrons","Many protons only","No electrons","Ionic bonds"]}]},
+
+{"id":"ch3-19","week":11,"title":"Extraction and Uses of Metals and Non-Metals","icon":"Landmark","summary":"How metals are got from their ores (electrolysis, reduction with carbon, roasting), the uses of metals and non-metals, and the role of recycling.",
+"keyWords":["Ore","Extraction","Electrolysis","Smelting","Recycling"]
+,"sections":[
+{"h":"Extraction of metals","p":["Most metals are found in the ground as ores, rocks that contain a metal compound in enough amounts to be worth mining. The method of extraction depends on how reactive the metal is.","1. Electrolysis: very reactive metals such as aluminium, sodium and potassium. Aluminium is obtained from bauxite. The bauxite is first purified to give aluminium oxide (alumina). The alumina is dissolved in molten cryolite (to lower the melting point to about 950 °C) and electrolysed using carbon electrodes. Molten aluminium collects at the cathode and oxygen is released at the anode, which slowly burns away the carbon anodes. This needs a great deal of electricity.","2. Reduction with carbon (or carbon monoxide): metals of medium reactivity such as iron and zinc. Iron is extracted from haematite (iron(III) oxide) in a blast furnace: carbon burns to make carbon monoxide, which reduces the iron oxide: Fe₂O₃ + 3CO → 2Fe + 3CO₂. Limestone is added to remove impurities as slag.","3. Roasting and smelting: for sulphide ores, the ore is first roasted in air to give the oxide, which is then reduced. 4. Unreactive metals like gold may occur uncombined in nature (native metals) and need only to be separated from rock."]},
+{"h":"Uses of metals","p":["Iron (as steel): construction, tools and machines. Copper: electrical wiring and plumbing. Aluminium: aircraft, packaging, cooking pots. Gold and silver: jewellery and electronics. Zinc: galvanising and dry-cell batteries. Lead: car batteries and shielding against radiation. Titanium: aircraft and medical implants."]},
+{"h":"Uses of non-metals","p":["Oxygen: breathing, welding, steel making. Nitrogen: fertilisers, refrigeration (liquid nitrogen), explosives. Sulphur: making sulphuric acid and vulcanising rubber. Chlorine: disinfecting water, making PVC. Carbon: fuel, steel making, graphite in pencils and lubricants, diamond in jewellery and cutting tools. Phosphorus: matches, fertilisers, detergents."]},
+{"h":"Environmental and industrial importance","p":["Metals and non-metals are vital for transport, medicine, communication, power and building. Recycling metals such as aluminium and iron saves energy and ore and reduces pollution; recycling aluminium uses only a small fraction of the energy needed to extract new aluminium. Waste plastics and toxic gases from non-metals must be disposed of properly to protect the environment."]}
+],
+"activity":"Outline the steps in the extraction of aluminium from bauxite. List five industries that depend on metals.",
+"check":[
+{"q":"Aluminium is extracted by","o":["Electrolysis of molten alumina","Reduction with carbon","Roasting only","Filtration"]},
+{"q":"Iron is extracted from haematite in a","o":["Blast furnace","Electrolytic cell","Laboratory flask","Solar panel"]},
+{"q":"An ore is","o":["A rock containing a metal compound worth extracting","A pure metal","A gas","A salt solution"]},
+{"q":"Sulphur is used to make","o":["Sulphuric acid","Cement","Aluminium","Glass"]},
+{"q":"Recycling metals","o":["Saves energy and reduces pollution","Wastes resources","Increases pollution","Has no value"]}]}
+]

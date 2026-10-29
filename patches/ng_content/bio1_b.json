@@ -1,0 +1,153 @@
+[
+{"id":"bi1-13","week":8,"title":"Nutrition: Nutrients and Modes of Nutrition","icon":"Heart","summary":"Macro and micro nutrients, the two modes of nutrition (autotrophic and heterotrophic), and the types of heterotrophic feeding.",
+"keyWords":["Nutrient","Macronutrient","Micronutrient","Autotroph","Heterotroph"],
+"sections":[
+{"h":"Macronutrients and micronutrients","p":["Nutrition is the way an organism gets and uses food. Macronutrients are needed in large amounts: carbohydrates, proteins and fats. They supply energy and materials for growth. Micronutrients are needed in small amounts: vitamins and minerals. They help the body to work properly. (Water and fibre are also needed.)"]},
+{"h":"Modes of nutrition","p":["There are two main modes. Autotrophic nutrition: the organism makes its own food from simple inorganic substances, by photosynthesis (using light) or by chemosynthesis (using energy from chemical reactions). Examples: green plants, algae and some bacteria. Heterotrophic nutrition: the organism cannot make its own food and depends on other organisms. Examples: animals, fungi and many bacteria."]},
+{"h":"Types of heterotrophic nutrition","p":["Holozoic nutrition: the organism takes in solid or liquid food, digests it inside the body and absorbs it. Most animals feed this way, including man.","Parasitic nutrition: a parasite lives on or inside a host and takes food from it, harming the host. Examples: tapeworm in the human gut; fleas and ticks on a dog; Plasmodium in the blood.","Saprophytic nutrition: feeding on dead and decaying organic matter. Saprophytes (decomposers) such as mushrooms and bread mould, and many bacteria, release enzymes that digest the dead matter outside the body, then absorb the nutrients.","Symbiosis: a close, long-lasting relationship between two species. In mutualism both gain (bees get nectar and flowers are pollinated). In commensalism one gains and the other is not affected (barnacles on a whale). In parasitism one gains at the other's expense."]}
+],
+"activity":"Give two examples each of: holozoic feeders, parasites, saprophytes and autotrophs from around your home or community.",
+"check":[
+{"q":"An organism that makes its own food is an","o":["Autotroph","Heterotroph","Parasite","Saprophyte"]},
+{"q":"Feeding on dead and decaying matter is","o":["Saprophytic","Holozoic","Parasitic","Autotrophic"]},
+{"q":"A tapeworm in the gut shows","o":["Parasitic nutrition","Holozoic nutrition","Saprophytic nutrition","Photosynthesis"]},
+{"q":"Which are macronutrients?","o":["Carbohydrates, proteins and fats","Vitamins","Minerals","Water only"]},
+{"q":"Barnacles on a whale are an example of","o":["Commensalism","Mutualism","Parasitism","Saprophytism"]}]},
+
+{"id":"bi1-14","week":8,"title":"Photosynthesis and Heterotrophic Nutrition","icon":"Zap","summary":"The process of photosynthesis, its requirements, its products and its importance, and chemosynthesis.",
+"keyWords":["Photosynthesis","Chlorophyll","Carbon dioxide","Glucose","Chemosynthesis"],
+"sections":[
+{"h":"What is photosynthesis?","p":["Photosynthesis is the process by which green plants, algae and some bacteria use light energy to change carbon dioxide and water into glucose (a sugar) and oxygen. It happens in the chloroplasts, which contain the green pigment chlorophyll.","Equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (in the presence of light and chlorophyll)."],
+"img":{"src":"bio-photosynthesis.png","alt":"A leaf in sunlight taking in carbon dioxide and water and giving out oxygen, with the equation for photosynthesis","cap":"Photosynthesis in a leaf."}},
+{"h":"Stages","p":["1. Light absorption: chlorophyll absorbs light energy. 2. Splitting of water: water molecules are split, releasing oxygen and giving hydrogen (electrons and protons). 3. Carbon fixation: carbon dioxide from the air is built into organic molecules, first into a three-carbon compound, in the Calvin cycle. 4. Making glucose: through a series of reactions, glucose and other organic compounds are made. Glucose is changed to starch for storage."]},
+{"h":"Conditions needed","p":["Light: usually sunlight. Chlorophyll: absorbs the light. Carbon dioxide: enters the leaf through the stomata. Water: absorbed by the roots from the soil. A suitable temperature."]},
+{"h":"Importance of photosynthesis","p":["It produces oxygen for breathing. It stores solar energy as chemical energy in glucose. It makes the food that supports all food chains. It removes carbon dioxide from the air and so takes part in the carbon cycle."]},
+{"h":"Chemosynthesis","p":["Chemosynthesis is the making of carbohydrates using the energy from chemical reactions instead of sunlight. It occurs in places without sunlight, such as deep-sea hydrothermal vents and caves, and in nitrifying bacteria in the soil (Nitrosomonas, Nitrobacter).","Photosynthesis compared with chemosynthesis: photosynthesis uses light, needs chlorophyll and releases oxygen; chemosynthesis uses chemical energy (for example from oxidising ammonia or hydrogen sulphide), does not need light and is carried out only by some bacteria."]},
+{"h":"Heterotrophic feeding in Amoeba and Paramecium","p":["Amoeba flows around food (a smaller organism) with its pseudopodia and engulfs it in a food vacuole (phagocytosis). Enzymes digest the food and the digested food diffuses into the cytoplasm; undigested remains are expelled. Paramecium sweeps food into its oral groove with its cilia; the food is enclosed in food vacuoles that move around the cell while digestion takes place, and waste leaves through the anal pore."]}
+],
+"activity":"Explain why a plant kept in a dark cupboard for a week turns pale and weak. (No light, so no photosynthesis; no chlorophyll is made and no food is produced.)",
+"check":[
+{"q":"The equation for photosynthesis is","o":["6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂","C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O","CO₂ + O₂ → H₂O","6O₂ → 6CO₂"]},
+{"q":"Photosynthesis takes place in the","o":["Chloroplasts","Mitochondria","Nucleus","Ribosomes"]},
+{"q":"Chemosynthesis uses energy from","o":["Chemical reactions","Sunlight","Heat of the sun","Wind"]},
+{"q":"A product of photosynthesis is","o":["Oxygen","Carbon dioxide","Ammonia","Urea"]},
+{"q":"Amoeba takes in food by","o":["Pseudopodia and food vacuoles","Cilia only","A mouth","Absorption through roots"]}]},
+
+{"id":"bi1-15","week":9,"title":"Cellular Respiration","icon":"Zap","summary":"What cellular respiration is, aerobic and anaerobic respiration with correct equations, fermentation, oxygen debt and muscle fatigue.",
+"keyWords":["Cellular respiration","Aerobic","Anaerobic","ATP","Fermentation"],
+"sections":[
+{"h":"Meaning","p":["Cellular (internal or tissue) respiration is the breakdown of glucose in cells to release energy. It occurs in all living cells. The energy is stored in a molecule called ATP, which the cell uses for its work. Much of it happens in the mitochondria. (External respiration, or breathing, is the exchange of gases between the organism and its surroundings.)"]},
+{"h":"Aerobic respiration","p":["With oxygen. It releases the largest amount of energy from one glucose molecule. Carbon dioxide and water are the by-products.","C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy (about 30 to 38 ATP; the source notes give 38 as the traditional figure, but the net yield is nearer 30 to 32 in modern textbooks)."]},
+{"h":"Anaerobic respiration","p":["Without oxygen. It releases much less energy (only 2 ATP per glucose). It occurs in yeast and some bacteria, in parasites in the gut, and in the muscles of animals when oxygen is short.","In plants and yeast (alcoholic fermentation): C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ + energy (2 ATP). The ethanol and carbon dioxide are made from pyruvic acid. This is used in brewing and to make bread rise.","In animal muscle (lactic acid fermentation): C₆H₁₂O₆ → 2C₃H₆O₃ (lactic acid) + energy (2 ATP). No carbon dioxide is released. (The source notes wrongly include carbon dioxide in this equation.) Lactic acid builds up and causes muscle fatigue and cramps."]},
+{"h":"Oxygen debt","p":["During hard exercise, muscles use oxygen faster than the blood can supply it, so they respire anaerobically and lactic acid collects. After the exercise, the extra oxygen needed to break down the lactic acid is the oxygen debt. This is why we keep breathing hard after running."]},
+{"h":"Aerobic compared with anaerobic","p":["Study the table."],
+"tbl":{"head":["","Aerobic","Anaerobic"],"rows":[
+["Oxygen","Needed","Not needed"],
+["Glucose breakdown","Complete","Incomplete"],
+["Products","Carbon dioxide and water","Ethanol and CO₂, or lactic acid"],
+["Energy released","Large (about 30 to 38 ATP)","Small (2 ATP)"],
+["Where","Cytoplasm and mitochondria","Cytoplasm"]]}}
+],
+"activity":"Explain why you pant after a 100 m race, and why bread dough rises. (Oxygen debt: lactic acid is broken down; yeast produces CO₂ bubbles by anaerobic respiration.)",
+"check":[
+{"q":"Aerobic respiration needs","o":["Oxygen","No oxygen","Only light","Only water"]},
+{"q":"Alcoholic fermentation gives ethanol and","o":["Carbon dioxide","Oxygen","Lactic acid","Water only"]},
+{"q":"Muscle fatigue is caused by","o":["Lactic acid","Ethanol","Carbon dioxide only","Oxygen"]},
+{"q":"Anaerobic respiration gives","o":["Less energy than aerobic respiration","More energy","The same energy","No energy"]},
+{"q":"Tissue respiration occurs mainly in the","o":["Mitochondria","Ribosomes","Chloroplasts","Cell wall"]}]},
+
+{"id":"bi1-16","week":9,"title":"The Stages of Respiration: Glycolysis and the Krebs Cycle","icon":"Layers","summary":"How glucose is broken down step by step: glycolysis in the cytoplasm, the link reaction, the Krebs cycle in the mitochondrial matrix and the electron transport chain, with the ATP yields.",
+"keyWords":["Glycolysis","Pyruvic acid","Krebs cycle","Acetyl-CoA","Electron transport chain"],
+"sections":[
+{"h":"Overview","p":["Aerobic respiration has three main stages: glycolysis in the cytoplasm; the Krebs cycle (citric acid cycle) in the matrix of the mitochondrion; and the electron transport chain on the inner membrane (cristae) of the mitochondrion."]},
+{"h":"Stage 1: glycolysis","p":["Glycolysis happens in the cytoplasm and does not need oxygen. The 6-carbon glucose is first phosphorylated (a phosphate is added, using ATP) by the enzyme hexokinase. After about ten enzyme-controlled steps, one glucose molecule is split into two molecules of the 3-carbon pyruvic acid (pyruvate). Two ATP are used and four are made, so the net gain is 2 ATP. This direct making of ATP is called substrate-level phosphorylation. Hydrogen is also passed to a carrier (NAD⁺ becomes NADH)."],
+"img":{"src":"bio-glycolysis.jpg","alt":"The glycolysis pathway from glucose through glucose-6-phosphate, fructose-1,6-bisphosphate, glyceraldehyde 3-phosphate and 1,3-bisphosphoglycerate to pyruvate, with the enzymes and ATP steps","cap":"The steps of glycolysis (for reference; you need to know the main ideas, not every enzyme)."}},
+{"h":"Stage 2: the link reaction and the Krebs cycle","p":["If oxygen is present, pyruvic acid enters the mitochondrion. Each pyruvate loses one carbon as carbon dioxide and becomes a 2-carbon acetyl group, which is carried by coenzyme A as acetyl-CoA. Acetyl-CoA joins oxaloacetic acid to form citric acid, which begins the Krebs cycle, in the matrix of the mitochondrion. In the cycle, the carbon is completely oxidised to carbon dioxide, and much hydrogen is passed to the carriers NAD⁺ and FAD."],
+"img":{"src":"bio-krebs.jpg","alt":"The Krebs cycle as a circle: oxaloacetate to citric acid, isocitric acid, alpha-ketoglutaric acid, succinyl CoA, succinate, fumarate and malate, with CO2, NADH, FADH2 and GTP released","cap":"The Krebs cycle (citric acid cycle)."}},
+{"h":"Stage 3: the electron transport chain","p":["The hydrogen carried by NADH and FADH₂ gives up its electrons to a chain of carriers on the inner mitochondrial membrane. The energy released makes most of the ATP (oxidative phosphorylation). The electrons finally join with oxygen and hydrogen to form water. This is why oxygen is needed.","Total ATP: the traditional figure is 38 ATP per glucose (2 from glycolysis, 2 from the Krebs cycle and 34 from the electron transport chain). The notes say the Krebs cycle itself gives 36 ATP; in fact most of the ATP comes from the electron transport chain that depends on the Krebs cycle. Modern figures are about 30 to 32.","The Krebs cycle is important because it connects the breakdown of carbohydrates, fats and proteins: all can be fed into it."]},
+{"h":"Summary","p":["Study the table."],
+"tbl":{"head":["Stage","Place","Oxygen needed?","Main outcome"],"rows":[
+["Glycolysis","Cytoplasm","No","Glucose to 2 pyruvate, net 2 ATP"],
+["Link reaction and Krebs cycle","Mitochondrial matrix","Indirectly","CO₂ released, hydrogen carried by NADH and FADH₂"],
+["Electron transport chain","Inner mitochondrial membrane","Yes","Most of the ATP, and water formed"]]}}
+],
+"activity":"Complete: the net gain of ATP in glycolysis is ___; glycolysis happens in the ___; the Krebs cycle happens in the ___. (2; cytoplasm; mitochondrial matrix.)",
+"check":[
+{"q":"Glycolysis takes place in the","o":["Cytoplasm","Mitochondrion","Nucleus","Ribosome"]},
+{"q":"The net ATP gain from glycolysis is","o":["2","4","38","0"]},
+{"q":"The Krebs cycle takes place in the","o":["Mitochondrial matrix","Cytoplasm","Chloroplast","Nucleus"]},
+{"q":"Glycolysis changes one glucose into two molecules of","o":["Pyruvic acid","Citric acid","Ethanol","Starch"]},
+{"q":"Most ATP is made in","o":["The electron transport chain","Glycolysis","Digestion","Photosynthesis"]}]},
+
+{"id":"bi1-17","week":10,"title":"Growth and Mitosis","icon":"BarChart2","summary":"What growth is, cell enlargement and differentiation, the stages of mitosis and its importance.",
+"keyWords":["Growth","Cell enlargement","Differentiation","Mitosis","Chromosome"],
+"sections":[
+{"h":"Meaning of growth","p":["Growth is the irreversible increase in size, dry mass and complexity of an organism, due to cell division (mitosis) and cell enlargement. It is measured by changes in height, weight (mass) or volume. It cannot be reversed."]},
+{"h":"Basis of growth","p":["Cell division (mitosis): the number of cells increases. Cell enlargement: after division the new cells take in water and nutrients and grow larger by making more protoplasm. Example: a seedling grows into a tall plant. Cell differentiation: cells become specialised in structure and function. Unspecialised stem cells develop into tissues and organs such as nerve cells and muscle cells. Example: a zygote divides and differentiates into the many tissues of a baby."]},
+{"h":"Mitosis","p":["Mitosis is the division of one cell into two genetically identical daughter cells, each with the same number of chromosomes as the parent. It is used for growth and repair."],
+"img":{"src":"bio-mitosis.png","alt":"Five stages of mitosis drawn as cells: interphase, prophase, metaphase, anaphase and telophase with cytokinesis, with two chromosomes shown","cap":"The stages of mitosis (shown with two chromosomes)."}},
+{"h":"The stages","p":["Interphase (the 'resting' stage): the cell prepares to divide; the DNA is copied and the organelles double.","Prophase: the chromatin shortens and coils into visible chromosomes, each made of two sister chromatids; the nuclear membrane starts to disappear; spindle fibres form.","Metaphase: the chromosomes line up at the equator of the cell, and spindle fibres attach to their centromeres.","Anaphase: the sister chromatids separate and are pulled to opposite poles.","Telophase: the chromatids reach the poles, nuclear membranes form around the two sets, and the chromosomes uncoil. Cytokinesis, the division of the cytoplasm, gives two daughter cells."]},
+{"h":"Importance of mitosis","p":["1. Growth of many-celled organisms. 2. Repair of damaged tissues, such as wound healing. 3. Asexual reproduction, such as budding in yeast. 4. It keeps the chromosome number constant from cell to cell."]}
+],
+"activity":"Draw and label the stages of mitosis in your notebook. State one way in which mitosis is useful after you cut your finger.",
+"check":[
+{"q":"Mitosis produces","o":["Two identical daughter cells","Four different cells","Gametes","One cell"]},
+{"q":"In which stage do chromosomes line up at the equator?","o":["Metaphase","Prophase","Anaphase","Telophase"]},
+{"q":"Growth is","o":["Irreversible increase in size and mass","A temporary change","Movement","Excretion"]},
+{"q":"Cell differentiation means cells become","o":["Specialised","Identical","Smaller only","Dead"]},
+{"q":"Sister chromatids separate in","o":["Anaphase","Metaphase","Prophase","Interphase"]}]},
+
+{"id":"bi1-18","week":10,"title":"Meiosis","icon":"Layers","summary":"How meiosis halves the chromosome number to make gametes, the stages of meiosis I and II, and why it makes variation; a comparison with mitosis.",
+"keyWords":["Meiosis","Haploid","Homologous chromosomes","Crossing over","Gamete"],
+"sections":[
+{"h":"What is meiosis?","p":["Meiosis is the cell division that makes gametes (sperm and egg cells, or spores in some plants). One diploid cell (with two sets of chromosomes) divides twice to give four haploid cells (with one set each). It is also called reduction division because the chromosome number is halved."]},
+{"h":"Meiosis I (reduction division)","p":["Prophase I: homologous chromosomes (one from each parent) pair up (synapsis) to form tetrads. They exchange pieces at points called chiasmata (crossing over), which makes new combinations of genes."],
+"img":{"src":"bio-meiosis-prophase1.jpg","alt":"Prophase I of meiosis with spindle fibre, nonsister chromatids, centromere, chiasma, sister chromatids and tetrad labelled","cap":"Prophase I: homologous chromosomes pair and cross over."}},
+{"h":"Metaphase I and Anaphase I","p":["Metaphase I: the homologous pairs line up on the equator."],
+"img":{"src":"bio-meiosis-metaphase1.jpg","alt":"Metaphase I of meiosis with homologous pairs aligned along the centre of the cell","cap":"Metaphase I."}},
+{"h":"Anaphase I and Telophase I","p":["Anaphase I: whole homologous chromosomes (not chromatids) are pulled to opposite poles."],
+"img":{"src":"bio-meiosis-anaphase1.jpg","alt":"Anaphase I of meiosis with homologous chromosomes moving to opposite poles","cap":"Anaphase I."}},
+{"h":"Telophase I","p":["Telophase I: two haploid cells form."],
+"img":{"src":"bio-meiosis-telophase1.jpg","alt":"Telophase I of meiosis with the cytoplasm dividing and two nuclei forming","cap":"Telophase I."}},
+{"h":"Meiosis II (like mitosis)","p":["Prophase II: after a short interval with no DNA copying, the chromosomes (still made of two chromatids) prepare to divide again. Metaphase II: they line up singly on the equator. Anaphase II: the sister chromatids are pulled apart. Telophase II and cytokinesis: four haploid daughter cells are formed, each with a single set of chromosomes."],
+"img":{"src":"bio-meiosis-2.jpg","alt":"The daughter cells of meiosis I dividing in meiosis II to give four haploid cells, each with a single chromosome","cap":"Meiosis II gives four haploid cells."}},
+{"h":"Importance of meiosis","p":["It keeps the chromosome number the same from generation to generation, because gametes have half the number and fertilisation restores it. It makes genetic variation through crossing over and the random way chromosomes line up and separate in meiosis I. (The source says that separating sister chromatids in meiosis II causes the variation. In fact crossing over and independent assortment in meiosis I do.) It is essential for sexual reproduction."]},
+{"h":"Mitosis compared with meiosis","p":["Study the table."],
+"tbl":{"head":["","Mitosis","Meiosis"],"rows":[
+["Where","Body cells","Reproductive organs (to make gametes)"],
+["Number of divisions","One","Two"],
+["Daughter cells","Two","Four"],
+["Chromosome number","Same as the parent (diploid)","Half of the parent (haploid)"],
+["Genetic make-up","Identical to parent","Different (variation)"],
+["Crossing over","No","Yes, in prophase I"],
+["Use","Growth, repair, asexual reproduction","Sexual reproduction"]]}}
+],
+"activity":"Give five differences between mitosis and meiosis in a table. Say where crossing over happens.",
+"check":[
+{"q":"Meiosis produces","o":["Four haploid cells","Two diploid cells","One cell","Two identical cells"]},
+{"q":"Crossing over happens in","o":["Prophase I","Anaphase II","Telophase II","Interphase only"]},
+{"q":"Meiosis halves the","o":["Chromosome number","Cell size","Number of nuclei","Time"]},
+{"q":"Gametes are made by","o":["Meiosis","Mitosis","Binary fission","Budding"]},
+{"q":"In anaphase I, what is pulled apart?","o":["Homologous chromosomes","Sister chromatids","Nuclei","Cells"]}]},
+
+{"id":"bi1-19","week":10,"title":"Irritability and Movement","icon":"Zap","summary":"Stimulus and response, taxis, nastic and tropic movements in plants, and cyclosis and movement in cells.",
+"keyWords":["Stimulus","Response","Taxis","Nastic movement","Tropism"],
+"sections":[
+{"h":"Irritability","p":["Irritability is the ability of an organism to respond to stimuli. A stimulus is any change in the external or internal environment that causes a change in the activity of the whole organism or a part of it. The change in activity is the response. There are three main types of response: tactic, nastic and tropic movements."]},
+{"h":"Taxis (tactic movement)","p":["A movement of a whole organism from one place to another in a direction decided by an external stimulus such as light, temperature, water or a chemical. Examples: Euglena or Chlamydomonas swimming away from strong light (negative phototaxis); sperms of a moss swimming towards a chemical given off by the egg (positive chemotaxis)."]},
+{"h":"Nastic movement (nastism)","p":["A movement of part of a plant in response to a stimulus where the direction does not depend on the direction of the stimulus. Examples: the leaflets of the mimosa (sensitive plant) fold when touched; some flowers close when light intensity is low."]},
+{"h":"Tropism (tropic movement)","p":["A growth movement of part of a plant in a direction decided by the direction of the stimulus. It happens in the growing regions of the root and shoot tips and is controlled by plant hormones called auxins. Tropisms are named by the stimulus.","Phototropism (light): shoots grow towards light (positive); roots grow away from light (negative). Geotropism (gravity): roots grow towards gravity (positive); shoots grow away from it (negative). Thigmotropism (touch): tendrils of climbers twine around a support (positive). Hydrotropism: roots grow towards water."],
+"tbl":{"head":["Response","Direction of stimulus matters?","Example"],"rows":[
+["Taxis","Yes (whole organism moves)","Euglena swimming away from bright light"],
+["Nastic","No (part of a plant)","Mimosa leaflets folding when touched"],
+["Tropism","Yes (part of a plant grows)","Shoot bending towards light"]]}},
+{"h":"Movement and cyclosis","p":["Organisms move from place to place to look for food, water and mates, and to escape enemies or bad weather. Inside cells, cyclosis (cytoplasmic streaming) is the circular flow of the cytoplasm. It carries substances from one part of the cell to another. It occurs in amoeboid movement in Amoeba and in the movement of chloroplasts in some plant cells so that their broad faces are turned to the light."]}
+],
+"activity":"Set up a seedling in a pot and place it by a window for a few days. Describe what happens and name the response. (The shoot bends towards the light: positive phototropism.)",
+"check":[
+{"q":"Shoots growing towards light show","o":["Positive phototropism","Negative geotropism only","Nastic movement","Taxis"]},
+{"q":"The folding of mimosa leaflets when touched is","o":["A nastic movement","A tropism","A taxis","Growth"]},
+{"q":"Roots growing downward show","o":["Positive geotropism","Negative geotropism","Negative phototropism only","Nastic movement"]},
+{"q":"Tropisms are controlled by plant hormones called","o":["Auxins","Insulin","Enzymes","Vitamins"]},
+{"q":"A whole organism moving in response to a stimulus shows","o":["Taxis","Tropism","Nastic movement","Cyclosis"]}]}
+]

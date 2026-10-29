@@ -1,0 +1,278 @@
+[
+{"id":"e21-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS2 English Language First Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Nominalisation","Noun phrase","Word stress","Summary","Essay"],
+"sections":[
+{"h":"Welcome to SS2 English Language","p":["In SS2 you move from simple correctness to skilful, mature English. This term you learn grammar (nominalisation, noun phrases, pronouns, plurals, adverbs), oral English (consonants, clusters, transcription and stress), writing (expository and argumentative essays and a scientific report), reading skills (summary, main ideas, note-taking and listening) and rich vocabulary.","Study one unit at a time. Do the practice work in your notebook before you check the answers. At the end of every unit are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for First Term","p":["Week 5 is the midterm examination and Week 7 is the midterm break. Weeks 8 to 10 continue the topics below."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Grammar: nominalisation of adjectives and verbs"],
+["3","1","Oral English: voiced and voiceless consonants"],
+["4","1","Summary writing: features and rules"],
+["5","1","Vocabulary: words of the week 1"],
+["6","2","Oral English: consonant clusters"],
+["7","2","Vocabulary: the human body and words of the week 2"],
+["8","2","Writing: the expository essay"],
+["9","3","Structure: nouns and noun phrases"],
+["10","3","Oral English: transcription and stress marking"],
+["11","3","Vocabulary: health and words of the week 3"],
+["12","4","Structure: pronouns"],
+["13","4","Summary writing: reading to summarise"],
+["14","4","Vocabulary: building and words of the week 4"],
+["15","6","Oral English: word stress"],
+["16","6","Listening skills"],
+["17","6","Writing: the argumentative essay"],
+["18","6","Vocabulary: words of the week 6"],
+["19","8","Structure: plural forms of nouns"],
+["20","8","Comprehension: reading to find main points"],
+["21","8","Vocabulary: words of the week 8"],
+["22","9","Comprehension: reading and note-taking"],
+["23","9","Oral English: emphatic stress"],
+["24","9","Summary writing: summarising arguments"],
+["25","9","Vocabulary: words of the week 9"],
+["26","10","Structure: adverbs and adverbial phrases"],
+["27","10","Vocabulary: colour, smell and taste"],
+["28","10","Listening: tone, purpose and figurative expressions"],
+["29","10","Writing: the scientific report"],
+["30","10","Vocabulary: words of the week 10"],
+["31","11","Revision"]]}}
+],
+"activity":"Look at the units. Which unit helps you to turn 'decide' into a noun? Which unit teaches you to write a report on an experiment?",
+"check":[
+{"q":"Which unit covers pronouns?","o":["Unit 12","Unit 3","Unit 19","Unit 27"]},
+{"q":"In which unit do you study the argumentative essay?","o":["Unit 17","Unit 8","Unit 24","Unit 29"]},
+{"q":"Which unit covers plural forms?","o":["Unit 19","Unit 2","Unit 10","Unit 26"]},
+{"q":"Which unit covers note-taking?","o":["Unit 22","Unit 4","Unit 16","Unit 30"]}]},
+
+{"id":"e21-02","week":1,"title":"Grammar: Nominalisation of Adjectives and Verbs","icon":"Layers","summary":"How verbs and adjectives are turned into nouns by adding suffixes or by conversion, and why this makes writing formal.",
+"keyWords":["Nominalisation","Suffix","Conversion","Abstract noun","Formal writing"]
+,"sections":[
+{"h":"What is nominalisation?","p":["Nominalisation is turning another part of speech, mostly a verb or an adjective, into a noun or noun phrase. It moves your writing from simple actions and qualities to ideas and things. It is a mark of formal, academic and professional writing.","Without nominalisation: 'The manager decided quickly. This was efficient.' With nominalisation: 'The manager's quick decision showed efficiency.'"]},
+{"h":"Method 1: adding a suffix","p":["This is the commonest way. Notice that the spelling often changes."],
+"tbl":{"head":["Suffix","Verb to noun","Adjective to noun"],"rows":[
+["-tion / -sion","act → action; decide → decision; expand → expansion",""],
+["-ment","govern → government; pay → payment; argue → argument",""],
+["-al","arrive → arrival; refuse → refusal; dismiss → dismissal",""],
+["-ance / -ence","appear → appearance; resist → resistance","independent → independence; important → importance"],
+["-ity / -ty","","stupid → stupidity; pure → purity; cruel → cruelty"],
+["-ness","","happy → happiness; good → goodness; kind → kindness"],
+["-th","grow → growth; die → death; bear → birth","strong → strength; wide → width; long → length"],
+["-age","marry → marriage; break → breakage; use → usage",""]]}},
+{"h":"Method 2: conversion (zero suffix)","p":["The word keeps the same form but works as a noun. 'His daily run keeps him fit.' 'There was a big fight after the match.' 'I need a good rest.' 'She has a great love for music.'"]},
+{"h":"Worked examples","p":["'The company invested heavily in research, which caused it to innovate rapidly' becomes 'The company's heavy investment in research led to rapid innovation.'","'The patient was anxious, and this was evident to the doctor' becomes 'The patient's anxiety was evident to the doctor.'","'If we collaborate effectively, we will succeed' becomes 'Effective collaboration will lead to success.'"]}
+],
+"activity":"Turn into nouns: amaze, solve, develop, dark, accurate, young. Rewrite: 'The employees argued fiercely, which disrupted the meeting.' (amazement; solution; development; darkness; accuracy; youth. The employees' fierce argument disrupted the meeting.)",
+"check":[
+{"q":"The noun from 'decide' is","o":["Decision","Decided","Decisive","Decisively"]},
+{"q":"The noun from 'strong' is","o":["Strength","Strongly","Strengthen","Strongness"]},
+{"q":"'He went for a run' uses nominalisation by","o":["Conversion","Suffix -ment","Suffix -ity","Suffix -al"]},
+{"q":"The noun from 'pure' is","o":["Purity","Purely","Purify","Pureness only"]},
+{"q":"Nominalisation makes writing more","o":["Formal and concept-focused","Casual","Rude","Short and vague"]},
+{"q":"The noun from 'refuse' is","o":["Refusal","Refused","Refusing","Refusive"]}]},
+
+{"id":"e21-03","week":1,"title":"Oral English: Voiced and Voiceless Consonants","icon":"Zap","summary":"What voicing means, how to test for it, and the pairs of consonants that differ only in voicing.",
+"keyWords":["Voiced","Voiceless","Vocal cords","Minimal pair","Phonetics"]
+,"sections":[
+{"h":"Voicing","p":["Consonant sounds differ in whether the vocal cords vibrate. In a voiceless sound the vocal cords are apart and do not vibrate; only air passes. In a voiced sound the vocal cords are close and vibrate, giving a buzzing feeling in the throat.","Test: put your fingers on your throat. Say 'ssssss' (like a snake): nothing. Say 'zzzzzz' (like a bee): you feel a buzz. So /s/ is voiceless and /z/ is voiced."]},
+{"h":"The pairs","p":["Many consonants form pairs with exactly the same mouth position; only voicing differs."],
+"tbl":{"head":["Voiceless","Voiced","Pairs of words"],"rows":[
+["/p/","/b/","pat / bat; rap / rab"],
+["/t/","/d/","tin / din; hit / hid"],
+["/k/ (k, c)","/g/","coat / goat; back / bag"],
+["/f/ (f, ph)","/v/","fan / van; safe / save"],
+["/θ/ (th)","/ð/ (th)","thin / this; breath / breathe"],
+["/s/","/z/","sip / zip; bus / buzz"],
+["/ʃ/ (sh)","/ʒ/","pressure / pleasure; Asia, collision"],
+["/tʃ/ (ch)","/dʒ/ (j, g)","chin / gin; rich / ridge"]]}},
+{"h":"A note","p":["Your lesson note gives 'chin / jin' as a pair. 'Jin' is not a normal word, so use 'chin / gin' or 'cheap / jeep'. The words 'thin' and 'thy' in the original table are also fine as /θ/ and /ð/."]}
+],
+"activity":"In each pair, which word has the voiced sound? (a) fan / van; (b) price / prize; (c) batch / badge. (van; prize; badge.) Write five minimal pairs of your own, such as rope / robe.",
+"check":[
+{"q":"The voiced partner of /s/ is","o":["/z/","/ʃ/","/t/","/f/"]},
+{"q":"A voiced sound makes the vocal cords","o":["Vibrate","Stay still","Close and stop","Open wide"]},
+{"q":"Which pair differs only in voicing?","o":["Sip / zip","Sip / ship","Sip / lip","Sip / tip"]},
+{"q":"The word 'prize' ends with","o":["/z/","/s/","/ʃ/","/t/"]},
+{"q":"The voiced partner of /tʃ/ is","o":["/dʒ/","/k/","/ʒ/","/θ/"]}]},
+
+{"id":"e21-04","week":1,"title":"Summary Writing: Features and Rules","icon":"Target","summary":"What a summary is, the features of a good summary, a list of do's and don'ts and a worked example.",
+"keyWords":["Summary","Paraphrase","Objectivity","Brevity","Main idea"]
+,"sections":[
+{"h":"What is a summary?","p":["A summary is a short, objective and fluent statement of the main ideas of a text, written in your own words. It shows that you understand the passage by taking away examples, extra details and repetition and keeping only the central message. It is not a comment on the text or a criticism of it."]},
+{"h":"Features of a good summary","p":["Brevity: much shorter than the original. Clarity: easy to understand and correct in grammar. Objectivity: only the author's ideas, not yours. Completeness: all the main points that answer the question. Paraphrasing: mostly in your own words."]},
+{"h":"Do's and don'ts","p":["Study the table."],
+"tbl":{"head":["Do","Do not"],"rows":[
+["Read the question carefully and find what it asks","Start writing before you understand the passage"],
+["Underline topic sentences and key ideas","Include your own opinions or examples"],
+["Paraphrase using synonyms and new sentence patterns","Copy ('lift') long phrases"],
+["Use connectives such as furthermore, consequently, however","Use figures of speech, rhetorical questions or minor details"],
+["Keep to the word or sentence limit","Change or distort the author's meaning"]]}},
+{"h":"A worked example","p":["Passage: 'In contemporary society, the spread of digital technology has had a deep effect on social life. Many experts say that while technology links people over great distances, it can also weaken face-to-face communication. For instance, constant use of smartphones in company can lead to \"phubbing\", ignoring one's companions in favour of a phone. This can cause feelings of neglect and reduce the depth of personal bonds. So it is important to find a healthy balance between digital and real-world contact.'","Question: in one sentence, state the negative effect of digital technology on social life. Steps: find the key words in the question (negative effect, digital technology, social interaction); find the matching points in the passage (weakens face-to-face talk, phubbing, neglect, shallow bonds); put them in your own words.","Answer: 'Digital technology can weaken face-to-face communication by encouraging habits such as phubbing, which damage the quality of personal relationships.'"]}
+],
+"activity":"Read: 'Climate change threatens world farming. Rising temperatures bring long droughts that make it hard to grow maize and wheat, while other regions suffer floods that destroy harvests. These erratic patterns disturb growing seasons and cause food shortages and higher prices, hurting the poorest most. Adapting farming and developing drought-resistant crops are vital for food security.' (a) In one sentence, state the main threat. (b) In two sentences, give one cause and one effect. (Threat: climate change endangers global food production. Cause: rising temperatures and floods; effect: food shortages and higher prices.)",
+"check":[
+{"q":"A summary should be","o":["Shorter than the original","Longer than the original","The same length","Written as a poem"]},
+{"q":"Which belongs in a summary?","o":["The author's main ideas","Your own opinion","Long copied phrases","Jokes"]},
+{"q":"Paraphrasing means","o":["Using your own words","Copying","Translating into another language","Ignoring the text"]},
+{"q":"Objectivity means","o":["No personal opinions","Writing with feeling","Adding examples","Criticising"]},
+{"q":"The first step before writing a summary is to","o":["Understand the question and the passage","Write the first sentence","Count the pages","Copy the title"]}]},
+
+{"id":"e21-05","week":1,"title":"Vocabulary: Words of the Week 1","icon":"BookOpen","summary":"Ten useful advanced words with meanings and close synonyms: bombastic, dearth, hiatus, implacable, stingy, dour, ebullient, ignominious, impinge and tome.",
+"keyWords":["Bombastic","Dearth","Hiatus","Implacable","Ebullient"]
+,"sections":[
+{"h":"The words","p":["Learn each word with its meaning and synonyms. Then write a sentence of your own for each."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Bombastic (adj.)","High-sounding language with little meaning, meant to impress","pompous, grandiloquent"],
+["Dearth (n.)","A scarcity or lack of something","shortage, deficiency"],
+["Hiatus (n.)","A pause or gap in a sequence or process","break, interruption"],
+["Implacable (adj.)","Unable to be calmed or satisfied","relentless, unforgiving"],
+["Stingy (adj.)","Unwilling to give or spend","miserly, tight-fisted"],
+["Dour (adj.)","Severe, stern or gloomy in manner","grim, forbidding"],
+["Ebullient (adj.)","Cheerful and full of energy","exuberant, buoyant"],
+["Ignominious (adj.)","Causing public shame","humiliating, shameful"],
+["Impinge (v.)","To affect something, usually badly; to encroach","encroach, infringe"],
+["Tome (n.)","A large, heavy, scholarly book","volume"]]}},
+{"h":"Example sentences","p":["The politician's bombastic speech had rhetoric but no policy. There is a severe dearth of clean water in the dry region. The series went on a three-year hiatus. She was an implacable opponent of the law. The noise began to impinge on our ability to concentrate."]}
+],
+"activity":"Write five sentences using: hiatus, tome, impinge, dour, ebullient. Choose the right word: 'After the scandal, his career came to a(n) ______ end' (ebullient, ignominious, bombastic). Give an opposite of 'dearth'. (ignominious; abundance.)",
+"check":[
+{"q":"A 'dearth' is a","o":["Shortage","Surplus","Celebration","Book"]},
+{"q":"'Ebullient' means","o":["Full of energy","Sad","Shy","Angry"]},
+{"q":"A 'tome' is a","o":["Large scholarly book","Small coin","Pencil","Letter"]},
+{"q":"'Ignominious' describes","o":["Shameful defeat","Great victory","Quiet evening","Fast race"]},
+{"q":"A 'hiatus' is a","o":["Pause","Rush","Prize","Fight"]},
+{"q":"'Stingy' means","o":["Unwilling to spend","Very rich","Very kind","Very fast"]}]},
+
+{"id":"e21-06","week":2,"title":"Oral English: Consonant Clusters","icon":"Zap","summary":"What consonant clusters are, two-, three- and four-consonant clusters at the start and end of words, and the error of epenthesis.",
+"keyWords":["Consonant cluster","Initial cluster","Final cluster","Epenthesis","Schwa"]
+,"sections":[
+{"h":"What is a cluster?","p":["A consonant cluster is a group of two or more consonant sounds together in one syllable with no vowel sound between them. Saying them well makes your English clear and natural. A common mistake is epenthesis, adding a vowel (usually the schwa /ə/) inside a cluster. Correct: film /fɪlm/. Wrong: 'fi-lim'. Another example: 'school' pronounced 'sukool'."]},
+{"h":"Two-consonant clusters","p":["Initial (at the start): /s/ plus consonant (stay, sky, slow, swim, snow); /l/ blends (blow, clean, fly, glass, play); /r/ blends (bring, cry, dry, free, grow, pray, tree). Final (at the end): -st (last, past, test), -nd (hand, send, find), -sk (task, desk, ask), -mp (jump, lamp, camp), -ft (left, gift, soft), -ld (gold, hold, child)."]},
+{"h":"Three-consonant clusters","p":["Initial clusters nearly always begin with /s/: /spr/ (spring, spray, sprout), /str/ (street, strong, strike), /skr/ (script, scream, scrub), /spl/ (splash, split, spleen). Final clusters often come from adding -s or -ed: -nts (tents, wants), -mps (jumps, lamps), -sks (tasks, desks), -pts (scripts, adapts), -lps (helps, gulps)."]},
+{"h":"Four- and five-consonant clusters","p":["These are usually at the end of words. Say each consonant cleanly and quickly without inserting a vowel: twelfths /twɛlfθs/, fifths, strengths /strɛŋθs/, lengths, texts /tɛksts/, next /nɛkst/, glimpsed /ɡlɪmpst/, prompts /prɒmpts/, attempts."]}
+],
+"activity":"Say five times: 'The strong sprinter glimpsed the scrambled scripts on the desks.' How many consonants are in the final cluster of 'glimpsed'? (Four: /mpst/.) Which has a four-consonant cluster: thanks, prompts, lists? (prompts.)",
+"check":[
+{"q":"Adding a vowel inside a cluster is called","o":["Epenthesis","Elision","Stress","Voicing"]},
+{"q":"The cluster at the start of 'street' is","o":["/str/","/st/","/tr/","/s/"]},
+{"q":"'Glimpsed' ends with","o":["Four consonants","Two consonants","One consonant","No consonants"]},
+{"q":"Which word has an initial three-consonant cluster?","o":["Splash","Desk","Hand","Test"]},
+{"q":"'Fi-lim' for 'film' is an error because","o":["A vowel was inserted","A consonant was missing","The stress is wrong","It is voiced"]}]},
+
+{"id":"e21-07","week":2,"title":"Vocabulary: the Human Body and Words of the Week 2","icon":"Heart","summary":"Words for the circulatory, respiratory, nervous, skeletal and digestive systems, with a gap-fill, and ten more words of the week.",
+"keyWords":["Artery","Vein","Neuron","Cartilage","Tendon"]
+,"sections":[
+{"h":"Body systems","p":["Study the table. Knowing this vocabulary helps you in science passages."],
+"tbl":{"head":["System","Terms and meanings"],"rows":[
+["Circulatory (moves blood and lymph)","Heart: muscle that pumps blood. Artery: carries oxygenated blood away from the heart. Vein: carries deoxygenated blood towards the heart. Capillary: tiny vessel where water, oxygen and nutrients pass between blood and tissues. Plasma: pale yellow liquid part of blood"],
+["Respiratory (takes in oxygen, removes carbon dioxide)","Lungs: organs of gas exchange. Diaphragm: dome-shaped muscle below the lungs that flattens to draw air in. Trachea: the windpipe"],
+["Nervous (controls and sends messages)","Neuron: a nerve cell. Synapse: the junction between two nerve cells. Spinal cord: bundle of nerve fibres in the spine"],
+["Skeletal (framework)","Skeleton: the framework. Cartilage: smooth, elastic tissue padding bone ends. Ligament: tough band joining bone to bone. Tendon: strong cord joining muscle to bone"],
+["Digestive (breaks down food)","Oesophagus: tube from throat to stomach. Stomach: where most digestion happens. Intestine: long tube, small and large, where nutrients are absorbed. Liver: gland that makes bile"]]}},
+{"h":"Gap-fill","p":["Words: arteries, lungs, plasma, neurons, heart, cartilage, veins, trachea. 'The human circulatory system is powered by the (1) _____, a muscle that pumps. Oxygen-rich blood leaves the heart through thick-walled (2) _____, while oxygen-poor blood returns through thinner-walled (3) _____. The blood picks up oxygen in the (4) _____, protected by the ribs. The liquid part of blood, (5) _____, carries nutrients and cells. The nervous system sends signals through special cells called (6) _____.' Answers: heart, arteries, veins, lungs, plasma, neurons."]},
+{"h":"Words of the week 2","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Partisan (adj.)","Showing strong, often biased support for one side","biased, one-sided"],
+["Repose (n.)","A state of rest or calm","rest, peace"],
+["Vivacious (adj.)","Lively and animated","spirited, ebullient"],
+["Surmise (v.)","To suppose without proof","guess, infer"],
+["Malediction (n.)","A curse","curse, hex"],
+["Stoic (adj.)","Enduring pain without complaint","uncomplaining"],
+["Tangential (adj.)","Only slightly connected to the main point","irrelevant, digressive"],
+["Mores (n.)","The customs and conventions of a community","customs, norms"]]}}
+],
+"activity":"Draw and label the path of blood through the heart (four chambers), lungs and body. Write 50 to 80 words on how we breathe in, using 'lungs', 'diaphragm' and 'oxygen'. Use partisan, surmise, stoic and mores in four sentences.",
+"check":[
+{"q":"Blood vessels that carry blood away from the heart are","o":["Arteries","Veins","Tendons","Ligaments"]},
+{"q":"A tendon joins","o":["Muscle to bone","Bone to bone","Skin to bone","Nerve to muscle"]},
+{"q":"The windpipe is the","o":["Trachea","Oesophagus","Plasma","Neuron"]},
+{"q":"A nerve cell is a","o":["Neuron","Capillary","Ligament","Synapse"]},
+{"q":"A 'stoic' person","o":["Endures pain without complaining","Cries easily","Is very noisy","Is lazy"]},
+{"q":"'Mores' are","o":["Customs of a community","Extra amounts","Cures","Medicines"]}]},
+
+{"id":"e21-08","week":2,"title":"Writing: the Expository Essay","icon":"Layers","summary":"The purpose and structure of an expository essay: introduction with hook and thesis, three body paragraphs with topic sentences, and a conclusion; with a worked outline.",
+"keyWords":["Expository essay","Thesis statement","Topic sentence","Transition","Conclusion"]
+,"sections":[
+{"h":"Purpose","p":["An expository essay explains, describes or informs. Its aim is a balanced, factual explanation. Unlike an argumentative essay, it does not try to persuade the reader to share an opinion. It 'exposes' information clearly and logically. The tone is objective."]},
+{"h":"Structure","p":["Think of a house: the introduction is the foundation, the body paragraphs are the walls and the conclusion is the roof.","Introduction (one paragraph): a hook (a striking fact, a question or a statement to catch interest); background (short context or definitions); the thesis statement (one clear sentence stating the main point).","Body (usually three paragraphs): each paragraph develops one main point that supports the thesis. It begins with a topic sentence and continues with supporting details (facts, statistics, examples, explanations), with an optional concluding sentence. Use transitions such as furthermore, moreover, in addition, consequently and for instance.","Conclusion (one paragraph): restate the thesis in new words; summarise the main points; end with a final thought or recommendation. Do not bring in new ideas."]},
+{"h":"A worked outline","p":["Topic: 'The three major causes of road accidents in Nigeria'. Thesis: 'The high rate of road accidents in Nigeria is chiefly caused by human error, poor vehicle maintenance and inadequate road infrastructure.'","Body 1: human error (speeding, dangerous overtaking, driving under the influence, using the phone). Body 2: poor condition of vehicles (bald tyres, faulty brakes, broken lights, weak inspection). Body 3: bad roads (potholes, no signs, dead streetlights, eroded roads). Conclusion: accidents come from driver behaviour, vehicle condition and road quality, so stricter law enforcement, public education and investment in roads are needed."]}
+],
+"activity":"Write a 400-word expository essay on 'The roles and responsibilities of a good citizen' or 'The main causes and effects of the erosion of cultural values in your community'. Write a thesis for: 'The benefits of a digital literacy programme in secondary schools.'",
+"check":[
+{"q":"The purpose of an expository essay is to","o":["Explain or inform","Persuade","Entertain only","Tell jokes"]},
+{"q":"The thesis statement states the","o":["Main point of the essay","Title","Author's name","Last point"]},
+{"q":"A topic sentence","o":["Begins a body paragraph and states its main idea","Ends the essay","Is the title","Is a quotation"]},
+{"q":"The conclusion should","o":["Restate the thesis and sum up","Add new ideas","Start a new topic","Ask for help"]},
+{"q":"The tone of an expository essay is","o":["Objective","Emotional","Humorous","Rude"]}]},
+
+{"id":"e21-09","week":3,"title":"Structure: Nouns and Noun Phrases","icon":"Layers","summary":"Types of nouns, the parts of a noun phrase, the five functions of a noun phrase and the difference between a noun phrase and a noun clause.",
+"keyWords":["Noun phrase","Headword","Determiner","Noun clause","Complement"]
+,"sections":[
+{"h":"Types of nouns","p":["Proper: names (Chinua, Abuja, Christmas). Common: general names (artist, city). Abstract: ideas and qualities (freedom, bravery, justice). Collective: groups (team, flock, fleet). Concrete: things the senses can perceive (rain, sand, perfume). Countable: have plurals (book, books; child, children). Uncountable: no plural (advice, furniture, information)."]},
+{"h":"The noun phrase","p":["A noun phrase is a group of words built round a noun (the headword) which works as one unit. Structure: (determiner) + (pre-modifiers) + headword + (post-modifiers). Determiners: a, an, the, this, my, some, five. Pre-modifiers: adjectives or other nouns ('university student'). Post-modifiers: prepositional phrases, relative clauses, participle phrases.","Examples: 'a brilliant idea' (determiner, pre-modifier, headword); 'a brilliant idea for a new project' (adds a post-modifier); 'the tall, intelligent boy who won the prize'."]},
+{"h":"Functions of a noun phrase","p":["Subject (S): [The diligent student] passed the exam. Object (O): He bought [a new bicycle]. Subject complement (C): Mr Bello is [a dedicated teacher]. Object complement (C): They elected him [their chairman]. Object of a preposition (OP): She put the book on [the wooden table]."]},
+{"h":"Noun phrase and noun clause","p":["A noun phrase has no subject and verb of its own: 'I know [the correct answer to the question].' A noun clause has its own subject and verb and works as a noun. It is introduced by words such as that, what, why, how, whether, whoever: 'I know [what you did last summer].' '[Why he resigned] remains a mystery' (the clause is the subject). 'The truth is [that she never arrived]' (the clause is the subject complement)."]}
+],
+"activity":"Identify the noun phrase and its function: 'He painted the old garden fence.' (the old garden fence: object.) 'Her greatest ambition is to become a surgeon.' (Her greatest ambition: subject; a surgeon: subject complement of the infinitive.) Is it a noun phrase or clause: 'I understand what you mean'? (noun clause.)",
+"check":[
+{"q":"The headword of 'the several old, dusty books' is","o":["books","several","old","dusty"]},
+{"q":"A noun clause has its own","o":["Subject and verb","Adjective only","Headword only","Rhyme"]},
+{"q":"In 'They elected him their chairman', 'their chairman' is the","o":["Object complement","Subject","Object of a preposition","Adverb"]},
+{"q":"'Advice' is","o":["Uncountable","Countable","Collective","Proper"]},
+{"q":"In 'I know what you did', the underlined clause is the","o":["Object","Subject","Adverbial","Determiner"]}]},
+
+{"id":"e21-10","week":3,"title":"Oral English: Transcription and Stress Marking","icon":"Zap","summary":"The International Phonetic Alphabet, pure vowels and diphthongs, and basic rules for marking word stress.",
+"keyWords":["Transcription","IPA","Monophthong","Diphthong","Stress"]
+,"sections":[
+{"h":"Transcription","p":["Transcription is writing speech sounds with the symbols of the International Phonetic Alphabet (IPA), so pronunciation can be recorded exactly, whatever the spelling. Word stress is extra force on one syllable, making it louder, longer and higher in pitch. Correct stress is often more important for being understood than perfect individual sounds."]},
+{"h":"The vowel symbols","p":["Pure vowels (monophthongs): /iː/ see, beat; /ɪ/ sit, bin; /e/ bed, pen; /æ/ cat, bad; /ɑː/ car, father; /ɒ/ hot, clock; /ɔː/ saw, born; /ʊ/ put, book; /uː/ too, food; /ʌ/ cup, luck; /ɜː/ bird, fern; /ə/ about, sister (the schwa, the most common vowel sound).","Diphthongs (gliding vowels): /eɪ/ day, make; /aɪ/ my, time; /ɔɪ/ boy, coin; /aʊ/ now, house; /əʊ/ go, home; /ɪə/ here, beard; /eə/ hair, care; /ʊə/ pure, tour."]},
+{"h":"Marking stress","p":["The stress mark (ˈ) is put before the stressed syllable. One-syllable words carry the stress (dog, run). Two-syllable nouns and adjectives usually take stress on the first syllable (PRESent, HAPpy); two-syllable verbs usually on the second (preSENT, deCIDE, beGIN). In longer words the suffix often decides: stress the syllable before -tion, -sion, -ic, -ity, -graphy (eduCAtion, ecoNOmic, aBILity, phoTOgraphy); stress falls on -ee and -eer (employEE, engiNEER)."]},
+{"h":"Worked examples","p":["photograph /ˈfəʊtəɡrɑːf/ (first syllable); photographer /fəˈtɒɡrəfə/ (second syllable, because of -grapher); photographic /ˌfəʊtəˈɡræfɪk/ (third syllable, before -ic)."]}
+],
+"activity":"Transcribe 'ship' (/ʃɪp/) and mark stress on: beauty (BEAUty), begin (beGIN), politics (POLitics), geological (geoLOGical). Transcribe and stress: information (/ˌɪnfəˈmeɪʃn/).",
+"check":[
+{"q":"The most common vowel sound in English is the","o":["Schwa /ə/","/ɑː/","/ʌ/","/ɪ/"]},
+{"q":"Two-syllable verbs usually stress the","o":["Second syllable","First syllable","Neither","Both"]},
+{"q":"In 'education' the stress is on","o":["CA","E","TION","DU"]},
+{"q":"A diphthong is a","o":["Gliding vowel","Silent letter","Consonant","Syllable"]},
+{"q":"The stress mark is written","o":["Before the stressed syllable","After the stressed syllable","Under the word","Above the last letter"]}]},
+
+{"id":"e21-11","week":3,"title":"Vocabulary: Health and Words of the Week 3","icon":"Heart","summary":"Twelve health words with meanings and a gap-fill, plus ten words of the week: paradigm, obtuse, sublime, paragon and more.",
+"keyWords":["Diagnosis","Prognosis","Chronic","Epidemic","Pandemic"]
+,"sections":[
+{"h":"Health vocabulary","p":["Study the table."],
+"tbl":{"head":["Word","Meaning"],"rows":[
+["Diagnosis (n.)","Identifying an illness from its symptoms"],
+["Prognosis (n.)","The likely course and outcome of an illness"],
+["Contagious (adj.)","Spread by direct contact (chickenpox)"],
+["Infectious (adj.)","Spread through the environment, such as by mosquitoes or water (malaria, cholera)"],
+["Symptoms (n.)","Signs that show a disease"],
+["Prescription (n.)","A doctor's written order for a medicine"],
+["Therapeutic (adj.)","Healing or good for health"],
+["Vaccine (n.)","A substance that builds immunity to a disease"],
+["Chronic (adj.)","Lasting a long time or recurring"],
+["Acute (adj.)","Short but severe"],
+["Epidemic (n.)","A widespread outbreak in a community"],
+["Pandemic (n.)","An epidemic over a whole country or the world"]]}},
+{"h":"Gap-fill","p":["Words: symptoms, contagious, diagnosis, chronic, prescription. 'When the patient described his (1) _____ (constant tiredness and joint pain), the doctor first suspected a common virus. As the illness lasted over six months, it was called a (2) _____ illness. The final (3) _____ was Lyme disease. The doctor wrote a (4) _____ for antibiotics and said that, although not (5) _____ like a cold, the treatment must be completed.' Answers: symptoms, chronic, diagnosis, prescription, contagious."]},
+{"h":"Words of the week 3","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Paradigm (n.)","A typical example or model","model, pattern"],
+["Obtuse (adj.)","Slow to understand, insensitive","dense, dull"],
+["Sublime (adj.)","Of great beauty or grandeur","awe-inspiring"],
+["Paragon (n.)","A perfect example of a quality","model, epitome"],
+["Reciprocate (v.)","To respond with a similar action","return, repay"],
+["Solvent (adj.)","Able to pay all debts","financially sound"],
+["Frugal (adj.)","Sparing with money or food","thrifty"],
+["Surrogate (n.)","A substitute","stand-in, proxy"],
+["Vilify (v.)","To speak abusively about","malign, defame"],
+["Exonerate (v.)","To clear from blame","acquit, absolve"]]}}
+],
+"activity":"Write a 60 to 100-word paragraph on a public health issue using at least four of: epidemic, vaccine, contagious, symptoms, diagnosis. Is the common cold chronic or acute? (Acute.) Opposite of 'solvent'? (insolvent or bankrupt.)",
+"check":[
+{"q":"A doctor's written authorisation for medicine is a","o":["Prescription","Diagnosis","Vaccine","Symptom"]},
+{"q":"An epidemic that spreads worldwide is a","o":["Pandemic","Prognosis","Symptom","Diagnosis"]},
+{"q":"To 'exonerate' someone is to","o":["Clear them of blame","Blame them","Punish them","Ignore them"]},
+{"q":"'Chronic' means","o":["Lasting a long time","Very short","Very sharp","Harmless"]},
+{"q":"A 'paragon' is","o":["A perfect example","A rule","A fear","A weak person"]},
+{"q":"To 'vilify' is to","o":["Speak abusively about","Praise","Hide","Copy"]}]}
+]

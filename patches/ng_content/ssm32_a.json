@@ -1,0 +1,187 @@
+[
+{"id":"m32-02","week":2,"title":"Coordinate Geometry: Distance, Midpoint and Gradient","icon":"Layers",
+"summary":"The formulas for the distance between two points, the midpoint of a line segment and the gradient, and the point dividing a line in a ratio.",
+"keyWords":["Distance","Midpoint","Gradient","Section formula","Cartesian plane"],
+"sections":[
+{"h":"The Cartesian plane","p":["Every point has coordinates (x, y), where x is the distance across from the origin and y is the distance up. Let A(x₁, y₁) and B(x₂, y₂) be two points. We use A(1, 2) and B(7, 10) in the examples."]},
+{"h":"Distance between two points","p":["AB = √((x₂ − x₁)² + (y₂ − y₁)²). This comes from Pythagoras' theorem. For A(1, 2) and B(7, 10): AB = √(6² + 8²) = √100 = 10."]},
+{"h":"Midpoint","p":["The midpoint M has coordinates ((x₁ + x₂)/2, (y₁ + y₂)/2). For A and B: M = ((1 + 7)/2, (2 + 10)/2) = (4, 6)."]},
+{"h":"Gradient","p":["m = (y₂ − y₁)/(x₂ − x₁). For A and B: m = 8/6 = 4/3. A vertical line has no gradient (undefined). A horizontal line has gradient 0."]},
+{"h":"Point dividing a line in a ratio","p":["The point P that divides AB in the ratio m : n (from A to B) is ((n x₁ + m x₂)/(m + n), (n y₁ + m y₂)/(m + n)). For A(1, 2), B(7, 10) and ratio 1 : 2, P = ((2 × 1 + 1 × 7)/3, (2 × 2 + 1 × 10)/3) = (3, 14/3). The midpoint is the special case m = n."]},
+{"h":"More examples","p":["1. Show that the triangle P(0, 0), Q(3, 4), R(6, 0) is isosceles. PQ = 5, QR = √(9 + 16) = 5 and PR = 6. Two sides are equal, so it is isosceles.","2. The midpoint of AB is (2, 3) and A is (−1, 5). Find B. (−1 + x)/2 = 2 so x = 5; (5 + y)/2 = 3 so y = 1. B = (5, 1).","3. Are (2, 3), (5, 9) and (8, 15) on one line? The gradient from the first to the second is 6/3 = 2, and from the second to the third is 6/3 = 2. Yes: they are collinear."]}
+],
+"activity":"Find the distance between (−2, 1) and (4, 9) (10), the midpoint ((1, 5)) and the gradient (4/3).",
+"check":[
+{"q":"The distance between (1, 2) and (7, 10) is","o":["10","14","8","6"]},
+{"q":"The midpoint of (1, 2) and (7, 10) is","o":["(4, 6)","(3, 4)","(8, 12)","(6, 8)"]},
+{"q":"The gradient through (1, 2) and (7, 10) is","o":["4/3","3/4","8","6"]},
+{"q":"If M(2, 3) is the midpoint of A(−1, 5) and B, then B is","o":["(5, 1)","(3, 8)","(0, 4)","(1, 2)"]},
+{"q":"Three points are collinear if","o":["the gradients between them are equal","they form a right angle","they are 5 units apart","they are on different lines"]}
+]},
+
+{"id":"m32-03","week":2,"title":"The Equation of a Straight Line","icon":"BarChart2",
+"summary":"The four forms of a straight-line equation, and the conditions for lines to be parallel or perpendicular.",
+"keyWords":["y = mx + c","Point-slope form","Two-point form","General form","Parallel","Perpendicular"],
+"sections":[
+{"h":"Forms of the equation","p":["1. Slope-intercept form: y = mx + c (m = gradient, c = y-intercept).","2. Point-slope form: y − y₁ = m(x − x₁).","3. Two-point form: (y − y₁)/(y₂ − y₁) = (x − x₁)/(x₂ − x₁).","4. General form: ax + by + c = 0."]},
+{"h":"Examples","p":["1. The line through A(1, 2) and B(7, 10). m = 4/3. y − 2 = (4/3)(x − 1), so 3y − 6 = 4x − 4 and 4x − 3y + 2 = 0. Check B: 28 − 30 + 2 = 0.","2. Gradient 3 through (2, 7): y − 7 = 3(x − 2), so y = 3x + 1.","3. Find the gradient and intercepts of 3x + 2y = 12: y = −1.5x + 6. m = −1.5; y-intercept 6; x-intercept 4."]},
+{"h":"Parallel and perpendicular lines","p":["Parallel lines have the same gradient: m₁ = m₂. Perpendicular lines have gradients whose product is −1: m₁ m₂ = −1.","Example 1. The line through (5, 8) parallel to y = 2x − 3: gradient 2, so y − 8 = 2(x − 5), giving y = 2x − 2.","Example 2. The line through the origin perpendicular to 4x + 3y = 12. The gradient of 4x + 3y = 12 is −4/3, so the perpendicular has gradient 3/4: y = (3/4)x.","Example 3. Are y = 3x + 2 and y = −x/3 + 5 perpendicular? 3 × (−1/3) = −1, so yes.","Example 4. Show that 2x + 3y = 15 and 3x − 2y = 10 are perpendicular. m₁ = −2/3 and m₂ = 3/2, and the product is −1."]},
+{"h":"Intercept form","p":["A line with x-intercept a and y-intercept b has the equation x/a + y/b = 1. For intercepts 4 and 6, x/4 + y/6 = 1, which is 3x + 2y = 12."]}
+],
+"activity":"Find the equation of the line through (−2, 3) and (4, 15) (y = 2x + 7). Find the line through (4, 5) with gradient −2 (y = −2x + 13) and the line through (1, 7) with gradient 4 (y = 4x + 3).",
+"check":[
+{"q":"The line through (2, 7) with gradient 3 is","o":["y = 3x + 1","y = 3x − 1","y = 7x + 3","y = 3x + 7"]},
+{"q":"The gradient of a line perpendicular to y = 2x + 1 is","o":["−1/2","2","1/2","−2"]},
+{"q":"A line parallel to 4x + 3y = 12 has gradient","o":["−4/3","4/3","3/4","−3/4"]},
+{"q":"The line through (5, 8) parallel to y = 2x − 3 is","o":["y = 2x − 2","y = 2x + 3","y = −2x + 18","y = x + 3"]},
+{"q":"The x-intercept of 3x + 2y = 12 is","o":["4","6","12","3"]}
+]},
+
+{"id":"m32-04","week":2,"title":"Intersecting Lines, Perpendicular Bisectors and Area of a Triangle","icon":"Target",
+"summary":"Finding where two lines meet, the perpendicular bisector of a segment, and the area of a triangle from its coordinates.",
+"keyWords":["Intersection","Perpendicular bisector","Area of triangle","Simultaneous equations"],
+"sections":[
+{"h":"Where two lines meet","p":["Solve the two equations together. 2x + y = 7 and x − y = 2: add them to get 3x = 9, so x = 3 and y = 1. The lines meet at (3, 1)."]},
+{"h":"Perpendicular bisector","p":["The perpendicular bisector of AB passes through the midpoint and is perpendicular to AB. For A(1, 2) and B(7, 10): midpoint (4, 6); gradient of AB = 4/3; gradient of the bisector = −3/4. Then y − 6 = −(3/4)(x − 4), so 4y − 24 = −3x + 12 and 3x + 4y = 36.","Check: the point (0, 9) is on this line, and it is √50 from A and from B."]},
+{"h":"Equation of a locus","p":["Find the equation of the set of points P(x, y) that are equidistant from A(1, 2) and B(7, 10). PA² = PB²: (x − 1)² + (y − 2)² = (x − 7)² + (y − 10)². Expanding: −2x − 4y + 5 = −14x − 20y + 149, so 12x + 16y = 144 and 3x + 4y = 36. This is the perpendicular bisector again."]},
+{"h":"Area of a triangle","p":["For vertices (x₁, y₁), (x₂, y₂), (x₃, y₃): area = ½ |x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)|.","Example. (1, 1), (5, 1) and (3, 5): ½ |1(1 − 5) + 5(5 − 1) + 3(1 − 1)| = ½ |−4 + 20 + 0| = 8. Check: base 4, height 4, area ½ × 4 × 4 = 8. If the area is 0, the three points are collinear."]}
+],
+"activity":"Find the point where 3x + y = 10 and x − y = 2 meet ((3, 1)). Find the area of the triangle (0, 0), (4, 0), (0, 3) (6).",
+"check":[
+{"q":"2x + y = 7 and x − y = 2 meet at","o":["(3, 1)","(1, 3)","(2, 3)","(4, −1)"]},
+{"q":"The perpendicular bisector of A(1, 2) and B(7, 10) is","o":["3x + 4y = 36","4x − 3y = 2","3x − 4y = 36","4x + 3y = 36"]},
+{"q":"The area of the triangle with vertices (1, 1), (5, 1) and (3, 5) is","o":["8","16","4","10"]},
+{"q":"If the area of a 'triangle' of three points is 0, the points are","o":["collinear","a right-angled triangle","equilateral","scattered"]},
+{"q":"The perpendicular bisector passes through the","o":["midpoint of the segment","origin always","end A only","end B only"]}
+]},
+
+{"id":"m32-05","week":3,"title":"Locus: The Basic Loci","icon":"Target",
+"summary":"What a locus is, and the four basic loci: a circle, a perpendicular bisector, an angle bisector and a pair of parallel lines.",
+"keyWords":["Locus","Circle","Perpendicular bisector","Angle bisector","Parallel lines"],
+"sections":[
+{"h":"What is a locus?","p":["A locus (plural loci) is the set of all the points that satisfy a given condition or rule. For example, the locus of points that are 4 cm from a fixed point P is a circle of radius 4 cm with centre P."],"img":{"src":"mth33-loci.png","alt":"Three diagrams: a circle as the locus of points a fixed distance from a point, a perpendicular bisector as the locus of points equidistant from A and B, and an angle bisector as the locus of points equidistant from two lines","cap":"Three basic loci."}},
+{"h":"1. Fixed distance from a point: a circle","p":["Mark point P. Set a compass to the distance (say 4 cm). Put the point on P and draw a complete circle."]},
+{"h":"2. Equidistant from two points: the perpendicular bisector","p":["Draw AB = 6 cm. Open the compass to more than half of AB (say 4 cm). With centre A draw arcs above and below AB. With centre B and the same radius draw arcs that cross the first ones. Join the two crossing points P and Q. The line PQ is the perpendicular bisector of AB: every point on it is the same distance from A and B."]},
+{"h":"3. Equidistant from two intersecting lines: the angle bisector","p":["Draw angle ABC. With centre B draw an arc that cuts both arms at P and Q. With centres P and Q and the same radius, draw arcs that cross at R. Join B to R. The line BR bisects the angle: every point on it is the same distance from the two arms."]},
+{"h":"4. Fixed distance from a line: two parallel lines","p":["The locus of points 3 cm from a line AB is a pair of parallel lines, one on each side of AB, each 3 cm from it (with semicircles at the ends if the line is a segment)."]},
+{"h":"Loci as equations","p":["The locus of points 5 units from the origin is x² + y² = 25. The locus of points equidistant from (0, 0) and (4, 0) is the line x = 2. The locus of points equidistant from the x-axis and the y-axis is the pair of lines y = x and y = −x."]}
+],
+"activity":"Draw AB = 8 cm and construct the perpendicular bisector. Draw an angle of 70° and construct its bisector. Describe the locus of points 3 cm from a straight line (two parallel lines 3 cm on each side).",
+"check":[
+{"q":"The locus of points a fixed distance from a point is a","o":["circle","straight line","triangle","pair of lines"]},
+{"q":"Points equidistant from A and B lie on the","o":["perpendicular bisector of AB","angle bisector","circle","line AB itself"]},
+{"q":"Points equidistant from two intersecting lines lie on the","o":["angle bisector","perpendicular bisector","circumference","tangent"]},
+{"q":"The locus of points 3 cm from a line is","o":["two parallel lines","one circle","one line","a point"]},
+{"q":"The locus of points 5 units from the origin is","o":["x² + y² = 25","x + y = 5","y = 5x","x² − y² = 25"]}
+]},
+
+{"id":"m32-06","week":3,"title":"Intersection of Loci and Practical Problems","icon":"Layers",
+"summary":"Combining two or more loci to find a required point or region, with worked problems.",
+"keyWords":["Intersection of loci","Region","Compass","Construction","Shading"],
+"sections":[
+{"h":"Combining loci","p":["Often a point must satisfy two conditions at once. We draw both loci. The required points are where they cross. If a region is wanted, we shade the part that satisfies all the conditions."]},
+{"h":"Example 1: two circles","p":["Points are 5 cm from A and 3 cm from B, where AB = 6 cm. Draw a circle of radius 5 cm at A and a circle of radius 3 cm at B. They cut at two points, P and Q. By calculation with A(0, 0) and B(6, 0): x² + y² = 25 and (x − 6)² + y² = 9. Subtract: −12x + 36 = −16, so x = 4.33. Then y² = 25 − 18.78 = 6.22 and y = ±2.49. The points are (4.33, 2.49) and (4.33, −2.49)."]},
+{"h":"Example 2: a perpendicular bisector and a circle","p":["Find the points that are equidistant from A and B and also 4 cm from a point C. Draw the perpendicular bisector of AB and a circle of radius 4 cm centred on C. The points where the line cuts the circle are the answers (there may be 0, 1 or 2 of them)."]},
+{"h":"Example 3: a region","p":["A telephone mast is to be placed so that it is less than 5 km from town A, at least 3 km from town B, and nearer to A than to B. Draw (1) a circle of radius 5 km at A and shade inside it; (2) a circle of radius 3 km at B and shade outside it; (3) the perpendicular bisector of AB and shade the side nearer to A. The region where all three shadings overlap is where the mast can be placed."]},
+{"h":"A guard dog problem","p":["A dog is tied by a 6 m rope to one corner of a rectangular shed 4 m long and 3 m wide. Outside the shed it can reach three-quarters of a circle of radius 6 m. When the rope wraps round the corner 4 m away, 2 m of rope is left, giving a quarter circle of radius 2 m. When it wraps round the corner 3 m away, 3 m is left, giving a quarter circle of radius 3 m. Area = (3/4)π(6²) + (1/4)π(2²) + (1/4)π(3²) = π(27 + 1 + 2.25) = 30.25π ≈ 95.0 m²."]}
+],
+"activity":"Draw AB = 7 cm. Find, by construction, the points 4 cm from A and 5 cm from B (two points). Describe the region that is less than 3 cm from a point P and more than 1 cm from P (a ring).",
+"check":[
+{"q":"The required points in a two-condition problem are where the loci","o":["intersect","are parallel","are tangent only","are far apart"]},
+{"q":"Points 5 cm from A and 3 cm from B (AB = 6 cm) number","o":["2","1","0","4"]},
+{"q":"To find points nearer A than B, shade the side of the perpendicular bisector that","o":["contains A","contains B","is empty","contains neither"]},
+{"q":"The region less than 3 cm from P and more than 1 cm from P is a","o":["ring","line","point","triangle"]},
+{"q":"A region satisfying all conditions is where the shadings","o":["overlap","do not meet","are the largest","are separate"]}
+]},
+
+{"id":"m32-07","week":3,"title":"Circumcircle, Incircle and Escribed Circle of a Triangle","icon":"Target",
+"summary":"The three circles connected with a triangle, how to construct them, and the formulas for their radii.",
+"keyWords":["Circumcircle","Incircle","Escribed circle","Circumcentre","Incentre"],
+"sections":[
+{"h":"The circumcircle","p":["The circumcircle is the circle that passes through all three vertices of a triangle. Its centre, the circumcentre O, is the point where the perpendicular bisectors of the sides meet. Construction: draw triangle ABC; construct the perpendicular bisectors of AB and BC; they meet at O; with centre O and radius OA, draw the circle through A, B and C.","For a right-angled triangle, the circumcentre is the midpoint of the hypotenuse."]},
+{"h":"The incircle","p":["The incircle touches all three sides from the inside. Its centre, the incentre I, is where the angle bisectors meet. Construction: bisect two of the angles; they meet at I; drop a perpendicular from I to one side to find the radius; draw the circle."],"img":{"src":"mth33-circles.png","alt":"A triangle with its circumcircle through the three vertices and the perpendicular bisectors meeting at O, and another triangle with its incircle and angle bisectors meeting at I","cap":"The circumcircle and the incircle."}},
+{"h":"The escribed circle (excircle)","p":["An escribed circle touches one side of the triangle and the extensions of the other two sides, from outside. Its centre is where the bisector of one interior angle meets the bisectors of the two exterior angles at the other vertices. A triangle has three escribed circles."]},
+{"h":"Radii","p":["Let the sides be a, b, c, the semi-perimeter s = (a + b + c)/2 and the area K. Circumradius R = abc/(4K). Inradius r = K/s. Exradius opposite a: rₐ = K/(s − a).","Example 1. A 3, 4, 5 triangle: K = 6, s = 6. R = (3 × 4 × 5)/(4 × 6) = 2.5, which is half the hypotenuse. r = 6/6 = 1. Exradii: opposite 3: 6/(6 − 3) = 2; opposite 4: 6/(6 − 4) = 3; opposite 5: 6/(6 − 5) = 6.","Example 2. A 13, 14, 15 triangle: K = 84, s = 21. R = (13 × 14 × 15)/(4 × 84) = 2 730/336 = 8.125. r = 84/21 = 4."]}
+],
+"activity":"Draw a triangle with sides 7 cm, 8 cm and 9 cm. Construct its circumcircle and its incircle and measure the radii. Find the circumradius of a triangle with sides 5, 12 and 13 (6.5).",
+"check":[
+{"q":"The centre of the circumcircle is where the","o":["perpendicular bisectors meet","angle bisectors meet","altitudes only meet","medians only meet"]},
+{"q":"The centre of the incircle is where the","o":["angle bisectors meet","perpendicular bisectors meet","sides meet","diagonals meet"]},
+{"q":"The inradius of a 3, 4, 5 triangle is","o":["1","2.5","2","6"]},
+{"q":"The circumcentre of a right-angled triangle is the midpoint of the","o":["hypotenuse","shortest side","longest median","altitude"]},
+{"q":"An escribed circle touches","o":["one side and the extensions of the other two","all three sides inside","no side","the vertices only"]}
+]},
+
+{"id":"m32-08","week":4,"title":"Differentiation: Limits and the Idea of a Derivative","icon":"Zap",
+"summary":"The idea of a limit, the gradient of a curve at a point as a limit of gradients of chords, and the meaning of the derivative.",
+"keyWords":["Limit","Chord","Tangent","Gradient of a curve","Derivative","Rate of change"],
+"sections":[
+{"h":"Calculus","p":["Calculus is the mathematics of change. It has two parts: differentiation, which finds how fast something changes (the gradient of a curve), and integration, which adds up many small quantities (such as areas)."]},
+{"h":"The idea of a limit","p":["lim (x → a) f(x) = L means that f(x) gets as near as we like to L when x gets near to a. Examples. lim (x → 5) (x² + 2x) = 25 + 10 = 35. lim (x → 4) (x² − 16)/(x − 4): we cannot put x = 4 (we would divide by zero), so first simplify: (x − 4)(x + 4)/(x − 4) = x + 4, and the limit is 8. lim (h → 0) [(3 + h)² − 9]/h = lim (6 + h) = 6. lim (x → 2) (x³ − 8)/(x − 2) = lim (x² + 2x + 4) = 12."]},
+{"h":"The gradient of a curve","p":["The gradient of a straight line is the same everywhere. The gradient of a curve changes from point to point. The gradient of the curve at a point is the gradient of the tangent to the curve at that point.","To find it, take a second point near P on the curve and find the gradient of the chord joining them. As the second point moves closer to P, the chord gets closer to the tangent. The gradient of the tangent is the limit of the gradients of the chords."],"img":{"src":"mth2-tangent-curve.png","alt":"The curve y = x squared with a tangent line y = 4x - 4 touching it at the point (2, 4)","cap":"The gradient of the curve y = x² at (2, 4) is 4."}},
+{"h":"The derivative","p":["The derivative of y = f(x) is the function dy/dx (or f′(x)) that gives the gradient of the curve at any x. It also tells us the rate of change of y with respect to x: if s is distance and t is time, ds/dt is the speed."]}
+],
+"activity":"Evaluate lim (x → 3) (x² − 9)/(x − 3) (6) and lim (h → 0) [(x + h)² − x²]/h (2x). Explain in words what the derivative tells you about a curve (its gradient at each point).",
+"check":[
+{"q":"lim (x → 4) (x² − 16)/(x − 4) =","o":["8","0","4","undefined"]},
+{"q":"The gradient of a curve at a point is the gradient of the","o":["tangent at that point","chord only","x-axis","y-axis"]},
+{"q":"dy/dx tells us","o":["the gradient of the curve at any point","the area under the curve","the y-intercept","the x-intercept"]},
+{"q":"lim (h → 0) [(3 + h)² − 9]/h =","o":["6","9","3","0"]},
+{"q":"The speed of a moving body is the derivative of","o":["distance with respect to time","time","acceleration","mass"]}
+]},
+
+{"id":"m32-09","week":4,"title":"Differentiation from First Principles and the Power Rule","icon":"Target",
+"summary":"The definition of the derivative as a limit, worked from first principles, and the power rule for differentiating xⁿ.",
+"keyWords":["First principles","Derivative","Power rule","Limit","Δx"],
+"sections":[
+{"h":"Definition","p":["dy/dx = lim (h → 0) [f(x + h) − f(x)] / h. This is the gradient of the chord from x to x + h as h tends to 0."]},
+{"h":"Examples from first principles","p":["1. f(x) = x². [(x + h)² − x²]/h = (2xh + h²)/h = 2x + h. As h → 0 this gives 2x. So d(x²)/dx = 2x.","2. f(x) = x³. [(x + h)³ − x³]/h = (3x²h + 3xh² + h³)/h = 3x² + 3xh + h². As h → 0: 3x².","3. f(x) = 3x + 2. [3(x + h) + 2 − 3x − 2]/h = 3h/h = 3. The derivative is 3 (the gradient of the line).","4. f(x) = x² + 4x. The derivative is 2x + 4.","5. f(x) = 1/(x + 1). [1/(x + h + 1) − 1/(x + 1)]/h = −h/(h(x + h + 1)(x + 1)) = −1/((x + h + 1)(x + 1)). As h → 0: −1/(x + 1)²."]},
+{"h":"The power rule","p":["If y = xⁿ, then dy/dx = n xⁿ⁻¹. The constant multiple rule: d/dx (c f(x)) = c f′(x). The sum and difference rules: d/dx (f ± g) = f′ ± g′. The derivative of a constant is 0.","Examples. y = x⁵ gives 5x⁴. y = 4x³ gives 12x². y = 3x² + 5x − 2 gives 6x + 5. y = 4x³ − 7x² + 2x − 9 gives 12x² − 14x + 2. y = 5x⁴ − 3x² + 7 gives 20x³ − 6x.","Negative and fractional powers: write the function as powers of x. y = 2/x = 2x⁻¹ gives −2x⁻² = −2/x². y = 3√x = 3x^(1/2) gives (3/2)x^(−1/2) = 3/(2√x). y = (2x² + 3)/x = 2x + 3x⁻¹ gives 2 − 3/x². y = 3√x + 2/x gives 3/(2√x) − 2/x².","Value at a point. f(x) = x⁵: f′(2) = 5 × 2⁴ = 80. y = x³ at x = 1: the gradient is 3 × 1² = 3."]}
+],
+"activity":"Differentiate from first principles f(x) = 2x³ (6x²). Differentiate y = x⁵ − 2x⁴ + 3x³ − x (5x⁴ − 8x³ + 9x² − 1) and y = 2x³ + 4x² − 6x + 1 (6x² + 8x − 6).",
+"check":[
+{"q":"If y = x⁵ then dy/dx =","o":["5x⁴","x⁴","5x⁵","4x⁵"]},
+{"q":"The derivative of 3x² + 5x − 2 is","o":["6x + 5","6x + 5x","3x + 5","6x − 2"]},
+{"q":"The derivative of a constant is","o":["0","1","the constant","x"]},
+{"q":"y = (2x² + 3)/x has derivative","o":["2 − 3/x²","2x + 3","4x","2 + 3/x²"]},
+{"q":"If f(x) = x⁵, f′(2) =","o":["80","32","40","10"]}
+]},
+
+{"id":"m32-10","week":4,"title":"Tangents, Normals and the Meaning of the Derivative","icon":"BarChart2",
+"summary":"Finding the equation of the tangent and the normal to a curve at a point, and interpreting the derivative as a rate of change.",
+"keyWords":["Tangent","Normal","Gradient","Equation of a line","Rate of change"],
+"sections":[
+{"h":"Tangent","p":["Steps: 1. Find dy/dx. 2. Put x = x₁ to get the gradient m at the point. 3. Use y − y₁ = m(x − x₁).","Example. Find the tangent to y = x² + 2x at (1, 3). dy/dx = 2x + 2 = 4 at x = 1. y − 3 = 4(x − 1), so y = 4x − 1."]},
+{"h":"Normal","p":["The normal at a point is the line perpendicular to the tangent there. Its gradient is −1/m. For the same curve at (1, 3): m = 4, so the gradient of the normal is −1/4. y − 3 = −(1/4)(x − 1), so 4y − 12 = −x + 1 and x + 4y = 13."]},
+{"h":"Another example","p":["The tangent to y = x² at P(2, 4). dy/dx = 2x = 4. y − 4 = 4(x − 2), so y = 4x − 4. (The tangent drawn in the earlier figure.)"]},
+{"h":"Finding where the gradient has a given value","p":["Find the point on y = x² − 4x where the tangent is parallel to the x-axis. dy/dx = 2x − 4 = 0, so x = 2 and y = 4 − 8 = −4. The point is (2, −4)."]},
+{"h":"A puzzle","p":["If f(x) = ax² + bx + c with f′(1) = 8, f′(2) = 14 and f(0) = 5, find a, b and c. f′(x) = 2ax + b, so 2a + b = 8 and 4a + b = 14. Subtract: 2a = 6, so a = 3 and b = 2. f(0) = c = 5. So f(x) = 3x² + 2x + 5."]}
+],
+"activity":"Find the equation of the tangent (y = 4x − 1) and the normal (x + 4y = 13) to y = x² + 2x at (1, 3). Find the point on y = x² − 6x where the gradient is 0 ((3, −9)).",
+"check":[
+{"q":"The tangent to y = x² + 2x at (1, 3) is","o":["y = 4x − 1","y = 4x + 3","y = 2x + 1","y = x + 2"]},
+{"q":"The gradient of the normal is","o":["−1/m where m is the gradient of the tangent","m","1/m","−m"]},
+{"q":"The normal to y = x² + 2x at (1, 3) is","o":["x + 4y = 13","4x + y = 13","x − 4y = 13","4x − y = 1"]},
+{"q":"The tangent is parallel to the x-axis when dy/dx","o":["= 0","= 1","is undefined","is negative"]},
+{"q":"For f(x) = ax² + bx + c, f′(x) =","o":["2ax + b","ax + b","2ax²","ax² + b"]}
+]},
+
+{"id":"m32-11","week":6,"title":"Differentiation II: The Product Rule","icon":"Layers",
+"summary":"How to differentiate a product of two functions, with examples and a check by expanding.",
+"keyWords":["Product rule","u","v","Derivative of a product"],
+"sections":[
+{"h":"The rule","p":["If y = uv, where u and v are functions of x, then dy/dx = u (dv/dx) + v (du/dx). In words: first times the derivative of the second plus second times the derivative of the first. Note that the derivative of a product is NOT the product of the derivatives."]},
+{"h":"Example 1","p":["y = (2x + 1)(x² − 3). Let u = 2x + 1 and v = x² − 3. Then u′ = 2 and v′ = 2x. dy/dx = u v′ + v u′ = (2x + 1)(2x) + (x² − 3)(2) = 4x² + 2x + 2x² − 6 = 6x² + 2x − 6. Check by expanding: y = 2x³ + x² − 6x − 3, so dy/dx = 6x² + 2x − 6. ✓"]},
+{"h":"Example 2","p":["y = (x² + 1)(x³ − 2x). u = x² + 1, v = x³ − 2x, u′ = 2x, v′ = 3x² − 2. dy/dx = (x² + 1)(3x² − 2) + (x³ − 2x)(2x) = 3x⁴ + x² − 2 + 2x⁴ − 4x² = 5x⁴ − 3x² − 2."]},
+{"h":"Example 3: with a power","p":["y = x(2x + 1)³. u = x, v = (2x + 1)³. u′ = 1. For v′ we need the chain rule (next unit): v′ = 3(2x + 1)² × 2 = 6(2x + 1)². dy/dx = (2x + 1)³ + x × 6(2x + 1)² = (2x + 1)²[(2x + 1) + 6x] = (2x + 1)²(8x + 1)."]},
+{"h":"When to use it","p":["Use the product rule when the expansion would be long. If a product is easy to expand, expanding first and then differentiating each term is also correct."]}
+],
+"activity":"Differentiate y = (3x − 2)(x² + 5) (9x² − 4x + 15) and y = x²(x + 1) using both the product rule and by expanding (3x² + 2x).",
+"check":[
+{"q":"If y = uv, then dy/dx =","o":["u dv/dx + v du/dx","du/dx × dv/dx","u v","(du/dx)/(dv/dx)"]},
+{"q":"The derivative of (2x + 1)(x² − 3) is","o":["6x² + 2x − 6","4x","2x² − 3","6x² − 6"]},
+{"q":"The derivative of x²(x + 1) is","o":["3x² + 2x","2x","x³ + x²","3x²"]},
+{"q":"The derivative of a product is","o":["not the product of the derivatives","the product of the derivatives","always 0","the sum of the functions"]},
+{"q":"The derivative of (x² + 1)(x³ − 2x) is","o":["5x⁴ − 3x² − 2","6x⁵","5x⁴ + 3x² + 2","x⁵ − x³ − 2x"]}
+]}
+]

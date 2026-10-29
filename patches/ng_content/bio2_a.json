@@ -1,0 +1,215 @@
+[
+{"id":"bi2-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Biology Second Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Skeleton","Nutrition","Ecology","Ecosystem","Micro-organisms"],
+"sections":[
+{"h":"Welcome to Second Term","p":["In Second Term you look at how bodies are supported (skeletons and supporting tissues), what animals need to eat and why, and then you move out into the environment to study ecology: how living things depend on each other and on their surroundings. You also learn how energy flows through ecosystems, how biology links to farming, and about the micro-organisms around us.","Read each unit, study the diagrams, and draw them in your notebook. At the end of every unit are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for Second Term","p":["The units follow the scheme of work. Weeks 5 and 7 are midterm weeks."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","The skeleton: skeletal materials, cartilage and bone"],
+["3","1","Types and functions of the skeleton"],
+["4","1","The axial skeleton: skull, vertebral column"],
+["5","1","The appendicular skeleton and the ribs"],
+["6","1","Supporting tissues in plants"],
+["7","2","Animal nutrition: feeding habits, carbohydrates, proteins and fats"],
+["8","2","Mineral salts and vitamins"],
+["9","2","Water, roughage, balanced diet and digestive enzymes"],
+["10","3","Ecology: meaning, branches and basic concepts"],
+["11","3","Components of an ecosystem"],
+["12","4","Population studies: size, density and methods"],
+["13","4","Factors affecting population, ecological instruments and soil"],
+["14","6","The functioning ecosystem, trophic levels and the roles of organisms"],
+["15","6","Food chains, food webs and ecological pyramids"],
+["16","8","Energy transformation in nature and the laws of thermodynamics"],
+["17","9","Relevance of Biology to agriculture: classification of plants"],
+["18","9","Effects of agricultural activities on the ecosystem"],
+["19","10","Micro-organisms around us: groups and bacteria"],
+["20","10","Culturing, identification and carriers of micro-organisms"]]}}
+],
+"activity":"Look at the units. Which one will help you to choose a healthy meal? Which one will help you to look after the environment?",
+"check":[
+{"q":"In which unit do you study vitamins?","o":["Unit 8","Unit 4","Unit 12","Unit 17"]},
+{"q":"Which unit covers food webs?","o":["Unit 15","Unit 2","Unit 7","Unit 19"]},
+{"q":"In which unit do you study agriculture?","o":["Unit 17","Unit 6","Unit 10","Unit 3"]},
+{"q":"In which unit do you study the axial skeleton?","o":["Unit 4","Unit 9","Unit 14","Unit 20"]}]},
+
+{"id":"bi2-02","week":1,"title":"The Skeleton: Skeletal Materials, Cartilage and Bone","icon":"Layers","summary":"What a skeleton is, the three skeletal materials (chitin, cartilage and bone), the types of cartilage and the differences between bone and cartilage.",
+"keyWords":["Skeleton","Chitin","Cartilage","Bone","Ossification"],
+"sections":[
+{"h":"Introduction","p":["Tissues are groups of similar cells that carry out a particular function. The skeleton is the framework of the body. It supports the body, gives it shape and protects the soft tissues and organs. In humans it forms the central core of the body, covered by muscles, blood vessels and skin."]},
+{"h":"Skeletal materials","p":["There are three forms of skeletal material: chitin, cartilage and bone."]},
+{"h":"Chitin","p":["Chitin is a tough, light, flexible, non-living material found in arthropods. It forms a hard covering (exoskeleton) of plates around the body. It can be strengthened by 'tanned' proteins and, in crabs and other aquatic crustaceans, by calcium carbonate."]},
+{"h":"Cartilage","p":["Cartilage is a tissue in the skeleton of vertebrates. It has a firm matrix with fibres, made by living cells called chondroblasts. The cells later get trapped in spaces (lacunae) in the matrix and are then called chondrocytes. It is tough and flexible and acts as a shock absorber between bones. It is found in mammals and, as the main skeleton, in cartilaginous fishes such as sharks.","Types of cartilage: hyaline cartilage, the commonest, is found on the surfaces of movable joints, in the trachea and bronchi, and in the nose. White fibrous cartilage is tougher and is found in the discs between the vertebrae. Yellow elastic cartilage is found in the external ear (pinna) and the epiglottis (the flap that covers the windpipe when swallowing)."]},
+{"h":"Bone","p":["Bone is the main part of the skeleton of vertebrates. It contains living cells (osteocytes), protein fibres (collagen) and minerals (calcium phosphate and calcium carbonate), which make up about two-thirds of the mass. So bone is strong and rigid. It has a rich blood supply.","The skeleton of a young embryo is mostly cartilage. As the embryo grows, bone cells replace cartilage cells, and minerals are added so that the cartilage hardens into bone. This process is called ossification."]},
+{"h":"Bone compared with cartilage","p":["Study the table."],
+"tbl":{"head":["Bone","Cartilage"],"rows":[
+["Makes red and white blood cells (in the marrow)","Does not make blood cells"],
+["Contains living cells and non-living minerals","Mainly living cells"],
+["Usually rigid","Flexible"],
+["Contains much mineral matter such as calcium","No mineral matter"],
+["Cannot be replaced by cartilage","Can be replaced by bone (ossification)"],
+["Flexible only in the young","Flexible in young and adult"]]}}
+],
+"activity":"Feel the tip of your nose and the bone of your forearm. Which is cartilage and which is bone? How do you know?",
+"check":[
+{"q":"The hard covering of arthropods is made of","o":["Chitin","Cartilage","Bone","Cellulose"]},
+{"q":"The process by which cartilage hardens into bone is","o":["Ossification","Osmosis","Respiration","Excretion"]},
+{"q":"Which is found in the external ear?","o":["Yellow elastic cartilage","Hyaline cartilage","Bone","Chitin"]},
+{"q":"Cartilage cells are called","o":["Chondrocytes","Osteocytes","Neurons","Chondrites"]},
+{"q":"The skeleton of sharks is made of","o":["Cartilage","Bone","Chitin","Cellulose"]}]},
+
+{"id":"bi2-03","week":1,"title":"Types and Functions of the Skeleton","icon":"Target","summary":"Hydrostatic skeleton, exoskeleton and endoskeleton, moulting, joints, ligaments and tendons, and the functions of a skeleton.",
+"keyWords":["Hydrostatic skeleton","Exoskeleton","Endoskeleton","Ecdysis","Ligament"],
+"sections":[
+{"h":"Three types of skeleton","p":["1. Hydrostatic skeleton: found in soft-bodied animals such as the earthworm and the sea anemone. The body is filled with fluid that is under pressure, and the muscular body wall squeezes against it. The pressure supports the body and, with the muscles, allows movement.","2. Exoskeleton: an outer skeleton found in arthropods. It is made by the cells covering the body and its main material is chitin (non-living). It supports the body against gravity, protects it and lets it move. Animals with an exoskeleton periodically shed it in a process called moulting or ecdysis. They grow rapidly while the new skeleton is still soft and stretchy.","3. Endoskeleton: an internal skeleton found in all vertebrates, made mainly of bones (and cartilage). The bones grow steadily as the animal grows, so there is no moulting. The bones are joined at movable joints by tough, flexible bands called ligaments, so the skeleton can bend. Muscles are attached to the bones by tendons, which gives posture and movement."]},
+{"h":"Functions of the skeleton","p":["It supports the body and is its framework. It protects delicate organs: the skull protects the brain, the ribs protect the heart and lungs. Limbs and muscles allow locomotion. The ribs are involved in breathing. Bone marrow makes blood cells. It also stores minerals such as calcium."]},
+{"h":"Summary","p":["Study the table."],
+"tbl":{"head":["Type","Where","Material","Example animals"],"rows":[
+["Hydrostatic","Inside soft bodies (fluid pressure)","Fluid and muscle","Earthworm, sea anemone"],
+["Exoskeleton","Outside the body","Chitin (sometimes with calcium carbonate)","Insects, crabs"],
+["Endoskeleton","Inside the body","Bone and cartilage","Fish, frog, bird, man"]]}}
+],
+"activity":"Explain why a crab must moult to grow but a goat does not.",
+"check":[
+{"q":"An outer skeleton made of chitin is a(n)","o":["Exoskeleton","Endoskeleton","Hydrostatic skeleton","Cartilage"]},
+{"q":"Shedding of the exoskeleton is called","o":["Moulting (ecdysis)","Ossification","Excretion","Respiration"]},
+{"q":"Muscles are attached to bones by","o":["Tendons","Ligaments","Cartilage","Chitin"]},
+{"q":"Bones are joined at joints by","o":["Ligaments","Tendons","Muscles","Nerves"]},
+{"q":"An earthworm has a","o":["Hydrostatic skeleton","Exoskeleton","Endoskeleton","No support"]}]},
+
+{"id":"bi2-04","week":1,"title":"The Axial Skeleton: Skull and Vertebral Column","icon":"Layers","summary":"The axial and appendicular skeleton, the skull, and the vertebral column with the types and structure of vertebrae.",
+"keyWords":["Axial skeleton","Skull","Vertebra","Atlas","Axis"],
+"sections":[
+{"h":"Two parts of the skeleton","p":["The skeleton of a vertebrate (fish, frog, lizard, bird, man) is made of bones and cartilage and has two parts. The axial skeleton consists of the skull, the vertebral column, the ribs and the sternum. The appendicular skeleton is made of the limb girdles (pectoral and pelvic) and the limbs."],
+"img":{"src":"bio-skeleton.jpg","alt":"A human skeleton shown twice, with the axial skeleton (skull, ribs, sternum, vertebral column) highlighted on the left and the appendicular skeleton (limbs and girdles) highlighted on the right","cap":"The axial skeleton (left) and the appendicular skeleton (right)."}},
+{"h":"The skull","p":["The skull is made of flat bones joined by fixed (suture) joints. It has three parts: the cranium (brain box), the facial skeleton and the jaws (the upper jaw is the maxilla and the lower jaw is the mandible). Functions: protects the brain; protects the organs of smell, the eyes and the ears; gives the head its shape; bears the teeth."]},
+{"h":"The vertebral column","p":["The vertebral column (backbone) protects the spinal cord. It is made of vertebrae, in five groups, each built on a similar pattern, held together by strong ligaments and separated by cartilage pads (intervertebral discs)."],
+"tbl":{"head":["Vertebrae","Region","Rat","Rabbit","Cat","Cow","Man"],"rows":[
+["Cervical","Neck","7","7","7","7","7"],
+["Thoracic","Chest","13","12 to 13","13","13","12"],
+["Lumbar","Lower back","6","6 to 7","7","6","5"],
+["Sacral","Hip","4","4","3","5","5"],
+["Caudal","Tail","30","16","18 to 25","18 to 20","4 (coccyx)"]]}},
+{"h":"A typical vertebra","p":["Neural canal: the hole through which the spinal cord passes. Neural spine: projects upward and backward; muscles attach to it. Transverse processes: for attachment of muscles and ligaments. Centrum: the solid body of bone below the neural canal. Zygapophyses: surfaces that join one vertebra to the next (pre-zygapophyses face up and inward; post-zygapophyses face down and outward)."]},
+{"h":"Kinds of vertebra","p":["Cervical: the first is the atlas, which has a large neural canal, broad flat transverse processes, a short neural spine and a canal for blood vessels, but no centrum. It allows nodding of the head. The second is the axis, which has a broad flat centrum, a large neural spine and an odontoid process that fits into the atlas and forms a pivot joint, allowing the head to turn.","Thoracic: long prominent neural spine, short transverse processes, large cylindrical centrum, and surfaces for attaching the ribs. They help in breathing.","Lumbar: large flat transverse processes, broad neural spine, thick centrum, well-developed zygapophyses and extra projections. They carry body weight and give attachment to the muscles of the abdomen.","Sacral: fused into one bony mass, the sacrum, which joins the pelvic girdle and gives strength.","Caudal: fused (in man) into the coccyx; no neural spine or canal; they support the tail."]}
+],
+"activity":"Draw and label a typical vertebra. State one difference between the atlas and the axis.",
+"check":[
+{"q":"The first cervical vertebra is the","o":["Atlas","Axis","Sacrum","Coccyx"]},
+{"q":"The vertebral column protects the","o":["Spinal cord","Brain","Heart","Lungs"]},
+{"q":"The number of cervical vertebrae in most mammals is","o":["7","12","5","13"]},
+{"q":"The axis allows the head to","o":["Turn","Nod","Bend only","Stay fixed"]},
+{"q":"Fused sacral vertebrae form the","o":["Sacrum","Coccyx","Atlas","Rib cage"]}]},
+
+{"id":"bi2-05","week":1,"title":"The Appendicular Skeleton and the Ribs","icon":"Layers","summary":"The pectoral and pelvic girdles, the bones of the fore and hind limbs, and the ribs and rib cage.",
+"keyWords":["Pectoral girdle","Pelvic girdle","Humerus","Femur","Ribs"],
+"sections":[
+{"h":"Pectoral girdle","p":["Around the shoulder. Two halves held by muscles. Each half has three bones: the scapula (shoulder blade), the clavicle (collar bone) and the coracoid (fused with the scapula in man). The scapula is flat and triangular with a hollow, the glenoid cavity, which receives the head of the humerus to form the shoulder joint. The clavicle is a small rod joining the sternum to the scapula. Functions: gives attachment to muscles and supports the forelimbs."]},
+{"h":"Pelvic girdle","p":["Around the hip. Two halves, joined to each other in front and to the sacrum behind. Each half has three bones: the ilium, ischium and pubis. Together they make a hollow, the acetabulum, which receives the head of the femur to form the hip joint."]},
+{"h":"Limbs","p":["Most vertebrate limbs follow the same plan: one long bone, then two long bones, then small bones, ending in five digits (pentadactyl).","Forelimb: the humerus (upper arm bone) joins the radius and ulna (forearm; the ulna is longer) at the elbow. Then the carpals (wrist), the metacarpals (palm) and the phalanges (finger bones). Each finger has three phalanges, but the thumb has two.","Hind limb: the femur (thigh bone, the longest and largest bone in the body) joins the tibia (the larger shin bone) and the fibula at the knee, with the patella (knee cap) in front. Then the tarsals (ankle), the metatarsals and the phalanges (toes)."],
+"tbl":{"head":["Part","Forelimb","Hind limb"],"rows":[
+["Upper bone","Humerus","Femur"],
+["Two lower bones","Radius and ulna","Tibia and fibula"],
+["Small joint bones","Carpals (wrist)","Tarsals (ankle)"],
+["Long bones of hand or foot","Metacarpals","Metatarsals"],
+["Digits","Phalanges","Phalanges"]]}},
+{"h":"The ribs","p":["The ribs are curved bones joining the thoracic vertebrae to the sternum. In man there are 12 pairs. They form a cage that protects the heart and lungs and help in breathing. Each rib has a head, a neck and a shaft. The first seven pairs join the sternum directly by costal cartilage and are the true ribs. The next five pairs are false ribs: pairs 8 to 10 share a joint to the sternum through the cartilage of the rib above, and pairs 11 and 12 are floating ribs with no connection in front."]}
+],
+"activity":"Draw and label the human skeleton (as the assignment says). Name the bones of the arm and the leg.",
+"check":[
+{"q":"The thigh bone is the","o":["Femur","Humerus","Tibia","Ulna"]},
+{"q":"The shoulder joint is formed with the","o":["Glenoid cavity and humerus","Acetabulum and femur","Radius and ulna","Tibia and fibula"]},
+{"q":"How many pairs of ribs does man have?","o":["12","7","10","14"]},
+{"q":"The floating ribs are","o":["Pairs 11 and 12","Pairs 1 and 2","Pairs 7 and 8","Pair 5"]},
+{"q":"The kneecap is the","o":["Patella","Pubis","Ilium","Carpal"]}]},
+
+{"id":"bi2-06","week":1,"title":"Supporting Tissues in Plants","icon":"Zap","summary":"Why plants need support and the supporting tissues: parenchyma, collenchyma, sclerenchyma, xylem and phloem.",
+"keyWords":["Parenchyma","Collenchyma","Sclerenchyma","Xylem","Phloem"],
+"sections":[
+{"h":"Why plants need support","p":["Plants need supporting tissues to give them a definite shape, strength and rigidity, and to resist forces such as wind and water. The supporting tissues are parenchyma, collenchyma, sclerenchyma, xylem and phloem."],
+"img":{"src":"bio-xylem-phloem.jpg","alt":"A diagram of a potted plant with water and minerals moving up the xylem and food moving in the phloem, and enlarged tubes of xylem (stiffened with lignin) and phloem (with perforated end walls)","cap":"Xylem and phloem."}},
+{"h":"Parenchyma","p":["Living cells with thin cellulose walls and many air spaces between them. The most common and abundant plant tissue. Functions: gives firmness and turgidity to non-woody stems (such as hibiscus and herbs); stores food and water; makes food in the leaf (mesophyll)."]},
+{"h":"Collenchyma","p":["Living cells which are elongated and thickened at the corners with extra cellulose. Functions: strength and support in young growing parts; gives flexibility."]},
+{"h":"Sclerenchyma","p":["Thick-walled cells containing cellulose and lignin, mostly dead when mature and rich in fibres. Functions: gives strength, rigidity and hardness, and supports the plant. (It makes the plant strong rather than flexible.)"]},
+{"h":"Xylem","p":["Found in the vascular tissue of roots, stems and leaves. The tubes are dead, with no end walls, and are stiffened with lignin. Functions: carries water and mineral salts from the roots to the leaves; gives support, strength and shape to the plant (wood is mainly xylem)."]},
+{"h":"Phloem","p":["Also in the vascular bundles of roots, stems and leaves. It has sieve tubes with perforated end walls and companion cells. Functions: carries manufactured food (sugars) from the leaves, where it is made, to other parts for use or storage; helps to give support."],
+"tbl":{"head":["Tissue","Cells","Main function"],"rows":[
+["Parenchyma","Living, thin walls","Storage, turgidity, photosynthesis"],
+["Collenchyma","Living, corners thickened","Flexible support in young parts"],
+["Sclerenchyma","Dead, lignin","Rigid support"],
+["Xylem","Dead tubes, lignin","Water and minerals up; support"],
+["Phloem","Living sieve tubes","Food transport"]]}}
+],
+"activity":"Which supporting tissue would you expect in (a) the stalk of a young leaf, (b) the trunk of an iroko tree, (c) a potato tuber? (Collenchyma; xylem and sclerenchyma; parenchyma.)",
+"check":[
+{"q":"The most abundant plant tissue is","o":["Parenchyma","Xylem","Sclerenchyma","Phloem"]},
+{"q":"Water is carried up the plant by","o":["Xylem","Phloem","Collenchyma","Parenchyma"]},
+{"q":"Food made in the leaves moves through","o":["Phloem","Xylem","Sclerenchyma","Cork"]},
+{"q":"Thick-walled cells with lignin are","o":["Sclerenchyma","Parenchyma","Phloem","Collenchyma"]},
+{"q":"Cells thickened at the corners are","o":["Collenchyma","Parenchyma","Xylem","Phloem"]}]},
+
+{"id":"bi2-07","week":2,"title":"Animal Nutrition: Feeding Habits, Carbohydrates, Proteins and Fats","icon":"Heart","summary":"Carnivores, herbivores and omnivores, the seven classes of food, and the sources, uses and digestion of carbohydrates, proteins and lipids.",
+"keyWords":["Carnivore","Herbivore","Omnivore","Carbohydrate","Protein"],
+"sections":[
+{"h":"Feeding habits","p":["Animals cannot make their own food. They depend directly or indirectly on plants, so they are heterotrophs. By food type they are carnivores (feed on flesh, such as lion), herbivores (feed on plants, such as goat) and omnivores (feed on plants and animals, such as man)."],
+"img":{"src":"bio-food-classes.png","alt":"A plate divided into carbohydrates, proteins, fats and oils, vitamins and minerals, with water and roughage shown beside it","cap":"The seven classes of food: carbohydrates, proteins, fats and oils, mineral salts, vitamins, water and roughage."}},
+{"h":"Classes of food","p":["Seven classes: carbohydrates, proteins, fats and oils, mineral salts, vitamins, water and roughage."]},
+{"h":"Carbohydrates","p":["Sources: bread, yam, rice, cassava, sugar. They contain carbon, hydrogen and oxygen. Types: monosaccharides (simple sugars) such as glucose, fructose and galactose; disaccharides (double sugars) such as maltose, sucrose and lactose; polysaccharides (complex sugars) such as starch, glycogen and cellulose. Digestion: starch is broken down by amylase (ptyalin in saliva) to maltose, and maltase changes maltose to glucose. Extra carbohydrate is stored as glycogen in the liver and muscles and changed back to glucose when needed. (The source notes call disaccharides 'reducing sugars', but sucrose is not a reducing sugar.)","Uses: energy; heat to keep the body warm; mucus for lubrication; in insects the polysaccharide chitin forms the exoskeleton."]},
+{"h":"Proteins","p":["Sources: egg, meat, fish, beans. Proteins are made of amino acids and contain carbon, hydrogen, oxygen, nitrogen and sometimes sulphur and phosphorus. Digestion: pepsin (in the stomach), trypsin (pancreas) and others break proteins into amino acids. Uses: growth in the young; repair of worn tissue; making enzymes and hormones; reproduction; body building."]},
+{"h":"Fats and oils (lipids)","p":["Fats are solid and oils are liquid at room temperature. They contain carbon, hydrogen and a little oxygen. Sources: palm oil, groundnut, soya beans, butter. Lipase digests them to fatty acids and glycerol. Uses: give more energy than carbohydrates (about twice as much per gram); supply essential fatty acids; insulate the body and keep it warm; carry fat-soluble vitamins (A, D, E and K); protect organs."]}
+],
+"activity":"List the food you ate yesterday and sort it into carbohydrates, proteins and fats. Which class did you eat least of?",
+"check":[
+{"q":"A goat is a","o":["Herbivore","Carnivore","Omnivore","Decomposer"]},
+{"q":"Proteins are made of","o":["Amino acids","Fatty acids","Glucose","Glycerol"]},
+{"q":"Fats are digested by","o":["Lipase","Amylase","Pepsin","Maltase"]},
+{"q":"Excess carbohydrate is stored as","o":["Glycogen","Starch in the liver","Cellulose","Protein"]},
+{"q":"Which gives the most energy per gram?","o":["Fats","Carbohydrates","Vitamins","Water"]}]},
+
+{"id":"bi2-08","week":2,"title":"Mineral Salts and Vitamins","icon":"Target","summary":"The functions of mineral salts and the sources, functions and deficiency diseases of the vitamins.",
+"keyWords":["Mineral salts","Vitamins","Deficiency","Scurvy","Rickets"],
+"sections":[
+{"h":"Mineral salts","p":["Mineral salts are needed in small amounts, except sodium chloride. The minerals include calcium, magnesium, potassium, phosphorus, sulphur, chlorine, iron, iodine, fluorine, manganese, copper, cobalt and sodium. Their functions: regulate body processes (metabolism); make bones and teeth (calcium, phosphorus); help to make blood (iron); control chemical reactions and nerve action; help to make enzymes and pigments.","Examples: calcium: strong bones and teeth; lack causes rickets and weak bones. Iron: haemoglobin in red blood cells; lack causes anaemia. Iodine: thyroid hormone; lack causes goitre. Sodium: nerve and muscle action and water balance. Chlorine: part of stomach acid. Magnesium: bones and enzymes (and chlorophyll in plants)."]},
+{"h":"Vitamins","p":["Vitamins are organic substances needed in small amounts for normal growth and health. Lack of a vitamin causes a deficiency disease. There are two groups: water-soluble vitamins (B complex and C) and fat-soluble vitamins (A, D, E and K)."],
+"tbl":{"head":["Vitamin","Sources","Functions","Deficiency"],"rows":[
+["A","Liver, eggs, milk, palm oil, vegetables","Growth, healthy skin, vision","Night blindness, poor resistance to disease"],
+["B1","Yeast, milk, beans, groundnut","Growth, working of heart and nerves","Beri-beri (muscle wasting, paralysis)"],
+["B2","Yeast, soya beans, egg, milk, greens","Growth, eye health, co-enzymes","Slow growth, skin problems"],
+["B3","Yeast, beans, milk, vegetables","Co-enzymes for respiration","Pellagra"],
+["B12","Liver, kidney, fish, milk","Making red blood cells","Pernicious anaemia"],
+["C","Fresh fruits and green vegetables","Wound healing, resisting infection","Scurvy"],
+["D","Fish, milk, egg, liver, sunlight on skin","Absorption of calcium and phosphorus; hard bones","Rickets, osteomalacia"],
+["E","Green vegetables, egg, butter, liver","Fertility","Sterility, premature abortion"],
+["K","Fresh green vegetables, liver","Blood clotting","Bleeding (haemorrhage)"]]}}
+],
+"activity":"Name the diseases caused by lack of: vitamin C, vitamin D, iron, iodine. (Scurvy; rickets; anaemia; goitre.)",
+"check":[
+{"q":"Lack of vitamin C causes","o":["Scurvy","Rickets","Beri-beri","Night blindness"]},
+{"q":"Night blindness is caused by lack of vitamin","o":["A","B","C","K"]},
+{"q":"Which is a fat-soluble vitamin?","o":["D","C","B1","B12"]},
+{"q":"Calcium is needed for","o":["Bones and teeth","Blood clotting only","Digestion only","Sight only"]},
+{"q":"Rickets in children is caused by lack of","o":["Vitamin D and calcium","Vitamin K","Iron","Sodium"]}]},
+
+{"id":"bi2-09","week":2,"title":"Water, Roughage, Balanced Diet and Digestive Enzymes","icon":"Heart","summary":"The importance of water and roughage, what a balanced diet is, malnutrition (kwashiorkor), and enzymes and their properties and classes.",
+"keyWords":["Water","Roughage","Balanced diet","Kwashiorkor","Enzymes"],
+"sections":[
+{"h":"Water","p":["Water is made of hydrogen and oxygen. It makes up about 75% of the human body and comes from drinks and food. Its importance: needed for metabolic reactions; helps digestion; keeps body temperature steady (sweating); transports nutrients and wastes; maintains osmotic balance in tissues; removes wastes in urine and sweat."]},
+{"h":"Roughage","p":["Roughage (fibre) is the indigestible part of plant food (cellulose) in vegetables, fruit and whole grains. It adds bulk, helps food to move along the gut and prevents constipation."]},
+{"h":"Balanced diet","p":["A balanced diet contains all the food substances in the right proportions. As a rough guide, about 60% carbohydrate, 15% protein, 15% fats and oils and 10% vitamins, minerals and roughage, plus plenty of water. Functions: keeps us healthy, helps resist disease, provides the energy for all life activities, and prevents malnutrition and deficiency diseases. Kwashiorkor is caused by a diet lacking protein. Signs in a child: slow growth, loss of weight, swollen legs and a swollen belly (oedema), thin arms and legs. (The source notes say 'cracked or split stomach'; the typical sign is a swollen belly.) Marasmus is caused by lack of food in general."]},
+{"h":"Enzymes","p":["Enzymes are protein catalysts made by living cells that speed up chemical reactions. Digestive enzymes break complex food into simple, soluble, diffusible forms. Properties of enzymes: they are proteins; they are soluble; each acts on one kind of substance (specific); they work best at body temperature (about 35 to 40 °C) and are destroyed by high heat; each works best at a certain pH; they are not used up; they can be slowed by inhibitors such as mercury and cyanide; many need co-enzymes or co-factors (often vitamins or minerals)."]},
+{"h":"Classes of digestive enzymes","p":["Proteases act on proteins (pepsin, rennin, trypsin, erepsin). Carbohydrases act on carbohydrates: amylases act on starch (ptyalin or salivary amylase, pancreatic amylase), and maltase, sucrase and lactase act on the sugars maltose, sucrose and lactose. (The source notes list lactase, maltase and sucrase as amylases.) Lipases act on fats and oils."],
+"tbl":{"head":["Enzyme","Acts on","Product"],"rows":[
+["Amylase (ptyalin)","Starch","Maltose"],
+["Maltase","Maltose","Glucose"],
+["Pepsin","Proteins","Peptides"],
+["Trypsin","Proteins","Peptides and amino acids"],
+["Lipase","Fats and oils","Fatty acids and glycerol"]]}}
+],
+"activity":"A child has swollen feet and a swollen belly but thin arms. Name the likely deficiency and suggest foods for the child. (Protein deficiency (kwashiorkor): eggs, fish, beans, milk.)",
+"check":[
+{"q":"Enzymes are","o":["Protein catalysts","Fats","Vitamins","Minerals"]},
+{"q":"Lack of protein in a child causes","o":["Kwashiorkor","Scurvy","Rickets","Goitre"]},
+{"q":"Roughage helps to prevent","o":["Constipation","Anaemia","Rickets","Scurvy"]},
+{"q":"Enzymes work best at about","o":["35 to 40 °C","0 °C","100 °C","10 °C"]},
+{"q":"Lipase acts on","o":["Fats and oils","Starch","Proteins","Sugars"]}]}
+]

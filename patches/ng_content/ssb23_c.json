@@ -1,0 +1,156 @@
+[
+{"id":"b23-18","week":8,"title":"From Pollination to Fertilisation in Flowering Plants","icon":"Target",
+"summary":"A recap of pollination, the growth of the pollen tube, double fertilisation, and the changes in the flower afterwards.",
+"keyWords":["Pollen tube","Micropyle","Double fertilisation","Endosperm","Zygote","Triploid nucleus"],
+"sections":[
+{"h":"Pollination is only the arrival","p":["Recall that the flower is the sexual reproductive organ of a flowering plant. The stamen (anther and filament) is the male part. The carpel (stigma, style and ovary with ovules) is the female part. Pollination is the transfer of mature pollen grains from the anther to the stigma. Self-pollination (for example tomato) is within the same flower or plant; cross-pollination (for example pawpaw) is between flowers of different plants of the same species and gives healthier and more varied offspring.","Insect-pollinated flowers (hibiscus, pride of Barbados) are large, coloured and scented, have nectar, a sticky stigma and rough sticky pollen. Wind-pollinated flowers (maize, grasses, rice) are small, dull and scentless, have anthers and feathery stigmas hanging outside, and make light, smooth pollen in huge amounts. Wind pollen is plentiful because most of it is lost and only a few grains land on a stigma by chance."]},
+{"h":"Fertilisation step by step","p":["Pollination only brings the pollen to the stigma. Fertilisation is the fusion of the gametes.","1. Germination of pollen: a pollen grain landing on a compatible stigma takes in a sugary liquid and swells. 2. Pollen tube growth: the grain grows a tube that pushes down through the style towards the ovary, with the male nuclei inside. 3. Entry: the tube enters the ovule through a tiny pore called the micropyle. 4. Double fertilisation: one male nucleus fuses with the egg cell to form the zygote (the future plant), and the other fuses with the two polar nuclei (the secondary nucleus) to form a triploid (3n) nucleus, which becomes the endosperm (food store). Two fusions occur, so it is called double fertilisation; it is a special feature of flowering plants."],"img":{"src":"bio2-fertilisation.jpg","alt":"A longitudinal section of a carpel showing pollen grains on the stigma, a pollen tube growing down the style into the ovule through the micropyle, with the egg cell, polar nuclei and embryo sac labelled","cap":"The growth of the pollen tube and fertilisation. (The diagram spells 'polar nuclei' as 'pollar nuclei'; the correct spelling is polar.)"}},
+{"h":"Changes after fertilisation","p":["The petals and sepals usually wither and fall off. The stigma and style also wither. The changes are summarised below."],"tbl":{"head":["Part of the flower","Becomes"],"rows":[["Ovary","Fruit"],["Ovary wall","Pericarp (fruit wall)"],["Ovule","Seed"],["Integuments (ovule walls)","Testa (seed coat)"],["Zygote","Embryo (baby plant)"],["Triploid nucleus","Endosperm (food store)"]]}},
+{"h":"A common question","p":["Why do the petals fall off while tomato seeds form inside the fruit? Because the petals have finished their job of attracting pollinators. The plant then sends its food and energy to the ovary to grow the fruit and seeds, instead of wasting it on the petals."]}
+],
+"activity":"Describe the path of the pollen tube from the stigma to the micropyle. List the changes in the ovary, ovule and zygote after fertilisation. Explain why wind-pollinated flowers produce millions of pollen grains. Make a table of four differences between insect-pollinated and wind-pollinated flowers.",
+"check":[
+{"q":"The pollen tube enters the ovule through the","o":["micropyle","hilum","stigma","style"]},
+{"q":"Double fertilisation produces","o":["a zygote and an endosperm","two zygotes","two fruits","two seeds only"]},
+{"q":"After fertilisation, the ovule becomes the","o":["seed","fruit","flower","pollen"]},
+{"q":"The ovary wall becomes the","o":["pericarp","testa","endosperm","embryo"]},
+{"q":"Wind-pollinated flowers have","o":["feathery stigmas outside the flower","bright petals","nectar","sticky pollen"]}
+]},
+
+{"id":"b23-19","week":8,"title":"The Structure of Seeds: Bean and Maize","icon":"Layers",
+"summary":"Monocot and dicot seeds, the parts of a bean seed, and the maize grain as a fruit with its scutellum and coleoptile.",
+"keyWords":["Testa","Hilum","Micropyle","Plumule","Radicle","Cotyledon","Endosperm","Caryopsis"],
+"sections":[
+{"h":"A seed is a ripened ovule","p":["A seed is a ripened, fertilised ovule that contains the embryo plant with a store of food. Monocotyledonous seeds (maize, rice, wheat) have one cotyledon (seed leaf), and the food is mostly stored in a separate endosperm. Dicotyledonous seeds (bean, groundnut, mango) have two cotyledons, which are large and store the food (starch and protein)."]},
+{"h":"The bean seed (a dicot)","p":["Testa: the tough brown seed coat, which protects against fungi, bacteria and insects. Hilum: a scar showing where the seed was joined to the pod. Micropyle: a tiny pore near the hilum, through which water and air enter when the seed germinates. Embryo: made of the plumule (the young shoot, with the epicotyl above the cotyledons), the radicle (the young root) and the hypocotyl (the stem part below the cotyledons). Cotyledons: two large fleshy 'seed leaves' that store food."],"img":{"src":"bio2-bean-seed.jpg","alt":"A bean seed cut open showing the seed coat, two cotyledons, epicotyl, hypocotyl and radicle forming the embryo","cap":"A bean seed (dicot)."}},
+{"h":"The maize grain (a monocot)","p":["A maize 'seed' is actually a whole fruit called a caryopsis (grain), because the fruit wall (pericarp) is joined tightly to the seed coat. Endosperm: the large yellow part that stores starch. Scutellum: the single cotyledon, which lies between the endosperm and the embryo and absorbs digested food from the endosperm for the growing embryo. Coleoptile: a sheath that protects the young shoot (plumule). Coleorhiza: a sheath that protects the young root (radicle).","How to see it: soak maize grains for a day, cut one lengthwise with a blade, and put a drop of iodine on the cut face. The endosperm turns blue-black, showing starch. Draw and label it."]},
+{"h":"Bean and maize compared","p":["Study the table."],"tbl":{"head":["Feature","Bean (dicot)","Maize (monocot)"],"rows":[["Cotyledons","Two, large and fleshy","One (scutellum), thin"],["Food store","In the cotyledons","In the endosperm"],["Fruit wall","Separate from the seed coat (pod)","Fused to the seed coat (caryopsis)"],["Shoot and root sheaths","None","Coleoptile and coleorhiza"],["Germination","Epigeal","Hypogeal"]]}}
+],
+"activity":"Draw a large labelled diagram of a longitudinal section of a maize grain. Name the part of the bean seed that allows water in and the part that stores food. Soak and dissect a bean seed and a maize grain and compare them.",
+"check":[
+{"q":"The young root of an embryo is the","o":["radicle","plumule","testa","hilum"]},
+{"q":"The scar on a bean seed is the","o":["hilum","micropyle","plumule","radicle"]},
+{"q":"A maize grain is a","o":["fruit (caryopsis)","pure seed only","berry","pod"]},
+{"q":"Food in a bean seed is stored in the","o":["cotyledons","endosperm","coleoptile","testa"]},
+{"q":"The sheath protecting the maize plumule is the","o":["coleoptile","coleorhiza","scutellum","pericarp"]}
+]},
+
+{"id":"b23-20","week":8,"title":"Germination of Seeds","icon":"Zap",
+"summary":"The conditions needed for germination, epigeal and hypogeal germination, dormancy and a home experiment.",
+"keyWords":["Germination","Dormancy","Epigeal","Hypogeal","Hypocotyl","Epicotyl"],
+"sections":[
+{"h":"What is germination?","p":["Germination is the waking of the embryo from its resting stage (dormancy) so that it grows into a seedling. Dry seeds have very little water and respire very slowly."]},
+{"h":"Conditions needed: remember 'WOW'","p":["Water: to soften the testa, make the cells swell and start the enzymes working to digest the stored food. Oxygen: for respiration, which releases energy for growth (seeds in waterlogged soil may rot). Warmth: a suitable temperature, usually about 25 to 35 °C, for enzymes to work. Light is not normally needed for the first stages (a few seeds, such as some weeds, need light). Soil is also not needed, as seeds germinate on wet cotton wool."]},
+{"h":"Epigeal germination","p":["The cotyledons are carried above the ground. The hypocotyl (the stem part below the cotyledons) grows rapidly and forms an arch that pulls the cotyledons out of the soil. Examples: bean, melon, castor oil, groundnut, cowpea, morning glory. After the first true leaves open, the cotyledons shrink as the food is used, turn green for a short time and then wither and fall off."]},
+{"h":"Hypogeal germination","p":["The cotyledons stay under the ground. The epicotyl (the stem part above the cotyledons) grows quickly and pushes the shoot up. Examples: maize, guinea corn (sorghum), millet, pea, yam seed."]},
+{"h":"Epigeal and hypogeal compared","p":["Study the table."],"tbl":{"head":["Feature","Epigeal","Hypogeal"],"rows":[["Part that grows fast","Hypocotyl","Epicotyl"],["Cotyledons","Above the soil","Stay in the soil"],["Examples","Bean, melon, castor oil","Maize, millet, guinea corn"]]}},
+{"h":"Dormancy and how farmers break it","p":["Dormancy is a resting stage in which a living seed does not germinate even when conditions are right. It lets seeds survive the dry season. Farmers can break it by soaking in water, scratching or nicking the hard seed coat (scarification), soaking in warm water, dipping in weak acid, or exposing to cold. Test your seeds first: put 20 in wet cotton wool and count how many germinate (germination percentage).","Home project: plant 5 bean seeds and 5 maize seeds in two tins. Watch for 7 days. In bean you will see a loop (the hypocotyl arch) and fat cotyledons coming out first; in maize the green spear-like shoot comes out and the grain stays in the soil."]}
+],
+"activity":"State the three conditions needed for germination and the reason for each. Design an experiment to show that seeds need oxygen to germinate. Do the home project with bean and maize and sketch the seedlings on day 5. Explain what happens to the cotyledons in a bean seedling after the first green leaves appear.",
+"check":[
+{"q":"Which is NOT needed for germination?","o":["Light","Water","Oxygen","Warmth"]},
+{"q":"In epigeal germination the cotyledons","o":["rise above the soil","stay underground","become roots","fall off at the start"]},
+{"q":"Maize shows","o":["hypogeal germination","epigeal germination","no germination","vegetative reproduction"]},
+{"q":"The part that elongates in epigeal germination is the","o":["hypocotyl","epicotyl","radicle","endosperm"]},
+{"q":"A way to break seed dormancy is","o":["scarification","adding oil","freezing for years","boiling for an hour"]}
+]},
+
+{"id":"b23-21","week":9,"title":"Fruits: Structure and Classification","icon":"BarChart2",
+"summary":"What a fruit is, the three layers of the pericarp, true and false fruits, simple, aggregate and multiple fruits, and the fleshy and dry types.",
+"keyWords":["Fruit","Pericarp","Epicarp","Mesocarp","Endocarp","True fruit","False fruit","Drupe","Berry"],
+"sections":[
+{"h":"What is a fruit?","p":["A fruit is a fertilised, ripened ovary that contains seeds. After fertilisation, the ovary swells and changes to protect the seeds and help to scatter them. In cooking, 'fruit' means something sweet, but in biology tomatoes, okra, pepper and cucumber are all fruits, because they develop from flowers and contain seeds."]},
+{"h":"The structure of a fruit","p":["The wall of a fruit is the pericarp. In many fleshy fruits it has three layers: the epicarp (the outer skin or peel), the mesocarp (the middle, usually fleshy and edible layer) and the endocarp (the inner layer around the seed, sometimes hard and stony)."]},
+{"h":"Classifying by origin","p":["True fruit: made from the ovary only. Examples: mango, orange, cowpea. False fruit (pseudocarp): made from the ovary together with other parts of the flower. Examples: apple (the flesh is the swollen receptacle), cashew (the 'apple' is the swollen stalk; the true fruit is the kidney-shaped nut hanging under it), strawberry (the red flesh is the receptacle; the real fruits are the tiny dots on it) and pineapple."]},
+{"h":"Classifying by composition","p":["Simple fruit: from one flower with one ovary, for example bean, cherry, tomato. Aggregate fruit: from one flower with many separate ovaries, each becoming a small fruitlet in a cluster, for example strawberry and custard apple. Multiple (composite) fruit: from a whole cluster of flowers (an inflorescence) that fuse together, for example pineapple and breadfruit."]},
+{"h":"Fleshy simple fruits","p":["Berry: the whole pericarp is soft and juicy, usually with many seeds. Examples: tomato, pepper, guava, watermelon, and orange (a special berry called a hesperidium). Drupe: a fleshy mesocarp and a hard stony endocarp (a stone) around one seed. Examples: mango, coconut (a fibrous drupe), oil palm fruit, cherry. Pome: the outer flesh is the receptacle and the core is the real ovary. Examples: apple, pear."],"img":{"src":"bio2-fruit-types.jpg","alt":"A diagram comparing a tomato (berry), a cherry (drupe) and an apple (pome) in section","cap":"A berry, a drupe and a pome."}},
+{"h":"Dry fruits","p":["Dry dehiscent fruits split open when ripe to let out the seeds. Legume (pod): splits along two sides; bean, cowpea, flamboyant. Capsule: splits along many lines or pores; okra, cotton, poppy. Follicle: splits along one side only; kola, rose periwinkle. Schizocarp: breaks into one-seeded parts; Desmodium, Cassia.","Dry indehiscent fruits do not split. Caryopsis (grain): the seed coat is fused to the fruit wall; maize, rice, grasses. Cypsela: a small one-seeded fruit often with a hairy parachute (pappus); Tridax, sunflower. Nut: a very hard woody pericarp; cashew nut. Samara: a fruit wall with a wing; Combretum."]},
+{"h":"Pointers","p":["A maize grain is called a fruit, not just a seed, because the fruit wall is joined to the seed coat. A berry and a drupe differ in how the seed is protected: in a drupe a hard stony endocarp surrounds a single seed; in a berry the seeds lie in soft flesh with no stone."]}
+],
+"activity":"Draw and label a longitudinal section of a mango and name the three layers of the pericarp. Draw cross-sections of a tomato and an orange. Examine a cashew: identify the 'apple' and the true fruit. Give an example of an aggregate fruit.",
+"check":[
+{"q":"A fruit develops from the","o":["ovary","ovule","anther","petal"]},
+{"q":"The edible flesh of a mango is the","o":["mesocarp","epicarp","endocarp","testa"]},
+{"q":"Mango is a","o":["drupe","berry","pome","capsule"]},
+{"q":"An example of a multiple fruit is","o":["pineapple","tomato","mango","bean"]},
+{"q":"A dry fruit that splits along two sides is a","o":["legume","drupe","caryopsis","berry"]}
+]},
+
+{"id":"b23-22","week":9,"title":"Seed and Fruit Dispersal and Parthenocarpy","icon":"Landmark",
+"summary":"Why seeds are dispersed, the four methods (wind, water, animals and explosive) with their adaptations, and fruits that form without fertilisation.",
+"keyWords":["Dispersal","Pappus","Samara","Hooks","Explosive mechanism","Parthenocarpy"],
+"sections":[
+{"h":"Why disperse seeds?","p":["Dispersal is the scattering of seeds away from the parent plant. It prevents overcrowding, reduces competition for light, water and minerals, helps plants to colonise new places, and reduces the spread of disease among crowded seedlings."],"img":{"src":"bio2-seed-dispersal.jpg","alt":"An infographic showing seed dispersal by wind, expulsion, animals and water with examples","cap":"Ways seeds are dispersed."}},
+{"h":"Dispersal by wind","p":["Adaptations: very small and light seeds (orchids); wings, as in the samara of Combretum and Terminalia; parachutes of hairs (pappus) as in Tridax, dandelion and cotton seeds; plumes and flat shapes. Wind-dispersed fruits are dry and light."]},
+{"h":"Dispersal by water","p":["Adaptations: buoyancy so that they float; a waterproof outer layer (epicarp) so that they do not rot; air spaces in a fibrous mesocarp that trap air. Examples: coconut (which can float across oceans and so grows on coasts), water lily, mangrove."]},
+{"h":"Dispersal by animals","p":["Edible fruits: bright colour, sweet smell and tasty pulp attract animals, which eat them and drop the seeds far away in their dung, where the seeds pass through the gut unharmed (guava, tomato, pepper, pawpaw, bats and birds spread many trees). Hooks and spines catch on fur or clothes (Desmodium, Boerhavia, the 'black-jack' Bidens pilosa, Triumfetta)."]},
+{"h":"Self-dispersal (explosive mechanism)","p":["The fruit wall dries unevenly and builds up tension. When it is ripe and dry, it bursts open suddenly, 'shooting' the seeds away. Examples: oil bean (Pentaclethra), balsam, rubber seed, okra, and many pods. This throws seeds only a short distance, so they do not travel as far as wind-dispersed seeds."]},
+{"h":"Why unripe fruits are green and sour","p":["Unripe fruits are green, hard and sour, so that animals do not eat them before the seeds are ready. When the seeds are mature, the fruit changes colour, becomes sweet and smells nice, so animals are attracted and spread the seeds."]},
+{"h":"Parthenocarpy","p":["Parthenocarpy is the formation of a fruit without fertilisation, so the fruit has no seeds (it is seedless). Examples: banana and some pineapples. Farmers can cause it by spraying the flowers with plant hormones (auxins) to make seedless grapes, tomatoes or watermelons. This is useful for eating, but the plant cannot reproduce by seed, so banana is grown from suckers."]}
+],
+"activity":"Collect five weed seeds from around your house or school and say how each is dispersed. State three adaptations of wind-dispersed seeds. Explain why a coconut is adapted for water dispersal. Why do explosive fruits not spread as far as wind-dispersed ones?",
+"check":[
+{"q":"A fruit with a wing is a","o":["samara","legume","berry","drupe"]},
+{"q":"Fruits dispersed by water usually have","o":["a waterproof, buoyant husk","hooks","wings","bright petals"]},
+{"q":"Desmodium spreads its fruits using","o":["hooks on animals","wind","water","explosion"]},
+{"q":"The formation of seedless fruit without fertilisation is","o":["parthenocarpy","pollination","germination","fusion"]},
+{"q":"A benefit of seed dispersal is","o":["less competition","more overcrowding","more disease","less variety"]}
+]},
+
+{"id":"b23-23","week":10,"title":"Courtship Behaviour in Animals","icon":"Heart",
+"summary":"Why animals perform courtship, with examples of visual, sound, chemical and territorial displays, including the Agama lizard and the peacock.",
+"keyWords":["Courtship","Instinct","Species recognition","Pheromone","Territory","Display"],
+"sections":[
+{"h":"Behaviour matters in reproduction","p":["Reproduction is not only about body parts. It also needs behaviour that makes sure the right mates meet and the young survive. These behaviours are mostly instinctive (inborn): the animal does not need to learn them."]},
+{"h":"What is courtship?","p":["Courtship is the series of special actions that a male and female of the same species perform to excite each other before mating."]},
+{"h":"Why is courtship necessary?","p":["1. Species recognition: it makes sure animals mate with their own kind; a female lizard will not respond to the dance of a male toad, so no effort is wasted on mating that would produce no young. 2. Synchronisation: it prepares both partners so that the female releases her eggs at the right time that the male releases sperm. 3. Mate selection: the female can choose a strong, healthy male with good genes (survival of the fittest). 4. Territory: it sets up a safe place for mating and nesting and shows that the male can defend it."]},
+{"h":"Kinds of courtship display","p":["Visual: bright colours and movements. The male rainbow agama lizard (Agama agama), so common on Nigerian walls and trees, shows an orange-red head with a blue body (the female is a duller brown), nods its head rapidly (head-bobbing) and does 'push-ups'. The male peacock spreads its large, colourful tail feathers in front of the peahen.","Sound: frogs and toads croak loudly in the rainy season, and birds sing special mating songs. Crickets chirp.","Chemical (pheromones): a pheromone is a chemical signal released by an animal that affects the behaviour of another of the same species. Female moths release pheromones that males can smell kilometres away; dogs and cats mark territory and show readiness with urine.","Territorial: fighting and threatening to win and hold a breeding ground, for example male agamas, cocks and antelope."]},
+{"h":"A correction","p":["The lesson note says the male agama has a 'bright blue head and orange tail'. In the common Nigerian rainbow agama it is the other way round: the head is orange-red and the body and tail base are blue. If your own lizards look different, remember that colours can vary between places and species, and always describe what you really see."]},
+{"h":"Why courtship matters","p":["It keeps the species going, because animals must find a mate. It passes on good genes. It reduces the chance of wasted matings and wasted energy. A weak or sick animal is less likely to win a mate."]}
+],
+"activity":"State two ways in which the male agama attracts a female. Define a pheromone. Explain why species recognition matters in courtship. Draw a male agama lizard in courtship colours.",
+"check":[
+{"q":"Courtship makes sure animals mate with","o":["their own species","any species","only young animals","only large animals"]},
+{"q":"A chemical signal released by an animal is a","o":["pheromone","hormone only","enzyme","vitamin"]},
+{"q":"Frogs croaking is a","o":["sound display","visual display","chemical display","territorial display only"]},
+{"q":"The peacock's spread tail is a","o":["visual display","pheromone","sound","scent mark"]},
+{"q":"Which is NOT a reason for courtship?","o":["To find food","Species recognition","Mate selection","Synchronising breeding"]}
+]},
+
+{"id":"b23-24","week":10,"title":"Parental Care in Animals","icon":"Users",
+"summary":"The link between the number of young and the amount of care, with examples from fish, amphibians, reptiles, birds and mammals.",
+"keyWords":["Parental care","Mouth brooding","Incubation","Lactation","Brood parasite"],
+"sections":[
+{"h":"What is parental care?","p":["Parental care means any time, energy or food that parents give to help their young to survive: guarding eggs, building nests, keeping young warm, feeding and protecting them, and teaching them."]},
+{"h":"The trade-off: quantity or quality","p":["Low parental care means many eggs. If the parents do not look after the young, most are eaten or die, so thousands of eggs must be made so that a few survive (fish, amphibians). High parental care means few young, because most survive when protected (birds, mammals). That is why a female fish lays thousands of eggs, while a cow gives birth to only one calf a year."]},
+{"h":"Patterns of care in the animal classes","p":["Fish: most lay eggs and leave them. Exception: tilapia is a mouth brooder: the female keeps the fertilised eggs, and later the young, in her mouth until they can fend for themselves. The male seahorse carries the eggs in a brood pouch.","Amphibians: toads and frogs lay jelly-covered eggs in water and leave them; the tadpoles live alone. Exception: the male midwife toad carries strings of eggs wound round his legs.","Reptiles: most bury their leathery eggs in sand or soil and leave. Exception: the female crocodile guards her nest fiercely and carries the hatchlings to the water in her mouth.","Birds: high care. They build nests (the weaver bird weaves a hanging nest), incubate the eggs to keep them warm, feed the chicks with insects, worms or seeds, and defend them. A hen covers her chicks with her wings and scratches the ground to show them food.","Mammals: the highest care. Young are born alive (viviparous), fed with milk (lactation), protected for months or years and taught skills, such as lions teaching cubs to hunt, and humans teaching children."]},
+{"h":"Comparing a toad and a cat","p":["Toad: thousands of eggs, external fertilisation, no parental care. Cat: a few kittens (3 to 5) in a litter, internal fertilisation and development in the uterus, high care with milk and protection."]},
+{"h":"An unusual strategy: brood parasites","p":["The cuckoo, a brood parasite, lays its eggs in the nests of other birds, which then bring up the cuckoo chick as their own. The host wastes its energy and food on a stranger, and the cuckoo chick may push the host's own eggs or chicks out of the nest. In Nigeria, honeyguides and whydahs (viduine finches) are also brood parasites."]},
+{"h":"The value of reproductive behaviour","p":["It ensures that the species continues; passes on good genes; and increases the survival of young so that the population stays steady. Parental care is a sacrifice: the parents spend a lot of energy and food, are more at risk from predators and may lose weight."]}
+],
+"activity":"Observe a hen with chicks and report on how she protects and feeds them. Make a table comparing a toad and a cat (number of young, fertilisation, care). Define mouth brooding and name an animal that does it. Discuss the statement 'parental care is a sacrifice'.",
+"check":[
+{"q":"Animals with little parental care usually produce","o":["many eggs","few eggs","one egg","no eggs"]},
+{"q":"A fish that carries its young in the mouth is the","o":["tilapia","catfish","shark","eel"]},
+{"q":"Birds keep their eggs warm by","o":["incubation","lactation","courtship","migration"]},
+{"q":"Feeding young with milk is","o":["lactation","incubation","brooding","fertilisation"]},
+{"q":"A brood parasite is a bird that","o":["lays eggs in other birds' nests","builds many nests","guards its eggs","eats eggs"]}
+]},
+
+{"id":"b23-25","week":11,"title":"Third Term Revision and Exam Practice","icon":"ClipboardCheck",
+"summary":"A checklist for the term's nervous system, sense organs, population ecology, ecosystems, human reproduction, seeds and fruits, and animal behaviour, with worked answers.",
+"keyWords":["Revision","Coordination","Population","Ecosystem","Reproduction"],
+"sections":[
+{"h":"Checklist","p":["Nervous coordination: neuron parts; resting and action potential; saltatory conduction; synapse; brain and spinal cord; autonomic nervous system; reflex arc.","Sense organs: eye (parts, accommodation, defects); ear (hearing and balance); nose, tongue and skin.","Population ecology: density, frequency, distribution; natality, mortality, immigration and emigration; growth curves; limiting factors; quadrat and capture-mark-recapture.","Ecosystem: components; food chain and web; the 10% rule; pyramids; carbon and water cycles; balance of nature.","Human reproduction: male and female systems; gametes; menstrual cycle; fertilisation, pregnancy and birth.","Plants: fertilisation; seed structure; germination; fruit types and dispersal.","Behaviour: courtship and parental care."]},
+{"h":"Worked answers to common questions","p":["Why is a myelinated neuron faster? The action potential jumps from node to node (saltatory conduction) instead of travelling along the whole length of the axon.","What happens in the cerebellum damage? The person has jerky movements, loss of balance and poor coordination.","Calculation: 40 marked, second catch 60 with 12 marked: N = 40 × 60 ÷ 12 = 200.","Why does a pyramid of energy always stand upright? Energy is lost at every level (only about 10% passes on), so each level has less energy than the one below.","Why are the testes outside the body? Sperm need a temperature 2 to 3 °C lower than the body.","What is the function of the micropyle in a dry seed? It lets water and air enter when germination starts.","Why is a maize grain called a fruit? The fruit wall (pericarp) is fused to the seed coat.","Why does a female fish lay thousands of eggs and a cow one calf? Fish give no care, so most eggs are lost; a cow gives much care, so most calves survive."]},
+{"h":"Skills to practise","p":["Diagrams: neuron, reflex arc, brain, eye, ear, male and female systems, bean seed, maize grain, food web, S-curve. Calculations: population density and capture-recapture. Practicals: blind-spot test, quadrat count, germination experiment.","Use active recall, spaced revision and timed past papers, and explain each topic to a friend. For every topic you rate 3 or less out of 5, write one action to improve."]}
+],
+"activity":"Complete one full past paper for SS2 Biology third term in exam conditions and mark it strictly. Write down your three most common errors and one action for each.",
+"check":[
+{"q":"A reflex arc ends with an","o":["effector","receptor","sensory neuron","relay neuron"]},
+{"q":"The 10% rule describes","o":["energy transfer between trophic levels","population growth","seed dispersal","pollination"]},
+{"q":"Fertilisation in humans usually occurs in the","o":["fallopian tube","uterus","cervix","vagina"]},
+{"q":"The structure that protects the plumule of maize is the","o":["coleoptile","scutellum","endosperm","hilum"]},
+{"q":"Animals with high parental care produce","o":["few young","thousands of eggs","no young","only males"]}
+]}
+]

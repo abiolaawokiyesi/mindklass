@@ -1,0 +1,271 @@
+[
+{"id":"e22-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS2 English Language Second Term is about and a map of every unit.",
+"keyWords":["Apostrophe","Punctuation","Intonation","Reported speech","Voice"],
+"sections":[
+{"h":"Welcome to Second Term","p":["This term you polish your accuracy and widen your range. Grammar: the possessive apostrophe, punctuation marks, sentence types, personal and relative pronouns, reported speech, three-part phrasal verbs and active and passive voice. Oral English: voiced and voiceless consonants, intonation (falling, rising and surprise), rhyme and stress. Writing: formal and informal letters, creative writing and articles. Reading: main points, inference, note-making and critical evaluation. Plus vocabulary from journalism, the environment, building and technology.","At the end of every unit are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for Second Term","p":["Week 5 is the midterm examination and Week 7 is the midterm break."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Oral English: voiced and voiceless consonants (revision)"],
+["3","1","Structure: the possessive apostrophe"],
+["4","1","Comprehension: main points and topic sentences"],
+["5","1","Vocabulary: words of the week 1"],
+["6","2","Structure: question mark, exclamation mark, colon, semi-colon and hyphen"],
+["7","2","Vocabulary: press and journalism, and words of the week 2"],
+["8","2","Listening: appreciating poetry"],
+["9","3","Oral English: intonation for surprise and disbelief"],
+["10","3","Structure: sentence types by function"],
+["11","3","Writing: the formal letter of complaint"],
+["12","3","Vocabulary: words of the week 3"],
+["13","4","Oral English: the falling tone"],
+["14","4","Comprehension: implied meaning"],
+["15","4","Writing: the informal letter"],
+["16","4","Vocabulary: words of the week 4"],
+["17","6","Oral English: rhyme scheme"],
+["18","6","Structure: personal and relative pronouns"],
+["19","6","Comprehension: note-making"],
+["20","6","Vocabulary: words of the week 6"],
+["21","8","Oral English: the rising tone"],
+["22","8","Vocabulary: the environment, and words of the week 8"],
+["23","8","Writing: creative writing and the short story"],
+["24","9","Oral English: consonant contrasts in minimal pairs"],
+["25","9","Structure: sequence of tenses and reported speech"],
+["26","9","Comprehension: critical evaluation"],
+["27","9","Vocabulary: words of the week 9"],
+["28","10","Structure: three-part phrasal verbs"],
+["29","10","Writing: articles for a public audience"],
+["30","10","Vocabulary: building, and words of the week 10"],
+["31","11","Structure: active and passive voice"],
+["32","11","Vocabulary: technology"],
+["33","11","Oral English: recognising stress patterns"],
+["34","11","Vocabulary: words of the week 11"],
+["35","12","Revision"]]}}
+],
+"activity":"Which unit teaches you to write a letter to complain about a faulty product? Which one explains 'He said that he was reading'?",
+"check":[
+{"q":"Which unit covers reported speech?","o":["Unit 25","Unit 3","Unit 13","Unit 29"]},
+{"q":"In which unit do you study the informal letter?","o":["Unit 15","Unit 11","Unit 23","Unit 31"]},
+{"q":"Which unit covers active and passive voice?","o":["Unit 31","Unit 6","Unit 17","Unit 24"]},
+{"q":"Which unit covers rhyme scheme?","o":["Unit 17","Unit 10","Unit 19","Unit 27"]}]},
+
+{"id":"e22-02","week":1,"title":"Oral English: Voiced and Voiceless Consonants (Revision)","icon":"Zap","summary":"A fuller look at voicing, with minimal pairs, the always-voiced nasals, approximants and the voiceless /h/, and worked examples.",
+"keyWords":["Voicing","Minimal pair","Nasal","Approximant","Affricate"]
+,"sections":[
+{"h":"Consonants and voicing","p":["A consonant is a speech sound made by partly or completely blocking the air from the lungs. The main way of grouping them is by voicing: voiceless sounds have the vocal cords apart and sound like a puff, hiss or whisper; voiced sounds have the vocal cords together and vibrating. Test by touching your larynx (Adam's apple): 'ssss' (no buzz, voiceless /s/) and 'zzzz' (buzz, voiced /z/)."]},
+{"h":"The pairs","p":["Study the table."],
+"tbl":{"head":["Voiceless","Voiced","Minimal pair"],"rows":[
+["/p/ pin","/b/ bin","pat / bat"],
+["/t/ tin","/d/ din","ten / den"],
+["/k/ coat","/g/ goat","class / glass"],
+["/f/ fan","/v/ van","safe / save"],
+["/θ/ thin","/ð/ this","breath / breathe"],
+["/s/ sip","/z/ zip","price / prize"],
+["/ʃ/ shoe","/ʒ/ pleasure","pressure / pleasure"],
+["/tʃ/ chin","/dʒ/ gin","rich / ridge"]]}},
+{"h":"Unpaired consonants","p":["Nasals (all voiced): /m/ man, /n/ no, /ŋ/ sing; air flows through the nose. Approximants (all voiced): /l/ leg, /r/ run, /w/ wet, /j/ yes; less obstruction. The glottal /h/ (hat) is voiceless."]},
+{"h":"Worked examples","p":["Odd one out by final sound: push, laugh, breathe, rich. push ends /ʃ/ (voiceless); laugh ends /f/ (voiceless); breathe ends /ð/ (voiced); rich ends /tʃ/ (voiceless). So 'breathe' is the odd one out.","Voiced consonants in 'ledge' /ledʒ/: /l/ and /dʒ/ (the vowel is always voiced but is not a consonant). The final sound of 'judge' is /dʒ/, voiced."]}
+],
+"activity":"Write the voiceless partner of /b/, /g/, /z/ and /ð/ (/p/, /k/, /s/, /θ/). Are /m/, /n/, /ŋ/ voiced? How can you tell? (Voiced; you feel the buzz.) Transcribe and circle the voiced consonants in: treasure, fishing, village, think, bridges.",
+"check":[
+{"q":"The voiceless partner of /g/ is","o":["/k/","/t/","/p/","/s/"]},
+{"q":"Nasal consonants are","o":["Voiced","Voiceless","Silent","Unstressed"]},
+{"q":"The odd one out for final voicing: push, laugh, breathe, rich","o":["breathe","push","laugh","rich"]},
+{"q":"/h/ is","o":["Voiceless","Voiced","A nasal","A vowel"]},
+{"q":"'Judge' ends with","o":["/dʒ/","/tʃ/","/ʒ/","/z/"]}]},
+
+{"id":"e22-03","week":1,"title":"Structure: the Possessive Apostrophe","icon":"Layers","summary":"The six rules for showing ownership with an apostrophe, the apostrophe in contractions and the 'its' versus 'it's' rule.",
+"keyWords":["Apostrophe","Possession","Contraction","Its","It's"]
+,"sections":[
+{"h":"Two jobs of the apostrophe","p":["The apostrophe shows contraction (do not, don't) and possession (the car of my sister, my sister's car). This lesson is about possession first."]},
+{"h":"Six rules of possession","p":["1. Singular nouns not ending in s: add 's: the cat's tail, the woman's car, a student's pen, Mr Bako's house.","2. Plural nouns ending in s: add only an apostrophe: the cats' tails, the students' pens, the Joneses' house.","3. Plural nouns not ending in s: add 's: the children's toys, the men's room, the sheep's field.","4. Singular nouns ending in s: modern British English prefers 's: James's book, the boss's office. (James' book is older and less common; be consistent.)","5. Compound nouns: add 's to the last word: my mother-in-law's car, the Attorney General's office.","6. Joint possession (one thing shared): 's on the last name only: John and Mary's house. Separate possession: 's on both: John's and Mary's houses."]},
+{"h":"Contractions","p":["The apostrophe replaces missing letters: it is, it's; you are, you're; they are, they're; who is, who's; do not, don't.","The golden rule: 'it's' is only ever 'it is' or 'it has' ('It's a hot day'). 'Its' with no apostrophe shows possession ('The company is famous for its service'). Similarly 'who's' means 'who is' and 'whose' shows possession."]}
+],
+"activity":"Rewrite with an apostrophe: the bicycle belonging to Charles (Charles's bicycle); the cries of the babies (the babies' cries); the decision of the committee (the committee's decision); the farm of the farmers (the farmers' farm); the rights of everyone (everyone's rights). Choose: (Who's / Whose) turn is it? (Whose.) The team is proud of (its / it's) performance. (its.)",
+"check":[
+{"q":"The possessive of 'the women' is","o":["The women's","The womens'","The womens","The woman's"]},
+{"q":"The possessive of 'the players' (plural) is","o":["The players'","The player's","The players's","The playe'rs"]},
+{"q":"'The cat licked it's paws' should be","o":["its paws","it's paws","its' paws","it paws"]},
+{"q":"'Kemi and Tunde's business' means","o":["One business owned by both","Two businesses","Kemi's business only","No business"]},
+{"q":"'Who's' means","o":["Who is","Belonging to whom","Which one","Who has not"]}]},
+
+{"id":"e22-04","week":1,"title":"Comprehension: Main Points and Topic Sentences","icon":"Target","summary":"How to find the main point and the topic sentence of a paragraph by testing candidate sentences, with a worked example on sleep.",
+"keyWords":["Main point","Topic sentence","Supporting detail","Paragraph","Inference"]
+,"sections":[
+{"h":"Main point, details and topic sentence","p":["Understanding means getting the author's central message, not just single words. A well-built paragraph has one main point (the controlling idea), often stated in a topic sentence. Supporting details (facts, examples, reasons, statistics, stories) explain or prove it. The topic sentence is often first but may be in the middle or at the end."]},
+{"h":"How to find it","p":["1. Read the whole paragraph. 2. Ask: what single idea does the author most want me to understand? 3. Look for a sentence broad enough to cover the others but specific enough to mean something. 4. Test it: do all the other sentences explain, give examples of or develop it?"]},
+{"h":"Worked example","p":["'A new study has revealed that sleep is far more important than previously thought. While the body rests, the brain is hard at work. It consolidates memories, processing the day's events and storing important information. Furthermore, during sleep the brain clears out toxic by-products that build up while we are awake. This cleaning is vital for long-term brain health. Without enough sleep, a person's ability to learn, focus and make decisions is badly harmed.'","Sentence 1 is a good, general introduction. Sentence 2 makes a clear claim. Sentences 3 to 6 give the evidence (memory, toxin clearing, results of too little sleep). So the best topic sentence is the second: 'While the body rests, the brain is hard at work.'"]}
+],
+"activity":"Find the topic sentence: 'There are several benefits to regular exercise. First, it improves heart health. Second, it helps keep a healthy weight. Finally, it releases endorphins which improve mood and reduce stress.' (The first sentence.) Take three paragraphs from a passage and write each topic sentence.",
+"check":[
+{"q":"A topic sentence states the","o":["Main idea of the paragraph","Last example","Title","Author's age"]},
+{"q":"Supporting details","o":["Explain or prove the main point","Replace the main point","Are always questions","Are not needed"]},
+{"q":"The topic sentence is most often","o":["The first sentence","The title","A quotation","A footnote"]},
+{"q":"A good test of a topic sentence is whether","o":["Other sentences develop it","It is short","It is a question","It has a name"]},
+{"q":"In the sleep paragraph, the best topic sentence is","o":["'While the body rests, the brain is hard at work.'","'A new study...'","'This cleaning is vital...'","'Without enough sleep...'"]}]},
+
+{"id":"e22-05","week":1,"title":"Vocabulary: Words of the Week 1","icon":"BookOpen","summary":"Ten words: morass, abject, blandish, duplicity, ennui, maudlin, abscond, alias, dither and emaciated.",
+"keyWords":["Morass","Duplicity","Abscond","Alias","Emaciated"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Morass (n.)","Boggy ground; a confusing situation hard to escape","quagmire, swamp"],
+["Abject (adj.)","Utterly hopeless or degrading","wretched, pitiful"],
+["Blandish (v.)","To coax with flattery","wheedle, cajole"],
+["Duplicity (n.)","Deceitful, double-dealing behaviour","deceit, fraud"],
+["Ennui (n.)","Listless boredom from lack of excitement","tedium, lethargy"],
+["Maudlin (adj.)","Tearfully sentimental, often through drink","mawkish"],
+["Abscond (v.)","To leave quickly and secretly to avoid arrest","flee, run off"],
+["Alias (n.)","A false or assumed name","pseudonym"],
+["Dither (v.)","To hesitate; be indecisive","waver, vacillate"],
+["Emaciated (adj.)","Abnormally thin from illness or hunger","gaunt, skeletal"]]}}
+],
+"activity":"Write five sentences using: morass, blandish, ennui, abscond, emaciated. Which word means 'a complicated and confusing situation'? (morass.) What is someone who is dithering doing? (hesitating.)",
+"check":[
+{"q":"To 'abscond' is to","o":["Flee secretly","Arrive early","Laugh","Pay"]},
+{"q":"An 'alias' is a","o":["False name","Real name","Nickname given by a friend only","Title"]},
+{"q":"'Duplicity' means","o":["Deceit","Honesty","Duplication of documents only","Beauty"]},
+{"q":"'Emaciated' describes someone","o":["Very thin","Very strong","Very tall","Very happy"]},
+{"q":"'Ennui' is","o":["Boredom","Joy","Anger","Hunger"]}]},
+
+{"id":"e22-06","week":2,"title":"Structure: Question Mark, Exclamation Mark, Colon, Semi-colon and Hyphen","icon":"Layers","summary":"How and when to use five punctuation marks correctly, with examples of common errors.",
+"keyWords":["Question mark","Exclamation mark","Colon","Semi-colon","Hyphen"]
+,"sections":[
+{"h":"Punctuation as traffic signals","p":["Punctuation tells the reader when to pause, stop or turn. Correct punctuation gives clarity, meaning and rhythm."]},
+{"h":"The question mark and the exclamation mark","p":["Question mark (?): at the end of a direct question ('What is your name?'). Do not use it after an indirect question: 'He asked me what my name was.' Exclamation mark (!): ends a sentence or phrase of strong feeling or a forceful command ('What a fantastic goal!' 'Stop!'). Use it sparingly in formal writing."]},
+{"h":"The colon (:) the introducer","p":["A colon follows a complete clause and introduces a list, an explanation or a quotation. Correct: 'You will need the following ingredients: flour, eggs, milk and sugar.' Incorrect: 'The ingredients you need are: flour...' (not a complete sentence before the colon). Explanation: 'He had one overriding passion: football.' Quotation: 'The head made an announcement: \"All students must return their books by Friday.\"'"]},
+{"h":"The semi-colon (;) the connector","p":["Use 1: join two closely related independent clauses with no conjunction: 'The rain fell relentlessly; the streets began to flood.' Use 2: separate items in a list when the items already contain commas: 'Delegates came from London, England; Paris, France; Tokyo, Japan; and Abuja, Nigeria.'"]},
+{"h":"The hyphen (-) the linker","p":["Join words that act as one adjective before a noun: 'a well-behaved student', 'a last-minute decision' (but 'the student is well behaved'). With prefixes ex-, self-, all-: ex-president, self-confidence. In fractions and numbers from twenty-one to ninety-nine: two-thirds, forty-five."]}
+],
+"activity":"Add colon, semi-colon or hyphen: (a) The school offers three subjects French, German and Spanish. (colon) (b) She was a world famous actress. (world-famous) (c) The class was noisy the teacher was angry. (semi-colon) (d) He bought a first class ticket. (first-class) (e) The committee includes Dr Bako, the scientist Mrs Eze, the treasurer and Mr Ali, the secretary. (semi-colons between the three people)",
+"check":[
+{"q":"A colon should follow","o":["A complete clause","An incomplete phrase","A verb","A preposition"]},
+{"q":"'He asked what my name was' ends with a","o":["Full stop","Question mark","Exclamation mark","Colon"]},
+{"q":"A semi-colon can join","o":["Two related independent clauses","A noun and a verb","A title and a name","A comma and a full stop"]},
+{"q":"A hyphen is used in","o":["A well-known author","The author is well known","He is an author","They wrote"]},
+{"q":"Numbers 21 to 99 are written with a","o":["Hyphen","Colon","Semi-colon","Question mark"]}]},
+
+{"id":"e22-07","week":2,"title":"Vocabulary: Press and Journalism, and Words of the Week 2","icon":"BookOpen","summary":"Fourteen words of the press and journalism, plus ten more words: enmity, inept, laudatory, pinnacle, divine, flabbergasted, extant, laconic, pertinacious and enervate.",
+"keyWords":["Editorial","By-line","Libel","Slander","Censorship"]
+,"sections":[
+{"h":"Press and journalism","p":["Study the table."],
+"tbl":{"head":["Word","Meaning"],"rows":[
+["Journalist","A person who researches, writes and edits news"],
+["Reporter","A journalist who gathers information and writes reports"],
+["Correspondent","A journalist reporting from a place or on a subject (foreign correspondent)"],
+["Editor","The person in charge of a publication who decides what is printed"],
+["Editorial","An article giving the publication's official opinion"],
+["Headline","The title of a news story in large print"],
+["By-line","The line naming the writer of an article"],
+["Scoop","An exclusive story published before rivals"],
+["Libel","A false written statement that damages a reputation"],
+["Slander","A false spoken statement that damages a reputation"],
+["Censorship","Suppressing parts of news, books or films thought unacceptable"],
+["Source","A person or document giving information for a story"],
+["Press conference","A meeting to give information to journalists"],
+["Gutter press / yellow journalism","Papers that prefer sensation and scandal to facts"]]}},
+{"h":"Words of the week 2","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Enmity (n.)","Deep-seated ill will","hostility"],
+["Inept (adj.)","Having no skill","incompetent"],
+["Laudatory (adj.)","Expressing praise","complimentary"],
+["Pinnacle (n.)","The peak of success","apex, zenith"],
+["Divine (v.)","To discover through intuition","intuit"],
+["Flabbergasted (adj.)","Extremely astonished","stunned"],
+["Extant (adj.)","Still existing","surviving"],
+["Laconic (adj.)","Using very few words","terse, brief"],
+["Pertinacious (adj.)","Stubbornly persistent","tenacious"],
+["Enervate (v.)","To drain of energy","exhaust, weaken"]]}}
+],
+"activity":"Write 50 to 80 words as a journalist on a busy day using four of: reporter, headline, scoop, source, press conference. Explain 'libel' and 'slander'. (Libel is written and slander is spoken.) What is the opposite of 'laudatory'? (critical.)",
+"check":[
+{"q":"A false written statement harming a reputation is","o":["Libel","Slander","A scoop","An editorial"]},
+{"q":"The line naming the writer is the","o":["By-line","Headline","Source","Editorial"]},
+{"q":"An exclusive story published first is a","o":["Scoop","Libel","Source","Press"]},
+{"q":"'Laconic' means","o":["Using few words","Very noisy","Rude","Angry"]},
+{"q":"'Pinnacle' means","o":["The peak","The bottom","A mistake","A rule"]},
+{"q":"An 'editorial' states","o":["The publication's opinion","A reader's letter","An advertisement","A weather forecast"]}]},
+
+{"id":"e22-08","week":2,"title":"Listening: Appreciating Poetry","icon":"Heart","summary":"Tone, purpose and figurative devices in poetry (simile, metaphor, personification, alliteration, onomatopoeia), with a worked analysis of a short poem.",
+"keyWords":["Tone","Purpose","Personification","Onomatopoeia","Imagery"]
+,"sections":[
+{"h":"Listening to a poem","p":["Poetry is language at its most musical and concentrated. When you listen to a poem you experience an art, so you attend to the speaker's tone, the poem's purpose and the figures that make its images."]},
+{"h":"Elements","p":["Tone: the speaker's attitude (sad, joyful, angry, nostalgic, sarcastic, reflective). Purpose: why the poem was written: to tell a story (narrative), to describe a scene or feeling (lyric), to mourn (elegy), to praise (ode) or to criticise or mock (satire).","Figures of speech: simile (like or as: 'Her smile was as bright as the sun'); metaphor ('The world is a stage'); personification ('The wind whispered secrets'); alliteration ('The slippery snake slithered silently'); onomatopoeia (words that imitate sounds: buzz, bang, pop, sizzle)."]},
+{"h":"Worked analysis","p":["Poem read aloud: 'The city breathes, a beast of steel and stone, / Its heart a steady, pulsing, electric groan. / Cars hiss and growl on wet, black streets, / While lonely people pass in silent beats. / The night is a black velvet cloak, worn and deep, / Under which the tired world falls asleep.'","Tone: sombre, a little threatening, tired. Purpose: to describe the city at night as a living but cold and wearying being. Devices: 'The city breathes' and 'Its heart...groan' are personification; 'hiss and growl' is onomatopoeia; 'lonely people' has alliteration of the l sound; 'The night is a black velvet cloak' is a metaphor."]}
+],
+"activity":"Name the device: 'The ruthless ruler was a lion, roaring his commands.' (metaphor.) Listen to a favourite English song, write down one figurative expression with its type, and describe the tone in one or two sentences.",
+"check":[
+{"q":"'The wind whispered' is","o":["Personification","Simile","Onomatopoeia","Hyperbole"]},
+{"q":"'Buzz' and 'sizzle' are examples of","o":["Onomatopoeia","Alliteration","Simile","Irony"]},
+{"q":"A poem written to mourn someone is an","o":["Elegy","Ode","Satire","Epic"]},
+{"q":"Tone is the","o":["Speaker's attitude","Number of lines","Rhyme","Title"]},
+{"q":"'The night is a black velvet cloak' is a","o":["Metaphor","Simile","Alliteration","Onomatopoeia"]}]},
+
+{"id":"e22-09","week":3,"title":"Oral English: Intonation for Surprise and Disbelief","icon":"Zap","summary":"The high-rising tone for surprise and the fall-rise tone for doubt, compared with plain statements and questions.",
+"keyWords":["Intonation","High-rising tone","Fall-rise tone","Disbelief","Pitch"]
+,"sections":[
+{"h":"The melody of speech","p":["Intonation is the rise and fall of the voice, which adds emotion. Besides normal patterns for statements and questions we can change them to show surprise, shock or disbelief."]},
+{"h":"Two patterns","p":["The high-rising tone (↗), the 'Really?!' pattern: the voice rises sharply at the end, turning a statement into a question of disbelief. Statement (falling): 'He passed his \\exam.' Surprise: 'He passed his ↗exam?!' ('I can't believe it!'). Others: 'You're moving to ↗London?' 'She sold the ↗car?'","The fall-rise tone (V): the voice falls and then rises on the key word. It shows doubt, hesitation or scepticism more than shock: 'He Vpassed his exam' means 'That is what he says, but I am not sure I believe it.'"]},
+{"h":"Compare","p":["'The headmaster is \\dancing' (neutral statement, informing). 'Is the headmaster /dancing?' (a yes/no question). 'The headmaster is ↗dancing?!' (shocked). The word 'Really?' as a plain question falls ('Rea\\lly?'); to express shock it rises high ('↗Really?!')."]}
+],
+"activity":"Write three plain statements and show how you would say each with surprise using ↗. Turn 'The school won the national championship' into a question of disbelief. (The school won the ↗national championship?!) When do you use fall-rise instead of high-rise? (To show doubt rather than shock.)",
+"check":[
+{"q":"The high-rising tone expresses","o":["Surprise","A command","A list","A greeting"]},
+{"q":"The fall-rise tone mainly expresses","o":["Doubt","Certainty","Anger","Joy"]},
+{"q":"A plain statement of fact uses a","o":["Falling tone","High-rising tone","Fall-rise tone","No tone"]},
+{"q":"'He passed his ↗exam?!' means","o":["I can't believe it","He failed","I am asking the time","Please sit"]},
+{"q":"Intonation means","o":["The rise and fall of the voice","The spelling","The stress on a syllable only","The speed"]}]},
+
+{"id":"e22-10","week":3,"title":"Structure: Sentence Types by Function","icon":"Layers","summary":"The four types of sentence by function (declarative, imperative, interrogative and exclamatory) with their punctuation and examples.",
+"keyWords":["Declarative","Imperative","Interrogative","Exclamatory","Tag question"]
+,"sections":[
+{"h":"Four functions","p":["Sentences can be sorted by what they do: inform, command, ask or exclaim."]},
+{"h":"The four types","p":["Declarative: makes a statement (fact or opinion); ends with a full stop. 'The sun rises in the east.' 'I enjoy reading historical fiction.' 'He asked me where I lived' is still declarative (a statement about a question).","Imperative: gives a command, request or instruction; the subject 'you' is understood; ends with a full stop or an exclamation mark. 'Close the door.' 'Please take a seat.' 'Stop talking!' 'First, mix the flour and eggs.'","Interrogative: asks a question; ends with a question mark. 'What is the time?' (wh-question) 'Are you feeling better?' (yes/no question) 'You've finished your homework, haven't you?' (tag question).","Exclamatory: expresses strong feeling; ends with an exclamation mark; often begins with 'What' or 'How' but is not a question. 'What a beautiful painting!' 'How incredible that is!'"]}
+],
+"activity":"Punctuate and name the type: (a) remember to bring your permission slip tomorrow (Remember to bring your permission slip tomorrow. imperative); (b) how on earth did you manage to do that (How on earth did you manage to do that? interrogative); (c) what a stunning performance (What a stunning performance! exclamatory); (d) the train arrives at platform four at ten o clock (The train arrives at platform four at ten o'clock. declarative).",
+"check":[
+{"q":"'Could you pass the water, please?' is","o":["Interrogative","Declarative","Imperative","Exclamatory"]},
+{"q":"'What a terrible mess this is!' is","o":["Exclamatory","Interrogative","Declarative","Imperative"]},
+{"q":"The understood subject of 'Sit down' is","o":["You","I","He","They"]},
+{"q":"'He wondered if she was coming' is","o":["Declarative","Interrogative","Imperative","Exclamatory"]},
+{"q":"A command may end with","o":["A full stop or exclamation mark","Only a question mark","A colon","A comma only"]}]},
+
+{"id":"e22-11","week":3,"title":"Writing: the Formal Letter of Complaint","icon":"Target","summary":"The layout, tone and three-paragraph content of a formal letter of complaint, with example wording.",
+"keyWords":["Formal letter","Complaint","Salutation","Yours faithfully","Heading"]
+,"sections":[
+{"h":"Purpose","p":["A formal letter is professional, respectful and follows a strict format. A letter of complaint expresses dissatisfaction about a product, service or situation and asks for a remedy such as a refund, replacement or apology."]},
+{"h":"Layout","p":["1. Your address at the top right (do not put your name). 2. The date below it. 3. The recipient's address on the left, below the date (for example The Manager, Quality Goods Ltd., 15 Industrial Road, Ikeja, Lagos). 4. Salutation: 'Dear Sir', 'Dear Madam' or 'Dear Sir/Madam'. 5. A heading, underlined and in capitals: 'LETTER OF COMPLAINT: FAULTY HAIR DRYER (MODEL HD-500)'. 6. The body. 7. Closing: 'Yours faithfully' (the only correct ending when you begin 'Dear Sir/Madam'). 8. Your signature. 9. Your full name printed beneath."]},
+{"h":"The body","p":["Paragraph 1 (purpose): say at once why you are writing, with key details. 'I am writing to complain about a hair dryer I bought from your Ikeja branch on 1st March. The SuperDry HD-500 has proved faulty.'","Paragraph 2 (the problem): describe it factually and precisely, without emotional language. 'The dryer worked for two days, then gave off a burning smell and stopped completely. I have not misused it.'","Paragraph 3 (the remedy): say clearly and reasonably what you want. 'As it is under warranty, I would like it replaced. Otherwise I would accept a full refund of ₦25,000. I attach a copy of the receipt.'"]}
+],
+"activity":"You bought a laptop two weeks ago from TechWorld Enterprises. It overheats, shuts down suddenly and a key sticks. Write a formal letter of complaint to the manager with invented addresses, a clear heading and a clear request (repair, replacement or refund).",
+"check":[
+{"q":"With 'Dear Sir/Madam' you end with","o":["Yours faithfully","Yours sincerely","Best wishes","Love"]},
+{"q":"Your address goes","o":["Top right","Bottom left","After the signature","Nowhere"]},
+{"q":"The tone of the problem paragraph should be","o":["Factual","Angry","Funny","Rude"]},
+{"q":"The heading should be","o":["Underlined and in capitals","In a poem","Hidden","Very long"]},
+{"q":"The last paragraph states","o":["What you want done","Your favourite food","The weather","A joke"]}]},
+
+{"id":"e22-12","week":3,"title":"Vocabulary: Words of the Week 3","icon":"BookOpen","summary":"Eleven words: cherish, capricious, eschew, perusal, renunciation, rhapsodize, spurious, tenable, catalogue, turgid and antediluvian.",
+"keyWords":["Cherish","Capricious","Eschew","Spurious","Tenable"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Cherish (v.)","To love and care for; to hold dear","treasure"],
+["Capricious (adj.)","Given to sudden changes of mood","fickle, unpredictable"],
+["Eschew (v.)","To deliberately avoid","shun, forgo"],
+["Perusal (n.)","Careful reading or examination","scrutiny, study"],
+["Renunciation (n.)","Formal rejection of a belief or claim","abandonment"],
+["Rhapsodize (v.)","To speak with great enthusiasm","rave, gush"],
+["Spurious (adj.)","False; not what it claims to be","bogus, fraudulent"],
+["Tenable (adj.)","Able to be defended against challenge","defensible"],
+["Catalogue (n.)","A complete systematic list of items","list, register"],
+["Turgid (adj.)","Swollen; pompous in style","bloated, inflated"],
+["Antediluvian (adj.)","Ridiculously old-fashioned","archaic, obsolete"]]}}
+],
+"activity":"Write five sentences using: cherish, eschew, rhapsodize, tenable, antediluvian. Which word describes an argument that is false and cannot be defended? (spurious.) If an idea is 'tenable', is it strong or weak? (strong; it can be defended.)",
+"check":[
+{"q":"To 'eschew' is to","o":["Avoid","Welcome","Eat","Hide"]},
+{"q":"A 'tenable' argument can be","o":["Defended","Ignored","Forgotten","Sold"]},
+{"q":"'Capricious' means","o":["Unpredictable","Steady","Kind","Slow"]},
+{"q":"'Antediluvian' means","o":["Very old-fashioned","Brand new","Wet","Holy"]},
+{"q":"'Spurious' means","o":["False","True","Quick","Large"]}]}
+]

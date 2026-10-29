@@ -1,0 +1,244 @@
+[
+{"id":"fa1-10","week":6,"title":"Accounting Concepts: Meaning and the Going Concern Concept","icon":"Landmark","summary":"What accounting concepts are, why we need them, and the going concern concept with its effect on assets, expenses and liabilities.",
+"keyWords":["Accounting concepts","Going concern","Cost","Depreciation","Break-up value"]
+,"sections":[
+{"h":"Meaning of accounting concepts","p":["Accounting concepts are the basic assumptions, rules and principles that guide how financial information is recorded and presented. They are also called accounting assumptions or accounting principles.","Purpose: to make accounting uniform; to make accounts comparable; to make financial statements reliable; to guide accountants when they must decide; and to give a framework for accounting practice."]},
+{"h":"The going concern concept","p":["The going concern concept assumes that the business will continue to operate for the foreseeable future and has no plan to close down or to cut down its activities greatly.","Effect on assets: assets are recorded at cost, not at selling price; depreciation is worked out over the useful life of the asset; there is no need to value assets as if the business were being sold. Example: a machine bought for ₦100,000 is recorded at ₦100,000, not at what it could be sold for today.","Effect on revenue and expenses: they are matched over accounting periods and the long-term view is taken; prepayments and accruals are recognised. Example: rent paid for three years in advance is spread over the three years.","Effect on liabilities: long-term liabilities are treated as long term, and the business does not have to pay all its debts at once. Example: a ten-year loan is not shown as a current (short-term) liability."]},
+{"h":"When going concern does NOT apply","p":["The concept does not apply when the business is bankrupt, is closing down, is being liquidated (wound up) or is in severe financial difficulty. Then assets are valued at their break-up value, which is what they can be sold for."]},
+{"h":"Worked example","p":["ABC Company bought equipment for ₦500,000 with a life of 5 years. If going concern applies, the equipment is recorded at ₦500,000, depreciation is ₦100,000 a year (₦500,000 ÷ 5) and the balance sheet shows a falling value year by year. If the company is closing down and the equipment can be sold for only ₦200,000, the equipment is valued at ₦200,000 and an immediate loss of ₦300,000 is shown."]}
+],
+"activity":"Explain how the going concern concept affects the way a delivery van bought for ₦2,000,000 is shown in the books. (It stays at cost less depreciation; it is not valued at its sale price.)",
+"check":[
+{"q":"The going concern concept assumes the business will","o":["Continue for the foreseeable future","Close next year","Be sold tomorrow","Never need money"]},
+{"q":"Under going concern, assets are recorded at","o":["Cost","Selling price","Zero","Owner's guess"]},
+{"q":"Going concern does NOT apply to a business that is","o":["Being liquidated","Growing","Hiring workers","Making profit"]},
+{"q":"If a business is closing down, assets are valued at","o":["Break-up value","Original cost only","Double the cost","Nothing"]},
+{"q":"Equipment ₦500,000 with 5-year life gives yearly depreciation of","o":["₦100,000","₦500,000","₦250,000","₦50,000"]}]},
+
+{"id":"fa1-11","week":6,"title":"Accrual and Materiality Concepts","icon":"Landmark","summary":"Matching revenue and expenses to the right period, prepayments and accruals, cash basis compared with accrual basis, and the materiality concept.",
+"keyWords":["Accrual","Matching","Prepayment","Cash basis","Materiality"]
+,"sections":[
+{"h":"The accrual (matching) concept","p":["The accrual concept says that revenue and expenses must be recognised when they are earned or incurred, not when cash is received or paid. It is also called the matching concept: expenses are matched with the revenue they help to earn in the same period.","Revenue is recognised when goods are delivered or services are done, not necessarily when payment is received. Example: goods sold in December and paid for in January are recorded as a December sale.","An expense is recognised when it is incurred, in the period in which the benefit is received. Example: electricity used in December but paid for in January is a December expense.","A prepayment is a payment made in advance. It is treated as an asset until the period it covers. Example: ₦12,000 rent paid in January for one year gives ₦1,000 of expense each month.","An accrual is an expense that has been incurred but is not yet paid. It is shown as a liability. Example: December salaries paid in January belong to December's accounts."]},
+{"h":"Accrual basis and cash basis","p":["On the cash basis, we record only when cash changes hands. On the accrual basis, we record when the amount is earned or incurred. The accrual basis gives a truer profit, an accurate financial position, comparable periods and better decisions.","Worked example, December 2023. Sales ₦300,000 (₦200,000 cash and ₦100,000 on credit). Expenses ₦150,000 (₦100,000 paid and ₦50,000 still owing)."],
+"tbl":{"head":["","Accrual basis (correct)","Cash basis (wrong)"],"rows":[
+["Revenue","₦300,000 (all sales)","₦200,000 (cash received only)"],
+["Expenses","₦150,000 (all expenses)","₦100,000 (cash paid only)"],
+["Profit","₦150,000","₦100,000"]]}},
+{"h":"The materiality concept","p":["The materiality concept says that only items big enough to affect decisions need to be shown separately. Small, unimportant items can be grouped together or treated simply. Do not waste time on trivial things; focus on what matters.","Whether an item is material depends on its size (compared with profit or total assets), its nature, and the business. A guide: an item is usually material if leaving it out or showing it wrongly would change a user's decision, or if it is more than about 5 to 10 per cent of profit. Some items are material whatever the size, such as fraud.","Material items: a ₦1,000,000 expense in a small business; any fraud; a large bad debt; a major lawsuit; a change in accounting policy. Immaterial items: a ₦500 expense in a large company; small office supplies; minor repairs; a tiny petty cash shortage.","Examples: a ₦1,000 stapler is recorded as an expense, not as an asset, because it is not worth depreciating over five years. A ₦2,000,000 delivery van is an asset and is depreciated. A company with an annual profit of ₦10,000,000 has stationery of ₦5,000 (0.05% of profit, immaterial) and a bad debt of ₦800,000 (8% of profit, material and should be shown separately)."]}
+],
+"activity":"A company pays ₦24,000 rent for 2 years in January 2023. Using the accrual concept, show the treatment in the accounts for 2023 and 2024. (Expense ₦12,000 each year; at 31 Dec 2023 there is a prepayment of ₦12,000, an asset.)",
+"check":[
+{"q":"Under the accrual concept, expenses are recorded when they are","o":["Incurred","Paid only","Planned","Forgotten"]},
+{"q":"Another name for the accrual concept is the","o":["Matching concept","Prudence concept","Going concern","Consistency concept"]},
+{"q":"₦12,000 rent paid in January for the whole year is an expense each month of","o":["₦1,000","₦12,000","₦6,000","₦100"]},
+{"q":"A payment made in advance is a","o":["Prepayment","Accrual","Bad debt","Drawing"]},
+{"q":"Which is always material?","o":["Fraud","Pen purchase","Tiny rounding","Paper clip"]},
+{"q":"A ₦1,000 stapler is usually recorded as","o":["An expense","A depreciated asset","Capital","A loan"]}]},
+
+{"id":"fa1-12","week":8,"title":"Consistency and Dual Aspect Concepts","icon":"Landmark","summary":"Using the same methods year after year, when methods may change, and the dual aspect concept with the accounting equation.",
+"keyWords":["Consistency","Dual aspect","Depreciation method","Stock valuation","Accounting equation"]
+,"sections":[
+{"h":"The consistency concept","p":["Once an accounting method has been chosen, it should be used in the same way from one period to the next unless there is a good reason to change. Purpose: to make accounts comparable over time; to stop people from manipulating profits; to keep the accounts reliable; and to allow trends to be studied.","Areas that need consistency: the depreciation method (if vans are depreciated by the straight-line method, keep doing so); stock valuation (if you use FIFO, first in first out, keep using it); and other policies such as how revenue is recognised, the percentage for bad debts and what is treated as an asset.","Acceptable reasons to change: a change in accounting standards; a new method that gives a fairer picture; a change in the nature of the business; or a legal requirement. When a method is changed, the change must be disclosed, the effect stated, the reason given and earlier figures may need to be adjusted."]},
+{"h":"Example","p":["A machine costs ₦500,000. In Year 1, straight-line depreciation at 10% gives ₦50,000. If the owner switches in Year 2 to reducing balance at 20%, the charge is 20% of ₦450,000 (cost less Year 1 depreciation), which is ₦90,000. Profit in Year 2 falls only because of the new method, so the two years cannot be fairly compared. The right approach is to keep the same method unless there is a justified reason to change. (Your notes show ₦50,000 and ₦80,000; the working above is the correct arithmetic for the reducing balance method.)"]},
+{"h":"The dual aspect concept","p":["The dual aspect concept says that every transaction has two aspects, a debit and a credit, and these are always equal. It is the foundation of the double entry system. The basic equation is Assets = Capital + Liabilities, and it must always balance. In other words, what the business owns equals what the business owes (to the owner and to others).","Transaction 1: started business with ₦100,000 cash. Cash (asset) increases by ₦100,000 (debit) and capital increases by ₦100,000 (credit). Assets ₦100,000 = Capital ₦100,000.","Transaction 2: bought goods for ₦30,000 cash. Purchases (an expense) ₦30,000 is debited and cash falls by ₦30,000 (credit). Assets ₦70,000 = Capital ₦100,000 less the expense ₦30,000.","Transaction 3: bought furniture ₦50,000 on credit. Furniture (asset) rises by ₦50,000 (debit) and the creditor (liability) rises by ₦50,000 (credit). Assets ₦70,000 + ₦50,000 = ₦120,000, which equals capital ₦100,000 + liability ₦50,000 less the expense ₦30,000 = ₦120,000.","Benefits: it lets us check accuracy by a trial balance; it gives a complete record; it shows where funds come from and how they are used; and it is the basis of the financial statements."]}
+],
+"activity":"Use the dual aspect concept to show the two effects of: (a) started business with ₦200,000; (b) bought goods ₦50,000 cash; (c) sold goods ₦70,000 cash. ((a) Dr Cash, Cr Capital 200,000; (b) Dr Purchases, Cr Cash 50,000; (c) Dr Cash, Cr Sales 70,000.)",
+"check":[
+{"q":"The consistency concept says to","o":["Use the same methods each year","Change methods every year","Ignore methods","Use cash only"]},
+{"q":"A change in method must be","o":["Disclosed","Hidden","Ignored","Denied"]},
+{"q":"The dual aspect concept says every transaction has","o":["A debit and an equal credit","Only a debit","Only a credit","No effect"]},
+{"q":"The accounting equation is","o":["Assets = Capital + Liabilities","Assets = Capital - Liabilities","Capital = Assets + Liabilities","Liabilities = Capital + Sales"]},
+{"q":"Bought furniture ₦50,000 on credit. Which increases?","o":["Furniture and creditors","Cash and furniture","Sales and cash","Capital and sales"]},
+{"q":"FIFO means","o":["First in first out","Fast in fast out","First in final out","Fixed in fixed out"]}]},
+
+{"id":"fa1-13","week":8,"title":"The Prudence Concept and Applying All the Concepts","icon":"Landmark","summary":"Being careful about profits and losses, how prudence affects stock, debtors and assets, a summary table of the six concepts and a worked example applying them.",
+"keyWords":["Prudence","Conservatism","Net realisable value","Provision","Summary"]
+,"sections":[
+{"h":"The prudence (conservatism) concept","p":["The prudence concept says that when in doubt, choose the option that is less likely to overstate assets or income. Its motto is: 'Anticipate no profits, but provide for all possible losses.'","Revenue: do not count it until it is reasonably certain; do not record a profit on goods not yet sold, even if you expect a high price. Expenses: record them as soon as possible and provide for likely losses; it is better to overstate expenses than to understate them. Assets: do not overvalue them; write down if the value falls, and do not write up if the value rises. Liabilities: do not understate them; provide for probable liabilities.","An asset that cost ₦100,000 but is now worth ₦80,000 is written down to ₦80,000. If it is now worth ₦120,000, it stays at ₦100,000."]},
+{"h":"Applications of prudence","p":["Stock valuation: stock is valued at the lower of cost and net realisable value (NRV, the selling price less selling costs). Stock cost ₦50,000 and worth ₦45,000: record ₦45,000. Stock cost ₦50,000 and worth ₦60,000: record ₦50,000. (Your notes say 'market value'; the accounting standard uses net realisable value.)","Provision for doubtful debts: debtors ₦100,000, and 5% may not pay, so provide ₦5,000. This reduces profit now instead of later.","Depreciation: charge depreciation even on an asset that is not being used.","Contingent liabilities: possible losses, such as a lawsuit not yet decided, should be disclosed or provided for."]},
+{"h":"Balance is needed","p":["Do not be too prudent. Do not deliberately understate profit. Aim for a fair presentation. Prudence means provide for an expected loss of ₦10,000. Optimism (wrong) would record an expected profit of ₦10,000 before it is earned."]},
+{"h":"Summary of the six concepts","p":["Study the table."],
+"tbl":{"head":["Concept","Meaning"],"rows":[
+["Going concern","The business will continue for the foreseeable future"],
+["Accrual (matching)","Record when earned or incurred, not when cash changes hands"],
+["Materiality","Focus on items that matter to decisions"],
+["Consistency","Use the same methods year after year"],
+["Dual aspect","Every transaction has two equal sides"],
+["Prudence","Do not overstate profits or assets; provide for losses"]]}},
+{"h":"Worked example: applying the concepts (XYZ Company, year ended 31 December 2023)","p":["Study the table."],
+"tbl":{"head":["Situation","Concept","Treatment"],"rows":[
+["Machinery bought ₦500,000, 5-year life","Going concern","Depreciate ₦100,000 a year; do not write off at once"],
+["Sales ₦1,000,000 (₦200,000 on credit); rent ₦120,000 (₦20,000 owing)","Accrual","Record all sales and all rent, not only cash"],
+["Stapler ₦2,000","Materiality","Expense it immediately"],
+["Straight-line depreciation used for years","Consistency","Do not change method in year 3 without reason"],
+["Machine bought for cash ₦500,000","Dual aspect","Dr Machinery, Cr Cash; one asset up, another down"],
+["Debtors ₦200,000 (₦10,000 doubtful); stock cost ₦150,000, NRV ₦140,000","Prudence","Provide ₦10,000; value stock at ₦140,000"]]}}
+],
+"activity":"A company has stock that cost ₦80,000 but can be sold for only ₦75,000. Apply the prudence concept. (Value the stock at ₦75,000, the lower figure, so a loss of ₦5,000 is recognised now.)",
+"check":[
+{"q":"The prudence concept says to","o":["Provide for all possible losses","Record future profits now","Ignore losses","Overstate assets"]},
+{"q":"Stock is valued at the","o":["Lower of cost and net realisable value","Higher of cost and selling price","Selling price always","Zero"]},
+{"q":"Stock cost ₦50,000, worth ₦60,000. Record it at","o":["₦50,000","₦60,000","₦10,000","₦110,000"]},
+{"q":"Provision for doubtful debts is an example of","o":["Prudence","Consistency","Dual aspect","Going concern"]},
+{"q":"Debtors ₦100,000 with 5% doubtful gives a provision of","o":["₦5,000","₦50,000","₦500","₦95,000"]},
+{"q":"A stapler of ₦2,000 shows the concept of","o":["Materiality","Going concern","Prudence","Accrual"]}]},
+
+{"id":"fa1-14","week":9,"title":"The General Journal: Meaning, Format and Uses","icon":"BookOpen","summary":"What the general journal is, its columns, how to write an entry and nine situations in which it is used.",
+"keyWords":["Journal","Narration","Folio","Book of original entry","Opening entries"]
+,"sections":[
+{"h":"Meaning of the general journal","p":["The general journal is a book of original (prime) entry used to record transactions that cannot be recorded in the other specialised books. It is also called the journal proper or just the journal. A journal is a record, in order of date, of business transactions showing the accounts to be debited and credited, the amounts and an explanation (the narration)."]},
+{"h":"The journal format","p":["The journal has five columns."],
+"tbl":{"head":["Column","What is written"],"rows":[
+["Date","The date of the transaction (day, month, year)"],
+["Particulars","The account to debit (written first, at the left), the account to credit (written below, indented), and the narration in brackets"],
+["Folio (F or L.F.)","The ledger page number, filled in when the entry is posted"],
+["Debit (₦)","The amount to debit, on the same line as the debit account"],
+["Credit (₦)","The amount to credit, on the same line as the credit account"]]}},
+{"h":"Rules for writing entries","p":["The debit account is written first, at the left. The credit account is written below it and moved in. The narration, which starts with 'Being' and explains the transaction, is written in brackets. Total debits must equal total credits."]},
+{"h":"Uses of the general journal","p":["1. Opening entries: recording assets, liabilities and capital when a business begins or when books are opened. 2. Closing entries: transferring revenue and expense accounts to the profit and loss account at the end of the period. 3. Purchase of assets on credit: for example machinery bought from a supplier on credit. 4. Sale of assets on credit: for example selling old furniture on credit. 5. Correction of errors. 6. Adjustments: bad debts, provision for depreciation, accruals and prepayments. 7. Transfer entries: moving an amount from one account to another, such as goods taken for personal use. 8. Writing off bad debts. 9. Any other entry that does not belong in a specialised book."]},
+{"h":"Note","p":["Purchases of goods for resale on credit go into the purchases journal (and credit sales into the sales journal). Only purchases or sales of assets such as machinery and furniture, which are not goods for resale, go through the general journal."]}
+],
+"activity":"State five situations when a general journal entry is needed. (Opening entry, correction of errors, writing off bad debts, depreciation, asset bought on credit.)",
+"check":[
+{"q":"The general journal is a book of","o":["Original entry","Final accounts","Banking","Stock"]},
+{"q":"In a journal entry, the first account written is the","o":["Debit account","Credit account","Narration","Folio"]},
+{"q":"The explanation of an entry is the","o":["Narration","Folio","Balance","Total"]},
+{"q":"The folio column shows the","o":["Ledger page number","Cheque number","Price","Date"]},
+{"q":"Which transaction goes through the general journal?","o":["Writing off a bad debt","Cash sales","Credit sales of goods","Cash purchases"]}]},
+
+{"id":"fa1-15","week":9,"title":"Journal Entries and Compound Entries","icon":"BookOpen","summary":"Worked journal entries for opening balances, assets on credit, sale of assets, bad debts, goods for personal use, errors and depreciation, and compound entries.",
+"keyWords":["Journal entry","Opening entry","Compound entry","Bad debt","Loss on sale"]
+,"sections":[
+{"h":"Example 1: opening entry","p":["Started business with cash ₦100,000, stock ₦50,000 and furniture ₦30,000."],
+"tbl":{"head":["Date","Particulars","Dr ₦","Cr ₦"],"rows":[
+["Jan 1","Dr. Cash","100,000",""],
+["","Dr. Stock","50,000",""],
+["","Dr. Furniture","30,000",""],
+["","    Cr. Capital","","180,000"],
+["","(Being assets brought into the business)","",""]]}},
+{"h":"Example 2: purchase of an asset on credit","p":["Bought machinery ₦200,000 from ABC Ltd on credit."],
+"tbl":{"head":["Date","Particulars","Dr ₦","Cr ₦"],"rows":[
+["Jan 5","Dr. Machinery","200,000",""],
+["","    Cr. ABC Ltd","","200,000"],
+["","(Being purchase of machinery on credit)","",""]]}},
+{"h":"Example 3: sale of an asset at a loss","p":["Sold old furniture for ₦15,000 cash. The cost was ₦20,000 (no depreciation was charged). Cash received is less than the book value, so there is a loss of ₦5,000."],
+"tbl":{"head":["Date","Particulars","Dr ₦","Cr ₦"],"rows":[
+["Jan 10","Dr. Cash","15,000",""],
+["","Dr. Loss on sale of furniture","5,000",""],
+["","    Cr. Furniture","","20,000"],
+["","(Being sale of furniture at a loss)","",""]]}},
+{"h":"Example 4: bad debt written off","p":["John owes ₦10,000 but is bankrupt, so the debt is written off."],
+"tbl":{"head":["Date","Particulars","Dr ₦","Cr ₦"],"rows":[
+["Jan 15","Dr. Bad debts","10,000",""],
+["","    Cr. John","","10,000"],
+["","(Being debt written off as bad)","",""]]}},
+{"h":"Example 5: goods taken for personal use","p":["The owner took goods worth ₦5,000 for himself. Drawings increase and purchases (the goods) reduce."],
+"tbl":{"head":["Date","Particulars","Dr ₦","Cr ₦"],"rows":[
+["Jan 20","Dr. Drawings","5,000",""],
+["","    Cr. Purchases","","5,000"],
+["","(Being goods withdrawn for personal use)","",""]]}},
+{"h":"Example 6: correction of an error","p":["₦8,000 paid for rent was wrongly debited to the Rates account. To correct it, debit Rent (where it belongs) and credit Rates (to remove it)."],
+"tbl":{"head":["Date","Particulars","Dr ₦","Cr ₦"],"rows":[
+["Jan 25","Dr. Rent","8,000",""],
+["","    Cr. Rates","","8,000"],
+["","(Being correction of an error in posting)","",""]]}},
+{"h":"Example 7: depreciation","p":["Provide depreciation of ₦20,000 on machinery. The debit goes to the Depreciation (expense) account. The credit can go to the Machinery account itself or to a Provision for depreciation account."],
+"tbl":{"head":["Date","Particulars","Dr ₦","Cr ₦"],"rows":[
+["Dec 31","Dr. Depreciation","20,000",""],
+["","    Cr. Provision for depreciation (or Machinery)","","20,000"],
+["","(Being depreciation provided for the year)","",""]]}},
+{"h":"Compound journal entries","p":["A compound entry has more than two accounts: several debits, several credits, or both. Example 1 (above) is a compound entry. Another example: sold machinery for ₦80,000, of which ₦50,000 was paid in cash and ₦30,000 is owed by the buyer. The cost was ₦100,000. The loss is ₦20,000."],
+"tbl":{"head":["Date","Particulars","Dr ₦","Cr ₦"],"rows":[
+["Feb 10","Dr. Cash","50,000",""],
+["","Dr. Debtor","30,000",""],
+["","Dr. Loss on sale of machinery","20,000",""],
+["","    Cr. Machinery","","100,000"],
+["","(Being sale of machinery)","",""]]}},
+{"h":"Always check","p":["After writing an entry, add the debit column and the credit column. They must be equal. In the last example, 50,000 + 30,000 + 20,000 = 100,000."]}
+],
+"activity":"Journalise: (1) Jan 1: started business with cash ₦200,000, stock ₦100,000 and furniture ₦50,000; (2) Jan 5: bought a computer ₦80,000 from TechCo on credit; (3) Jan 10: sold an old desk for ₦12,000 cash (cost ₦15,000). (1) Dr Cash 200,000, Stock 100,000, Furniture 50,000, Cr Capital 350,000; (2) Dr Computer, Cr TechCo 80,000; (3) Dr Cash 12,000, Dr Loss 3,000, Cr Furniture 15,000.",
+"check":[
+{"q":"Goods taken by the owner for personal use: debit","o":["Drawings","Purchases","Cash","Sales"]},
+{"q":"A bad debt written off is debited to","o":["Bad debts account","The debtor's account","Sales","Capital"]},
+{"q":"A journal entry with more than two accounts is a","o":["Compound entry","Simple entry","Wrong entry","Closing entry"]},
+{"q":"Sold furniture costing ₦20,000 for ₦15,000. The loss is","o":["₦5,000","₦15,000","₦35,000","₦20,000"]},
+{"q":"Rent wrongly debited to Rates is corrected by debiting","o":["Rent","Rates","Cash","Capital"]},
+{"q":"An opening entry credits","o":["Capital","Cash","Sales","Rent"]}]},
+
+{"id":"fa1-16","week":10,"title":"The Analytical Cash Book: Meaning and Format","icon":"BarChart2","summary":"What an analytical cash book is, why it is called analytical, its format, columns and features.",
+"keyWords":["Analytical cash book","Columnar","Total column","Analysis column","Sundry"]
+,"sections":[
+{"h":"Meaning","p":["An analytical cash book is a cash book with extra columns that split receipts and payments according to their nature or purpose. It is also called a columnar or multi-column cash book. It is 'analytical' because it analyses (breaks down) each amount into its type.","Purpose: to analyse cash and bank transactions; to show different types of receipts and payments separately; to give more detailed information; and to help in budget control.","Analysis can be by source of income (sales, rent, commission), by type of expense (purchases, wages, rent), by department or project, or by customer or supplier."]},
+{"h":"The format","p":["Receipts side (debit, left): Date, Details, Folio, Total, Sales, Debtors, Other income. Payments side (credit, right): Date, Details, Folio, Total, Purchases, Wages, Rent, Sundry.","The number and names of analysis columns depend on the needs of the business. Common receipts columns are sales, debtors, capital and other income. Common payments columns are purchases, salaries, rent and creditors."]},
+{"h":"Features","p":["1. The total column shows the whole amount received or paid. It is the sum of the analysis columns for each entry and is the one used for balancing.","2. The analysis columns break the total down by category.","3. The sundry (or other) column is for odd items that do not fit the other columns, such as small or rare transactions.","4. The balance is worked out from the total column only, never from the analysis columns."]},
+{"h":"Important rules","p":["Every entry goes in the total column. The same amount goes in only ONE analysis column. For each entry, the total equals the amount in the analysis column. Only the total column is balanced."]}
+],
+"activity":"Why does the analytical cash book save time later when the ledger is posted? (Because the analysis column totals can be posted in one amount instead of many small postings.)",
+"check":[
+{"q":"The analytical cash book is also called the","o":["Columnar cash book","Petty cash only","Sales book","Journal proper"]},
+{"q":"Which column is used to work out the balance?","o":["Total column","Sales column","Rent column","Sundry column"]},
+{"q":"The sundry column holds","o":["Items that do not fit other columns","The balance","The date","The narration"]},
+{"q":"Each amount goes into how many analysis columns?","o":["One","Two","Three","All"]},
+{"q":"An analytical cash book breaks down amounts by","o":["Their nature or purpose","Colour","Size of paper","Day of the week"]}]},
+
+{"id":"fa1-17","week":10,"title":"Preparing and Posting the Analytical Cash Book","icon":"BarChart2","summary":"A complete worked example for January 2024, verifying the balance, the advantages, and how to post the analysis columns to the ledger.",
+"keyWords":["Total column","Balance c/d","Posting","Analysis","Advantages"]
+,"sections":[
+{"h":"Steps","p":["1. Decide which analysis columns are needed. 2. Write the date and details. 3. Enter the total amount in the total column. 4. Enter the same amount in the right analysis column. 5. At the end of the period, total all columns and balance using the total column only."]},
+{"h":"Worked example: January 2024","p":["Jan 1: cash balance ₦50,000. Jan 2: cash sales ₦20,000. Jan 5: received from debtor John ₦15,000. Jan 8: paid for purchases ₦25,000. Jan 10: paid wages ₦8,000. Jan 12: cash sales ₦18,000. Jan 15: paid rent ₦10,000. Jan 18: received commission ₦5,000. Jan 20: paid creditor Ade ₦12,000. Jan 25: paid electricity ₦3,000. Jan 28: cash sales ₦22,000. Jan 30: paid salaries ₦15,000.","Receipts side (debit):"],
+"tbl":{"head":["Date","Details","Total ₦","Sales ₦","Debtors ₦","Other income ₦"],"rows":[
+["Jan 1","Balance b/d","50,000","","",""],
+["Jan 2","Sales","20,000","20,000","",""],
+["Jan 5","John (debtor)","15,000","","15,000",""],
+["Jan 12","Sales","18,000","18,000","",""],
+["Jan 18","Commission","5,000","","","5,000"],
+["Jan 28","Sales","22,000","22,000","",""],
+["","Total","130,000","60,000","15,000","5,000"],
+["Feb 1","Balance b/d","57,000","","",""]]}},
+{"h":"Payments side (credit)","p":["The wages column holds both wages and salaries because they are the same kind of expense (staff pay). The balance c/d is the difference between the two totals."],
+"tbl":{"head":["Date","Details","Total ₦","Purchases ₦","Wages ₦","Rent ₦","Creditors ₦","Sundry ₦"],"rows":[
+["Jan 8","Purchases","25,000","25,000","","","",""],
+["Jan 10","Wages","8,000","","8,000","","",""],
+["Jan 15","Rent","10,000","","","10,000","",""],
+["Jan 20","Ade","12,000","","","","12,000",""],
+["Jan 25","Electricity","3,000","","","","","3,000"],
+["Jan 30","Salaries","15,000","","15,000","","",""],
+["Jan 31","Balance c/d","57,000","","","","",""],
+["","Total","130,000","25,000","23,000","10,000","12,000","3,000"]]}},
+{"h":"Checking the balance","p":["Receipts side total ₦130,000 (the opening balance ₦50,000 plus receipts ₦80,000). Payments made ₦73,000 (25,000 + 8,000 + 10,000 + 12,000 + 3,000 + 15,000). Closing balance = 130,000 less 73,000 = ₦57,000. The analysis columns of each side also agree: receipts 60,000 + 15,000 + 5,000 = ₦80,000; payments 25,000 + 23,000 + 10,000 + 12,000 + 3,000 = ₦73,000."]},
+{"h":"Advantages","p":["It gives detailed information; it saves time because analysis is done while recording; it helps decisions by showing spending patterns; it makes posting easier because only the column totals are posted; it gives better control over spending; and it is quick to find and total any category."]},
+{"h":"Posting to the ledger","p":["The cash account itself is the cash book, so the total column needs no separate posting. From the receipts analysis columns, post a CREDIT to each account: Sales account ₦60,000; Debtors (or John's account) ₦15,000; Commission account ₦5,000. From the payments analysis columns, post a DEBIT to each account: Purchases ₦25,000; Wages ₦23,000; Rent ₦10,000; Creditors (or Ade's account) ₦12,000. Items in the sundry column are posted one by one (here Electricity ₦3,000).","Remember that the debtor and creditor columns are posted to the individual accounts of each person, in the personal ledgers."]}
+],
+"activity":"Prepare an analytical cash book for February 2024 (receipts: sales, debtors, other income; payments: purchases, wages, rent, sundry): balance b/d ₦40,000; cash sales ₦25,000; received from James ₦18,000; paid purchases ₦30,000; paid wages ₦12,000; cash sales ₦20,000; paid rent ₦8,000; received interest ₦2,000; cash sales ₦15,000; paid stationery ₦1,500; paid wages ₦12,000; received from Mary ₦10,000; paid transport ₦2,500; cash sales ₦28,000. (Check: closing balance ₦92,000.)",
+"check":[
+{"q":"In the example, total receipts including the opening balance are","o":["₦130,000","₦80,000","₦73,000","₦57,000"]},
+{"q":"The closing balance in the example is","o":["₦57,000","₦73,000","₦130,000","₦80,000"]},
+{"q":"Analysis columns on the receipts side are posted as","o":["Credits","Debits","Balances","Totals only"]},
+{"q":"Analysis columns on the payments side are posted as","o":["Debits","Credits","Narrations","Folios"]},
+{"q":"The total of the wages column in the example is","o":["₦23,000","₦8,000","₦15,000","₦25,000"]},
+{"q":"Items in the sundry column are posted","o":["Separately","Never","As one total","To the cash account"]}]},
+
+{"id":"fa1-18","week":11,"title":"Revision Summary","icon":"Target","summary":"A summary of every topic in First Term, key rules to remember, and the format of the examination.",
+"keyWords":["Revision","Golden rules","Concepts","Journal","Cash book"]
+,"sections":[
+{"h":"Key points to remember","p":["Study the table. If you cannot explain a point in your own words, go back to that unit."],
+"tbl":{"head":["Topic","Remember"],"rows":[
+["Book-keeping and accounting","Book-keeping records; accounting also summarises, analyses and interprets"],
+["Ethics","Integrity, objectivity, competence, professional behaviour, due care; confidentiality, transparency"],
+["Double entry","Every debit has an equal credit; personal, real and nominal accounts"],
+["Golden rules","Personal: receiver Dr, giver Cr. Real: comes in Dr, goes out Cr. Nominal: expenses Dr, income Cr"],
+["Ledger","T-accounts; balance c/d and b/d; assets and expenses have debit balances"],
+["Concepts","Going concern, accrual, materiality, consistency, dual aspect, prudence"],
+["General journal","Date, particulars, folio, debit, credit; narration; used for opening entries, errors, bad debts, depreciation"],
+["Analytical cash book","Total column plus analysis columns; balance from the total column; post the column totals"]]}},
+{"h":"Revision questions","p":["Theory: (1) Differentiate between book-keeping and accounting. (2) Explain five principles of accounting ethics. (3) State the golden rules for personal, real and nominal accounts. (4) Explain the accrual concept with examples. (5) What is the prudence concept and how does it affect stock valuation?","Practical: (1) Journalise a set of transactions. (2) Post to ledger accounts and balance them. (3) Prepare an analytical cash book."]},
+{"h":"Examination format","p":["Section A: objective questions (20 marks), 20 multiple-choice questions covering all topics. Section B: theory (30 marks), answer any three questions. Section C: practical (50 marks), answer any two questions from double entry and ledger posting, journal entries and the analytical cash book."]}
+],
+"activity":"Without looking at the notes, write the golden rules for the three types of account, and one example of each.",
+"check":[
+{"q":"The ledger is","o":["The book of all accounts","A cheque book","A bank statement","A receipt"]},
+{"q":"A balance of ₦75,000 carried down on the credit side of Cash becomes","o":["A debit balance b/d","A credit balance b/d","Zero","A sales figure"]},
+{"q":"Which concept says to provide for all possible losses?","o":["Prudence","Consistency","Dual aspect","Materiality"]},
+{"q":"A journal entry is first written in the","o":["General journal","Trial balance","Balance sheet","Bank statement"]},
+{"q":"Debit what comes in and credit what goes out is the rule for","o":["Real accounts","Personal accounts","Nominal accounts","All accounts"]}]}
+]

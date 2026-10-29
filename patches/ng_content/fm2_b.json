@@ -1,0 +1,91 @@
+[
+{"id":"fm2-11","week":6,"title":"Vectors (1): Scalars, Notation and Operations","icon":"Layers","summary":"The difference between scalars and vectors, the ways of writing a vector, and adding, subtracting and scaling vectors with components.",
+"keyWords":["Scalar","Vector","Column vector","Unit vectors i and j","Scalar multiplication"]
+,"sections":[
+{"h":"Scalars and vectors","p":["A scalar has magnitude (size) only. A vector has magnitude and direction. Scalars: distance (5 km), time (30 s), mass (10 kg), speed (60 km/h). Vectors: displacement (5 km north), force (10 N east), velocity (80 km/h west). A vector is drawn as a line with an arrowhead: the length shows the magnitude and the arrow shows the direction."]},
+{"h":"Vector notation","p":["Geometric form: AB (an arrow over the letters) is the vector from A to B. We also write a single bold or underlined letter, such as a.","Column form: the vector from the origin to the point (x, y) is written as a column with x on top and y below.","Unit vector form: a = xi + yj, where i = (1, 0) is the unit vector along the x-axis and j = (0, 1) is the unit vector along the y-axis. So 3i − 4j is the same as the column (3, −4)."]},
+{"h":"Zero and negative vectors","p":["The zero vector 0 = (0, 0) has no size and no direction. The negative vector −a has the same magnitude as a but the opposite direction. If a = (x, y) then −a = (−x, −y)."]},
+{"h":"Addition and subtraction","p":["Add or subtract the components: (a, b) + (c, d) = (a + c, b + d) and (a, b) − (c, d) = (a − c, b − d). Graphically, the triangle law: place p and q head to tail; the resultant p + q goes from the start of p to the end of q."]},
+{"h":"Scalar multiplication","p":["For a scalar k and a = (x, y): ka = (kx, ky). If k > 1 the vector stretches. If 0 < k < 1 it shrinks. If k < 0 the direction reverses."]},
+{"h":"Worked examples","p":["Example 1. p = 3i − 4j and q = −2i + 5j. (a) As columns, p = (3, −4) and q = (−2, 5). (b) p + q = (3 − 2, −4 + 5) = (1, 1) = i + j. (c) 3p − 2q = (9, −12) − (−4, 10) = (13, −22) = 13i − 22j.","Example 2. a = (5, −1) and b = (2, 2). a − 3b = (5 − 6, −1 − 6) = (−1, −7).","Example 3. Given p = 2i + 3j and q = 4i − 5j, find r such that 2p + r = 3q. r = 3q − 2p = (12, −15) − (4, 6) = (8, −21) = 8i − 21j."]}
+],
+"activity":"Given a = (4, −3) and b = (1, 2), find 2a − b. ((8 − 1, −6 − 2) = (7, −8).)",
+"check":[
+{"q":"Which is a vector quantity?","o":["Force","Mass","Time","Speed"]},
+{"q":"If a = (3, −4), then −a is","o":["(−3, 4)","(3, 4)","(−3, −4)","(4, −3)"]},
+{"q":"(2, 5) + (1, −3) equals","o":["(3, 2)","(1, 8)","(3, 8)","(2, 2)"]},
+{"q":"3(1, 2) equals","o":["(3, 6)","(4, 5)","(1, 6)","(3, 2)"]},
+{"q":"The unit vector along the y-axis is","o":["j","i","k","0"]}]},
+
+{"id":"fm2-12","week":6,"title":"Vectors (2): Magnitude, Direction and Unit Vectors","icon":"Target","summary":"How to find the magnitude and direction angle of a vector (with quadrant care) and how to find a unit vector.",
+"keyWords":["Magnitude","Direction","Quadrant","Unit vector","Angle"]
+,"sections":[
+{"h":"Magnitude","p":["For a = (x, y), the magnitude (length) is |a| = √(x² + y²). It is just Pythagoras' theorem."]},
+{"h":"Direction","p":["The direction angle θ (measured anticlockwise from the positive x-axis) is found from tan α = |y/x|, where α is the acute reference angle. Then use the signs of x and y to choose the quadrant.","Quadrant I (+, +): θ = α. Quadrant II (−, +): θ = 180° − α. Quadrant III (−, −): θ = 180° + α. Quadrant IV (+, −): θ = 360° − α."]},
+{"h":"Unit vectors","p":["A unit vector has magnitude 1. The unit vector in the direction of a is â = a ÷ |a|. Example: a = 3i + 4j has |a| = 5, so â = (3/5)i + (4/5)j. Check: √(9/25 + 16/25) = 1."]},
+{"h":"Worked examples","p":["Example 1. Find the magnitude and direction of v = (−5, 12). |v| = √(25 + 144) = √169 = 13. tan α = 12/5 = 2.4, so α = 67.38°. x < 0 and y > 0, so the vector is in the second quadrant: θ = 180° − 67.38° = 112.62°.","Example 2. The unit vector in the direction of w = i − 2j. |w| = √(1 + 4) = √5. ŵ = (1/√5)i − (2/√5)j = (√5/5)i − (2√5/5)j.","Example 3. Magnitude of p = 5i + 12j: √(25 + 144) = 13.","Example 4. Unit vector of v = (3, 0): |v| = 3, so v̂ = (1, 0) = i.","Example 5. Magnitude and direction of a = (−1, −1). |a| = √2. α = 45°, third quadrant, θ = 180° + 45° = 225°.","Example 6. Unit vector of b = 4i − 3j: |b| = 5, b̂ = (4/5)i − (3/5)j.","Example 7. If v = (k, 8) and |v| = 10, find k. k² + 64 = 100, so k² = 36 and k = 6 or −6.","Example 8. The unit vector of p = (−3, 4): |p| = 5, p̂ = (−3/5, 4/5)."]}
+],
+"activity":"Find the magnitude and direction of u = (3, −3). (|u| = 3√2; α = 45°; fourth quadrant: θ = 315°.)",
+"check":[
+{"q":"The magnitude of (3, 4) is","o":["5","7","12","25"]},
+{"q":"A unit vector has magnitude","o":["1","0","10","Any value"]},
+{"q":"The unit vector in the direction of (3, 4) is","o":["(3/5, 4/5)","(3, 4)","(1/3, 1/4)","(4/5, 3/5)"]},
+{"q":"A vector with x < 0 and y > 0 lies in the","o":["Second quadrant","First quadrant","Third quadrant","Fourth quadrant"]},
+{"q":"If |(k, 8)| = 10, then k is","o":["±6","6 only","8","±2"]}]},
+
+{"id":"fm2-13","week":8,"title":"Vectors (3): Laws of Addition, Position Vectors and Resolution","icon":"Zap","summary":"The triangle and parallelogram laws, position vectors and the vector between two points, and resolving a vector into components.",
+"keyWords":["Triangle law","Parallelogram law","Position vector","Resolution","Components"]
+,"sections":[
+{"h":"Triangle law","p":["If two vectors are shown by two sides of a triangle taken in order, their resultant is the third side, taken in the opposite order. AB + BC = AC."]},
+{"h":"Parallelogram law","p":["If two vectors a and b start from the same point, their resultant is the diagonal of the parallelogram whose adjacent sides are a and b. The other diagonal is a − b or b − a, depending on direction."],
+"img":{"src":"fm-vectors.png","alt":"Two diagrams: the triangle law with vectors a and b placed head to tail and resultant a + b closing the triangle, and the parallelogram law with a and b from one point and the diagonal a + b","cap":"The triangle law (left) and the parallelogram law (right)."}},
+{"h":"Position vectors","p":["The position vector of a point P(x, y) is OP = xi + yj, the vector from the origin. The vector from A to B is AB = OB − OA = (x₂ − x₁)i + (y₂ − y₁)j: 'head minus tail'. The position vector of the midpoint M of AB is OM = ½(OA + OB)."]},
+{"h":"Resolution of a vector","p":["A vector v of magnitude |v| making an angle θ with the positive x-axis has components vₓ = |v| cos θ and vᵧ = |v| sin θ. So v = (|v| cos θ)i + (|v| sin θ)j. This is the basis of the analysis of forces and velocities in physics and engineering."],
+"img":{"src":"fm-resolution.png","alt":"A vector V at angle theta from the x-axis with a horizontal component V cos theta and a vertical component V sin theta forming a right triangle","cap":"Resolving a vector into horizontal and vertical components."}},
+{"h":"Worked examples","p":["Example 1. a = 2i + 5j and b = 6i − j are the position vectors of A and B. (a) AB = b − a = 4i − 6j. (b) The midpoint M: OM = ½(a + b) = ½(8i + 4j) = 4i + 2j.","Example 2. A force of 15 N acts at 210° to the x-axis. Fₓ = 15 cos 210° = 15 × (−√3/2) = −7.5√3 N ≈ −13.0 N. Fᵧ = 15 sin 210° = 15 × (−1/2) = −7.5 N. So F = −7.5√3 i − 7.5 j.","Example 3. A force of 20 N acts at 30°. Fₓ = 20 cos 30° = 10√3 and Fᵧ = 20 sin 30° = 10, so F = 10√3 i + 10 j.","Example 4. A force has components 10 N east and 10√3 N north. |F| = √(100 + 300) = 20 N and tan θ = 10√3/10 = √3, so θ = 60°: 20 N at 60° north of east.","Example 5. The points P(−1, 3), Q(4, 5), R(0, −2). PQ = (5, 2); QR = (−4, −7); PR = (1, −5), so |PR| = √26.","Example 6. In the parallelogram OABC with OA = a and OC = c: OB = a + c, and AC = c − a."]}
+],
+"activity":"A vector has magnitude 20 and direction 120°. Find its horizontal and vertical components. (20 cos 120° = −10 and 20 sin 120° = 10√3 ≈ 17.3.)",
+"check":[
+{"q":"AB + BC equals","o":["AC","CA","AB","BC"]},
+{"q":"The vector from A to B equals","o":["OB − OA","OA − OB","OA + OB","OB × OA"]},
+{"q":"The horizontal component of a vector of magnitude |v| at angle θ is","o":["|v| cos θ","|v| sin θ","|v| tan θ","|v|/θ"]},
+{"q":"The position vector of the midpoint of AB is","o":["½(OA + OB)","OA + OB","OB − OA","½(OB − OA)"]},
+{"q":"In the parallelogram OABC, OB equals","o":["a + c","a − c","c − a","ac"]}]},
+
+{"id":"fm2-14","week":8,"title":"Vectors (4): The Scalar (Dot) Product","icon":"Layers","summary":"How to multiply two vectors to get a number, the two forms of the dot product, and how to find the angle between vectors and test for perpendicular vectors.",
+"keyWords":["Dot product","Scalar product","Angle between vectors","Perpendicular vectors","Component form"]
+,"sections":[
+{"h":"Definitions","p":["The scalar (dot) product of two vectors is a number, not a vector. Component form: if a = a₁i + a₂j and b = b₁i + b₂j, then a · b = a₁b₁ + a₂b₂. Geometric form: a · b = |a||b| cos θ, where θ is the angle between the vectors."]},
+{"h":"Uses","p":["Angle between vectors: equating the two forms gives cos θ = (a · b)/(|a||b|). Perpendicular test: if θ = 90°, cos θ = 0, so a · b = 0. If a · b = 0 (and neither vector is zero), the vectors are perpendicular."]},
+{"h":"Worked examples","p":["Example 1. For a = 5i − 2j and b = 3i + 6j: a · b = 15 − 12 = 3.","Example 2. p = 3i + kj and q = 2i − 6j. For p ⊥ q: p · q = 6 − 6k = 0, so k = 1.","Example 3. Angle between a = 2i + j and b = 3i − j. a · b = 6 − 1 = 5. |a| = √5 and |b| = √10. cos θ = 5/(√5 × √10) = 5/√50 = 1/√2, so θ = 45°.","Example 4. u = (1, 1) and v = (1, −4). u · v = 1 − 4 = −3. |u| = √2 and |v| = √17. cos θ = −3/√34 = −0.5145, so θ = 121° (to the nearest degree).","Example 5. a = ti − 2j and b = (t + 3)i + 4j. For a ⊥ b: t(t + 3) − 8 = 0, so t² + 3t − 8 = 0 and t = (−3 ± √41)/2.","Example 6. If |a| = 4, |b| = 5 and the angle is 60°, a · b = 4 × 5 × cos 60° = 10.","Example 7. u = 2i − 8j and v = 4i + j: u · v = 8 − 8 = 0, so u ⊥ v.","Example 8. Given p = (−3, 4) and q = (5, k), find k if p ⊥ q: −15 + 4k = 0, so k = 15/4."]}
+],
+"activity":"Find the angle between u = (1, 0) and v = (1, 1). (u · v = 1; |u| = 1; |v| = √2; cos θ = 1/√2; θ = 45°.)",
+"check":[
+{"q":"The dot product of two vectors is a","o":["Number (scalar)","Vector","Matrix","Line"]},
+{"q":"a · b = 0 shows the vectors are","o":["Perpendicular","Parallel","Equal","Opposite"]},
+{"q":"For a = (2, 3) and b = (4, −1), a · b equals","o":["5","11","8","−3"]},
+{"q":"cos θ equals","o":["(a · b)/(|a||b|)","|a||b|","a + b","(a × b)"]},
+{"q":"If |a| = 4, |b| = 5 and θ = 60°, a · b is","o":["10","20","5","9"]}]},
+
+{"id":"fm2-15","week":9,"title":"Revision: Mixed Problems","icon":"Target","summary":"A formula summary sheet and mixed worked problems on trigonometry, logic, coordinate geometry, vectors and flow charts to prepare for the term test.",
+"keyWords":["Revision","Formulas","Mixed problems","Exam skills","Summary sheet"]
+,"sections":[
+{"h":"How to revise","p":["Revision means revisiting, reworking and reflecting. Review each topic and make a one-page formula sheet. Redo worked examples without looking, then check your signs and your method. Finish all the assignments. Practise mixed problems that combine topics, as exam questions often do."]},
+{"h":"Formula summary","p":["Study the table."],
+"tbl":{"head":["Topic","Key results"],"rows":[
+["Trigonometry","sin²θ + cos²θ = 1; tan θ = sin θ/cos θ; sin 30° = 1/2, cos 45° = √2/2, tan 60° = √3"],
+["Logic","∧ and, ∨ or, → if-then, ↔ if and only if, ~ not; p → q is equivalent to ~p ∨ q"],
+["Number bases","Binary uses powers of 2; divide by 2 repeatedly to convert from decimal"],
+["Coordinate geometry","m = (y₂ − y₁)/(x₂ − x₁); d = √[(x₂ − x₁)² + (y₂ − y₁)²]; midpoint = average of coordinates; parallel m₁ = m₂; perpendicular m₁m₂ = −1"],
+["Vectors","|a| = √(x² + y²); AB = OB − OA; vₓ = |v| cos θ, vᵧ = |v| sin θ; a · b = a₁b₁ + a₂b₂ = |a||b| cos θ"]]}},
+{"h":"Mixed problems with solutions","p":["1. Evaluate (tan²60° − sec²45°) ÷ (sin 30° cos 60°) = (3 − 2) ÷ (1/4) = 4.","2. Show p → q is equivalent to ¬p ∨ q: the truth table columns for both are T, F, T, T (see Unit 5).","3. Find the equation of the line perpendicular to x + 3y = 7 through the midpoint of A(2, −2), B(4, 8). The midpoint is (3, 3). x + 3y = 7 has gradient −1/3, so the perpendicular has gradient 3. y − 3 = 3(x − 3), so y = 3x − 6.","4. Given a = (4, −3) and b = (1, 2): (a) 2a − b = (7, −8), so |2a − b| = √(49 + 64) = √113 ≈ 10.63. (b) a · b = 4 − 6 = −2, |a| = 5, |b| = √5, cos θ = −2/(5√5) = −0.1789, so θ ≈ 100.3°.","5. Draw a flow chart to read 10 numbers and print their sum (see Unit 7; use COUNT = 10 as the stopping test).","6. If p = T and q = F, find the value of (~p ∨ q) ↔ (p → q). ~p ∨ q = F ∨ F = F; p → q = F; F ↔ F = T.","7. Equilateral triangle of side 8 cm: height = 8 × (√3/2) = 4√3 cm.","8. Area of triangle P(0, 1), Q(3, 4), R(−1, −1) = 1.5 square units (Unit 10).","9. A force is resolved into 10 N east and 10√3 N north: magnitude 20 N at 60° north of east.","10. Solve for x: x tan 30° = sin 60° ÷ cos 45°. sin 60° ÷ cos 45° = (√3/2) ÷ (√2/2) = √3/√2. Divide by tan 30° = 1/√3: x = (√3/√2) × √3 = 3/√2 = 3√2/2 ≈ 2.12. (The source notes give x = √6, which comes from dividing by tan 30° incorrectly.)"]},
+{"h":"A mock test","p":["1. Find the exact value of cot 45° + sec 60° (= 1 + 2 = 3). 2. Convert 53 to base 2 (110101₂). 3. Find the gradient of a line perpendicular to 5x − 2y = 1 (that line has gradient 5/2, so the answer is −2/5). 4. Find u · v for u = 2i − 8j and v = 4i + j (0). 5. Find |PQ| for P(1, −3), Q(4, 1) (5).","Further practice: Triangle XYZ with X(1, 4), Y(3, 8), Z(7, 2): XY = √(4 + 16) = 2√5; midpoint of XZ = (4, 3); gradient of YZ = (2 − 8)/(7 − 3) = −3/2; area = 14. For p = (−3, 4) and q = (5, k): |p| = 5; unit vector (−3/5, 4/5); p ⊥ q when k = 15/4. A flow chart for temperature T: if T < 0 print 'Freezing'; else if T ≤ 100 print 'Liquid'; else print 'Steam'."]}
+],
+"activity":"Prepare your own one-page summary of this term's formulas and write three practice questions with answers for a friend.",
+"check":[
+{"q":"The value of (tan²60° − sec²45°) ÷ (sin 30° cos 60°) is","o":["4","1","2","3"]},
+{"q":"The gradient of a line perpendicular to one with gradient 5/2 is","o":["−2/5","2/5","−5/2","5/2"]},
+{"q":"u = 2i − 8j and v = 4i + j have dot product","o":["0","16","8","−16"]},
+{"q":"If p = T and q = F, then (~p ∨ q) ↔ (p → q) is","o":["True","False","Neither","Undefined"]},
+{"q":"A force of 10 N east and 10√3 N north has magnitude","o":["20 N","10 N","30 N","40 N"]}]}
+]

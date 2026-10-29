@@ -1,0 +1,200 @@
+[
+{"id":"cr1-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Christian Religious Studies First Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Christian Religious Studies","I AM sayings","God's love","Justification","Table of contents"],
+"sections":[
+{"h":"Welcome to Christian Religious Studies","p":["Christian Religious Studies (CRS) helps you to understand the Bible, the teachings of Jesus Christ and how to live a good life. It also trains you to think clearly, to discuss respectfully and to write well. CRS is an examination subject in WAEC and NECO, and its lessons help in character, leadership and relationships.","In First Term you will study the 'I AM' pictures that Jesus used to describe Himself (the Lamb, the Door, the Good Shepherd, the Light, the True Vine, the Living Bread and the Living Water). Then you will study God's love for people, how Christians must love one another, and how a person is made right with God by faith."]},
+{"h":"How to use the notes","p":["Each unit has the Bible texts to read, simple notes, tables and questions. Open your Bible and read the verses given before you read the notes. At the end of each unit there are practice questions. They do not count towards a mark; they help you to check that you understood. Answer them all correctly to complete the unit.","Keep a notebook. Write the main verse of each unit, and write one way you can apply the lesson in your school and home."]},
+{"h":"Table of contents for First Term","p":["The units follow the scheme of work. Week 5 is the midterm examination and Week 7 is the midterm break."],
+"tbl":{"head":["Unit","Week","Topic","Main Bible texts"],"rows":[
+["1","-","Welcome and table of contents",""],
+["2","1","Jesus as the Lamb of God","John 1:29-34; Isaiah 53:7"],
+["3","1","Jesus as the Door","John 10:1-10"],
+["4","2","Jesus as the Good Shepherd","John 10:11-18; Psalm 23"],
+["5","3","Jesus the Light of the World","John 8:12; Matthew 5:14-16"],
+["6","4","Jesus as the True Vine","John 15:1-17"],
+["7","6","Jesus as the Living Bread","John 6:25-40"],
+["8","6","Jesus as the Living Water","John 4:7-15"],
+["9","8","God's love for man","John 3:16-18; Romans 5:8"],
+["10","9","God's love for one another","John 13:34-35; 1 John 4"],
+["11","10","Justification by faith","Romans 3:21-24; 5:1-11"]]}},
+{"h":"Good habits for the subject","p":["Read the Bible passage first and then the notes. Learn key verses by heart. Give examples from your own life. When you answer essay questions, write in clear paragraphs: point, Bible reference, explanation and application."]}
+],
+"activity":"Write in your notebook the names Jesus used for Himself in First Term (Lamb, Door, Good Shepherd, Light, True Vine, Living Bread, Living Water). Choose the one that speaks most to you and say why.",
+"check":[
+{"q":"In which unit do you study Jesus as the Good Shepherd?","o":["Unit 4","Unit 1","Unit 9","Unit 11"]},
+{"q":"What should you do before reading the notes in each unit?","o":["Read the Bible passage","Skip it","Do the exam","Copy a friend's answer"]},
+{"q":"Do the practice questions count towards a mark?","o":["No, they check your understanding","Yes, they are the exam","Yes, they give the pass mark","Only in Week 1"]},
+{"q":"Which unit teaches justification by faith?","o":["Unit 11","Unit 2","Unit 5","Unit 7"]}]},
+
+{"id":"cr1-02","week":1,"title":"Jesus as the Lamb of God","icon":"Heart","summary":"John the Baptist's declaration, the Passover lamb, Isaiah's suffering servant and what the title means for sin and for our lives.",
+"keyWords":["Lamb of God","Passover","Suffering Servant","Atonement","Innocence"],
+"sections":[
+{"h":"The declaration at the Jordan","p":["Read John 1:29-34 and Isaiah 53:7. John the Baptist saw Jesus coming and said, 'Behold, the Lamb of God, who takes away the sin of the world!' This was a bold statement. It linked Jesus to centuries of Jewish worship and prophecy."]},
+{"h":"Why a lamb? The background","p":["The Passover lamb: Jews sacrificed a lamb at Passover to remember how God spared the Israelites in Egypt. The blood on the doorposts was the sign of safety. Jesus is the final Passover sacrifice.","The Suffering Servant: Isaiah 53:7 describes the coming Messiah as a lamb led to the slaughter, silent and humble. The Saviour would willingly suffer.","Innocence and purity: a sacrificial lamb had to be 'without blemish'. Jesus is sinless, innocent and pure, so He is the perfect sacrifice."]},
+{"h":"What the title means","p":["Taking away sin: Old Testament sacrifices covered sin for a time. Jesus takes sin away for good. He took our place and paid the price: this is called substitutionary atonement.","Sin of the world: John says 'the world', so Jesus' work is for all people, not only the Jews.","A surprise: many Jews expected a conquering military Messiah, but John pointed to a gentle Lamb who would save by sacrifice."]},
+{"h":"Life lessons","p":["Humility: like a lamb, a Christian lives without pride and submits to God's will. Sacrifice: true love sometimes costs us our comfort for the good of others."]}
+],
+"activity":"Write a short paragraph: 'How the Lamb of God contradicts the idea of a military Messiah.' Then think of a time someone sacrificed for you and thank them.",
+"check":[
+{"q":"Who called Jesus 'the Lamb of God'?","o":["John the Baptist","Peter","Paul","Moses"]},
+{"q":"Which prophet described the Messiah as a lamb led to the slaughter?","o":["Isaiah","Jeremiah","Amos","Hosea"]},
+{"q":"A sacrificial lamb had to be","o":["Without blemish","Very old","Black","Wild"]},
+{"q":"Jesus takes away the sin of","o":["The whole world","Only the Jews","Only priests","Only children"]},
+{"q":"The Passover lamb reminds Jews of","o":["God sparing them in Egypt","Their time in Babylon","The flood","The temple building"]}]},
+
+{"id":"cr1-03","week":1,"title":"Jesus as the Door","icon":"Shield","summary":"The sheepfold picture, what 'I am the door' means: access, protection and abundant life, and why Jesus is the only way.",
+"keyWords":["Door","Sheepfold","Salvation","Thief","Abundant life"],
+"sections":[
+{"h":"The sheepfold","p":["Read John 10:1-10. In Palestine, a sheepfold was often a stone enclosure with one opening and no gate. At night the shepherd slept across the opening. Nothing could go in or out without passing over him. So when Jesus says 'I am the door', He is the barrier between the sheep (believers) and danger."]},
+{"h":"What the door does","p":["Access: 'If anyone enters by me, he will be saved.' There is one specific door to salvation. Protection: the door keeps out thieves (false teachers) and wolves (spiritual danger). Abundant life: the sheep go in and out and find pasture, which means freedom and food for the soul.","The thief comes to steal, kill and destroy. Jesus came 'that they may have life, and have it abundantly'."]},
+{"h":"Discussion","p":["Why does Christianity teach that Jesus is the only door? Read John 14:6 with John 10:7. Christians believe that Jesus alone made the sacrifice that opens the way to God. We should explain this humbly and respect people who believe differently."]},
+{"h":"Application","p":["Ask: is my life protected by the Door, or have I let thieves in (bad friends, lies, cheating)? In school, choose to enter by the 'door' of honesty and hard work."]}
+],
+"activity":"Draw a sheepfold with one opening. Label the shepherd across the opening, the sheep, a wolf and a thief. Write one sentence about each.",
+"check":[
+{"q":"In Palestine, the shepherd slept","o":["Across the opening of the sheepfold","Far from the sheep","On a hill","Inside a house"]},
+{"q":"'I am the door' shows Jesus as","o":["Access and protection","A builder","A teacher only","A judge only"]},
+{"q":"The thief comes to","o":["Steal, kill and destroy","Give life","Feed the sheep","Build a gate"]},
+{"q":"Jesus came that people may have","o":["Life in abundance","Wealth only","Fame","Power over others"]},
+{"q":"Which verse also says Jesus is the only way?","o":["John 14:6","Genesis 1:1","Psalm 23:1","Mark 1:1"]}]},
+
+{"id":"cr1-04","week":2,"title":"Jesus as the Good Shepherd","icon":"Users","summary":"The Good Shepherd compared with the hired hand, His sacrifice, His knowledge of the sheep, His other sheep, and the link with Psalm 23.",
+"keyWords":["Good Shepherd","Hired hand","Sacrifice","Other sheep","Psalm 23"],
+"sections":[
+{"h":"Good shepherd and hired hand","p":["Read John 10:11-18. The Good Shepherd owns the sheep. He acts from love, lays down His life when danger comes, and knows His sheep by name; they know His voice. The hired hand works for wages. He has no personal stake, so when the wolf comes he runs away."],
+"tbl":{"head":["","Good Shepherd","Hired hand"],"rows":[
+["Motive","Love and ownership","Wages"],
+["In danger","Lays down his life","Runs away"],
+["Relationship","Knows the sheep by name","Does not care for them"]]}},
+{"h":"Characteristics of Jesus the Shepherd","p":["Sacrificial leadership: 'I lay down my life for the sheep.' This points to His death on the cross. Closeness: 'I know my own and my own know me', like the relationship between the Father and the Son. Wide mission: Jesus speaks of 'other sheep not of this fold', meaning the Gentiles, so that there will be 'one flock, one shepherd'."]},
+{"h":"Psalm 23","p":["The shepherd of John 10 matches Psalm 23: 'He leads me' (guidance), 'I will fear no evil' (protection) and 'He restores my soul' (care)."]},
+{"h":"Application: leadership","p":["Compare a shepherd leader with a hired-hand leader. A good class captain, prefect or politician serves others, puts the group first and is honest even when it costs. A hired-hand leader only wants the benefits."]}
+],
+"activity":"Write a 'Shepherd's Code' of five rules for a class leader, based on protection, sacrifice and knowing the people you lead.",
+"check":[
+{"q":"The hired hand runs away because","o":["He has no personal stake in the flock","He loves the sheep","He owns the sheep","He is brave"]},
+{"q":"'Other sheep not of this fold' refers to","o":["The Gentiles","The angels","The priests","The disciples"]},
+{"q":"The Good Shepherd","o":["Lays down his life for the sheep","Sells the sheep","Leaves in danger","Ignores the sheep"]},
+{"q":"Which psalm matches John 10?","o":["Psalm 23","Psalm 1","Psalm 119","Psalm 150"]},
+{"q":"Jesus wants","o":["One flock, one shepherd","Many flocks","No flock","Only Israel"]}]},
+
+{"id":"cr1-05","week":3,"title":"Jesus the Light of the World","icon":"Zap","summary":"The meaning of light and darkness, the Feast of Tabernacles, the three functions of Jesus as light, and how Christians reflect His light.",
+"keyWords":["Light","Darkness","Feast of Tabernacles","Revelation","Reflection"],
+"sections":[
+{"h":"Light and darkness","p":["Read John 8:12; John 1:1-9; John 9:1-5; Matthew 5:14-16; Psalm 119:105. Light is a form of energy that lets us see objects, colours and shapes. In the Bible, light stands for truth, purity, knowledge, God's presence, righteousness and salvation. Darkness stands for sin, ignorance, evil and separation from God."]},
+{"h":"The setting: the Feast of Tabernacles","p":["Jesus spoke these words in the Temple during the Feast of Tabernacles. Huge golden lamps were lit in the Court of Women to remind Israel of the pillar of fire that guided them in the wilderness. Jesus was saying: 'I am the reality that the pillar of fire pointed to.'"]},
+{"h":"What Jesus the Light does","p":["Revelation: He shows the truth about God and about life. Without Him people live in spiritual ignorance. Exposure: light shows hidden dirt, and Jesus' life and teaching show sin and call people to repent. Guidance: like a lamp for the feet (Psalm 119:105), He guides believers away from pitfalls."]},
+{"h":"The believer as a reflection","p":["Jesus is the sun, the source. Christians are like the moon: we have no light of our own and only reflect His. Jesus said, 'You are the light of the world.' We shine by moral integrity (no lying, stealing or examination malpractice), love for all people, bold and respectful witness, and being peacemakers.","John 1:5: 'The light shines in the darkness, and the darkness has not overcome it.' Light is stronger than darkness."]}
+],
+"activity":"Write 150 words on 'How I can be a light in my school and community'. Name three actions you will take this week.",
+"check":[
+{"q":"Jesus said 'I am the light of the world' during","o":["The Feast of Tabernacles","The Passover only","His baptism","The Sermon on the Mount"]},
+{"q":"Darkness in the Bible stands for","o":["Sin and ignorance","Truth","Holiness","Wisdom"]},
+{"q":"Christians are like the moon because they","o":["Reflect Christ's light","Make their own light","Hide from the sun","Shine at night only"]},
+{"q":"Which verse calls God's word a lamp to my feet?","o":["Psalm 119:105","John 3:16","Genesis 1:3","Romans 8:1"]},
+{"q":"John 1:5 says the darkness has not","o":["Overcome the light","Seen the light","Left the light","Praised the light"]}]},
+
+{"id":"cr1-06","week":4,"title":"Jesus as the True Vine","icon":"Heart","summary":"The vine, vinedresser and branches, pruning and cutting off, what abiding means, the fruit of a Christian life and the command to love.",
+"keyWords":["True Vine","Vinedresser","Abide","Pruning","Fruit"],
+"sections":[
+{"h":"The picture","p":["Read John 15:1-17. In the Old Testament, Israel was called God's vine (Isaiah 5, Psalm 80) but often bore bad fruit. Jesus is the 'true' vine: the faithful Israel who gives real life. The vine (Jesus) is the source of life. The vinedresser (God the Father) tends and manages the plant. The branches (believers) receive life from the vine and bear fruit."]},
+{"h":"Pruning and cutting off","p":["God does two things. He cuts off branches that bear no fruit; they are gathered and burned, which pictures judgment. He prunes branches that bear fruit so that they bear more. Pruning removes shoots that drain energy: for a believer, bad habits, distractions and pride. It can be painful, but it is for growth. Pruning is not punishment."]},
+{"h":"Abiding","p":["To abide is to stay connected in constant fellowship. We abide through God's word and obedience, prayer, faith and dependence on the Holy Spirit.","Benefits of abiding: answered prayer (John 15:7), fullness of joy and glory to the Father."]},
+{"h":"Fruit and love","p":["Fruit has three sides: character (the fruit of the Spirit in Galatians 5:22-23), good works and winning others to Christ. You cannot abide in the vine and fail to love the other branches. Jesus commands, 'Love one another as I have loved you.'"],
+"tbl":{"head":["","Abiding (connected)","Not abiding (cut off)"],"rows":[
+["Branch","Living","Dead or withered"],
+["God's action","Prunes (cleans)","Cuts off"],
+["Result","More fruit","Fire, barrenness"],
+["Experience","Joy and answered prayer","Emptiness"]]}}
+],
+"activity":"Name one 'sucker shoot' (a distraction or bad habit) in your life. Write a paragraph on how you will let God prune it so that you study better and live better.",
+"check":[
+{"q":"In John 15, the vinedresser is","o":["God the Father","Jesus","The Holy Spirit","Peter"]},
+{"q":"A branch that does not abide in the vine","o":["Withers and is burned","Grows more fruit","Becomes the vine","Is pruned only"]},
+{"q":"Pruning is","o":["Discipline for greater fruit","Judgment","A reward","A punishment"]},
+{"q":"To abide means to","o":["Stay connected to Christ","Leave quickly","Argue","Work alone"]},
+{"q":"The supreme command in John 15 is","o":["Love one another","Pay tithes","Fast daily","Build a temple"]}]},
+
+{"id":"cr1-07","week":6,"title":"Jesus as the Living Bread","icon":"BookOpen","summary":"The crowd who followed Jesus for bread, the 'work of God', and the comparison between manna and the true bread from heaven.",
+"keyWords":["Bread of life","Manna","Work of God","Faith","Eternal life"],
+"sections":[
+{"h":"Misplaced priorities","p":["Read John 6:25-40. After feeding the five thousand, Jesus crossed the sea and the crowd followed Him. He told them they came not because they saw signs of who He was, but because they had eaten bread and were full. They wanted a political provider, not a spiritual Saviour. He urged them: 'Do not labour for the food that perishes, but for the food that endures to eternal life.'"]},
+{"h":"The work of God","p":["The people asked what they must do to do God's works. Jesus said the work of God is one thing: 'Believe in him whom he has sent.' Salvation is received through faith in a person, not earned by a list of tasks."]},
+{"h":"Manna and the true bread","p":["The crowd asked for a sign like the manna Moses gave in the wilderness. Jesus corrected them: it was not Moses but God the Father who gave the bread, and the 'bread of God' is He who comes down from heaven and gives life to the world. He said, 'I am the bread of life; whoever comes to me shall not hunger.'"],
+"tbl":{"head":["","Manna (Old Testament)","Jesus (New Testament)"],"rows":[
+["Origin","Physical food from the sky","Spiritual bread from heaven"],
+["Purpose","Temporary relief from hunger","Eternal life"],
+["Result","They ate and later died","Whoever eats lives for ever"]]}},
+{"h":"Meaning for us","p":["Bread is a picture: as the body dies without food, the spirit is dead without Christ. Many people still choose 'manna' (money, things) instead of the true bread. Ask yourself what you are really hungry for."]}
+],
+"activity":"Read John 6:35. Write a paragraph on 'I am the bread of life; he who comes to me shall never hunger' and explain spiritual hunger.",
+"check":[
+{"q":"What is 'the work of God' in John 6?","o":["To believe in the One He sent","To fast every day","To give money","To build altars"]},
+{"q":"Who gave the Israelites manna?","o":["God the Father","Moses","Aaron","Joshua"]},
+{"q":"The crowd followed Jesus mainly because","o":["They had eaten bread","They understood the signs","They were sick","They were soldiers"]},
+{"q":"The true bread gives","o":["Eternal life","Short relief","Money","Fame"]},
+{"q":"Jesus' words 'I am the bread of life' are","o":["A metaphor","A literal loaf","A joke","A law"]}]},
+
+{"id":"cr1-08","week":6,"title":"Jesus as the Living Water","icon":"Heart","summary":"The meeting at Jacob's well, social barriers Jesus broke, well water against living water, and the universal invitation.",
+"keyWords":["Living water","Samaritan woman","Jacob's well","Holy Spirit","Salvation for all"]
+,"sections":[
+{"h":"The setting","p":["Read John 4:7-15. Jesus rested at Jacob's well in Samaria while the disciples bought food. A Samaritan woman came to draw water and Jesus asked her for a drink. She was surprised, because Jews and Samaritans did not mix. Jesus crossed barriers of race and gender to reach her."]},
+{"h":"The conversation","p":["Jesus said if she knew the gift of God and who was speaking, she would ask Him for living water. She took Him literally: He had no bucket and the well was deep. She asked if He was greater than Jacob.","Jesus explained: 'Everyone who drinks of this water will thirst again, but whoever drinks of the water that I will give him will never be thirsty again. The water that I will give him will become in him a spring of water welling up to eternal life.' Living water stands for the Holy Spirit, the word of God and complete satisfaction in God."]},
+{"h":"Meaning","p":["Jesus uses the most basic needs, bread and water, to teach about the soul. The offer was made to a Samaritan, which shows that salvation is for all nations. In Jesus' day, 'living water' meant flowing spring or river water, fresh and clean, unlike still water in a well. It pictures the active, moving power of the Spirit.","'Broken cisterns' today: fame, money, social media and addictions promise happiness but leave people thirsty again."]}
+],
+"activity":"In pairs, role-play the conversation at the well. Then write the 'broken cisterns' you see around you and what real satisfaction looks like.",
+"check":[
+{"q":"Why was the Samaritan woman surprised?","o":["Jews and Samaritans did not mix","Jesus had no cup","Jesus was a stranger from Egypt","She was a priest"]},
+{"q":"Well water satisfies","o":["For a short time","For ever","Never","Only at night"]},
+{"q":"Living water in John 4 pictures","o":["The Holy Spirit and eternal life","Rain only","River Jordan only","Wine"]},
+{"q":"The offer to the Samaritan woman shows that salvation is","o":["For all nations","Only for Jews","Only for men","Only for priests"]},
+{"q":"Where did this conversation happen?","o":["Jacob's well in Samaria","The Temple","The Sea of Galilee","Bethlehem"]}]},
+
+{"id":"cr1-09","week":8,"title":"God's Love for Man","icon":"Heart","summary":"The meaning of agape, God's love shown in creation and in redemption, an analysis of John 3:16, and how we should respond.",
+"keyWords":["Agape","Image of God","Redemption","John 3:16","Obedience"],
+"sections":[
+{"h":"What is God's love?","p":["Read John 3:16-18; Romans 5:8; 1 John 4:7-10; Genesis 1:26-28. God's love (agape) is deep, unconditional and sacrificial. Human love is often based on attraction or merit ('I love you because...'), but God loves because He is love (1 John 4:8). It is everlasting, and God took the first step: He loved us while we were still sinners (Romans 5:8)."]},
+{"h":"Love shown in creation","p":["Man is the only creature made in God's image. This gives every person dignity, value and purpose. God also gave humans dominion over other creatures, which shows trust. We are loved designs of a Creator, not accidents."]},
+{"h":"Love shown in redemption: John 3:16","p":["Sin brought separation and condemnation. In His love God sent His only Son to die and shed His blood. Look at the verse: 'God so loved the world' (the scope is universal); 'He gave His only Son' (the sacrifice is the highest price); 'whoever believes in Him should not perish' (the condition is faith, open to all); 'but have eternal life' (the goal is life). Jesus came not to condemn but to save."]},
+{"h":"Our response","p":["Towards God: worship and praise, faith, and obedience ('If you love me, keep my commandments', John 14:15). Towards others: 'If God so loved us, we also ought to love one another' (1 John 4:11), by kindness to strangers, forgiveness and putting others first.","God's love is unconditional, but salvation is received by faith."]}
+],
+"activity":"Write 100 words on 'How I experience God's love in my life today.' Choose one real event or daily blessing.",
+"check":[
+{"q":"Agape is","o":["Unconditional, sacrificial love","Love of food","Love of money","Romantic love"]},
+{"q":"Man was created in God's","o":["Image","Shadow","Temple","Garden"]},
+{"q":"John 3:16 says whoever believes will have","o":["Eternal life","Riches","Fame","Health only"]},
+{"q":"God sent His Son not to condemn but to","o":["Save the world","Judge the world","Build a kingdom of war","Close the temple"]},
+{"q":"A good response to God's love is","o":["Obedience and love for others","Pride","Revenge","Silence"]}]},
+
+{"id":"cr1-10","week":9,"title":"Love for One Another (Brotherly Love)","icon":"Users","summary":"The new commandment, why love is the mark of a disciple, why it matters, and practical ways to show it.",
+"keyWords":["New commandment","Brotherly love","Forgiveness","Intercession","Compassion"],
+"sections":[
+{"h":"What Christian love is","p":["Read John 13:34-35; 1 John 4:7-8, 11-12; 1 John 3:17-18. Christian love is not just a feeling. It is selfless, sacrificial care that is shown in action. It is a command from God, so we must act lovingly even when we do not feel like it."]},
+{"h":"The new commandment","p":["In the Upper Room Jesus said, 'A new commandment I give to you, that you love one another: just as I have loved you.' The old standard was 'love your neighbour as yourself' (Leviticus 19:18). The new standard is 'as I have loved you', which means sacrificial love. Love is the badge of a disciple, as a uniform identifies a student."]},
+{"h":"Why it matters","p":["It proves we know God, who is love. It attracts others to Christ when a community loves across tribe and class. It solves conflict through forgiveness and reconciliation. It fulfils the law (Romans 13:10)."]},
+{"h":"Ways to show love","p":["Emotional and spiritual: forgiving, praying for others, and encouraging them with words. Material and physical: sharing money, talents and facilities, and showing compassion. If a classmate loses a textbook, share yours or help them to study.","1 John 3:17: 'If anyone has the world's goods and sees his brother in need, yet closes his heart against him, how does God's love abide in him?'"]}
+],
+"activity":"Secret Angel: in secret do one act of kindness for a classmate this week (a note, help with homework). Write what you did and how it felt.",
+"check":[
+{"q":"Jesus' new commandment is to love one another","o":["As He has loved us","As we love ourselves","Only our friends","When we feel like it"]},
+{"q":"Love is the mark of","o":["A disciple of Jesus","A rich person","A leader only","A scholar"]},
+{"q":"Which is a practical way to show love?","o":["Sharing with someone in need","Gossiping","Ignoring","Boasting"]},
+{"q":"Love reduces","o":["Conflict","Prayer","Faith","Hope"]},
+{"q":"Love fulfils","o":["The law","Only the prophets","Only the temple rules","Nothing"]}]},
+
+{"id":"cr1-11","week":10,"title":"Justification by Faith","icon":"Landmark","summary":"What justification means (the courtroom picture), the part of grace and faith, the fruits of justification (peace, access, joy in suffering) and how it differs from sanctification.",
+"keyWords":["Justification","Grace","Faith","Peace with God","Sanctification"],
+"sections":[
+{"h":"What is justification?","p":["Read Romans 3:21-24 and 5:1-11. To justify means to declare someone right or innocent. Picture a courtroom: an accused person stands before the judge, who says 'Not guilty' and sets them free. In the same way God declares a sinner innocent and sets them free through the way He has provided.","Man cannot make himself right with God by keeping the law, because everyone has sinned. God stepped in: He sent His Son to redeem us."]},
+{"h":"How are we justified?","p":["God's part is grace, which means unmerited favour: a gift we do not deserve. The price was the blood of Jesus on the cross. Man's part is faith: believing that Jesus died for our sins, with repentance (turning from sin), confession and accepting Jesus as Lord and Saviour. We are justified by faith, not by works or moral perfection.","If you pay a fine yourself you are free. If the judge pays your fine for you, that is grace."]},
+{"h":"Fruits of justification (Romans 5)","p":["Peace with God: the war between sinner and holy God is over. We are friends, not enemies. Access to grace: the door to God's presence is open. Joy in suffering: suffering is no longer punishment but a tool; it produces endurance, endurance produces character and character produces hope. Assurance: salvation rests on God's promise; Jesus is enough. Freedom from the burden of the law."]},
+{"h":"The great exchange","p":["Jesus took our guilt and we receive His righteousness. Justification is a one-time declaration of innocence; sanctification is the daily process of growing in goodness."]}
+],
+"activity":"Write a short story about a guilty prisoner set free by a judge. Use the words grace, faith and justification to explain it.",
+"check":[
+{"q":"To justify means to","o":["Declare innocent","Punish","Forget","Forgive and forget only"]},
+{"q":"Grace is","o":["Unmerited favour","A reward for good works","Punishment","A law"]},
+{"q":"According to Romans 5, suffering produces endurance and endurance produces","o":["Character","Wealth","Fame","Anger"]},
+{"q":"Justification is received by","o":["Faith","Works of the law","Birth","Money"]},
+{"q":"Sanctification is","o":["The daily process of growing in goodness","A one-time declaration of innocence","A punishment","A feast"]}]}
+]

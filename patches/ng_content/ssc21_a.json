@@ -1,0 +1,194 @@
+[
+{"id":"c21-02","week":1,"title":"Water Pollution: Causes, Effects and Control","icon":"Heart",
+"summary":"What environmental chemistry studies, how water becomes polluted, the harm it causes (including eutrophication and bioaccumulation) and how it can be controlled.",
+"keyWords":["Environmental chemistry","Water pollution","Effluent","Eutrophication","Bioaccumulation","Point source"],
+"sections":[
+{"h":"Environmental chemistry","p":["Environmental chemistry is the branch of chemistry that studies the chemical processes that happen in the environment and the effects of human activities on it. A major concern is pollution: the introduction of harmful substances into the environment, causing harm to people, animals, plants and ecosystems. Pollution affects health (breathing problems, skin diseases, water-borne diseases), agriculture (lower yields, damaged soil), climate (global warming, acid rain) and ecosystems (loss of living things, eutrophication). The two main kinds are water pollution and air pollution, and they are linked."],"img":{"src":"chm2-pollution.jpg","alt":"A diagram of two overlapping circles showing air pollution from factories and vehicles, water pollution from heavy metals, acid rain and eutrophication","cap":"Air pollution and water pollution overlap."}},
+{"h":"Water pollution and its causes","p":["Water pollution is the contamination of rivers, lakes, seas and underground water by chemical, physical or biological agents that make the water harmful to living things and to people. Causes:","1. Industrial effluents: factories release heavy metals (lead, mercury, cadmium), acids, alkalis and dyes.","2. Domestic sewage: untreated waste with organic matter, detergents and disease-causing organisms.","3. Agriculture: run-off from farms carries fertilisers, pesticides and herbicides into water (nutrient pollution).","4. Oil spills: petroleum covers the surface and harms aquatic life (for example in the Niger Delta).","5. Mining: toxic minerals and chemicals enter rivers and lakes."]},
+{"h":"Effects","p":["1. Health hazards: cholera, typhoid and dysentery; toxic metals can cause kidney failure, nerve disorders and cancer.","2. Eutrophication: nitrates and phosphates from fertilisers and detergents make algae grow very fast (an algal bloom). When the algae die, bacteria decay them and use up the dissolved oxygen, so fish and other water animals die.","3. Bioaccumulation: some poisons, such as mercury, are not broken down. They build up along the food chain, so animals at the top, including humans, hold the highest amounts.","4. Water that is unfit for fishing, recreation and irrigation causes economic loss."]},
+{"h":"Control measures","p":["Treat industrial and domestic waste water before releasing it. Use biodegradable detergents. Manage waste properly and recycle. Build ponds to hold run-off. Make and enforce laws against pollution. Use fertilisers and pesticides carefully.","Point and non-point sources: a point source is a single place that releases pollution, such as a pipe from a factory. A non-point source is spread over a wide area, such as fertiliser washing from many farms. Non-point sources are harder to control."]}
+],
+"activity":"List four causes and four effects of water pollution. Explain why a river polluted with fertiliser may lose its fish (algal bloom, then decay uses up oxygen). Write a short report on how an industry in your area pollutes water and give three solutions.",
+"check":[
+{"q":"Excess nitrates and phosphates in water cause","o":["eutrophication","acid rain","ozone depletion","global warming"]},
+{"q":"A poison that builds up along a food chain shows","o":["bioaccumulation","eutrophication","neutralisation","decomposition"]},
+{"q":"A pipe discharging waste from a factory into a river is a","o":["point source","non-point source","natural source","secondary source"]},
+{"q":"Cholera and typhoid are","o":["water-borne diseases","air-borne diseases only","caused by heavy metals","caused by noise"]},
+{"q":"Which reduces water pollution?","o":["Treating effluents before discharge","Dumping waste in rivers","Using non-biodegradable detergents","Burning waste near rivers"]}
+]},
+
+{"id":"c21-03","week":1,"title":"Air Pollution: Causes, Effects, Control and Links with Water Pollution","icon":"Heart",
+"summary":"Sources of air pollutants, acid rain, global warming and ozone depletion with equations, control measures and how air and water pollution are connected.",
+"keyWords":["Air pollution","Acid rain","Greenhouse effect","Ozone depletion","CFCs","Particulates"],
+"sections":[
+{"h":"Air pollution and its causes","p":["Air pollution is the introduction of harmful substances into the atmosphere. Causes: (1) industrial emissions of sulphur dioxide SO₂, nitrogen oxides NOₓ, carbon monoxide CO and particles; (2) vehicle exhaust, which gives CO, CO₂, NOₓ and unburnt hydrocarbons; (3) burning fossil fuels in power stations, refineries and homes; (4) agriculture: ammonia from fertilisers and smoke from burning crop waste; (5) natural sources such as volcanoes, forest fires and dust storms (harmattan dust)."]},
+{"h":"Effects","p":["Health: asthma, bronchitis, lung cancer, eye and skin irritation. Carbon monoxide combines with haemoglobin and stops it carrying oxygen.","Acid rain: SO₂ and NOₓ dissolve in rain water and form acids. S + O₂ → SO₂; 2SO₂ + O₂ → 2SO₃; SO₃ + H₂O → H₂SO₄ (sulphuric acid). 4NO₂ + 2H₂O + O₂ → 4HNO₃ (nitric acid). Acid rain damages plants and soil, makes lakes acidic and corrodes buildings and metal roofs.","Global warming: carbon dioxide, methane and water vapour trap heat in the atmosphere (the greenhouse effect). More CO₂ from burning fuels raises the temperature of the Earth and changes the climate.","Ozone depletion: chlorofluorocarbons (CFCs) from old refrigerators and aerosols rise to the stratosphere and destroy ozone, so more harmful ultraviolet radiation reaches the Earth.","Economic effects: damage to buildings and vehicles by corrosion, and lower crop yields."]},
+{"h":"Control measures","p":["Use cleaner fuels (LPG, natural gas, solar energy). Fit filters and scrubbers to chimneys. Plant trees and green belts. Enforce vehicle emission standards and service engines. Use public transport. Stop gas flaring and the use of CFCs."]},
+{"h":"How air and water pollution are linked","p":["Pollutants in the air are washed into rivers and lakes by rain (acid rain). Smoke particles settle on water. Climate change affects the amount and quality of water. So controlling one kind of pollution helps to control the other.","Why study environmental chemistry? To understand the causes and effects of pollution, to protect health, to design clean chemical processes, to use resources in a sustainable way and to obey environmental laws."]}
+],
+"activity":"Explain with equations how SO₂ and NOₓ cause acid rain. Name five sources of air pollution. Suggest five measures that reduce both water and air pollution.",
+"check":[
+{"q":"Acid rain is mainly caused by","o":["SO₂ and NOₓ","CO₂ and O₂","N₂ and H₂","CH₄ and He"]},
+{"q":"The gas that stops haemoglobin carrying oxygen is","o":["carbon monoxide","carbon dioxide","nitrogen","hydrogen"]},
+{"q":"CFCs cause","o":["ozone depletion","acid rain","eutrophication","hard water"]},
+{"q":"SO₃ + H₂O gives","o":["H₂SO₄","H₂SO₃","SO₂","H₂S"]},
+{"q":"The greenhouse effect is increased by","o":["carbon dioxide and methane","oxygen and nitrogen","argon","helium"]}
+]},
+
+{"id":"c21-04","week":2,"title":"Electrolysis: Electrolytes, Electrodes and Electrode Reactions","icon":"Zap",
+"summary":"What electrolysis is, the terms electrolyte, electrode, anode and cathode, and the reactions at the electrodes for molten sodium chloride, acidified water and copper sulphate.",
+"keyWords":["Electrolysis","Electrolyte","Anode","Cathode","Oxidation","Reduction","Discharge"],
+"sections":[
+{"h":"What is electrolysis?","p":["Electrolysis is the decomposition of an ionic compound (an electrolyte), in the molten state or in solution, by passing a direct electric current through it. It uses the movement of ions. It is the basis of electroplating, extraction of metals, making chemicals and refining of metals."]},
+{"h":"Basic terms","p":["Electrolyte: a substance, usually ionic, that conducts electricity when molten or dissolved and is decomposed by it: molten NaCl, aqueous H₂SO₄, aqueous CuSO₄. Non-electrolytes, such as sugar and ethanol, do not conduct.","Electrodes: the conductors (metal or graphite) through which current enters and leaves. The anode is the positive electrode and attracts anions (negative ions). The cathode is the negative electrode and attracts cations (positive ions).","Oxidation is loss of electrons and reduction is gain of electrons. At the cathode, cations gain electrons (reduction). At the anode, anions lose electrons (oxidation). Remember: C.R.A.O. (Cathode Reduction, Anode Oxidation).","The cell has a DC power source, the electrolyte and two electrodes connected to the source."]},
+{"h":"Molten sodium chloride","p":["Ions: Na⁺ and Cl⁻. Cathode: Na⁺ + e⁻ → Na (sodium metal). Anode: 2Cl⁻ → Cl₂ + 2e⁻ (chlorine gas). Overall: 2NaCl → 2Na + Cl₂."],"img":{"src":"chm2-electrolysis-nacl.jpg","alt":"Electrolysis of molten sodium chloride with sodium ions moving to the cathode and chloride ions to the anode","cap":"Electrolysis of molten NaCl."}},
+{"h":"Acidified water","p":["The ions present are H⁺ and OH⁻ (from the acid and the water). Cathode: 2H⁺ + 2e⁻ → H₂. Anode: 4OH⁻ → 2H₂O + O₂ + 4e⁻. Overall: 2H₂O → 2H₂ + O₂. Twice as much hydrogen as oxygen is collected by volume (2 : 1). The acid only makes the water conduct."]},
+{"h":"Copper sulphate solution","p":["With copper electrodes: cathode Cu²⁺ + 2e⁻ → Cu (copper is deposited); anode Cu → Cu²⁺ + 2e⁻ (the anode dissolves). The solution stays the same blue colour. This is used in copper plating and refining.","With inert (graphite or platinum) electrodes: cathode Cu²⁺ + 2e⁻ → Cu; anode 4OH⁻ → 2H₂O + O₂ + 4e⁻ (oxygen is released). The blue colour fades and the solution becomes acidic because of the H⁺ and SO₄²⁻ left behind."]},
+{"h":"Which ion is discharged?","p":["When several ions are present, the one lower in the electrochemical series is discharged at the cathode (Cu²⁺ before H⁺; H⁺ before Na⁺). At the anode, OH⁻ is usually discharged before SO₄²⁻ and NO₃⁻; in concentrated chloride solutions Cl⁻ is discharged. For brine (concentrated NaCl solution): cathode H₂ is formed, anode Cl₂ is formed, and NaOH is left in the solution."]}
+],
+"activity":"Write the electrode reactions for the electrolysis of (a) molten NaCl and (b) acidified water. Distinguish between anode and cathode. Describe what happens in the electrolysis of CuSO₄ solution using copper electrodes.",
+"check":[
+{"q":"At the cathode,","o":["reduction occurs","oxidation occurs","anions are discharged","electrons are lost"]},
+{"q":"In molten NaCl the product at the anode is","o":["chlorine","sodium","hydrogen","oxygen"]},
+{"q":"On electrolysis of acidified water, the volumes of H₂ and O₂ are in the ratio","o":["2 : 1","1 : 2","1 : 1","3 : 1"]},
+{"q":"With copper electrodes in CuSO₄ solution, the anode","o":["dissolves","gains mass","is unchanged","releases oxygen"]},
+{"q":"An electrolyte is a substance that","o":["conducts electricity when molten or dissolved and is decomposed","conducts as a solid metal","does not conduct","is a gas"]}
+]},
+
+{"id":"c21-05","week":2,"title":"Faraday's Laws of Electrolysis and Applications","icon":"Target",
+"summary":"Faraday's first and second laws, the formula m = ZIt, calculations of mass deposited, charge and time, and the uses of electrolysis.",
+"keyWords":["Faraday's first law","Faraday's second law","Coulomb","Electrochemical equivalent","Equivalent weight","Faraday constant"],
+"sections":[
+{"h":"Faraday's first law","p":["The mass of a substance liberated at an electrode is directly proportional to the quantity of electricity passed. m ∝ Q, so m = ZQ, where Z is the electrochemical equivalent (grams per coulomb). Since Q = It (current in amperes × time in seconds), m = ZIt."]},
+{"h":"Faraday's second law","p":["When the same quantity of electricity passes through different electrolytes, the masses of substances liberated are proportional to their equivalent weights. Equivalent weight E = molar mass ÷ valency (the number of electrons per ion). One mole of electrons carries 96 500 C (the Faraday constant, F = 96 500 C/mol).","Mass deposited = (E × Q) ÷ F = (molar mass × I × t) ÷ (valency × 96 500)."]},
+{"h":"Worked example 1","p":["A current of 2.5 A passes through CuSO₄ solution for 30 minutes. Find the mass of copper (Cu = 63.5, valency 2). t = 1 800 s. Q = 2.5 × 1 800 = 4 500 C. E = 63.5 ÷ 2 = 31.75. Mass = 31.75 × 4 500 ÷ 96 500 = 1.48 g."]},
+{"h":"Worked example 2: silver","p":["5 A passes through AgNO₃ solution for 1 hour (Ag = 108, valency 1). Q = 5 × 3 600 = 18 000 C. Mass = 108 × 18 000 ÷ 96 500 = 20.1 g."]},
+{"h":"Worked example 3: lead","p":["4 A passes through molten PbBr₂ for 30 minutes (Pb = 207, valency 2). (a) Q = 4 × 1 800 = 7 200 C. (b) Moles of electrons = 7 200 ÷ 96 500 = 0.0746 mol. (c) Mass of lead = 207 × 7 200 ÷ (2 × 96 500) = 7.72 g (0.0746 mol of electrons gives 0.0373 mol of Pb)."]},
+{"h":"Worked example 4: time needed","p":["How long does 2 A take to deposit 3.175 g of copper? Q = 3.175 × 96 500 ÷ 31.75 = 9 650 C. t = Q ÷ I = 9 650 ÷ 2 = 4 825 s, which is about 80 minutes.","Two electrolytes in series (the second law): the same 9 650 C that deposits 3.175 g of Cu would deposit 10.8 g of Ag, because 31.75 : 108 is the ratio of their equivalent weights."]},
+{"h":"Worked example 5: gases","p":["During the electrolysis of acidified water, 0.2 mol of O₂ is collected at the anode. 2H₂O → 2H₂ + O₂, so H₂ : O₂ = 2 : 1. Hydrogen = 0.4 mol."]},
+{"h":"Applications","p":["Extraction of metals: aluminium is obtained by electrolysing aluminium oxide dissolved in molten cryolite at about 950 °C (Al³⁺ + 3e⁻ → Al at the carbon cathode). Electroplating: coating a metal with chromium, silver or nickel to prevent corrosion or improve appearance. Electrorefining: purifying copper, with impure copper as the anode and pure copper as the cathode. Making chemicals: NaOH, Cl₂ and H₂ from brine. Charging rechargeable batteries."]}
+],
+"activity":"Calculate the mass of silver deposited by 5 A in 1 hour from AgNO₃ (20.1 g). State Faraday's two laws. Mention four industrial uses of electrolysis. Research how aluminium is extracted from bauxite (purify bauxite to Al₂O₃, then electrolyse in molten cryolite).",
+"check":[
+{"q":"The charge carried by one mole of electrons is","o":["96 500 C","9 650 C","965 000 C","96.5 C"]},
+{"q":"Mass deposited, in grams, equals","o":["molar mass × I × t ÷ (valency × 96 500)","I × t ÷ 96 500 only","molar mass ÷ I","valency × I × t"]},
+{"q":"2.5 A through CuSO₄ for 1 800 s deposits copper of mass","o":["1.48 g","14.8 g","0.148 g","3.0 g"]},
+{"q":"The equivalent weight of copper (Cu = 63.5, valency 2) is","o":["31.75","63.5","127","16"]},
+{"q":"Aluminium is extracted by electrolysing Al₂O₃ dissolved in","o":["molten cryolite","water","brine","dilute acid"]}
+]},
+
+{"id":"c21-06","week":3,"title":"Electrochemical Cells: The Galvanic (Voltaic) Cell","icon":"Zap",
+"summary":"What an electrochemical cell is, how a galvanic cell such as the Daniell cell works, the salt bridge, cell notation and uses of galvanic cells.",
+"keyWords":["Galvanic cell","Daniell cell","Salt bridge","Cell notation","Spontaneous","e.m.f."],
+"sections":[
+{"h":"Electrochemical cells","p":["An electrochemical cell is a device that changes chemical energy into electrical energy, or electrical energy into chemical energy, by chemical reactions. It has two electrodes and an electrolyte. There are two kinds: galvanic (voltaic) cells and electrolytic cells."]},
+{"h":"The galvanic cell","p":["A galvanic cell is a cell in which a spontaneous chemical reaction produces electrical energy. Its features: the reaction happens by itself; chemical energy becomes electrical energy; the electrodes are usually metals in contact with solutions of their ions; and a salt bridge joins the two solutions."]},
+{"h":"The Daniell cell","p":["It has a zinc electrode in zinc sulphate solution and a copper electrode in copper sulphate solution, joined by a wire (with a voltmeter) and by a salt bridge (for example KNO₃ solution).","Anode (negative): Zn → Zn²⁺ + 2e⁻ (oxidation). Cathode (positive): Cu²⁺ + 2e⁻ → Cu (reduction). Overall: Zn + Cu²⁺ → Zn²⁺ + Cu. Electrons flow in the wire from zinc to copper. The cell gives about 1.10 V."],"img":{"src":"chm2-daniell.jpg","alt":"A Daniell cell with a zinc electrode in zinc sulphate solution, a copper electrode in copper sulphate solution, a salt bridge and a voltmeter","cap":"The Daniell cell."}},
+{"h":"Working","p":["1. Zinc loses electrons and zinc ions enter the solution. 2. The electrons flow through the wire to copper. 3. Copper ions gain electrons and copper is deposited on the copper electrode. 4. The flow of electrons is the electric current. 5. The salt bridge lets ions move so that each solution stays electrically neutral and the circuit is complete."]},
+{"h":"Cell notation","p":["Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s). The anode is written on the left, the cathode on the right. A single bar | shows a boundary between phases and a double bar || shows the salt bridge."]},
+{"h":"Uses","p":["Dry cells, lead-acid car batteries and lithium-ion batteries; torches and remote controls; and laboratory demonstrations of redox reactions."]}
+],
+"activity":"Draw and label a Daniell cell and show the direction of electron flow. State two jobs of the salt bridge (completes the circuit; keeps each solution electrically neutral). Write the cell notation of a cell with magnesium and copper electrodes (Mg(s) | Mg²⁺(aq) || Cu²⁺(aq) | Cu(s)).",
+"check":[
+{"q":"In a Daniell cell the anode is","o":["zinc, the negative electrode","copper, the positive electrode","zinc, the positive electrode","copper, the negative electrode"]},
+{"q":"Electrons flow in the external wire from","o":["zinc to copper","copper to zinc","anode to salt bridge","salt bridge to cathode"]},
+{"q":"The salt bridge","o":["completes the circuit and keeps solutions neutral","produces the current","is a source of electrons","stops the reaction"]},
+{"q":"A galvanic cell converts","o":["chemical energy to electrical energy","electrical energy to chemical energy","heat to light","light to sound"]},
+{"q":"In Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s) the double bar represents","o":["the salt bridge","the wire","the anode","the cathode"]}
+]},
+
+{"id":"c21-07","week":3,"title":"Electrolytic Cells and the Comparison with Galvanic Cells","icon":"Layers",
+"summary":"How an electrolytic cell works, with the Downs cell for sodium, and a table comparing galvanic and electrolytic cells.",
+"keyWords":["Electrolytic cell","Non-spontaneous","Downs cell","Electroplating","Polarity"],
+"sections":[
+{"h":"The electrolytic cell","p":["An electrolytic cell is a cell in which electrical energy is used to drive a non-spontaneous chemical reaction. It needs a power supply (a battery or generator). The electrodes may be inert (graphite or platinum) or active. The electrolyte is molten or dissolved ionic compound.","Example: electrolysis of molten NaCl with graphite electrodes. Cathode (negative): Na⁺ + e⁻ → Na (reduction). Anode (positive): 2Cl⁻ → Cl₂ + 2e⁻ (oxidation). Sodium metal collects at the cathode and chlorine gas at the anode."]},
+{"h":"The Downs cell","p":["Sodium is made industrially in the Downs cell. Molten sodium chloride (with calcium chloride added to lower the melting point) is electrolysed between a graphite anode and a steel cathode. Chlorine is collected at the anode, and molten sodium, which is less dense than the melt, rises and is collected at the top."],"img":{"src":"chm2-downs-cell.jpg","alt":"A Downs cell with molten sodium chloride, a graphite anode, a cathode, a chlorine outlet and a liquid sodium outlet","cap":"The Downs cell."}},
+{"h":"Uses of electrolytic cells","p":["Electroplating (silver, gold, copper); manufacture of NaOH, Cl₂, H₂ and aluminium; purification of metals such as copper; electrolysis of water to produce hydrogen and oxygen."]},
+{"h":"Comparison","p":["Study the picture and table."],"img":{"src":"chm2-cells-compare.jpg","alt":"Side-by-side diagram of a galvanic cell and an electrolytic cell with their energy conversions and electrode reactions","cap":"Galvanic and electrolytic cells compared."},"tbl":{"head":["Feature","Galvanic cell","Electrolytic cell"],"rows":[["Energy change","Chemical → electrical","Electrical → chemical"],["Reaction","Spontaneous","Non-spontaneous (forced)"],["Anode","Negative, oxidation","Positive, oxidation"],["Cathode","Positive, reduction","Negative, reduction"],["Electron flow","Anode → cathode through the wire","From the negative terminal of the supply to the cathode, and from the anode to the positive terminal"],["Examples","Daniell cell, lead-acid battery","Electrolysis of molten NaCl, electroplating"]]}},
+{"h":"What is the same","p":["In both kinds of cell, oxidation takes place at the anode and reduction at the cathode. What changes is the sign: the anode is negative in a galvanic cell and positive in an electrolytic cell."]}
+],
+"activity":"Describe the electrolysis of molten NaCl with the reactions at each electrode. Compare galvanic and electrolytic cells in a table. Explain three industrial uses of electrolytic cells.",
+"check":[
+{"q":"An electrolytic cell needs","o":["an external source of electrical energy","no energy","a salt bridge only","a spontaneous reaction"]},
+{"q":"In an electrolytic cell the anode is","o":["positive","negative","neutral","not present"]},
+{"q":"In both types of cell, oxidation occurs at the","o":["anode","cathode","salt bridge","electrolyte"]},
+{"q":"The reaction in an electrolytic cell is","o":["non-spontaneous","spontaneous","explosive","always exothermic"]},
+{"q":"Sodium is made industrially in the","o":["Downs cell","Daniell cell","dry cell","lead-acid cell"]}
+]},
+
+{"id":"c21-08","week":4,"title":"Acid-Base Titration: Apparatus, Indicators and Procedure","icon":"Target",
+"summary":"What titration is, the apparatus and indicators, and the step-by-step method for a neutralisation titration with its precautions.",
+"keyWords":["Titration","Burette","Pipette","Indicator","End point","Titre","Concordant"],
+"sections":[
+{"h":"What is titration?","p":["Acid-base titration is a method of finding the concentration of an acid or a base by reacting it with a solution of known concentration. It is a neutralisation reaction (H⁺ + OH⁻ → H₂O) in the presence of an indicator that shows the end point. It is used in laboratories, the food and drink industry, medicine factories and environmental testing.","A measured volume of one solution (usually by pipette) goes into a conical flask. The other solution, the titrant, is added from a burette until neutralisation (the end point)."]},
+{"h":"Acid-base theories (recap)","p":["Arrhenius: acids give H⁺ ions in water and bases give OH⁻ ions. Brønsted-Lowry: an acid is a proton donor and a base is a proton acceptor. Lewis: an acid is an electron-pair acceptor and a base is an electron-pair donor."]},
+{"h":"Apparatus","p":["Burette: a graduated glass tube with a tap, for delivering exact volumes of titrant. Pipette: for measuring a fixed volume, for example 25.0 cm³. Conical flask: holds the solution being analysed. Measuring cylinder: approximate volumes. White tile: helps to see colour changes. Funnel: fills the burette without spilling. Wash bottle: distilled water for rinsing. Retort stand and clamp: hold the burette upright. Indicator: shows the end point."]},
+{"h":"Indicators","p":["Phenolphthalein: colourless in acid, pink in alkali (pH range 8.3 to 10.0). Used for strong acid with strong base and for weak acid with strong base.","Methyl orange: red in acid, yellow in alkali, orange at the end point (pH range 3.1 to 4.4). Used for strong acid with strong base and for strong acid with weak base.","Litmus: red in acid and blue in alkali; not good for titrations because its change is not sharp."]},
+{"h":"Procedure","p":["1. Rinse the burette with the acid it will hold, the pipette with the alkali it will measure and the conical flask with distilled water only.","2. Fill the burette with the acid, clamp it upright, run a little out to remove air from the tip and record the initial reading at the bottom of the meniscus to 2 decimal places.","3. Use a pipette filler to put exactly 25.0 cm³ of the alkali (for example NaOH) into the flask.","4. Add 2 or 3 drops of indicator.","5. Stand the flask on a white tile. Run in the acid while swirling the flask. Near the end point add it drop by drop.","6. The end point is the first permanent colour change (for example colourless to faint pink).","7. Repeat until two or three titres are concordant (within 0.1 cm³) and take the average."],"img":{"src":"chm2-titration.jpg","alt":"A flow diagram of the titration procedure: fill the burette, pipette 25 cm3 of base, add indicator, titrate until the colour changes, record the titre, with the formula CaVa over CbVb equals na over nb","cap":"The steps of an acid-base titration."}},
+{"h":"Precautions","p":["Rinse every piece of apparatus correctly. Read the burette at eye level to avoid parallax error. Add the titrant slowly near the end point. Repeat the titration for concordant values. Choose a suitable indicator. Work in good light with a white tile."]},
+{"h":"Uses","p":["Finding the acidity of vinegar and soft drinks; quality control of medicines; alkalinity of water; adjusting acidity in food; and checking the purity of chemicals and fertilisers."]}
+],
+"activity":"Define titration and list five pieces of apparatus with their uses. Outline the steps of an acid-base titration. Why is the flask rinsed only with distilled water? (Any acid or alkali left in it would change the amount of reactant.)",
+"check":[
+{"q":"The solution run from the burette is the","o":["titrant","analyte","indicator","solute only"]},
+{"q":"Phenolphthalein in alkali is","o":["pink","red","yellow","colourless"]},
+{"q":"Concordant titres agree within","o":["0.1 cm³","1 cm³","5 cm³","0.5 dm³"]},
+{"q":"The conical flask is rinsed with","o":["distilled water only","the acid","the alkali","indicator"]},
+{"q":"To avoid parallax error, read the burette","o":["at eye level","from above","from below","with the eyes closed"]}
+]},
+
+{"id":"c21-09","week":4,"title":"Titration Calculations","icon":"Layers",
+"summary":"The formula C_aV_a / C_bV_b = n_a / n_b, with worked examples for concentration in mol/dm³ and g/dm³, and how to use the average titre.",
+"keyWords":["Molarity","Titre","Mole ratio","Concentration","Average titre"],
+"sections":[
+{"h":"The formula","p":["For a reaction a A + b B → products between an acid (A) and a base (B): (Cₐ × Vₐ) / (C_b × V_b) = nₐ / n_b. Here C is the concentration in mol/dm³, V is the volume (any unit, but the same for both), and n is the number of moles in the balanced equation.","Concentration in g/dm³ = concentration in mol/dm³ × molar mass. Moles = concentration × volume in dm³ (volume in cm³ ÷ 1 000)."]},
+{"h":"Example 1","p":["25.0 cm³ of NaOH solution needs 24.8 cm³ of 0.10 mol/dm³ HCl for neutralisation. Find the molarity of the NaOH. HCl + NaOH → NaCl + H₂O, so nₐ = n_b = 1. 0.10 × 24.8 / (C_b × 25.0) = 1. C_b = 0.10 × 24.8 ÷ 25.0 = 0.0992 mol/dm³."]},
+{"h":"Example 2: a 1 : 2 reaction","p":["20.0 cm³ of 0.10 mol/dm³ H₂SO₄ is neutralised by 25.0 cm³ of NaOH. H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O, so nₐ : n_b = 1 : 2. 0.10 × 20.0 / (C_b × 25.0) = 1/2. C_b = 0.10 × 20.0 × 2 ÷ 25.0 = 0.16 mol/dm³. In grams per dm³ (NaOH = 40): 0.16 × 40 = 6.4 g/dm³."]},
+{"h":"Example 3: using an average titre","p":["Titres: 24.70, 24.75 and 24.80 cm³. They agree within 0.1 cm³, so the average titre = (24.70 + 24.75 + 24.80) ÷ 3 = 24.75 cm³. Use this value in the formula. (Do not include a titre that is far away from the others.)"]},
+{"h":"Example 4: percentage purity","p":["2.00 g of impure NaOH is dissolved to make 250 cm³ of solution. 25.0 cm³ of it needs 20.0 cm³ of 0.20 mol/dm³ HCl. Moles of HCl = 0.20 × 0.0200 = 0.0040 mol, so moles of NaOH in 25.0 cm³ = 0.0040 mol. In 250 cm³: 0.040 mol. Mass = 0.040 × 40 = 1.60 g. Purity = 1.60 ÷ 2.00 × 100 = 80%."]}
+],
+"activity":"20.0 cm³ of 0.050 mol/dm³ HCl neutralises 25.0 cm³ of KOH solution. Find the molarity of the KOH (0.040 mol/dm³). 25.0 cm³ of NaOH needs 20.0 cm³ of 0.10 mol/dm³ H₂SO₄; find the molarity of NaOH (0.16 mol/dm³).",
+"check":[
+{"q":"For HCl + NaOH → NaCl + H₂O, nₐ / n_b =","o":["1","2","1/2","3"]},
+{"q":"25.0 cm³ NaOH needs 24.8 cm³ of 0.10 M HCl. The NaOH is about","o":["0.099 mol/dm³","0.10 mol/dm³ exactly","0.25 mol/dm³","0.0099 mol/dm³"]},
+{"q":"A solution of 0.16 mol/dm³ NaOH (M = 40) has a concentration of","o":["6.4 g/dm³","0.4 g/dm³","16 g/dm³","2.5 g/dm³"]},
+{"q":"The average of 24.70, 24.75 and 24.80 is","o":["24.75","24.70","24.80","74.25"]},
+{"q":"Moles = concentration in mol/dm³ ×","o":["volume in dm³","volume in cm³","molar mass","time"]}
+]},
+
+{"id":"c21-10","week":6,"title":"Solubility and Factors Affecting It","icon":"Layers",
+"summary":"The meaning of solubility, saturated, unsaturated and supersaturated solutions, and the factors that affect solubility.",
+"keyWords":["Solubility","Saturated","Unsaturated","Supersaturated","Henry's law","Like dissolves like"],
+"sections":[
+{"h":"Solubility","p":["Solubility is the maximum amount of solute that dissolves in 100 g of solvent at a given temperature to give a saturated solution. It is usually expressed in g per 100 g of solvent, or in mol/dm³. The solute is the substance that dissolves (salt, sugar) and the solvent is the liquid that dissolves it (water, ethanol).","Saturated solution: holds the largest possible amount of solute at that temperature. Unsaturated solution: holds less than that. Supersaturated solution: holds more than the usual maximum; it is made by dissolving at a high temperature and cooling slowly, and it is unstable (a tiny crystal makes the extra solute crystallise)."],"img":{"src":"chm2-supersaturation.jpg","alt":"Four beakers showing an unsaturated solution, a saturated solution, a supersaturated solution and the precipitate that forms when a seed crystal is added","cap":"Unsaturated, saturated and supersaturated solutions."}},
+{"h":"Factors affecting solubility","p":["1. Nature of solute and solvent: 'like dissolves like'. Polar solutes (sugar, salt) dissolve in polar solvents (water). Non-polar solutes (iodine, oil) dissolve in non-polar solvents (carbon tetrachloride, hexane).","2. Temperature: the solubility of most solids increases when the temperature rises (KNO₃ dissolves much more in hot water). The solubility of gases decreases when the temperature rises, which is why fish struggle to breathe in warm water.","3. Pressure: it has little effect on solids and liquids. The solubility of a gas increases with pressure (Henry's law). Soft drinks are bottled under pressure to keep the CO₂ dissolved.","4. Particle size: smaller particles dissolve faster because they expose more surface area. This affects the rate of dissolving, not the maximum amount.","5. Stirring or shaking: it speeds up dissolving but does not change the solubility."]},
+{"h":"Calculations","p":["Solubility = (mass of solute ÷ mass of solvent) × 100. Example 1: 20 g of KNO₃ dissolves in 50 g of water at 40 °C: solubility = 20/50 × 100 = 40 g/100 g water. Example 2: 108 g of KCl dissolves in 200 g of water at 60 °C: 108/200 × 100 = 54 g/100 g water. Example 3: 30 g of salt dissolves in 75 g of water: 30/75 × 100 = 40 g/100 g water."]}
+],
+"activity":"Define solubility and distinguish saturated, unsaturated and supersaturated solutions. State four factors that affect solubility with examples. Why does warm soda lose its fizz faster than cold soda? (Gas solubility falls as temperature rises.)",
+"check":[
+{"q":"A solution that holds more solute than normal and is unstable is","o":["supersaturated","saturated","unsaturated","dilute"]},
+{"q":"The solubility of most solids with a rise in temperature","o":["increases","decreases","stays the same","becomes zero"]},
+{"q":"The solubility of a gas rises when","o":["the pressure increases","the temperature increases","the solution is stirred","the gas is heated"]},
+{"q":"Iodine dissolves best in","o":["carbon tetrachloride","water","dilute acid","brine"]},
+{"q":"30 g of salt in 75 g of water gives a solubility of","o":["40 g/100 g water","30 g/100 g water","22.5 g/100 g water","2.5 g/100 g water"]}
+]},
+
+{"id":"c21-11","week":6,"title":"Solubility Curves, Crystallisation and Uses","icon":"BarChart2",
+"summary":"How solubility curves are drawn and read, how much solute crystallises on cooling, and the applications of solubility.",
+"keyWords":["Solubility curve","Crystallisation","KNO₃","NaCl","Cooling"],
+"sections":[
+{"h":"What is a solubility curve?","p":["A solubility curve is a graph of solubility (y-axis) against temperature (x-axis). To draw it: measure the solubility at different temperatures, plot the points and join them with a smooth curve."],"img":{"src":"chm2-solubility.png","alt":"Solubility curves for potassium nitrate (steep rise) and sodium chloride (almost flat) from 0 to 100 degrees Celsius, with 136 g marked at 70 degrees and 64 g at 40 degrees","cap":"Solubility curves for KNO₃ and NaCl."}},
+{"h":"Reading the curve","p":["A steep rising curve means the solubility rises a lot with temperature (KNO₃). A nearly flat curve means temperature has little effect (NaCl). A falling curve is typical of a gas (CO₂, O₂). Where two curves cross, the two substances have the same solubility at that temperature. A point on the curve is a saturated solution; below it is unsaturated; above it is supersaturated."]},
+{"h":"Crystallisation by cooling","p":["From the curve, KNO₃ dissolves 136 g in 100 g of water at 70 °C but only 64 g at 40 °C. If a saturated solution at 70 °C is cooled to 40 °C, the extra solute crystallises: 136 − 64 = 72 g per 100 g of water."]},
+{"h":"Harder example: starting with 300 g of solution","p":["300 g of a saturated KNO₃ solution at 70 °C is cooled to 40 °C. How much KNO₃ crystallises? At 70 °C, 100 g of water holds 136 g, so 236 g of solution holds 136 g of KNO₃. In 300 g of solution: KNO₃ = 300 × 136/236 = 172.9 g and water = 300 − 172.9 = 127.1 g. At 40 °C this water can hold 64 × 127.1/100 = 81.4 g. Crystals = 172.9 − 81.4 = 91.5 g."]},
+{"h":"Uses of solubility data","p":["Purifying substances by crystallisation (impurities stay dissolved). Making medicines (drugs dissolve in body fluids). Making sugar and salt. Oxygen solubility decides whether fish survive in warm rivers; hot waste water from factories can kill fish. Scale in boilers. The carbonation of soft drinks (CO₂ under pressure). Sugar from sugarcane juice is obtained by evaporating the juice and crystallising the sugar."]}
+],
+"activity":"Sketch and label curves for (a) KNO₃, (b) NaCl and (c) a gas. Calculate the mass of KNO₃ that crystallises when 300 g of a saturated solution at 70 °C is cooled to 40 °C (91.5 g). Explain why fish die in heated rivers.",
+"check":[
+{"q":"From 70 °C to 40 °C, 100 g of water with KNO₃ deposits","o":["72 g","136 g","64 g","200 g"]},
+{"q":"A nearly flat solubility curve belongs to","o":["NaCl","KNO₃","a gas","every solid"]},
+{"q":"A falling solubility curve is typical of","o":["a gas","KNO₃","sugar","sand"]},
+{"q":"A point above the curve is","o":["supersaturated","unsaturated","saturated","impossible"]},
+{"q":"Crystallisation can purify a solid because","o":["impurities stay in solution","impurities crystallise first","the solid melts","the solvent evaporates at once"]}
+]}
+]

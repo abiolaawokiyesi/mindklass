@@ -1,0 +1,193 @@
+[
+    {
+        "id":  "b23-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Biology Third Term: the nervous system, sense organs, populations and ecosystems, human reproduction, seeds, fruits and animal behaviour.",
+        "keyWords":  [
+                         "SS2 Biology - Third Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Biology - Third Term",
+                             "p":  [
+                                       "Welcome to SS2 Biology, Third Term. This term explains how the body senses and responds to the world through nerves, the brain and the sense organs, how populations and ecosystems work, how humans reproduce, how flowering plants make seeds and fruits, and how animals court and care for their young.",
+                                       "Read each unit slowly, study the pictures and answer the short check questions. Where the original lesson note needed a correction or a Nigerian example, it is explained in the unit."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Biology - Third Term",
+                             "p":  [
+                                       "Here is the plan for the term. Tick each unit when you finish it."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Coordination and the Neuron"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "How a Nerve Impulse Travels and Crosses a Synapse"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "1",
+                                                          "The Central Nervous System: Brain and Spinal Cord"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "1",
+                                                          "The Peripheral and Autonomic Nervous System and Reflex Actions"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "2",
+                                                          "The Eye: Structure and How We See"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "2",
+                                                          "Accommodation, the Pupil Reflex and Defects of the Eye"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "2",
+                                                          "The Ear: Hearing and Balance"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "2",
+                                                          "Nose, Tongue and Skin: Smell, Taste and Touch"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "3",
+                                                          "Ecology of Population: Size, Density, Growth and Limiting Factors"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "3",
+                                                          "Estimating Population Size: Quadrats and Capture-Mark-Recapture"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "4",
+                                                          "The Ecosystem, Food Chains, Food Webs and Energy Flow"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "4",
+                                                          "Ecological Pyramids, Cycles and the Balance of Nature"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "6",
+                                                          "The Male Reproductive System"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "6",
+                                                          "The Female Reproductive System and the Gametes"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "6",
+                                                          "Ovulation and the Menstrual Cycle"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "6",
+                                                          "Fertilisation, Pregnancy and Birth"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "8",
+                                                          "From Pollination to Fertilisation in Flowering Plants"
+                                                      ],
+                                                      [
+                                                          "19",
+                                                          "8",
+                                                          "The Structure of Seeds: Bean and Maize"
+                                                      ],
+                                                      [
+                                                          "20",
+                                                          "8",
+                                                          "Germination of Seeds"
+                                                      ],
+                                                      [
+                                                          "21",
+                                                          "9",
+                                                          "Fruits: Structure and Classification"
+                                                      ],
+                                                      [
+                                                          "22",
+                                                          "9",
+                                                          "Seed and Fruit Dispersal and Parthenocarpy"
+                                                      ],
+                                                      [
+                                                          "23",
+                                                          "10",
+                                                          "Courtship Behaviour in Animals"
+                                                      ],
+                                                      [
+                                                          "24",
+                                                          "10",
+                                                          "Parental Care in Animals"
+                                                      ],
+                                                      [
+                                                          "25",
+                                                          "11",
+                                                          "Third Term Revision and Exam Practice"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic comes first in this term?",
+                          "o":  [
+                                    "Nervous coordination",
+                                    "Fruits",
+                                    "Courtship",
+                                    "Population ecology"
+                                ]
+                      },
+                      {
+                          "q":  "Where do you study the eye and the ear?",
+                          "o":  [
+                                    "Sense organs",
+                                    "Population ecology",
+                                    "Seed structure",
+                                    "Pollination"
+                                ]
+                      },
+                      {
+                          "q":  "The term ends with",
+                          "o":  [
+                                    "Revision and exam practice",
+                                    "Fertilisation",
+                                    "Quadrats",
+                                    "The brain"
+                                ]
+                      }
+                  ]
+    }
+]

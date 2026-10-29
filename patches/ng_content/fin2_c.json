@@ -1,0 +1,230 @@
+[
+{"id":"fa2-16","week":8,"title":"Cost of Goods Sold, Gross Profit and Special Items","icon":"BarChart2","summary":"The four-step calculation of cost of goods sold and gross profit, two worked examples and how to treat carriage, wages, returns and discounts.",
+"keyWords":["Net purchases","Cost of goods sold","Gross profit","Carriage inwards","Factory wages"]
+,"sections":[
+{"h":"Formula","p":["Cost of goods sold = opening stock + net purchases + direct expenses − closing stock. Net purchases = purchases − returns outwards + carriage inwards.","Step 1: net purchases. Step 2: cost of goods available = opening stock + net purchases + direct expenses. Step 3: cost of goods sold = cost of goods available − closing stock. Step 4: gross profit = net sales − cost of goods sold, where net sales = sales − returns inwards."]},
+{"h":"Example 1","p":["Opening stock ₦30,000; purchases ₦150,000; returns outwards ₦5,000; carriage inwards ₦8,000; closing stock ₦40,000; sales ₦250,000; returns inwards ₦10,000.","Net purchases = 150,000 − 5,000 + 8,000 = ₦153,000. Cost of goods available = 30,000 + 153,000 = ₦183,000. Cost of goods sold = 183,000 − 40,000 = ₦143,000. Net sales = 250,000 − 10,000 = ₦240,000. Gross profit = 240,000 − 143,000 = ₦97,000."]},
+{"h":"Example 2: Taiwo Enterprises, year ended 31 December 2024","p":["Balances: opening stock 25,000; purchases 180,000; sales 320,000; returns inwards 12,000; returns outwards 8,000; carriage inwards 6,500; carriage outwards 4,200; factory wages 35,000; office wages 28,000; import duty 9,500; closing stock 38,000."],
+"tbl":{"head":["Trading account","₦","₦"],"rows":[
+["Sales","","320,000"],
+["Less: returns inwards","","(12,000)"],
+["Net sales","","308,000"],
+["Opening stock","25,000",""],
+["Purchases","180,000",""],
+["Less: returns outwards","(8,000)","172,000"],
+["Add: carriage inwards","","6,500"],
+["Add: factory wages","","35,000"],
+["Add: import duty","","9,500"],
+["Cost of goods available","","248,000"],
+["Less: closing stock","","(38,000)"],
+["Cost of goods sold","","(210,000)"],
+["Gross profit","","98,000"]]}},
+{"h":"What was left out, and why","p":["Carriage outwards ₦4,200 is a selling expense, so it goes to the profit and loss account. Office wages ₦28,000 are an administrative expense, so they go to the profit and loss account. Factory wages ₦35,000 are a direct expense, so they go in the trading account. Import duty ₦9,500 is part of the cost of the goods, so it goes in the trading account."]},
+{"h":"Special items","p":["Carriage inwards (on purchases): the cost of bringing goods in; it is part of the cost of goods and goes in the trading account. Carriage outwards (on sales): the cost of delivering goods to customers; it is a selling expense and goes in the profit and loss account.","Wages: factory wages are direct labour and go in the trading account; office wages are administrative and go in the profit and loss account.","Returns: returns inwards are deducted from sales; returns outwards are deducted from purchases.","Trade discount: a reduction in the list price, already deducted before recording, so it is not recorded in the books. Cash discount: given for early payment and recorded in the books; it goes to the profit and loss account, not the trading account.","Drawings in goods: when the owner takes goods for personal use, purchases are reduced (Dr Drawings, Cr Purchases) before the trading account is prepared."]}
+],
+"activity":"Prepare the trading account for the year ended 30 June 2024: stock 1 July 2023 ₦42,000; stock 30 June 2024 ₦48,000; purchases ₦280,000; sales ₦450,000; returns inwards ₦15,000; returns outwards ₦10,000; carriage inwards ₦8,500; carriage outwards ₦6,000; factory wages ₦45,000; office salaries ₦60,000; import duty ₦12,000. (Net sales 435,000; cost of goods sold 42,000 + 270,000 + 8,500 + 45,000 + 12,000 − 48,000 = 329,500; gross profit ₦105,500. Carriage outwards and office salaries are not included.)",
+"check":[
+{"q":"Net purchases = purchases − returns outwards +","o":["Carriage inwards","Carriage outwards","Drawings","Salaries"]},
+{"q":"In Example 1, the gross profit is","o":["₦97,000","₦143,000","₦240,000","₦153,000"]},
+{"q":"Carriage outwards goes to the","o":["Profit and loss account","Trading account","Balance sheet","Capital account"]},
+{"q":"Factory wages belong in the","o":["Trading account","Profit and loss account","Balance sheet","Suspense account"]},
+{"q":"Cash discount is shown in the","o":["Profit and loss account","Trading account","Stock","Capital"]},
+{"q":"Cost of goods available = opening stock +","o":["Net purchases and direct expenses","Sales","Closing stock","Drawings"]}]},
+
+{"id":"fa2-17","week":9,"title":"The Profit and Loss Account: Meaning, Format and Items","icon":"BarChart2","summary":"What the profit and loss account is, gross profit compared with net profit, its purposes, format and how expenses are classified.",
+"keyWords":["Net profit","Net loss","Administrative expenses","Selling expenses","Financial expenses"]
+,"sections":[
+{"h":"Meaning","p":["The profit and loss account is an account prepared to find the net profit or net loss of a business by comparing all income with all expenses. It is the second part of the final accounts, after the trading account. The link is: trading account → gross profit → profit and loss account → net profit.","Net profit is what remains after deducting all expenses from total income. Net loss arises when expenses are more than income."]},
+{"h":"Gross profit and net profit","p":["Gross profit comes from trading only (sales less cost of goods sold) and is shown in the trading account. Net profit is the overall profit after ALL expenses: gross profit + other income − all expenses. It is shown in the profit and loss account."]},
+{"h":"Purposes","p":["1. To find the net profit or loss. 2. To show how the gross profit was used and what the other income and expenses were. 3. To provide a basis for tax. 4. To judge performance and control of expenses by comparing periods. 5. To help decisions on expansion, costs, pricing and investment. 6. To inform owners, lenders and management."]},
+{"h":"Format (vertical)","p":["Study the table. If total expenses exceed total income, the result is a net loss."],
+"tbl":{"head":["Profit and loss account for the year ended ...","₦","₦"],"rows":[
+["Gross profit (from the trading account)","","XXX"],
+["Add: other income (commission received, discount received, rent received, interest received, profit on sale of an asset)","XXX",""],
+["Total income","","XXX"],
+["Less: expenses (salaries, rent, rates, insurance, electricity, telephone, stationery, bad debts, discount allowed, depreciation, carriage outwards, interest paid, advertising)","(XXX)",""],
+["Net profit","","XXX"]]}},
+{"h":"Items on the account","p":["Debit side (expenses). Administrative expenses: office salaries, rent, rates, insurance, stationery, telephone, postage, printing, legal fees, audit fees, general expenses. Selling and distribution expenses: advertising, sales commission, carriage outwards, delivery expenses, packaging, marketing, sales promotion. Financial expenses: interest paid, bank charges, loan and overdraft interest. Other expenses: bad debts, discount allowed, depreciation, loss on sale of an asset, donations, fines.","Credit side (income). Gross profit, then other income: commission received, discount received, rent received, interest received, dividend received, profit on sale of an asset, bad debts recovered. Net profit is the balancing figure and is transferred to the capital account."]},
+{"h":"Classification of expenses","p":["By nature: direct expenses (factory wages, import duty, carriage inwards) go in the trading account. Indirect expenses (office salaries, rent, electricity) go in the profit and loss account.","By function: administrative, selling, distribution and financial expenses.","By behaviour: fixed expenses do not change with sales (rent, salaries, insurance). Variable expenses change with sales (sales commission, carriage outwards)."]},
+{"h":"Important distinctions","p":["Discount allowed is given to customers, reduces income and is debited. Discount received comes from suppliers, increases income and is credited. Carriage inwards is in the trading account. Carriage outwards is in the profit and loss account."]}
+],
+"activity":"List five expenses found in the profit and loss account and say where carriage outwards appears. (Salaries, rent, insurance, electricity, advertising; carriage outwards appears in the profit and loss account.)",
+"check":[
+{"q":"Net profit is","o":["Gross profit + other income − expenses","Sales − purchases","Capital − drawings","Cash − debts"]},
+{"q":"Which is a financial expense?","o":["Interest paid","Advertising","Salaries","Rent"]},
+{"q":"Discount received is","o":["Income","An expense","An asset","A liability"]},
+{"q":"Advertising is a","o":["Selling expense","Direct expense","Financial expense","Asset"]},
+{"q":"Net profit is transferred to the","o":["Capital account","Debtors account","Stock account","Bank account"]}]},
+
+{"id":"fa2-18","week":9,"title":"A Worked Example and the Transfer of Profit to Capital","icon":"Target","summary":"A full trading and profit and loss account (Bola Traders), the transfer of net profit or net loss to capital, how the final accounts link together and common mistakes.",
+"keyWords":["Trading account","Net profit","Capital account","Drawings","Closing capital"]
+,"sections":[
+{"h":"The question: Bola Traders at 31 December 2024","p":["Trial balance (debit): drawings 25,000; buildings 120,000; motor vehicles 60,000; furniture 40,000; stock (1 January 2024) 35,000; purchases 200,000; returns inwards 8,000; carriage inwards 7,500; carriage outwards 4,500; debtors 55,000; bank 28,000; cash 3,000; salaries 48,000; rent 18,000; insurance 6,000; electricity 5,000; telephone 3,000; advertising 8,500; discount allowed 4,000; bad debts 2,000. Credit: sales 350,000; returns outwards 6,000; creditors 42,000; discount received 2,500; commission received 5,000; capital. Closing stock: ₦42,000.","Correction: the debit balances total ₦680,500 and the credit balances (without capital) total ₦405,500. So capital must be ₦275,000 for the trial balance to agree. (Your notes show capital as ₦150,000 and a trial balance that did not agree.)"]},
+{"h":"Trading account","p":["Study the table."],
+"tbl":{"head":["Bola Traders: trading account","₦","₦"],"rows":[
+["Sales","","350,000"],
+["Less: returns inwards","","(8,000)"],
+["Net sales","","342,000"],
+["Opening stock","35,000",""],
+["Add: purchases","200,000",""],
+["Less: returns outwards","(6,000)","194,000"],
+["Add: carriage inwards","","7,500"],
+["Cost of goods available","","236,500"],
+["Less: closing stock","","(42,000)"],
+["Cost of goods sold","","(194,500)"],
+["Gross profit","","147,500"]]}},
+{"h":"Profit and loss account","p":["Study the table."],
+"tbl":{"head":["Bola Traders: profit and loss account","₦","₦"],"rows":[
+["Gross profit","","147,500"],
+["Add: discount received","2,500",""],
+["Add: commission received","5,000","7,500"],
+["Total income","","155,000"],
+["Salaries","48,000",""],
+["Rent","18,000",""],
+["Insurance","6,000",""],
+["Electricity","5,000",""],
+["Telephone","3,000",""],
+["Advertising","8,500",""],
+["Carriage outwards","4,500",""],
+["Discount allowed","4,000",""],
+["Bad debts","2,000",""],
+["Total expenses","","(99,000)"],
+["Net profit","","56,000"]]}},
+{"h":"Transfer of the net profit to capital","p":["Net profit belongs to the owner, so it increases capital. Journal: Dr Profit and loss account ₦56,000; Cr Capital account ₦56,000. In the capital account, drawings are deducted. Capital account: opening balance ₦275,000, add net profit ₦56,000, less drawings ₦25,000, closing capital ₦306,000.","A net loss does the opposite: Dr Capital, Cr Profit and loss account. For example, with capital of ₦150,000, a net loss of ₦20,000 and drawings of ₦25,000, the closing capital is 150,000 − 20,000 − 25,000 = ₦105,000.","The balance sheet check: assets are buildings 120,000, motor vehicles 60,000, furniture 40,000, closing stock 42,000, debtors 55,000, bank 28,000 and cash 3,000, which total ₦348,000. Capital ₦306,000 plus creditors ₦42,000 also equals ₦348,000. The balance sheet balances."]},
+{"h":"How the statements link","p":["The trial balance feeds the trading account, which gives the gross profit; this goes to the profit and loss account, which gives the net profit; this goes to the capital account; and the closing capital goes to the balance sheet."],
+"img":{"src":"fin-final-accounts.png","alt":"Five boxes in a row: trial balance, trading account, profit and loss account, capital account and balance sheet, joined by arrows","cap":"How the final accounts link together."}},
+{"h":"Common mistakes","p":["Putting carriage outwards in the trading account (it belongs in the profit and loss account). Putting discount allowed and discount received on the same side. Including capital, drawings, assets or liabilities in the profit and loss account. Leaving out the gross profit. Putting factory wages in the profit and loss account. Forgetting the closing stock."]}
+],
+"activity":"Prepare the trading and profit and loss account: opening stock ₦48,000; closing stock ₦55,000; purchases ₦250,000; sales ₦420,000; returns inwards ₦12,000; returns outwards ₦8,000; carriage inwards ₦9,000; carriage outwards ₦6,500; salaries ₦65,000; rent ₦24,000; insurance ₦8,000; advertising ₦12,000; discount allowed ₦5,000; discount received ₦3,500; commission received ₦6,000; bad debts ₦3,000; electricity ₦7,500. (Net sales 408,000; cost of goods sold 244,000; gross profit ₦164,000; expenses ₦131,000; other income ₦9,500; net profit ₦42,500.)",
+"check":[
+{"q":"Bola's gross profit is","o":["₦147,500","₦155,000","₦56,000","₦342,000"]},
+{"q":"Bola's net profit is","o":["₦56,000","₦147,500","₦99,000","₦155,000"]},
+{"q":"Net profit is","o":["Added to capital","Deducted from capital","Added to stock","Deducted from debtors"]},
+{"q":"Closing capital = opening capital + net profit −","o":["Drawings","Sales","Purchases","Stock"]},
+{"q":"A net loss","o":["Reduces capital","Increases capital","Has no effect","Increases stock"]},
+{"q":"Drawings appear in the","o":["Capital account or balance sheet","Trading account","Profit and loss account","Sales account"]}]},
+
+{"id":"fa2-19","week":10,"title":"Adjustments: Closing Stock, Prepayments and Accruals","icon":"Target","summary":"Why adjustments are made, how closing stock, prepaid expenses and accrued expenses are treated, and a formula for the expense of the year.",
+"keyWords":["Adjustments","Closing stock","Prepayment","Accrual","Outstanding expense"]
+,"sections":[
+{"h":"Why adjust?","p":["Adjustments are changes made at the end of the period so that the profit is accurate and the financial position is true. They apply the accrual concept: income and expenses are recorded in the period to which they belong, not when cash is paid or received. Common adjustments are closing stock, prepayments, accruals, depreciation, provision for bad debts, bad debts written off, accrued interest and goods taken for own use."]},
+{"h":"Closing stock","p":["Closing stock is the value of the goods not sold at the end of the period. It is valued at the lower of cost and net realisable value (NRV). Cost is the purchase price plus costs of bringing the stock to its present state. NRV is the selling price less the costs of making the sale. Example: stock cost ₦50,000, NRV ₦45,000: value at ₦45,000. Stock cost ₦50,000, NRV ₦60,000: value at ₦50,000.","If the closing stock is already in the trial balance, it is shown only in the balance sheet as an asset. If the closing stock is given as an adjustment (not in the trial balance), it appears in TWO places: in the trading account (deducted from the cost of goods) and in the balance sheet (current assets).","Journal: Dr Stock account ₦40,000, Cr Trading account ₦40,000 (being closing stock recorded)."]},
+{"h":"Prepayments (prepaid expenses)","p":["A prepaid expense has been paid in the current period for a benefit in a future period. Examples: rent paid for next year, an insurance premium for the next period, subscriptions and rates paid in advance. Treatment: deduct the prepayment from the amount paid to find the expense, and show the prepayment as a current asset.","Example: rent paid ₦120,000, of which ₦20,000 is for next year. Profit and loss account: rent ₦100,000. Balance sheet: prepaid rent ₦20,000 (current asset).","Detailed example: insurance of ₦36,000 was paid on 1 April 2024 for one year; the year ends on 31 December. The monthly premium is 36,000 ÷ 12 = ₦3,000. The 2024 expense is 9 months = ₦27,000. The prepayment for 2025 is 3 months = ₦9,000. Journal: Dr Profit and loss ₦27,000; Dr Prepaid insurance ₦9,000; Cr Insurance ₦36,000."]},
+{"h":"Accruals (outstanding expenses)","p":["An accrued expense has been incurred in the period but not yet paid. Examples: salaries earned but unpaid, rent due but unpaid, electricity used but not billed, interest owing. Treatment: add the outstanding amount to the amount paid to find the expense, and show it as a current liability.","Example: salaries paid ₦480,000, outstanding ₦40,000. Profit and loss account: salaries ₦520,000. Balance sheet: outstanding salaries ₦40,000 (current liability).","Detailed example: rent is ₦10,000 a month and was paid up to November; December is unpaid. Paid 11 months: ₦110,000; outstanding ₦10,000; expense ₦120,000. Journal: Dr Profit and loss ₦120,000; Cr Bank ₦110,000; Cr Outstanding rent ₦10,000."]},
+{"h":"Combined prepayment and accrual","p":["The general rule is: expense for the year = cash paid in the year + opening prepayment − closing prepayment − opening accrual + closing accrual.","Example: rent paid during the year ₦144,000; rent prepaid at the start of the year ₦12,000 (it was paid last year but belongs to this year); rent outstanding at the end ₦15,000; no prepayment at the end. Expense = 144,000 + 12,000 + 15,000 = ₦171,000. The profit and loss account is charged ₦171,000; the balance sheet shows outstanding rent of ₦15,000 as a liability."],
+"tbl":{"head":["Item","Effect on the expense for the year"],"rows":[
+["Cash paid in the year","Starting figure"],
+["Opening prepayment (paid last year for this year)","Add"],
+["Closing prepayment (paid this year for next year)","Deduct"],
+["Opening accrual (owed at the start, paid this year)","Deduct"],
+["Closing accrual (owed at the end)","Add"]]}}
+],
+"activity":"Folake Stores: insurance ₦24,000 paid on 1 July 2024 for one year (year end 31 December); salaries paid ₦96,000 with December's ₦10,000 unpaid; rent paid ₦48,000 including ₦8,000 for January 2025. Find the profit and loss charge and the balance sheet item for each. (Insurance ₦12,000 expense, prepaid ₦12,000; salaries ₦106,000 expense, accrued ₦10,000; rent ₦40,000 expense, prepaid ₦8,000.)",
+"check":[
+{"q":"A prepaid expense is shown in the balance sheet as","o":["A current asset","A current liability","Capital","Drawings"]},
+{"q":"Outstanding salaries are","o":["Added to the amount paid","Deducted from the amount paid","Ignored","Shown as an asset"]},
+{"q":"Stock is valued at the","o":["Lower of cost and NRV","Higher of cost and NRV","Selling price","Zero"]},
+{"q":"Insurance ₦36,000 paid on 1 April for a year gives a December expense of","o":["₦27,000","₦36,000","₦9,000","₦3,000"]},
+{"q":"Closing stock given as an adjustment appears","o":["In two places","Only in the balance sheet","Only in the trading account","Nowhere"]},
+{"q":"Rent paid 144,000 + opening prepaid 12,000 + closing accrued 15,000 gives","o":["₦171,000","₦147,000","₦144,000","₦159,000"]}]},
+
+{"id":"fa2-20","week":10,"title":"Adjustments: Depreciation, Provision for Bad Debts and Bad Debts","icon":"Target","summary":"Why and how assets are depreciated (straight-line and reducing balance), the provision for depreciation, provisions for doubtful debts (new, increased and decreased), and bad debts written off or recovered.",
+"keyWords":["Depreciation","Straight line","Reducing balance","Provision for bad debts","Bad debts"]
+,"sections":[
+{"h":"Depreciation","p":["Depreciation is the systematic spreading of the cost of a fixed asset over its useful life. We provide for it because assets lose value over time, to match the cost with the income they help to earn, to show the true value of assets, and to follow the accrual and prudence concepts.","Causes: wear and tear, obsolescence (becoming out of date), the passage of time and depletion (for natural resources like a mine)."]},
+{"h":"Methods","p":["Straight-line method: the same amount every year. Annual depreciation = (cost − scrap value) ÷ useful life, or cost × rate. Example: cost ₦100,000, scrap value ₦10,000, life 10 years. Depreciation = (100,000 − 10,000) ÷ 10 = ₦9,000 a year.","Reducing balance method: a fixed percentage of the book value (cost less depreciation so far). It gives more depreciation in the early years. Example: cost ₦100,000, rate 20%. Year 1: 20% of 100,000 = ₦20,000. Year 2: 20% of 80,000 = ₦16,000. Year 3: 20% of 64,000 = ₦12,800."]},
+{"h":"Treatment in the accounts","p":["Method A: reduce the asset directly. Method B (better): keep the asset at cost and build up a provision for depreciation account, so that the balance sheet shows cost, total depreciation to date and net book value. Example: machinery at cost ₦100,000; less provision for depreciation ₦20,000; net book value ₦80,000.","Journal each year: Dr Depreciation account (expense) ₦20,000; Cr Provision for depreciation ₦20,000. The depreciation account is then transferred to the profit and loss account. In Year 2 the provision account carries ₦20,000 from Year 1 plus ₦20,000 for the year, giving ₦40,000."]},
+{"h":"Provision for bad (doubtful) debts","p":["A provision is an amount set aside out of profit for debts that may not be paid. It follows the prudence concept. A specific provision is for named debtors likely to default. A general provision is a percentage of all debtors, based on experience.","New provision: debtors ₦100,000, provision 5% = ₦5,000. Profit and loss account: provision ₦5,000. Balance sheet: debtors ₦100,000 less provision ₦5,000 = net debtors ₦95,000.","Increase: old provision ₦5,000; debtors ₦120,000; new provision at 5% = ₦6,000. Only the increase of ₦1,000 is charged to the profit and loss account (Dr Profit and loss, Cr Provision).","Decrease: old provision ₦5,000; debtors ₦80,000; new provision at 5% = ₦4,000. The decrease of ₦1,000 is added to profit (Dr Provision, Cr Profit and loss)."]},
+{"h":"Bad debts","p":["A bad debt is a debt that is definitely lost and must be written off. A provision is an estimate of a loss that may happen. To write off a bad debt: Dr Bad debts, Cr the debtor. It is an expense in the profit and loss account, and debtors are reduced in the balance sheet.","If a debt written off is later recovered: Dr Bank, Cr Bad debts recovered (income)."]},
+{"h":"Bad debts and the provision together","p":["Example: debtors ₦150,000; bad debts to write off ₦10,000; provision of 5% of the remaining debtors; old provision ₦6,000. Step 1: debtors after write-off 150,000 − 10,000 = ₦140,000. Step 2: new provision 5% × 140,000 = ₦7,000. Step 3: increase = 7,000 − 6,000 = ₦1,000. Profit and loss: bad debts ₦10,000 and increase in provision ₦1,000. Balance sheet: debtors ₦140,000 less provision ₦7,000 = ₦133,000."]},
+{"h":"Practice: Kunle Traders","p":["Items: rent ₦36,000 with ₦6,000 prepaid; insurance ₦18,000 with ₦3,000 outstanding; salaries ₦72,000 with ₦8,000 outstanding; motor vehicles at cost ₦120,000, provision for depreciation ₦30,000, depreciation 20% on cost; debtors ₦80,000 with ₦5,000 to be written off; old provision ₦4,000, new provision 5% of debtors.","Answers: rent expense ₦30,000 (prepaid ₦6,000, asset); insurance expense ₦21,000 (outstanding ₦3,000, liability); salaries expense ₦80,000 (outstanding ₦8,000, liability); depreciation ₦24,000 (provision becomes ₦54,000; net book value ₦66,000); bad debts ₦5,000; debtors after write-off ₦75,000; new provision 5% = ₦3,750, a decrease of ₦250 from ₦4,000, which is added to profit; net debtors ₦71,250."]}
+],
+"activity":"A machine cost ₦200,000 and has a scrap value of ₦20,000 and a life of 6 years. What is the straight-line depreciation each year, and what is the book value after 2 years? (Depreciation (200,000 − 20,000) ÷ 6 = ₦30,000; book value 200,000 − 60,000 = ₦140,000.)",
+"check":[
+{"q":"Straight-line depreciation charges","o":["The same amount every year","More in later years","Nothing in year one","A changing percentage of the book value"]},
+{"q":"Reducing balance depreciation is a percentage of the","o":["Book value","Original cost only","Scrap value","Sales"]},
+{"q":"A bad debt is written off by debiting","o":["Bad debts account","The debtor","Cash","Provision"]},
+{"q":"Debtors ₦100,000 with a 5% provision give net debtors of","o":["₦95,000","₦105,000","₦5,000","₦100,000"]},
+{"q":"A decrease in the provision for bad debts","o":["Increases profit","Reduces profit","Has no effect","Increases debtors"]},
+{"q":"Cost ₦100,000 at 20% reducing balance, the year 2 charge is","o":["₦16,000","₦20,000","₦12,800","₦10,000"]}]},
+
+{"id":"fa2-21","week":10,"title":"A Comprehensive Example with Adjustments","icon":"BarChart2","summary":"Preparing the trading account, the profit and loss account and the balance sheet extract for Amina Enterprises using six adjustments.",
+"keyWords":["Final accounts","Adjustments","Net book value","Net current assets","Financed by"]
+,"sections":[
+{"h":"The question","p":["Amina Enterprises trial balance at 31 December 2024. Debit: drawings 30,000; premises 150,000; motor vehicles 80,000; furniture 50,000; stock (1 January) 40,000; purchases 220,000; debtors 60,000; bank 25,000; salaries 60,000; rent 24,000; insurance 12,000. Credit: sales 400,000; creditors 45,000; provision for bad debts 3,000; provision for depreciation, motor vehicles 20,000; provision for depreciation, furniture 10,000; capital.","Adjustments: (1) closing stock ₦48,000; (2) rent prepaid ₦4,000; (3) salaries outstanding ₦5,000; (4) depreciate motor vehicles 20%; (5) depreciate furniture 10%; (6) keep the provision for bad debts at 5% of debtors.","Correction: the debit balances total ₦751,000 and the credits without capital total ₦478,000, so capital must be ₦273,000 for the trial balance to agree. (Your notes show capital of ₦200,000 and a difference of ₦73,000.)"]},
+{"h":"Workings","p":["Rent: paid 24,000 less prepaid 4,000 = ₦20,000. Salaries: paid 60,000 plus outstanding 5,000 = ₦65,000. Depreciation of motor vehicles: 20% × cost ₦80,000 = ₦16,000; total provision 20,000 + 16,000 = ₦36,000; net book value ₦44,000. Depreciation of furniture: 10% × ₦50,000 = ₦5,000; total provision 10,000 + 5,000 = ₦15,000; net book value ₦35,000. Provision for bad debts: 5% × 60,000 = ₦3,000, the same as the old provision, so there is no charge."]},
+{"h":"Trading account","p":["Study the table."],
+"tbl":{"head":["Amina Enterprises: trading account","₦","₦"],"rows":[
+["Sales","","400,000"],
+["Opening stock","40,000",""],
+["Add: purchases","220,000",""],
+["Cost of goods available","260,000",""],
+["Less: closing stock","(48,000)",""],
+["Cost of goods sold","","(212,000)"],
+["Gross profit","","188,000"]]}},
+{"h":"Profit and loss account","p":["Study the table."],
+"tbl":{"head":["Amina Enterprises: profit and loss account","₦","₦"],"rows":[
+["Gross profit","","188,000"],
+["Salaries (60,000 + 5,000)","65,000",""],
+["Rent (24,000 − 4,000)","20,000",""],
+["Insurance","12,000",""],
+["Depreciation, motor vehicles","16,000",""],
+["Depreciation, furniture","5,000",""],
+["Provision for bad debts (no change)","0",""],
+["Total expenses","","(118,000)"],
+["Net profit","","70,000"]]}},
+{"h":"Balance sheet","p":["Study the table."],
+"tbl":{"head":["Balance sheet at 31 December 2024","Cost ₦","Provision ₦","Net ₦"],"rows":[
+["Premises","150,000","-","150,000"],
+["Motor vehicles","80,000","36,000","44,000"],
+["Furniture","50,000","15,000","35,000"],
+["Fixed assets","280,000","51,000","229,000"],
+["Stock","","","48,000"],
+["Debtors 60,000 less provision 3,000","","","57,000"],
+["Prepaid rent","","","4,000"],
+["Bank","","","25,000"],
+["Current assets","","","134,000"],
+["Creditors","","","(45,000)"],
+["Outstanding salaries","","","(5,000)"],
+["Net current assets","","","84,000"],
+["Total net assets","","","313,000"],
+["Capital","","","273,000"],
+["Add: net profit","","","70,000"],
+["Less: drawings","","","(30,000)"],
+["Financed by","","","313,000"]]}},
+{"h":"Check","p":["Net assets ₦313,000 equal the owner's capital ₦313,000 (273,000 + 70,000 − 30,000). The balance sheet balances, which proves that the answer and the corrected capital are right."]}
+],
+"activity":"Find the closing capital if capital is ₦273,000, net profit ₦70,000 and drawings ₦30,000, and say what it should equal on the balance sheet. (₦313,000; it equals total net assets.)",
+"check":[
+{"q":"Amina's gross profit is","o":["₦188,000","₦212,000","₦70,000","₦400,000"]},
+{"q":"Amina's net profit is","o":["₦70,000","₦188,000","₦118,000","₦16,000"]},
+{"q":"Amina's net current assets are","o":["₦84,000","₦134,000","₦50,000","₦313,000"]},
+{"q":"The motor vehicle net book value is","o":["₦44,000","₦80,000","₦36,000","₦60,000"]},
+{"q":"No charge arises for bad debts because","o":["The new provision equals the old","There are no debtors","Debtors are paid","Stock is high"]}]},
+
+{"id":"fa2-22","week":11,"title":"Revision Questions and Answers","icon":"Target","summary":"A summary of Second Term, key points to remember, the examination format and four practice questions with corrected figures and answers.",
+"keyWords":["Revision","Reconciliation","Suspense","Final accounts","Adjustments"]
+,"sections":[
+{"h":"Key points to remember","p":["Study the table."],
+"tbl":{"head":["Topic","Remember"],"rows":[
+["Bank reconciliation","Update the cash book first for items on the statement only. Then reconcile the timing differences. Unpresented cheques reduce the bank balance; uncredited lodgements increase it"],
+["Classification","Personal: receiver Dr, giver Cr. Real: comes in Dr, goes out Cr. Nominal: expenses Dr, income Cr"],
+["Trial balance","Assets and expenses are debits; liabilities, capital and income are credits. It does not detect all errors"],
+["Errors","Omission, commission, principle, compensating, original entry and reversal do not affect the trial balance; casting, wrong side and wrong amount do. Use a suspense account"],
+["Final accounts","Trading account gives gross profit; profit and loss account gives net profit; closing stock appears twice if it is an adjustment; carriage inwards in trading, carriage outwards in profit and loss"],
+["Adjustments","Prepayments are assets (deduct from the expense); accruals are liabilities (add to the expense); depreciation reduces assets; provision for bad debts is based on debtors"]]}},
+{"h":"Theory questions","p":["1. Explain five causes of differences between the cash book and the bank statement. 2. Differentiate between (a) error of commission and error of principle, (b) gross profit and net profit, (c) prepayment and accrual. 3. State the golden rules for personal, real and nominal accounts with examples. 4. Explain why a balanced trial balance does not prove that there are no errors. 5. What is depreciation? State two methods."]},
+{"h":"Question 1: bank reconciliation, 30 June 2024","p":["Cash book (bank column) balance ₦85,000 (Dr). Unpresented cheques: No. 345 ₦8,000; No. 346 ₦12,000. Uncredited lodgements ₦15,000. Not in the cash book: bank charges ₦2,000; standing order for insurance ₦6,000; direct credit from a customer ₦8,000; dishonoured cheque ₦10,000.","Updated cash book: 85,000 − 2,000 − 6,000 + 8,000 − 10,000 = ₦75,000. Reconciliation: 75,000 + 20,000 − 15,000 = ₦80,000. The bank statement balance must therefore be ₦80,000. (Your notes give ₦72,000, which does not reconcile with these items.)"]},
+{"h":"Question 2: correction of errors","p":["Errors: (1) purchases day book undercast by ₦3,000; (2) sale of old equipment ₦20,000 credited to sales; (3) payment to supplier Ojo ₦5,000 debited to supplier Ade; (4) discount received ₦2,500 posted to the debit of the discount received account; (5) cash sales ₦15,000 completely omitted.","Journal: (1) Dr Purchases 3,000, Cr Suspense 3,000. (2) Dr Sales 20,000, Cr Equipment 20,000. (3) Dr Ojo 5,000, Cr Ade 5,000. (4) Dr Suspense 5,000, Cr Discount received 5,000. (5) Dr Cash 15,000, Cr Sales 15,000.","The errors that affected the trial balance were (1) and (4). (1) made the debits too low by 3,000; (4) made the debits too high by 5,000. So the debits exceeded the credits by ₦2,000, and the suspense account was opened with a credit of ₦2,000. Then Dr 5,000 and Cr 3,000 clear it. (Your notes give ₦12,500, which does not match the errors.)"]},
+{"h":"Question 3: Biodun Enterprises at 31 December 2024","p":["Debit: drawings 25,000; buildings 120,000; motor vehicles 70,000; furniture 40,000; stock (1 January) 38,000; purchases 200,000; returns inwards 8,000; carriage inwards 7,000; carriage outwards 5,000; debtors 65,000; bank 30,000; cash 4,000; salaries 55,000; rent 20,000; insurance 9,000; electricity 6,000; advertising 10,000; discount allowed 3,000; bad debts 2,000. Credit: sales 380,000; returns outwards 6,000; creditors 50,000; discount received 2,000; provision for depreciation, motor vehicles 14,000 and furniture 8,000; provision for bad debts 3,000; and capital. The debits total ₦717,000, so capital must be ₦254,000 (your notes show ₦180,000).","Adjustments: closing stock ₦45,000; rent prepaid ₦4,000; salaries outstanding ₦6,000; depreciate motor vehicles 20%; furniture 10% (on cost); provision for bad debts increased to 5% of debtors.","Answer: net sales 380,000 − 8,000 = 372,000. Cost of goods available 38,000 + (200,000 − 6,000) + 7,000 = 239,000; less closing stock 45,000 gives cost of goods sold ₦194,000. Gross profit 372,000 − 194,000 = ₦178,000. Other income ₦2,000. Expenses: salaries 61,000; rent 16,000; insurance 9,000; electricity 6,000; advertising 10,000; carriage outwards 5,000; discount allowed 3,000; bad debts 2,000; depreciation 14,000 and 4,000; increase in provision for bad debts 250 (5% of 65,000 = 3,250, less 3,000). Total expenses ₦130,250. Net profit ₦49,750."]},
+{"h":"Question 4: adjustments (Folake Stores)","p":["Insurance ₦24,000 paid on 1 July 2024 for one year (year end 31 December): expense ₦12,000; prepaid ₦12,000 (current asset). Salaries paid ₦96,000, December's ₦10,000 unpaid: expense ₦106,000; accrued ₦10,000 (current liability). Rent paid ₦48,000 including ₦8,000 for January 2025: expense ₦40,000; prepaid ₦8,000 (current asset)."]},
+{"h":"Examination format","p":["Section A: 20 multiple-choice questions (20 marks). Section B: theory, answer any three (30 marks). Section C: practical, answer any two (50 marks): bank reconciliation, error correction, trading and profit and loss with adjustments, or trial balance."]}
+],
+"activity":"Without notes, list the six steps for preparing a bank reconciliation, starting with 'update the cash book'.",
+"check":[
+{"q":"Unpresented cheques","o":["Reduce the bank balance","Increase the bank balance","Reduce the cash book balance","Are in the bank statement only"]},
+{"q":"The suspense account in Question 2 is opened with a credit of","o":["₦2,000","₦12,500","₦5,000","₦3,000"]},
+{"q":"Biodun's net profit is","o":["₦49,750","₦178,000","₦130,250","₦180,000"]},
+{"q":"Folake's insurance expense is","o":["₦12,000","₦24,000","₦6,000","₦18,000"]},
+{"q":"An outstanding expense is","o":["A current liability","A current asset","Capital","Drawings"]}]}
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "id":  "c21-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "An introduction to SS2 Chemistry First Term and the list of all units: pollution, electrolysis, electrochemical cells, titration, solubility, equilibrium, kinetics and energetics.",
+        "keyWords":  [
+                         "SS2 Chemistry First Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Chemistry First Term",
+                             "p":  [
+                                       "This term you study environmental chemistry (water and air pollution), electrolysis and Faraday\u0027s laws, electrochemical cells, acid-base titration, solubility and solubility curves, chemical equilibrium, rates of reaction and the energy changes in reactions. Many of the topics involve calculations, so practise each worked example yourself.",
+                                       "The check questions at the end of each unit do not count towards a mark, but they show you what you have understood."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Chemistry First Term",
+                             "p":  [
+                                       "Week 5 is the midterm examination and Week 7 is the midterm break."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Water Pollution: Causes, Effects and Control"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Air Pollution: Causes, Effects, Control and Links with Water Pollution"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Electrolysis: Electrolytes, Electrodes and Electrode Reactions"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Faraday\u0027s Laws of Electrolysis and Applications"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "Electrochemical Cells: The Galvanic (Voltaic) Cell"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Electrolytic Cells and the Comparison with Galvanic Cells"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "4",
+                                                          "Acid-Base Titration: Apparatus, Indicators and Procedure"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "Titration Calculations"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "6",
+                                                          "Solubility and Factors Affecting It"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "Solubility Curves, Crystallisation and Uses"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "8",
+                                                          "Chemical Equilibrium: Reversible Reactions and Dynamic Equilibrium"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "8",
+                                                          "The Equilibrium Constant Kc and Calculations"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "9",
+                                                          "Chemical Kinetics: Rate of Reaction and Factors"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "9",
+                                                          "Rate Laws and Order of Reaction"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "10",
+                                                          "Heat of Reaction and Enthalpy Change"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "10",
+                                                          "Hess\u0027s Law"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "11",
+                                                          "Energetics: Activation Energy and Energy Profile Diagrams"
+                                                      ],
+                                                      [
+                                                          "19",
+                                                          "11",
+                                                          "First Term Revision"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic is studied in Week 8?",
+                          "o":  [
+                                    "Chemical equilibrium",
+                                    "Electrolysis",
+                                    "Titration",
+                                    "Solubility"
+                                ]
+                      },
+                      {
+                          "q":  "Titration is studied in Week",
+                          "o":  [
+                                    "4",
+                                    "1",
+                                    "9",
+                                    "11"
+                                ]
+                      },
+                      {
+                          "q":  "Faraday\u0027s laws are studied in Week",
+                          "o":  [
+                                    "2",
+                                    "8",
+                                    "10",
+                                    "6"
+                                ]
+                      }
+                  ]
+    }
+]

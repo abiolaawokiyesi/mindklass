@@ -1,0 +1,168 @@
+[
+    {
+        "id":  "c23-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "An introduction to SS2 Chemistry Third Term and the list of all units: sulphur, carbon, industrial chemicals, organic chemistry, hydrocarbons, alcohols, aldehydes, acids, esters and polymers.",
+        "keyWords":  [
+                         "SS2 Chemistry Third Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Chemistry Third Term",
+                             "p":  [
+                                       "This term you study sulphur and its compounds, carbon and its compounds, the industrial manufacture of HCl, NH₃ and H₂SO₄, and then organic chemistry: functional groups and naming, hydrocarbons, alcohols, ethers and phenols, aldehydes and ketones, carboxylic acids and esters, and polymers and plastics.",
+                                       "The check questions at the end of each unit do not count towards a mark, but they show you what you have understood."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Chemistry Third Term",
+                             "p":  [
+                                       "Week 5 is the midterm examination and Week 7 is the midterm break."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Sulphur and Sulphur Dioxide"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Sulphuric Acid: The Contact Process, Properties and Uses"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Carbon and the Oxides of Carbon"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Carbonates and Introduction to Hydrocarbons"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "Industrial Preparation of Hydrochloric Acid and Ammonia"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Industrial Chemicals Compared, with Environment and Safety"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "4",
+                                                          "Organic Chemistry Revision: Classification, Homologous Series and Functional Groups"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "IUPAC Naming of Organic Compounds"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "6",
+                                                          "Hydrocarbons: Alkanes, Alkenes and Alkynes and Their Reactions"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "Laboratory Tests for Hydrocarbons, Uses and Environmental Effects"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "8",
+                                                          "Alcohols: Classification, Preparation, Reactions and Uses"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "8",
+                                                          "Ethers and Phenols, and Comparison with Alcohols"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "9",
+                                                          "Aldehydes and Ketones: Structure and Preparation"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "9",
+                                                          "Identification Tests for Aldehydes and Ketones"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "10",
+                                                          "Carboxylic Acids: Structure, Properties and Reactions"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "10",
+                                                          "Esters: Structure, Preparation, Hydrolysis and Uses"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "11",
+                                                          "Polymers and Plastics: Types and Uses"
+                                                      ],
+                                                      [
+                                                          "19",
+                                                          "11",
+                                                          "Dangers of Plastics and How to Control Them"
+                                                      ],
+                                                      [
+                                                          "20",
+                                                          "11",
+                                                          "Third Term Revision"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Hydrocarbons are studied in Week",
+                          "o":  [
+                                    "6",
+                                    "1",
+                                    "9",
+                                    "11"
+                                ]
+                      },
+                      {
+                          "q":  "Polymers and plastics are studied in Week",
+                          "o":  [
+                                    "11",
+                                    "3",
+                                    "8",
+                                    "10"
+                                ]
+                      },
+                      {
+                          "q":  "Which topic is studied in Week 9?",
+                          "o":  [
+                                    "Aldehydes and ketones",
+                                    "Esters",
+                                    "Alcohols",
+                                    "Sulphur"
+                                ]
+                      }
+                  ]
+    }
+]

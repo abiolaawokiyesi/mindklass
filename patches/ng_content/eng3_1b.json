@@ -1,0 +1,105 @@
+[
+{"id":"e31-16","week":8,"title":"Summary Writing: Steps for a Written Passage","icon":"Target",
+"summary":"The five steps of summary writing: first reading, annotation, paraphrasing, connecting and editing, and the difference between lifting and paraphrasing.",
+"keyWords":["Summary","Topic sentence","Paraphrase","Lifting","Connectives","Word limit"],
+"sections":[
+{"h":"What is a summary?","p":["A summary reduces a long text to its most important points, in your own words. It is not copying. It is processing, selecting and restating the key information briefly and clearly. This skill is needed in examinations, in research and in professional life."]},
+{"h":"The five steps","p":["1. First reading: read the whole passage once without stopping to see what it is about and what the writer wants to say.","2. Second reading: read again with a pen. In each paragraph underline the topic sentence (the sentence with the main idea). Mark key supporting details, but be ready to throw away examples, illustrations, repetitions and decorative language.","3. Drafting: write the main ideas in your own words (paraphrase).","4. Connecting: join the points with connectives such as furthermore, consequently, as a result, however, therefore and subsequently so that the summary reads smoothly and is not a list.","5. Editing: check the word limit (for example three sentences or not more than 60 words) and cut carefully. Remove remaining examples, adjectives and repeated phrases. Combine short sentences into longer ones to save words. Read the final summary aloud to check that it is clear."]},
+{"h":"Paraphrasing and lifting","p":["Lifting is copying phrases or sentences straight from the passage. It is penalised in examinations. Paraphrasing shows that you understand.","Original: The relentless onslaught of deforestation is systematically eradicating the habitats of countless species. Lifting (bad): Deforestation is eradicating the habitats of species. This is still too close to the original. Paraphrase (good): The continuous clearing of forests is destroying the natural homes of many animals."]},
+{"h":"Some examination advice","p":["Write in complete sentences, in the present or past tense used by the passage, and in your own words. Do not add your own opinion. Count your words. Always answer the exact question: if you are asked for the effects, do not give the causes."]}
+],
+"activity":"Paraphrase this sentence without lifting: The rapid expansion of cities has put enormous pressure on public services. Then explain why lifting is penalised.",
+"check":[
+{"q":"Copying phrases directly from the passage is called","o":["lifting","paraphrasing","connecting","editing"]},
+{"q":"A topic sentence in a paragraph expresses","o":["its main idea","an example","a quotation","a joke"]},
+{"q":"The step in which you link your points with words like 'consequently' is","o":["connecting","annotation","first reading","lifting"]},
+{"q":"The most critical step, in which you cut to the word limit, is","o":["editing","drafting","first reading","annotation"]},
+{"q":"Which is the best paraphrase of 'eradicating the habitats'?","o":["destroying the natural homes","eradicating the habitats","habitats eradicating","the habitats eradicating"]}
+]},
+
+{"id":"e31-17","week":8,"title":"Summarising a Talk or Lecture","icon":"BookOpen",
+"summary":"Active listening, signposts, note-taking with abbreviations, and a worked example summarising a passage on corruption in three sentences.",
+"keyWords":["Active listening","Signposts","Note-taking","Abbreviations","Worked example"],
+"sections":[
+{"h":"Summarising what you hear","p":["You cannot re-listen to a live talk, so good note-taking becomes the key skill. Active listening means focused listening. Watch for signposts, the verbal cues that show the structure of the talk.","Introducing the main point: My central argument is..., The key thing to remember is... Listing points: Firstly..., Another important factor..., Finally... Giving examples: For instance..., To illustrate... Concluding: In conclusion..., To sum up..., Therefore..."]},
+{"h":"Taking notes","p":["Do not write word for word: you cannot write as fast as people speak. Use abbreviations and symbols: & or + (and), w/ (with), w/o (without), → (leads to), ∴ (therefore), e.g. (for example), govt (government), cf (compared with). Write key words: nouns, strong verbs and important numbers. Ignore filler words. Keep asking: What is the topic? What is the main point? What are the two to four key points?","After the talk, your notes become the source text for your summary, and you follow the five steps from the last unit."]},
+{"h":"Worked example: corruption","p":["Passage: Corruption, in simple terms, is the abuse of entrusted power for private gain. This menace has eaten deep into many nations and slows development. Its most visible effect is the diversion of public funds. When money meant for schools, hospitals and roads is siphoned into private pockets, the public is denied these services. This contributes to poverty and widens the gap between rich and poor. Furthermore, corruption erodes public trust and weakens the government. When citizens believe their leaders are corrupt, they become cynical and less willing to take part in democracy or to obey the law. This creates a cycle of lawlessness. Finally, corruption frightens away foreign investment, because investors see the nation as unstable.","Question: In three sentences, summarise the effects of corruption.","Main points: (1) diversion of public funds leading to lack of services and poverty; (2) loss of public trust leading to cynicism and lawlessness; (3) loss of foreign investment because of apparent instability.","Rough draft: Corruption makes public money be stolen, so there is no money for schools and hospitals and people become poorer. It also makes people distrust the government, so they do not obey the law. It also makes foreign companies not want to invest.","Final answer: Firstly, corruption leads to the misappropriation of public funds, resulting in inadequate social amenities and worsening poverty. Secondly, it undermines public trust in government, encouraging cynicism and lawlessness. Finally, it deters foreign investment by creating an impression of national instability."]},
+{"h":"Why this answer works","p":["It has exactly three sentences, as required. Each sentence covers one main point. It uses connectives (firstly, secondly, finally). It contains no examples and no opinions. The wording is the writer's own, though some key words (public funds, foreign investment) cannot easily be changed."]}
+],
+"activity":"Re-read the Youth Restiveness passage. (1) In one sentence, state the main cause (Unemployment is the main cause of youth restiveness.). (2) In two sentences, summarise the solutions proposed (The author proposes reviving industries and encouraging entrepreneurship to give young people real opportunities. He also calls for a change in society's values.).",
+"check":[
+{"q":"When summarising a talk, the most important skill is","o":["note-taking","drawing","memorising everything word for word","copying the speaker"]},
+{"q":"'In conclusion' and 'to sum up' are signposts for","o":["the end or summary","a list","an example","a question"]},
+{"q":"The symbol → in notes means","o":["leads to","therefore","and","with"]},
+{"q":"A good summary should not contain","o":["examples and opinions","the main points","connectives","your own words"]},
+{"q":"In the worked example, the three effects of corruption are diverted funds, loss of public trust and","o":["loss of foreign investment","unemployment","bad roads","floods"]}
+]},
+
+{"id":"e31-18","week":9,"title":"Spoken English: Consonant Clusters (Two Consonants)","icon":"Zap",
+"summary":"What a consonant cluster is, why Nigerian speakers insert extra vowels (epenthesis), and how to pronounce two-consonant final clusters clearly.",
+"keyWords":["Consonant cluster","Epenthesis","Final cluster","/sk/","/st/","/nd/"],
+"sections":[
+{"h":"What is a consonant cluster?","p":["A consonant cluster (or consonant blend) is a sequence of two or more consonant sounds together in one syllable, with no vowel between them. In strong, the beginning has the cluster /str/. In tests, the end has the cluster /sts/.","Many Nigerian languages have few consonant clusters. So speakers often insert a short vowel (usually /ɪ/ or /ʊ/) to break the cluster. This is epenthesis. For example task may be said as task-i and film as fi-lum. To speak more standard and internationally understood English, practise saying the cluster smoothly without any vowel in between."]},
+{"h":"Two-consonant final clusters","p":["Move smoothly from one consonant to the next, without a vowel break.","/sk/: ask, task, desk, mask, risk. Please complete the task.","/st/: first, last, lost, ghost, wrist. She was first in the race.","/sp/: wasp, grasp, lisp, crisp. It was a crisp morning.","/nd/: hand, land, send, found, behind. Please send a reply.","/ŋk/: bank, thank, link, drink, trunk. I thank you for your help. (/ŋ/ is the 'ng' sound.)","/ld/: gold, hold, mild, child, field. The child played in the field.","/lt/: belt, salt, melt, built. Fasten your seat belt.","/mp/: jump, camp, lamp, limp. The frog can jump.","/pt/: kept, wept, slept, adopt. He slept soundly."]},
+{"h":"How to practise","p":["Say the word slowly in two parts, then speed up: as-k, then ask. Do not add a vowel. Listen to a good radio newsreader and copy the clusters. Practise with the example sentences, five times each."]}
+],
+"activity":"Say these words aloud five times each without adding any vowel at the end: task, desk, hand, belt, jump, kept. In which of them is a vowel most often added by speakers? (Your answer depends on your own pronunciation; record yourself and listen.)",
+"check":[
+{"q":"A consonant cluster is","o":["two or more consonant sounds together with no vowel between them","a single consonant","a vowel pair","a stressed syllable"]},
+{"q":"Inserting a short vowel to break up a cluster is","o":["epenthesis","intonation","stress","assimilation only"]},
+{"q":"The word 'task' ends in the cluster","o":["/sk/","/st/","/sp/","/nd/"]},
+{"q":"The word 'belt' ends in","o":["/lt/","/ld/","/mp/","/nk/"]},
+{"q":"To say 'film' clearly we should","o":["say /m/ right after /l/ with no vowel","say fi-lum","drop the /l/","drop the /m/"]}
+]},
+
+{"id":"e31-19","week":9,"title":"Spoken English: Three- and Four-Consonant Clusters","icon":"Zap",
+"summary":"Final clusters with three and four consonants, usually made by adding plural -s or past -ed, with practice words and sentences.",
+"keyWords":["Three-consonant cluster","Four-consonant cluster","/sts/","/mps/","/lfθs/"],
+"sections":[
+{"h":"Three-consonant final clusters","p":["The last sound is often the plural -s or the past tense -ed. Pronounce all three sounds clearly.","/sts/: ghosts, tests, lists, wrists. The students finished their tests.","/sks/: tasks, desks, masks, risks. We have many tasks to complete.","/mps/: jumps, lamps, camps, limps. All the street lamps were on.","/nts/: wants, pants, tents, hints. He wants new pants.","/lts/: belts, salts, melts. The sun melts the ice.","/lpt/: gulped, helped. She helped her friend.","/kst/: next, text, fixed. Read the next text.","/lfθ/: twelfth. He was born on the twelfth."]},
+{"h":"Four-consonant final clusters","p":["These are the most difficult and are often simplified even by native speakers. Try to say them as clearly as you can.","/lfθs/: twelfths. /ŋkθs/: lengths, strengths. They measured the different lengths. /mpts/: prompts, attempts. The actor needed prompts. /ksts/: texts, contexts. She studied the historical texts.","The word glimpsed /glɪmpst/ ends in a four-consonant cluster: /m/, /p/, /s/ and /t/."]},
+{"h":"Transcription practice","p":["tasks /tɑːsks/. helped /helpt/. scripts /skrɪpts/. widths /wɪdθs/ (or /wɪtθs/). glimpsed /glɪmpst/. (The word thousandths is a very advanced cluster: /ˈθaʊzəndθs/. Some printed notes write it without the /d/.)"]}
+],
+"activity":"Write five sentences, each using one of these words, and read each aloud fluently: texts, asks, attempts, sculpts, strengths. How many consonant sounds are in the final cluster of 'glimpsed'? (four).",
+"check":[
+{"q":"The final cluster of 'tests' is","o":["/sts/","/st/","/sks/","/nts/"]},
+{"q":"The word 'glimpsed' ends in a cluster of","o":["four consonants","two consonants","three consonants","one consonant"]},
+{"q":"The word 'twelfths' ends in","o":["/lfθs/","/lts/","/nts/","/mps/"]},
+{"q":"'Helped' ends with the cluster","o":["/lpt/","/lps/","/lft/","/lkt/"]},
+{"q":"The last sound of a three-consonant cluster is often","o":["a plural -s or past -ed","a vowel","the letter r","silent"]}
+]},
+
+{"id":"e31-20","week":10,"title":"Vocabulary: Motor Vehicles — Body and Interior","icon":"Zap",
+"summary":"British English words for the outside parts of a car and for the controls and instruments inside it, with American equivalents.",
+"keyWords":["Chassis","Bonnet","Boot","Windscreen","Dashboard","Handbrake","Accelerator"],
+"sections":[
+{"h":"Why learn this vocabulary?","p":["A strong vocabulary covers practical things as well as ideas. Words for motor vehicles help you in descriptive writing, in technical passages and in real life, for example in maintaining a car or in a driving test. We use British English terms and note the American words."]},
+{"h":"Exterior parts and bodywork","p":["Chassis (/ˈʃæsi/): the strong framework on which the body, engine and other parts are fixed, the skeleton of the vehicle. After the accident the chassis was bent beyond repair.","Bonnet (US hood): the hinged cover over the engine at the front. He lifted the bonnet to check the oil.","Boot (US trunk): the storage space at the back. We put our luggage in the boot.","Windscreen (US windshield): the large front window. The wipers cleared the heavy rain from the windscreen.","Wing (US fender): the part of the body that frames the wheel. He scraped the wing against the wall.","Bumper: a bar at the front and back that absorbs impact in a small collision. Number plate (US license plate): the plate that shows the registration number. Tyres (US tires): the rubber, air-filled coverings of the wheels. Silencer (US muffler): the part of the exhaust that reduces engine noise."]},
+{"h":"Interior controls and instruments","p":["Dashboard (or facia): the panel in front of the driver with instruments and controls. Steering wheel: used to control the direction. Gear lever (US gear shift): changes gear. Handbrake (US parking brake): a hand-operated brake that holds the parked vehicle still. Clutch pedal: pressed to disconnect the engine from the gears before changing gear. Accelerator (US gas pedal): controls engine power and speed. Fuel gauge: shows how much fuel is in the tank. Speedometer: shows the speed. Rev counter (or tachometer): shows engine revolutions per minute."]}
+],
+"activity":"Write the British words for: hood (bonnet), trunk (boot), windshield (windscreen), fender (wing), muffler (silencer), gas pedal (accelerator). Answer: Which part holds the body, engine and other parts together? (the chassis).",
+"check":[
+{"q":"The structural framework of a car is the","o":["chassis","bumper","dashboard","silencer"]},
+{"q":"The British word for the storage compartment at the back is","o":["boot","bonnet","wing","trunk"]},
+{"q":"The British word for 'hood' is","o":["bonnet","boot","wing","windscreen"]},
+{"q":"The instrument that shows how much petrol is left is the","o":["fuel gauge","speedometer","handbrake","rev counter"]},
+{"q":"The brake used to keep a parked car still is the","o":["handbrake","clutch","accelerator","silencer"]}
+]},
+
+{"id":"e31-21","week":10,"title":"Vocabulary: Motor Vehicles — Engine and Lights","icon":"Zap",
+"summary":"Words for the parts under the bonnet and for lights and electrical parts, with practice sentences.",
+"keyWords":["Radiator","Alternator","Carburettor","Battery","Spark plug","Indicators","Hazard lights"],
+"sections":[
+{"h":"Under the bonnet","p":["Engine (or motor): the machine that gives power to move the vehicle, usually by burning fuel.","Radiator: part of the cooling system that removes heat from the engine coolant to prevent overheating. The car began to overheat because the radiator had a leak.","Alternator: charges the battery and powers the electrical system while the engine is running. A faulty alternator will drain the battery completely.","Carburettor: in older engines, mixes air and fuel in the correct proportions (modern cars use fuel injection). Battery: stores electrical energy to start the engine and to run electrical parts when the engine is off. Spark plug: delivers an electric spark in the cylinder to ignite the fuel and air."]},
+{"h":"Lighting and electrical parts","p":["Headlights: the strong lights at the front for night driving or poor visibility. Sidelights (US parking lights): dimmer lights at the front and rear that make the vehicle visible when parked or at dusk. Indicators (US turn signals): flashing lights to show that you will turn or change lane. Hazard lights: all four indicators flash together to warn other drivers of danger or a breakdown. Brake lights: bright red lights at the back that come on when the brake pedal is pressed. Rear lights (tail lights): red lights at the back that are on whenever the headlights or sidelights are on."]},
+{"h":"Practice sentences","p":["(a) Before a long journey, check the oil and water levels under the bonnet. (b) The driver used his indicator to show he was moving into the right-hand lane. (c) If the radiator fails, the engine will quickly overheat. (d) She stopped because the alternator warning light was on, showing a problem with the charging system. (e) After parking on a hill, he always applied the handbrake."]}
+],
+"activity":"Cover the practice sentences above and complete: (a) Check the oil under the ______. (b) The driver signalled with the ______. (c) The ______ stores electricity to start the engine. Then label ten parts on a picture of a car and write an 80-word description using at least five of them.",
+"check":[
+{"q":"The part that charges the battery while the engine runs is the","o":["alternator","radiator","carburettor","silencer"]},
+{"q":"Flashing lights used to signal a turn are","o":["indicators","brake lights","headlights","sidelights"]},
+{"q":"The radiator is part of the","o":["cooling system","braking system","steering system","exhaust"]},
+{"q":"The spark plug","o":["ignites the fuel and air mixture","stores power","cools the engine","changes gears"]},
+{"q":"When all four indicators flash together, they are","o":["hazard lights","brake lights","rear lights","headlights"]}
+]}
+]

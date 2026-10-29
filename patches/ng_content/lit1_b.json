@@ -1,0 +1,126 @@
+[
+{"id":"li1-08","week":6,"title":"The Three Genres: Prose, Poetry and Drama","icon":"Layers","summary":"The definitions, structural features and sub-genres of prose, poetry and drama.",
+"keyWords":["Prose","Poetry","Drama","Stanza","Soliloquy"]
+,"sections":[
+{"h":"Genres","p":["A genre is a category of literature whose works share similar form, style or subject matter. There are three main genres: prose, poetry and drama."],
+"img":{"src":"lit-genres.png","alt":"Three coloured boxes for prose, poetry and drama listing their language, units, forms and examples","cap":"The three genres at a glance."}},
+{"h":"Prose","p":["Prose is language in its ordinary form, without a fixed metre or rhythm pattern. It is the language of everyday speech, textbooks, novels and newspapers. It is built of sentences and paragraphs.","Structural features: the sentence (the basic unit of thought); the paragraph (related sentences developing one idea); the chapter (a main division of a long work); and the narrative voice or point of view (first person 'I', third person 'he', 'she', 'they').","Sub-genres. Fiction (imaginative): the novel (long, e.g. Things Fall Apart), the novella (shorter than a novel and longer than a short story) and the short story (a brief narrative about one incident or character). Non-fiction (factual): biography (a life story written by someone else), autobiography (written by the person) and the essay."]},
+{"h":"Poetry","p":["Poetry uses the sound and rhythm of language (metre and rhyme) to bring out meaning and feeling. It is language at its most compressed, intense and artistic. It is made of lines and stanzas.","Structural features: the line; the stanza (a group of lines, like a paragraph in prose); rhyme (repeated sounds, usually at the ends of lines); rhyme scheme (the pattern of rhymes, such as ABAB); rhythm or metre (the pattern of stressed and unstressed syllables); enjambment (a line running on into the next without a pause).","Sub-genres: lyric poetry (personal feelings: sonnet, ode), narrative poetry (tells a story: epic, ballad) and dramatic poetry (spoken in the voice of a character: dramatic monologue)."]},
+{"h":"Drama","p":["Drama (a play) is written to be performed on a stage by actors. A story is told mostly through dialogue and action.","Structural features: dialogue (talk between characters); monologue (a long speech by one character); soliloquy (a character alone on stage speaks inner thoughts aloud); stage directions (the playwright's instructions on movement, setting and tone, often in italics or brackets); act (a major division of a play); scene (a part of an act, usually one place and time); characters (the 'dramatis personae').","Sub-genres: tragedy (a serious play with an unhappy ending, often the fall of the hero), comedy (light-hearted, usually with a happy ending), tragicomedy (a mixture of both) and melodrama (sensational, with exaggerated feelings)."]},
+{"h":"Comparing the genres","p":["Study the table."],
+"tbl":{"head":["Genre","Main units","What makes it special"],"rows":[
+["Prose","Sentences, paragraphs, chapters","Ordinary language, free of fixed metre"],
+["Poetry","Lines and stanzas","Compressed language, rhythm, rhyme, imagery"],
+["Drama","Acts, scenes, dialogue","Written to be performed; told through speech and action"]]}}
+],
+"activity":"Find a short poem, a one-page short story and a one-page scene from a play. For each, write one paragraph explaining how its structure shows its genre.",
+"check":[
+{"q":"A group of lines in a poem is a","o":["Stanza","Chapter","Act","Paragraph"]},
+{"q":"A character alone on stage speaking inner thoughts gives a","o":["Soliloquy","Dialogue","Stanza","Chapter"]},
+{"q":"A play is divided into","o":["Acts and scenes","Chapters and paragraphs","Lines and stanzas","Verses only"]},
+{"q":"A story of a person's life written by that person is an","o":["Autobiography","Biography","Novella","Essay"]},
+{"q":"A serious play with an unhappy ending is a","o":["Tragedy","Comedy","Melodrama","Ode"]},
+{"q":"What makes drama different from prose and poetry?","o":["It is written to be performed","It uses no words","It has no characters","It has no theme"]}]},
+
+{"id":"li1-09","week":8,"title":"Shakespeare and the Background of Antony and Cleopatra","icon":"Landmark","summary":"Who William Shakespeare was, the source and historical setting of Antony and Cleopatra, the Triumvirate, and the contrast between Rome and Egypt.",
+"keyWords":["Shakespeare","Plutarch","Triumvirate","Rome","Egypt"]
+,"sections":[
+{"h":"William Shakespeare","p":["William Shakespeare (1564 to 1616) is widely regarded as the greatest writer in the English language. He was born in Stratford-upon-Avon, England, and worked in London as an actor, playwright and part-owner of an acting company, the Lord Chamberlain's Men (later the King's Men). He wrote in the Elizabethan era (named after Queen Elizabeth I) and the Jacobean era (after King James I). He wrote about 38 plays, 154 sonnets and other poems. His plays are grouped as tragedies (Hamlet, Macbeth), comedies (A Midsummer Night's Dream) and histories (Henry V)."]},
+{"h":"The play","p":["Antony and Cleopatra is a tragedy and also a Roman play, because it is based on real history. Shakespeare's main source was Plutarch's Lives of the Noble Grecians and Romans (in Sir Thomas North's English translation), which told the story of Mark Antony.","The play is set after the murder of Julius Caesar in 44 BC. The Roman world is shared by three rulers, called the Triumvirate (a council of three): Mark Antony; Octavius Caesar (Julius Caesar's great-nephew and heir); and Marcus Lepidus (a weaker, older general)."]},
+{"h":"Two worlds","p":["The action moves between two contrasting worlds. Rome (the West) stands for duty, order, reason, law, self-control and military discipline. It is the world of Octavius. Egypt (the East) stands for passion, pleasure, emotion, excess and luxury. It is the world of Cleopatra. The central conflict is Antony's struggle between his Roman duty and his Egyptian passion."],
+"img":{"src":"lit-rome-egypt.png","alt":"Two boxes, Rome and Egypt, listing what each stands for, with Mark Antony in the middle pulled both ways","cap":"Antony is torn between Rome and Egypt."}},
+{"h":"A note on Octavius","p":["Your lesson plan calls Octavius Julius Caesar's grand-nephew. He was Caesar's great-nephew (the grandson of Caesar's sister), whom Caesar adopted as his son and heir. In the play, Octavius is a cold and efficient politician who will become Rome's first emperor, Augustus."]}
+],
+"activity":"Write a short note: who were the three members of the Triumvirate, and what did each represent or become? (Antony: soldier torn by love; Octavius: the cold winner; Lepidus: the weak partner.)",
+"check":[
+{"q":"Shakespeare's main source for the play was","o":["Plutarch's Lives","The Bible","Homer","The Koran"]},
+{"q":"The Triumvirate means a council of","o":["Three rulers","Two rulers","Five rulers","Ten rulers"]},
+{"q":"Egypt in the play stands for","o":["Passion and pleasure","Law and order","Duty and discipline","Reason"]},
+{"q":"Rome in the play stands for","o":["Duty and order","Excess","Luxury","Chaos"]},
+{"q":"Antony and Cleopatra is a","o":["Tragedy","Comedy","Melodrama only","Novel"]}]},
+
+{"id":"li1-10","week":8,"title":"Antony and Cleopatra: Plot of Acts I and II","icon":"BookOpen","summary":"The key scenes of the first two acts: Antony in Egypt, the news from Rome, his return, the marriage to Octavia, the soothsayer, Cleopatra's rage and the feast on Pompey's ship.",
+"keyWords":["Act I","Act II","Octavia","Soothsayer","Pompey"]
+,"sections":[
+{"h":"Act I","p":["Scene 1 (Alexandria, Egypt): we meet Mark Antony, completely in love with Cleopatra, Queen of Egypt. Roman soldiers complain that their great general has become a fool in love ('dotage'). Messengers arrive from Rome, but Antony will not see them. He declares: 'Let Rome in Tiber melt.'","Scene 2 (Egypt): the news is that Antony's wife Fulvia has fought against Octavius Caesar and has died, and that the rebel Sextus Pompey is growing strong at sea and threatening Rome. Antony feels a 'Roman thought' and decides to break free from Cleopatra and return to Rome.","Scene 4 (Rome): Octavius and Lepidus talk. Octavius criticises Antony's wasteful life in Egypt and contrasts it with his former self as a hard, disciplined soldier. We see Octavius as cold, careful and dutiful.","Scene 5 (Egypt): Cleopatra, missing Antony, sends messengers to him every day. We see that she is vain and dramatic and can be manipulative, but also truly passionate."]},
+{"h":"Act II","p":["Scene 2 (Rome): the Triumvirs meet. Octavius and Antony quarrel. To heal the quarrel and make a political bond, Agrippa (Octavius's adviser) and others suggest that Antony marry Octavius's sister, Octavia. Antony agrees. Octavia is the opposite of Cleopatra: virtuous, quiet and devoted to Roman duty.","Scene 3 (Rome): a soothsayer (fortune-teller) warns Antony that his 'guardian angel' (his luck) is weaker than Octavius's when they are near each other, and tells him to stay away from Octavius. Antony knows it is true and decides to return to Egypt.","Scene 5 (Egypt): a messenger tells Cleopatra that Antony has married Octavia. She flies into a rage and beats the messenger. This shows her passion and her royal temper.","Scene 7 (Pompey's ship): the Triumvirs make peace with Sextus Pompey and celebrate with a drunken feast on his ship. Pompey's follower suggests killing the three rulers. Pompey refuses, saying that it would be dishonourable (though he wishes it had been done without telling him). The Romans, especially Antony, behave as 'Egyptians' in their indulgence, and Lepidus is shown as weak and silly."]}
+],
+"activity":"In 200 words, say whether Antony in Acts I and II is a great leader, a foolish old man or something in between. Use evidence from the summary.",
+"check":[
+{"q":"Antony's wife who dies early in the play is","o":["Fulvia","Octavia","Cleopatra","Iras"]},
+{"q":"Why does Antony marry Octavia?","o":["To make a political bond with Octavius","Because Cleopatra asked","To win a war with Pompey","To become Pharaoh"]},
+{"q":"Cleopatra beats the messenger because he","o":["Brings news of Antony's marriage","Is late","Is rude about Rome","Loses a letter"]},
+{"q":"The soothsayer warns Antony that his luck is weaker than","o":["Octavius's","Lepidus's","Pompey's","Cleopatra's"]},
+{"q":"The feast of the Triumvirs is held on","o":["Pompey's ship","A mountain","An island","A palace roof"]}]},
+
+{"id":"li1-11","week":9,"title":"Antony and Cleopatra: Plot of Acts III to V","icon":"BookOpen","summary":"The breach with Octavius, the Battle of Actium, Enobarbus's desertion and death, Antony's suicide and Cleopatra's death.",
+"keyWords":["Actium","Enobarbus","Suicide","Asp","Octavius"]
+,"sections":[
+{"h":"Act III: the break","p":["Antony, Octavia and Lepidus go their separate ways. Antony returns to Cleopatra. In a public ceremony in Alexandria, he shares the eastern lands of the Roman empire among Cleopatra and her children, including Caesarion, her son by Julius Caesar. This insults Octavius and betrays Rome.","Octavius uses this as propaganda. He has jailed Lepidus on false charges and now declares war, painting Antony as Cleopatra's bewitched puppet. Octavia returns to Rome, heartbroken.","The Battle of Actium (Act III) is the turning point. It is a sea battle. Against the advice of his best soldier, Enobarbus, Antony chooses to fight at sea (where Octavius is stronger) because Cleopatra wants it. In the battle, Cleopatra's ships suddenly flee. Antony turns his own ship and follows her, leaving his men and the fight. Ashamed, he has lost all honour. Enobarbus, seeing his master's lost judgement, deserts and joins Octavius."]},
+{"h":"Act IV: decline","p":["Antony challenges Octavius to single combat, but Octavius mocks him and refuses to fight a tired old man. Enobarbus, now with Octavius, is overcome with guilt when Antony sends his treasure after him and kindly forgives him. Enobarbus dies of a broken heart.","Antony wins a small victory on land, which briefly lifts his spirits. But in the final sea battle, the Egyptian fleet surrenders to Octavius. Believing Cleopatra has betrayed him, Antony is furious. Cleopatra, afraid, locks herself in her monument (tomb) and sends a false message that she has killed herself.","Hearing this, Antony's rage becomes grief. He asks his servant Eros to kill him, but Eros kills himself instead. Antony falls on his own sword but does not die at once. He is carried to Cleopatra's monument and lifted up to her. He dies in her arms, telling her to trust Proculeius, one of Octavius's men (which is not wise advice)."]},
+{"h":"Act V: Cleopatra's end","p":["Octavius arrives in Egypt. He wants Cleopatra alive, to parade her through Rome in his triumph, which would be the greatest shame for her. Cleopatra pretends to bargain but secretly plans her death. A 'clown' (a countryman) brings her a basket of figs hiding asps (poisonous snakes).","Dressed in her royal robes, Cleopatra puts an asp to her breast and another to her arm, and dies, imagining a reunion with Antony. Her women, Iras and Charmian, also die. Octavius enters and finds her dead. He is annoyed to be outwitted, but respects her noble end. He orders that she and Antony be buried together. The play ends with Octavius as ruler of the Roman world, but the love of Antony and Cleopatra has won the audience."]}
+],
+"activity":"Write a 250-word essay: 'Who is the true tragic hero of Antony and Cleopatra: Antony or Cleopatra?' Use evidence from the plot.",
+"check":[
+{"q":"Antony loses the Battle of Actium because he","o":["Follows the fleeing Cleopatra","Sleeps","Is captured by Pompey","Forgets his sword"]},
+{"q":"Enobarbus dies of","o":["Guilt (a broken heart)","A sword wound","A snake bite","Illness at sea"]},
+{"q":"Antony wrongly believes that Cleopatra","o":["Has killed herself","Has married Octavius","Is leaving Egypt","Is a Roman"]},
+{"q":"Cleopatra dies by","o":["An asp's bite","A sword","Poisoned wine","Drowning"]},
+{"q":"Octavius wanted to","o":["Parade Cleopatra in Rome","Marry Cleopatra","Free Cleopatra","Exile Cleopatra"]},
+{"q":"Who kills himself instead of killing Antony?","o":["Eros","Enobarbus","Lepidus","Proculeius"]}]},
+
+{"id":"li1-12","week":9,"title":"Antony and Cleopatra: Themes and Characters","icon":"Users","summary":"The five main themes and the characters of Antony, Cleopatra, Octavius, Enobarbus and Octavia.",
+"keyWords":["Love and duty","East and West","Honour","Tragic hero","Enobarbus"]
+,"sections":[
+{"h":"Themes","p":["1. Love against duty (passion against reason): the central theme. Antony is torn between his passion for Cleopatra (Egypt) and his duty as a Roman soldier and Triumvir (Octavius's world).","2. The clash of cultures (East against West): Rome values order, duty and self-control; Egypt values emotion, pleasure and excess. The two value systems fight each other to the death.","3. Honour and betrayal: characters ask what honour means: Roman duty, or loyalty to a person? Antony betrays Octavia, Enobarbus betrays Antony, and Octavius betrays Lepidus.","4. Power and politics: the play is a political drama. A love story sets off a huge civil war to decide who will rule the Roman world.","5. Change and decline: Antony falls from 'the triple pillar of the world' to a 'strumpet's fool'. The old world of heroes gives way to the cold, efficient world of Octavius."]},
+{"h":"Characters","p":["Mark Antony: the tragic hero. He is passionate, charming and a brilliant soldier, but also impulsive, self-indulgent and lacking the self-control of his rival. His 'dotage' on Cleopatra brings his downfall.","Cleopatra: the heroine, 'a woman of infinite variety'. She is vain, dramatic, manipulative and sometimes cruel (she beats the messenger), but she is also clever, politically shrewd and powerful. At the end she shows a nobility that lets her die on her own terms rather than be shamed.","Octavius Caesar: the antagonist (or, from a Roman view, the hero). He is cold, calculating, unemotional and ruthlessly efficient. He stands for the 'new Rome', acts only for political gain, wins the world but cannot understand the passion of Antony and Cleopatra.","Enobarbus: Antony's loyal soldier. He acts as the play's commentator or chorus, is witty and cynical, and sees the truth clearly (for example in his famous description of Cleopatra on her barge). His desertion and his death from guilt show the tragic depth of loyalty and betrayal.","Octavia: Antony's Roman wife, a symbol of Roman duty and virtue. She is used as a pawn in politics. Her quiet dignity contrasts with Cleopatra's passion."]}
+],
+"activity":"Compare Cleopatra and Octavia in a short paragraph. (Cleopatra: passionate, dramatic, powerful. Octavia: virtuous, quiet, dutiful, used as a pawn.)",
+"check":[
+{"q":"The central theme of the play is","o":["Love against duty","Farming","Education","Weather"]},
+{"q":"Octavius is best described as","o":["Cold and calculating","Passionate","Foolish","Generous"]},
+{"q":"Who acts as the play's commentator?","o":["Enobarbus","Lepidus","Eros","Charmian"]},
+{"q":"Octavia symbolises","o":["Roman duty and virtue","Egyptian passion","Greed","Magic"]},
+{"q":"Antony's weakness is his","o":["Lack of self-control","Cowardice with a sword","Poverty","Ignorance of Rome"]},
+{"q":"Who betrays Antony by leaving him?","o":["Enobarbus","Eros","Octavia","Iras"]}]},
+
+{"id":"li1-13","week":10,"title":"Antony and Cleopatra: Language, Imagery, Techniques and Relevance","icon":"Zap","summary":"Blank verse, hyperbole, the difference between Roman and Egyptian speech, patterns of imagery (cosmos, water, animals), dramatic techniques and why the play is still relevant.",
+"keyWords":["Blank verse","Imagery","Serpent","Dramatic irony","Foreshadowing"]
+,"sections":[
+{"h":"Language and style","p":["The language of Antony and Cleopatra is among Shakespeare's richest and most poetic. Blank verse: like most of his plays, it is written mainly in blank verse, which is unrhymed iambic pentameter. An iamb is one unstressed syllable followed by a stressed one (da-DUM). Pentameter means five such feet in a line. For example: 'Let Rome in Tiber melt, and the wide arch / Of the ranged empire fall!' This rhythm is close to natural English speech, but sounds formal and powerful.","Hyperbole: the language is grand and exaggerated, matching the huge passions. Antony says, 'Kingdoms are clay.' Enobarbus says of Cleopatra that 'Age cannot wither her, nor custom stale her infinite variety', making her a goddess who beats time.","Rome and Egypt speak differently. In Rome (Octavius), speech is plainer, direct, logical and businesslike. In Egypt (Antony and Cleopatra), speech is poetic, exaggerated and full of rich images: the language of passion."]},
+{"h":"Imagery","p":["Imagery is descriptive language that appeals to the senses. Shakespeare uses patterns of imagery to support his themes.","The world and the heavens: characters see themselves in cosmic terms. Antony is 'the triple pillar of the world'. Octavius holds the world in his hands. Cleopatra compares Antony to the sun and moon. This shows that the love story will decide the fate of the world.","Water and sea: the sea is central. It is the source of Rome's power (its navy) and the River Nile is the source of Egypt's wealth. The Nile stands for fertility, mystery and excess. The sea battle at Actium is where Antony's world sinks.","Animals: Cleopatra is called the 'serpent of old Nile'. This is double-sided: it means dangerous and tempting (like the serpent in Eden), but also wise, ancient and able to renew herself (like a snake shedding its skin). She dies by an asp's bite. The horse stands for Roman manhood and war; Antony's decline is shown by loss of control of it."]},
+{"h":"Dramatic techniques","p":["Contrast: the whole play is built on contrasts: Rome and Egypt; Octavius (cold) and Antony (hot); Cleopatra (passionate) and Octavia (virtuous); public life (battle plans, politics) and private life (lovers' quarrels). They show that private passion has public results.","Foreshadowing: hints of what will come. The soothsayer's warning that Antony will always lose to Octavius foreshadows his defeat. Enobarbus's witty speeches often hint at coming doom.","Dramatic irony: the audience knows more than the characters. As Antony dies believing Cleopatra is dead, the audience knows that she is alive, which makes his suicide even sadder."]},
+{"h":"Relevance today","p":["The play is 2,000 years old in its setting, but its themes are timeless. The pull between what we want (passion, love) and what we should do (duty, work) is felt by everyone. Octavius wins by controlling the story as well as by force, painting Antony as a wasted man: a lesson for an age of media and 'fake news'. The play also asks whether Antony and Cleopatra's love is great or selfish and destructive, which links to modern celebrity culture. The clash of values (East and West, traditional and modern) is still a source of conflict in a globalised world."]},
+{"h":"A correction","p":["The lesson plan contains several broken lines of joking text under 'Hyperbole', where a quotation from Antony was meant to appear. The line used here, 'Kingdoms are clay: our dungy earth alike / Feeds beast as man', is from Antony in Act I, Scene 1."]}
+],
+"activity":"Name two dramatic techniques that Shakespeare uses and give an example of one. (Contrast: Rome and Egypt; dramatic irony: Antony thinks Cleopatra is dead while the audience knows she lives.)",
+"check":[
+{"q":"Blank verse is","o":["Unrhymed iambic pentameter","Rhymed couplets","Prose","Free verse with no rhythm"]},
+{"q":"The 'serpent of old Nile' refers to","o":["Cleopatra","Octavius","Antony","Lepidus"]},
+{"q":"The soothsayer's warning is an example of","o":["Foreshadowing","Alliteration","Euphemism","Simile"]},
+{"q":"When Antony thinks Cleopatra is dead and we know she is alive, it is","o":["Dramatic irony","Verbal irony","Metaphor","Oxymoron"]},
+{"q":"Language in Rome is mostly","o":["Plain and direct","Full of exaggeration","Magical","Rhymed"]},
+{"q":"The 'triple pillar of the world' describes","o":["Antony","Octavius","Pompey","Enobarbus"]}]},
+
+{"id":"li1-14","week":11,"title":"Revision","icon":"Target","summary":"A summary of First Term: literature and its functions, appreciation, figures of speech, genres and Antony and Cleopatra, with three essay topics.",
+"keyWords":["Revision","Functions","Figures of speech","Genres","Antony and Cleopatra"]
+,"sections":[
+{"h":"Key points","p":["Study the table. If you cannot explain a point in your own words, go back to that unit."],
+"tbl":{"head":["Topic","Remember"],"rows":[
+["Literature","Imaginative, artistic, universal use of language; functions: entertain, educate, mirror society, criticise society, preserve culture, develop emotions"],
+["Appreciation","Analysis, interpretation, evaluation; theme, plot, setting, style, tone, mood"],
+["Plot","Exposition, rising action, climax, falling action, resolution"],
+["Figures of speech","Simile (like or as), metaphor (is), irony, personification, oxymoron, euphemism, alliteration, hyperbole, allusion, assonance, paradox, repetition"],
+["Genres","Prose (sentences, paragraphs), poetry (lines, stanzas, metre), drama (acts, scenes, dialogue)"],
+["Antony and Cleopatra","Tragedy; Rome against Egypt; love against duty; Actium; deaths of Antony and Cleopatra; blank verse and rich imagery"]]}},
+{"h":"Essay topics (300 to 400 words)","p":["Choose one. 1. Using any three figures of speech from this term (for example metaphor, personification, irony), explain how they work in a text and why they are more effective than plain language. 2. Compare prose, poetry and drama by their structure and their ways of telling a story. 3. 'In Antony and Cleopatra, Octavius Caesar wins the world, but Antony and Cleopatra win the audience's imagination.' Discuss, and explain why the 'losers' may be thought of as the true heroes."]},
+{"h":"Quick practice","p":["Name the figure: 'The car engine coughed, sputtered and finally died' (personification); 'Her new dress is a perfect mess' (oxymoron); 'Tolu is a snake' (metaphor); 'as light as a feather' (simile); 'His new car is a pre-owned vehicle' (euphemism); 'a modern-day Romeo' (allusion); 'I waited an eternity' (hyperbole)."]}
+],
+"activity":"Write a short plan (introduction, three points, conclusion) for essay topic 3 above.",
+"check":[
+{"q":"The turning point of a plot is the","o":["Climax","Exposition","Setting","Theme"]},
+{"q":"'Tolu is a snake' is a","o":["Metaphor","Simile","Hyperbole","Alliteration"]},
+{"q":"In Antony and Cleopatra, the victor in the end is","o":["Octavius","Antony","Cleopatra","Pompey"]},
+{"q":"The three genres are","o":["Prose, poetry and drama","Novel, essay and letter","Comedy, tragedy and satire only","Fiction, fable and fact"]},
+{"q":"Tone is the","o":["Writer's attitude","Reader's feeling","Setting","Plot"]}]}
+]

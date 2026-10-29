@@ -1,0 +1,166 @@
+[
+{"id":"p31-02","week":1,"title":"Energy Conversion and the Conservation of Energy","icon":"Zap",
+"summary":"What energy conversion means, the principle of conservation of energy, and the main forms of energy with their conversions.",
+"keyWords":["Energy conversion","Conservation of energy","Chemical energy","Mechanical energy","Electrical energy","Thermal energy","Nuclear energy"],
+"sections":[
+{"h":"Energy is always changing form","p":["Energy is part of every physical process: the movement of objects, the working of machines and the functions of living things. One of the most important ideas about energy is that it can change from one form to another. This is called energy conversion. A battery converts chemical energy into electrical energy. An electric iron converts electrical energy into thermal (heat) energy."]},
+{"h":"The principle of conservation of energy","p":["Energy cannot be created or destroyed in an isolated system. It can only be changed from one form into another, and the total amount of energy stays the same. So the total energy before a process and the total energy after it are equal, even though the energy may appear in different forms. Machines do not make energy. They only change it."]},
+{"h":"Forms of energy and what they can become","p":["Chemical energy: stored in the bonds of chemical substances. It becomes electrical energy in a battery, or thermal and mechanical energy when fuel burns.","Mechanical energy: kinetic energy (energy of motion) and potential energy (energy of position). It becomes electrical energy in a generator and thermal energy through friction.","Electrical energy: energy of moving charges. It becomes mechanical energy in a motor, thermal energy in a heater and light in a bulb.","Thermal energy: energy of the motion of particles. It is made in most conversions, for example by friction, and is often wasted.","Nuclear energy: stored in the nuclei of atoms. In a nuclear reactor it becomes heat and then electrical energy.","Radiant (light) energy: carried by electromagnetic waves. It becomes electrical energy in solar panels and chemical energy in photosynthesis.","Sound energy: energy of vibrating particles, usually made from mechanical energy, for example by a loudspeaker."]}
+],
+"activity":"State the principle of conservation of energy in your own words. Name the form of energy that a battery stores (chemical) and the form it gives out in a torch (electrical, then light and heat).",
+"check":[
+{"q":"The principle of conservation of energy says that energy","o":["cannot be created or destroyed, only changed from one form to another","is always destroyed in machines","can be made from nothing","only exists as heat"]},
+{"q":"A battery converts","o":["chemical energy to electrical energy","electrical energy to chemical energy","light to heat","sound to heat"]},
+{"q":"An electric iron converts electrical energy mainly to","o":["thermal energy","sound energy","chemical energy","nuclear energy"]},
+{"q":"Energy stored in the nuclei of atoms is","o":["nuclear energy","chemical energy","radiant energy","sound energy"]},
+{"q":"Kinetic and potential energy together are","o":["mechanical energy","thermal energy","nuclear energy","radiant energy"]}
+]},
+
+{"id":"p31-03","week":1,"title":"Examples of Energy Conversion and Energy Transformation Diagrams","icon":"Layers",
+"summary":"Energy conversions in everyday devices and natural processes, drawn as chains of energy transformations.",
+"keyWords":["Torchlight","Generator","Hydroelectric dam","Photosynthesis","Car engine","Microphone","Loudspeaker"],
+"sections":[
+{"h":"Everyday examples","p":["Torchlight: chemical (battery) → electrical → light + heat. Electric fan: electrical → mechanical (rotation). Generator (dynamo): mechanical → electrical. Human body: chemical (food) → mechanical (movement) + thermal (body heat). Hydroelectric dam: potential (water stored high) → kinetic (falling water) → mechanical (turbine) → electrical (generator). Photosynthesis: radiant (sunlight) → chemical (glucose). Car engine: chemical (fuel) → thermal (combustion) → mechanical (movement) → sound + heat (wasted). Microphone: sound → electrical. Loudspeaker: electrical → sound + heat. Electric kettle: electrical → thermal."]},
+{"h":"Energy transformation diagrams","p":["An energy transformation diagram shows the stages in order. Put the form of energy in each box and the device or process that changes it on the arrow or beside it. Look at the chains below."],"img":{"src":"phy3-energy-chains.png","alt":"Four chains of boxes showing energy conversions in a torchlight, a hydroelectric power station, a car engine, and a microphone and loudspeaker","cap":"Energy conversion chains."}},
+{"h":"How to draw one","p":["1. Write the starting form of energy. 2. Name the device that changes it. 3. Write the next form. 4. Continue until the useful output. 5. Show wasted energy, usually heat or sound, as a branch.","Example for an electric bulb: Electrical energy → (filament) → Light energy (useful) + Heat energy (wasted)."]}
+],
+"activity":"Draw energy transformation diagrams for (a) a hydroelectric dam, (b) an electric bulb and (c) a microphone. Describe five energy conversions in your home.",
+"check":[
+{"q":"A generator converts","o":["mechanical energy to electrical energy","electrical energy to mechanical energy","light to chemical energy","chemical energy to mechanical energy"]},
+{"q":"An electric motor converts","o":["electrical energy to mechanical energy","mechanical energy to electrical energy","heat to light","sound to electrical energy"]},
+{"q":"The correct chain for a battery-powered torch is","o":["chemical → electrical → light","electrical → chemical → light","light → electrical → chemical","chemical → thermal → light only"]},
+{"q":"Photosynthesis converts","o":["light energy to chemical energy","chemical energy to light","heat to sound","electrical to chemical"]},
+{"q":"A microphone converts","o":["sound to electrical energy","electrical to sound energy","light to sound","heat to electrical energy"]}
+]},
+
+{"id":"p31-04","week":1,"title":"Efficiency and Energy Loss","icon":"Target",
+"summary":"Why no machine is 100% efficient, the causes of energy loss, and how to calculate efficiency.",
+"keyWords":["Efficiency","Useful output","Waste energy","Friction","Resistance","Air drag"],
+"sections":[
+{"h":"Energy is always lost as waste","p":["In real systems energy conversion is never 100% efficient. Some energy is always changed into forms we do not want, usually heat. The main causes: friction (mechanical energy turns into heat), resistance in electrical circuits (electrical energy turns into heat), vibration and sound (unwanted noise) and air drag (reduces the efficiency of vehicles and turbines). The wasted energy is not destroyed; it is spread out as heat in the surroundings."]},
+{"h":"Efficiency","p":["Efficiency shows how much of the input energy becomes useful output energy: Efficiency = (useful energy output ÷ total energy input) × 100%. It can also be written with power: efficiency = (useful power output ÷ power input) × 100%.","An electric filament bulb may change only about 10% of its electrical energy into light. The other 90% is lost as heat. Its efficiency is about 10%."]},
+{"h":"Worked example 1 (WAEC 2020)","p":["4 000 J of energy is supplied to a system, and 2 800 J is useful output. Efficiency = (2 800 ÷ 4 000) × 100% = 70%. The wasted energy is 4 000 − 2 800 = 1 200 J."],"img":{"src":"phy3-efficiency.png","alt":"A bar showing 4000 joules of input split into 2800 joules of useful output and 1200 joules wasted, with the efficiency calculation of 70 percent","cap":"Efficiency = 2 800 ÷ 4 000 × 100% = 70%."}},
+{"h":"Worked example 2","p":["A machine receives 5 000 J and produces 3 500 J of useful work. Efficiency = (3 500 ÷ 5 000) × 100% = 70%."]},
+{"h":"Why a car engine is not 100% efficient","p":["Only part of the chemical energy of the fuel becomes the motion of the car. Much is lost as heat through the exhaust and the engine body, as friction between moving parts, as sound and as air drag. A petrol engine is typically about 25 to 30% efficient."]}
+],
+"activity":"A motor takes in 600 J of electrical energy and gives out 450 J of useful mechanical energy. Find its efficiency (75%) and the energy wasted (150 J). State two factors that cause energy losses in a machine (friction, electrical resistance, air drag, sound).",
+"check":[
+{"q":"4 000 J supplied and 2 800 J useful gives an efficiency of","o":["70%","28%","40%","140%"]},
+{"q":"5 000 J supplied and 3 500 J useful gives an efficiency of","o":["70%","35%","50%","143%"]},
+{"q":"Energy lost as heat by friction is","o":["not destroyed but wasted","destroyed","created","stored as light"]},
+{"q":"Efficiency of a real machine is always","o":["less than 100%","more than 100%","exactly 100%","zero"]},
+{"q":"A bulb that changes 10% of its electrical energy into light has an efficiency of","o":["10%","90%","100%","1%"]}
+]},
+
+{"id":"p31-05","week":2,"title":"Power Transmission: Meaning and Methods","icon":"Layers",
+"summary":"What power transmission is, why it matters, and the mechanical, electrical and hydraulic ways of transmitting energy.",
+"keyWords":["Power transmission","Grid","Belts","Gears","Chain and sprocket","Overhead cables","Hydraulic"],
+"sections":[
+{"h":"What is power transmission?","p":["Power transmission is the transfer of energy from the place where it is produced (a power station or an engine) to the place where it is used to do work (homes, factories or machines). It makes energy available far from where it is generated.","Its importance: it allows industries, towns and villages to use electricity or mechanical power; energy can be generated in one central plant and used over a wide area; it is cheaper than many small generators, which are costly and hard to maintain; and the networks (grids) join regions and let states or countries share energy."]},
+{"h":"1. Mechanical transmission","p":["Energy is passed through physical parts. Belts are flexible loops joining pulleys on different shafts, used in lathes and conveyors. Gears are toothed wheels that interlock and pass motion and force between shafts, used in clocks and engines. Chains and sprockets are used on bicycles and motorcycles.","Advantages: simple and cheap to build. Limitations: parts wear out and the distance is short."]},
+{"h":"2. Electrical transmission","p":["Electrical energy is carried by conductors such as copper or aluminium wires. Overhead cables carry high voltages (for example 132 kV and 330 kV) over long distances. Underground cables are used in towns to avoid ugly wires and hazards.","Advantages: long distances with small loss (especially high-voltage AC), and easy change of voltage with transformers. Limitations: expensive to build; open to weather, vandalism and sabotage."]},
+{"h":"3. Hydraulic transmission","p":["A pressurised liquid, usually oil, carries the energy. It is used in construction machines, aircraft and presses. Advantages: large forces can be sent through small pipes; control is smooth and exact. Limitations: leaks can be dangerous; it works over short distances and moderate speeds."]}
+],
+"activity":"Give one example each of mechanical, electrical and hydraulic transmission and state one advantage of each. Why are grids useful?",
+"check":[
+{"q":"A flexible loop connecting pulleys on different shafts is a","o":["belt","gear","transformer","penstock"]},
+{"q":"Which system carries large forces through small pipes?","o":["hydraulic","belt","overhead cable","chain"]},
+{"q":"Overhead cables are used for","o":["long-distance transmission at high voltage","short mechanical drives","hydraulic jacks","wireless signals"]},
+{"q":"A limitation of mechanical transmission is","o":["wear and short distance","high voltage","leaking oil","vandalism of cables"]},
+{"q":"The networks that connect regions to share electrical energy are","o":["grids","gears","pulleys","dams"]}
+]},
+
+{"id":"p31-06","week":2,"title":"AC and DC Transmission","icon":"Zap",
+"summary":"A comparison of alternating current and direct current for transmitting electricity over long distances.",
+"keyWords":["AC","DC","HVDC","Transmission efficiency","Voltage conversion"],
+"sections":[
+{"h":"AC and DC","p":["Alternating current (AC) changes direction periodically. Direct current (DC) flows in one direction only. Power stations in Nigeria and homes use AC."]},
+{"h":"Comparison","p":["Study the table."],"tbl":{"head":["Feature","AC (alternating current)","DC (direct current)"],"rows":[["Direction of flow","Alternates periodically","Flows in one direction"],["Transmission efficiency","Less efficient over very long distances, but improved with transformers","More efficient for very long distances (over about 500 km)"],["Voltage conversion","Easy with transformers","Needs complex and expensive converters"],["Cost of infrastructure","Lower: transformers and switchgear are cheaper","Higher because of converter stations"],["Uses","Power grids, home and industrial supply","Very long lines and underwater cables (HVDC)"]]}},
+{"h":"Why do grids use AC?","p":["Transformers work only with alternating current. The voltage can be stepped up for economical transmission and stepped down for safe use. DC from batteries or solar panels cannot be changed by a transformer because the current in the coil is steady and does not produce a changing magnetic field.","High-voltage direct current (HVDC) is used for very long links and for undersea cables, where the losses of AC are larger. It needs converter stations at each end."]}
+],
+"activity":"State two differences between AC and DC in power transmission. Explain why a transformer cannot be used with DC (a transformer needs a changing magnetic field, which only alternating current gives).",
+"check":[
+{"q":"Alternating current","o":["changes direction periodically","flows in one direction","is stored in batteries only","cannot be transformed"]},
+{"q":"A transformer works only with","o":["AC","DC","both equally","neither"]},
+{"q":"HVDC is mainly used for","o":["very long and undersea links","house lighting","bicycles","small motors"]},
+{"q":"Changing voltage in AC systems is","o":["easy with transformers","impossible","very expensive","done with batteries"]},
+{"q":"Grids use AC mainly because","o":["voltage can be easily changed with transformers","DC does not exist","AC is cheaper to store","AC is slower"]}
+]},
+
+{"id":"p31-07","week":2,"title":"Transformers","icon":"Zap",
+"summary":"How a transformer works, the difference between step-up and step-down transformers, the transformer equations and worked examples.",
+"keyWords":["Transformer","Primary coil","Secondary coil","Step-up","Step-down","Turns ratio"],
+"sections":[
+{"h":"What is a transformer?","p":["A transformer changes the voltage of an alternating current by electromagnetic induction. It has two coils of wire, the primary and the secondary, wound on a soft iron core. An alternating current in the primary coil produces a changing magnetic field in the core. This field induces an alternating voltage in the secondary coil."],"img":{"src":"phy3-transformer.png","alt":"A transformer with a primary coil of 400 turns, a secondary coil of 40 turns on an iron core, and the equation Vp over Vs equals Np over Ns equals Is over Ip","cap":"A step-down transformer: 150 V in, 15 V out."}},
+{"h":"Step-up and step-down","p":["A step-up transformer has more turns in the secondary than in the primary (Ns > Np). It raises the voltage and lowers the current. It is used at power stations to prepare electricity for long-distance transmission. A step-down transformer has fewer turns in the secondary (Ns < Np). It lowers the voltage and raises the current. It is used near homes and factories.","In an ideal transformer, power in = power out, because energy is conserved: Vp × Ip = Vs × Is. So if the voltage is stepped down, the current is stepped up in the same ratio."]},
+{"h":"The transformer equations","p":["Vp / Vs = Np / Ns = Is / Ip (ideal transformer, 100% efficient), where Vp and Vs are the primary and secondary voltages, Np and Ns the numbers of turns, and Ip and Is the currents."]},
+{"h":"Worked example 1: step-down","p":["Primary 400 turns, secondary 40 turns, input 150 V. Vp / Vs = Np / Ns: 150 / Vs = 400 / 40 = 10, so Vs = 15 V."]},
+{"h":"Worked example 2: step-up","p":["Primary 100 turns, secondary 200 turns, primary voltage 100 V. Np < Ns, so it is a step-up transformer. Vs = 100 × 200 / 100 = 200 V."]},
+{"h":"Worked example 3: currents","p":["The 150 V to 15 V transformer in Example 1 takes 0.5 A from the supply. Power in = 150 × 0.5 = 75 W. In an ideal transformer the output current is Is = 75 / 15 = 5 A. The current is stepped up 10 times as the voltage is stepped down 10 times."]},
+{"h":"Practice","p":["A transformer has 400 turns in the primary and 100 in the secondary and a primary voltage of 240 V. Vs = 240 × 100 / 400 = 60 V (step-down)."]}
+],
+"activity":"A transformer has 200 turns in its primary and 1 000 turns in its secondary. If the primary voltage is 12 V, find the secondary voltage (60 V) and say whether it is step-up or step-down (step-up). Describe how a transformer works and state one reason why step-up transformers are used in power transmission.",
+"check":[
+{"q":"A transformer with 400 primary turns, 40 secondary turns and 150 V input gives","o":["15 V","1 500 V","150 V","1.5 V"]},
+{"q":"100 primary turns, 200 secondary turns, 100 V input gives","o":["200 V","50 V","100 V","20 000 V"]},
+{"q":"A step-up transformer has","o":["more turns in the secondary","more turns in the primary","equal turns","no iron core"]},
+{"q":"In an ideal transformer when the voltage is stepped down","o":["the current is stepped up","the current stays the same","the power doubles","the frequency changes"]},
+{"q":"400 turns in the primary, 100 in the secondary and 240 V input give a secondary voltage of","o":["60 V","960 V","240 V","6 V"]}
+]},
+
+{"id":"p31-08","week":2,"title":"Why Power Is Transmitted at High Voltage","icon":"BarChart2",
+"summary":"Power loss in cables (P = I²R), why high voltage reduces loss, a worked example and problems of power transmission in Nigeria.",
+"keyWords":["Power loss","I²R","High voltage","Cable resistance","Vandalism"],
+"sections":[
+{"h":"Power loss in a cable","p":["A cable has resistance R. When a current I flows, the power lost as heat is P(loss) = I²R. Because the loss depends on the square of the current, a small reduction in current gives a big reduction in loss.","Power sent = voltage × current (P = IV). For the same power, a higher voltage means a smaller current. So transmitting at high voltage reduces the loss. That is why step-up transformers are used at power stations."]},
+{"h":"Worked example (WAEC type)","p":["A generator rated 12 kW, 2 kV sends power through a cable of resistance 20 Ω. Find the power loss. I = P / V = 12 000 / 2 000 = 6 A. Power loss = I²R = 6² × 20 = 36 × 20 = 720 W.","Now step the voltage up to 20 kV. I = 12 000 / 20 000 = 0.6 A. Power loss = 0.6² × 20 = 0.36 × 20 = 7.2 W. Raising the voltage 10 times made the current 10 times smaller and the loss 100 times smaller."]},
+{"h":"Voltage regulation","p":["Transformers keep the voltage steady at different points in the grid: stepped up for the long-distance lines and stepped down at substations for homes and factories."]},
+{"h":"Problems of power transmission in Nigeria","p":["Vandalism of cables and towers, theft of conductors, bush fires and weather damage; long lines that pass through remote areas and give losses; poor maintenance and old equipment; and the high cost of building and protecting lines. These cause blackouts and reduce industrial output. Environmental problems include clearing forests for line routes and the danger of fallen lines and electrocution in rural villages."]}
+],
+"activity":"Explain why power is transmitted at high voltage over long distances. A generator rated 10 kW, 1 kV sends power along a cable of resistance 10 Ω. Find the power lost (I = 10 A; loss = 100 × 10 = 1 000 W).",
+"check":[
+{"q":"The power lost in a cable is","o":["I²R","IR","V²/I","I/R"]},
+{"q":"For 12 kW at 2 kV, the current is","o":["6 A","24 A","0.6 A","60 A"]},
+{"q":"The power loss in a 20 Ω cable carrying 6 A is","o":["720 W","120 W","36 W","3.6 W"]},
+{"q":"Raising the transmission voltage 10 times reduces the loss in the cable by","o":["100 times","10 times","2 times","no change"]},
+{"q":"High-voltage transmission reduces power loss because it","o":["lowers the current","raises the current","raises the resistance","stores energy"]}
+]},
+
+{"id":"p31-09","week":3,"title":"Machines: Meaning, Functions and Classes","icon":"Layers",
+"summary":"What a machine is, what machines do, and the simple machines (lever, pulley, inclined plane, wedge, screw, wheel and axle) and compound machines.",
+"keyWords":["Machine","Lever","Pulley","Inclined plane","Wedge","Screw","Compound machine"],
+"sections":[
+{"h":"What is a machine?","p":["A machine is a device that makes work easier. It can multiply force, change the direction of a force, or increase speed or distance. A machine does not create energy; it only helps us use available energy more conveniently."]},
+{"h":"Simple machines","p":["Simple machines are basic mechanical devices. The lever is a rigid bar that turns about a fulcrum. There are three classes: first class (fulcrum between load and effort: seesaw, crowbar), second class (load between fulcrum and effort: wheelbarrow, nutcracker) and third class (effort between fulcrum and load: forearm, fishing rod)."],"img":{"src":"phy3-levers.png","alt":"Diagrams of the three classes of lever with the load, effort and fulcrum marked","cap":"The three classes of lever."}},
+{"h":"More simple machines","p":["A pulley is a grooved wheel with a rope. A fixed pulley changes the direction of the force. A movable pulley multiplies the force. A block and tackle is a combination of pulleys. An inclined plane (ramp) is a sloping surface used to raise heavy objects. A wedge tapers to a thin edge and is used for splitting (an axe). A screw is an inclined plane wound round a cylinder. A wheel and axle is a large wheel fixed to a small axle (a door handle, a car steering wheel)."]},
+{"h":"Compound machines","p":["A compound machine has two or more simple machines working together: a wheelbarrow (lever + wheel and axle), a crane (pulley + lever), scissors (two levers + a wedge) and a bicycle (wheel and axle + levers + gears). In real machines, efficiency is always less than 100% because of friction, heat and deformation."]}
+],
+"activity":"Classify as simple or compound machines: wheelbarrow (compound), pliers (compound: two levers), knife (simple: wedge), pulley (simple), bicycle (compound), axe (simple: wedge).",
+"check":[
+{"q":"A seesaw is a","o":["first class lever","second class lever","third class lever","pulley"]},
+{"q":"A wheelbarrow is a","o":["second class lever","first class lever","third class lever","screw"]},
+{"q":"A fixed pulley","o":["changes the direction of the force","multiplies the force by two","creates energy","has no use"]},
+{"q":"A compound machine","o":["has two or more simple machines","is always 100% efficient","has no moving parts","is a lever only"]},
+{"q":"An axe is an example of a","o":["wedge","pulley","screw","wheel and axle"]}
+]},
+
+{"id":"p31-10","week":3,"title":"Mechanical Advantage, Velocity Ratio and Efficiency of Machines","icon":"Target",
+"summary":"The formulas for mechanical advantage, velocity ratio and efficiency of a machine, with corrected worked examples.",
+"keyWords":["Mechanical advantage","Velocity ratio","Efficiency","Load","Effort"],
+"sections":[
+{"h":"The three quantities","p":["Mechanical advantage (MA) = load ÷ effort. It tells how many times the machine multiplies the force.","Velocity ratio (VR) = distance moved by the effort ÷ distance moved by the load. For a block and tackle, VR equals the number of rope sections supporting the load. For an inclined plane, VR = length of slope ÷ vertical height. For a wheel and axle, VR = radius of the wheel ÷ radius of the axle.","Efficiency = (MA ÷ VR) × 100%. It is also (work output ÷ work input) × 100%. MA is never greater than VR."]},
+{"h":"Example 1: a lever","p":["A load of 100 N is lifted by an effort of 20 N. MA = 100 / 20 = 5."]},
+{"h":"Example 2","p":["A machine has VR = 4 and MA = 3. Efficiency = (3 / 4) × 100% = 75%."]},
+{"h":"Example 3: a machine with the numbers corrected","p":["A machine lifts a 500 N load through 2 m when the effort moves 6 m. VR = 6 / 2 = 3. (A printed exercise says the effort is 125 N, but then MA = 500 / 125 = 4, which is more than VR. This is impossible because it would give an efficiency of 133%.) With an effort of 200 N, MA = 500 / 200 = 2.5 and efficiency = (2.5 / 3) × 100% = 83.3%.","Check with work: work output = 500 × 2 = 1 000 J. Work input = 200 × 6 = 1 200 J. Efficiency = 1 000 / 1 200 = 83.3%."]},
+{"h":"Example 4: a block and tackle","p":["A system of pulleys has 4 rope sections supporting the load, so VR = 4. An effort of 125 N lifts a load of 400 N. MA = 400 / 125 = 3.2. Efficiency = 3.2 / 4 × 100% = 80%."]},
+{"h":"Example 5: an inclined plane","p":["A 5 m long ramp rises 1 m. VR = 5. A load of 500 N is pushed up with an effort of 125 N. MA = 4. Efficiency = 4 / 5 × 100% = 80%."]}
+],
+"activity":"A machine has MA = 6 and VR = 8. Find its efficiency (75%). A ramp 4 m long rises 1 m; a 200 N load needs an effort of 80 N. Find VR (4), MA (2.5) and efficiency (62.5%).",
+"check":[
+{"q":"A lever with a load of 100 N and an effort of 20 N has MA","o":["5","0.2","80","2 000"]},
+{"q":"A machine with VR 4 and MA 3 has an efficiency of","o":["75%","133%","12%","7.5%"]},
+{"q":"VR of a block and tackle equals","o":["the number of rope sections supporting the load","the effort","the load","the efficiency"]},
+{"q":"The mechanical advantage of a real machine is","o":["less than or equal to its VR","always greater than VR","always zero","always infinite"]},
+{"q":"MA = 3.2 and VR = 4 give an efficiency of","o":["80%","12.8%","125%","3.2%"]}
+]}
+]

@@ -1,0 +1,139 @@
+[
+{"id":"ec1-10","week":4,"title":"Division of Labour and Specialisation","icon":"Users","summary":"What division of labour and specialisation mean, the types of specialisation, their advantages, disadvantages and limitations.",
+"keyWords":["Division of labour","Specialisation","Productivity","Interdependence","Limitations"],
+"sections":[
+{"h":"Division of labour","p":["Adam Smith used the example of making pins to show that when a job is split into small tasks and each worker does one task, much more is produced. Division of labour means giving different tasks to different people so that productivity and profit rise.","Example: to build a house, a manager needs masons, plumbers, carpenters, electricians, painters and interior designers. Each uses a special skill and together they finish the building."]},
+{"h":"Specialisation","p":["Specialisation means that a person, firm or country concentrates on one kind of work or product. There are four types. By process: the work is divided into stages, and each worker or firm does only one stage. By product: a producer makes only one commodity. By sex: some jobs are done only by men or only by women because of custom, tradition or law. Geographical: a region produces one commodity because of its climate and resources (for example cocoa in the south-west of Nigeria and groundnut in the north)."]},
+{"h":"Advantages","p":["Higher output, large-scale production, saving of time, growth of specialisation, standard goods, and less tiredness."]},
+{"h":"Disadvantages","p":["Greater interdependence: a problem in one stage stops everything. Difficulty in changing jobs (poor mobility). Boredom from repeating the same job. Loss of craftsmanship as workers become machine-minders."]},
+{"h":"Limitations","p":["The size of the market, the level of technology, the nature of the good (for example seasonal goods), the supply of inputs such as capital and labour, special talents, and government policy."]}
+],
+"activity":"Think of making a school uniform. List the jobs (measuring, cutting, sewing, ironing, selling) and say how division of labour helps.",
+"check":[
+{"q":"Division of labour means","o":["Giving different tasks to different people","One person doing all tasks","Dividing wages","Closing a factory"]},
+{"q":"Cocoa grown in one region only is","o":["Geographical specialisation","Specialisation by sex","Specialisation by process","No specialisation"]},
+{"q":"A disadvantage of division of labour is","o":["Boredom and monotony","Higher output","Time saving","Standard goods"]},
+{"q":"Which limits division of labour?","o":["Size of the market","Too many talents","Free time","Good weather only"]},
+{"q":"Who used the pin factory example?","o":["Adam Smith","Marshall","Robbins","Keynes"]}]},
+
+{"id":"ec1-11","week":4,"title":"Economies of Scale and the Scale of Production","icon":"BarChart2","summary":"Economies and diseconomies of scale (internal and external), advantages and disadvantages of large-scale production, and what limits a firm's growth.",
+"keyWords":["Economies of scale","Internal economies","External economies","Diseconomies","Large-scale production"],
+"sections":[
+{"h":"Economies of scale","p":["Economies of scale are achieved when producing more units costs less per unit. As a firm grows and produces more, its average cost per unit falls. Adam Smith named division of labour and specialisation as two main ways to get this. Diseconomies of scale happen when a firm grows too big and the average cost starts to rise."]},
+{"h":"Internal and external","p":["Internal economies are cost savings that come from the firm's own growth (for example buying materials in bulk, using machines or splitting management). External economies are savings that all firms in an industry enjoy because the industry has grown or is concentrated in one area, for example a better road network, a skilled labour pool or an industrial estate. Alfred Marshall made this distinction.","Internal diseconomies arise within the firm: poor management, too many workers or technical limits that raise costs. External diseconomies arise outside it: traffic jams, high rents or shortage of workers because many industries crowd into one place."]},
+{"h":"Advantages of large-scale production","p":["Internal and external economies; more division of labour; lower cost per unit (one manager can supervise a factory making 1,000 units instead of two managers for two factories of 500); ancillary industries grow up to supply inputs or use by-products, such as around a steel mill."]},
+{"h":"Disadvantages","p":["Danger of over-production and falling prices. Less supervision, so waste and dishonesty. Concentration of wealth in a few hands. Dependence on foreign markets, which can be cut off by war. Individual tastes ignored because goods are uniform."]},
+{"h":"Limits to the growth of a firm","p":["The extent of the market, the availability of capital, the nature of the business, falling price of the product and rising management costs."]}
+],
+"activity":"A baker sells 100 loaves and spends N5,000, then sells 400 loaves and spends N14,000. Work out the cost per loaf in each case. Which is an economy of scale?",
+"check":[
+{"q":"Economies of scale mean average cost per unit","o":["Falls as output rises","Rises as output rises","Stays fixed","Becomes zero"]},
+{"q":"A better road network for the whole industry is an","o":["External economy","Internal diseconomy","Internal economy","External diseconomy"]},
+{"q":"Poor management in a big firm causes","o":["Internal diseconomies","External economies","More profit","Lower prices always"]},
+{"q":"An advantage of large-scale production is","o":["Lower cost per unit","Equal wealth for all","Fully personal tastes","No risk"]},
+{"q":"A limit to the growth of a firm is","o":["Size of the market","Too many customers always","Lower taxes always","Free capital"]}]},
+
+{"id":"ec1-12","week":6,"title":"Economic Systems: Capitalism, Socialism and the Mixed Economy","icon":"Landmark","summary":"What an economic system is, and the features, advantages and disadvantages of capitalism, socialism and mixed economies.",
+"keyWords":["Economic system","Capitalism","Socialism","Mixed economy","Private ownership"],
+"sections":[
+{"h":"What is an economic system?","p":["An economic system is the way a society or government organises and shares its resources, goods and services. It decides how production and consumption are controlled: how things are made, who makes them, how they are shared and who gets access. It is like the set of rules a society follows for money and trade. There are three main types."]},
+{"h":"Capitalism (free-market economy)","p":["In capitalism, individuals own and manage property, and free market forces set prices. Private ownership of the means of production is the main feature; private people decide what to produce, how, and for whom. Examples: the USA, Japan, Australia, Singapore, Switzerland and France (although most governments also play some role).","Features: private ownership, competition, profit motive, accumulation of wealth, free enterprise and individual initiative.","Advantages: customers have choice; efficiency; fast development; hard work is rewarded because people can own property; many forms of production; technology grows; talent is used.","Disadvantages: workers can be exploited; job insecurity and unemployment; unhealthy rivalry; profit at all cost; more crime from the chase for wealth; inequality, since few people control production."]},
+{"h":"Socialism (centrally planned economy)","p":["In socialism, the state owns and controls the means of production. Industries are owned by the government, and the aim is the welfare of all citizens. Countries with strong state control have included the former Soviet bloc, Cuba, China (before its reforms) and some African states after independence, such as Tanzania and Mozambique. Most of these have since added market features.","Features: state ownership, welfare focus, no profit motive, full use of resources, prevention of private monopoly and stable prices.","Advantages: fairer sharing of resources, job security, central planning, no private monopoly and no exploitation by private owners.","Disadvantages: little competition; a state monopoly; little creativity; little choice for consumers; laziness because the state provides all."]},
+{"h":"Mixed economy","p":["A mixed economy combines capitalism and socialism. Private property is protected and people have economic freedom, but the government also steps in to meet social aims. Resources are owned jointly by public and private owners. Examples: Britain, Mexico, Peru and, in Africa, Nigeria, Egypt, Kenya and Tanzania.","Features: joint participation and decisions, fair competition, checks and balances, freedom of choice. Advantages: no monopoly, job security, economic development, choice and a mix of the best of both. Disadvantages: corruption and mismanagement, inefficiency, labour exploitation, emphasis on profit at the expense of citizens, and a wide gap between rich and poor."]}
+],
+"activity":"Make a table with three columns (capitalism, socialism, mixed) and rows for who owns production, what drives decisions, one advantage and one disadvantage.",
+"check":[
+{"q":"In capitalism, the means of production are owned by","o":["Private individuals","The state only","Nobody","Foreign governments only"]},
+{"q":"Socialism aims mainly at","o":["The welfare of all citizens","Maximum private profit","Foreign trade only","Competition"]},
+{"q":"Nigeria operates a","o":["Mixed economy","Pure capitalism","Pure socialism","Barter economy"]},
+{"q":"A disadvantage of capitalism is","o":["Inequality of wealth","State monopoly","Lack of choice","No competition"]},
+{"q":"A disadvantage of socialism is","o":["Absence of competition and creativity","Unemployment from free markets","Foreign control","Private monopoly"]}]},
+
+{"id":"ec1-13","week":6,"title":"The Basic Economic Problems of Society","icon":"Target","summary":"The four fundamental questions every society must answer: what, how and for whom to produce, and how efficiently resources are used.",
+"keyWords":["What to produce","How to produce","For whom to produce","Efficiency","Resources"],
+"sections":[
+{"h":"Why there are economic problems","p":["Every society has unlimited wants but limited resources. So every society, whether capitalist, socialist or mixed, faces four basic problems."]},
+{"h":"1. What to produce?","p":["Because we cannot produce everything, society must decide which goods and services to produce and in what amounts. Factors: cost of production, consumers' income, market demand, availability of resources and consumer needs."]},
+{"h":"2. How to produce?","p":["After deciding what to produce, we must choose the method. Factors: the technique of production (labour-intensive or capital-intensive), technological advancement and the relative cost of the factors of production."]},
+{"h":"3. For whom to produce?","p":["Production is not complete until goods reach the final consumers. Factors: the level of consumers' income, the need to satisfy wants, and the economic system. In capitalist and mixed economies, who gets what depends on prices and incomes. In a socialist economy, the state often uses quotas."]},
+{"h":"4. How efficiently are resources used?","p":["Resources are used efficiently if the output is high compared with the inputs. Efficiency depends on the quality of labour (skilled labour raises output and quality) and the techniques of production (machines save time and reduce waste)."]}
+],
+"activity":"A village has money for either a clinic or a borehole. Explain which of the four problems this is and what the opportunity cost is.",
+"check":[
+{"q":"The problem of deciding which goods and services to produce is","o":["What to produce","How to produce","For whom to produce","How to save"]},
+{"q":"Choosing between machines and many workers is the problem of","o":["How to produce","What to produce","For whom to produce","Efficiency only"]},
+{"q":"Quotas for distribution are used mostly in","o":["Socialist economies","Free markets only","Barter only","No economy"]},
+{"q":"Efficient use of resources means","o":["High output from given inputs","Low output","Wasting inputs","Closing factories"]},
+{"q":"The basic economic problems arise from","o":["Unlimited wants and limited resources","Too much money","Too little time only","Government only"]}]},
+
+{"id":"ec1-14","week":8,"title":"Firm, Factory, Industry and Business Organisation","icon":"Layers","summary":"The meaning of a firm, a plant (factory) and an industry, the two groups of business organisation, and private and public enterprises.",
+"keyWords":["Firm","Plant","Industry","Private enterprise","Public enterprise"],
+"sections":[
+{"h":"Firm, plant and industry","p":["A firm is a business that produces and sells goods or services to earn revenue and profit. A 'company' is any trade or business and includes sole proprietorships, partnerships and corporations, while a firm usually means a business run by two or more partners, such as a law firm.","A plant or factory is the place where a firm produces: the building and equipment in one location (cement plant, textile mill, steel mill).","An industry is a group of firms making similar goods or services for the same market, such as the banking industry, wood industry or insurance industry."]},
+{"h":"Business organisations","p":["A business organisation is an enterprise set up by an individual, a group or the government to make a profit and/or to provide goods and services. There are two groups: private and public enterprises."]},
+{"h":"Private enterprises","p":["Owned and managed by private individuals, such as a sole proprietorship or a partnership. Characteristics: private people provide the capital; ownership belongs to them; the aim is profit; they are accountable to the owners; and the owners bear the risk."]},
+{"h":"Public enterprises","p":["Owned, controlled and managed by the federal, state or local government. They are often called authorities, corporations, boards or commissions. Examples: the Nigerian Ports Authority (NPA), the Nigerian Television Authority (NTA) and the Nigerian Railway Corporation (NRC). Characteristics: government provides capital; government owns; the aim is social service; managers answer to government; government and taxpayers bear the risk; a board of directors manages."]},
+{"h":"Private compared with public","p":["Private enterprise: owned by individuals; capital from individuals; aim is profit; controlled by owners or their directors; set up by registration; losses are borne by owners. Public enterprise: owned by government; capital from government; aim is social service; controlled by a board appointed by government; set up by an Act; losses are borne by taxpayers.","Problems of private enterprises in Nigeria: inadequate capital, insufficient raw materials, poor management, poor power supply (so firms run generators, which raises cost), and lack of specialisation."]}
+],
+"activity":"List six business organisations in your community and say whether each is private or public.",
+"check":[
+{"q":"A group of firms making similar goods for the same market is an","o":["Industry","Plant","Household","Estate"]},
+{"q":"A factory is also called a","o":["Plant","Firm","Company","Market"]},
+{"q":"The main aim of a public enterprise is","o":["Social service","Maximum profit","Export","Tax saving"]},
+{"q":"Losses of a public enterprise are borne by","o":["Taxpayers","Owners only","Customers only","Workers"]},
+{"q":"NPA stands for the Nigerian","o":["Ports Authority","Police Association","Power Agency","Producers Alliance"]}]},
+
+{"id":"ec1-15","week":8,"title":"Companies and Their Types","icon":"Landmark","summary":"What a company is, limited and unlimited liability, private and public limited companies, quoted and unquoted companies.",
+"keyWords":["Company","Limited liability","Unlimited liability","Quoted company","Shares"],
+"sections":[
+{"h":"What is a company?","p":["A company is a voluntary group of people who come together to run a business and share the profits. It is a legal body, separate from its owners, formed to reach a common aim."]},
+{"h":"Limited and unlimited liability","p":["Limited liability means that owners can lose only the amount they invested. Their private property is safe if the company fails. Unlimited liability means that the owners are fully responsible for all the debts of the business. Sole proprietors and general partners have unlimited liability. The Companies and Allied Matters Act (CAMA) is the Nigerian law that governs companies."],
+"tbl":{"head":["","Limited liability","Unlimited liability"],"rows":[
+["Owner's risk","Limited to money invested","All of the owner's property"],
+["Example","Company with Ltd. or Plc","Sole trader, general partnership"],
+["Legal status","Separate legal body","Often the same as the owner"]]}},
+{"h":"Private and public limited companies","p":["A private limited company has a small number of shareholders (the old law set a limit of fifty) and may not sell shares to the public. A public limited company (Plc) offers its shares to the general public, and anyone can buy them."]},
+{"h":"Quoted and unquoted companies","p":["A quoted company has its shares accepted for trading on a stock exchange, which makes it easier to raise capital. Examples in Nigeria: Zenith Bank Plc, Dangote Cement Plc, Cadbury Nigeria Plc and BUA Cement Plc. An unquoted (unlisted) company is not traded on the stock exchange. It may be too small to qualify or have been delisted, and it relies on private investors for capital."]}
+],
+"activity":"Explain in your own words the difference between a limited and an unlimited liability company, using the example of a shop that fails owing N2 million.",
+"check":[
+{"q":"Limited liability means the owner can lose","o":["Only what he invested","All his property","Nothing","Only his house"]},
+{"q":"A company whose shares are sold on the stock exchange is","o":["Quoted","Unquoted","Unlimited","A sole trader"]},
+{"q":"A public limited company sells shares to","o":["The general public","Only its workers","Only the government","Nobody"]},
+{"q":"Unlimited liability applies to a","o":["Sole proprietor","Plc","Quoted company","Limited company"]},
+{"q":"Which is an example of a quoted company?","o":["Dangote Cement Plc","A roadside shop","A family farm","A school club"]}]},
+
+{"id":"ec1-16","week":9,"title":"Population: Size, Growth and Migration","icon":"Users","summary":"What population is, birth rate, death rate and migration, population formulas, and the advantages and disadvantages of youthful and ageing populations.",
+"keyWords":["Population","Birth rate","Death rate","Migration","Net migration"],
+"sections":[
+{"h":"Meaning and determinants","p":["Population is the total number of people living in a country or area at a particular time. Three things decide its size and growth: the birth rate, the death rate and migration."]},
+{"h":"Birth rate","p":["The birth rate (natality rate) is the number of live births per 1,000 people in a year. Birth rate = (number of births ÷ total population) × 1,000. (The notes show × 100, which gives a percentage; for the 'per thousand' form use × 1,000.) Factors: early marriage, desire for a large family, religion, better medical services, higher living standard, ratio of males to females, family planning and infant mortality."]},
+{"h":"Death rate","p":["The death rate is the number of deaths per 1,000 people in a year. Death rate = (number of deaths ÷ total population) × 1,000. A high death rate reduces population; a low one raises it. Factors: poor health services, high cost of living, natural disasters, war, ignorance, poverty and high infant mortality."]},
+{"h":"Migration","p":["Migration is the movement of people from one place to another, either for a while or for good. The place people leave is the source region; the place they go to is the receiving region (destination). Immigration is people coming into a country (an immigrant). Emigration is people leaving it (an emigrant). Immigration raises population; emigration lowers it. Factors: disasters, climate, insecurity, economic opportunities, education and wealth, social amenities, political instability and war."]},
+{"h":"Formulas","p":["Net migration = immigration − emigration. Natural growth rate = birth rate − death rate. Population growth rate = birth rate − death rate + net migration."]},
+{"h":"Youthful and ageing populations","p":["A youthful (increasing) population has a rising share of young people. Advantages: large labour force, large market, respect and attention from other countries, foreign investment and aid. Disadvantages: pressure on resources, crime, shortage of food, crowded cities, and unemployment.","An ageing (declining) population has a rising share of old people. Advantages: lower government spending on children, less crowding, better living standards, more savings and investment. Disadvantages: smaller labour force, under-population, falling GDP, lower rewards for factors, and higher government spending on the elderly."]}
+],
+"activity":"A country has 40 births and 10 deaths per 1,000 people, with net migration of +2 per 1,000. Find the natural growth rate and the population growth rate. (Answers: 30 and 32 per 1,000.)",
+"check":[
+{"q":"Which three factors decide population size?","o":["Birth rate, death rate, migration","Income, tax, trade","Land, labour, capital","Price, supply, demand"]},
+{"q":"People leaving a country are","o":["Emigrants","Immigrants","Citizens only","Tourists"]},
+{"q":"Natural growth rate equals","o":["Birth rate − death rate","Birth rate + death rate","Immigration − emigration","Death rate − birth rate"]},
+{"q":"Net migration is","o":["Immigration − emigration","Births − deaths","Emigration + immigration","Population ÷ births"]},
+{"q":"A disadvantage of a youthful population is","o":["Pressure on resources and unemployment","Large labour force","Large market","Foreign aid"]}]},
+
+{"id":"ec1-17","week":10,"title":"The Labour Market, Labour Force, Efficiency and Mobility of Labour","icon":"Users","summary":"What the labour market and labour force are, what affects the size of the labour force, what makes labour efficient, and how labour moves between places and jobs.",
+"keyWords":["Labour market","Labour force","Efficiency","Geographical mobility","Occupational mobility"],
+"sections":[
+{"h":"Labour and the labour market","p":["Labour is all human effort, skilled or unskilled, used to produce goods and services. A market is any place or means by which buyers and sellers exchange goods and services at prices set by market forces. The labour market is where buyers of labour (employers) and sellers of labour (workers) meet and agree on wages and conditions."]},
+{"h":"The labour force","p":["The labour force (working population) is the total number of people of working age who are able and willing to work. It includes those who have jobs and those looking for jobs, usually between 18 and 65 years, though this differs by country. Factors affecting its size: population (more people, more workers); income (higher incomes attract workers); education (a more educated society has a bigger labour force); home ownership (owning a home reduces mobility); and other local factors."]},
+{"h":"Efficiency of labour","p":["Efficiency of labour is the productive power of a worker: the ability to do more or better work in a given time. It depends on personal qualities; general education and intelligence; standard of living (good food, clothes, housing); level of technology; state of health; and job security."]},
+{"h":"Mobility of labour","p":["Mobility is the ability of workers to move from place to place, job to job or industry to industry. Geographical mobility is movement from one location to another; it is affected by transport cost, government policy, language barriers, family and cultural ties and available infrastructure. Occupational mobility is movement from one job to another; it is affected by the cost and length of training, trade union or professional restrictions, differences in wages, political or religious crises and personal preference."]}
+],
+"activity":"List three things that would make a driver more efficient at work and two things that would stop an electrician from moving to a different job.",
+"check":[
+{"q":"The labour market is where","o":["Employers and workers agree wages","Goods are exported","Money is printed","Taxes are paid"]},
+{"q":"The labour force usually includes people aged","o":["About 18 to 65","0 to 10","65 to 100","10 to 17"]},
+{"q":"Which raises the efficiency of labour?","o":["Good health and education","Poor health","Insecurity","Low technology"]},
+{"q":"Moving from Kano to Lagos for work is","o":["Geographical mobility","Occupational mobility","Immigration only","Specialisation"]},
+{"q":"Changing from teaching to banking is","o":["Occupational mobility","Geographical mobility","Emigration","Division of labour"]}]}
+]

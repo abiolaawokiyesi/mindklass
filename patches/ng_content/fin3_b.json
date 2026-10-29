@@ -1,0 +1,234 @@
+[
+{"id":"fa3-06","week":3,"title":"Sales Ledger Control Account: Meaning and Structure","icon":"BarChart2","summary":"What control accounts are, why they are used, and the items on the debit and credit sides of the sales ledger control account.",
+"keyWords":["Control account","Debtors","Sales ledger","Credit sales","Contra"]
+,"sections":[
+{"h":"Meaning of control accounts","p":["A control account is a summary account that shows the total of a group of individual accounts in one account. It is also called a total account. There are two kinds: the sales ledger control account (the total debtors account) and the purchases ledger control account (the total creditors account).","The sales ledger control account shows the total of all the individual debtors' accounts in the sales ledger. It is also called the total debtors account, the debtors control account or the receivables control account."]},
+{"h":"Why use control accounts?","p":["1. Quick information: the total owed by all customers is available at once, without adding hundreds of accounts. 2. To detect errors: the control account balance is compared with the total of the individual balances; if they differ, there is an error. 3. Division of work: one person keeps the control account and another keeps the individual accounts, which reduces the risk of fraud. 4. To save time when extracting a trial balance: only the control account balance is needed. 5. As an internal check on the ledger clerks. 6. To locate errors quickly, because they are limited to one section. 7. To give management summary figures."]},
+{"h":"Structure of the sales ledger control account","p":["Because debtors are assets, the account has a debit balance. Debit side: things that INCREASE what customers owe. Credit side: things that DECREASE it."],
+"tbl":{"head":["Debit side (increases debtors)","Credit side (decreases debtors)"],"rows":[
+["Opening balance (debtors at the start)","Cash and bank received from debtors"],
+["Credit sales (total of the sales day book)","Returns inwards"],
+["Dishonoured cheques (they still owe)","Discount allowed"],
+["Interest charged on overdue accounts","Bad debts written off"],
+["Bad debts recovered (if reinstated)","Contra (set-off) with the purchases ledger"],
+["","Closing balance c/d (debtors at the end)"]]}},
+{"h":"The items explained","p":["Opening balance: the total owed by customers at the start of the period. Credit sales: only sales on credit, from the sales day book; cash sales are NOT included because they do not create debtors. Dishonoured cheques: a cheque from a customer that was banked but returned unpaid; the customer still owes the money. Interest charged: a penalty for late payment, which increases the debt.","Cash or bank received: the money received from customers, from the cash book. Returns inwards: goods the customers sent back, from the returns inwards day book. Discount allowed: cash discount given for prompt payment. Bad debts written off: debts confirmed as irrecoverable, from the journal. Contra: when the same person is both a debtor and a creditor, the smaller amount is set off. Example: a customer owes us ₦10,000 and we owe him ₦4,000; the contra is ₦4,000.","Memory aid: ask 'does this increase what customers owe us?' If yes, it is a debit. If it reduces what they owe, it is a credit."]}
+],
+"activity":"Say whether each is a debit or a credit in the sales ledger control account: (a) credit sales; (b) cash received from debtors; (c) discount allowed; (d) dishonoured cheque. ((a) debit; (b) credit; (c) credit; (d) debit.)",
+"check":[
+{"q":"The sales ledger control account normally has a","o":["Debit balance","Credit balance","Zero balance","Cash balance"]},
+{"q":"Credit sales are on the","o":["Debit side","Credit side","Either side","Neither side"]},
+{"q":"Cash sales are","o":["Not included","Included on the debit side","Included on the credit side","Deducted from debtors"]},
+{"q":"Bad debts written off are on the","o":["Credit side","Debit side","Either","Neither"]},
+{"q":"A dishonoured cheque from a customer is","o":["A debit","A credit","A contra","A discount"]},
+{"q":"A control account helps to","o":["Detect errors quickly","Increase sales","Reduce tax","Close the books"]}]},
+
+{"id":"fa3-07","week":3,"title":"Preparing a Sales Ledger Control Account and Reconciling It","icon":"Target","summary":"Worked examples of the sales ledger control account, how to reconcile it with the individual debtors' balances, and causes of differences.",
+"keyWords":["Closing balance","Reconciliation","Individual debtors","Dishonoured cheque","Difference"]
+,"sections":[
+{"h":"Example 1: January 2024","p":["Debtors at 1 January ₦80,000; credit sales ₦150,000; cash received from debtors ₦120,000; returns inwards ₦8,000; discount allowed ₦5,000; bad debts written off ₦3,000."],
+"tbl":{"head":["Debit side","₦","Credit side","₦"],"rows":[
+["1 Jan Balance b/d","80,000","31 Jan Cash and bank","120,000"],
+["31 Jan Credit sales","150,000","31 Jan Returns inwards","8,000"],
+["","","31 Jan Discount allowed","5,000"],
+["","","31 Jan Bad debts","3,000"],
+["","","31 Jan Balance c/d","94,000"],
+["Total","230,000","Total","230,000"],
+["1 Feb Balance b/d","94,000","",""]]}},
+{"h":"Check","p":["Opening ₦80,000 + credit sales ₦150,000 = ₦230,000. Less cash 120,000, returns 8,000, discount 5,000 and bad debts 3,000 = ₦136,000. Closing balance = ₦94,000. The customers owe ₦94,000 at the end of January."]},
+{"h":"Example 2: June 2024 (more items)","p":["Debtors at 1 June ₦120,000; credit sales ₦280,000; cash sales ₦150,000; cash received from debtors ₦240,000; cheques received from debtors ₦60,000; returns inwards ₦15,000; discount allowed ₦12,000; bad debts ₦8,000; dishonoured cheque ₦5,000; interest charged ₦2,000; contra with creditors ₦4,000."],
+"tbl":{"head":["Debit side","₦","Credit side","₦"],"rows":[
+["1 Jun Balance b/d","120,000","30 Jun Cash and cheques (240,000 + 60,000)","300,000"],
+["30 Jun Credit sales","280,000","30 Jun Returns inwards","15,000"],
+["30 Jun Dishonoured cheque","5,000","30 Jun Discount allowed","12,000"],
+["30 Jun Interest charged","2,000","30 Jun Bad debts","8,000"],
+["","","30 Jun Contra","4,000"],
+["","","30 Jun Balance c/d","68,000"],
+["Total","407,000","Total","407,000"],
+["1 Jul Balance b/d","68,000","",""]]}},
+{"h":"Notes on Example 2","p":["The cash sales of ₦150,000 are NOT included because they do not make debtors. Cash and cheques received are both money from debtors and can be shown as one figure of ₦300,000. The dishonoured cheque and the interest go on the debit side because they increase the debt. The contra goes on the credit side because it reduces the debt. The closing balance of ₦68,000 is the total owed by all customers."]},
+{"h":"Reconciling with the individual accounts","p":["Step 1: take the control account balance. Step 2: list and add up the individual debtors' balances from the sales ledger. Step 3: compare them. Step 4: if they differ, find and correct the error.","Example: control account ₦94,000. Individual balances: A 30,000; B 25,000; C 20,000; D 19,000 = ₦94,000. They agree.","Example with an error: control ₦94,000 and individual total ₦97,000, a difference of ₦3,000. The cause: a bad debt of ₦3,000 was written off in the control account but not in the individual debtor's account. Write it off there too and the total becomes ₦94,000."]},
+{"h":"Causes of differences","p":["An error in adding the sales day book; a credit sale posted to the wrong debtor (this affects the individual accounts only); an item in the control account but not in the individual account, or the other way round; different amounts in the two; returns not posted to the individual account; discount recorded in one place only; bad debts written off in one place only; a contra recorded in one place only; a dishonoured cheque reinstated in one place only; and a double posting."]},
+{"h":"Practice: Tola Enterprises, March 2024","p":["Debtors at 1 March ₦150,000; credit sales ₦320,000; cash sales ₦180,000; cash received from debtors ₦280,000; returns inwards ₦18,000; discount allowed ₦15,000; bad debts ₦10,000; dishonoured cheque ₦8,000; interest ₦3,000; contra ₦6,000. The individual debtors total ₦152,000.","Debit side: 150,000 + 320,000 + 8,000 + 3,000 = ₦481,000. Credit side: 280,000 + 18,000 + 15,000 + 10,000 + 6,000 = ₦329,000. Closing balance ₦152,000, which equals the individual total. The reconciliation shows no difference."]}
+],
+"activity":"Prepare the sales ledger control account for April 2024: debtors ₦180,000; credit sales ₦420,000; cash received ₦380,000; returns inwards ₦22,000; discount allowed ₦18,000; bad debts ₦12,000; dishonoured cheque ₦10,000; interest charged ₦4,000; contra ₦8,000; cash sales ₦200,000 (leave out). (Debit total 180,000 + 420,000 + 10,000 + 4,000 = 614,000; credit items 440,000; closing debtors ₦174,000.)",
+"check":[
+{"q":"In Example 1 the closing debtors are","o":["₦94,000","₦230,000","₦136,000","₦80,000"]},
+{"q":"In Example 2 the closing balance is","o":["₦68,000","₦407,000","₦339,000","₦120,000"]},
+{"q":"A contra entry is on the","o":["Credit side of the sales control account","Debit side","Both sides","Neither side"]},
+{"q":"If the control account and the total of the individual accounts differ, there is","o":["An error to find","No problem","A profit","A refund"]},
+{"q":"The cash sales of ₦150,000 are","o":["Left out","Added to debtors","Deducted from debtors","Added to purchases"]}]},
+
+{"id":"fa3-08","week":4,"title":"Purchases Ledger Control Account","icon":"BarChart2","summary":"The purchases ledger (total creditors) control account: its structure, items and worked examples.",
+"keyWords":["Creditors","Purchases ledger","Credit purchases","Returns outwards","Discount received"]
+,"sections":[
+{"h":"Meaning","p":["The purchases ledger control account shows the total of all the individual creditors' accounts in the purchases ledger. It is also called the total creditors account, the creditors control account, the payables control account or the bought ledger control account. It helps management, helps to find errors and acts as an internal check, just as the sales ledger control account does.","The sales ledger control account shows what customers owe us (an asset). The purchases ledger control account shows what we owe suppliers (a liability). They follow the same ideas but with opposite sides."]},
+{"h":"Structure","p":["Creditors are liabilities, so the account has a credit balance. Credit side: things that INCREASE what we owe. Debit side: things that DECREASE it."],
+"tbl":{"head":["Debit side (decreases creditors)","Credit side (increases creditors)"],"rows":[
+["Cash and bank paid to creditors","Opening balance (creditors at the start)"],
+["Returns outwards","Credit purchases (purchases day book)"],
+["Discount received","Interest charged by suppliers"],
+["Contra (set-off) with the sales ledger","Dishonoured cheque (our cheque to a supplier)"],
+["Closing balance c/d (creditors at the end)",""]]}},
+{"h":"The items explained","p":["Credit purchases are only purchases on credit, from the purchases day book; cash purchases are not included because they do not create creditors. A dishonoured cheque issued by us puts the debt back, so we still owe the supplier. Interest charged by suppliers (for late payment) also increases the debt. Cash paid, returns outwards, discount received and the contra reduce the debt."]},
+{"h":"Example 1: February 2024","p":["Creditors at 1 February ₦60,000; credit purchases ₦180,000; cash paid to creditors ₦150,000; returns outwards ₦12,000; discount received ₦8,000."],
+"tbl":{"head":["Debit side","₦","Credit side","₦"],"rows":[
+["28 Feb Cash and bank","150,000","1 Feb Balance b/d","60,000"],
+["28 Feb Returns outwards","12,000","28 Feb Credit purchases","180,000"],
+["28 Feb Discount received","8,000","",""],
+["28 Feb Balance c/d","70,000","",""],
+["Total","240,000","Total","240,000"],
+["","","1 Mar Balance b/d","70,000"]]}},
+{"h":"Example 2: May 2024","p":["Creditors at 1 May ₦100,000; credit purchases ₦250,000; cash purchases ₦90,000; cash paid to creditors ₦210,000; cheques paid ₦40,000; returns outwards ₦18,000; discount received ₦15,000; interest charged by suppliers ₦3,000; our dishonoured cheque ₦6,000; contra with debtors ₦5,000."],
+"tbl":{"head":["Debit side","₦","Credit side","₦"],"rows":[
+["31 May Cash and cheques (210,000 + 40,000)","250,000","1 May Balance b/d","100,000"],
+["31 May Returns outwards","18,000","31 May Credit purchases","250,000"],
+["31 May Discount received","15,000","31 May Interest charged","3,000"],
+["31 May Contra","5,000","31 May Dishonoured cheque","6,000"],
+["31 May Balance c/d","71,000","",""],
+["Total","359,000","Total","359,000"],
+["","","1 Jun Balance b/d","71,000"]]}},
+{"h":"Notes on Example 2","p":["Cash purchases of ₦90,000 are left out. Cash and cheques paid reduce creditors and are shown as one figure. The dishonoured cheque and the interest are credits because they increase what we owe. The contra is a debit because it reduces what we owe. The ₦71,000 is the total owed to all suppliers at 31 May."]}
+],
+"activity":"Prepare the purchases ledger control account for July 2024: creditors ₦110,000; credit purchases ₦290,000; cash paid ₦260,000; returns outwards ₦20,000; discount received ₦14,000; interest charged by suppliers ₦5,000; our dishonoured cheque ₦7,000; contra ₦9,000. (Credit side 110,000 + 290,000 + 5,000 + 7,000 = 412,000; debit items 303,000; closing creditors ₦109,000.)",
+"check":[
+{"q":"The purchases ledger control account normally has a","o":["Credit balance","Debit balance","Zero balance","Cash balance"]},
+{"q":"Credit purchases are on the","o":["Credit side","Debit side","Either side","Neither side"]},
+{"q":"Discount received is on the","o":["Debit side","Credit side","Either","Neither"]},
+{"q":"A cheque we issued that is dishonoured","o":["Increases what we owe","Reduces what we owe","Has no effect","Is cash"]},
+{"q":"In Example 1 the closing creditors are","o":["₦70,000","₦240,000","₦170,000","₦60,000"]},
+{"q":"Cash purchases are","o":["Left out","Added to creditors","Deducted from creditors","Added to debtors"]}]},
+
+{"id":"fa3-09","week":4,"title":"Contra Entries, Comparison and Reconciliation of Control Accounts","icon":"Layers","summary":"How a contra entry is made, a comparison of the sales and purchases control accounts, reconciling the creditors, and practice with answers.",
+"keyWords":["Contra","Set-off","Comparison","Reconciliation","Creditors"]
+,"sections":[
+{"h":"Contra (set-off)","p":["A contra is made when the same person is both a debtor and a creditor. Example: Tunde Limited owes us ₦15,000 (a debtor) and we owe Tunde Limited ₦10,000 (a creditor). We agree to set off ₦10,000.","Journal: Dr Purchases ledger control account ₦10,000; Cr Sales ledger control account ₦10,000 (being a contra entry for set-off).","Effect: in the sales ledger control account, ₦10,000 appears on the credit side (debtors fall from ₦15,000 to ₦5,000). In the purchases ledger control account, ₦10,000 appears on the debit side (creditors fall from ₦10,000 to nil). The same amount appears in both control accounts, on opposite sides. After the contra, Tunde owes us ₦5,000 net and we owe him nothing."]},
+{"h":"Sales compared with purchases","p":["Study the table."],
+"tbl":{"head":["Sales ledger control","Purchases ledger control"],"rows":[
+["Shows debtors (an asset)","Shows creditors (a liability)"],
+["Normally a debit balance","Normally a credit balance"],
+["Credit sales on the debit side","Credit purchases on the credit side"],
+["Cash received on the credit side","Cash paid on the debit side"],
+["Returns inwards on the credit side","Returns outwards on the debit side"],
+["Discount allowed on the credit side","Discount received on the debit side"],
+["Dishonoured cheque from a customer on the debit side","Our dishonoured cheque on the credit side"],
+["Shown in the balance sheet as a current asset","Shown in the balance sheet as a current liability"]]}},
+{"h":"What they have in common","p":["Both are control accounts that summarise individual accounts. Both help to find errors and save time. Both are used for reconciliation. They have similar items, on opposite sides."]},
+{"h":"Reconciling the purchases ledger","p":["Compare the control account balance with the total of the individual creditors' balances.","Example: control ₦71,000. Suppliers: A 28,000; B 20,000; C 15,000; D 8,000 = ₦71,000. They agree.","Example with an error: control ₦71,000; individual total ₦68,000; difference ₦3,000. Cause: a discount received of ₦3,000 was recorded in the control account but not in the individual creditor's account. Record it there and the total becomes ₦71,000."]},
+{"h":"Practice","p":["Exercise 1: creditors at 1 January ₦85,000; credit purchases ₦220,000; cash purchases ₦120,000 (leave out); payments to creditors ₦190,000; returns outwards ₦16,000; discount received ₦12,000. Credit side 85,000 + 220,000 = 305,000; debit items 190,000 + 16,000 + 12,000 = 218,000; closing creditors ₦87,000.","Exercise 2 (June): debtors ₦130,000; creditors ₦95,000; credit sales ₦280,000; credit purchases ₦210,000; cash received ₦250,000; cash paid ₦180,000; returns inwards ₦14,000; returns outwards ₦10,000; discount allowed ₦9,000; discount received ₦7,000; bad debts ₦5,000; contra ₦8,000. Sales control: debit 130,000 + 280,000 = 410,000; credit items 250,000 + 14,000 + 9,000 + 5,000 + 8,000 = 286,000; closing debtors ₦124,000. Purchases control: credit 95,000 + 210,000 = 305,000; debit items 180,000 + 10,000 + 7,000 + 8,000 = 205,000; closing creditors ₦100,000.","Question: the individual creditors total ₦109,000 but the control account shows ₦112,000. Give three possible reasons. (A discount or return recorded in the control account only; an addition error in the purchases day book; a payment recorded in the individual account but not in the control account.)"]}
+],
+"activity":"Tunde Limited owes us ₦12,000 and we owe Tunde Limited ₦7,000. Write the contra journal and say what each balance becomes. (Dr Purchases ledger control ₦7,000; Cr Sales ledger control ₦7,000. Debtor balance ₦5,000; creditor balance nil.)",
+"check":[
+{"q":"In a contra entry the same amount appears","o":["In both control accounts on opposite sides","On the same side of both","Only in sales","Only in purchases"]},
+{"q":"A contra entry reduces","o":["Both debtors and creditors","Only debtors","Only creditors","Neither"]},
+{"q":"The purchases ledger control account is shown in the balance sheet as a","o":["Current liability","Current asset","Fixed asset","Capital"]},
+{"q":"In Exercise 1 the closing creditors are","o":["₦87,000","₦218,000","₦305,000","₦120,000"]},
+{"q":"In Exercise 2 the closing debtors are","o":["₦124,000","₦286,000","₦410,000","₦100,000"]}]},
+
+{"id":"fa3-10","week":6,"title":"Depreciation: Meaning, Causes and Reasons","icon":"Zap","summary":"What depreciation is, which assets depreciate, seven causes and seven reasons for providing for it, and the main methods.",
+"keyWords":["Depreciation","Wear and tear","Obsolescence","Depletion","Non-cash expense"]
+,"sections":[
+{"h":"Meaning","p":["Depreciation is the systematic allocation of the cost of a fixed asset over its useful life. It is also the fall in value of a fixed asset because of use, the passage of time or obsolescence.","Key points: it applies to fixed assets only, not to current assets; it is a non-cash expense (no money is paid out); it is an estimate; it reduces the value of the asset in the balance sheet; it is charged as an expense in the profit and loss account; and it matches cost with income (the accrual concept).","Assets that depreciate: buildings, machinery, motor vehicles, furniture, equipment, computers and tools. Assets that normally do not: land (it usually keeps or gains value), stock (it is treated differently), investments and antiques."]},
+{"h":"Causes of depreciation","p":["1. Wear and tear: normal use damages the asset (an engine wears out; furniture is scratched). 2. Obsolescence: new technology makes an asset out of date even though it still works (an old computer replaced by a faster one). 3. Passage of time: assets lose value with age even if not used (rubber perishes, paint fades). 4. Depletion: the quantity of a natural resource falls as it is extracted (a mine, an oil well, a quarry). 5. Effluxion of time: rights that last for a fixed period expire (a 10-year lease, a patent, a licence). 6. Inadequacy: the asset becomes too small for a growing business. 7. Accidents and damage: a vehicle crash, fire damage."]},
+{"h":"Reasons for providing depreciation","p":["1. To apply the accrual concept: a machine that costs ₦100,000 and lasts 10 years is charged ₦10,000 a year, not ₦100,000 in year one. 2. To show the true profit: without depreciation the profit is overstated (₦50,000 instead of a truer ₦40,000). 3. To show a realistic asset value in the balance sheet. 4. To provide for replacement: keeping back profit each year helps the business to have funds to buy a new asset (note that depreciation itself does not create cash; the profit must actually be saved). 5. To follow the law and accounting standards. 6. To calculate the correct capital. 7. For tax: capital allowances reduce taxable profit."]},
+{"h":"Methods of depreciation","p":["The main methods are the straight-line method (equal instalment) and the reducing balance method (diminishing balance). Others are the revaluation method (used for small tools and livestock), the depletion method (mines and quarries), the machine hour or units of production method (based on use), the sum of years' digits method and the annuity method. In SS1 you study the first two."]}
+],
+"activity":"Give four causes of depreciation with an example of each. (Wear and tear: engine; obsolescence: old computer; passage of time: rubber seats; effluxion of time: a lease.)",
+"check":[
+{"q":"Depreciation applies to","o":["Fixed assets","Current assets only","Capital only","Debtors"]},
+{"q":"Land is normally","o":["Not depreciated","Always depreciated","Always sold","Always a liability"]},
+{"q":"Depreciation is a","o":["Non-cash expense","Cash payment","Sale","Loan"]},
+{"q":"Technology making an asset out of date is","o":["Obsolescence","Depletion","Wear and tear","Accident"]},
+{"q":"Depreciating a mine as the ore is removed is","o":["Depletion","Obsolescence","Inadequacy","Wear and tear"]},
+{"q":"Without depreciation, the profit is","o":["Overstated","Understated","Correct","Zero"]}]},
+
+{"id":"fa3-11","week":6,"title":"The Straight-Line Method of Depreciation","icon":"BarChart2","summary":"The formula, advantages and disadvantages of the straight-line method, three worked examples including part-year purchase, and how to record depreciation using a provision account.",
+"keyWords":["Straight line","Scrap value","Net book value","Provision for depreciation","Part year"]
+,"sections":[
+{"h":"The method","p":["In the straight-line method an equal amount of depreciation is charged each year over the life of the asset. It is also called the fixed instalment or equal instalment method.","Annual depreciation = (cost − scrap value) ÷ useful life. Or annual depreciation = cost × rate %. Cost is the purchase price. Scrap (residual or salvage) value is the amount the asset is expected to fetch at the end of its life. Useful life is the estimated number of years of use.","Advantages: simple and easy; the same charge each year; suits assets with steady use; easy to predict. Disadvantages: it ignores the pattern of use; it assumes equal benefit each year; it may not match actual wear; and repair costs usually rise with age, so the total cost is not even. It suits buildings, furniture, leases, patents and copyrights."]},
+{"h":"Example 1: using cost, scrap value and life","p":["Machine cost ₦100,000; scrap value ₦10,000; life 10 years. Annual depreciation = (100,000 − 10,000) ÷ 10 = ₦9,000 a year."],
+"tbl":{"head":["Year","Depreciation ₦","Accumulated depreciation ₦","Net book value ₦"],"rows":[
+["1","9,000","9,000","91,000"],
+["2","9,000","18,000","82,000"],
+["3","9,000","27,000","73,000"],
+["4","9,000","36,000","64,000"],
+["5","9,000","45,000","55,000"],
+["6","9,000","54,000","46,000"],
+["7","9,000","63,000","37,000"],
+["8","9,000","72,000","28,000"],
+["9","9,000","81,000","19,000"],
+["10","9,000","90,000","10,000"]]}},
+{"h":"Example 2: using a rate","p":["A vehicle costs ₦500,000 and is depreciated at 20% a year (straight line). Annual depreciation = 500,000 × 20% = ₦100,000. After 5 years the total depreciation is ₦500,000, so the net book value is nil."]},
+{"h":"Example 3: part-year purchase","p":["Furniture is bought on 1 April 2024 for ₦60,000 and is depreciated at 10% a year. Accounts close on 31 December. Full-year depreciation is 60,000 × 10% = ₦6,000. It was held for 9 months. Depreciation for 2024 = 6,000 × 9/12 = ₦4,500. Formula: cost × rate × (months held ÷ 12)."]},
+{"h":"Recording depreciation (provision method)","p":["Keep the asset at cost. Each year: Dr Depreciation account (expense) ₦9,000; Cr Provision for depreciation account ₦9,000. The depreciation account is closed to the profit and loss account. The provision account collects the amounts year by year: ₦9,000 at the end of year 1, ₦18,000 at the end of year 2. The balance sheet shows the machinery at cost ₦100,000, less provision ₦9,000 (year 1) or ₦18,000 (year 2), giving net book value ₦91,000 or ₦82,000.","Advantages of the provision method: it shows the original cost, the total depreciation to date and the net book value."]}
+],
+"activity":"A delivery van was bought on 1 January 2024 for ₦800,000, with a life of 5 years and scrap value ₦50,000. Find the yearly depreciation and the net book value at the end of year 3. ((800,000 − 50,000) ÷ 5 = ₦150,000; NBV = 800,000 − 450,000 = ₦350,000.)",
+"check":[
+{"q":"Straight-line depreciation = (cost − scrap value) ÷","o":["Useful life","Rate","Sales","Capital"]},
+{"q":"Machine ₦100,000, scrap ₦10,000, 10 years gives yearly depreciation of","o":["₦9,000","₦10,000","₦90,000","₦1,000"]},
+{"q":"Furniture ₦60,000 at 10%, held for 9 months, depreciation is","o":["₦4,500","₦6,000","₦5,400","₦9,000"]},
+{"q":"In the provision method, the asset account stays at","o":["Cost","Net book value","Zero","Scrap value"]},
+{"q":"A vehicle of ₦500,000 at 20% straight line has yearly depreciation of","o":["₦100,000","₦20,000","₦50,000","₦250,000"]}]},
+
+{"id":"fa3-12","week":8,"title":"The Reducing Balance Method of Depreciation","icon":"BarChart2","summary":"How depreciation is calculated on the reducing book value, the pattern it follows, worked examples including part-year purchase, and how it appears in the accounts.",
+"keyWords":["Reducing balance","Book value","Rate","Never reaches zero","Part year"]
+,"sections":[
+{"h":"The method","p":["In the reducing balance method (also called diminishing balance or written-down value method), depreciation is calculated each year on the net book value (cost less accumulated depreciation), not on the cost. Year 1: cost × rate. Year 2: (cost − year 1 depreciation) × rate. Each year: opening net book value × rate.","Features: the charge falls each year; it is highest in the early years; it never reaches zero, since a percentage of what remains always leaves something behind (₦100 × 20% = ₦20 leaves ₦80; ₦80 × 20% = ₦16 leaves ₦64; and so on)."]},
+{"h":"Example 1: a vehicle","p":["A motor vehicle costs ₦500,000 and is depreciated at 25% a year on the reducing balance."],
+"tbl":{"head":["Year","Opening NBV ₦","Depreciation (25%) ₦","Closing NBV ₦"],"rows":[
+["1","500,000","125,000","375,000"],
+["2","375,000","93,750","281,250"],
+["3","281,250","70,312.50","210,937.50"],
+["4","210,937.50","52,734.38","158,203.12"]]}},
+{"h":"Example 2: machinery","p":["Machinery bought on 1 January 2021 for ₦200,000. Depreciation is 30% a year on the reducing balance. Find the charge for each year and show the machinery in the balance sheet at 31 December 2024."],
+"tbl":{"head":["Year","Opening NBV ₦","Depreciation (30%) ₦","Accumulated depreciation ₦","Closing NBV ₦"],"rows":[
+["2021","200,000","60,000","60,000","140,000"],
+["2022","140,000","42,000","102,000","98,000"],
+["2023","98,000","29,400","131,400","68,600"],
+["2024","68,600","20,580","151,980","48,020"]]}},
+{"h":"The accounts","p":["The machinery account stays at the cost of ₦200,000 every year. The provision for depreciation account is credited each year with the year's charge and the balance builds up: ₦60,000, ₦102,000, ₦131,400, ₦151,980. Each year the journal is Dr Depreciation, Cr Provision for depreciation. Balance sheet at 31 December 2024: machinery at cost ₦200,000, less provision for depreciation ₦151,980, net book value ₦48,020."]},
+{"h":"Part-year purchase","p":["An asset is bought on 1 July 2024 for ₦120,000 and depreciated at 20% on the reducing balance. The year ends on 31 December. Full year = 120,000 × 20% = ₦24,000. For 6 months = 24,000 × 6/12 = ₦12,000. Net book value at 31 December 2024 = ₦108,000.","In 2025 the year is a full year: opening NBV ₦108,000 × 20% = ₦21,600, so closing NBV is ₦86,400. After the first part year, each following year is a full year on the reducing balance."]},
+{"h":"Practice with answers","p":["Equipment bought on 1 January 2022 for ₦80,000 at 25% reducing balance: 2022 ₦20,000 (NBV ₦60,000); 2023 ₦15,000 (NBV ₦45,000); 2024 ₦11,250 (NBV ₦33,750).","A vehicle bought on 1 July 2023 for ₦600,000 at 30% reducing balance (year end 31 December): 2023 = 600,000 × 30% × 6/12 = ₦90,000 (NBV ₦510,000); 2024 = 510,000 × 30% = ₦153,000 (NBV ₦357,000)."]}
+],
+"activity":"A computer bought on 1 January 2022 for ₦240,000 is depreciated at 40% on the reducing balance. Find the charge for 2022 to 2025. (₦96,000; ₦57,600; ₦34,560; ₦20,736. Accumulated depreciation at the end of 2025 is ₦208,896; net book value ₦31,104.)",
+"check":[
+{"q":"Reducing balance depreciation is calculated on the","o":["Net book value","Original cost every year","Scrap value","Sales"]},
+{"q":"Under this method the yearly charge","o":["Falls each year","Rises each year","Stays the same","Is zero"]},
+{"q":"A ₦500,000 vehicle at 25% reducing balance has a year 1 charge of","o":["₦125,000","₦93,750","₦500,000","₦25,000"]},
+{"q":"The machinery in Example 2 has a net book value at the end of 2024 of","o":["₦48,020","₦151,980","₦200,000","₦20,580"]},
+{"q":"An asset bought on 1 July at ₦120,000 and 20% has a first-year charge of","o":["₦12,000","₦24,000","₦6,000","₦20,000"]}]},
+
+{"id":"fa3-13","week":8,"title":"Comparing the Two Methods of Depreciation","icon":"Target","summary":"Straight line and reducing balance side by side, their advantages and disadvantages, which method to choose and practice questions.",
+"keyWords":["Comparison","Straight line","Reducing balance","Obsolescence","Method choice"]
+,"sections":[
+{"h":"Side by side","p":["An asset costs ₦100,000 and the rate is 20%. The chart and the table show the yearly depreciation under each method."],
+"img":{"src":"fin-depreciation.png","alt":"A bar chart of yearly depreciation for five years: blue bars of 20,000 each for the straight line method and orange bars falling from 20,000 to 8,192 for the reducing balance method","cap":"Yearly depreciation under the two methods."},
+"tbl":{"head":["Year","Straight line ₦","Reducing balance ₦"],"rows":[
+["1","20,000","20,000"],
+["2","20,000","16,000"],
+["3","20,000","12,800"],
+["4","20,000","10,240"],
+["5","20,000","8,192"],
+["Total","100,000","67,232"],
+["Net book value after 5 years","0","32,768"]]}},
+{"h":"Key differences","p":["Study the table."],
+"tbl":{"head":["Straight line","Reducing balance"],"rows":[
+["Equal charge each year","Falling charge each year"],
+["On the original cost","On the reducing book value"],
+["Reaches zero or scrap value","Never reaches zero"],
+["Simple calculation","More involved calculation"],
+["Lower charge in early years, so higher profit early","Higher charge in early years, so lower profit early"],
+["Better for assets with steady use","Better for assets that lose value quickly"],
+["Buildings, furniture, leases","Vehicles, computers, machinery"]]}},
+{"h":"Advantages and disadvantages of reducing balance","p":["Advantages: the pattern is realistic (an asset loses most value early); costs are matched with income (a new asset has a high depreciation charge and low repairs, an old asset has a low charge and high repairs, so the total yearly cost is more even); it gives tax advantages by deferring tax; it writes off the asset faster, which suits assets that quickly become out of date; and it is cautious (prudent).","Disadvantages: the calculation is more involved; the asset never reaches zero and may not match the true scrap value; profit is higher in later years, which makes comparisons harder; and the right rate is hard to find."]},
+{"h":"Which method to use?","p":["Use the straight-line method for buildings, furniture, leases, patents and copyrights, and for assets with steady use and a known life (for example, a ₦10 million building over 50 years is ₦200,000 a year). Use reducing balance for motor vehicles, computers, phones and other technology, and for machinery with fast obsolescence or heavy use in the early years.","Think about the pattern of use, the rate of obsolescence, repair costs (rising with age favours reducing balance), what management prefers and the type of asset."]},
+{"h":"Practice with answers","p":["An asset costing ₦200,000 depreciated at 20% for 5 years. Straight line: ₦40,000 a year, total ₦200,000, nil value. Reducing balance: ₦40,000; ₦32,000; ₦25,600; ₦20,480; ₦16,384, total ₦134,464, leaving a net book value of ₦65,536.","Equipment costing ₦300,000 for 4 years at 20%: straight line ₦60,000 a year, total ₦240,000, net book value ₦60,000. Reducing balance: ₦60,000; ₦48,000; ₦38,400; ₦30,720, total ₦177,120, net book value ₦122,880."]}
+],
+"activity":"Which method would you choose for a computer, and why? (Reducing balance: it loses value quickly and becomes out of date fast.)",
+"check":[
+{"q":"Which method gives equal charges each year?","o":["Straight line","Reducing balance","Both","Neither"]},
+{"q":"Which method never reaches zero?","o":["Reducing balance","Straight line","Both","Neither"]},
+{"q":"Which is better for a building?","o":["Straight line","Reducing balance","Either","Neither"]},
+{"q":"₦200,000 at 20% reducing balance over 5 years gives a total depreciation of","o":["₦134,464","₦200,000","₦40,000","₦65,536"]},
+{"q":"Reducing balance gives a higher charge in the","o":["Early years","Later years","Last year only","Never"]}]}
+]

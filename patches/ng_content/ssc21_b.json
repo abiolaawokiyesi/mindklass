@@ -1,0 +1,152 @@
+[
+{"id":"c21-12","week":8,"title":"Chemical Equilibrium: Reversible Reactions and Dynamic Equilibrium","icon":"Layers",
+"summary":"Reversible and irreversible reactions, how equilibrium is reached and why it is dynamic, and Le Chatelier's principle.",
+"keyWords":["Reversible reaction","Irreversible reaction","Dynamic equilibrium","Le Chatelier's principle","Haber process"],
+"sections":[
+{"h":"Reversible and irreversible reactions","p":["An irreversible reaction goes to completion and the products do not change back under the same conditions. Example: 2Mg + O₂ → 2MgO. Once magnesium has burned, the oxide does not break down again.","A reversible reaction can go in both directions. We write it with a double arrow (⇌). Example: N₂(g) + 3H₂(g) ⇌ 2NH₃(g). Nitrogen and hydrogen form ammonia, but ammonia also breaks down into nitrogen and hydrogen."]},
+{"h":"How equilibrium is reached","p":["At the start there are many reactant particles, so the forward reaction is fast. As reactants are used up and products build up, the reverse reaction speeds up. Eventually the forward and reverse rates become equal. From then on the concentrations of reactants and products do not change. This state is chemical equilibrium.","Equilibrium is dynamic, not static: the particles are still reacting in both directions, but at the same rate, so nothing seems to change. Equilibrium can only be reached in a closed system (one from which nothing escapes)."],"img":{"src":"chm2-equilibrium.jpg","alt":"A balance showing the rate of the forward reaction equal to the rate of the reverse reaction at dynamic equilibrium","cap":"At equilibrium the two rates are equal."}},
+{"h":"Irreversible and reversible reactions compared","p":["Irreversible: goes to completion; arrow →; cannot be reversed under the same conditions; example 2Mg + O₂ → 2MgO. Reversible: does not go to completion; arrow ⇌; both reactants and products are present at equilibrium; example N₂ + 3H₂ ⇌ 2NH₃."]},
+{"h":"Le Chatelier's principle","p":["If a change is made to a system at equilibrium, the position of equilibrium shifts to oppose the change.","Concentration: adding a reactant shifts the equilibrium to the right (forward); adding a product shifts it to the left. Pressure (gases): increasing the pressure shifts the equilibrium to the side with fewer moles of gas. Temperature: raising the temperature favours the endothermic direction; lowering it favours the exothermic direction. Catalyst: speeds up both directions equally, so equilibrium is reached sooner, but the position does not change.","Haber process: N₂ + 3H₂ ⇌ 2NH₃, ΔH = −92 kJ/mol. High pressure (about 200 atm) favours ammonia (4 moles of gas become 2). A low temperature would favour ammonia (exothermic), but it would be too slow, so about 450 °C is used with an iron catalyst. Contact process: 2SO₂ + O₂ ⇌ 2SO₃ with a vanadium(V) oxide catalyst."]},
+{"h":"Applications","p":["Haber process (ammonia for fertilisers); Contact process (sulphuric acid); carbonated drinks (CO₂ dissolved ⇌ CO₂ gas above the liquid); oxygen binding to haemoglobin in blood."]}
+],
+"activity":"Define chemical equilibrium and explain why it is dynamic. Give two differences between reversible and irreversible reactions. Why is a compromise temperature of about 450 °C used in the Haber process?",
+"check":[
+{"q":"At equilibrium","o":["the rates of forward and reverse reactions are equal","all reactants are used up","the reaction has stopped","only products are present"]},
+{"q":"A reversible reaction is shown by the symbol","o":["⇌","→","=","↑"]},
+{"q":"A catalyst at equilibrium","o":["does not change the position of equilibrium","shifts it to the right","shifts it to the left","stops the reaction"]},
+{"q":"Raising the pressure shifts N₂ + 3H₂ ⇌ 2NH₃ to the","o":["right","left","neither side","side with more gas"]},
+{"q":"Equilibrium can be reached only in a","o":["closed system","open system","vacuum","heated flask"]}
+]},
+
+{"id":"c21-13","week":8,"title":"The Equilibrium Constant Kc and Calculations","icon":"Target",
+"summary":"Writing the expression for Kc, what its size means, factors that do and do not change it, and worked calculations.",
+"keyWords":["Equilibrium constant","Kc","Concentration","Temperature","Position of equilibrium"],
+"sections":[
+{"h":"The expression for Kc","p":["For a reversible reaction aA + bB ⇌ cC + dD at equilibrium, Kc = [C]ᶜ[D]ᵈ / ([A]ᵃ[B]ᵇ). The square brackets mean concentration in mol/dm³ at equilibrium. Products go on top and reactants at the bottom; the coefficients become powers. Solids and pure liquids are left out.","Examples. 2SO₂ + O₂ ⇌ 2SO₃: Kc = [SO₃]² / ([SO₂]²[O₂]). N₂O₄ ⇌ 2NO₂: Kc = [NO₂]² / [N₂O₄]."]},
+{"h":"What the size of Kc tells us","p":["Kc depends only on temperature. A large Kc (much greater than 1) means that the equilibrium mixture contains mostly products. A small Kc (much less than 1) means that it contains mostly reactants. If Kc is about 1, there are comparable amounts of both. Kc has no units when the number of moles of reactants equals that of products; otherwise it has units that you can work out from the expression."]},
+{"h":"Worked example 1","p":["H₂(g) + I₂(g) ⇌ 2HI(g). At equilibrium [H₂] = 0.2, [I₂] = 0.2 and [HI] = 0.6 mol/dm³. Kc = [HI]² / ([H₂][I₂]) = 0.6² / (0.2 × 0.2) = 0.36 / 0.04 = 9.0 (no units)."]},
+{"h":"Worked example 2","p":["N₂(g) + 3H₂(g) ⇌ 2NH₃(g). At equilibrium [N₂] = 0.1, [H₂] = 0.3, [NH₃] = 0.4 mol/dm³. Kc = 0.4² / (0.1 × 0.3³) = 0.16 / 0.0027 = 59.3 (units: mol⁻² dm⁶).","Another: H₂ + I₂ ⇌ 2HI at 500 K with [H₂] = 0.1, [I₂] = 0.1, [HI] = 0.8: Kc = 0.64 / 0.01 = 64."]},
+{"h":"Worked example 3: finding the amounts","p":["1.0 mol of H₂ and 1.0 mol of I₂ are placed in a 1 dm³ flask and Kc = 9. Let x mol of each react. At equilibrium [H₂] = [I₂] = 1 − x and [HI] = 2x. Kc = 4x² / (1 − x)² = 9, so 2x / (1 − x) = 3, 2x = 3 − 3x and x = 0.6. Equilibrium: [H₂] = [I₂] = 0.4 mol/dm³ and [HI] = 1.2 mol/dm³. Check: 1.2² / (0.4 × 0.4) = 1.44 / 0.16 = 9 ✓."]},
+{"h":"What changes Kc and what does not","p":["Temperature changes Kc. For an exothermic reaction, a rise in temperature decreases Kc. For an endothermic reaction, a rise in temperature increases Kc. Changes in concentration or pressure shift the position of equilibrium but do not change Kc. A catalyst does not change Kc.","Note on the Haber process: at room temperature Kc for ammonia is very large, but the reaction is far too slow. At 450 °C Kc is much smaller, which is why high pressure is also used to raise the yield."]}
+],
+"activity":"Write Kc for (a) 2SO₂ + O₂ ⇌ 2SO₃ and (b) N₂O₄ ⇌ 2NO₂. For N₂O₄ ⇌ 2NO₂, [N₂O₄] = 0.04 and [NO₂] = 0.12 mol/dm³; find Kc (0.36 mol/dm³). List two factors that change the position of equilibrium but not Kc (concentration, pressure).",
+"check":[
+{"q":"Kc for N₂O₄ ⇌ 2NO₂ is","o":["[NO₂]² / [N₂O₄]","[N₂O₄] / [NO₂]²","[NO₂] / [N₂O₄]","2[NO₂] / [N₂O₄]"]},
+{"q":"A very large Kc means","o":["products are favoured","reactants are favoured","the reaction is very fast","no reaction occurs"]},
+{"q":"[H₂] = 0.2, [I₂] = 0.2, [HI] = 0.6 gives Kc =","o":["9.0","3.0","0.11","1.8"]},
+{"q":"Kc is changed by a change in","o":["temperature","pressure","concentration","a catalyst"]},
+{"q":"For an exothermic reaction, raising the temperature","o":["decreases Kc","increases Kc","does not change Kc","doubles the rate only"]}
+]},
+
+{"id":"c21-14","week":9,"title":"Chemical Kinetics: Rate of Reaction and Factors","icon":"Zap",
+"summary":"What kinetics is, how rate is measured, collision theory, and the factors that change the rate of a reaction.",
+"keyWords":["Rate of reaction","Collision theory","Activation energy","Catalyst","Surface area","Concentration"],
+"sections":[
+{"h":"Kinetics and thermodynamics","p":["Chemical kinetics is the study of how fast reactions happen and by what steps. Thermodynamics tells us whether a reaction can happen; kinetics tells us how quickly. The rusting of iron is possible but slow. The burning of petrol is possible and fast."]},
+{"h":"Rate of reaction","p":["The rate of reaction is the change in concentration of a reactant or product per unit time. For a reactant the rate is written with a minus sign, because its concentration falls: rate = −Δ[reactant]/Δt. For a product it is +Δ[product]/Δt. Units: mol dm⁻³ s⁻¹.","For 2H₂O₂ → 2H₂O + O₂: rate = −(1/2) d[H₂O₂]/dt = d[O₂]/dt. The average rate is the change over a time interval; the instantaneous rate is the rate at one moment (the slope of the tangent to the concentration-time graph)."]},
+{"h":"Collision theory","p":["For a reaction to occur, particles must collide. Not every collision is effective. An effective collision needs (1) energy at least equal to the activation energy Eₐ and (2) the correct orientation."]},
+{"h":"Factors that affect the rate","p":["1. Concentration: more particles in each volume means more frequent collisions, so the rate is higher. 2. Temperature: particles move faster and a larger fraction has energy of at least Eₐ. As a rough rule, the rate about doubles for every 10 °C rise. 3. Pressure (gases): more pressure means a higher concentration. 4. Surface area: powder reacts faster than lumps, because more particles are exposed. 5. Catalyst: provides another pathway with lower activation energy and is not used up (MnO₂ with H₂O₂). 6. Nature of reactants: ionic reactions such as neutralisation are very fast; reactions that break strong covalent bonds are slow."],"img":{"src":"chm2-rate-factors.jpg","alt":"A mind map of the factors that affect the rate of reaction: concentration, temperature, surface area and catalyst","cap":"Factors that affect reaction rate."}},
+{"h":"A simple experiment","p":["Marble chips with dilute HCl: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. Collect the gas in a syringe and read the volume every 30 seconds. The graph of volume against time is steep at first and then levels off as the acid is used up. Repeat with powder or with warm acid to see the effect on the steepness."]}
+],
+"activity":"Define chemical kinetics and say how it differs from thermodynamics. Explain four factors that affect the rate. Why does powdered zinc react faster than a zinc lump? (A larger surface area is exposed to collisions.)",
+"check":[
+{"q":"The rate of a reaction is the change in concentration per","o":["unit time","unit volume","mole","dm³"]},
+{"q":"A catalyst increases the rate by","o":["lowering the activation energy","raising the temperature","increasing the concentration","changing ΔH"]},
+{"q":"An effective collision needs energy at least equal to the","o":["activation energy","enthalpy of reaction","bond energy of the product","melting point"]},
+{"q":"Powdered solids react faster because of","o":["larger surface area","greater mass","lower density","lower activation energy"]},
+{"q":"As a rule of thumb, the rate doubles for every","o":["10 °C rise","1 °C rise","100 °C rise","1 atm rise"]}
+]},
+
+{"id":"c21-15","week":9,"title":"Rate Laws and Order of Reaction","icon":"Target",
+"summary":"The rate law, rate constant and order of reaction, how to find the order from experimental data, and first-order half-life calculations.",
+"keyWords":["Rate law","Rate constant","Order of reaction","Initial rates","Half-life"],
+"sections":[
+{"h":"The rate law","p":["For A + B → products, the rate law is rate = k[A]ᵐ[B]ⁿ. k is the rate constant (it depends on temperature and catalyst, not on concentration). m and n are the orders with respect to A and B. m + n is the overall order. The rate law must be found by experiment; it cannot be read from the balanced equation.","Example: if rate = k[NO]²[O₂] for 2NO + O₂ → 2NO₂, then the order with respect to NO is 2, with respect to O₂ is 1 and the overall order is 3."]},
+{"h":"Types of order","p":["Zero order: the rate does not depend on concentration; rate = k (decomposition of NH₃ on hot tungsten). First order: rate = k[A] (radioactive decay, decomposition of N₂O₅). Second order: rate = k[A]² or k[A][B]. Orders can also be fractions."]},
+{"h":"Finding the order: the method of initial rates","p":["Measure the initial rate for different starting concentrations. Suppose:","Experiment 1: [A] = 0.1, [B] = 0.1, rate = 2.0 × 10⁻³ mol dm⁻³ s⁻¹. Experiment 2: [A] = 0.2, [B] = 0.1, rate = 4.0 × 10⁻³. Experiment 3: [A] = 0.2, [B] = 0.2, rate = 16 × 10⁻³.","From 1 to 2, [A] doubles and the rate doubles: first order in A. From 2 to 3, [B] doubles and the rate is four times as large: second order in B. So rate = k[A][B]². Then k = 2.0 × 10⁻³ / (0.1 × 0.1²) = 2.0 dm⁶ mol⁻² s⁻¹. The units of k depend on the overall order."]},
+{"h":"Graphs and half-life","p":["Zero order: concentration against time is a straight line. First order: ln[A] against time is a straight line. Second order: 1/[A] against time is a straight line.","The half-life t½ is the time for the concentration to fall to half. For a first-order reaction it is constant: t½ = 0.693 / k.","Example. A first-order reaction has t½ = 300 s and [A]₀ = 1.0 mol/dm³. k = 0.693 / 300 = 2.31 × 10⁻³ s⁻¹. After 600 s (two half-lives) the concentration is 1.0 → 0.5 → 0.25 mol/dm³."]},
+{"h":"Why the rate law matters","p":["It helps to find reaction mechanisms, to understand how medicines break down in the body and to control industrial processes such as the Haber process, the Contact process and catalytic cracking."]}
+],
+"activity":"For 2NO + O₂ → 2NO₂ with rate = k[NO]²[O₂], state the order with respect to NO (2) and the overall order (3). The half-life of a first-order reaction is 300 s: find k (2.31 × 10⁻³ s⁻¹) and the concentration after 600 s from 1.0 mol/dm³ (0.25). Explain why the rate law must be found by experiment.",
+"check":[
+{"q":"If rate = k[A][B]², the overall order is","o":["3","2","1","4"]},
+{"q":"Doubling [A] doubles the rate. The reaction is","o":["first order in A","second order in A","zero order in A","third order in A"]},
+{"q":"A first-order reaction has a half-life that is","o":["constant","doubling each time","halving each time","zero"]},
+{"q":"After two half-lives, 1.0 mol/dm³ becomes","o":["0.25 mol/dm³","0.5 mol/dm³","0.75 mol/dm³","0.125 mol/dm³"]},
+{"q":"The rate constant k depends on","o":["temperature and catalyst","concentration only","volume only","order only"]}
+]},
+
+{"id":"c21-16","week":10,"title":"Heat of Reaction and Enthalpy Change","icon":"Zap",
+"summary":"Thermochemistry: heat of reaction, enthalpy change ΔH, exothermic and endothermic reactions, types of heat of reaction and a calorimetry calculation.",
+"keyWords":["Enthalpy","ΔH","Exothermic","Endothermic","Heat of formation","Heat of combustion","Heat of neutralisation"],
+"sections":[
+{"h":"Heat changes in reactions","p":["Chemical reactions give out or take in heat. Thermochemistry is the study of these heat changes. It helps to predict whether reactions will happen, to design industrial processes, to find the energy needed in factories and to understand energy changes in living things."]},
+{"h":"Enthalpy change","p":["Enthalpy (H) is the heat content of a system at constant pressure. The enthalpy change is ΔH = H(products) − H(reactants), in kJ per mole. ΔH is a state function: it depends only on the starting and finishing states, not on the route.","Exothermic reaction: heat is given out, ΔH is negative, and the temperature of the surroundings rises (burning methane, neutralisation, respiration). Endothermic reaction: heat is taken in, ΔH is positive, and the surroundings get cooler (photosynthesis, thermal decomposition of CaCO₃, dissolving ammonium chloride)."]},
+{"h":"Types of heat of reaction","p":["Heat of formation: the heat change when one mole of a compound is formed from its elements under standard conditions (25 °C, 1 atm). C(s) + O₂(g) → CO₂(g), ΔH = −394 kJ/mol.","Heat of combustion: the heat change when one mole of a substance burns completely in oxygen. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ/mol.","Heat of neutralisation: the heat change when one mole of water is formed from an acid and a base. HCl + NaOH → NaCl + H₂O, ΔH = −57 kJ/mol.","Heat of solution: the heat change when one mole of a substance dissolves in a large amount of solvent. Heat of atomisation: the heat needed to turn one mole of a substance into gaseous atoms."]},
+{"h":"A calorimetry calculation","p":["50 cm³ of 1.0 mol/dm³ HCl is mixed with 50 cm³ of 1.0 mol/dm³ NaOH and the temperature rises by 6.8 °C. Find the heat of neutralisation. (Specific heat capacity of the solution = 4.2 J g⁻¹ °C⁻¹; density = 1 g/cm³.) Heat produced q = m c ΔT = 100 × 4.2 × 6.8 = 2 856 J = 2.856 kJ. Moles of water formed = 0.050 × 1.0 = 0.050 mol. ΔH = −2.856 / 0.050 = −57.1 kJ/mol."]}
+],
+"activity":"Define heat of reaction and list four types with an example of each. Differentiate between exothermic and endothermic reactions with equations. 100 g of solution rises 5.0 °C when 0.040 mol of acid is neutralised (c = 4.2 J g⁻¹ °C⁻¹); find ΔH (q = 100 × 4.2 × 5.0 = 2 100 J; ΔH = −52.5 kJ/mol).",
+"check":[
+{"q":"For an exothermic reaction ΔH is","o":["negative","positive","zero","always 100 kJ"]},
+{"q":"C(s) + O₂(g) → CO₂(g) has ΔH = −394 kJ/mol. This is a heat of","o":["formation (and combustion of carbon)","neutralisation","solution","atomisation"]},
+{"q":"Photosynthesis is","o":["endothermic","exothermic","neutral","a catalyst"]},
+{"q":"Heat of neutralisation is about","o":["−57 kJ per mole of water","+57 kJ per mole of water","−890 kJ","−394 kJ"]},
+{"q":"ΔH depends only on","o":["the initial and final states","the route taken","the time taken","the catalyst used"]}
+]},
+
+{"id":"c21-17","week":10,"title":"Hess's Law","icon":"Layers",
+"summary":"The statement of Hess's law, why it is true, and calculations with enthalpy cycles.",
+"keyWords":["Hess's law","State function","Enthalpy cycle","Direct route","Indirect route"],
+"sections":[
+{"h":"Hess's law","p":["Hess's law of constant heat summation: the total enthalpy change of a reaction is the same whatever route is taken, provided the starting and finishing conditions are the same. It is true because enthalpy is a state function.","It lets us calculate ΔH for reactions that cannot be measured directly (such as carbon burning to carbon monoxide only, with no carbon dioxide), and heats of formation, combustion and atomisation."]},
+{"h":"Illustration: carbon to carbon dioxide","p":["Direct route: C(s) + O₂(g) → CO₂(g), ΔH = −394 kJ/mol.","Indirect route: C(s) + ½O₂(g) → CO(g), ΔH₁ = −110 kJ/mol; then CO(g) + ½O₂(g) → CO₂(g), ΔH₂ = −284 kJ/mol. Total = −110 + (−284) = −394 kJ/mol. The two routes agree."]},
+{"h":"Worked example: formation of nitrogen monoxide","p":["Find ΔH for N₂(g) + O₂(g) → 2NO(g), given (1) N₂(g) + 2O₂(g) → 2NO₂(g), ΔH = +66 kJ and (2) 2NO(g) + O₂(g) → 2NO₂(g), ΔH = −114 kJ.","Reverse equation (2): 2NO₂ → 2NO + O₂, ΔH = +114 kJ. Add it to (1): N₂ + 2O₂ + 2NO₂ → 2NO₂ + 2NO + O₂, which simplifies to N₂ + O₂ → 2NO. ΔH = +66 + 114 = +180 kJ. (Endothermic: this is why nitrogen oxides form in hot engines and in lightning.)"]},
+{"h":"Rules for using Hess's law","p":["If you reverse an equation, change the sign of ΔH. If you multiply an equation by a number, multiply ΔH by the same number. Add the equations so that unwanted substances cancel, and add the ΔH values."]},
+{"h":"Another example: using heats of combustion","p":["Given the heats of combustion: C(s) −394 kJ/mol, H₂(g) −286 kJ/mol and CH₄(g) −890 kJ/mol, find the heat of formation of CH₄: C + 2H₂ → CH₄. ΔH = Σ(combustion of reactants) − Σ(combustion of products) = (−394) + 2(−286) − (−890) = −966 + 890 = −76 kJ/mol."]},
+{"h":"Applications","p":["Calculating standard enthalpy changes; designing energy-efficient industrial processes; finding the energy (calorific) value of foods; understanding respiration and photosynthesis; judging whether a reaction is likely to happen."]}
+],
+"activity":"State Hess's law and explain why it is true. Use it to find ΔH for C + O₂ → CO₂ from C + ½O₂ → CO (−110 kJ) and CO + ½O₂ → CO₂ (−284 kJ) (−394 kJ). Check ΔH for N₂ + O₂ → 2NO (+180 kJ).",
+"check":[
+{"q":"Hess's law is true because enthalpy is a","o":["state function","catalyst","gas","rate"]},
+{"q":"−110 + (−284) =","o":["−394 kJ","−174 kJ","+394 kJ","−284 kJ"]},
+{"q":"If you reverse a chemical equation, ΔH","o":["changes sign","doubles","stays the same","becomes zero"]},
+{"q":"ΔH for N₂ + O₂ → 2NO from the given data is","o":["+180 kJ","−180 kJ","+48 kJ","−48 kJ"]},
+{"q":"Hess's law lets us find ΔH for reactions that","o":["cannot be measured directly","do not occur","have no products","are not balanced"]}
+]},
+
+{"id":"c21-18","week":11,"title":"Energetics: Activation Energy and Energy Profile Diagrams","icon":"BarChart2",
+"summary":"Bond breaking and bond making, activation energy, energy profile diagrams for exothermic and endothermic reactions and the effect of a catalyst.",
+"keyWords":["Activation energy","Energy profile","Bond energy","Catalyst","Exothermic","Endothermic"],
+"sections":[
+{"h":"Energy changes and bonds","p":["In every reaction, bonds in the reactants are broken and new bonds form in the products. Breaking bonds takes in energy (endothermic). Making bonds gives out energy (exothermic). The overall ΔH is the balance. If more energy is released than taken in, the reaction is exothermic (ΔH negative). If more is taken in than released, it is endothermic (ΔH positive)."]},
+{"h":"Activation energy","p":["Activation energy (Eₐ) is the minimum energy that colliding particles must have to start a reaction. Think of it as a hill that the reactants must climb. Even exothermic reactions need it: a match must be struck before it burns. High Eₐ means a slow reaction (rusting). Low Eₐ means a fast reaction (neutralisation). A catalyst lowers Eₐ."]},
+{"h":"Energy profile diagrams","p":["An energy profile shows the energy of the system as the reaction proceeds.","Exothermic: the reactants start higher. The curve rises to a peak (the height above the reactants is Eₐ) and then falls to the products, which are lower. The difference in level between reactants and products is ΔH (negative).","Endothermic: the reactants start lower. The curve rises to a peak and ends at products that are higher than the reactants. ΔH is positive.","Catalyst: the catalysed pathway has a lower peak. Eₐ is smaller, but the levels of the reactants and products, and so ΔH, are the same."],"img":{"src":"chm2-energy-profiles.png","alt":"Three energy profile diagrams: an exothermic reaction with products lower than reactants, an endothermic reaction with products higher than reactants, and the effect of a catalyst which lowers the peak","cap":"Energy profiles for exothermic and endothermic reactions, and the effect of a catalyst."}},
+{"h":"Worked examples","p":["Example 1. Eₐ = 150 kJ and ΔH = −75 kJ. ΔH is negative, so it is exothermic. The peak is 150 kJ above the reactants and the products are 75 kJ below the reactants. The activation energy of the reverse reaction is 150 + 75 = 225 kJ.","Example 2. ΔH = +120 kJ/mol and Eₐ = 200 kJ/mol. Endothermic. The peak is 200 kJ above the reactants; the products are 120 kJ above the reactants; the reverse Eₐ is 200 − 120 = 80 kJ/mol.","Example 3. H₂O₂ decomposes slowly because of a high activation energy. MnO₂ gives another pathway with lower Eₐ, so it decomposes quickly."]},
+{"h":"Common misunderstandings","p":["'Exothermic reactions need no activation energy': wrong; all reactions need some. 'A catalyst changes ΔH': wrong; it only lowers Eₐ. 'A faster reaction releases more heat': wrong; speed depends on Eₐ, heat released depends on ΔH. Rusting is slow although it is exothermic, because its activation energy is high."]},
+{"h":"In real life","p":["Striking a match: friction supplies the activation energy. Respiration: enzymes lower the Eₐ of glucose oxidation. Cooking: heat supplies the activation energy. Industry: iron in the Haber process, vanadium(V) oxide in the Contact process and nickel in the hydrogenation of oils."]}
+],
+"activity":"Sketch and label energy profiles for an exothermic and an endothermic reaction. A reaction has ΔH = +120 kJ/mol and Eₐ = 200 kJ/mol; draw its profile and find the reverse Eₐ (80 kJ/mol). Explain the role of enzymes in respiration.",
+"check":[
+{"q":"Activation energy is the","o":["minimum energy to start a reaction","heat given out","energy of the products","energy of a catalyst"]},
+{"q":"A catalyst","o":["lowers Eₐ but does not change ΔH","raises Eₐ","changes ΔH","is used up"]},
+{"q":"In an endothermic reaction the products are","o":["higher in energy than the reactants","lower in energy","at the same level","not formed"]},
+{"q":"Eₐ = 150 kJ and ΔH = −75 kJ. The reverse reaction has Eₐ of","o":["225 kJ","75 kJ","150 kJ","−75 kJ"]},
+{"q":"Breaking bonds","o":["takes in energy","gives out energy","has no energy change","always gives heat"]}
+]},
+
+{"id":"c21-19","week":11,"title":"First Term Revision","icon":"BookOpen",
+"summary":"A revision table and mixed worked questions for First Term Chemistry.",
+"keyWords":["Revision","Electrolysis","Titration","Equilibrium","Kinetics","Enthalpy"],
+"sections":[
+{"h":"Key facts","p":["Use the table to revise."],"tbl":{"head":["Topic","Key facts"],"rows":[["Pollution","Causes, effects and control; acid rain (SO₂, NOₓ); eutrophication; bioaccumulation"],["Electrolysis","Cathode: reduction, anode: oxidation; mass = molar mass × I × t ÷ (valency × 96 500)"],["Cells","Galvanic: spontaneous, chemical → electrical, anode negative; electrolytic: forced, anode positive"],["Titration","CₐVₐ / C_bV_b = nₐ / n_b; use concordant titres; rinse correctly"],["Solubility","Solubility = mass of solute ÷ mass of solvent × 100; solids usually rise with temperature, gases fall"],["Equilibrium","Rates equal; Kc = [products]/[reactants] with powers; only temperature changes Kc"],["Kinetics","Rate = k[A]ᵐ[B]ⁿ; factors: concentration, temperature, surface area, catalyst"],["Energetics","ΔH negative = exothermic; Hess's law; catalyst lowers Eₐ, not ΔH"]]}},
+{"h":"Mixed worked questions","p":["1. 2.5 A for 30 minutes through CuSO₄ deposits 1.48 g of copper (Cu = 63.5).","2. 25.0 cm³ of NaOH needs 24.8 cm³ of 0.10 mol/dm³ HCl. The NaOH is 0.0992 mol/dm³.","3. Cooling 100 g of water saturated with KNO₃ from 70 °C to 40 °C deposits 72 g.","4. [H₂] = 0.2, [I₂] = 0.2, [HI] = 0.6 mol/dm³: Kc = 9.","5. A first-order reaction with t½ = 300 s has k = 2.31 × 10⁻³ s⁻¹.","6. ΔH for N₂ + O₂ → 2NO is +180 kJ from the given data."]}
+],
+"activity":"Without notes, write Faraday's laws in one formula, the formula for titration calculations and the Kc expression for N₂ + 3H₂ ⇌ 2NH₃. Check against the table.",
+"check":[
+{"q":"The charge needed to deposit 1 mole of copper (valency 2) is","o":["193 000 C","96 500 C","48 250 C","19 300 C"]},
+{"q":"Kc for N₂ + 3H₂ ⇌ 2NH₃ is","o":["[NH₃]² / ([N₂][H₂]³)","[N₂][H₂]³ / [NH₃]²","[NH₃] / ([N₂][H₂])","[NH₃]² [N₂][H₂]³"]},
+{"q":"The factor that does NOT change Kc is","o":["pressure","temperature","none of these","a different reaction"]},
+{"q":"ΔH for an exothermic reaction is","o":["negative","positive","zero","unknown"]},
+{"q":"Concordant titres agree within","o":["0.1 cm³","10 cm³","1 dm³","5 cm³"]}
+]}
+]

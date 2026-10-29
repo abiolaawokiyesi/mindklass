@@ -1,0 +1,15 @@
+[
+{"id":"e31-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen",
+"summary":"An introduction to SS3 English Language First Term and the list of all units, covering vocabulary, spoken English, grammar, writing, comprehension, summary and listening.",
+"keyWords":["SS3 English","Syllabus","Final year","Examination skills"],
+"sections":[
+{"h":"Welcome to your final year","p":["Welcome to the final year of Senior Secondary English. A strong command of English is the key to precise expression and to doing well in every part of your examination: comprehension, summary, essay writing, oral English and grammar. This term you build vocabulary about culture and about motor vehicles, practise intonation, consonant clusters and the schwa, revise nouns and pronouns, learn to write an expository essay, and sharpen your reading, summary and listening skills.","Work through the units in order. Read the examples aloud, do the activities and practise the check questions at the end of each unit. The check questions do not count towards a mark, but they show you what you have understood."]},
+{"h":"Table of contents for First Term","p":["Week 5 is the midterm examination (revision of Weeks 1 to 4) and Week 7 is the midterm break. Use these weeks to revise and to rest."],"tbl":{"head":["Unit","Week","Topic"],"rows":[["1","-","Welcome and table of contents"],["2","1","Vocabulary: words about ceremonies"],["3","1","Vocabulary: words about institutions"],["4","1","Vocabulary: African arts and culture"],["5","2","Spoken English: the falling tone"],["6","2","Spoken English: the rising tone and the fall-rise"],["7","3","Nouns: types of nouns"],["8","3","Nouns: forming plurals"],["9","3","Noun phrases"],["10","4","Expository essay: features"],["11","4","Expository essay: structure"],["12","4","Planning an expository essay: drug abuse"],["13","6","Comprehension: silent reading strategies"],["14","6","Comprehension: words in context and question types"],["15","6","Comprehension practice: youth restiveness"],["16","8","Summary writing: steps for a written passage"],["17","8","Summarising a talk or lecture"],["18","9","Spoken English: consonant clusters (two consonants)"],["19","9","Spoken English: three- and four-consonant clusters"],["20","10","Vocabulary: motor vehicles, body and interior"],["21","10","Vocabulary: motor vehicles, engine and lights"],["22","11","Pronouns: personal and possessive"],["23","11","Pronouns: reflexive and relative"],["24","11","Pronouns: demonstrative and indefinite, with practice"],["25","12","Listening comprehension: barriers to good listening"],["26","12","Listening comprehension: note-taking, purpose and practice"],["27","13","Spoken English: the schwa"],["28","13","The schwa in word endings and practice"]]}}
+],
+"activity":"Look through the table and mark the topics you already feel confident about. Plan extra time for the others.",
+"check":[
+{"q":"Which week is the midterm examination?","o":["Week 5","Week 1","Week 7","Week 13"]},
+{"q":"Pronouns are studied in Week","o":["11","3","6","13"]},
+{"q":"Consonant clusters are studied in Week","o":["9","2","4","12"]}
+]}
+]

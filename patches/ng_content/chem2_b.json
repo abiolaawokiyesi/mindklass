@@ -1,0 +1,179 @@
+[
+{"id":"ch2-10","week":6,"title":"Bohr's Model, Energy Levels and Shells","icon":"Target","summary":"How Bohr improved the atomic model, his postulates, the energy levels (shells) and how many electrons each can hold.",
+"keyWords":["Bohr's model","Energy level","Shell","Excited state","Spectrum"],
+"sections":[
+{"h":"The road to Bohr's model","p":["Dalton (1803) pictured atoms as solid, indivisible spheres, but could not explain their inside. Thomson (1897) found the electron and proposed the 'plum pudding' model. Rutherford (1911) showed from his gold-foil experiment that an atom has a tiny, dense, positive nucleus with electrons around it, but his model could not explain why electrons do not spiral into the nucleus or why atoms give out light of only certain colours. Bohr (1913) improved on this by saying that electrons can have only certain fixed amounts of energy."]},
+{"h":"Bohr's postulates","p":["1. Electrons move around the nucleus in fixed paths (orbits or shells) and do not lose energy while in them. These are called stationary states.","2. Each shell has a fixed energy. The shells nearest the nucleus have the lowest energy; shells farther out have more.","3. An electron can jump between shells. If it absorbs energy it jumps to a higher shell (an excited state). When it falls back it gives out the energy as light (a photon). This explains why each element gives its own line spectrum.","4. The energy absorbed or given out is ΔE = E₂ − E₁ = hν, where h is Planck's constant (6.626 × 10⁻³⁴ J s) and ν is the frequency of the light."]},
+{"h":"Energy levels and shells","p":["The shells are named K (n = 1), L (n = 2), M (n = 3), N (n = 4), and then O, P, Q. A shell with number n can hold at most 2n² electrons: K holds 2, L holds 8, M holds 18, N holds 32.","In the first twenty elements, electrons fill the shells in order, but the M shell is treated as full when it holds 8, so the next electrons go into the N shell (for example, calcium is 2, 8, 8, 2)."],
+"img":{"src":"chem-electron-shells.png","alt":"Shell diagrams of oxygen (2, 6), sodium (2, 8, 1), chlorine (2, 8, 7) and argon (2, 8, 8) with electrons as dots on circles around a nucleus","cap":"Electron shells of oxygen, sodium, chlorine and argon."}}
+],
+"activity":"Draw shell diagrams for magnesium (2, 8, 2), potassium (2, 8, 8, 1) and neon (2, 8). Mark the outer shell in a different colour.",
+"check":[
+{"q":"Who proposed that electrons move in fixed energy levels?","o":["Bohr","Dalton","Thomson","Rutherford"]},
+{"q":"When an electron falls to a lower shell it","o":["Gives out energy as light","Absorbs energy","Disappears","Becomes a proton"]},
+{"q":"The maximum number of electrons in the L shell is","o":["8","2","18","32"]},
+{"q":"The maximum number of electrons in the N shell is","o":["32","18","8","2"]},
+{"q":"The shell nearest the nucleus has the","o":["Lowest energy","Highest energy","Most electrons","No electrons"]}]},
+
+{"id":"ch2-11","week":6,"title":"Electronic Configuration and Subshells","icon":"Layers","summary":"Subshells s, p, d and f, the rules for filling them (Aufbau, Pauli, Hund), examples, and why configuration explains valency and the periodic table.",
+"keyWords":["Subshell","Aufbau principle","Pauli exclusion principle","Hund's rule","Valency"],
+"sections":[
+{"h":"Subshells","p":["Each shell is divided into subshells called s, p, d and f. An s subshell holds up to 2 electrons, p holds 6, d holds 10 and f holds 14. The K shell has only 1s. The L shell has 2s and 2p. The M shell has 3s, 3p and 3d."]},
+{"h":"Rules for filling","p":["Aufbau principle: electrons fill the lowest-energy orbitals first. Pauli exclusion principle: an orbital holds at most two electrons, and they spin in opposite directions. Hund's rule: electrons go into orbitals of equal energy one at a time before they pair up.","Order of filling: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p. Notice that 4s fills before 3d."]},
+{"h":"Examples","p":["Study the table. Write the full configuration as subshells and as shell numbers."],
+"tbl":{"head":["Element (Z)","Subshell configuration","Shell notation"],"rows":[
+["Hydrogen (1)","1s¹","1"],
+["Carbon (6)","1s² 2s² 2p²","2, 4"],
+["Oxygen (8)","1s² 2s² 2p⁴","2, 6"],
+["Sodium (11)","1s² 2s² 2p⁶ 3s¹","2, 8, 1"],
+["Aluminium (13)","1s² 2s² 2p⁶ 3s² 3p¹","2, 8, 3"],
+["Phosphorus (15)","1s² 2s² 2p⁶ 3s² 3p³","2, 8, 5"],
+["Sulphur (16)","1s² 2s² 2p⁶ 3s² 3p⁴","2, 8, 6"],
+["Chlorine (17)","1s² 2s² 2p⁶ 3s² 3p⁵","2, 8, 7"],
+["Potassium (19)","1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹","2, 8, 8, 1"],
+["Calcium (20)","1s² 2s² 2p⁶ 3s² 3p⁶ 4s²","2, 8, 8, 2"],
+["Iron (26)","1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶","2, 8, 14, 2"],
+["Copper (29)","1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹ 3d¹⁰ (an exception)","2, 8, 18, 1"],
+["Zinc (30)","1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰","2, 8, 18, 2"]]}},
+{"h":"Why configuration matters","p":["Valency: sodium (2, 8, 1) has one outer electron, so its valency is 1; oxygen (2, 6) needs two more, so its valency is 2. Chemical properties: elements with the same outer configuration are in the same group. The period number equals the number of occupied shells, and the group number is linked to the number of outer electrons. Stability of noble gases: neon (2, 8) and argon (2, 8, 8) have full outer shells and are very unreactive. Group 1 metals have one loosely held outer electron, so they react readily; noble gases have full shells, so they hardly react."]}
+],
+"activity":"Write the subshell configuration of magnesium (Z = 12) and nitrogen (Z = 7). (Answers: 1s² 2s² 2p⁶ 3s²; 1s² 2s² 2p³.)",
+"check":[
+{"q":"The p subshell can hold at most","o":["6 electrons","2 electrons","10 electrons","14 electrons"]},
+{"q":"The electron configuration of sodium is","o":["1s² 2s² 2p⁶ 3s¹","1s² 2s² 2p⁶ 3s²","1s² 2s² 2p⁵","1s² 2s² 3s¹"]},
+{"q":"Aufbau principle says electrons fill","o":["Lowest-energy orbitals first","Highest-energy orbitals first","Only s orbitals","Randomly"]},
+{"q":"An orbital holds at most","o":["2 electrons","1 electron","6 electrons","8 electrons"]},
+{"q":"Which orbital fills first?","o":["4s","3d","4p","5s"]}]},
+
+{"id":"ch2-12","week":8,"title":"Ionic Bonding","icon":"Zap","summary":"Why atoms bond, the octet rule, how ionic bonds form by transfer of electrons, examples, and the properties of ionic compounds.",
+"keyWords":["Chemical bond","Octet rule","Ionic bond","Cation","Anion"],
+"sections":[
+{"h":"Why atoms bond","p":["Except for the noble gases, atoms are not stable on their own because their outer shells are not full. To become stable they join with other atoms. This is chemical bonding. The octet rule says that atoms gain, lose or share electrons until they have eight electrons in the outer shell, like a noble gas. Hydrogen and helium need only two (the duplet rule)."]},
+{"h":"Ionic (electrovalent) bonding","p":["An ionic bond forms when one atom, usually a metal, gives one or more electrons to another atom, usually a non-metal. The atom that loses electrons becomes a positive ion (cation). The atom that gains them becomes a negative ion (anion). The strong force of attraction between the opposite charges is the ionic bond.","Conditions: a large difference in electronegativity (roughly more than 1.7); usually a metal from Group 1, 2 or 3 and a non-metal from Group 15, 16 or 17 (old numbering: groups 5, 6, 7); the metal has a low ionisation energy and the non-metal a high electron affinity."]},
+{"h":"Examples","p":["Sodium chloride, NaCl: sodium (2, 8, 1) loses one electron to become Na⁺ (2, 8). Chlorine (2, 8, 7) gains one electron to become Cl⁻ (2, 8, 8). Na → Na⁺ + e⁻; Cl + e⁻ → Cl⁻. The ions attract each other and pack in a giant lattice.","Magnesium oxide, MgO: Mg (2, 8, 2) loses 2 electrons to form Mg²⁺; O (2, 6) gains 2 to form O²⁻.","Calcium fluoride, CaF₂: Ca (2, 8, 8, 2) loses 2 electrons to form Ca²⁺; each F (2, 7) gains 1 electron to form F⁻, so two F⁻ are needed."],
+"img":{"src":"chem-bonding.png","alt":"Three panels: sodium giving an electron to chlorine to make Na+ and Cl-; two hydrogen atoms sharing a pair of electrons; and a water molecule with oxygen sharing electrons with two hydrogens","cap":"Ionic bonding (left) and covalent bonding (middle and right)."}},
+{"h":"Properties of ionic compounds","p":["They are crystalline solids at room temperature. They have high melting and boiling points because the lattice is strong. Most dissolve in water (a polar solvent) but not in petrol or benzene. They do not conduct electricity as solids (the ions cannot move) but do when molten or dissolved (the ions are free). They are hard but brittle: if the layers of the lattice slip, like charges meet and repel and the crystal cracks."]}
+],
+"activity":"Show with electron arrangements how calcium chloride, CaCl₂, forms. (Ca 2, 8, 8, 2 gives up 2 electrons; each Cl 2, 8, 7 gains 1.)",
+"check":[
+{"q":"An ionic bond is formed by","o":["Transfer of electrons","Sharing of electrons","Mixing","Melting"]},
+{"q":"A positive ion is called a","o":["Cation","Anion","Molecule","Isotope"]},
+{"q":"Ionic compounds conduct electricity when","o":["Molten or dissolved","Solid","In petrol","Never"]},
+{"q":"In NaCl, chlorine becomes","o":["Cl⁻","Cl⁺","Cl²⁻","Cl²⁺"]},
+{"q":"Ionic compounds have high melting points because of","o":["Strong forces in the lattice","Weak forces","Small molecules","Covalent bonds"]}]},
+
+{"id":"ch2-13","week":8,"title":"Covalent Bonding and Comparison with Ionic Bonding","icon":"Layers","summary":"How atoms share electrons, single, double, triple and coordinate bonds, examples and properties, and a table comparing ionic and covalent compounds.",
+"keyWords":["Covalent bond","Single bond","Double bond","Triple bond","Coordinate bond"],
+"sections":[
+{"h":"Covalent bonding","p":["A covalent bond is formed when two atoms share one or more pairs of electrons so that each gets a full outer shell. It happens mainly between non-metals, when the difference in electronegativity is small (less than about 1.7)."]},
+{"h":"Types of covalent bond","p":["Single bond: one shared pair. Hydrogen, H–H. Each hydrogen gives one electron.","Double bond: two shared pairs. Oxygen, O=O. Each oxygen shares two electrons.","Triple bond: three shared pairs. Nitrogen, N≡N.","Coordinate (dative) bond: both electrons of the shared pair come from one atom. Example: the ammonium ion NH₄⁺ is made when the nitrogen of ammonia (NH₃) gives its lone pair to a hydrogen ion (H⁺). Once formed, a coordinate bond is just like any other covalent bond."]},
+{"h":"Examples","p":["Water, H₂O: oxygen (2, 6) shares one pair with each of two hydrogen atoms. Methane, CH₄: carbon (2, 4) shares one pair with each of four hydrogens. Carbon dioxide, CO₂: carbon shares two pairs with each oxygen, so there are two double bonds (O=C=O)."]},
+{"h":"Properties of covalent compounds","p":["They are usually gases (O₂, CO₂), liquids (water) or soft solids (sulphur, iodine). Melting and boiling points are low because the forces between molecules are weak (the bonds inside each molecule are strong). Exceptions are giant covalent structures such as diamond and silicon dioxide, which have very high melting points. Many do not dissolve in water but dissolve in organic solvents, though some small polar molecules such as sugar and ethanol do dissolve in water. They do not conduct electricity because there are no free ions or electrons (graphite is an exception because it has free (delocalised) electrons). Covalent bonds are directional, joining particular atoms."]},
+{"h":"Ionic compared with covalent","p":["Study the table."],
+"tbl":{"head":["Feature","Ionic","Covalent"],"rows":[
+["How formed","Electrons transferred (metal to non-metal)","Electrons shared (non-metal with non-metal)"],
+["Particles","Ions","Molecules"],
+["Strength","Strong attraction between ions","Strong bonds inside molecules, weak forces between them"],
+["Melting and boiling points","High","Usually low (not in giant structures)"],
+["Electrical conduction","Only when molten or dissolved","No (graphite is an exception)"],
+["Solubility","Mostly soluble in water","Mostly insoluble in water; soluble in organic solvents"],
+["Structure","Giant ionic lattice","Simple molecules or giant covalent structures"]]}},
+{"h":"Diamond and graphite","p":["Both are made only of carbon. In diamond, each carbon is bonded to four others in a rigid 3-D network, so it is very hard and does not conduct. In graphite, each carbon is bonded to three others in flat layers, with one electron per atom free to move. The layers slide easily (so graphite is soft and used in pencils) and the free electrons let it conduct electricity."]},
+{"h":"Why bonding matters","p":["It explains why matter is stable and why salt dissolves in water but oil does not, why water is a liquid and why metals conduct. It guides the design of ceramics, plastics and semiconductors, and is the basis of proteins, carbohydrates and DNA."]}
+],
+"activity":"Draw dot-and-cross diagrams for H₂, H₂O, CH₄ and CO₂. State the type of bond in each.",
+"check":[
+{"q":"A covalent bond is formed by","o":["Sharing electrons","Transferring electrons","Losing protons","Melting"]},
+{"q":"The bond in N₂ is a","o":["Triple bond","Single bond","Double bond","Ionic bond"]},
+{"q":"A bond in which one atom supplies both shared electrons is a","o":["Coordinate bond","Ionic bond","Metallic bond","Single bond"]},
+{"q":"Which can conduct electricity because of free electrons?","o":["Graphite","Diamond","Water","Sugar"]},
+{"q":"Compared with ionic compounds, simple covalent compounds usually have","o":["Lower melting points","Higher melting points","Ions","Lattices"]}]},
+
+{"id":"ch2-14","week":9,"title":"Oxidation and Reduction","icon":"Zap","summary":"Three ways to define oxidation and reduction (oxygen and hydrogen, electrons, oxidation number) with simple examples, and why they always occur together.",
+"keyWords":["Oxidation","Reduction","OIL RIG","Oxidation number","Redox"],
+"sections":[
+{"h":"Redox reactions","p":["In many reactions electrons move from one substance to another. These are oxidation-reduction (redox) reactions. They are important in breathing and photosynthesis, extracting metals, batteries, rusting and water treatment."]},
+{"h":"A. Oxygen and hydrogen definition","p":["Oxidation is the addition of oxygen or the removal of hydrogen. Reduction is the removal of oxygen or the addition of hydrogen.","Example 1: 2Mg + O₂ → 2MgO. Magnesium is oxidised (it gains oxygen). (The source notes wrote the product as MgO₂, which is wrong; magnesium oxide is MgO.)","Example 2: CuO + H₂ → Cu + H₂O. Copper(II) oxide is reduced (loses oxygen); hydrogen is oxidised (gains oxygen)."]},
+{"h":"B. Electron transfer definition","p":["Oxidation is loss of electrons. Reduction is gain of electrons. Remember OIL RIG: Oxidation Is Loss, Reduction Is Gain (of electrons).","Examples: Na → Na⁺ + e⁻ (sodium is oxidised). Cl₂ + 2e⁻ → 2Cl⁻ (chlorine is reduced)."]},
+{"h":"C. Oxidation number definition","p":["Oxidation is an increase in oxidation number. Reduction is a decrease in oxidation number. Examples: Fe²⁺ → Fe³⁺ + e⁻: iron goes from +2 to +3, so it is oxidised. Cl₂ + 2e⁻ → 2Cl⁻: chlorine goes from 0 to −1, so it is reduced.","Simple rules for oxidation numbers: an uncombined element is 0; a simple ion has its charge (Na⁺ is +1); oxygen is usually −2; hydrogen is usually +1; the numbers in a compound add up to 0, and in an ion to the charge."]},
+{"h":"Oxidation and reduction go together","p":["In a redox reaction, oxidation and reduction happen at the same time. The substance that is oxidised is the reducing agent (it gives electrons). The substance that is reduced is the oxidising agent (it takes electrons).","Example: Zn + CuSO₄ → ZnSO₄ + Cu. Zinc loses electrons: Zn → Zn²⁺ + 2e⁻ (oxidation; zinc is the reducing agent). Copper ions gain them: Cu²⁺ + 2e⁻ → Cu (reduction; Cu²⁺ is the oxidising agent). In the picture, a blue copper sulphate solution slowly becomes colourless as a brown layer of copper forms on the zinc."],
+"img":{"src":"chem-redox.png","alt":"A zinc atom losing two electrons to become a zinc ion and the electrons moving across to a copper ion which becomes a copper atom, with oxidation and reduction labelled","cap":"Electron transfer in Zn + CuSO₄ → ZnSO₄ + Cu."}}
+],
+"activity":"In 2Na + Cl₂ → 2NaCl, say which substance is oxidised, which is reduced, and name the oxidising and reducing agents. (Na oxidised, reducing agent; Cl₂ reduced, oxidising agent.)",
+"check":[
+{"q":"Oxidation is","o":["Loss of electrons","Gain of electrons","Gain of hydrogen","Decrease in oxidation number"]},
+{"q":"Reduction is","o":["Gain of electrons","Loss of electrons","Loss of hydrogen","Increase in oxidation number"]},
+{"q":"In Zn + CuSO₄ → ZnSO₄ + Cu, the reducing agent is","o":["Zn","Cu²⁺","SO₄²⁻","Cu"]},
+{"q":"The oxidation number of an uncombined element is","o":["0","+1","−1","+2"]},
+{"q":"The correct product of burning magnesium in oxygen is","o":["MgO","MgO₂","Mg₂O","MgO₃"]}]},
+
+{"id":"ch2-15","week":9,"title":"Redox Agents, Examples and Balancing","icon":"BarChart2","summary":"Common oxidising and reducing agents, types of redox reaction, two ways to balance a redox equation, uses and common mistakes.",
+"keyWords":["Oxidising agent","Reducing agent","Rusting","Half-equation","Balancing"]
+,"sections":[
+{"h":"Oxidising and reducing agents","p":["An oxidising agent (oxidant) accepts electrons and is itself reduced. Examples: oxygen, chlorine, potassium manganate(VII), potassium dichromate(VI) and nitric acid. A reducing agent (reductant) gives electrons and is itself oxidised. Examples: hydrogen, carbon monoxide, sodium, zinc and iron."]},
+{"h":"Types of redox reaction","p":["Combination: 4Na + O₂ → 2Na₂O. Displacement: Zn + CuSO₄ → ZnSO₄ + Cu. Combustion: CH₄ + 2O₂ → CO₂ + 2H₂O (carbon goes from −4 to +4, oxidised; oxygen goes from 0 to −2, reduced). Corrosion (rusting): 4Fe + 3O₂ + 6H₂O → 4Fe(OH)₃, which changes to hydrated iron(III) oxide, rust."]},
+{"h":"Balancing by the oxidation number method","p":["1. Give oxidation numbers to every element. 2. Find which change up (oxidation) and which change down (reduction). 3. Make the total electrons lost equal the total electrons gained. 4. Balance the rest of the atoms and charges.","Example: 2Na + Cl₂ → 2NaCl. Each Na goes from 0 to +1 (loses 1 electron, 2 Na lose 2 electrons). Cl₂ goes from 0 to −1 for each of 2 atoms (gains 2 electrons). The electrons balance, so the equation is balanced."]},
+{"h":"Balancing by the ion-electron (half-equation) method","p":["1. Write the oxidation and reduction half-equations separately. 2. Balance atoms other than H and O. 3. Balance O by adding H₂O. 4. Balance H by adding H⁺ (in acid). 5. Balance charge by adding electrons. 6. Multiply so the electrons are equal, add the two half-equations and cancel the electrons.","Example in acid: Fe²⁺ + MnO₄⁻ → Fe³⁺ + Mn²⁺. Oxidation: Fe²⁺ → Fe³⁺ + e⁻. Reduction: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. Multiply the iron half-equation by 5 and add: 5Fe²⁺ + MnO₄⁻ + 8H⁺ → 5Fe³⁺ + Mn²⁺ + 4H₂O.","More practice answers: 3H₂S + 2HNO₃ → 3S + 2NO + 4H₂O. MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O. 3Cu + 2NO₃⁻ + 8H⁺ → 3Cu²⁺ + 2NO + 4H₂O. Cr₂O₇²⁻ + 3SO₂ + 2H⁺ → 2Cr³⁺ + 3SO₄²⁻ + H₂O."]},
+{"h":"Uses of redox","p":["Living things: respiration oxidises glucose to carbon dioxide and water and releases energy; photosynthesis reduces carbon dioxide to glucose. Industry: iron is made by reducing iron(III) oxide with carbon monoxide; electroplating and electrolysis; making bleaches. Environment: chlorine kills germs in water. Everyday life: rusting is an unwanted redox reaction; batteries (dry cells, lead-acid, lithium-ion) use redox reactions to make electricity."]},
+{"h":"Common mistakes","p":["Thinking oxidation always means adding oxygen. It may be loss of electrons or an increase in oxidation number. Forgetting that oxidation and reduction always occur together. Mixing up the agents: the oxidising agent is the substance that is reduced, and the reducing agent is the substance that is oxidised."]}
+],
+"activity":"In Zn + 2HCl → ZnCl₂ + H₂, find the oxidation numbers of Zn and H before and after. Say what is oxidised and reduced. (Zn: 0 to +2, oxidised; H: +1 to 0, reduced.)",
+"check":[
+{"q":"An oxidising agent","o":["Accepts electrons and is reduced","Gives electrons and is reduced","Accepts electrons and is oxidised","Does not change"]},
+{"q":"Which is a reducing agent?","o":["Zinc","Chlorine","Oxygen","Potassium manganate(VII)"]},
+{"q":"In CH₄ + 2O₂ → CO₂ + 2H₂O, carbon goes from","o":["−4 to +4","0 to −2","+4 to −4","0 to +4"]},
+{"q":"Rusting of iron is","o":["A redox reaction","A physical change","A neutralisation","A change of state"]},
+{"q":"In respiration, glucose is","o":["Oxidised","Reduced","Unchanged","Neutralised"]}]},
+
+{"id":"ch2-16","week":10,"title":"Water: Importance and Properties","icon":"Heart","summary":"Why water matters to living things, industry and the home, its physical properties and its chemical reactions with metals, non-metals and electricity.",
+"keyWords":["Water","Universal solvent","Specific heat capacity","Surface tension","Electrolysis"]
+,"sections":[
+{"h":"Importance of water","p":["Water is the most plentiful compound on Earth and is called the universal solvent because it dissolves so many things. It occurs as ice, liquid water and water vapour.","Biological: carries nutrients and waste in plants and animals; sweating and evaporation cool the body; it is needed for photosynthesis: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂. Industrial: raw material for hydrogen, oxygen and acids; a coolant in power plants and engines; used for cleaning and dissolving. Domestic: drinking, cooking, washing and sanitation."]},
+{"h":"Physical properties","p":["Pure water is colourless, odourless and tasteless. It boils at 100 °C and freezes at 0 °C at 1 atmosphere. Its density is greatest, 1 g/cm³, at 4 °C. Water expands when it freezes, so ice is less dense and floats; fish survive under ice in cold lakes. It has a high specific heat capacity: it takes in or gives out much heat for a small change in temperature, which makes the climate near the sea milder. It has a high surface tension because of hydrogen bonding, so small insects can walk on it. Pure water hardly conducts electricity, but natural water does because of dissolved ions."]},
+{"h":"Chemical properties","p":["With metals: active metals (sodium, potassium, calcium) react with cold water to give a hydroxide and hydrogen: 2Na + 2H₂O → 2NaOH + H₂. Less reactive metals such as magnesium and zinc react with steam: Mg + H₂O → MgO + H₂.","With non-metals: chlorine dissolves in water to give hydrochloric acid and chloric(I) acid (HOCl): Cl₂ + H₂O → HCl + HOCl.","Hydrolysis: some salts react with water; ammonium chloride solution is slightly acidic.","Electrolysis: when electricity is passed through acidified water, it decomposes: 2H₂O → 2H₂ + O₂. Twice as much hydrogen as oxygen is collected, by volume."]},
+{"h":"Hard and soft water (extension)","p":["Water with dissolved calcium and magnesium salts does not lather easily with soap and is called hard water. Boiling can remove temporary hardness (due to hydrogencarbonates). Rainwater and distilled water are soft."]}
+],
+"activity":"Write down five ways you use water at home and say which property of water (solvent, high heat capacity, etc.) is involved in each.",
+"check":[
+{"q":"Water is called the universal solvent because","o":["It dissolves many substances","It is colourless","It is heavy","It boils at 100 °C"]},
+{"q":"Ice floats because","o":["It is less dense than liquid water","It is lighter than air","It is colder","It has no mass"]},
+{"q":"Sodium reacts with cold water to give","o":["Sodium hydroxide and hydrogen","Sodium oxide and oxygen","Sodium chloride","Nothing"]},
+{"q":"Water has a high specific heat capacity, so it","o":["Changes temperature slowly","Boils at 0 °C","Is always cold","Conducts well"]},
+{"q":"Electrolysis of water gives","o":["Hydrogen and oxygen","Hydrogen and chlorine","Oxygen and nitrogen","Carbon dioxide"]}]},
+
+{"id":"ch2-17","week":10,"title":"Solutions and Solubility","icon":"Layers","summary":"Solute, solvent and solution, the types of solutions, their properties, what solubility is and the factors that affect it.",
+"keyWords":["Solute","Solvent","Saturated","Supersaturated","Solubility"]
+,"sections":[
+{"h":"What is a solution?","p":["A solution is a uniform (homogeneous) mixture of two or more substances. The substance that dissolves is the solute (usually the smaller amount). The substance that does the dissolving is the solvent (usually the larger amount). Examples: salt (solute) in water (solvent); sugar in water."]},
+{"h":"Types of solution","p":["By state: solid solutions (brass is copper and zinc; bronze is copper and tin), liquid solutions (vinegar, sugar solution) and gaseous solutions (air).","By how much solute is dissolved: an unsaturated solution can dissolve more solute at that temperature. A saturated solution holds the most solute it can at that temperature; extra solute stays undissolved. A supersaturated solution holds more solute than normal. It is made by dissolving a lot of solute in a hot solution and cooling it carefully without disturbing it, and is unstable: a small crystal or a tap causes crystals to appear.","By electrical conduction: electrolytic solutions conduct (salt solution, hydrochloric acid) and non-electrolytic solutions do not (sugar in water, ethanol in water)."],
+"img":{"src":"chem-saturation.png","alt":"Three beakers showing an unsaturated solution with all solute dissolved, a saturated solution with undissolved solid at the bottom, and a supersaturated solution with crystals forming around a seed crystal","cap":"Unsaturated, saturated and supersaturated solutions."}},
+{"h":"Properties of solutions","p":["They are uniform throughout. The particles are the size of molecules or ions, so cannot be seen. They are clear (transparent) and do not scatter a beam of light. The solute cannot be removed by filtration, but can be recovered by evaporation or distillation. They may be dilute (little solute) or concentrated (much solute)."]},
+{"h":"Solubility","p":["Solubility is the maximum mass of solute that dissolves in 100 g of solvent at a given temperature to make a saturated solution. It is measured in g per 100 g of solvent (at a stated temperature). Example: the solubility of sodium chloride is about 36 g per 100 g of water at 25 °C. (In more advanced work, solubility is also given in mol/dm³, the SI-based unit.)"]},
+{"h":"Factors that affect solubility","p":["1. Nature of solute and solvent: 'like dissolves like'. Polar and ionic solutes (salt, sugar) dissolve in polar solvents (water). Non-polar solutes (iodine, fats, oil) dissolve in non-polar solvents (tetrachloromethane, CCl₄, or kerosene). This is why sugar dissolves in water but not in kerosene.","2. Temperature: for most solids, solubility rises as the temperature rises (potassium nitrate). For gases, solubility falls when temperature rises: a warm soft drink loses its fizz.","3. Pressure: has little effect on solids and liquids, but the solubility of a gas rises with pressure (Henry's law). Soft drinks are bottled under CO₂ pressure and fizz when opened.","4. Particle size: small particles dissolve faster because of the larger surface area. 5. Stirring makes a solute dissolve faster, but does not change how much can dissolve in total. 6. Impurities may change solubility."]}
+],
+"activity":"Explain why a bottle of fizzy drink fizzes when opened and goes flat if left in the sun. Use the words 'pressure' and 'temperature'.",
+"check":[
+{"q":"The substance that dissolves in a solution is the","o":["Solute","Solvent","Filtrate","Catalyst"]},
+{"q":"A saturated solution","o":["Holds the maximum solute at that temperature","Can still dissolve more","Has no solute","Is always hot"]},
+{"q":"For most solids, solubility with temperature","o":["Increases","Decreases","Stays the same","Is zero"]},
+{"q":"The solubility of a gas increases when","o":["Pressure increases","Temperature rises","Stirring stops","Particle size falls"]},
+{"q":"Sugar dissolves in water but not in kerosene because","o":["Like dissolves like","Kerosene is heavy","Sugar is a gas","Water is hot"]}]},
+
+{"id":"ch2-18","week":11,"title":"Solubility Curves and Crystallisation","icon":"BarChart2","summary":"How to read a solubility curve, solubility calculations, how to measure solubility, and how to grow crystals of pure substances.",
+"keyWords":["Solubility curve","Crystallisation","Saturated solution","Copper(II) sulphate","Cooling"]
+,"sections":[
+{"h":"Measuring solubility","p":["Aim: find the solubility of potassium nitrate (KNO₃) in water at 40 °C. Apparatus: beaker, thermometer, balance, stirrer, heat source, evaporating dish.","Method: weigh 100 g of water into a beaker and warm it to 40 °C. Add KNO₃ little by little, stirring, until no more dissolves (the solution is saturated). Record the mass of solute added.","Solubility = (mass of solute ÷ mass of solvent) × 100. If 50 g dissolve in 100 g of water at 40 °C, solubility = (50 ÷ 100) × 100 = 50 g per 100 g of water. (Our standard value for KNO₃ at 40 °C is 64 g per 100 g of water; the 50 g was only an example.)"]},
+{"h":"Solubility curves","p":["A solubility curve is a graph of solubility (g per 100 g of water, vertical axis) against temperature (°C, horizontal axis). For most salts, such as KNO₃, the curve slopes upward, because the solubility rises with temperature. For gases, it slopes downward. A point on the curve is a saturated solution. A point below the curve is unsaturated. A point above the curve means more solute than can dissolve (it would appear as undissolved solid, or as a supersaturated solution if cooled carefully).","Uses: read the solubility at any temperature; find the temperature at which a solution becomes saturated; calculate how much solute crystallises when a solution cools; compare solutes."],
+"img":{"src":"chem-solubility-curve.png","alt":"A rising solubility curve of potassium nitrate from 13 g per 100 g of water at 0 degrees to 150 g at 80 degrees, with marked points at 20 degrees (32 g) and 40 degrees (64 g) and the regions unsaturated below and supersaturated above","cap":"Solubility curve of potassium nitrate (values rounded for teaching)."}},
+{"h":"Worked examples","p":["Example 1: a saturated solution at 40 °C holds 64 g of KNO₃ per 100 g of water. At 20 °C the solubility is 32 g. If the solution is cooled to 20 °C, the mass that crystallises = 64 − 32 = 32 g (for each 100 g of water).","Example 2: at 80 °C, 150 g of KNO₃ dissolves in 100 g of water. At 30 °C the solubility is 45 g. Mass that crystallises = 150 − 45 = 105 g.","Example 3: the solubility of NaCl at 25 °C is 36 g per 100 g of water. How much NaCl is needed for a saturated solution in 250 g of water? Mass = 36 ÷ 100 × 250 = 90 g.","Example 4: 90 g of KNO₃ is dissolved in 100 g of water at 60 °C, where the solubility is 110 g per 100 g. Since 90 < 110, the solution is unsaturated (it can take 20 g more).","Example 5: the solubility of KCl is 45 g per 100 g of water at 60 °C and 30 g at 20 °C. How much KCl crystallises when 100 g of saturated solution at 60 °C is cooled to 20 °C? A saturated solution at 60 °C has 45 g KCl in 145 g of solution, so 100 g of solution holds 100 × 45 ÷ 145 = 31.0 g KCl and 69.0 g of water. At 20 °C, 69.0 g of water can hold 69.0 × 30 ÷ 100 = 20.7 g. So the mass crystallising = 31.0 − 20.7 = 10.3 g."]},
+{"h":"Crystallisation","p":["Crystallisation is the formation of pure solid crystals from a solution by cooling it or by evaporating some of the solvent. It is used to purify solids.","Making crystals of copper(II) sulphate in the laboratory: 1. Dissolve excess copper(II) sulphate in hot water to make a saturated solution. 2. Filter it to remove undissolved solid and impurities. 3. Let it cool slowly; crystals form because the solubility falls. 4. Filter off the crystals, wash them with a little cold water, and dry them between sheets of filter paper. Slow cooling gives large, well-shaped crystals.","Industrial uses: refining sugar, purifying salt, making alum, drugs and fertilisers."]},
+{"h":"Applications of solubility","p":["Drug design (how much of a drug dissolves in the blood), food and drink making, oxygen dissolved in water that fish need to breathe (warm water holds less oxygen), the manufacture of fertilisers, soaps and carbonated drinks, and purification of chemicals."]}
+],
+"activity":"Use the curve: at what temperature would a solution containing 85 g of KNO₃ in 100 g of water just become saturated? (Answer: about 50 °C.) How much would crystallise if cooled from 50 °C to 20 °C? (85 − 32 = 53 g.)",
+"check":[
+{"q":"A solubility curve plots","o":["Solubility against temperature","Pressure against volume","pH against time","Mass against volume"]},
+{"q":"If 64 g of KNO₃ dissolves at 40 °C and 32 g at 20 °C, cooling a saturated solution from 40 °C to 20 °C crystallises","o":["32 g","64 g","96 g","16 g"]},
+{"q":"Solubility of NaCl is 36 g per 100 g of water. In 250 g of water the saturated solution holds","o":["90 g","36 g","144 g","250 g"]},
+{"q":"Crystallisation is used to","o":["Purify solids","Heat water","Make gases","Measure pH"]},
+{"q":"A point below the solubility curve represents a","o":["Unsaturated solution","Saturated solution","Supersaturated solution","Pure solvent"]}]}
+]

@@ -1,0 +1,170 @@
+[
+{"id":"c23-12","week":8,"title":"Alcohols: Classification, Preparation, Reactions and Uses","icon":"Layers",
+"summary":"The structure and classification of alcohols, their properties, preparation by fermentation and hydration, and their reactions and uses.",
+"keyWords":["Alcohol","Hydroxyl group","Primary","Secondary","Tertiary","Fermentation","Esterification"],
+"sections":[
+{"h":"What are alcohols?","p":["Alcohols are derivatives of alkanes in which one or more hydrogen atoms are replaced by a hydroxyl group (–OH). General formula for simple alcohols: CₙH₂ₙ₊₁OH."]},
+{"h":"Classification","p":["By the number of –OH groups: monohydric (one: ethanol CH₃CH₂OH); dihydric (two: ethane-1,2-diol, glycol); trihydric (three: propane-1,2,3-triol, glycerol); polyhydric (many: sugars such as glucose).","By the carbon carrying the –OH: primary (1°): attached to a carbon bonded to one other carbon (CH₃CH₂OH); secondary (2°): attached to a carbon bonded to two other carbons (CH₃CH(OH)CH₃, propan-2-ol); tertiary (3°): attached to a carbon bonded to three other carbons ((CH₃)₃COH, 2-methylpropan-2-ol)."]},
+{"h":"Physical properties","p":["Boiling points are higher than those of alkanes of similar size, because of hydrogen bonding between molecules. The lower alcohols (methanol, ethanol, propanol) dissolve in water because they can form hydrogen bonds with water; solubility falls as the molecules get larger. They have a characteristic smell and are poor conductors."]},
+{"h":"Preparation","p":["1. Fermentation of carbohydrates: glucose is changed by the enzyme zymase in yeast: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ (at about 35 °C, without air). This is how palm wine, beer and industrial ethanol from molasses are made.","2. Hydration of ethene: C₂H₄ + H₂O ⇌ C₂H₅OH, with phosphoric acid on a support as catalyst, at about 300 °C and 60 to 70 atm.","3. Reduction of aldehydes and ketones: an aldehyde gives a primary alcohol and a ketone gives a secondary alcohol."]},
+{"h":"Reactions","p":["1. Combustion: C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O (clean flame).","2. With sodium: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂ (sodium ethoxide; hydrogen is given off).","3. Oxidation with acidified K₂Cr₂O₇ (orange to green): a primary alcohol gives an aldehyde and then a carboxylic acid (CH₃CH₂OH → CH₃CHO → CH₃COOH); a secondary alcohol gives a ketone (CH₃CH(OH)CH₃ → CH₃COCH₃); a tertiary alcohol is not oxidised easily.","4. Esterification: with a carboxylic acid and concentrated H₂SO₄: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.","5. Dehydration: with concentrated H₂SO₄ at about 170 °C ethanol gives ethene: C₂H₅OH → C₂H₄ + H₂O."]},
+{"h":"Uses","p":["Ethanol: drinks, solvent, antiseptic, motor fuel (blended with petrol), making esters, perfumes and medicines. Methanol: making methanal (formaldehyde), solvent, antifreeze and fuel (methanol is very poisonous and can cause blindness). Glycerol: cosmetics, explosives (nitroglycerine) and food. Ethylene glycol: antifreeze and polyester."]}
+],
+"activity":"Explain the difference between primary, secondary and tertiary alcohols with examples. Write equations for the combustion of ethanol and its esterification with ethanoic acid. Describe the preparation of ethanol by fermentation.",
+"check":[
+{"q":"Propan-2-ol is a","o":["secondary alcohol","primary alcohol","tertiary alcohol","ketone"]},
+{"q":"Fermentation of glucose gives","o":["ethanol and carbon dioxide","ethene and water","methanol","ethanal"]},
+{"q":"Oxidation of a primary alcohol with acidified dichromate gives first an","o":["aldehyde","ketone","ester","ether"]},
+{"q":"Alcohols have higher boiling points than alkanes because of","o":["hydrogen bonding","ionic bonding","metallic bonding","higher density"]},
+{"q":"2C₂H₅OH + 2Na gives","o":["2C₂H₅ONa + H₂","C₂H₄ + NaOH","C₂H₆ + Na₂O","2C₂H₅Na + O₂"]}
+]},
+
+{"id":"c23-13","week":8,"title":"Ethers and Phenols, and Comparison with Alcohols","icon":"Target",
+"summary":"The structure, preparation, reactions and uses of ethers and phenols, and a comparison of alcohols, ethers and phenols.",
+"keyWords":["Ether","Phenol","Williamson synthesis","Acidity of phenol","Ferric chloride test"],
+"sections":[
+{"h":"Ethers","p":["Ethers have two alkyl or aryl groups joined to the same oxygen atom: R–O–R′. Examples: diethyl ether C₂H₅–O–C₂H₅ (symmetrical) and methyl ethyl ether CH₃–O–C₂H₅ (unsymmetrical).","Physical properties: volatile and highly flammable; slightly soluble in water; boiling points much lower than alcohols of the same molar mass, because ether molecules cannot form hydrogen bonds with each other. They are more volatile than the alcohols for this reason.","Preparation: (1) dehydration of an alcohol with concentrated H₂SO₄ at about 140 °C: 2C₂H₅OH → C₂H₅OC₂H₅ + H₂O. (2) Williamson synthesis: sodium alkoxide with an alkyl halide: C₂H₅ONa + CH₃I → CH₃OC₂H₅ + NaI.","Reactions: burn to give CO₂ and H₂O; react with hot concentrated HI: C₂H₅OC₂H₅ + HI → C₂H₅I + C₂H₅OH; and form explosive peroxides when kept in air.","Uses: diethyl ether as an anaesthetic (less used now because it is flammable), solvents in laboratories and industry, and starting materials for plastics, perfumes and drugs."]},
+{"h":"Phenols","p":["Phenols have an –OH group bonded directly to a benzene ring. The simplest is phenol, C₆H₅OH. It is a colourless solid with a characteristic smell, fairly soluble in water, and weakly acidic.","Preparation: (1) fusing sodium benzenesulphonate with NaOH: C₆H₅SO₃Na + 2NaOH → C₆H₅ONa + Na₂SO₃ + H₂O, then acidifying: C₆H₅ONa + HCl → C₆H₅OH + NaCl. (2) Hydrolysing chlorobenzene with NaOH at high temperature and pressure.","Reactions: with sodium (hydrogen is given off); with NaOH to give sodium phenoxide and water, C₆H₅OH + NaOH → C₆H₅ONa + H₂O (ethanol does not react with NaOH); with bromine water to give a white precipitate of 2,4,6-tribromophenol: C₆H₅OH + 3Br₂ → C₆H₂Br₃OH + 3HBr; with dilute nitric acid to give nitrophenols. Test: neutral iron(III) chloride gives a violet colour.","Uses: antiseptics and disinfectants; making aspirin and other drugs; making plastics (Bakelite), dyes and explosives."]},
+{"h":"Why phenol is more acidic than ethanol","p":["When phenol loses H⁺, the negative charge on the phenoxide ion is spread (delocalised) into the benzene ring, which makes the ion stable. In the ethoxide ion the charge stays on the oxygen and is less stable. So phenol gives up H⁺ more readily and reacts with NaOH, but ethanol does not."]},
+{"h":"Comparison","p":["Study the picture and table."],"img":{"src":"chm2-alcohol-ether-phenol.jpg","alt":"A comparison chart of alcohols, ethers and phenols with structures, acidity, examples and key tests","cap":"Alcohols, ethers and phenols compared."},"tbl":{"head":["Property","Alcohols","Ethers","Phenols"],"rows":[["Functional group","–OH on an alkyl group","–O– between two alkyl groups","–OH on a benzene ring"],["Acidity","Neutral or very weak","Neutral","Weakly acidic"],["Solubility in water","Soluble (small molecules)","Slightly soluble","Slightly soluble"],["Boiling point","High (hydrogen bonds)","Low (no hydrogen bonds)","High (hydrogen bonds)"],["Typical reactions","Oxidation, esterification","Cleavage by HI, peroxides","Substitution on the ring, FeCl₃ test"]]}}
+],
+"activity":"Differentiate between alcohols, ethers and phenols with one example each. Write equations for the preparation of diethyl ether and of phenol from sodium benzenesulphonate. Compare the reactions of ethanol and phenol with sodium hydroxide solution. State three uses of ethanol, diethyl ether and phenol.",
+"check":[
+{"q":"Ethers are more volatile than alcohols because they","o":["cannot form hydrogen bonds with each other","are ionic","are heavier","are acidic"]},
+{"q":"Phenol with neutral FeCl₃ gives a","o":["violet colour","green precipitate","blue colour","white smoke"]},
+{"q":"Phenol with bromine water gives a","o":["white precipitate","brown solution","gas","violet colour"]},
+{"q":"Ethanol does not react with NaOH because it is","o":["not acidic enough","a gas","insoluble","ionic"]},
+{"q":"Diethyl ether is made by heating ethanol with","o":["concentrated H₂SO₄ (140 °C)","dilute HCl","NaOH","water"]}
+]},
+
+{"id":"c23-14","week":9,"title":"Aldehydes and Ketones: Structure and Preparation","icon":"Zap",
+"summary":"The carbonyl group, general formulae and examples of aldehydes and ketones, and their preparation.",
+"keyWords":["Carbonyl group","Aldehyde","Ketone","Oxidation of alcohols","Hydroformylation"],
+"sections":[
+{"h":"Carbonyl compounds","p":["Aldehydes and ketones contain the carbonyl group, C=O. Oxygen is more electronegative than carbon, so the group is polar: the carbon is slightly positive and attracts nucleophiles. Aldehydes: R–CHO, with the carbonyl carbon bonded to at least one hydrogen (methanal HCHO, ethanal CH₃CHO, benzaldehyde C₆H₅CHO). Ketones: R–CO–R′, with the carbonyl carbon bonded to two alkyl or aryl groups (propanone CH₃COCH₃, butanone CH₃COC₂H₅)."]},
+{"h":"Preparation of aldehydes","p":["1. Oxidation of a primary alcohol with acidified K₂Cr₂O₇, distilling off the aldehyde as it forms (so that it is not oxidised further): CH₃CH₂OH + [O] → CH₃CHO + H₂O.","2. Methanal from methanol: air and a hot silver (or copper) catalyst: CH₃OH + ½O₂ → HCHO + H₂O. Methanal is also made by the oxidation of methane over molybdenum or copper catalysts: CH₄ + O₂ → HCHO + H₂O.","3. Hydroformylation (oxo process): alkene + CO + H₂ with a cobalt or rhodium catalyst: CH₂=CH₂ + CO + H₂ → CH₃CH₂CHO (propanal)."]},
+{"h":"Preparation of ketones","p":["1. Oxidation of a secondary alcohol with acidified K₂Cr₂O₇ or KMnO₄: CH₃CH(OH)CH₃ + [O] → CH₃COCH₃ + H₂O.","2. Friedel-Crafts acylation (aromatic ketones): C₆H₆ + CH₃COCl → C₆H₅COCH₃ + HCl, with AlCl₃ as catalyst.","3. Heating the calcium salt of a carboxylic acid: (CH₃COO)₂Ca → CH₃COCH₃ + CaCO₃.","4. Hydration of an alkyne (water, dilute H₂SO₄ and Hg²⁺): propyne gives propanone (Markovnikov's rule: the –OH goes to the carbon with fewer hydrogens). (Ethyne itself gives an aldehyde, ethanal.)"]},
+{"h":"Oxidation of alcohols: summary","p":["Primary alcohol → aldehyde → carboxylic acid (with strong oxidation). Secondary alcohol → ketone (which resists further oxidation). Tertiary alcohols are resistant."]}
+],
+"activity":"Give the general formula and structure of aldehydes and ketones. Write equations for the conversion of ethanol to ethanal, propan-2-ol to propanone and calcium ethanoate to propanone. Explain the hydroformylation reaction with an equation.",
+"check":[
+{"q":"The functional group of aldehydes is","o":["–CHO","–COOH","–OH","–O–"]},
+{"q":"Oxidation of propan-2-ol gives","o":["propanone","propanal","propanoic acid","propane"]},
+{"q":"Heating calcium ethanoate gives","o":["propanone and CaCO₃","ethanal","ethanol","ethene"]},
+{"q":"Oxidation of ethanol (distilled) gives first","o":["ethanal","propanone","ethene","ethyl ethanoate"]},
+{"q":"Ketones are written","o":["R–CO–R′","R–CHO","R–COOH","R–OH"]}
+]},
+
+{"id":"c23-15","week":9,"title":"Identification Tests for Aldehydes and Ketones","icon":"Target",
+"summary":"The 2,4-DNP, Tollens', Fehling's, Benedict's and Schiff's tests, a comparison of aldehydes and ketones, and their uses.",
+"keyWords":["2,4-DNP","Tollens' test","Fehling's test","Schiff's reagent","Silver mirror","Uses"],
+"sections":[
+{"h":"General test for the carbonyl group","p":["2,4-Dinitrophenylhydrazine (2,4-DNP): both aldehydes and ketones give a yellow-orange crystalline precipitate (a hydrazone). This shows a carbonyl group is present."]},
+{"h":"Tests that distinguish them","p":["Tollens' test (ammoniacal silver nitrate), warmed: aldehydes give a silver mirror. RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O. Ketones give no reaction.","Fehling's test (Fehling's solution A and B, warmed): aldehydes reduce the deep blue Cu²⁺ complex to a brick-red precipitate of copper(I) oxide, Cu₂O. Ketones do not react. (Benzaldehyde, which is aromatic, does not give a positive Fehling's test.)","Benedict's test: like Fehling's: a red precipitate with aldehydes (aliphatic).","Schiff's test: aldehydes restore the pink or magenta colour of Schiff's reagent. Ketones do not."],"img":{"src":"chm2-carbonyl-tests.jpg","alt":"A decision tree for carbonyl compound tests using 2,4-DNP, Tollens' test and Fehling's test","cap":"Testing carbonyl compounds."}},
+{"h":"Why aldehydes are oxidised but ketones are not","p":["An aldehyde has a hydrogen on the carbonyl carbon, so it can easily be oxidised to a carboxylic acid (this is what reduces the silver or copper ions). A ketone has no such hydrogen, so it is resistant to mild oxidation."]},
+{"h":"Comparison","p":["Study the table."],"tbl":{"head":["Feature","Aldehydes (R–CHO)","Ketones (R–CO–R′)"],"rows":[["Position of C=O","At the end of the chain","Inside the chain"],["Reactivity","More reactive","Less reactive"],["Oxidation","Easily oxidised to acids","Resist oxidation"],["Tollens' and Fehling's tests","Positive","Negative"],["Examples","Ethanal, benzaldehyde","Propanone, butanone"]]}},
+{"h":"Uses","p":["Aldehydes: formaldehyde (methanal) for plastics and resins, disinfectants and preserving specimens; benzaldehyde as a flavour and in perfumes; ethanal for making ethanoic acid. Ketones: propanone (acetone) as a solvent for paints, varnishes and plastics, in nail varnish remover, and as an intermediate in making other chemicals."]}
+],
+"activity":"Distinguish between ethanal and propanone using Fehling's test and Schiff's test. Explain why aldehydes give a positive Tollens' test and ketones do not. Name two uses each of aldehydes and ketones.",
+"check":[
+{"q":"A silver mirror with Tollens' reagent shows an","o":["aldehyde","ketone","alcohol","alkane"]},
+{"q":"2,4-DNP gives a yellow-orange precipitate with","o":["aldehydes and ketones","alcohols","alkanes","acids"]},
+{"q":"Fehling's test with an aldehyde gives","o":["a brick-red precipitate","a silver mirror","no change","a blue solution"]},
+{"q":"Ketones are resistant to oxidation because they have","o":["no hydrogen on the carbonyl carbon","a double bond","an oxygen","a methyl group"]},
+{"q":"Propanone is used as","o":["a solvent","a fuel gas","a catalyst","an antacid"]}
+]},
+
+{"id":"c23-16","week":10,"title":"Carboxylic Acids: Structure, Properties and Reactions","icon":"Layers",
+"summary":"The carboxyl group, naming, physical properties, acidity and reactions of carboxylic acids, and their uses.",
+"keyWords":["Carboxylic acid","Carboxyl group","Ethanoic acid","Acidity","Resonance","Esterification"],
+"sections":[
+{"h":"Structure and naming","p":["Carboxylic acids contain the carboxyl group, –COOH (a C=O and an –OH on the same carbon). General formula RCOOH. Examples: methanoic acid HCOOH (formic acid, from ants), ethanoic acid CH₃COOH (acetic acid, in vinegar) and benzoic acid C₆H₅COOH. IUPAC name: change the –e of the alkane to –oic acid."]},
+{"h":"Physical properties","p":["The lower members (methanoic and ethanoic acids) are colourless liquids with a sharp smell; higher members are solids. Boiling points are higher than those of alcohols of similar size, because acid molecules form pairs (dimers) joined by two hydrogen bonds. Small acids dissolve in water; solubility falls as the chain gets longer. They taste sour and are corrosive when concentrated."]},
+{"h":"Acidity","p":["Carboxylic acids are weak acids, partly ionised in water: RCOOH ⇌ RCOO⁻ + H⁺. They turn blue litmus red. They are stronger acids than alcohols, because the carboxylate ion is stabilised by resonance (the negative charge is shared by the two oxygen atoms)."]},
+{"h":"Reactions","p":["1. With bases: CH₃COOH + NaOH → CH₃COONa + H₂O.","2. With carbonates: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂ (effervescence of CO₂ is a test for an acid).","3. With reactive metals: 2CH₃COOH + 2Na → 2CH₃COONa + H₂.","4. Esterification with an alcohol and concentrated H₂SO₄: CH₃COOH + CH₃OH ⇌ CH₃COOCH₃ + H₂O.","5. Reduction with LiAlH₄ gives a primary alcohol."]},
+{"h":"Preparation","p":["Oxidation of a primary alcohol: CH₃CH₂OH + 2[O] → CH₃COOH + H₂O (acidified K₂Cr₂O₇, heating under reflux). Oxidation of an aldehyde: CH₃CHO + [O] → CH₃COOH."]},
+{"h":"Uses","p":["Ethanoic acid (vinegar): food and preserving, solvent, making esters. Methanoic acid: tanning leather, dyeing cloth and preserving silage. Benzoic acid: a preservative in soft drinks and juices. Dicarboxylic acids: raw materials for nylon and polyester."]}
+],
+"activity":"Write the equations for ethanoic acid with sodium hydroxide, sodium carbonate and ethanol (with concentrated H₂SO₄). Explain why carboxylic acids have higher boiling points than esters of similar molar mass. State two ways of preparing carboxylic acids.",
+"check":[
+{"q":"The functional group of carboxylic acids is","o":["–COOH","–CHO","–OH","–COO–"]},
+{"q":"Carboxylic acids with carbonates give","o":["CO₂","H₂","O₂","CO"]},
+{"q":"Acids have high boiling points because they","o":["form hydrogen-bonded dimers","are ionic","are gases","are heavy"]},
+{"q":"CH₃COOH is named","o":["ethanoic acid","methanoic acid","propanoic acid","ethanol"]},
+{"q":"Vinegar contains","o":["ethanoic acid","citric acid","methanol","sulphuric acid"]}
+]},
+
+{"id":"c23-17","week":10,"title":"Esters: Structure, Preparation, Hydrolysis and Uses","icon":"Target",
+"summary":"The structure and naming of esters, esterification, acid and alkaline hydrolysis, and the uses of esters.",
+"keyWords":["Ester","Esterification","Hydrolysis","Saponification","Ethyl ethanoate","Flavour"],
+"sections":[
+{"h":"What is an ester?","p":["An ester is formed when the hydrogen of the –COOH group of a carboxylic acid is replaced by an alkyl group: R–COOR′. Naming: alkyl alkanoate, with the alkyl part from the alcohol and the alkanoate from the acid. CH₃COOCH₃ is methyl ethanoate; CH₃COOC₂H₅ is ethyl ethanoate; C₂H₅COOCH₃ is methyl propanoate."]},
+{"h":"Esterification","p":["A carboxylic acid and an alcohol, heated with a few drops of concentrated sulphuric acid (a catalyst and also a dehydrating agent), form an ester and water: RCOOH + R′OH ⇌ RCOOR′ + H₂O. The reaction is reversible. In the mechanism, the acid protonates the carbonyl oxygen, the alcohol attacks the carbonyl carbon, a proton moves and water is lost. The acid supplies the –OH that is lost with the H of the alcohol."],"img":{"src":"chm2-esterification.jpg","alt":"The reversible esterification reaction of a carboxylic acid and an alcohol with sulphuric acid as catalyst to give an ester and water","cap":"Esterification is reversible."}},
+{"h":"Examples","p":["Propanoic acid + ethanol → ethyl propanoate. Methanoic acid + propan-1-ol → propyl methanoate. Benzoic acid + methanol → methyl benzoate."]},
+{"h":"Physical properties","p":["Esters have pleasant fruity smells. The smaller esters are liquids and the larger are waxy solids. They do not dissolve in water. Their boiling points are lower than those of acids of the same molar mass, because there are no hydrogen bonds between ester molecules."]},
+{"h":"Reactions","p":["Acid hydrolysis (reversible): CH₃COOC₂H₅ + H₂O ⇌ CH₃COOH + C₂H₅OH (dilute acid catalyst). Alkaline hydrolysis (saponification, not reversible): CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH. This is how soap is made from fats and oils (esters of glycerol). Esters burn with a clean flame to CO₂ and H₂O."]},
+{"h":"Uses","p":["Perfumes and flavours (isoamyl ethanoate smells of bananas; ethyl butanoate of pineapple); solvents for paints and varnishes (ethyl ethanoate); making plastics and synthetic fibres (polyesters such as Terylene); soap making; plasticisers in PVC."]},
+{"h":"Acids and esters compared","p":["Study the table."],"tbl":{"head":["Property","Carboxylic acids","Esters"],"rows":[["Functional group","–COOH","–COO–"],["Smell","Sharp, sour","Pleasant, fruity"],["Solubility in water","Soluble (small ones)","Insoluble"],["Boiling point","High","Lower"],["With a base","Neutralised to a salt","Hydrolysed to a salt and an alcohol"]]}}
+],
+"activity":"Write the structure of ethyl propanoate and name the acid and the alcohol it comes from. Write balanced equations for the esterification of ethanoic acid with ethanol, and the acid and alkaline hydrolysis of ethyl ethanoate. Name three uses of esters.",
+"check":[
+{"q":"Ethanoic acid + ethanol gives","o":["ethyl ethanoate and water","methyl ethanoate","ethanal","ethane"]},
+{"q":"Alkaline hydrolysis of an ester is called","o":["saponification","esterification","hydration","polymerisation"]},
+{"q":"CH₃COOCH₃ is","o":["methyl ethanoate","ethyl methanoate","methyl propanoate","ethanoic acid"]},
+{"q":"Esters are used as","o":["perfumes and flavours","metals","fuels only","fertilisers"]},
+{"q":"The catalyst for esterification is","o":["concentrated H₂SO₄","NaOH","iron","water"]}
+]},
+
+{"id":"c23-18","week":11,"title":"Polymers and Plastics: Types and Uses","icon":"Layers",
+"summary":"Monomers and polymers, natural and synthetic polymers, addition and condensation polymerisation, thermoplastics and thermosets, and the uses of common plastics.",
+"keyWords":["Polymer","Monomer","Addition polymerisation","Condensation polymerisation","Thermoplastic","Thermosetting"],
+"sections":[
+{"h":"Meaning","p":["Poly means many and meros means parts. A polymer is a very large molecule (a macromolecule) made of many repeating small units (monomers) joined by covalent bonds. The reaction is polymerisation. The number of repeating units in a chain is the degree of polymerisation. Molar masses can reach millions. Examples: ethene → polyethene; glucose → starch and cellulose; isoprene → natural rubber; amino acids → proteins."],"img":{"src":"chm2-polymer-classes.jpg","alt":"A chart classifying polymers into natural polymers (DNA, protein, rubber) and synthetic polymers (addition polymers like polyethene and condensation polymers like nylon)","cap":"Classification of polymers."}},
+{"h":"Natural and synthetic polymers","p":["Natural polymers: starch, cellulose and glycogen (from glucose); proteins (from amino acids); DNA and RNA (from nucleotides); natural rubber (polyisoprene). Synthetic polymers: polyethene, polystyrene, PVC, nylon, Terylene, Bakelite and silicone rubbers."]},
+{"h":"Addition polymerisation","p":["Unsaturated monomers (with C=C) join without losing any small molecule (heat, pressure and a catalyst are needed). nCH₂=CH₂ → (–CH₂–CH₂–)ₙ polyethene. PVC from chloroethene (CH₂=CHCl); polystyrene from styrene (C₆H₅CH=CH₂); Teflon (PTFE) from tetrafluoroethene (CF₂=CF₂): nCF₂=CF₂ → (–CF₂–CF₂–)ₙ."]},
+{"h":"Condensation polymerisation","p":["Monomers with two functional groups join, and a small molecule such as water or HCl is lost each time. Nylon-6,6: hexane-1,6-diamine H₂N(CH₂)₆NH₂ + hexanedioic (adipic) acid HOOC(CH₂)₄COOH → –[NH(CH₂)₆NHCO(CH₂)₄CO]ₙ– + H₂O (an amide, or peptide, link). Terylene (polyester): ethane-1,2-diol + benzene-1,4-dicarboxylic acid (terephthalic acid) → –[O–CH₂–CH₂–O–CO–C₆H₄–CO]ₙ– + H₂O. Bakelite: phenol + methanal."],"img":{"src":"chm2-polymer-structures.jpg","alt":"The repeating units of polyethene, polypropene, PVC, polystyrene, Terylene and a polyurethane","cap":"Repeating units of some polymers."}},
+{"h":"Thermoplastics and thermosets","p":["Thermoplastics soften when heated and can be re-moulded: they have long chains with no cross-links (polyethene, PVC, polystyrene). Thermosetting plastics harden permanently when heated and cannot be re-moulded: they have many cross-links between chains (Bakelite, melamine, epoxy resins). By mechanical properties: elastomers are stretchy (natural rubber, neoprene), fibres are strong threads (nylon, Terylene, silk) and plastics are rigid or flexible solids."]},
+{"h":"Uses","p":["Polyethene: bags, films, bottles, buckets and pipes. PVC: wire insulation, water pipes, floor tiles and roofing. Polystyrene: disposable cups, packaging foam, insulation. Teflon: non-stick pans and gaskets. Nylon: clothes, ropes, nets, toothbrush bristles and parachutes. Terylene: clothes, curtains and conveyor belts. Bakelite: electric switches and plugs, handles of pans. Rubber: tyres, shoes and shock absorbers. PVC is good for cable insulation because it does not conduct and it is flexible and cheap; Bakelite is used for switches because it does not soften when heated."]}
+],
+"activity":"Define polymer, monomer and polymerisation. Write the repeating unit of PVC and of nylon-6,6. List three differences between thermoplastics and thermosetting plastics. Write polymerisation equations for ethene and tetrafluoroethene. Describe how nylon-6,6 is made.",
+"check":[
+{"q":"The monomer of polyethene is","o":["ethene","ethane","ethanol","ethyne"]},
+{"q":"A condensation polymer loses","o":["a small molecule such as water","nothing","a metal","a proton only"]},
+{"q":"Bakelite is a","o":["thermosetting plastic","thermoplastic","natural fibre","metal"]},
+{"q":"Natural rubber is a polymer of","o":["isoprene","glucose","amino acids","ethene"]},
+{"q":"Nylon is made by","o":["condensation polymerisation","addition polymerisation only","cracking","fermentation"]}
+]},
+
+{"id":"c23-19","week":11,"title":"Dangers of Plastics and How to Control Them","icon":"Shield",
+"summary":"The harm done by plastics to the environment and health, and recycling, biodegradable alternatives and other solutions.",
+"keyWords":["Non-biodegradable","Microplastics","Recycling","Biodegradable plastic","Pollution","Dioxins"],
+"sections":[
+{"h":"Dangers","p":["1. Non-biodegradable: plastics stay in soil and water for decades. They block drains and cause flooding and ugly rubbish heaps.","2. Poisonous when burnt: burning PVC releases hydrogen chloride; incomplete burning of plastics gives carbon monoxide and dioxins, which can cause cancer.","3. Marine pollution: fish, turtles and birds swallow plastic and die. Tiny pieces (microplastics) enter the food chain and reach humans.","4. Health hazards: plastic packaging can release additives such as phthalates and BPA into food and drinks, which can disturb hormones.","5. Resource use: most plastics are made from petroleum, which is running out.","6. Fire risk: many plastics burn easily and give off dense, poisonous smoke."]},
+{"h":"Control measures","p":["Recycling and reuse: collect, melt and re-mould plastics (sort them by type). Biodegradable plastics: made from starch or polylactic acid (PLA), which microbes can break down. Waste management: collect and dispose of waste properly, with laws against dumping. Replacement: use paper, cloth, glass, metal or clay containers. Education: teach people to reduce, reuse and recycle. Laws: ban or tax single-use plastics such as shopping bags and straws."]},
+{"h":"In your community","p":["In many Nigerian cities, plastic sachets and bottles block gutters and make floods worse during the rainy season. Collecting bottles for recycling, using reusable bags and cups, and keeping drains clear are simple things that students can start with."]}
+],
+"activity":"Discuss five dangers of indiscriminate use of plastics and suggest a practical remedy for each. Explain two dangers of burning plastics.",
+"check":[
+{"q":"Burning PVC gives off","o":["hydrogen chloride","pure oxygen","water only","helium"]},
+{"q":"Tiny pieces of plastic in the sea are","o":["microplastics","nano metals","salts","alloys"]},
+{"q":"A biodegradable plastic can be made from","o":["starch or PLA","petrol only","mercury","glass"]},
+{"q":"A way to reduce plastic waste is","o":["recycling and reuse","burning it","dumping in rivers","burying it near wells"]},
+{"q":"Plastics block drains and cause","o":["flooding","droughts","earthquakes","acid rain"]}
+]},
+
+{"id":"c23-20","week":11,"title":"Third Term Revision","icon":"BookOpen",
+"summary":"A summary table and mixed practice for Third Term Chemistry.",
+"keyWords":["Revision","Sulphur","Carbon","Organic chemistry","Hydrocarbons","Polymers"],
+"sections":[
+{"h":"Key facts","p":["Use the table to revise."],"tbl":{"head":["Topic","Key facts"],"rows":[["Sulphur compounds","SO₂ is a reducing agent and a bleach; Contact process: V₂O₅, 450 °C, 1–2 atm; conc. H₂SO₄ dehydrates"],["Carbon","CO is poisonous and burns; CO₂ turns limewater milky; CaCO₃ → CaO + CO₂"],["Industrial chemicals","HCl (Mannheim), NH₃ (Haber: Fe, 450 °C, 200 atm), H₂SO₄ (Contact)"],["Organic chemistry","Homologous series, functional groups, IUPAC naming"],["Hydrocarbons","Alkanes substitute; alkenes and alkynes add; bromine water test"],["Alcohols, ethers, phenols","Oxidation of alcohols; phenol is acidic; FeCl₃ gives violet"],["Aldehydes and ketones","Tollens' and Fehling's tests positive for aldehydes only"],["Acids and esters","Esterification is reversible; saponification is not"],["Polymers","Addition and condensation; thermoplastic and thermosetting; plastics pollution"]]}},
+{"h":"Mixed practice","p":["1. Name CH₃CH(OH)CH₃ (propan-2-ol). 2. Write the equation for the combustion of propane: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. 3. Give a test for an alkene (bromine water is decolourised). 4. What is made by heating ethanol with concentrated H₂SO₄ at 140 °C? (Diethyl ether.) 5. What is the product of ethanoic acid + ethanol? (Ethyl ethanoate.) 6. Name the monomer of PVC (chloroethene)."]}
+],
+"activity":"Without notes, write the conditions of the Haber and Contact processes, the tests for aldehydes, and an example of addition and condensation polymers. Check against the table.",
+"check":[
+{"q":"The catalyst in the Contact process is","o":["V₂O₅","Fe","Ni","Pt"]},
+{"q":"A positive Tollens' test is a","o":["silver mirror","red precipitate","blue colour","green colour"]},
+{"q":"The monomer of PVC is","o":["chloroethene","ethene","styrene","ethyne"]},
+{"q":"Ethanoic acid + ethanol (with H₂SO₄) gives","o":["an ester","an ether","an alkene","an aldehyde"]},
+{"q":"Alkenes undergo","o":["addition reactions","substitution only","neutralisation","hydrolysis"]}
+]}
+]

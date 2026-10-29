@@ -1,0 +1,142 @@
+[
+{"id":"li3-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Literature in English Third Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Prose","Poetry","Novel","Theme","Imagery"],
+"sections":[
+{"h":"Welcome to Third Term","p":["In Third Term you study prose and poetry. You begin with the elements of prose fiction (plot, setting, characterisation, theme and point of view). Then you study two novels: So the Path Does Not Die by Pede Hollist (African prose) and To Kill a Mockingbird by Harper Lee (non-African prose). After that you study six poems: four African (Gabriel Okara, Niyi Osundare, Wole Soyinka, Syl Cheney-Coker) and two non-African (Maya Angelou and Lord Byron).","If you can, read the novels and the poems themselves; the notes are a guide, not a replacement. At the end of every unit are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit.","The notes were checked against published study guides. Where the original lesson plan gave names or details that do not match the published works (for example for So the Path Does Not Die and for Soyinka's 'Night'), the notes say so and use the corrected material."]},
+{"h":"Table of contents for Third Term","p":["Week 5 is the midterm examination and Week 7 is the midterm break."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Features and elements of prose: plot, setting, characterisation"],
+["3","1","Theme and point of view"],
+["4","2","So the Path Does Not Die: the author, settings and story"],
+["5","3","So the Path Does Not Die: themes, characters and style"],
+["6","4","To Kill a Mockingbird: the author, context and opening chapters"],
+["7","4","To Kill a Mockingbird: setting, tone and the whole story"],
+["8","6","To Kill a Mockingbird: themes, characters and style"],
+["9","8","African poetry: 'Once Upon a Time' by Gabriel Okara"],
+["10","8","African poetry: 'Not My Business' by Niyi Osundare"],
+["11","9","African poetry: 'Night' by Wole Soyinka"],
+["12","9","African poetry: 'The Breasts of the Sea' by Syl Cheney-Coker"],
+["13","10","Non-African poetry: 'Still I Rise' by Maya Angelou"],
+["14","10","Non-African poetry: 'She Walks in Beauty' by Lord Byron"],
+["15","11","Revision"]]}}
+],
+"activity":"Which unit will you read to learn about a poem that warns against doing nothing when others suffer? Which unit explains point of view?",
+"check":[
+{"q":"Which unit covers 'Night' by Wole Soyinka?","o":["Unit 11","Unit 3","Unit 6","Unit 14"]},
+{"q":"In which unit do you study point of view?","o":["Unit 3","Unit 9","Unit 12","Unit 15"]},
+{"q":"Which novel is by Harper Lee?","o":["To Kill a Mockingbird","So the Path Does Not Die","Things Fall Apart","Once Upon an Elephant"]},
+{"q":"Which unit covers 'Still I Rise'?","o":["Unit 13","Unit 2","Unit 5","Unit 10"]}]},
+
+{"id":"li3-02","week":1,"title":"Features and Elements of Prose: Plot, Setting and Characterisation","icon":"Layers","summary":"What prose is, and three elements of prose fiction: plot, setting and characterisation.",
+"keyWords":["Prose","Plot","Setting","Protagonist","Antagonist"]
+,"sections":[
+{"h":"Features of prose","p":["Prose is one of the three main genres, with poetry and drama. It is written or spoken language in its ordinary form, without regular metre or rhyme. Form: it is written in sentences grouped into paragraphs (and, in a long work such as a novel, chapters). Language: ordinary, natural and following normal speech and grammar, unlike the compressed, rhythmic language of poetry. Purpose: to narrate (tell a story), describe, inform or argue. Varieties: fiction (imaginative: novels, short stories) and non-fiction (factual: biography, essays, textbooks)."]},
+{"h":"Plot","p":["Plot is the series of connected events of a story and how they are arranged to create an effect. It has five parts: exposition (the beginning: characters, setting and first conflict), rising action (complications that build suspense), climax (the highest point of tension, the turning point), falling action (events after the climax, as tension eases) and resolution or denouement (the end, when the conflict is settled and a new normal is set up)."]},
+{"h":"Setting","p":["Setting is the time and place of the story: the backdrop of the action. Physical setting: the location (a city, a village, a room). Temporal setting: the time (the 1930s, wartime, a single day). Social or cultural setting: the customs, values and rules of the society in the story (for example, a racist town in the 1930s). Setting is not just a backdrop: it can create mood, influence how characters behave and even be a source of conflict."]},
+{"h":"Characterisation","p":["Characterisation is how a writer creates and develops the people in a story. The protagonist is the main character, around whom the story revolves. The antagonist is the character or force that opposes the protagonist.","Direct characterisation: the writer tells us what a character is like ('Sade was a kind and generous woman'). Indirect characterisation: the writer shows us through the character's actions, speech and thoughts, and through the way other characters react.","Types of character: a round (dynamic) character is complex and changes and grows through the story. A flat (static) character is simple, one-sided and does not change."]}
+],
+"activity":"Read a short story (a folktale will do). In 250 words, name its protagonist and antagonist, its setting and its main theme.",
+"check":[
+{"q":"The main character of a story is the","o":["Protagonist","Antagonist","Narrator only","Reader"]},
+{"q":"Showing character through actions and speech is","o":["Indirect characterisation","Direct characterisation","Plot","Setting"]},
+{"q":"A character who grows and changes is","o":["Round (dynamic)","Flat (static)","An antagonist only","A minor character"]},
+{"q":"Time and place together are the","o":["Setting","Theme","Plot","Tone"]},
+{"q":"Prose differs from poetry because it","o":["Has no regular metre","Always rhymes","Has no sentences","Has no purpose"]}]},
+
+{"id":"li3-03","week":1,"title":"Theme and Point of View","icon":"Target","summary":"What a theme is (and is not), and the three main points of view: first person, third person limited and third person omniscient.",
+"keyWords":["Theme","Point of view","First person","Third person limited","Omniscient"]
+,"sections":[
+{"h":"Theme","p":["Theme is the central idea, message or deeper meaning of a story: a truth about life or human nature that the writer explores. A theme is not a single word such as 'love'. It is a statement or idea about that word, such as 'Love needs great sacrifice' or 'Love can be a destructive force'. A story can have one major theme and several minor themes."]},
+{"h":"Point of view (POV)","p":["Point of view is the viewpoint or 'lens' through which the story is told.","First-person point of view: the narrator is a character in the story and uses 'I' ('I walked down the street'). The reader knows only what this one character knows, thinks and sees.","Third-person limited: the narrator stands outside the story and uses 'he', 'she' or 'they', but knows the thoughts and feelings of only one character.","Third-person omniscient (all-knowing): the narrator stands outside the story and knows everything. This 'god-like' narrator can tell what all the characters think and feel and can be in several places at once."],
+"tbl":{"head":["Point of view","Pronouns","The narrator knows"],"rows":[
+["First person","I, we","Only what the narrator sees and thinks"],
+["Third person limited","he, she, they","The thoughts of one character"],
+["Third person omniscient","he, she, they","The thoughts of all characters"]]}},
+{"h":"Why POV matters","p":["The point of view decides what the reader learns and how far the reader trusts the narrator. To Kill a Mockingbird is told in the first person by an adult looking back at her childhood. That combines a child's fresh, honest observation with an adult's understanding."]}
+],
+"activity":"Rewrite two sentences from a story you know, first in the first person and then in the third person. Say what changes for the reader.",
+"check":[
+{"q":"'I walked down the street' is","o":["First person","Third person","Omniscient","Plot"]},
+{"q":"A narrator who knows what every character thinks is","o":["Omniscient","Limited","First person","Silent"]},
+{"q":"Which is a well-stated theme?","o":["Love can destroy","Love","Marriage","Weather"]},
+{"q":"Third-person limited tells us the thoughts of","o":["One character","All characters","No character","The reader"]},
+{"q":"A story can have","o":["One major theme and minor themes","Only one theme ever","No theme","Only a title"]}]},
+
+{"id":"li3-04","week":2,"title":"So the Path Does Not Die: the Author, Settings and Story","icon":"BookOpen","summary":"Who Pede Hollist is, the novel's settings (Sierra Leone and the United States) and an outline of the story of Fina's journey.",
+"keyWords":["Pede Hollist","Fina","Freetown","Diaspora","Return"]
+,"sections":[
+{"h":"The author","p":["Pede Hollist is a Sierra Leonean-American author and academic. He was born in Sierra Leone and later moved to the United States, where he became a professor of English. This diaspora background is the key to his novel: he is interested in the lives of Africans in the West and in their complicated relationship with the 'home' they left. So the Path Does Not Die is his first novel."]},
+{"h":"Settings","p":["The novel moves between two worlds. Sierra Leone (Freetown and the villages of the protagonist's childhood) stands for tradition, community, family obligation and roots. It is the 'path' of the title. The United States (the Washington area) stands for modern life, individual freedom, Western education and a new life, where Fina builds her adult life. The tension between the two worlds drives the novel."]},
+{"h":"The story in outline","p":["The heroine is Finaba (Fina) Marah. Her story begins on the night that her circumcision, a traditional rite of passage for girls, is stopped, and she escapes from it. The novel then follows her from childhood in Sierra Leone through her teenage years in Freetown to her adult life in the United States. She searches for a place to belong.","In America she builds a life, and she has friendships and a relationship with Cammy, a Trinidadian urologist who becomes her fiancé. The two disagree about circumcision, and secrets from Fina's past put their relationship in danger. Her friend Aman and Aman's Nigerian fiancé Bayo, her foster sister Edna and Edna's husband Kizzy, and a war-traumatised teenager, Mawaf, each have their own stories alongside hers.","At the end Fina goes back to Sierra Leone, where she works for children who have been hurt by the country's civil war."]},
+{"h":"A correction","p":["The lesson plan describes a heroine called 'Adefinah M'bayo' living in Tampa, Florida, with a boyfriend called Chris, and a Sierra Leonean doctor named Bola in a village called Rotifunk. These details do not match the published novel. The heroine is Finaba (Fina) Marah, and the supporting characters are those listed above. Please use these corrected details."]}
+],
+"activity":"In 200 words, describe the inner conflict that Fina faces. Which two worlds is she torn between?",
+"check":[
+{"q":"Pede Hollist was born in","o":["Sierra Leone","Nigeria","Ghana","Trinidad"]},
+{"q":"The 'path' in the title stands for","o":["Roots and heritage","A road to school","A farm path","A river"]},
+{"q":"Fina's fiancé Cammy is","o":["A Trinidadian urologist","A Nigerian doctor","A teacher","A farmer"]},
+{"q":"At the end Fina returns to Sierra Leone to","o":["Work with war-traumatised children","Marry a chief","Become a judge","Sell land"]},
+{"q":"The novel's two settings are","o":["Sierra Leone and the United States","Nigeria and Kenya","England and France","Ghana and Togo"]}]},
+
+{"id":"li3-05","week":3,"title":"So the Path Does Not Die: Themes, Characters and Style","icon":"Users","summary":"Belonging and identity, tradition against modernity, the exile's experience, women and custom, and war and trauma, with the characters and the symbol of the path.",
+"keyWords":["Identity","Belonging","Tradition","Diaspora","Trauma"]
+,"sections":[
+{"h":"Themes","p":["Belonging and identity: the central theme. Fina belongs to two worlds. In America she is the African, and in Sierra Leone she may be seen as the one who left. The novel asks what 'home' is: the place where you were born, or the place where you build your life. Fina must make an identity that respects both her roots (the 'path') and the route her life takes.","Tradition against modernity: Fina is a modern, educated, independent woman in a society whose customs make demands on a woman. The novel shows her trying to decide which customs to keep and which to resist, especially customs about women's bodies and roles.","The experience of leaving and returning (the diaspora): the novel looks at what it means to live abroad and go back, to see your country with new eyes, with its beauty and its problems.","Women, friendship and support: Fina's friends and her foster sister help her to survive and to understand herself.","War and its trauma: the effects of Sierra Leone's civil war on people, especially children, and the importance of healing."]},
+{"h":"Characters","p":["Fina (Finaba Marah): the protagonist, a round and dynamic character. She starts out as a young person running from something and gradually grows into someone who can face her past and use it to help others.","Cammy: her fiancé, whose different background and views create conflict.","Aman and Bayo, Edna and Kizzy: friends and family who show different ways of living between cultures.","Mawaf: a teenager hurt by war; through him the novel shows the cost of conflict and Fina's calling."]},
+{"h":"Symbol and style","p":["The path: the main symbol. It stands for heritage, connection to family and identity. Keeping it clear so that it does not 'die' means staying in touch with one's roots.","The story uses realistic detail of life in Sierra Leone and in America, the thoughts and feelings of its heroine, and sayings and proverbs of the culture to give a sense of place."]}
+],
+"activity":"Write 250 words on the question: 'Is Fina a round or a flat character?' Use evidence from the novel.",
+"check":[
+{"q":"The central theme of the novel is","o":["Belonging and identity","Farming","Sport","Trade"]},
+{"q":"A round character is one who","o":["Changes and grows","Never changes","Is minor","Is silent"]},
+{"q":"The 'path' symbolises","o":["Heritage and roots","Money","War","School"]},
+{"q":"Mawaf is a","o":["War-traumatised teenager","Doctor","Chief","Judge"]},
+{"q":"The 'diaspora' experience means","o":["Living away from the homeland","Living at home","Moving house","Farming"]}]},
+
+{"id":"li3-06","week":4,"title":"To Kill a Mockingbird: the Author, Context and Opening Chapters","icon":"Landmark","summary":"Who Harper Lee was, the Jim Crow South and the Scottsboro case, and the story of chapters 1 to 5.",
+"keyWords":["Harper Lee","Maycomb","Scout","Boo Radley","Jim Crow"]
+,"sections":[
+{"h":"The author","p":["Harper Lee (1926 to 2016) was an American novelist. She was born and grew up in Monroeville, Alabama, a small Southern town that gave her the setting for the novel. The book is partly autobiographical: Lee's father, Amasa Coleman Lee, was a lawyer and member of the Alabama legislature, like Atticus Finch in the novel. She grew up in the Jim Crow South, a time and place of strict, legal racial segregation and deep prejudice. The novel was written in the 1950s and published in 1960, at the start of the American Civil Rights Movement.","The Scottsboro Boys: in the 1930s, nine young Black men in Alabama were falsely accused of raping two white women, and were convicted by all-white juries despite strong evidence of their innocence. This real case is a clear parallel to the fictional trial of Tom Robinson."]},
+{"h":"Chapters 1 to 5","p":["Chapter 1: the story is told by Jean Louise 'Scout' Finch, now an adult, remembering her childhood in the 'tired old town' of Maycomb, Alabama. She introduces her family: her father Atticus (a respected lawyer), her older brother Jem and their cook Calpurnia. A boy called Charles Baker 'Dill' Harris comes to spend the summer and becomes fascinated with the 'haunted' house of their neighbour, Arthur 'Boo' Radley, a mysterious recluse.","Chapters 1 to 3: the children dare each other to touch the Radley house, act out stories about Boo and try to make him come out. Boo stands for mystery, superstition and the town's prejudice.","Chapters 2 and 3: Scout starts school and it goes badly. Her new teacher, Miss Caroline, does not understand Maycomb and punishes Scout for already being able to read (Atticus taught her). Scout is also in trouble for explaining why Walter Cunningham will not accept a quarter (the Cunninghams are poor but proud and will not take charity). Scout meets the Ewells, such as Burris Ewell, a poor family who are dirty and disrespectful and live 'like animals'.","Chapter 4: the children find small gifts (gum, old coins) in the knothole of an oak tree on the Radley property. It is the first sign that Boo is not a 'phantom' but a real person who may be kind."]}
+],
+"activity":"Write 250 words describing the social levels of Maycomb as they appear in the first chapters: think about the Finches, the Cunninghams, the Ewells, the Radleys and Calpurnia.",
+"check":[
+{"q":"Harper Lee's father was a","o":["Lawyer","Doctor","Farmer","Teacher"]},
+{"q":"The novel was published in","o":["1960","1930","1990","1860"]},
+{"q":"Who tells the story?","o":["Scout as an adult","Jem","Atticus","Dill"]},
+{"q":"The Scottsboro case parallels","o":["Tom Robinson's trial","Boo Radley's secret","Scout's school day","Dill's summer"]},
+{"q":"Who leaves gifts in the oak tree?","o":["Boo Radley","Dill","Jem","Calpurnia"]}]},
+
+{"id":"li3-07","week":4,"title":"To Kill a Mockingbird: Setting, Tone and the Whole Story","icon":"BookOpen","summary":"Maycomb in the Great Depression, the novel's nostalgic yet innocent tone, and an outline of the whole story from the trial of Tom Robinson to Boo Radley's rescue.",
+"keyWords":["Maycomb","Great Depression","Tone","Tom Robinson","Bob Ewell"]
+,"sections":[
+{"h":"Setting","p":["Maycomb, Alabama, 1933 to 1935. Time: the Great Depression, which explains the widespread poverty of families like the Cunninghams and the slow pace of the town. Place: a small, fictional Southern town, 'a tired old town'. Social atmosphere: the town is rigid, gossipy and ruled by Jim Crow laws (racial segregation). It is deeply racist and prejudiced. The 'disease' of Maycomb is its prejudice, which Atticus must face."]},
+{"h":"Tone","p":["The tone comes from a double perspective: an adult Scout looks back at her childhood self. The tone is nostalgic and amusing, because the adult remembers her childhood with humour and affection. It is also innocent and observant, because the child's clear, simple eye sees the adult world logically, which makes the town's racism look absurd. The tone is light and funny in the early chapters, and becomes darker and more serious when the trial begins."]},
+{"h":"The story as a whole","p":["Over three summers the children are fascinated by Boo Radley. Atticus agrees to defend Tom Robinson, a Black man accused of raping a white woman, Mayella Ewell. Many in town turn against Atticus, and Scout fights children who insult him. At the trial, Atticus shows that Tom could not have done the crime (Tom's left arm was crippled) and that Mayella and her father Bob Ewell are lying. Even so, the all-white jury finds Tom guilty. Tom is later shot dead while trying to escape from prison.","Bob Ewell, shamed by the trial, takes revenge. On Halloween night he attacks Jem and Scout as they walk home. Boo Radley rescues them and Bob Ewell is killed in the struggle. The sheriff, Heck Tate, decides to say that Ewell fell on his own knife, to protect Boo from public attention. Atticus agrees. Scout stands on the Radley porch and sees the world from Boo's side, and understands Atticus's advice to 'climb into someone's skin and walk around in it'."]}
+],
+"activity":"Explain the novel's double tone. Who is telling the story and why is that effective?",
+"check":[
+{"q":"The novel is set during the","o":["Great Depression","Second World War","Civil War","Industrial Revolution"]},
+{"q":"Tom Robinson is accused of","o":["Raping a white woman","Stealing a horse","Murder","Arson"]},
+{"q":"Who saves the children from Bob Ewell?","o":["Boo Radley","Atticus","Calpurnia","The sheriff"]},
+{"q":"The tone is described as","o":["Nostalgic and innocent","Cruel","Silent","Rude"]},
+{"q":"The jury finds Tom","o":["Guilty","Not guilty","Insane","Free to go"]},
+{"q":"The 'disease' of Maycomb is","o":["Prejudice","Fever","Hunger","Rain"]}]},
+
+{"id":"li3-08","week":6,"title":"To Kill a Mockingbird: Themes, Characters and Style","icon":"Users","summary":"Racism and injustice, innocence and the mockingbird symbol, moral courage and other prejudices; the characters; and the child narrator and Southern Gothic style.",
+"keyWords":["Mockingbird","Moral courage","Prejudice","Atticus","Bildungsroman"]
+,"sections":[
+{"h":"Themes","p":["Racism and social injustice: the central theme. Maycomb is deeply racist. The trial of Tom Robinson shows an innocent Black man convicted because the jury will not take his word against that of a white woman.","Innocence and its loss: the title is the central metaphor. Atticus tells the children it is 'a sin to kill a mockingbird' because mockingbirds only 'sing their hearts out for us'. The 'mockingbirds' in the novel are Tom Robinson and Boo Radley, innocent and harmless men who are damaged by society's evil. The trial forces Jem and Scout to lose their childhood innocence as they see the unfairness of the adult world.","Courage, moral and physical: courage is not 'a man with a gun in his hand'. True courage is moral courage. Atticus defends Tom knowing that he will lose and that his family will suffer. Mrs Dubose, an old racist woman, shows courage by fighting her morphine addiction to 'die free'.","Prejudice beyond race: class prejudice (the town looks down on the poor Cunninghams and the Ewells), social prejudice (the town imprisons Boo Radley in rumour because he is different) and gender prejudice (Scout is told to 'stop being a girl' and act 'like a lady')."]},
+{"h":"Characters","p":["Scout (Jean Louise Finch): the narrator and protagonist, a tomboy, intelligent, outspoken and quick-tempered. The novel is a bildungsroman (a coming-of-age story) about her growth from innocence to understanding.","Atticus Finch: the moral centre of the novel. A respected lawyer, widower and patient father, he stands for integrity, justice, quiet courage and empathy.","Jem Finch: Scout's older brother, idealistic and protective. The unfair verdict hits him hardest and pushes him into adolescence.","Boo Radley (Arthur): a 'mockingbird', a recluse hurt by a cruel father. He is a symbol of hidden kindness who leaves gifts for the children and saves their lives.","Tom Robinson: an innocent Black man accused of rape, the other 'mockingbird' and a symbol of racial injustice.","Bob Ewell: the antagonist, a poor, hateful, racist man who represents the evil side of Maycomb."]},
+{"h":"Style","p":["First-person narrator, past tense: the adult Scout tells the story, which allows Lee to mix the child's fresh observations with an adult's reflection. This double view is the novel's greatest strength and is why the child narrator is so effective in criticising racism.","Southern Gothic: a style that looks at the dark, 'haunted' side of the South. Boo Radley, the 'mad' dog, the town's dark secrets and its decaying social order are all Gothic elements."]}
+],
+"activity":"Write 300 words: how does Jem's reaction to the verdict of the Tom Robinson trial differ from Atticus's?",
+"check":[
+{"q":"The mockingbirds in the novel are","o":["Tom Robinson and Boo Radley","Bob Ewell and Mayella","Jem and Dill","Atticus and Calpurnia"]},
+{"q":"Atticus shows moral courage by","o":["Defending Tom knowing he will lose","Using a gun","Leaving town","Staying silent"]},
+{"q":"The antagonist is","o":["Bob Ewell","Atticus","Heck Tate","Jem"]},
+{"q":"A bildungsroman is a","o":["Coming-of-age story","Ghost story","Detective story","Poem"]},
+{"q":"Mrs Dubose shows courage by","o":["Fighting her morphine addiction","Defending Tom","Saving Boo","Teaching Scout"]},
+{"q":"The child narrator makes racism seem","o":["Absurd","Normal","Quiet","Funny only"]}]}
+]

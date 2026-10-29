@@ -1,0 +1,227 @@
+[
+{"id":"m22-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen",
+"summary":"An overview of SS2 Mathematics Second Term: straight line graphs, circle geometry, trigonometry, algebraic fractions and bearings, with the list of all units.",
+"keyWords":["Straight line","Circle theorems","Trigonometry","Algebraic fractions","Bearings"],
+"sections":[
+{"h":"Welcome to Second Term","p":["This term you will use graphs and diagrams a great deal. You will study straight lines (gradient and equations), the circle and its theorems, the sine and cosine rules, algebraic fractions, bearings and the use of trigonometry to measure distances and heights.","Always draw a neat diagram before you start a problem. Mark every known length and angle on it. Most mistakes in geometry and trigonometry come from a missing or untidy sketch.","Each unit ends with practice questions that do not count for marks. They help you check that you understood the unit."]},
+{"h":"Table of contents for Second Term","p":["Week 5 is the midterm examination and Week 7 is the midterm break."],"tbl":{"head":["Unit","Week","Topic"],"rows":[["1","-","Welcome and table of contents"],["2","1","Straight line graphs: equations and intercepts"],["3","1","Gradient, parallel and perpendicular lines"],["4","1","Finding the equation of a line, tangents and applications"],["5","2","Circle geometry I: parts of a circle"],["6","2","Tangent properties"],["7","2","Angle in a semicircle and the alternate segment theorem"],["8","3","Circle geometry II: chords"],["9","3","Angle at the centre and angle at the circumference"],["10","3","Cyclic quadrilaterals"],["11","4","Circle geometry III: angles in the same segment"],["12","4","Exterior angles and combined circle problems"],["13","6","Trigonometry I: the sine rule"],["14","6","The cosine rule"],["15","6","Choosing the rule and the area of a triangle"],["16","8","Trigonometry II: Pythagoras and the trigonometric ratios"],["17","8","Angles of elevation and depression"],["18","9","Algebraic fractions: simplifying, adding and subtracting"],["19","9","Multiplying and dividing algebraic fractions"],["20","9","Equations with fractions and everyday problems"],["21","10","Further trigonometry: bearings"],["22","10","Navigation problems"],["23","10","Chords, arcs, distance and direction"],["24","11","Revision"]]}}
+],
+"activity":"Look through the table of contents and write down the topics you find easiest and those you find hardest. Plan to give extra time to the hardest ones.",
+"check":[
+{"q":"Which topic is studied in Week 10 of this term?","o":["Bearings","Circle geometry I","Straight line graphs","The sine rule"]},
+{"q":"Circle geometry is studied in Weeks","o":["2 to 4","6 to 8","9 to 10","11 only"]},
+{"q":"Before starting a geometry problem you should first","o":["draw and label a diagram","guess the answer","skip the problem","use a table of logarithms"]}
+]},
+
+{"id":"m22-02","week":1,"title":"Straight Line Graphs: Equations and Intercepts","icon":"Layers",
+"summary":"The different forms of the equation of a straight line and how to find where the line crosses the x-axis and the y-axis.",
+"keyWords":["y = mx + c","Intercept","Standard form","Point-gradient form","Intercept form"],
+"sections":[
+{"h":"Forms of the equation of a line","p":["The same straight line can be written in different ways. Choose the form that suits the information you are given."],"tbl":{"head":["Name","Form","What it tells you"],"rows":[["Gradient-intercept form","y = mx + c","m is the gradient, c is the y-intercept"],["Standard form","ax + by + c = 0","useful for rearranging and finding intercepts"],["Point-gradient form","y − y₁ = m(x − x₁)","the line has gradient m and passes through (x₁, y₁)"],["Two-point form","(y − y₁)/(y₂ − y₁) = (x − x₁)/(x₂ − x₁)","the line passes through (x₁, y₁) and (x₂, y₂)"],["Intercept form","x/a + y/b = 1","a is the x-intercept and b is the y-intercept"]]}},
+{"h":"Finding intercepts","p":["The y-intercept is where the line crosses the y-axis. At that point x = 0, so put x = 0 and solve for y. The point is (0, y).","The x-intercept is where the line crosses the x-axis. At that point y = 0, so put y = 0 and solve for x. The point is (x, 0).","Example 1. y = −2x + 6. When x = 0, y = 6, so the y-intercept is (0, 6). When y = 0, −2x + 6 = 0, so x = 3 and the x-intercept is (3, 0). Two points are enough to draw the line."]},
+{"h":"Example 2: 4x − 5y = 20","p":["Put y = 0: 4x = 20, so x = 5. The x-intercept is (5, 0). Put x = 0: −5y = 20, so y = −4. The y-intercept is (0, −4). Join these two points with a ruler to draw the line."]},
+{"h":"Example 3: from standard form to y = mx + c","p":["Find the gradient and y-intercept of 3x + 2y = 12. Make y the subject: 2y = −3x + 12, so y = −1.5x + 6. The gradient is −1.5 and the y-intercept is 6. For the x-intercept put y = 0: 3x = 12, so x = 4, giving (4, 0)."]},
+{"h":"Example 4: the intercept form","p":["If a line crosses the x-axis at 4 and the y-axis at 6, then x/4 + y/6 = 1. Multiply every term by 12: 3x + 2y = 12. This is the same line as Example 3."]},
+{"h":"Example 5: the two-point form","p":["Find the line through (1, 4) and (5, 12). (y − 4)/(12 − 4) = (x − 1)/(5 − 1). So (y − 4)/8 = (x − 1)/4. Multiply by 8: y − 4 = 2(x − 1), so y = 2x + 2. Check (5, 12): 2 × 5 + 2 = 12. Correct."]}
+],
+"activity":"Find the intercepts of 3x + 5y = 15 (x-intercept (5, 0) and y-intercept (0, 3)). Rewrite 2x − 4y = 8 in the form y = mx + c (y = 0.5x − 2) and state the gradient (0.5) and the y-intercept (−2).",
+"check":[
+{"q":"The y-intercept of y = −2x + 6 is","o":["(0, 6)","(6, 0)","(3, 0)","(0, 3)"]},
+{"q":"The x-intercept of y = −2x + 6 is","o":["(3, 0)","(0, 3)","(6, 0)","(−3, 0)"]},
+{"q":"The x-intercept of 4x − 5y = 20 is","o":["(5, 0)","(0, 5)","(0, −4)","(−5, 0)"]},
+{"q":"The gradient of 3x + 2y = 12 is","o":["−1.5","1.5","−3","6"]},
+{"q":"To find an x-intercept we put","o":["y = 0","x = 0","m = 0","c = 0"]}
+]},
+
+{"id":"m22-03","week":1,"title":"Gradient, Parallel and Perpendicular Lines","icon":"BarChart2",
+"summary":"How steep a line is, how to calculate gradient from two points, and the rules for parallel and perpendicular lines.",
+"keyWords":["Gradient","Rise and run","Parallel","Perpendicular","Horizontal","Vertical"],
+"sections":[
+{"h":"Meaning of gradient","p":["The gradient (or slope) of a line measures its steepness. It is the change in y for each 1 unit change in x.","Gradient m = rise / run = (y₂ − y₁) / (x₂ − x₁), where (x₁, y₁) and (x₂, y₂) are any two points on the line. It does not matter which point you call the first one, as long as you use the same order on top and bottom.","Example 1. A(2, 5) and B(6, 13). m = (13 − 5)/(6 − 2) = 8/4 = 2.","Example 2. A(2, 3) and B(6, 8). Rise = 5, run = 4, so m = 5/4 = 1.25."]},
+{"h":"Four kinds of gradient","p":["A positive gradient slopes upward from left to right. A negative gradient slopes downward. A horizontal line (y = a number) has gradient 0. A vertical line (x = a number) has no gradient: it is undefined because the run is 0 and we cannot divide by 0."],"img":{"src":"mth2-gradient-types.png","alt":"Four small graphs showing a line sloping up (m greater than 0), a line sloping down (m less than 0), a horizontal line (m = 0) and a vertical line (undefined gradient)","cap":"The four kinds of gradient."}},
+{"h":"Parallel lines","p":["Parallel lines never meet. They have equal gradients: m₁ = m₂. For example y = 2x + 3 and y = 2x − 1 are parallel because both have gradient 2.","Example. Find the line parallel to y = 2x − 3 through (5, 8). The gradient is 2, so y − 8 = 2(x − 5), which gives y = 2x − 2."]},
+{"h":"Perpendicular lines","p":["Two lines are perpendicular (meet at 90°) if the product of their gradients is −1: m₁ × m₂ = −1. In other words m₂ = −1/m₁. Turn the fraction upside down and change the sign.","Example 1. Gradient 2 is perpendicular to gradient −1/2, because 2 × (−1/2) = −1.","Example 2. Show that 2x + 3y = 15 and 3x − 2y = 10 are perpendicular. First line: 3y = −2x + 15, so m₁ = −2/3. Second line: −2y = −3x + 10, so y = 1.5x − 5 and m₂ = 3/2. m₁ × m₂ = (−2/3) × (3/2) = −1. They are perpendicular.","Example 3. Find the line through the origin perpendicular to 4x + 3y = 12. 3y = −4x + 12, so m₁ = −4/3. m₂ = 3/4. The line through the origin is y = (3/4)x."]}
+],
+"activity":"Find the gradient of the line through (3, 7) and (9, 19) (m = 2). Show that y = 3x + 2 and y = −(1/3)x + 5 are perpendicular (3 × (−1/3) = −1). Find the equation of the line through (0, 4) parallel to y = −x + 1 (y = −x + 4).",
+"check":[
+{"q":"The gradient of the line through (3, 7) and (9, 19) is","o":["2","1/2","3","12"]},
+{"q":"A horizontal line has gradient","o":["0","1","undefined","−1"]},
+{"q":"The gradient of a line perpendicular to y = 2x + 1 is","o":["−1/2","1/2","2","−2"]},
+{"q":"A line parallel to y = −3x + 4 has gradient","o":["−3","3","1/3","4"]},
+{"q":"A vertical line has a gradient that is","o":["undefined","zero","1","−1"]}
+]},
+
+{"id":"m22-04","week":1,"title":"Finding the Equation of a Line, Tangents and Applications","icon":"Target",
+"summary":"Using the point-gradient form to find equations, testing whether points are on one line, drawing a tangent to a curve, and using lines in real life.",
+"keyWords":["Point-gradient form","Collinear","Tangent to a curve","Break-even","Rate of change"],
+"sections":[
+{"h":"Equation from a gradient and a point","p":["Use y − y₁ = m(x − x₁).","Example 1. Gradient 3 through (2, 7). y − 7 = 3(x − 2), so y = 3x − 6 + 7 = 3x + 1.","Example 2. A line passes through (3, 2) with gradient −1. y − 2 = −1(x − 3), so y = −x + 5. It crosses the y-axis at (0, 5).","Example 3. Gradient 4 through (1, 7). y − 7 = 4(x − 1), so y = 4x + 3. The y-intercept is (0, 3). For the x-intercept put y = 0: 4x = −3, so x = −3/4."]},
+{"h":"Equation from two points","p":["First find the gradient, then use one of the points.","Example. The points (−2, 3) and (4, 15). m = (15 − 3)/(4 − (−2)) = 12/6 = 2. Then y − 3 = 2(x + 2), so y = 2x + 7. Check (4, 15): 2 × 4 + 7 = 15. Correct."]},
+{"h":"Do three points lie on one line?","p":["Points that lie on one straight line are called collinear. Find the gradient between the first two points and between the next two. If they are equal, the points are collinear.","Example. A(2, 3), B(5, 9), C(8, 15). Gradient AB = 6/3 = 2. Gradient BC = 6/3 = 2. They are equal and B is shared, so A, B and C lie on one straight line."]},
+{"h":"The tangent to a curve","p":["A tangent is a straight line that touches a curve at one point without crossing it there. Its gradient tells us how steeply the curve rises at that point.","How to draw a tangent: plot the curve carefully, mark the point, place a ruler so that it just touches the curve there, and draw the line. Then choose two points far apart on the tangent and find the gradient.","Example. The curve y = x² at P(2, 4). The tangent passes through (1, 0) and (2, 4), so its gradient is (4 − 0)/(2 − 1) = 4. Its equation is y − 4 = 4(x − 2), so y = 4x − 4. (A drawn tangent is only an estimate, but here the exact answer is 4.)"],"img":{"src":"mth2-tangent-curve.png","alt":"Graph of y = x squared with the tangent y = 4x - 4 touching the curve at the point (2, 4) and a triangle showing run 1 and rise 4","cap":"The tangent to y = x² at P(2, 4) has gradient 4."}},
+{"h":"Uses of straight line graphs","p":["Straight line graphs are used in physics (speed and distance), economics (cost and revenue), business (break-even), geography (temperature) and engineering.","Break-even example. A trader's cost is C = 2 000 + 50n naira for n items. Revenue is R = 130n naira. The break-even point is where cost equals revenue: 2 000 + 50n = 130n, so 80n = 2 000 and n = 25 items. At that point both are ₦3 250. After 25 items the trader makes a profit."]}
+],
+"activity":"Find the equation of the line through (1, 4) and (5, 12) (y = 2x + 2). Show that (0, 1), (2, 5) and (4, 9) are collinear (both gradients equal 2). Where does the line with gradient −2 through (4, 5) cross the y-axis? (y − 5 = −2(x − 4), so y = −2x + 13; at (0, 13)).",
+"check":[
+{"q":"The line with gradient 3 through (2, 7) is","o":["y = 3x + 1","y = 3x − 1","y = 3x + 7","y = 7x + 3"]},
+{"q":"The line through (−2, 3) and (4, 15) is","o":["y = 2x + 7","y = 2x + 3","y = 3x + 9","y = 2x − 7"]},
+{"q":"A(2, 3), B(5, 9), C(8, 15) are","o":["collinear","a right-angled triangle","parallel lines","not on one line"]},
+{"q":"The tangent to y = x² at (2, 4) has gradient","o":["4","2","1","8"]},
+{"q":"Cost = 2 000 + 50n and revenue = 130n. Break-even is at n =","o":["25","20","40","15"]}
+]},
+
+{"id":"m22-05","week":2,"title":"Circle Geometry I: Parts of a Circle","icon":"Target",
+"summary":"The names of the parts of a circle and the formulas for circumference, arc length and sector area.",
+"keyWords":["Centre","Radius","Diameter","Chord","Arc","Sector","Segment","Tangent","Secant"],
+"sections":[
+{"h":"Names of the parts","p":["A circle is the set of all points that are the same distance from a fixed point called the centre. See the picture and the list below."],"img":{"src":"mth2-circle-parts.png","alt":"A circle with the centre, a radius, a diameter, a chord, an arc and a tangent labelled","cap":"The parts of a circle."}},
+{"h":"Meanings","p":["Centre (O): the fixed point in the middle.","Radius: the distance from the centre to any point on the circle.","Diameter: a chord through the centre. Diameter = 2 × radius.","Circumference: the distance round the circle.","Chord: a straight line joining any two points on the circle. The diameter is the longest chord.","Arc: part of the circumference. The shorter one is the minor arc and the longer one is the major arc.","Sector: the region between two radii and an arc, like a slice of pizza.","Segment: the region between a chord and an arc.","Tangent: a line that touches the circle at exactly one point.","Secant: a line that cuts the circle at two points."]},
+{"h":"Useful formulas","p":["Circumference = 2πr. Area = πr². For an arc or sector with angle θ at the centre: arc length = (θ/360) × 2πr and sector area = (θ/360) × πr².","Example. r = 7 cm and θ = 90°, using π = 22/7. Arc length = (90/360) × 2 × (22/7) × 7 = 1/4 × 44 = 11 cm. Sector area = (1/4) × (22/7) × 49 = 38.5 cm²."]}
+],
+"activity":"Draw a circle of radius 5 cm with a pair of compasses. Mark a radius, a diameter, a chord, a minor arc and a sector, and label them. Find the circumference using π = 3.14 (31.4 cm).",
+"check":[
+{"q":"The longest chord of a circle is the","o":["diameter","radius","tangent","arc"]},
+{"q":"A line that touches a circle at one point is a","o":["tangent","secant","chord","sector"]},
+{"q":"The circumference of a circle of radius 7 cm (π = 22/7) is","o":["44 cm","22 cm","154 cm","49 cm"]},
+{"q":"The region between a chord and an arc is a","o":["segment","sector","radius","tangent"]},
+{"q":"A line that cuts a circle at two points is a","o":["secant","tangent","radius","centre"]}
+]},
+
+{"id":"m22-06","week":2,"title":"Tangent Properties","icon":"Zap",
+"summary":"A tangent is perpendicular to the radius at the point of contact, and two tangents from the same outside point are equal.",
+"keyWords":["Tangent","Point of contact","Radius","Perpendicular","Equal tangents"],
+"sections":[
+{"h":"Property 1: tangent and radius","p":["A tangent to a circle is perpendicular to the radius drawn to the point of contact. The angle between them is 90°. This is why a wheel touches the ground at one point: the radius there is vertical and the ground (the tangent) is horizontal."]},
+{"h":"Property 2: tangents from an outside point","p":["Two tangents drawn from the same outside point P to a circle are equal in length: PA = PB. Also, the line OP from the centre to P bisects (cuts in half) the angle APB and bisects the angle AOB."],"img":{"src":"mth2-tangent.png","alt":"Left: a tangent touching a circle with the radius to the point of contact at 90 degrees. Right: two tangents from point P to a circle with OP = 13 cm, PA = PB = 12 cm and radius 5 cm","cap":"A tangent is at 90° to the radius. Tangents from P are equal."}},
+{"h":"Example 1: find the radius","p":["Two tangents PA and PB are drawn from P to a circle with centre O. PA = 12 cm and OP = 13 cm. Find the radius. Since PA is a tangent, angle OAP = 90°. In the right-angled triangle OAP, by Pythagoras: OP² = OA² + PA². 13² = r² + 12². 169 = r² + 144. r² = 25, so r = 5 cm."]},
+{"h":"Example 2: find the tangent length","p":["The centre is O, the radius is 8 cm and OP = 17 cm, where P is outside the circle. The length of the tangent from P is √(17² − 8²) = √(289 − 64) = √225 = 15 cm."]},
+{"h":"Example 3: angles","p":["In the quadrilateral OAPB, angle OAP = 90° and angle OBP = 90°. The four angles add up to 360°, so angle AOB + angle APB = 360° − 180° = 180°. If angle AOB = 110°, then angle APB = 70°, and angle APO = 35° (half of 70°)."]}
+],
+"activity":"The tangent from an outside point P touches a circle of radius 6 cm at A. If OP = 10 cm, find PA (8 cm). If angle AOB = 120°, find angle APB (60°).",
+"check":[
+{"q":"The angle between a tangent and the radius at the point of contact is","o":["90°","45°","180°","60°"]},
+{"q":"Tangents drawn from the same outside point are","o":["equal in length","parallel","perpendicular","different"]},
+{"q":"OP = 13 cm and tangent PA = 12 cm. The radius is","o":["5 cm","1 cm","25 cm","7 cm"]},
+{"q":"Radius 8 cm and OP = 17 cm. The tangent length is","o":["15 cm","9 cm","25 cm","12 cm"]},
+{"q":"If angle AOB = 110° then angle APB =","o":["70°","110°","55°","35°"]}
+]},
+
+{"id":"m22-07","week":2,"title":"Angle in a Semicircle and the Alternate Segment Theorem","icon":"BarChart2",
+"summary":"Two important theorems: the angle in a semicircle is 90°, and the angle between a tangent and a chord equals the angle in the alternate segment.",
+"keyWords":["Semicircle","Diameter","Right angle","Alternate segment","Tangent and chord"],
+"sections":[
+{"h":"Angle in a semicircle","p":["Theorem: the angle subtended at the circumference by a diameter is a right angle (90°). If AC is a diameter and B is any point on the circle (not A or C), then angle ABC = 90°. This is true for every point on the circle."],"img":{"src":"mth2-semicircle.png","alt":"A circle with diameter AC and two points B and D on the circle joined to A and C, with right angle marks at B and D","cap":"Angle ABC = angle ADC = 90°."}},
+{"h":"Why is it true?","p":["Join B to the centre O. OA = OB = OC (radii). So triangles OAB and OBC are isosceles. Let angle OAB = angle OBA = α and angle OCB = angle OBC = β. In triangle ABC the angles add up to 180°: α + β + (α + β) = 180°, so α + β = 90°. But angle ABC = α + β. So angle ABC = 90°."]},
+{"h":"Example 1","p":["AB is a diameter and C is on the circle. If angle CAB = 35°, find angle ACB and angle CBA. Angle ACB = 90° (angle in a semicircle). Angle CBA = 180° − 90° − 35° = 55°."]},
+{"h":"The alternate segment theorem","p":["The angle between a tangent and a chord, drawn from the point of contact, is equal to the angle in the alternate (opposite) segment.","In the picture below, the tangent at T makes 60° with chord TA. The angle at B, in the alternate segment, is also 60°. The word alternate means on the other side of the chord."],"img":{"src":"mth2-alt-segment.png","alt":"A circle with a tangent at point T, a chord TA and a point B in the opposite segment; the angle between the tangent and the chord and the angle at B are both marked 60 degrees","cap":"The angle between the tangent and chord TA equals the angle at B."}},
+{"h":"Example 2","p":["A tangent PT touches a circle at T. A chord TA makes an angle of 40° with the tangent. Find the angle in the alternate segment. The angle is 40° (alternate segment theorem)."]},
+{"h":"Example 3: a triangle in a circle","p":["A triangle ABC is drawn in a circle. The tangent at A makes an angle of 48° with AB and an angle of 62° with AC (on the other side). Angle ACB = 48° (alternate segment to AB) and angle ABC = 62° (alternate segment to AC). So angle BAC = 180° − 48° − 62° = 70°. Check along the tangent line: 48° + 70° + 62° = 180°. Correct."]}
+],
+"activity":"AB is a diameter and C lies on the circle. If angle ABC = 28°, find angle BAC (62°). A tangent at T makes 55° with chord TA. State the angle in the alternate segment (55°).",
+"check":[
+{"q":"The angle in a semicircle is","o":["90°","180°","45°","60°"]},
+{"q":"AB is a diameter and angle CAB = 35°. Angle CBA =","o":["55°","35°","90°","65°"]},
+{"q":"The angle between a tangent and a chord equals the angle in the","o":["alternate segment","same segment","centre","major arc only"]},
+{"q":"A tangent makes 40° with a chord. The angle in the alternate segment is","o":["40°","50°","80°","140°"]},
+{"q":"A triangle with its longest side as a diameter and its third vertex on the circle is","o":["right-angled","equilateral","obtuse","isosceles"]}
+]},
+
+{"id":"m22-08","week":3,"title":"Circle Geometry II: Chords","icon":"Layers",
+"summary":"The perpendicular from the centre bisects a chord, equal chords are the same distance from the centre, and chords that cross inside a circle.",
+"keyWords":["Chord","Bisect","Equidistant","Intersecting chords","Pythagoras"],
+"sections":[
+{"h":"Properties of chords","p":["1. The perpendicular from the centre of a circle to a chord bisects the chord.","2. Equal chords are the same distance from the centre (equidistant).","3. Equal chords subtend equal angles at the centre.","4. The converse is also true: chords the same distance from the centre are equal in length."]},
+{"h":"Example 1: finding the radius","p":["A chord AB of length 16 cm is 6 cm from the centre O. Find the radius. M is the midpoint of AB, so AM = 8 cm. In the right-angled triangle OMA: r² = 6² + 8² = 36 + 64 = 100, so r = 10 cm."],"img":{"src":"mth2-chord.png","alt":"A circle with a chord AB of 16 cm, a perpendicular OM of 6 cm from the centre to the chord, and radius OA","cap":"Right-angled triangle OMA: r² = 6² + 8²."}},
+{"h":"Example 2: a chord 5 cm from the centre","p":["A chord of length 24 cm is 5 cm from the centre. Half the chord = 12 cm. r² = 5² + 12² = 25 + 144 = 169, so r = 13 cm."]},
+{"h":"Example 3: finding the chord","p":["The radius is 10 cm and the chord is 6 cm from the centre. Half the chord = √(10² − 6²) = √64 = 8 cm. The chord is 16 cm long. The angle at the centre: sin(½ angle) = 8/10 = 0.8, so ½ angle = 53.13° and the angle at the centre is 106.26°, about 106.3°."]},
+{"h":"Example 4: equal chords","p":["Two equal chords of length 12 cm are 8 cm apart, on opposite sides of the centre. Each is 4 cm from the centre (equal chords are equidistant). Radius² = 4² + 6² = 16 + 36 = 52, so r = √52 ≈ 7.21 cm."]},
+{"h":"Intersecting chords","p":["If two chords AB and CD cross at a point E inside a circle, then AE × EB = CE × ED. Example: AE = 3 cm, EB = 4 cm and CE = 2 cm. 3 × 4 = 2 × ED, so ED = 6 cm."]}
+],
+"activity":"A chord of length 10 cm is 12 cm from the centre of a circle. Find the radius (half the chord is 5 cm, so r = √(5² + 12²) = 13 cm). Then find the length of a chord that is 4 cm from the centre of a circle of radius 5 cm (6 cm).",
+"check":[
+{"q":"A chord of 16 cm is 6 cm from the centre. The radius is","o":["10 cm","8 cm","14 cm","12 cm"]},
+{"q":"A chord of 24 cm is 5 cm from the centre. The radius is","o":["13 cm","12 cm","17 cm","19 cm"]},
+{"q":"Equal chords are","o":["equidistant from the centre","parallel","perpendicular","tangents"]},
+{"q":"A chord is 4 cm from the centre of a circle of radius 5 cm. Its length is","o":["6 cm","3 cm","9 cm","8 cm"]},
+{"q":"If AE = 3, EB = 4 and CE = 2 for crossing chords, ED =","o":["6","8","1.5","12"]}
+]},
+
+{"id":"m22-09","week":3,"title":"Angle at the Centre and Angle at the Circumference","icon":"Zap",
+"summary":"The angle subtended at the centre by an arc is twice the angle subtended at the circumference by the same arc.",
+"keyWords":["Angle at the centre","Angle at the circumference","Arc","Subtend","Isosceles triangle"],
+"sections":[
+{"h":"The theorem","p":["The angle subtended by an arc at the centre of a circle is twice the angle subtended by the same arc at any point on the remaining part of the circumference.","In the figure the arc AB subtends 140° at the centre O and 70° at the point P on the circumference. We write: angle AOB = 2 × angle APB."],"img":{"src":"mth2-centre-angle.png","alt":"A circle with centre O; lines from A and B to O show 140 degrees, and lines from A and B to point P on the circle show 70 degrees","cap":"140° at the centre and 70° at P."}},
+{"h":"Example 1","p":["An arc AB subtends an angle of 140° at the centre. Find the angle it subtends at a point P on the major arc. Angle at circumference = 140° ÷ 2 = 70°."]},
+{"h":"Example 2","p":["An arc subtends 120° at the centre. At the circumference it subtends 60°. An angle of 80° at the circumference means 160° at the centre."]},
+{"h":"Example 3: using the isosceles triangle","p":["The angle at the centre is 100°. Find the angles of triangle OAB. OA = OB (radii), so the triangle is isosceles. The base angles are (180° − 100°)/2 = 40° each. The angle at the circumference on the major arc is 50°."]},
+{"h":"A special case","p":["If the arc is a semicircle, the angle at the centre is 180° (a straight line, the diameter). So the angle at the circumference is 90°. This is the angle in a semicircle theorem."]}
+],
+"activity":"An arc subtends 80° at the circumference. What angle does it subtend at the centre (160°)? The angle at the centre is 70°. Find angle OAB in the isosceles triangle OAB (55°).",
+"check":[
+{"q":"An arc subtends 140° at the centre. At the circumference the angle is","o":["70°","280°","140°","35°"]},
+{"q":"An angle of 80° at the circumference means an angle at the centre of","o":["160°","40°","80°","100°"]},
+{"q":"The angle at the centre is 100°. The base angle of triangle OAB is","o":["40°","50°","100°","80°"]},
+{"q":"An arc subtends 120° at the centre. At the circumference it subtends","o":["60°","240°","120°","30°"]},
+{"q":"When the arc is a semicircle, the angle at the circumference is","o":["90°","180°","45°","360°"]}
+]},
+
+{"id":"m22-10","week":3,"title":"Cyclic Quadrilaterals","icon":"Target",
+"summary":"A cyclic quadrilateral has all four corners on a circle. Its opposite angles add up to 180°.",
+"keyWords":["Cyclic quadrilateral","Opposite angles","Supplementary","Exterior angle"],
+"sections":[
+{"h":"What is a cyclic quadrilateral?","p":["A cyclic quadrilateral is a four-sided figure whose four vertices all lie on a circle."]},
+{"h":"The two key properties","p":["1. Opposite angles are supplementary: they add up to 180°.","2. An exterior angle (made by extending one side) equals the interior opposite angle."],"img":{"src":"mth2-cyclic.png","alt":"A quadrilateral ABCD inside a circle with angles 100, 85, 80 and 95 degrees, and side BC extended to E with the exterior angle at C equal to 100 degrees","cap":"A + C = 180° and B + D = 180°. The exterior angle at C equals angle A."}},
+{"h":"Why? A short proof","p":["The angle at the centre standing on arc BCD is double the angle at A, and the angle at the centre standing on arc BAD is double the angle at C. The two angles at the centre together make 360°, so 2A + 2C = 360° and A + C = 180°."]},
+{"h":"Example 1","p":["PQRS is cyclic with angle P = 75° and angle Q = 85°. Then angle R = 180° − 75° = 105° (opposite to P) and angle S = 180° − 85° = 95° (opposite to Q)."]},
+{"h":"Example 2: using algebra","p":["ABCD is cyclic with angle BAD = 3x and angle BCD = 2x + 20°. These are opposite angles: 3x + 2x + 20 = 180, so 5x = 160 and x = 32°. Angle BAD = 96° and angle BCD = 84°."]},
+{"h":"Example 3","p":["In a cyclic quadrilateral ABCD, angle A = 2x + 15° and angle C = 3x − 10°. 5x + 5 = 180, so x = 35°. A = 85° and C = 95°. If angle B = 90°, then angle D = 90°."]},
+{"h":"A note on one question","p":["Some textbooks ask: PQRS is cyclic, angle P = 110° and angle R = 70°; find Q and S. We cannot find them separately. P and R are opposite, so they always add to 180° and tell us nothing more. We can only say Q + S = 180°. Always check that the question gives enough information."]}
+],
+"activity":"ABCD is a cyclic quadrilateral with angle A = 100° and angle B = 85°. Find angle C (80°) and angle D (95°). The exterior angle at C (made by extending BC) equals what angle? (angle A = 100°).",
+"check":[
+{"q":"Opposite angles of a cyclic quadrilateral add up to","o":["180°","360°","90°","270°"]},
+{"q":"In a cyclic quadrilateral, angle A = 100°. Angle C =","o":["80°","100°","260°","90°"]},
+{"q":"3x + (2x + 20) = 180 gives x =","o":["32","36","40","28"]},
+{"q":"The exterior angle of a cyclic quadrilateral equals the","o":["interior opposite angle","adjacent interior angle","angle at the centre","sum of the other angles"]},
+{"q":"If angle B = 90° in a cyclic quadrilateral ABCD, then angle D =","o":["90°","180°","45°","270°"]}
+]},
+
+{"id":"m22-11","week":4,"title":"Circle Geometry III: Angles in the Same Segment","icon":"BarChart2",
+"summary":"Angles standing on the same chord and on the same side of it are equal; angles on opposite sides add up to 180°.",
+"keyWords":["Same segment","Subtended","Major segment","Minor segment","Proof"],
+"sections":[
+{"h":"The theorem","p":["Angles in the same segment of a circle are equal. This means that angles subtended by the same chord (or arc) at different points on the same side of the chord are equal.","In the figure the chord AB subtends the angles at P, Q and R, which are all on the same arc. Each angle is 40°."],"img":{"src":"mth2-same-segment.png","alt":"A circle with chord AB and three points P, Q and R on the upper arc, each joined to A and B, with each angle marked 40 degrees","cap":"Angles APB, AQB and ARB are equal."}},
+{"h":"Why?","p":["The angle at the centre standing on chord AB is 80°. Each angle at the circumference on the same arc is half of that angle, which is 40°. So they are all equal."]},
+{"h":"Opposite segments","p":["Angles in opposite segments (one on each side of the chord) add up to 180°. For example, if the angle in the major segment is 65°, the angle in the minor segment is 180° − 65° = 115°. This is the same as the cyclic quadrilateral rule."]},
+{"h":"Example 1","p":["The angle APB = 50°, where P is on the major arc. Then the angle AQB = 50° for any other point Q on the major arc. The angle at the centre AOB = 100°."]},
+{"h":"Example 2: crossing chords","p":["Chords AC and BD of a circle cross at X. Angle CAB = 35°. Angle CAB and angle CDB both stand on chord CB and are on the same side of it, so angle CDB = 35°."]},
+{"h":"Example 3: finding unknown angles","p":["ABCD is a cyclic quadrilateral. Its diagonals AC and BD cross at X. Angle ABD = 42° and angle BAC = 70°. Angle ACD = 42° (angles ABD and ACD both stand on chord AD and are on the same side of it). In triangle ABX, angle AXB = 180° − 42° − 70° = 68°."]}
+],
+"activity":"Chord AB subtends 35° at P and at Q, both on the major arc. What angle does it subtend at the centre (70°)? What angle does it subtend at a point on the minor arc (145°)?",
+"check":[
+{"q":"Angles in the same segment are","o":["equal","supplementary","complementary","always 90°"]},
+{"q":"If the angle in the major segment is 65°, the angle in the minor segment is","o":["115°","65°","25°","90°"]},
+{"q":"A chord subtends 35° at the circumference. At the centre it subtends","o":["70°","35°","17.5°","145°"]},
+{"q":"Angles standing on the same chord and on the same side of it are","o":["equal","adding to 180°","right angles","impossible to compare"]},
+{"q":"In Example 2, angle CDB =","o":["35°","70°","55°","145°"]}
+]},
+
+{"id":"m22-12","week":4,"title":"Exterior Angles and Combined Circle Problems","icon":"Target",
+"summary":"A summary of all the circle theorems and how to use several of them together in one problem.",
+"keyWords":["Circle theorems","Strategy","Exterior angle","Combined problems"],
+"sections":[
+{"h":"Summary of the circle theorems","p":["Keep this list beside you when you solve circle problems."],"tbl":{"head":["Theorem","Statement"],"rows":[["Tangent and radius","A tangent is perpendicular to the radius at the point of contact"],["Equal tangents","Tangents from an outside point are equal"],["Semicircle","The angle in a semicircle is 90°"],["Alternate segment","The angle between a tangent and a chord = the angle in the alternate segment"],["Chord","A perpendicular from the centre bisects the chord"],["Centre and circumference","The angle at the centre = 2 × the angle at the circumference"],["Same segment","Angles in the same segment are equal"],["Cyclic quadrilateral","Opposite angles add up to 180°; the exterior angle = the interior opposite angle"]]}},
+{"h":"A strategy for combined problems","p":["1. Draw the diagram larger and write all the given angles on it.","2. Mark any radii, because they give isosceles triangles, and any diameters, because they give right angles.","3. Look for the theorem that matches what you see. Say the reason for each step in brackets.","4. Use the angle facts you know: angles on a straight line = 180°, angles in a triangle = 180°, angles at a point = 360°.","5. Check that your answer is sensible."]},
+{"h":"Example 1","p":["ABCD is a cyclic quadrilateral with angle ABC = 75° and angle BCD = 110°. (a) Angle ADC = 180° − 75° = 105° (opposite angles). (b) Angle DAB = 180° − 110° = 70° (opposite angles). (c) AB is extended to E. The exterior angle CBE = angle ADC = 105° (exterior angle equals interior opposite angle)."]},
+{"h":"Example 2","p":["AB is a diameter of a circle and C is a point on the circle. Angle CAB = 28°. The tangent at C meets the line AB extended at T. Angle ACB = 90° (angle in a semicircle). Angle ABC = 180° − 90° − 28° = 62°. The angle between the tangent and chord CB is equal to the angle in the alternate segment: 28°. The angle between the tangent and chord CA is 62°. At C: 62° + 90° + 28° = 180° (angles on a straight line). Correct."]},
+{"h":"Example 3","p":["O is the centre and angle AOB = 100°. P is on the major arc and Q is on the minor arc. Angle APB = 50° (half of the angle at the centre). Angle AQB = 180° − 50° = 130° (opposite angles of cyclic quadrilateral APBQ)."]}
+],
+"activity":"ABCD is cyclic and angle ADC = 112°. Find angle ABC (68°). AB is a diameter and angle ABC = 40°. Find angle BAC (50°).",
+"check":[
+{"q":"ABCD is cyclic with angle ADC = 112°. Angle ABC =","o":["68°","112°","56°","90°"]},
+{"q":"AB is a diameter and angle ABC = 40°. Angle BAC =","o":["50°","40°","90°","140°"]},
+{"q":"Angle at the centre 100° gives an angle on the major arc of","o":["50°","100°","200°","130°"]},
+{"q":"Angle AQB on the minor arc when angle APB = 50° on the major arc is","o":["130°","50°","100°","40°"]},
+{"q":"A radius drawn in a circle problem usually helps because it gives","o":["an isosceles triangle","a straight line","a parallel line","an exterior angle"]}
+]}
+]

@@ -1,0 +1,181 @@
+[
+{"id":"fm1-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Further Mathematics First Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Sets","Indices","Logarithms","Functions","Sequences"],
+"sections":[
+{"h":"Welcome to Further Mathematics","p":["Further Mathematics goes deeper than ordinary Mathematics. It trains you to reason carefully and to solve problems in many steps, and it prepares you for science, engineering, economics, computing and university mathematics. In First Term you will study sets, indices and logarithms, surds, inequalities, binary operations, functions, and sequences and series.","Work with a pencil and a notebook. Copy every worked example and cover the solution, then try it yourself. At the end of each unit are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for First Term","p":["The units follow the scheme of work. Week 5 is the midterm examination and Week 7 is the midterm break."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Sets (1): meaning, notation, types, subsets and power sets"],
+["3","2","Sets (2): set operations and two-set Venn diagrams"],
+["4","2","Sets (3): three-set problems and De Morgan's laws"],
+["5","3","Indices"],
+["6","3","Logarithms"],
+["7","4","Surds"],
+["8","6","Linear inequalities in one variable"],
+["9","6","Linear inequalities in two variables"],
+["10","8","Binary operations"],
+["11","9","Functions: definition and types of mapping"],
+["12","9","Composite and inverse functions"],
+["13","10","Arithmetic progression"],
+["14","10","Geometric and harmonic progressions"]]}},
+{"h":"How to succeed","p":["Learn the laws and formulas by heart, but also understand why they work. Always show every step. Check an answer by substituting it back, and after each topic make your own short summary page of formulas."]}
+],
+"activity":"Look at the topics. Which two do you already know something about? Write one thing you know about each.",
+"check":[
+{"q":"In which unit do you study logarithms?","o":["Unit 6","Unit 2","Unit 10","Unit 14"]},
+{"q":"Which unit covers sequences and series?","o":["Unit 13","Unit 4","Unit 8","Unit 11"]},
+{"q":"What should you do with each worked example?","o":["Cover the solution and try it yourself","Skip it","Only read the answer","Copy a friend's"]},
+{"q":"In which unit do you study surds?","o":["Unit 7","Unit 3","Unit 9","Unit 12"]}]},
+
+{"id":"fm1-02","week":1,"title":"Sets (1): Meaning, Notation, Types, Subsets and Power Sets","icon":"Layers","summary":"What a set is, how to write sets, the types of set, the universal set, subsets and the power set, with worked examples.",
+"keyWords":["Set","Element","Subset","Universal set","Power set"],
+"sections":[
+{"h":"What is a set?","p":["A set is a well-defined collection of distinct objects, called elements or members. 'Well-defined' means we can say for certain whether something belongs to the set or not. 'Distinct' means no repetition.","Well-defined: A = {the months of the year}. Not well-defined: B = {beautiful flowers}, because 'beautiful' is a matter of opinion. Sets are everywhere: the students in a class, the natural numbers, the letters of the alphabet."]},
+{"h":"Set notation","p":["Roster (listing) method: write the elements inside curly brackets. A = {2, 4, 6, 8, 10}.","Set-builder notation: describe the property. A = {x : x is an even number, 0 < x ≤ 10}. Read: 'A is the set of all x such that x is an even number from 1 to 10'. (The vertical bar | is often used instead of the colon.)"],
+"tbl":{"head":["Symbol","Meaning","Example"],"rows":[
+["∈","is an element of","4 ∈ {1, 2, 3, 4, 5}"],
+["∉","is not an element of","7 ∉ {1, 2, 3, 4, 5}"],
+["⊂","is a proper subset of","A ⊂ B"],
+["⊆","is a subset of (may be equal)","A ⊆ A"],
+["∅ or { }","the empty (null) set","∅ ⊂ A"],
+["U (or ξ)","universal set","all the elements under discussion"],
+["n(A)","number of elements of A","n({a, b, c}) = 3"]]}},
+{"h":"Types of set","p":["Null (empty) set ∅: has no elements, such as the set of humans who can fly unaided. Singleton set: has exactly one element. Finite set: the elements can be counted to an end, such as {1, 2, 3, 4, 5}. Infinite set: the elements never end, such as {1, 2, 3, ...}. Equal sets: exactly the same elements, {1, 2, 3} = {3, 1, 2} (order does not matter). Equivalent sets: the same number of elements, such as {a, b, c} and {1, 2, 3}."]},
+{"h":"Universal set and subsets","p":["The universal set U is the set of all objects being discussed. It depends on the problem. If U = {1, 2, ..., 10} and A = {2, 4, 6, 8, 10}, then A is a subset of U.","If every element of A is also in B, then A is a subset of B, written A ⊆ B. A proper subset is a subset that is not equal to the whole set. Every set is a subset of itself, and the empty set is a subset of every set. Example: A = {1, 2}, B = {1, 2, 3, 4}, so A ⊂ B. (The source notes call ∅ an 'improper' subset. In fact, the only improper subset of A is A itself; ∅ is a proper subset of any non-empty set.)"]},
+{"h":"Power set","p":["The power set P(A) is the set of all subsets of A. If A has n elements, it has 2ⁿ subsets, so n(P(A)) = 2ⁿ, and it has 2ⁿ − 1 proper subsets.","Example: A = {a, b}. Subsets: ∅, {a}, {b}, {a, b}. So P(A) = {∅, {a}, {b}, {a, b}} and n(P(A)) = 4."]},
+{"h":"Worked examples","p":["Example 1. V = {a, e, i, o, u}. (a) Set-builder: V = {x : x is a vowel in the English alphabet}. (b) Finite. (c) n(V) = 5. (d) a ∈ V is true. (e) b ∉ V.","Example 2. C = {red, green}. Subsets: ∅, {red}, {green}, {red, green}; n(P(C)) = 4.","Example 3. A set X has 63 proper subsets. How many elements? 2ⁿ − 1 = 63, so 2ⁿ = 64 and n = 6.","Example 4. List the elements of P = {x : x is prime and 10 < x < 25}. P = {11, 13, 17, 19, 23}."]}
+],
+"activity":"Given S = {a, b, c, d, e}, list all the subsets with exactly 3 elements. How many are there? (There are 10: abc, abd, abe, acd, ace, ade, bcd, bce, bde, cde.)",
+"check":[
+{"q":"If n(A) = 4, the number of subsets of A is","o":["16","8","4","15"]},
+{"q":"Which set is NOT well-defined?","o":["Interesting subjects in SS1","Rivers in Nigeria","Months of the year","Vowels"]},
+{"q":"The number of proper subsets of a set with 3 elements is","o":["7","8","6","3"]},
+{"q":"{1, 2, 3} and {3, 1, 2} are","o":["Equal sets","Different sets","Empty sets","Infinite sets"]},
+{"q":"The symbol ∈ means","o":["Is an element of","Is a subset of","Union","Intersection"]}]},
+
+{"id":"fm1-03","week":2,"title":"Sets (2): Set Operations and Two-Set Venn Diagrams","icon":"Layers","summary":"Union, intersection, complement and difference of sets, the inclusion-exclusion rule, and how to solve two-set problems with a Venn diagram.",
+"keyWords":["Union","Intersection","Complement","Difference","Venn diagram"],
+"sections":[
+{"h":"Set operations","p":["Study the table. Suppose U = {1, 2, 3, 4, 5}, A = {1, 2, 3} and B = {3, 4, 5}."],
+"tbl":{"head":["Operation","Symbol","Meaning","Example"],"rows":[
+["Union","A ∪ B","Elements in A or B or both","{1, 2, 3, 4, 5}"],
+["Intersection","A ∩ B","Elements common to both","{3}"],
+["Complement","A′","Elements in U but not in A","{4, 5}"],
+["Difference","A \\ B","Elements in A but not in B","{1, 2}"]]}},
+{"h":"Venn diagrams","p":["A Venn diagram (invented by John Venn about 1880) shows sets as pictures. The rectangle is the universal set U. Circles are subsets. Where circles overlap we have the intersection. To make a Venn diagram of two sets A and B, draw two overlapping circles inside a rectangle. There are four regions: A only, A ∩ B, B only and outside both circles."]},
+{"h":"The inclusion-exclusion rule","p":["For two sets: n(A ∪ B) = n(A) + n(B) − n(A ∩ B). We subtract the intersection because it was counted twice.","Also: n(A only) = n(A) − n(A ∩ B), and n(outside) = n(U) − n(A ∪ B)."]},
+{"h":"Worked example","p":["In a class of 35 students, 20 offer Physics (P), 17 offer History (H) and 5 offer neither. Find (a) how many offer both, (b) how many offer History only.","n(P ∪ H) = 35 − 5 = 30. Using n(P ∪ H) = n(P) + n(H) − n(P ∩ H): 30 = 20 + 17 − n(P ∩ H), so n(P ∩ H) = 7. (a) Both = 7. (b) History only = 17 − 7 = 10. Physics only = 20 − 7 = 13. Check: 13 + 7 + 10 + 5 = 35."]},
+{"h":"More practice","p":["If U = {1, 2, ..., 10}, A = {1, 3, 5, 7, 9} and B = {2, 3, 5, 7}: A ∪ B = {1, 2, 3, 5, 7, 9}; A ∩ B = {3, 5, 7}; A′ = {2, 4, 6, 8, 10}; B \\ A = {2}.","If n(A \\ B) = 15, n(B \\ A) = 10 and n(A ∩ B) = 5, then n(A ∪ B) = 15 + 10 + 5 = 30. If 15 play football and 12 play basketball, and 5 play both, and every student plays at least one, the class has 15 + 12 − 5 = 22 students."]}
+],
+"activity":"In a group of 50 people, 30 speak English, 25 speak French and 10 speak neither. Draw a Venn diagram. Find how many speak both and how many speak English only. (Both = 15; English only = 15.)",
+"check":[
+{"q":"n(A ∪ B) equals","o":["n(A) + n(B) − n(A ∩ B)","n(A) + n(B) + n(A ∩ B)","n(A) × n(B)","n(A) − n(B)"]},
+{"q":"A′ means the elements","o":["In U but not in A","In A only","In A and B","In neither U nor A"]},
+{"q":"In the class of 35, 20 offer Physics, 17 History, 5 neither. How many offer both?","o":["7","3","10","12"]},
+{"q":"A \\ B is","o":["Elements in A but not B","Elements in B but not A","Elements in both","All elements"]},
+{"q":"If n(A) = 10, n(B) = 8, n(A ∩ B) = 3, then n(A ∪ B) =","o":["15","18","21","11"]}]},
+
+{"id":"fm1-04","week":2,"title":"Sets (3): Three-Set Problems and De Morgan's Laws","icon":"Target","summary":"The inclusion-exclusion rule for three sets, filling a three-circle Venn diagram from the middle outward, and De Morgan's laws.",
+"keyWords":["Three-set Venn diagram","Inclusion-exclusion","De Morgan's laws","Complement","Regions"],
+"sections":[
+{"h":"Three-set diagram","p":["A three-set Venn diagram has eight regions: A ∩ B ∩ C in the centre; three regions where exactly two sets overlap; three regions of 'only' one set; and the region outside all the circles."],
+"img":{"src":"fm-venn3.png","alt":"A three-circle Venn diagram of sets F, C and P with all eight region values filled in: F only 20, C only 12, P only 20, F and C only 8, F and P only 5, C and P only 3, all three 7, none 25","cap":"The three-set Venn diagram for the worked example."}},
+{"h":"The rule for three sets","p":["n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A ∩ B) − n(A ∩ C) − n(B ∩ C) + n(A ∩ B ∩ C)."]},
+{"h":"Worked example","p":["Of 100 people, 40 belong to club F, 30 to club C and 35 to club P. The overlaps: n(F ∩ C) = 15, n(F ∩ P) = 12, n(C ∩ P) = 10 and n(F ∩ C ∩ P) = 7.","Always start from the middle. Region F ∩ C ∩ P = 7. F ∩ C only = 15 − 7 = 8. F ∩ P only = 12 − 7 = 5. C ∩ P only = 10 − 7 = 3. F only = 40 − (8 + 5 + 7) = 20. C only = 30 − (8 + 3 + 7) = 12. P only = 35 − (5 + 3 + 7) = 20. Total inside the circles = 20 + 12 + 20 + 8 + 5 + 3 + 7 = 75. So 100 − 75 = 25 are in none."]},
+{"h":"De Morgan's laws","p":["For any sets A and B: (A ∪ B)′ = A′ ∩ B′ and (A ∩ B)′ = A′ ∪ B′. In words: 'the complement of the union is the intersection of the complements', and 'the complement of the intersection is the union of the complements'.","Check with U = {a, b, c, d, e, f, g, h}, X = {a, b, d, e} and Y = {b, e, f, g}. X ∪ Y = {a, b, d, e, f, g}, so (X ∪ Y)′ = {c, h}. X′ = {c, f, g, h} and Y′ = {a, c, d, h}, so X′ ∩ Y′ = {c, h}. They agree. Also X′ ∩ Y = {f, g}."]},
+{"h":"Another example","p":["A survey of 60 fans: 28 watch football, 22 basketball, 25 cricket; 10 watch football and basketball, 8 watch football and cricket, 7 watch basketball and cricket; 3 watch all three. Centre = 3. F ∩ B only = 7; F ∩ C only = 5; B ∩ C only = 4. F only = 28 − (7 + 5 + 3) = 13. B only = 22 − (7 + 4 + 3) = 8. C only = 25 − (5 + 4 + 3) = 13. Exactly two sports: 7 + 5 + 4 = 16. Inside the circles: 13 + 8 + 13 + 7 + 5 + 4 + 3 = 53, so 60 − 53 = 7 watch none."]}
+],
+"activity":"State De Morgan's laws. Verify (X ∩ Y)′ = X′ ∪ Y′ for the sets X and Y above. (X ∩ Y = {b, e}; its complement is {a, c, d, f, g, h}. X′ ∪ Y′ = {c, f, g, h} ∪ {a, c, d, h} = {a, c, d, f, g, h}.)",
+"check":[
+{"q":"(A ∪ B)′ equals","o":["A′ ∩ B′","A′ ∪ B′","A ∩ B","A \\ B"]},
+{"q":"In a three-set problem, you should start filling the diagram from","o":["The centre (all three)","Outside the circles","The largest circle","Any region"]},
+{"q":"If n(F ∩ C) = 15 and n(F ∩ C ∩ P) = 7, then F ∩ C only is","o":["8","22","15","7"]},
+{"q":"The three-set diagram has how many regions (including outside)?","o":["8","6","7","9"]},
+{"q":"(A ∩ B)′ equals","o":["A′ ∪ B′","A′ ∩ B′","A ∪ B","A ∩ B"]}]},
+
+{"id":"fm1-05","week":3,"title":"Indices","icon":"Zap","summary":"The meaning of an index (power) and the laws of indices, zero, negative and fractional indices, worked examples and indicial equations.",
+"keyWords":["Index","Base","Laws of indices","Negative index","Fractional index"],
+"sections":[
+{"h":"Meaning","p":["Indices (powers) show repeated multiplication. a⁵ = a × a × a × a × a. Here a is the base and 5 is the index (exponent), the number of times the base is multiplied by itself. Example: 2⁵ = 32."]},
+{"h":"The laws of indices","p":["For any positive base a and any numbers m and n:"],
+"tbl":{"head":["Law","Form","Example"],"rows":[
+["Multiplication","aᵐ × aⁿ = aᵐ⁺ⁿ","2³ × 2⁴ = 2⁷ = 128"],
+["Division","aᵐ ÷ aⁿ = aᵐ⁻ⁿ","5⁶ ÷ 5² = 5⁴ = 625"],
+["Power of a power","(aᵐ)ⁿ = aᵐⁿ","(3²)⁴ = 3⁸ = 6561"],
+["Zero index","a⁰ = 1","7⁰ = 1"],
+["Negative index","a⁻ⁿ = 1/aⁿ","2⁻³ = 1/8"],
+["Fractional index","a^(1/n) = ⁿ√a","8^(1/3) = ∛8 = 2"],
+["Mixed fractional","a^(m/n) = (ⁿ√a)ᵐ","27^(2/3) = (∛27)² = 9"]]}},
+{"h":"Worked examples","p":["Example 1. Simplify (16/81)^(−3/4). A negative index inverts the fraction: (81/16)^(3/4). Now the fourth root of 81 is 3 and of 16 is 2, so we get (3/2)³ = 27/8.","Example 2. Evaluate 8^(2/3) × 2⁻². 8^(2/3) = (∛8)² = 4. 2⁻² = 1/4. The product is 1.","Example 3. Simplify (x^(1/2) y²)^(1/3) ÷ (x^(−1/3) y)^(1/2). First part: x^(1/6) y^(2/3). Second part: x^(−1/6) y^(1/2). Dividing: x^(1/6 + 1/6) y^(2/3 − 1/2) = x^(1/3) y^(1/6)."]},
+{"h":"Indicial equations","p":["An indicial equation has the unknown in the index. Method: write both sides with the same base, then equate the indices.","Example 4. Solve 3^(x) = 81. 81 = 3⁴ so x = 4. Example 5. Solve (1/4)^x = 32. Write both as powers of 2: (2⁻²)^x = 2⁵, so −2x = 5 and x = −5/2.","Example 6 (quadratic form). Solve 4^x − 6(2^x) + 8 = 0. Let y = 2^x. Then 4^x = (2²)^x = (2^x)² = y². So y² − 6y + 8 = 0, which factorises as (y − 2)(y − 4) = 0, so y = 2 or y = 4. Then 2^x = 2 gives x = 1, and 2^x = 4 gives x = 2. Answer: x = 1 or x = 2.","Example 7. Solve 5^(2k) + 2(5^k) − 3 = 0. Let y = 5^k: y² + 2y − 3 = 0, (y + 3)(y − 1) = 0. y = −3 is impossible (5^k is always positive). So 5^k = 1 and k = 0."]},
+{"h":"Exponential growth and decay","p":["The graph of y = 2^x rises faster and faster as x increases (exponential growth). The graph of y = (1/2)^x falls towards zero (exponential decay). Both pass through (0, 1) because any number to the power 0 is 1."],
+"img":{"src":"fm-exponential.png","alt":"Graphs of y = 2 to the power x rising steeply and y = one half to the power x falling, both passing through the point (0, 1)","cap":"Exponential growth (y = 2ˣ) and decay (y = (½)ˣ)."}}
+],
+"activity":"Simplify ((125)^(1/3) × (27)^(2/3)) ÷ ((64)^(−1/3) × (81)^(1/4)). Solve 3^(2x) − 10(3^x) + 9 = 0. (Answers: 5 × 9 = 45 over (1/4 × 3 = 3/4), giving 60; x = 0 or x = 2.)",
+"check":[
+{"q":"2³ × 2⁴ equals","o":["2⁷","2¹²","4⁷","2¹"]},
+{"q":"a⁰ equals","o":["1","0","a","Undefined"]},
+{"q":"2⁻³ equals","o":["1/8","−8","−6","8"]},
+{"q":"27^(2/3) equals","o":["9","18","3","81"]},
+{"q":"If 2^x = 32, then x =","o":["5","16","4","6"]}]},
+
+{"id":"fm1-06","week":3,"title":"Logarithms","icon":"BarChart2","summary":"The meaning of a logarithm, the laws of logarithms, change of base, and solving logarithmic equations.",
+"keyWords":["Logarithm","Base","Product law","Change of base","Logarithmic equation"],
+"sections":[
+{"h":"Definition","p":["Logarithms do the opposite of indices. If aˣ = N, then log_a N = x, read 'the logarithm of N to base a equals x'. It tells us the power to which the base must be raised to give N.","Examples: 10³ = 1000, so log₁₀ 1000 = 3. 2⁵ = 32, so log₂ 32 = 5. Because log₁₀ 100 = 2, we say 'the log of 100 to base 10 is 2'. Indices and logarithms are two ways of writing the same fact: aˣ = N ⇔ log_a N = x."]},
+{"h":"Laws of logarithms","p":["Study the table. M and N must be positive."],
+"tbl":{"head":["Law","Form","Example"],"rows":[
+["Product","log_a(MN) = log_a M + log_a N","log₁₀(5 × 4) = log₁₀ 5 + log₁₀ 4"],
+["Quotient","log_a(M/N) = log_a M − log_a N","log₁₀(50/2) = log₁₀ 50 − log₁₀ 2"],
+["Power","log_a(Mᵖ) = p log_a M","log₁₀ 8² = 2 log₁₀ 8"],
+["Base","log_a a = 1","log₃ 3 = 1"],
+["One","log_a 1 = 0","log₇ 1 = 0"]]}},
+{"h":"Change of base","p":["log_a b = log_c b ÷ log_c a (usually c = 10 or e). A useful corollary: log_a b = 1 ÷ log_b a.","Example. Given log₃ 2 = 0.631, find log₂ 9. log₂ 9 = log₃ 9 ÷ log₃ 2 = 2 ÷ 0.631 = 3.17."]},
+{"h":"Worked examples","p":["Example 1. Evaluate log₂ 8 + log₃ 9 − log₅ 1. = 3 + 2 − 0 = 5.","Example 2. Express ½ log 25 − 2 log 3 + log 18 as a single logarithm. ½ log 25 = log 5. 2 log 3 = log 9. So log 5 − log 9 + log 18 = log (5 × 18 ÷ 9) = log 10 = 1 (to base 10).","Example 3. Given log₁₀ 2 = 0.3010, find log₁₀ 32. 32 = 2⁵, so log 32 = 5 × 0.3010 = 1.505.","Example 4 (equation). Solve log₂ x + log₂ (x − 7) = 3. Combine: log₂ [x(x − 7)] = 3, so x(x − 7) = 2³ = 8. Then x² − 7x − 8 = 0, (x − 8)(x + 1) = 0. x = 8 or x = −1. We reject −1 because log of a negative number does not exist. Answer: x = 8.","Example 5. Solve log₃ p − log₃ (p − 6) = 2. log₃ [p/(p − 6)] = 2, so p/(p − 6) = 9, p = 9p − 54, 8p = 54, p = 6.75.","Example 6. Solve log₄(x + 1) + log₄(x − 1) = log₄ 8. (x + 1)(x − 1) = 8, x² = 9, x = 3 (reject −3)."]}
+],
+"activity":"If log₂ x = a and log₂ y = b, express log₂ ((x³ y)/√8) in terms of a and b. (3a + b − 3/2.)",
+"check":[
+{"q":"If 10³ = 1000, then log₁₀ 1000 =","o":["3","1000","10","30"]},
+{"q":"log_a(MN) equals","o":["log_a M + log_a N","log_a M × log_a N","log_a M − log_a N","M log_a N"]},
+{"q":"log_a 1 equals","o":["0","1","a","−1"]},
+{"q":"log₂ 32 equals","o":["5","16","6","4"]},
+{"q":"The solution of log₂ x + log₂ (x − 7) = 3 is","o":["x = 8","x = −1","x = 7","x = 3"]}]},
+
+{"id":"fm1-07","week":4,"title":"Surds","icon":"Target","summary":"What surds are, the rules for simplifying, adding and multiplying them, and how to rationalise a denominator.",
+"keyWords":["Surd","Like surds","Conjugate","Rationalisation","Irrational"],
+"sections":[
+{"h":"What is a surd?","p":["A surd is an irrational root that cannot be simplified to remove the root sign, such as √2, √3, √5 and ∛5. √4 = 2 and √9 = 3 are not surds, because they are rational numbers. A simple surd is one term, like √7. A compound surd joins a surd to another term, like 2 + √3 or 5 − 2√2."]},
+{"h":"Rules","p":["Study the table."],
+"tbl":{"head":["Operation","Rule","Example"],"rows":[
+["Add and subtract","Only like surds combine","3√5 + 2√5 = 5√5"],
+["Multiply","√a × √b = √(ab)","√2 × √3 = √6"],
+["Divide","√a ÷ √b = √(a/b)","√12 ÷ √3 = √4 = 2"],
+["Simplify","√(a²b) = a√b","√72 = √(36 × 2) = 6√2"]]}},
+{"h":"Rationalising the denominator","p":["To rationalise means to remove the surd from the denominator.","Monomial denominator: multiply top and bottom by the surd. 6/√3 = (6 × √3)/(√3 × √3) = 6√3/3 = 2√3.","Binomial denominator: multiply top and bottom by the conjugate. The conjugate of a + √b is a − √b (change the sign in the middle). This uses (a + √b)(a − √b) = a² − b, which has no surd.","Example: 10/(3 − √2). Multiply by (3 + √2)/(3 + √2): 10(3 + √2)/(9 − 2) = (30 + 10√2)/7."]},
+{"h":"Worked examples","p":["Example 1. Simplify √50 + 3√8 − √18. √50 = 5√2, √8 = 2√2 so 3√8 = 6√2, √18 = 3√2. Sum = 5√2 + 6√2 − 3√2 = 8√2.","Example 2. Rationalise 1/(2 + √3). Multiply by (2 − √3): (2 − √3)/(4 − 3) = 2 − √3.","Example 3. Rationalise √5/(2 + √5). Multiply by (2 − √5): √5(2 − √5)/(4 − 5) = (2√5 − 5)/(−1) = 5 − 2√5.","Example 4. Expand (√6 + 2)(2√6 − 3) = 2 × 6 − 3√6 + 4√6 − 6 = 12 − 6 + √6 = 6 + √6.","Example 5. Simplify 4√5 + √20 − √45 = 4√5 + 2√5 − 3√5 = 3√5.","Example 6. Given x = 1 + √2, find x² + 1/x². x² = 1 + 2√2 + 2 = 3 + 2√2. 1/x² = 1/(3 + 2√2) = (3 − 2√2)/(9 − 8) = 3 − 2√2. Sum = 6."]}
+],
+"activity":"Rationalise 12/(√11 − √7). Simplify √48 + √108 − √27. (12(√11 + √7)/4 = 3(√11 + √7) = 3√11 + 3√7; 4√3 + 6√3 − 3√3 = 7√3.)",
+"check":[
+{"q":"Which is a surd?","o":["√5","√9","√16","√4"]},
+{"q":"√72 simplifies to","o":["6√2","2√6","36√2","72"]},
+{"q":"The conjugate of 5 − 3√2 is","o":["5 + 3√2","−5 + 3√2","3√2 − 5","5√2 + 3"]},
+{"q":"6/√3 equals","o":["2√3","3√2","6√3","√3"]},
+{"q":"3√5 + 2√5 equals","o":["5√5","5√10","6√5","√25"]}]},
+
+{"id":"fm1-08","week":6,"title":"Linear Inequalities in One Variable","icon":"Target","summary":"Inequality symbols, solving linear inequalities, the golden rule for negative numbers, and showing answers on a number line.",
+"keyWords":["Inequality","Golden rule","Number line","Double inequality","Open circle"],
+"sections":[
+{"h":"Inequalities","p":["An inequality shows that one side is bigger or smaller than the other. Symbols: > (greater than), < (less than), ≥ (greater than or equal to), ≤ (less than or equal to). A linear inequality has a variable only to the first power, such as 2x + 5 > 9 or 3x − 4 ≤ 8."]},
+{"h":"The golden rule","p":["Solve a linear inequality like an equation, but when you multiply or divide both sides by a negative number, reverse the inequality sign.","Why: 6 > 4 is true. Multiply by −2: −12 and −8. −12 > −8 is false; the true statement is −12 < −8."]},
+{"h":"Number line","p":["Open circle ○ for < or > (the end point is not included). Closed circle ● for ≤ or ≥ (the end point is included). An arrow shows the direction of all the solutions.","x > 2: open circle at 2, arrow to the right. x ≤ −3: closed circle at −3, arrow to the left. 2 ≤ x < 6: closed circle at 2, open circle at 6, a line between."]},
+{"h":"Worked examples","p":["Example 1. Solve 5 − 2x ≥ 11. −2x ≥ 6. Divide by −2 and reverse the sign: x ≤ −3. Closed circle at −3, arrow left.","Example 2. Solve 3x − 5 < 4x + 2. −5 − 2 < 4x − 3x, so −7 < x, or x > −7. Open circle at −7, arrow right.","Example 3 (double inequality). Solve −1 ≤ 2x − 5 < 7. Add 5: 4 ≤ 2x < 12. Divide by 2: 2 ≤ x < 6.","Example 4. Solve and represent x/2 − 5 > −8. x/2 > −3, so x > −6.","Example 5. Solve 7 − 4x ≤ 1. −4x ≤ −6, so x ≥ 3/2.","Example 6. Solve −5 ≤ 3x + 1 ≤ 10. −6 ≤ 3x ≤ 9, so −2 ≤ x ≤ 3.","Example 7. Solve (2x − 1)/3 ≥ (x + 5)/2. Multiply by 6: 2(2x − 1) ≥ 3(x + 5), 4x − 2 ≥ 3x + 15, x ≥ 17.","Example 8. Find the range of x for 3x − 2 > 7 and x − 1 < 5. First: x > 3. Second: x < 6. So 3 < x < 6."]}
+],
+"activity":"Solve 3(x − 2) < 5x + 4 and show it on a number line. (3x − 6 < 5x + 4, −10 < 2x, x > −5.)",
+"check":[
+{"q":"When you divide an inequality by a negative number you must","o":["Reverse the inequality sign","Keep the sign","Remove the sign","Double the number"]},
+{"q":"x ≥ 3 is shown with","o":["A closed circle at 3 and arrow right","An open circle at 3 and arrow right","A closed circle at 3 and arrow left","An open circle and arrow left"]},
+{"q":"The solution of 5 − 2x ≥ 11 is","o":["x ≤ −3","x ≥ −3","x ≤ 3","x ≥ 3"]},
+{"q":"The solution of −1 ≤ 2x − 5 < 7 is","o":["2 ≤ x < 6","2 < x ≤ 6","−2 ≤ x < 6","4 ≤ x < 12"]},
+{"q":"The solution of 3x − 5 < 4x + 2 is","o":["x > −7","x < −7","x > 7","x < 7"]}]}
+]

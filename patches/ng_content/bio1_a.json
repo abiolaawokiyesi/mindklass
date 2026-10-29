@@ -1,0 +1,266 @@
+[
+{"id":"bi1-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Biology First Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Living things","Classification","Cell","Respiration","Growth"],
+"sections":[
+{"h":"Welcome to Biology","p":["Biology is the study of living things. It helps you to understand your own body, the plants and animals around you, the food we eat, diseases and how to avoid them, and how to look after the environment. It is a very important subject for medicine, farming, nursing, pharmacy and many other careers, and it is an examination subject in WAEC, NECO and JAMB.","In First Term you will learn how to recognise living things, how they are classified into groups, the structure and work of the cell, how substances move into and out of cells, nutrition, respiration, growth and how living things respond to their surroundings."]},
+{"h":"How to use the notes","p":["Read each unit slowly. Study the diagrams and, where you are asked, draw and label them in your notebook, because drawing is a main skill in Biology. At the end of every unit there are practice questions. They do not count towards a mark; they help you to check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for First Term","p":["The units follow the scheme of work. Week 5 is the midterm examination and Week 7 is the midterm break."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Characteristics of living things"],
+["3","1","Plants and animals compared, and the organisation of life"],
+["4","2","Classification, taxonomy and the kingdoms"],
+["5","2","Viruses, and the kingdoms Monera, Protista and Fungi"],
+["6","2","Kingdom Plantae"],
+["7","3","Kingdom Animalia (1): invertebrates"],
+["8","3","Kingdom Animalia (2): vertebrates"],
+["9","4","The cell: forms of cells and the plant and animal cell"],
+["10","4","Cell organelles and their functions"],
+["11","6","Diffusion"],
+["12","6","Osmosis and active transport"],
+["13","8","Nutrition: nutrients and modes of nutrition"],
+["14","8","Photosynthesis and heterotrophic nutrition"],
+["15","9","Cellular respiration"],
+["16","9","The stages of respiration: glycolysis and the Krebs cycle"],
+["17","10","Growth and mitosis"],
+["18","10","Meiosis"],
+["19","10","Irritability and movement"]]}},
+{"h":"Good habits","p":["Learn the key words. Draw neat labelled diagrams with a sharp pencil and a ruler for label lines. Always give an example when you define a term."]}
+],
+"activity":"Look at the table of contents. Which topic do you think will help you most to look after your own health? Write one reason.",
+"check":[
+{"q":"In which unit do you study mitosis?","o":["Unit 17","Unit 3","Unit 8","Unit 14"]},
+{"q":"Which unit teaches osmosis?","o":["Unit 12","Unit 4","Unit 6","Unit 19"]},
+{"q":"What should you do with the diagrams?","o":["Draw and label them yourself","Ignore them","Only look at them","Copy a friend's"]},
+{"q":"In which unit do you study the kingdoms Monera and Fungi?","o":["Unit 5","Unit 2","Unit 9","Unit 16"]}]},
+
+{"id":"bi1-02","week":1,"title":"Characteristics of Living Things","icon":"Heart","summary":"What living things are and the ten characteristics that distinguish them from non-living things.",
+"keyWords":["Organism","Respiration","Nutrition","Irritability","Excretion"],
+"sections":[
+{"h":"Living and non-living things","p":["Everything in nature is either living or non-living. A living thing (organism) has life and shows certain characteristics that non-living things do not have. A stone does not feed, grow or reproduce; a goat does."],
+"img":{"src":"bio-mrsgren.png","alt":"A wheel diagram of the seven life processes: movement, respiration, sensitivity, growth, reproduction, excretion and nutrition, shown by the letters MRS GREN","cap":"Seven life processes, remembered as MRS GREN (movement, respiration, sensitivity, growth, reproduction, excretion, nutrition)."}},
+{"h":"The characteristics","p":["1. Movement: animals move from place to place, usually to find food. Plants move parts of their bodies in response to stimuli, for example shoots bending towards light.","2. Respiration: living things need energy for their activities. They get it by respiration, the release of energy from food. In aerobic respiration, food (glucose) is oxidised in the presence of oxygen to give energy, with carbon dioxide and water as by-products.","3. Nutrition: feeding. All organisms need food. Green plants make their own food (autotrophs). Animals depend on plants, directly or indirectly (heterotrophs).","4. Irritability (sensitivity): the ability to detect and respond to changes (stimuli) inside and outside the body, such as light, heat, water, sound and chemicals.","5. Growth: an irreversible increase in size, length and mass. It lets organisms repair and replace damaged or old tissues. The food eaten supplies what is needed for growth.","6. Excretion: removal of the toxic waste products of metabolism, such as carbon dioxide and urea, and of other unwanted substances.","7. Reproduction: producing offspring to continue the species. It can be sexual (two parents) or asexual (one parent).","8. Life span: each organism lives for a limited time and passes through birth, growth, maturity, decline and death.","9. Competition: living things compete for food, water, light, mates and space.","10. Adaptation: organisms have features that help them to survive in their environment, and they can adjust to change."]},
+{"h":"Do viruses and crystals count?","p":["A crystal can grow by adding layers on its outside but it does not feed, respire or reproduce, so it is not living. Viruses are a special case; you will study them in Unit 5."]}
+],
+"activity":"Observe a plant and an animal at home or school for ten minutes. Write down which of the ten characteristics you can see for each.",
+"check":[
+{"q":"The ability to respond to a stimulus is","o":["Irritability","Excretion","Growth","Nutrition"]},
+{"q":"Removal of toxic waste products is","o":["Excretion","Nutrition","Reproduction","Competition"]},
+{"q":"Green plants make their own food, so they are","o":["Autotrophs","Heterotrophs","Parasites","Decomposers"]},
+{"q":"An irreversible increase in size is","o":["Growth","Movement","Respiration","Adaptation"]},
+{"q":"Release of energy from food is","o":["Respiration","Excretion","Irritability","Reproduction"]}]},
+
+{"id":"bi1-03","week":1,"title":"Plants and Animals Compared, and the Organisation of Life","icon":"Layers","summary":"The main differences between plants and animals and the levels of organisation from cells to organ systems.",
+"keyWords":["Autotroph","Heterotroph","Cell","Tissue","Organ system"],
+"sections":[
+{"h":"Differences between plants and animals","p":["Most living things can be grouped as plants or animals. Study the table."],
+"tbl":{"head":["Feature","Plants","Animals"],"rows":[
+["Movement","Passive: they usually stay fixed in one place","Free, active movement, with organs of locomotion"],
+["Gaseous exchange","Through the whole body surface (leaves, stems, roots)","Through special organs (lungs, gills, skin)"],
+["Feeding","Green plants photosynthesise (autotrophs)","Do not photosynthesise (heterotrophs)"],
+["Response to stimuli","Slow","Fast"],
+["Growth","Apical and unlimited (continues throughout life)","Uniform and limited (stops at maturity)"],
+["Sense organs","No specialised sense organs","Specialised sense organs"],
+["Excretory system","No special system","Special, well-developed system"],
+["Cell covering","Rigid cellulose cell wall as well as a cell membrane","Only a thin flexible cell membrane; support from an exoskeleton or endoskeleton"],
+["Food storage","Starch (fungi are not plants and store glycogen)","Glycogen"]]}},
+{"h":"Levels of organisation","p":["Life on Earth is organised in levels of increasing complexity. Cells are the basic structural and functional units of life, for example muscle cells and nerve cells. Tissues are groups of similar cells doing a particular job, for example muscle tissue contracts and nervous tissue carries signals. Organs are made of different tissues working together, for example the heart (cardiac muscle, blood vessels and connective tissue) pumps blood. Organ systems are groups of organs doing a complex job, for example the digestive system (stomach, liver, intestines). Above these come the whole organism, populations, communities and ecosystems, which you will study in Second Term."]}
+],
+"activity":"Explain the differences between growth in plants and animals. Name one tissue, one organ and one organ system in the human body.",
+"check":[
+{"q":"Growth in plants is","o":["Apical and unlimited","Uniform and limited","Absent","Only in leaves"]},
+{"q":"A group of similar cells doing the same job is a","o":["Tissue","Organ","System","Population"]},
+{"q":"Which has a rigid cellulose cell wall?","o":["Plant cell","Animal cell","Both","Neither"]},
+{"q":"Animals store carbohydrate as","o":["Glycogen","Starch","Cellulose","Chitin"]},
+{"q":"The stomach is an example of an","o":["Organ","Tissue","Cell","Organism"]}]},
+
+{"id":"bi1-04","week":2,"title":"Classification, Taxonomy and the Kingdoms","icon":"Target","summary":"Why we classify living things, Linnaeus and the seven taxonomic ranks, the binomial system of naming, and the five kingdoms.",
+"keyWords":["Classification","Taxonomy","Species","Binomial nomenclature","Kingdom"],
+"sections":[
+{"h":"Meaning and importance of classification","p":["Classification is grouping things according to their shared characteristics. In Biology it brings order to the huge variety of life. It makes living things easier to study, helps scientists talk about organisms clearly, and shows how organisms are related to one another (their evolutionary relationships)."]},
+{"h":"Taxonomy","p":["Taxonomy is the science of classifying, naming and grouping organisms (from the Greek words for 'arrangement' and 'law'). The system used today is based on the work of the Swedish scientist Carolus Linnaeus. He arranged living things in seven major groups (ranks), from the largest to the smallest: Kingdom, Phylum (for animals) or Division (for plants), Class, Order, Family, Genus and Species. The basic unit of classification is the species: a group of organisms that can breed together and produce fertile offspring."]},
+{"h":"Binomial nomenclature","p":["Linnaeus also introduced a way of naming organisms with two names. The first is the generic name (the genus) and begins with a capital letter. The second is the specific name (the species) and begins with a small letter. Scientific names are written in italics or underlined when written by hand. Examples: man, Homo sapiens; lion, Panthera leo; maize, Zea mays. (The source notes wrote 'panthera leo' and 'zea Mays', which break these rules.)"]},
+{"h":"The kingdoms","p":["Linnaeus first divided living things into two kingdoms, plants and animals. But many one-celled organisms did not fit well. Biologists later divided living things into five kingdoms: Monera, Protista, Fungi, Plantae and Animalia (this five-kingdom system was proposed by R. H. Whittaker in 1969). Viruses do not fit into any of the five and are treated separately."],
+"img":{"src":"bio-kingdoms.jpg","alt":"A chart of the five kingdoms Monera, Protista, Fungi, Plantae and Animalia with pictures of bacteria, protozoa, mushrooms, sunflowers and ferns, and animals","cap":"The five kingdoms of living things."}}
+],
+"activity":"Write the scientific names of three organisms correctly (for example Homo sapiens), with the genus capitalised and the species in small letters. Underline each.",
+"check":[
+{"q":"The basic unit of classification is the","o":["Species","Kingdom","Genus","Family"]},
+{"q":"Who introduced the modern system of classification?","o":["Linnaeus","Darwin","Mendel","Pasteur"]},
+{"q":"In the scientific name Homo sapiens, 'Homo' is the","o":["Genus","Species","Family","Kingdom"]},
+{"q":"How many kingdoms are in the five-kingdom system?","o":["Five","Two","Seven","Three"]},
+{"q":"The ranks of classification, from largest to smallest, begin with","o":["Kingdom","Species","Genus","Order"]}]},
+
+{"id":"bi1-05","week":2,"title":"Viruses, and the Kingdoms Monera, Protista and Fungi","icon":"Layers","summary":"Why viruses are special, and the features of the kingdoms Monera, Protista and Fungi with examples.",
+"keyWords":["Virus","Monera","Prokaryote","Protista","Fungi"],
+"sections":[
+{"h":"Viruses","p":["A virus is so small that it can be seen only with an electron microscope. It has either DNA or RNA inside a protein coat. It has no cell structure, cannot make its own proteins, and does not respire, feed or excrete. It cannot reproduce by cell division (binary fission); it reproduces only inside a living host cell.","Viruses are like living things because they reproduce inside a host cell and pass their characteristics to the next generation. They are like non-living things because outside a host they can form crystals and do not respire, excrete or respond to stimuli. So they are treated separately from the five kingdoms. Examples of diseases: the common cold, influenza, polio, measles, HIV and COVID-19."]},
+{"h":"Kingdom Monera","p":["These are the simplest living things: bacteria and blue-green bacteria (cyanobacteria, like Anabaena). They are microscopic and single-celled. They are prokaryotes: they have no true nucleus (no nuclear membrane), and the DNA lies in the cytoplasm. Their cell wall does not contain cellulose; it is made of peptidoglycan (a mixture of sugars and amino acids). (The source says 'protein and fatty materials'.) They have no organelles with membranes except ribosomes. They reproduce asexually by binary fission."]},
+{"h":"Kingdom Protista","p":["Protists are mostly single-celled eukaryotes: their cells have a definite nucleus. Most live in water. They move by cilia, flagella or pseudopodia. Some are free-living and a few are parasites. There are two groups: Protozoa, which are animal-like (Amoeba, Paramecium, Plasmodium, Trypanosoma), and Protophyta, which are plant-like (diatoms, Chlorella, Chlamydomonas). Euglena has both plant-like and animal-like features."]},
+{"h":"Kingdom Fungi","p":["Fungi are non-green organisms without chlorophyll, so they cannot photosynthesise. They have rigid cell walls made of chitin and other polysaccharides. They have no true roots, stems or leaves. Most are non-motile. They reproduce by spores (asexual) and also sexually. Most are saprophytes (feeding on dead matter); some are parasites. A few are single-celled (yeast) but most are many-celled (Rhizopus, Mucor, mushrooms). They store food as glycogen."],
+"tbl":{"head":["","Monera","Protista","Fungi"],"rows":[
+["Cells","Prokaryotic, single","Eukaryotic, mostly single","Eukaryotic, most many-celled"],
+["Nutrition","Various","Various","Absorb food (saprophytes, parasites)"],
+["Reproduction","Binary fission","Fission, sometimes sexual","Spores"],
+["Examples","Bacteria, Anabaena","Amoeba, Euglena","Yeast, Rhizopus, mushrooms"]]}}
+],
+"activity":"Compare the kingdoms Monera and Protista in a table with at least four points.",
+"check":[
+{"q":"A virus can reproduce only","o":["Inside a living host cell","In water","In soil","By binary fission"]},
+{"q":"Which kingdom has prokaryotic cells?","o":["Monera","Protista","Fungi","Plantae"]},
+{"q":"Fungal cell walls are made of","o":["Chitin","Cellulose","Peptidoglycan only","Protein only"]},
+{"q":"Euglena is a","o":["Protist with plant and animal features","Fungus","Bacterium","Virus"]},
+{"q":"Yeast is","o":["A single-celled fungus","A bacterium","An alga","A virus"]}]},
+
+{"id":"bi1-06","week":2,"title":"Kingdom Plantae","icon":"Layers","summary":"The main groups of plants: thallophytes, bryophytes and tracheophytes, and how seed plants divide into gymnosperms and angiosperms, monocots and dicots.",
+"keyWords":["Thallophyta","Bryophyta","Pteridophyta","Gymnosperm","Angiosperm"],
+"sections":[
+{"h":"The plant kingdom","p":["Plants are multicellular, non-motile organisms. Their cells have cellulose cell walls and chloroplasts containing chlorophyll, which lets them make food by photosynthesis. The kingdom is divided into three main groups: Thallophyta, Bryophyta and Tracheophyta."],
+"img":{"src":"bio-plant-classification.png","alt":"A flow chart of the plant kingdom: thallophytes, bryophytes and tracheophytes; tracheophytes divide into pteridophytes and spermatophytes; spermatophytes divide into gymnosperms and angiosperms; angiosperms divide into monocots and dicots","cap":"Classification of the plant kingdom."}},
+{"h":"Thallophyta","p":["Example: algae. No true roots, stem or leaves. Chlorophyll is present."]},
+{"h":"Bryophyta","p":["Examples: mosses and liverworts. No true roots, stem or leaves; they have thread-like rhizoids that anchor them."]},
+{"h":"Tracheophyta","p":["The tracheophytes have vascular tissue (xylem and phloem). They include two groups. Pteridophytes (ferns) have true roots, stems and leaves but reproduce by spores. Spermatophytes make pollen and seeds. They divide into gymnosperms (have cones and naked seeds, usually needle-like leaves, no flowers; for example pine) and angiosperms (flowering plants whose seeds develop inside fruits)."]},
+{"h":"Monocotyledons and dicotyledons","p":["Angiosperms are divided into two classes. Monocots have one seed leaf (cotyledon), parallel-veined narrow leaves; there are no true trees except palms (examples: maize, grasses, palms). Dicots have two seed leaves, net-veined broad leaves; they include herbs, shrubs and trees (examples: beans, hibiscus, mango)."],
+"tbl":{"head":["Feature","Monocot","Dicot"],"rows":[
+["Seed leaves","One","Two"],
+["Leaf veins","Parallel","Net-like"],
+["Leaf shape","Narrow","Broad"],
+["Examples","Maize, rice, palm","Beans, mango, hibiscus"]]}}
+],
+"activity":"Draw a flow chart of the plant kingdom from memory and give one example at each end point.",
+"check":[
+{"q":"Mosses belong to the","o":["Bryophytes","Thallophytes","Gymnosperms","Pteridophytes"]},
+{"q":"Plants with naked seeds and cones are","o":["Gymnosperms","Angiosperms","Ferns","Algae"]},
+{"q":"A plant with parallel venation and one cotyledon is a","o":["Monocot","Dicot","Fern","Moss"]},
+{"q":"Ferns belong to the","o":["Pteridophytes","Bryophytes","Thallophytes","Spermatophytes"]},
+{"q":"Flowering plants whose seeds are in fruits are","o":["Angiosperms","Gymnosperms","Bryophytes","Fungi"]}]},
+
+{"id":"bi1-07","week":3,"title":"Kingdom Animalia (1): Invertebrates","icon":"Layers","summary":"The main phyla of animals without backbones: Porifera, Cnidaria, Platyhelminthes, Nematoda, Annelida, Mollusca, Arthropoda and Echinodermata, with their features and examples.",
+"keyWords":["Invertebrate","Phylum","Arthropoda","Insecta","Metamorphosis"],
+"sections":[
+{"h":"Animals without backbones","p":["The animal kingdom divides into invertebrates (no backbone) and vertebrates (with a backbone). Here are the main invertebrate phyla."],
+"img":{"src":"bio-animal-classification.jpg","alt":"A chart of animal classification: vertebrates (mammals, birds, reptiles, amphibians, fish) and invertebrates (Porifera, Cnidaria, Annelida, Mollusca, Platyhelminthes, Echinodermata, Arthropoda with Crustacea, Arachnida, Insects and Myriapoda)","cap":"Classification of animals."}},
+{"h":"The phyla","p":["Protozoa (single-celled; now usually classified with the protists): Amoeba, Plasmodium, Trypanosoma. Mostly microscopic. Some are free-living and some are parasites.","Porifera (sponges): many-celled, fixed in one place (sessile), mostly aquatic. One body cavity with many pores; two layers of cells; skeleton of calcium carbonate or silica spicules; no nervous system; reproduce asexually by budding.","Cnidaria / Coelenterata (Hydra, sea anemone, jellyfish): simple many-celled aquatic animals with two cell layers and no organs; stinging cells (nematoblasts); asexual reproduction by budding and sexual by gametes.","Platyhelminthes (flatworms): liver fluke, tapeworm, planaria. Flat, thin bodies, bilaterally symmetrical, three body layers, mostly hermaphrodites, free-living or parasitic; one opening to the gut (the mouth).","Nematoda (roundworms): Ascaris, hookworm, guinea worm, filaria worm, Onchocerca. Long, slender, cylindrical bodies with pointed ends; three layers; mouth and anus; covered with a cuticle; separate sexes; free-living or parasitic. (The source lists tapeworm here, but tapeworms are flatworms.)","Annelida (segmented worms): earthworm, leech (Hirudo), Lumbricus. Long, cylindrical, segmented bodies; three layers; mouth and anus; nervous, excretory, reproductive and circulatory systems.","Mollusca: snail, slug (also oyster and octopus). Soft unsegmented body usually covered by a calcareous shell; head, muscular foot and a visceral hump; eyes and tentacles on the head.","Echinodermata: starfish, sea urchin. Aquatic; radially symmetrical; spiny skin with a calcareous skeleton; tube feet for movement; separate sexes."]},
+{"h":"Phylum Arthropoda","p":["The biggest phylum. Arthropods have jointed legs, a hard exoskeleton of chitin and segmented bodies. There are four classes (the source notes wrongly list 'Annelida' as a fifth; Annelida is a separate phylum).","Class Insecta (cockroach, housefly, butterfly, grasshopper): a pair of antennae, a pair of compound eyes, body in head, thorax and abdomen, three pairs of legs on the thorax, breathing by tracheae, often winged, and they usually go through metamorphosis."],
+"img":{"src":"bio-grasshopper.jpg","alt":"A labelled grasshopper showing the head, thorax and abdomen, antenna, foreleg, midleg, hind leg, femur, tibia and forewing","cap":"A grasshopper, a typical insect."}},
+{"h":"The other arthropod classes","p":["Class Myriapoda (centipede and millipede): head and a long trunk of many segments; each segment of a centipede (class Chilopoda) has one pair of legs and the animal is a carnivore; each segment of a millipede (class Diplopoda) has two pairs of legs and it eats plants; breathing by tracheae.","Class Arachnida (spiders, scorpions, ticks): two body regions, the prosoma (cephalothorax) and the opisthosoma (abdomen); four pairs of walking legs; chelicerae and pedipalps; usually simple eyes; breathing by book lungs.","Class Crustacea (crab, prawn, shrimp, water flea, barnacle): two body regions, the cephalothorax and the abdomen; two pairs of antennae; usually five pairs of walking legs; compound eyes; gills for breathing; mostly aquatic."],
+"img":{"src":"bio-myriapods.jpg","alt":"The external anatomy of a millipede and a centipede, showing the many segments with legs","cap":"A millipede and a centipede."}}
+],
+"activity":"Draw and label a grasshopper (as in the picture). State three features that show it is an insect.",
+"check":[
+{"q":"An insect has how many pairs of legs?","o":["Three","Four","Five","Many"]},
+{"q":"Spiders belong to the class","o":["Arachnida","Insecta","Crustacea","Myriapoda"]},
+{"q":"Tapeworms belong to the phylum","o":["Platyhelminthes","Nematoda","Annelida","Mollusca"]},
+{"q":"Starfish belong to the phylum","o":["Echinodermata","Mollusca","Porifera","Annelida"]},
+{"q":"A millipede has how many pairs of legs per body segment?","o":["Two","One","Three","Four"]}]},
+
+{"id":"bi1-08","week":3,"title":"Kingdom Animalia (2): Vertebrates","icon":"Layers","summary":"The five classes of vertebrates (fishes, amphibians, reptiles, birds, mammals) with their features and examples.",
+"keyWords":["Vertebrate","Pisces","Amphibia","Reptilia","Mammalia"],
+"sections":[
+{"h":"Vertebrates","p":["Vertebrates have a backbone (vertebral column) and are divided into five classes: Pisces (fishes), Amphibia, Reptilia, Aves (birds) and Mammalia. (The source notes misspell 'Aves' as 'Eves'.)"]},
+{"h":"Class Pisces (fishes)","p":["Gills for breathing, which stay in the adult. Paired pectoral and pelvic fins. Lateral line for sensing movement. Skin with scales (cycloid scales in bony fishes such as tilapia, placoid scales in cartilaginous fishes such as dogfish). External fertilisation."],
+"img":{"src":"bio-fish.jpg","alt":"A labelled fish showing dorsal fin, caudal fin, pectoral fin, pelvic fin, anal fin, mouth and gill flap","cap":"A bony fish, with its fins labelled."}},
+{"h":"Class Amphibia","p":["Pentadactyl limbs (five digits). Soft, moist skin without scales. Gills at the tadpole stage and lungs in the adult (also breathing through the skin). Eardrum on the surface, no external ear. External fertilisation in water. Examples: toad, frog, newt and salamander. (The source says 'strew', a mistake for 'newt'; shrews are mammals.)"],
+"img":{"src":"bio-frog-toad.jpg","alt":"A frog and a toad with labels: bulging eye, tympanic membrane, trunk, forelimb, hind limb and webbed feet","cap":"A frog and a toad."}},
+{"h":"Class Reptilia","p":["Pentadactyl limbs. Dry skin covered with scales. Breathe with lungs. Eggs with a leathery shell and plenty of yolk, laid on land; no larval stage. Internal fertilisation. Examples: lizard, snake, crocodile, tortoise."],
+"img":{"src":"bio-lizard.jpg","alt":"A lizard with labels: head, nostril, bulging eye, ear drum, trunk, fore-limb, hind limb, tail, cloaca and clawed digits","cap":"A lizard (an agama)."}},
+{"h":"Class Aves (birds)","p":["Pentadactyl limb, with the forelimb changed into a wing. Warm-blooded. Feathers on the body and scales on the legs and feet. A beak and no teeth. Lungs for breathing. Hard-shelled eggs with much yolk. No larval stage. Internal fertilisation. Examples: pigeon, domestic fowl."],
+"img":{"src":"bio-bird.jpg","alt":"A bird with labels: crown, head, nape, back, rump, tail, wing, breast, belly, thigh, leg, upper beak and lower beak","cap":"External features of a bird."}},
+{"h":"Class Mammalia","p":["Pentadactyl limbs. Warm-blooded. Hair on the skin, and sweat glands. Mammary glands that produce milk for the young. A four-chambered heart. Internal fertilisation. Most are viviparous (the young develop inside the mother); a few, such as the platypus, lay eggs. Examples: man, goat, dog, bat, whale."],
+"tbl":{"head":["Class","Skin","Breathing","Reproduction"],"rows":[
+["Pisces","Scales","Gills","Eggs, external fertilisation"],
+["Amphibia","Moist, no scales","Gills then lungs, and skin","Eggs in water, external"],
+["Reptilia","Dry scales","Lungs","Eggs on land, internal"],
+["Aves","Feathers","Lungs","Hard-shelled eggs, internal"],
+["Mammalia","Hair","Lungs","Live young, milk, internal"]]}}
+],
+"activity":"Draw and label a tilapia fish, a lizard, a grasshopper and an earthworm (as an assignment). For each, state the class or phylum.",
+"check":[
+{"q":"Which class has feathers?","o":["Aves","Reptilia","Mammalia","Pisces"]},
+{"q":"Animals that produce milk for their young belong to","o":["Mammalia","Aves","Reptilia","Amphibia"]},
+{"q":"Frogs spend the tadpole stage with","o":["Gills","Lungs only","Wings","Fur"]},
+{"q":"Which is a reptile?","o":["Lizard","Toad","Tilapia","Bat"]},
+{"q":"Fertilisation in fishes is","o":["External","Internal","Absent","Always sexual"]}]},
+
+{"id":"bi1-09","week":4,"title":"The Cell: Forms of Cells and the Plant and Animal Cell","icon":"Target","summary":"What a cell is, the forms in which cells exist, and the structure of typical plant and animal cells.",
+"keyWords":["Cell","Unicellular","Colony","Filament","Cell membrane"],
+"sections":[
+{"h":"What is a cell?","p":["A cell is the basic structural and functional unit of all living things, the smallest unit of life that can carry out life processes. Cells differ in structure, function and size, but all have a cell membrane, genetic material (DNA or RNA) and the ability to carry out metabolism and reproduce."]},
+{"h":"Forms in which cells exist","p":["1. Single (unicellular) cells: the whole organism is one cell. Examples: bacteria, Amoeba, Euglena, yeast.","2. Colonies: groups of cells living together, each able to live independently. Examples: Volvox, some algae and bacteria.","3. Filaments: cells joined end to end in a chain or thread. Examples: Spirogyra (a green alga), some cyanobacteria.","4. Part of a many-celled organism: cells organised into tissues, organs and systems, as in a plant or an animal."]},
+{"h":"The plant cell","p":["A plant cell has a rigid cell wall of cellulose outside the cell membrane, chloroplasts, a large central vacuole, a nucleus, cytoplasm, mitochondria, endoplasmic reticulum, ribosomes and the Golgi apparatus."],
+"img":{"src":"bio-plant-cell.jpg","alt":"A labelled plant cell showing the cell wall, cell membrane, cytoplasm, nucleus, nucleolus, vacuole, chloroplast, mitochondria, ribosomes, endoplasmic reticulum, Golgi apparatus and amyloplast","cap":"A plant cell."}},
+{"h":"The animal cell","p":["An animal cell has a cell membrane but no cell wall, no chloroplasts and usually small vacuoles. It has a nucleus, cytoplasm, mitochondria, ribosomes, endoplasmic reticulum, Golgi body, lysosomes and centrioles."],
+"img":{"src":"bio-animal-cell.jpg","alt":"A labelled animal cell showing the plasma membrane, nucleus, chromatin, nuclear pores, rough and smooth endoplasmic reticulum, ribosomes, centriole, mitochondrion, Golgi body, lysosome and vacuole","cap":"An animal cell."}}
+],
+"activity":"Draw and label Euglena, Amoeba, Chlamydomonas, Volvox and Spirogyra (assignment). Say whether each is single, a colony or a filament.",
+"check":[
+{"q":"Spirogyra exists as a","o":["Filament","Colony","Single cell only","Tissue"]},
+{"q":"Which is present in a plant cell but not an animal cell?","o":["Cell wall","Nucleus","Cell membrane","Mitochondria"]},
+{"q":"Amoeba is an example of a","o":["Unicellular organism","Colony","Filament","Tissue"]},
+{"q":"The smallest unit of life is the","o":["Cell","Tissue","Organ","Organism"]},
+{"q":"Centrioles are found in","o":["Animal cells","Plant cells only","Bacteria only","Viruses"]}]},
+
+{"id":"bi1-10","week":4,"title":"Cell Organelles and Their Functions","icon":"Layers","summary":"The functions of the cell membrane, nucleus, cytoplasm, mitochondria, ribosomes, endoplasmic reticulum, Golgi body, lysosomes, vacuoles and other organelles, and a plant-animal comparison table.",
+"keyWords":["Organelle","Nucleus","Mitochondrion","Ribosome","Vacuole"],
+"sections":[
+{"h":"Functions of cell parts","p":["Cell membrane: controls what enters and leaves the cell; a protective barrier. Nucleus: contains the DNA and controls the cell's activities. Cytoplasm: a jelly-like fluid in which organelles are suspended and many reactions take place. Endoplasmic reticulum (ER): rough ER (with ribosomes) makes proteins; smooth ER makes lipids and helps remove poisons. Golgi apparatus: changes, packages and transports proteins and lipids. Mitochondria: the 'powerhouses', where cellular respiration releases energy. Ribosomes: make proteins using the instructions from DNA. Lysosomes: contain enzymes for digestion and for removing waste. Vacuole: stores nutrients and wastes; in plants it is large and keeps the cell firm (turgid). Chloroplast (plants): carries out photosynthesis. Cell wall (plants): gives shape and support. Cytoskeleton: gives support and helps movement. Centrioles (animal cells): help in cell division."]},
+{"h":"Similarities between plant and animal cells","p":["Both have a cell membrane, nucleus, cytoplasm, mitochondria, endoplasmic reticulum, ribosomes and the Golgi body. Both keep their DNA in the nucleus."]},
+{"h":"Differences","p":["Study the table."],
+"tbl":{"head":["Feature","Plant cell","Animal cell"],"rows":[
+["Cell wall","Present, made of cellulose","Absent"],
+["Chloroplasts","Present","Absent"],
+["Vacuole","One large central vacuole","Small and few"],
+["Shape","Fixed, often rectangular","Variable"],
+["Lysosomes","Rare","Common"],
+["Centrioles","Usually absent","Present"],
+["Motility structures","Usually absent","Cilia or flagella may be present"],
+["Nucleus position","Often pushed to the side by the vacuole","Often near the centre"]]}},
+{"h":"Note","p":["The source notes wrote 'Morality structure' for 'motility structures' and say that the plant nucleus is usually central. In mature plant cells the large vacuole usually pushes the nucleus to the edge."]}
+],
+"activity":"Match each part to its job: mitochondrion, ribosome, nucleus, lysosome, chloroplast. (Respiration, protein making, control, digestion, photosynthesis.)",
+"check":[
+{"q":"The 'powerhouse' of the cell is the","o":["Mitochondrion","Nucleus","Ribosome","Vacuole"]},
+{"q":"Proteins are made at the","o":["Ribosomes","Lysosomes","Vacuole","Cell wall"]},
+{"q":"The nucleus","o":["Contains DNA and controls the cell","Stores starch only","Makes energy","Digests food"]},
+{"q":"Which is found in plant cells only?","o":["Chloroplast","Mitochondrion","Ribosome","Cell membrane"]},
+{"q":"The cell wall of a plant is made of","o":["Cellulose","Chitin","Protein","Glycogen"]}]},
+
+{"id":"bi1-11","week":6,"title":"Diffusion","icon":"Zap","summary":"What diffusion is, how it happens, the factors that affect its speed and why it is important to living things.",
+"keyWords":["Diffusion","Concentration gradient","Equilibrium","Gas exchange","Random motion"],
+"sections":[
+{"h":"Meaning","p":["Diffusion is the spontaneous movement of particles (atoms, ions or molecules) from a region where they are in high concentration to a region where they are in low concentration. They move down a concentration gradient until they are evenly spread (equilibrium). The particles move by random motion, and no energy from the cell is needed. Diffusion happens in gases, liquids and, very slowly, solids. Examples: the scent of flowers spreading through a room; a drop of ink spreading in water; oxygen entering the blood in the lungs."],
+"img":{"src":"bio-osmosis-diffusion.jpg","alt":"Two panels: osmosis, with water crossing a semipermeable membrane from pure water to a solution; and diffusion, with red particles spreading from high concentration to low concentration","cap":"Diffusion (right) and osmosis (left)."}},
+{"h":"Factors affecting the rate of diffusion","p":["Temperature: higher temperature makes particles move faster, so diffusion is faster. Concentration gradient: a steeper gradient gives faster diffusion. Size of the particles: small particles diffuse faster than large ones. The medium: diffusion is fastest in gases, slower in liquids and slowest in solids. Surface area: a larger surface (such as the many folds of the gut) lets more diffuse. Distance: shorter distances give faster diffusion."]},
+{"h":"Importance of diffusion to living things","p":["1. Gas exchange: oxygen and carbon dioxide diffuse in and out of the body in the lungs, leaves and gills.","2. Respiration and photosynthesis: gases move in and out of cells to supply these processes.","3. Uptake of nutrients: digested food diffuses across the gut wall into the blood, and wastes diffuse out of cells.","4. Mixing for chemical reactions: diffusion brings reactants together in the cell.","5. In plants, water vapour diffuses out of the leaves through the stomata (transpiration)."]}
+],
+"activity":"The smell of cooking spreads from the kitchen to the sitting room. Explain how, using the words 'high concentration', 'low concentration' and 'random motion'.",
+"check":[
+{"q":"Diffusion is movement of particles from","o":["High to low concentration","Low to high concentration","Cold to hot","Wet to dry only"]},
+{"q":"Which speeds up diffusion?","o":["A higher temperature","A smaller concentration gradient","A longer distance","A solid medium"]},
+{"q":"Diffusion needs","o":["No energy from the cell","ATP","Enzymes always","Light"]},
+{"q":"The scent of flowers spreading in a room is","o":["Diffusion","Osmosis","Active transport","Transpiration"]},
+{"q":"Oxygen enters the blood in the lungs by","o":["Diffusion","Osmosis","Digestion","Excretion"]}]},
+
+{"id":"bi1-12","week":6,"title":"Osmosis and Active Transport","icon":"Layers","summary":"Osmosis, tonicity (hypertonic, hypotonic and isotonic solutions), plasmolysis, turgidity, haemolysis, the importance of osmosis, and active transport.",
+"keyWords":["Osmosis","Semi-permeable membrane","Hypotonic","Plasmolysis","Active transport"],
+"sections":[
+{"h":"Osmosis","p":["Osmosis is the movement of water molecules from a region of lower solute concentration (a dilute solution, which has more free water) to a region of higher solute concentration (a concentrated solution, which has less free water) through a semi-permeable (selectively permeable) membrane. The membrane lets water through but not all dissolved substances. It happens only when a membrane separates a weak solution from a strong one. (It is easy to be confused by the wording: the 'concentration' referred to is the concentration of the dissolved substance.)"]},
+{"h":"Cells in different solutions","p":["Hypertonic: the surrounding fluid is more concentrated than the cell contents. Water leaves the cell by exosmosis and the cell shrinks. Hypotonic: the surrounding fluid is less concentrated than the cell contents. Water enters the cell by endosmosis and the cell swells. Isotonic: the same concentration inside and out; there is no net movement of water.","Plant cell: in a hypotonic solution, it takes in water and becomes turgid (swollen and firm), which gives support. In a hypertonic solution, it loses water and becomes flaccid (limp); with severe loss, the cell membrane pulls away from the cell wall, which is called plasmolysis. Plasmolysis can be reversed (deplasmolysis) if the cell is placed in a hypotonic solution. Animal cell: a red blood cell in a hypotonic solution takes in water and may burst (haemolysis); in a hypertonic solution, it shrinks."],
+"img":{"src":"bio-osmosis-cells.png","alt":"A plant cell and a red blood cell shown in hypertonic, isotonic and hypotonic solutions: shrunken or plasmolysed, normal, and swollen (turgid or bursting)","cap":"Plant and animal cells in hypertonic, isotonic and hypotonic solutions."}},
+{"h":"Importance of osmosis","p":["1. It absorbs water from the soil into the root hairs. 2. It moves water from cell to cell in plants. 3. It controls opening and closing of the stomata (guard cells). 4. It makes plant cells turgid, which supports non-woody parts. 5. It moves water between cells in animals. 6. It reabsorbs water from the kidney tubules into the blood. 7. It can cause haemolysis of red blood cells if they are in pure water."]},
+{"h":"Osmoregulation","p":["Osmoregulation is the control of the amount of water and dissolved substances in an organism, so that its internal environment stays balanced. It uses osmosis and active transport. For example, the kidney controls the water content of the blood."]},
+{"h":"Active transport","p":["Active transport is the movement of substances against a concentration gradient (from low to high concentration) using energy (ATP) from respiration. It needs carrier proteins in the cell membrane. Examples: root hairs absorbing mineral salts from soil that are in lower concentration than inside the cell; absorption of glucose from the gut."],
+"tbl":{"head":["","Diffusion","Osmosis","Active transport"],"rows":[
+["What moves","Any particles","Water only","Any particles"],
+["Direction","High to low concentration","Dilute to concentrated solution","Low to high concentration"],
+["Membrane","Not needed","Semi-permeable","Cell membrane with carriers"],
+["Energy","None","None","ATP needed"]]}}
+],
+"activity":"A strip of potato is put in strong salt solution and another in pure water. Say what happens to each and why. (The first loses water and becomes limp (flaccid); the second gains water and becomes firm (turgid).)",
+"check":[
+{"q":"A cell in a hypotonic solution","o":["Gains water","Loses water","Does not change","Dies at once"]},
+{"q":"Plasmolysis is caused by","o":["Loss of water from a plant cell by exosmosis","Gain of water","Diffusion of oxygen","Cell division"]},
+{"q":"Active transport needs","o":["Energy","No energy","Only light","Only water"]},
+{"q":"A red blood cell in pure water","o":["May burst","Shrinks","Stays the same","Divides"]},
+{"q":"Osmosis is the movement of","o":["Water through a semi-permeable membrane","Gases in air","Sugar only","Salts only"]}]}
+]

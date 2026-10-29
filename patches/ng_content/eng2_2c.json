@@ -1,0 +1,245 @@
+[
+{"id":"e22-25","week":9,"title":"Structure: Sequence of Tenses and Reported Speech","icon":"Layers","summary":"How tenses, pronouns and time words change when speech is reported, the back-shift rule, the exceptions and worked examples.",
+"keyWords":["Reported speech","Back-shift","Reporting verb","Time expressions","Sequence of tenses"]
+,"sections":[
+{"h":"The back-shift rule","p":["When we report what someone said, we often change the tense. If the reporting verb (said, told, explained, asked) is in the past, the verb in the reported clause usually moves one step back into the past."],
+"tbl":{"head":["Direct speech","Reported speech"],"rows":[
+["Simple present: 'I work here.'","Simple past: He said he worked here."],
+["Present continuous: 'I am working.'","Past continuous: He said he was working."],
+["Present perfect: 'I have finished.'","Past perfect: He said he had finished."],
+["Simple past: 'I finished it.'","Past perfect: He said he had finished it."],
+["will","would"],
+["can","could"],
+["may","might"],
+["must","had to"]]}},
+{"h":"Changes in time and place words","p":["now becomes then; today becomes that day; tomorrow becomes the next day or the following day; yesterday becomes the day before or the previous day; this becomes that; these becomes those; here becomes there. Pronouns also change to fit the reporter's view."]},
+{"h":"Exceptions","p":["If the reporting verb is in the present (says, explains), or if the reported fact is still true or is a general truth, the tense need not change. Direct: 'I am 16 years old.' Reported: 'He says he is 16.' or 'He said he is 16.' 'She said the Earth revolves around the sun.'"]},
+{"h":"Worked example","p":["Direct: 'I cannot attend the meeting tomorrow because I have a doctor's appointment,' she said. Reported: She said that she could not attend the meeting the following day because she had a doctor's appointment."]}
+],
+"activity":"Report: 'I will call you later,' he said. (He said that he would call me later.) 'I am reading a fascinating book,' John said. 'We visited our grandparents last weekend,' they told me. 'The train will arrive at 8 PM,' the announcement stated. 'You must complete this form today,' the secretary said to me. (John said he was reading a fascinating book; they told me they had visited their grandparents the previous weekend; the announcement stated that the train would arrive at 8 PM; the secretary told me that I had to complete that form that day.)",
+"check":[
+{"q":"'I work here' becomes","o":["He said he worked here","He said he works here only","He said he will work here","He says he worked"]},
+{"q":"'Tomorrow' in reported speech becomes","o":["The next day","Yesterday","Today","Now"]},
+{"q":"'Can' becomes","o":["Could","Would","Might","Had to"]},
+{"q":"Why not back-shift 'She said the Earth revolves around the sun'?","o":["It is a general truth","It is wrong","It is a question","It is a command"]},
+{"q":"'Here' becomes","o":["There","Then","That","These"]}]},
+
+{"id":"e22-26","week":9,"title":"Comprehension: Reading for Critical Evaluation","icon":"Target","summary":"The critical reader's questions: purpose, tone, bias, strength of argument (including two logical fallacies) and reliability of the source.",
+"keyWords":["Critical evaluation","Bias","Logical fallacy","Ad hominem","Reliability"]
+,"sections":[
+{"h":"Judging a text","p":["Critical evaluation goes beyond understanding to analysing and judging a text: examining the argument, spotting bias and weighing the evidence. It makes you a discerning reader."]},
+{"h":"Five questions","p":["1. Author's purpose: to inform (news, textbook), to persuade (opinion piece, advertisement, speech), to entertain (novel, comic strip) or to satirise (use humour to criticise).","2. Author's tone: objective and neutral (facts, little emotion), subjective and emotional (loaded language, exclamation marks), or sarcastic, angry, enthusiastic or dismissive.","3. Author's bias: a pre-formed opinion that affects fairness. Look for loaded language ('heroic freedom fighters' against 'ruthless terrorists'), one-sided argument, missing key facts or heavy emotional appeals.","4. Validity of the argument: is it based on facts, statistics and examples, or on personal stories and feelings? Watch for logical fallacies, such as ad hominem (attacking the person instead of the argument) and hasty generalisation (a big claim from a small sample).","5. Reliability of the source: is the author an expert? Is the publication reputable, or a personal blog? Is it checked by experts (peer-reviewed)?"]}
+],
+"activity":"Find a short opinion article or letter to the editor. Write 150 to 200 words that say (a) the author's main purpose; (b) the tone, with one quoted phrase as proof; (c) one possible bias or one piece of evidence used.",
+"check":[
+{"q":"Attacking the person instead of the argument is","o":["Ad hominem","Hasty generalisation","Simile","Irony"]},
+{"q":"A broad claim from a small sample is a","o":["Hasty generalisation","Fact","Metaphor","Paradox"]},
+{"q":"Loaded language suggests","o":["Bias","Neutrality","Accuracy","Silence"]},
+{"q":"An opinion piece mainly aims to","o":["Persuade","Entertain only","Give a recipe","Calculate"]},
+{"q":"A reliable source is usually","o":["An expert in a reputable publication","An anonymous post","A rumour","An advert"]}]},
+
+{"id":"e22-27","week":9,"title":"Vocabulary: Words of the Week 9","icon":"BookOpen","summary":"Ten words: propriety, preclusive, canvass, exigent, requisition, carouse, forestall, tranquil, heterogeneous and unctuous.",
+"keyWords":["Propriety","Canvass","Exigent","Forestall","Heterogeneous"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Propriety (n.)","Conformity to accepted standards of behaviour","decorum, etiquette"],
+["Preclusive (adj.)","Preventing something from happening","preventive"],
+["Canvass (v.)","To solicit votes, opinions or orders","campaign, poll"],
+["Exigent (adj.)","Pressing; demanding immediate attention","urgent, critical"],
+["Requisition (n.)","An official order claiming materials","order, request"],
+["Carouse (v.)","To drink and make merry noisily","revel"],
+["Forestall (v.)","To prevent by acting in advance","pre-empt, avert"],
+["Tranquil (adj.)","Calm and free from disturbance","peaceful, serene"],
+["Heterogeneous (adj.)","Made of different kinds; diverse","varied, mixed (opposite: homogeneous)"],
+["Unctuous (adj.)","Excessively flattering; oily","obsequious, smarmy"]]}},
+{"h":"Spelling note","p":["The verb meaning to solicit votes is 'canvass'. 'Canvas' (one s) is a type of cloth."]}
+],
+"activity":"Write five sentences using: propriety, exigent, carouse, tranquil, heterogeneous. Which word describes a very diverse mixture? (heterogeneous.) What does it mean to forestall a problem? (To prevent it by acting early.)",
+"check":[
+{"q":"The verb meaning to solicit votes is spelt","o":["Canvass","Canvas","Canvasse","Kanvass"]},
+{"q":"'Exigent' means","o":["Urgent","Slow","Calm","Funny"]},
+{"q":"To 'forestall' is to","o":["Prevent in advance","Delay","Repeat","Forget"]},
+{"q":"'Heterogeneous' means","o":["Diverse","Identical","Quiet","Old"]},
+{"q":"'Unctuous' describes","o":["Over-flattering behaviour","Honest talk","Silence","Anger"]}]},
+
+{"id":"e22-28","week":10,"title":"Structure: Three-Part Phrasal Verbs","icon":"Layers","summary":"Ten common three-part phrasal verbs (verb + adverb + preposition) with meanings and examples.",
+"keyWords":["Phrasal verb","Particle","Idiom","Put up with","Come up with"]
+,"sections":[
+{"h":"What they are","p":["Phrasal verbs are a verb plus one or two particles (adverbs or prepositions) that together give a new meaning that is not always clear from the separate words. Three-part phrasal verbs follow the pattern verb + adverb + preposition. They are idiomatic, so learn each as a whole."]},
+{"h":"Ten essential ones","p":["Study the table."],
+"tbl":{"head":["Phrasal verb","Meaning","Example"],"rows":[
+["put up with","tolerate","I cannot put up with his complaining."],
+["look up to","admire and respect","Young athletes look up to their idols."],
+["look down on","regard with contempt","It is unkind to look down on people who have less."],
+["get away with","escape blame or punishment","He thought he could get away with cheating."],
+["come up with","think of or produce","We need to come up with a better plan."],
+["do away with","abolish","The firm decided to do away with the strict dress code."],
+["run out of","use up the supply","We ran out of fuel near the station."],
+["cut down on","reduce","The doctor told him to cut down on salt."],
+["keep up with","go at the same pace as","She walks so fast it's hard to keep up with her."],
+["face up to","accept and deal with","He had to face up to the fact that he had failed."]]}}
+],
+"activity":"Fill in: (a) I can't put up ___ your bad behaviour (with); (b) We must come up ___ a solution (with); (c) She looks up ___ her sister (to); (d) We've run out ___ milk (of); (e) The school should do away ___ this rule (with). Write 50 to 70 words about a school problem using two of the phrasal verbs.",
+"check":[
+{"q":"'Put up with' means","o":["Tolerate","Raise","Build","Hang"]},
+{"q":"'Look down on' means","o":["Despise","Admire","Search","Fall"]},
+{"q":"'Come up with' means","o":["Think of","Arrive","Climb","Fall back"]},
+{"q":"'Run out of' means","o":["Have none left","Run away from","Exercise","Cross"]},
+{"q":"'Do away with' means","o":["Abolish","Perform","Wash","Make"]}]},
+
+{"id":"e22-29","week":10,"title":"Writing: Articles for a Public Audience","icon":"Target","summary":"How to write a magazine or newspaper article with a headline, by-line, hooking opening, structured body and conclusion, and how it differs from a formal letter.",
+"keyWords":["Article","Headline","By-line","Hook","Audience"]
+,"sections":[
+{"h":"What is an article?","p":["An article is a piece written for a newspaper, magazine or online platform. Unlike a formal letter, it speaks to a wide public audience. Its purpose may be to inform, persuade or entertain, and its tone can be set to match."]},
+{"h":"Structure","p":["1. Headline: catchy and engaging, giving a clear idea of the content (for example 'The Silent Epidemic: Fighting Loneliness in a Hyper-Connected World'). 2. By-line: the author's name, sometimes with a role (By Adeola Samuel, SS2 student and youth columnist). 3. Introduction (the hook): grab attention at once with a surprising statistic, a rhetorical question, a short story or a bold statement. 4. Body: several paragraphs, each on one main idea, with facts, examples, quotations and reasoning. 5. Conclusion: a satisfying ending: sum up, offer a solution, make a prediction or end with a call to action."]},
+{"h":"Article and formal letter","p":["Study the table."],
+"tbl":{"head":["Feature","Article","Formal letter"],"rows":[
+["Addresses","None","Your address and the recipient's"],
+["Salutation","None","Dear Sir/Madam"],
+["Closing","None","Yours faithfully"],
+["Audience","General public","A specific person or organisation"],
+["Layout","Headline and by-line","Full letter format"]]}}
+],
+"activity":"Write a 250 to 300-word article for your school magazine on 'The importance of extracurricular activities', 'How young people can help the environment' or 'The double-edged sword of social media', with a headline, by-line, hook, body and conclusion.",
+"check":[
+{"q":"A headline should be","o":["Catchy and clear","Very long","Missing","A list of names"]},
+{"q":"An article has no","o":["Salutation or 'Yours faithfully'","Introduction","Body","Headline"]},
+{"q":"The by-line shows the","o":["Author","Date","Price","Paper"]},
+{"q":"A hook is","o":["An opening that grabs attention","The conclusion","The title","A footnote"]},
+{"q":"The audience of an article is the","o":["General public","One manager","The writer only","A bank"]}]},
+
+{"id":"e22-30","week":10,"title":"Vocabulary: Building, and Words of the Week 10","icon":"BookOpen","summary":"Building words from foundation to roof (including culvert and truss) and ten more words: ideograph, mycophobia, closely, grunge, unsightly, wishy-washy, asylum, consensus and hospice.",
+"keyWords":["Culvert","Truss","Consensus","Asylum","Hospice"]
+,"sections":[
+{"h":"From foundation to roof","p":["Blueprint (a detailed plan); foundation (the lowest load-bearing part); scaffolding (temporary working platform); masonry (stone or brickwork); mortar (paste binding bricks); facade (the main front); lintel (support over a door or window); joist (beam under a floor or ceiling); girder (a large steel beam); buttress (support built against a wall); culvert (a tunnel or pipe carrying a stream or drain under a road or railway); truss (a framework supporting a roof or bridge)."]},
+{"h":"Words of the week 10","p":["Study the table."],
+"tbl":{"head":["Word","Meaning"],"rows":[
+["Culvert (n.)","A pipe or tunnel carrying a stream under a road"],
+["Ideograph (n.)","A written symbol for an idea, such as a Chinese character or the numeral 7"],
+["Mycophobia (n.)","An irrational fear of mushrooms"],
+["Closely (adv.)","With little space or time between; carefully"],
+["Grunge (n.)","Ingrained dirt; a raw style of rock music"],
+["Unsightly (adj.)","Ugly to look at"],
+["Wishy-washy (adj.)","Weak and indecisive (informal)"],
+["Asylum (n.)","Protection given to a political refugee"],
+["Consensus (n.)","General agreement"],
+["Hospice (n.)","A home that cares for the terminally ill"]]}}
+],
+"activity":"Draw a simple house and label five parts using the building words (foundation, facade, roof truss, window lintel and one more). Write four sentences using: unsightly, wishy-washy, asylum, consensus. What is a culvert used for? (Carrying a stream or drain under a road.)",
+"check":[
+{"q":"A 'culvert' carries","o":["A stream under a road","Electricity","Passengers","Wind"]},
+{"q":"'Consensus' means","o":["General agreement","Argument","A count","A vote against"]},
+{"q":"A 'hospice' cares for the","o":["Terminally ill","Lost children","Athletes","Tourists"]},
+{"q":"A truss supports a","o":["Roof or bridge","Garden","Kitchen sink","Door key"]},
+{"q":"'Unsightly' means","o":["Ugly","Invisible","Beautiful","Old"]}]},
+
+{"id":"e22-31","week":11,"title":"Structure: Active and Passive Voice","icon":"Layers","summary":"The difference between active and passive voice, the rules for changing one to the other and a table of conversion for each tense.",
+"keyWords":["Active voice","Passive voice","Agent","Past participle","Object"]
+,"sections":[
+{"h":"Voice","p":["Voice shows how the verb's action relates to the subject and object. Active voice: the subject performs the action ('The dog chased the cat'). Passive voice: the subject receives the action ('The cat was chased by the dog'); the focus is on the action or receiver, not the doer. The passive is common in formal and scientific writing."]},
+{"h":"Rules","p":["1. The object of the active sentence becomes the subject of the passive. 2. The verb becomes a form of 'to be' + the past participle (am, is, are, was, were, be, being, been). 3. The old subject becomes the agent introduced by 'by', or is left out if unknown or unimportant ('Someone has stolen my bicycle' becomes 'My bicycle has been stolen')."]},
+{"h":"Conversion by tense","p":["Study the table."],
+"tbl":{"head":["Tense","Active","Passive"],"rows":[
+["Simple present","He writes the letter.","The letter is written by him."],
+["Present continuous","He is writing the letter.","The letter is being written by him."],
+["Present perfect","He has written the letter.","The letter has been written by him."],
+["Simple past","He wrote the letter.","The letter was written by him."],
+["Past continuous","He was writing the letter.","The letter was being written by him."],
+["Past perfect","He had written the letter.","The letter had been written by him."],
+["Future (will)","He will write the letter.","The letter will be written by him."],
+["Modal (can)","He can write the letter.","The letter can be written by him."]]}},
+{"h":"Worked example","p":["Active: 'The chef is preparing the meal.' The object 'the meal' becomes the subject; 'is preparing' (present continuous) becomes 'is being prepared'; the subject becomes the agent 'by the chef'. Passive: 'The meal is being prepared by the chef.'"]}
+],
+"activity":"Change to passive: 'The company will launch the new product next month' (The new product will be launched by the company next month); 'The students are reading the books' (The books are being read by the students); 'Someone has stolen my bicycle' (My bicycle has been stolen); 'The government must address this issue' (This issue must be addressed by the government). Change to active: 'The window was broken by the children' (The children broke the window); 'A new shopping centre is being built in our town' (They are building a new shopping centre in our town).",
+"check":[
+{"q":"In the passive voice, the subject","o":["Receives the action","Performs the action","Is omitted always","Is a question"]},
+{"q":"The passive is formed with 'to be' and the","o":["Past participle","Infinitive","Present participle","Gerund"]},
+{"q":"'The letter was written by him' is","o":["Passive","Active","Imperative","Interrogative"]},
+{"q":"Passive of 'He has written the letter' is","o":["The letter has been written","The letter is written","The letter was written","The letter will be written"]},
+{"q":"The 'agent' is","o":["The doer in a passive sentence","The object","The verb","The adverb"]}]},
+
+{"id":"e22-32","week":11,"title":"Vocabulary: Technology","icon":"Zap","summary":"Fourteen words of the digital world: email, satellite, virus, password, software, hardware, internet, website, database, hacker, firewall, cloud computing, algorithm and artificial intelligence.",
+"keyWords":["Software","Hardware","Firewall","Cloud computing","Algorithm"]
+,"sections":[
+{"h":"The digital lexicon","p":["Study the table."],
+"tbl":{"head":["Word","Meaning"],"rows":[
+["Email","Messages sent and received electronically over a network"],
+["Satellite","An artificial object orbiting Earth for communication or collecting data"],
+["Virus","Code that copies itself and usually harms a system or destroys data"],
+["Password","A secret word or phrase needed to enter a system"],
+["Software","Programs and operating information used by a computer"],
+["Hardware","The physical parts of a computer (monitor, keyboard, hard drive)"],
+["Internet","A global computer network"],
+["Website","A location on the internet with one or more web pages"],
+["Database","A structured set of data stored in a computer"],
+["Hacker","A person who gains unauthorised access to data"],
+["Firewall","A security system that monitors and controls network traffic by set rules"],
+["Cloud computing","Storing and processing data on remote servers over the internet instead of a local computer"],
+["Algorithm","A set of rules for solving a problem, especially by computer"],
+["Artificial intelligence (AI)","Computer systems that can do tasks needing human intelligence, such as recognising speech and making decisions"]]}}
+],
+"activity":"Write an 80 to 100-word guide for an elderly person on staying safe online using at least four of: password, virus, hacker, firewall, internet. What is the difference between software and hardware? (Software is the programs; hardware is the physical parts.)",
+"check":[
+{"q":"The physical parts of a computer are","o":["Hardware","Software","A virus","A password"]},
+{"q":"A firewall","o":["Controls network traffic for security","Heats the computer","Prints pages","Stores music"]},
+{"q":"Cloud computing uses","o":["Remote servers","Only your own disk","Paper files","Radio only"]},
+{"q":"A hacker","o":["Gains unauthorised access","Repairs screens","Teaches algebra","Sells passwords legally"]},
+{"q":"An algorithm is a","o":["Set of rules for solving a problem","Type of cable","Website","Battery"]}]},
+
+{"id":"e22-33","week":11,"title":"Oral English: Recognising Stress Patterns","icon":"Zap","summary":"Primary and secondary stress, common patterns in two- and three-syllable words and the effect of suffixes on stress.",
+"keyWords":["Primary stress","Secondary stress","Stress pattern","Suffix","Syllable"]
+,"sections":[
+{"h":"Stress marks","p":["A stressed syllable is louder, longer and often higher. Primary stress is the strongest, marked with a high vertical line (ˈ) before the syllable. Secondary stress is weaker, marked with a low vertical line (ˌ). Wrong stress can make a word hard to understand."]},
+{"h":"Patterns","p":["Two-syllable words: stress on the first syllable (often nouns and adjectives): TAble, MOTHer, HAPpy; stress on the second (often verbs): preSENT, reCORD, deCIDE.","Three-syllable words: first syllable: HOSpital, MANagement; second: toMORrow, conDItion; third: engiNEER, volunTEER.","Suffixes that shift stress: -tion, -sion, -ic, -ity: the stress falls on the syllable before the suffix: inforMAtion, deCIsion, ecoNOmic, aBILity. Suffixes that usually do not change the stress of the root: -ful, -less, -ness, -ly (BEAUtiful, HOPEless)."]},
+{"h":"Note","p":["Your lesson notes say that 'MUSic' becomes 'muSIcal'. That is not right: the stress stays on the first syllable in 'MUsical'. Words like 'MEMory' and 'MEMorise' also keep the first-syllable stress. When in doubt, check the stress in a dictionary."]}
+],
+"activity":"Mark the primary stress: development (deVELopment), photography (phoTOgraphy), understand (underSTAND), afternoon (afterNOON), impossible (imPOSsible), politics (POLitics), political (poLITical), politician (politiCIan), telephone (TELephone), referee (refeREE). The pattern for 'computer' is x 'x x (comPUter).",
+"check":[
+{"q":"Primary stress is marked with","o":["ˈ before the syllable","ˌ before the syllable","Underlining","Bold only"]},
+{"q":"Stress in 'information' is on","o":["MA","IN","FOR","TION"]},
+{"q":"Stress in 'engineer' is on","o":["NEER","EN","GI","None"]},
+{"q":"Words ending -ity are stressed","o":["On the syllable before -ity","On -ity","On the first syllable always","Never"]},
+{"q":"Two-syllable verbs often stress the","o":["Second syllable","First syllable","Neither","Both"]}]},
+
+{"id":"e22-34","week":11,"title":"Vocabulary: Words of the Week 11","icon":"BookOpen","summary":"Ten words: nuzzle, platitude, feisty, oust, disarmament, vestige, exude, rattle, tantalizing and unbridled.",
+"keyWords":["Platitude","Oust","Vestige","Exude","Unbridled"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Nuzzle (v.)","To rub or push gently with the nose","snuggle, nestle"],
+["Platitude (n.)","An overused remark that lacks thought","cliché, truism"],
+["Feisty (adj.)","Lively, determined and brave","spirited, plucky"],
+["Oust (v.)","To drive out of a position","eject, topple"],
+["Disarmament (n.)","Reducing military forces and weapons","demilitarization"],
+["Vestige (n.)","A trace of something that has gone","remnant, relic"],
+["Exude (v.)","To discharge slowly; to show a quality strongly","emit, radiate"],
+["Rattle (v.)","To make a rapid knocking sound; to unnerve","fluster"],
+["Tantalizing (adj.)","Teasing with something out of reach","tempting, alluring"],
+["Unbridled (adj.)","Uncontrolled","unrestrained"]]}}
+],
+"activity":"Write five sentences using: nuzzle, feisty, vestige, exude, unbridled. What is a platitude? (A tired, overused remark.) If a person exudes confidence, what impression do they give? (That they are very confident.)",
+"check":[
+{"q":"To 'oust' a leader is to","o":["Drive them out","Elect them","Praise them","Copy them"]},
+{"q":"A 'platitude' is","o":["A clichéd remark","A flat surface","A greeting","A prize"]},
+{"q":"'Unbridled' means","o":["Uncontrolled","Tied","Married","Small"]},
+{"q":"A 'vestige' is a","o":["Trace","Coat","Mistake","Loan"]},
+{"q":"'Feisty' means","o":["Spirited","Sleepy","Dull","Shy"]}]},
+
+{"id":"e22-35","week":12,"title":"Revision","icon":"Target","summary":"A summary of the term's grammar, oral English, writing, comprehension and vocabulary with practice tasks.",
+"keyWords":["Revision","Grammar","Oral English","Writing","Vocabulary"]
+,"sections":[
+{"h":"Grammar and structure","p":["Possessive apostrophe: singular 's; plural in s '; irregular plural 's; joint (John and Mary's house) and separate (John's and Mary's houses); 'its' (possessive) against 'it's' (it is). Punctuation: colon after a complete clause to introduce; semi-colon to join related clauses or separate complex list items; hyphen in compound modifiers before a noun. Sentence types: declarative, interrogative, imperative, exclamatory. Pronouns: subject and object case, 'between you and me'; who, whom, whose, which, that. Reported speech: back-shift and changes of time words. Phrasal verbs: put up with, look up to, get away with, come up with, run out of. Active and passive voice across tenses."]},
+{"h":"Oral English","p":["Voiced and voiceless pairs (pat, bat; safe, save; price, prize). Intonation: falling for statements, commands and wh-questions; rising for yes/no questions, politeness, uncertainty and non-final list items; high-rising for surprise; fall-rise for doubt. Rhyme scheme: AABB, ABAB, ABBA, ABCB. Stress: two-syllable nouns first, verbs second; before -tion, -ic, -ity."]},
+{"h":"Writing","p":["Formal letter of complaint: address, date, recipient, salutation, heading, purpose-problem-remedy, 'Yours faithfully', signature, name. Informal letter: address, date, first-name salutation, flexible body, friendly closing. Short story: plot, character, setting, conflict, theme. Article: headline, by-line, hook, body, conclusion; no addresses or salutation."]},
+{"h":"Comprehension and vocabulary","p":["Main point and topic sentence; implied meaning (inference); note-making with abbreviations and an outline; critical evaluation: purpose, tone, bias, validity, reliability. Vocabulary: words of the week and the registers of the press, the environment, building and technology."]},
+{"h":"Practice","p":["Correct: 'The childrens toys were scattered' (children's). Punctuate: 'She needed the following items a passport a ticket and a suitcase' (items: a passport, a ticket and a suitcase). Choose: 'The person (who / whom) I met was friendly' (whom). Report: 'I will finish the project tomorrow,' she said (She said she would finish the project the next day). Passive: 'The company is launching a new product' (A new product is being launched by the company). Mark the stress: information, ability, understand, political."]}
+],
+"activity":"Do the practice items above in your notebook, then plan a formal letter of complaint about a faulty product.",
+"check":[
+{"q":"The possessive of 'children' is","o":["children's","childrens'","childrens","child's"]},
+{"q":"'Between you and ___'","o":["me","I","myself","we"]},
+{"q":"A formal letter begins 'Dear Sir/Madam' and ends","o":["Yours faithfully","Yours sincerely","Love","Cheers"]},
+{"q":"A yes/no question usually takes a","o":["Rising tone","Falling tone","Fall-rise tone","High-rising tone only"]},
+{"q":"'He said he was tired' is","o":["Reported speech","Passive voice","A command","A question"]}]}
+]

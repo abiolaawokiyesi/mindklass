@@ -1,0 +1,164 @@
+[
+{"id":"b22-10","week":6,"title":"Reproduction in Vertebrates: Fertilisation and the Mammalian System","icon":"Heart",
+"summary":"Gonads, gametes, external and internal fertilisation, and the male and female reproductive organs of a mammal.",
+"keyWords":["Gonad","Gamete","Zygote","External fertilisation","Internal fertilisation","Testis","Ovary"],
+"sections":[
+{"h":"Sexual reproduction","p":["Reproduction produces new individuals. In vertebrates (fish, amphibians, reptiles, birds and mammals) it is mostly sexual: a male gamete (sperm) joins with a female gamete (egg or ovum) to make a zygote. The gonads are the main sex organs that make the gametes: testes in males and ovaries in females.","External fertilisation takes place outside the female's body, usually in water (most fish and amphibians). The female lays eggs and the male sheds sperm over them. Internal fertilisation takes place inside the female's body (reptiles, birds and mammals). Fewer eggs are needed because more of them are fertilised and protected."]},
+{"h":"The male system of a mammal","p":["Testes (2): make sperm and the hormone testosterone. They hang in the scrotum, where the temperature is about 2 to 3 °C lower than the body, which sperm need. Epididymis: a coiled tube where sperm mature and are stored. Vas deferens (sperm duct): carries sperm to the urethra. Glands (seminal vesicles, prostate gland): add fluids that feed and carry the sperm; sperm plus the fluid is semen. Urethra: carries both semen and urine (never at the same time). Penis: places sperm inside the female."],"img":{"src":"bio2-human-repro.jpg","alt":"Side by side diagrams of the male and female mammalian reproductive systems with the organs labelled","cap":"The reproductive organs of a mammal."}},
+{"h":"The female system of a mammal","p":["Ovaries (2): make eggs and the hormones oestrogen and progesterone. Oviduct (Fallopian tube): has a funnel with cilia that catches the egg; fertilisation happens here; the egg is moved to the uterus. Uterus (womb): a muscular organ where the embryo implants and grows into a foetus. Cervix: the neck of the uterus; it opens wide in childbirth. Vagina: the birth canal and the place where sperm are deposited."]},
+{"h":"Checking the facts","p":["The lesson note says the urethra in males has a dual function (urine and semen); that is correct. In females the urethra only carries urine and opens separately from the vagina."]}
+],
+"activity":"Draw and label the female mammalian reproductive system and state the function of the oviduct and uterus. Explain why the testes are outside the body. Distinguish external from internal fertilisation with examples.",
+"check":[
+{"q":"Fertilisation in the female mammal normally takes place in the","o":["oviduct","uterus","vagina","ovary"]},
+{"q":"Sperm are stored and matured in the","o":["epididymis","vas deferens","scrotum only","prostate"]},
+{"q":"External fertilisation is typical of","o":["most fish and amphibians","birds","mammals","reptiles"]},
+{"q":"The hormone made by the testis is","o":["testosterone","oestrogen","insulin","ADH"]},
+{"q":"The foetus develops in the","o":["uterus","oviduct","ovary","cervix"]}
+]},
+
+{"id":"b22-11","week":6,"title":"Comparing Reproduction in Fish, Amphibians, Reptiles, Birds and Mammals","icon":"BarChart2",
+"summary":"A comparison of fertilisation, development and parental care in the five vertebrate classes, the amniotic egg and the trends in evolution.",
+"keyWords":["Oviparous","Viviparous","Metamorphosis","Amniotic egg","Placenta","Lactation"],
+"sections":[
+{"h":"The five classes compared","p":["Study the table.","Oviparous means egg-laying with development outside the mother's body. Viviparous means giving birth to live young that developed inside the mother."],"tbl":{"head":["Class","Fertilisation","Development","Key features and parental care"],"rows":[["Fish (e.g. tilapia)","External","External, in soft jelly-covered eggs","Very many small eggs; usually no parental care, so many young die"],["Amphibians (e.g. frog)","External","External, in water or damp places","Tadpole (larva) changes into adult by metamorphosis; little or no parental care"],["Reptiles (e.g. lizard, snake)","Internal","External, in leathery-shelled eggs","Amniotic egg with membranes (amnion, chorion, allantois, yolk sac); no larva; usually little care"],["Birds (e.g. hen)","Internal","External, in hard-shelled eggs","Eggs must be kept warm (incubated); parents feed and protect the chicks"],["Mammals (e.g. goat, human)","Internal","Internal, in the uterus","Placenta feeds the foetus; milk from mammary glands (lactation); long parental care"]]}},
+{"h":"The amniotic egg","p":["The amniotic egg is a 'private pond' for the embryo. A shell protects it; the amnion holds a watery liquid that cushions it; the yolk sac is food; the allantois stores waste and helps with gas exchange; the chorion lets oxygen in. It lets reptiles and birds lay eggs on dry land, so they no longer need water to breed. This was a major step in evolution."],"img":{"src":"bio2-bird-embryo.jpg","alt":"A cutaway of a bird's egg showing the embryo, yolk, albumen, amnion, allantois, air space and shell","cap":"The structure of a bird's egg."}},
+{"h":"Trends from fish to mammals","p":["1. Fertilisation changes from external to internal (suits life on land). 2. The egg changes from a soft jelly egg to a shelled amniotic egg, and then to development inside the mother. 3. Fewer eggs or young are produced but each has a better chance of survival. 4. Parental care increases in length and complexity.","Notes and exceptions: some fish (sharks, guppies) have internal fertilisation and even give birth to live young; some snakes and lizards also give birth to live young; and the platypus and echidna are mammals that lay eggs (monotremes). These exceptions show that the table gives the general pattern."]},
+{"h":"Birds versus mammals","p":["Birds: internal fertilisation; the egg is laid with a hard shell and the chick develops outside, kept warm by the parent; parents feed it. Mammals: internal fertilisation and internal development; the placenta passes food and oxygen from mother to foetus and takes away waste; after birth, the young are fed on milk. Both show a lot of parental care."]}
+],
+"activity":"Draw a comparison table for fish, frog, lizard, bird and mammal. Explain why the amniotic egg was a breakthrough for life on land. Open a fertilised egg under supervision and find the yolk, albumen and chalazae.",
+"check":[
+{"q":"Which class has a larval stage (tadpole) and metamorphosis?","o":["Amphibians","Reptiles","Birds","Mammals"]},
+{"q":"The amniotic egg first allowed reproduction","o":["on dry land","in water only","in the air","underground only"]},
+{"q":"Live birth with a placenta is typical of","o":["mammals","reptiles","birds","amphibians"]},
+{"q":"Which fish-like feature increases the chance of survival of young in mammals?","o":["Parental care and internal development","Large numbers of eggs","External fertilisation","Jelly eggs"]},
+{"q":"The yolk sac of an egg provides","o":["food","oxygen only","shell","sperm"]}
+]},
+
+{"id":"b22-12","week":8,"title":"The Flower and Its Parts","icon":"Target",
+"summary":"The structure and functions of the parts of a flower, from the sepals to the ovule, and how the ovary becomes a fruit and the ovule a seed.",
+"keyWords":["Calyx","Corolla","Stamen","Carpel","Ovary","Ovule"],
+"sections":[
+{"h":"The flower: a shoot for reproduction","p":["A flower is the reproductive organ of a flowering plant (angiosperm). It is a shoot whose leaves have changed to do the job of reproduction."],"img":{"src":"bio2-flower.jpg","alt":"A longitudinal section of a flower with the sepal, petal, stamen with anther and filament, and carpel with stigma, style, ovary and ovule labelled","cap":"The parts of a flower."}},
+{"h":"Parts that are not directly reproductive","p":["Pedicel: the stalk of a flower. Receptacle: the swollen tip of the pedicel on which the floral parts are fixed. Calyx (the sepals): the outer ring, usually green, which protects the flower while it is still a bud. Corolla (the petals): the next ring, often bright and scented; it attracts insects and other pollinators."]},
+{"h":"The male parts: androecium","p":["The androecium is made of the stamens. Each stamen has a filament (the thin stalk) and an anther (usually two lobes), which makes pollen grains. Each pollen grain holds the male gamete cells."]},
+{"h":"The female parts: gynoecium (pistil)","p":["The gynoecium is made of one or more carpels. Each carpel has a stigma (the sticky top that catches pollen), a style (the tube joining the stigma to the ovary) and an ovary (the swollen base) that contains ovules. Each ovule has an embryo sac with the egg cell.","After fertilisation, the ovule becomes the seed and the ovary becomes the fruit. So 'the ovary becomes the fruit and the ovule becomes the seed'."]},
+{"h":"How to dissect a flower","p":["Use a hibiscus or pride-of-Barbados flower. Remove the sepals and petals, then the stamens. Cut the ovary in half lengthwise with a blade and look at the ovules with a hand lens. Stick the parts on paper and label them. Note whether the flower is bisexual (both stamens and carpels) or unisexual."]}
+],
+"activity":"Draw a longitudinal section of a bisexual flower and state the functions of the anther, stigma and ovary. Dissect a local flower and mount the parts. Explain the statement: 'the ovary becomes the fruit and the ovule becomes the seed.'",
+"check":[
+{"q":"The part of the flower that makes pollen is the","o":["anther","stigma","ovary","sepal"]},
+{"q":"The sticky tip that catches pollen is the","o":["stigma","style","filament","receptacle"]},
+{"q":"After fertilisation, the ovule becomes the","o":["seed","fruit","petal","style"]},
+{"q":"The sepals together form the","o":["calyx","corolla","androecium","gynoecium"]},
+{"q":"The petals mainly","o":["attract pollinators","make pollen","hold the ovules","store food"]}
+]},
+
+{"id":"b22-13","week":8,"title":"Types of Flowers: Bisexual, Unisexual, Monoecious, Dioecious, Monocot and Dicot","icon":"Layers",
+"summary":"Classifying flowers by their sex organs and plants by where the male and female flowers are, plus a comparison of monocot and dicot flowers.",
+"keyWords":["Bisexual","Unisexual","Monoecious","Dioecious","Monocot","Dicot"],
+"sections":[
+{"h":"By the sex organs in the flower","p":["Bisexual (hermaphrodite or perfect) flowers have both stamens and carpels, for example hibiscus, tomato, pride of Barbados. Unisexual (imperfect) flowers have only one sex: a staminate (male) flower has stamens only; a pistillate (female) flower has carpels only."]},
+{"h":"By where the unisexual flowers are found","p":["Monoecious plants ('one house') carry male and female flowers on the same plant, for example maize (the male flowers form the tassel at the top and the female flowers form the cob), coconut, cucumber and castor oil. Dioecious plants ('two houses') have male flowers on one plant and female flowers on another, for example pawpaw (most plants) and date palm. In dioecious plants a male plant must be near females for pollination to occur."]},
+{"h":"Monocot and dicot flowers","p":["Study the table."],"tbl":{"head":["Feature","Monocotyledon (e.g. lily, grass, maize)","Dicotyledon (e.g. hibiscus, rose, bean)"],"rows":[["Number of floral parts","In threes or multiples of three","In fours or fives, or multiples"],["Sepals and petals","Often alike in colour and shape (called tepals)","Usually different: green sepals and coloured petals"],["Leaf veins","Parallel","Net-like (reticulate)"],["Seed leaves","One","Two"],["Roots","Fibrous","Tap root"]]}},
+{"h":"Worked example","p":["A flower has 6 petals and 6 stamens. It is probably a monocot, because 6 is a multiple of 3. (To be sure, also check the leaf veins: if they are parallel, it is a monocot.)"]},
+{"h":"Corrections and cautions","p":["The lesson note names maize as monoecious: correct. Oil palm is also monoecious (male and female flower clusters on the same tree, at different times), so do not use it as a dioecious example. Rules about 'multiples of 3 or 4/5' are guides only; a few plants break them."]}
+],
+"activity":"Distinguish between a monoecious plant and a dioecious plant with an example of each. Classify a hibiscus flower as bisexual or unisexual, and as monocot or dicot, with reasons. Compare the flowers of maize and bean.",
+"check":[
+{"q":"A flower with both stamens and carpels is","o":["bisexual","unisexual","staminate","pistillate"]},
+{"q":"Maize is","o":["monoecious","dioecious","bisexual","a dicot"]},
+{"q":"A plant with male flowers on one plant and female on another is","o":["dioecious","monoecious","bisexual","self-pollinating"]},
+{"q":"Floral parts in threes suggest a","o":["monocot","dicot","fern","moss"]},
+{"q":"Which has net-like leaf veins?","o":["Dicots","Monocots","Grasses","Maize"]}
+]},
+
+{"id":"b22-14","week":9,"title":"Pollination: Self and Cross","icon":"Zap",
+"summary":"What pollination is, how it differs from fertilisation, self- and cross-pollination and the ways plants avoid self-pollination.",
+"keyWords":["Pollination","Self-pollination","Cross-pollination","Dichogamy","Self-incompatibility","Herkogamy"],
+"sections":[
+{"h":"What is pollination?","p":["Pollination is the transfer of pollen grains from the anther to the stigma. It comes before fertilisation but is not the same. Fertilisation is the joining of the male gamete (from the pollen) with the egg cell in the ovule, after the pollen grain has grown a pollen tube down the style."],"img":{"src":"bio2-pollination.jpg","alt":"A diagram of self-pollination and cross-pollination between flowers","cap":"Self- and cross-pollination."}},
+{"h":"Self-pollination (autogamy)","p":["Pollen goes from the anther to the stigma of the same flower or another flower on the same plant. Because all the genes come from one parent, the offspring are almost identical to the parent and to each other (strictly, clones are produced only if the parent is pure-breeding).","Advantages: seed is certain even if pollinators are absent; the plant does not waste energy on petals, scent and nectar; good traits are kept. Disadvantages: little variation, so a disease can kill all the plants; harmful genes can appear (inbreeding depression); the crop may weaken over generations."]},
+{"h":"Cross-pollination (allogamy)","p":["Pollen goes from the anther of one plant to the stigma of a flower on a different plant of the same species. Advantages: new gene combinations, more variation and healthier, stronger offspring (hybrid vigour); a better chance of adapting to change. Disadvantages: depends on agents such as wind and insects; uncertain; much pollen is wasted; the plant must spend energy on attracting pollinators."]},
+{"h":"How plants avoid self-pollination","p":["Dichogamy: the anthers and stigmas ripen at different times. Protandry: the anthers ripen first (sunflower). Protogyny: the stigma ripens first (avocado pear).","Self-incompatibility: the plant's own pollen cannot grow on its own stigma, or the pollen tube stops in the style (cocoa).","Herkogamy (structural barrier): the stigma is higher or lower than the anthers so that pollen cannot fall on it (primrose).","Dioecious plants: male and female flowers on different plants (pawpaw). Monoecious plants such as maize also help cross-pollination because the male and female flowers are in different places."]}
+],
+"activity":"Define pollination and distinguish it from fertilisation. State two advantages and two disadvantages of cross-pollination. Explain two ways a plant can avoid self-pollination. Debate: 'self-pollination is a dead end in evolution.'",
+"check":[
+{"q":"Transfer of pollen from anther to stigma is","o":["pollination","fertilisation","germination","dispersal"]},
+{"q":"Cross-pollination gives","o":["greater variation","identical offspring","certain seed set","no pollen waste"]},
+{"q":"When the stigma ripens before the anthers it is called","o":["protogyny","protandry","self-incompatibility","herkogamy"]},
+{"q":"A disadvantage of self-pollination is","o":["little genetic variation","need for pollinators","wasted pollen","bright petals needed"]},
+{"q":"Fertilisation is the joining of","o":["male and female gametes","pollen and stigma","anther and ovary","petals and sepals"]}
+]},
+
+{"id":"b22-15","week":9,"title":"Agents of Pollination: Wind, Insects, Birds and Bats","icon":"Target",
+"summary":"The adaptations of flowers and pollen to wind, insects, birds and bats, with examples and a comparison of wind- and insect-pollinated flowers.",
+"keyWords":["Anemophily","Entomophily","Ornithophily","Chiropterophily","Nectar","Stigma"],
+"sections":[
+{"h":"Four main agents","p":["Study the table."],"tbl":{"head":["Agent","Flower adaptations","Pollen adaptations","Examples"],"rows":[["Wind (anemophily)","Small, dull, no scent or nectar; stamens hang outside the flower; large, feathery, long stigmas to catch pollen","Light, smooth, dry and dusty; made in huge amounts","Grasses, maize, rice, millet, sugar cane"],["Insects (entomophily)","Large, bright petals; scent; nectar; guide marks that show insects the way in; sticky stigma inside the flower","Sticky or spiny to cling to the insect; made in smaller amounts","Hibiscus, sunflower, pride of Barbados, orange, beans, orchids"],["Birds (ornithophily)","Bright red or orange; tubular; lots of watery nectar; little scent (birds smell poorly)","Sticky","Some hibiscus, kapok (silk cotton tree), Erythrina (coral tree)"],["Bats (chiropterophily)","Open at night; large and strong; dull white or green; strong musty or fruity smell","Plenty, sticky","Baobab, Parkia (locust bean tree, 'dawadawa'), agave"]]}},
+{"h":"Wind and insect flowers compared","p":["A wind-pollinated flower such as maize has exposed, hanging stamens that shake pollen into the wind, and feathery stigmas. A disadvantage compared with insect pollination is that it is wasteful: much pollen is lost and the chance of reaching a stigma is small. An insect-pollinated flower such as hibiscus 'advertises' with colour and scent, rewards the visitor with nectar, and places sticky pollen on the insect's body, so pollen reaches the right flower more accurately."]},
+{"h":"Three adaptations of an insect-pollinated flower","p":["1. Large coloured petals attract insects from a distance. 2. Nectar gives the insect a reward so it keeps coming back. 3. Sticky or rough pollen sticks to the insect's body and is carried to the next flower. 4. A sticky stigma inside the flower catches pollen from the visiting insect."]},
+{"h":"Why this matters to people","p":["Many crops need insect pollinators. In Nigeria, bees pollinate cashew, oranges, melon and cowpea. Protecting bees from careless pesticide use protects our food. Bats pollinate and spread seeds of the locust bean tree. Learn to see farms as part of the ecosystem."]}
+],
+"activity":"Design an investigation to find which insect visits a flower in your garden: record the visitors, the time and what they do. Draw a poster to compare wind and insect pollination with local examples. Describe three characteristics of an insect-pollinated flower and how each helps.",
+"check":[
+{"q":"A grass flower is usually pollinated by","o":["wind","bats","birds","water"]},
+{"q":"Wind-pollinated flowers usually have","o":["feathery stigmas","bright petals","nectar","strong scent"]},
+{"q":"Bat-pollinated flowers","o":["open at night","are bright red","are small","have no smell"]},
+{"q":"Pollen of insect-pollinated flowers is","o":["sticky or spiny","very light and smooth","made in huge amounts","dry and dusty"]},
+{"q":"Nectar is produced to","o":["reward pollinators","feed the stem","store water","attract wind"]}
+]},
+
+{"id":"b22-16","week":10,"title":"Homeostasis and Temperature Control","icon":"Heart",
+"summary":"The meaning of homeostasis, negative feedback, and how the body keeps its temperature steady in hot and cold conditions.",
+"keyWords":["Homeostasis","Negative feedback","Hypothalamus","Vasodilation","Vasoconstriction","Shivering"],
+"sections":[
+{"h":"What is homeostasis?","p":["Homeostasis is the keeping of a steady internal environment in the body even when the outside conditions change. Cells and enzymes work best in narrow conditions. Examples of conditions that are regulated: body temperature (about 37 °C), blood glucose, water and salt content, blood pH and blood pressure."]},
+{"h":"Negative feedback","p":["Homeostasis works mainly by negative feedback. A change is detected, and the body acts to reverse it and bring the level back to the set point. Steps: stimulus (a change) → receptor (detects it) → control centre (the brain or an organ that compares it with the set point) → effector (a muscle or gland that acts) → response (restores normal level), and the loop goes on. Think of an air-conditioner with a thermostat: when the room is too hot it switches on; when it is cool enough it switches off."],"img":{"src":"bio2-feedback.jpg","alt":"A negative feedback loop from a stimulus to a receptor, control centre, effector and response, returning the condition to normal","cap":"A negative feedback loop."}},
+{"h":"Control of body temperature","p":["The control centre is the hypothalamus in the brain. It receives information from temperature receptors in the skin and in the blood.","If the body is too hot: vasodilation (the blood vessels in the skin widen, more blood flows near the surface and heat is lost by radiation); sweating (sweat evaporates and takes heat from the skin); the erector pili muscles relax and the hairs lie flat (less trapped air); behaviour, such as resting in shade and drinking.","If the body is too cold: vasoconstriction (the skin blood vessels narrow, less heat is lost); shivering (rapid muscle contractions release heat); the erector pili muscles contract and hairs stand up, trapping air (goose pimples; they are useful in furry animals but only a remnant in humans); thyroxine and adrenaline increase the metabolic rate; stopping sweating; behaviour, such as putting on clothes."],"img":{"src":"bio2-thermoregulation.jpg","alt":"A diagram of the skin showing sweat glands, blood vessels and hair muscles in hot and cold conditions","cap":"Temperature control by the skin."}},
+{"h":"Fever","p":["In an infection, the set point is raised, so the body feels cold and shivers until the temperature reaches the new level (fever). When the infection is over, the set point returns to normal and the body sweats. A very high fever (above 40 °C) is dangerous. Note: homeostasis is possible only in warm-blooded animals (birds and mammals) in the sense of keeping a constant body temperature; reptiles and fish depend on the surroundings."]}
+],
+"activity":"Define homeostasis and explain why it is important. Using temperature as an example, describe the sequence of events in negative feedback. Draw a labelled diagram showing how the body responds to a fall in outside temperature, with the brain, skin and muscles.",
+"check":[
+{"q":"The control centre for body temperature is the","o":["hypothalamus","pancreas","liver","kidney"]},
+{"q":"On a hot day, skin blood vessels","o":["widen (vasodilation)","narrow","close completely","burst"]},
+{"q":"Shivering","o":["produces heat","cools the body","stops sweating","widens vessels"]},
+{"q":"A negative feedback loop","o":["reverses a change","increases a change","has no receptor","ignores the set point"]},
+{"q":"Sweating cools the body because","o":["evaporation takes heat","sweat is cold","it widens the vessels","it makes hair stand up"]}
+]},
+
+{"id":"b22-17","week":10,"title":"Controlling Blood Sugar and Water: More Examples of Homeostasis","icon":"BarChart2",
+"summary":"Insulin and glucagon in blood glucose control, diabetes, and a recap of osmoregulation with ADH as negative feedback.",
+"keyWords":["Insulin","Glucagon","Pancreas","Diabetes mellitus","ADH","Osmoregulation"],
+"sections":[
+{"h":"Blood glucose","p":["The blood glucose level is kept at about 4 to 6 mmol per litre (roughly 70 to 100 mg per 100 ml). Special cells of the pancreas (islets of Langerhans) detect it and make two hormones that work in opposite ways.","After a meal, blood glucose rises. The pancreas releases insulin. Insulin makes the liver and muscle cells take up glucose and turn it into glycogen, and makes cells use more glucose. Blood glucose falls.","If blood glucose falls (between meals or in exercise), the pancreas releases glucagon. Glucagon makes the liver change glycogen to glucose, so blood glucose rises. Together insulin and glucagon are a negative feedback pair."]},
+{"h":"Diabetes mellitus","p":["In diabetes, the blood glucose stays too high. In type 1 diabetes the pancreas does not make enough insulin; the person needs insulin injections, a healthy diet and exercise. In type 2 diabetes, the body cells do not respond well to insulin; it is linked to overweight and lack of exercise, and is managed with diet, exercise and medicine. Signs: thirst, passing much urine, tiredness, weight loss and glucose in the urine. Untreated diabetes can damage the eyes, kidneys, nerves and heart."]},
+{"h":"Water balance with ADH","p":["This was explained in the first term. When the blood is too concentrated (dehydrated), the hypothalamus detects it, the pituitary releases more ADH, the collecting ducts reabsorb more water, and a small amount of concentrated urine is passed. When the blood is too dilute (over-hydrated), less ADH is released, less water is reabsorbed, and a large amount of dilute urine is passed. This is negative feedback."],"img":{"src":"bio2-adh.jpg","alt":"A diagram of ADH controlling water reabsorption in the kidney","cap":"ADH and the kidney."}},
+{"h":"Summary of homeostatic systems","p":["Compare these systems."],"tbl":{"head":["Condition","Control centre","Effectors","Result"],"rows":[["Temperature","Hypothalamus","Skin vessels, sweat glands, muscles","Steady 37 °C"],["Blood glucose","Pancreas","Insulin and glucagon acting on liver","Steady blood sugar"],["Water","Hypothalamus and pituitary","ADH acting on kidney tubules","Steady water content"]]}}
+],
+"activity":"Explain how insulin and glucagon keep blood glucose steady. Describe the signs of diabetes. Design an experiment to see how drinking water or exercise changes urine production, and predict the result.",
+"check":[
+{"q":"The hormone that lowers blood glucose is","o":["insulin","glucagon","ADH","adrenaline"]},
+{"q":"Glucagon causes the liver to change","o":["glycogen to glucose","glucose to glycogen","protein to fat","urea to glucose"]},
+{"q":"Which organ makes insulin?","o":["Pancreas","Liver","Kidney","Stomach"]},
+{"q":"A sign of diabetes is","o":["glucose in the urine","blue skin","low pulse","too little thirst"]},
+{"q":"When the blood is too concentrated, the body releases more","o":["ADH","insulin","glucagon","bile"]}
+]},
+
+{"id":"b22-18","week":11,"title":"Second Term Revision","icon":"Star",
+"summary":"A revision guide of the term's topics with worked answers to the self-test questions on pollination, reproduction, a crop disease, cold-response and negative feedback.",
+"keyWords":["Revision","Symbiosis","Eutrophication","Vector","Negative feedback"],
+"sections":[
+{"h":"Topic checklist","p":["Ecology: levels of organisation; the five associations (mutualism, commensalism, parasitism, predation, competition) with examples; Shelford's law; structural, physiological and behavioural adaptations.","Pollution: air, water, soil and noise: three causes, three effects and three controls each; eutrophication in steps.","Conservation: conservation and preservation; methods for soil, water, forest and wildlife.","Pests and diseases: biting, piercing and boring pests; fungal, bacterial and viral diseases; five kinds of control.","Vertebrate reproduction: external and internal fertilisation; the amniotic egg; the trends from fish to mammals.","Plants: parts of a flower; bisexual or unisexual; monoecious or dioecious; monocot or dicot; pollination, its types, agents and adaptations.","Homeostasis: negative feedback; temperature control; blood sugar; water (ADH)."]},
+{"h":"Worked answers to the checkpoint","p":["1. Wind-pollinated flower: small, dull petals (no need to attract insects); stamens hang outside so that the wind can blow the light pollen away; long, feathery stigmas hang out to catch pollen from the air; pollen is light, smooth and plentiful. Disadvantage: it is wasteful and not accurate; most pollen never reaches a stigma, unlike insect pollination, where the insect carries pollen straight to another flower.","2. Reptile and mammal (lizard and goat): fertilisation is internal in both; the lizard lays leathery-shelled eggs outside the body, while the goat's young develop inside the uterus; the lizard's embryo feeds on yolk, the goat's foetus feeds through the placenta; the lizard gives no milk, the kid is fed on milk; the lizard gives little or no parental care, the goat gives a lot.","3. Maize with stunted growth and yellow streaks along the veins: this is maize streak virus. The vector is the leafhopper. Control: remove infected plants, use resistant varieties, spray insecticide on the leafhoppers or use a natural enemy, weed the field, and avoid planting near old maize.","4. Response to a fall in temperature: skin receptors detect the cold and send impulses to the hypothalamus. The hypothalamus sends impulses to the skin and muscles: the skin blood vessels narrow (vasoconstriction), sweating stops, the hairs stand up and trap air, the muscles shiver and release heat, and thyroxine and adrenaline raise metabolism. Body temperature returns to 37 °C.","5. Negative feedback with water: if the blood is too concentrated, more ADH is released and more water is reabsorbed; the blood becomes more dilute and ADH falls. If the blood is too dilute, less ADH is released and more water is lost in urine. The change is always reversed."]},
+{"h":"A reminder about study methods","p":["Use active recall (test yourself without notes), spaced revision, teaching a friend, and timed past questions. For each topic you rate 3 or less out of 5, write one action you will take."]}
+],
+"activity":"Create a master table of the five associations. Draw the eutrophication flow chart from memory. Complete a past paper for SS2 Biology second term and write the three most common errors you made.",
+"check":[
+{"q":"Maize streak virus is spread by","o":["leafhoppers","bats","rodents","wind only"]},
+{"q":"The ovary of a flower becomes a","o":["fruit","seed","petal","root"]},
+{"q":"Which is a feature of a wind-pollinated flower?","o":["Feathery stigma","Bright petals","Strong scent","Nectar"]},
+{"q":"The chief step that reverses a rise in blood sugar is the release of","o":["insulin","glucagon","ADH","thyroxine"]},
+{"q":"Oxygen shortage in a eutrophic lake is mainly caused by","o":["decomposers feeding on dead algae","fish breathing","cold water","wind"]}
+]}
+]

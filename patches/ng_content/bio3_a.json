@@ -1,0 +1,191 @@
+[
+{"id":"bi3-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Biology Third Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Micro-organisms","Habitat","Adaptation","Reproduction","Metamorphosis"],
+"sections":[
+{"h":"Welcome to Third Term","p":["In Third Term you finish the study of micro-organisms: how they grow, how they help and harm us, the diseases they cause and how we control them. You then explore the habitats where living things are found: the sea, estuaries, fresh water, marshes, forests, grasslands and deserts, and how plants and animals are adapted to each. The term ends with reproduction in single-celled organisms and some invertebrates.","Read each unit, study the diagrams, and draw them in your notebook. At the end of every unit are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for Third Term","p":["The units follow the scheme of work. Weeks 5 and 7 are midterm weeks."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Growth of micro-organisms; beneficial and harmful effects"],
+["3","1","Diseases caused by micro-organisms"],
+["4","2","Control of harmful micro-organisms and vectors"],
+["5","2","Maintaining good health and health organisations"],
+["6","3","Habitat: meaning, types and the marine habitat"],
+["7","3","Zones of the sea and adaptations to marine life"],
+["8","4","The estuarine (brackish water) habitat"],
+["9","4","The fresh water habitat"],
+["10","6","Terrestrial habitats: marsh and forest"],
+["11","8","Grassland (savanna)"],
+["12","8","Arid land (desert)"],
+["13","9","Reproduction: meaning and types of asexual reproduction"],
+["14","9","Reproduction in amoeba, paramecium and spirogyra"],
+["15","10","Reproduction in earthworm and cockroach"],
+["16","10","Reproduction in housefly and snail"]]}}
+],
+"activity":"Look at the units. Which one will help you to stay free from diseases? Which one explains why a camel can live in a desert?",
+"check":[
+{"q":"In which unit do you study the desert?","o":["Unit 12","Unit 3","Unit 6","Unit 15"]},
+{"q":"Which unit covers diseases caused by micro-organisms?","o":["Unit 3","Unit 9","Unit 11","Unit 16"]},
+{"q":"In which unit do you study reproduction in the cockroach?","o":["Unit 15","Unit 2","Unit 8","Unit 10"]},
+{"q":"Which unit covers the estuary?","o":["Unit 8","Unit 5","Unit 12","Unit 14"]}]},
+
+{"id":"bi3-02","week":1,"title":"Growth of Micro-organisms and Their Beneficial and Harmful Effects","icon":"Zap","summary":"How bacteria multiply, the four phases of bacterial growth, the methods used to measure growth, and the many ways micro-organisms help and harm us.",
+"keyWords":["Binary fission","Generation time","Lag phase","Exponential phase","Antibiotics"],
+"sections":[
+{"h":"How bacteria multiply","p":["Bacteria reproduce by binary fission: one cell divides into two, the two become four, then eight, and so on. This is asexual reproduction. The time a cell needs to divide into two is called the generation time. It is different for different organisms and depends on the supply of nutrients, the temperature, the gases available (for example oxygen) and the pH."]},
+{"h":"The four phases of growth","p":["If bacteria are put in a fresh nutrient medium and counted over time, the number of living cells follows a pattern with four phases.","1. Lag phase: the cells are getting used to the new medium and make enzymes. They grow in size but do not yet divide much, so numbers stay about the same.","2. Logarithmic (exponential) phase: the cells divide steadily at a constant rate. The number doubles every generation time and the curve rises steeply.","3. Stationary phase: food runs low and wastes build up, so new cells formed are balanced by cells that die. The number stays constant.","4. Decline (death) phase: more cells die than are formed because food is used up and poisonous wastes have collected. The number falls."],
+"img":{"src":"bio-growth-curve.png","alt":"A graph of number of living cells against time with four phases: a flat lag phase, a steep rise in the log phase, a level stationary phase and a falling decline phase","cap":"The growth curve of bacteria."}},
+{"h":"Measuring the growth of micro-organisms","p":["Turbidity method: as bacteria multiply, a clear liquid culture becomes cloudy (turbid). The cloudiness is measured with an instrument and tells us how many cells are present.","Serial dilution method: a sample is diluted step by step (for example 1 in 10 each time), a little of each dilution is spread on nutrient agar, and the colonies that grow are counted. The count is then multiplied by the dilution factor.","Squared transparent paper (cellophane) method: a squared transparent sheet is placed over the culture or colonies and the cells or colonies in a number of squares are counted to estimate the total."]},
+{"h":"Beneficial effects of micro-organisms","p":["Bacteria in the gut of herbivores help to digest cellulose. In humans, bacteria in the intestine make vitamin K and some B vitamins (including B12). Bacteria and fungi are used to make antibiotics such as penicillin. They are used to make amino acids and vinegar. Bacteria turn milk into yoghurt, cheese and other products with different tastes and flavours. They break down sewage into harmless inorganic substances. Microbial cultures make enzymes for industry. Yeast is a leavening agent that makes bread dough rise. Some algae fertilise the soil. Some micro-organisms are grown to make single-cell protein (SCP) as food. Decomposers recycle nutrients in the soil, and nitrogen-fixing bacteria such as Rhizobium help crops."]},
+{"h":"Harmful effects of micro-organisms","p":["They cause decay and spoilage of food. They damage materials such as wood, paper, textiles, rubber and some metals. They cause many diseases in humans, animals and plants (see the next unit)."]},
+{"h":"Summary","p":["Study the table."],
+"tbl":{"head":["Group","Useful to us for","Harmful to us because"],"rows":[
+["Bacteria","Yoghurt, cheese, vinegar, vitamins, antibiotics, sewage treatment","Cholera, typhoid, tuberculosis; food spoilage"],
+["Fungi","Bread (yeast), antibiotics, alcohol, decay of dead matter","Ringworm, food and wood decay, crop diseases"],
+["Algae","Soil fertility, food for fish, oxygen","Blooms that poison water"],
+["Viruses","Used in making vaccines","Measles, polio, influenza, rabies"]]}}
+],
+"activity":"Bacteria with a generation time of 20 minutes start as one cell. How many cells are there after 1 hour? (Three divisions: 1 → 2 → 4 → 8.)",
+"check":[
+{"q":"The time taken for a bacterial cell to divide in two is the","o":["Generation time","Lag time","Death time","Resting time"]},
+{"q":"In which phase do cells divide at a constant, steady rate?","o":["Exponential phase","Lag phase","Stationary phase","Decline phase"]},
+{"q":"Which is NOT a method of measuring growth of bacteria?","o":["Dry weight of leaves","Turbidity method","Serial dilution method","Squared transparent paper method"]},
+{"q":"Yeast is used in baking as a","o":["Leavening agent","Preservative","Dye","Fuel"]},
+{"q":"Bacteria in the human intestine make vitamin","o":["K","A","C","D"]},
+{"q":"In the stationary phase","o":["Births balance deaths","All cells die","Cells stop feeding","Only new cells form"]}]},
+
+{"id":"bi3-03","week":1,"title":"Diseases Caused by Micro-organisms","icon":"Heart","summary":"A table of common diseases of humans, the organism that causes each, the symptoms, how it spreads and how it is controlled.",
+"keyWords":["Pathogen","Symptoms","Transmission","Vector","Vaccination"]
+,"sections":[
+{"h":"Introduction","p":["A pathogen is a micro-organism that causes disease. Different diseases are caused by viruses, bacteria and protozoa. Each disease has its own symptoms (signs of illness), method of spreading (transmission) and way of control. Learn the table below by grouping the diseases by cause: virus, bacterium or protozoan."]},
+{"h":"Diseases caused by viruses","p":["Study the table."],
+"tbl":{"head":["Disease","Causative agent","Main symptoms","Transmission","Control"],"rows":[
+["Chickenpox","Varicella virus","Fever, tiredness, itchy blistery rash","Contact","Isolate the patient; use suitable drugs"],
+["Common cold","Rhinovirus","Cough, runny nose, shivering","Contact","Rest and take suitable medicine; avoid contact"],
+["Dengue","Dengue virus","Severe headache, pain behind the eyes, joint and muscle pain, rash, mild bleeding","Aedes mosquito","Drain standing water; clear bushes"],
+["Measles","Measles virus","High temperature, sore red eyes, runny nose, white spots in the mouth, dry cough, rash","Contact (droplets)","Vaccination; take medicine; avoid contact"],
+["Poliomyelitis","Polio virus (an enterovirus)","Fever, sore throat, headache, vomiting, stiff neck and back, muscle weakness","Houseflies, food and water","Vaccination; good hygiene"],
+["Rabies","Rabies virus (a rhabdovirus)","Fever, cough, sore throat, fear of water","Bite of an infected (mad) dog","Vaccinate dogs; seek urgent medical help after a bite"],
+["Smallpox","Variola virus","High fever, vomiting, backache, raised spotted rash","Contact","Vaccination; avoid contact (now wiped out)"],
+["Influenza (flu)","Influenza virus (an orthomyxovirus)","Fever, muscle aches, cold, runny nose, sore throat","Contact; droplets","Take medicine; avoid contact"]]}},
+{"h":"Diseases caused by bacteria","p":["Study the table."],
+"tbl":{"head":["Disease","Causative agent","Main symptoms","Transmission","Control"],"rows":[
+["Cholera","Vibrio cholerae","Watery diarrhoea, vomiting, leg cramps","Flies, contaminated food and faeces, carriers","Personal hygiene; clean water"],
+["Diphtheria","Corynebacterium diphtheriae","Sore throat, hoarseness, painful swallowing, swollen neck glands, thick grey coating","Contact","Immunisation; antibiotics; avoid contact"],
+["Leprosy","Mycobacterium leprae","Skin sores and lumps, loss of feeling in arms and legs","Long, close contact","Antibiotics; early treatment"],
+["Pneumonia","Diplococcus pneumoniae","High fever, shaking chills, cough with phlegm, chest pain","Contact (droplets)","Antibiotics; avoid contact"],
+["Septic sore throat","Streptococcus","Fever, sore throat, swollen glands","Contact","Antibiotics; avoid contact"],
+["Tuberculosis (TB)","Mycobacterium tuberculosis","Tiredness, weight loss, night sweats, long cough","Droplets from coughing","Isolate patients; antibiotics; BCG vaccine"],
+["Tetanus","Clostridium tetani","Muscle spasms, stiff jaw, breathing problems","Bacteria in soil entering wounds","Treat wounds at once; vaccination"],
+["Typhoid fever","Salmonella typhi","Fever, abdominal pain, headache, tiredness, sometimes bloody stools","Flies, food, water","Treat water; personal hygiene; antibiotics"],
+["Whooping cough","Haemophilus pertussis (Bordetella pertussis)","Cough with a whooping sound","Coughing and sneezing","Vaccination; isolate patients"]]}},
+{"h":"Diseases caused by protozoa","p":["Study the table."],
+"tbl":{"head":["Disease","Causative agent","Main symptoms","Transmission","Control"],"rows":[
+["Malaria","Plasmodium","Chills, fever, headache, muscle aches, tiredness, vomiting","Bite of the female Anopheles mosquito","Drugs; insecticides; nets; drain swamps"],
+["Sleeping sickness","Trypanosoma brucei","Drowsiness by day, fever, headache, swollen glands, painful nodule at the bite","Bite of the tsetse fly","Clear bush around homes; insecticides; medicine"],
+["Diarrhoea (giardiasis)","Giardia intestinalis","Frequent watery stools, stomach cramps, nausea, vomiting","Contaminated stools, food and water","Personal hygiene; clean water"]]}},
+{"h":"Corrections to the source notes","p":["The notes give 'Hameophilius pertussis' as the cause of whooping cough. The correct names are Bordetella pertussis (the modern name) or Haemophilus pertussis (older name). Sleeping sickness is caused by Trypanosoma brucei, not 'Tryponosoma'. Diphtheria is caused by Corynebacterium diphtheriae. The notes call malaria's parasite 'Plasmodium', which is a protozoan."]}
+],
+"activity":"Put these into three lists: virus, bacterium, protozoan. Measles, cholera, malaria, tuberculosis, polio, sleeping sickness. (Virus: measles, polio; bacterium: cholera, tuberculosis; protozoan: malaria, sleeping sickness.)",
+"check":[
+{"q":"Cholera is caused by a","o":["Bacterium","Virus","Protozoan","Fungus"]},
+{"q":"Malaria is spread by the","o":["Female Anopheles mosquito","Housefly","Tsetse fly","Aedes mosquito"]},
+{"q":"Rabies is caused by a","o":["Virus","Bacterium","Protozoan","Alga"]},
+{"q":"Sleeping sickness is spread by the","o":["Tsetse fly","Housefly","Mosquito","Black fly"]},
+{"q":"Which disease is caused by Mycobacterium tuberculosis?","o":["Tuberculosis","Leprosy","Typhoid","Measles"]},
+{"q":"Tetanus bacteria enter the body through","o":["Wounds","Food only","Mosquito bites","Water only"]}]},
+
+{"id":"bi3-04","week":2,"title":"Control of Harmful Micro-organisms and Vectors","icon":"Shield","summary":"Ways of controlling harmful micro-organisms (heat, cold, drugs, salting, drying and sanitation) and how to control mosquitoes and houseflies.",
+"keyWords":["Pasteurisation","Antiseptic","Disinfectant","Dehydration","Vector"]
+,"sections":[
+{"h":"Controlling harmful micro-organisms","p":["Harmful microbes can be controlled by removing them, stopping their growth or killing them with physical agents or chemicals. Common methods:","1. High and low temperature: boiling or heating food, pasteurisation of milk (heating to a controlled temperature to kill harmful microbes without spoiling the quality), sterilisation of medical instruments, and freezing food, which slows the microbes down to a minimum.","2. Covering food to stop vectors and airborne microbes from reaching it.","3. Antibiotics such as penicillin, ampicillin, amoxicillin and tetracycline are drugs that kill or stop the growth of many bacteria. They do not work on viruses.","4. Antiseptics such as Dettol, chlorine water, medicated soap and hydrogen peroxide kill microbes or stop them multiplying and are gentle enough to be used on skin.","5. Disinfectants are stronger than antiseptics and are used on floors, toilets and surfaces in hospitals, warehouses and public buildings. Examples are Izal and Lysol. Both antiseptics and disinfectants should be diluted as the label directs.","6. High salinity (salting): salt applied to meat and fish draws water out of the microbes by osmosis, so their cells shrink (plasmolysis) and die.","7. Dehydration (drying): microbes need water. Dried fish and meat do not support their growth.","8. Sanitation: keeping the body and the environment clean.","9. Isolation of infected persons, for example patients with tuberculosis or cholera, to stop the disease spreading.","10. A balanced diet every day helps the body to resist disease."]},
+{"h":"Note on terms","p":["A bacteriostat stops the growth of bacteria; a bactericide kills bacteria. In the same way a fungistat stops fungi from growing and a fungicide kills them. A germicide kills germs in general."]},
+{"h":"Vectors and how to control them","p":["A vector is an animal that carries disease-causing organisms (pathogens) from one person to another.","Control of mosquitoes: drain swamps and stagnant water; clear bushes around houses; sleep under a mosquito net; spray rooms and swamps with insecticide; spray oil on water that cannot be drained (it blocks the breathing tubes of larvae and pupae); use insect repellent on the skin; take preventive drugs where advised; bury or cover broken pots and cans so they do not collect water.","Control of houseflies: spray with insecticide; destroy breeding places such as heaps of rubbish and dung; use poison baits; close or cover pit toilets; cover food; keep the environment clean."]}
+],
+"activity":"A family keeps meat for a week without a fridge. Suggest two ways to stop microbes from spoiling it. (Salting and drying.)",
+"check":[
+{"q":"Heating milk to kill harmful microbes without spoiling it is","o":["Pasteurisation","Salting","Dehydration","Isolation"]},
+{"q":"Salt preserves food because it","o":["Draws water out of microbial cells","Adds vitamins","Makes food sweet","Heats the food"]},
+{"q":"Which is NOT a vector?","o":["Snake","Housefly","Mosquito","Tsetse fly"]},
+{"q":"Spraying oil on stagnant water kills mosquito","o":["Larvae and pupae","Adults only","Eggs only","None"]},
+{"q":"Antibiotics are NOT effective against","o":["Viruses","Bacteria","Some fungi","Some protozoa"]},
+{"q":"Which is stronger?","o":["Disinfectant","Antiseptic","Soap","Water"]}]},
+
+{"id":"bi3-05","week":2,"title":"Maintaining Good Health and the Roles of Health Organisations","icon":"Heart","summary":"Refuse and sewage disposal, protecting water and food, and the work of the Ministry of Health, WHO, UNICEF, the Red Cross and UNESCO.",
+"keyWords":["Refuse","Sewage","WHO","UNICEF","Red Cross"]
+,"sections":[
+{"h":"Refuse disposal","p":["Refuse is the solid waste from homes and industries. Reckless dumping gives bad smells and gives breeding places to insects and rodents that spread diseases. Good ways to dispose of refuse: provide dustbins in good places; burn it in incinerators; dump it in an isolated area far from houses; bury it in a sanitary landfill. Recycling also reduces waste."]},
+{"h":"Sewage disposal","p":["Sewage is waste water from kitchens, laundries, bathrooms and toilets, together with urine and faeces. It can be disposed of in pit latrines (deep pits for faeces and urine), in septic tanks (water flushes the waste into a large tank dug in the ground) or by a community treatment plant, where sewage from many homes is collected and treated before it is let into rivers or the sea."]},
+{"h":"Protection of water","p":["Unclean water spreads cholera, typhoid and diarrhoea. Water can be protected and made safe by adding alum (which makes dirt settle), boiling before drinking, filtering after it cools, adding chlorine to kill germs, and storing it in clean covered containers."]},
+{"h":"Protection of food","p":["Keep food in a refrigerator or deep freezer; cook food properly; inspect food sold to the public; wash hands before and after eating; preserve food by canning; keep the place where food is prepared clean; keep food away from flies and dust."]},
+{"h":"Health organisations","p":["In Nigeria, health services are run through the Federal and State Ministries of Health and the University Teaching Hospitals. Countries also work together through international organisations to control disease and to give aid in the form of drugs, equipment and money."],
+"tbl":{"head":["Organisation","Main work"],"rows":[
+["World Health Organization (WHO)","The world's main agency for health. Set up in 1948. Helps governments to strengthen health services; trains health workers; promotes co-operation among scientific bodies; helps to improve nutrition, sanitation, housing and working conditions; promotes mother and child health; publishes medical information; supplies drugs and vaccines in emergencies."],
+["United Nations Children's Fund (UNICEF)","Gives emergency help to children in disease or famine areas; improves the feeding of undernourished children; cares for disabled children; immunises children against measles, whooping cough, polio and others; supplies clothing and other needs."],
+["International Red Cross","A humanitarian organisation. In war it cares for the wounded, gives emergency aid, helps to exchange prisoners, moves refugees and looks after the welfare of prisoners of war."],
+["UNESCO","Not a health body directly, but it helps health by raising the standard of education in developing countries."]]}},
+{"h":"A note on dates","p":["The source notes say WHO was established in 1964 and became operational in 1948, which cannot be right. The WHO constitution came into force on 7 April 1948 (now celebrated as World Health Day)."]}
+],
+"activity":"Your school has refuse piled behind the kitchen. List three health problems it can cause and three ways to deal with it.",
+"check":[
+{"q":"Which is a way of disposing of refuse?","o":["Sanitary landfill","Dumping in a river","Leaving it in the open","Feeding it to flies"]},
+{"q":"Alum added to water","o":["Makes dirt settle","Kills all germs","Makes it salty","Makes it hot"]},
+{"q":"Which organisation immunises children against measles?","o":["UNICEF","UNESCO","Red Cross","FIFA"]},
+{"q":"The world's main agency for health problems is","o":["WHO","UNESCO","UNICEF","IRC"]},
+{"q":"A septic tank is used to dispose of","o":["Sewage","Refuse","Food","Water"]}]},
+
+{"id":"bi3-06","week":3,"title":"Habitat: Meaning, Types and the Marine Habitat","icon":"Layers","summary":"What a habitat is, the three main types, the three kinds of aquatic habitat, and the characteristics of the marine (sea) habitat.",
+"keyWords":["Habitat","Aquatic","Terrestrial","Arboreal","Salinity"]
+,"sections":[
+{"h":"What is a habitat?","p":["A habitat is the place where an organism (plant, micro-organism or animal) is naturally found. For example, the habitat of a tadpole is the bottom of a freshwater pond or stream."]},
+{"h":"Types of habitat","p":["There are three main types. Aquatic habitat: in or around water. Terrestrial habitat: on or in the land. Arboreal habitat: on trees.","There are three kinds of aquatic habitat. Marine (salt water) habitat: oceans and seas. Brackish (estuarine) water habitat, where fresh water and salt water mix: deltas, lagoons and bays. Fresh water habitat, with little or no salt: lakes, rivers, streams and ponds."]},
+{"h":"Characteristics of the marine habitat","p":["1. It is the largest habitat in the biosphere, covering about 70% of the earth's surface.","2. It is the most stable habitat. Temperature, pH and density do not change suddenly.","3. It contains many dissolved ions, including sodium (Na⁺), potassium (K⁺), magnesium (Mg²⁺), calcium (Ca²⁺), chloride (Cl⁻), iodide (I⁻), nitrate (NO₃⁻) and phosphate (PO₄³⁻).","4. Sea water is slightly alkaline. Its pH is about 8.0 near the surface. (The source notes say 8.0 to 9.0; the usual value is about 8.1.)","5. Salinity, the amount of dissolved salt, is high: about 35 parts per thousand.","6. Its density is higher than that of fresh water (about 1.028 compared with 1.0), so many organisms float easily.","7. The temperature of the sea changes more slowly than that of land, and it falls with depth.","8. Oxygen is highest at the surface where air dissolves in the water, and it decreases with depth.","9. Waves are movements of the surface water caused by wind. They mix the water and can wear away the shore.","10. Tides are the rise and fall of the sea surface at least twice a day, caused by the gravitational pull of the moon and the sun on the earth's water."]}
+],
+"activity":"Give one example of an aquatic habitat, one terrestrial habitat and one arboreal habitat in Nigeria.",
+"check":[
+{"q":"A place where an organism is naturally found is its","o":["Habitat","Niche","Community","Population"]},
+{"q":"A lagoon is an example of a","o":["Brackish water habitat","Marine habitat","Fresh water habitat","Terrestrial habitat"]},
+{"q":"The average salinity of sea water is about","o":["35 parts per thousand","5 parts per thousand","0.5 parts per thousand","100 parts per thousand"]},
+{"q":"Sea water is more dense than fresh water, so organisms","o":["Float more easily","Sink more easily","Cannot float","Cannot swim"]},
+{"q":"Tides are mainly caused by the","o":["Moon and sun","Wind","Fish","Rivers"]},
+{"q":"Oxygen in the sea is highest","o":["At the surface","At the bottom","In the trench","In the mud"]}]},
+
+{"id":"bi3-07","week":3,"title":"Zones of the Sea and Adaptations to Marine Life","icon":"Target","summary":"The horizontal and vertical zones of the sea, the organisms found in each, how plants and animals are adapted to marine life, and marine food chains.",
+"keyWords":["Splash zone","Intertidal","Euphotic","Plankton","Nekton"]
+,"sections":[
+{"h":"Horizontal zones","p":["The marine habitat consists of the shore and the open sea. From the shore outwards the zones are:","1. Splash (supratidal) zone: the area above the high-tide mark that is only wetted by splashes when waves break. It is exposed and often dry.","2. Intertidal zone: the shore between the high-tide and low-tide marks. It is covered by water at high tide and exposed at low tide. Temperature, salinity and moisture change greatly.","3. Subtidal (neritic) zone: always under water, over the continental shelf to about 200 m deep. There is plenty of sunlight and nutrients, so it holds the richest life in the sea.","4. Oceanic (open sea) zone: the deep water beyond the continental shelf.","On the sea floor, the benthic zone is the bottom. In the deep ocean (the abyssal zone, about 4000 to 6000 m) and in deep trenches (the hadal zone, below about 6000 m) there is no light and no photosynthesis. Producers are absent, so food is made mainly by chemosynthesis near vents and the animals depend on food that sinks from above."]},
+{"h":"Vertical zones (by light)","p":["Euphotic zone: the top layer, in direct sunlight (about 0 to 200 m). Producers, consumers and decomposers all live here and photosynthesis takes place.","Disphotic zone: the middle layer with dim light (about 200 to 1000 m). There is too little light for photosynthesis, so only consumers and decomposers live here.","Aphotic zone: the deep, cold, dark water and sea floor with no light and few living things."],
+"img":{"src":"bio-marine-zones.png","alt":"A cross-section of the sea from the shore with splash, intertidal and subtidal zones, then the oceanic zone, with euphotic, disphotic and aphotic layers by depth","cap":"The zones of the marine habitat."}},
+{"h":"A note on zone names","p":["The source notes join several names in a confusing way (for example 'intertidal or neritic' and 'subtidal or littoral'). In standard biology the intertidal (littoral) zone is the shore between the tide marks, and the neritic zone is the shallow sea over the continental shelf. Learn the zones in the order shown in the diagram."]},
+{"h":"Distribution of organisms","p":["Splash zone: periwinkles, ghost crabs, seaweeds. Intertidal zone: starfish, sea anemones, sponges, sea urchins, annelid worms, molluscs and barnacles. Subtidal zone: snails, crabs, lobsters and crayfish. Neritic water: plankton (tiny floating organisms such as diatoms, algae, protozoa and small crustaceans) and nekton (strong swimmers such as fish, prawns and whales). Oceanic water: sharks, croaker, mackerel, bonga fish and many more. Benthic zone: only a few scavengers and saprophytes."]},
+{"h":"Adaptations of animals","p":["Barnacles have a protective shell that stops drying out (desiccation) and holds water, and they attach firmly to rocks. They feed with their cirri (feathery limbs).","Fishes: cartilaginous fish such as sharks keep urea in their blood so that their body fluids are as salty as the sea; bony fish such as tilapia have salt-secreting cells in the gills to keep their salt balance (osmoregulation). Fins give movement and balance; gills are for breathing.","Starfish have tube feet for holding on to rocks and moving.","Whales have fins for stability, a thick layer of fat (blubber) for insulation and food storage, and blowholes for breathing air. (The source notes say whales have 'an organ in front of the nostril' for sensing pressure.)","Shrimps have strong claws for holding food. Periwinkles have a foot for attaching to rocks and a shell. (The notes say periwinkles have lungs; marine periwinkles breathe with gills.) Crabs burrow into mud to hide from predators and strong waves."]},
+{"h":"Adaptations of plants","p":["Seaweeds have a holdfast for attaching to rocks, a slimy (mucilaginous) coating that prevents drying, and air bladders or divided fronds for floating. Algae such as Sargassum have chlorophyll for photosynthesis and small size or large surface area for floating. Plankton such as diatoms are tiny and have air spaces or oil droplets to keep them afloat."]},
+{"h":"Marine food chains","p":["Diatom → crab → tilapia. Diatom → zooplankton → tilapia → shark."]}
+],
+"activity":"Which zone of the sea has the most life, and why? (The subtidal/neritic zone, because it has plenty of light and nutrients.)",
+"check":[
+{"q":"The layer with enough light for photosynthesis is the","o":["Euphotic zone","Disphotic zone","Aphotic zone","Hadal zone"]},
+{"q":"A seaweed attaches to rocks with a","o":["Holdfast","Rhizoid root","Stilt root","Tendril"]},
+{"q":"Strong swimmers in the sea such as fish and whales are the","o":["Nekton","Plankton","Benthos","Producers"]},
+{"q":"The zone covered at high tide and exposed at low tide is the","o":["Intertidal zone","Splash zone","Abyssal zone","Oceanic zone"]},
+{"q":"A whale's thick layer of fat is for","o":["Insulation and food store","Flying","Digging","Breathing"]},
+{"q":"Which zone has no light at all?","o":["Aphotic zone","Euphotic zone","Splash zone","Intertidal zone"]}]},
+
+{"id":"bi3-08","week":4,"title":"The Estuarine (Brackish Water) Habitat","icon":"Layers","summary":"What an estuary is, its characteristics, its plants and animals and how they are adapted, and food chains in estuaries.",
+"keyWords":["Estuary","Brackish","Mangrove","Pneumatophore","Mudskipper"]
+,"sections":[
+{"h":"What is an estuary?","p":["An estuary is a body of water formed at the coast where fresh water flowing towards the sea mixes with sea water coming inland. It is a brackish water habitat. Examples are deltas, lagoons and bays, such as the Lagos Lagoon and the Niger Delta."]},
+{"h":"Characteristics of an estuary","p":["1. The salinity changes with the tides and with the season (it falls in the rainy season and rises in the dry season).","2. The density of the water is less than that of sea water.","3. The water is turbid (muddy) because it is often disturbed, so light penetration, photosynthesis and respiration by organisms are reduced.","4. The water is shallow.","5. There are fewer kinds of species than in the sea.","6. It has a high level of nutrients carried down by rivers.","7. Oxygen in the mud is low, so anaerobic activities are common."]},
+{"h":"Plants and their adaptations","p":["Plants found in estuaries include plankton (diatoms), algae, red mangrove and white mangrove.","Plankton such as diatoms have air spaces in their cells for buoyancy. Algae have chlorophyll for photosynthesis and a small size or large surface area for floating.","Red mangrove has stilt roots that support the plant in soft mud and stop the tide from washing it away. Its roots have air spaces that carry air to the root tissues. Its seeds germinate while still on the parent plant (this is called vivipary), so the young seedlings drop into the mud and are not carried away by the water.","White mangrove has pneumatophores (breathing roots) that stick up out of the mud for gaseous exchange."]},
+{"h":"Animals and their adaptations","p":["Mosquito larvae and pupae have breathing tubes (siphons or 'trumpets') that reach up to the surface. Crustaceans and water snails burrow into the mud to hide from predators, strong waves and tides. Worms have a tough, waterproof covering against changes in salinity. Mudskippers have strong fins for crawling on mud and swimming in water, and can breathe air through their skin. Fishes have fins for swimming and a swim bladder for buoyancy."]},
+{"h":"Food chains","p":["Detritus (dead organic matter) → worms → snails → birds. Diatoms → shrimps → fishes. Diatoms → small fish → sharks → man."]}
+],
+"activity":"Explain why mangrove trees have stilt roots and breathing roots. (Stilt roots support the tree in soft mud; breathing roots take in air because the mud has little oxygen.)",
+"check":[
+{"q":"An estuary is where","o":["Fresh water mixes with sea water","Rivers begin","Rain falls","Lakes dry"]},
+{"q":"Breathing roots (pneumatophores) are found in","o":["White mangrove","Red mangrove only","Seaweed","Water lily"]},
+{"q":"Seeds that germinate on the parent plant are found in","o":["Red mangrove","White mangrove","Water lettuce","Spirogyra"]},
+{"q":"Estuarine water is turbid, which means it is","o":["Muddy","Clear","Salty","Cold"]},
+{"q":"Which animal crawls on mud with its fins?","o":["Mudskipper","Shark","Whale","Barnacle"]},
+{"q":"Salinity in an estuary","o":["Changes with tides and seasons","Never changes","Is always higher than the sea","Is zero"]}]}
+]

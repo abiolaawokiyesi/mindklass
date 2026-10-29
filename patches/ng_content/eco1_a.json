@@ -1,0 +1,158 @@
+[
+{"id":"ec1-02","week":1,"title":"The Meaning of Economics","icon":"Landmark","summary":"Where the word economics comes from and the three famous definitions: Adam Smith's wealth definition, Marshall's welfare definition and Robbins' scarcity definition.",
+"keyWords":["Economics","Wealth","Welfare","Scarcity","Oikonomia"],
+"sections":[
+{"h":"Where the word comes from","p":["The word economics comes from the Greek word oikonomia, which means the management of a family or household. The subject was first studied in ancient Greece by thinkers such as Aristotle (384-322 BC). Between the sixteenth and eighteenth centuries, European traders called mercantilists thought of economics as the 'study of wealth'. Adam Smith, the 'Father of Economics', supported this view in the late eighteenth century.","Since then the subject has grown, and economists have given different definitions. They fall into three groups."]},
+{"h":"1. Adam Smith's wealth definition","p":["Adam Smith (1723-1790) was a Scottish economist. His book An Inquiry into the Nature and Causes of the Wealth of Nations (1776) treated economics as the science of wealth: how it is produced, consumed and built up. He said the aim of political economy is to increase the riches and power of a country. Unlike the mercantilists, he did not think wealth meant gold and silver. He defined wealth as goods and services that have value in exchange.","Key points: economics deals with the creation and sharing of wealth, and a market economy is guided by the 'invisible hand' of the price system."]},
+{"h":"2. Marshall's welfare definition","p":["Alfred Marshall wrote Principles of Economics (1890). He moved attention from wealth to human welfare. He said economics is 'a study of men as they live and move and think in the ordinary business of life'. Wealth is only a means to an end: the end is human welfare and well-being."]},
+{"h":"3. Robbins' scarcity definition","p":["The most widely accepted definition was given by Lord Robbins in 1932: 'Economics is the science which studies human behaviour as a relationship between ends and scarce means which have alternative uses.'","It rests on three ideas: (1) Wants are unlimited: people always want more, and luxuries become necessities. (2) Resources are scarce: the means to satisfy wants are limited. (3) Resources have alternative uses: they can be used in different ways, so choosing one means giving up another, which is called opportunity cost.","This definition applies to all societies, from a person alone on an island to a rich nation. It also makes economics a positive science, one that deals with facts rather than opinions."],
+"tbl":{"head":["Definition","Economist","Main idea"],"rows":[
+["Wealth","Adam Smith (1776)","Economics is the science of wealth"],
+["Welfare","Alfred Marshall (1890)","Economics studies people and their well-being"],
+["Scarcity","Lord Robbins (1932)","Economics studies choice when resources are scarce"]]}}
+],
+"activity":"In your own words, write what you think economics is, using one idea from each of the three definitions.",
+"check":[
+{"q":"The word 'economics' comes from the Greek word meaning","o":["Household management","Money making","Trade","Taxation"]},
+{"q":"Who wrote 'The Wealth of Nations'?","o":["Adam Smith","Alfred Marshall","Lord Robbins","Aristotle"]},
+{"q":"Which definition is based on scarcity and choice?","o":["Robbins'","Smith's","Marshall's","Aristotle's"]},
+{"q":"Marshall said wealth is","o":["A means to human welfare","The only goal","Worthless","Gold and silver"]},
+{"q":"In Robbins' definition, resources have","o":["Alternative uses","One use only","No use","Unlimited supply"]}]},
+
+{"id":"ec1-03","week":1,"title":"Nature, Scope and Basic Concepts of Economics","icon":"Layers","summary":"Economics as a social science, its branches, why it matters, and the key ideas: wants, scarcity, scale of preference, choice and opportunity cost.",
+"keyWords":["Microeconomics","Macroeconomics","Wants","Scarcity","Scale of preference","Opportunity cost"],
+"sections":[
+{"h":"Nature of economics","p":["Economics is a social science that studies how people make decisions. It is not only about money; it is about choices, such as what job to do, what to buy and what policy to follow. Every decision has a cost and a benefit (a trade-off)."]},
+{"h":"Scope of economics","p":["Microeconomics studies individuals and firms: demand, supply and production. Macroeconomics studies the whole economy: national income (GDP), inflation and unemployment. International economics studies trade, exchange rates and world institutions. Development economics studies growth and the reduction of poverty. Environmental economics studies the sustainable use of resources."]},
+{"h":"Importance of economics","p":["It helps society to use scarce resources well. It guides businesses, governments and consumers in decisions. It supports growth, fairer incomes and sustainable development, and it is needed for trade and finance. It also helps each of us to manage our own money."]},
+{"h":"Key concepts","p":["Wants: desires for goods and services that give satisfaction. They are unlimited, since new wants appear as old ones are met.","Scarcity: resources are limited but wants are unlimited, so people must choose.","Scale of preference: a list of our wants arranged in order of importance. A student's scale might be: 1. school uniform, 2. exercise books, 3. wristwatch, 4. dictionary.","Choice: selecting one option and giving up others because of scarcity.","Opportunity cost: the next best alternative that you give up when you choose. If you have N100 and choose a book instead of a calculator that also costs N100, the calculator is the opportunity cost."]}
+],
+"activity":"Write your own scale of preference of five things you want to buy this term, in order. What is the opportunity cost of your first choice?",
+"check":[
+{"q":"Economics is a","o":["Social science","Natural science only","Branch of art","Branch of law"]},
+{"q":"Macroeconomics studies","o":["The whole economy","One family only","One shop only","Only one firm"]},
+{"q":"A scale of preference is","o":["A list of wants in order of importance","A list of prices","A bank statement","A tax table"]},
+{"q":"Opportunity cost is","o":["The next best alternative given up","The price of a good","A kind of tax","Profit"]},
+{"q":"Scarcity exists because","o":["Wants are unlimited and resources limited","There is too much money","People are lazy","Shops are closed"]}]},
+
+{"id":"ec1-04","week":2,"title":"Basic Tools of Economic Analysis: Statistics, Averages and Tables","icon":"BarChart2","summary":"Why economists use mathematical tools, what statistics is, the measures of central tendency, and how to make and use a good table.",
+"keyWords":["Statistics","Mean","Median","Mode","Table"],
+"sections":[
+{"h":"Tools of analysis","p":["Economists use tables, charts, graphs, algebra and equations. These help them to predict and to see what economic theories mean in practice."]},
+{"h":"Statistics and its uses","p":["Statistics is the science of collecting, analysing and interpreting data. It is used to describe an event or result and so to save time, money and effort. It is also used to draw conclusions: policy makers use statistics to find the pattern hidden in data."]},
+{"h":"Measures of central tendency","p":["A measure of central tendency is an average figure that sits at the centre of a set of values. The main ones are the arithmetic mean (the sum of the values divided by their number), the median (the middle value when the values are put in order) and the mode (the most frequent value). The geometric and harmonic means are also used. Example: for the marks 2, 4, 4, 6, 9 the mean is 25 ÷ 5 = 5, the median is 4, and the mode is 4."]},
+{"h":"Tables","p":["A table is an orderly list of information in rows and columns that shortens data and makes it easy to understand.","Characteristics of a good table: simple; easy to understand; has a title; states the units; states its purpose; is numbered if there are many; gives its source if known.","Importance of tables: they summarise data, arrange it in order, make comparison easy, bring out the important features, help us understand the data and speed up decisions."]}
+],
+"activity":"Find the mean, median and mode of: 3, 5, 5, 7, 10. (Answers: mean 6, median 5, mode 5.) Then make a table of your last four test scores with a title and units.",
+"check":[
+{"q":"The mode is the","o":["Most frequent value","Middle value","Sum of all values","Smallest value"]},
+{"q":"The mean of 2, 4, 4, 6, 9 is","o":["5","4","6","9"]},
+{"q":"A good table must have a","o":["Title","Picture","Song","Signature"]},
+{"q":"Statistics is the science of","o":["Collecting, analysing and interpreting data","Selling goods","Making rules","Printing money"]},
+{"q":"The median is","o":["The middle value in order","The biggest value","The average of two modes","The count"]}]},
+
+{"id":"ec1-05","week":2,"title":"Graphs and Charts: Demand Graph, Pie, Bar Charts and Pictograms","icon":"BarChart2","summary":"How to draw a graph from a schedule, pie charts with degrees, simple, component and multiple bar charts, pictograms and the importance of charts.",
+"keyWords":["Graph","Pie chart","Simple bar chart","Component bar chart","Multiple bar chart","Pictogram"],
+"sections":[
+{"h":"Drawing a graph from a schedule","p":["A graph shows the relationship between two variables. Take a demand schedule for tins of milk: quantity 10 at price 1, 9 at 2, 8 at 3, 7 at 4, 6 at 5, 5 at 6, 4 at 7, 3 at 8, 2 at 9, 1 at 10. On the horizontal axis we put the quantity and on the vertical axis the price. For each pair we mark the point where the quantity line meets the price line (for example quantity 4 meets price 7). Joining the points gives the curve DD, a demand curve showing the relationship between price and quantity."],
+"img":{"src":"eco-demand-graph.png","alt":"A graph of price against quantity with a downward-sloping line DD through points from (1, 10) to (10, 1)","cap":"A demand curve drawn from a schedule: price falls as quantity rises."}},
+{"h":"Pie chart","p":["A pie chart is a circle divided into sectors. The whole circle (360°) stands for the whole data, and each sector shows the share of one item. Angle of a sector = (value ÷ total) × 360°. Percentage = (value ÷ total) × 100.","Example: the populations (in thousands) of three towns: A 70, B 100, C 30. Total = 200. Angle for A = 70/200 × 360° = 126°. B = 100/200 × 360° = 180°. C = 30/200 × 360° = 54°. Check: 126 + 180 + 54 = 360°. In percentages: A 35%, B 50%, C 15%."],
+"img":{"src":"eco-pie-chart.png","alt":"A pie chart of towns A, B and C with angles 126, 180 and 54 degrees","cap":"Pie chart of the populations of towns A, B and C."}},
+{"h":"Simple bar chart","p":["A simple bar chart is used for one category of data. The bars can be vertical or horizontal. Choose a suitable scale. The bars must have the same width and equal spaces between them. Example: the population of three age groups in the town of Kota (0-17, 18-60 and over 60)."],
+"img":{"src":"eco-simple-bar.jpg","alt":"A simple bar chart of population by age group","cap":"A simple bar chart."}},
+{"h":"Component bar chart","p":["A component (or compound) bar chart is used when the data has more than one part. Each bar is divided into sections that match the size of each part. Example: the population of five towns divided into male and female."],
+"tbl":{"head":["Town","Male","Female","Total"],"rows":[["A","50","20","70"],["B","70","30","100"],["C","10","20","30"],["D","20","20","40"],["E","5","5","10"]]},
+"img":{"src":"eco-component-bar.jpg","alt":"A compound bar chart of the population of towns A to E, each bar divided into two parts","cap":"A component bar chart: each bar is split into parts."}},
+{"h":"Multiple bar chart","p":["A multiple bar chart is like a component bar chart, but the parts are drawn as separate bars placed side by side. Example: the quantities of yam, maize and cassava planted in three towns."],
+"tbl":{"head":["Town","Yam","Maize","Cassava"],"rows":[["A","30","50","20"],["B","10","40","20"],["C","20","70","50"]]},
+"img":{"src":"eco-multiple-bar.jpg","alt":"A multiple bar chart showing yam, maize and cassava planted in towns A, B and C","cap":"A multiple bar chart: separate bars for each crop."}},
+{"h":"Pictograms and the value of charts","p":["A pictogram uses pictures to show amounts. Example: the chickens eaten in a country from 1998 to 2003 were (in thousands) 30, 60, 20, 50, 40 and 10. If one chicken picture stands for 10,000 chickens, then 1998 has 3 pictures, 1999 has 6, 2000 has 2, 2001 has 5, 2002 has 4 and 2003 has 1.","Charts are important because they are easy to understand even for people with little education, they use pictures and colours to make the message clear, they allow two or more things to be compared in one chart, and they are easy to make."]}
+],
+"activity":"Draw a pie chart for the three towns, using a protractor to measure 126°, 180° and 54°. Then draw a pictogram of your own for the number of students absent each day this week.",
+"check":[
+{"q":"In a pie chart, the whole circle is","o":["360°","180°","100°","90°"]},
+{"q":"Angle of a sector equals","o":["(value ÷ total) × 360°","(value × total) ÷ 360°","value × 360","total ÷ 360"]},
+{"q":"A bar chart where the parts are placed side by side is a","o":["Multiple bar chart","Pie chart","Pictogram","Histogram"]},
+{"q":"In a simple bar chart, the bars must have","o":["Equal widths","Different widths","No gaps","No scale"]},
+{"q":"Town B has 100 out of 200 thousand. Its pie angle is","o":["180°","90°","100°","50°"]}]},
+
+{"id":"ec1-06","week":2,"title":"Frequency Distributions, Histograms and Frequency Polygons","icon":"BarChart2","summary":"Making a frequency table from raw data, drawing a histogram for ungrouped and grouped data, class boundaries, and the frequency polygon.",
+"keyWords":["Frequency","Histogram","Class interval","Class boundaries","Frequency polygon"],
+"sections":[
+{"h":"Frequency distribution","p":["The frequency of an observation is how many times a value occurs. A frequency table lists the values and their frequencies. For raw data, use tally marks and then count them.","Example: the marks of 30 biology students are 20, 8, 12, 4, 18, 18, 18, 20, 12, 6, 18, 20, 4, 12, 8, 18, 12, 8, 8, 18, 20, 2, 20, 18, 18, 20, 8, 2, 4, 18."],
+"tbl":{"head":["Score (x)","Tally","Frequency (f)"],"rows":[["2","II","2"],["4","III","3"],["6","I","1"],["8","IIII","5"],["12","IIII","4"],["18","IIII IIII","9"],["20","IIII I","6"],["Total","","Σf = 30"]]}},
+{"h":"Histogram of ungrouped data","p":["A histogram is a graph of a frequency distribution. It uses bars that touch each other, and the area of each bar is proportional to its frequency. Example: the ages of 30 students in a school press club. The frequencies are: age 10: 2; 11: 6; 12: 4; 13: 4; 14: 3; 15: 1; 16: 1; 17: 1; 18: 4; 19: 1; 20: 2; 21: 1. Total 30."],
+"img":{"src":"eco-histogram-ungrouped.jpg","alt":"A histogram of the ages 10 to 21 of 30 students","cap":"Histogram of ungrouped data: ages of 30 students."}},
+{"h":"Histogram of grouped data","p":["Group the ages in classes of width 3: 10-12 has 12 students; 13-15 has 8; 16-18 has 6; 19-21 has 4. Next find the class boundaries. Reduce the lower limit by half a unit and raise the upper limit by half a unit: 10-12 becomes 9.5-12.5; 13-15 becomes 12.5-15.5; 16-18 becomes 15.5-18.5; 19-21 becomes 18.5-21.5. This closes the gaps between classes. The class midpoint is the middle value of a class (for 10-12 it is 11)."],
+"img":{"src":"eco-histogram-grouped.jpg","alt":"A histogram of grouped ages 10-12, 13-15, 16-18 and 19-21","cap":"Histogram of grouped data."}},
+{"h":"Frequency polygon","p":["A frequency polygon is made by joining the midpoints of the tops of the bars of a histogram with straight lines. It shows the shape of the distribution."],
+"img":{"src":"eco-freq-polygon.png","alt":"A frequency polygon drawn over a histogram","cap":"A frequency polygon joins the midpoints of the tops of the bars."}}
+],
+"activity":"Count the letters in the first ten words of this unit, make a frequency table with tally marks, and draw a histogram.",
+"check":[
+{"q":"The frequency of a value is","o":["The number of times it occurs","Its size","Its price","Its square"]},
+{"q":"The class boundaries of 13-15 are","o":["12.5-15.5","13-15","12-16","13.5-14.5"]},
+{"q":"In a histogram the bars","o":["Touch each other","Have gaps","Are different widths always","Are circles"]},
+{"q":"A frequency polygon joins the","o":["Midpoints of the tops of the bars","Corners of the bars","Bases of the bars","Class boundaries"]},
+{"q":"In the grouped table, the 10-12 class has frequency","o":["12","8","6","4"]}]},
+
+{"id":"ec1-07","week":3,"title":"Demand: Meaning, Law, Schedule and Curve","icon":"Zap","summary":"What demand is, price systems, the law of demand, individual and market demand schedules (with corrected totals), the demand curve and the factors that influence demand.",
+"keyWords":["Demand","Law of demand","Demand schedule","Demand curve","Substitutes","Complements"],
+"sections":[
+{"h":"Meaning of demand","p":["Demand is the quantity of a good or service that a consumer is willing and able to buy at a given price in a given period. Wanting something is not demand unless the person can pay for it.","A price system is the way in which values of goods are set. A fixed price system is controlled by an authority; a free price system (the market) lets demand and supply decide; a mixed system combines both."]},
+{"h":"The law of demand","p":["The law of demand says that, other things being equal, when the price of a good rises, the quantity demanded falls, and when the price falls, the quantity demanded rises. Buyers hesitate to spend more on a good for fear of running out of money."]},
+{"h":"Demand schedules","p":["A demand schedule is a table showing the quantity demanded at different prices. An individual demand schedule is for one person. A market demand schedule adds up the demand of all consumers.","Individual schedule: Bola's demand for Fanta: at N100 she buys 10 bottles a week; at N80, 20; at N60, 30; at N40, 40; at N20, 50.","Market schedule for Coca-Cola (bottles per week) with five buyers. The totals are found by adding across each row."],
+"tbl":{"head":["Price (N)","Mr Abi","Mrs Tori","Mr Gabriel","Mrs Ummi","Mrs Toyin","Total"],"rows":[
+["100","10","15","30","5","20","80"],["80","20","25","40","20","40","145"],["60","30","35","50","35","60","210"],["40","40","45","60","55","80","280"],["20","50","55","70","75","80","330"]]}},
+{"h":"The demand curve","p":["The demand curve is a graph of the demand schedule. Price is on the vertical axis and quantity is on the horizontal axis. It slopes downward from left to right: as the price falls from p0 to p1, the quantity demanded rises from q0 to q1."],
+"img":{"src":"eco-demand-curve.png","alt":"A downward-sloping demand curve with prices p0 and p1 and quantities q0 and q1","cap":"A demand curve slopes downward: lower price, greater quantity demanded."}},
+{"h":"Factors that influence demand","p":["Tastes and preferences. Income: higher incomes usually raise demand. Prices of related goods: substitutes (goods that can replace each other, like tea and coffee) and complements (goods used together, like bread and butter). Expectations about future prices, incomes or supplies. Population and its make-up (age, size)."]}
+],
+"activity":"Make a demand schedule for your own demand for sachet water at five different prices. Draw the demand curve.",
+"check":[
+{"q":"The law of demand says that when price rises, quantity demanded","o":["Falls","Rises","Stays the same","Doubles"]},
+{"q":"A market demand schedule is","o":["The total of all consumers' demand","One person's demand","A tax table","The cost list"]},
+{"q":"A demand curve usually slopes","o":["Downward","Upward","Flat","Vertically"]},
+{"q":"Goods used together are called","o":["Complements","Substitutes","Luxuries","Inferior goods"]},
+{"q":"For Coca-Cola at N40, the market total in the corrected table is","o":["280","270","300","240"]}]},
+
+{"id":"ec1-08","week":3,"title":"Supply: Meaning, Law, Schedule and Curve","icon":"Layers","summary":"What supply is, the law of supply, individual and market supply schedules (with corrected totals), the supply curve and the factors that influence supply.",
+"keyWords":["Supply","Law of supply","Supply schedule","Supply curve","Cost of production"],
+"sections":[
+{"h":"Meaning of supply","p":["Supply is the amount of a good or service that producers are willing and able to offer for sale at a given price in a given period."]},
+{"h":"The law of supply","p":["The law of supply says that, other things being equal, when the price of a good rises, the quantity supplied rises, and when the price falls, the quantity supplied falls. Existing producers make more of high-priced goods to earn more profit, and new producers may join the market."]},
+{"h":"Supply schedules","p":["An individual supply schedule shows how much one firm or farmer supplies at different prices. For a farmer supplying bags of beans: at N100 per bag, 50 bags; at N80, 40; at N60, 30; at N40, 20; at N20, 10.","A market supply schedule adds up the supply of all sellers. Example (bags per week):"],
+"tbl":{"head":["Price per bag (N)","Mr Oke","Mrs Bose","Mr Okeke","Total supplied"],"rows":[["100","50","80","70","200"],["80","40","70","50","160"],["60","30","60","30","120"],["40","20","50","20","90"],["10","10","30","15","55"]]}},
+{"h":"The supply curve","p":["The supply curve is a graph of the supply schedule with price on the vertical axis and quantity on the horizontal axis. It slopes upward from left to right: when the price rises from A to B, the quantity supplied rises."],
+"img":{"src":"eco-supply-curve.png","alt":"An upward-sloping supply curve SS with points A and B","cap":"A supply curve slopes upward."}},
+{"h":"Factors that influence supply","p":["1. Price of the good: higher price gives more supply. 2. Cost of production: higher wages, raw materials, taxes or transport costs reduce supply. 3. Government taxes and rules: lower taxes raise supply; heavy taxes and strict rules reduce it. 4. Transport conditions: poor roads delay goods. 5. Natural conditions: good rains raise farm output; drought reduces it."]}
+],
+"activity":"A seller supplies 20 loaves at N100 and 40 loaves at N150. Draw a supply curve through these two points and say what happens to supply when price rises.",
+"check":[
+{"q":"The law of supply says that as price rises, quantity supplied","o":["Rises","Falls","Stays fixed","Becomes zero"]},
+{"q":"A supply curve usually slopes","o":["Upward","Downward","Flat","Backward"]},
+{"q":"Which reduces supply?","o":["Higher cost of production","Lower taxes","Better roads","Good rains for farmers"]},
+{"q":"In the corrected market supply table, at N80 the total supplied is","o":["160","168","140","180"]},
+{"q":"A market supply schedule is the","o":["Total of all sellers' supply","Supply of one seller","Demand list","Tax list"]}]},
+
+{"id":"ec1-09","week":4,"title":"The Theory of Production: Types and Factors of Production","icon":"Zap","summary":"What production is, direct and indirect production, primary, secondary and tertiary production, and the four factors of production with their rewards.",
+"keyWords":["Production","Primary","Secondary","Tertiary","Land","Labour","Capital","Entrepreneur"],
+"sections":[
+{"h":"Meaning of production","p":["Production is the process of using inputs (land, labour and capital) to create outputs, which are goods and services that satisfy human wants. It includes the activities that create goods and services and get them to final consumers."]},
+{"h":"Types of production","p":["Direct production: a person produces goods and services only for his own family to use, not for sale. Family labour is used and the scale is small. Indirect production: goods and services are produced on a large scale for sale or exchange, using machines and skilled labour, and the producer uses the money to satisfy other wants.","Indirect production has three levels. Primary production comes from the 'extractive' industries such as farming, forestry, fishing, mining and oil extraction. Secondary production changes raw materials into semi-finished or finished goods (flour into bread, iron ore into steel) in manufacturing and construction. Tertiary production is the services that put goods into the hands of consumers: trade, banking, insurance, transport, communication and government services such as law, education, health and defence."]},
+{"h":"Factors of production","p":["Factors of production are the resources combined to produce goods and services: land, labour, capital and the entrepreneur."],
+"tbl":{"head":["Factor","Meaning","Reward","Features"],"rows":[
+["Land","Natural resources: land, minerals, forests, water, energy","Rent","Immobile; fixed supply; free gift of nature; no cost of production"],
+["Labour","Human physical and mental effort","Wages and salaries","Needs motivation; mobile; skilled; has initiative"],
+["Capital","Man-made goods and money used to produce other goods","Interest","Durable; man-made; loses value (depreciation); allows large-scale production"],
+["Entrepreneur","Organises the other factors and bears the risk","Profit","Decision maker; risk bearer; controls the other factors"]]}},
+{"h":"Technology","p":["Technology (the kind and capacity of machines and the way they are programmed) is often added as another factor, because it greatly changes how much can be produced."]}
+],
+"activity":"Pick a bakery. Name the land, labour, capital and entrepreneur in it, and say which kind of production (primary, secondary or tertiary) it is.",
+"check":[
+{"q":"The reward for land is","o":["Rent","Wages","Interest","Profit"]},
+{"q":"Farming and mining are examples of","o":["Primary production","Secondary production","Tertiary production","Direct consumption"]},
+{"q":"Banking and transport are","o":["Tertiary production","Primary production","Secondary production","Direct production"]},
+{"q":"The entrepreneur earns","o":["Profit","Rent","Wages","Interest"]},
+{"q":"Direct production is for","o":["The producer's own family use","Export","Sale in big markets","Government only"]}]}
+]

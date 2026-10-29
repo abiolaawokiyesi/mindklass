@@ -1,0 +1,250 @@
+[
+{"id":"m21-13","week":6,"title":"Quadratic Equations: Roots and Forming Equations","icon":"Layers",
+"summary":"What a quadratic equation is, what its roots are, how the sum and product of the roots are linked to the coefficients, and how to build an equation from its roots.",
+"keyWords":["Quadratic equation","Root","Sum of roots","Product of roots","Coefficient"],
+"sections":[
+{"h":"What is a quadratic equation?","p":["A quadratic equation is an equation in which the highest power of the unknown is 2. Its standard form is ax² + bx + c = 0, where a, b and c are numbers and a is not 0. For example, x² − 5x + 6 = 0 has a = 1, b = −5 and c = 6.","The values of x that make the equation true are called the roots (or solutions) of the equation. A quadratic equation has at most two roots."]},
+{"h":"Checking a root","p":["To test whether a number is a root, put it in place of x. If the left side becomes 0, it is a root. Test x = 2 in x² − 5x + 6: 4 − 10 + 6 = 0. So x = 2 is a root. Test x = 4: 16 − 20 + 6 = 2, which is not 0, so x = 4 is not a root."]},
+{"h":"Sum and product of the roots","p":["Suppose the roots of a quadratic equation are α and β (alpha and beta). Then the equation can be written (x − α)(x − β) = 0. Expand it: x² − (α + β)x + αβ = 0.","So, for x² + (b/a)x + c/a = 0, that is for ax² + bx + c = 0 with both sides divided by a:","Sum of the roots = α + β = −b/a. Product of the roots = αβ = c/a.","Example: for 2x² − 7x + 3 = 0, the sum of the roots is 7/2 and the product is 3/2. You can check: the roots are 3 and 1/2. Their sum is 3½ = 7/2 and their product is 3/2. Correct."]},
+{"h":"Forming an equation from its roots","p":["Use this rule: x² − (sum of roots)x + (product of roots) = 0.","Example 1. Roots 2 and 3. Sum = 5, product = 6. The equation is x² − 5x + 6 = 0.","Example 2. Roots −1 and 4. Sum = 3, product = −4. The equation is x² − 3x − 4 = 0.","Example 3. Roots 1/2 and −3. Sum = 1/2 − 3 = −5/2 and product = −3/2. The equation is x² + (5/2)x − 3/2 = 0. Multiply every term by 2 to remove the fractions: 2x² + 5x − 3 = 0. Check x = 1/2: 2 × 1/4 + 5/2 − 3 = 0.5 + 2.5 − 3 = 0. Correct."]},
+{"h":"Finding an unknown letter","p":["One root of x² − 5x + k = 0 is 2. Find k. Put x = 2: 4 − 10 + k = 0, so k = 6. The equation is x² − 5x + 6 = 0 and the other root is 3 (because the sum of the roots is 5)."]}
+],
+"activity":"Without solving, write down the sum and the product of the roots of 3x² − 6x − 2 = 0 (sum 2, product −2/3). Then form the quadratic equation whose roots are −2 and 5 (x² − 3x − 10 = 0).",
+"check":[
+{"q":"The sum of the roots of x² − 8x + 15 = 0 is","o":["8","−8","15","−15"]},
+{"q":"The product of the roots of x² − 8x + 15 = 0 is","o":["15","8","−15","−8"]},
+{"q":"The equation whose roots are 3 and −2 is","o":["x² − x − 6 = 0","x² + x − 6 = 0","x² − 5x + 6 = 0","x² + x + 6 = 0"]},
+{"q":"If x = 3 is a root of x² − 2x + k = 0, then k =","o":["−3","3","6","−6"]},
+{"q":"A quadratic equation has at most","o":["two roots","one root","three roots","four roots"]}
+]},
+
+{"id":"m21-14","week":6,"title":"Solving Quadratic Equations by Factorisation","icon":"Zap",
+"summary":"Writing a quadratic equation in the form ax² + bx + c = 0 and factorising it, then using the rule that if two things multiply to give 0, one of them is 0.",
+"keyWords":["Factorisation","Zero product rule","Splitting the middle term","Difference of two squares"],
+"sections":[
+{"h":"The key idea","p":["If A × B = 0, then A = 0 or B = 0 (or both). This is called the zero product rule. So if we can write a quadratic as a product of two brackets equal to 0, each bracket gives one root.","Important: first move every term to one side so that the other side is 0. For example x² = 5x − 6 must first be written x² − 5x + 6 = 0."]},
+{"h":"Case 1: when a = 1","p":["Find two numbers whose product is c and whose sum is b.","Example: x² − 5x + 6 = 0. Two numbers with product 6 and sum −5 are −2 and −3. So (x − 2)(x − 3) = 0. Therefore x = 2 or x = 3.","Example: x² + x − 12 = 0. Two numbers with product −12 and sum +1 are +4 and −3. So (x + 4)(x − 3) = 0. Therefore x = −4 or x = 3."]},
+{"h":"Case 2: when a is not 1 (splitting the middle term)","p":["Multiply a by c. Find two numbers with that product and with sum b. Use them to split the middle term, then factorise in pairs.","Example: 2x² + 7x + 3 = 0. a × c = 6. Two numbers with product 6 and sum 7 are 6 and 1. So 2x² + 6x + x + 3 = 0. Group: 2x(x + 3) + 1(x + 3) = 0, so (2x + 1)(x + 3) = 0. Therefore x = −1/2 or x = −3.","Example: 6x² − x − 2 = 0. a × c = −12. Two numbers with product −12 and sum −1 are −4 and +3. So 6x² − 4x + 3x − 2 = 0. Group: 2x(3x − 2) + 1(3x − 2) = 0, so (3x − 2)(2x + 1) = 0. Therefore x = 2/3 or x = −1/2."]},
+{"h":"Special cases","p":["Difference of two squares: x² − 9 = 0 gives (x − 3)(x + 3) = 0, so x = 3 or x = −3.","No constant term: x² − 3x = 0 gives x(x − 3) = 0, so x = 0 or x = 3. Never divide both sides by x, because you will lose the root x = 0."]},
+{"h":"Always check","p":["Put each root back in the original equation. For x = −4 in x² + x − 12: 16 − 4 − 12 = 0. Correct."]}
+],
+"activity":"Solve (a) x² − 7x + 12 = 0 (x = 3 or 4); (b) x² − 16 = 0 (x = ±4); (c) 2x² + 5x + 2 = 0 (x = −1/2 or −2); (d) x² = 5x (x = 0 or 5).",
+"check":[
+{"q":"The roots of x² − 7x + 12 = 0 are","o":["3 and 4","−3 and −4","2 and 6","−3 and 4"]},
+{"q":"The roots of x² − 16 = 0 are","o":["4 and −4","4 only","8 and −8","16 and −16"]},
+{"q":"The roots of x² − 5x = 0 are","o":["0 and 5","5 only","0 and −5","1 and 5"]},
+{"q":"The roots of 2x² + 5x + 2 = 0 are","o":["−1/2 and −2","1/2 and 2","−1/2 and 2","1/2 and −2"]},
+{"q":"Before factorising, the equation must first be written so that one side is","o":["0","1","x","c"]}
+]},
+
+{"id":"m21-15","week":6,"title":"Solving Quadratic Equations by Completing the Square","icon":"Target",
+"summary":"A method that works for every quadratic equation, even when the roots are not whole numbers: make one side a perfect square.",
+"keyWords":["Completing the square","Perfect square","Half the coefficient","Surd"],
+"sections":[
+{"h":"Perfect squares","p":["A perfect square looks like (x + p)² = x² + 2px + p². Notice that the number at the end, p², is the square of half the coefficient of x. So to turn x² + bx into a perfect square, add (b/2)².","Examples: x² + 10x needs 25 to become (x + 5)². x² − 6x needs 9 to become (x − 3)². x² + x needs 1/4 to become (x + 1/2)²."]},
+{"h":"Steps","p":["1. Make the coefficient of x² equal to 1 (divide every term by a if a is not 1).","2. Move the constant term to the right side.","3. Add (half the coefficient of x)² to both sides.","4. Write the left side as a square, then take the square root of both sides. Remember ±.","5. Solve for x."]},
+{"h":"Example 1: x² + 6x + 2 = 0","p":["x² + 6x = −2. Add 9 to both sides: x² + 6x + 9 = 7. So (x + 3)² = 7. x + 3 = ±√7. x = −3 + √7 or x = −3 − √7. Since √7 ≈ 2.646, x ≈ −0.35 or x ≈ −5.65."]},
+{"h":"Example 2: x² − 4x − 5 = 0","p":["x² − 4x = 5. Add 4: (x − 2)² = 9. x − 2 = ±3. x = 5 or x = −1. Check x = 5: 25 − 20 − 5 = 0. Correct."]},
+{"h":"Example 3: 2x² − 8x + 3 = 0 (when a is not 1)","p":["Divide by 2: x² − 4x + 3/2 = 0. So x² − 4x = −3/2. Add 4: (x − 2)² = 5/2 = 2.5. x − 2 = ±√2.5 = ±1.581. x = 3.58 or x = 0.42 (to 2 decimal places).","Check x = 0.419: 2(0.419)² − 8(0.419) + 3 = 0.351 − 3.352 + 3 ≈ 0. Correct."]}
+],
+"activity":"Solve x² − x − 6 = 0 by completing the square. (x² − x = 6; add 1/4: (x − 1/2)² = 25/4; x − 1/2 = ±5/2; x = 3 or x = −2.)",
+"check":[
+{"q":"To complete the square for x² + 10x, add","o":["25","10","100","5"]},
+{"q":"To complete the square for x² − 6x, add","o":["9","6","36","3"]},
+{"q":"The roots of x² − 4x − 5 = 0 are","o":["5 and −1","−5 and 1","4 and −5","2 and 3"]},
+{"q":"If (x + 3)² = 7, then x =","o":["−3 ± √7","3 ± √7","−3 ± 7","√7 − 9"]},
+{"q":"In step 1, if a is not 1 we","o":["divide every term by a","multiply by x","add 1 to both sides","change the signs"]}
+]},
+
+{"id":"m21-16","week":6,"title":"Solving Quadratic Equations by the Formula","icon":"Zap",
+"summary":"The quadratic formula x = (−b ± √(b² − 4ac)) / 2a, with worked examples where the roots are whole numbers, fractions and surds.",
+"keyWords":["Quadratic formula","Discriminant","Surd","Decimal places"],
+"sections":[
+{"h":"Where the formula comes from","p":["If we complete the square on ax² + bx + c = 0 in the same way as in the last unit, the result is always the same:","x = (−b ± √(b² − 4ac)) / 2a","This is the quadratic formula. It works for every quadratic equation, so it is the safest method when factorising is hard."]},
+{"h":"How to use it","p":["1. Write the equation as ax² + bx + c = 0 and list a, b, c with their signs.","2. Work out b² − 4ac first (this is called the discriminant).","3. Substitute into the formula, then work out the + answer and the − answer."]},
+{"h":"Example 1: 2x² + 3x − 5 = 0","p":["a = 2, b = 3, c = −5. b² − 4ac = 9 − 4(2)(−5) = 9 + 40 = 49. √49 = 7. x = (−3 ± 7)/4. x = 4/4 = 1 or x = −10/4 = −2.5."]},
+{"h":"Example 2: 3x² − 5x − 2 = 0","p":["a = 3, b = −5, c = −2. b² − 4ac = 25 + 24 = 49. x = (5 ± 7)/6. x = 12/6 = 2 or x = −2/6 = −1/3."]},
+{"h":"Example 3: x² − 6x + 7 = 0","p":["a = 1, b = −6, c = 7. b² − 4ac = 36 − 28 = 8. √8 = 2√2 ≈ 2.828. x = (6 ± 2.828)/2. x = 4.41 or x = 1.59 (2 d.p.). In exact form, x = 3 ± √2."]},
+{"h":"Example 4: 2x² − 4x − 1 = 0","p":["a = 2, b = −4, c = −1. b² − 4ac = 16 + 8 = 24. √24 ≈ 4.899. x = (4 ± 4.899)/4. x = 2.22 or x = −0.22 (2 d.p.)."]},
+{"h":"Common mistakes","p":["Forgetting that −b is +4 when b is −4. Writing (−4)² as −16 instead of +16. Dividing only the square root by 2a instead of the whole top line."]}
+],
+"activity":"Use the formula to solve x² + 3x − 4 = 0 (D = 9 + 16 = 25; x = (−3 ± 5)/2, so x = 1 or x = −4) and 2x² − 3x − 1 = 0 to 2 decimal places (D = 17; x = (3 ± 4.123)/4, so x = 1.78 or x = −0.28).",
+"check":[
+{"q":"The discriminant of 2x² + 3x − 5 = 0 is","o":["49","−31","29","19"]},
+{"q":"The roots of 2x² + 3x − 5 = 0 are","o":["1 and −2.5","−1 and 2.5","5 and −2","1 and 2.5"]},
+{"q":"The roots of 3x² − 5x − 2 = 0 are","o":["2 and −1/3","−2 and 1/3","2 and 1/3","5 and 2"]},
+{"q":"The exact roots of x² − 6x + 7 = 0 are","o":["3 ± √2","6 ± √2","3 ± √8","−3 ± √2"]},
+{"q":"In the formula, the whole top line is divided by","o":["2a","a","2","b"]}
+]},
+
+{"id":"m21-17","week":8,"title":"Nature of Roots: The Discriminant","icon":"BarChart2",
+"summary":"Using b² − 4ac to tell, without solving, whether a quadratic equation has two different real roots, two equal roots or no real roots.",
+"keyWords":["Discriminant","Real roots","Equal roots","No real roots"],
+"sections":[
+{"h":"The discriminant","p":["In the quadratic formula the part under the square root, D = b² − 4ac, decides what kind of roots we get. It is called the discriminant because it discriminates (tells apart) the different cases."]},
+{"h":"The three cases","p":["See the table below. Remember that you cannot take the square root of a negative number in real numbers."],"tbl":{"head":["Value of D","Roots","Graph touches the x-axis"],"rows":[["D > 0","Two different real roots","at two points"],["D = 0","Two equal real roots (one repeated root)","at one point (it just touches)"],["D < 0","No real roots","does not touch the x-axis"]]}},
+{"h":"Example 1: x² − 4x + 4 = 0","p":["D = 16 − 16 = 0. So the roots are equal. Indeed (x − 2)² = 0, so x = 2 twice."]},
+{"h":"Example 2: x² + 2x + 5 = 0","p":["D = 4 − 20 = −16. D is negative, so there are no real roots."]},
+{"h":"Example 3: 2x² − 3x − 2 = 0","p":["D = 9 + 16 = 25. D is positive, so there are two different real roots. Also, 25 is a perfect square, so the roots are rational: x = (3 ± 5)/4, so x = 2 or x = −1/2."]},
+{"h":"Finding an unknown letter","p":["Find k so that x² + kx + 9 = 0 has equal roots. For equal roots, D = 0: k² − 4(1)(9) = 0, so k² = 36 and k = 6 or k = −6.","For which values of k does x² + 4x + k = 0 have real roots? We need D ≥ 0: 16 − 4k ≥ 0, so k ≤ 4."]}
+],
+"activity":"State the nature of the roots of (a) x² − 6x + 9 = 0 (D = 0, equal), (b) x² + x + 1 = 0 (D = −3, none), (c) 2x² + x − 6 = 0 (D = 49, two different). Find k if x² − 8x + k = 0 has equal roots (k = 16).",
+"check":[
+{"q":"If b² − 4ac < 0, the equation has","o":["no real roots","two equal roots","two different real roots","one root only"]},
+{"q":"The discriminant of x² − 6x + 9 = 0 is","o":["0","18","−18","36"]},
+{"q":"x² + x + 1 = 0 has","o":["no real roots","two equal roots","two different real roots","roots 1 and −1"]},
+{"q":"x² + kx + 9 = 0 has equal roots when k =","o":["6 or −6","3 or −3","9","18"]},
+{"q":"If x² − 8x + k = 0 has equal roots, k =","o":["16","8","64","−16"]}
+]},
+
+{"id":"m21-18","week":8,"title":"Word Problems with Quadratic Equations","icon":"Target",
+"summary":"Turning everyday and number problems into quadratic equations, solving them and rejecting answers that do not make sense.",
+"keyWords":["Word problem","Consecutive integers","Area","Pythagoras","Reject"],
+"sections":[
+{"h":"Method","p":["1. Read the problem and choose a letter for the unknown. Write down what it stands for.","2. Write the other quantities using that letter.","3. Form an equation from the facts given.","4. Rearrange to ax² + bx + c = 0 and solve.","5. Check each answer in the problem. Reject any answer that is impossible (for example a negative length)."]},
+{"h":"Problem 1: consecutive integers","p":["The product of two consecutive positive integers is 56. Find them. Let the integers be n and n + 1. n(n + 1) = 56, so n² + n − 56 = 0. (n + 8)(n − 7) = 0. n = 7 or n = −8. They are positive, so n = 7 and the numbers are 7 and 8. (If negative numbers were allowed, −8 and −7 would also work.)"]},
+{"h":"Problem 2: a rectangle","p":["The length of a rectangle is 3 cm more than its width. Its area is 40 cm². Find its dimensions. Let the width be w. Then length = w + 3. w(w + 3) = 40, so w² + 3w − 40 = 0. (w + 8)(w − 5) = 0. w = 5 or w = −8. A width cannot be negative, so w = 5 cm and length = 8 cm. Check: 5 × 8 = 40. Correct."]},
+{"h":"Problem 3: a right-angled triangle","p":["The two shorter sides of a right-angled triangle are x cm and (x + 7) cm. The hypotenuse is 13 cm. Find x. By Pythagoras, x² + (x + 7)² = 13². x² + x² + 14x + 49 = 169. 2x² + 14x − 120 = 0. Divide by 2: x² + 7x − 60 = 0. (x + 12)(x − 5) = 0. x = 5 (reject −12). The sides are 5 cm, 12 cm and 13 cm. Check: 25 + 144 = 169. Correct."]},
+{"h":"Problem 4: a number and its square","p":["A number added to its square gives 30. x² + x − 30 = 0. (x + 6)(x − 5) = 0. The number is 5 or −6. Both work: 25 + 5 = 30 and 36 − 6 = 30."]}
+],
+"activity":"The length of a rectangle is 4 m more than its width and its area is 45 m². Find the width and the length (w² + 4w − 45 = 0; (w + 9)(w − 5) = 0; width 5 m, length 9 m).",
+"check":[
+{"q":"Two consecutive positive integers have product 56. They are","o":["7 and 8","6 and 7","8 and 9","14 and 4"]},
+{"q":"A rectangle has width 5 cm and length 3 cm more. Its perimeter is","o":["26 cm","16 cm","40 cm","13 cm"]},
+{"q":"A right-angled triangle has shorter sides 5 and 12. The hypotenuse is","o":["13","17","7","11"]},
+{"q":"A number plus its square is 30. The number can be","o":["5 or −6","6 or −5","30","−30"]},
+{"q":"A negative answer for a length should be","o":["rejected","accepted","made positive and added","squared"]}
+]},
+
+{"id":"m21-19","week":9,"title":"Simultaneous Linear Equations","icon":"Layers",
+"summary":"Solving two linear equations in two unknowns by elimination and by substitution, and checking the answer.",
+"keyWords":["Simultaneous equations","Elimination","Substitution","Check"],
+"sections":[
+{"h":"What are simultaneous equations?","p":["Two equations with two unknowns, such as x + y = 10 and x − y = 2, have a pair of values of x and y that work in both equations at the same time. To find them we remove (eliminate) one unknown, or we replace one unknown with an expression (substitute)."]},
+{"h":"Elimination method","p":["Example 1: 2x + y = 7 and x − y = 2. The y terms are +y and −y, so add the equations: 3x = 9, so x = 3. Put x = 3 in x − y = 2: 3 − y = 2, so y = 1. Check in 2x + y: 6 + 1 = 7. Correct. Answer: x = 3, y = 1.","Example 2: 3x + 2y = 16 and x + y = 6. Multiply the second equation by 2: 2x + 2y = 12. Subtract this from the first: x = 4. Then y = 6 − 4 = 2. Check: 12 + 4 = 16. Correct.","Example 3 (multiply both): 2x + 3y = 13 and 3x − 2y = 0. Multiply the first by 2: 4x + 6y = 26. Multiply the second by 3: 9x − 6y = 0. Add: 13x = 26, so x = 2. Put in the first: 4 + 3y = 13, so y = 3. Check the second: 6 − 6 = 0. Correct."]},
+{"h":"Rule for choosing add or subtract","p":["Make the numbers in front of one letter the same size. If their signs are the same, subtract the equations. If their signs are different, add the equations."]},
+{"h":"Substitution method","p":["Example: y = 2x − 1 and 3x + y = 9. Replace y in the second equation: 3x + 2x − 1 = 9, so 5x = 10 and x = 2. Then y = 2(2) − 1 = 3. Check: 6 + 3 = 9. Correct. Answer: x = 2, y = 3."]}
+],
+"activity":"Solve x + y = 10 and x − y = 2 (x = 6, y = 4). Solve 3x + y = 11 and x + 2y = 7 (x = 3, y = 2). Solve y = x + 1 and 2x + y = 7 (x = 2, y = 3).",
+"check":[
+{"q":"x + y = 10 and x − y = 2 give x =","o":["6","4","8","2"]},
+{"q":"2x + y = 7 and x − y = 2 give y =","o":["1","3","2","−1"]},
+{"q":"3x + 2y = 16 and x + y = 6 give x =","o":["4","2","6","3"]},
+{"q":"2x + 3y = 13 and 3x − 2y = 0 give y =","o":["3","2","1","13"]},
+{"q":"If the coefficients of a letter have different signs, we","o":["add the equations","subtract the equations","divide the equations","square the equations"]}
+]},
+
+{"id":"m21-20","week":9,"title":"One Linear and One Quadratic Equation","icon":"Zap",
+"summary":"Solving simultaneous equations when one is linear and the other is quadratic, by substitution. There are usually two pairs of answers.",
+"keyWords":["Linear","Quadratic","Substitution","Two solutions"],
+"sections":[
+{"h":"The method","p":["1. Make one letter the subject of the linear equation.","2. Substitute it into the quadratic equation. You get a quadratic equation in one letter.","3. Solve it. You usually get two values.","4. Put each value into the linear equation to find the matching value of the other letter. Always use the linear equation for this, because it is easier and avoids false pairs."]},
+{"h":"Example 1: a line and a circle","p":["y = x + 1 and x² + y² = 25. Substitute: x² + (x + 1)² = 25. 2x² + 2x + 1 = 25, so 2x² + 2x − 24 = 0, so x² + x − 12 = 0. (x + 4)(x − 3) = 0. x = 3 gives y = 4. x = −4 gives y = −3. Solutions: (3, 4) and (−4, −3). Check (−4, −3): 16 + 9 = 25. Correct."]},
+{"h":"Example 2: a line and a parabola","p":["y = 2x − 3 and y = x² − 2x − 3. The two y values are equal, so x² − 2x − 3 = 2x − 3. x² − 4x = 0, so x(x − 4) = 0. x = 0 gives y = −3. x = 4 gives y = 5. Solutions: (0, −3) and (4, 5). You will see these on a graph in Unit 24."]},
+{"h":"Example 3: sum and product","p":["x + y = 5 and xy = 6. From the first, y = 5 − x. So x(5 − x) = 6, which gives 5x − x² = 6, so x² − 5x + 6 = 0. (x − 2)(x − 3) = 0. x = 2 gives y = 3 and x = 3 gives y = 2. Solutions: (2, 3) and (3, 2)."]},
+{"h":"Example 4: x − y = 1 and x² + y² = 13","p":["x = y + 1. Substitute: (y + 1)² + y² = 13. 2y² + 2y + 1 = 13, so y² + y − 6 = 0. (y + 3)(y − 2) = 0. y = 2 gives x = 3. y = −3 gives x = −2. Solutions: (3, 2) and (−2, −3). Check: 4 + 9 = 13. Correct."]}
+],
+"activity":"Solve y = x − 2 and x² + y² = 10 (x² + (x − 2)² = 10, so x² − 2x − 3 = 0, so x = 3 or −1; solutions (3, 1) and (−1, −3)).",
+"check":[
+{"q":"y = x + 1 and x² + y² = 25 have a positive solution","o":["(3, 4)","(4, 3)","(1, 2)","(5, 0)"]},
+{"q":"x + y = 5 and xy = 6 lead to the equation","o":["x² − 5x + 6 = 0","x² + 5x + 6 = 0","x² − 5x − 6 = 0","x² − 6x + 5 = 0"]},
+{"q":"The curve y = x² − 2x − 3 meets y = 2x − 3 where x =","o":["0 and 4","−1 and 3","2 and 3","0 and 2"]},
+{"q":"x − y = 1 and x² + y² = 13 have a solution","o":["(3, 2)","(2, 3)","(3, 4)","(4, 3)"]},
+{"q":"To find the second letter we should use","o":["the linear equation","the quadratic equation","either, then ignore the check","neither"]}
+]},
+
+{"id":"m21-21","week":9,"title":"Word Problems with Simultaneous Equations","icon":"Target",
+"summary":"Forming two equations from a story, solving them, and checking that the answers fit the story.",
+"keyWords":["Word problem","Two unknowns","Prices","Dimensions","Tickets"],
+"sections":[
+{"h":"Method","p":["Choose two letters for the two unknowns. Write two equations, one from each fact in the story. Solve and check against both facts."]},
+{"h":"Problem 1: pens and books","p":["Three pens and two books cost ₦1 100. Two pens and three books cost ₦1 150. Find the price of each. Let a pen cost p naira and a book cost b naira. 3p + 2b = 1 100 and 2p + 3b = 1 150. Multiply the first by 3: 9p + 6b = 3 300. Multiply the second by 2: 4p + 6b = 2 300. Subtract: 5p = 1 000, so p = 200. Then 2b = 1 100 − 600 = 500, so b = 250. Check: 400 + 750 = 1 150. Correct. A pen costs ₦200 and a book costs ₦250."]},
+{"h":"Problem 2: two numbers","p":["Two numbers add up to 12 and their product is 35. Find them. x + y = 12 and xy = 35. y = 12 − x, so x(12 − x) = 35, which gives x² − 12x + 35 = 0. (x − 5)(x − 7) = 0. The numbers are 5 and 7."]},
+{"h":"Problem 3: a rectangle","p":["The perimeter of a rectangle is 28 cm and its area is 48 cm². Find the sides. Half the perimeter is 14, so l + w = 14 and lw = 48. l = 14 − w, so w(14 − w) = 48, giving w² − 14w + 48 = 0. (w − 6)(w − 8) = 0. The sides are 6 cm and 8 cm."]},
+{"h":"Problem 4: tickets","p":["Adult tickets cost ₦300 and child tickets cost ₦100. 20 tickets were sold for ₦4 000. Let a = adults and c = children. a + c = 20 and 300a + 100c = 4 000, which simplifies to 3a + c = 40. Subtract the first equation: 2a = 20, so a = 10 and c = 10. Check: 3 000 + 1 000 = 4 000. Correct."]}
+],
+"activity":"A trader sells 5 oranges and 3 mangoes for ₦370, and 2 oranges and 4 mangoes for ₦260. Find the price of each. (5o + 3m = 370 and 2o + 4m = 260. Multiply the first by 2 and the second by 5: 10o + 6m = 740 and 10o + 20m = 1 300. Subtract: 14m = 560, so m = ₦40 and o = ₦50. Check: 250 + 120 = 370 and 100 + 160 = 260.)",
+"check":[
+{"q":"Three pens and two books cost ₦1 100 and two pens and three books cost ₦1 150. A pen costs","o":["₦200","₦250","₦300","₦150"]},
+{"q":"Two numbers with sum 12 and product 35 are","o":["5 and 7","6 and 6","4 and 8","3 and 9"]},
+{"q":"A rectangle has perimeter 28 cm and area 48 cm². Its sides are","o":["6 cm and 8 cm","4 cm and 10 cm","7 cm and 7 cm","3 cm and 11 cm"]},
+{"q":"20 tickets: adults ₦300, children ₦100, total ₦4 000. The number of adults is","o":["10","5","15","20"]},
+{"q":"A word problem with two unknowns needs","o":["two equations","one equation","three equations","no equation"]}
+]},
+
+{"id":"m21-22","week":10,"title":"Graphs of Linear Equations","icon":"BarChart2",
+"summary":"Drawing a straight line from a table of values, finding the gradient and intercepts, and writing an equation from two points.",
+"keyWords":["Gradient","Intercept","Table of values","y = mx + c","Parallel lines"],
+"sections":[
+{"h":"The equation of a straight line","p":["Any equation that can be written y = mx + c has a straight-line graph. m is the gradient (the steepness) and c is the y-intercept (where the line crosses the y-axis).","Gradient = rise / run = (y₂ − y₁) / (x₂ − x₁)."]},
+{"h":"Drawing a line from a table","p":["Draw y = 2x + 1. Choose some values of x and work out y."],"tbl":{"head":["x","−1","0","1","2"],"rows":[["y = 2x + 1","−1","1","3","5"]]},"img":{"src":"mth2-line.png","alt":"Graph of the straight line y = 2x + 1 showing the y-intercept at (0, 1), the x-intercept at (-0.5, 0) and a run of 1 and rise of 2","cap":"The line y = 2x + 1. For every 1 step right it goes 2 steps up."}},
+{"h":"Reading the graph","p":["The line crosses the y-axis at (0, 1), so c = 1. It crosses the x-axis where y = 0: 2x + 1 = 0, so x = −1/2. The gradient is 2: for each 1 unit across, the line rises 2 units.","Tips for graphs: draw straight lines with a ruler and a sharp pencil, use a suitable scale, label both axes, and write the equation next to the line."]},
+{"h":"Finding the gradient and equation from two points","p":["The line passes through (1, 3) and (3, 7). Gradient m = (7 − 3)/(3 − 1) = 4/2 = 2. So y = 2x + c. Put in (1, 3): 3 = 2 + c, so c = 1. The equation is y = 2x + 1."]},
+{"h":"Intercepts of a line in another form","p":["For 2x + 3y = 6: when x = 0, y = 2, so the y-intercept is (0, 2). When y = 0, x = 3, so the x-intercept is (3, 0). Rearranged: 3y = −2x + 6, so y = −(2/3)x + 2. The gradient is −2/3 (the line slopes downward)."]},
+{"h":"Parallel lines","p":["Lines with the same gradient are parallel. y = 2x + 1 and y = 2x − 5 never meet."]}
+],
+"activity":"Draw y = −x + 3 for x from −1 to 4 (table: 4, 3, 2, 1, 0, −1). State the gradient (−1) and the intercepts (y: 3; x: 3). Find the equation of the line through (0, 2) and (4, 10) (gradient 2, y = 2x + 2).",
+"check":[
+{"q":"The gradient of y = 3x − 4 is","o":["3","−4","4","−3"]},
+{"q":"The line y = 2x + 1 crosses the y-axis at","o":["(0, 1)","(1, 0)","(0, 2)","(2, 0)"]},
+{"q":"The gradient of the line through (1, 3) and (3, 7) is","o":["2","4","1/2","3"]},
+{"q":"The line y = 2x + 1 crosses the x-axis at x =","o":["−1/2","1/2","−1","2"]},
+{"q":"y = 2x + 1 and y = 2x − 5 are","o":["parallel","perpendicular","the same line","crossing at the origin"]}
+]},
+
+{"id":"m21-23","week":10,"title":"Graphs of Quadratic Equations","icon":"BarChart2",
+"summary":"Drawing the curve (parabola) y = ax² + bx + c from a table, and reading its roots, turning point, axis of symmetry and intercepts.",
+"keyWords":["Parabola","Turning point","Axis of symmetry","Minimum","Maximum","Roots"],
+"sections":[
+{"h":"The shape of a quadratic graph","p":["The graph of y = ax² + bx + c is a smooth curve called a parabola. If a is positive the curve is U-shaped and has a lowest point (a minimum). If a is negative it is shaped like an upside-down U and has a highest point (a maximum). This point is called the turning point or vertex.","The curve is symmetrical about a vertical line through the turning point, called the axis of symmetry. Its equation is x = −b/(2a)."]},
+{"h":"Example: y = x² − 2x − 3","p":["Make a table of values and work out y for each x. For x = −2: 4 + 4 − 3 = 5. For x = 3: 9 − 6 − 3 = 0."],"tbl":{"head":["x","−2","−1","0","1","2","3","4"],"rows":[["y = x² − 2x − 3","5","0","−3","−4","−3","0","5"]]},"img":{"src":"mth2-parabola.png","alt":"Graph of the parabola y = x squared minus 2x minus 3 with roots at -1 and 3, minimum point (1, -4), y-intercept (0, -3) and axis of symmetry x = 1","cap":"The parabola y = x² − 2x − 3."}},
+{"h":"What the graph tells us","p":["Roots: where the curve crosses the x-axis, x = −1 and x = 3. These are the solutions of x² − 2x − 3 = 0. Check by factorising: (x + 1)(x − 3) = 0.","y-intercept: (0, −3). The number c is always the y-intercept.","Turning point: the lowest point is (1, −4). The axis of symmetry is x = 1, which is halfway between the roots: (−1 + 3)/2 = 1.","Notice that the table is symmetrical: the y values 5, 0, −3 on the left come back as −3, 0, 5 on the right."]},
+{"h":"A graph with a maximum: y = 3 + 2x − x²","p":["Here a = −1 (negative), so the curve is an upside-down U. Table: x = −1 gives 3 − 2 − 1 = 0. x = 0 gives 3. x = 1 gives 3 + 2 − 1 = 4. x = 2 gives 3 + 4 − 4 = 3. x = 3 gives 3 + 6 − 9 = 0. The maximum point is (1, 4) and the roots are −1 and 3."]},
+{"h":"Tips for drawing","p":["Use at least seven points. Plot them carefully with small crosses. Join them with a smooth curve drawn freehand, not with a ruler. The bottom of the curve should be round, not pointed."]}
+],
+"activity":"Copy the table for y = x² − 2x − 3, plot the points on graph paper and draw the curve. Read off the roots, the turning point and the value of y when x = 2.5 (y = 6.25 − 5 − 3 = −1.75).",
+"check":[
+{"q":"The graph of y = x² − 2x − 3 has shape","o":["U-shaped with a minimum","U-shaped with a maximum","straight line","upside-down U"]},
+{"q":"The minimum point of y = x² − 2x − 3 is","o":["(1, −4)","(−1, 4)","(0, −3)","(3, 0)"]},
+{"q":"The axis of symmetry of y = x² − 2x − 3 is","o":["x = 1","x = −1","x = 3","y = 1"]},
+{"q":"The value of y = x² − 2x − 3 when x = 4 is","o":["5","3","11","−5"]},
+{"q":"The curve y = 3 + 2x − x² has","o":["a maximum at (1, 4)","a minimum at (1, 4)","a maximum at (4, 1)","no turning point"]}
+]},
+
+{"id":"m21-24","week":10,"title":"Solving Equations Graphically","icon":"Target",
+"summary":"Using a drawn parabola to solve quadratic equations, and using a straight line drawn on the same axes to solve other equations and simultaneous equations.",
+"keyWords":["Graphical solution","Intersection","Roots","Simultaneous equations"],
+"sections":[
+{"h":"Idea","p":["The solution of an equation is where two graphs meet. If one graph is the curve and the other is a line, the x-coordinates of the crossing points are the solutions."]},
+{"h":"Solving x² − 2x − 3 = 0","p":["Take y = x² − 2x − 3 (drawn in the last unit). The equation says y = 0, so the roots are where the curve crosses the x-axis: x = −1 and x = 3."]},
+{"h":"Solving x² − 2x − 3 = 2","p":["Draw the line y = 2 on the same axes. It crosses the curve at two points. Read the x-values: x ≈ −1.45 and x ≈ 3.45. Check by algebra: x² − 2x − 5 = 0 gives x = 1 ± √6 = 1 ± 2.449, so x = −1.45 or x = 3.45. The graph answer agrees."]},
+{"h":"Solving a different equation with the same curve","p":["Solve x² − 3x − 4 = 0 using the graph of y = x² − 2x − 3. Rearrange so that x² − 2x − 3 appears: x² − 3x − 4 = (x² − 2x − 3) − (x + 1). So the equation becomes x² − 2x − 3 = x + 1. Draw the line y = x + 1 and read the crossing points: x = −1 and x = 4. Check: at x = 4 the line gives y = 5 and the curve gives 16 − 8 − 3 = 5. They meet."]},
+{"h":"Simultaneous equations by graph","p":["Solve y = x² − 2x − 3 and y = 2x − 3 together. Draw both on the same axes. They cross at (0, −3) and (4, 5), which matches the algebra from Unit 20."],"img":{"src":"mth2-simultaneous-graph.png","alt":"A parabola and a straight line crossing at the points (0, -3) and (4, 5)","cap":"The curve and the line meet at (0, −3) and (4, 5)."}},
+{"h":"Summary of the method","p":["1. Draw the given curve accurately.","2. Rearrange the equation to be solved so that the curve's expression is on one side.","3. The other side is the line to draw.","4. Read the x-values where they meet."]}
+],
+"activity":"Use the curve y = x² − 2x − 3 to solve x² − 2x − 3 = 5. Which line do you draw (y = 5)? Check by algebra: x² − 2x − 8 = 0, (x − 4)(x + 2) = 0, so x = 4 or x = −2.",
+"check":[
+{"q":"The roots of x² − 2x − 3 = 0 from the graph are","o":["−1 and 3","1 and −3","−4 and 1","0 and 2"]},
+{"q":"To solve x² − 2x − 3 = 2 we draw the line","o":["y = 2","x = 2","y = x","y = −2"]},
+{"q":"To solve x² − 3x − 4 = 0 using y = x² − 2x − 3 we draw","o":["y = x + 1","y = x − 1","y = 3x + 4","y = −x"]},
+{"q":"The line y = 2x − 3 meets the curve y = x² − 2x − 3 at y =","o":["−3 and 5","0 and 4","−1 and 3","3 and −5"]},
+{"q":"The solutions of a graphical solution are the","o":["x-values where the graphs meet","y-intercepts only","gradients","areas"]}
+]},
+
+{"id":"m21-25","week":11,"title":"First Term Revision","icon":"BookOpen",
+"summary":"A summary of the formulas and methods from First Term, with mixed worked examples to test yourself before the examination.",
+"keyWords":["Revision","Formulas","Standard form","Logarithms","AP","Quadratics","Graphs"],
+"sections":[
+{"h":"Key facts to remember","p":["Use the table to revise. Try to recall each fact before you read the answer."],"tbl":{"head":["Topic","Key facts"],"rows":[["Standard form","a × 10ⁿ with 1 ≤ a < 10. 0.00045 = 4.5 × 10⁻⁴"],["Significant figures","Count from the first non-zero digit. % error = (error ÷ true value) × 100"],["Logarithms","log(ab) = log a + log b; log(a/b) = log a − log b; log aⁿ = n log a; log₂ 32 = 5"],["Arithmetic progression","Tₙ = a + (n − 1)d; Sₙ = n/2 × [2a + (n − 1)d]"],["Quadratic equation","Factorise, complete the square or use x = (−b ± √(b² − 4ac)) / 2a"],["Discriminant","D > 0: two roots; D = 0: equal roots; D < 0: no real roots"],["Sum and product of roots","Sum = −b/a; product = c/a"],["Simultaneous equations","Elimination, substitution; for linear and quadratic always substitute"],["Graphs","Line y = mx + c; parabola has turning point and axis of symmetry"]]}},
+{"h":"Mixed worked questions","p":["1. Write 0.00045 in standard form: 4.5 × 10⁻⁴.","2. Find the 10th term and the sum of the first 10 terms of 4, 7, 10, ...: a = 4, d = 3. T₁₀ = 4 + 9 × 3 = 31. S₁₀ = 5 × (4 + 31) = 175.","3. Solve 2x² − 5x − 3 = 0: (2x + 1)(x − 3) = 0, so x = −1/2 or x = 3.","4. Solve x + y = 7 and x − y = 1: add: 2x = 8, x = 4, y = 3.","5. Nature of the roots of 3x² + 2x + 1 = 0: D = 4 − 12 = −8. No real roots.","6. Form the equation whose roots are 4 and −1: sum = 3, product = −4, so x² − 3x − 4 = 0."]},
+{"h":"Advice for the examination","p":["Show every step of your working. Check answers by substituting. Read each problem twice. Write units. Draw graphs with a ruler and sharp pencil, label the axes and give the graph a title. Practise a little every day instead of cramming."]}
+],
+"activity":"Without your notes, write down the quadratic formula, the AP sum formula and the three cases of the discriminant. Then check your answers against the table above.",
+"check":[
+{"q":"0.00045 in standard form is","o":["4.5 × 10⁻⁴","4.5 × 10⁻³","45 × 10⁻⁵","4.5 × 10⁴"]},
+{"q":"The sum of the first 10 terms of 4, 7, 10, ... is","o":["175","31","155","315"]},
+{"q":"The roots of 2x² − 5x − 3 = 0 are","o":["3 and −1/2","−3 and 1/2","3 and 1/2","5 and 3"]},
+{"q":"x + y = 7 and x − y = 1 give x =","o":["4","3","6","8"]},
+{"q":"The discriminant of 3x² + 2x + 1 = 0 is","o":["−8","16","8","−16"]}
+]}
+]

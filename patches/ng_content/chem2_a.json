@@ -1,0 +1,200 @@
+[
+{"id":"ch2-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Chemistry Second Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Analysis","Mole","Gas laws","Bonding","Solubility"],
+"sections":[
+{"h":"Welcome to Second Term","p":["In First Term you learned what chemistry is and how to describe matter. In Second Term you begin to measure and calculate. You will learn how to find out what a substance contains and how much, how to count particles with the mole, how to calculate percentage composition and formulae, how gases behave, how electrons are arranged and how they make atoms join (bonding), what oxidation and reduction are, and how substances dissolve and crystallise.","This term has more calculations. Do not be afraid of them. Each formula is explained, then used in a worked example. Always write the formula, the substitution and the answer with its unit. At the end of each unit are practice questions. They do not count towards a mark; they help you to check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for Second Term","p":["The units follow the scheme of work. Weeks 5 and 7 are midterm weeks."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Qualitative analysis: finding out what is present"],
+["3","1","Quantitative analysis and basic laboratory concepts"],
+["4","2","The mole, Avogadro's number and molar mass"],
+["5","2","Mole calculations and stoichiometry"],
+["6","3","Percentage composition by mass"],
+["7","3","Empirical and molecular formulae"],
+["8","4","Gas laws (1): Boyle's law and Charles' law"],
+["9","4","Gas laws (2): the ideal gas equation and applications"],
+["10","6","Bohr's model, energy levels and shells"],
+["11","6","Electronic configuration and subshells"],
+["12","8","Ionic bonding"],
+["13","8","Covalent bonding and comparison with ionic bonding"],
+["14","9","Oxidation and reduction"],
+["15","9","Redox agents, examples and balancing"],
+["16","10","Water: importance and properties"],
+["17","10","Solutions and solubility"],
+["18","11","Solubility curves and crystallisation"]]}},
+{"h":"A few reminders","p":["Keep a periodic table beside you when you calculate. Use these relative atomic masses (Ar): H = 1, C = 12, N = 14, O = 16, Na = 23, Mg = 24, Al = 27, S = 32, Cl = 35.5, K = 39, Ca = 40, Fe = 56, Cu = 64, Zn = 65. Always check that your equations are balanced before you start a calculation."]}
+],
+"activity":"Choose the unit you think will be hardest. Write the formula you will need in that unit, and one thing you will do to prepare.",
+"check":[
+{"q":"In which unit do you study the mole?","o":["Unit 4","Unit 2","Unit 12","Unit 16"]},
+{"q":"Which unit teaches ionic bonding?","o":["Unit 12","Unit 3","Unit 8","Unit 18"]},
+{"q":"What should you write in every calculation?","o":["The formula, the substitution and the answer with its unit","Only the answer","Only the unit","Nothing"]},
+{"q":"In which unit do you study solubility curves?","o":["Unit 18","Unit 9","Unit 5","Unit 14"]}]},
+
+{"id":"ch2-02","week":1,"title":"Qualitative Analysis: Finding Out What Is Present","icon":"Target","summary":"What analysis means, how qualitative analysis identifies substances using observation, flame tests, chemical tests and precipitation, and why it comes first.",
+"keyWords":["Analysis","Qualitative","Flame test","Precipitate","Effervescence"],
+"sections":[
+{"h":"What is analysis?","p":["Chemistry is an experimental science. It depends on observation and measurement. Analysis is a set of methods used to find out what a substance is (identify it) and how much of it is present. This is the work of analytical chemistry, which has two parts: qualitative analysis and quantitative analysis. They work together: first we find out what is there (qualitative), and then we find out how much (quantitative)."]},
+{"h":"Qualitative analysis","p":["Qualitative analysis identifies the elements, ions or compounds present in a sample. It answers the question 'What is in the sample?' It gives no numbers. It is usually the first step, and depends on observation of changes such as colour, a precipitate, bubbles (effervescence) or a smell."]},
+{"h":"Methods of qualitative analysis","p":["1. Observing physical properties: colour (copper compounds are usually blue or green), state, smell (ammonia has a sharp smell), and solubility in water.","2. Chemical tests: acid test: carbonates fizz with dilute acid, giving off carbon dioxide. Alkali test: warming an ammonium salt with an alkali gives off ammonia gas, which turns damp red litmus blue.","3. Flame tests: a clean wire dipped into a sample is held in a non-luminous flame. Some metal ions give a characteristic colour.","4. Precipitation reactions: certain ions form insoluble solids with certain reagents. Chloride ions with silver nitrate give a white precipitate of silver chloride. Sulphate ions with barium chloride give a white precipitate of barium sulphate.","5. Confirmatory tests: used after the first results to be sure. For example, to tell a carbonate from a sulphite, add dilute acid and test the gas. Both carbon dioxide and sulphur dioxide turn limewater milky, but only sulphur dioxide turns acidified potassium manganate(VII) from purple to colourless."],
+"tbl":{"head":["Ion","Test","Result"],"rows":[
+["Sodium, Na⁺","Flame test","Yellow flame"],
+["Potassium, K⁺","Flame test","Lilac flame"],
+["Calcium, Ca²⁺","Flame test","Brick-red flame"],
+["Copper(II), Cu²⁺","Flame test","Blue-green flame"],
+["Chloride, Cl⁻","Add silver nitrate (after dilute nitric acid)","White precipitate"],
+["Sulphate, SO₄²⁻","Add barium chloride (after dilute hydrochloric acid)","White precipitate"],
+["Carbonate, CO₃²⁻","Add dilute acid","Fizzing; gas turns limewater milky"],
+["Ammonium, NH₄⁺","Warm with sodium hydroxide","Ammonia gas, turns damp red litmus blue"]]}}
+],
+"activity":"A white solid gives a yellow flame and a white precipitate with silver nitrate. What is the solid likely to be? (Answer: sodium chloride.)",
+"check":[
+{"q":"Qualitative analysis answers the question","o":["What is in the sample?","How much is in the sample?","How hot is it?","How old is it?"]},
+{"q":"A lilac flame shows the presence of","o":["Potassium","Sodium","Calcium","Copper"]},
+{"q":"A white precipitate with silver nitrate shows","o":["Chloride ions","Sulphate ions","Carbonate ions","Ammonium ions"]},
+{"q":"A brick-red flame test shows","o":["Calcium","Sodium","Potassium","Copper"]},
+{"q":"A carbonate with dilute acid gives","o":["Carbon dioxide","Hydrogen","Oxygen","Ammonia"]}]},
+
+{"id":"ch2-03","week":1,"title":"Quantitative Analysis and Basic Laboratory Concepts","icon":"BarChart2","summary":"How quantitative analysis measures amounts using volumetric and gravimetric methods and instruments, why analysis matters, and the main laboratory terms.",
+"keyWords":["Quantitative","Titration","Gravimetric","Analyte","End point"],
+"sections":[
+{"h":"Quantitative analysis","p":["Quantitative analysis finds out how much of a substance is present: the amount, concentration or percentage. It is numerical, needs measurement and calculation, and is essential for quality control, correct drug doses and industrial recipes."]},
+{"h":"Methods","p":["1. Volumetric analysis: measuring volumes of solutions that react together, usually by titration (acid-base, redox or precipitation). Example: finding the concentration of hydrochloric acid by titrating it against a standard solution of sodium hydroxide, using phenolphthalein or methyl orange to show the end point.","2. Gravimetric analysis: finding the amount of a substance by precipitating it, drying it and weighing it. Example: finding the purity of a sodium chloride sample by precipitating all the chloride as silver chloride and weighing it.","3. Instrumental methods: modern machines that are fast and very accurate. Spectrophotometry measures how much light a solution absorbs. Chromatography separates mixtures. Mass spectrometry gives masses and structures of molecules. Atomic absorption spectroscopy measures metals."]},
+{"h":"Qualitative compared with quantitative","p":["Study the table."],
+"tbl":{"head":["Qualitative analysis","Quantitative analysis"],"rows":[
+["Shows what is present","Shows how much is present"],
+["Deals with identity or nature","Deals with numbers and amounts"],
+["Uses colour, smell, flame test, precipitate","Uses weighing, measuring, titration and calculation"],
+["Simple and often the first step","More precise and often the second step"],
+["Example: testing for chloride with silver nitrate","Example: finding the concentration of HCl by titration"]]}},
+{"h":"Why chemical analysis matters","p":["Medicine and pharmacy: checking drug content and purity, and finding harmful impurities. Food industry: finding the amounts of protein, fat and carbohydrate, detecting harmful added chemicals (adulterants) in food, and checking preservatives. Agriculture: testing soil minerals, the NPK content of fertilisers, and pesticide traces. Environment: testing air, water and soil for pollutants, heavy metals and sewage. Industry: quality control of paints, cement and drinks, and meeting safety standards."]},
+{"h":"Basic laboratory terms","p":["Analyte: the substance being tested or measured. Reagent: a chemical used to react with the analyte. Indicator: a dye that changes colour at the end of a reaction (phenolphthalein, methyl orange). Standard solution: a solution of exactly known concentration. End point: the stage in a titration where the indicator changes colour. Equivalence point: the theoretical point at which the exact amounts of reactants have reacted. Accuracy: how close a result is to the true value. Precision: how close repeated results are to each other."]}
+],
+"activity":"A nutritionist wants to know the amount of vitamin C in a juice. Is this qualitative or quantitative analysis? Give your reason. (Quantitative: she wants an amount.)",
+"check":[
+{"q":"Quantitative analysis shows","o":["How much is present","What is present only","The colour only","The smell only"]},
+{"q":"Volumetric analysis commonly uses","o":["Titration","Flame tests","Sieving","Winnowing"]},
+{"q":"A solution of exactly known concentration is a","o":["Standard solution","Saturated solution","Indicator","Analyte"]},
+{"q":"The substance being tested in an analysis is the","o":["Analyte","Reagent","Indicator","Solvent"]},
+{"q":"Closeness of repeated results to each other is","o":["Precision","Accuracy","Equivalence","End point"]}]},
+
+{"id":"ch2-04","week":2,"title":"The Mole, Avogadro's Number and Molar Mass","icon":"Zap","summary":"Why chemists count in moles, what Avogadro's number is, how to find molar mass, and the formulas that link moles, mass, particles and gas volume.",
+"keyWords":["Mole","Avogadro's number","Molar mass","Relative atomic mass","Molar volume"],
+"sections":[
+{"h":"Why we need the mole","p":["Atoms and molecules are far too small to count one by one. We need a counting unit, like a 'dozen' for 12 things. In chemistry the counting unit is the mole (symbol mol).","A mole is the amount of a substance that contains as many particles (atoms, molecules, ions or other units) as there are atoms in exactly 12 g of carbon-12."]},
+{"h":"Avogadro's number","p":["The number of particles in one mole is called Avogadro's number (or constant), symbol Nₐ (N subscript A). Its value is 6.022 × 10²³ per mole.","1 mole of hydrogen atoms has 6.022 × 10²³ atoms. 1 mole of water has 6.022 × 10²³ molecules. 1 mole of sodium chloride has 6.022 × 10²³ formula units (NaCl pairs of ions).","What counts as a 'particle' depends on the substance: atoms for elements like Na and Fe; molecules for O₂, H₂, Cl₂, H₂O, CO₂ and NH₃; formula units for ionic compounds like NaCl and KNO₃."]},
+{"h":"Molar mass","p":["Molar mass is the mass of one mole of a substance, in grams per mole (g/mol). It is numerically equal to the relative atomic mass (Ar) or the relative formula mass (Mr).","Examples: Ar of carbon = 12, so the molar mass of C is 12 g/mol. Mr of water, H₂O = (2 × 1) + 16 = 18, so its molar mass is 18 g/mol. Mr of NaCl = 23 + 35.5 = 58.5, so its molar mass is 58.5 g/mol. Mr of Na₂CO₃ = (2 × 23) + 12 + (3 × 16) = 106.","Always give molar mass the unit g/mol."]},
+{"h":"The mole relationships","p":["Learn this table and the picture that follows it."],
+"tbl":{"head":["To find","Formula","Notes"],"rows":[
+["Moles from mass","n = mass ÷ molar mass","Mass in g, molar mass in g/mol"],
+["Mass from moles","mass = n × molar mass",""],
+["Number of particles","N = n × 6.022 × 10²³",""],
+["Moles from particles","n = N ÷ 6.022 × 10²³",""],
+["Moles from gas volume at STP","n = volume ÷ 22.4","1 mole of any gas = 22.4 dm³ at 0 °C and 1 atm"],
+["Moles from a solution","n = concentration × volume (in dm³)","Concentration in mol/dm³"]]},
+"img":{"src":"chem-mole-map.png","alt":"A diagram with the mole at the centre and arrows to mass in grams (multiply by molar mass), number of particles (multiply by Avogadro's number), gas volume (multiply by 22.4 dm3) and solution (multiply by concentration)","cap":"The mole links mass, particles, gas volume and solutions."}}
+],
+"activity":"Find the molar mass of (a) CO₂, (b) NH₃, (c) H₂SO₄, (d) Ca(OH)₂. (Answers: 44, 17, 98, 74 g/mol.)",
+"check":[
+{"q":"Avogadro's number is","o":["6.022 × 10²³ per mole","3.0 × 10⁸ per mole","22.4 per mole","1.66 × 10⁻²⁷ per mole"]},
+{"q":"The molar mass of water is","o":["18 g/mol","16 g/mol","2 g/mol","10 g/mol"]},
+{"q":"The molar mass of NaCl is","o":["58.5 g/mol","23 g/mol","35.5 g/mol","12 g/mol"]},
+{"q":"One mole of any gas at STP occupies","o":["22.4 dm³","24 dm³","1 dm³","100 dm³"]},
+{"q":"The number of moles in 36 g of water is","o":["2","1","18","36"]}]},
+
+{"id":"ch2-05","week":2,"title":"Mole Calculations and Stoichiometry","icon":"Target","summary":"Worked examples with mass, particles and gas volume, then the step-by-step method for mass-mass, mass-volume and limiting-reactant questions.",
+"keyWords":["Stoichiometry","Mole ratio","Limiting reactant","Mass-mass","Mass-volume"],
+"sections":[
+{"h":"Mole calculations","p":["Example 1. How many moles are in 18 g of water? Mr = 18. n = 18 ÷ 18 = 1 mol.","Example 2. How many molecules are in 54 g of water? n = 54 ÷ 18 = 3 mol. Molecules = 3 × 6.022 × 10²³ = 1.807 × 10²⁴.","Example 3. How many atoms are in 4 g of hydrogen gas, H₂? Molar mass of H₂ = 2. n = 4 ÷ 2 = 2 mol of molecules = 2 × 6.022 × 10²³ = 1.204 × 10²⁴ molecules. Each molecule has 2 atoms, so atoms = 2.408 × 10²⁴.","Example 4. Volume of 0.25 mol of oxygen at STP: V = 0.25 × 22.4 = 5.6 dm³."]},
+{"h":"Stoichiometry","p":["Stoichiometry is calculating the quantities (masses, volumes, particles) of reactants and products in a reaction from the balanced equation. The key idea is the mole ratio: the coefficients in a balanced equation tell the ratio of moles. In 2H₂ + O₂ → 2H₂O the ratio is 2 mol H₂ : 1 mol O₂ : 2 mol H₂O.","Steps: 1. Write the balanced equation. 2. Write down the mole ratio from the coefficients. 3. Change the given quantity to moles. 4. Use the ratio to find moles of the unknown. 5. Change those moles to the quantity asked for (mass, volume, particles)."]},
+{"h":"Worked examples","p":["Example 5 (mass to mass). How many grams of water form when 8 g of hydrogen burns completely? 2H₂ + O₂ → 2H₂O. Moles of H₂ = 8 ÷ 2 = 4 mol. The ratio H₂ : H₂O is 1 : 1, so 4 mol of H₂O form. Mass = 4 × 18 = 72 g.","Example 6 (mass to volume). What volume of CO₂ at STP forms when 50 g of CaCO₃ decomposes? CaCO₃ → CaO + CO₂. Mr of CaCO₃ = 100. n = 50 ÷ 100 = 0.5 mol. The ratio is 1 : 1, so 0.5 mol of CO₂ form. Volume = 0.5 × 22.4 = 11.2 dm³.","Example 7 (limiting reactant). 10 g of H₂ reacts with 80 g of O₂. Moles of H₂ = 10 ÷ 2 = 5 mol. Moles of O₂ = 80 ÷ 32 = 2.5 mol. The equation needs 2 mol H₂ for each 1 mol O₂, so 5 mol H₂ needs exactly 2.5 mol O₂. Both are used up fully, so there is no limiting reactant. Moles of water = 5 mol. Mass = 5 × 18 = 90 g.","The limiting reactant is the one that is used up first and decides how much product forms. If, say, we had 10 g of H₂ but only 40 g of O₂ (1.25 mol), the oxygen would limit: it needs 2.5 mol of H₂ and gives 2.5 mol of H₂O (45 g)."]},
+{"h":"Common mistakes","p":["Writing molar mass without the unit g/mol. Mixing up an atom (O) with a molecule (O₂). Forgetting that Avogadro's number applies to ions and formula units too. Using 22.4 dm³ for something that is not a gas or not at STP (at room temperature the molar volume is about 24 dm³)."]},
+{"h":"Uses","p":["Industry: working out how much raw material is needed for fertiliser, soap and cement. Medicine: preparing exact doses. Environment: estimating carbon dioxide from burning fuels. Laboratory: titration and gravimetric analysis."]}
+],
+"activity":"Practice answers: (a) 9 g of water is 0.5 mol; (b) 22 g of CO₂ is 0.5 mol; (c) 18 g of NH₃ (Mr = 17) contains 1.06 mol or 6.38 × 10²³ molecules; (d) 11 g of CO₂ occupies 5.6 dm³ at STP; (e) 20 g of Ca (0.5 mol) gives 28 g of CaO. Try to get these yourself first, then check.",
+"check":[
+{"q":"The number of molecules in 3 mol of water is","o":["1.807 × 10²⁴","6.022 × 10²³","18","54"]},
+{"q":"The volume of 0.5 mol of CO₂ at STP is","o":["11.2 dm³","22.4 dm³","44 dm³","5.6 dm³"]},
+{"q":"In 2H₂ + O₂ → 2H₂O, the mole ratio H₂ : H₂O is","o":["1 : 1","1 : 2","2 : 1","2 : 3"]},
+{"q":"8 g of H₂ gives how many grams of water?","o":["72 g","18 g","36 g","144 g"]},
+{"q":"The reactant that is used up first is the","o":["Limiting reactant","Catalyst","Product","Solvent"]}]},
+
+{"id":"ch2-06","week":3,"title":"Percentage Composition by Mass","icon":"BarChart2","summary":"How to calculate the percentage by mass of each element in a compound, with worked examples and a picture of ethanol.",
+"keyWords":["Percentage composition","Relative formula mass","Mass of element","Ethanol","Purity"],
+"sections":[
+{"h":"What is percentage composition?","p":["The percentage composition of a compound is the percentage by mass of each element in it. It tells us how much of each element is in the compound compared to the whole mass. It is useful in analysis and in industry, for example to compare fertilisers."]},
+{"h":"The formula","p":["Percentage of an element = (total mass of that element in the formula ÷ molar mass of the compound) × 100.","The molar mass is the sum of the relative atomic masses of all the atoms in the formula. The top line is the number of atoms of the element multiplied by its Ar."]},
+{"h":"Worked example 1: ethanol, C₂H₆O","p":["Step 1: molar mass = (2 × 12) + (6 × 1) + 16 = 24 + 6 + 16 = 46 g/mol. Step 2: masses of the elements: C = 24, H = 6, O = 16. Step 3: %C = 24 ÷ 46 × 100 = 52.2%. %H = 6 ÷ 46 × 100 = 13.0%. %O = 16 ÷ 46 × 100 = 34.8%. The total is 100%."],
+"img":{"src":"chem-ethanol-pie.png","alt":"A pie chart of ethanol showing carbon 52.2 per cent, oxygen 34.8 per cent and hydrogen 13.0 per cent","cap":"Percentage composition of ethanol by mass."}},
+{"h":"Worked example 2: sodium chloride, NaCl","p":["Molar mass = 23 + 35.5 = 58.5. %Na = 23 ÷ 58.5 × 100 = 39.3%. %Cl = 35.5 ÷ 58.5 × 100 = 60.7%."]},
+{"h":"Worked example 3: calcium carbonate, CaCO₃","p":["Molar mass = 40 + 12 + (3 × 16) = 100. %Ca = 40%. %C = 12%. %O = 48%."]},
+{"h":"More practice with answers","p":["Nitrogen in NH₃: Mr = 17; %N = 14 ÷ 17 × 100 = 82.4%. Hydrogen and oxygen in water: Mr = 18; %H = 2 ÷ 18 × 100 = 11.1% and %O = 16 ÷ 18 × 100 = 88.9%. Nitrogen in ammonium nitrate, NH₄NO₃: Mr = 80; %N = 28 ÷ 80 × 100 = 35%. This is why ammonium nitrate is a rich nitrogen fertiliser.","Uses: pharmaceutical firms check the content of active ingredients; farmers compare fertilisers by their percentage of nitrogen; the food industry works out nutrition."]},
+{"h":"Common mistakes","p":["Forgetting to multiply the Ar by the number of atoms. Using wrong atomic masses. Not checking that all the percentages add up to 100."]}
+],
+"activity":"Calculate the percentage of oxygen in carbon dioxide, CO₂. (Answer: 32 ÷ 44 × 100 = 72.7%.)",
+"check":[
+{"q":"The percentage of carbon in ethanol (C₂H₆O) is about","o":["52.2%","24%","46%","13%"]},
+{"q":"The percentage of sodium in NaCl is about","o":["39.3%","60.7%","23%","50%"]},
+{"q":"The percentage of calcium in CaCO₃ is","o":["40%","12%","48%","100%"]},
+{"q":"The percentage of nitrogen in NH₃ is about","o":["82.4%","17.6%","14%","50%"]},
+{"q":"The percentages of all the elements in a compound add up to","o":["100%","50%","10%","1000%"]}]},
+
+{"id":"ch2-07","week":3,"title":"Empirical and Molecular Formulae","icon":"Layers","summary":"How to find the empirical formula from percentages, how to get the molecular formula from the molar mass, with several worked examples.",
+"keyWords":["Empirical formula","Molecular formula","Mole ratio","Percentage composition","Molar mass"],
+"sections":[
+{"h":"Empirical formula","p":["The empirical formula shows the simplest whole-number ratio of atoms of each element in the compound. It does not always show the real number of atoms in a molecule."]},
+{"h":"Steps to find the empirical formula","p":["1. Assume 100 g of the compound, so each percentage becomes a mass in grams. 2. Divide each mass by the Ar of the element to get moles. 3. Divide all the mole values by the smallest one. 4. If the ratios are not whole numbers, multiply all by a small number (2, 3 and so on) until they are. 5. Write the formula."]},
+{"h":"Worked example 1","p":["A compound contains 40% C, 6.7% H and 53.3% O. Masses in 100 g: C 40, H 6.7, O 53.3. Moles: C = 40 ÷ 12 = 3.33; H = 6.7 ÷ 1 = 6.7; O = 53.3 ÷ 16 = 3.33. Divide by 3.33: C = 1, H = 2, O = 1. The empirical formula is CH₂O."]},
+{"h":"Worked example 2","p":["A substance contains 27.3% C and 72.7% O. Moles: C = 27.3 ÷ 12 = 2.28; O = 72.7 ÷ 16 = 4.54. Divide by 2.28: C = 1, O = 2. The empirical formula is CO₂."]},
+{"h":"Molecular formula","p":["The molecular formula shows the actual number of atoms of each element in one molecule. It is a whole-number multiple of the empirical formula: molecular formula = (empirical formula)ₙ, where n = molar mass of the compound ÷ molar mass of the empirical formula.","Example: the empirical formula is CH₂O and the molar mass is 180 g/mol. Mass of CH₂O = 12 + 2 + 16 = 30. n = 180 ÷ 30 = 6. Molecular formula = (CH₂O)₆ = C₆H₁₂O₆, which is glucose."]},
+{"h":"More worked examples","p":["A compound contains 36% C, 12% H and 52% O (approximate). Moles: C = 3.0; H = 12; O = 3.25. Divide by 3.0: 1 : 4 : 1.08, which is about CH₄O (methanol).","The empirical formula is CH and the molar mass is 78 g/mol. Mass of CH = 13. n = 78 ÷ 13 = 6. The molecular formula is C₆H₆ (benzene).","A hydrocarbon has 85.7% C and 14.3% H and a molar mass of 56. Moles: C = 85.7 ÷ 12 = 7.14; H = 14.3 ÷ 1 = 14.3. Divide by 7.14: C = 1, H = 2. The empirical formula is CH₂ (mass 14). n = 56 ÷ 14 = 4. The molecular formula is C₄H₈.","A compound has 54.5% C, 9.1% H and 36.4% O. Moles: C = 4.54, H = 9.1, O = 2.275. Divide by 2.275: C = 2, H = 4, O = 1. The empirical formula is C₂H₄O."]},
+{"h":"Uses and mistakes","p":["Uses: checking the purity and the composition of drugs, foods and fertilisers; finding unknown substances in forensic work. Common mistakes: forgetting to change the percentages to grams, stopping at a fraction such as 1.5 instead of multiplying by 2, and mixing up the empirical and molecular formulae."]}
+],
+"activity":"A compound has 80% C and 20% H and a molar mass of 30 g/mol. Find the empirical and molecular formula. (Moles C = 6.67, H = 20, so ratio 1 : 3, empirical CH₃ (mass 15), n = 2, molecular C₂H₆.)",
+"check":[
+{"q":"The empirical formula shows","o":["The simplest whole-number ratio of atoms","The actual number of atoms","The colour","The state"]},
+{"q":"A compound with 40% C, 6.7% H and 53.3% O has empirical formula","o":["CH₂O","C₂HO","CHO₂","C₂H₂O"]},
+{"q":"The empirical formula CH₂O with molar mass 180 g/mol gives molecular formula","o":["C₆H₁₂O₆","C₃H₆O₃","CH₂O","C₁₂H₂₄O₁₂"]},
+{"q":"The first step in finding an empirical formula from percentages is to","o":["Assume 100 g","Divide by 100","Multiply by Avogadro's number","Find the pH"]},
+{"q":"CH with molar mass 78 g/mol has molecular formula","o":["C₆H₆","C₂H₂","C₆H₁₂","CH"]}]},
+
+{"id":"ch2-08","week":4,"title":"Gas Laws (1): Boyle's Law and Charles' Law","icon":"Zap","summary":"The properties of a gas, Boyle's law (pressure and volume), Charles' law (volume and temperature) with graphs, explanations and worked examples.",
+"keyWords":["Pressure","Volume","Temperature","Boyle's law","Charles' law"],
+"sections":[
+{"h":"Gas properties","p":["Gases have no fixed shape or volume. Their particles are far apart and move constantly at random. Four things describe a gas. Pressure (P): the force of the particles on the walls of the container per unit area, P = force ÷ area, in pascals (Pa), where 1 Pa = 1 N/m². Volume (V): the space the gas fills, in litres (L), cm³ or m³. Temperature (T): measured in kelvin (K). To change from degrees Celsius: T(K) = T(°C) + 273. Amount (n): the number of moles of gas."]},
+{"h":"Boyle's law","p":["At constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure. So P × V = a constant, and for a change from state 1 to state 2: P₁V₁ = P₂V₂.","Explanation: when a gas is squeezed into a smaller volume, the particles hit the walls more often, so the pressure goes up. If the volume doubles, the pressure halves.","Graphs: a graph of P against V is a curve called a hyperbola. A graph of P against 1/V is a straight line through the origin.","Worked example 1: a gas has volume 4.0 L at 200 kPa. Find its volume at 400 kPa (same temperature). 200 × 4.0 = 400 × V₂, so V₂ = 800 ÷ 400 = 2.0 L."],
+"img":{"src":"chem-gas-laws.png","alt":"Two graphs: Boyle's law curve of pressure against volume falling steeply, and Charles' law straight line of volume against temperature in kelvin through the origin","cap":"Boyle's law (left) and Charles' law (right)."}},
+{"h":"Charles' law","p":["At constant pressure, the volume of a fixed mass of gas is directly proportional to its absolute (kelvin) temperature. V ÷ T = a constant, and for two states V₁ ÷ T₁ = V₂ ÷ T₂. The temperature must be in kelvin.","The graph of V against T (in K) is a straight line through the origin. If the line is extended back, it reaches zero volume at −273 °C (0 K), called absolute zero.","Explanation: a hotter gas has faster particles that hit the walls harder, so the volume must increase to keep the pressure the same.","Worked example 2: a gas has 300 cm³ at 27 °C (300 K). Find its volume at 127 °C (400 K) at constant pressure. 300 ÷ 300 = V₂ ÷ 400, so V₂ = 400 cm³."]},
+{"h":"Practice with answers","p":["2.5 L at 100 kPa is changed to 250 kPa at constant temperature: V₂ = 2.5 × 100 ÷ 250 = 1.0 L. A balloon has 1.2 L at 20 °C (293 K). At 80 °C (353 K) at constant pressure: V₂ = 1.2 × 353 ÷ 293 = 1.45 L. A gas has pressure 150 kPa at 300 K in a fixed volume. At 400 K, P₂ = 150 × 400 ÷ 300 = 200 kPa (this is Gay-Lussac's pressure law)."]},
+{"h":"Why use kelvin?","p":["The Kelvin scale starts at absolute zero, where the volume of an ideal gas would be zero. Celsius temperatures can be zero or negative, and we cannot divide or multiply volumes by zero or negative temperatures, so gas calculations must use kelvin."]}
+],
+"activity":"A syringe holds 60 cm³ of air at 100 kPa. You push the plunger so that the volume is 20 cm³ at the same temperature. Find the new pressure. (Answer: 300 kPa.)",
+"check":[
+{"q":"Boyle's law states that at constant temperature the volume of a gas is","o":["Inversely proportional to pressure","Directly proportional to pressure","Independent of pressure","Equal to pressure"]},
+{"q":"Charles' law states that at constant pressure the volume of a gas is","o":["Directly proportional to kelvin temperature","Inversely proportional to temperature","Independent of temperature","Equal to the Celsius temperature"]},
+{"q":"27 °C is equal to","o":["300 K","27 K","246 K","−246 K"]},
+{"q":"A gas at 4.0 L and 200 kPa is compressed to 400 kPa at constant temperature. Its volume is","o":["2.0 L","8.0 L","4.0 L","1.0 L"]},
+{"q":"Absolute zero is","o":["0 K or −273 °C","0 °C","100 K","273 K"]}]},
+
+{"id":"ch2-09","week":4,"title":"Gas Laws (2): The Ideal Gas Equation and Applications","icon":"Target","summary":"The general gas equation PV = nRT, the ideal gas model, a worked pressure calculation, a comparison of the laws and their uses.",
+"keyWords":["Ideal gas","PV = nRT","Gas constant","Kinetic theory","Applications"]
+,"sections":[
+{"h":"The ideal gas equation","p":["Boyle's law and Charles' law can be combined, and with the amount of gas included, we get the ideal gas equation: PV = nRT.","P = pressure in pascals (Pa); V = volume in cubic metres (m³; 1 L = 0.001 m³); n = number of moles; R = the gas constant, 8.314 J/(mol K); T = temperature in kelvin.","For comparing two states of the same amount of gas: P₁V₁ ÷ T₁ = P₂V₂ ÷ T₂."]},
+{"h":"Worked examples","p":["Example 1: find the pressure of 0.5 mol of gas in a 10 L container at 300 K. V = 10 L = 0.010 m³. P = nRT ÷ V = (0.5 × 8.314 × 300) ÷ 0.010 = 124,710 Pa, about 125 kPa.","Example 2: find the pressure of 2 mol of gas in 5 L at 350 K. V = 0.005 m³. P = (2 × 8.314 × 350) ÷ 0.005 = 1.16 × 10⁶ Pa.","Example 3: a cylinder holds nitrogen at 2.0 × 10⁵ Pa and 300 K, volume 0.05 m³. n = PV ÷ RT = (2.0 × 10⁵ × 0.05) ÷ (8.314 × 300) = 10,000 ÷ 2494 = 4.0 mol. Mass = 4.0 × 28 = 112 g."]},
+{"h":"The ideal gas model","p":["An ideal gas is a model with these ideas: the molecules are in constant, random motion; collisions are perfectly elastic (no energy lost); the volume of the molecules is tiny compared with the container; there are no forces between molecules; and the average kinetic energy is proportional to the kelvin temperature. Real gases behave almost ideally at low pressure and high temperature."]},
+{"h":"The laws compared","p":["Study the table."],
+"tbl":{"head":["Law","Constant","Formula","Relationship"],"rows":[
+["Boyle's","Temperature and amount","P₁V₁ = P₂V₂","Pressure and volume are inversely related"],
+["Charles'","Pressure and amount","V₁/T₁ = V₂/T₂","Volume and kelvin temperature are directly related"],
+["Ideal gas","Amount (n) fixed in the form shown","PV = nRT","Combines the laws"]]}},
+{"h":"Applications","p":["Boyle's law: syringes and bicycle pumps, compressors, and the way the lungs fill when the chest expands. Scuba divers must breathe out as they rise because the air in the lungs expands as the pressure falls. (The 'bends', or decompression sickness, is caused by dissolved nitrogen coming out of the blood as bubbles, a related idea involving Henry's law.)","Charles' law: hot air balloons rise because heated air expands and becomes less dense; the expansion of gases in engines.","Ideal gas equation: finding the molar mass of a gas, predicting yields of gas reactions and designing gas cylinders."]}
+],
+"activity":"Calculate the pressure of 1 mol of gas in a 22.4 L container at 273 K. (P = 1 × 8.314 × 273 ÷ 0.0224 = 101,325 Pa = 1 atm.)",
+"check":[
+{"q":"The ideal gas equation is","o":["PV = nRT","P = nRT","V = nRT","PT = nRV"]},
+{"q":"The gas constant R is about","o":["8.314 J/(mol K)","22.4 J/(mol K)","6.022 J/(mol K)","273 J/(mol K)"]},
+{"q":"Volume must be in cubic metres when using R = 8.314 and pressure in","o":["Pascals","Atmospheres","Kelvin","Moles"]},
+{"q":"Real gases behave most like ideal gases at","o":["Low pressure and high temperature","High pressure and low temperature","High pressure only","Any conditions"]},
+{"q":"A hot air balloon rises because heating the air makes it","o":["Expand and become less dense","Contract","Heavier","Turn to liquid"]}]}
+]

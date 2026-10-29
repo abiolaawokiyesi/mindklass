@@ -1,69 +1,384 @@
 [
-{"id":"ma3-02","week":1,"title":"The Circle: Parts and the Length of an Arc","icon":"Target","summary":"Revision of the circle (radius, diameter, circumference, area), the parts of a circle (arc, chord, sector, segment) and how to find the length of an arc.",
-"keyWords":["Circumference","Arc","Chord","Sector","Segment","Subtend"],
-"sections":[
-{"h":"What is mensuration?","p":["Mensuration is the part of mathematics that measures lengths, areas and volumes of shapes. This term we begin with the circle. The Babylonians used 3.125 for π and the Egyptians used 3.16. The Greek mathematician Archimedes (about 287 to 212 BC) found π very accurately. We use π ≈ 22/7 or 3.142."]},
-{"h":"Circle facts to remember","p":["The radius r is the distance from the centre to the edge. The diameter d = 2r goes across the circle through the centre. The circumference (the distance round the circle) is C = 2πr = πd. The area is A = πr²."]},
-{"h":"The parts of a circle","p":["An arc is any part of the circumference. A chord is a straight line joining two points on the circle (the diameter is the longest chord). A sector is a slice of the circle bounded by two radii and an arc, like a slice of pizza. A segment is the region between a chord and its arc: the 'crust' of the pizza. The smaller region is the minor segment and the larger is the major segment."],
-"img":{"src":"mth-circle-parts.png","alt":"A circle showing the centre, radius, diameter, chord, arc, a shaded sector and a shaded segment","cap":"Parts of a circle: a sector (slice) and a segment (between a chord and its arc)."}},
-{"h":"Length of an arc","p":["An arc is a fraction of the circumference. The fraction depends on the angle θ that the arc makes (subtends) at the centre. A full circle is 360°, so the fraction is θ/360.","Length of arc = (θ / 360°) × 2πr.","So a 180° arc is half the circumference (πr), a 90° arc is a quarter (πr/2) and a θ° arc is (θ/360) × 2πr."]},
-{"h":"Worked examples","p":["Example 1: a circle has radius 21 cm. Find the length of an arc that subtends 60° at the centre. (π = 22/7.) Arc = (60/360) × 2 × (22/7) × 21 = (1/6) × 132 = 22 cm. Check: the circumference is 2 × 22/7 × 21 = 132 cm and 60° is 1/6 of 360°, so 132 ÷ 6 = 22 cm.","Example 2: an arc of length 11 cm is on a circle of radius 7 cm. What angle does it subtend at the centre? 11 = (θ/360) × 2 × (22/7) × 7 = (θ/360) × 44. So θ = 11 × 360 ÷ 44 = 90°.","Example 3: a circle has radius 10 cm. The arc that subtends 90° has length (90/360) × 2π × 10 = 5π cm.","Example 4: a bicycle wheel has radius 35 cm. Its circumference is 2 × 22/7 × 35 = 220 cm. After 100 turns the bicycle has moved 22,000 cm = 220 m.","Example 5: the minute hand of a clock is 10 cm long. In 20 minutes it turns through 120° (20/60 of 360°). The tip travels (120/360) × 2π × 10 = 20π/3 ≈ 20.9 cm."]}
-],
-"activity":"Find the length of an arc of a circle with radius 28 cm if the angle at the centre is 45°. Use π = 22/7. (Answer: 22 cm.)",
-"check":[
-{"q":"The length of an arc is","o":["(θ/360) × 2πr","(θ/360) × πr²","2πr","πr²"]},
-{"q":"A chord is","o":["A straight line joining two points on a circle","Part of the circumference","A slice of a circle","The centre"]},
-{"q":"A sector is","o":["A region between two radii and an arc","The region between a chord and an arc","The diameter","A straight line"]},
-{"q":"A circle has radius 21 cm. A 60° arc has length (π = 22/7)","o":["22 cm","44 cm","11 cm","132 cm"]},
-{"q":"An arc of 11 cm lies on a circle of radius 7 cm. The angle at the centre is","o":["90°","45°","180°","60°"]}]},
-
-{"id":"ma3-03","week":1,"title":"The Perimeter of a Sector","icon":"Target","summary":"How to find the perimeter of a sector from its arc and two radii, with worked examples and a problem where the perimeter is given.",
-"keyWords":["Perimeter of a sector","Arc length","Two radii"],
-"sections":[
-{"h":"What is the perimeter of a sector?","p":["The perimeter is the total distance around the edge of a shape. A sector has three edges: the curved arc and two straight radii. So perimeter of a sector = arc length + 2r = (θ/360) × 2πr + 2r."]},
-{"h":"Example 1","p":["A sector has radius 14 cm and angle 120°. Find its perimeter. (π = 22/7.) Arc = (120/360) × 2 × (22/7) × 14 = (1/3) × 88 = 88/3 = 29.33 cm. Two radii = 2 × 14 = 28 cm. Perimeter = 29.33 + 28 = 57.33 cm (exactly 172/3 cm)."]},
-{"h":"Example 2","p":["A sector has radius 5 cm and arc length 10 cm. Its perimeter = arc + 2r = 10 + 2 × 5 = 20 cm."]},
-{"h":"Example 3: perimeter given","p":["The perimeter of a sector of radius 7 cm is 25 cm. (a) Find the arc length. Perimeter = arc + 2r, so 25 = arc + 14 and arc = 11 cm. (b) Find the angle θ. Arc = (θ/360) × 2 × (22/7) × 7 = (θ/360) × 44 = 11. So θ = 11 × 360 ÷ 44 = 90°."]},
-{"h":"A common mistake","p":["Do not forget to add the two radii. The arc length alone is not the perimeter of a sector. Also remember that the perimeter is a length (cm), while area is in square units (cm²)."]}
-],
-"activity":"A sector has a radius of 6 cm and an angle of 60°. Find its perimeter, using π = 3.142. (Answer: arc = 6.284 cm; perimeter = 18.284 cm.)",
-"check":[
-{"q":"The perimeter of a sector is","o":["Arc length + 2r","Arc length only","πr²","2πr"]},
-{"q":"A sector of radius 14 cm and angle 120° has an arc of about (π = 22/7)","o":["29.33 cm","88 cm","14 cm","57.33 cm"]},
-{"q":"A sector of radius 5 cm has arc length 10 cm. Its perimeter is","o":["20 cm","15 cm","10 cm","25 cm"]},
-{"q":"The perimeter of a sector of radius 7 cm is 25 cm. The arc length is","o":["11 cm","18 cm","14 cm","25 cm"]},
-{"q":"Perimeter is measured in","o":["cm","cm²","cm³","degrees"]}]},
-
-{"id":"ma3-04","week":2,"title":"Area of a Sector and Area of a Segment","icon":"Layers","summary":"The area of a sector as a fraction of the circle, the area of a segment as sector minus triangle, and the triangle formula ½ r² sin θ.",
-"keyWords":["Area of a sector","Area of a segment","Triangle area","sin θ"],
-"sections":[
-{"h":"Area of a sector","p":["Like arc length, the area of a sector is a fraction of the whole circle's area. The fraction is θ/360. Area of sector = (θ/360) × πr². A 180° sector is half the circle, a 90° sector is a quarter, and a θ° sector is (θ/360) × πr²."]},
-{"h":"Example: area of a sector","p":["Find the area of a sector of radius 10 cm and angle 135°. (π = 3.142.) Area = (135/360) × 3.142 × 10² = 0.375 × 314.2 = 117.825 cm², or 117.83 cm² to 2 decimal places. Check: the full circle is 314.2 cm² and 135/360 = 3/8 = 0.375, so 0.375 × 314.2 = 117.825."]},
-{"h":"Area of a segment","p":["A segment is the 'crust': the part of the sector outside the triangle formed by the two radii and the chord. So area of segment = area of sector − area of triangle.","The triangle has two sides of length r with the angle θ between them. Using area = ½ ab sin C, the triangle area is ½ r² sin θ. So area of segment = (θ/360) × πr² − ½ r² sin θ."]},
-{"h":"Example: area of a segment","p":["A chord subtends an angle of 90° at the centre of a circle of radius 14 cm. Find the area of the minor segment. (π = 22/7.) Area of sector = (90/360) × (22/7) × 14² = (1/4) × (22/7) × 196 = (1/4) × 616 = 154 cm². Area of triangle = ½ × 14² × sin 90° = ½ × 196 × 1 = 98 cm². Area of segment = 154 − 98 = 56 cm²."]},
-{"h":"Summary","p":["Arc length = (θ/360) × 2πr. Area of sector = (θ/360) × πr². Perimeter of sector = arc + 2r. Area of triangle in the sector = ½ r² sin θ. Area of segment = area of sector − area of triangle."]}
-],
-"activity":"Find the area of a sector of radius 7 cm and angle 90° (π = 22/7), and the area of the minor segment cut off by the chord. (Answers: 38.5 cm² and 14 cm².)",
-"check":[
-{"q":"The area of a sector is","o":["(θ/360) × πr²","(θ/360) × 2πr","πr²","½ r² sin θ"]},
-{"q":"The area of a segment is","o":["Area of sector − area of triangle","Area of sector + area of triangle","Arc length × r","Area of triangle only"]},
-{"q":"The triangle formed by two radii and an angle θ has area","o":["½ r² sin θ","πr²","r² cos θ","2πr"]},
-{"q":"A 90° sector of radius 14 cm has area (π = 22/7)","o":["154 cm²","98 cm²","616 cm²","56 cm²"]},
-{"q":"The minor segment for a 90° chord in a circle of radius 14 cm has area","o":["56 cm²","154 cm²","98 cm²","28 cm²"]}]},
-
-{"id":"ma3-05","week":2,"title":"From a Sector to a Cone","icon":"Layers","summary":"How a flat sector folds into a cone: slant height, base circumference and curved surface area, and the formula CSA = πrl.",
-"keyWords":["Cone","Slant height","Curved surface area","Pythagoras"],
-"sections":[
-{"h":"Folding a sector","p":["If you cut a sector from paper and fold it so the two straight edges meet, you get a cone. This shows how a flat shape and a 3D shape are linked.","(1) The radius of the sector becomes the slant height l of the cone. (2) The arc length of the sector becomes the circumference of the cone's base, which is 2πR where R is the base radius of the cone. (3) The area of the sector becomes the curved surface area (CSA) of the cone."],
-"img":{"src":"mth-sector-cone.png","alt":"A flat sector with radius l folding into a cone with slant height l, base radius R and height h","cap":"A sector folds into a cone: the sector's radius is the slant height."}},
-{"h":"Deriving the cone formula","p":["Area of sector = (θ/360) × πl². The arc of the sector equals the base circumference: (θ/360) × 2πl = 2πR. Divide both sides by 2πl: θ/360 = R/l. Now put this into the area: CSA = (R/l) × πl² = πRl. So the curved surface area of a cone is CSA = πRl."]},
-{"h":"Example: a sector folded into a cone","p":["A sector of radius 15 cm and angle 216° is folded into a cone. Find (a) the base radius R and (b) the vertical height h.","(a) Arc length = base circumference: (216/360) × 2π(15) = 2πR. Divide both sides by 2π: (216/360) × 15 = R. 216/360 = 3/5, so R = 3/5 × 15 = 9 cm.","(b) The slant height is l = 15 cm. The cone's height h, radius R and slant height l form a right-angled triangle: l² = R² + h². So 15² = 9² + h², 225 = 81 + h², h² = 144 and h = 12 cm. (This is the 9, 12, 15 triangle, a multiple of 3, 4, 5.)","The curved surface area of this cone is πRl = π × 9 × 15 = 135π cm², which is about 424 cm². This is also the area of the original sector: (216/360) × π × 15² = 0.6 × 225π = 135π."]}
-],
-"activity":"A sector of radius 10 cm and angle 144° is folded into a cone. Find its base radius and its height. (Answers: R = 4 cm; h = √84 ≈ 9.17 cm.)",
-"check":[
-{"q":"When a sector is folded into a cone, its radius becomes the cone's","o":["Slant height","Base radius","Vertical height","Diameter"]},
-{"q":"The arc of the sector becomes","o":["The base circumference of the cone","The height of the cone","The slant height","The apex"]},
-{"q":"The curved surface area of a cone is","o":["πRl","πR²","2πR","⅓πR²h"]},
-{"q":"A sector of radius 15 cm and angle 216° makes a cone with base radius","o":["9 cm","6 cm","15 cm","12 cm"]},
-{"q":"A cone has R = 9 cm and l = 15 cm. Its height is","o":["12 cm","6 cm","24 cm","10 cm"]}]}
+    {
+        "id":  "ma3-02",
+        "week":  1,
+        "title":  "The Circle: Parts and the Length of an Arc",
+        "icon":  "Target",
+        "summary":  "Revision of the circle (radius, diameter, circumference, area), the parts of a circle (arc, chord, sector, segment) and how to find the length of an arc.",
+        "keyWords":  [
+                         "Circumference",
+                         "Arc",
+                         "Chord",
+                         "Sector",
+                         "Segment",
+                         "Subtend"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "What is mensuration?",
+                             "p":  [
+                                       "Mensuration is the part of mathematics that measures lengths, areas and volumes of shapes. This term we begin with the circle. The Babylonians used 3.125 for π and the Egyptians used 3.16. The Greek mathematician Archimedes (about 287 to 212 BC) found π very accurately. We use π ≈ 22/7 or 3.142."
+                                   ]
+                         },
+                         {
+                             "h":  "Circle facts to remember",
+                             "p":  [
+                                       "The radius r is the distance from the centre to the edge. The diameter d = 2r goes across the circle through the centre. The circumference (the distance round the circle) is C = 2πr = πd. The area is A = πr²."
+                                   ]
+                         },
+                         {
+                             "h":  "The parts of a circle",
+                             "p":  [
+                                       "An arc is any part of the circumference. A chord is a straight line joining two points on the circle (the diameter is the longest chord). A sector is a slice of the circle bounded by two radii and an arc, like a slice of pizza. A segment is the region between a chord and its arc: the \u0027crust\u0027 of the pizza. The smaller region is the minor segment and the larger is the major segment."
+                                   ],
+                             "img":  {
+                                         "src":  "mth-circle-parts.png",
+                                         "alt":  "A circle showing the centre, radius, diameter, chord, arc, a shaded sector and a shaded segment",
+                                         "cap":  "Parts of a circle: a sector (slice) and a segment (between a chord and its arc)."
+                                     }
+                         },
+                         {
+                             "h":  "Length of an arc",
+                             "p":  [
+                                       "An arc is a fraction of the circumference. The fraction depends on the angle θ that the arc makes (subtends) at the centre. A full circle is 360°, so the fraction is θ/360.",
+                                       "Length of arc = (θ / 360°) × 2πr.",
+                                       "So a 180° arc is half the circumference (πr), a 90° arc is a quarter (πr/2) and a θ° arc is (θ/360) × 2πr."
+                                   ]
+                         },
+                         {
+                             "h":  "Worked examples",
+                             "p":  [
+                                       "Example 1: a circle has radius 21 cm. Find the length of an arc that subtends 60° at the centre. (π = 22/7.) Arc = (60/360) × 2 × (22/7) × 21 = (1/6) × 132 = 22 cm. Check: the circumference is 2 × 22/7 × 21 = 132 cm and 60° is 1/6 of 360°, so 132 ÷ 6 = 22 cm.",
+                                       "Example 2: an arc of length 11 cm is on a circle of radius 7 cm. What angle does it subtend at the centre? 11 = (θ/360) × 2 × (22/7) × 7 = (θ/360) × 44. So θ = 11 × 360 ÷ 44 = 90°.",
+                                       "Example 3: a circle has radius 10 cm. The arc that subtends 90° has length (90/360) × 2π × 10 = 5π cm.",
+                                       "Example 4: a bicycle wheel has radius 35 cm. Its circumference is 2 × 22/7 × 35 = 220 cm. After 100 turns the bicycle has moved 22,000 cm = 220 m.",
+                                       "Example 5: the minute hand of a clock is 10 cm long. In 20 minutes it turns through 120° (20/60 of 360°). The tip travels (120/360) × 2π × 10 = 20π/3 ≈ 20.9 cm."
+                                   ]
+                         }
+                     ],
+        "activity":  "Find the length of an arc of a circle with radius 28 cm if the angle at the centre is 45°. Use π = 22/7. (Answer: 22 cm.)",
+        "check":  [
+                      {
+                          "q":  "The length of an arc is",
+                          "o":  [
+                                    "(θ/360) × 2πr",
+                                    "(θ/360) × πr²",
+                                    "πr²",
+                                    "2πr"
+                                ]
+                      },
+                      {
+                          "q":  "A chord is",
+                          "o":  [
+                                    "A straight line joining two points on a circle",
+                                    "The centre",
+                                    "A slice of a circle",
+                                    "Part of the circumference"
+                                ]
+                      },
+                      {
+                          "q":  "A sector is",
+                          "o":  [
+                                    "A region between two radii and an arc",
+                                    "The region between a chord and an arc",
+                                    "A straight line",
+                                    "The diameter"
+                                ]
+                      },
+                      {
+                          "q":  "A circle has radius 21 cm. A 60° arc has length (π = 22/7)",
+                          "o":  [
+                                    "22 cm",
+                                    "44 cm",
+                                    "11 cm",
+                                    "132 cm"
+                                ]
+                      },
+                      {
+                          "q":  "An arc of 11 cm lies on a circle of radius 7 cm. The angle at the centre is",
+                          "o":  [
+                                    "90°",
+                                    "180°",
+                                    "45°",
+                                    "60°"
+                                ]
+                      }
+                  ]
+    },
+    {
+        "id":  "ma3-03",
+        "week":  1,
+        "title":  "The Perimeter of a Sector",
+        "icon":  "Target",
+        "summary":  "How to find the perimeter of a sector from its arc and two radii, with worked examples and a problem where the perimeter is given.",
+        "keyWords":  [
+                         "Perimeter of a sector",
+                         "Arc length",
+                         "Two radii"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "What is the perimeter of a sector?",
+                             "p":  [
+                                       "The perimeter is the total distance around the edge of a shape. A sector has three edges: the curved arc and two straight radii. So perimeter of a sector = arc length + 2r = (θ/360) × 2πr + 2r."
+                                   ]
+                         },
+                         {
+                             "h":  "Example 1",
+                             "p":  [
+                                       "A sector has radius 14 cm and angle 120°. Find its perimeter. (π = 22/7.) Arc = (120/360) × 2 × (22/7) × 14 = (1/3) × 88 = 88/3 = 29.33 cm. Two radii = 2 × 14 = 28 cm. Perimeter = 29.33 + 28 = 57.33 cm (exactly 172/3 cm)."
+                                   ]
+                         },
+                         {
+                             "h":  "Example 2",
+                             "p":  [
+                                       "A sector has radius 5 cm and arc length 10 cm. Its perimeter = arc + 2r = 10 + 2 × 5 = 20 cm."
+                                   ]
+                         },
+                         {
+                             "h":  "Example 3: perimeter given",
+                             "p":  [
+                                       "The perimeter of a sector of radius 7 cm is 25 cm. (a) Find the arc length. Perimeter = arc + 2r, so 25 = arc + 14 and arc = 11 cm. (b) Find the angle θ. Arc = (θ/360) × 2 × (22/7) × 7 = (θ/360) × 44 = 11. So θ = 11 × 360 ÷ 44 = 90°."
+                                   ]
+                         },
+                         {
+                             "h":  "A common mistake",
+                             "p":  [
+                                       "Do not forget to add the two radii. The arc length alone is not the perimeter of a sector. Also remember that the perimeter is a length (cm), while area is in square units (cm²)."
+                                   ]
+                         }
+                     ],
+        "activity":  "A sector has a radius of 6 cm and an angle of 60°. Find its perimeter, using π = 3.142. (Answer: arc = 6.284 cm; perimeter = 18.284 cm.)",
+        "check":  [
+                      {
+                          "q":  "The perimeter of a sector is",
+                          "o":  [
+                                    "Arc length + 2r",
+                                    "2πr",
+                                    "πr²",
+                                    "Arc length only"
+                                ]
+                      },
+                      {
+                          "q":  "A sector of radius 14 cm and angle 120° has an arc of about (π = 22/7)",
+                          "o":  [
+                                    "29.33 cm",
+                                    "88 cm",
+                                    "14 cm",
+                                    "57.33 cm"
+                                ]
+                      },
+                      {
+                          "q":  "A sector of radius 5 cm has arc length 10 cm. Its perimeter is",
+                          "o":  [
+                                    "20 cm",
+                                    "10 cm",
+                                    "25 cm",
+                                    "15 cm"
+                                ]
+                      },
+                      {
+                          "q":  "The perimeter of a sector of radius 7 cm is 25 cm. The arc length is",
+                          "o":  [
+                                    "11 cm",
+                                    "14 cm",
+                                    "18 cm",
+                                    "25 cm"
+                                ]
+                      },
+                      {
+                          "q":  "Perimeter is measured in",
+                          "o":  [
+                                    "cm",
+                                    "degrees",
+                                    "cm³",
+                                    "cm²"
+                                ]
+                      }
+                  ]
+    },
+    {
+        "id":  "ma3-04",
+        "week":  2,
+        "title":  "Area of a Sector and Area of a Segment",
+        "icon":  "Layers",
+        "summary":  "The area of a sector as a fraction of the circle, the area of a segment as sector minus triangle, and the triangle formula ½ r² sin θ.",
+        "keyWords":  [
+                         "Area of a sector",
+                         "Area of a segment",
+                         "Triangle area",
+                         "sin θ"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Area of a sector",
+                             "p":  [
+                                       "Like arc length, the area of a sector is a fraction of the whole circle\u0027s area. The fraction is θ/360. Area of sector = (θ/360) × πr². A 180° sector is half the circle, a 90° sector is a quarter, and a θ° sector is (θ/360) × πr²."
+                                   ]
+                         },
+                         {
+                             "h":  "Example: area of a sector",
+                             "p":  [
+                                       "Find the area of a sector of radius 10 cm and angle 135°. (π = 3.142.) Area = (135/360) × 3.142 × 10² = 0.375 × 314.2 = 117.825 cm², or 117.83 cm² to 2 decimal places. Check: the full circle is 314.2 cm² and 135/360 = 3/8 = 0.375, so 0.375 × 314.2 = 117.825."
+                                   ]
+                         },
+                         {
+                             "h":  "Area of a segment",
+                             "p":  [
+                                       "A segment is the \u0027crust\u0027: the part of the sector outside the triangle formed by the two radii and the chord. So area of segment = area of sector − area of triangle.",
+                                       "The triangle has two sides of length r with the angle θ between them. Using area = ½ ab sin C, the triangle area is ½ r² sin θ. So area of segment = (θ/360) × πr² − ½ r² sin θ."
+                                   ]
+                         },
+                         {
+                             "h":  "Example: area of a segment",
+                             "p":  [
+                                       "A chord subtends an angle of 90° at the centre of a circle of radius 14 cm. Find the area of the minor segment. (π = 22/7.) Area of sector = (90/360) × (22/7) × 14² = (1/4) × (22/7) × 196 = (1/4) × 616 = 154 cm². Area of triangle = ½ × 14² × sin 90° = ½ × 196 × 1 = 98 cm². Area of segment = 154 − 98 = 56 cm²."
+                                   ]
+                         },
+                         {
+                             "h":  "Summary",
+                             "p":  [
+                                       "Arc length = (θ/360) × 2πr. Area of sector = (θ/360) × πr². Perimeter of sector = arc + 2r. Area of triangle in the sector = ½ r² sin θ. Area of segment = area of sector − area of triangle."
+                                   ]
+                         }
+                     ],
+        "activity":  "Find the area of a sector of radius 7 cm and angle 90° (π = 22/7), and the area of the minor segment cut off by the chord. (Answers: 38.5 cm² and 14 cm².)",
+        "check":  [
+                      {
+                          "q":  "The area of a sector is",
+                          "o":  [
+                                    "(θ/360) × πr²",
+                                    "(θ/360) × 2πr",
+                                    "πr²",
+                                    "½ r² sin θ"
+                                ]
+                      },
+                      {
+                          "q":  "The area of a segment is",
+                          "o":  [
+                                    "Area of sector − area of triangle",
+                                    "Arc length × r",
+                                    "Area of triangle only",
+                                    "Area of sector + area of triangle"
+                                ]
+                      },
+                      {
+                          "q":  "The triangle formed by two radii and an angle θ has area",
+                          "o":  [
+                                    "½ r² sin θ",
+                                    "πr²",
+                                    "r² cos θ",
+                                    "2πr"
+                                ]
+                      },
+                      {
+                          "q":  "A 90° sector of radius 14 cm has area (π = 22/7)",
+                          "o":  [
+                                    "154 cm²",
+                                    "56 cm²",
+                                    "616 cm²",
+                                    "98 cm²"
+                                ]
+                      },
+                      {
+                          "q":  "The minor segment for a 90° chord in a circle of radius 14 cm has area",
+                          "o":  [
+                                    "56 cm²",
+                                    "98 cm²",
+                                    "154 cm²",
+                                    "28 cm²"
+                                ]
+                      }
+                  ]
+    },
+    {
+        "id":  "ma3-05",
+        "week":  2,
+        "title":  "From a Sector to a Cone",
+        "icon":  "Layers",
+        "summary":  "How a flat sector folds into a cone: slant height, base circumference and curved surface area, and the formula CSA = πrl.",
+        "keyWords":  [
+                         "Cone",
+                         "Slant height",
+                         "Curved surface area",
+                         "Pythagoras"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Folding a sector",
+                             "p":  [
+                                       "If you cut a sector from paper and fold it so the two straight edges meet, you get a cone. This shows how a flat shape and a 3D shape are linked.",
+                                       "(1) The radius of the sector becomes the slant height l of the cone. (2) The arc length of the sector becomes the circumference of the cone\u0027s base, which is 2πR where R is the base radius of the cone. (3) The area of the sector becomes the curved surface area (CSA) of the cone."
+                                   ],
+                             "img":  {
+                                         "src":  "mth-sector-cone.png",
+                                         "alt":  "A flat sector with radius l folding into a cone with slant height l, base radius R and height h",
+                                         "cap":  "A sector folds into a cone: the sector\u0027s radius is the slant height."
+                                     }
+                         },
+                         {
+                             "h":  "Deriving the cone formula",
+                             "p":  [
+                                       "Area of sector = (θ/360) × πl². The arc of the sector equals the base circumference: (θ/360) × 2πl = 2πR. Divide both sides by 2πl: θ/360 = R/l. Now put this into the area: CSA = (R/l) × πl² = πRl. So the curved surface area of a cone is CSA = πRl."
+                                   ]
+                         },
+                         {
+                             "h":  "Example: a sector folded into a cone",
+                             "p":  [
+                                       "A sector of radius 15 cm and angle 216° is folded into a cone. Find (a) the base radius R and (b) the vertical height h.",
+                                       "(a) Arc length = base circumference: (216/360) × 2π(15) = 2πR. Divide both sides by 2π: (216/360) × 15 = R. 216/360 = 3/5, so R = 3/5 × 15 = 9 cm.",
+                                       "(b) The slant height is l = 15 cm. The cone\u0027s height h, radius R and slant height l form a right-angled triangle: l² = R² + h². So 15² = 9² + h², 225 = 81 + h², h² = 144 and h = 12 cm. (This is the 9, 12, 15 triangle, a multiple of 3, 4, 5.)",
+                                       "The curved surface area of this cone is πRl = π × 9 × 15 = 135π cm², which is about 424 cm². This is also the area of the original sector: (216/360) × π × 15² = 0.6 × 225π = 135π."
+                                   ]
+                         }
+                     ],
+        "activity":  "A sector of radius 10 cm and angle 144° is folded into a cone. Find its base radius and its height. (Answers: R = 4 cm; h = √84 ≈ 9.17 cm.)",
+        "check":  [
+                      {
+                          "q":  "When a sector is folded into a cone, its radius becomes the cone\u0027s",
+                          "o":  [
+                                    "Slant height",
+                                    "Base radius",
+                                    "Diameter",
+                                    "Vertical height"
+                                ]
+                      },
+                      {
+                          "q":  "The arc of the sector becomes",
+                          "o":  [
+                                    "The base circumference of the cone",
+                                    "The height of the cone",
+                                    "The slant height",
+                                    "The apex"
+                                ]
+                      },
+                      {
+                          "q":  "The curved surface area of a cone is",
+                          "o":  [
+                                    "πRl",
+                                    "⅓πR²h",
+                                    "πR²",
+                                    "2πR"
+                                ]
+                      },
+                      {
+                          "q":  "A sector of radius 15 cm and angle 216° makes a cone with base radius",
+                          "o":  [
+                                    "9 cm",
+                                    "12 cm",
+                                    "15 cm",
+                                    "6 cm"
+                                ]
+                      },
+                      {
+                          "q":  "A cone has R = 9 cm and l = 15 cm. Its height is",
+                          "o":  [
+                                    "12 cm",
+                                    "6 cm",
+                                    "10 cm",
+                                    "24 cm"
+                                ]
+                      }
+                  ]
+    }
 ]

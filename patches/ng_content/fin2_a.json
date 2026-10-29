@@ -1,0 +1,244 @@
+[
+{"id":"fa2-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Financial Accounting Second Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Bank reconciliation","Trial balance","Suspense account","Trading account","Profit and loss"],
+"sections":[
+{"h":"Welcome to Second Term","p":["In First Term you learned to record transactions. In Second Term you learn to check the records and then to turn them into the financial statements that tell the owner whether the business made a profit.","You will compare the cash book with the bank statement (bank reconciliation), classify accounts, prepare a trial balance, find and correct errors with a suspense account, and prepare the trading account and the profit and loss account, including the adjustments that make them accurate.","Accounting is learned by doing. Copy each worked example in your notebook, cover the answer, and try again. At the end of every unit are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit.","Some figures in the original lesson plan did not add up (for example some trial balances did not balance). In these notes the figures have been corrected, and each correction is explained so that you can see how it was found."]},
+{"h":"Table of contents for Second Term","p":["Week 5 is the midterm examination and Week 7 is the midterm break."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Bank reconciliation: meaning, need and the cash book and bank statement"],
+["3","1","Causes of differences between the cash book and the bank statement"],
+["4","1","A worked example: finding the differences"],
+["5","2","Updating the cash book and preparing the reconciliation statement"],
+["6","2","A comprehensive example"],
+["7","2","Overdrafts, errors, examination tips and practice"],
+["8","3","Classification of accounts: personal and real accounts"],
+["9","3","Nominal accounts, modern classification and practice"],
+["10","4","Trial balance: meaning, purpose and format"],
+["11","4","Extracting balances and preparing a trial balance"],
+["12","6","Errors that affect the trial balance"],
+["13","6","Errors that do not affect the trial balance"],
+["14","6","Suspense account and correcting errors by journal entries"],
+["15","8","The trading account: meaning, format and items"],
+["16","8","Cost of goods sold, gross profit and special items"],
+["17","9","The profit and loss account: meaning, format and items"],
+["18","9","A worked example and the transfer of profit to capital"],
+["19","10","Adjustments: closing stock, prepayments and accruals"],
+["20","10","Adjustments: depreciation, provision for bad debts and bad debts"],
+["21","10","A comprehensive example with adjustments"],
+["22","11","Revision questions and answers"]]}}
+],
+"activity":"Look at the units. Which units will you use to find out whether a business made a profit? Which unit teaches you to find a mistake that stops the trial balance from balancing?",
+"check":[
+{"q":"In which unit do you study the suspense account?","o":["Unit 14","Unit 3","Unit 9","Unit 18"]},
+{"q":"Which unit covers the trading account format?","o":["Unit 15","Unit 4","Unit 11","Unit 20"]},
+{"q":"In which unit do you study depreciation?","o":["Unit 20","Unit 2","Unit 8","Unit 12"]},
+{"q":"Which unit covers bank reconciliation examples?","o":["Unit 4","Unit 13","Unit 16","Unit 22"]}]},
+
+{"id":"fa2-02","week":1,"title":"Bank Reconciliation: Meaning, Need and the Cash Book and Bank Statement","icon":"Landmark","summary":"What a bank reconciliation statement is, why it is prepared, and why debit in the cash book is credit on the bank statement.",
+"keyWords":["Bank reconciliation statement","Cash book","Bank statement","Debit","Credit"]
+,"sections":[
+{"h":"Meaning","p":["A bank reconciliation statement is a statement prepared to reconcile (make agree) the balance in the bank column of the cash book with the balance on the bank statement on a particular date. It shows the reasons for any difference.","Key points: it shows the reasons for differences; it is not part of the double entry system; it is prepared regularly (monthly or quarterly); it helps to find errors and omissions; and it makes sure the records are accurate."]},
+{"h":"The two documents","p":["The cash book (bank column) is kept by the business. It records every payment into and out of the bank and shows the balance from the business's point of view. The bank statement is prepared by the bank. It lists all the transactions in the customer's account and shows the balance from the bank's point of view.","The two balances are often different, even when nobody has made a mistake, because the two sets of books record items at different times and the bank records some items that the business does not know about yet."]},
+{"h":"Why do we prepare a bank reconciliation?","p":["1. To detect errors: in the cash book, in the bank statement, wrong postings or wrong amounts. 2. To find omissions: bank charges, interest, standing orders or direct credits not yet recorded. 3. To check accuracy: it is an independent check on the cash book and the statement. 4. For internal control: it helps to prevent fraud and unauthorised withdrawals. 5. To give management the true bank balance for cash flow planning. 6. It is an audit requirement and part of year-end procedures."]},
+{"h":"Why debit becomes credit","p":["What is a debit in the cash book is a credit on the bank statement, and what is a credit in the cash book is a debit on the bank statement. The reason is that the two parties see the same money in opposite ways.","For the business, money paid into the bank increases an asset, so it is a debit in the cash book. Money withdrawn decreases the asset, so it is a credit.","For the bank, money paid in by the customer increases what the bank owes the customer. This is a liability of the bank, so the bank credits the customer's account. Money withdrawn reduces that liability, so the bank debits the customer's account.","Example: ₦10,000 is paid into the bank. The cash book shows Dr Bank ₦10,000. The bank statement shows Cr ₦10,000. Then ₦5,000 is withdrawn. The cash book shows Cr Bank ₦5,000. The bank statement shows Dr ₦5,000."],
+"tbl":{"head":["Transaction","Cash book (business)","Bank statement (bank)"],"rows":[
+["Money paid into the bank","Debit (asset up)","Credit (bank owes more)"],
+["Money withdrawn or cheque paid","Credit (asset down)","Debit (bank owes less)"],
+["A positive balance","Debit balance","Credit balance"]]}}
+],
+"activity":"The bank statement shows a credit balance of ₦78,000. What does this mean for the business? (The bank owes the business ₦78,000: the business has ₦78,000 in the bank, which would be a debit balance in its cash book.)",
+"check":[
+{"q":"A bank reconciliation statement is","o":["Not part of double entry","A ledger account","A journal entry","A balance sheet"]},
+{"q":"A deposit is a debit in the cash book and a ... on the bank statement","o":["Credit","Debit","Balance","Charge"]},
+{"q":"The cash book is kept by the","o":["Business","Bank","Government","Customer"]},
+{"q":"Bank reconciliation helps to detect","o":["Errors and omissions","Weather","Rent","Stock levels"]},
+{"q":"A positive bank balance is a ... balance on the bank statement","o":["Credit","Debit","Zero","Overdraft"]}]},
+
+{"id":"fa2-03","week":1,"title":"Causes of Differences Between the Cash Book and the Bank Statement","icon":"Landmark","summary":"Items in the cash book but not on the statement (timing differences) and items on the statement but not in the cash book, with the effect and treatment of each.",
+"keyWords":["Unpresented cheque","Uncredited lodgement","Standing order","Dishonoured cheque","Direct credit"]
+,"sections":[
+{"h":"Two groups of items","p":["Differences fall into two groups. Group 1: items in the cash book but not yet on the bank statement (timing differences). Group 2: items on the bank statement but not yet in the cash book (unrecorded items)."]},
+{"h":"Group 1: in the cash book but not on the statement","p":["Unpresented (outstanding) cheques are cheques the business has issued and recorded, but the receiver has not yet taken them to the bank. Example: a ₦50,000 cheque to a supplier on 28 January; the supplier has not banked it by 31 January. The cash book shows the payment but the bank statement does not. The cash book balance is lower than the bank balance.","Uncredited lodgements are cash or cheques the business has paid in and recorded, but the bank has not yet recorded (for example, paid in late in the day). Example: ₦30,000 paid in at 4 pm on 31 January and processed on 1 February. The cash book balance is higher than the bank balance.","These need NO change to the cash book. They are dealt with in the reconciliation statement and will correct themselves in the next period."]},
+{"h":"Group 2: on the statement but not in the cash book","p":["These are items that the bank has recorded but the business has not. The cash book must be UPDATED for each of them."],
+"tbl":{"head":["Item","Meaning","Effect on cash book","Cash book entry"],"rows":[
+["Bank charges","Fees for services (maintenance fee, cheque book, transfer fees, commission on turnover, stamp duty)","Decreases","Credit bank; debit bank charges"],
+["Interest charged","Interest on an overdraft","Decreases","Credit bank; debit interest paid"],
+["Interest allowed","Interest the bank pays on a credit balance","Increases","Debit bank; credit interest received"],
+["Standing order","A fixed regular payment the customer has told the bank to make (insurance, loan repayment, subscription, rent)","Decreases","Credit bank; debit the expense"],
+["Direct debit","A payment taken by a third party, often of a changing amount (utility, phone bill)","Decreases","Credit bank; debit the expense"],
+["Direct credit or transfer","Money paid straight into the account by someone else (customer, dividend, refund)","Increases","Debit bank; credit the right account"],
+["Dishonoured cheque","A cheque we banked that the payer's bank refused to pay (not enough money)","Decreases","Credit bank; debit the customer's account"],
+["Dividend collected by the bank","The bank collects a dividend for the customer","Increases","Debit bank; credit dividend received"],
+["Errors in the cash book","Wrong amount, item left out or wrong posting","Corrects","Correct in the cash book"]]}},
+{"h":"A note on terms","p":["In Nigeria, electronic transfers (for example through NIBSS Instant Payment, mobile banking or point-of-sale machines) are direct credits. Your lesson notes mention NEFT and RTGS, which are Indian systems; the treatment is exactly the same."]},
+{"h":"Summary","p":["Items that reduce the cash book balance (credit the bank column): bank charges, interest charged, standing orders, direct debits, dishonoured cheques and errors that overstated the balance. Items that increase the cash book balance (debit the bank column): interest allowed, direct credits, dividends collected and errors that understated the balance.","Memory aid: items on the bank statement but not in the cash book need a CASH BOOK UPDATE. Items in the cash book but not on the bank statement need a RECONCILIATION STATEMENT adjustment (no cash book update)."]}
+],
+"activity":"State whether each item increases or decreases the cash book balance: (a) bank charges; (b) interest received; (c) dishonoured cheque; (d) direct credit; (e) standing order. ((a) decreases; (b) increases; (c) decreases; (d) increases; (e) decreases.)",
+"check":[
+{"q":"A cheque issued but not yet banked by the receiver is","o":["An unpresented cheque","An uncredited lodgement","A direct credit","A dishonoured cheque"]},
+{"q":"A dishonoured cheque is entered by crediting","o":["The bank column of the cash book","The sales account","The capital account","The interest account"]},
+{"q":"Interest allowed by the bank","o":["Increases the cash book balance","Decreases it","Has no effect","Doubles it"]},
+{"q":"Which item needs a cash book update?","o":["Bank charges","Unpresented cheque","Uncredited lodgement","None"]},
+{"q":"A regular fixed payment ordered by the customer is a","o":["Standing order","Direct credit","Dividend","Lodgement"]},
+{"q":"A late deposit not yet processed by the bank is an","o":["Uncredited lodgement","Unpresented cheque","Bank charge","Standing order"]}]},
+
+{"id":"fa2-04","week":1,"title":"A Worked Example: Finding the Differences","icon":"Target","summary":"Comparing a cash book with a bank statement step by step, updating the cash book and proving the reconciliation.",
+"keyWords":["Tick off","Unmatched items","Update","Reconcile","Proof"]
+,"sections":[
+{"h":"Step-by-step approach","p":["Step 1: compare the opening balances. If they differ, find out why. Step 2: tick off each item that appears in both the cash book and the bank statement. Step 3: list the items left over. Items left in the cash book only are timing differences. Items left on the statement only must be added to the cash book. Step 4: classify each leftover item. Step 5: update the cash book for the items on the statement only. Step 6: prepare the reconciliation statement for the timing differences."]},
+{"h":"The example: ABC Enterprises, January 2024","p":["Cash book (bank column):"],
+"tbl":{"head":["Debit side","₦","Credit side","₦"],"rows":[
+["Jan 1 Balance b/d","50,000","Jan 5 Chq 001 Rent","10,000"],
+["Jan 10 Cash deposited","30,000","Jan 15 Chq 002 ABC","15,000"],
+["Jan 20 Sales, cheque received","25,000","Jan 22 Chq 003 XYZ","12,000"],
+["Jan 28 Cash deposited","20,000","Jan 31 Balance c/d","88,000"],
+["Total","125,000","Total","125,000"]]}},
+{"h":"The bank statement","p":["Bank statement for January 2024:"],
+"tbl":{"head":["Date","Details","Debit ₦","Credit ₦","Balance ₦"],"rows":[
+["Jan 1","Balance b/f","","","50,000"],
+["Jan 5","Chq 001","10,000","","40,000"],
+["Jan 10","Cash deposit","","30,000","70,000"],
+["Jan 15","Chq 002","15,000","","55,000"],
+["Jan 20","Cheque deposit","","25,000","80,000"],
+["Jan 25","Standing order, insurance","5,000","","75,000"],
+["Jan 28","Bank charges","1,000","","74,000"],
+["Jan 30","Interest credited","","2,000","76,000"]]}},
+{"h":"Analysis","p":["Cash book balance ₦88,000. Bank statement balance ₦76,000. Difference ₦12,000.","In the cash book but not on the statement: the cash deposited on 28 January, ₦20,000 (an uncredited lodgement), and cheque 003 to XYZ on 22 January, ₦12,000 (an unpresented cheque).","On the statement but not in the cash book: the standing order of ₦5,000, bank charges ₦1,000 and interest ₦2,000. These need a cash book update."]},
+{"h":"Update the cash book","p":["Start with ₦88,000. Less the standing order ₦5,000 and bank charges ₦1,000 (they reduce the balance). Add the interest ₦2,000. The updated balance is 88,000 − 5,000 − 1,000 + 2,000 = ₦84,000."]},
+{"h":"Reconciliation statement at 31 January 2024","p":["Study the table. It starts with the updated cash book balance."],
+"tbl":{"head":["","₦","₦"],"rows":[
+["Balance per updated cash book","","84,000"],
+["Add: unpresented cheque 003 (XYZ)","","12,000"],
+["","","96,000"],
+["Less: uncredited lodgement (28 January)","","(20,000)"],
+["Balance per bank statement","","76,000"]]}},
+{"h":"Proof","p":["The result is ₦76,000, the same as the bank statement. The reconciliation agrees, so we know the cash book is now correct."],
+"img":{"src":"fin-bank-rec.png","alt":"A diagram with the updated cash book balance on the left and the bank statement balance on the right, and arrows showing what to add and deduct to move from one to the other","cap":"Moving between the cash book and the bank statement."}}
+],
+"activity":"Work out what the statement would show if an unpresented cheque of ₦12,000 were not on the list. (The reconciliation would give ₦88,000 instead of ₦76,000 and would not agree with the bank statement.)",
+"check":[
+{"q":"The updated cash book balance in the example is","o":["₦84,000","₦88,000","₦76,000","₦96,000"]},
+{"q":"The unpresented cheque in the example is","o":["₦12,000","₦20,000","₦5,000","₦2,000"]},
+{"q":"Standing orders and bank charges","o":["Reduce the cash book balance","Increase it","Do not affect it","Are in the reconciliation only"]},
+{"q":"In the example the bank statement balance is","o":["₦76,000","₦88,000","₦84,000","₦96,000"]},
+{"q":"Items found only in the cash book are","o":["Timing differences","Unrecorded items","Bank errors","Interest"]}]},
+
+{"id":"fa2-05","week":2,"title":"Updating the Cash Book and Preparing the Reconciliation Statement","icon":"Landmark","summary":"The two steps of bank reconciliation, the format of the updated cash book and the two methods of the reconciliation statement.",
+"keyWords":["Updated cash book","Method 1","Method 2","Unpresented cheques","Uncredited lodgements"]
+,"sections":[
+{"h":"Procedure","p":["Step 1: update the cash book. Record every item on the bank statement that is not yet in the cash book, and find the new (updated) balance. Step 2: prepare the bank reconciliation statement. Start with the updated cash book balance or with the bank statement balance, adjust for the timing differences, and arrive at the other balance.","Two methods: Method 1 starts with the updated cash book balance and arrives at the bank statement balance. Method 2 starts with the bank statement balance and arrives at the updated cash book balance. Both are correct. Use the one the question asks for."]},
+{"h":"Updating the cash book","p":["Items that increase the balance go on the debit side. Items that decrease the balance go on the credit side. Then total the sides and bring down the new balance. A simple way is to write: old balance, then plus items that increase it, then minus items that decrease it."],
+"tbl":{"head":["Debit side (increase the balance)","Credit side (decrease the balance)"],"rows":[
+["Balance b/d (old)","Bank charges"],
+["Interest received","Interest charged"],
+["Direct credits and transfers","Standing orders"],
+["Dividends collected","Direct debits"],
+["Corrections that increase the balance","Dishonoured cheques"],
+["","Corrections that decrease the balance"],
+["","Balance c/d (new, updated)"]]}},
+{"h":"Method 1: from the cash book balance to the bank statement balance","p":["Add unpresented cheques and deduct uncredited lodgements."],
+"tbl":{"head":["","₦","₦"],"rows":[
+["Balance per updated cash book","","XXX"],
+["Add: unpresented cheques","XXX",""],
+["","XXX","XXX"],
+["","","XXX"],
+["Less: uncredited lodgements","(XXX)",""],
+["Balance per bank statement","","XXX"]]}},
+{"h":"Method 2: from the bank statement balance to the cash book balance","p":["Add uncredited lodgements and deduct unpresented cheques."],
+"tbl":{"head":["","₦","₦"],"rows":[
+["Balance per bank statement","","XXX"],
+["Add: uncredited lodgements","XXX",""],
+["","","XXX"],
+["Less: unpresented cheques","(XXX)",""],
+["Balance per updated cash book","","XXX"]]}},
+{"h":"Key points","p":["Unpresented cheques REDUCE the bank balance (the bank has not yet paid them). So add them to the cash book balance to reach the bank balance, or deduct them from the bank balance to reach the cash book balance.","Uncredited lodgements INCREASE the bank balance when they are finally credited. So deduct them from the cash book balance to reach the bank balance, or add them to the bank balance to reach the cash book balance.","Always use the UPDATED cash book balance."]}
+],
+"activity":"A bank statement shows ₦50,000. There are unpresented cheques of ₦8,000 and an uncredited lodgement of ₦3,000. What is the updated cash book balance? (50,000 + 3,000 − 8,000 = ₦45,000.)",
+"check":[
+{"q":"Starting with the bank statement balance, an uncredited lodgement is","o":["Added","Deducted","Ignored","Doubled"]},
+{"q":"Starting with the bank statement balance, an unpresented cheque is","o":["Deducted","Added","Ignored","Doubled"]},
+{"q":"The first step in a bank reconciliation is to","o":["Update the cash book","Close the account","Write to the bank","Burn the cheques"]},
+{"q":"Starting with the updated cash book balance, an unpresented cheque is","o":["Added","Deducted","Ignored","Halved"]},
+{"q":"Which method is correct?","o":["Both methods","Only Method 1","Only Method 2","Neither"]}]},
+
+{"id":"fa2-06","week":2,"title":"A Comprehensive Bank Reconciliation Example","icon":"Target","summary":"A complete example (Ojo Enterprises): updating the cash book for four items and reconciling by both methods.",
+"keyWords":["Dishonoured cheque","Standing order","Interest","Reconciliation","Updated balance"]
+,"sections":[
+{"h":"The question","p":["Ojo Enterprises: cash book (bank column) for January 2024. Debit side: Jan 1 balance b/d ₦100,000; Jan 5 sales ₦45,000; Jan 12 cash deposit ₦25,000; Jan 18 debtor John ₦35,000; Jan 28 sales ₦30,000; total ₦235,000. Credit side: Jan 8 cheque 101 rent ₦20,000; Jan 15 cheque 102 ABC ₦30,000; Jan 20 cheque 103 wages ₦15,000; Jan 25 cheque 104 XYZ ₦18,000; Jan 31 cheque 105 supplier ₦25,000; Jan 31 balance c/d ₦127,000.","The bank statement shows (Jan 1 balance ₦100,000): Jan 5 credit 45,000; Jan 8 chq 101 20,000; Jan 12 deposit 25,000; Jan 15 chq 102 30,000; Jan 18 credit 35,000; Jan 20 chq 103 15,000; Jan 22 standing order, insurance 10,000; Jan 26 bank charges 2,000; Jan 29 interest credited 3,000; Jan 30 dishonoured cheque, John 35,000. The closing balance is ₦96,000.","Required: (a) update the cash book; (b) prepare a bank reconciliation statement."]},
+{"h":"Spotting the differences","p":["Items on the statement only: the standing order ₦10,000, bank charges ₦2,000, interest ₦3,000 and the dishonoured cheque of John ₦35,000. These must be put into the cash book.","Items in the cash book only: cheque 104 (₦18,000), cheque 105 (₦25,000) and the deposit of 28 January (₦30,000). These go in the reconciliation."]},
+{"h":"(a) Updated cash book","p":["The updates are as follows. Interest received: Dr Bank ₦3,000, Cr Interest received ₦3,000. Standing order: Dr Insurance ₦10,000, Cr Bank ₦10,000. Bank charges: Dr Bank charges ₦2,000, Cr Bank ₦2,000. Dishonoured cheque: Dr John (debtor) ₦35,000, Cr Bank ₦35,000 (John still owes us the money)."],
+"tbl":{"head":["Debit side","₦","Credit side","₦"],"rows":[
+["Balance b/d (old)","127,000","Standing order, insurance","10,000"],
+["Interest received","3,000","Bank charges","2,000"],
+["","","Dishonoured cheque, John","35,000"],
+["","","Balance c/d (new)","83,000"],
+["Total","130,000","Total","130,000"],
+["Balance b/d (new)","83,000","",""]]}},
+{"h":"(b) Bank reconciliation statement at 31 January 2024","p":["Method 1, from the updated cash book."],
+"tbl":{"head":["","₦","₦"],"rows":[
+["Balance per updated cash book","","83,000"],
+["Add: unpresented cheques","",""],
+["Chq 104, XYZ","18,000",""],
+["Chq 105, supplier","25,000","43,000"],
+["","","126,000"],
+["Less: uncredited lodgement (28 January)","","(30,000)"],
+["Balance per bank statement","","96,000"]]}},
+{"h":"Method 2, from the bank statement","p":["Balance per bank statement ₦96,000. Add the uncredited lodgement ₦30,000 to give ₦126,000. Less unpresented cheques ₦43,000 (18,000 + 25,000). Balance per updated cash book ₦83,000. Both methods give the same answer, which proves that the work is correct."]}
+],
+"activity":"Prepare the updated cash book and the reconciliation for April: cash book balance (Dr) ₦120,000; unpresented cheques 201 ₦15,000 and 202 ₦8,000; uncredited deposit ₦20,000; bank charges ₦2,500, standing order insurance ₦5,000, interest credited ₦1,500 and direct debit electricity ₦3,000 are on the statement only. (Updated cash book 120,000 − 2,500 − 5,000 + 1,500 − 3,000 = ₦111,000. Bank statement balance 111,000 + 23,000 − 20,000 = ₦114,000.)",
+"check":[
+{"q":"After updating, the Ojo cash book balance is","o":["₦83,000","₦127,000","₦96,000","₦130,000"]},
+{"q":"The dishonoured cheque of John means that John","o":["Still owes the money","Has paid","Is a creditor","Gets a discount"]},
+{"q":"Unpresented cheques in the example total","o":["₦43,000","₦30,000","₦18,000","₦96,000"]},
+{"q":"The reconciliation ends with the bank statement balance of","o":["₦96,000","₦83,000","₦126,000","₦43,000"]},
+{"q":"To record bank charges we debit","o":["Bank charges account","Bank account","Sales","Capital"]}]},
+
+{"id":"fa2-07","week":2,"title":"Overdrafts, Errors, Examination Tips and Practice","icon":"Shield","summary":"Reconciling when there is an overdraft, handling errors in the cash book and on the bank statement, common mistakes, and two practice questions with answers.",
+"keyWords":["Overdraft","Transposition","Error","Examination tips","Practice"]
+,"sections":[
+{"h":"When there is an overdraft","p":["An overdraft means the account has gone below zero: the business owes the bank. In the cash book, this is a credit balance. Show an overdraft in brackets.","Example: overdraft per cash book (₦25,000). Add unpresented cheques ₦10,000: (₦15,000). Less uncredited lodgements ₦5,000: overdraft per bank statement (₦20,000). With an overdraft, adding a cheque makes the overdraft smaller, because the bank has not yet paid it."],
+"tbl":{"head":["","₦"],"rows":[
+["Overdraft per cash book","(25,000)"],
+["Add: unpresented cheques","10,000"],
+["","(15,000)"],
+["Less: uncredited lodgements","(5,000)"],
+["Overdraft per bank statement","(20,000)"]]}},
+{"h":"Errors","p":["Error in the cash book: a payment of ₦5,000 was recorded as ₦500. The cash book balance is too HIGH (overstated) by ₦4,500, because too little was deducted. (Your lesson notes say 'understated'; an under-recorded payment makes the balance too high.) Update the cash book by crediting the bank with a further ₦4,500.","Error by the bank: a deposit of ₦10,000 was shown by the bank as ₦1,000. The bank balance is too low by ₦9,000. Ask the bank to correct it and, in the reconciliation, add ₦9,000 to the bank balance.","Transposition error: ₦7,300 written as ₦7,030. The difference is ₦270. A transposition difference is always divisible by 9 (270 ÷ 9 = 30), which is a clue when you look for such errors."]},
+{"h":"Examination tips","p":["Common mistakes to avoid: forgetting to update the cash book first; using the old cash book balance; adding when you should deduct (or the reverse); including updated items again in the reconciliation; using the wrong sign for an overdraft; and not showing workings.","Good practice: update the cash book first; label the 'updated balance'; show all workings; use a proper format; list all cheque numbers; check that the two balances agree."]},
+{"h":"Practice question 1 (Bola Traders)","p":["The cash book (bank column) shows a debit balance of ₦85,000 on 31 March 2024. The bank statement shows a credit balance of ₦63,000 (see the correction below). Unpresented cheques: No. 450, ₦12,000 and No. 451, ₦8,500. Uncredited lodgement ₦15,000. Not yet in the cash book: bank charges ₦1,500; standing order for rent ₦10,000; interest received ₦2,000; a customer's cheque of ₦18,000 dishonoured.","Updated cash book: 85,000 − 1,500 − 10,000 + 2,000 − 18,000 = ₦57,500. Reconciliation: 57,500 + 20,500 (unpresented cheques) − 15,000 (uncredited lodgement) = ₦63,000.","Correction: your lesson notes give the bank statement balance as ₦78,500, which does not agree with the figures (their own working could not make it agree). With the figures as listed, the bank statement balance must be ₦63,000. The reconciliation then proves."]},
+{"h":"Practice question 2 (April)","p":["Prepare the updated cash book and reconciliation: cash book balance ₦120,000 (Dr); bank statement ₦114,000; unpresented cheques ₦15,000 and ₦8,000; uncredited deposit ₦20,000; bank charges ₦2,500; standing order for insurance ₦5,000; interest credited ₦1,500; direct debit for electricity ₦3,000.","Answer: updated cash book ₦111,000 (120,000 − 2,500 − 5,000 + 1,500 − 3,000). Add unpresented cheques ₦23,000 = ₦134,000. Less uncredited deposit ₦20,000 = ₦114,000, the bank statement balance. (Your notes give ₦105,000 for the statement, which does not reconcile; the correct figure from the data is ₦114,000.)"]}
+],
+"activity":"Cash book overdraft (₦12,000). Unpresented cheques ₦6,000 and an uncredited lodgement ₦4,000. Find the overdraft per the bank statement. (−12,000 + 6,000 = −6,000; −6,000 − 4,000 = overdraft of ₦10,000.)",
+"check":[
+{"q":"A ₦5,000 payment recorded as ₦500 makes the cash book balance","o":["Too high by ₦4,500","Too low by ₦4,500","Correct","Too high by ₦5,000"]},
+{"q":"A transposition difference is always divisible by","o":["9","7","5","11"]},
+{"q":"In the overdraft example, adding unpresented cheques makes the overdraft","o":["Smaller","Larger","Unchanged","Positive"]},
+{"q":"A bank statement balance in Bola's example reconciles to","o":["₦63,000","₦78,500","₦57,500","₦85,000"]},
+{"q":"An overdraft is shown","o":["In brackets","In red only","As a debit balance","Not at all"]},
+{"q":"If the bank shows a deposit of ₦10,000 as ₦1,000, add to the bank balance","o":["₦9,000","₦1,000","₦11,000","₦10,000"]}]},
+
+{"id":"fa2-08","week":3,"title":"Classification of Accounts: Personal and Real Accounts","icon":"Layers","summary":"A closer look at personal accounts (natural, artificial and representative) and real accounts (tangible and intangible), with worked entries.",
+"keyWords":["Natural person","Artificial person","Representative account","Tangible","Intangible"]
+,"sections":[
+{"h":"Review","p":["Accounts are grouped into three classes: personal, real and nominal. In First Term you learned the golden rules. This week you study each class in more detail."]},
+{"h":"Personal accounts","p":["Personal accounts relate to persons, firms, companies and organisations. They have three sub-groups.","Natural persons are human beings: John, Mary, Ade Ogunlana, customers and the proprietor.","Artificial (legal) persons are organisations: ABC Limited, XYZ Company, the Government, a school or a club.","Representative personal accounts stand for a group of persons: debtors (all customers), creditors (all suppliers), outstanding salaries (the employees), prepaid expenses and also capital and drawings (the owner).","Golden rule: debit the receiver, credit the giver."],
+"tbl":{"head":["Transaction","Receiver (Dr)","Giver (Cr)"],"rows":[
+["Paid cash to ABC Limited","ABC Limited","Cash"],
+["Received cash from John","Cash","John"],
+["Owner introduced capital","Cash or bank","Capital (the owner)"]]}},
+{"h":"Real accounts","p":["Real accounts relate to the assets and property of the business. They appear in the balance sheet and their balances are carried forward to the next period.","Tangible real accounts are assets you can touch: land, building, machinery, furniture, motor vehicles, stock and cash.","Intangible real accounts are assets with no physical form that still have value: goodwill, patents, trademarks, copyright and franchises.","Golden rule: debit what comes in, credit what goes out."],
+"tbl":{"head":["Transaction","What comes in (Dr)","What goes out (Cr)"],"rows":[
+["Bought machinery for cash ₦100,000","Machinery","Cash"],
+["Sold furniture for ₦50,000 (at cost)","Cash","Furniture"],
+["Bought goods for resale for cash","Purchases (goods)","Cash"]]}},
+{"h":"Worked examples","p":["Example 1: started business with cash ₦200,000. Cash is real; capital is personal. Dr Cash ₦200,000; Cr Capital ₦200,000.","Example 2: bought furniture ₦50,000 from Ade on credit. Furniture is real; Ade is personal. Dr Furniture ₦50,000; Cr Ade ₦50,000.","Example 6: withdrew ₦15,000 for personal use. Drawings is a personal account (the owner); cash is real. Dr Drawings ₦15,000; Cr Cash ₦15,000."]}
+],
+"activity":"Classify and give the entry: (a) paid cash to ABC Limited ₦20,000; (b) bought a computer for cash ₦80,000. ((a) Dr ABC Limited (personal), Cr Cash (real); (b) Dr Computer (real), Cr Cash (real).)",
+"check":[
+{"q":"Goodwill is","o":["An intangible real account","A personal account","A nominal account","An expense"]},
+{"q":"The debtors account is a","o":["Representative personal account","Real account","Nominal account","Natural person"]},
+{"q":"ABC Limited is an","o":["Artificial person","Natural person","Real account","Nominal account"]},
+{"q":"Drawings is treated as","o":["A personal account of the owner","A real account","A nominal account","Stock"]},
+{"q":"Bought machinery for cash. Which is credited?","o":["Cash","Machinery","Capital","Sales"]}]}
+]

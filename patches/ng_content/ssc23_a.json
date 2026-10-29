@@ -1,0 +1,188 @@
+[
+{"id":"c23-02","week":1,"title":"Sulphur and Sulphur Dioxide","icon":"Zap",
+"summary":"Occurrence and allotropes of sulphur, and the preparation, properties, tests and uses of sulphur dioxide.",
+"keyWords":["Sulphur","Allotropes","Sulphur dioxide","Reducing agent","Bleaching","Acid rain"],
+"sections":[
+{"h":"Sulphur","p":["Sulphur (S) is a yellow, brittle non-metal, atomic number 16. It is found uncombined in volcanic regions (Sicily, USA) and combined in iron pyrites FeS₂, galena PbS, zinc blende ZnS, copper pyrites CuFeS₂ and gypsum CaSO₄·2H₂O.","Allotropes (different forms of the same element): rhombic sulphur is stable at room temperature, with yellow crystals that melt at 114 °C (density 2.06 g/cm³); monoclinic sulphur is stable above 96 °C, with needle-shaped crystals that melt at 119 °C. Both are made of S₈ rings. Sulphur is insoluble in water but dissolves in carbon disulphide, and it burns with a blue flame to give sulphur dioxide."]},
+{"h":"Preparation of sulphur dioxide","p":["Laboratory: Na₂SO₃ + 2HCl → 2NaCl + H₂O + SO₂, or Cu + 2H₂SO₄(conc.) → CuSO₄ + SO₂ + 2H₂O. It is collected by upward delivery (downward displacement of air), because it is denser than air.","Industry: burning sulphur, S + O₂ → SO₂, or roasting sulphide ores: 2ZnS + 3O₂ → 2ZnO + 2SO₂ and 4FeS₂ + 11O₂ → 2Fe₂O₃ + 8SO₂."]},
+{"h":"Physical properties","p":["A colourless gas with a sharp, choking smell, denser than air, very soluble in water. It dissolves to give sulphurous acid: SO₂ + H₂O ⇌ H₂SO₃."]},
+{"h":"Chemical properties","p":["1. An acidic oxide: it reacts with alkalis to give sulphites and hydrogensulphites. SO₂ + 2NaOH → Na₂SO₃ + H₂O; SO₂ + NaOH → NaHSO₃.","2. A reducing agent: it reduces iron(III) to iron(II): 2Fe³⁺ + SO₂ + 2H₂O → 2Fe²⁺ + SO₄²⁻ + 4H⁺ (yellow-brown to pale green). It reduces iodine: I₂ + SO₂ + 2H₂O → 2HI + H₂SO₄. It changes acidified potassium dichromate from orange to green and decolourises purple potassium manganate(VII). These are tests for SO₂.","3. Bleaching: it bleaches wool, silk and paper by reducing the colouring matter. The bleaching is temporary because the colour returns in air as oxygen is taken up."]},
+{"h":"Uses and hazards","p":["Uses: bleaching paper and textiles; preserving dried fruit and wine; making sulphuric acid (Contact process); fumigant and disinfectant.","Hazards: SO₂ is a major air pollutant. It irritates the lungs and causes acid rain: 2SO₂ + O₂ → 2SO₃, SO₃ + H₂O → H₂SO₄ (or overall SO₂ + H₂O + ½O₂ → H₂SO₄)."]}
+],
+"activity":"List two natural sources of sulphur. Write equations for the laboratory preparation of SO₂ and its reaction with water. Explain why SO₂ is a reducing agent. Describe two tests for SO₂.",
+"check":[
+{"q":"Sulphur dioxide turns acidified K₂Cr₂O₇ from orange to","o":["green","blue","purple","colourless"]},
+{"q":"SO₂ is collected by","o":["upward delivery (downward displacement of air)","downward delivery","over mercury only","over alkali"]},
+{"q":"SO₂ in water gives","o":["sulphurous acid","sulphuric acid","sulphur","hydrogen sulphide"]},
+{"q":"Rhombic and monoclinic sulphur are","o":["allotropes","isotopes","isomers","compounds"]},
+{"q":"SO₂ bleaches by","o":["reduction","oxidation","absorption","neutralisation"]}
+]},
+
+{"id":"c23-03","week":1,"title":"Sulphuric Acid: The Contact Process, Properties and Uses","icon":"Target",
+"summary":"The manufacture of sulphuric acid by the Contact process, the physical and chemical properties of the acid, its uses and safety.",
+"keyWords":["Contact process","Oleum","Vanadium(V) oxide","Dehydrating agent","Oxidising agent","Sulphuric acid"],
+"sections":[
+{"h":"The Contact process","p":["Raw materials: sulphur (or sulphide ores), air and water.","1. Burn sulphur: S + O₂ → SO₂. 2. Convert SO₂ to SO₃ over a vanadium(V) oxide catalyst: 2SO₂ + O₂ ⇌ 2SO₃, ΔH = −197 kJ (for 2 mol SO₂), at about 450 °C and 1 to 2 atm. 3. Absorb SO₃ in concentrated sulphuric acid to make oleum: SO₃ + H₂SO₄ → H₂S₂O₇. 4. Dilute the oleum with water: H₂S₂O₇ + H₂O → 2H₂SO₄.","Why SO₃ is not dissolved straight into water: the reaction is violent and gives a fog of acid droplets that is hard to collect. Why these conditions: the reaction is exothermic and 3 mol of gas become 2, so low temperature and high pressure would give more SO₃; but a low temperature is too slow, so about 450 °C is used with a catalyst, and because the yield is already about 98% at 1 to 2 atm, high pressure is not worth its cost."],"img":{"src":"chm2-contact-process.jpg","alt":"A flow diagram of the Contact process from sulphur to sulphur dioxide, sulphur trioxide, oleum and sulphuric acid with the conditions","cap":"The Contact process."}},
+{"h":"Physical properties","p":["A colourless, thick, oily liquid. Density 1.84 g/cm³; boiling point 338 °C. It mixes with water and gives out a lot of heat, so always add the acid slowly to the water, never water to the acid. It is hygroscopic (takes in water) and corrosive to skin and metals."]},
+{"h":"Chemical properties","p":["1. A strong acid (dilute): it reacts with metals, bases and carbonates. Zn + H₂SO₄ → ZnSO₄ + H₂; H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O.","2. A dehydrating agent (concentrated): it removes water from sugar, leaving black carbon: C₁₂H₂₂O₁₁ → 12C + 11H₂O. It turns blue CuSO₄·5H₂O white. It dries gases (not NH₃).","3. An oxidising agent (hot, concentrated): Cu + 2H₂SO₄ → CuSO₄ + SO₂ + 2H₂O; C + 2H₂SO₄ → CO₂ + 2SO₂ + 2H₂O.","4. It forms sulphates with metals, bases and metal oxides."]},
+{"h":"Uses","p":["Fertilisers (ammonium sulphate and superphosphate); detergents; petroleum refining; lead-acid battery electrolyte; paints, dyes, drugs and explosives; laboratory reagent for dehydration and oxidation."]},
+{"h":"Safety and the environment","p":["Concentrated acid burns skin and eyes. Wear goggles and gloves. If it spills on skin, wash with plenty of water. Spills acidify soil and water. SO₂ from the plant must not be released into the air: it causes acid rain."]}
+],
+"activity":"Outline the steps of the Contact process with equations. Give three industrial uses of sulphuric acid. State the reasons for using a catalyst, a moderate temperature and low pressure. Why must acid be added to water?",
+"check":[
+{"q":"The catalyst in the Contact process is","o":["vanadium(V) oxide","iron","nickel","platinum only"]},
+{"q":"SO₃ is absorbed in","o":["concentrated H₂SO₄","water","dilute acid","alkali"]},
+{"q":"Concentrated H₂SO₄ turns sugar black because it is a","o":["dehydrating agent","reducing agent only","neutralising agent","precipitating agent"]},
+{"q":"To dilute the acid you should","o":["add acid slowly to water","add water to acid","add both quickly","heat the acid first"]},
+{"q":"Oleum has the formula","o":["H₂S₂O₇","H₂SO₄","H₂SO₃","SO₃"]}
+]},
+
+{"id":"c23-04","week":2,"title":"Carbon and the Oxides of Carbon","icon":"Layers",
+"summary":"Allotropes and special properties of carbon, and the preparation, properties, tests and uses of carbon monoxide and carbon dioxide.",
+"keyWords":["Carbon","Diamond","Graphite","Catenation","Carbon monoxide","Carbon dioxide"],
+"sections":[
+{"h":"Carbon","p":["Atomic number 6; electronic configuration 1s²2s²2p²; valency 4 (it forms four covalent bonds). Allotropes: crystalline (diamond, graphite) and amorphous (coal, charcoal, coke). Diamond is very hard, a poor conductor and clear; graphite is soft and slippery and conducts electricity. Special properties of carbon: tetravalency; catenation (joining to itself in long chains and rings); the ability to form single, double and triple bonds; and isomerism (same formula, different structure). These make carbon the basis of organic chemistry."]},
+{"h":"Carbon monoxide (CO)","p":["A colourless, odourless, very poisonous gas. Preparation: incomplete burning of carbon, 2C + O₂ → 2CO; or dehydration of methanoic acid with concentrated H₂SO₄, HCOOH → CO + H₂O. It burns with a blue flame: 2CO + O₂ → 2CO₂. It is a strong reducing agent: Fe₂O₃ + 3CO → 2Fe + 3CO₂ (used in the blast furnace). Uses: reducing agent in metallurgy; making methanol and synthetic fuels. Hazard: it combines with haemoglobin to form carboxyhaemoglobin, which cannot carry oxygen, and causes suffocation. (Never run a generator or a car engine in a closed room.)"]},
+{"h":"Carbon dioxide (CO₂)","p":["A colourless, odourless gas, denser than air, slightly acidic. Preparation: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂ (marble chips and dilute HCl), or heating a carbonate: CaCO₃ → CaO + CO₂. Collected by upward delivery or over water (it is only slightly soluble).","Properties: it does not burn and puts out fires; it dissolves slightly in water to give carbonic acid H₂CO₃ (a weak acid). Test: it turns limewater milky. Ca(OH)₂ + CO₂ → CaCO₃ + H₂O. With excess CO₂ the milkiness disappears: CaCO₃ + CO₂ + H₂O → Ca(HCO₃)₂.","Uses: fire extinguishers; fizzy drinks; dry ice (solid CO₂) as a refrigerant; photosynthesis. As a greenhouse gas it contributes to global warming."]},
+{"h":"CO and CO₂ compared","p":["Study the table."],"tbl":{"head":["Feature","CO","CO₂"],"rows":[["Colour and smell","Colourless, odourless","Colourless, odourless"],["Combustibility","Burns with a blue flame","Does not burn"],["Toxicity","Highly poisonous","Not poisonous (but suffocates in excess)"],["Limewater","No effect","Turns milky"],["Main uses","Metallurgy, methanol","Fire extinguishers, drinks"]]}}
+],
+"activity":"Write two differences between CO and CO₂. Why does CO poison? Explain how to test for CO₂. Research the role of CO₂ in climate change.",
+"check":[
+{"q":"Which gas turns limewater milky?","o":["CO₂","CO","O₂","N₂"]},
+{"q":"Carbon monoxide is poisonous because it","o":["combines with haemoglobin","dissolves in water","is acidic","is heavy"]},
+{"q":"CaCO₃ + 2HCl gives","o":["CaCl₂ + H₂O + CO₂","CaO + CO₂","CaCl₂ + CO","CaH₂ + CO₂"]},
+{"q":"Graphite differs from diamond because it","o":["conducts electricity","is harder","is transparent","is a compound"]},
+{"q":"Catenation is the ability of carbon to","o":["join to itself in chains and rings","form ionic bonds","dissolve in water","burn at low temperature"]}
+]},
+
+{"id":"c23-05","week":2,"title":"Carbonates and Introduction to Hydrocarbons","icon":"Layers",
+"summary":"Properties and uses of carbonates, and the three families of hydrocarbons: alkanes, alkenes and alkynes, with isomerism and laboratory preparation.",
+"keyWords":["Carbonate","Thermal decomposition","Alkane","Alkene","Alkyne","Isomerism"],
+"sections":[
+{"h":"Carbonates","p":["Carbonates are salts of carbonic acid: Na₂CO₃, CaCO₃, K₂CO₃. Sodium and potassium carbonates dissolve in water; most others do not. Heating: CaCO₃ → CaO + CO₂ (thermal decomposition; the carbonates of sodium and potassium are stable to heat). CuCO₃ → CuO + CO₂ (green to black). Hydrogencarbonates: 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂. With acids: Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂.","Uses: Na₂CO₃ in glass, soap and detergents (and as washing soda); CaCO₃ (limestone, marble, chalk) in cement and as a building material; K₂CO₃ in fertilisers and soft soap."]},
+{"h":"Hydrocarbons","p":["Hydrocarbons contain only carbon and hydrogen.","Alkanes: saturated (single bonds only), general formula CₙH₂ₙ₊₂: methane CH₄, ethane C₂H₆. Not very reactive; undergo substitution with halogens in UV light; burn with a clean flame: CH₄ + 2O₂ → CO₂ + 2H₂O.","Alkenes: unsaturated (a double bond C=C), CₙH₂ₙ: ethene C₂H₄. Very reactive; undergo addition reactions (hydrogenation, halogenation); burn with a smoky flame; decolourise bromine water.","Alkynes: unsaturated (a triple bond C≡C), CₙH₂ₙ₋₂: ethyne C₂H₂. Very reactive; undergo addition; burn with a very sooty flame."]},
+{"h":"Isomerism","p":["Isomers have the same molecular formula but different structures. C₄H₁₀ has two isomers: n-butane (CH₃CH₂CH₂CH₃) and isobutane or 2-methylpropane ((CH₃)₃CH). C₅H₁₂ has three (pentane, 2-methylbutane and 2,2-dimethylpropane)."]},
+{"h":"Laboratory preparation","p":["Methane: heat sodium ethanoate with soda lime (NaOH and CaO): CH₃COONa + NaOH → CH₄ + Na₂CO₃. Ethyne: calcium carbide with water: CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂."]},
+{"h":"Uses and environmental effects","p":["Uses: fuels (LPG, petrol, kerosene, diesel); raw materials for plastics, alcohols, detergents, synthetic fibres and drugs. Effects: CO₂ from burning fuels causes global warming; CO is poisonous; burning fuels releases soot, CO, NO₂ and SO₂, which cause air pollution and acid rain."]},
+{"h":"Worked example","p":["Alkanes: saturated, substitution, CH₄ + Cl₂ → CH₃Cl + HCl. Alkenes: unsaturated, addition, C₂H₄ + Br₂ → C₂H₄Br₂. Alkynes: triple bond, C₂H₂ + H₂ → C₂H₄ (and then C₂H₆)."]}
+],
+"activity":"Write equations for the decomposition of CaCO₃ and the reaction of Na₂CO₃ with HCl. State three properties that distinguish alkenes from alkanes. Why do alkynes burn with sooty flames? (A high percentage of carbon is not fully burnt.) Name three uses of calcium carbonate.",
+"check":[
+{"q":"The general formula of the alkenes is","o":["CₙH₂ₙ","CₙH₂ₙ₊₂","CₙH₂ₙ₋₂","CₙHₙ"]},
+{"q":"CaCO₃ on heating gives","o":["CaO and CO₂","Ca and CO₃","CaC₂ and O₂","Ca(OH)₂"]},
+{"q":"Ethyne is made by adding water to","o":["calcium carbide","calcium carbonate","calcium oxide","sodium ethanoate"]},
+{"q":"C₄H₁₀ has how many isomers?","o":["2","3","1","4"]},
+{"q":"Alkanes mainly undergo","o":["substitution","addition","polymerisation","hydrolysis"]}
+]},
+
+{"id":"c23-06","week":3,"title":"Industrial Preparation of Hydrochloric Acid and Ammonia","icon":"Zap",
+"summary":"The industrial manufacture of hydrochloric acid and of ammonia by the Haber process, with the conditions, properties, uses and safety.",
+"keyWords":["Hydrochloric acid","Haber process","Ammonia","Catalyst","Recycling","Fertiliser"],
+"sections":[
+{"h":"Why industrial chemicals matter","p":["HCl, NH₃ and H₂SO₄ are basic industrial chemicals. They are raw materials for fertilisers, dyes, medicines, plastics, explosives and cleaning agents. The amounts made show how industrialised a country is."],"img":{"src":"chm2-industrial-chemicals.jpg","alt":"Three panels showing the manufacture of hydrochloric acid, ammonia by the Haber process and sulphuric acid by the Contact process","cap":"Industrial preparation of HCl, NH₃ and H₂SO₄."}},
+{"h":"Hydrochloric acid (Mannheim process)","p":["Raw materials: sodium chloride and concentrated sulphuric acid. NaCl + H₂SO₄ → NaHSO₄ + HCl (about 150 °C); then at a higher temperature (about 400 °C) NaHSO₄ + NaCl → Na₂SO₄ + HCl. The HCl gas is absorbed in water in an absorption tower to give concentrated hydrochloric acid. (Today much HCl is also made by burning hydrogen in chlorine, and as a by-product of making chlorinated organic compounds.)","Properties: a colourless, choking gas, very soluble in water. Uses: removing rust from metals (pickling); making PVC and chlorides; adjusting pH in water treatment and food industries; regenerating ion-exchange resins; a laboratory reagent. Hazard: corrosive; the fumes are toxic, so work in a fume cupboard and wear protective clothing."]},
+{"h":"Ammonia (Haber process)","p":["Raw materials: nitrogen (from air by fractional distillation) and hydrogen (from natural gas or water gas, or by electrolysis). N₂ + 3H₂ ⇌ 2NH₃, ΔH = −92 kJ/mol.","Conditions: temperature 400 to 500 °C (a compromise between rate and yield); pressure 200 to 250 atm (a high pressure favours ammonia because 4 mol of gas become 2); catalyst: iron with promoters such as potassium and aluminium oxides; unreacted gases are recycled. The mixture is cooled under pressure so that the ammonia liquefies and is separated.","Why recycling raises efficiency: only about 15% of the gases change to ammonia in one pass. The unreacted nitrogen and hydrogen are passed back through the reactor, so almost all of them are finally used and little is wasted."]},
+{"h":"Properties and uses of ammonia","p":["A colourless gas with a sharp smell; very soluble in water, giving a weakly alkaline solution: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ (often written as ammonium hydroxide, NH₄OH). Uses: nitrogenous fertilisers (urea, ammonium nitrate, ammonium sulphate); nitric acid by the Ostwald process; refrigerant; household cleaners; explosives and medicines. Hazard: toxic and irritating to eyes, lungs and skin; stored in strong pressurised tanks."]}
+],
+"activity":"State the raw materials of HCl, NH₃ and H₂SO₄. Write the equations for the manufacture of HCl and NH₃. Explain the roles of catalyst, temperature and pressure in the Haber process, and how recycling raises the yield.",
+"check":[
+{"q":"The Haber process makes","o":["ammonia","sulphuric acid","hydrochloric acid","nitric acid directly"]},
+{"q":"The catalyst in the Haber process is","o":["iron","vanadium(V) oxide","platinum","nickel"]},
+{"q":"A high pressure favours ammonia because","o":["4 mol of gas become 2 mol","the reaction is endothermic","the catalyst needs it","N₂ is heavier"]},
+{"q":"HCl for industry (Mannheim) is made from NaCl and","o":["concentrated H₂SO₄","water","limestone","H₂ only"]},
+{"q":"Unreacted N₂ and H₂ in the Haber process are","o":["recycled","released to the air","burnt","dissolved in water"]}
+]},
+
+{"id":"c23-07","week":3,"title":"Industrial Chemicals Compared, with Environment and Safety","icon":"Shield",
+"summary":"A comparison of the manufacture and uses of HCl, NH₃ and H₂SO₄, why sulphuric acid is the 'king of chemicals', and safety and environmental precautions.",
+"keyWords":["Mannheim process","Haber process","Contact process","Safety","King of chemicals"],
+"sections":[
+{"h":"Comparison","p":["Study the table."],"tbl":{"head":["Chemical","Raw materials","Process","Main uses"],"rows":[["HCl","NaCl + H₂SO₄","Mannheim process","PVC, pickling steel, pH control"],["NH₃","N₂ + H₂","Haber process","Fertilisers, nitric acid"],["H₂SO₄","S + O₂ + H₂O","Contact process","Fertilisers, detergents, batteries"]]}},
+{"h":"Conditions compared","p":["HCl: about 150 to 400 °C, atmospheric pressure, no catalyst. NH₃: 400 to 500 °C, 200 to 250 atm, iron catalyst. H₂SO₄ (SO₂ to SO₃ step): 450 °C, 1 to 2 atm, V₂O₅ catalyst. Both the Haber and Contact processes involve reversible, exothermic reactions, so a compromise temperature is chosen: low enough to give a good yield, high enough for a fast rate."]},
+{"h":"The 'king of chemicals'","p":["Sulphuric acid is called the king of chemicals because it is used in so many industries (fertilisers, detergents, dyes, plastics, paper, metals, batteries and petroleum refining), and the amount a country uses is a measure of its industry. Ammonia is the key chemical for farming, because it is the starting point for most fertilisers. Hydrochloric acid is used widely in metal treatment and in making other chemicals."]},
+{"h":"Environmental and safety points","p":["HCl: acid fumes pollute air and must be scrubbed (washed) before release. NH₃: toxic gas that can burn the eyes and lungs; pressure tanks need monitoring. H₂SO₄: spills acidify soil and water; it is a strong oxidiser and burns skin. Workers need goggles, gloves, aprons, ventilation, eye-wash stations and training. Waste gases (SO₂, NH₃, HCl) must be treated, and acids must be neutralised before disposal."]}
+],
+"activity":"Compare the production conditions of HCl, NH₃ and H₂SO₄. Discuss environmental hazards and safety precautions. Explain why sulphuric acid is called the 'king of chemicals'.",
+"check":[
+{"q":"The raw materials for HCl are NaCl and","o":["concentrated H₂SO₄","limestone","air","iron"]},
+{"q":"The 'king of chemicals' is","o":["sulphuric acid","hydrochloric acid","ammonia","nitric acid"]},
+{"q":"Both the Haber and Contact reactions are","o":["reversible and exothermic","irreversible and endothermic","irreversible and exothermic","endothermic only"]},
+{"q":"A hazard of ammonia is that it","o":["is toxic and irritating","is radioactive","is explosive in water","is a bleaching agent"]},
+{"q":"Waste SO₂ from an acid plant must be","o":["treated before release","released freely","burnt","stored in water"]}
+]},
+
+{"id":"c23-08","week":4,"title":"Organic Chemistry Revision: Classification, Homologous Series and Functional Groups","icon":"Layers",
+"summary":"What organic chemistry is, its sources and general characteristics, how organic compounds are classified, homologous series and functional groups.",
+"keyWords":["Organic chemistry","Homologous series","Functional group","Aliphatic","Aromatic","Saturated"],
+"sections":[
+{"h":"Organic chemistry","p":["Organic chemistry is the chemistry of carbon compounds (except the simple oxides of carbon, carbonates and carbides). Organic compounds are mostly covalent. Carbon is special because of tetravalency (four bonds), catenation (chains and rings) and the ability to form sp³ (single), sp² (double) and sp (triple) bonds. It is the basis of petrochemicals, plastics, medicines, cosmetics, farm chemicals, dyes and detergents, and of living matter."]},
+{"h":"Sources","p":["Natural: petroleum (hydrocarbons), coal (aromatic compounds), natural gas (methane), and plants and animals (fats, oils, carbohydrates, proteins). Synthetic: made in laboratories and factories (plastics, drugs, fertilisers)."]},
+{"h":"General characteristics","p":["Low melting and boiling points (covalent molecules); poor conductors of electricity; usually insoluble in water but soluble in organic solvents (benzene, ether); most are combustible; reactions are usually slower than those of inorganic compounds."]},
+{"h":"Classification","p":["By structure: acyclic (open chain, aliphatic), cyclic (rings, non-aromatic) and aromatic (benzene and its derivatives). By saturation: saturated (single bonds only: alkanes) and unsaturated (double or triple bonds). By functional group."]},
+{"h":"Homologous series","p":["A homologous series is a family of compounds with the same general formula, the same functional group, members that differ by CH₂, similar chemical properties and a gradual change in physical properties."],"tbl":{"head":["Series","General formula","Example","Suffix"],"rows":[["Alkanes","CₙH₂ₙ₊₂","Methane CH₄","-ane"],["Alkenes","CₙH₂ₙ","Ethene C₂H₄","-ene"],["Alkynes","CₙH₂ₙ₋₂","Ethyne C₂H₂","-yne"],["Alcohols","CₙH₂ₙ₊₁OH","Methanol CH₃OH","-ol"],["Carboxylic acids","CₙH₂ₙ₊₁COOH","Ethanoic acid CH₃COOH","-oic acid"]]}},
+{"h":"Functional groups","p":["A functional group is an atom or group of atoms that gives a compound its characteristic properties."],"img":{"src":"chm2-functional-groups.jpg","alt":"A table of functional groups: alcohol, aldehyde, ketone, carboxylic acid and ester with their structures, examples and suffixes","cap":"Functional groups."},"tbl":{"head":["Group","Structure","Class","Example","Use"],"rows":[["Hydroxyl –OH","R–OH","Alcohols","Ethanol","Fuel, solvent"],["Aldehyde –CHO","R–CHO","Aldehydes","Ethanal","Perfumes, making ethanoic acid"],["Ketone >C=O","R–CO–R′","Ketones","Propanone","Solvent"],["Carboxyl –COOH","R–COOH","Carboxylic acids","Ethanoic acid","Vinegar"],["Ester –COOR","R–COOR′","Esters","Methyl ethanoate","Flavours"],["Amino –NH₂","R–NH₂","Amines","Methylamine","Medicines"],["Halogen –X","R–X","Haloalkanes","Chloromethane","Refrigerants, solvents"],["C=C","C=C","Alkenes","Ethene","Plastics"],["C≡C","C≡C","Alkynes","Ethyne","Welding"]]}}
+],
+"activity":"Define a homologous series and state four features. Classify these: C₃H₈ (alkane), C₂H₅OH (alcohol), CH₃CHO (aldehyde), CH₃COCH₃ (ketone), C₂H₂ (alkyne). Name three sources of organic compounds.",
+"check":[
+{"q":"The general formula of the alcohols is","o":["CₙH₂ₙ₊₁OH","CₙH₂ₙ₊₂","CₙH₂ₙ","CₙH₂ₙ₊₁COOH"]},
+{"q":"Members of a homologous series differ by","o":["CH₂","CH₄","C","H₂O"]},
+{"q":"The functional group of a ketone is","o":[">C=O inside the chain","–CHO","–COOH","–OH"]},
+{"q":"Most organic compounds are","o":["covalent and combustible","ionic and soluble","metallic","gases"]},
+{"q":"–COOH is the functional group of","o":["carboxylic acids","alcohols","esters","aldehydes"]}
+]},
+
+{"id":"c23-09","week":4,"title":"IUPAC Naming of Organic Compounds","icon":"Target",
+"summary":"The rules for naming organic compounds step by step, with worked examples for alkanes, alkenes, alkynes, alcohols, aldehydes, ketones and acids.",
+"keyWords":["IUPAC","Longest chain","Substituent","Locant","Prefix","Suffix"],
+"sections":[
+{"h":"Prefixes for the length of the chain","p":["1 carbon: meth-, 2: eth-, 3: prop-, 4: but-, 5: pent-, 6: hex-, 7: hept-, 8: oct-, 9: non-, 10: dec-."]},
+{"h":"The rules","p":["1. Find the longest continuous carbon chain that includes the functional group. This is the parent chain.","2. Number the chain from the end that gives the lowest number to the principal functional group (then to double or triple bonds, then to substituents).","3. Name the substituents (side groups): methyl (CH₃–), ethyl (C₂H₅–), chloro, bromo.","4. Give each substituent and each double or triple bond a position number.","5. Join the parts: prefixes (substituents, in alphabetical order) + parent name + suffix of the functional group.","6. For identical groups use di-, tri-, tetra-: 2,2-dimethylpropane.","7. Functional groups have priority in numbering over double or triple bonds and substituents."]},
+{"h":"Worked examples","p":["CH₃CH₂CH₃: propane (3-carbon alkane). CH₃CH₂OH: ethanol (–OH on carbon 1). CH₃CH₂CHO: propanal (aldehyde group at carbon 1). CH₃COCH₃: propanone (ketone at carbon 2). CH₃CH=CHCH₃: but-2-ene (double bond at carbon 2). CH≡C–CH₃: prop-1-yne. CH₃CH(OH)CH₃: propan-2-ol. CH₃CH(CH₃)CH₃: 2-methylpropane. CH₃CH(CH₃)CH₂CH₃: 2-methylbutane. CH₃COOH: ethanoic acid. CH₃CH₂CH₂Cl: 1-chloropropane. CH₃COOC₂H₅: ethyl ethanoate."]},
+{"h":"Tips","p":["For an alcohol, remove the final –e of the alkane and add –ol (ethane → ethanol). For an aldehyde, the suffix is –al (the group is always at carbon 1). For a ketone it is –one, with the number of the carbonyl carbon if needed (pentan-2-one). For an acid, add –oic acid (butanoic acid)."]}
+],
+"activity":"Name: CH₃CH₂CH₂OH (propan-1-ol), CH₃CH₂CH=CH₂ (but-1-ene), CH₃CH₂CHO (propanal), CH₃COCH₂CH₃ (butanone). Draw the structure of 2-methylbutane and of pent-2-ene.",
+"check":[
+{"q":"CH₃COCH₃ is named","o":["propanone","propanal","propanol","propene"]},
+{"q":"CH₃CH=CHCH₃ is named","o":["but-2-ene","but-1-ene","butane","butyne"]},
+{"q":"CH₃CH₂OH is","o":["ethanol","ethanal","ethane","ethanoic acid"]},
+{"q":"The suffix of a carboxylic acid is","o":["-oic acid","-ol","-al","-one"]},
+{"q":"The parent chain is the","o":["longest chain containing the functional group","shortest chain","chain with most branches","ring only"]}
+]},
+
+{"id":"c23-10","week":6,"title":"Hydrocarbons: Alkanes, Alkenes and Alkynes and Their Reactions","icon":"Zap",
+"summary":"The three families of hydrocarbons compared, with combustion, substitution, addition and oxidation reactions and their equations.",
+"keyWords":["Alkane","Alkene","Alkyne","Substitution","Addition","Combustion"],
+"sections":[
+{"h":"The families","p":["Hydrocarbons contain only carbon and hydrogen. Alkanes have single bonds only (CₙH₂ₙ₊₂) and are called saturated. Alkenes (CₙH₂ₙ) have one C=C. Alkynes (CₙH₂ₙ₋₂) have one C≡C. Alkenes and alkynes are unsaturated."],"img":{"src":"chm2-hydrocarbons.jpg","alt":"A chart of hydrocarbons divided into alkanes, alkenes and alkynes with general formulae and examples","cap":"The families of hydrocarbons."}},
+{"h":"Combustion","p":["Complete combustion (plenty of air) gives CO₂ and H₂O: CH₄ + 2O₂ → CO₂ + 2H₂O; C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. Incomplete combustion (limited air) gives carbon monoxide or carbon: 2CH₄ + 3O₂ → 2CO + 4H₂O. Alkanes burn with a clean blue flame. Alkenes burn with a smoky flame and alkynes with a very sooty, luminous flame, because their molecules have a high percentage of carbon."]},
+{"h":"Substitution (alkanes)","p":["In UV light or heat, halogens replace hydrogen atoms: CH₄ + Cl₂ → CH₃Cl + HCl; CH₃Cl + Cl₂ → CH₂Cl₂ + HCl; and so on up to CHCl₃ and CCl₄. A mixture of products forms."]},
+{"h":"Addition (alkenes and alkynes)","p":["The double or triple bond opens and atoms add on. Hydrogenation (Ni catalyst): C₂H₄ + H₂ → C₂H₆. Halogenation: C₂H₄ + Br₂ → C₂H₄Br₂ (bromine water is decolourised). Hydrogen halides: C₂H₄ + HBr → C₂H₅Br. Hydration (steam, H₃PO₄, about 300 °C, high pressure): C₂H₄ + H₂O → C₂H₅OH (industrial ethanol). Polymerisation: nCH₂=CH₂ → (–CH₂–CH₂–)ₙ.","Alkynes add twice because of the triple bond: C₂H₂ + 2Br₂ → C₂H₂Br₄; C₂H₂ + H₂ → C₂H₄, then C₂H₄ + H₂ → C₂H₆."]},
+{"h":"Oxidation","p":["Mild oxidation of an alkene with cold dilute acidified potassium manganate(VII): C₂H₄ + [O] + H₂O → CH₂OH–CH₂OH (a diol); the purple colour disappears. Strong oxidation breaks the C=C bond to give carboxylic acids or ketones."]},
+{"h":"Comparison","p":["Study the table."],"tbl":{"head":["Feature","Alkanes","Alkenes","Alkynes"],"rows":[["Bond","C–C single","C=C double","C≡C triple"],["Formula","CₙH₂ₙ₊₂","CₙH₂ₙ","CₙH₂ₙ₋₂"],["Reactivity","Least reactive","Reactive","Most reactive"],["Flame","Clean, blue","Smoky","Very sooty"],["Reaction type","Substitution","Addition","Addition (twice)"],["Example","CH₄","C₂H₄","C₂H₂"]]}}
+],
+"activity":"Write equations for the combustion of propane, the addition of HBr to ethene and the reaction of ethyne with excess bromine. Explain why alkenes decolourise bromine water but alkanes do not (they have a C=C bond that can add bromine).",
+"check":[
+{"q":"Alkenes react by","o":["addition","substitution only","neutralisation","decomposition only"]},
+{"q":"CH₄ + Cl₂ in UV light is","o":["substitution","addition","polymerisation","hydration"]},
+{"q":"C₂H₄ + Br₂ gives","o":["C₂H₄Br₂","C₂H₂Br₂","C₂H₆ + Br","CBr₄"]},
+{"q":"A very sooty flame is typical of","o":["alkynes","alkanes","alcohols","water"]},
+{"q":"The hydration of ethene gives","o":["ethanol","ethane","ethanal","ethanoic acid"]}
+]},
+
+{"id":"c23-11","week":6,"title":"Laboratory Tests for Hydrocarbons, Uses and Environmental Effects","icon":"Target",
+"summary":"Tests that distinguish alkanes, alkenes and alkynes, uses of hydrocarbons and their environmental effects.",
+"keyWords":["Bromine water test","Baeyer's test","Ignition test","Silver acetylide","Smog"],
+"sections":[
+{"h":"Tests","p":["1. Bromine water test: add orange bromine water and shake. Alkanes: no change (without UV light). Alkenes and alkynes: the colour disappears (they are unsaturated).","2. Baeyer's test: add acidified purple KMnO₄. Alkanes: no change. Alkenes and alkynes: the purple colour disappears (and a brown MnO₂ may form).","3. Ignition test: burn in a Bunsen flame. Alkanes: clean blue flame. Alkenes: smoky. Alkynes: very sooty, luminous.","4. Ammoniacal silver nitrate: terminal alkynes (R–C≡CH, for example ethyne) give a white precipitate of silver acetylide: HC≡CH + 2AgNO₃ + 2NH₃ → AgC≡CAg↓ + 2NH₄NO₃. Alkenes and alkanes give none. (Dry silver acetylide can explode; the precipitate must be destroyed with dilute acid after the test.)"],"img":{"src":"chm2-hydrocarbon-tests.jpg","alt":"A flow chart for identifying an unknown hydrocarbon using bromine water and ammoniacal silver nitrate","cap":"A flow chart for identifying hydrocarbons."}},
+{"h":"Uses","p":["Alkanes: cooking gas (propane and butane), petrol (octane), lubricants, wax. Alkenes: polyethene and PVC plastics, ethanol, synthetic rubber. Alkynes: oxy-acetylene welding, synthetic rubber, plastics and solvents."]},
+{"h":"Environmental effects","p":["Air pollution: incomplete combustion gives carbon monoxide and soot. Greenhouse effect: CO₂ from burning fuels causes global warming. Oil spills: hydrocarbons float on water and harm aquatic life and birds. Smog: unburnt hydrocarbons and nitrogen oxides react in sunlight to make photochemical smog, which causes breathing problems."]}
+],
+"activity":"Explain two tests that distinguish alkanes, alkenes and alkynes. List three environmental problems caused by hydrocarbons. Complete: methane + chlorine (UV) → substitution, with equation CH₄ + Cl₂ → CH₃Cl + HCl; ethene + bromine → addition, equation C₂H₄ + Br₂ → C₂H₄Br₂, observation: the orange colour disappears.",
+"check":[
+{"q":"Bromine water is decolourised by","o":["alkenes","alkanes","water","salt"]},
+{"q":"A white precipitate with ammoniacal AgNO₃ shows","o":["a terminal alkyne","an alkane","an alkene","an alcohol"]},
+{"q":"In Baeyer's test the purple KMnO₄ becomes colourless with","o":["alkenes","alkanes","carbon dioxide","nitrogen"]},
+{"q":"Photochemical smog is formed from","o":["hydrocarbons and nitrogen oxides in sunlight","CO₂ only","SO₂ only","ozone only"]},
+{"q":"Alkanes burn with","o":["a clean blue flame","a very sooty flame","a green flame","no flame"]}
+]}
+]

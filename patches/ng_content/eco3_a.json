@@ -1,0 +1,230 @@
+[
+{"id":"ec3-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Economics Third Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Cost","Revenue","Utility","Price determination","Market structures"],
+"sections":[
+{"h":"Welcome to Third Term","p":["In Third Term you look at how a business and a consumer think. You will learn the different kinds of cost and revenue and how a firm finds its best output, you will revise economic systems and the labour market, you will study utility (the satisfaction we get from goods), how prices are set by demand and supply, the different market structures such as perfect competition and monopoly, and finally the industries of Nigeria with their problems.","This term has more graphs and calculations than the others. Draw every graph in your notebook with a ruler and work through every worked example yourself before looking at the answer. At the end of each unit there are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for Third Term","p":["The units follow the scheme of work. Weeks 5 and 7 are midterm weeks."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Cost concepts: fixed, variable, total, average and marginal cost"],
+["3","1","Opportunity, explicit, implicit and sunk costs, and cost curves"],
+["4","2","Revenue concepts: total, average and marginal revenue"],
+["5","3","Economic systems: capitalism, socialism and the mixed economy (revision)"],
+["6","4","The labour market and the labour force"],
+["7","4","Efficiency and mobility of labour"],
+["8","6","Utility: types, total, marginal and average utility"],
+["9","6","Diminishing marginal utility, consumer equilibrium and consumer surplus"],
+["10","6","Indifference curves"],
+["11","8","Price determination: equilibrium price and quantity"],
+["12","8","Changes in equilibrium price and the laws of demand and supply"],
+["13","8","Types of demand and types of supply"],
+["14","9","Market structures: perfect and imperfect markets"],
+["15","9","Monopoly"],
+["16","9","Price and output under perfect competition and oligopoly"],
+["17","10","Industries in Nigeria"],
+["18","10","Problems of manufacturing industries in Nigeria and their solutions"]]}},
+{"h":"A word about the maths","p":["You will use only simple arithmetic and simple equations: adding, subtracting, multiplying, dividing and solving for one unknown. Each formula is explained with a worked example. If a calculation worries you, rewrite it slowly line by line. In exams, always write the formula first, then the numbers, then the answer with its unit (for example ₦ or kg)."]}
+],
+"activity":"Look at the list of units and tick the ones that involve graphs. Choose one and draw a rough sketch of what you think the graph looks like.",
+"check":[
+{"q":"In which unit do you study monopoly?","o":["Unit 15","Unit 4","Unit 10","Unit 18"]},
+{"q":"Which unit covers equilibrium price?","o":["Unit 11","Unit 3","Unit 6","Unit 17"]},
+{"q":"What is the best way to handle the worked examples?","o":["Work through each yourself before looking at the answer","Skip them","Memorise the answer only","Copy a friend"]},
+{"q":"In which unit do you study indifference curves?","o":["Unit 10","Unit 2","Unit 14","Unit 7"]}]},
+
+{"id":"ec3-02","week":1,"title":"Cost Concepts: Fixed, Variable, Total, Average and Marginal Cost","icon":"BarChart2","summary":"The meaning of cost in economics, fixed and variable costs, and how to calculate total, average and marginal cost.",
+"keyWords":["Fixed cost","Variable cost","Total cost","Average cost","Marginal cost"],
+"sections":[
+{"h":"What is cost?","p":["In economics, cost is the money spent in producing goods and services. Knowing the cost helps a firm to set prices, plan production and make profit. A firm that does not know its costs cannot know whether it is making a profit or a loss."]},
+{"h":"Fixed costs (FC)","p":["Fixed costs do not change when the level of output changes. They must be paid even if output is zero. They are also called overhead costs. Examples: rent for the factory, salaries of permanent staff, insurance and depreciation of machinery.","Fixed costs are fixed only in the short run. In the long run, a firm can change them (for example, by moving to a cheaper building)."]},
+{"h":"Variable costs (VC)","p":["Variable costs change with output. They rise when more is produced and fall when less is produced. If nothing is produced, variable cost is zero. Examples: raw materials such as flour for a bakery, wages of temporary workers, fuel and electricity for machines and packaging."]},
+{"h":"Total cost (TC)","p":["Total cost is the sum of fixed and variable cost at a given output.","Formula: TC = FC + VC.","Example: fixed cost is ₦50,000 and variable cost is ₦30,000 at 100 units. TC = 50,000 + 30,000 = ₦80,000."]},
+{"h":"Average cost (AC)","p":["Average cost is the cost per unit. Formula: AC = TC ÷ Q (Q means the number of units produced).","Example: TC = ₦80,000 for 100 units. AC = 80,000 ÷ 100 = ₦800 per unit."]},
+{"h":"Marginal cost (MC)","p":["Marginal cost is the extra cost of producing one more unit. Formula: MC = change in TC ÷ change in Q.","Example: 100 units cost ₦80,000 and 101 units cost ₦80,500. MC = (80,500 − 80,000) ÷ (101 − 100) = ₦500."]},
+{"h":"A worked table","p":["A bakery has fixed cost ₦10,000 and its variable cost rises as it bakes more loaves. Check each figure yourself."],
+"tbl":{"head":["Loaves (Q)","FC (₦)","VC (₦)","TC (₦)","AC (₦)","MC (₦)"],"rows":[
+["0","10,000","0","10,000","-","-"],
+["10","10,000","2,000","12,000","1,200","200"],
+["20","10,000","3,500","13,500","675","150"],
+["30","10,000","6,000","16,000","533","250"],
+["40","10,000","10,000","20,000","500","400"]]}}
+],
+"activity":"A tailor pays ₦20,000 rent and uses ₦200 of cloth and thread for each shirt. Find TC, AC and MC for 10 shirts. (Answers: TC = ₦22,000; AC = ₦2,200; MC = ₦200.)",
+"check":[
+{"q":"Which cost remains the same whatever the output?","o":["Fixed cost","Variable cost","Marginal cost","Average cost"]},
+{"q":"If FC is ₦50,000 and VC is ₦30,000, total cost is","o":["₦80,000","₦20,000","₦1,500,000","₦50,000"]},
+{"q":"If 50 units cost ₦200,000 and 51 units cost ₦202,000, the marginal cost is","o":["₦2,000","₦4,000","₦200,000","₦202,000"]},
+{"q":"Average cost equals","o":["TC ÷ Q","TC × Q","FC ÷ VC","MC ÷ Q"]},
+{"q":"Raw materials are an example of","o":["Variable cost","Fixed cost","Sunk cost","Overhead"]}]},
+
+{"id":"ec3-03","week":1,"title":"Opportunity, Explicit, Implicit and Sunk Costs, and Cost Curves","icon":"Target","summary":"Other kinds of cost, why opportunity cost matters, the shape of the average and marginal cost curves, and how cost ideas are used.",
+"keyWords":["Opportunity cost","Explicit cost","Implicit cost","Sunk cost","Cost curves"],
+"sections":[
+{"h":"Opportunity cost","p":["Opportunity cost is the value of the next best alternative given up when a choice is made. Examples: a student who studies instead of working part-time gives up the earnings; a farmer who plants maize instead of yam gives up the profit from yam. Opportunity cost helps people and firms to choose well and explains trade-offs when resources are limited."]},
+{"h":"Explicit and implicit costs","p":["Explicit costs are direct payments of money, such as wages, rent and the cost of materials. Implicit costs are the value of things owned by the business owner that are used but not paid for, such as income given up. For example, a shop owner who works in his own shop without taking a salary has an implicit cost equal to the salary he could have earned elsewhere."]},
+{"h":"Sunk costs","p":["Sunk costs are money already spent that cannot be recovered. They should not affect future decisions. Example: a company spends ₦1 million on research for a product that fails. The money is gone, so the company should decide on new investment by looking only at future costs and benefits."]},
+{"h":"Cost curves","p":["Average cost usually falls at first, reaches a lowest point and then rises. So the AC curve is U-shaped. The marginal cost curve is also U-shaped but cuts through the AC curve at AC's lowest point. This lowest point of AC is the most efficient level of output (lowest cost per unit). When MC is below AC, AC is falling; when MC is above AC, AC is rising."],
+"img":{"src":"eco-cost-curves.png","alt":"U-shaped average cost curve AC and marginal cost curve MC, with MC cutting AC at the lowest point of AC","cap":"The MC curve cuts the AC curve at its lowest point."}},
+{"h":"Uses of cost concepts","p":["Pricing: many firms use cost-plus pricing, that is, adding a profit margin to the average cost. A firm that knows its marginal cost can price more competitively. A profit-making firm produces the output where marginal cost equals marginal revenue (MC = MR); this is explained in the next unit.","Government policy: subsidies reduce production costs (for example, support for fertiliser), while taxes (for example, VAT) raise costs.","Personal finance: opportunity cost helps you to choose between going to university and starting work at once."]}
+],
+"activity":"You have ₦5,000. You can buy a pair of shoes or spend it on a school trip. If you choose the shoes, what is your opportunity cost?",
+"check":[
+{"q":"The value of the next best alternative given up is","o":["Opportunity cost","Sunk cost","Fixed cost","Marginal cost"]},
+{"q":"Money already spent that cannot be recovered is","o":["Sunk cost","Explicit cost","Variable cost","Average cost"]},
+{"q":"MC cuts AC at the","o":["Lowest point of AC","Highest point of AC","Start of the curve","End of the curve"]},
+{"q":"A direct money payment such as rent is","o":["An explicit cost","An implicit cost","A sunk cost only","Opportunity cost only"]},
+{"q":"Adding a profit margin to average cost is","o":["Cost-plus pricing","Subsidy","Taxation","Barter"]}]},
+
+{"id":"ec3-04","week":2,"title":"Revenue Concepts: Total, Average and Marginal Revenue","icon":"BarChart2","summary":"What revenue is, how to calculate TR, AR and MR, and how they behave in perfect competition and imperfect competition.",
+"keyWords":["Total revenue","Average revenue","Marginal revenue","Perfect competition","Monopoly"],
+"sections":[
+{"h":"Meaning of revenue","p":["Revenue is the income a firm earns from selling goods and services. It is used with cost to find profit: profit = total revenue − total cost."]},
+{"h":"The three revenue concepts","p":["Total revenue (TR) is the total income from sales. TR = price (P) × quantity sold (Q). Example: 100 pens at ₦50 each give TR = 100 × 50 = ₦5,000.","Average revenue (AR) is revenue per unit sold. AR = TR ÷ Q. Since TR = P × Q, AR is always equal to the price. The AR curve is the same as the demand curve.","Marginal revenue (MR) is the extra revenue from selling one more unit. MR = change in TR ÷ change in Q. Example: selling 10 more units raises TR from ₦1,000 to ₦1,200, so MR = 200 ÷ 10 = ₦20."]},
+{"h":"Perfect competition","p":["In perfect competition, the firm is a price taker: it sells as much as it wants at the market price, so the price stays fixed whatever the quantity. Thus AR = MR = price, and TR increases in a straight line."],
+"tbl":{"head":["Q","Price (₦)","TR (₦)","AR (₦)","MR (₦)"],"rows":[
+["0","50","0","-","-"],
+["1","50","50","50","50"],
+["2","50","100","50","50"],
+["3","50","150","50","50"]]}},
+{"h":"Imperfect competition (for example, monopoly)","p":["A firm with some control over price must lower the price to sell more. So price falls as Q rises, and AR is greater than MR. TR rises at first, reaches a peak, and then falls."],
+"tbl":{"head":["Q","Price (₦)","TR (₦)","AR (₦)","MR (₦)"],"rows":[
+["0","50","0","-","-"],
+["1","50","50","50","50"],
+["2","45","90","45","40"],
+["3","40","120","40","30"]]},
+"img":{"src":"eco-revenue-curves.png","alt":"Two graphs: in perfect competition AR and MR are one horizontal line; in imperfect competition AR slopes downward and MR slopes down more steeply below it","cap":"AR and MR curves in perfect competition (left) and imperfect competition (right)."}},
+{"h":"Why revenue ideas matter","p":["Profit maximisation: a firm earns the greatest profit at the output where MR = MC. Pricing: revenue curves help firms to choose the best price in different markets. Planning: studying revenue trends helps in production planning."]}
+],
+"activity":"Total revenue rises from ₦200 to ₦240 when output rises from 5 units to 6 units. Find the marginal revenue. (Answer: ₦40.)",
+"check":[
+{"q":"Total revenue equals","o":["Price × quantity","Price + quantity","Quantity ÷ price","Cost × quantity"]},
+{"q":"In perfect competition","o":["AR = MR = price","AR > MR","MR > AR","AR = 0"]},
+{"q":"If TR rises from ₦1,000 to ₦1,200 for 10 more units, MR is","o":["₦20","₦200","₦1,200","₦100"]},
+{"q":"In imperfect competition, as the firm sells more, price","o":["Falls","Stays fixed","Rises","Is zero"]},
+{"q":"A firm maximises profit where","o":["MR = MC","TR = TC at zero","AR = 0","MC = 0"]}]},
+
+{"id":"ec3-05","week":3,"title":"Economic Systems: Capitalism, Socialism and the Mixed Economy (Revision)","icon":"Landmark","summary":"A fuller treatment of the features, advantages and disadvantages of the three economic systems and the countries that use them.",
+"keyWords":["Capitalism","Socialism","Mixed economy","Features","Welfare"],
+"sections":[
+{"h":"What is an economic system?","p":["An economic system is the organised way in which the means of production in a country are owned, managed and used to satisfy human wants. This unit revises First Term and gives more detail. The three types are capitalism, socialism and the mixed economy."]},
+{"h":"Capitalism (free market, laissez-faire)","p":["Private individuals own and control most of the means of production, and government control is small. Examples: the USA, Japan, Germany, France, Italy and Australia (though all of them also have some government role).","Features: private ownership of property; production and consumption guided by the price system (market forces); competition between firms; the aim of production is profit; freedom to choose any job or business; individual satisfaction; accumulation of wealth; freedom of choice for consumers; labour is treated as something bought and sold.","Advantages: freedom of enterprise; profit encourages hard work and efficiency; fast economic growth; competition; a wide choice of goods; a higher standard of living; specialisation and large-scale production; self-reliance; and technological progress.","Disadvantages: monopoly can arise; wealth is unequal; consumers and workers can be exploited; job insecurity and unemployment; unhealthy rivalry; a few people become rich while many stay poor; and profit is chased at all costs."]},
+{"h":"Socialism (centrally planned economy)","p":["The state owns and controls the means of production and distribution. Historical and present examples include the former Soviet Union, Cuba and North Korea. (The notes list Poland, Romania, Mozambique, Ethiopia, Angola and Burkina Faso. These countries followed socialist policies in the past but have since moved towards market economies, so they are no longer good examples.)","Features: joint (collective) decision-making on what, how and for whom to produce; state ownership; welfare as the main aim; not all goods are produced for sale; income is shared more equally; and full use of resources and full employment.","Advantages: fairer sharing of income and resources; no exploitation by private owners; central planning; no private monopoly; economic security and guaranteed jobs.","Disadvantages: little or no choice for consumers; laziness because the state provides; less personal initiative; the state becomes a monopoly; difficulty in knowing what people want; risk of dictatorship; and no competition."]},
+{"h":"Mixed economy","p":["Both private individuals and the state own and control the means of production. Examples: Nigeria, Britain, Egypt, Kenya, Tanzania and Mexico.","Features: freedom of choice for consumers, workers and owners; economic freedom; joint decisions by the private and public sectors; fair competition; and the government controls or provides essential services.","Advantages: fairer incomes, job security, the good points of both systems, development, freedom of choice and encouragement of private initiative.","Disadvantages: a wide gap between rich and poor, profit may matter more than people, inefficiency in state-owned firms, corruption and mismanagement, and labour exploitation."]},
+{"h":"Comparison","p":["Study the table."],
+"tbl":{"head":["Feature","Capitalism","Socialism","Mixed economy"],"rows":[
+["Ownership","Private","State","Both"],
+["Who decides","Market and owners","Planners","Market and government"],
+["Aim","Profit","Welfare","Profit and welfare"],
+["Competition","High","Little or none","Moderate"],
+["Income equality","Low","High (in theory)","Moderate"]]}}
+],
+"activity":"Write five sentences to explain why most countries today have a mixed economy.",
+"check":[
+{"q":"The state owns the means of production in","o":["Socialism","Capitalism","Barter only","Mixed economy only"]},
+{"q":"Which system is a mix of private and public ownership?","o":["Mixed economy","Capitalism","Socialism","Communal economy only"]},
+{"q":"A disadvantage of capitalism is","o":["Unequal wealth","State monopoly","No profit","Guaranteed jobs"]},
+{"q":"A disadvantage of socialism is","o":["Little consumer choice and no competition","Unemployment from the market","Wide inequality","Private monopoly"]},
+{"q":"Another name for capitalism is","o":["Free-market economy","Command economy","Planned economy","Welfare state"]}]},
+
+{"id":"ec3-06","week":4,"title":"The Labour Market and the Labour Force","icon":"Users","summary":"The meaning of labour, market and labour market, who is in the labour force and who is outside it, and what affects its size.",
+"keyWords":["Labour","Market","Labour market","Labour force","Inactive population"],
+"sections":[
+{"h":"Labour","p":["Labour is the physical or mental effort that people put into producing goods and services. It includes planning, organising and supervising work. Workers are not all the same: they differ in skill, experience, health and motivation, so two workers given the same tools may produce different amounts per hour."]},
+{"h":"Market","p":["A market is any arrangement by which buyers and sellers come into contact to exchange goods and services, directly or through agents. In the modern economy a market is not only a place; it may be a whole region, or even the internet. Economists define a market as the whole area in which buyers and sellers are in such free contact that the price of the same good tends to become equal quickly."]},
+{"h":"The labour market","p":["The labour market is the market in which labour services are bought and sold. Workers compete for jobs, and employers compete for workers. The demand for labour and the supply of labour are determined by the amount of work to be done, the number of workers available and able to do it, and the level of wages workers accept."]},
+{"h":"The labour force","p":["The labour force (or workforce) is the number of people in the population who are employed plus those who are unemployed but looking for work. Normally the age range is 18 to 65 years (some countries use 15 to 64).","To belong to the labour force a person must be of working age, be able and willing to work, and be in a job or looking for one. (Some notes say 'able-bodied', but a person with a disability who works or looks for work is also in the labour force.)"]},
+{"h":"Persons not in the labour force","p":["These make up the 'inactive population': young children, school pupils and students, pensioners, the elderly, and full-time home-makers who are neither working nor looking for work. Some of them may be of working age."]},
+{"h":"Factors affecting the size of the labour force","p":["Age: an ageing population has fewer workers because more people retire. Sex: some jobs attract mainly men or mainly women, and attitudes towards women's work affect participation. Occupation: when jobs are available in a field, people join it and the labour force grows. Education: more years of schooling delay entry into work but increase skilled workers. Migration: if more workers leave a country than enter it, the labour force falls."]}
+],
+"activity":"Decide whether each person is in the labour force: a 30-year-old bus driver, a 22-year-old looking for a job, a 70-year-old pensioner, an SS1 student, a full-time mother who does not want paid work.",
+"check":[
+{"q":"The labour force includes","o":["The employed and the unemployed who seek work","Only the employed","Only pensioners","Only students"]},
+{"q":"Which is NOT part of the labour force?","o":["A student not seeking work","A teacher","A job seeker","A farmer"]},
+{"q":"Workers compete for jobs and employers for workers in the","o":["Labour market","Money market","Capital market","Stock market"]},
+{"q":"An ageing population causes the labour force to","o":["Shrink","Grow quickly","Stay at zero","Double"]},
+{"q":"Migration out of a country with few coming in","o":["Reduces the labour supply","Increases the labour supply","Has no effect","Doubles wages"]}]},
+
+{"id":"ec3-07","week":4,"title":"Efficiency and Mobility of Labour","icon":"Zap","summary":"What makes labour efficient, the two types of labour mobility, the factors that affect each and the obstacles to mobility.",
+"keyWords":["Efficiency of labour","Geographical mobility","Occupational mobility","Obstacles","Training"]
+,"sections":[
+{"h":"Efficiency of labour","p":["Efficiency of labour is the ability of a worker to increase output without increasing the inputs, or to complete a task in the given time without wasting resources. In other words, it is the productive capacity of a worker: how much and how good the output is in a given time."]},
+{"h":"Factors that affect efficiency","p":["Climate: working in extreme heat or cold is harder than in a mild climate. Geographical differences: a person brought up in the plains finds it hard to work at high altitude. Mental ability and moral qualities: training helps a worker learn new skills, and discipline, punctuality and self-respect improve the work. Working conditions: a clean, safe workplace and good relations between employer and employees raise efficiency. Promotion: regular promotion motivates workers. Education and training: an educated and trained worker understands the job better. Personal qualities: intelligence, fitness, being responsible and being a team player. Health, good food and housing, and the tools and technology available also matter."]},
+{"h":"Mobility of labour","p":["Mobility of labour is the ease with which workers can move between places or between jobs. It matters because labour is a major factor of production, and the economy does best when workers can move to where they are needed.","Geographical mobility is movement from one place to another to find work or better jobs, for example, a worker moving from Kano to Lagos, or from Nigeria to the United States.","Occupational mobility is a worker's ability to change the type of job, for example, a mechanic who trains to become an airline pilot."]},
+{"h":"Factors affecting geographical mobility","p":["Economic: unemployment and low wages push people away; jobs and high wages attract them. Social: family ties, friends and communities of the same culture. Political: political stability and protection of rights; people avoid unsafe regions. Physical: climate, geography and risk of disasters. Technological: telecommunication and the internet let some people work remotely and so reduce the need to move."]},
+{"h":"Factors affecting occupational mobility","p":["The availability of training and retraining, differences in wages (wage differentials), job security, future prospects and fringe benefits (such as housing and medical allowance)."]},
+{"h":"Obstacles to mobility","p":["Differences in climate, religion, customs, language and tastes. Illiteracy and ignorance of opportunities. Debt. Attachment to property and place. Poverty. Poor transport and communication. Lack of employment opportunities. The cost and length of training, and professional or union rules."]}
+],
+"activity":"List two things that keep a farmer from moving to the city and two things that keep a teacher from becoming an accountant.",
+"check":[
+{"q":"Movement of a worker from one town to another is","o":["Geographical mobility","Occupational mobility","Specialisation","Retirement"]},
+{"q":"A mechanic becoming a pilot after training shows","o":["Occupational mobility","Geographical mobility","Immigration","Taxation"]},
+{"q":"Which raises efficiency of labour?","o":["Good training and working conditions","Poor health","Unsafe workplace","No promotion ever"]},
+{"q":"Which is an obstacle to mobility?","o":["Language and cultural differences","Good roads","Free training","High wages"]},
+{"q":"Wage differentials affect","o":["Occupational mobility","Climate","Soil","Population count only"]}]},
+
+{"id":"ec3-08","week":6,"title":"Utility: Types, Total, Marginal and Average Utility","icon":"Heart","summary":"What utility means, time, form and place utility, and how to calculate total, marginal and average utility from a schedule.",
+"keyWords":["Utility","Time utility","Form utility","Place utility","Marginal utility"],
+"sections":[
+{"h":"Meaning of utility","p":["Utility is the satisfaction a person gets from consuming a good or service at a particular time. A good has utility if it can satisfy a want. Utility is relative: what satisfies one person may not satisfy another, and a thing can be useful at one time and useless at another (a warm blanket in the harmattan and not at noon in March)."]},
+{"h":"Types of utility","p":["Time utility: a good satisfies a want at a particular time. Storing goods until they are needed creates time utility (for example, storing yam until the lean season).","Form utility: changing a good from one form to another so that it can satisfy wants. Flour does not satisfy hunger until it becomes bread, cake or chin-chin.","Place utility: moving goods from where they are less useful to where they are in demand. Cocoa produced in West Africa is moved to Europe for chocolate. Yam is moved from the farm to the market."]},
+{"h":"Total utility (TU)","p":["Total utility is the total satisfaction obtained from consuming a given amount of a good. It increases as more is consumed, but not at an equal rate, and at a point called the saturation point, no more satisfaction is gained. TU = AU × Q."]},
+{"h":"Marginal utility (MU)","p":["Marginal utility is the extra satisfaction from consuming one more unit. MU = change in TU ÷ change in Q. It is the difference between two consecutive total utilities."]},
+{"h":"Average utility (AU)","p":["Average utility is satisfaction per unit consumed. AU = TU ÷ Q."]},
+{"h":"A worked schedule","p":["Utility is measured in imaginary units called 'utils'. Check the figures."],
+"tbl":{"head":["Q","TU","MU","AU"],"rows":[
+["1","10","-","10"],
+["2","16","6","8"],
+["3","20","4","6.7"],
+["4","23","3","5.8"],
+["5","25","2","5.0"],
+["6","22","-3","3.7"]]}},
+{"h":"Relationship between TU and MU","p":["TU rises as long as MU is positive. When MU falls to zero, TU is at its maximum. When MU is negative, TU falls. The sum of all the marginal utilities equals the total utility (for example, 10 + 6 + 4 + 3 + 2 = 25 at the fifth unit)."]}
+],
+"activity":"A girl eats groundnuts. Her total utility is 8 for 1 bag, 14 for 2 bags and 18 for 3 bags. Find the marginal utility of the second and third bags. (Answers: 6 and 4.)",
+"check":[
+{"q":"Changing flour into bread creates","o":["Form utility","Place utility","Time utility","Consumer surplus"]},
+{"q":"Moving cocoa from West Africa to Europe creates","o":["Place utility","Form utility","Time utility","Origin utility"]},
+{"q":"Marginal utility equals","o":["Change in TU ÷ change in Q","TU × Q","TU ÷ Q","AU × Q"]},
+{"q":"When MU is zero, total utility is","o":["At its maximum","At its minimum","Negative","Equal to price"]},
+{"q":"If TU for 4 units is 23 and for 3 units is 20, the MU of the 4th unit is","o":["3","23","20","43"]}]},
+
+{"id":"ec3-09","week":6,"title":"Diminishing Marginal Utility, Consumer Equilibrium and Consumer Surplus","icon":"Target","summary":"The law of diminishing marginal utility, the concept of origin, how a consumer gets the most satisfaction, the link to the demand curve, and consumer surplus.",
+"keyWords":["Diminishing marginal utility","Concept of origin","Consumer equilibrium","Demand curve","Consumer surplus"],
+"sections":[
+{"h":"The law of diminishing marginal utility","p":["The law states that as a consumer consumes more and more units of a good, the extra satisfaction (marginal utility) from each additional unit gets smaller. Total utility increases up to a point and then starts to fall if the consumer carries on.","Example: a very thirsty child drinks water. The first cup gives great satisfaction, the second a bit less, the third even less, and after a few cups more water gives no pleasure at all."],
+"tbl":{"head":["Cups (Q)","TU","MU","AU"],"rows":[
+["1","10","10","10"],
+["2","18","8","9"],
+["3","24","6","8"],
+["4","28","4","7"],
+["5","30","2","6"],
+["6","31","1","5.2"],
+["7","31","0","4.4"]]},
+"img":{"src":"eco-utility.png","alt":"Two graphs: total utility rising and levelling off at 31; marginal utility falling from 10 to zero at the seventh unit","cap":"Total utility (left) rises while marginal utility (right) falls."}},
+{"h":"The concept of origin","p":["The concept of origin is the smallest quantity of a good that must be consumed before it gives any real satisfaction. A single drop of water gives a thirsty student no useful satisfaction; a certain minimum quantity is needed before satisfaction starts."]},
+{"h":"Consumer equilibrium (utility maximisation)","p":["A consumer gets the greatest satisfaction when the marginal utility of the money spent on each good is equal. If the consumer buys only one good: MU = price (when MU is measured in money terms). If the consumer buys many goods: MUa ÷ Pa = MUb ÷ Pb = MUc ÷ Pc and so on. That means that the last naira spent on each good gives the same extra satisfaction.","Example: MU of good A is 12 and its price is ₦4, so MU per naira = 3. MU of good B is 6 and its price is ₦2, so MU per naira = 3. They are equal, so the consumer is in equilibrium."]},
+{"h":"From utility to the demand curve","p":["Because marginal utility falls as more is consumed, the consumer will pay less for each extra unit. Therefore the amount a consumer will buy rises only if the price falls. This explains why the demand curve slopes downward, and the demand curve looks like the marginal utility curve."]},
+{"h":"Consumer surplus","p":["Consumer surplus is the difference between what a consumer is willing (expects) to pay for a good and what he actually pays. Example: a student plans to pay ₦2,000 for sandals but they cost ₦1,500. His consumer surplus is 2,000 − 1,500 = ₦500."]}
+],
+"activity":"A buyer is willing to pay ₦800 for a bag, ₦600 for a second bag and ₦400 for a third bag. The price is ₦500 each. How many bags will he buy, and what is his total consumer surplus? (He buys 2; surplus = 300 + 100 = ₦400.)",
+"check":[
+{"q":"The law of diminishing marginal utility says that as you consume more units of a good, MU","o":["Falls","Rises","Stays the same","Equals price always"]},
+{"q":"Willing to pay ₦2,000 but paying ₦1,500 gives a consumer surplus of","o":["₦500","₦3,500","₦2,000","₦1,500"]},
+{"q":"A consumer is in equilibrium when","o":["MU per naira is equal for all goods","He buys only one good","MU is negative","TU is zero"]},
+{"q":"The demand curve slopes downward largely because of","o":["Diminishing marginal utility","Rising TU","Taxes","Barter"]},
+{"q":"When total utility is at its maximum, MU is","o":["Zero","Highest","Negative","Equal to TU"]}]},
+
+{"id":"ec3-10","week":6,"title":"Indifference Curves","icon":"Layers","summary":"What an indifference curve shows, its shape, why higher curves mean more satisfaction and why two curves cannot cross.",
+"keyWords":["Indifference curve","Combination","Satisfaction","Higher curve","Indifference map"],
+"sections":[
+{"h":"What is an indifference curve?","p":["An indifference curve shows all the combinations of two goods that give the consumer the same level of satisfaction. The consumer is 'indifferent', which means he has no preference, between any two points on the same curve. If he receives combination X instead of combination Y, he feels neither better nor worse.","Example: a student gets the same satisfaction from 8 bottles of drink and 2 packets of biscuits as from 4 bottles of drink and 4 packets of biscuits, and from 2 bottles of drink and 8 packets of biscuits. All three points lie on the same indifference curve."],
+"img":{"src":"eco-indifference.png","alt":"Two curves bowed toward the origin, IC1 and IC2, with IC2 farther from the origin, and three points on IC1","cap":"Two indifference curves. IC2 gives more satisfaction than IC1."}},
+{"h":"Properties","p":["1. An indifference curve slopes downward from left to right: if the consumer takes more of one good he must give up some of the other to stay equally satisfied.","2. It is bowed (convex) towards the origin, because of diminishing marginal utility: the more of one good the consumer has, the less of the other he wants to give up for it.","3. Higher indifference curves mean higher satisfaction (more of both goods).","4. Two indifference curves cannot cross each other, because two different curves stand for two different levels of satisfaction, which could not be equal at the point of crossing.","A set of curves for the same consumer is called an indifference map."]}
+],
+"activity":"Draw two axes, with 'drinks' on one axis and 'biscuits' on the other. Mark the points (8, 2), (4, 4) and (2, 8) and join them with a smooth curve. Say why the curve cannot be a straight line going up.",
+"check":[
+{"q":"Points on one indifference curve give the consumer","o":["The same satisfaction","Increasing satisfaction","Falling satisfaction","No satisfaction"]},
+{"q":"A curve farther from the origin shows","o":["Higher satisfaction","Lower satisfaction","The same satisfaction","No satisfaction"]},
+{"q":"Two indifference curves","o":["Cannot cross","Always cross","Are always horizontal","Are the same curve"]},
+{"q":"An indifference curve slopes","o":["Downward from left to right","Upward from left to right","Vertically","Horizontally only"]}]}
+]

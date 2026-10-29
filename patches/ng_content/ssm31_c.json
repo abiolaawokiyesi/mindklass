@@ -1,0 +1,128 @@
+[
+{"id":"m31-18","week":10,"title":"Distances on the Earth: Along Meridians and Parallels","icon":"Landmark",
+"summary":"Finding angular distances and real distances between two places on the same meridian or the same parallel of latitude.",
+"keyWords":["Angular distance","Meridian","Parallel of latitude","Arc length","Great circle"],
+"sections":[
+{"h":"Angular distance","p":["On the same meridian (same longitude), the angular distance is the difference of the latitudes if both places are on the same side of the equator, and the sum if they are on opposite sides. A(30°N, 15°E) and B(10°S, 15°E): 30° + 10° = 40°. C(50°N, 20°W) and D(20°N, 20°W): 50° − 20° = 30°.","On the same parallel (same latitude), the angular difference at the centre of the parallel is the difference of the longitudes if both are east or both west (subtract), and the sum if one is east and one west (add), as long as the sum is less than 180°. P(60°N, 30°E) and Q(60°N, 50°E): 20°."]},
+{"h":"Distance along a meridian","p":["Every meridian is part of a great circle, and the circumference is 2πR. Distance = (θ/360) × 2πR, where θ is the angular distance. With R = 6 400 km and π = 22/7, 2πR = 40 228.57 km, so 1° along a meridian is about 111.7 km. (With a circumference of 40 000 km, 1° is about 111 km.)","Example 1. Two places on the same meridian at 40°N and 10°N. θ = 30°. Distance = (30/360) × 2 × (22/7) × 6 400 = 3 352.38 km.","Example 2. Towns A (60°N) and B (30°S) on longitude 45°E. θ = 60° + 30° = 90°. Distance = (90/360) × 40 228.57 = 10 057.14 km. (Some printed notes give 10 228.57 km, which is not correct for these values.)"]},
+{"h":"Distance along a parallel","p":["A parallel of latitude is a small circle of radius r = R cos (latitude). Distance = (θ/360) × 2πr, where θ is the difference in longitude.","Example 3. P and Q are on latitude 60°N, at longitudes 20°E and 80°E. θ = 60°. r = 6 400 × cos 60° = 3 200 km. Distance = (60/360) × 2 × (22/7) × 3 200 = 3 352.38 km.","Example 4. Ships on latitude 45°S at longitudes 30°W and 45°W. θ = 15°. r = 6 400 × cos 45° = 4 525.48 km. Distance = (15/360) × 2 × (22/7) × 4 525.48 = 1 185.25 km."]},
+{"h":"Comparing the two","p":["For the same angle, distance along a parallel = distance along a meridian × cos (latitude). If an angle gives 4 000 km along a meridian, it gives 4 000 × cos 60° = 2 000 km along the 60° parallel."]}
+],
+"activity":"Find the distance between two points on the equator that are 120° apart in longitude (13 409.52 km). Find the distance between two places on latitude 60°N whose longitudes differ by 90° (r = 3 200 km; (90/360) × 20 114.29 = 5 028.57 km).",
+"check":[
+{"q":"A(30°N, 15°E) and B(10°S, 15°E) are separated by an angle of","o":["40°","20°","30°","10°"]},
+{"q":"Distance along a meridian =","o":["(θ/360) × 2πR","(θ/360) × πR²","θ × R","2πR cos θ"]},
+{"q":"Two places on latitude 60°N, 60° of longitude apart (R = 6 400 km, π = 22/7), are about this far apart","o":["3 352 km","6 705 km","20 114 km","1 676 km"]},
+{"q":"Places at 60°N and 30°S on the same meridian are separated by","o":["90°","30°","60°","180°"]},
+{"q":"Along a parallel at latitude φ, the radius of the circle is","o":["R cos φ","R sin φ","R","R tan φ"]}
+]},
+
+{"id":"m31-19","week":10,"title":"Nautical Miles, Time Differences and Speed on the Globe","icon":"Landmark",
+"summary":"Nautical miles and knots, the relation between longitude and time, and journeys along great circles.",
+"keyWords":["Nautical mile","Knot","Time difference","15° per hour","Journey"],
+"sections":[
+{"h":"Nautical miles and knots","p":["A nautical mile is the length of the arc of a great circle that makes an angle of one minute (1/60 of a degree) at the centre of the Earth. So the distance in nautical miles along a great circle equals the angle at the centre in minutes. One nautical mile is about 1.85 km. A speed of one nautical mile per hour is called one knot.","Example. A ship sails along a meridian from 30°N to 10°S: 40° × 60 = 2 400 nautical miles. At 20 knots it takes 2 400 ÷ 20 = 120 hours, which is 5 days."]},
+{"h":"Longitude and time","p":["The Earth turns through 360° in 24 hours, so it turns 15° in 1 hour. Places farther east have later local times than places farther west. Time difference = longitude difference ÷ 15.","Example 1. Longitudes 45°E and 30°W. Difference = 45° + 30° = 75° (one east, one west, so add). Time difference = 75 ÷ 15 = 5 hours. When it is 12 noon at 45°E, it is 7 a.m. at 30°W (the west is behind).","Example 2. Longitudes 15°E and 105°W: difference = 120°, so the time difference is 8 hours.","Example 3. Lagos (3.4°E) and a place at 41.6°E: difference 38.2°; time difference 38.2 ÷ 15 = 2 h 33 min about."]},
+{"h":"A journey problem","p":["A plane flies from P(60°N, 20°E) to Q(60°N, 80°E) along the parallel at 800 km/h. Distance = 3 352.38 km (see the previous unit). Time = 3 352.38 ÷ 800 = 4.19 hours, about 4 hours 11 minutes. The time difference between P and Q is 60 ÷ 15 = 4 hours, so local time at Q is 4 hours ahead of P. If the plane leaves P at 8:00 a.m. local time, it lands at Q at about 8:00 + 4 h 11 min + 4 h = 4:11 p.m. local time at Q."]},
+{"h":"Why great circles?","p":["The shortest route between two places on the Earth is along the great circle through them. This is why aeroplanes on long journeys fly curved routes on a flat map."]}
+],
+"activity":"A ship sails 3 000 nautical miles at 15 knots. How long does it take (200 hours = 8 days 8 hours)? What is the time difference between longitudes 60°E and 90°W (150° ÷ 15 = 10 hours)?",
+"check":[
+{"q":"A nautical mile is the arc of a great circle that makes an angle at the centre of","o":["1 minute","1 degree","1 second","10 degrees"]},
+{"q":"The Earth turns through how many degrees in one hour?","o":["15°","24°","30°","360°"]},
+{"q":"The time difference between 45°E and 30°W is","o":["5 hours","1 hour","15 hours","3 hours"]},
+{"q":"40° along a meridian is how many nautical miles?","o":["2 400","40","4 000","240"]},
+{"q":"A speed of one nautical mile per hour is a","o":["knot","kilometre per hour","mach","fathom"]}
+]},
+
+{"id":"m31-20","week":11,"title":"Binary Operations: Meaning and Tables","icon":"Layers",
+"summary":"What a binary operation is, how to evaluate and solve with operations defined by a rule, and how to build an operation table.",
+"keyWords":["Binary operation","Operation table","Closure","Clock arithmetic","Modulo"],
+"sections":[
+{"h":"What is a binary operation?","p":["A binary operation is a rule that combines two elements of a set to give one element. Addition, subtraction and multiplication are binary operations on numbers. We can also define new ones, using a symbol such as *, ⊕ or ∘.","Example: a * b = a + b + 1. Then 3 * 4 = 3 + 4 + 1 = 8, and 2 * (−5) = 2 − 5 + 1 = −2. Example: a ⊕ b = 2a + b. Then 3 ⊕ 4 = 10 and 4 ⊕ 3 = 11."]},
+{"h":"Solving with an operation","p":["If a * b = a + b + 1, solve 3 * x = 8. 3 + x + 1 = 8, so x = 4. If a ∘ b = a² + b, solve x ∘ 3 = 28. x² + 3 = 28, x² = 25, so x = 5 or x = −5."]},
+{"h":"Operation tables","p":["For a small set we can show the operation in a table. Addition modulo 4 on {0, 1, 2, 3} (add, then take the remainder on division by 4, like clock arithmetic)."],"tbl":{"head":["+ (mod 4)","0","1","2","3"],"rows":[["0","0","1","2","3"],["1","1","2","3","0"],["2","2","3","0","1"],["3","3","0","1","2"]]}},
+{"h":"Multiplication modulo 5","p":["On {1, 2, 3, 4}, multiply and take the remainder on division by 5. For example 3 × 4 = 12, and 12 = 2 × 5 + 2, so 3 × 4 ≡ 2 (mod 5)."],"tbl":{"head":["× (mod 5)","1","2","3","4"],"rows":[["1","1","2","3","4"],["2","2","4","1","3"],["3","3","1","4","2"],["4","4","3","2","1"]]}},
+{"h":"Reading a table","p":["The row element is the first element and the column element is the second. In the mod 5 table, 2 × 3 = 1 (row 2, column 3). Every entry is inside the set, so the operation is closed. The table is symmetrical about the main diagonal, which shows that the operation is commutative."]}
+],
+"activity":"If a * b = a + b − 2ab, find 2 * 3 (2 + 3 − 12 = −7). Complete the table of addition modulo 3 on {0, 1, 2} (rows: 0 1 2; 1 2 0; 2 0 1).",
+"check":[
+{"q":"If a * b = a + b + 1, then 3 * 4 =","o":["8","7","12","9"]},
+{"q":"If a * b = a + b + 1 and 3 * x = 8, x =","o":["4","5","3","2"]},
+{"q":"In addition modulo 4, 3 + 3 =","o":["2","6","0","3"]},
+{"q":"In multiplication modulo 5, 3 × 4 =","o":["2","12","1","4"]},
+{"q":"A table symmetrical about the main diagonal shows the operation is","o":["commutative","associative","closed only","the identity"]}
+]},
+
+{"id":"m31-21","week":11,"title":"Properties of Binary Operations","icon":"Target",
+"summary":"Closure, commutativity, associativity, identity element, inverse and distributivity, tested on several operations.",
+"keyWords":["Closure","Commutative","Associative","Identity","Inverse","Distributive"],
+"sections":[
+{"h":"The properties","p":["Let * be an operation on a set S.","Closure: for all a, b in S, a * b is also in S.","Commutative: a * b = b * a for all a, b.","Associative: (a * b) * c = a * (b * c) for all a, b, c.","Identity element e: a * e = e * a = a for every a in S.","Inverse of a: an element a′ such that a * a′ = a′ * a = e.","Distributive: * is distributive over ∘ if a * (b ∘ c) = (a * b) ∘ (a * c). For example, multiplication is distributive over addition."]},
+{"h":"Example 1: a * b = a + b + 1 on the real numbers","p":["Closed: a + b + 1 is a real number. Commutative: a + b + 1 = b + a + 1. Associative: (a * b) * c = a + b + 1 + c + 1 = a + b + c + 2, and a * (b * c) = a + b + c + 2. They agree.","Identity e: a * e = a gives a + e + 1 = a, so e = −1. Inverse: a * a′ = −1 gives a + a′ + 1 = −1, so a′ = −a − 2. Check: a * (−a − 2) = a − a − 2 + 1 = −1 ✓."]},
+{"h":"Example 2: a * b = a + b − ab","p":["Commutative: yes. Identity: a * e = a gives a + e − ae = a, so e(1 − a) = 0, so e = 0. Inverse: a + a′ − aa′ = 0, so a′(1 − a) = −a and a′ = a/(a − 1). The inverse does not exist for a = 1."]},
+{"h":"Example 3: a ⊕ b = 2a + b","p":["Not commutative: 1 ⊕ 2 = 4 but 2 ⊕ 1 = 5. Not associative: (1 ⊕ 2) ⊕ 3 = 4 ⊕ 3 = 11, but 1 ⊕ (2 ⊕ 3) = 1 ⊕ 7 = 9."]},
+{"h":"Example 4: multiplication modulo 5 on {1, 2, 3, 4}","p":["Closed, commutative and associative. Identity: 1. Inverses: 1 → 1, 2 → 3 (2 × 3 = 6 ≡ 1), 3 → 2, 4 → 4 (4 × 4 = 16 ≡ 1). Every element has an inverse."]}
+],
+"activity":"For a * b = a + b + 2: find the identity (e = −2) and the inverse of a (−a − 4). Is a ⊕ b = a − b commutative? (No: 5 − 3 = 2 but 3 − 5 = −2.)",
+"check":[
+{"q":"For a * b = a + b + 1 the identity is","o":["−1","0","1","−2"]},
+{"q":"For a * b = a + b + 1 the inverse of a is","o":["−a − 2","−a","1/a","−a + 1"]},
+{"q":"a ⊕ b = 2a + b is","o":["not commutative","commutative","the identity","always zero"]},
+{"q":"For a * b = a + b − ab the identity is","o":["0","1","−1","a"]},
+{"q":"In multiplication modulo 5 the inverse of 2 is","o":["3","2","4","1"]}
+]},
+
+{"id":"m31-22","week":12,"title":"Arithmetic of Finance: Interest and Depreciation","icon":"BarChart2",
+"summary":"Simple and compound interest, and depreciation by the straight-line and reducing-balance methods.",
+"keyWords":["Simple interest","Compound interest","Depreciation","Straight line","Reducing balance"],
+"sections":[
+{"h":"Simple interest","p":["I = PRT/100, where P is the principal (the money invested), R the rate per cent per year and T the time in years. The amount is A = P + I. Example: ₦50 000 at 8% for 3 years: I = 50 000 × 8 × 3 / 100 = ₦12 000."]},
+{"h":"Compound interest","p":["Interest is added each year and then earns interest itself. A = P(1 + R/100)ⁿ, where n is the number of years. The compound interest is A − P.","Example 1. ₦50 000 at 8% for 3 years: A = 50 000 × 1.08³ = ₦62 985.60. The compound interest is ₦12 985.60 (compare ₦12 000 by simple interest).","Example 2. ₦25 000 at 12% for 4 years. By logarithms: log A = log 25 000 + 4 log 1.12 = 4.3979 + 4(0.0492) = 4.3979 + 0.1968 = 4.5947. A = antilog 4.5947 ≈ ₦39 340 (calculator: ₦39 337.98).","Example 3. ₦75 500 at 9% for 6 years: A = 75 500 × 1.09⁶ = ₦126 621.06. Compound interest = ₦51 121.06."]},
+{"h":"Depreciation","p":["Depreciation is the loss of value of an asset (a machine, vehicle or computer) over time.","Straight-line method: the same amount is lost each year. Annual depreciation = (cost − scrap value) ÷ life in years. A machine costs ₦600 000, has a scrap value of ₦100 000 and lasts 5 years: ₦(600 000 − 100 000) ÷ 5 = ₦100 000 a year.","Reducing-balance method: the value falls by a fixed percentage of the current value each year. Value after n years = C(1 − r/100)ⁿ. The same machine, depreciating by 20% a year: after 3 years its value is 600 000 × 0.8³ = ₦307 200, so it has lost ₦292 800. After 5 years it is worth 600 000 × 0.8⁵ = ₦196 608."]},
+{"h":"Compare","p":["With the straight-line method, the yearly loss is constant. With the reducing-balance method, the yearly loss is largest at first and then gets smaller."]}
+],
+"activity":"Find the simple interest and the compound interest on ₦100 000 at 10% for 3 years (simple: 100 000 × 10 × 3/100 = ₦30 000; compound: 100 000 × 1.1³ − 100 000 = ₦33 100). A car costing ₦2 000 000 depreciates by 15% a year. Find its value after 2 years (2 000 000 × 0.85² = ₦1 445 000).",
+"check":[
+{"q":"Simple interest on ₦50 000 at 8% for 3 years is","o":["₦12 000","₦4 000","₦1 200","₦62 000"]},
+{"q":"The amount for compound interest is","o":["P(1 + R/100)ⁿ","P(1 + nR/100)","PRT/100","P × R × n"]},
+{"q":"₦50 000 at 8% compound interest for 3 years amounts to","o":["₦62 985.60","₦62 000","₦61 000","₦64 800"]},
+{"q":"A machine costs ₦600 000, scrap ₦100 000, life 5 years. Straight-line depreciation a year is","o":["₦100 000","₦120 000","₦500 000","₦60 000"]},
+{"q":"₦600 000 depreciating by 20% a year (reducing balance) is worth after 3 years","o":["₦307 200","₦240 000","₦360 000","₦480 000"]}
+]},
+
+{"id":"m31-23","week":12,"title":"Shares, Bonds, Income Tax and VAT","icon":"Landmark",
+"summary":"Ordinary and preference shares and dividends, bonds and debentures, simple income tax and value added tax calculations.",
+"keyWords":["Shares","Dividend","Bonds","Debentures","Income tax","VAT"],
+"sections":[
+{"h":"Shares and dividends","p":["A company raises money by selling shares. A shareholder owns part of the company. Ordinary shares carry a share of the profit that varies from year to year. Preference shares carry a fixed dividend and are paid before ordinary shares. The nominal (face) value is the value printed on the share; the market price is what it is sold for.","A dividend is a share of the profit, usually quoted as a percentage of the nominal value.","Example 1. 800 shares are bought at ₦35 each. The company pays a 12% dividend on a nominal value of ₦40. Cost = 800 × 35 = ₦28 000. Dividend per share = 12% of ₦40 = ₦4.80. Total dividend = 800 × 4.80 = ₦3 840. Return on the investment = 3 840 / 28 000 × 100% = 13.7%.","Example 2. Shares of nominal value ₦25 pay a 16% dividend and are bought at ₦30. Dividend per share = ₦4. Return = 4/30 × 100% = 13.3%.","Example 3. 500 preference shares pay 8% on ₦50 nominal. Dividend per share = ₦4. Total = ₦2 000."]},
+{"h":"Bonds and debentures","p":["A bond or debenture is a loan to the government or a company. The holder is paid interest (the coupon) each year and gets the face value back at the end. Example: a bond with face value ₦80 000 pays 9%: ₦80 000 × 9% = ₦7 200 a year. A company issues debentures of ₦2 000 000 at 7% for 8 years. Annual interest = ₦140 000. Total interest = 140 000 × 8 = ₦1 120 000.","Current yield = annual interest ÷ market price × 100%. A ₦100 000 bond with a 10% coupon selling at ₦95 000: interest ₦10 000, yield = 10 000 / 95 000 × 100% = 10.5%."]},
+{"h":"Income tax","p":["Tax is calculated on taxable income, which is income minus allowances, in bands. (The bands below are for practice. Real tax rates are set by law and change.)","Example. A worker earns ₦1 800 000 a year. Tax-free allowance ₦300 000, so taxable income = ₦1 500 000. Suppose the tax is 10% on the first ₦500 000 and 15% on the rest. Tax = 50 000 + 15% × 1 000 000 = 50 000 + 150 000 = ₦200 000."]},
+{"h":"Value added tax (VAT)","p":["VAT is a tax on goods and services. At 7.5%: VAT on goods worth ₦150 000 = 0.075 × 150 000 = ₦11 250, so the price including VAT is ₦161 250.","Finding the price before VAT: an item costs ₦53 750 including 7.5% VAT. The price before VAT = 53 750 ÷ 1.075 = ₦50 000."]}
+],
+"activity":"A government bond of ₦250 000 pays 11% each year. Find the interest each year (₦27 500). Find the VAT on a laptop priced ₦180 000 at 7.5% (₦13 500) and the total price (₦193 500).",
+"check":[
+{"q":"A bond of ₦80 000 at 9% pays interest each year of","o":["₦7 200","₦720","₦72 000","₦8 000"]},
+{"q":"VAT at 7.5% on ₦150 000 is","o":["₦11 250","₦1 125","₦7 500","₦15 000"]},
+{"q":"An item costs ₦53 750 including 7.5% VAT. Before VAT it cost","o":["₦50 000","₦49 722","₦46 000","₦45 000"]},
+{"q":"500 shares of ₦50 nominal value paying 8% give a total dividend of","o":["₦2 000","₦200","₦4 000","₦20 000"]},
+{"q":"Taxable income is income","o":["minus allowances","plus allowances","times the tax rate","divided by 12"]}
+]},
+
+{"id":"m31-24","week":12,"title":"First Term Revision","icon":"BookOpen",
+"summary":"A revision table of the main results of First Term with mixed worked questions.",
+"keyWords":["Revision","Logs","Logic","Matrices","Spheres","Latitude","Binary operations","Finance"],
+"sections":[
+{"h":"Key facts","p":["Use the table to revise."],"tbl":{"head":["Topic","Key facts"],"rows":[["Logarithms","log(mn) = log m + log n; log(m/n) = log m − log n; log mⁿ = n log m; check answers are valid"],["Logic","p → q is false only for T, F; contrapositive ~q → ~p is equivalent; De Morgan"],["Surds and trig","√32 = 4√2; sin 30° = 1/2, cos 60° = 1/2, tan 60° = √3; sin x = 0.5 gives 30° and 150°"],["Matrices","|A| = ad − bc; A⁻¹ = (1/|A|)[d −b ; −c a]; AB ≠ BA"],["Spheres","Surface area 4πr²; volume (4/3)πr³; hemisphere volume (2/3)πr³"],["Latitude","r = R cos θ; distance = (θ/360) × 2πR (or 2πr on a parallel); 15° = 1 hour"],["Binary operations","closure, commutativity, associativity, identity and inverse"],["Finance","A = P(1 + R/100)ⁿ; dividend = rate × nominal value; VAT = rate × price"]]}},
+{"h":"Mixed worked questions","p":["1. Solve log₂ x + log₂ (x − 3) = 2: x = 4.","2. Find the determinant of [3 2 ; 1 4]: 10.","3. Solve y = x + 2 and y = x² − 4: (3, 5) and (−2, 0).","4. The surface area of a sphere of radius 7 cm (π = 22/7): 616 cm².","5. Two places on latitude 60°N are 60° of longitude apart. Distance (R = 6 400 km, π = 22/7): 3 352.38 km.","6. For a * b = a + b + 1, the identity is −1 and the inverse of a is −a − 2.","7. ₦25 000 at 12% compound interest for 4 years: ₦39 337.98."]},
+{"h":"Advice for the examination","p":["Show every step. Check each solution in the original equation (especially logarithm equations). State units. Give final answers to the accuracy asked for. Revise past questions from earlier years too."]}
+],
+"activity":"Without notes, write down the laws of logarithms, the inverse of [a b ; c d] and the formula for the length of an arc of a parallel of latitude. Then check them against the table.",
+"check":[
+{"q":"The determinant of [3 2 ; 1 4] is","o":["10","14","12","−10"]},
+{"q":"The surface area of a sphere of radius 7 cm (π = 22/7) is","o":["616 cm²","154 cm²","1 437 cm²","308 cm²"]},
+{"q":"For a * b = a + b + 1 the identity element is","o":["−1","0","1","2"]},
+{"q":"The solution of log₂ x + log₂ (x − 3) = 2 is","o":["x = 4","x = −1","x = 4 or −1","x = 2"]},
+{"q":"₦25 000 at 12% compound interest for 4 years amounts to about","o":["₦39 338","₦37 000","₦45 000","₦29 000"]}
+]}
+]

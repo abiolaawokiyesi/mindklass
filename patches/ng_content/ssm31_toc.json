@@ -1,0 +1,188 @@
+[
+    {
+        "id":  "m31-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "An introduction to SS3 Mathematics First Term and the list of all units: logarithms, logic, surds and trigonometry, matrices, equations, spheres, latitude and longitude, binary operations and finance.",
+        "keyWords":  [
+                         "SS3 Mathematics",
+                         "First Term",
+                         "Final year"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS3 Mathematics",
+                             "p":  [
+                                       "This is your final year, and the work you do now prepares you for WAEC and NECO. First Term covers logarithms, logic, surds and trigonometry, matrices, simultaneous equations, spheres, latitude and longitude, binary operations and arithmetic of finance. Many of these topics appear in every Mathematics paper.",
+                                       "Do each worked example yourself on paper before you read the solution. Practise with a calculator, but also learn to work without one. The check questions at the end of each unit do not count towards a mark; they help you see what you have understood."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for First Term",
+                             "p":  [
+                                       "Week 5 is the midterm examination and Week 7 is the midterm break."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Logarithms: Meaning and Laws"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Logarithmic and Exponential Equations and Calculations"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Logic: Statements and Connectives"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Logic: Conditional and Biconditional Statements"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "2",
+                                                          "Logic: Equivalence, Tautology and Valid Arguments"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Surds: Simplifying and Rationalising"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "3",
+                                                          "Exact Trigonometric Values for 30°, 45° and 60°"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "3",
+                                                          "Graphs of Sine and Cosine and Solving Trigonometric Equations"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "4",
+                                                          "Matrices: Meaning, Order and Types"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "4",
+                                                          "Matrix Operations: Addition, Scalar Multiplication and Multiplication"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "4",
+                                                          "Transpose and Determinants"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "4",
+                                                          "Inverse of a 2 × 2 Matrix and Simultaneous Equations"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "6",
+                                                          "Simultaneous Linear and Quadratic Equations"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "6",
+                                                          "Graphical Solutions and Word Problems"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "8",
+                                                          "Spheres and Hemispheres: Surface Area and Volume"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "9",
+                                                          "Latitude and Longitude"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "10",
+                                                          "Distances on the Earth: Along Meridians and Parallels"
+                                                      ],
+                                                      [
+                                                          "19",
+                                                          "10",
+                                                          "Nautical Miles, Time Differences and Speed on the Globe"
+                                                      ],
+                                                      [
+                                                          "20",
+                                                          "11",
+                                                          "Binary Operations: Meaning and Tables"
+                                                      ],
+                                                      [
+                                                          "21",
+                                                          "11",
+                                                          "Properties of Binary Operations"
+                                                      ],
+                                                      [
+                                                          "22",
+                                                          "12",
+                                                          "Arithmetic of Finance: Interest and Depreciation"
+                                                      ],
+                                                      [
+                                                          "23",
+                                                          "12",
+                                                          "Shares, Bonds, Income Tax and VAT"
+                                                      ],
+                                                      [
+                                                          "24",
+                                                          "12",
+                                                          "First Term Revision"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table. Mark the topics that you found hardest in SS2 and plan extra practice for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic is studied in Week 4?",
+                          "o":  [
+                                    "Matrices and determinants",
+                                    "Logic",
+                                    "Binary operations",
+                                    "Spheres"
+                                ]
+                      },
+                      {
+                          "q":  "Latitude and longitude are studied in Weeks",
+                          "o":  [
+                                    "9 and 10",
+                                    "1 and 2",
+                                    "4 and 6",
+                                    "11 and 12"
+                                ]
+                      },
+                      {
+                          "q":  "Arithmetic of finance is studied in Week",
+                          "o":  [
+                                    "12",
+                                    "2",
+                                    "8",
+                                    "4"
+                                ]
+                      }
+                  ]
+    }
+]

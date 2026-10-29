@@ -1,0 +1,236 @@
+[
+{"id":"m23-12","week":6,"title":"Frequency Distribution: Meaning and Ungrouped Data","icon":"BarChart2",
+"summary":"What frequency means, the difference between discrete and continuous data, and how to make a frequency table from raw data using tally marks.",
+"keyWords":["Frequency","Tally","Raw data","Discrete data","Continuous data","Frequency table"],
+"sections":[
+{"h":"What is frequency?","p":["Statistics is the science of collecting, organising and understanding data. The frequency of a value is the number of times it occurs in the data. A frequency distribution (or frequency table) lists each value with its frequency.","Raw data is data just as it was collected, in no order. A frequency table makes it easy to see which values are common and which are rare."]},
+{"h":"Kinds of data","p":["Discrete data can be counted and takes separate values, for example the number of children in a family (0, 1, 2, 3...) or the number of goals in a match. Continuous data is measured and can take any value in a range, for example height, mass or time. The kind of data affects how we group it."]},
+{"h":"Making a frequency table with tally marks","p":["1. List all the different values in order. 2. Go through the data once, putting one tally mark (|) beside the value each time it appears. Group the tallies in fives: four upright strokes and a fifth stroke across them. 3. Count the tallies to get each frequency. 4. Add the frequencies: the total must equal the number of observations. This check catches mistakes."]},
+{"h":"Example 1: goals in 15 matches","p":["A football team scored these goals in 15 matches: 2, 0, 1, 3, 2, 1, 0, 2, 4, 1, 2, 3, 1, 2, 0."],"tbl":{"head":["Goals","Tally","Frequency"],"rows":[["0","|||","3"],["1","||||","4"],["2","||||/","5"],["3","||","2"],["4","|","1"],["Total","","15"]]}},
+{"h":"What the table tells us","p":["The most common number of goals (the mode) is 2. The total number of goals is 0×3 + 1×4 + 2×5 + 3×2 + 4×1 = 0 + 4 + 10 + 6 + 4 = 24, so the mean number of goals per match is 24 ÷ 15 = 1.6. Arranged in order the data is 0, 0, 0, 1, 1, 1, 1, 2, ... The middle (8th) value is 2, so the median is 2."]},
+{"h":"Example 2: children in 20 families","p":["The numbers of children are: 2, 3, 1, 0, 2, 4, 2, 3, 1, 2, 5, 2, 3, 1, 2, 0, 3, 2, 1, 4."],"tbl":{"head":["Children","Tally","Frequency"],"rows":[["0","||","2"],["1","||||","4"],["2","||||/ ||","7"],["3","||||","4"],["4","||","2"],["5","|","1"],["Total","","20"]]}},
+{"h":"Reading it","p":["Total children = 0×2 + 1×4 + 2×7 + 3×4 + 4×2 + 5×1 = 0 + 4 + 14 + 12 + 8 + 5 = 43. The mean is 43 ÷ 20 = 2.15 children per family. The mode is 2. The 10th and 11th values are both 2, so the median is 2."]}
+],
+"activity":"Twenty students were asked how many books they read last month: 1, 2, 0, 3, 2, 1, 1, 4, 2, 0, 3, 2, 1, 2, 5, 1, 0, 2, 3, 1. Make a frequency table. (0: 3, 1: 6, 2: 6, 3: 3, 4: 1, 5: 1; total 20.) Find the mode (1 and 2, both with frequency 6).",
+"check":[
+{"q":"The frequency of a value is","o":["the number of times it occurs","its size","the middle value","the total of the data"]},
+{"q":"Number of children in a family is","o":["discrete data","continuous data","a tangent","a bearing"]},
+{"q":"Height of students is","o":["continuous data","discrete data","always a whole number","not data"]},
+{"q":"In the goals table, the mean number of goals per match is","o":["1.6","2","24","15"]},
+{"q":"The total of all the frequencies must equal the","o":["number of observations","largest value","mode","range"]}
+]},
+
+{"id":"m23-13","week":6,"title":"Grouped Frequency Tables","icon":"Layers",
+"summary":"How to group many values into class intervals, and the words class limits, class boundaries, class width and class midpoint.",
+"keyWords":["Class interval","Class limits","Class boundaries","Class width","Class midpoint","Grouped data"],
+"sections":[
+{"h":"Why group data?","p":["When there are many different values (for example marks out of 100), a table with one row for every value would be long and not helpful. So we group the values into classes or class intervals such as 20 to 29, 30 to 39, and so on."]},
+{"h":"Words to know","p":["Class limits: the smallest and largest values written in a class. For the class 20–29 the lower limit is 20 and the upper limit is 29.","Class boundaries: the true edges of a class for whole-number data. Go halfway to the next class: 20–29 has boundaries 19.5 and 29.5.","Class width (class size): the length of the class = upper boundary − lower boundary. For 20–29 this is 29.5 − 19.5 = 10. You can also take the difference between two consecutive lower limits: 30 − 20 = 10. (Do not use 29 − 20 = 9: that is a common mistake.)","Class midpoint (class mark): the middle of the class = (lower limit + upper limit) ÷ 2. For 20–29: (20 + 29) ÷ 2 = 24.5.","Frequency: the number of observations in the class."]},
+{"h":"Steps to make a grouped frequency table","p":["1. Find the range = largest value − smallest value. 2. Choose the number of classes, usually 5 to 10. 3. Class width ≈ range ÷ number of classes, rounded up to a convenient number (like 5 or 10). 4. Write the class intervals, starting at or just below the smallest value, with no gaps and no overlaps. 5. Tally the data and count. 6. Check: total of the frequencies = number of observations."]},
+{"h":"Example: marks of 20 students","p":["Marks: 23, 45, 38, 52, 31, 47, 29, 60, 41, 35, 28, 49, 33, 56, 42, 37, 25, 44, 39, 51. The range is 60 − 23 = 37. With 5 classes the width is 37 ÷ 5 = 7.4, so we choose the convenient width 10, starting at 20."],"tbl":{"head":["Marks","Tally","Frequency","Boundaries","Midpoint"],"rows":[["20–29","||||","4","19.5 – 29.5","24.5"],["30–39","||||/ |","6","29.5 – 39.5","34.5"],["40–49","||||/ |","6","39.5 – 49.5","44.5"],["50–59","|||","3","49.5 – 59.5","54.5"],["60–69","|","1","59.5 – 69.5","64.5"],["Total","","20","",""]]}},
+{"h":"More examples","p":["The class 15–19 has boundaries 14.5 and 19.5. The class 35–44 has midpoint (35 + 44) ÷ 2 = 39.5 and width 10. For heights in cm, the class 145–149 means heights from 144.5 cm up to 149.5 cm when heights are recorded to the nearest cm.","Missing frequency: classes 20–24, 25–29, 30–34, 35–39 and 40–44 have frequencies 5, 8, x, 10 and 4, and the total is 35. 5 + 8 + x + 10 + 4 = 35, so x = 8."]}
+],
+"activity":"Group these ages into classes 10–14, 15–19, 20–24, 25–29: 12, 17, 23, 15, 28, 19, 11, 22, 25, 14, 18, 21 (10–14: 3, 15–19: 4, 20–24: 3, 25–29: 2). Write the boundaries and midpoint of the class 20–24 (19.5 – 24.5; midpoint 22).",
+"check":[
+{"q":"The class boundaries of 20–29 are","o":["19.5 and 29.5","20 and 29","20.5 and 29.5","19 and 30"]},
+{"q":"The class width of 30–39 is","o":["10","9","39","30"]},
+{"q":"The midpoint of 35–44 is","o":["39.5","40","79","9.5"]},
+{"q":"The boundaries of the class 15–19 are","o":["14.5 and 19.5","15 and 19","14 and 20","15.5 and 19.5"]},
+{"q":"Frequencies 5, 8, x, 10, 4 have total 35. Then x =","o":["8","7","9","10"]}
+]},
+
+{"id":"m23-14","week":6,"title":"Cumulative Frequency and Histograms","icon":"Target",
+"summary":"Running totals of frequencies, and how to draw a histogram, the picture of a grouped frequency table.",
+"keyWords":["Cumulative frequency","Histogram","Frequency polygon","Bar chart"],
+"sections":[
+{"h":"Cumulative frequency","p":["Cumulative frequency is the running total of the frequencies. A 'less than' cumulative frequency tells us how many observations are below the upper boundary of each class.","Marks of 30 students: the table below will be used in the rest of this term."],"tbl":{"head":["Marks","Frequency","Upper boundary","Cumulative frequency"],"rows":[["10–19","3","19.5","3"],["20–29","6","29.5","9"],["30–39","9","39.5","18"],["40–49","7","49.5","25"],["50–59","4","59.5","29"],["60–69","1","69.5","30"]]}},
+{"h":"Reading the table","p":["3 students scored less than 19.5. 9 students scored less than 29.5. 18 students scored less than 39.5. The last cumulative frequency, 30, equals the total number of students. A 'more than' cumulative frequency works from the bottom: 30 students scored more than 9.5, 27 more than 19.5, 21 more than 29.5, 12 more than 39.5, 5 more than 49.5 and 1 more than 59.5."]},
+{"h":"Histogram","p":["A histogram is used for continuous data grouped into classes. It is like a bar chart, but: the bars touch (no gaps), because the classes are continuous; the bars are drawn between the class boundaries; and for equal class widths the height of a bar is the frequency."],"img":{"src":"mth3-histogram.png","alt":"A histogram of the marks of 30 students with bars of heights 3, 6, 9, 7, 4 and 1 drawn between the class boundaries 9.5 to 69.5","cap":"A histogram of the marks of 30 students."}},
+{"h":"Steps for drawing a histogram","p":["1. Choose a scale for the horizontal axis (class boundaries) and the vertical axis (frequency). 2. Draw a bar for each class between its boundaries, with height equal to its frequency. 3. Label both axes and give the graph a title."]},
+{"h":"Frequency polygon","p":["A frequency polygon joins the tops of the bars at the class midpoints with straight lines. Here the points are (14.5, 3), (24.5, 6), (34.5, 9), (44.5, 7), (54.5, 4) and (64.5, 1). Add (4.5, 0) and (74.5, 0) at the ends so that the polygon touches the axis."]},
+{"h":"Bar chart or histogram?","p":["Use a bar chart for separate categories or discrete data (bars separated by gaps). Use a histogram for grouped continuous data (bars touching)."]}
+],
+"activity":"Masses of 50 students: 40–44 kg: 4, 45–49: 9, 50–54: 15, 55–59: 12, 60–64: 7, 65–69: 3. Find the cumulative frequencies (4, 13, 28, 40, 47, 50). How many students weigh less than 54.5 kg (28)?",
+"check":[
+{"q":"For the marks table, the cumulative frequency at 39.5 is","o":["18","9","25","30"]},
+{"q":"The last cumulative frequency is always equal to","o":["the total frequency","the mode","the median","1"]},
+{"q":"The bars of a histogram","o":["touch each other","are separated","are always equal in height","are drawn at the midpoints"]},
+{"q":"A frequency polygon joins the","o":["class midpoints","upper boundaries only","lower limits","origin only"]},
+{"q":"A histogram is used for","o":["grouped continuous data","separate categories","a pie chart","bearings"]}
+]},
+
+{"id":"m23-15","week":8,"title":"Drawing an Ogive","icon":"BarChart2",
+"summary":"How to draw a cumulative frequency curve (an ogive): plotting the upper class boundaries against the cumulative frequencies and joining the points smoothly.",
+"keyWords":["Ogive","Cumulative frequency curve","Upper boundary","Smooth curve","Starting point"],
+"sections":[
+{"h":"What is an ogive?","p":["An ogive (say 'OH-jive') is a graph of cumulative frequency. It has an S-shape and is used to estimate the median, quartiles and percentiles."]},
+{"h":"Steps to draw an ogive","p":["1. Make a cumulative frequency table with the upper class boundaries.","2. Draw axes: upper class boundaries on the x-axis and cumulative frequency on the y-axis. Choose scales that use most of the page.","3. Plot each point (upper boundary, cumulative frequency). Plot at the UPPER boundaries, not the midpoints.","4. Add the starting point: the lower boundary of the first class with cumulative frequency 0. Here this is (9.5, 0).","5. Join the points with a smooth curve, not with straight zig-zag lines.","6. Label the axes and give the graph a title."]},
+{"h":"Example: the marks of 30 students","p":["The points are (9.5, 0), (19.5, 3), (29.5, 9), (39.5, 18), (49.5, 25), (59.5, 29) and (69.5, 30). The curve climbs slowly at first, steeply in the middle (where most students are) and flattens at the end."],"img":{"src":"mth3-ogive.png","alt":"A smooth S-shaped cumulative frequency curve through the points (9.5, 0) to (69.5, 30), with dashed lines marking the median at about 36, the lower quartile at about 27 and the upper quartile at about 46","cap":"The ogive of the 30 marks, with the median and quartiles marked."}},
+{"h":"Common mistakes","p":["Plotting at the midpoints. Forgetting the starting point (9.5, 0). Joining the points with a ruler instead of a smooth curve. Using a scale that is too small. Not labelling the axes."]}
+],
+"activity":"Draw an ogive for the masses of 50 students (classes 40–44 to 65–69 with frequencies 4, 9, 15, 12, 7, 3). Plot (39.5, 0), (44.5, 4), (49.5, 13), (54.5, 28), (59.5, 40), (64.5, 47) and (69.5, 50).",
+"check":[
+{"q":"An ogive is a graph of","o":["cumulative frequency","frequency only","bearings","probability"]},
+{"q":"Points for an ogive are plotted at the","o":["upper class boundaries","class midpoints","lower class limits","class widths"]},
+{"q":"The starting point of the marks ogive is","o":["(9.5, 0)","(0, 0)","(10, 3)","(19.5, 0)"]},
+{"q":"The points on an ogive are joined with","o":["a smooth curve","straight line segments with a ruler","dotted lines","no lines"]},
+{"q":"The shape of an ogive is","o":["S-shaped","a circle","a straight line","V-shaped"]}
+]},
+
+{"id":"m23-16","week":8,"title":"Reading Information from an Ogive","icon":"Zap",
+"summary":"Using an ogive to estimate the median, quartiles, interquartile range and percentiles, and to answer questions about numbers and percentages.",
+"keyWords":["Median","Quartile","Interquartile range","Percentile","Estimate"],
+"sections":[
+{"h":"Median, quartiles and percentiles","p":["Let n be the total frequency (here n = 30). The median is the value at n/2 = 15. The lower quartile Q₁ is the value at n/4 = 7.5. The upper quartile Q₃ is the value at 3n/4 = 22.5. The interquartile range (IQR) is Q₃ − Q₁. A percentile P_k is the value below which k% of the data lies; it is at position (k/100) × n.","To read a value: find the position on the cumulative frequency axis, draw a line across to the curve, then draw a line down to the x-axis and read off the value."]},
+{"h":"Reading the marks ogive","p":["Median: position 15, reading ≈ 36 marks. Q₁: position 7.5, reading ≈ 27 marks. Q₃: position 22.5, reading ≈ 46 marks. IQR ≈ 46 − 27 = 19 marks: the middle half of the students scored marks in a range of about 19.","(A calculation from the table agrees: median = 29.5 + (15 − 9)/9 × 10 = 36.2; Q₁ = 19.5 + (7.5 − 3)/6 × 10 = 27.0; Q₃ = 39.5 + (22.5 − 18)/7 × 10 = 45.9.)"]},
+{"h":"Other questions","p":["How many students scored less than 45? Read the cumulative frequency at 45: about 22 students.","How many scored 40 or more? Read at 39.5: 18 scored less than that, so 30 − 18 = 12 students scored 40 or more. That is 12/30 × 100 = 40%.","What percentage scored less than 30? Read at 29.5: 9 students, so 9/30 × 100 = 30%.","What is the 80th percentile? Position 0.8 × 30 = 24. Reading ≈ 48 marks. So about 80% of the students scored below 48.","Top 10% of students: the 90th percentile is at position 27 and is about 54.5 marks, so the cut-off for the top 10% is about 54 to 55 marks."]},
+{"h":"Comparing two ogives","p":["A curve further to the right means higher values: a higher median. A steeper curve means the data is more bunched together (a smaller spread). Compare medians and interquartile ranges."]},
+{"h":"Uses of ogives","p":["Setting pass marks and grade boundaries; finding the top 10% of students; studying incomes (how many people earn below a given amount); child growth charts; quality control (what percentage of products are below a standard)."]}
+],
+"activity":"Using the ogive of 30 marks, estimate (a) how many students scored less than 35 (about 14), (b) the pass mark if the top 20% pass (the 80th percentile, about 48), (c) the interquartile range (about 19).",
+"check":[
+{"q":"For n = 30, the median is read at the cumulative frequency","o":["15","30","7.5","22.5"]},
+{"q":"For n = 30, the upper quartile is read at","o":["22.5","25","15","7.5"]},
+{"q":"The interquartile range is","o":["Q₃ − Q₁","Q₁ − Q₃","Q₃ + Q₁","the median"]},
+{"q":"If 18 students scored less than 39.5 out of 30, the number who scored 40 or more is","o":["12","18","30","40"]},
+{"q":"A steeper ogive means the data is","o":["more bunched together","more spread out","impossible","all equal"]}
+]},
+
+{"id":"m23-17","week":9,"title":"The Mean from Grouped Data","icon":"Layers",
+"summary":"How to find the mean of grouped data using class midpoints and the formula mean = Σfx ÷ Σf, with several worked examples.",
+"keyWords":["Mean","Midpoint","Σfx","Σf","Grouped data"],
+"sections":[
+{"h":"The formula","p":["The mean is the sum of all values divided by the number of values. For grouped data we do not know the exact values, so we use the class midpoint x to stand for every value in the class.","Mean = Σfx ÷ Σf, where f is the frequency, x is the class midpoint, Σfx is the sum of all the f × x, and Σf is the total frequency."]},
+{"h":"Steps","p":["1. Find the midpoint x of each class. 2. Multiply each frequency by its midpoint to get fx. 3. Add up all the fx values. 4. Add up the frequencies. 5. Divide Σfx by Σf."]},
+{"h":"Example 1: the marks of 30 students","p":["Use the table below."],"tbl":{"head":["Marks","f","x","fx"],"rows":[["10–19","3","14.5","43.5"],["20–29","6","24.5","147"],["30–39","9","34.5","310.5"],["40–49","7","44.5","311.5"],["50–59","4","54.5","218"],["60–69","1","64.5","64.5"],["Total","30","","1 095"]]}},
+{"h":"Answer to Example 1","p":["Mean = 1 095 ÷ 30 = 36.5 marks."]},
+{"h":"Example 2: the masses of 50 students","p":["The classes are 40–44, 45–49, 50–54, 55–59, 60–64 and 65–69 with frequencies 4, 9, 15, 12, 7 and 3. The midpoints are 42, 47, 52, 57, 62 and 67. The fx values are 168, 423, 780, 684, 434 and 201. Σfx = 2 690 and Σf = 50. Mean mass = 2 690 ÷ 50 = 53.8 kg."]},
+{"h":"Example 3: combining two groups","p":["The mean age of 40 students is 16 years. Ten new students with a mean age of 18 years join them. Total age of the 40 = 40 × 16 = 640 years. Total age of the 10 = 10 × 18 = 180 years. Mean of all 50 = (640 + 180) ÷ 50 = 820 ÷ 50 = 16.4 years."]},
+{"h":"Example 4: removing a number","p":["The mean of 20 numbers is 35. When one number is removed, the mean of the remaining 19 numbers is 34. Find the number removed. Total of 20 numbers = 20 × 35 = 700. Total of the 19 numbers = 19 × 34 = 646. The number removed = 700 − 646 = 54."]}
+],
+"activity":"Find the mean of this distribution: classes 0–9, 10–19, 20–29 with frequencies 4, 6, 10. (Midpoints 4.5, 14.5, 24.5; fx = 18, 87, 245; Σfx = 350; Σf = 20; mean = 17.5.)",
+"check":[
+{"q":"The mean of grouped data is","o":["Σfx ÷ Σf","Σf ÷ Σfx","Σx ÷ Σf","Σfx × Σf"]},
+{"q":"The mean of the marks table (Example 1) is","o":["36.5","35.5","30","1 095"]},
+{"q":"The mean mass in Example 2 is","o":["53.8 kg","50 kg","2 690 kg","52 kg"]},
+{"q":"40 students of mean age 16 and 10 students of mean age 18 have a combined mean of","o":["16.4","17","16.8","34"]},
+{"q":"The mean of 20 numbers is 35 and of 19 of them 34. The number removed is","o":["54","1","35","34"]}
+]},
+
+{"id":"m23-18","week":9,"title":"The Median and Mode from Grouped Data","icon":"Target",
+"summary":"The formulas for estimating the median and the mode of grouped data, with examples and the modal class.",
+"keyWords":["Median class","Modal class","Median formula","Mode formula","Estimate"],
+"sections":[
+{"h":"The median","p":["The median class is the class that contains the middle position n/2. Then:","Median = L + ((n/2 − CF) ÷ f) × c","where L = lower boundary of the median class, CF = cumulative frequency before the median class, f = frequency of the median class and c = class width."]},
+{"h":"Example 1: the marks of 30 students","p":["n/2 = 15. The cumulative frequencies are 3, 9, 18, ... so the 15th value lies in the class 30–39 (the cumulative frequency passes 15 there). L = 29.5, CF = 9, f = 9, c = 10. Median = 29.5 + ((15 − 9) ÷ 9) × 10 = 29.5 + 6.67 = 36.17 marks."]},
+{"h":"Example 2: the masses of 50 students","p":["n/2 = 25. Cumulative frequencies: 4, 13, 28, ... so the median class is 50–54. L = 49.5, CF = 13, f = 15, c = 5. Median = 49.5 + ((25 − 13) ÷ 15) × 5 = 49.5 + 4 = 53.5 kg."]},
+{"h":"Example 3","p":["The median class is 30–39 with L = 29.5, f = 10, CF = 18 and n = 60. n/2 = 30. Median = 29.5 + ((30 − 18) ÷ 10) × 10 = 29.5 + 12 = 41.5."]},
+{"h":"The mode","p":["The modal class is the class with the highest frequency. A better estimate of the mode is:","Mode = L + (f₁ − f₀) ÷ ((f₁ − f₀) + (f₁ − f₂)) × c","where L = lower boundary of the modal class, f₁ = its frequency, f₀ = the frequency of the class before it, f₂ = the frequency of the class after it and c = class width."]},
+{"h":"Example 4: mode of the marks","p":["The modal class is 30–39 (f₁ = 9). f₀ = 6 and f₂ = 7. Mode = 29.5 + (9 − 6) ÷ ((9 − 6) + (9 − 7)) × 10 = 29.5 + 3/5 × 10 = 29.5 + 6 = 35.5. For the masses: modal class 50–54, f₁ = 15, f₀ = 9, f₂ = 12. Mode = 49.5 + 6/(6 + 3) × 5 = 49.5 + 3.33 = 52.83 kg."]},
+{"h":"A note","p":["These are only estimates, because we do not know the exact values inside each class."]}
+],
+"activity":"For the distribution with classes 0–9, 10–19, 20–29 and frequencies 4, 6, 10: n = 20, so n/2 = 10. The cumulative frequencies are 4, 10, 20. The median class is 10–19, because the cumulative frequency first reaches 10 there. Median = 9.5 + ((10 − 4) ÷ 6) × 10 = 19.5. The modal class is 20–29 (frequency 10). Now check these steps yourself on a different table.",
+"check":[
+{"q":"The median class is the class that contains the position","o":["n/2","n","1","2n"]},
+{"q":"The median of the marks of 30 students is about","o":["36.17","35.5","36.5","45"]},
+{"q":"The modal class is the class with the","o":["highest frequency","lowest frequency","largest midpoint","first position"]},
+{"q":"The mode of the marks (grouped) is about","o":["35.5","36.5","34.5","39.5"]},
+{"q":"The median of the masses (median class 50–54) is","o":["53.5 kg","52.83 kg","54.5 kg","49.5 kg"]}
+]},
+
+{"id":"m23-19","week":9,"title":"Comparing the Mean, Median and Mode","icon":"BarChart2",
+"summary":"The strengths and weaknesses of each average, what skewness means, and how to choose the best average for a situation.",
+"keyWords":["Mean","Median","Mode","Skewed","Extreme values","Symmetrical"],
+"sections":[
+{"h":"The three averages","p":["Mean: uses all the data and is good for further calculation, but it is affected by extreme (very large or very small) values.","Median: the middle value. It is not affected by extreme values and is good for skewed data, but it does not use all the data.","Mode: the most common value. It is the only average that can be used for categories (for example the favourite colour), and it is not affected by extremes. But it may not exist or there may be more than one."]},
+{"h":"Shape of the data","p":["Symmetrical data: mean = median = mode.","Positively skewed (a long tail to the right): mode < median < mean. A few very high values pull the mean up.","Negatively skewed (a long tail to the left): mean < median < mode. A few very low values pull the mean down.","Our marks data: mean 36.5, median 36.17, mode 35.5. Because mode < median < mean, it is slightly positively skewed. The masses: mean 53.8, median 53.5, mode 52.83, also slightly positively skewed."]},
+{"h":"Example 1","p":["A data set has mean 42, median 45 and mode 48. Since the mean < median < mode, the data is negatively skewed. There are some unusually low values pulling the mean down, and most values are towards the higher end."]},
+{"h":"The empirical relationship","p":["For data that is only moderately skewed, Mode ≈ 3 × Median − 2 × Mean. Example: if the median is 42 and the mode is 45, then 45 = 3 × 42 − 2 × Mean, so 2 × Mean = 126 − 45 = 81 and Mean ≈ 40.5. (Some printed notes give the formula Mean ≈ (Mode + 2 × Median) ÷ 3. That formula is not correct; it would give 43.)"]},
+{"h":"Choosing the best average","p":["Incomes or house prices, where a few are extremely high: use the median. Test scores with no extreme values and when you need calculations: use the mean. Shoe sizes sold by a shop, or the most popular colour: use the mode. A symmetrical distribution: any of the three will do."]}
+],
+"activity":"Salaries of five workers (₦ thousands): 80, 85, 90, 95, 650. Find the mean (200) and the median (90). Which gives a better picture of a typical salary (the median, because of the very high 650)?",
+"check":[
+{"q":"If mode < median < mean, the data is","o":["positively skewed","negatively skewed","symmetrical","impossible"]},
+{"q":"Which average is best for data with a few extreme values?","o":["median","mean","range","none"]},
+{"q":"Which average can be used for categories like favourite colour?","o":["mode","mean","median","all three"]},
+{"q":"If the median is 42 and the mode is 45, the empirical relationship gives a mean of about","o":["40.5","43","45","39"]},
+{"q":"In symmetrical data","o":["mean = median = mode","mean > median","mode is zero","the median is zero"]}
+]},
+
+{"id":"m23-20","week":10,"title":"Probability: Meaning and Sample Space","icon":"Zap",
+"summary":"What probability measures, the probability scale from 0 to 1, how to find the probability of an event, and how to list the sample space for coins, dice and cards.",
+"keyWords":["Probability","Sample space","Outcome","Event","Experimental probability"],
+"sections":[
+{"h":"What is probability?","p":["Probability is a number that tells us how likely an event is. It is always between 0 (impossible) and 1 (certain). It can be written as a fraction, a decimal or a percentage."],"img":{"src":"mth3-prob-scale.png","alt":"A line from 0 to 1 showing impossible, unlikely, even chance, likely and certain with examples","cap":"The probability scale."}},
+{"h":"The formula","p":["For outcomes that are equally likely: P(E) = number of favourable outcomes ÷ total number of possible outcomes = n(E) ÷ n(S). Here S is the sample space (the set of all possible outcomes) and E is the event.","Facts: 0 ≤ P(E) ≤ 1. P(certain event) = 1. P(impossible event) = 0. The probabilities of all the outcomes add up to 1. P(not E) = 1 − P(E)."]},
+{"h":"Sample spaces","p":["A coin: S = {H, T}. A die: S = {1, 2, 3, 4, 5, 6}. Two coins: S = {HH, HT, TH, TT}. Three coins have 8 outcomes (2 × 2 × 2).","Two dice: there are 6 × 6 = 36 outcomes. The grid below shows the sum of the scores."],"img":{"src":"mth3-two-dice.png","alt":"A 6 by 6 grid showing the sum of two dice for each of the 36 outcomes with the six cells that give a sum of 7 highlighted","cap":"The 36 outcomes for two dice."}},
+{"h":"Example 1: a bag of balls","p":["A bag has 5 red, 3 blue and 2 green balls (10 in all). P(red) = 5/10 = 1/2. P(blue) = 3/10. P(not green) = 1 − 2/10 = 8/10 = 4/5."]},
+{"h":"Example 2: a die","p":["P(even) = 3/6 = 1/2. P(greater than 4) = P(5 or 6) = 2/6 = 1/3. P(7) = 0 (impossible). P(a number less than 7) = 6/6 = 1 (certain)."]},
+{"h":"Example 3: two coins and two dice","p":["Two coins: P(two heads) = 1/4. P(at least one head) = 3/4 (HH, HT, TH). Two dice: P(sum is 7) = 6/36 = 1/6. P(sum greater than 9) = P(10, 11 or 12) = (3 + 2 + 1)/36 = 6/36 = 1/6. P(both dice the same) = 6/36 = 1/6."]},
+{"h":"Experimental probability","p":["Experimental probability = the number of times the event happened ÷ the number of trials. If you toss a coin 20 times and get 12 heads, the experimental probability of a head is 12/20 = 0.6. The theoretical probability is 0.5. With more trials, the experimental value gets closer to the theoretical value."]}
+],
+"activity":"A bag has 4 red, 5 blue and 6 green marbles. Find P(red) (4/15), P(not blue) (10/15 = 2/3) and P(red or green) (10/15 = 2/3).",
+"check":[
+{"q":"Probability always lies between","o":["0 and 1","−1 and 1","1 and 10","0 and 100 only"]},
+{"q":"P(rolling an even number on a die) is","o":["1/2","1/3","1/6","2/3"]},
+{"q":"The number of outcomes when two dice are rolled is","o":["36","12","6","24"]},
+{"q":"P(sum is 7) with two dice is","o":["1/6","1/12","7/36","1/7"]},
+{"q":"If P(rain) = 0.3, then P(no rain) is","o":["0.7","0.3","1.3","0.03"]}
+]},
+
+{"id":"m23-21","week":10,"title":"Types of Events and the Addition Rule","icon":"Layers",
+"summary":"Mutually exclusive and non-mutually exclusive events, complementary events, and the rules for finding the probability of 'A or B'.",
+"keyWords":["Mutually exclusive","Addition rule","Complementary events","Venn diagram"],
+"sections":[
+{"h":"Types of events","p":["A simple event has one outcome (rolling a 4). A compound event has more than one outcome (rolling an even number: 2, 4 or 6).","Mutually exclusive events cannot happen at the same time, for example rolling a 2 and rolling a 5 on one die.","Complementary events are opposites: A and 'not A'. P(A) + P(not A) = 1. For example rain or no rain."]},
+{"h":"The addition rule for mutually exclusive events","p":["P(A or B) = P(A) + P(B). Example: if P(A) = 0.3 and P(B) = 0.4 and A and B are mutually exclusive, P(A or B) = 0.7. Example: a die is rolled: P(2 or 5) = 1/6 + 1/6 = 1/3."]},
+{"h":"When events can happen together","p":["If A and B can both happen, we must not count the overlap twice: P(A or B) = P(A) + P(B) − P(A and B).","Example 1. A die is rolled. A = even number {2, 4, 6}, B = greater than 4 {5, 6}. 6 is in both. P(A or B) = 3/6 + 2/6 − 1/6 = 4/6 = 2/3. Check by listing: {2, 4, 5, 6} has 4 outcomes: 4/6 = 2/3.","Example 2. A card is drawn from 52. P(King or Heart) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13 (the King of Hearts is in both)."]},
+{"h":"A Venn diagram example","p":["In a class of 30 students, 18 study Mathematics, 15 study Physics and 10 study both. Start with the overlap: 10 study both. Then Maths only = 18 − 10 = 8 and Physics only = 15 − 10 = 5. Together 8 + 10 + 5 = 23 study at least one of the subjects, so 30 − 23 = 7 study neither."],"img":{"src":"mth3-venn.png","alt":"A Venn diagram with two overlapping circles for Mathematics and Physics showing 8 Maths only, 10 both, 5 Physics only and 7 neither in a class of 30","cap":"A Venn diagram of the class of 30 students."}},
+{"h":"Probabilities from the diagram","p":["P(Maths or Physics) = 23/30. P(neither) = 7/30. P(Maths only) = 8/30 = 4/15. P(both) = 10/30 = 1/3. By the rule: P(M or P) = 18/30 + 15/30 − 10/30 = 23/30. Correct."]},
+{"h":"A spinner","p":["A spinner has 8 equal sectors numbered 1 to 8. If P(even) = 0.5, the number of even sectors is 0.5 × 8 = 4."]}
+],
+"activity":"A card is drawn from a pack of 52. Find P(Ace or Club). (4/52 + 13/52 − 1/52 = 16/52 = 4/13.)",
+"check":[
+{"q":"P(A or B) for mutually exclusive events is","o":["P(A) + P(B)","P(A) × P(B)","P(A) − P(B)","P(A) ÷ P(B)"]},
+{"q":"For a die, P(even or greater than 4) is","o":["2/3","1/2","5/6","1/3"]},
+{"q":"P(King or Heart) from a pack of 52 is","o":["4/13","17/52","1/52","2/13"]},
+{"q":"In the class of 30, the number studying neither Maths nor Physics is","o":["7","23","5","8"]},
+{"q":"P(A) + P(not A) is","o":["1","0","0.5","2"]}
+]},
+
+{"id":"m23-22","week":10,"title":"The Multiplication Rule: With and Without Replacement","icon":"Target",
+"summary":"Independent and dependent events, and how to find the probability that two or more things happen, including draws without replacement.",
+"keyWords":["Independent events","Dependent events","Replacement","Multiplication rule","At least one"],
+"sections":[
+{"h":"Independent events","p":["Two events are independent if one does not change the probability of the other. Tossing a coin twice is an example. For independent events: P(A and B) = P(A) × P(B).","Example 1. P(head then tail) = 1/2 × 1/2 = 1/4.","Example 2. Three tosses: P(exactly two heads) = 3/8, because the outcomes HHT, HTH and THH are 3 of the 8 equally likely outcomes.","Example 3. Two dice: P(the second die shows the same as the first) = 1/6, so P(both dice the same) = 6/36 = 1/6."]},
+{"h":"Dependent events: drawing without replacement","p":["If an item is taken out and not put back, the second draw depends on the first, because the numbers have changed. Then P(A and B) = P(A) × P(B after A).","Example 4. A bag has 6 red and 4 blue marbles. Two are drawn one after the other without replacement.","Both red: 6/10 × 5/9 = 30/90 = 1/3. Both blue: 4/10 × 3/9 = 12/90 = 2/15. One of each colour: red then blue + blue then red = 6/10 × 4/9 + 4/10 × 6/9 = 24/90 + 24/90 = 48/90 = 8/15.","Check: 1/3 + 2/15 + 8/15 = 5/15 + 2/15 + 8/15 = 1. All possibilities add up to 1."]},
+{"h":"With replacement","p":["If the first marble is put back, the draws are independent. Both red = 6/10 × 6/10 = 36/100 = 0.36."]},
+{"h":"At least one","p":["It is often easier to use the complement: P(at least one) = 1 − P(none). Example: P(at least one head in three tosses) = 1 − P(three tails) = 1 − 1/8 = 7/8."]},
+{"h":"Cards","p":["Two cards are drawn from a pack without replacement. P(two aces) = 4/52 × 3/51 = 12/2 652 = 1/221."]}
+],
+"activity":"A bag has 3 white and 5 black balls. Two are drawn without replacement. Find P(both black) (5/8 × 4/7 = 20/56 = 5/14) and P(one of each) (3/8 × 5/7 + 5/8 × 3/7 = 30/56 = 15/28).",
+"check":[
+{"q":"For independent events P(A and B) =","o":["P(A) × P(B)","P(A) + P(B)","P(A) − P(B)","P(A) ÷ P(B)"]},
+{"q":"P(head then tail) with a fair coin is","o":["1/4","1/2","1/3","3/4"]},
+{"q":"6 red and 4 blue marbles, two drawn without replacement. P(both red) =","o":["1/3","3/5","9/25","2/5"]},
+{"q":"P(at least one head in three tosses) is","o":["7/8","3/8","1/8","1/2"]},
+{"q":"Drawing without replacement makes the events","o":["dependent","independent","impossible","complementary"]}
+]},
+
+{"id":"m23-23","week":11,"title":"Third Term Revision","icon":"BookOpen",
+"summary":"A summary of the key ideas and formulas of Third Term with mixed worked questions for examination preparation.",
+"keyWords":["Revision","Linear programming","Bearings","Ogive","Mean","Probability"],
+"sections":[
+{"h":"Key facts","p":["Say each fact to yourself before reading the answer."],"tbl":{"head":["Topic","Key facts"],"rows":[["Linear programming","Define x and y; write the objective function and constraints; graph; find corner points; test each corner; choose the best"],["Inequalities","Draw the line (solid for ≤ and ≥, dashed for < and >); test (0, 0); shade the correct side"],["Bearings","Clockwise from North, three figures; back bearing: ± 180°"],["Elevation and depression","Measured from the horizontal; the two angles are equal alternate angles"],["Grouped data","Midpoint = (lower + upper) ÷ 2; width = upper boundary − lower boundary"],["Ogive","Plot at upper boundaries; start at (lower boundary, 0); smooth curve; median at n/2"],["Mean, median, mode","Mean = Σfx ÷ Σf; Median = L + ((n/2 − CF)/f) × c; Mode = L + (f₁ − f₀)/((f₁ − f₀) + (f₁ − f₂)) × c"],["Probability","P(E) = n(E)/n(S); P(A or B) = P(A) + P(B) − P(A and B); P(A and B) = P(A) × P(B) for independent events"]]}},
+{"h":"Mixed worked questions","p":["1. Maximise P = 3x + 4y subject to x + y ≤ 6, 2x + y ≤ 10, x, y ≥ 0. The corners are (0, 0), (0, 6), (4, 2), (5, 0). P = 0, 24, 20, 15. The maximum is 24 at (0, 6).","2. The bearing of B from A is 050°. The bearing of A from B is 230°.","3. From a point 40 m from a tower, the angle of elevation of its top is 35°. Height = 40 × tan 35° = 28.0 m.","4. A frequency table has Σfx = 1 095 and Σf = 30. Mean = 36.5.","5. A die is rolled twice. P(a six on both) = 1/6 × 1/6 = 1/36.","6. A bag has 5 red, 3 blue and 2 green balls. P(red or blue) = 8/10 = 4/5."]},
+{"h":"Advice for the examination","p":["Show all your working and check every intersection point in both equations. Draw graphs with a ruler and a sharp pencil, label the axes and choose a good scale. Draw a diagram for every bearing or height problem. In probability, write the fraction before simplifying. Revise the First and Second Term work too: examinations often use everything you have learned this year."]}
+],
+"activity":"Without notes, write the formulas for the mean, the median class formula and the addition rule of probability. Check them against the table.",
+"check":[
+{"q":"The maximum of P = 3x + 4y at the corners (0, 0), (0, 6), (4, 2), (5, 0) is","o":["24","20","15","12"]},
+{"q":"The back bearing of 050° is","o":["230°","130°","310°","050°"]},
+{"q":"A tower seen at 35° from 40 m has a height of about","o":["28 m","33 m","23 m","57 m"]},
+{"q":"P(six on both of two dice) is","o":["1/36","1/6","1/12","1/3"]},
+{"q":"5 red, 3 blue and 2 green balls: P(red or blue) is","o":["4/5","1/2","3/10","1/5"]}
+]}
+]

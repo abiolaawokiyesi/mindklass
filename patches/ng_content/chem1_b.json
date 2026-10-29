@@ -1,0 +1,220 @@
+[
+{"id":"ch1-10","week":6,"title":"The Atom: Models and Subatomic Particles","icon":"Target","summary":"What an atom is, how ideas about the atom changed from Dalton to the modern model, and the proton, neutron and electron.",
+"keyWords":["Atom","Nucleus","Proton","Neutron","Electron"],
+"sections":[
+{"h":"What is an atom?","p":["An atom is the smallest particle of an element that can take part in a chemical reaction and still keep the chemical properties of that element. Atoms are very small; the radius of an atom is about 10⁻¹⁰ metres, and about ten million atoms would fit in a line across one millimetre."]},
+{"h":"How the idea of the atom developed","p":["1. Dalton (1803): atoms are tiny, solid, indivisible spheres. All atoms of one element are alike, and atoms of different elements differ. Atoms join in simple ratios to form compounds. Limitation: he did not know of subatomic particles or isotopes.","2. Thomson (1897): discovered the electron. His 'plum pudding' model pictured the atom as a ball of positive charge with electrons embedded in it like raisins. Limitation: it could not explain how the positive and negative charges were arranged.","3. Rutherford (1911): fired particles at thin gold foil. Most went straight through, so the atom is mostly empty space; a few bounced back, so the positive charge is concentrated in a tiny dense centre, the nucleus. Electrons move around it. Limitation: it could not explain why electrons do not spiral into the nucleus.","4. Bohr (1913): electrons move in fixed circular paths called energy levels or shells (K, L, M, N). An electron gains or loses energy only when it jumps between shells. Limitation: it works well for hydrogen but not for bigger atoms.","5. Modern (quantum mechanical) model: Schrödinger, Heisenberg and others showed that electrons are found in regions called orbitals, where they are most likely to be, rather than in fixed paths. The atom has a dense nucleus of protons and neutrons with electrons in shells and subshells around it."],
+"img":{"src":"chem-atom-model.jpg","alt":"A diagram of an atom with a nucleus of red protons and green neutrons, electrons shown as blue balls on orbits, and a key","cap":"A model of the atom: protons and neutrons in the nucleus, electrons around it."}},
+{"h":"Bohr's model","p":["Look at the picture. The nucleus is at the centre and the electron shells K, L, M and N are drawn around it. The shell closest to the nucleus has the lowest energy."],
+"img":{"src":"chem-bohr.jpg","alt":"Bohr's model of an atom with a positively charged nucleus and four circular shells labelled K, L, M and N","cap":"Bohr's model: electrons move in shells K, L, M and N."}},
+{"h":"Subatomic particles","p":["The atom is made of three main particles. Atomic mass unit (a.m.u.) is a very small unit of mass; the proton and neutron each have a mass of about 1 a.m.u. (1.67 × 10⁻²⁷ kg)."],
+"tbl":{"head":["Particle","Symbol","Charge","Relative mass","Where it is"],"rows":[
+["Proton","p⁺","+1","1","In the nucleus"],
+["Neutron","n⁰","0","1","In the nucleus"],
+["Electron","e⁻","-1","1/1836 (about 0.0005)","In shells around the nucleus"]]}},
+{"h":"What each particle does","p":["The number of protons decides which element an atom is. Neutrons add mass and help to keep the nucleus stable. Electrons are involved in chemical bonding and reactions. In a neutral atom, the number of protons equals the number of electrons, so the charges cancel."]}
+],
+"activity":"Draw a simple atom with a nucleus and two shells. Label the nucleus, protons, neutrons, electrons and shells. Say which particle is the lightest.",
+"check":[
+{"q":"Who discovered the electron?","o":["J. J. Thomson","Rutherford","Dalton","Bohr"]},
+{"q":"The nucleus contains","o":["Protons and neutrons","Protons and electrons","Neutrons and electrons","Only electrons"]},
+{"q":"Rutherford's gold foil experiment showed that the atom","o":["Is mostly empty space with a small dense nucleus","Is a solid sphere","Has no charge","Has no electrons"]},
+{"q":"Which particle has a negative charge?","o":["Electron","Proton","Neutron","Nucleus"]},
+{"q":"In Bohr's model, electrons are found in","o":["Shells (energy levels)","The nucleus","Orbitals as clouds only","Empty space only"]}]},
+
+{"id":"ch1-11","week":6,"title":"Atomic Number, Mass Number, Isotopes and Electron Arrangement","icon":"Layers","summary":"How to find protons, neutrons and electrons, what isotopes are, and how to write the electron arrangement of the first 20 elements.",
+"keyWords":["Atomic number","Mass number","Isotope","Shell","Electron configuration"]
+,"sections":[
+{"h":"Atomic number and mass number","p":["Atomic number (Z) is the number of protons in the nucleus. It identifies the element. Mass number (A) is the number of protons plus neutrons. The number of neutrons is N = A − Z. In a neutral atom, the number of electrons equals the number of protons.","Example: carbon-12 has Z = 6 and A = 12. So protons = 6, neutrons = 12 − 6 = 6 and electrons = 6."],
+"tbl":{"head":["Element","Atomic number","Mass number","Protons","Neutrons","Electrons"],"rows":[
+["Sodium","11","23","11","12","11"],
+["Oxygen","8","16","8","8","8"],
+["Neon","10","20","10","10","10"],
+["Chlorine-35","17","35","17","18","17"]]}},
+{"h":"Isotopes","p":["Isotopes are atoms of the same element (same atomic number) with different mass numbers because they have different numbers of neutrons. Carbon-12, carbon-13 and carbon-14 are isotopes of carbon. They have the same chemical properties (same electrons) but slightly different physical properties (such as mass and density).","Uses of isotopes: in medicine (radioactive iodine for the thyroid, cobalt-60 in cancer treatment), in agriculture (tracing how plants take up fertiliser), and in industry (finding leaks in pipes, thickness gauges) and carbon-14 dating of old objects."]},
+{"h":"Electron arrangement (configuration)","p":["Electrons are placed in shells around the nucleus. Each shell can hold at most 2n² electrons, where n is the number of the shell: K shell (n = 1) holds 2, L shell (n = 2) holds 8, M shell (n = 3) holds 18 and N shell (n = 4) holds 32.","For the first 20 elements, the electrons fill the shells in order and there is a special rule: the third shell is treated as full when it has 8 electrons, and then the next electrons go into the fourth shell. That is why potassium is 2, 8, 8, 1 and not 2, 8, 9.","Writing the arrangement: sodium (Z = 11) is 2, 8, 1. Oxygen (Z = 8) is 2, 6. Magnesium (Z = 12) is 2, 8, 2. Chlorine (Z = 17) is 2, 8, 7. Nitrogen (Z = 7) is 2, 5. Sulphur (Z = 16) is 2, 8, 6. Potassium (Z = 19) is 2, 8, 8, 1."]},
+{"h":"First 20 elements","p":["Learn this table. The last number is the number of outer (valence) electrons, which decides the group of the element."],
+"tbl":{"head":["Z","Element","Symbol","Arrangement","Z","Element","Symbol","Arrangement"],"rows":[
+["1","Hydrogen","H","1","11","Sodium","Na","2, 8, 1"],
+["2","Helium","He","2","12","Magnesium","Mg","2, 8, 2"],
+["3","Lithium","Li","2, 1","13","Aluminium","Al","2, 8, 3"],
+["4","Beryllium","Be","2, 2","14","Silicon","Si","2, 8, 4"],
+["5","Boron","B","2, 3","15","Phosphorus","P","2, 8, 5"],
+["6","Carbon","C","2, 4","16","Sulphur","S","2, 8, 6"],
+["7","Nitrogen","N","2, 5","17","Chlorine","Cl","2, 8, 7"],
+["8","Oxygen","O","2, 6","18","Argon","Ar","2, 8, 8"],
+["9","Fluorine","F","2, 7","19","Potassium","K","2, 8, 8, 1"],
+["10","Neon","Ne","2, 8","20","Calcium","Ca","2, 8, 8, 2"]]}}
+],
+"activity":"Write the number of protons, neutrons and electrons in each: potassium-39 (Z = 19), sulphur-32 (Z = 16), calcium-40 (Z = 20). (Answers: 19, 20, 19; 16, 16, 16; 20, 20, 20.)",
+"check":[
+{"q":"Atomic number is the number of","o":["Protons","Neutrons","Protons and neutrons","Shells"]},
+{"q":"An atom has Z = 11 and A = 23. How many neutrons does it have?","o":["12","11","23","34"]},
+{"q":"The electron arrangement of chlorine (Z = 17) is","o":["2, 8, 7","2, 8, 8, 1","2, 7","2, 8, 6"]},
+{"q":"Isotopes of an element have the same","o":["Number of protons","Mass number","Number of neutrons","Density"]},
+{"q":"The electron arrangement of potassium (Z = 19) is","o":["2, 8, 8, 1","2, 8, 9","2, 8, 1","2, 9, 8"]}]},
+
+{"id":"ch1-12","week":8,"title":"The Periodic Table: History and Structure","icon":"BarChart2","summary":"How the periodic table was developed by Döbereiner, Newlands, Mendeleev and Moseley, and how the modern table is arranged in periods, groups and blocks.",
+"keyWords":["Periodic table","Law of triads","Law of octaves","Mendeleev","Moseley"]
+,"sections":[
+{"h":"What is the periodic table?","p":["The periodic table arranges all the known elements in rows and columns in order of increasing atomic number, so that elements with similar properties are placed in the same vertical column. It helps chemists to classify the elements and to predict the properties of an element and its compounds."]},
+{"h":"History","p":["Döbereiner (1829): the law of triads. Elements with similar properties come in threes (triads), and the atomic mass of the middle one is about the average of the other two. Example: lithium, sodium, potassium.","Newlands (1864): the law of octaves. When elements are placed in order of atomic mass, every eighth element resembles the first, like the notes in music. It failed for the heavier elements.","Mendeleev (1869): he arranged the elements in order of atomic mass but put those with similar properties in the same group. He left gaps for undiscovered elements and correctly predicted their properties. For example, he predicted germanium before it was found. His table had some defects: a few elements had to be placed out of order of mass (for example, tellurium and iodine).","Moseley (1913): using X-rays, he showed that atomic number, not atomic mass, is the right basis for the order. This solved the problems in Mendeleev's table and gave the modern periodic table."]},
+{"h":"Structure of the modern table","p":["The modern table has 7 horizontal rows called periods and 18 vertical columns called groups, with the elements in order of atomic number. It is divided into blocks according to the electron arrangement: the s-block (Groups 1 and 2), the p-block (Groups 13 to 18), the d-block (transition metals, Groups 3 to 12) and the f-block (lanthanides and actinides, usually shown separately at the bottom). A staircase line separates metals (to the left) from non-metals (to the right); elements along the line are called metalloids, such as silicon."],
+"img":{"src":"chem-periodic-table.jpg","alt":"The periodic table of elements with groups 1 to 18, periods 1 to 7, colour blocks for s, p, d and f and the lanthanides and actinides below","cap":"The modern periodic table."}}
+],
+"activity":"Copy the first 20 elements of the periodic table into your notebook. Mark the groups (columns) and periods (rows). Colour the metals and non-metals differently.",
+"check":[
+{"q":"The modern periodic table is arranged in order of","o":["Atomic number","Atomic mass","Density","Colour"]},
+{"q":"Who showed that atomic number is the correct basis for the arrangement?","o":["Moseley","Newlands","Döbereiner","Dalton"]},
+{"q":"The periodic table has","o":["7 periods and 18 groups","18 periods and 7 groups","7 periods and 8 groups","10 periods and 10 groups"]},
+{"q":"Mendeleev left gaps in his table for","o":["Undiscovered elements","Gases only","Metals only","Compounds"]},
+{"q":"Lithium, sodium and potassium form a","o":["Döbereiner triad","Newlands octave","Noble gas group","Period"]}]},
+
+{"id":"ch1-13","week":8,"title":"Groups, Periods and Periodic Trends","icon":"Zap","summary":"The main groups and what they have in common, what changes across a period and down a group, and the trends in atomic radius, ionisation energy, electronegativity and metallic character.",
+"keyWords":["Group","Period","Atomic radius","Ionisation energy","Electronegativity"]
+,"sections":[
+{"h":"Groups","p":["A group is a vertical column. Elements in the same group have the same number of outer (valence) electrons, so they have similar chemical properties.","Group 1: alkali metals (Li, Na, K, Rb, Cs, Fr). Very reactive soft metals; they form +1 ions and react violently with water to give hydrogen and an alkaline hydroxide. They are stored under oil.","Group 2: alkaline earth metals (Be, Mg, Ca, Sr, Ba, Ra). Reactive but less than Group 1; they form +2 ions and react with acids to give hydrogen.","Groups 3 to 12: transition metals. They have several oxidation states, form coloured compounds and are often used as catalysts (iron, nickel, platinum).","Group 17: halogens (F, Cl, Br, I, At). Very reactive non-metals; they exist as two-atom molecules (F₂, Cl₂), form -1 ions and are strong oxidising agents.","Group 18: noble gases (He, Ne, Ar, Kr, Xe, Rn). Almost unreactive because their outer shells are full. Used in lighting (neon signs) and welding (argon)."]},
+{"h":"Periods","p":["A period is a horizontal row. There are 7 periods. The atomic number increases from left to right. All elements in one period have the same number of electron shells but a different number of outer electrons. For example, the elements from sodium to argon (Period 3) all have three shells."]},
+{"h":"Periodic trends","p":["Periodicity means the repeating pattern of properties across the periods. The trends come from changes in the nuclear charge and the electron arrangement."],
+"tbl":{"head":["Property","Across a period (left to right)","Down a group"],"rows":[
+["Atomic radius (size)","Decreases (more protons pull the shells in)","Increases (more shells)"],
+["Ionisation energy (energy to remove an outer electron)","Increases","Decreases"],
+["Electronegativity (ability to attract shared electrons)","Increases","Decreases"],
+["Electron affinity (energy change when an electron is gained)","Generally increases","Generally decreases"],
+["Metallic character (tendency to lose electrons)","Decreases","Increases"]]}},
+{"h":"Worked reasoning","p":["Why is fluorine more electronegative than chlorine? Both are in Group 17. Fluorine has only two shells, so its outer electrons are very close to the nucleus, and it attracts shared electrons strongly. Chlorine has three shells, so its attraction is weaker.","Why does Group 1 get more reactive down the group? The outer electron is farther from the nucleus and is held less strongly, so it is lost more easily. That is why potassium is more reactive than sodium.","One exception: chlorine actually has a slightly higher electron affinity than fluorine, because fluorine's small size makes electrons crowd together. The general trend is still that electron affinity decreases down the group."]}
+],
+"activity":"Put these in order of increasing atomic radius: Na, Cl, Mg, Al, Si. Explain your order. (Answer: Cl, Si, Al, Mg, Na.)",
+"check":[
+{"q":"Elements in the same group have the same number of","o":["Outer electrons","Shells","Protons","Neutrons"]},
+{"q":"Across a period the atomic radius","o":["Decreases","Increases","Stays the same","Doubles"]},
+{"q":"Which group contains the noble gases?","o":["Group 18","Group 1","Group 2","Group 17"]},
+{"q":"Down Group 1, reactivity","o":["Increases","Decreases","Stays the same","Is zero"]},
+{"q":"Fluorine is more electronegative than chlorine because","o":["Its outer electrons are closer to the nucleus","It has more shells","It is a metal","It has more neutrons"]}]},
+
+{"id":"ch1-14","week":9,"title":"Chemical Combination and the Laws of Chemical Combination","icon":"Target","summary":"The difference between a mixture and a compound, and the laws of conservation of mass, definite proportions, multiple proportions, reciprocal proportions and combining volumes.",
+"keyWords":["Chemical combination","Conservation of mass","Definite proportions","Multiple proportions","Combining volumes"]
+,"sections":[
+{"h":"Chemical combination","p":["In chemical combination, two or more substances (elements or compounds) join to form a new substance with new properties. The substances that react are the reactants; the new substances formed are the products. In a physical combination (a mixture, such as sand and salt), the parts keep their own properties and can be separated by physical methods.","Example: a mixture of iron filings and sulphur can be separated with a magnet (physical). If it is heated, iron(II) sulphide (FeS) forms, which is not magnetic and has new properties (chemical). The laws below were discovered by experiment and are the foundation of modern chemistry."]},
+{"h":"Law of conservation of mass (Lavoisier, 1789)","p":["Matter is neither created nor destroyed in a chemical reaction. The total mass of the reactants equals the total mass of the products. The atoms are only rearranged.","Example: 2H₂ + O₂ → 2H₂O. 4 g of hydrogen and 32 g of oxygen make 36 g of water. When mercury(II) oxide is heated in a closed vessel to give mercury and oxygen, the total mass before and after is the same. This law is the basis for balancing equations and calculations."]},
+{"h":"Law of definite proportions (Proust, 1799)","p":["A compound always contains the same elements in the same fixed proportion by mass, no matter how it was made or where it came from.","Example: water from a river, from rain or made in a laboratory always has hydrogen and oxygen in the ratio 1 : 8 by mass (2 × 1 = 2 for H, 16 for O, so 2 : 16 = 1 : 8)."]},
+{"h":"Law of multiple proportions (Dalton, 1803)","p":["When two elements form more than one compound, the masses of one element that combine with a fixed mass of the other are in a simple whole-number ratio.","Example: carbon monoxide CO has 12 g of C to 16 g of O. Carbon dioxide CO₂ has 12 g of C to 32 g of O. The masses of oxygen that combine with 12 g of carbon are in the ratio 16 : 32 = 1 : 2."]},
+{"h":"Law of reciprocal proportions (Richter, 1792)","p":["If two elements each combine with a fixed mass of a third element, then when they combine with each other, they do so in the same ratio or in a simple multiple of it.","Example: 1 g of hydrogen combines with 8 g of oxygen (water) and with 35.5 g of chlorine (hydrogen chloride). So oxygen and chlorine should combine in the ratio 8 : 35.5, or 16 : 71. In dichlorine oxide, Cl₂O, 71 g of chlorine combine with 16 g of oxygen, which agrees."]},
+{"h":"Law of combining volumes (Gay-Lussac, 1808)","p":["When gases react, the volumes of the gases that react and of the gaseous products are in simple whole-number ratios, if all are measured at the same temperature and pressure.","Example: 2H₂(g) + O₂(g) → 2H₂O(g). Volumes are in the ratio 2 : 1 : 2. This led to Avogadro's idea that equal volumes of gases at the same temperature and pressure contain the same number of molecules, and to the molar volume of a gas, 22.4 dm³ at standard temperature and pressure (STP)."],
+"img":{"src":"chem-gay-lussac.png","alt":"Blocks showing 2 volumes of hydrogen plus 1 volume of oxygen making 2 volumes of steam, and 1 volume of hydrogen plus 1 volume of chlorine making 2 volumes of hydrogen chloride","cap":"Combining volumes of gases are in simple whole-number ratios."}},
+{"h":"Why the laws matter","p":["They gave strong evidence for Dalton's atomic theory. They led to the mole concept and to calculations of masses and volumes. They allow chemists to find the formulae of compounds. They are still used in industry where reactions need exact proportions, as in making fertilisers, drugs and metals."]}
+],
+"activity":"2 dm³ of hydrogen reacts with 2 dm³ of chlorine to give 4 dm³ of hydrogen chloride gas. Write the equation and show the volume ratio. (H₂ + Cl₂ → 2HCl; ratio 1 : 1 : 2, the same as 2 : 2 : 4.)",
+"check":[
+{"q":"In a chemical reaction the total mass of reactants equals the total mass of products. This is the law of","o":["Conservation of mass","Definite proportions","Multiple proportions","Combining volumes"]},
+{"q":"Water always contains hydrogen and oxygen in the mass ratio","o":["1 : 8","8 : 1","2 : 1","1 : 1"]},
+{"q":"CO and CO₂ illustrate the law of","o":["Multiple proportions","Conservation of mass","Definite proportions","Reciprocal proportions"]},
+{"q":"Gay-Lussac's law deals with","o":["Volumes of reacting gases","Masses of solids","Colours of compounds","Boiling points"]},
+{"q":"A mixture differs from a compound because in a mixture","o":["The parts keep their own properties","A new substance forms","The parts cannot be separated","Energy is always given out"]}]},
+
+{"id":"ch1-15","week":10,"title":"Acids, Bases and Salts","icon":"Zap","summary":"Definitions of acids, bases, alkalis and salts, everyday examples, and the properties of each.",
+"keyWords":["Acid","Base","Alkali","Salt","Litmus"]
+,"sections":[
+{"h":"Acids","p":["An acid is a substance that produces hydrogen ions (H⁺) as the only positive ions when dissolved in water. (Brønsted and Lowry: an acid is a proton donor. Lewis: an acid is an electron-pair acceptor.) Examples: hydrochloric acid HCl, sulphuric acid H₂SO₄, nitric acid HNO₃ and ethanoic (acetic) acid CH₃COOH."]},
+{"h":"Bases and alkalis","p":["A base is a substance that reacts with an acid to form a salt and water only. (Arrhenius: a base gives hydroxide ions OH⁻ in water. Brønsted and Lowry: a base is a proton acceptor. Lewis: an electron-pair donor.) Examples: NaOH, KOH, Ca(OH)₂, CuO and ammonia NH₃.","An alkali is a base that dissolves in water to give OH⁻ ions. All alkalis are bases but not all bases are alkalis. NaOH, KOH and ammonia solution are alkalis; copper(II) oxide and iron(III) hydroxide are bases that do not dissolve."]},
+{"h":"Salts","p":["A salt is a compound formed when the hydrogen of an acid is wholly or partly replaced by a metal ion or the ammonium ion. If all the hydrogen is replaced we get a normal salt (NaCl, K₂SO₄, NH₄NO₃). If only part is replaced, we get an acid salt (NaHSO₄). Basic salts contain some OH⁻, for example Pb(OH)Cl."]},
+{"h":"Everyday examples","p":["Acids: vinegar (ethanoic acid), lemon and orange juice (citric acid), fizzy drinks (carbonic acid), car battery liquid (sulphuric acid). Bases: soap and detergent (alkaline), toothpaste (mildly alkaline), limewater Ca(OH)₂, baking soda NaHCO₃, milk of magnesia. Salts: table salt NaCl, fertilisers such as ammonium nitrate and potassium chloride, washing soda Na₂CO₃·10H₂O and Epsom salt MgSO₄·7H₂O."]},
+{"h":"Properties of acids","p":["They taste sour. They turn blue litmus red. They have pH less than 7. Strong acids are corrosive. They react with metals to give hydrogen: Zn + 2HCl → ZnCl₂ + H₂. They react with bases to give a salt and water (neutralisation). They react with carbonates and hydrogen carbonates to give carbon dioxide: 2HCl + Na₂CO₃ → 2NaCl + H₂O + CO₂."]},
+{"h":"Properties of bases","p":["They taste bitter and feel soapy. They turn red litmus blue. They have pH greater than 7. Strong alkalis such as NaOH and KOH burn the skin. They react with acids to form salt and water. They give off ammonia when heated with ammonium salts: NaOH + NH₄Cl → NaCl + H₂O + NH₃. Some bases do not dissolve in water. (Never taste chemicals in the laboratory; the 'taste' properties are only for common foods and household items.)"]},
+{"h":"Properties of salts","p":["Many are crystalline solids. Some dissolve (NaCl, KNO₃) and some do not (BaSO₄, PbSO₄). Neutral salts (NaCl) do not change litmus. Acid salts (NaHSO₄) turn blue litmus red. Basic salts turn red litmus blue. They conduct electricity when molten or in solution because they contain ions."],
+"tbl":{"head":["","Acids","Bases (alkalis)","Salts"],"rows":[
+["Taste (household items only)","Sour","Bitter, soapy","Salty or varied"],
+["Litmus","Blue to red","Red to blue","Usually no change"],
+["pH","Below 7","Above 7","Often about 7"],
+["Examples","HCl, H₂SO₄","NaOH, KOH","NaCl, KNO₃"]]}}
+],
+"activity":"List five acids, five bases and five salts you can find at home, in a shop or in a market. Say which is a strong and which is a weak acid.",
+"check":[
+{"q":"An acid produces which ion in water?","o":["H⁺","OH⁻","Na⁺","Cl⁻"]},
+{"q":"A soluble base is called an","o":["Alkali","Acid","Salt","Indicator"]},
+{"q":"Acids turn blue litmus","o":["Red","Blue","Green","Yellow"]},
+{"q":"Which is a salt?","o":["NaCl","HCl","NaOH","H₂SO₄"]},
+{"q":"Zinc reacts with hydrochloric acid to give zinc chloride and","o":["Hydrogen","Oxygen","Carbon dioxide","Chlorine"]}]},
+
+{"id":"ch1-16","week":10,"title":"The pH Scale, Indicators and Neutralisation","icon":"Target","summary":"How the pH scale measures acidity, the colours of common indicators, how neutralisation works and how it is used.",
+"keyWords":["pH scale","Indicator","Neutral","Neutralisation","Antacid"]
+,"sections":[
+{"h":"The pH scale","p":["The pH scale tells how acidic or alkaline a solution is. It is a logarithmic scale that runs from 0 to 14 for most solutions. A pH below 7 is acidic, a pH of exactly 7 is neutral (pure water) and a pH above 7 is alkaline. Each step on the scale is a ten-fold change in the hydrogen ion concentration, so a solution of pH 3 is ten times as acidic as pH 4.","A solution with pH 4.5 is acidic because it is less than 7."],
+"img":{"src":"chem-ph-scale.png","alt":"A coloured bar from pH 0 (red) to pH 14 (purple) with examples such as battery acid, lemon juice, vinegar, pure water, blood, baking soda, soap and bleach marked at their pH values","cap":"The pH scale with common examples."}},
+{"h":"Indicators","p":["An indicator is a substance that shows by its colour whether a solution is acidic or alkaline."],
+"tbl":{"head":["Indicator","In acid","In alkali"],"rows":[
+["Litmus","Red","Blue"],
+["Methyl orange","Red","Yellow"],
+["Phenolphthalein","Colourless","Pink"],
+["Universal indicator","Red, orange, yellow (pH 1 to 6)","Blue, violet (pH 8 to 14); green at pH 7"]]}},
+{"h":"Why pH matters","p":["Agriculture: soil pH decides how well crops grow. Acid soil is treated with lime (calcium oxide or calcium hydroxide). Medicine and the body: stomach acid has pH 1.5 to 2.5, and too much of it is relieved with an antacid. Blood has a pH of about 7.35 to 7.45, and even a small change is dangerous. Environment: acid rain and polluted rivers can be tested and treated by checking their pH."]},
+{"h":"Neutralisation","p":["Neutralisation is the reaction of an acid with a base (or alkali) to form a salt and water.","Acid + base → salt + water.","Examples: HCl + NaOH → NaCl + H₂O. H₂SO₄ + 2KOH → K₂SO₄ + 2H₂O. HNO₃ + NH₄OH → NH₄NO₃ + H₂O.","Neutralisation gives out heat (it is exothermic) and the pH of the mixture moves towards 7. It is the reaction used in a titration to find the concentration of a solution."]},
+{"h":"Uses of neutralisation","p":["Medicine: antacids (such as milk of magnesia) neutralise too much stomach acid. Agriculture: lime reduces soil acidity. Industry and environment: acidic waste from factories is neutralised before it is released into rivers. Daily life: toothpaste neutralises acids in the mouth that attack teeth. For insect stings, traditional advice is to use baking soda for bee stings and vinegar for wasp stings, but the venoms are mixtures of proteins, so it is best to wash the area, remove any sting and apply a cold pack, and seek medical help if the person feels unwell."]}
+],
+"activity":"Use red cabbage juice or hibiscus (zobo) as a home indicator. Add lemon juice to one cup and a little baking soda solution to another. Write the colours you see.",
+"check":[
+{"q":"A solution with pH 7 is","o":["Neutral","Acidic","Alkaline","Strongly acidic"]},
+{"q":"Phenolphthalein is pink in","o":["Alkali","Acid","Water only","Neutral solution only"]},
+{"q":"Acid + base gives","o":["Salt and water","Salt and hydrogen","Oxygen and water","Metal and gas"]},
+{"q":"Lime is added to acid soil to","o":["Neutralise the acid","Make it more acidic","Reduce nutrients","Kill all plants"]},
+{"q":"Which has the lowest pH?","o":["Battery acid","Pure water","Soap solution","Baking soda solution"]}]},
+
+{"id":"ch1-17","week":11,"title":"Chemical Symbols and Formulae","icon":"Layers","summary":"How elements are represented by symbols, the types of formula, and how to write the formula of a compound using valency.",
+"keyWords":["Symbol","Formula","Valency","Empirical formula","Molecular formula"]
+,"sections":[
+{"h":"Chemical symbols","p":["A chemical symbol is a short, universal way to write an element, using one or two letters from the English or Latin name. Chemists in all countries use the same symbols, so we can communicate clearly and save space (write O instead of oxygen and Na instead of sodium).","Rules: the first letter is a capital and the second, if any, is small (Mg, Al, Cl). No two elements have the same symbol. Some symbols come from Latin names. Where several elements begin with the same letter, a second letter is added: C for carbon, Cl for chlorine, Ca for calcium."],
+"tbl":{"head":["Element","Symbol","Origin of the symbol"],"rows":[
+["Hydrogen","H","Hydrogen"],
+["Sodium","Na","Natrium (Latin)"],
+["Potassium","K","Kalium"],
+["Iron","Fe","Ferrum"],
+["Copper","Cu","Cuprum"],
+["Silver","Ag","Argentum"],
+["Gold","Au","Aurum"],
+["Lead","Pb","Plumbum"],
+["Tin","Sn","Stannum"],
+["Mercury","Hg","Hydrargyrum"],
+["Antimony","Sb","Stibium"]]}},
+{"h":"Chemical formulae","p":["A chemical formula shows the composition of a compound using symbols and numbers. The small number written below an element is a subscript and shows how many atoms of that element there are (omitted when it is 1). A formula tells the kinds of atoms, their ratio, and lets us calculate the molar mass and the amounts in a reaction.","Types: empirical formula (simplest whole-number ratio of atoms; CH₂O for glucose); molecular formula (actual number of atoms in a molecule; C₆H₁₂O₆ for glucose); structural formula (shows how the atoms are joined; H–O–H for water); condensed formula (CH₃CH₂OH for ethanol)."]},
+{"h":"Writing a formula using valency","p":["Valency is the combining power of an atom (the number of electrons it gains, loses or shares).","Steps: 1. Write the symbols. 2. Write their valencies. 3. Swap (cross over) the valencies so that each becomes the subscript of the other element. 4. Leave out subscripts of 1. 5. Simplify to the smallest whole numbers.","Examples: sodium chloride, Na (1) and Cl (1) give NaCl. Calcium chloride, Ca (2) and Cl (1) give CaCl₂. Aluminium oxide, Al (3) and O (2) give Al₂O₃. Magnesium oxide, Mg (2) and O (2) give Mg₂O₂, which simplifies to MgO."],
+"tbl":{"head":["Element or group","Symbol","Valency"],"rows":[
+["Hydrogen","H","1"],["Sodium","Na","1"],["Potassium","K","1"],["Chlorine","Cl","1"],
+["Calcium","Ca","2"],["Magnesium","Mg","2"],["Zinc","Zn","2"],["Oxygen","O","2"],["Sulphur","S","2"],
+["Aluminium","Al","3"],["Nitrogen (in ammonia)","N","3"],
+["Iron(II)","Fe²⁺","2"],["Iron(III)","Fe³⁺","3"],
+["Hydroxide","OH","1"],["Nitrate","NO₃","1"],["Sulphate","SO₄","2"],["Carbonate","CO₃","2"],["Ammonium","NH₄","1"]]}},
+{"h":"Worked examples with groups","p":["When a group of atoms (a radical) needs a subscript, put the group in brackets. Ammonium sulphate: NH₄ (1) and SO₄ (2) give (NH₄)₂SO₄. Aluminium hydroxide: Al (3) and OH (1) give Al(OH)₃. Calcium nitrate: Ca (2) and NO₃ (1) give Ca(NO₃)₂."]}
+],
+"activity":"Write the formulae of: potassium oxide, zinc chloride, magnesium hydroxide, sodium sulphate, aluminium sulphate. (Answers: K₂O, ZnCl₂, Mg(OH)₂, Na₂SO₄, Al₂(SO₄)₃.)",
+"check":[
+{"q":"The symbol for sodium is","o":["Na","So","S","N"]},
+{"q":"The symbol Pb stands for","o":["Lead","Potassium","Phosphorus","Platinum"]},
+{"q":"The formula of aluminium oxide is","o":["Al₂O₃","AlO","Al₃O₂","Al₂O"]},
+{"q":"The formula of calcium nitrate is","o":["Ca(NO₃)₂","CaNO₃","Ca₂NO₃","Ca(NO₂)₃"]},
+{"q":"The molecular formula of glucose is","o":["C₆H₁₂O₆","CH₂O","C₂H₅OH","C₆H₆"]}]},
+
+{"id":"ch1-18","week":11,"title":"Chemical Equations and Balancing","icon":"Target","summary":"Word, skeleton and balanced equations, the steps for balancing, worked examples, and the five main types of reaction.",
+"keyWords":["Equation","Reactants","Products","Balancing","Coefficient"]
+,"sections":[
+{"h":"What is a chemical equation?","p":["A chemical equation is a short way of showing a chemical reaction using symbols and formulae. It shows the reactants (on the left), the products (on the right) and, when balanced, the amounts in which they react. An equation is important because it describes the change concisely, shows the quantities of substances, and proves that no atoms are lost (conservation of mass)."]},
+{"h":"Types of equation","p":["Word equation: hydrogen + oxygen → water. Skeleton (unbalanced) equation: H₂ + O₂ → H₂O. Balanced equation: 2H₂ + O₂ → 2H₂O."],
+"img":{"src":"chem-balancing.png","alt":"Three stages of an equation: word equation, skeleton equation with unequal atoms, and balanced equation 2H2 + O2 giving 2H2O with four hydrogen atoms and two oxygen atoms on each side","cap":"Balancing 2H₂ + O₂ → 2H₂O: the same number of each kind of atom on both sides."}},
+{"h":"Steps for balancing","p":["1. Write the correct formula for every reactant and product. 2. Write the skeleton equation. 3. Count the atoms of each element on both sides. 4. Put whole-number coefficients (numbers in front of formulae) to make the numbers equal. 5. Never change the small subscript numbers inside a formula, because that would change the substance. For example, changing H₂O to H₂O₂ would make hydrogen peroxide. 6. Check again and reduce the coefficients to the smallest whole numbers.","Tips: balance the metals first, then the non-metals, then hydrogen, and oxygen last. If you get an odd number on one side, multiply everything by 2."]},
+{"h":"Worked examples","p":["1. Burning methane: CH₄ + O₂ → CO₂ + H₂O. Left: C 1, H 4, O 2. Right: C 1, H 2, O 3. Put 2 before H₂O to make H = 4, and 2 before O₂ to make O = 4: CH₄ + 2O₂ → CO₂ + 2H₂O.","2. Sodium and water: Na + H₂O → NaOH + H₂. Balanced: 2Na + 2H₂O → 2NaOH + H₂.","3. Making ammonia: N₂ + H₂ → NH₃. Balanced: N₂ + 3H₂ → 2NH₃.","4. Burning ethane: C₂H₆ + O₂ → CO₂ + H₂O. Balanced: 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O. (Check: C 4, H 12, O 14 on each side.)"]},
+{"h":"Main types of reaction","p":["Study the table with its balanced examples."],
+"tbl":{"head":["Type","Meaning","Balanced equation"],"rows":[
+["Combination","Two or more substances join","2Mg + O₂ → 2MgO"],
+["Decomposition","One substance breaks into two or more","2H₂O₂ → 2H₂O + O₂"],
+["Single displacement","A more reactive element replaces a less reactive one","Zn + 2HCl → ZnCl₂ + H₂"],
+["Double displacement","Two compounds swap partners","Na₂SO₄ + BaCl₂ → 2NaCl + BaSO₄"],
+["Combustion","Burning in oxygen","CH₄ + 2O₂ → CO₂ + 2H₂O"]]}},
+{"h":"Answers to some practice equations","p":["H₂ + Cl₂ → 2HCl. 4Al + 3O₂ → 2Al₂O₃. Fe + 2HCl → FeCl₂ + H₂. 4NH₃ + 5O₂ → 4NO + 6H₂O. 2H₂S + 3O₂ → 2SO₂ + 2H₂O. Propane: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O."]}
+],
+"activity":"Balance: (a) Mg + HCl → MgCl₂ + H₂, (b) KClO₃ → KCl + O₂, (c) C₄H₁₀ + O₂ → CO₂ + H₂O. (Answers: Mg + 2HCl → MgCl₂ + H₂; 2KClO₃ → 2KCl + 3O₂; 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O.)",
+"check":[
+{"q":"In 2H₂ + O₂ → 2H₂O, the coefficient of water is","o":["2","1","3","4"]},
+{"q":"When balancing an equation, you must never change","o":["The subscripts in a formula","The coefficients","The state symbols","The arrows"]},
+{"q":"Balanced form of N₂ + H₂ → NH₃ is","o":["N₂ + 3H₂ → 2NH₃","N₂ + H₂ → 2NH₃","2N₂ + H₂ → NH₃","N₂ + 2H₂ → NH₃"]},
+{"q":"Zn + 2HCl → ZnCl₂ + H₂ is a","o":["Single displacement reaction","Decomposition","Combination","Combustion"]},
+{"q":"A balanced equation proves","o":["Conservation of mass","Faster rate","Higher pH","Greater density"]}]}
+]

@@ -1,0 +1,152 @@
+[
+{"id":"b23-10","week":3,"title":"Ecology of Population: Size, Density, Growth and Limiting Factors","icon":"BarChart2",
+"summary":"The meaning of a population, its size, density, frequency and distribution, the four factors that change its size, growth curves and the factors that limit growth.",
+"keyWords":["Population","Population density","Natality","Mortality","Immigration","Emigration","Carrying capacity"],
+"sections":[
+{"h":"What is a population?","p":["A population is a group of organisms of the same species living together in a particular place at a particular time. The key phrase is 'same species': all the tilapia in a school pond are a population. If we count the tilapia, frogs and water weeds together, we are counting a community, not a population."]},
+{"h":"Characteristics of a population","p":["Population size is the total number of individuals of the species in the habitat (for example, 500 students in a school).","Population density is the number of individuals per unit area (on land) or per unit volume (in water). Population density = number of individuals ÷ area. It tells how crowded the place is. High density leads to overcrowding and competition; very low density makes it hard to find mates. Worked example: 200 Tridax plants in a school garden of 50 m² give a density of 200 ÷ 50 = 4 plants per m².","Population frequency is how often a species turns up in different samples of the habitat. If you throw a quadrat 10 times and find Tridax in 6 of them, the frequency is 6 ÷ 10 × 100 = 60%.","Distribution (dispersion) is how the individuals are arranged. Clumped: in groups, such as a school of fish or a herd of cattle (the most common pattern in nature). Uniform: evenly spaced, such as maize or oil palms in a farm. Random: scattered without a pattern, such as plants grown from wind-blown seeds."]},
+{"h":"Changes in population size","p":["Four things change the size of a population: natality (birth rate: increases the population); mortality (death rate: decreases it); immigration (individuals moving into the area: increases it); and emigration (individuals moving out of the area: decreases it). Change in population = (births + immigrants) – (deaths + emigrants). Immigration is movement in; emigration is movement out (remember: Immigration = In)."]},
+{"h":"Growth curves","p":["Exponential (J-shaped) growth happens when there is plenty of everything and no enemies: the population grows slowly at first, then shoots up very fast. Examples: bacteria in a culture, insects in the early rainy season. It cannot last, because food runs out and the population crashes.","Logistic (S-shaped or sigmoid) growth is the usual pattern in nature. Lag phase: growth is slow because there are few parents, which are still settling in and finding mates. Log (exponential) phase: growth is fast because food is plentiful and many young are born. Stationary phase: the population levels off because births equal deaths. The level is the carrying capacity: the largest population that the environment can support without damage."]},
+{"h":"What limits growth? (Environmental resistance)","p":["Density-dependent factors have more effect when the population is crowded: shortage of food, competition for space, water and mates, disease (spreads quicker in crowds), predation (predators find prey easily when there are many). Competition is density-dependent because the more individuals there are, the more they compete for the same limited resources.","Density-independent factors kill whatever the size of the population: floods, fire, drought, earthquakes, sudden cold or heat, and pesticides."]}
+],
+"activity":"Define 'carrying capacity'. State two differences between the lag phase and log phase. Draw an S-shaped curve and label the three phases. Explain why a farmer plants crops in rows rather than scattering seeds.",
+"check":[
+{"q":"Population density is","o":["number of individuals per unit area","number of species in an area","total mass of organisms","births per year"]},
+{"q":"Which increases the size of a population?","o":["Immigration","Emigration","Mortality","Drought only"]},
+{"q":"The stationary phase is when","o":["births equal deaths","births are very high","deaths are very high","the population is zero"]},
+{"q":"Which is a density-independent factor?","o":["Flood","Competition","Disease","Predation"]},
+{"q":"Oil palms planted in a farm show a","o":["uniform distribution","clumped distribution","random distribution","no distribution"]}
+]},
+
+{"id":"b23-11","week":3,"title":"Estimating Population Size: Quadrats and Capture-Mark-Recapture","icon":"Calendar",
+"summary":"How to estimate the number of plants and animals by sampling, with the formulas and worked examples.",
+"keyWords":["Quadrat","Sampling","Capture-mark-recapture","Lincoln index","Estimate"],
+"sections":[
+{"h":"Why we sample","p":["We cannot count every ant or blade of grass, so we count a small, fair part of the population (a sample) and use it to estimate the whole."]},
+{"h":"The quadrat method (for plants and slow animals)","p":["A quadrat is a square frame, usually 1 m × 1 m. Steps: 1. Throw the quadrat at random (for example, throw it backwards over your shoulder) so that the choice is fair. 2. Count the plants of the species in the quadrat. 3. Repeat many times (for example 10 or more). 4. Calculate the mean number per quadrat. 5. Multiply by the total area of the field (in the same units as the quadrat) to estimate the total number.","Worked example: in 10 throws of a 1 m² quadrat, the Tridax counts are 4, 6, 3, 5, 7, 2, 6, 5, 4, 8. The total is 50, so the mean is 5 per m². The field is 400 m², so the estimate is 5 × 400 = 2 000 plants."]},
+{"h":"The capture-mark-recapture method (for moving animals)","p":["Used for grasshoppers, rats, fish and birds. Steps: 1. Catch a number of animals (first catch, M). 2. Mark each harmlessly (a dot of non-toxic paint) and release them. 3. Wait for them to mix freely with the others. 4. Catch a second sample (C). 5. Count how many of them are marked (R).","Formula: estimated population = (M × C) ÷ R, because the fraction of marked animals in the second catch is taken to be the same as the fraction of marked animals in the whole population (R ÷ C = M ÷ N).","Worked example: 40 grasshoppers are caught, marked and released. A second catch has 60 grasshoppers, of which 12 are marked. N = (40 × 60) ÷ 12 = 2 400 ÷ 12 = 200 grasshoppers."]},
+{"h":"Assumptions and limits","p":["The method works only if: the marks do not wear off or make the animals easier for predators to see; the marked animals mix fully with the rest; no big birth, death, immigration or emigration happens between the catches; and all animals have an equal chance of being caught. Advantage: it does not harm the animals and avoids counting all of them. For quadrats: the sample must be random, and large enough, or the estimate may be wrong if the plants are clumped."]}
+],
+"activity":"In a school garden of 50 m², students counted 200 Tridax plants. Calculate the population density (4 plants per m²). A biologist marks 40 grasshoppers, then recaptures 60 of which 12 are marked: estimate the population (200). Use a quadrat on the school field to estimate the number of a common weed.",
+"check":[
+{"q":"A quadrat is used to estimate the population of","o":["plants","birds in flight","fish in a lake","bacteria"]},
+{"q":"In capture-mark-recapture, N equals","o":["(M × C) ÷ R","(M + C) ÷ R","M ÷ (C × R)","R ÷ (M × C)"]},
+{"q":"If M = 50, C = 40 and R = 10, N is","o":["200","20","500","100"]},
+{"q":"The quadrat must be thrown at random so that","o":["the sample is fair","the plants die","the frame breaks","the area is larger"]},
+{"q":"One advantage of capture-mark-recapture is that it","o":["does not harm the animals","needs no animals","counts every animal","needs no time"]}
+]},
+
+{"id":"b23-12","week":4,"title":"The Ecosystem, Food Chains, Food Webs and Energy Flow","icon":"Layers",
+"summary":"The abiotic and biotic components of an ecosystem, producers, consumers and decomposers, food chains, webs, trophic levels and the 10% rule.",
+"keyWords":["Ecosystem","Producer","Consumer","Decomposer","Food chain","Food web","Trophic level"],
+"sections":[
+{"h":"What is an ecosystem?","p":["An ecosystem is a self-supporting unit where living things (plants, animals and microbes) interact with each other and with the non-living environment. Examples: a pond, a forest, a farm, a savanna. The biosphere is the part of the Earth (land, water and air) where life exists."]},
+{"h":"Abiotic components (non-living)","p":["Climatic factors: temperature, rainfall, humidity, light and wind. Edaphic (soil) factors: texture, pH, water and mineral content. Topographic factors: the slope, height and shape of the land."]},
+{"h":"Biotic components (living)","p":["Producers (autotrophs) make their own food from simple substances, by photosynthesis (using sunlight) or by chemosynthesis (using chemical energy). Examples: green plants, algae, phytoplankton. They trap the Sun's energy and change it into chemical energy.","Consumers (heterotrophs) cannot make their own food. Primary consumers are herbivores that eat plants (grasshopper, goat, cow). Secondary consumers are carnivores that eat herbivores (lizard, toad, cat). Tertiary consumers are top carnivores that eat other carnivores (lion, hawk, shark). Omnivores eat both plants and animals (humans, pigs).","Decomposers (saprophytes) are bacteria and fungi (mushrooms, moulds) that break down dead bodies and wastes. They release minerals such as nitrates into the soil for plants. Without them, the ecosystem would be buried in dead material and nutrients would run out."]},
+{"h":"Food chains, food webs and trophic levels","p":["A food chain is a straight line of who eats whom. The arrow means 'is eaten by' or 'energy goes to'. Terrestrial example: grass → grasshopper → toad → snake → hawk. Aquatic example: phytoplankton → zooplankton → small fish → large fish → fish eagle. Maize → grasshopper → toad → snake: the toad is the secondary consumer.","A food web is a network of many linked food chains, because most animals eat more than one food. It makes the ecosystem stable: if one food source fails, the animal can switch to another.","A trophic level is the feeding position: level 1 producers, level 2 primary consumers, level 3 secondary consumers, level 4 tertiary consumers."],"img":{"src":"bio2-food-chain.jpg","alt":"A food web with producers, primary, secondary and tertiary consumers and decomposers","cap":"A food web."}},
+{"h":"Energy flow and the 10% rule","p":["Energy comes from the Sun and flows in one direction: Sun → producers → consumers. It is not recycled; it is lost as heat. At each step only about 10% of the energy passes to the next level. The grasshopper uses energy for movement and flying, loses heat in respiration, and loses energy in faeces and excretion; only about 10% is stored in its body to pass to the lizard. Because of this, food chains are short (usually 4 or 5 links) and there are fewer top carnivores than herbivores, which explains why lions are rare compared with zebras."]}
+],
+"activity":"Draw a food web using grass, rabbit, grasshopper, lizard, hawk, snake and mouse. State the 10% rule. Explain why decomposers are important. In the chain maize → grasshopper → toad → snake, state each organism's trophic level.",
+"check":[
+{"q":"The primary source of energy in an ecosystem is the","o":["Sun","soil","water","wind"]},
+{"q":"In grass → grasshopper → lizard → hawk, the lizard is a","o":["secondary consumer","producer","primary consumer","decomposer"]},
+{"q":"Decomposers are mostly","o":["bacteria and fungi","insects only","green plants","birds"]},
+{"q":"About what percentage of energy passes to the next trophic level?","o":["10%","50%","90%","100%"]},
+{"q":"Food chains are short because","o":["energy is lost at each level","predators are lazy","plants are small","soil is poor"]}
+]},
+
+{"id":"b23-13","week":4,"title":"Ecological Pyramids, Cycles and the Balance of Nature","icon":"Target",
+"summary":"Pyramids of numbers, biomass and energy, the carbon and water cycles, and how predator and prey populations balance each other.",
+"keyWords":["Pyramid of numbers","Pyramid of biomass","Pyramid of energy","Predator-prey","Dynamic equilibrium"],
+"sections":[
+{"h":"Ecological pyramids","p":["Pyramid of numbers: the number of organisms at each level. It is usually upright (many grass plants, fewer grasshoppers, one lizard). It can be inverted: one big mango tree can feed hundreds of caterpillars.","Pyramid of biomass: the total mass of living matter at each level. It is usually upright. It can be inverted in the sea, where the small mass of phytoplankton at any moment is smaller than the mass of the zooplankton that eat it, because phytoplankton reproduce so fast that they replace themselves within days. (The lesson note says the phytoplankton support 'massive whales'; most big whales actually eat krill, which are zooplankton, so the correct link is phytoplankton to zooplankton.)","Pyramid of energy: the amount of energy at each level over a year. It is always upright, because energy is lost at every step and can never increase."],"img":{"src":"bio2-energy-pyramid.jpg","alt":"A pyramid of energy with producers at the base and primary, secondary and tertiary consumers above, each level smaller","cap":"A pyramid of energy."}},
+{"h":"Why the energy pyramid is always broad at the base","p":["Each level receives only about 10% of the level below. The base must be the widest to provide enough energy to support everything above. This is why an energy pyramid cannot be inverted."]},
+{"h":"Nutrient cycling: matter is recycled","p":["Energy is lost, but the chemical elements are used again and again. Carbon cycle: plants remove CO₂ from the air in photosynthesis. CO₂ is added by respiration (all living things), decay (decomposers) and combustion (burning wood and fossil fuels such as petrol and diesel, which release carbon stored millions of years ago). Water cycle: evaporation (the Sun turns water into vapour), transpiration (plants lose vapour from leaves), condensation (the vapour cools into clouds) and precipitation (rain, snow or hail). See the diagrams in the First Term notes."],"img":{"src":"bio2-carbon-cycle.jpg","alt":"The carbon cycle with photosynthesis taking CO2 from the air and respiration, decay and combustion returning it","cap":"The carbon cycle."}},
+{"h":"The balance of nature","p":["An ecosystem is in a dynamic equilibrium: it constantly changes but stays about the same on average. For example: if the number of rats increases, the snakes that eat them have plenty of food and their number increases. The snakes eat so many rats that the rat population falls. Now the snakes have less food and many starve, so their number falls. The rats recover, and the cycle repeats. This is a negative feedback loop in nature.","If a farmer kills all the hawks, the snakes and mice are no longer controlled by their predator: the snakes will increase at first, and they will eat more mice and reduce them, until food becomes short. Taking one species out of a food web can have effects on many others, which is why we conserve biodiversity."]}
+],
+"activity":"Explain why a pyramid of numbers can be inverted but a pyramid of energy cannot. Name two processes that increase CO₂ in the air. Describe what would happen to snakes and mice if all the hawks were killed in an area.",
+"check":[
+{"q":"A pyramid that is ALWAYS upright is the pyramid of","o":["energy","numbers","biomass in the sea","numbers on a tree"]},
+{"q":"A process that adds CO₂ to the air is","o":["combustion","photosynthesis","transpiration","evaporation only"]},
+{"q":"An inverted pyramid of numbers could be found with","o":["one tree and many caterpillars","grass and grasshoppers","a pond and fish","a farm and maize"]},
+{"q":"If prey numbers rise, predator numbers will first","o":["rise","fall","stay constant","vanish"]},
+{"q":"Dynamic equilibrium means","o":["constant change around a steady average","no change at all","one-way change","extinction"]}
+]},
+
+{"id":"b23-14","week":6,"title":"The Male Reproductive System","icon":"Heart",
+"summary":"The parts of the human male reproductive system and the function of each, including the accessory glands and semen.",
+"keyWords":["Testis","Scrotum","Epididymis","Vas deferens","Prostate gland","Semen"],
+"sections":[
+{"h":"What reproduction does","p":["Reproduction is the making of new individuals of the same species, and it ensures that life continues. Humans reproduce sexually: a male gamete (sperm) joins with a female gamete (ovum or egg). The male system makes sperm and delivers them into the female."]},
+{"h":"External parts","p":["Scrotum: a skin bag that hangs outside the body and holds the testes. It keeps them about 2 to 3 °C cooler than the body, which is needed for sperm to develop properly. Penis: the organ for passing sperm into the female. It has spongy erectile tissue that fills with blood to make it stiff (erection)."],"img":{"src":"bio2-male-system.jpg","alt":"A side view of the male reproductive system showing the testis, epididymis, vas deferens, seminal vesicle, prostate gland, urethra and penis","cap":"The male reproductive system."}},
+{"h":"Internal parts","p":["Testes (singular testis): two oval organs in the scrotum. They make sperm cells (in tubules called seminiferous tubules) and the male hormone testosterone (in cells between the tubules), which brings about male features such as a deep voice and beard growth.","Epididymis: a coiled tube on each testis, where sperm are stored and finish maturing so that they can swim.","Vas deferens (sperm duct): a long tube that carries sperm from the epididymis towards the urethra.","Urethra: the tube through the penis that carries both urine and semen, but never at the same time."]},
+{"h":"Accessory glands","p":["These add fluids to the sperm to make semen. The seminal vesicles make a sugary fluid (fructose) that gives the sperm energy. The prostate gland makes an alkaline fluid that neutralises the acid in the vagina and helps sperm survive. Cowper's gland makes a lubricating fluid. Semen is about 2 to 5 ml in each ejaculation and contains hundreds of millions of sperm."]},
+{"h":"Health note","p":["Keep the area clean. Tight underwear and hot baths can lower sperm production. Prostate problems in older men should be checked by a doctor. Any pain or swelling in the testes needs prompt medical attention."]}
+],
+"activity":"Draw the male reproductive system in side view and label the urethra, prostate gland, testis and vas deferens. Explain why the testes are in the scrotum, outside the body. Describe the journey of a sperm from the testis to the outside.",
+"check":[
+{"q":"Sperm are made in the","o":["testes","epididymis","prostate","vas deferens"]},
+{"q":"The scrotum keeps the testes","o":["cooler than the body","hotter than the body","dry","dark"]},
+{"q":"The tube that carries both urine and semen is the","o":["urethra","vas deferens","ureter","epididymis"]},
+{"q":"The fluid of the seminal vesicle contains","o":["fructose for energy","acid","blood","bile"]},
+{"q":"The male hormone is","o":["testosterone","oestrogen","progesterone","insulin"]}
+]},
+
+{"id":"b23-15","week":6,"title":"The Female Reproductive System and the Gametes","icon":"Heart",
+"summary":"The parts of the human female reproductive system, and the structure of the sperm cell and the egg cell with their differences.",
+"keyWords":["Ovary","Fallopian tube","Uterus","Endometrium","Cervix","Acrosome","Ovum"],
+"sections":[
+{"h":"The female system","p":["The female system makes eggs (ova), receives sperm, and nurtures the developing baby."],"img":{"src":"bio2-female-system.jpg","alt":"The female reproductive system showing the ovaries, fallopian tubes, uterus, cervix and vagina","cap":"The female reproductive system."}},
+{"h":"The parts","p":["Ovaries (two): almond-shaped organs in the lower abdomen. They make ova (eggs) and the hormones oestrogen and progesterone.","Fallopian tubes (oviducts): tubes between each ovary and the uterus. Fertilisation takes place here. Cilia and muscle contractions push the egg towards the uterus.","Uterus (womb): a pear-shaped muscular organ where the foetus develops. Its lining is the endometrium, which thickens each month to receive an embryo.","Cervix: the narrow neck of the uterus that opens into the vagina; it widens in childbirth.","Vagina: a muscular tube leading to the outside. It receives the penis during intercourse and is the birth canal during delivery."]},
+{"h":"The sperm cell","p":["A sperm is tiny and mobile. Head: contains the nucleus with the genetic material, and the acrosome, a cap of enzymes that dissolves the outer layer of the egg. Middle piece: packed with mitochondria that provide energy for swimming. Tail (flagellum): a long whip that drives the sperm along."]},
+{"h":"The egg cell (ovum)","p":["The ovum is spherical and much larger than the sperm, and it cannot move on its own (it is carried by cilia). It has cytoplasm with yolk (food store) for the early embryo, a nucleus, and a jelly coat (zona pellucida) which hardens after one sperm has entered so that no other sperm can enter."]},
+{"h":"Comparing the gametes","p":["Study the table."],"tbl":{"head":["Feature","Sperm","Ovum"],"rows":[["Size","Very small","Much larger (the largest human cell)"],["Movement","Moves actively with a tail","Does not move; is carried by cilia"],["Number","Millions made every day","One released each month"],["Food store","Very little","Yolk in the cytoplasm"],["Special parts","Acrosome, mitochondria, tail","Jelly coat"],["Chromosomes","23 (haploid)","23 (haploid)"]]}}
+],
+"activity":"Draw and label the female reproductive system and give the function of each part. Construct a table of three differences between a sperm and an ovum. State the function of the acrosome.",
+"check":[
+{"q":"Fertilisation normally occurs in the","o":["fallopian tube","uterus","vagina","cervix"]},
+{"q":"Eggs and oestrogen are made by the","o":["ovaries","uterus","cervix","vagina"]},
+{"q":"The acrosome contains","o":["enzymes that dissolve the egg's outer layer","the nucleus","food","mitochondria"]},
+{"q":"The lining of the uterus is the","o":["endometrium","cervix","zona","placenta"]},
+{"q":"The ovum differs from the sperm because it","o":["is larger and cannot swim","is smaller","has a tail","has an acrosome"]}
+]},
+
+{"id":"b23-16","week":6,"title":"Ovulation and the Menstrual Cycle","icon":"Calendar",
+"summary":"The 28-day cycle with its four phases and hormones (FSH, LH, oestrogen, progesterone), and why a pregnant woman does not menstruate.",
+"keyWords":["Menstruation","Ovulation","FSH","LH","Progesterone","Corpus luteum"],
+"sections":[
+{"h":"A monthly cycle","p":["From puberty until about 45 to 50 years old, the female body prepares each month for a possible pregnancy. The average cycle is 28 days, though 21 to 35 days is normal, and it may be irregular in young girls."],"img":{"src":"bio2-menstrual-cycle.jpg","alt":"A chart of the menstrual cycle showing hormone levels, the ovarian cycle and the thickness of the endometrium over 28 days","cap":"The menstrual cycle."}},
+{"h":"The four phases","p":["1. Menstruation (about days 1 to 5): if there was no pregnancy, the lining of the uterus breaks down and leaves the body through the vagina as a flow of blood and tissue (a period). In the chart it lasts to about day 6; it may last 3 to 7 days.","2. Follicular phase (to about day 13): the pituitary gland releases FSH (follicle-stimulating hormone), which makes a follicle in the ovary grow and mature an egg. The follicle releases oestrogen, which rebuilds the uterus lining.","3. Ovulation (about day 14): a surge in LH (luteinising hormone) makes the follicle burst and release the mature egg into the fallopian tube. This is the most fertile time.","4. Luteal phase (days 15 to 28): the empty follicle becomes the corpus luteum, which makes progesterone to keep the uterus lining thick and rich in blood. If the egg is not fertilised, the corpus luteum breaks down, the hormone levels fall and menstruation begins again."]},
+{"h":"The hormones at a glance","p":["Compare the hormones."],"tbl":{"head":["Hormone","Made by","Job"],"rows":[["FSH","Pituitary","Grows the follicle and egg"],["Oestrogen","Ovary (follicle)","Rebuilds the uterus lining; triggers the LH surge"],["LH","Pituitary","Causes ovulation; forms the corpus luteum"],["Progesterone","Corpus luteum","Maintains the uterus lining; stops new follicles"]]}},
+{"h":"Why no periods in pregnancy","p":["If the egg is fertilised, the embryo implants in the thick uterus lining, and the placenta soon makes hormones (including hCG) that keep the corpus luteum and progesterone going. The lining is kept in place to feed the embryo, so menstruation does not occur. A missed period is often the first sign of pregnancy."]},
+{"h":"Caring for yourself","p":["Girls should be taught about periods before they start: use clean pads, wash regularly and change often. Mild pain is normal; severe pain or very heavy bleeding should be checked by a doctor. Families and schools should support girls so that they do not miss school."]}
+],
+"activity":"Draw a timeline of a 28-day cycle with the four phases and say what each hormone does. Explain why a woman does not menstruate when pregnant. Write a short note on menstrual hygiene for a younger student.",
+"check":[
+{"q":"Ovulation is triggered by a surge of","o":["LH","FSH","progesterone","insulin"]},
+{"q":"The corpus luteum makes","o":["progesterone","FSH","testosterone","LH"]},
+{"q":"Menstruation occurs when","o":["the uterus lining breaks down","the egg is fertilised","ovulation happens","the corpus luteum grows"]},
+{"q":"FSH stimulates","o":["a follicle to grow","the uterus to contract","the corpus luteum","milk production"]},
+{"q":"In pregnancy menstruation stops because","o":["progesterone keeps the lining in place","oestrogen is zero","FSH is high","the ovary is removed"]}
+]},
+
+{"id":"b23-17","week":6,"title":"Fertilisation, Pregnancy and Birth","icon":"Heart",
+"summary":"Fertilisation, implantation, the placenta and amniotic fluid, pregnancy (gestation), birth, and a note on sexually transmitted infections.",
+"keyWords":["Zygote","Implantation","Gestation","Placenta","Amniotic fluid","Parturition"],
+"sections":[
+{"h":"Fertilisation","p":["Millions of sperm are released into the vagina during intercourse. They swim through the cervix and uterus into the fallopian tube; only one fertilises the egg. The sperm head releases enzymes from the acrosome, enters the egg, and the nucleus of the sperm (n) fuses with the nucleus of the egg (n) to give a zygote (2n). The jelly coat then hardens to keep out other sperm."]},
+{"h":"Implantation","p":["The zygote divides again and again by mitosis to form a ball of cells (the embryo) as it travels down the tube. After about 6 to 7 days it reaches the uterus and sinks into the thick lining (implantation)."]},
+{"h":"Gestation (pregnancy)","p":["Gestation is the time from fertilisation to birth, about 9 months (40 weeks counted from the last period). The developing baby is called an embryo for the first 8 weeks and a foetus after that. Its organs form in the early months, so a mother should avoid alcohol, smoking, harmful drugs and self-medication, and should attend antenatal clinic regularly, take the iron and folic acid given, and sleep under a treated net to prevent malaria."]},
+{"h":"The placenta, cord and amniotic fluid","p":["The placenta is a disc-shaped organ made of tissues from both mother and embryo. It lets food, oxygen, water and antibodies pass from mother to baby, and lets CO₂ and urea pass from baby to mother. The mother's blood and the baby's blood do not mix (they are separated by thin walls so that substances pass by diffusion and active transport), which also protects the baby from the mother's blood pressure and some germs. The placenta also makes hormones. The umbilical cord links the baby to the placenta; it has two arteries and one vein.","The amniotic sac holds the amniotic fluid. It acts as a shock absorber, protects from bumps and sudden changes in temperature, keeps the baby from drying out, and allows the baby to move. (This answers: 'what protects the foetus from shock and drying out?')"]},
+{"h":"Birth (parturition)","p":["At the end of pregnancy the hormone oxytocin makes the muscles of the uterus contract (labour). The cervix widens, the amnion breaks and the fluid comes out ('the waters break'), and the baby is pushed out head first through the vagina. The umbilical cord is cut and tied, and the placenta follows as the afterbirth. After birth the mother makes milk (lactation) under the control of the hormone prolactin. Breast milk gives antibodies and the best food in the first 6 months of life. Always deliver in a clinic or hospital with a skilled birth attendant."]},
+{"h":"Protecting health: STIs","p":["Sexually transmitted infections (STIs), such as gonorrhoea, syphilis, HIV/AIDS and hepatitis B, are spread by unprotected sex. They can cause infertility and harm babies. Prevention: abstinence before marriage, faithfulness to one uninfected partner, correct use of condoms, testing, and treatment early. Students are encouraged to talk to a health worker or teacher about any questions."]}
+],
+"activity":"Describe the journey of a sperm cell from the testis to the egg. State the functions of the placenta and amniotic fluid. Explain how a pregnant mother can protect her baby's health. Name two STIs and one way to prevent them.",
+"check":[
+{"q":"The zygote is formed when","o":["sperm and egg nuclei fuse","an egg is released","a follicle bursts","the uterus lining grows"]},
+{"q":"The placenta allows","o":["exchange of food, oxygen and wastes","mixing of mother's and baby's blood","milk production","fertilisation"]},
+{"q":"The fluid that protects the foetus from shock is the","o":["amniotic fluid","blood","bile","lymph"]},
+{"q":"The hormone that causes the uterus to contract at birth is","o":["oxytocin","insulin","FSH","testosterone"]},
+{"q":"Gestation in humans is about","o":["9 months","3 months","12 months","6 weeks"]}
+]}
+]

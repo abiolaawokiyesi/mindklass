@@ -1,0 +1,205 @@
+[
+{"id":"m23-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen",
+"summary":"An overview of SS2 Mathematics Third Term: linear programming, bearings, angles of elevation and depression, statistics (frequency, ogives, mean, median and mode) and probability, with the list of all units.",
+"keyWords":["Linear programming","Bearings","Statistics","Ogive","Probability"],
+"sections":[
+{"h":"Welcome to Third Term","p":["This term is about using Mathematics to make decisions and to measure the world. Linear programming helps a business choose the best mix of products. Bearings and angles of elevation help you find directions, distances and heights. Statistics helps you organise data and find averages and the spread of results. Probability tells you how likely things are to happen.","Draw neat graphs with a sharp pencil and a ruler, and always show your working. Each unit ends with practice questions that do not count for marks; they help you check your understanding."]},
+{"h":"Table of contents for Third Term","p":["Week 5 is the midterm examination and Week 7 is the midterm break."],"tbl":{"head":["Unit","Week","Topic"],"rows":[["1","-","Welcome and table of contents"],["2","1","Linear programming: meaning and terms"],["3","1","Formulating linear programming problems"],["4","1","Formulating minimising problems and what is not linear programming"],["5","2","Graphing linear inequalities"],["6","2","The feasible region and corner points"],["7","2","Solving linear programming problems graphically"],["8","3","Bearings: three-figure, compass and back bearings"],["9","3","Bearings: problems with triangles"],["10","4","Angles of elevation and depression: meaning and scale drawing"],["11","4","Elevation and depression: problems"],["12","6","Frequency distribution: meaning and ungrouped data"],["13","6","Grouped frequency tables"],["14","6","Cumulative frequency and histograms"],["15","8","Drawing an ogive"],["16","8","Reading information from an ogive"],["17","9","The mean from grouped data"],["18","9","The median and mode from grouped data"],["19","9","Comparing the mean, median and mode"],["20","10","Probability: meaning and sample space"],["21","10","Types of events and the addition rule"],["22","10","The multiplication rule: with and without replacement"],["23","11","Revision"]]}}
+],
+"activity":"Look through the table of contents. Which topics from earlier classes (graphs, angles, fractions and averages) will help you with this term? Write them down and revise them.",
+"check":[
+{"q":"Which topic is studied in Week 10?","o":["Probability","Linear programming","Bearings","Ogives"]},
+{"q":"Statistics (frequency and ogives) begins in Week","o":["6","1","3","10"]},
+{"q":"Linear programming helps to","o":["choose the best use of limited resources","draw circles","solve triangles","find square roots"]}
+]},
+
+{"id":"m23-02","week":1,"title":"Linear Programming: Meaning and Terms","icon":"Layers",
+"summary":"What linear programming is, the words used in it, why it is called linear, and where it is used in real life.",
+"keyWords":["Linear programming","Decision variables","Objective function","Constraints","Feasible region","Optimal solution"],
+"sections":[
+{"h":"What is linear programming?","p":["Linear programming (LP) is a mathematical method for finding the best possible result, such as the greatest profit or the lowest cost, when we have limited resources like time, money, land or materials.","Example: a tailor has 60 hours a week and 90 metres of cloth. How many agbada and how many suits should be sewn to earn the most money? Linear programming answers this kind of question."]},
+{"h":"The parts of a linear programming problem","p":["1. Decision variables: the quantities we can choose, usually called x and y. For example x = the number of agbada and y = the number of suits.","2. Objective function: the quantity we want to make as large (maximise) or as small (minimise) as possible, written for example P = 5x + 3y.","3. Constraints: the limits on what we can do, written as linear inequalities, for example x + 2y ≤ 100.","4. Non-negativity conditions: x ≥ 0 and y ≥ 0, because we cannot make a negative number of things.","5. Feasible region: the set of all points (x, y) that satisfy all the constraints.","6. Feasible solution: any point in the feasible region. It may not be the best one.","7. Optimal solution: the feasible solution that gives the best (largest or smallest) value of the objective function."]},
+{"h":"Why is it called linear?","p":["All the relationships are linear: the variables appear only to the power 1 and are not multiplied together. So 3x + 2y ≤ 12 is linear, but x² + y ≤ 10 and xy ≥ 6 are not. On a graph, a linear constraint is a straight line."]},
+{"h":"Where is linear programming used?","p":["Manufacturing: how many units of each product to make for the greatest profit. Agriculture: how much land to give to each crop. Diet planning: the cheapest food that gives enough nutrients. Transport: the cheapest way to send goods from warehouses to shops. Investment: how to share money to get the best return. Everyday Nigerian examples: a farmer choosing between rice and cassava on 10 hectares; a trader with ₦50 000 choosing which goods to buy; a filling station deciding how much petrol and diesel to stock; a school sharing its budget between science and art equipment."]}
+],
+"activity":"A school wants to buy computers (₦150 000 each) and projectors (₦80 000 each) with a budget of ₦2 000 000. Write down the decision variables (x = number of computers, y = number of projectors) and the budget constraint (150 000x + 80 000y ≤ 2 000 000, which simplifies to 15x + 8y ≤ 200).",
+"check":[
+{"q":"The quantity we want to maximise or minimise is called the","o":["objective function","constraint","feasible region","variable name"]},
+{"q":"Limits on resources are written as","o":["constraints","objective functions","optimal solutions","tangents"]},
+{"q":"Which of these is NOT linear?","o":["x² + y ≤ 10","3x + 2y ≤ 12","x + y ≥ 4","y ≤ 5"]},
+{"q":"x ≥ 0 and y ≥ 0 are called","o":["non-negativity conditions","objective functions","corner points","gradients"]},
+{"q":"The set of all points that satisfy every constraint is the","o":["feasible region","objective function","optimal value","test point"]}
+]},
+
+{"id":"m23-03","week":1,"title":"Formulating Linear Programming Problems","icon":"Target",
+"summary":"The five steps for turning a word problem into a linear programming model, with worked examples from factories, farms, bakeries and tailors.",
+"keyWords":["Formulation","Decision variables","Objective function","Constraints","Word problem"],
+"sections":[
+{"h":"Five steps","p":["Step 1. Decide what to choose: define the decision variables, for example Let x = the number of dining chairs and y = the number of office chairs.","Step 2. Write the objective function: Maximise P = ... or Minimise C = ...","Step 3. Write each constraint as an inequality, using the same units on both sides.","Step 4. Add x ≥ 0 and y ≥ 0.","Step 5. Write the complete model neatly."]},
+{"h":"Example 1: a chair factory","p":["A factory makes dining chairs and office chairs. A dining chair needs 2 hours of labour and 3 kg of wood. An office chair needs 3 hours of labour and 2 kg of wood. There are 120 hours of labour and 150 kg of wood each week. The profit is ₦5 000 on a dining chair and ₦6 000 on an office chair.","Let x = number of dining chairs and y = number of office chairs. Maximise P = 5000x + 6000y subject to: 2x + 3y ≤ 120 (labour), 3x + 2y ≤ 150 (wood), x ≥ 0, y ≥ 0."]},
+{"h":"Example 2: a farmer","p":["A farmer has 100 hectares. Rice needs 2 workers per hectare and maize needs 1 worker per hectare. He has 150 workers. Profit is ₦80 000 per hectare of rice and ₦50 000 per hectare of maize.","Let x = hectares of rice and y = hectares of maize. Maximise P = 80000x + 50000y subject to: x + y ≤ 100 (land), 2x + y ≤ 150 (workers), x ≥ 0, y ≥ 0."]},
+{"h":"Example 3: a baker","p":["A baker makes cakes and bread. A cake takes 2 hours in the oven and uses 3 kg of flour. A bread takes 1 hour and uses 2 kg of flour. The baker has 40 oven hours and 60 kg of flour. A cake sells for ₦2 000 and a bread for ₦800.","Let x = number of cakes and y = number of breads. Maximise R = 2000x + 800y subject to: 2x + y ≤ 40 (oven time), 3x + 2y ≤ 60 (flour), x ≥ 0, y ≥ 0."]},
+{"h":"Example 4: a tailor","p":["An agbada takes 4 hours and 6 metres of cloth. A suit takes 3 hours and 4 metres. The tailor has 60 hours and 90 metres each week. Profit is ₦15 000 per agbada and ₦12 000 per suit.","Let x = agbada and y = suits. Maximise P = 15000x + 12000y subject to: 4x + 3y ≤ 60, 6x + 4y ≤ 90, x ≥ 0, y ≥ 0."]},
+{"h":"A tip","p":["Make a small table of the data, with one row for each product and one column for each resource. Then each column gives one constraint."]}
+],
+"activity":"A bus company has 10 buses. Each trip needs 2 drivers and 1 mechanic per bus. There are 15 drivers and 8 mechanics. Suppose x = trips by route A (each using 2 drivers, 1 mechanic) and y = trips by route B (each using 1 driver, 1 mechanic). Write the constraints (2x + y ≤ 15, x + y ≤ 8, x ≥ 0, y ≥ 0).",
+"check":[
+{"q":"In Example 1, the labour constraint is","o":["2x + 3y ≤ 120","3x + 2y ≤ 150","x + y ≤ 120","2x + 3y ≥ 120"]},
+{"q":"In Example 2, the land constraint is","o":["x + y ≤ 100","2x + y ≤ 100","x + y ≥ 100","x + 2y ≤ 150"]},
+{"q":"In Example 3, the objective function is","o":["R = 2000x + 800y","R = 800x + 2000y","R = 3x + 2y","R = 2x + y"]},
+{"q":"Step 1 of formulating a problem is to","o":["define the decision variables","draw the graph","find the corner points","shade the region"]},
+{"q":"Why must x ≥ 0 and y ≥ 0?","o":["We cannot make a negative number of items","Because graphs start at the origin only","To make the objective larger","They are the objective function"]}
+]},
+
+{"id":"m23-04","week":1,"title":"Formulating Minimising Problems and What Is Not Linear Programming","icon":"BarChart2",
+"summary":"Problems where the aim is the lowest cost with minimum requirements (using ≥), and how to tell whether a problem is linear.",
+"keyWords":["Minimise","Minimum requirement","Diet problem","Non-linear"],
+"sections":[
+{"h":"Minimising problems","p":["Sometimes we want the lowest cost while meeting minimum requirements. These constraints use ≥ (at least).","Example (a diet problem). A diet must have at least 300 calories and at least 50 g of protein. Food A gives 100 calories and 20 g of protein per serving and costs ₦200. Food B gives 150 calories and 10 g of protein per serving and costs ₦250.","Let x = servings of Food A and y = servings of Food B. Minimise C = 200x + 250y subject to: 100x + 150y ≥ 300 (calories), 20x + 10y ≥ 50 (protein), x ≥ 0, y ≥ 0."]},
+{"h":"Simplify your constraints","p":["It is easier to graph if you divide to make the numbers small. 100x + 150y ≥ 300 becomes 2x + 3y ≥ 6 (divide by 50). 20x + 10y ≥ 50 becomes 2x + y ≥ 5 (divide by 10)."]},
+{"h":"Example: a baker with eggs and flour","p":["A baker makes meat pies and sausage rolls. A pie needs 2 eggs and 100 g of flour. A roll needs 1 egg and 50 g of flour. There are 100 eggs and 5 000 g of flour each day. A pie makes ₦200 profit (₦500 − ₦300) and a roll makes ₦150 profit (₦300 − ₦150). Let x = pies and y = rolls. Maximise P = 200x + 150y subject to: 2x + y ≤ 100, 100x + 50y ≤ 5 000 (which is the same as 2x + y ≤ 100), x ≥ 0, y ≥ 0. Notice that the two constraints are the same line!"]},
+{"h":"Which of these are linear programming problems?","p":["(a) Maximise Z = 3x + 2y subject to x² + y ≤ 10. Not linear: it has x².","(b) Minimise C = 5x + 4y subject to 2x + 3y ≥ 12, x + y ≤ 8, x ≥ 0, y ≥ 0. Linear: the objective function and every constraint are linear.","(c) Maximise P = xy subject to x + y ≤ 20. Not linear: the objective function has xy, a product of the two variables."]}
+],
+"activity":"A farmer plants tomatoes and peppers. Tomatoes need 3 hours of labour per hectare and peppers need 2 hours. He has 60 labour hours and 25 hectares. Profit is ₦40 000 per hectare of tomatoes and ₦30 000 per hectare of peppers. Formulate the problem (Let x = hectares of tomatoes, y = hectares of peppers. Maximise P = 40000x + 30000y subject to 3x + 2y ≤ 60, x + y ≤ 25, x ≥ 0, y ≥ 0).",
+"check":[
+{"q":"Minimum requirements in a diet problem use the sign","o":["≥","≤","=","<"]},
+{"q":"100x + 150y ≥ 300 simplifies to","o":["2x + 3y ≥ 6","x + 3y ≥ 6","2x + 3y ≥ 3","x + y ≥ 3"]},
+{"q":"Which problem is NOT linear programming?","o":["Maximise P = xy subject to x + y ≤ 20","Minimise C = 5x + 4y subject to 2x + 3y ≥ 12","Maximise P = 4x + 5y subject to 2x + 3y ≤ 100","Maximise P = 3x + y subject to x + y ≤ 8"]},
+{"q":"The diet constraint for protein in the example is","o":["20x + 10y ≥ 50","20x + 10y ≤ 50","10x + 20y ≥ 50","x + y ≥ 50"]},
+{"q":"A minimising problem aims to find the","o":["lowest value of the objective function","largest value of the objective function","steepest gradient","longest line"]}
+]},
+
+{"id":"m23-05","week":2,"title":"Graphing Linear Inequalities","icon":"Zap",
+"summary":"How to draw the graph of an inequality in two variables and shade the region that satisfies it, using a test point.",
+"keyWords":["Inequality","Boundary line","Test point","Solid line","Dashed line","Shading"],
+"sections":[
+{"h":"Steps","p":["1. Replace the inequality sign by = and draw the boundary line (find two points, usually the intercepts).","2. Use a solid line for ≤ or ≥ (points on the line are included). Use a dashed line for < or > (points on the line are not included).","3. Choose a test point not on the line, usually (0, 0), and substitute it into the inequality.","4. If the statement is true, shade the side with the test point. If it is false, shade the other side."]},
+{"h":"Example 1: x + y ≤ 6","p":["The line x + y = 6 passes through (0, 6) and (6, 0). Draw it solid. Test (0, 0): 0 + 0 ≤ 6 is true, so shade the side that contains the origin. Everything on and below the line is in the region."],"img":{"src":"mth3-inequality.png","alt":"Graph of the line x + y = 6 with the region below and to the left of the line shaded to show x + y is less than or equal to 6","cap":"The shaded region is x + y ≤ 6."}},
+{"h":"Example 2: 2x + 3y ≥ 12","p":["The line 2x + 3y = 12 passes through (6, 0) and (0, 4). Draw it solid. Test (0, 0): 0 ≥ 12 is false, so shade the side that does NOT contain the origin (above and to the right of the line)."]},
+{"h":"Example 3: y > 2x − 1","p":["The line y = 2x − 1 passes through (0, −1) and (1, 1). Draw it dashed because the sign is >. Test (0, 0): 0 > −1 is true, so shade the side with the origin (above the line)."]},
+{"h":"Vertical and horizontal lines","p":["x ≤ 4 means everything on and to the left of the vertical line x = 4. y ≥ 1 means everything on and above the horizontal line y = 1. x ≥ 0 means the right of the y-axis and y ≥ 0 means above the x-axis."]},
+{"h":"A note on shading","p":["In this unit we shade the region that satisfies the inequality. Some books and examinations shade the unwanted region and leave the wanted region clear. Always read the question: it will say which to do."]}
+],
+"activity":"Graph 2x + 3y ≤ 12 with x ≥ 0 and y ≥ 0 (a triangle with corners (0, 0), (6, 0) and (0, 4)). Test the point (1, 1): 2 + 3 = 5 ≤ 12 is true, so (1, 1) is inside the region.",
+"check":[
+{"q":"For x + y ≤ 6 the test point (0, 0) gives","o":["a true statement","a false statement","no answer","x = 6"]},
+{"q":"A dashed line is used for","o":["< or >","≤ or ≥","= only","≥ only"]},
+{"q":"For 2x + 3y ≥ 12, (0, 0) is","o":["not in the region","in the region","on the line","a corner"]},
+{"q":"The line x + y = 6 passes through","o":["(6, 0) and (0, 6)","(3, 0) and (0, 3)","(6, 6)","(0, 0)"]},
+{"q":"x ≥ 0 means the region","o":["to the right of the y-axis and on it","below the x-axis","left of the y-axis","above y = x"]}
+]},
+
+{"id":"m23-06","week":2,"title":"The Feasible Region and Corner Points","icon":"Target",
+"summary":"Finding the region that satisfies all constraints together and finding its corner points by reading axis intercepts and by solving pairs of equations.",
+"keyWords":["Feasible region","Corner point","Vertex","Intersection","Corner point theorem"],
+"sections":[
+{"h":"The feasible region","p":["The feasible region is the area where all the shaded regions overlap. It is the set of all points that satisfy every constraint at the same time. Its corners are called vertices or corner points."]},
+{"h":"Example 1","p":["Find the feasible region and the corner points for x + y ≤ 6, 2x + y ≤ 10, x ≥ 0, y ≥ 0.","The line x + y = 6 passes through (0, 6) and (6, 0). The line 2x + y = 10 passes through (0, 10) and (5, 0). The region is below both lines and in the first quadrant.","Corner points: A (0, 0). B (0, 6): at x = 0 the lower of 6 and 10 is 6. D (5, 0): at y = 0 the lower of 6 and 5 is 5. C: where the two lines cross. Subtract: (2x + y) − (x + y) = 10 − 6 gives x = 4, then y = 6 − 4 = 2. So C = (4, 2). Check in both equations: 4 + 2 = 6 and 8 + 2 = 10. Both correct.","(Some printed notes first write C as (2, 4). That is wrong, because 2 + 4 = 6 but 2(2) + 4 = 8, not 10. Always check your intersection in both equations.)"]},
+{"h":"Example 2: the chair factory","p":["Constraints: 2x + 3y ≤ 120 (labour), 3x + 2y ≤ 150 (wood), x ≥ 0, y ≥ 0.","Labour line: intercepts (60, 0) and (0, 40). Wood line: intercepts (50, 0) and (0, 75). On the x-axis the wood line is nearer (50 < 60), so B = (50, 0). On the y-axis the labour line is nearer (40 < 75), so D = (0, 40).","The lines cross where 2x + 3y = 120 and 3x + 2y = 150. Multiply the first by 3 and the second by 2: 6x + 9y = 360 and 6x + 4y = 300. Subtract: 5y = 60, so y = 12. Then 2x = 120 − 36 = 84, so x = 42. C = (42, 12). Check: 3(42) + 2(12) = 126 + 24 = 150. Correct."],"img":{"src":"mth3-feasible.png","alt":"A shaded four-sided region with corners at (0, 0), (50, 0), (42, 12) and (0, 40) formed by the labour line and the wood line, with the profit at each corner shown on the right","cap":"The feasible region for the chair factory and the profit at each corner."}},
+{"h":"Corner point theorem","p":["If a linear programming problem has an optimal solution, it occurs at a corner point of the feasible region. So we do not need to test every point: we only test the corners."]}
+],
+"activity":"Find the corner points of the region x + y ≤ 6, x ≤ 4, y ≤ 5, x ≥ 0, y ≥ 0. ((0, 0), (4, 0), (4, 2), (1, 5), (0, 5): the line x + y = 6 meets x = 4 at (4, 2) and y = 5 at (1, 5).)",
+"check":[
+{"q":"The corner points of x + y ≤ 6, 2x + y ≤ 10 (first quadrant) include","o":["(4, 2)","(2, 4)","(6, 6)","(10, 0)"]},
+{"q":"2x + 3y = 120 and 3x + 2y = 150 meet at","o":["(42, 12)","(12, 42)","(50, 40)","(30, 20)"]},
+{"q":"The corner point theorem says the optimal solution is at","o":["a corner point","the centre of the region","the origin always","any point on an edge only"]},
+{"q":"The feasible region is where","o":["all the constraints are satisfied","only one constraint is satisfied","none of the constraints are satisfied","the objective function is zero"]},
+{"q":"Check your intersection by substituting in","o":["both equations","one equation only","the objective function only","neither equation"]}
+]},
+
+{"id":"m23-07","week":2,"title":"Solving Linear Programming Problems Graphically","icon":"BarChart2",
+"summary":"The six steps for solving a linear programming problem with a graph, with maximising and minimising examples and special cases.",
+"keyWords":["Optimal solution","Corner points","Maximise","Minimise","Redundant constraint"],
+"sections":[
+{"h":"Steps","p":["1. Graph all the constraints. 2. Shade the feasible region. 3. Find the corner points. 4. Work out the objective function at each corner. 5. Choose the largest (to maximise) or the smallest (to minimise) value. 6. State the answer in words."]},
+{"h":"Example 1: maximise P = 3x + 4y","p":["Subject to x + y ≤ 6, 2x + y ≤ 10, x ≥ 0, y ≥ 0. The corners are (0, 0), (0, 6), (4, 2) and (5, 0).","At (0, 0): P = 0. At (0, 6): P = 24. At (4, 2): P = 12 + 8 = 20. At (5, 0): P = 15. The maximum is 24 at (0, 6)."]},
+{"h":"Example 2: the chair factory","p":["Maximise P = 5000x + 6000y. The corners are (0, 0), (50, 0), (42, 12) and (0, 40).","At (0, 0): P = 0. At (50, 0): P = 250 000. At (42, 12): P = 210 000 + 72 000 = 282 000. At (0, 40): P = 240 000. The maximum is ₦282 000 when 42 dining chairs and 12 office chairs are made each week."]},
+{"h":"Example 3: minimise C = 2x + 3y","p":["Subject to x + y ≥ 4, 2x + y ≥ 6, x ≥ 0, y ≥ 0. Shade the region above both lines. The region has no upper limit (it is unbounded), but a minimum still exists because the costs are positive.","The corners are (0, 6) [where the line 2x + y = 6 meets the y-axis], (2, 2) [the lines cross: subtracting gives x = 2, y = 2] and (4, 0) [where x + y = 4 meets the x-axis].","At (0, 6): C = 18. At (2, 2): C = 4 + 6 = 10. At (4, 0): C = 8. The minimum is 8 at (4, 0). (Some printed notes give 10 at (2, 2). That misses the corner (4, 0), which satisfies both constraints: 4 ≥ 4 and 8 ≥ 6.)"]},
+{"h":"Example 4: the diet problem","p":["Minimise C = 200x + 250y subject to 2x + 3y ≥ 6, 2x + y ≥ 5, x ≥ 0, y ≥ 0. The corners are (0, 5), (3, 0) and the crossing point: subtract 2x + y = 5 from 2x + 3y = 6 to get 2y = 1, so y = 0.5 and x = 2.25. At (0, 5): C = 1 250. At (3, 0): C = 600. At (2.25, 0.5): C = 450 + 125 = 575. The minimum cost is ₦575 for 2.25 servings of A and 0.5 serving of B."]},
+{"h":"Example 5: a farmer","p":["Corn needs 3 hours per hectare and beans need 2 hours. There are 60 hours and 25 hectares. Profit is ₦50 000 per hectare of corn and ₦40 000 per hectare of beans. Let x = hectares of corn and y = hectares of beans. Constraints: 3x + 2y ≤ 60, x + y ≤ 25. The lines cross where 3x + 2y = 60 and x + y = 25: 3x + 2(25 − x) = 60, so x = 10 and y = 15. Corners: (0, 0), (20, 0), (10, 15), (0, 25). P at these: 0, 1 000 000, 500 000 + 600 000 = 1 100 000, 1 000 000. Plant 10 hectares of corn and 15 hectares of beans for a profit of ₦1 100 000."]},
+{"h":"Special cases","p":["Redundant constraint: maximise P = 2000x + 3000y subject to x + 2y ≤ 40 and 3x + 5y ≤ 120. Both lines pass through (40, 0), and the second line is above the first everywhere else, so it does not change the region: the region is the triangle (0, 0), (40, 0), (0, 20). P at (40, 0) is 80 000 and at (0, 20) is 60 000. Make 40 chairs and no tables.","Several optimal solutions: if the objective function line is parallel to a side of the region, two corners give the same best value and so do all the points between them.","No feasible solution: the constraints contradict each other, for example x + y ≤ 2 and x + y ≥ 5."]}
+],
+"activity":"Maximise P = 5x + 4y subject to x + y ≤ 8, x ≤ 5, x ≥ 0, y ≥ 0. (Corners (0, 0), (5, 0), (5, 3), (0, 8). P = 0, 25, 37, 32. Maximum 37 at (5, 3).)",
+"check":[
+{"q":"In Example 1, the maximum value of P = 3x + 4y is","o":["24","20","15","12"]},
+{"q":"In Example 3, the minimum value of C = 2x + 3y is","o":["8","10","18","6"]},
+{"q":"At (42, 12), P = 5000x + 6000y equals","o":["₦282 000","₦250 000","₦240 000","₦300 000"]},
+{"q":"To maximise we choose the corner with the","o":["largest value of the objective function","smallest value of the objective function","smallest x","smallest y"]},
+{"q":"For the corn and beans problem, the best plan is","o":["10 ha corn and 15 ha beans","20 ha corn only","25 ha beans only","15 ha corn and 10 ha beans"]}
+]},
+
+{"id":"m23-08","week":3,"title":"Bearings: Three-Figure, Compass and Back Bearings","icon":"Zap",
+"summary":"Revising how directions are described with bearings, how to change between the different ways of writing them, and how to find back bearings and angles between directions.",
+"keyWords":["Bearing","Three-figure bearing","Compass bearing","Back bearing","Parallel north lines"],
+"sections":[
+{"h":"Meaning","p":["A bearing is the direction of one place from another. It is measured clockwise from North and written with three figures (000° to 360°). To find the bearing of B from A, draw a North line at A, then measure the clockwise angle from the North line to the line AB."],"img":{"src":"mth2-bearings.png","alt":"A North arrow with the angle 065 degrees to point A and 290 degrees to point B, both measured clockwise from North","cap":"Bearings are measured clockwise from North."}},
+{"h":"Compass bearings","p":["N = 000°, NE = 045°, E = 090°, SE = 135°, S = 180°, SW = 225°, W = 270°, NW = 315°.","A direction such as N30°E means 30° from North towards East: 030°. S40°E means 40° from South towards East: 180° − 40° = 140°. S25°W = 180° + 25° = 205°. N50°W = 360° − 50° = 310°."]},
+{"h":"Back bearings","p":["The North lines at two places are parallel. So the back bearing is the bearing plus or minus 180°. If the bearing is below 180°, add 180°. If it is 180° or above, subtract 180°.","Bearing of B from A is 050°, so the bearing of A from B is 230°. Bearing of B from A is 310°, so the bearing of A from B is 130°."]},
+{"h":"Finding the angle between two directions","p":["The bearing of B from A is 070°. The bearing of C from B is 140°. Find angle ABC. The bearing of A from B is 070° + 180° = 250°. Angle ABC is the angle between BA (250°) and BC (140°): 250° − 140° = 110°.","Check with parallel lines: the angle between AB and the North line at A is 70°. The angle between BA and the North line at B is 360° − 250° = 110°. These are co-interior angles between the parallel North lines, so 70° + 110° = 180°. Correct."]},
+{"h":"Tips","p":["Always draw a North line at every point where you need a bearing. Write every bearing with three figures. Use the fact that angles on a straight line add up to 180° and that co-interior angles between parallel lines add up to 180°."]}
+],
+"activity":"Convert N60°W to a bearing (300°) and S35°E (145°). The bearing of Q from P is 125°. Find the bearing of P from Q (305°).",
+"check":[
+{"q":"The bearing of South-East is","o":["135°","225°","045°","315°"]},
+{"q":"S25°W as a three-figure bearing is","o":["205°","155°","335°","025°"]},
+{"q":"The back bearing of 050° is","o":["230°","130°","310°","050°"]},
+{"q":"The back bearing of 310° is","o":["130°","230°","050°","490°"]},
+{"q":"If the bearing of B from A is 070° and of C from B is 140°, angle ABC is","o":["110°","70°","140°","250°"]}
+]},
+
+{"id":"m23-09","week":3,"title":"Bearings: Problems with Triangles","icon":"Target",
+"summary":"Solving journey problems with bearings using Pythagoras, the cosine rule and the sine rule, and finding the final bearing.",
+"keyWords":["Journey","Interior angle","Cosine rule","Sine rule","Final bearing"],
+"sections":[
+{"h":"Method","p":["1. Draw a North line at each turning point. 2. Mark each bearing and distance. 3. Work out the angle inside the triangle at the turning point: interior angle = 180° − (second bearing − first bearing), when the second bearing is bigger and the turn is to the right. 4. Use Pythagoras, or the cosine rule, or the sine rule. 5. Use the angle at the start to get the final bearing."]},
+{"h":"Problem 1: a right angle","p":["A helicopter flies 50 km on a bearing of 040° from A to B, then 70 km on a bearing of 130° to C. The interior angle at B is 180° − (130° − 40°) = 90°. So AC = √(50² + 70²) = √(2 500 + 4 900) = √7 400 = 86.02 km. The angle BAC: tan (BAC) = 70/50 = 1.4, so BAC = 54.46°. The bearing of C from A is 040° + 54.46° = 094.46°, which is 094° to the nearest degree. The bearing of A from C is 094.46° + 180° = 274.46°, about 274°."]},
+{"h":"Problem 2: the cosine rule","p":["A ship sails 50 km on a bearing of 070° from A to B, then 40 km on a bearing of 150° from B to C. The interior angle at B = 180° − (150° − 70°) = 100°.","By the cosine rule: AC² = 50² + 40² − 2 × 50 × 40 × cos 100° = 4 100 − 4 000 × (−0.17365) = 4 100 + 694.6 = 4 794.6. AC = 69.24 km.","Use the sine rule to find angle A: sin A / 40 = sin 100° / 69.24, so sin A = 40 × 0.9848 / 69.24 = 0.5689 and A = 34.67°. The bearing of C from A is 070° + 34.67° = 104.67°, about 105°. The bearing of A from C is 285°."]},
+{"h":"Problem 3: two ships","p":["Two ships leave a port. One travels 60 km on 040° and the other travels 50 km on 130°. The angle between the paths is 130° − 40° = 90°, so the distance between them is √(60² + 50²) = √6 100 = 78.10 km."]}
+],
+"activity":"A boat sails 40 km on 060° and then 30 km on 150°. Find its distance from the start (50 km) and the bearing of the start from the boat (277°).",
+"check":[
+{"q":"The interior angle at B when the bearings are 040° then 130° is","o":["90°","170°","50°","130°"]},
+{"q":"A journey of 50 km on 040° then 70 km on 130° ends this far from the start","o":["86.02 km","120 km","20 km","74.8 km"]},
+{"q":"With 50 km on 070° then 40 km on 150°, the interior angle at B is","o":["100°","80°","70°","110°"]},
+{"q":"When the interior angle is not 90°, we use","o":["the cosine rule","Pythagoras only","a ruler only","a table of squares only"]},
+{"q":"The bearing of A from C is the bearing of C from A","o":["± 180°","unchanged","+ 90°","− 90°"]}
+]},
+
+{"id":"m23-10","week":4,"title":"Angles of Elevation and Depression: Meaning and Scale Drawing","icon":"Layers",
+"summary":"The meaning of angles of elevation and depression, how to measure them, and how to find heights by making a scale drawing.",
+"keyWords":["Angle of elevation","Angle of depression","Clinometer","Scale drawing","Horizontal"],
+"sections":[
+{"h":"Meanings","p":["The angle of elevation is the angle above the horizontal when you look up at something. The angle of depression is the angle below the horizontal when you look down at something. Both are measured from the horizontal line.","The angle of elevation from P to the top T of a tower is equal to the angle of depression from T to P, because they are alternate angles."],"img":{"src":"mth2-elevation.png","alt":"An observer on the ground looking up at the top of a tower, with the angle of elevation at the observer and the equal angle of depression at the top of the tower","cap":"Angle of elevation = angle of depression."}},
+{"h":"Measuring the angle","p":["A clinometer (a protractor with a straw and a hanging string) can be used. Look at the top of the tree through the straw and read the angle where the string crosses the protractor. Remember to add your eye height to the height you calculate."]},
+{"h":"Finding a height by scale drawing","p":["A tree is 60 m away on level ground and the angle of elevation of its top is 40°. Use a scale of 1 cm to 10 m. Draw a horizontal line AB 6 cm long (60 m). At A draw an angle of 40° with a protractor, and at B draw a line at 90° (upwards). Where the two lines meet, call the point C. Measure BC: it should be about 5.0 cm, which is about 50 m.","Check by calculation: height = 60 × tan 40° = 60 × 0.8391 = 50.3 m. Scale drawings give a good estimate but are less accurate than calculations."]},
+{"h":"Eye height","p":["A boy 1.5 m tall stands 20 m from a tree. The angle of elevation of its top is 40°. Height above his eyes = 20 × tan 40° = 20 × 0.8391 = 16.78 m. The tree is 16.78 + 1.5 = 18.28 m high, about 18.3 m."]},
+{"h":"The sun's rays","p":["A flagpole is 12 m high. The angle of elevation of the sun is 50°. The length of its shadow = 12 / tan 50° = 12 / 1.1918 = 10.07 m."]}
+],
+"activity":"By scale drawing (1 cm to 5 m), find the height of a pole 40 m away when the angle of elevation of its top is 35°. (Draw 8 cm and measure about 5.6 cm, which is 28 m; calculation: 40 × tan 35° = 28.0 m.)",
+"check":[
+{"q":"The angle of elevation is measured from the","o":["horizontal","vertical","slope","tower"]},
+{"q":"A tree 60 m away with elevation 40° has a height of about","o":["50.3 m","38.6 m","60 m","78.3 m"]},
+{"q":"A boy of height 1.5 m sees the top of a tree at 40° from 20 m. The tree's height is about","o":["18.3 m","16.8 m","20 m","21.5 m"]},
+{"q":"Shadow of a 12 m pole when the sun's elevation is 50° is about","o":["10.1 m","14.3 m","9.2 m","12 m"]},
+{"q":"The angle of elevation from the foot equals the angle of depression from the top because they are","o":["alternate angles","vertically opposite angles","co-interior angles","supplementary angles"]}
+]},
+
+{"id":"m23-11","week":4,"title":"Elevation and Depression: Problems","icon":"Target",
+"summary":"Harder problems with lighthouses, planes and cliffs, including problems with two observations.",
+"keyWords":["Lighthouse","Plane","Two boats","Line of sight"],
+"sections":[
+{"h":"Problem 1: two boats and a lighthouse","p":["From the top of a lighthouse 60 m high, the angles of depression of two boats in line with it are 30° and 45°, on the same side. The nearer boat (45°) is 60 / tan 45° = 60 m from the foot. The farther boat (30°) is 60 / tan 30° = 60 / 0.5774 = 103.92 m from the foot. The distance between the boats is 103.92 − 60 = 43.92 m.","If the boats are on opposite sides of the lighthouse, the distance between them is 103.92 + 60 = 163.92 m."]},
+{"h":"Problem 2: an aeroplane","p":["From an aeroplane flying at a height of 800 m, the angle of depression of the airport is 20°. The horizontal distance to the airport is 800 / tan 20° = 800 / 0.3640 = 2 198 m. The direct distance from the aeroplane to the airport (along the line of sight) is 800 / sin 20° = 800 / 0.3420 = 2 339 m."]},
+{"h":"Problem 3: two observation points","p":["From a point A on level ground the angle of elevation of the top of a tower is 30°. From a point B, 20 m nearer to the tower, it is 45°. Let B be d m from the foot. At B: h = d × tan 45° = d. At A: h = (d + 20) × tan 30°. So d = 0.5774(d + 20), 0.4226 d = 11.547 and d = 27.32 m. The tower is 27.3 m high."]},
+{"h":"Problem 4: a ladder and a wall","p":["A ladder 6 m long leans against a wall and makes 65° with the ground. It reaches 6 × sin 65° = 5.44 m up the wall. Its foot is 6 × cos 65° = 2.54 m from the wall."]},
+{"h":"Advice","p":["Draw the diagram first. Mark the horizontal line. The angle of depression is below the horizontal; do not measure it from the vertical wall. Choose sine, cosine or tangent by naming the sides you know and the side you want."]}
+],
+"activity":"A cliff is 40 m high. The angle of depression of a ship is 25°. How far is the ship from the foot of the cliff (85.8 m)? A tower of height 30 m is seen at an elevation of 60° from a point P. How far is P from the tower (30 / tan 60° = 17.3 m)?",
+"check":[
+{"q":"From a 60 m lighthouse a boat at 45° depression is this far from the foot","o":["60 m","42.4 m","85 m","30 m"]},
+{"q":"Two boats at 45° and 30° depression on the same side are about this far apart","o":["43.9 m","163.9 m","103.9 m","60 m"]},
+{"q":"A plane at 800 m height sees the airport at 20° depression. The horizontal distance is about","o":["2 198 m","291 m","800 m","2 339 m"]},
+{"q":"The tower in Problem 3 is about","o":["27.3 m high","20 m high","34.6 m high","15.7 m high"]},
+{"q":"A 6 m ladder at 65° to the ground reaches a height of about","o":["5.44 m","2.54 m","6 m","12.8 m"]}
+]}
+]

@@ -1,0 +1,166 @@
+[
+{"id":"b21-02","week":1,"title":"Nutrition and the Alimentary Canal: From Mouth to Stomach","icon":"Heart",
+"summary":"The five stages of nutrition, the parts of the alimentary canal, and how the mouth, oesophagus and stomach digest food.",
+"keyWords":["Ingestion","Digestion","Absorption","Assimilation","Egestion","Peristalsis","Chyme"],
+"sections":[
+{"h":"The stages of nutrition","p":["Nutrition is the process by which an organism takes in and uses food to support life. It has five stages.","Ingestion: taking food into the body. Digestion: breaking large, insoluble food molecules into small, soluble ones that can be absorbed. Absorption: the passage of digested food from the gut into the blood and lymph. Assimilation: the use of the absorbed nutrients by the body's cells for energy, growth and repair. Egestion: the removal of undigested food (such as cellulose fibre) as faeces. Egestion is not excretion, because the material was never part of the body's cells."]},
+{"h":"The alimentary canal","p":["The alimentary canal is a continuous muscular tube about 9 m long, from the mouth to the anus. The associated organs (salivary glands, liver, gall bladder and pancreas) add secretions."],"img":{"src":"bio2-digestive-system.jpg","alt":"A diagram of the human digestive system with the mouth, salivary glands, oesophagus, liver, gall bladder, stomach, pancreas, small intestine, large intestine, rectum and anus labelled","cap":"The human digestive system."}},
+{"h":"The mouth","p":["Teeth chew food (mechanical digestion) into a soft bolus and increase its surface area for enzymes. The tongue moves food, mixes it with saliva and starts swallowing. There are three pairs of salivary glands (parotid, sublingual, submandibular). Saliva contains water (to moisten), mucin (to lubricate) and salivary amylase (ptyalin), which begins the digestion of starch into maltose."]},
+{"h":"The oesophagus","p":["A muscular tube from the pharynx to the stomach. Peristalsis, a wave of contraction of the smooth muscle that pushes the bolus along, works even if you swallow while upside down."]},
+{"h":"The stomach","p":["A J-shaped, stretchy muscular bag that stores food and mixes it. Gastric glands in its wall secrete gastric juice, which has: hydrochloric acid (pH about 1.5 to 2.0: it denatures proteins, kills most germs and activates pepsinogen to pepsin); pepsin, an enzyme that breaks proteins into shorter polypeptides; and rennin (in infants) that clots milk protein so that it stays longer. Three layers of muscle churn the food into a semi-liquid called chyme. The pyloric sphincter lets small amounts into the small intestine at a time.","The stomach shows both kinds of digestion: mechanical (churning) and chemical (pepsin and acid)."]},
+{"h":"What happens to a piece of bread","p":["In the mouth the teeth crush it and saliva wets it; amylase starts changing starch to maltose. Peristalsis carries the bolus down the oesophagus. In the stomach, the acid stops the action of salivary amylase (which needs a neutral pH). The bread is churned into chyme; the small amount of protein in bread (gluten) starts to be digested by pepsin, but starch digestion has paused."]}
+],
+"activity":"Make a table of the five stages of nutrition with a definition and the main place for each. Explain why 'the stomach is a site of both mechanical and chemical digestion'. Keep a 24-hour food log and trace one meal through the digestive system.",
+"check":[
+{"q":"The removal of undigested food is called","o":["egestion","excretion","assimilation","absorption"]},
+{"q":"Salivary amylase begins the digestion of","o":["starch","protein","fat","cellulose"]},
+{"q":"Wave-like muscle contraction that moves food along the gut is","o":["peristalsis","diffusion","emulsification","absorption"]},
+{"q":"Hydrochloric acid in the stomach","o":["kills germs and activates pepsinogen","digests fat","digests starch","makes bile"]},
+{"q":"The semi-liquid food in the stomach is called","o":["chyme","bolus","bile","lymph"]}
+]},
+
+{"id":"b21-03","week":1,"title":"The Small and Large Intestine and the Liver and Pancreas","icon":"Layers",
+"summary":"The three parts of the small intestine, the large intestine, and the roles of the liver (bile) and pancreas (pancreatic juice) in digestion.",
+"keyWords":["Duodenum","Jejunum","Ileum","Colon","Bile","Pancreatic juice","Emulsification"],
+"sections":[
+{"h":"The small intestine","p":["The main place for digestion and absorption. It has three parts. The duodenum (about 25 cm) is C-shaped: chyme mixes with bile and pancreatic juice here and most chemical digestion is completed. The jejunum (about 2.5 m) is the middle part, where some absorption begins. The ileum (about 3.5 m) is the longest part and is specialised for absorption of digested food."]},
+{"h":"The large intestine (colon)","p":["Wider but shorter than the small intestine. It absorbs water and minerals from the undigested residue, making it solid as faeces. It contains friendly (symbiotic) bacteria that make vitamin K and some B vitamins. The rectum stores faeces until they leave through the anus."]},
+{"h":"The liver and bile","p":["The liver makes bile, a greenish-yellow alkaline fluid. Bile is not an enzyme. It has two jobs: (1) emulsification: bile salts break large fat droplets into tiny droplets, which increases the surface area many times so that the enzyme lipase can act quickly; (2) neutralisation: it neutralises the acid chyme from the stomach and gives the right pH (alkaline) for the pancreatic and intestinal enzymes. The gall bladder stores and concentrates bile and releases it through the bile duct into the duodenum when fat arrives."]},
+{"h":"The pancreas","p":["The pancreas is both an exocrine and an endocrine gland. Its exocrine part makes pancreatic juice, which has sodium hydrogencarbonate (to neutralise acid), pancreatic amylase (digests starch), trypsin (digests proteins) and pancreatic lipase (digests fats). These enter the duodenum by the pancreatic duct. (Its endocrine part makes insulin and glucagon.)"]},
+{"h":"Why bile matters even though it has no enzyme","p":["Fat does not mix with water, so lipase can only reach the surface of large fat globules. Bile breaks the globules into a fine emulsion, so the total surface area for lipase is much larger and digestion is fast."]}
+],
+"activity":"Name the three parts of the small intestine with one function of each. Explain why bile is needed for fat digestion even though it contains no enzymes. Research a digestive disorder such as gallstones or a stomach ulcer and report on its causes and effects.",
+"check":[
+{"q":"Most absorption of digested food occurs in the","o":["ileum","stomach","oesophagus","rectum"]},
+{"q":"Bile is made by the","o":["liver","pancreas","stomach","gall bladder"]},
+{"q":"Bile helps fat digestion by","o":["emulsification","hydrolysis","absorption","oxidation"]},
+{"q":"Water is absorbed mainly in the","o":["large intestine","duodenum","mouth","stomach"]},
+{"q":"Pancreatic juice enters the","o":["duodenum","stomach","ileum","rectum"]}
+]},
+
+{"id":"b21-04","week":2,"title":"Digestive Enzymes and Enzyme Specificity","icon":"Zap",
+"summary":"How digestive enzymes work (hydrolysis, lock and key), a table of the main enzymes, their pH and products, and an experiment on amylase.",
+"keyWords":["Enzyme","Hydrolysis","Specificity","Amylase","Pepsin","Trypsin","Lipase"],
+"sections":[
+{"h":"Enzymes: the molecular scissors","p":["Enzymes are biological catalysts, almost always proteins, that speed up reactions and are not used up. Digestive enzymes are hydrolases: they split large molecules by adding water (hydrolysis). Each enzyme is specific: its active site has a shape that fits only one kind of substrate, like a key in a lock. That is why starch, proteins and fats each need a different enzyme."],"img":{"src":"bio2-lock-key.jpg","alt":"The lock and key model showing a substrate fitting into the active site of an enzyme, forming an enzyme-substrate complex and releasing the products","cap":"The lock and key model of enzyme action."}},
+{"h":"The main digestive enzymes","p":["Study the table."],"tbl":{"head":["Where","Enzyme (source)","Substrate","Products","pH and notes"],"rows":[["Mouth","Salivary amylase (salivary glands)","Starch","Maltose","About 6.7 to 7.0; stopped by stomach acid"],["Stomach","Pepsin (gastric glands)","Proteins","Shorter peptides","About 1.5 to 2.5; made as inactive pepsinogen"],["Stomach (infants)","Rennin","Milk protein (caseinogen)","Curd (casein)","Acidic; makes milk stay longer"],["Duodenum","Pancreatic amylase","Starch","Maltose","About 8; alkaline"],["Duodenum","Trypsin (pancreas)","Proteins and peptides","Shorter polypeptides","Alkaline; made as inactive trypsinogen"],["Duodenum","Pancreatic lipase","Emulsified fats","Fatty acids and glycerol","Alkaline; needs bile"],["Ileum","Maltase (intestinal glands)","Maltose","Glucose","Alkaline"],["Ileum","Sucrase","Sucrose","Glucose and fructose","Alkaline"],["Ileum","Lactase","Lactose","Glucose and galactose","Lack of it causes lactose intolerance"],["Ileum","Peptidases (erepsin)","Peptides","Amino acids","Final step of protein digestion"]]}},
+{"h":"Why are some enzymes made inactive?","p":["Pepsinogen and trypsinogen are made as inactive forms so that they do not digest the cells that make them. They are activated (by acid, or by an intestinal enzyme) only inside the gut."]},
+{"h":"Experiment: amylase and starch","p":["Aim: to show that amylase digests starch. Hypothesis: starch will disappear and sugar will appear when amylase is added. Method: mix starch solution with saliva (or amylase solution) at 37 °C. At intervals, take drops and test with iodine solution: blue-black means starch is present; brown means starch is gone. Test the mixture with Benedict's solution and heat: an orange-brown colour shows reducing sugar (maltose). Control: starch with boiled saliva or with water gives no change. Result: the iodine test becomes negative and the Benedict's test positive over time."]}
+],
+"activity":"Explain why a different enzyme is needed to digest starch, proteins and fats, using the term 'enzyme specificity'. Design an experiment to show the action of amylase on starch. Make an enzyme table for amylase, pepsin, trypsin, lipase and maltase.",
+"check":[
+{"q":"Pepsin digests","o":["proteins","starch","fats","cellulose"]},
+{"q":"Lipase breaks down fats into","o":["fatty acids and glycerol","amino acids","glucose","maltose"]},
+{"q":"An enzyme works on one substrate only because of","o":["the shape of its active site","its colour","its size only","its temperature"]},
+{"q":"The final digestion of maltose to glucose is done by","o":["maltase","amylase","pepsin","trypsin"]},
+{"q":"Iodine solution turns blue-black with","o":["starch","protein","glucose","fat"]}
+]},
+
+{"id":"b21-05","week":2,"title":"Absorption in the Ileum and Assimilation","icon":"Target",
+"summary":"The adaptations of the ileum and the villus for absorption, how nutrients are absorbed, where they go, and the role of the liver in assimilation.",
+"keyWords":["Villus","Lacteal","Microvilli","Hepatic portal vein","Deamination","Glycogen"],
+"sections":[
+{"h":"Adaptations of the ileum","p":["1. Great length (over 3 m in the ileum alone). 2. Folds of Kerckring: circular folds of the wall. 3. Villi: millions of finger-like projections about 1 mm long. 4. Microvilli: the cells on each villus have a brush border of tiny projections, giving a huge extra surface. 5. A very good blood supply: every villus has a network of capillaries and a central lacteal (a lymph vessel). The epithelium is only one cell thick, so the diffusion distance is short."],"img":{"src":"bio2-villus.jpg","alt":"A diagram of the small intestine and an enlarged villus showing the blood capillaries, the lacteal and the epithelium","cap":"The structure of a villus."}},
+{"h":"How nutrients are absorbed","p":["Simple diffusion: fatty acids, glycerol and some vitamins move down their concentration gradient. Facilitated diffusion: carrier proteins without energy (fructose). Active transport: uses ATP to move nutrients against a gradient (glucose, galactose, amino acids), so absorption is complete even when the gut has little of them."]},
+{"h":"Where absorbed products go","p":["Glucose, fructose, galactose and amino acids enter the blood capillaries of the villi. These join to form the hepatic portal vein, which takes them straight to the liver.","Fatty acids and glycerol diffuse into the epithelial cells, are rebuilt into triglycerides, and are packed with protein into tiny droplets called chylomicrons. These are too big for the capillaries and enter the lacteals instead. The lymph later empties into the bloodstream near the heart. If a lacteal is blocked, fat absorption is poor and fats (and fat-soluble vitamins) are lost in the faeces."]},
+{"h":"Assimilation: the role of the liver","p":["Glucose control: the liver turns excess glucose into glycogen (glycogenesis) for storage, and turns glycogen back to glucose (glycogenolysis) when blood sugar is low.","Amino acids: used to build body proteins. Excess amino acids cannot be stored, so the liver removes the amino group (–NH₂) (deamination) and turns it into urea, which the kidneys excrete. The rest (the carbon part) is used for energy or made into fat.","Fats: the liver changes and repackages fats, makes cholesterol and breaks down old red blood cells.","The liver is vital because everything absorbed from the gut (except most fat) passes through it first, so it can store, change or remove substances to keep the blood composition steady."]},
+{"h":"Tracing a protein","p":["Meat protein → pepsin (stomach) → shorter peptides → trypsin (duodenum) → peptidases (ileum) → amino acids → absorbed by active transport into the capillaries → hepatic portal vein → liver → blood → muscle cell, where the amino acids are joined to make muscle protein."]}
+],
+"activity":"Build a model of a villus and label the epithelium, capillaries and lacteal. Predict the effect of a blocked lacteal on fat absorption. Describe two roles of the liver in assimilation.",
+"check":[
+{"q":"The vessel that carries absorbed glucose from the gut to the liver is the","o":["hepatic portal vein","aorta","vena cava","pulmonary vein"]},
+{"q":"Fatty acids and glycerol enter the","o":["lacteal","blood capillary directly","bile duct","pancreas"]},
+{"q":"Excess amino acids are changed in the liver to","o":["urea","glycogen only","bile","insulin"]},
+{"q":"Microvilli increase the","o":["surface area for absorption","speed of peristalsis","length of the gut","acidity"]},
+{"q":"Excess glucose is stored in the liver as","o":["glycogen","starch","cellulose","fat only"]}
+]},
+
+{"id":"b21-06","week":3,"title":"Why Organisms Need Transport Systems: Surface Area to Volume Ratio and Diffusion","icon":"Layers",
+"summary":"The SA:V ratio and why large organisms need transport systems, and diffusion with the factors that affect its rate.",
+"keyWords":["Surface area to volume ratio","Diffusion","Concentration gradient","Unicellular","Multicellular"],
+"sections":[
+{"h":"The surface area to volume ratio","p":["As an object gets bigger, its volume grows faster than its surface area, so the ratio of surface area to volume (SA:V) falls. Example: a cube with 1 mm sides has a surface area of 6 mm² and a volume of 1 mm³, so SA:V = 6 : 1. If the same volume is cut into 1 000 cubes of 0.1 mm, the total surface area is 60 mm² and SA:V = 60 : 1. A cube with 10 cm sides has SA:V = 600/1 000 = 0.6 : 1."]},
+{"h":"Single-celled and many-celled organisms","p":["Unicellular organisms such as Amoeba are small and have a high SA:V. Oxygen, food and wastes cross the cell membrane quickly by diffusion, and streaming of the cytoplasm (cyclosis) spreads materials inside. They need no transport system.","Large multicellular organisms (humans, elephants, trees) have a low SA:V. Cells deep inside are too far from the outside for diffusion to supply them fast enough. So they have transport systems: the circulatory system in animals and xylem and phloem in plants. Flatworms are flat so that every cell is near the surface and they do not need a heart; an elephant is very big with a small SA:V and needs one."]},
+{"h":"Diffusion","p":["Diffusion is the net movement of molecules from a region of higher concentration to a region of lower concentration (down a concentration gradient). It is a passive process (no ATP) driven by the kinetic energy of the particles.","Factors affecting its rate: (1) concentration gradient (the steeper, the faster); (2) temperature (higher means faster); (3) surface area (larger means more particles cross); (4) distance (shorter means faster); (5) size of molecules (smaller diffuse faster).","Examples: gas exchange in alveoli; movement of neurotransmitters across a synapse; absorption of some digested food in the ileum; oxygen entering a leaf."]}
+],
+"activity":"Use the SA:V ratio to explain why an amoeba does not need a heart but an elephant needs a circulatory system. Calculate SA:V for a cube of side 2 cm (24/8 = 3 : 1) and a cube of side 4 cm (96/64 = 1.5 : 1). Explain what happens to the ratio as size increases.",
+"check":[
+{"q":"A cube with 1 mm sides has an SA:V of","o":["6 : 1","1 : 6","60 : 1","0.6 : 1"]},
+{"q":"As an organism gets larger, its SA:V","o":["decreases","increases","stays the same","becomes infinite"]},
+{"q":"Diffusion is the movement of particles","o":["down a concentration gradient","against a concentration gradient","using ATP","only in liquids"]},
+{"q":"Which does NOT increase the rate of diffusion?","o":["A longer diffusion distance","A steeper gradient","A higher temperature","A larger surface area"]},
+{"q":"Large organisms need transport systems because of their","o":["low SA:V ratio","high SA:V ratio","small size","cell walls"]}
+]},
+
+{"id":"b21-07","week":3,"title":"Osmosis and Active Transport","icon":"BarChart2",
+"summary":"Osmosis and water potential, the effects of osmosis on animal and plant cells, active transport, and a comparison of the three transport processes.",
+"keyWords":["Osmosis","Water potential","Turgid","Plasmolysis","Active transport","ATP"],
+"sections":[
+{"h":"Osmosis","p":["Osmosis is the net movement of water molecules from a region of higher water potential (a dilute solution) to a region of lower water potential (a concentrated solution) through a selectively permeable membrane. Pure water has the highest water potential (Ψ = 0); adding solute lowers it (makes it more negative). Osmosis is passive."]},
+{"h":"Osmosis in animal cells (red blood cells)","p":["Isotonic solution (same water potential as the cell): the cell stays normal. Hypotonic solution (outside more dilute): water enters, the cell swells and may burst (lysis). Hypertonic solution (outside more concentrated): water leaves and the cell shrinks and becomes spiky (crenation)."],"img":{"src":"bio2-tonicity.jpg","alt":"Three beakers showing a red blood cell in isotonic, hypotonic and hypertonic solutions: normal, swollen and shrunken","cap":"Red blood cells in isotonic, hypotonic and hypertonic solutions."}},
+{"h":"Osmosis in plant cells","p":["In a hypotonic solution (such as pure water), water enters, the cytoplasm pushes on the strong cell wall and the cell becomes turgid. This supports non-woody plants. In a hypertonic solution, water leaves the vacuole, the cytoplasm shrinks away from the wall (plasmolysis) and the plant wilts.","Examples: a dried apricot swells in pure water because its cells take up water by osmosis. A fresh cucumber in concentrated salt water becomes limp because water leaves its cells by osmosis."]},
+{"h":"Active transport","p":["Active transport is the movement of substances from a region of lower concentration to a region of higher concentration, against the gradient. It needs energy (ATP from respiration) and specific carrier proteins in the membrane, which act as pumps and change shape to carry the substance across.","Examples: the sodium-potassium pump (needed for nerve impulses); uptake of mineral ions by root hair cells (soil water is very dilute, so ions must be pumped in); reabsorption of glucose and amino acids in the kidney tubules; absorption of glucose in the ileum."],"img":{"src":"bio2-transport-processes.jpg","alt":"An infographic comparing diffusion, osmosis and active transport, with their direction and energy needs","cap":"Diffusion, osmosis and active transport."}},
+{"h":"Comparison","p":["Study the table."],"tbl":{"head":["Feature","Diffusion","Osmosis","Active transport"],"rows":[["What moves","Any particle (gases, solutes)","Water only","Specific ions or molecules"],["Direction","Down the concentration gradient","Down the water potential gradient","Against the gradient"],["Membrane","Not essential","Selectively permeable","With carrier proteins"],["Energy (ATP)","No","No","Yes"],["Saturation","No (rate rises with the gradient)","No","Yes (limited by the number of carriers)"]]}}
+],
+"activity":"Design an experiment to show osmosis using potato strips in sugar or salt solutions. A red blood cell is put in distilled water; predict and explain what happens. Describe the roles of ATP and carrier proteins in active transport and say why it is needed by plant roots.",
+"check":[
+{"q":"Osmosis is the movement of","o":["water across a selectively permeable membrane","solutes against a gradient","gases only","ions using ATP"]},
+{"q":"A red blood cell in pure water","o":["swells and may burst","shrinks","stays the same","divides"]},
+{"q":"A plant cell that is full of water and firm is","o":["turgid","plasmolysed","flaccid","dead"]},
+{"q":"Active transport needs","o":["ATP","no energy","only light","only heat"]},
+{"q":"Mineral ions enter root hair cells mainly by","o":["active transport","osmosis","diffusion only","filtration"]}
+]},
+
+{"id":"b21-08","week":4,"title":"The Mammalian Circulatory System and the Heart","icon":"Heart",
+"summary":"Closed double circulation, the structure of the heart, valves and the cardiac cycle.",
+"keyWords":["Double circulation","Atrium","Ventricle","Valves","Cardiac cycle","Coronary artery"],
+"sections":[
+{"h":"Closed, double circulation","p":["Mammals have a closed circulatory system: blood stays inside vessels (arteries, veins and capillaries), so blood pressure is high and flow can be controlled. It is a double circulation: the blood passes through the heart twice in each circuit of the body.","Pulmonary circulation: right side of the heart → lungs → left side of the heart (for gas exchange). Systemic circulation: left side of the heart → body tissues → right side of the heart (delivers oxygen and nutrients and removes wastes)."]},
+{"h":"The heart","p":["A four-chambered muscular organ in the chest, slightly to the left, protected by the ribs.","Atria (upper chambers, thin walls) receive blood. The right atrium receives deoxygenated blood from the body through the vena cava. The left atrium receives oxygenated blood from the lungs through the pulmonary veins.","Ventricles (lower chambers, thick walls) pump blood out. The right ventricle pumps blood to the lungs through the pulmonary artery. The left ventricle pumps blood to the whole body through the aorta, and has the thickest wall because it must push blood through the long systemic circuit at high pressure.","Valves: atrioventricular valves (tricuspid on the right with 3 flaps, bicuspid or mitral on the left with 2 flaps) stop blood flowing back into the atria. Semilunar valves at the base of the pulmonary artery and aorta stop blood flowing back into the ventricles."],"img":{"src":"bio2-heart.jpg","alt":"A labelled diagram of the heart showing the vena cava, atria, ventricles, valves, pulmonary artery and veins, and aorta","cap":"The structure of the heart and the flow of blood."}},
+{"h":"The cardiac cycle","p":["One heartbeat takes about 0.8 s. (a) Atrial systole: the atria contract and push blood into the ventricles. (b) Ventricular systole: the ventricles contract; the AV valves shut ('lub'); the semilunar valves open and blood is pushed into the arteries. (c) Diastole: all chambers relax; the semilunar valves shut ('dub'); the heart refills from the veins.","The coronary arteries, the first branches of the aorta, supply the heart muscle itself with blood. A blockage causes a heart attack (myocardial infarction)."]},
+{"h":"Tracing the blood","p":["Right ventricle → pulmonary artery → lungs → pulmonary vein → left atrium → bicuspid valve → left ventricle → aorta → body → vena cava → right atrium → tricuspid valve → right ventricle."]}
+],
+"activity":"Trace a drop of blood from the right ventricle to the aorta, naming all chambers, valves and vessels. Explain why the left ventricle has a thicker wall than the right. Draw and label the heart.",
+"check":[
+{"q":"The chamber that pumps blood to the whole body is the","o":["left ventricle","right atrium","right ventricle","left atrium"]},
+{"q":"The valve between the left atrium and left ventricle is the","o":["bicuspid valve","tricuspid valve","semilunar valve","aortic valve"]},
+{"q":"The 'dub' sound is made when","o":["the semilunar valves close","the AV valves close","the atria contract","the heart fills"]},
+{"q":"Blood is carried to the lungs by the","o":["pulmonary artery","aorta","vena cava","pulmonary vein"]},
+{"q":"The coronary arteries supply","o":["the heart muscle","the lungs","the brain","the kidneys"]}
+]},
+
+{"id":"b21-09","week":4,"title":"Blood Vessels and the Components of Blood","icon":"Target",
+"summary":"Arteries, veins and capillaries compared, and plasma, red cells, white cells and platelets with blood clotting.",
+"keyWords":["Artery","Vein","Capillary","Plasma","Haemoglobin","Phagocyte","Platelet"],
+"sections":[
+{"h":"Blood vessels","p":["The structure of each vessel suits its job."],"img":{"src":"bio2-blood-vessels.jpg","alt":"Cross-sections of an artery and a vein showing the layers of the wall, the valve in the vein and the capillary network between them","cap":"An artery, a vein and capillaries."},"tbl":{"head":["Feature","Artery","Capillary","Vein"],"rows":[["Function","Carries blood away from the heart","Exchange with tissues","Carries blood to the heart"],["Wall","Thick, muscular and elastic","One cell thick","Thin, less muscle"],["Lumen","Narrow","Just wide enough for one red cell","Wide"],["Blood pressure","High","Falls sharply","Low"],["Valves","No (except at the heart)","No","Yes, to stop backflow"],["Blood carried","Oxygenated (except pulmonary)","Mixed","Deoxygenated (except pulmonary)"]]}},
+{"h":"Blood","p":["Blood is a connective tissue of cells in a liquid called plasma. Plasma (about 55%) is a straw-coloured liquid, 92% water. It carries blood cells, nutrients, hormones, urea, CO₂ and heat.","Red blood cells (erythrocytes) have no nucleus in mammals and are packed with haemoglobin. Their biconcave shape gives a large surface area for gas exchange and makes them flexible. Haemoglobin joins reversibly with oxygen in the lungs to form oxyhaemoglobin and releases it in the tissues.","White blood cells (leucocytes) are larger and have a nucleus. Phagocytes (neutrophils and macrophages) engulf and digest germs (phagocytosis): a non-specific defence. Lymphocytes give specific immunity: B cells make antibodies and T cells destroy infected body cells."],"img":{"src":"bio2-phagocytosis.jpg","alt":"A phagocyte engulfing a bacterium by phagocytosis","cap":"Phagocytosis."}},
+{"h":"Platelets and clotting","p":["Platelets are small cell fragments that help blood to clot. When a vessel is cut: (1) the vessel narrows (vasoconstriction); (2) platelets stick to the damaged place and form a temporary plug; (3) coagulation: chemicals released by platelets and damaged tissue change the soluble protein fibrinogen into insoluble fibrin threads, which trap red cells and form a clot. The clot stops blood loss and keeps germs out until the wound heals."]}
+],
+"activity":"Create a table of three differences between an artery and a vein. Match each blood component (plasma, red cell, phagocyte, lymphocyte, platelet) to its function. Explain how the shape of a red blood cell suits its function.",
+"check":[
+{"q":"The vessels that have valves are","o":["veins","arteries","capillaries","all of them"]},
+{"q":"Red blood cells carry oxygen using","o":["haemoglobin","plasma","fibrin","antibodies"]},
+{"q":"Cells that engulf germs are","o":["phagocytes","platelets","red cells","lymphocytes only"]},
+{"q":"Fibrinogen becomes","o":["fibrin","platelets","plasma","antibody"]},
+{"q":"Capillary walls are one cell thick so that","o":["exchange is fast","pressure is high","blood is stored","clots form"]}
+]},
+
+{"id":"b21-10","week":6,"title":"The Respiratory System: Structure and Gas Exchange","icon":"Zap",
+"summary":"Breathing versus cellular respiration, the parts of the respiratory tract and how each is adapted, and the structure of the alveoli.",
+"keyWords":["Trachea","Bronchi","Alveoli","Epiglottis","Mucociliary escalator","Respiratory membrane"],
+"sections":[
+{"h":"Breathing and respiration","p":["Breathing (ventilation) is the movement of air into and out of the lungs; it is a physical process. Cellular respiration is the chemical release of energy from glucose in cells. They are linked: breathing brings in the oxygen that cells need for respiration and removes the carbon dioxide that respiration produces."]},
+{"h":"The respiratory tract","p":["1. Nostrils and nasal cavity: lined with hairs and ciliated mucous membrane. They filter (hairs and mucus trap dust and germs), warm (blood capillaries), moisten the air and contain the smell receptors.","2. Pharynx: a shared passage for air and food. The epiglottis, a flap of cartilage, closes over the glottis when we swallow so that food goes into the oesophagus and we do not choke.","3. Larynx (voice box): cartilage plates (the Adam's apple is the thyroid cartilage) and the vocal cords, which vibrate to make sound; pitch depends on their tension.","4. Trachea (windpipe): 10 to 12 cm long, held open by C-shaped rings of cartilage that stop it collapsing when pressure drops during breathing in. It is lined with ciliated cells and goblet cells. Goblet cells make mucus that traps dirt; the cilia beat upwards (the mucociliary escalator) to sweep it to the throat, where it is swallowed or coughed out.","5. Bronchi and bronchioles: the trachea divides into two bronchi (one to each lung) and then into smaller bronchioles. As they get smaller, there is less cartilage and more smooth muscle, which controls the flow of air.","6. Alveoli: the bronchioles end in clusters of tiny air sacs. There are about 300 to 500 million alveoli, giving a surface area of about 70 to 100 m²."]},
+{"h":"Adaptations of the alveoli","p":["1. A large surface area (millions of alveoli). 2. A thin diffusion path: the alveolus wall and the capillary wall are each one cell thick, and the respiratory membrane is only about 0.5 to 1 µm thick. 3. A moist surface so that gases can dissolve. 4. A rich blood supply of capillaries, which keeps a steep concentration gradient by bringing deoxygenated blood and carrying oxygenated blood away. 5. Surfactant, a detergent-like secretion that lowers the surface tension of the fluid so that the alveoli do not collapse when we breathe out. (That is about a quarter of the area of a tennis court, packed inside your chest.)"],"img":{"src":"bio2-alveolus.jpg","alt":"Gas exchange between an alveolus and a pulmonary capillary with oxygen diffusing into the blood and carbon dioxide diffusing out","cap":"Gas exchange in an alveolus."}},
+{"h":"Gas exchange","p":["Oxygen is at a high concentration in the alveolus and low in the blood arriving from the body, so it diffuses into the blood and joins haemoglobin. Carbon dioxide is at a higher concentration in the blood than in the alveolus, so it diffuses into the air to be breathed out."],"img":{"src":"bio2-gas-exchange.jpg","alt":"A cycle showing gas exchange between the lungs, red blood cells and body organs","cap":"Oxygen and carbon dioxide in the body."}}
+],
+"activity":"Trace the path of an oxygen molecule from the nostrils to an alveolus and say how the air is changed. Describe three adaptations of the alveoli. Explain the difference between breathing and cellular respiration.",
+"check":[
+{"q":"The flap that stops food entering the windpipe is the","o":["epiglottis","larynx","pharynx","glottis"]},
+{"q":"The C-shaped rings of the trachea are made of","o":["cartilage","bone","muscle","cilia"]},
+{"q":"Surfactant in the alveoli","o":["reduces surface tension","makes mucus","digests dust","stores oxygen"]},
+{"q":"Gas exchange takes place in the","o":["alveoli","trachea","bronchi","larynx"]},
+{"q":"Cilia in the trachea","o":["sweep mucus upwards","make sound","absorb oxygen","produce surfactant"]}
+]}
+]

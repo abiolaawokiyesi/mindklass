@@ -1,0 +1,158 @@
+[
+    {
+        "id":  "b22-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "Welcome to SS2 Biology Second Term: ecology, pollution, conservation, crop pests and diseases, reproduction in vertebrates and plants, pollination and homeostasis.",
+        "keyWords":  [
+                         "SS2 Biology - Second Term",
+                         "Syllabus",
+                         "Table of contents"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to SS2 Biology - Second Term",
+                             "p":  [
+                                       "Welcome to SS2 Biology, Second Term. We begin with how living things relate to each other and to their surroundings, study pollution and how to conserve nature, look at crop pests and diseases, compare reproduction in vertebrates and flowering plants, and end with how the body keeps itself steady (homeostasis).",
+                                       "Read each unit slowly, study the pictures and answer the short check questions. Where the original lesson note needed a correction or a Nigerian example, it is explained in the unit."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for SS2 Biology - Second Term",
+                             "p":  [
+                                       "Here is the plan for the term. Tick each unit when you finish it."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "1",
+                                                          "Ecology: Levels of Organisation and Associations Between Organisms"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "1",
+                                                          "Tolerance and Adaptation"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Pollution: Air and Water"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "2",
+                                                          "Pollution: Soil and Noise, and the Control of Pollution"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "Conservation of Natural Resources"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "4",
+                                                          "Pests of Crops"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "4",
+                                                          "Diseases of Crops"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "Control of Pests and Diseases"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "6",
+                                                          "Reproduction in Vertebrates: Fertilisation and the Mammalian System"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "Comparing Reproduction in Fish, Amphibians, Reptiles, Birds and Mammals"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "8",
+                                                          "The Flower and Its Parts"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "8",
+                                                          "Types of Flowers: Bisexual, Unisexual, Monoecious, Dioecious, Monocot and Dicot"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "9",
+                                                          "Pollination: Self and Cross"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "9",
+                                                          "Agents of Pollination: Wind, Insects, Birds and Bats"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "10",
+                                                          "Homeostasis and Temperature Control"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "10",
+                                                          "Controlling Blood Sugar and Water: More Examples of Homeostasis"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "11",
+                                                          "Second Term Revision"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look through the table of contents and mark the topics you find hardest. Plan extra time for them.",
+        "check":  [
+                      {
+                          "q":  "Which topic opens the term?",
+                          "o":  [
+                                    "Ecology",
+                                    "Digestion",
+                                    "Genetics",
+                                    "Respiration"
+                                ]
+                      },
+                      {
+                          "q":  "Which unit deals with insulin and glucagon?",
+                          "o":  [
+                                    "Controlling blood sugar and water",
+                                    "The flower and its parts",
+                                    "Soil pollution",
+                                    "Pest control"
+                                ]
+                      },
+                      {
+                          "q":  "Pollination is studied in",
+                          "o":  [
+                                    "Weeks 9",
+                                    "Week 1 only",
+                                    "The first term",
+                                    "No unit"
+                                ]
+                      }
+                  ]
+    }
+]

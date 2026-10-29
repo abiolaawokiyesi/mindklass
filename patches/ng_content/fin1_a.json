@@ -1,0 +1,205 @@
+[
+{"id":"fa1-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Financial Accounting First Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Book-keeping","Double entry","Ledger","Journal","Cash book"],
+"sections":[
+{"h":"Welcome to Financial Accounting","p":["Every business, from a roadside provision store to a big company, must know how much money it has, how much it owes, and whether it is making a profit. Financial Accounting is the subject that teaches you how to record, sort and report this information so that owners, banks, the tax office and workers can all trust it.","In First Term you learn what book-keeping and accounting are, the rules of behaviour (ethics) every accountant follows, the double entry system that is the heart of accounting, how to write ledger accounts and journals, the basic ideas (concepts) behind all accounts, and how to keep an analytical cash book.","Read each unit slowly. Accounting is learned by doing: copy every worked example in your notebook and then try the practice work yourself. At the end of every unit are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for First Term","p":["The units follow the scheme of work. Week 5 is the midterm examination and Week 7 is the midterm break."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Book-keeping and accounting: meanings and differences"],
+["3","1","Importance of accounting"],
+["4","2","Ethics of accounting: professional conduct"],
+["5","2","Confidentiality, transparency, integrity and ethical dilemmas"],
+["6","3","Double entry: meaning and types of accounts"],
+["7","3","Golden rules, debit and credit, and simple entries"],
+["8","4","Ledger accounts in T format"],
+["9","4","Balancing accounts: a worked example"],
+["10","6","Accounting concepts: meaning and going concern"],
+["11","6","Accrual and materiality concepts"],
+["12","8","Consistency and dual aspect concepts"],
+["13","8","Prudence concept and applying all the concepts"],
+["14","9","The general journal: meaning, format and uses"],
+["15","9","Journal entries and compound entries"],
+["16","10","The analytical cash book: meaning and format"],
+["17","10","Preparing and posting the analytical cash book"],
+["18","11","Revision summary"]]}}
+],
+"activity":"Look at the units. Which unit will teach you how to record that a customer has paid you? Which unit tells you how an accountant should treat a client's secrets?",
+"check":[
+{"q":"In which unit do you study the golden rules?","o":["Unit 7","Unit 3","Unit 12","Unit 16"]},
+{"q":"Which unit covers the analytical cash book format?","o":["Unit 16","Unit 2","Unit 9","Unit 14"]},
+{"q":"In which unit do you study the prudence concept?","o":["Unit 13","Unit 5","Unit 8","Unit 15"]},
+{"q":"Which unit covers ethics of accounting?","o":["Unit 4","Unit 6","Unit 10","Unit 17"]}]},
+
+{"id":"fa1-02","week":1,"title":"Book-keeping and Accounting: Meanings and Differences","icon":"BookOpen","summary":"What book-keeping is, what accounting is, examples of each, and four or more differences between them.",
+"keyWords":["Book-keeping","Accounting","Transaction","Financial statements","Record"]
+,"sections":[
+{"h":"Meaning of book-keeping","p":["Book-keeping is the process of recording financial transactions in a systematic and time-order (chronological) way in the books of account. A transaction is any exchange that has a money value, such as buying goods, selling goods or paying rent.","Features of book-keeping: it deals with recording only; the work is routine and repeated; it is clerical in nature; it does not need special professional skills; it is concerned with HOW to record.","Examples of book-keeping activities: recording sales in the sales book; recording purchases in the purchases book; posting entries to the ledger; keeping the cash book; filing vouchers and invoices."]},
+{"h":"Meaning of accounting","p":["Accounting is the process of identifying, measuring, recording and communicating financial information so that the people who use it can make informed judgments and decisions. It includes book-keeping and goes further: it summarises, analyses and interprets the records.","Features of accounting: it includes book-keeping plus analysis and interpretation; it needs professional judgment; it is concerned with WHY and WHAT DOES IT MEAN.","Examples of accounting activities: preparing financial statements; analysing profitability; calculating ratios; giving financial advice; auditing accounts (checking that accounts are true and fair)."],
+"img":{"src":"fin-cycle.png","alt":"A row of six boxes from business transaction to source document, books of original entry, ledger accounts, trial balance and financial statements, with a bracket under the first four for book-keeping and a longer bracket under all six for accounting","cap":"From transaction to financial statements: book-keeping covers the recording steps; accounting covers the whole process."}},
+{"h":"Differences between book-keeping and accounting","p":["Study the table."],
+"tbl":{"head":["Book-keeping","Accounting"],"rows":[
+["Recording only","Recording, analysing and interpreting"],
+["Routine work","Analytical work"],
+["Clerical level","Professional level"],
+["No special skills needed","Needs expertise"],
+["Is a part of accounting","Is broader than book-keeping"],
+["Does not help in decision making","Helps in decision making"],
+["Done by book-keepers or clerks","Done by accountants"],
+["Example: recording a sale in the sales book","Example: preparing an income statement and advising management"]]}}
+],
+"activity":"A trader records every sale and purchase carefully in books but never works out whether she is making a profit. Is she doing book-keeping, accounting, or both? Explain. (Book-keeping only: she records, but does not summarise or interpret.)",
+"check":[
+{"q":"Recording transactions in a systematic way is","o":["Book-keeping","Auditing","Budgeting","Banking"]},
+{"q":"Which is done by an accountant rather than a book-keeper?","o":["Preparing financial statements","Filing invoices","Recording in the sales book","Posting to the ledger"]},
+{"q":"Accounting is","o":["Broader than book-keeping","Narrower than book-keeping","The same as book-keeping","Part of banking only"]},
+{"q":"Which question does accounting try to answer?","o":["What does it mean?","How many pages are in the book?","Who lives here?","When is lunch?"]},
+{"q":"A transaction is","o":["An exchange with a money value","Any conversation","A letter","A signature"]}]},
+
+{"id":"fa1-03","week":1,"title":"Importance of Accounting","icon":"BarChart2","summary":"Ten reasons why accounting matters to owners, managers, banks, the government and the law.",
+"keyWords":["Profit or loss","Financial position","Control","Legal evidence","Loans"]
+,"sections":[
+{"h":"Why do we need accounting?","p":["A business owner may say, 'I do not need accounting; I know how much money I have.' That thinking is wrong, because money in the pocket does not show what is owed, what is owned, or whether the business earned a profit. Accounting is important for these reasons."]},
+{"h":"Ten uses of accounting","p":["1. Keeping systematic records: all transactions are recorded properly, past records are easy to find and information is not lost.","2. Measuring profit or loss: it shows whether the business is making a profit and whether it is worth continuing.","3. Showing the financial position: it shows what the business owns (assets), what it owes (liabilities) and what the owner has put in (capital), which shows the net worth.","4. Helping decision making: it gives information for planning and for choosing between alternatives, such as whether to buy a van or hire one.","5. Comparison: this year can be compared with earlier years and with other businesses, so trends can be seen.","6. Meeting legal requirements: companies must keep accounts by law, the tax authorities need them, and regulators require them.","7. Control: it helps to detect errors and fraud, prevents theft of money and goods, and makes people accountable.","8. Evidence in court: properly kept records can be used as evidence in disputes and legal cases.","9. Valuing the business: records help to decide the worth of a business for sale, or when a partner joins or leaves.","10. Getting loans: banks ask for financial statements to see whether a business can repay."]},
+{"h":"Who uses accounting information?","p":["Users include the owner, managers, workers, banks and other lenders, suppliers (who may sell on credit), customers, the Federal Inland Revenue Service and state tax bodies, and investors. Each wants different information from the same accounts."]}
+],
+"activity":"Give five reasons why a business owner who says 'I know how much money I have' still needs accounting. (Profit or loss, debts owed, debts owing to him, decisions, loans, tax, protection against theft.)",
+"check":[
+{"q":"Accounting shows what the business owns, which are its","o":["Assets","Liabilities","Expenses","Drawings"]},
+{"q":"Banks ask for financial statements before giving","o":["Loans","Salaries","Receipts","Discounts"]},
+{"q":"Accounting records help to detect","o":["Errors and fraud","Weather","Illness","Traffic"]},
+{"q":"Properly kept accounts can be used as","o":["Evidence in court","Medicine","Food","Fuel"]},
+{"q":"Comparing this year with last year shows","o":["Trends","Birthdays","Colours","Distances"]}]},
+
+{"id":"fa1-04","week":2,"title":"Ethics of Accounting: Professional Conduct","icon":"Shield","summary":"What accounting ethics are, why they matter, and the five principles of professional conduct with examples.",
+"keyWords":["Ethics","Integrity","Objectivity","Competence","Due care"]
+,"sections":[
+{"h":"Meaning of accounting ethics","p":["Accounting ethics are the moral principles and standards that guide the behaviour of accountants and make sure that financial reports are honest. In Nigeria, professional accountants belong to bodies such as the Institute of Chartered Accountants of Nigeria (ICAN) and the Association of National Accountants of Nigeria (ANAN), which set the rules.","Why ethics matter: they keep public trust; they protect the good name of the profession; they protect the interests of everyone who uses the accounts; they make financial information accurate; and they prevent fraud and the changing of figures to deceive people."]},
+{"h":"Professional conduct","p":["Professional conduct means the standard of behaviour expected from accounting professionals. The main principles are these.","1. Integrity: being honest and straightforward, not falsifying records, and admitting mistakes. Example: not increasing profit figures just to please the owner.","2. Objectivity: being fair and unbiased, not favouring any party, and letting facts guide decisions. Example: an auditor who does not favour a friend's company.","3. Professional competence: keeping knowledge and skills up to date and doing work properly. Example: attending training on new tax laws.","4. Professional behaviour: obeying laws and rules and avoiding actions that bring the profession into disrepute. Example: refusing to take part in tax evasion.","5. Due care: working carefully and diligently, meeting deadlines and checking one's work. Example: reviewing financial statements thoroughly before signing."]},
+{"h":"A note on the principles","p":["Professional bodies usually list five fundamental principles: integrity, objectivity, professional competence and due care (written together as one), confidentiality, and professional behaviour. Your notes treat confidentiality separately (next unit) and split competence and due care into two. Both ways of grouping teach the same ideas."]}
+],
+"activity":"An accountant adds ₦200,000 to the profit so that the owner can get a bigger bank loan. Which principles has the accountant broken? (Integrity, professional behaviour and objectivity.)",
+"check":[
+{"q":"Being honest and not falsifying records is","o":["Integrity","Objectivity","Confidentiality","Due care"]},
+{"q":"An auditor who does not favour a friend's company shows","o":["Objectivity","Competence","Secrecy","Speed"]},
+{"q":"Attending training on new tax laws shows","o":["Professional competence","Dishonesty","Bias","Fraud"]},
+{"q":"Checking your work carefully and meeting deadlines is","o":["Due care","Bribery","Gossip","Delay"]},
+{"q":"Ethics matter because they","o":["Keep public trust","Increase taxes","Hide losses","Remove records"]}]},
+
+{"id":"fa1-05","week":2,"title":"Confidentiality, Transparency, Integrity and Ethical Dilemmas","icon":"Shield","summary":"Keeping client information private, being open in reporting, having strong moral principles, and solving common ethical problems.",
+"keyWords":["Confidentiality","Transparency","Disclosure","Moral courage","Dilemma"]
+,"sections":[
+{"h":"Confidentiality","p":["Confidentiality means keeping client information private and not telling it to anyone without proper authority.","Do not disclose: the client's financial information, business secrets, personal details or trade information.","When disclosure is allowed: when the law requires it (for example a court order); when the client gives permission; to professional regulatory bodies; and when it is needed to protect the public interest.","Good examples: not discussing a client's profits with friends; not giving a client list to competitors; keeping salary information private. Bad examples: telling others about a company's money problems; using client information for personal gain.","Breaking confidentiality can lead to loss of licence, legal action, damage to reputation, loss of clients, and fines."]},
+{"h":"Transparency","p":["Transparency means being open, honest and clear in all financial reporting. It needs full disclosure (reporting all important information and explaining the accounting policies used), clarity (clear, understandable presentation that does not mislead) and accuracy (correct figures that show the true position).","Examples of transparency: disclosing all liabilities, not just some; explaining unusual transactions; reporting losses honestly. Examples of the opposite: hiding bad debts; creating false invoices; leaving out large expenses.","Benefits: it builds trust, helps better investment decisions, prevents fraud, improves the reputation of the company and supports good governance."]},
+{"h":"Integrity","p":["Integrity means being honest and having strong moral principles in all professional dealings. Its parts are: honesty (telling the truth); ethical behaviour (doing what is right, not just what is legal); consistency (keeping the same standard for everyone); and moral courage (standing up for what is right and speaking out against wrong).","Threats to integrity: pressure from management, personal gain, fear of losing a job or client, lack of knowledge and a weak ethical culture. How to protect integrity: know the professional standards; ask for guidance when unsure; write down your decisions; report unethical behaviour; and put the public interest first."]},
+{"h":"Ethical dilemmas and solutions","p":["Study the table."],
+"tbl":{"head":["Problem","What to do"],"rows":[
+["Your boss asks you to backdate an invoice","Refuse politely and explain that it is unethical and illegal"],
+["A client offers you a gift to influence your audit opinion","Decline the gift and stay independent"],
+["You find fraud in a friend's company","Report it according to professional requirements"],
+["A competitor asks for information about your client","Refuse and keep the information confidential"],
+["You made an error that favours your employer","Correct it at once and be honest"]]}}
+],
+"activity":"Explain why confidentiality is important but not absolute. Give two situations in which an accountant may tell a client's information to someone else. (Court order; permission from the client.)",
+"check":[
+{"q":"Keeping a client's information private is","o":["Confidentiality","Transparency","Auditing","Budgeting"]},
+{"q":"Which is a time when disclosure is allowed?","o":["A court order","A friend asks","A competitor asks","A gossip asks"]},
+{"q":"Full disclosure means","o":["Reporting all important information","Hiding bad debts","Reporting only profits","Writing in code"]},
+{"q":"Speaking out against wrong is","o":["Moral courage","Bias","Delay","Secrecy"]},
+{"q":"If your boss asks you to backdate an invoice, you should","o":["Refuse politely","Do it quietly","Tell the competitor","Destroy the invoice"]}]},
+
+{"id":"fa1-06","week":3,"title":"Double Entry: Meaning and Types of Accounts","icon":"Layers","summary":"The double entry system, why every debit has a credit, and the three types of account: personal, real and nominal.",
+"keyWords":["Double entry","Debit","Credit","Personal account","Nominal account"]
+,"sections":[
+{"h":"Meaning of double entry","p":["The double entry system is a method of recording transactions in which every transaction affects at least two accounts: one account is debited and another is credited, with equal amounts. The rule is: for every debit there must be a corresponding credit.","The method was described in 1494 by the Italian monk Luca Pacioli, who is often called the 'Father of Accounting'. (He wrote down the method that merchants in Venice were already using; he did not invent it.)","Example: goods bought for cash, ₦5,000. Purchases account is debited ₦5,000 (goods come in) and Cash account is credited ₦5,000 (cash goes out).","Benefits: a complete record of transactions; errors can be found (if debits do not equal credits); it shows cause and effect; it allows a trial balance to be prepared; and it gives a check on accuracy."]},
+{"h":"Types of accounts","p":["Personal accounts are accounts of persons: individuals, firms and companies. Examples: John's account, ABC Limited account, creditors and debtors. Rule: debit the receiver, credit the giver.","Real accounts are accounts of assets and property. Examples: land, building, furniture, machinery, stock (goods in hand). Rule: debit what comes in, credit what goes out.","Nominal accounts are accounts of expenses, losses, incomes and gains. Expenses and losses include salaries, rent, electricity and bad debts. Incomes and gains include sales, commission received, interest received and discount received. Rule: debit all expenses and losses; credit all incomes and gains."],
+"tbl":{"head":["Type of account","Covers","Examples"],"rows":[
+["Personal","Persons, firms, companies","Debtors, creditors, ABC Ltd, John"],
+["Real","Assets and property","Land, building, furniture, machinery, cash, stock"],
+["Nominal","Expenses, losses, incomes, gains","Rent, salaries, sales, commission received"]]}},
+{"h":"A note on cash and capital","p":["Cash account is a real account. Capital account is a personal account of the owner because it records what the business owes the owner. Drawings (money or goods the owner takes for personal use) is also treated as a personal account of the owner."]}
+],
+"activity":"Classify these accounts as personal, real or nominal: Furniture, Ade, Rent, Commission received, Cash, Salaries. (Real, personal, nominal, nominal, real, nominal.)",
+"check":[
+{"q":"The accounts of land and buildings are","o":["Real accounts","Personal accounts","Nominal accounts","Debtors"]},
+{"q":"Salaries account is a","o":["Nominal account","Real account","Personal account","Asset account"]},
+{"q":"In double entry, every debit has an equal","o":["Credit","Debit","Balance","Receipt"]},
+{"q":"The account of a customer who owes the business is","o":["Personal","Real","Nominal","Stock"]},
+{"q":"Commission received is","o":["An income","An asset","A liability","Capital"]},
+{"q":"Who described double entry in 1494?","o":["Luca Pacioli","Isaac Newton","Adam Smith","Karl Marx"]}]},
+
+{"id":"fa1-07","week":3,"title":"Golden Rules, Debit and Credit, and Simple Entries","icon":"Target","summary":"The golden rules of accounting, which side increases each type of account, the accounting equation and five worked entries.",
+"keyWords":["Golden rules","Debit","Credit","Accounting equation","Drawings"]
+,"sections":[
+{"h":"Golden rules of accounting","p":["Study the table.","A memory aid: for personal accounts, debit the receiver and credit the giver. For real accounts, debit what comes in and credit what goes out. For nominal accounts, debit expenses and losses and credit incomes and gains."],
+"tbl":{"head":["Type of account","Debit","Credit"],"rows":[
+["Personal","The receiver","The giver"],
+["Real","What comes in","What goes out"],
+["Nominal","Expenses and losses","Incomes and gains"]]}},
+{"h":"Understanding debit and credit","p":["Debit (Dr) is the left side of an account. It increases assets, expenses and losses, and it decreases liabilities, capital and income. Credit (Cr) is the right side. It increases liabilities, capital and income, and it decreases assets, expenses and losses.","The accounting equation is: Assets = Capital + Liabilities. It must always balance. The diagram shows the effect of debit and credit on each part."],
+"img":{"src":"fin-equation.png","alt":"The accounting equation Assets = Capital + Liabilities with small boxes under each part showing whether debit or credit increases or decreases it","cap":"The accounting equation and the effect of debit and credit."}},
+{"h":"Worked examples","p":["Example 1: Started business with cash ₦50,000. Cash (an asset) comes in, so debit Cash ₦50,000. The owner has put in capital, so credit Capital ₦50,000.","Example 2: Bought goods for cash ₦10,000. Purchases are an expense, so debit Purchases ₦10,000. Cash goes out, so credit Cash ₦10,000.","Example 3: Sold goods for cash ₦15,000. Cash comes in, so debit Cash ₦15,000. Sales are income, so credit Sales ₦15,000.","Example 4: Bought furniture from ABC Ltd on credit ₦20,000. Furniture comes in, so debit Furniture ₦20,000. ABC Ltd is the giver, so credit ABC Ltd ₦20,000.","Example 5: Paid salary ₦5,000 in cash. Salary is an expense, so debit Salary ₦5,000. Cash goes out, so credit Cash ₦5,000."]},
+{"h":"A simple method","p":["Before writing any entry, ask three questions. (1) Which two accounts are affected? (2) What type of account is each? (3) Which golden rule applies to each, so which is debited and which is credited? Write the debit first."]}
+],
+"activity":"Give the debit and credit for each: (a) started business with ₦100,000 cash; (b) paid rent ₦5,000; (c) withdrew ₦10,000 cash for personal use. ((a) Dr Cash, Cr Capital; (b) Dr Rent, Cr Cash; (c) Dr Drawings, Cr Cash.)",
+"check":[
+{"q":"Which side increases an asset account?","o":["Debit","Credit","Both","Neither"]},
+{"q":"The rule for a personal account is debit the","o":["Receiver","Giver","Expense","Income"]},
+{"q":"Bought furniture on credit from ABC Ltd. Which is credited?","o":["ABC Ltd","Furniture","Cash","Sales"]},
+{"q":"Which side increases income?","o":["Credit","Debit","Left","Neither"]},
+{"q":"Assets = Capital +","o":["Liabilities","Expenses","Drawings","Sales"]},
+{"q":"Paid rent ₦5,000 cash. The credit is","o":["Cash","Rent","Capital","Sales"]}]},
+
+{"id":"fa1-08","week":4,"title":"Ledger Accounts in T Format","icon":"Layers","summary":"What a ledger is, the T-account layout, and the five steps for recording transactions in the ledger.",
+"keyWords":["Ledger","T-account","Debit side","Credit side","Posting"]
+,"sections":[
+{"h":"What is a ledger?","p":["The ledger is the book that contains all the accounts of a business. Each account has its own page (or its own T). Entries are first written in the books of original entry (journals and the cash book) and are then posted (copied) into the ledger accounts."]},
+{"h":"The T-account format","p":["A T-account looks like the letter T. The name of the account is written at the top. The left side is the debit (Dr) side and the right side is the credit (Cr) side. Each side has columns for the date, the details (the name of the other account involved) and the amount in naira (₦)."],
+"img":{"src":"fin-t-account.png","alt":"A cash account drawn in T format with debit side on the left and credit side on the right, showing entries, balance c/d, totals and balance b/d","cap":"A cash account in T format, with the balance carried down and brought down."}},
+{"h":"Steps for recording transactions","p":["1. Identify the accounts involved. 2. Classify each as personal, real or nominal. 3. Apply the golden rules. 4. Record the amount on the correct side of each account, writing the name of the OTHER account in the details column. 5. Balance the accounts at the end of the period."]},
+{"h":"Example: transactions for January 2024","p":["Jan 1: started business with cash ₦100,000. Jan 3: bought goods for cash ₦30,000. Jan 5: sold goods for cash ₦45,000. Jan 8: paid rent ₦5,000. Jan 10: bought furniture ₦20,000. Jan 15: received commission ₦3,000. Jan 20: paid salaries ₦8,000. Jan 25: withdrew cash for personal use ₦10,000.","The Cash account shows all of these because cash is involved each time."],
+"tbl":{"head":["Debit side (Dr)","₦","Credit side (Cr)","₦"],"rows":[
+["Jan 1 Capital","100,000","Jan 3 Purchases","30,000"],
+["Jan 5 Sales","45,000","Jan 8 Rent","5,000"],
+["Jan 15 Commission","3,000","Jan 10 Furniture","20,000"],
+["","","Jan 20 Salaries","8,000"],
+["","","Jan 25 Drawings","10,000"],
+["","","Jan 31 Balance c/d","75,000"],
+["Total","148,000","Total","148,000"],
+["Feb 1 Balance b/d","75,000","",""]]}},
+{"h":"The other accounts","p":["Each of the other accounts has just one entry. Capital: credit ₦100,000 (Cash). Purchases: debit ₦30,000. Sales: credit ₦45,000. Rent: debit ₦5,000. Furniture: debit ₦20,000. Commission received: credit ₦3,000. Salaries: debit ₦8,000. Drawings: debit ₦10,000. Cash is debited when money comes in and credited when money goes out."]}
+],
+"activity":"Draw the ledger accounts for these April transactions: commenced business with ₦150,000; purchased goods ₦40,000; sold goods ₦60,000; paid transport ₦3,000. (Cash: Dr 150,000 and 60,000; Cr 40,000 and 3,000; balance ₦167,000.)",
+"check":[
+{"q":"The left side of a T-account is the","o":["Debit side","Credit side","Balance side","Date side"]},
+{"q":"A ledger is","o":["A book that holds all the accounts","A cheque book","A bank","A receipt"]},
+{"q":"When cash comes into the business, the Cash account is","o":["Debited","Credited","Closed","Ignored"]},
+{"q":"In the details column of the debit side we write the name of the","o":["Other account involved","Owner's name","Bank manager","Book-keeper"]},
+{"q":"Cash sales of ₦45,000 are credited to","o":["Sales account","Cash account","Capital account","Rent account"]}]},
+
+{"id":"fa1-09","week":4,"title":"Balancing Accounts: A Worked Example","icon":"Target","summary":"How to balance a ledger account (c/d and b/d), which accounts have debit and credit balances, and a complete worked exercise.",
+"keyWords":["Balance c/d","Balance b/d","Debit balance","Credit balance","Double underline"]
+,"sections":[
+{"h":"Steps to balance an account","p":["1. Add up both sides (debit and credit) separately. 2. Find the difference. 3. Write the difference on the side with the smaller total as 'Balance c/d' (carried down). 4. Now both sides add up to the same total; write the total on both sides at the same level. 5. Draw a double line under the totals to show that the account is closed. 6. Bring the balance down on the opposite side as 'Balance b/d' (brought down) to start the next period.","Rules: assets and expenses normally have debit balances. Liabilities, capital and income normally have credit balances. If the debit side is bigger, the balance is a debit balance; if the credit side is bigger, it is a credit balance."]},
+{"h":"A complete worked example (March 2024)","p":["Record these transactions in ledger accounts and balance them. 1 Mar: started business with ₦200,000 cash. 5 Mar: bought goods for cash ₦80,000. 8 Mar: sold goods for cash ₦100,000. 12 Mar: paid rent ₦10,000. 15 Mar: bought equipment from Ade on credit ₦50,000. 18 Mar: received a bank loan ₦150,000. 22 Mar: paid Ade ₦30,000. 25 Mar: paid electricity ₦5,000. 28 Mar: sold goods for cash ₦75,000. 31 Mar: paid salaries ₦20,000.","Cash account: the debits are capital ₦200,000, sales ₦100,000, loan ₦150,000 and sales ₦75,000, which add up to ₦525,000. The credits are purchases ₦80,000, rent ₦10,000, Ade ₦30,000, electricity ₦5,000 and salaries ₦20,000, which add up to ₦145,000. The difference is ₦380,000, the closing balance."],
+"tbl":{"head":["Debit side (Dr)","₦","Credit side (Cr)","₦"],"rows":[
+["Mar 1 Capital","200,000","Mar 5 Purchases","80,000"],
+["Mar 8 Sales","100,000","Mar 12 Rent","10,000"],
+["Mar 18 Bank loan","150,000","Mar 22 Ade","30,000"],
+["Mar 28 Sales","75,000","Mar 25 Electricity","5,000"],
+["","","Mar 31 Salaries","20,000"],
+["","","Mar 31 Balance c/d","380,000"],
+["Total","525,000","Total","525,000"],
+["Apr 1 Balance b/d","380,000","",""]]}},
+{"h":"Ade's account and the balances","p":["Ade's account: the equipment of ₦50,000 was bought on credit, so Ade is credited ₦50,000. The ₦30,000 payment is a debit. The balance still owed is ₦20,000, a credit balance (we owe Ade).","Balances of the other accounts: Capital ₦200,000 credit; Purchases ₦80,000 debit; Sales ₦175,000 credit; Rent ₦10,000 debit; Equipment ₦50,000 debit; Bank loan ₦150,000 credit; Electricity ₦5,000 debit; Salaries ₦20,000 debit; Ade ₦20,000 credit."]},
+{"h":"A quick check","p":["Add the debit balances: cash 380,000 + purchases 80,000 + rent 10,000 + equipment 50,000 + electricity 5,000 + salaries 20,000 = ₦545,000. Add the credit balances: capital 200,000 + sales 175,000 + loan 150,000 + Ade 20,000 = ₦545,000. They agree, which shows that the double entry is correct. A list like this is called a trial balance, which you will meet in Second Term."]}
+],
+"activity":"Prepare ledger accounts for these April transactions and balance them: commenced business with ₦150,000; purchased goods ₦40,000; sold goods ₦60,000; paid transport ₦3,000; bought a motor van ₦80,000 from Moses on credit; paid Moses ₦40,000; received cash from sales ₦50,000; paid wages ₦8,000; withdrew ₦15,000. (Cash balance ₦154,000: receipts ₦260,000 less payments ₦106,000.)",
+"check":[
+{"q":"Balance c/d means","o":["Balance carried down","Balance counted daily","Bank cash deposit","Bought on credit"]},
+{"q":"Which accounts normally have debit balances?","o":["Assets and expenses","Liabilities and capital","Income and capital","Creditors and loans"]},
+{"q":"If the credit side of an account is larger, the balance is a","o":["Credit balance","Debit balance","Zero balance","Cash balance"]},
+{"q":"Cash receipts ₦525,000 and payments ₦145,000 give a closing balance of","o":["₦380,000","₦670,000","₦145,000","₦525,000"]},
+{"q":"A double line under the totals shows that the account is","o":["Closed","Wrong","Lost","New"]},
+{"q":"Capital account normally has a","o":["Credit balance","Debit balance","No balance","Cash balance"]}]}
+]

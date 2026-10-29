@@ -1,0 +1,206 @@
+[
+{"id":"fm2-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Further Mathematics Second Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Trigonometry","Logic","Number bases","Coordinate geometry","Vectors"],
+"sections":[
+{"h":"Welcome to Second Term","p":["In Second Term you meet four big ideas. Trigonometry gives exact values for special angles. Logic teaches you to reason with statements and truth tables. Number systems and flow charts show how computers count and plan. Coordinate geometry and vectors let you describe points, lines and movement with numbers.","Each unit has worked examples and practice questions at the end. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for Second Term","p":["The units follow the scheme of work. Weeks 5 and 7 are midterm weeks."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Trigonometric ratios of 30°, 45° and 60°"],
+["3","1","Reciprocal ratios, identities and worked examples"],
+["4","2","Logical reasoning (1): propositions and connectives"],
+["5","2","Logical reasoning (2): truth tables, tautology and contradiction"],
+["6","3","The abacus and number systems (decimal and binary)"],
+["7","3","Flow charts"],
+["8","4","Coordinate geometry (1): midpoint, distance and gradient"],
+["9","4","Coordinate geometry (2): equation of a straight line"],
+["10","4","Coordinate geometry (3): linear form and area of a polygon"],
+["11","6","Vectors (1): scalars, notation and operations"],
+["12","6","Vectors (2): magnitude, direction and unit vectors"],
+["13","8","Vectors (3): laws of addition, position vectors and resolution"],
+["14","8","Vectors (4): the scalar (dot) product"],
+["15","9","Revision: mixed problems"]]}}
+],
+"activity":"Choose one topic from the list that you think you can use outside school, and write one example of how.",
+"check":[
+{"q":"In which unit do you study truth tables?","o":["Unit 5","Unit 2","Unit 8","Unit 14"]},
+{"q":"Which unit covers the dot product?","o":["Unit 14","Unit 3","Unit 6","Unit 9"]},
+{"q":"Which unit covers flow charts?","o":["Unit 7","Unit 4","Unit 10","Unit 12"]},
+{"q":"In which unit do you study the equation of a line?","o":["Unit 9","Unit 2","Unit 6","Unit 15"]}]},
+
+{"id":"fm2-02","week":1,"title":"Trigonometric Ratios of 30°, 45° and 60°","icon":"Target","summary":"Deriving the exact sine, cosine and tangent of 30°, 45° and 60° from an isosceles right triangle and an equilateral triangle, with a summary table.",
+"keyWords":["Sine","Cosine","Tangent","Special angles","SOH CAH TOA"],
+"sections":[
+{"h":"The three ratios","p":["In a right-angled triangle: sin θ = opposite ÷ hypotenuse, cos θ = adjacent ÷ hypotenuse, tan θ = opposite ÷ adjacent (remember SOH CAH TOA). The angles 30°, 45° and 60° are special because their ratios can be written exactly with surds, without a calculator. They appear in geometry, physics, navigation and engineering."]},
+{"h":"45°: the isosceles right triangle","p":["Take a right triangle with two equal sides of 1 unit. Both acute angles are 45°. By Pythagoras, the hypotenuse h = √(1² + 1²) = √2. So sin 45° = 1/√2 = √2/2, cos 45° = 1/√2 = √2/2 and tan 45° = 1/1 = 1."]},
+{"h":"30° and 60°: half an equilateral triangle","p":["Take an equilateral triangle of side 2 units (all angles 60°). Draw the vertical line from the top to the middle of the base. It cuts the triangle into two right triangles with angles 30°, 60° and 90°. The base splits into 1 and 1. The height h satisfies 2² = 1² + h², so h = √3. From the right triangle: sin 60° = √3/2, cos 60° = 1/2, tan 60° = √3; sin 30° = 1/2, cos 30° = √3/2, tan 30° = 1/√3 = √3/3."],
+"img":{"src":"fm-special-triangles.png","alt":"Two triangles: a right isosceles triangle with sides 1, 1 and root 2 with 45 degree angles, and half of an equilateral triangle with sides 1, root 3 and 2 with angles 30 and 60 degrees","cap":"The two triangles that give the special angles."}},
+{"h":"Summary table","p":["Learn this table. It is used in almost every trigonometry problem in WAEC, NECO and JAMB."],
+"tbl":{"head":["Angle θ","sin θ","cos θ","tan θ"],"rows":[
+["30°","1/2","√3/2","√3/3 (or 1/√3)"],
+["45°","√2/2","√2/2","1"],
+["60°","√3/2","1/2","√3"]]}},
+{"h":"A memory trick","p":["For sin, the values at 30°, 45°, 60° are √1/2, √2/2, √3/2 (that is, 1/2, √2/2, √3/2). For cos, they are the same numbers in reverse order. For tan, tan θ = sin θ ÷ cos θ."]}
+],
+"activity":"Draw a 30°–60°–90° triangle with hypotenuse 2 and derive sin 60° and tan 30°. (sin 60° = √3/2, tan 30° = 1/√3.)",
+"check":[
+{"q":"sin 30° equals","o":["1/2","√3/2","√2/2","1"]},
+{"q":"cos 60° equals","o":["1/2","√3/2","√3","0"]},
+{"q":"tan 45° equals","o":["1","√2","0","1/2"]},
+{"q":"tan 60° equals","o":["√3","1/√3","1","√2"]},
+{"q":"In the triangle made from half an equilateral triangle of side 2, the height is","o":["√3","3","1","√2"]}]},
+
+{"id":"fm2-03","week":1,"title":"Reciprocal Ratios, Identities and Worked Examples","icon":"Zap","summary":"The reciprocal ratios cosecant, secant and cotangent, the key identities, and worked examples with exact values and a ladder problem.",
+"keyWords":["Cosecant","Secant","Cotangent","Identity","Exact value"]
+,"sections":[
+{"h":"Reciprocal ratios","p":["Each ratio has a reciprocal: csc θ = 1/sin θ, sec θ = 1/cos θ and cot θ = 1/tan θ. Examples: csc 30° = 1/(1/2) = 2; sec 60° = 1/(1/2) = 2; cot 45° = 1."]},
+{"h":"Key identities","p":["sin²θ + cos²θ = 1. tan θ = sin θ ÷ cos θ. Also 1 + tan²θ = sec²θ. And sin(90° − θ) = cos θ."]},
+{"h":"Worked examples","p":["Example 1. Find the exact value of (sin 60° + cos 60°) ÷ tan 45°. = (√3/2 + 1/2) ÷ 1 = (√3 + 1)/2.","Example 2. Find x if x sin 30° cos 45° = tan 60°. x × (1/2) × (√2/2) = √3, so x√2/4 = √3 and x = 4√3/√2 = 4√3 × √2/2 = 2√6.","Example 3. In triangle ABC, ∠B = 90°, ∠A = 30° and AC = 10 cm. Find AB and BC. sin 30° = BC/10, so BC = 5 cm. cos 30° = AB/10, so AB = 5√3 cm.","Example 4. Find sec 30° × csc 60°. sec 30° = 2/√3; csc 60° = 2/√3. The product is 4/3.","Example 5. A ladder leans against a wall at 60° to the ground and its base is 4 m from the wall. Find its length. cos 60° = 4/L, so L = 4 ÷ (1/2) = 8 m.","Example 6. Show 1 + tan²60° = sec²60°. Left: 1 + 3 = 4. Right: (1/(1/2))² = 4. ✓","Example 7. Find the exact value of (tan²60° − sec²45°) ÷ (sin 30° cos 60°). tan²60° = 3, sec²45° = 2, so the top is 1. The bottom is (1/2)(1/2) = 1/4. The answer is 4.","Example 8. An equilateral triangle has side 8 cm. Its height is 8 × sin 60° = 8 × √3/2 = 4√3 cm.","Example 9. Solve for the acute angle: 2 cos θ = 1. cos θ = 1/2, so θ = 60°."]},
+{"h":"Tip","p":["Memorise the special angle table. Check your answers by using sin²θ + cos²θ = 1: for 30°, (1/2)² + (√3/2)² = 1/4 + 3/4 = 1."]}
+],
+"activity":"Evaluate (sin 60° cos 30°) ÷ (tan 45° − sin 30°). (= (√3/2 × √3/2) ÷ (1 − 1/2) = (3/4) ÷ (1/2) = 3/2.)",
+"check":[
+{"q":"sec 60° equals","o":["2","1/2","√3","1"]},
+{"q":"csc 30° equals","o":["2","1/2","√3/2","1"]},
+{"q":"sin²θ + cos²θ equals","o":["1","0","tan θ","2"]},
+{"q":"In triangle ABC (B = 90°, A = 30°, AC = 10), BC is","o":["5 cm","10 cm","5√3 cm","√3 cm"]},
+{"q":"1 + tan²θ equals","o":["sec²θ","cos²θ","csc²θ","sin²θ"]}]},
+
+{"id":"fm2-04","week":2,"title":"Logical Reasoning (1): Propositions and Connectives","icon":"Layers","summary":"What a proposition is, and the five logical connectives: negation, conjunction, disjunction, conditional and biconditional, with their truth tables.",
+"keyWords":["Proposition","Negation","Conjunction","Disjunction","Conditional"]
+,"sections":[
+{"h":"Propositions","p":["Logical reasoning helps us to judge arguments, test truth and reach valid conclusions. It is used in mathematics, computer programming and clear thinking. A proposition (statement) is a declarative sentence that is either true (T) or false (F), but not both.","'Lagos is the capital of Nigeria' is a proposition (false). '2 + 2 = 4' is a proposition (true). 'What is your name?' is a question, not a proposition. 'Go and shut the door' is a command, not a proposition. 'x + 1 = 5' is an open sentence; its truth depends on x, so it is not yet a proposition."]},
+{"h":"Logical connectives","p":["Connectives join simple statements into compound statements."]},
+{"h":"Negation (~p or ¬p)","p":["Reverses the truth value. p: 'It is sunny'. ~p: 'It is not sunny'."],
+"tbl":{"head":["p","~p"],"rows":[["T","F"],["F","T"]]}},
+{"h":"Conjunction (p ∧ q): 'p and q'","p":["True only when both p and q are true."],
+"tbl":{"head":["p","q","p ∧ q"],"rows":[["T","T","T"],["T","F","F"],["F","T","F"],["F","F","F"]]}},
+{"h":"Disjunction (p ∨ q): 'p or q'","p":["This is the inclusive 'or': true if p or q or both are true. It is false only when both are false."],
+"tbl":{"head":["p","q","p ∨ q"],"rows":[["T","T","T"],["T","F","T"],["F","T","T"],["F","F","F"]]}},
+{"h":"Conditional (p → q): 'if p then q'","p":["False only when p is true and q is false. Think of a promise: 'If I get an A (p), I will buy you ice cream (q).' The promise is broken only if I get an A and do not buy the ice cream. If I do not get an A, I have not broken my promise whatever I do."],
+"tbl":{"head":["p","q","p → q"],"rows":[["T","T","T"],["T","F","F"],["F","T","T"],["F","F","T"]]}},
+{"h":"Biconditional (p ↔ q): 'p if and only if q'","p":["True when p and q have the same truth value."],
+"tbl":{"head":["p","q","p ↔ q"],"rows":[["T","T","T"],["T","F","F"],["F","T","F"],["F","F","T"]]}},
+{"h":"Translating into symbols","p":["Let p = 'It is cold' and q = 'It is raining'. (a) It is cold and it is raining: p ∧ q. (b) It is not cold or it is raining: ~p ∨ q. (c) If it is raining then it is not cold: q → ~p. (d) It is neither cold nor raining: ~p ∧ ~q."]}
+],
+"activity":"Let p = 'He is tall' and q = 'He is handsome'. Write in symbols: (a) He is tall and handsome. (b) He is tall or he is not handsome. (c) He is handsome if and only if he is tall. (p ∧ q; p ∨ ~q; q ↔ p.)",
+"check":[
+{"q":"p → q is false only when","o":["p is true and q is false","p is false","q is true","both are false"]},
+{"q":"p ∧ q is true when","o":["Both are true","One is true","Neither is true","p is false"]},
+{"q":"Which is a proposition?","o":["10 − 4 = 6","Where are you going?","Close the door","x + 1 = 5"]},
+{"q":"The negation of 'I am 15 years old' is","o":["I am not 15 years old","I am 16","I am old","I am young"]},
+{"q":"p ↔ q is true when","o":["p and q have the same truth value","p is true","q is true","they differ"]}]},
+
+{"id":"fm2-05","week":2,"title":"Logical Reasoning (2): Truth Tables, Tautology and Contradiction","icon":"Target","summary":"How to build the truth table of a compound statement and classify it as a tautology, a contradiction or a contingency, with worked examples.",
+"keyWords":["Truth table","Tautology","Contradiction","Contingency","Equivalence"]
+,"sections":[
+{"h":"Three kinds of statement","p":["A tautology is always true whatever the truth values of its parts, for example p ∨ ~p. A contradiction is always false, for example p ∧ ~p. A contingency is sometimes true and sometimes false, for example p → q."]},
+{"h":"How to build a truth table","p":["List all the combinations of T and F for the simple statements (2 statements give 4 rows; 3 give 8 rows). Add a column for each part of the compound statement, working from the inside out. Read the last column to classify the statement."]},
+{"h":"Worked examples","p":["Example 1. Truth table for (p → q) ∧ ~q."],
+"tbl":{"head":["p","q","~q","p → q","(p → q) ∧ ~q"],"rows":[["T","T","F","T","F"],["T","F","T","F","F"],["F","T","F","T","F"],["F","F","T","T","T"]]}},
+{"h":"Classifying","p":["The last column is not constant, so (p → q) ∧ ~q is a contingency.","Example 2. Is (p ∧ q) → p a tautology?"],
+"tbl":{"head":["p","q","p ∧ q","(p ∧ q) → p"],"rows":[["T","T","T","T"],["T","F","F","T"],["F","T","F","T"],["F","F","F","T"]]}},
+{"h":"More examples","p":["The last column is always T, so (p ∧ q) → p is a tautology.","Example 3. p ∧ ~p: for p = T it is F and for p = F it is F, always false: a contradiction.","Example 4. Show that p → q is equivalent to ~p ∨ q."],
+"tbl":{"head":["p","q","~p","~p ∨ q","p → q"],"rows":[["T","T","F","T","T"],["T","F","F","F","F"],["F","T","T","T","T"],["F","F","T","T","T"]]}},
+{"h":"Equivalence","p":["The two columns ~p ∨ q and p → q are the same, so the statements are logically equivalent. This is a handy way to rewrite 'if ... then' statements.","Example 5. Find the truth value of (p ∧ ~q) → (r ∨ q) when p = T, q = F, r = T. p ∧ ~q = T ∧ T = T. r ∨ q = T ∨ F = T. T → T = T.","Example 6. (~p ∨ q) → p. Rows: (T,T): (F∨T) = T → T = T. (T,F): (F∨F) = F → T = T. (F,T): (T∨T) = T → F = F. (F,F): (T∨F) = T → F = F. The column is T, T, F, F, so it is a contingency.","Example 7. (p ∧ q) ∧ ~(p ∨ q): when p ∧ q is true, p ∨ q is true so ~(p ∨ q) is false; and when p ∧ q is false the whole conjunction is false. Always false: a contradiction.","Example 8. (p → q) ∨ (q → p) is a tautology: if p → q is false (p true, q false), then q → p is true."]}
+],
+"activity":"Construct a truth table for p ∨ ~p. What kind of statement is it? (T, T: a tautology.)",
+"check":[
+{"q":"A statement that is always true is a","o":["Tautology","Contradiction","Contingency","Proposition only"]},
+{"q":"p ∧ ~p is a","o":["Contradiction","Tautology","Contingency","Conditional"]},
+{"q":"With 3 simple statements, a truth table has how many rows?","o":["8","6","9","3"]},
+{"q":"p → q is equivalent to","o":["~p ∨ q","p ∧ ~q","~q ∨ p","p ↔ q"]},
+{"q":"(p ∧ q) → p is a","o":["Tautology","Contradiction","Contingency","Negation"]}]},
+
+{"id":"fm2-06","week":3,"title":"The Abacus and Number Systems (Decimal and Binary)","icon":"Layers","summary":"The abacus as an early calculating device, the decimal and binary systems, converting between them and adding binary numbers.",
+"keyWords":["Abacus","Decimal","Binary","Place value","Conversion"]
+,"sections":[
+{"h":"The abacus","p":["Before computers, people used devices to help with arithmetic. An abacus is a simple manual calculating tool: a frame with rods or wires, with beads that slide, and a divider bar. Each rod stands for a place value (units, tens, hundreds). In a common form, each bead in the upper deck stands for 5 and each in the lower deck stands for 1. So 1 upper bead and 3 lower beads show 5 + 3 = 8.","The abacus stores numbers temporarily as bead positions and is used to teach counting. It inspired mechanical calculators, and the idea of a bead being 'on' or 'off' is like a bit in a computer's memory."]},
+{"h":"Decimal (base 10) and binary (base 2)","p":["The decimal system uses ten digits, 0 to 9, and each place is a power of 10: 345 = 3 × 10² + 4 × 10¹ + 5 × 10⁰ = 300 + 40 + 5.","The binary system uses only 0 and 1 (OFF and ON in a computer), and each place is a power of 2. 1101₂ = 1 × 2³ + 1 × 2² + 0 × 2¹ + 1 × 2⁰ = 8 + 4 + 0 + 1 = 13 in base ten."],
+"tbl":{"head":["Binary digit","1","1","0","1"],"rows":[["Power of 2","2³","2²","2¹","2⁰"],["Place value","8","4","2","1"],["Contribution","8","4","0","1"]]}},
+{"h":"Binary to decimal","p":["Multiply each digit by its power of 2 and add. Example: 10110₂ = 1 × 16 + 0 × 8 + 1 × 4 + 1 × 2 + 0 × 1 = 22. Also 1001₂ = 8 + 1 = 9, and 11101₂ = 16 + 8 + 4 + 0 + 1 = 29."]},
+{"h":"Decimal to binary","p":["Divide by 2 repeatedly, writing down the remainders, until the quotient is 0. Read the remainders from the bottom up.","25 ÷ 2 = 12 remainder 1; 12 ÷ 2 = 6 r 0; 6 ÷ 2 = 3 r 0; 3 ÷ 2 = 1 r 1; 1 ÷ 2 = 0 r 1. Reading upward: 25 = 11001₂.","Other examples: 19 = 10011₂ (19 → 9 r1, 9 → 4 r1, 4 → 2 r0, 2 → 1 r0, 1 → 0 r1). 45 = 101101₂. 53 = 110101₂."]},
+{"h":"Binary addition","p":["Rules: 0 + 0 = 0; 0 + 1 = 1; 1 + 0 = 1; 1 + 1 = 10 (write 0, carry 1); 1 + 1 + 1 = 11 (write 1, carry 1).","Example: 1011₂ + 110₂. Align: 1011 + 0110. From the right: 1 + 0 = 1; 1 + 1 = 0 carry 1; 0 + 1 + 1 = 0 carry 1; 1 + 0 + 1 = 0 carry 1; bring down the carry: 1. The answer is 10001₂. Check: 11 + 6 = 17 = 16 + 1 = 10001₂. ✓"]}
+],
+"activity":"Convert 45 to binary and 11101₂ to decimal. Add 1011₂ + 110₂ and check by changing all three to decimal. (45 = 101101₂; 11101₂ = 29; 17 = 10001₂.)",
+"check":[
+{"q":"The binary system uses the digits","o":["0 and 1","0 to 9","1 and 2","0 to 7"]},
+{"q":"1101₂ in decimal is","o":["13","11","15","9"]},
+{"q":"25 in binary is","o":["11001","10101","11010","10011"]},
+{"q":"1011₂ + 110₂ equals","o":["10001₂","10101₂","1111₂","11001₂"]},
+{"q":"In an abacus, a bead in the upper deck usually stands for","o":["5","1","10","2"]}]},
+
+{"id":"fm2-07","week":3,"title":"Flow Charts","icon":"Target","summary":"What a flow chart is, its standard symbols, how to read and draw one, and examples with a decision and a loop.",
+"keyWords":["Flow chart","Terminal","Process","Decision","Loop"]
+,"sections":[
+{"h":"What is a flow chart?","p":["A flow chart is a diagram showing the steps needed to solve a problem, using symbols joined by arrows. It plans the logic of a task, and is used to plan computer programmes."]},
+{"h":"Flow chart symbols","p":["Study the table."],
+"tbl":{"head":["Symbol","Shape","Meaning"],"rows":[
+["Terminal","Oval","Start or end"],
+["Process","Rectangle","A calculation or action"],
+["Input or output","Parallelogram","Enter data or show results"],
+["Decision","Diamond","A yes/no question with two exits"],
+["Flow line","Arrow","Direction of the steps"]]}},
+{"h":"A simple flow chart","p":["Add two numbers: Start → Input A and B → C = A + B → Print C → Stop."]},
+{"h":"A flow chart with a decision","p":["Problem: read a number N and print 'POSITIVE' if N > 0, otherwise 'NOT POSITIVE'. The diamond asks 'Is N > 0?' If yes, print POSITIVE. If no, print NOT POSITIVE. Both paths end at Stop."],
+"img":{"src":"fm-flowchart.png","alt":"A flow chart: Start, Input N, a decision diamond asking is N greater than 0, yes goes to Print POSITIVE, no goes to Print NOT POSITIVE, both lead to Stop","cap":"A flow chart with one decision."}},
+{"h":"A flow chart with a loop","p":["Problem: read 10 numbers and print their sum. Set SUM = 0 and COUNT = 0. Read a number N. Add it: SUM = SUM + N. Add 1 to COUNT. Ask 'Is COUNT = 10?' If NO, go back and read another number (this is the loop). If YES, print SUM and stop.","Note: the source notes ask 'COUNT ≤ 10?' after counting. That would let the loop run an 11th time, because COUNT is 10 after the tenth number and 10 ≤ 10 is still true. The correct test is 'COUNT < 10?' (to continue) or 'COUNT = 10?' (to stop).","Other examples: (a) read A and B and print the larger: the decision is 'Is A > B?'. (b) area of a rectangle: input L and W, A = L × W, print A. (c) temperature: if T < 0 print 'Freezing'; else if T ≤ 100 print 'Liquid'; else print 'Steam' (two decision diamonds)."]}
+],
+"activity":"Draw a flow chart that reads two numbers A and B and prints the larger. Then trace it with A = 7 and B = 12. (Decision 'Is A > B?'. No, so print B = 12.)",
+"check":[
+{"q":"A decision in a flow chart is shown by a","o":["Diamond","Rectangle","Oval","Parallelogram"]},
+{"q":"The start and stop symbols are","o":["Ovals","Diamonds","Rectangles","Arrows"]},
+{"q":"A parallelogram stands for","o":["Input or output","A decision","A process","The end"]},
+{"q":"A calculation such as C = A + B is shown in a","o":["Rectangle","Diamond","Oval","Parallelogram"]},
+{"q":"A flow chart is used to","o":["Show the steps to solve a problem","Draw graphs","Measure angles","Find primes"]}]},
+
+{"id":"fm2-08","week":4,"title":"Coordinate Geometry (1): Midpoint, Distance and Gradient","icon":"BarChart2","summary":"The midpoint of a line segment, the gradient (slope) of a line and the distance between two points, with the conditions for parallel and perpendicular lines.",
+"keyWords":["Midpoint","Gradient","Distance","Parallel","Perpendicular"]
+,"sections":[
+{"h":"Coordinate geometry","p":["Coordinate (analytical) geometry links algebra and geometry. Points, lines and shapes are described by numbers and equations on the Cartesian plane."]},
+{"h":"Midpoint","p":["The midpoint of the segment joining A(x₁, y₁) and B(x₂, y₂) is M = ((x₁ + x₂)/2, (y₁ + y₂)/2), the average of the x-values and the average of the y-values."]},
+{"h":"Gradient","p":["The gradient m measures steepness: m = rise ÷ run = (y₂ − y₁)/(x₂ − x₁). If m > 0 the line rises from left to right. If m < 0 it falls. If m = 0 it is horizontal. For a vertical line the gradient is undefined."]},
+{"h":"Distance","p":["From Pythagoras' theorem, the distance between A and B is d = √[(x₂ − x₁)² + (y₂ − y₁)²]."],
+"img":{"src":"fm-coordinate.png","alt":"A coordinate grid with points P(-2, 5) and Q(4, 1), the line joining them, the right triangle with legs 6 and 4, and the midpoint M(1, 3)","cap":"Midpoint, gradient and distance for P(−2, 5) and Q(4, 1)."}},
+{"h":"Parallel and perpendicular lines","p":["Two lines are parallel if their gradients are equal: m₁ = m₂. Two lines are perpendicular if the product of their gradients is −1: m₁ × m₂ = −1, so m₂ = −1/m₁."]},
+{"h":"Worked examples","p":["Example 1. P(−2, 5) and Q(4, 1). Midpoint: ((−2 + 4)/2, (5 + 1)/2) = (1, 3). Distance: √[(4 + 2)² + (1 − 5)²] = √(36 + 16) = √52 = 2√13. Gradient: (1 − 5)/(4 + 2) = −4/6 = −2/3.","Example 2. Distance between A(1, −2) and B(4, 2): √(3² + 4²) = 5.","Example 3. Midpoint of P(−3, 0) and Q(5, −6): (1, −3).","Example 4. Gradient of the line through (1, 7) and (3, 1): (1 − 7)/(3 − 1) = −3.","Example 5. Are y = 2x + 1 and 4x − 2y + 5 = 0 parallel? The second is y = 2x + 5/2, gradient 2. Both gradients are 2, so they are parallel.","Example 6. L₁ passes through (2, 5) and (4, 9): m₁ = 4/2 = 2. L₂ passes through (0, 1) and (−4, 3): m₂ = 2/(−4) = −1/2. m₁ × m₂ = −1, so L₁ ⊥ L₂.","Example 7. Find k if the line through (k, 4) and (1, 2) is parallel to y = 5x − 1. (2 − 4)/(1 − k) = 5, so −2 = 5 − 5k, 5k = 7, k = 1.4."]}
+],
+"activity":"Find the midpoint, the distance and the gradient of the line joining A(2, −2) and B(4, 8). ((3, 3); √(4 + 100) = √104 = 2√26; gradient 10/2 = 5.)",
+"check":[
+{"q":"The midpoint of (2, 4) and (6, 10) is","o":["(4, 7)","(8, 14)","(2, 3)","(4, 6)"]},
+{"q":"The gradient of the line through (1, 7) and (3, 1) is","o":["−3","3","−1/3","1/3"]},
+{"q":"Two lines are perpendicular when m₁ × m₂ equals","o":["−1","1","0","2"]},
+{"q":"The distance between (1, −2) and (4, 2) is","o":["5","7","3","25"]},
+{"q":"Parallel lines have","o":["Equal gradients","Gradients with product −1","Different intercepts only","No gradient"]}]},
+
+{"id":"fm2-09","week":4,"title":"Coordinate Geometry (2): Equation of a Straight Line","icon":"Layers","summary":"The three forms of the equation of a line, finding a line from a point and a gradient, parallel and perpendicular lines through a point, and the perpendicular bisector.",
+"keyWords":["y = mx + c","Point-gradient form","General form","Perpendicular bisector","Intercept"]
+,"sections":[
+{"h":"Forms of the equation","p":["Gradient-intercept form: y = mx + c, where m is the gradient and c is the y-intercept. Example: y = 2x + 3 cuts the y-axis at (0, 3) and has gradient 2.","Point-gradient form: y − y₁ = m(x − x₁), used when we know the gradient and one point (x₁, y₁).","General form: Ax + By + C = 0. Example: 2x − y − 7 = 0 is the same as y = 2x − 7."]},
+{"h":"Finding an equation","p":["Through two points: find m, then use point-gradient form with either point. Parallel to a given line: use the same gradient. Perpendicular to a given line: use gradient −1/m."]},
+{"h":"Worked examples","p":["Example 1. Line through (3, −1) perpendicular to 2y + x = 5. Write 2y + x = 5 as y = −x/2 + 5/2, so m₁ = −1/2. The perpendicular gradient is m₂ = 2. y − (−1) = 2(x − 3), so y + 1 = 2x − 6, y = 2x − 7, or 2x − y − 7 = 0.","Example 2. Gradient and intercept of 3x − y = 6. y = 3x − 6: gradient 3, y-intercept −6.","Example 3. Line parallel to y = 3x − 1 through (2, 0): m = 3, y − 0 = 3(x − 2), y = 3x − 6.","Example 4. Perpendicular bisector of A(−1, 4) and B(3, 2). Midpoint M = (1, 3). Gradient of AB = (2 − 4)/(3 + 1) = −1/2. Perpendicular gradient = 2. Through M: y − 3 = 2(x − 1), so y = 2x + 1.","Example 5. Line AB with A(2, −2) and B(4, 8): m = 5, y − 8 = 5(x − 4), y = 5x − 12. A line perpendicular to AB has gradient −1/5.","Example 6. Line perpendicular to x + 3y = 7 through the midpoint of A(2, −2) and B(4, 8). The midpoint is (3, 3). x + 3y = 7 gives y = −x/3 + 7/3, so m = −1/3. Perpendicular gradient 3: y − 3 = 3(x − 3), y = 3x − 6."]}
+],
+"activity":"Find the equation of the line through (2, 5) and (4, 9). (m = 2; y − 5 = 2(x − 2); y = 2x + 1.)",
+"check":[
+{"q":"In y = mx + c, c is the","o":["y-intercept","Gradient","x-intercept","Midpoint"]},
+{"q":"The line y − y₁ = m(x − x₁) is in","o":["Point-gradient form","General form","Parametric form","Quadratic form"]},
+{"q":"A line perpendicular to one with gradient 2 has gradient","o":["−1/2","2","−2","1/2"]},
+{"q":"The gradient of 3x − y = 6 is","o":["3","−3","6","1/3"]},
+{"q":"A perpendicular bisector passes through the","o":["Midpoint of the segment","Origin","Endpoint A","y-intercept"]}]},
+
+{"id":"fm2-10","week":4,"title":"Coordinate Geometry (3): Linear Form and Area of a Polygon","icon":"Zap","summary":"How to turn y = axⁿ and y = abˣ into straight-line form using logarithms, and how to find the area of a triangle or quadrilateral from its vertices.",
+"keyWords":["Linear form","Logarithm","Shoelace formula","Area","Vertices"]
+,"sections":[
+{"h":"Transforming relations into linear form","p":["In experiments, some non-linear relations can be turned into straight lines using logarithms. The constants can then be read from the graph.","Case 1: y = axⁿ. Take logs: log y = log a + n log x. This matches Y = mX + C with Y = log y, X = log x, m = n, C = log a. So a graph of log y against log x is a straight line with gradient n and intercept log a.","Case 2: y = abˣ. Take logs: log y = log a + x log b. So log y against x gives a straight line with gradient log b and intercept log a."]},
+{"h":"Worked example","p":["The variables are related by y = kxⁿ. The table: x = 1, 4, 9 and y = 5, 10, 15. Plot log y (vertical) against log x (horizontal). At x = 1, log x = 0 and log y = log 5, so the intercept is log k = log 5 and k = 5. Between x = 1 and x = 4: 10/5 = 2 = 4ⁿ, so n = 1/2. Check with x = 9: 5 × 9^(1/2) = 15 ✓. So y = 5√x."]},
+{"h":"Area of a triangle (the shoelace method)","p":["For A(x₁, y₁), B(x₂, y₂), C(x₃, y₃): Area = ½ |(x₁y₂ + x₂y₃ + x₃y₁) − (y₁x₂ + y₂x₃ + y₃x₁)|. Go around the vertices in order (clockwise or anticlockwise), repeating the first at the end.","Example. A(1, 1), B(4, 5), C(6, 2). First sum: 1×5 + 4×2 + 6×1 = 19. Second sum: 1×4 + 5×6 + 2×1 = 36. Area = ½ |19 − 36| = 8.5 square units.","Another way: Area = ½ |x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)|. For P(0, 1), Q(3, 4), R(−1, −1): ½ |0 + 3(−1 − 1) + (−1)(1 − 4)| = ½ |−6 + 3| = 1.5."]},
+{"h":"Area of a quadrilateral","p":["Split it into two triangles and add their areas, or use the shoelace method with all four vertices in order. Example: P(1, 2), Q(3, 5), R(6, 6), S(4, 1). First sum: 1×5 + 3×6 + 6×1 + 4×2 = 5 + 18 + 6 + 8 = 37. Second sum: 2×3 + 5×6 + 6×4 + 1×1 = 6 + 30 + 24 + 1 = 61. Area = ½ |37 − 61| = 12 square units."]}
+],
+"activity":"Find the area of the triangle with X(1, 4), Y(3, 8), Z(7, 2). (First sum 1×8 + 3×2 + 7×4 = 42; second 4×3 + 8×7 + 2×1 = 70; area = ½ × 28 = 14.)",
+"check":[
+{"q":"To make y = axⁿ linear, we plot","o":["log y against log x","y against x","y against log x","x against y²"]},
+{"q":"For y = axⁿ, the gradient of the log graph is","o":["n","a","log a","x"]},
+{"q":"The area of the triangle A(1, 1), B(4, 5), C(6, 2) is","o":["8.5","17","4.25","19"]},
+{"q":"The shoelace formula needs the vertices to be taken","o":["In order around the shape","In any order","Only from the origin","In pairs"]},
+{"q":"For y = abˣ, plot","o":["log y against x","y against log x","log y against log x","x against y"]}]}
+]

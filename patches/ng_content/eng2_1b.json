@@ -1,0 +1,205 @@
+[
+{"id":"e21-12","week":4,"title":"Structure: Pronouns","icon":"Layers","summary":"The eight kinds of pronoun (personal, possessive, demonstrative, interrogative, reflexive, relative, reciprocal and indefinite) and the rules for using them correctly.",
+"keyWords":["Pronoun","Subjective case","Objective case","Reflexive","Indefinite"]
+,"sections":[
+{"h":"What is a pronoun?","p":["A pronoun takes the place of a noun or noun phrase to avoid repetition. 'The student said the student would bring the student's book' becomes 'The student said she would bring her book.'"]},
+{"h":"Personal pronouns","p":["They change form (case) with their job in the sentence."],
+"tbl":{"head":["Person","Subject form","Object form"],"rows":[
+["1st singular","I","me"],
+["2nd singular","you","you"],
+["3rd singular","he, she, it","him, her, it"],
+["1st plural","we","us"],
+["2nd plural","you","you"],
+["3rd plural","they","them"]]}},
+{"h":"Using the cases","p":["Subject form for the doer: 'She is here.' 'He and I went to the market.' Object form after verbs and prepositions: 'He saw me.' 'I gave the book to him.' 'This is between you and me.' The common error 'between you and I' is wrong because 'between' is a preposition and needs the object form."]},
+{"h":"Possessive pronouns","p":["Possessive adjective (before a noun) and possessive pronoun (stands alone): my / mine; your / yours; his / his; her / hers; its / its; our / ours; their / theirs. 'This is my book.' 'This book is mine.' Note: 'its' (belonging to it) has no apostrophe; 'it's' means 'it is' or 'it has'."]},
+{"h":"Other kinds","p":["Demonstrative: this, that (singular); these, those (plural). Interrogative (ask questions): who (subject), whom (object, formal), whose (possession), which (choice), what (things). Reflexive (the object is the same as the subject): myself, yourself, himself, herself, itself, ourselves, yourselves, themselves; also used for emphasis ('I myself will do it'). Relative (introduce a clause about a noun): who, whom, whose, which, that. Reciprocal (mutual): each other (usually two) and one another (usually more than two). Indefinite: anybody, everyone, nothing, each, either, neither (singular); both, few, many, several (plural); all, any, more, most, none, some (either).","Rule: singular indefinite pronouns take a singular verb: 'Everyone is here', not 'Everyone are here'."]}
+],
+"activity":"Choose: 'The teacher gave the books to (he and I / him and me)' (him and me); 'This book is (your / yours)' (yours); 'The secret is between you and ___' (me); 'That is the man ___ car was stolen' (whose); 'A student ___ studies hard will pass' (who or that).",
+"check":[
+{"q":"Which is correct?","o":["Between you and me","Between you and I","Between I and you","Between myself and you"]},
+{"q":"'Mine' is a","o":["Possessive pronoun","Reflexive pronoun","Relative pronoun","Interrogative pronoun"]},
+{"q":"'Nobody' is a","o":["Indefinite pronoun","Personal pronoun","Reflexive pronoun","Demonstrative pronoun"]},
+{"q":"For three or more people we use","o":["One another","Each other only","Themselves only","Whom"]},
+{"q":"'Everyone ___ here'","o":["is","are","were","been"]},
+{"q":"'Its' without apostrophe shows","o":["Possession","'It is'","A plural","A question"]}]},
+
+{"id":"e21-13","week":4,"title":"Summary Writing: Reading to Summarise","icon":"Target","summary":"The five steps for writing a good summary: interrogate the question, read for gist, read for extraction, paraphrase, and write and connect.",
+"keyWords":["Skeletal outline","Gist","Paraphrase","Connective","Word limit"]
+,"sections":[
+{"h":"Read first, write later","p":["A good summary is the result of careful reading. The skill is not writing quickly but reading intelligently."]},
+{"h":"Five steps","p":["Step 1: question the question. Read the summary question first. Find the command: 'summarise the causes', 'list the effects', 'state the solutions'. This gives you a filter for reading.","Step 2: first reading for gist. Read once at a steady pace to see the topic, the main argument and the plan of the passage.","Step 3: second reading for extraction. Read slowly with a pen. Underline only the sentences that answer the question. Ignore examples, illustrations, statistics (unless central), rhetorical questions, repetition and personal stories. Make a numbered skeleton outline of the key ideas.","Step 4: paraphrase. Express each idea in your own words by using synonyms (important becomes crucial), changing sentence structure (active to passive: 'The storm damaged the crops' becomes 'The crops were damaged by the storm') or changing the word class (nominalisation: 'The company decided to invest' becomes 'The company's decision was to invest'). Example: 'The pervasive and unrelenting nature of unemployment among the youth has led to a disturbing level of restiveness' becomes 'Widespread youth unemployment is a major cause of social unrest.'","Step 5: write and connect. Turn the points into fluent prose with connectives: adding (furthermore, moreover), contrast (however, nevertheless), cause and effect (consequently, as a result, therefore), sequence (firstly, subsequently, finally). Obey the sentence or word limit strictly."]}
+],
+"activity":"Find an opinion article of about 250 to 300 words. Make a skeleton outline of three to five main points and write a summary of no more than four sentences.",
+"check":[
+{"q":"Why read the question first?","o":["It tells you what to look for","It is shorter","It is funnier","It is graded first"]},
+{"q":"The purpose of the first reading is to understand the","o":["Gist","Spelling","Punctuation","Font"]},
+{"q":"You should ignore","o":["Examples and repetition","The main ideas","The question","The answers"]},
+{"q":"A skeleton outline is","o":["A list of key ideas","A drawing","A poem","A dictionary"]},
+{"q":"'However' shows","o":["Contrast","Addition","Cause","Sequence"]}]},
+
+{"id":"e21-14","week":4,"title":"Vocabulary: Building and Words of the Week 4","icon":"BookOpen","summary":"Twelve building words with a gap-fill and ten words of the week: parsimony, virtuoso, revoke, surreptitious, expurgate and more.",
+"keyWords":["Blueprint","Foundation","Scaffolding","Mortar","Facade"]
+,"sections":[
+{"h":"Building words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning"],"rows":[
+["Blueprint","A detailed technical plan of a building or machine"],
+["Foundation","The lowest load-bearing part of a building, usually below ground"],
+["Scaffolding","A temporary structure of poles and planks for workers"],
+["Masonry","Stonework or brickwork"],
+["Mortar","A paste of cement, sand and water that binds bricks"],
+["Plaster","A mixture of lime, sand and water spread on walls and ceilings"],
+["Facade","The main front of a building"],
+["Lintel","A horizontal support across the top of a door or window"],
+["Joist","A timber or steel beam supporting a floor or ceiling"],
+["Girder","A large steel beam used for bridges and big frames"],
+["Buttress","A structure built against a wall to support it"]]}},
+{"h":"Gap-fill","p":["Words: blueprint, foundation, scaffolding, mortar, facade. 'Before a brick was laid, the architects gave the builders a detailed (1) _____. The first step was to dig trenches and pour the concrete (2) _____, which carries the weight of the building. The bricklayers applied (3) _____ between bricks to bind them. A network of poles and planks, the (4) _____, was put up for the upper levels. The client wanted the (5) _____, the frontage, covered in marble.' Answers: blueprint, foundation, mortar, scaffolding, facade."]},
+{"h":"Words of the week 4","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Parsimony (n.)","Extreme unwillingness to spend money","stinginess"],
+["Virtuoso (n.)","A person highly skilled in an art, especially music","maestro"],
+["Revoke (v.)","To cancel officially","rescind, annul"],
+["Surreptitious (adj.)","Done secretly","stealthy, furtive"],
+["Expurgate (v.)","To remove offensive parts from a text","censor"],
+["Vacuous (adj.)","Empty of thought","inane, blank"],
+["Manifest (v./adj.)","To show; clear to see","display; obvious"],
+["Incendiary (adj.)","Causing fires; stirring up conflict","inflammatory"],
+["Remiss (adj.)","Careless about duty","negligent"],
+["Querulous (adj.)","Complaining in a whining way","peevish"]]}}
+],
+"activity":"Write a 60 to 100-word paragraph from a bricklayer's view of building a wall, using 'foundation', 'mortar' and 'scaffolding'. Explain the difference between a joist and a girder. (A joist supports a floor or ceiling in a series; a girder is a main steel beam for bridges and large frames.)",
+"check":[
+{"q":"Temporary structure for workers is","o":["Scaffolding","Mortar","Facade","Lintel"]},
+{"q":"The paste that holds bricks together is","o":["Mortar","Plaster","Blueprint","Girder"]},
+{"q":"The front of a building is the","o":["Facade","Foundation","Joist","Buttress"]},
+{"q":"To 'revoke' a licence is to","o":["Cancel it","Renew it","Print it","Lose it"]},
+{"q":"A 'virtuoso' is","o":["A highly skilled performer","A beginner","A builder","A judge"]},
+{"q":"'Surreptitious' means","o":["Secret","Loud","Happy","Wasteful"]}]},
+
+{"id":"e21-15","week":6,"title":"Oral English: Word Stress","icon":"Zap","summary":"Rules of word stress for two-syllable words, longer words with suffixes and compounds, with the noun-verb stress shift and worked examples.",
+"keyWords":["Word stress","Suffix","Compound","Noun-verb shift","Emphasis"]
+,"sections":[
+{"h":"Why stress matters","p":["Word stress is the rhythm of English: one syllable in a longer word is louder, longer and higher. Wrong stress can make a word hard to recognise. Notice the family: PHOtograph (the picture), phoTOgrapher (the person), photoGRAphic (the adjective)."]},
+{"h":"Two-syllable words","p":["Most two-syllable nouns and adjectives are stressed on the first syllable: TAble, CLImate, HAPpy, CLEver. Many two-syllable verbs are stressed on the second: preSENT, deCIDE, reCEIVE, beGIN. Many words are both noun and verb, and the stress moves: CONduct (noun) / conDUCT (verb); REcord / reCORD; CONflict / conFLICT; REbel / reBEL; PROduce / proDUCE; IMport / imPORT."]},
+{"h":"Longer words and suffixes","p":["Stress the syllable immediately BEFORE these endings: -tion, -sion (examiNAtion, deCIsion); -ic, -ical (ecoNOmic, hisTORical); -ity (aBILity, possiBILity); -graphy (phoTOgraphy, geOgraphy); -logy (biOlogy, psyCHOlogy).","Stress falls ON these endings: -ee (employEE, refuGEE); -eer (engiNEER, pioNEER); -ette (cigarETTE); -esque (picturESQUE).","Words ending in -ify (and -efy) are usually stressed on the third syllable from the end: PURify, SIGnify, CLASSify, JUStify. Your lesson plan marks pu-RI-fy and sig-NI-fy; that is not correct."]},
+{"h":"Compound words","p":["Compound nouns stress the first element: BLACKboard, FOOTball, SUNlight, HEADphones, BIRTHday. Compound adjectives and verbs stress the second: well-KNOWN, old-FASHioned, overFLOW, underSTAND. So the noun GREENhouse and the adjective green-FINgered follow different patterns."]},
+{"h":"Worked examples","p":["POLitics, poLITical, politiCIan (before -ical and -ian). DEMocrat, deMOCracy, demoCRATic. Some words need a dictionary: analysis is aNAlysis; responsibility is responsiBILity; development is deVELopment; textbook is TEXTbook; overcome is overCOME."]}
+],
+"activity":"Mark the stress: happy, present (noun), present (verb), biology, democratic, engineer, ability, geology, import (noun), import (verb). (HAPpy; PREsent; preSENT; biOlogy; demoCRATic; engiNEER; aBILity; geOlogy; IMport; imPORT.)",
+"check":[
+{"q":"Stress in 'biology' is on","o":["-OL-","BI-","-GY","LO-"]},
+{"q":"The verb 'present' is stressed on the","o":["Second syllable","First syllable","Both","Neither"]},
+{"q":"The stress in 'engineer' falls on","o":["-neer","en-","-gi-","None"]},
+{"q":"'Blackboard' (noun) is stressed on","o":["BLACK","board","Both equally","Neither"]},
+{"q":"A stressed syllable is","o":["Louder, longer and higher","Quieter","Shorter","Silent"]},
+{"q":"The word 'purify' is stressed on the","o":["First syllable","Second syllable","Last syllable","Third syllable"]}]},
+
+{"id":"e21-16","week":6,"title":"Listening Skills","icon":"Users","summary":"The five stages of listening, three kinds of barrier to listening and a listening practice with answers.",
+"keyWords":["Hearing","Attending","Understanding","Barriers","Note-taking"]
+,"sections":[
+{"h":"Hearing and listening","p":["Listening is the most used language skill, yet it is often neglected. Hearing is passive: sound reaches the ear. Listening is active: you receive, build meaning from and respond to spoken language."]},
+{"h":"Five stages","p":["1. Hearing: sound waves reach the ear and the brain. 2. Attending: you focus on the message and ignore other sounds. 3. Understanding: you give meaning to the sounds by decoding words and grammar and linking them to what you know. 4. Responding: you give feedback, in words (a question) or without words (nodding, eye contact). 5. Remembering: you store the information. This is where note-taking helps."]},
+{"h":"Barriers","p":["Physical barriers: noise, a poor phone line, a speaker who talks too fast or too softly. Psychological barriers: your bias, prejudice or feelings (anger, worry) twist the message. Mental barriers: inner distractions such as daydreaming, boredom, or planning your reply instead of listening (the 'rebuttal tendency')."]},
+{"h":"Practice","p":["Your teacher reads: 'The National Electricity Regulatory Commission has announced a new tariff that takes effect next month. The Chairman, at a press conference in Abuja, said the new system is designed to be fairer, with consumers who use more electricity paying a higher rate. He assured the public that lifeline tariffs would remain for low-income households. The increase, he argued, is needed to attract investment and improve the failing national grid, which has suffered decades of underfunding.'","Questions and answers: Who announced the tariff? The National Electricity Regulatory Commission. What is the main principle? Heavier users pay more. What assurance was given to low-income households? Lifeline tariffs remain. Why the increase? To attract investment and improve the grid."]}
+],
+"activity":"Listen to a five-minute radio or TV news bulletin. Write a 4 to 5-sentence summary and list two challenges you faced (for example, the newsreader spoke fast or a phone notification distracted you).",
+"check":[
+{"q":"The first stage of listening is","o":["Hearing","Responding","Remembering","Understanding"]},
+{"q":"Nodding while someone speaks is","o":["Non-verbal responding","Remembering","Hearing","A barrier"]},
+{"q":"Planning your reply instead of listening is the","o":["Rebuttal tendency","Attending","Responding","Filtering"]},
+{"q":"A noisy classroom is a","o":["Physical barrier","Mental barrier","Psychological barrier","Help"]},
+{"q":"Listening differs from hearing because it is","o":["Active","Passive","Silent","Automatic"]}]},
+
+{"id":"e21-17","week":6,"title":"Writing: the Argumentative Essay","icon":"Target","summary":"The structure of an argumentative essay with a clear contention, two supporting points, a counter-argument with rebuttal and a strong conclusion, with a worked outline on banning single-use plastics.",
+"keyWords":["Argumentative essay","Contention","Counter-argument","Rebuttal","Call to action"]
+,"sections":[
+{"h":"Purpose","p":["An argumentative essay researches a topic, weighs evidence and takes a firm position. Its aim is to persuade. Unlike an expository essay, which is neutral, it defends a stand with logic and evidence."]},
+{"h":"Structure","p":["Introduction: a hook (a startling statistic, a provocative question or a quotation); background (the context of the debate); and the thesis or contention, a clear, debatable and forceful statement of your stand ('This essay will argue that...').","Body paragraph 1: your first point with a topic sentence and evidence (facts, statistics, examples, reasoning) and an explanation of how it supports your point. Body paragraph 2: a second and stronger point (use transitions: furthermore, moreover) with new evidence.","Body paragraph 3: the counter-argument and rebuttal, which is what marks out an argumentative essay. Counter-argument: state the opposite view fairly ('Opponents say that...'). Rebuttal: knock it down at once with stronger reasons ('However...').","Conclusion: restate the thesis in new, strong words; sum up your points and the rebuttal; end with a clincher (a warning, prediction or call to action)."]},
+{"h":"A worked outline","p":["Topic: 'Should single-use plastics be banned in Nigeria?' Thesis (for the ban): 'The damage to the environment caused by single-use plastics is so severe that a government ban is justified and necessary for our ecosystems and citizens.' Body 1: plastics are a main cause of pollution (clogged drains, litter, harm to animals). Body 2: pollution threatens health and costs money (flooding, mosquito breeding, clean-up costs). Body 3: critics say a ban means job losses and inconvenience; rebuttal: a phased ban allows adjustment and creates jobs in paper, glass and reusable cloth, and the short-term inconvenience is a small price. Conclusion: the costs of doing nothing are greater than the difficulties of a ban."]}
+],
+"activity":"Write a 400-word argumentative essay on 'Corruption is the greatest obstacle to development in Nigeria' or 'The benefits of the internet outweigh its drawbacks'. Write a thesis for: 'Social media does more harm than good to young people.'",
+"check":[
+{"q":"The main aim of an argumentative essay is to","o":["Persuade","Describe only","Tell a story","List facts neutrally"]},
+{"q":"A rebuttal is","o":["A reply that defeats the opposing view","A repeat of your point","An example","A quotation"]},
+{"q":"The paragraph that distinguishes an argumentative essay is the","o":["Counter-argument and rebuttal","Hook","Title","Greeting"]},
+{"q":"A clincher is","o":["A strong final impression","The first sentence","A topic sentence","A footnote"]},
+{"q":"The thesis is also called the","o":["Contention","Hook","Rebuttal","Narration"]}]},
+
+{"id":"e21-18","week":6,"title":"Vocabulary: Words of the Week 6","icon":"BookOpen","summary":"Six words: serendipity, verdant, scathing, reprieve, pariah and maelstrom, with meanings and examples.",
+"keyWords":["Serendipity","Verdant","Scathing","Pariah","Maelstrom"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Serendipity (n.)","A happy accident; good things found by chance","fluke, chance"],
+["Verdant (adj.)","Green with grass or plants","lush, leafy"],
+["Scathing (adj.)","Severely critical","searing, blistering"],
+["Reprieve (n.)","A cancelled or postponed punishment","pardon, stay"],
+["Pariah (n.)","An outcast","outcast"],
+["Maelstrom (n.)","A powerful whirlpool; a state of violent confusion","whirlpool, chaos"]]}},
+{"h":"Examples","p":["Their meeting was a piece of serendipity that led to a lifelong friendship. The hills were verdant after the spring rain. The headmaster gave the vandals a scathing rebuke. The prisoner was granted a last-minute reprieve. After he gave away the team's secret he was treated as a pariah. The country was dragged into the maelstrom of war."]}
+],
+"activity":"Write three sentences, one with each of: serendipity, reprieve, maelstrom. What does a 'verdant' field look like? (Green and lush.)",
+"check":[
+{"q":"A 'pariah' is an","o":["Outcast","Honoured guest","Leader","Judge"]},
+{"q":"'Scathing' means","o":["Severely critical","Gentle","Funny","Quiet"]},
+{"q":"A 'verdant' hill is","o":["Green","Bare","Rocky","Dry"]},
+{"q":"'Serendipity' is a","o":["Happy accident","Plan","Punishment","Mistake"]},
+{"q":"A 'reprieve' is","o":["A delay or cancellation of punishment","A medal","A fine","A prize"]}]},
+
+{"id":"e21-19","week":8,"title":"Structure: Plural Forms of Nouns","icon":"Layers","summary":"Regular plurals, plurals of nouns in -o, -y, -f and -fe, irregular and foreign plurals, and plurals of compound nouns.",
+"keyWords":["Plural","Irregular plural","Foreign plural","Compound noun","Zero plural"]
+,"sections":[
+{"h":"Regular plurals","p":["Add -s: boy, boys; car, cars. Add -es after -s, -ss, -x, -ch, -sh, -z: bus, buses; box, boxes; church, churches; wish, wishes; quiz, quizzes. Nouns in -o: some take -es (potato, tomato, hero) and some only -s (photo, piano, kilo). Nouns in -y: after a consonant change y to ies (baby, babies; city, cities); after a vowel add -s (boy, day, key). Nouns in -f or -fe usually change to -ves (leaf, leaves; wife, wives; knife, knives; shelf, shelves); exceptions: chief, chiefs; roof, roofs; belief, beliefs; proof, proofs."]},
+{"h":"Irregular plurals","p":["Vowel change: man, men; woman, women; foot, feet; tooth, teeth; goose, geese; mouse, mice. -en plurals: child, children; ox, oxen. Zero plurals (no change): species, series, means, crossroads, sheep, deer, fish (fishes refers to several kinds)."]},
+{"h":"Foreign plurals","p":["From Latin and Greek, common in academic English: -us to -i (cactus, cacti; syllabus, syllabi; radius, radii); -a to -ae (formula, formulae; larva, larvae; vertebra, vertebrae); -um to -a (datum, data; medium, media; bacterium, bacteria; curriculum, curricula); -is to -es (crisis, crises; analysis, analyses; thesis, theses; oasis, oases); -on to -a (criterion, criteria; phenomenon, phenomena)."]},
+{"h":"Compound nouns","p":["Usually pluralise the main word: mother-in-law, mothers-in-law; passer-by, passers-by; court-martial, courts-martial; attorney-general, attorneys-general; man-of-war, men-of-war. If there is no clear main noun, add -s at the end: check-in, check-ins; forget-me-not, forget-me-nots; grown-up, grown-ups."]}
+],
+"activity":"Write the plurals: criterion, wife, radius, series, goose, attorney-general, chief, curriculum, city, man-of-war. (criteria; wives; radii; series; geese; attorneys-general; chiefs; curricula; cities; men-of-war.)",
+"check":[
+{"q":"The plural of 'roof' is","o":["Roofs","Rooves","Roofes","Roofies"]},
+{"q":"The plural of 'datum' is","o":["Data","Datums only","Datas","Datae"]},
+{"q":"The plural of 'analysis' is","o":["Analyses","Analysises","Analysis","Analysi"]},
+{"q":"The plural of 'passer-by' is","o":["Passers-by","Passer-bys","Passers-bys","Passer-by"]},
+{"q":"The plural of 'sheep' is","o":["Sheep","Sheeps","Sheepen","Shep"]},
+{"q":"The plural of 'brother-in-law' is","o":["Brothers-in-law","Brother-in-laws","Brothers-in-laws","Brother-ins-law"]}]},
+
+{"id":"e21-20","week":8,"title":"Comprehension: Reading to Find Main Points","icon":"Target","summary":"How to tell the main idea of a paragraph from its supporting details, with a worked example on fast food and practice.",
+"keyWords":["Main idea","Supporting detail","Topic sentence","Viewpoint","Paragraph"]
+,"sections":[
+{"h":"Main idea and details","p":["Summary writing, critical reading and note-taking rest on one skill: separating the main idea (the core point of a paragraph) from the supporting details (facts, examples and explanations that support it). The main idea is often in the topic sentence, usually the first or last sentence."]},
+{"h":"A worked example","p":["Passage: 'The growth of fast-food outlets in cities has started a debate about public health. Supporters say they give cheap, convenient meals to busy workers and families and create jobs in local communities. Critics point to the health damage of a diet high in processed food: more obesity, heart disease and diabetes. The environmental impact of the packaging waste is also a growing concern.'","Question: what are the two main opposing viewpoints? The paragraph is about the debate on fast food. 'Cheap and convenient meals' and 'jobs' are details for the positive view. 'Obesity, heart disease' and 'packaging waste' are details for the negative view. Answer: (1) fast food is useful because it is cheap and gives jobs; (2) it is harmful because of its health risks and effect on the environment."]},
+{"h":"Practice","p":["'Many students think that cramming the night before an exam works. But educational psychologists have shown that it is very inefficient. Information learned by cramming sits in short-term memory and is soon forgotten. Spaced repetition, studying over several sessions, moves knowledge into long-term memory.' Main idea: cramming is an inefficient way to study, and spaced repetition is better. One supporting detail: cramming information is stored in short-term memory and quickly forgotten."]}
+],
+"activity":"Take a comprehension passage from your textbook or a past paper. For each paragraph write its main point in one sentence.",
+"check":[
+{"q":"The main idea is","o":["The central point of a paragraph","An example","A quotation","A title"]},
+{"q":"Supporting details","o":["Prove or explain the main idea","Are always opinions","Are ignored","Are the title"]},
+{"q":"The main idea is often found in the","o":["Topic sentence","Last word","Page number","Footnote"]},
+{"q":"In the cramming paragraph, the better method is","o":["Spaced repetition","Cramming","Sleeping","Copying"]},
+{"q":"'Packaging waste' in the fast-food paragraph supports the","o":["Negative view","Positive view","Neutral view","Title"]}]},
+
+{"id":"e21-21","week":8,"title":"Vocabulary: Words of the Week 8","icon":"BookOpen","summary":"Ten words: wistful, xenophobia, youngster, upbraid, distend, ephemeral, hierarchy, inept, pungent and rectitude.",
+"keyWords":["Wistful","Xenophobia","Ephemeral","Hierarchy","Rectitude"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Wistful (adj.)","Showing a vague, regretful longing","nostalgic, yearning"],
+["Xenophobia (n.)","Dislike or prejudice against people from other countries","bigotry"],
+["Youngster (n.)","A child or young person","youth, juvenile"],
+["Upbraid (v.)","To scold severely","reprimand, rebuke"],
+["Distend (v.)","To swell from pressure inside","bloat, bulge"],
+["Ephemeral (adj.)","Lasting a very short time","fleeting, transient"],
+["Hierarchy (n.)","A system ranked by authority or status","pecking order"],
+["Inept (adj.)","Having no skill; clumsy","incompetent"],
+["Pungent (adj.)","Having a sharp, strong taste or smell","acrid, sharp"],
+["Rectitude (n.)","Morally correct behaviour","integrity, virtue"]]}}
+],
+"activity":"Write five sentences using: wistful, upbraid, ephemeral, hierarchy, inept. Is a pungent smell faint or strong? (Strong.)",
+"check":[
+{"q":"'Ephemeral' means","o":["Lasting a short time","Everlasting","Heavy","Quiet"]},
+{"q":"'Xenophobia' is a dislike of","o":["Foreigners","Food","Music","Work"]},
+{"q":"'Pungent' describes a","o":["Strong smell","Soft sound","Warm colour","Quiet room"]},
+{"q":"To 'upbraid' is to","o":["Scold","Praise","Braid hair","Tie up"]},
+{"q":"'Rectitude' is","o":["Moral correctness","Foolishness","Anger","Speed"]}]}
+]

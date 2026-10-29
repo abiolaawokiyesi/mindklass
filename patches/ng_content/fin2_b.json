@@ -1,0 +1,207 @@
+[
+{"id":"fa2-09","week":3,"title":"Nominal Accounts, Modern Classification and Practice","icon":"Layers","summary":"Nominal accounts (expenses, losses, incomes and gains), the five-category classification, worked entries and practice exercises with answers.",
+"keyWords":["Nominal account","Expense","Income","Asset","Liability"]
+,"sections":[
+{"h":"Nominal accounts","p":["Nominal accounts relate to expenses, losses, incomes and gains. They have no physical form, relate only to the current period, are closed at the end of the period (transferred to the trading account or the profit and loss account) and start again from nil in the next period.","Expenses and losses (money spent or value lost): salaries, rent, electricity, telephone, stationery, insurance, depreciation, bad debts, discount allowed, interest paid, loss on sale of an asset, carriage outwards.","Incomes and gains (money earned or value gained): sales, commission received, rent received, interest received, discount received, profit on sale of an asset, dividend received.","Note: your lesson notes list carriage inwards among the incomes. That is an error: carriage inwards is an EXPENSE (the cost of bringing goods in).","Golden rule: debit all expenses and losses; credit all incomes and gains."]},
+{"h":"Worked examples","p":["Paid salaries ₦50,000: Dr Salaries (expense), Cr Cash. Received commission ₦10,000: Dr Cash, Cr Commission received (income). Sold goods to John ₦30,000 on credit: John is a personal account, so Dr John ₦30,000; sales are income, so Cr Sales ₦30,000. Goods worth ₦20,000 destroyed by fire: Dr Loss by fire (nominal) ₦20,000; Cr Purchases (goods) ₦20,000."]},
+{"h":"Summary","p":["Study the table."],
+"tbl":{"head":["Type","Nature","Debit","Credit"],"rows":[
+["Personal","Persons, firms, companies","The receiver","The giver"],
+["Real","Assets and property","What comes in","What goes out"],
+["Nominal","Expenses, losses, incomes, gains","All expenses and losses","All incomes and gains"]]}},
+{"h":"Modern classification: five categories","p":["Many textbooks use five categories. Assets (debit increases, credit decreases): cash, stock, debtors, machinery. Liabilities (credit increases, debit decreases): creditors, loans, bank overdraft. Capital or equity (credit increases, debit decreases). Expenses (debit increases, credit decreases): salaries, rent, depreciation. Income or revenue (credit increases, debit decreases): sales, commission, interest received.","These five fit the accounting equation, Assets = Capital + Liabilities. A debit increases assets and expenses and decreases liabilities, capital and income. A credit does the opposite."]},
+{"h":"Practice 1: classify the account","p":["Salary: nominal. Building: real. Creditors: personal. Sales: nominal. Motor van: real. John's account: personal. Rent: nominal. Furniture: real. Capital: personal. Interest received: nominal."]},
+{"h":"Practice 2: debit and credit","p":["Study the table."],
+"tbl":{"head":["Transaction","Debit","Credit"],"rows":[
+["Started business with ₦100,000","Cash","Capital"],
+["Bought goods for cash ₦30,000","Purchases","Cash"],
+["Sold goods to Ade ₦20,000","Ade","Sales"],
+["Paid wages ₦5,000","Wages","Cash"],
+["Received rent ₦8,000","Cash","Rent received"],
+["Bought machinery ₦50,000 cash","Machinery","Cash"],
+["Paid insurance ₦3,000","Insurance","Cash"],
+["Withdrew ₦10,000 for personal use","Drawings","Cash"],
+["Sold furniture ₦15,000 (at cost)","Cash","Furniture"],
+["Received from debtor ₦12,000","Cash","Debtor"]]}}
+],
+"activity":"Classify these accounts and state the rule: debtors, depreciation, stock, commission received, loan, bad debts, land, discount allowed, drawings, motor vehicle. (Debtors personal; depreciation nominal; stock real; commission received nominal; loan personal; bad debts nominal; land real; discount allowed nominal; drawings personal; motor vehicle real.)",
+"check":[
+{"q":"Carriage inwards is","o":["An expense","An income","An asset","A liability"]},
+{"q":"Commission received is debited or credited?","o":["Credited","Debited","Neither","Both"]},
+{"q":"Salaries account is","o":["Nominal","Real","Personal","Intangible"]},
+{"q":"A debit increases","o":["Assets and expenses","Liabilities and income","Capital and income","Creditors"]},
+{"q":"Sold goods to John on credit. The debit is to","o":["John","Sales","Cash","Stock"]},
+{"q":"Goods lost by fire are debited to","o":["Loss by fire","Purchases","Cash","Sales"]}]},
+
+{"id":"fa2-10","week":4,"title":"Trial Balance: Meaning, Purpose and Format","icon":"BarChart2","summary":"What a trial balance is, why it is prepared, its formats and which accounts go on the debit side and which on the credit side.",
+"keyWords":["Trial balance","Arithmetical accuracy","Debit column","Credit column","Final accounts"]
+,"sections":[
+{"h":"Meaning","p":["A trial balance is a list of all the ledger account balances, debit and credit, at a particular date, prepared to check the arithmetical accuracy of the books. If the double entry is correct, the total of the debit balances equals the total of the credit balances.","Key points: it is prepared at the end of an accounting period; it lists the balances of all the accounts; total debits must equal total credits; it is not part of the double entry; it is not a financial statement; it helps to find certain errors.","In the definition: statement (a list, not an account); all ledger balances (every account); a particular date (for example 31 December 2024); arithmetical accuracy (whether debits equal credits)."]},
+{"h":"Purposes","p":["1. To check the arithmetical accuracy of the books (total debits equal total credits). 2. To give the basis for the final accounts (the trading account, the profit and loss account and the balance sheet), because all the figures are taken from it. 3. To help find errors: if it does not agree, something is wrong. 4. To summarise the ledger in one place. 5. To compare with other periods and spot unusual balances."]},
+{"h":"Formats","p":["Format 1 is the two-column format: account name, debit ₦ and credit ₦. Format 2 is the four-column format: it adds a ledger folio column and a column for the account name. Format 3 (the totals method) shows the total debits and total credits of each account instead of the balance. It is rarely used. The two-column format is the one used in most examinations."]},
+{"h":"Where each account goes","p":["Assets (cash, bank, stock, debtors, land, buildings, furniture, vehicles, machinery, prepaid expenses): debit. Liabilities (creditors, loans, bank overdraft, outstanding expenses): credit. Capital: credit. Drawings: debit. Expenses (purchases, returns inwards, carriage inwards, salaries, rent, rates, insurance, electricity, telephone, stationery, discount allowed, bad debts, depreciation, interest paid, carriage outwards): debit. Income (sales, returns outwards, discount received, commission received, rent received, interest received, profit on sale of assets): credit."],
+"tbl":{"head":["Debit side","Credit side"],"rows":[
+["Assets","Liabilities"],
+["Expenses and losses","Income and gains"],
+["Drawings","Capital"],
+["Purchases and returns inwards","Sales and returns outwards"]]}},
+{"h":"Note","p":["Returns inwards (goods customers send back) is a deduction from sales, so it has a debit balance. Returns outwards (goods we send back to suppliers) is a deduction from purchases, so it has a credit balance."]}
+],
+"activity":"Sort these into debit and credit columns: capital, drawings, debtors, creditors, rent, commission received, loan from bank, sales. (Debit: drawings, debtors, rent. Credit: capital, creditors, commission received, loan, sales.)",
+"check":[
+{"q":"A trial balance lists","o":["All ledger balances","Only cash","Only sales","Only assets"]},
+{"q":"If the double entry is correct, the trial balance","o":["Totals agree","Is always zero","Has no debit column","Shows a profit"]},
+{"q":"Drawings is on the","o":["Debit side","Credit side","Either","Neither"]},
+{"q":"Returns outwards has a","o":["Credit balance","Debit balance","Zero balance","Cash balance"]},
+{"q":"The trial balance is a","o":["List of balances","Ledger account","Financial statement","Cheque"]}]},
+
+{"id":"fa2-11","week":4,"title":"Extracting Balances and Preparing a Trial Balance","icon":"BarChart2","summary":"Balancing ledger accounts, listing the balances, a worked example from ledger accounts, a full trial balance and the limits of a trial balance.",
+"keyWords":["Extract balances","Trial balance","Debit balance","Credit balance","Limitations"]
+,"sections":[
+{"h":"Steps","p":["1. Balance all the ledger accounts. 2. Decide whether each balance is debit or credit. 3. List the balances in the trial balance. 4. Total both columns. 5. Check that the totals are equal."]},
+{"h":"Worked example: from ledger accounts","p":["Transactions in January: 1 Jan the owner started with cash ₦100,000; 5 Jan bought goods for cash ₦30,000; 10 Jan cash sales ₦50,000; 12 Jan bought goods on credit ₦20,000; 15 Jan paid rent ₦10,000; 20 Jan paid wages ₦5,000; 20 Jan sold goods on credit ₦30,000; 25 Jan received ₦10,000 from debtors; 28 Jan paid creditors ₦15,000.","Cash account: debit side 100,000 + 50,000 + 10,000 = ₦160,000. Credit side 30,000 + 10,000 + 5,000 + 15,000 = ₦60,000. Balance ₦100,000 (debit).","The other balances: Capital ₦100,000 credit; Purchases ₦50,000 debit (30,000 cash and 20,000 credit); Sales ₦80,000 credit (50,000 cash and 30,000 credit); Debtors ₦20,000 debit (30,000 less 10,000); Creditors ₦5,000 credit (20,000 less 15,000); Rent ₦10,000 debit; Wages ₦5,000 debit."],
+"tbl":{"head":["Account","Debit ₦","Credit ₦"],"rows":[
+["Cash","100,000",""],
+["Capital","","100,000"],
+["Purchases","50,000",""],
+["Sales","","80,000"],
+["Debtors","20,000",""],
+["Creditors","","5,000"],
+["Rent","10,000",""],
+["Wages","5,000",""],
+["Total","185,000","185,000"]]}},
+{"h":"Note","p":["Your lesson notes balanced the cash account at ₦105,000 because the receipt from debtors and the payment to creditors were left out. With those two items included, the cash balance is ₦100,000 and the trial balance agrees at ₦185,000."]},
+{"h":"A full trial balance: Ojo Enterprises at 31 December 2024","p":["Study the table. The capital in your notes is given as ₦150,000, but the other balances add to a debit total of ₦441,000 and a credit total of only ₦436,000. A ₦5,000 shortage on the credit side means the capital must be ₦155,000."],
+"tbl":{"head":["Account","Debit ₦","Credit ₦"],"rows":[
+["Capital","","155,000"],
+["Drawings","20,000",""],
+["Motor van","80,000",""],
+["Furniture","40,000",""],
+["Stock (1 January 2024)","30,000",""],
+["Purchases","120,000",""],
+["Sales","","200,000"],
+["Returns inwards","5,000",""],
+["Returns outwards","","3,000"],
+["Debtors","45,000",""],
+["Creditors","","35,000"],
+["Cash at bank","28,000",""],
+["Cash in hand","5,000",""],
+["Salaries","40,000",""],
+["Rent","15,000",""],
+["Insurance","8,000",""],
+["Discount allowed","2,000",""],
+["Discount received","","1,500"],
+["Commission received","","4,500"],
+["Bad debts","3,000",""],
+["Loan from bank","","42,000"],
+["Total","441,000","441,000"]]}},
+{"h":"What a trial balance cannot show","p":["A trial balance that agrees does NOT prove that the books are free from errors. Some errors do not change the totals: a transaction left out completely, an entry in the wrong account of the same type (commission), an entry in the wrong class of account (principle), errors that cancel each other (compensating), and an entry reversed. These are covered in the next units."]}
+],
+"activity":"Prepare a trial balance as at 30 June 2024: Drawings 30,000; Buildings 150,000; Motor vehicles 80,000; Furniture 50,000; Stock 40,000; Purchases 180,000; Returns in 8,000; Debtors 60,000; Bank 35,000; Cash 8,000; Salaries 50,000; Rent 20,000; Insurance 10,000; Electricity 6,000; Discount allowed 4,000; Bad debts 5,000; Sales 300,000; Returns out 6,000; Creditors 50,000; Discount received 3,000; Commission received 7,000; Loan 60,000; and capital. (Debits total ₦736,000. The credits without capital are ₦426,000, so capital must be ₦310,000. Your notes gave ₦200,000, which leaves a ₦110,000 gap.)",
+"check":[
+{"q":"The first step in extracting balances is to","o":["Balance the ledger accounts","Write the profit","Total the sales","Close the books"]},
+{"q":"A debtors balance of ₦20,000 appears on the","o":["Debit side","Credit side","Either side","Neither"]},
+{"q":"A trial balance that agrees proves","o":["The debits equal the credits","There are no errors at all","The business made a profit","The cash is correct"]},
+{"q":"Which error is NOT shown by a trial balance?","o":["A transaction completely omitted","A one-sided posting","A wrong addition","A wrong side posting"]},
+{"q":"In the first example the cash balance is","o":["₦100,000","₦105,000","₦60,000","₦160,000"]},
+{"q":"Creditors of ₦5,000 appear on the","o":["Credit side","Debit side","Both sides","Neither"]}]},
+
+{"id":"fa2-12","week":6,"title":"Errors That Affect the Trial Balance","icon":"Shield","summary":"Errors of partial omission, casting, posting on the wrong side and posting the wrong amount, which make the trial balance disagree.",
+"keyWords":["Omission","Casting","Overcast","Undercast","Wrong side"]
+,"sections":[
+{"h":"Two groups of errors","p":["Errors can be grouped into two kinds. One-sided errors make the trial balance disagree. Two-sided errors keep double entry equal, so the trial balance still agrees even though accounts are wrong. This unit deals with the first kind."]},
+{"h":"1. Error of partial omission","p":["One side of a transaction is recorded and the other is left out. Examples: sales ₦10,000 debited to the customer but not credited to the sales account; a purchase of ₦5,000 credited to the supplier but not debited to purchases. Effect: the trial balance does not agree. Correction: complete the missing entry (the other side goes through the suspense account)."]},
+{"h":"2. Error of casting (addition)","p":["A mistake in adding up an account or a book. For example, the total of the sales day book or the cash book is wrong. If the total is too big it is overcast; if too small it is undercast. Effect: the trial balance does not agree. Correction: adjust the account that has the wrong total."]},
+{"h":"3. Error of posting on the wrong side","p":["An entry is made on the debit side when it should be on the credit side, or the reverse. Examples: a purchase of ₦3,000 credited to the purchases account instead of debited; a payment from a debtor of ₦5,000 debited instead of credited to the debtor. Effect: the trial balance is out by TWICE the amount of the error. Correction: cancel the wrong entry and make the correct one, which means adjusting by double the amount."]},
+{"h":"4. Error of posting the wrong amount","p":["The correct account is used but a different amount is posted to one side. Example: a ₦7,000 purchase is debited to purchases but only ₦700 is credited to the supplier. Effect: the trial balance does not agree (here by ₦6,300). Correction: adjust the account that has the wrong amount."]},
+{"h":"Summary","p":["Study the table."],
+"tbl":{"head":["Error","Example","Effect on trial balance"],"rows":[
+["Partial omission","Sale debited to customer, not credited to sales","Out by the amount"],
+["Casting","Sales day book overcast by ₦2,000","Out by the amount"],
+["Wrong side","₦3,000 credited instead of debited","Out by double the amount"],
+["Wrong amount","₦7,000 debited; ₦700 credited","Out by the difference"]]}},
+{"h":"A note on completely omitted entries","p":["Your lesson notes list a completely omitted transaction here as well as in the next group. A transaction left out completely has neither a debit nor a credit, so the trial balance still agrees. It belongs to the group that does NOT affect the trial balance."]}
+],
+"activity":"A payment of ₦4,000 was wrongly posted to the credit side of the rent account instead of the debit side. By how much does the trial balance disagree? (₦8,000, twice the error.)",
+"check":[
+{"q":"An overcast means the total is","o":["Too big","Too small","Correct","Missing"]},
+{"q":"An item posted to the wrong side makes the trial balance out by","o":["Twice the amount","The amount","Half the amount","Nothing"]},
+{"q":"A one-sided posting makes the trial balance","o":["Disagree","Always agree","Zero","Perfect"]},
+{"q":"A partial omission means","o":["One side was left out","Both sides were left out","Both sides wrong","None"]},
+{"q":"A ₦7,000 debit and a ₦700 credit differ by","o":["₦6,300","₦7,700","₦700","₦7,000"]}]},
+
+{"id":"fa2-13","week":6,"title":"Errors That Do Not Affect the Trial Balance","icon":"Shield","summary":"Errors of complete omission, commission, principle, compensating errors, errors of original entry and reversal of entries.",
+"keyWords":["Commission","Principle","Compensating","Original entry","Reversal"]
+,"sections":[
+{"h":"Why the trial balance still agrees","p":["With these errors, the debit and the credit are still equal, so the trial balance agrees. But the accounts are wrong and the final accounts will be wrong too. A balanced trial balance does not mean error-free books."]},
+{"h":"The six types","p":["1. Error of complete omission: a transaction is not recorded at all (no debit and no credit). Example: a sale of ₦20,000 with no entry. Correction: record the whole transaction.","2. Error of commission: an entry is made in the wrong account of the SAME class, on the correct side, with the correct amount. Examples: a payment to Ade debited to John's account (both personal); rent ₦3,000 debited to the rates account (both expenses). Correction: transfer from the wrong account to the right one.","3. Error of principle: an entry breaks an accounting principle by using the wrong CLASS of account. Examples: machinery of ₦100,000 debited to purchases (an asset treated as an expense); repairs of ₦5,000 debited to the machinery account (an expense treated as an asset). Correction: transfer to the correct class of account.","4. Compensating errors: two or more errors that cancel each other out. Example: sales overcast by ₦1,000 (extra credit) and purchases overcast by ₦1,000 (extra debit). Correction: correct each error separately.","5. Error of original entry: the wrong amount is recorded in the book of original entry and then posted correctly from there. Example: an invoice for ₦7,000 is recorded as ₦700 in the day book. Both the debit and the credit are ₦700. Correction: adjust both accounts by the difference.","6. Reversal of entries: the right accounts are used but the debit and credit are the wrong way round. Example: rent ₦5,000 paid, but Dr Cash and Cr Rent were written. Correction: debit Rent and credit Cash with double the amount (₦10,000), which cancels the wrong entry and makes the right one."]},
+{"h":"Summary table","p":["Study the table."],
+"tbl":{"head":["Error","Wrong account or amount","Trial balance"],"rows":[
+["Complete omission","Nothing recorded","Agrees"],
+["Commission","Wrong account, same class","Agrees"],
+["Principle","Wrong class of account","Agrees"],
+["Compensating","Two errors cancel","Agrees"],
+["Original entry","Wrong amount in the original record","Agrees"],
+["Reversal","Dr and Cr swapped","Agrees"]]}}
+],
+"activity":"Name the error: (a) rent ₦3,000 debited to rates; (b) a delivery van bought for ₦900,000 debited to purchases; (c) an invoice for ₦7,500 recorded as ₦750; (d) a sale of ₦20,000 never entered. ((a) commission; (b) principle; (c) original entry; (d) complete omission.)",
+"check":[
+{"q":"Rent debited to the rates account is an error of","o":["Commission","Principle","Omission","Casting"]},
+{"q":"A van debited to purchases is an error of","o":["Principle","Commission","Casting","Reversal"]},
+{"q":"Two errors that cancel out are","o":["Compensating","Original","Principle","Commission"]},
+{"q":"A transaction not recorded at all makes the trial balance","o":["Agree","Disagree by double","Zero","Negative"]},
+{"q":"For a reversal of entries, correct by adjusting","o":["Twice the amount","Half the amount","Nothing","One third"]},
+{"q":"A balanced trial balance proves that","o":["Debits equal credits only","All books are right","No fraud exists","Profit is correct"]}]},
+
+{"id":"fa2-14","week":6,"title":"Suspense Account and Correcting Errors by Journal Entries","icon":"Target","summary":"What a suspense account is, how it is opened and cleared, correction entries for each error, and a worked example that clears to nil.",
+"keyWords":["Suspense account","Correcting journal","Trial balance difference","Narration","Clear"]
+,"sections":[
+{"h":"The suspense account","p":["A suspense account is a temporary account used when the trial balance does not agree and the cause cannot be found quickly. It lets the accountant make the trial balance agree and carry on until the errors are found.","How it is opened: if the debits are bigger than the credits, CREDIT the suspense account with the difference. If the credits are bigger than the debits, DEBIT the suspense account.","Clearing it: as each error is found, a correcting journal entry is made. Each entry that affects the trial balance has one side in the suspense account. When all the errors have been found, the suspense account balance is nil. If it is not nil, some errors are still undiscovered."]},
+{"h":"How to write a correction","p":["1. Find out what was wrongly done. 2. Find out what should have been done. 3. Cancel the wrong entry and make the right one, or use a single entry that does both. 4. Write a short narration."]},
+{"h":"Examples of correcting entries","p":["Commission: a payment of ₦5,000 to Ade was debited to John. Dr Ade ₦5,000, Cr John ₦5,000. No suspense entry.","Principle: machinery of ₦100,000 was debited to purchases. Dr Machinery ₦100,000, Cr Purchases ₦100,000. No suspense entry.","Partial omission: sales of ₦10,000 were debited to the customer but not credited to sales. Dr Suspense ₦10,000, Cr Sales ₦10,000.","Overcast: the sales day book is overcast by ₦2,000. Dr Sales ₦2,000, Cr Suspense ₦2,000.","Wrong side: ₦8,000 received from a debtor was wrongly DEBITED to the debtor instead of credited. Dr Suspense ₦16,000, Cr Debtor ₦16,000 (twice the amount). (Your notes show the opposite wrong side; a receipt from a debtor must be credited to the debtor.)","Original entry: an invoice for ₦7,500 was recorded as ₦750. Dr Customer ₦6,750, Cr Sales ₦6,750. No suspense entry.","Compensating errors: sales overcast ₦3,000 and purchases overcast ₦3,000. Dr Sales ₦3,000, Cr Suspense ₦3,000; Dr Suspense ₦3,000, Cr Purchases ₦3,000. The suspense effect is nil."]},
+{"h":"Comprehensive example: ABC Traders","p":["The trial balance disagreed and a suspense account was opened. These errors were found: (1) the sales day book was overcast by ₦3,000; (2) furniture of ₦50,000 was debited to purchases; (3) a payment of ₦12,000 to creditor Ojo was debited to creditor Ade; (4) returns inwards of ₦2,400 were posted to the credit side of the returns inwards account; (5) discount received of ₦3,000 was posted to the debit side of the discount received account; (6) a sale of ₦25,000 was left out completely.","Corrections: (1) Dr Sales 3,000, Cr Suspense 3,000. (2) Dr Furniture 50,000, Cr Purchases 50,000. (3) Dr Ojo 12,000, Cr Ade 12,000. (4) Dr Returns inwards 4,800, Cr Suspense 4,800. (5) Dr Suspense 6,000, Cr Discount received 6,000. (6) Dr Debtors 25,000, Cr Sales 25,000.","Which errors touched the suspense account: (1), (4) and (5) only.","The effect of these errors on the trial balance was credits too high by 3,000 and 4,800, and debits too high by 6,000. The net result is that credits exceed debits by ₦1,800, so the suspense account is opened with a DEBIT of ₦1,800. (Your notes show a ₦15,400 difference, which is not consistent with these errors, and their suspense account did not balance. The figure that makes the suspense account clear to nil is ₦1,800.)"],
+"tbl":{"head":["Debit side","₦","Credit side","₦"],"rows":[
+["Trial balance difference","1,800","Sales (overcast)","3,000"],
+["Discount received (wrong side)","6,000","Returns inwards (wrong side)","4,800"],
+["Total","7,800","Total","7,800"]]}},
+{"h":"The suspense account is nil","p":["The suspense account debits (1,800 + 6,000) equal the credits (3,000 + 4,800), so the balance is nil: all the errors have been found."]},
+{"h":"Practice (Kunle Enterprises)","p":["Errors found: (1) the purchases day book was undercast by ₦2,000; (2) the sale of old furniture for ₦15,000 was credited to sales; (3) a cash payment of ₦3,500 to Bisi was debited to Tunde; (4) discount allowed of ₦1,500 was posted to the credit side; (5) bank charges of ₦4,000 were left out completely.","Answers: (1) Dr Purchases 2,000, Cr Suspense 2,000. (2) Dr Sales 15,000, Cr Furniture 15,000. (3) Dr Bisi 3,500, Cr Tunde 3,500. (4) Dr Discount allowed 3,000, Cr Suspense 3,000. (5) Dr Bank charges 4,000, Cr Bank 4,000.","Only errors (1) and (4) affected the trial balance. Together they made the credits exceed the debits by ₦5,000, so the suspense account starts with a debit of ₦5,000, and the two credits of ₦2,000 and ₦3,000 clear it. (Your notes say debits exceeded credits by ₦8,500, which does not match the errors.)"]}
+],
+"activity":"The trial balance shows debits ₦300,000 and credits ₦295,000. What entry opens the suspense account, and on which side? (Credit suspense with ₦5,000, so the credit side becomes ₦300,000.)",
+"check":[
+{"q":"If debits exceed credits, the suspense account is","o":["Credited","Debited","Closed","Ignored"]},
+{"q":"An error of principle needs a suspense entry?","o":["No","Yes, always","Only if large","Only for cash"]},
+{"q":"A completed suspense account has a balance of","o":["Nil","₦1,000","₦10,000","Debit"]},
+{"q":"The correction of a wrong side posting uses","o":["Twice the amount","Half the amount","The amount","Nothing"]},
+{"q":"If the suspense account does not clear to nil, then","o":["Some errors are still undiscovered","All errors are found","The profit is higher","The ledger is closed"]},
+{"q":"Sales overcast by ₦2,000 is corrected by debiting","o":["Sales","Suspense","Purchases","Cash"]}]},
+
+{"id":"fa2-15","week":8,"title":"The Trading Account: Meaning, Format and Items","icon":"BarChart2","summary":"What the trading account is, why it is prepared, its format and the items on its debit and credit sides.",
+"keyWords":["Trading account","Gross profit","Gross loss","Cost of goods sold","Opening stock"]
+,"sections":[
+{"h":"Meaning","p":["The trading account is an account prepared to find the gross profit or gross loss from buying and selling goods. It is the first part of the final accounts. It shows trading activities only, for a given period such as a year, and it is the first part of the profit and loss account.","Gross profit is the excess of sales over the cost of the goods sold. Gross loss is the excess of the cost of goods sold over sales. Cost of goods sold (COGS) is the cost of the goods actually sold in the period: opening stock + purchases + direct expenses − closing stock."]},
+{"h":"Purpose","p":["1. To find the gross profit or loss from trading. 2. To judge the trading performance by comparing it with earlier periods and with the plan, and by checking the prices charged. 3. To provide the starting figure for the profit and loss account. 4. For analysis: gross profit margin and stock turnover. 5. For comparison with other businesses and the industry."]},
+{"h":"Format (vertical)","p":["Study the table. If the cost of goods sold is greater than net sales, the result is a gross loss."],
+"tbl":{"head":["Trading account for the year ended ...","₦","₦"],"rows":[
+["Sales","","XXX"],
+["Less: returns inwards","","(XXX)"],
+["Net sales","","XXX"],
+["Opening stock","XXX",""],
+["Add: purchases","XXX",""],
+["Less: returns outwards","(XXX)","XXX"],
+["Add: carriage inwards","","XXX"],
+["Add: direct expenses (factory wages, import duty)","","XXX"],
+["Cost of goods available for sale","","XXX"],
+["Less: closing stock","","(XXX)"],
+["Cost of goods sold","","(XXX)"],
+["Gross profit","","XXX"]]}},
+{"h":"Items on the account","p":["Opening stock: the stock at the start of the period, which is last year's closing stock. Purchases: goods bought for resale, for cash and on credit. Returns outwards: goods returned to suppliers; deduct from purchases (also called purchases returns). Carriage inwards: the cost of bringing the goods in (also freight inwards); it is part of the cost of the goods. Direct expenses: expenses directly connected with getting the goods ready for sale, such as factory wages, factory rent, power, import and customs duties.","Sales: goods sold, for cash and on credit. Returns inwards: goods returned by customers; deduct from sales (also called sales returns). Closing stock: the unsold stock at the end of the period; it is valued at the lower of cost and net realisable value and is deducted from the cost of goods because it has not been sold. It can be shown as a deduction on the debit side or as an addition on the credit side. The gross profit is the same either way. Gross profit is the balancing figure, carried to the profit and loss account."]}
+],
+"activity":"State four items that are found on the debit side of a trading account. (Opening stock, purchases, carriage inwards, direct expenses; returns outwards are deducted from purchases.)",
+"check":[
+{"q":"Gross profit is","o":["Net sales less cost of goods sold","Sales less all expenses","Purchases less sales","Capital less drawings"]},
+{"q":"Carriage inwards is shown in the","o":["Trading account","Balance sheet","Drawings","Capital account"]},
+{"q":"Closing stock is","o":["Deducted from the cost of goods","Added to purchases","Ignored","An expense"]},
+{"q":"Returns outwards are deducted from","o":["Purchases","Sales","Capital","Stock"]},
+{"q":"A gross loss occurs when","o":["Cost of goods sold exceeds net sales","Sales exceed cost of sales","Expenses are low","Stock is high"]}]}
+]

@@ -33,10 +33,54 @@ $map = @(
   @('phys', 714, 'phy-gas-tube-b-low.jpg', $null), @('phys', 764, 'phy-pendulum-energy.jpg', $null), @('phys', 806, 'phy-projectile.jpg', $null),
   @('phys', 827, 'phy-projectile-height.jpg', $null), @('phys', 845, 'phy-wave-parts.jpg', $null), @('phys', 876, 'phy-wave-types.jpg', $null),
   @('phys', 889, 'phy-polarisation.jpg', $null), @('phys', 903, 'phy-wave-distance.jpg', $null),
-  @('eng', 114, 'eng-family-tree.jpg', $null)
+  @('eng', 114, 'eng-family-tree.jpg', $null),
+  @('eco', 141, 'eco-simple-bar.jpg', $null), @('eco', 148, 'eco-component-bar.jpg', @(0, 6, 1391, 863)), @('eco', 156, 'eco-multiple-bar.jpg', @(0, 6, 1594, 933)),
+  @('eco', 187, 'eco-histogram-ungrouped.jpg', @(0, 6, 1273, 754)), @('eco', 992, 'eco-industrial-zones.jpg', $null),
+  @('bio', 81, 'bio-kingdoms.jpg', $null), @('bio', 102, 'bio-animal-classification.jpg', $null), @('bio', 118, 'bio-grasshopper.jpg', $null), @('bio', 124, 'bio-myriapods.jpg', $null), @('bio', 136, 'bio-fish.jpg', $null),
+  @('bio', 137, 'bio-frog-toad.jpg', $null), @('bio', 143, 'bio-lizard.jpg', $null), @('bio', 149, 'bio-bird.jpg', $null), @('bio', 165, 'bio-plant-cell.jpg', $null), @('bio', 166, 'bio-animal-cell.jpg', $null),
+  @('bio', 193, 'bio-osmosis-diffusion.jpg', $null), @('bio', 251, 'bio-glycolysis.jpg', $null), @('bio', 257, 'bio-krebs.jpg', $null), @('bio', 280, 'bio-meiosis-prophase1.jpg', $null), @('bio', 281, 'bio-meiosis-metaphase1.jpg', $null),
+  @('bio', 287, 'bio-meiosis-anaphase1.jpg', $null), @('bio', 288, 'bio-meiosis-telophase1.jpg', $null), @('bio', 294, 'bio-meiosis-2.jpg', $null), @('bio', 337, 'bio-skeleton.jpg', $null), @('bio', 369, 'bio-xylem-phloem.jpg', $null),
+  @('bio', 494, 'bio-trophic-pyramid.jpg', $null), @('bio', 500, 'bio-energy-pyramid.jpg', $null), @('bio', 575, 'bio-bacteria-shapes.jpg', $null), @('bio', 756, 'bio-savanna-desert.jpg', @(0, 0, 1017, 336)), @('bio', 794, 'bio-amoeba-fission.jpg', $null),
+  @('bio', 800, 'bio-spirogyra.jpg', @(0, 0, 720, 315)),
+  @('chem', 36, 'chem-chemistry-central.jpg', $null), @('chem', 83, 'chem-industries.jpg', @(0, 0, 575, 720)), @('chem', 151, 'chem-particles.jpg', $null), @('chem', 200, 'chem-fractional.jpg', $null), @('chem', 201, 'chem-simple-distillation.jpg', $null),
+  @('chem', 207, 'chem-sublimation.jpg', $null), @('chem', 213, 'chem-centrifuge.jpg', @(0, 0, 229, 268)), @('chem', 214, 'chem-chromatography.jpg', $null), @('chem', 220, 'chem-decantation.jpg', $null), @('chem', 221, 'chem-evaporation.jpg', $null),
+  @('chem', 227, 'chem-winnowing.jpg', $null), @('chem', 228, 'chem-magnet.jpg', $null), @('chem', 235, 'chem-sieving.jpg', $null), @('chem', 253, 'chem-atom-model.jpg', $null), @('chem', 269, 'chem-bohr.jpg', $null), @('chem', 286, 'chem-periodic-table.jpg', $null), @('eco', 194, 'eco-histogram-grouped.jpg', @(0, 0, 770, 728))
 )
 foreach ($m in $map) { CopyImg $m[0] $m[1] $m[2] $m[3] }
 "copied $($map.Count) pictures"
+
+function PaintOver($name, $x, $y, $w, $h) {
+  $path = Join-Path $out $name
+  $im = [Drawing.Bitmap]::FromStream((New-Object IO.MemoryStream (, [IO.File]::ReadAllBytes($path))))
+  $bmp = New-Object Drawing.Bitmap $im.Width, $im.Height
+  $g0 = [Drawing.Graphics]::FromImage($bmp); $g0.DrawImage($im, 0, 0, $im.Width, $im.Height); $g0.Dispose(); $im.Dispose()
+  for ($yy = $y; $yy -lt ($y + $h); $yy++) {
+    $cl = $bmp.GetPixel(($x - 3), $yy); $cr = $bmp.GetPixel(($x + $w + 3), $yy)
+    for ($xx = $x; $xx -lt ($x + $w); $xx++) {
+      $t = ($xx - $x) / [double]$w
+      $c = [Drawing.Color]::FromArgb([int]($cl.R + ($cr.R - $cl.R) * $t), [int]($cl.G + ($cr.G - $cl.G) * $t), [int]($cl.B + ($cr.B - $cl.B) * $t))
+      $bmp.SetPixel($xx, $yy, $c)
+    }
+  }
+  $enc = [Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() | Where-Object { $_.MimeType -eq 'image/jpeg' }
+  $ep = New-Object Drawing.Imaging.EncoderParameters 1; $ep.Param[0] = New-Object Drawing.Imaging.EncoderParameter ([Drawing.Imaging.Encoder]::Quality), 92L
+  $bmp.Save($path, $enc, $ep); $bmp.Dispose()
+}
+PaintOver 'chem-winnowing.jpg' 296 62 130 34
+PaintOver 'chem-magnet.jpg' 486 151 130 17
+function FillWhite($name, $x, $y, $w, $h) {
+  $path = Join-Path $out $name
+  $im = [Drawing.Bitmap]::FromStream((New-Object IO.MemoryStream (, [IO.File]::ReadAllBytes($path))))
+  $bmp = New-Object Drawing.Bitmap $im.Width, $im.Height
+  $g0 = [Drawing.Graphics]::FromImage($bmp); $g0.DrawImage($im, 0, 0, $im.Width, $im.Height); $g0.FillRectangle([Drawing.Brushes]::White, $x, $y, $w, $h); $g0.Dispose(); $im.Dispose()
+  $enc = [Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() | Where-Object { $_.MimeType -eq 'image/jpeg' }
+  $ep = New-Object Drawing.Imaging.EncoderParameters 1; $ep.Param[0] = New-Object Drawing.Imaging.EncoderParameter ([Drawing.Imaging.Encoder]::Quality), 92L
+  $bmp.Save($path, $enc, $ep); $bmp.Dispose()
+}
+FillWhite 'bio-meiosis-prophase1.jpg' 0 300 105 30
+FillWhite 'bio-meiosis-metaphase1.jpg' 0 294 105 22
+FillWhite 'bio-meiosis-anaphase1.jpg' 0 266 135 30
+FillWhite 'bio-meiosis-telophase1.jpg' 0 324 140 30
 
 # ---------- 2. drawing helpers ----------
 $ink = [Drawing.Color]::FromArgb(31, 41, 55); $blue = [Drawing.Color]::FromArgb(24, 66, 168); $orange = [Drawing.Color]::FromArgb(217, 119, 6); $green = [Drawing.Color]::FromArgb(5, 150, 105); $grey = [Drawing.Color]::FromArgb(148, 163, 184)
@@ -515,7 +559,7 @@ Arrow $ink 2.5 $ox $oy 700 $oy; Arrow $ink 2.5 $ox $oy $ox 50
 foreach ($j in 0..10) { if ($j % 2 -eq 0) { Txt "$j" ($ox - 34) ($oy - $j * $uy - 12) 18 $ink $false; Line ([Drawing.Color]::FromArgb(226, 232, 240)) 1 $ox ($oy - $j * $uy) 690 ($oy - $j * $uy) $false } }
 $vals = @(@(6, 2), @(7, 5), @(8, 8), @(9, 3), @(10, 2)); $k = 0
 foreach ($v in $vals) { $x = $ox + 30 + $k * 112; $b = New-Object Drawing.SolidBrush $blue; $script:g.FillRectangle($b, [single]$x, [single]($oy - $v[1] * $uy), 76, [single]($v[1] * $uy)); $b.Dispose(); TxtC "$($v[0])" ($x + 38) ($oy + 6) 20 $ink $false; TxtC "$($v[1])" ($x + 38) ($oy - $v[1] * $uy - 28) 18 $ink $true; $k++ }
-TxtC 'Shoe size' 400 475 22 $ink $true; TxtV 'Frequency' 40 240 22 $ink; TxtC 'Shoe sizes of 20 students' 400 12 22 $ink $true
+TxtC 'Shoe size' 400 475 22 $ink $true; TxtV 'Frequency' 18 240 22 $ink; TxtC 'Shoe sizes of 20 students' 400 12 22 $ink $true
 Save 'mth-bar-chart.png'
 
 # histogram of heights
@@ -526,7 +570,7 @@ foreach ($j in 0, 4, 8, 12, 16, 20) { Txt "$j" ($ox - 38) ($oy - $j * $uy - 12) 
 $fr = @(6, 12, 18, 10, 4); $bd = @('149.5', '154.5', '159.5', '164.5', '169.5', '174.5')
 for ($k = 0; $k -lt 5; $k++) { $x = $ox + $k * $ux; $b = New-Object Drawing.SolidBrush ([Drawing.Color]::FromArgb(150, 24, 66, 168)); $script:g.FillRectangle($b, [single]$x, [single]($oy - $fr[$k] * $uy), [single]$ux, [single]($fr[$k] * $uy)); $b.Dispose(); $pn = PenOf $ink 2; $script:g.DrawRectangle($pn, [single]$x, [single]($oy - $fr[$k] * $uy), [single]$ux, [single]($fr[$k] * $uy)); $pn.Dispose(); TxtC "$($fr[$k])" ($x + $ux / 2) ($oy - $fr[$k] * $uy - 28) 18 $ink $true }
 for ($k = 0; $k -le 5; $k++) { TxtC $bd[$k] ($ox + $k * $ux) ($oy + 6) 18 $ink $false }
-TxtC 'Height (cm), class boundaries' 440 485 22 $ink $true; TxtV 'Frequency' 52 250 22 $ink; TxtC 'Heights of 50 SS1 students' 440 8 22 $ink $true
+TxtC 'Height (cm), class boundaries' 440 485 22 $ink $true; TxtV 'Frequency' 16 250 22 $ink; TxtC 'Heights of 50 SS1 students' 440 8 22 $ink $true
 Save 'mth-histogram.png'
 
 # pie chart
@@ -555,7 +599,805 @@ foreach ($c in $cls) { $b = New-Object Drawing.SolidBrush ([Drawing.Color]::From
 $mp = @(@(147, 0), @(152, 6), @(157, 12), @(162, 18), @(167, 10), @(172, 4), @(177, 0))
 $pl = PenOf $orange 4; $pa = @(); foreach ($m in $mp) { $pa += New-Object Drawing.PointF ([single](PXv $m[0])), ([single]($oy - $m[1] * $uy)) }; $script:g.DrawLines($pl, [Drawing.PointF[]]$pa); $pl.Dispose()
 foreach ($m in $mp) { Dot $orange (PXv $m[0]) ($oy - $m[1] * $uy) 7; TxtC "$($m[0])" (PXv $m[0]) ($oy + 6) 18 $ink $true }
-TxtC 'Class midpoints (cm)' 480 485 22 $ink $true; TxtV 'Frequency' 30 250 22 $ink; TxtC 'Frequency polygon (grounded at 147 and 177)' 480 8 22 $ink $true
+TxtC 'Class midpoints (cm)' 480 485 22 $ink $true; TxtV 'Frequency' 10 250 22 $ink; TxtC 'Frequency polygon (grounded at 147 and 177)' 480 8 22 $ink $true
 Save 'mth-freq-polygon.png'
-"drawn 32 figures"
+
+# ---------- Economics figures ----------
+$red = [Drawing.Color]::FromArgb(220, 38, 38)
+# demand graph: price = 11 - quantity
+Canvas 900 620
+$ox = 90; $oy = 520; $ux = 72; $uyy = 40
+for ($i = 0; $i -le 10; $i++) { Line ([Drawing.Color]::FromArgb(226, 232, 240)) 1 ($ox + $i * $ux) $oy ($ox + $i * $ux) ($oy - 11 * $uyy) $false; Line ([Drawing.Color]::FromArgb(226, 232, 240)) 1 $ox ($oy - $i * $uyy) ($ox + 10.5 * $ux) ($oy - $i * $uyy) $false }
+Arrow $ink 2.5 $ox $oy ($ox + 10.8 * $ux) $oy; Arrow $ink 2.5 $ox $oy $ox ($oy - 11.3 * $uyy)
+for ($i = 1; $i -le 10; $i++) { TxtC "$i" ($ox + $i * $ux) ($oy + 8) 20 $ink $false; Txt "$i" ($ox - 36) ($oy - $i * $uyy - 12) 20 $ink $false }
+TxtC 'Quantity demanded' ($ox + 5 * $ux) ($oy + 42) 22 $ink $true; TxtV 'Price (N)' 22 ($oy - 5 * $uyy) 22 $ink
+$pa = @(); for ($q = 1; $q -le 10; $q++) { $pa += ,@(($ox + $q * $ux), ($oy - (11 - $q) * $uyy)) }
+$pl = PenOf $blue 4; $pts = @(); foreach ($a in $pa) { $pts += New-Object Drawing.PointF ([single]$a[0]), ([single]$a[1]) }; $script:g.DrawLines($pl, [Drawing.PointF[]]$pts); $pl.Dispose()
+foreach ($a in $pa) { Dot $orange $a[0] $a[1] 7 }
+Txt 'D' ($pa[0][0] + 10) ($pa[0][1] - 30) 26 $blue $true; Txt 'D' ($pa[9][0] - 6) ($pa[9][1] - 36) 26 $blue $true
+TxtC 'A demand curve: price falls as quantity demanded rises' 450 6 22 $ink $true
+Save 'eco-demand-graph.png'
+
+# pie chart: A 126, B 180, C 54
+Canvas 760 620
+$cx = 380; $cy = 290; $r = 190
+$bA = New-Object Drawing.SolidBrush $blue; $bB = New-Object Drawing.SolidBrush $orange; $bC = New-Object Drawing.SolidBrush $green
+$script:g.FillPie($bA, [single]($cx - $r), [single]($cy - $r), [single](2 * $r), [single](2 * $r), [single](-90), [single]126)
+$script:g.FillPie($bB, [single]($cx - $r), [single]($cy - $r), [single](2 * $r), [single](2 * $r), [single](36), [single]180)
+$script:g.FillPie($bC, [single]($cx - $r), [single]($cy - $r), [single](2 * $r), [single](2 * $r), [single](216), [single]54)
+$bA.Dispose(); $bB.Dispose(); $bC.Dispose()
+foreach ($a in -90, 36, 216) { $pt = @(($cx + $r * [math]::Cos((RadOf $a))), ($cy + $r * [math]::Sin((RadOf $a)))); Line ([Drawing.Color]::White) 4 $cx $cy $pt[0] $pt[1] $false }
+$dg = [string][char]0xB0
+TxtC "Town A: 70 000" 640 70 20 $blue $true; TxtC ("126$dg  (35%)") 640 96 22 $blue $true
+TxtC "Town B: 100 000" 380 520 20 $orange $true; TxtC ("180$dg  (50%)") 380 544 20 $orange $true
+TxtC "Town C: 30 000" 110 190 20 $green $true; TxtC ("54$dg  (15%)") 110 216 22 $green $true
+TxtC ("Total 200 000: 126 + 180 + 54 = 360$dg") 380 8 20 $ink $true
+Save 'eco-pie-chart.png'
+
+# frequency polygon over histogram of grouped ages
+Canvas 900 560
+$ox = 90; $oy = 450; $ux = 34; $uyy = 28; $x0e = 5
+function PXe($v) { $script:ox + ($v - $script:x0e) * $script:ux }
+foreach ($j in 0, 2, 4, 6, 8, 10, 12, 14) { Txt "$j" ($ox - 36) ($oy - $j * $uyy - 12) 18 $ink $false; Line ([Drawing.Color]::FromArgb(226, 232, 240)) 1 $ox ($oy - $j * $uyy) 820 ($oy - $j * $uyy) $false }
+Arrow $ink 2.5 $ox $oy 850 $oy; Arrow $ink 2.5 $ox $oy $ox 40
+$cl = @(@(9.5, 12.5, 12, '10 - 12'), @(12.5, 15.5, 8, '13 - 15'), @(15.5, 18.5, 6, '16 - 18'), @(18.5, 21.5, 4, '19 - 21'))
+foreach ($c in $cl) { $b = New-Object Drawing.SolidBrush ([Drawing.Color]::FromArgb(90, 24, 66, 168)); $script:g.FillRectangle($b, [single](PXe $c[0]), [single]($oy - $c[2] * $uyy), [single](($c[1] - $c[0]) * $ux), [single]($c[2] * $uyy)); $b.Dispose(); $pn = PenOf $ink 2; $script:g.DrawRectangle($pn, [single](PXe $c[0]), [single]($oy - $c[2] * $uyy), [single](($c[1] - $c[0]) * $ux), [single]($c[2] * $uyy)); $pn.Dispose(); TxtC $c[3] ((PXe $c[0]) + 1.5 * $ux) ($oy + 8) 18 $ink $false }
+$mp = @(@(8, 0), @(11, 12), @(14, 8), @(17, 6), @(20, 4), @(23, 0))
+$pl = PenOf $orange 4; $pts = @(); foreach ($m in $mp) { $pts += New-Object Drawing.PointF ([single](PXe $m[0])), ([single]($oy - $m[1] * $uyy)) }; $script:g.DrawLines($pl, [Drawing.PointF[]]$pts); $pl.Dispose()
+foreach ($m in $mp) { Dot $orange (PXe $m[0]) ($oy - $m[1] * $uyy) 7 }
+TxtC 'Age (years)' 470 ($oy + 42) 22 $ink $true; TxtV 'Number of students' 26 250 22 $ink
+TxtC 'Frequency polygon: join the midpoints of the tops of the bars' 450 6 22 $ink $true
+Save 'eco-freq-polygon.png'
+
+# demand curve with p0, p1, q0, q1
+Canvas 760 580
+$ox = 110; $oy = 480
+Arrow $ink 2.5 $ox $oy 700 $oy; Arrow $ink 2.5 $ox $oy $ox 50
+TxtC 'Quantity' 640 ($oy + 12) 22 $ink $true; TxtV 'Price' 30 340 22 $ink
+$p0y = 200; $p1y = 300
+Curve $blue 4 @(@(190, 90), @(215, 150), @(245, 200), @(300, 255), @(385, 300), @(480, 322), @(580, 332))
+Line $ink 1.5 $ox $p0y 245 $p0y $true; Line $ink 1.5 $ox $p1y 385 $p1y $true; Line $ink 1.5 245 $p0y 245 $oy $true; Line $ink 1.5 385 $p1y 385 $oy $true
+Dot $orange 245 $p0y 7; Dot $orange 385 $p1y 7
+Txt 'P0' 62 ($p0y - 14) 22 $ink $true; Txt 'P1' 62 ($p1y - 14) 22 $ink $true; TxtC 'Q0' 245 ($oy + 10) 22 $ink $true; TxtC 'Q1' 385 ($oy + 10) 22 $ink $true
+Txt 'D' 600 308 26 $blue $true; TxtC 'Demand curve: when price falls from P0 to P1,' 400 520 20 $ink $false; TxtC 'quantity demanded rises from Q0 to Q1' 400 546 20 $ink $false
+Save 'eco-demand-curve.png'
+
+# supply curve with A(10,15) and B(30,30)
+Canvas 760 640
+$ox = 110; $oy = 540; $ux = 12; $uyy = 11
+Arrow $ink 2.5 $ox $oy 720 $oy; Arrow $ink 2.5 $ox $oy $ox 60
+foreach ($v in 10, 20, 30, 40) { TxtC "$v" ($ox + $v * $ux) ($oy + 8) 20 $ink $false; Txt "$v" ($ox - 44) ($oy - $v * $uyy - 12) 20 $ink $false }
+TxtC 'Quantity supplied (Q)' 420 ($oy + 42) 22 $ink $true; TxtV 'Price (P)' 36 280 22 $ink
+$sp = @(@(($ox + 3 * $ux), ($oy - 11 * $uyy)), @(($ox + 10 * $ux), ($oy - 15 * $uyy)), @(($ox + 20 * $ux), ($oy - 21 * $uyy)), @(($ox + 30 * $ux), ($oy - 30 * $uyy)), @(($ox + 35 * $ux), ($oy - 38 * $uyy)))
+Curve $blue 4 $sp
+$ax = $ox + 10 * $ux; $ay = $oy - 15 * $uyy; $bx = $ox + 30 * $ux; $by = $oy - 30 * $uyy
+Line $ink 1.5 $ox $ay $ax $ay $true; Line $ink 1.5 $ax $ay $ax $oy $true; Line $ink 1.5 $ox $by $bx $by $true; Line $ink 1.5 $bx $by $bx $oy $true
+Dot $orange $ax $ay 7; Dot $orange $bx $by 7
+Txt 'A (10, 15)' ($ax + 10) ($ay + 10) 20 $ink $true; Txt 'B (30, 30)' ($bx - 98) ($by - 34) 20 $ink $true; Txt 'S' ($sp[4][0] + 10) ($sp[4][1] - 16) 26 $blue $true; Txt 'S' ($sp[0][0] - 24) ($sp[0][1] + 4) 26 $blue $true
+TxtC 'Supply curve: a higher price gives a higher quantity supplied' 420 8 22 $ink $true
+Save 'eco-supply-curve.png'
+
+# ---------- Economics Term 2 figures ----------
+function BoxT($x, $y, $w, $h, $text, $fill) { $b = New-Object Drawing.SolidBrush $fill; $script:g.FillRectangle($b, [single]$x, [single]$y, [single]$w, [single]$h); $b.Dispose(); $pn = PenOf $ink 2; $script:g.DrawRectangle($pn, [single]$x, [single]$y, [single]$w, [single]$h); $pn.Dispose(); TxtC $text ($x + $w / 2) ($y + $h / 2 - 12) 20 $ink $true }
+Canvas 980 500
+$cBlue = [Drawing.Color]::FromArgb(219, 234, 254); $cOr = [Drawing.Color]::FromArgb(254, 243, 199); $cGr = [Drawing.Color]::FromArgb(209, 250, 229)
+TxtC 'Routes from the producer to the consumer' 490 8 24 $ink $true
+$routes = @(@('1. Direct (no middlemen)', @('Producer', 'Consumer')), @('2. Short chain', @('Producer', 'Retailer', 'Consumer')), @('3. Usual chain', @('Producer', 'Wholesaler', 'Retailer', 'Consumer')), @('4. Long chain (with an agent)', @('Producer', 'Agent', 'Wholesaler', 'Retailer', 'Consumer')))
+$ry = 80
+foreach ($r in $routes) {
+  Txt $r[0] 30 ($ry - 30) 20 $light $true
+  $i = 0
+  foreach ($nm in $r[1]) {
+    $x = 30 + $i * 190
+    $fc = $cBlue; if ($nm -eq 'Consumer') { $fc = $cGr } elseif ($nm -eq 'Producer') { $fc = $cOr }
+    BoxT $x $ry 150 56 $nm $fc
+    if ($i -lt $r[1].Count - 1) { Arrow $ink 2.5 ($x + 152) ($ry + 28) ($x + 188) ($ry + 28) }
+    $i++
+  }
+  $ry += 108
+}
+Save 'eco-channels.png'
+
+# production possibility curve
+Canvas 780 680
+$ox = 110; $oy = 580; $u = 3.8
+Arrow $ink 2.5 $ox $oy 740 $oy; Arrow $ink 2.5 $ox $oy $ox 40
+foreach ($v in 0, 20, 40, 60, 80, 100, 120, 140) { TxtC "$v" ($ox + $v * $u) ($oy + 8) 18 $ink $false; Txt "$v" ($ox - 48) ($oy - $v * $u - 12) 18 $ink $false; Line ([Drawing.Color]::FromArgb(236, 240, 245)) 1 $ox ($oy - $v * $u) ($ox + 140 * $u) ($oy - $v * $u) $false }
+TxtC 'Consumer goods (units)' 420 ($oy + 38) 22 $ink $true; TxtV 'Capital goods (units)' 30 300 22 $ink
+$ppc = @(@(0, 140), @(40, 130), @(60, 120), @(80, 100), @(100, 80), @(120, 50), @(140, 0))
+$cp = @(); foreach ($q in $ppc) { $cp += ,@(($ox + $q[0] * $u), ($oy - $q[1] * $u)) }
+Curve $blue 4 $cp
+$lab = 'A', 'B', 'C', 'D', 'E', 'F', 'G'; $k = 0
+foreach ($q in $cp) { Dot $orange $q[0] $q[1] 7; Txt $lab[$k] ($q[0] + 10) ($q[1] - 26) 20 $ink $true; $k++ }
+Dot $red ($ox + 50 * $u) ($oy - 50 * $u) 8; Txt 'X: wasteful (inside)' ($ox + 50 * $u + 12) ($oy - 50 * $u - 12) 20 $red $true
+Dot $green ($ox + 120 * $u) ($oy - 120 * $u) 8; Txt 'Y: not possible now' ($ox + 120 * $u - 190) ($oy - 120 * $u - 38) 20 $green $true
+TxtC 'Production possibility curve' 420 6 24 $ink $true
+Save 'eco-ppc.png'
+
+# TP, AP, MP
+Canvas 900 950
+$ox = 100; $ux = 105
+# top panel: TP
+$oyT = 400; $uyT = 6.4
+Arrow $ink 2.5 $ox $oyT 860 $oyT; Arrow $ink 2.5 $ox $oyT $ox 60
+foreach ($v in 0, 10, 20, 30, 40, 50) { Txt "$v" ($ox - 42) ($oyT - $v * $uyT - 12) 18 $ink $false; Line ([Drawing.Color]::FromArgb(236, 240, 245)) 1 $ox ($oyT - $v * $uyT) 820 ($oyT - $v * $uyT) $false }
+foreach ($w in 1..7) { TxtC "$w" ($ox + $w * $ux) ($oyT + 6) 18 $ink $false }
+TxtC 'Number of workers' 480 ($oyT + 28) 20 $ink $true; TxtV 'Total product (kg)' 28 230 20 $ink
+$tp = @(0, 4, 12, 24, 40, 45, 48, 42)
+$pts = @(); foreach ($w in 1..7) { $pts += ,@(($ox + $w * $ux), ($oyT - $tp[$w] * $uyT)) }
+Curve $blue 4 $pts
+foreach ($q in $pts) { Dot $orange $q[0] $q[1] 7 }
+Txt 'TP' ($pts[6][0] + 12) ($pts[6][1] - 10) 24 $blue $true
+TxtC 'Total product (TP)' 480 8 22 $ink $true
+# bottom panel: AP and MP
+$oyB = 780; $uyB = 14
+Arrow $ink 2.5 $ox $oyB 860 $oyB; Arrow $ink 2.5 $ox 850 $ox 510
+foreach ($v in (-5), 0, 5, 10, 15) { Txt "$v" ($ox - 42) ($oyB - $v * $uyB - 12) 18 $ink $false; Line ([Drawing.Color]::FromArgb(236, 240, 245)) 1 $ox ($oyB - $v * $uyB) 820 ($oyB - $v * $uyB) $false }
+foreach ($w in 1..7) { TxtC "$w" ($ox + $w * $ux) ($oyB + 6 + 0) 18 $ink $false }
+$ap = @(0, 4, 6, 8, 10, 9, 8, 6); $mp = @(0, 0, 8, 12, 16, 5, 3, (-6))
+$apPts = @(); foreach ($w in 1..7) { $apPts += ,@(($ox + $w * $ux), ($oyB - $ap[$w] * $uyB)) }
+$mpPts = @(); foreach ($w in 2..7) { $mpPts += ,@(($ox + $w * $ux), ($oyB - $mp[$w] * $uyB)) }
+Curve $green 4 $apPts; Curve $red 4 $mpPts
+foreach ($q in $apPts) { Dot $green $q[0] $q[1] 6 }; foreach ($q in $mpPts) { Dot $red $q[0] $q[1] 6 }
+Txt 'AP' ($apPts[6][0] + 12) ($apPts[6][1] - 24) 22 $green $true; Txt 'MP' ($mpPts[5][0] + 10) ($mpPts[5][1] - 10) 22 $red $true
+TxtC 'Number of workers' 480 ($oyB + 92) 20 $ink $true; TxtV 'Output (kg)' 28 650 20 $ink
+TxtC 'Average product (AP) and marginal product (MP)' 480 478 22 $ink $true
+Save 'eco-tpapmp.png'
+
+# ---------- Economics Term 3 figures ----------
+function Pl($c, $w, $pts) { $pn = PenOf $c $w; $a = @(); foreach ($q in $pts) { $a += New-Object Drawing.PointF ([single]$q[0]), ([single]$q[1]) }; $script:g.DrawLines($pn, [Drawing.PointF[]]$a); $pn.Dispose() }
+function PlD($c, $w, $pts) { $pn = PenOf $c $w; $pn.DashStyle = 'Dot'; $a = @(); foreach ($q in $pts) { $a += New-Object Drawing.PointF ([single]$q[0]), ([single]$q[1]) }; $script:g.DrawLines($pn, [Drawing.PointF[]]$a); $pn.Dispose() }
+function Fn-AC($q) { 30 + 3 * [math]::Pow(($q - 5), 2) }
+function Fn-MC($q) { 30 + 3 * [math]::Pow(($q - 5), 2) + 6 * $q * ($q - 5) }
+$pale = [Drawing.Color]::FromArgb(236, 240, 245)
+
+# cost curves
+Canvas 800 620
+$ox = 100; $oy = 540; $ux = 70; $uyc = 3.3
+Arrow $ink 2.5 $ox $oy 760 $oy; Arrow $ink 2.5 $ox $oy $ox 50
+TxtC 'Output (Q)' 430 ($oy + 30) 22 $ink $true; TxtV 'Cost per unit (N)' 36 300 22 $ink
+$ac = @(); for ($q = 1.2; $q -le 8.3; $q += 0.1) { $ac += ,@(($ox + $q * $ux), ($oy - (Fn-AC $q) * $uyc)) }
+$mc = @(); for ($q = 0.7; $q -le 6.8; $q += 0.1) { $mc += ,@(($ox + $q * $ux), ($oy - (Fn-MC $q) * $uyc)) }
+Pl $blue 4 $ac; Pl $orange 4 $mc
+Line $ink 1.5 ($ox + 5 * $ux) ($oy - 30 * $uyc) ($ox + 5 * $ux) $oy $true; Line $ink 1.5 $ox ($oy - 30 * $uyc) ($ox + 5 * $ux) ($oy - 30 * $uyc) $true
+Dot $red ($ox + 5 * $ux) ($oy - 30 * $uyc) 8
+Txt 'AC' ($ac[$ac.Count - 1][0] + 8) ($ac[$ac.Count - 1][1] - 14) 26 $blue $true; Txt 'MC' ($mc[$mc.Count - 1][0] + 8) ($mc[$mc.Count - 1][1] - 10) 26 $orange $true
+TxtC 'Lowest AC: MC cuts AC here' ($ox + 5 * $ux + 80) ($oy - 30 * $uyc + 14) 20 $red $true
+TxtC 'U-shaped AC and MC curves' 430 8 24 $ink $true
+Save 'eco-cost-curves.png'
+
+# revenue curves (two panels)
+Canvas 1040 560
+$oy = 380; $uyr = 5
+foreach ($panel in 0, 1) {
+  $ox = 80 + $panel * 520
+  Arrow $ink 2.5 $ox $oy ($ox + 430) $oy; Arrow $ink 2.5 $ox 470 $ox 70
+  Txt 'Price / revenue (N)' ($ox - 40) 44 18 $ink $false; TxtC 'Quantity sold' ($ox + 215) ($oy + 78) 20 $ink $true
+  foreach ($v in 0, 20, 40, 60) { Txt "$v" ($ox - 34) ($oy - $v * $uyr - 11) 16 $ink $false; Line $pale 1 $ox ($oy - $v * $uyr) ($ox + 410) ($oy - $v * $uyr) $false }
+}
+$ox = 80
+Pl $blue 4 @(@(($ox + 20), ($oy - 50 * $uyr)), @(($ox + 400), ($oy - 50 * $uyr)))
+Txt 'AR = MR = D = price' ($ox + 190) ($oy - 50 * $uyr - 34) 20 $blue $true
+TxtC 'Perfect competition' ($ox + 215) 14 24 $ink $true
+$ox = 600
+$arp = @(); for ($q = 0; $q -le 12; $q += 0.5) { $arp += ,@(($ox + $q * 32), ($oy - (60 - 4 * $q) * $uyr)) }
+$mrp = @(); for ($q = 0; $q -le 9; $q += 0.5) { $mrp += ,@(($ox + $q * 32), ($oy - (60 - 8 * $q) * $uyr)) }
+Pl $blue 4 $arp; Pl $red 4 $mrp
+Txt 'AR (= D)' ($arp[$arp.Count - 1][0] - 70) ($arp[$arp.Count - 1][1] + 16) 20 $blue $true; Txt 'MR' ($mrp[$mrp.Count - 1][0] + 10) ($mrp[$mrp.Count - 1][1] - 10) 20 $red $true
+TxtC 'Imperfect competition' ($ox + 215) 14 24 $ink $true
+Save 'eco-revenue-curves.png'
+
+# utility curves
+Canvas 1040 520
+$oy = 400
+foreach ($panel in 0, 1) {
+  $ox = 90 + $panel * 520
+  Arrow $ink 2.5 $ox $oy ($ox + 420) $oy; Arrow $ink 2.5 $ox $oy $ox 60
+  TxtC 'Units consumed' ($ox + 210) ($oy + 40) 20 $ink $true
+  foreach ($j in 1..7) { TxtC "$j" ($ox + $j * 55) ($oy + 6) 16 $ink $false }
+}
+$ox = 90; $uyu = 10.5
+foreach ($v in 0, 10, 20, 30) { Txt "$v" ($ox - 34) ($oy - $v * $uyu - 11) 16 $ink $false; Line $pale 1 $ox ($oy - $v * $uyu) ($ox + 400) ($oy - $v * $uyu) $false }
+TxtV 'Total utility' 30 230 20 $ink
+$tu = @(0, 10, 18, 24, 28, 30, 31, 31); $pts = @(); foreach ($j in 0..7) { $pts += ,@(($ox + $j * 55), ($oy - $tu[$j] * $uyu)) }
+Curve $blue 4 $pts; foreach ($q in $pts) { Dot $orange $q[0] $q[1] 6 }
+TxtC 'Total utility (TU)' ($ox + 210) 14 24 $ink $true
+$ox = 610; $uym = 26
+foreach ($v in 0, 5, 10) { Txt "$v" ($ox - 34) ($oy - $v * $uym - 11) 16 $ink $false; Line $pale 1 $ox ($oy - $v * $uym) ($ox + 400) ($oy - $v * $uym) $false }
+TxtV 'Marginal utility' 550 230 20 $ink
+$mu = @(0, 10, 8, 6, 4, 2, 1, 0); $pts = @(); foreach ($j in 1..7) { $pts += ,@(($ox + $j * 55), ($oy - $mu[$j] * $uym)) }
+Curve $red 4 $pts; foreach ($q in $pts) { Dot $orange $q[0] $q[1] 6 }
+TxtC 'Marginal utility (MU)' ($ox + 210) 14 24 $ink $true
+Save 'eco-utility.png'
+
+# indifference curves
+Canvas 760 640
+$ox = 100; $oy = 560; $ux = 40; $uyi = 31
+Arrow $ink 2.5 $ox $oy 730 $oy; Arrow $ink 2.5 $ox $oy $ox 40
+TxtC 'Bottles of drink' 420 ($oy + 34) 22 $ink $true; TxtV 'Packets of biscuits' 34 300 22 $ink
+foreach ($v in 2, 4, 6, 8, 10, 12) { TxtC "$v" ($ox + $v * $ux) ($oy + 6) 16 $ink $false; Txt "$v" ($ox - 34) ($oy - $v * $uyi - 11) 16 $ink $false }
+$i1 = @(); for ($x = 1.4; $x -le 12.5; $x += 0.2) { $i1 += ,@(($ox + $x * $ux), ($oy - (16 / $x) * $uyi)) }
+$i2 = @(); for ($x = 2.9; $x -le 13.6; $x += 0.2) { $i2 += ,@(($ox + $x * $ux), ($oy - (36 / $x) * $uyi)) }
+Pl $blue 4 $i1; Pl $green 4 $i2
+foreach ($pt in @(@(8, 2), @(4, 4), @(2, 8))) { Dot $orange ($ox + $pt[0] * $ux) ($oy - $pt[1] * $uyi) 7; Txt "($($pt[0]), $($pt[1]))" ($ox + $pt[0] * $ux + 10) ($oy - $pt[1] * $uyi - 28) 18 $ink $true }
+Txt 'IC1' ($i1[$i1.Count - 1][0] - 6) ($i1[$i1.Count - 1][1] - 30) 24 $blue $true; Txt 'IC2' ($i2[$i2.Count - 1][0] - 40) ($i2[$i2.Count - 1][1] - 30) 24 $green $true
+TxtC 'Indifference curves' 420 6 24 $ink $true
+Save 'eco-indifference.png'
+
+# equilibrium graph: Qd = 120 - 4P, Qs = 4P
+Canvas 900 680
+$ox = 110; $oy = 580; $uxq = 6.2; $uyp = 17.5
+Arrow $ink 2.5 $ox $oy 830 $oy; Arrow $ink 2.5 $ox $oy $ox 40
+TxtC 'Quantity (kg)' 470 ($oy + 38) 22 $ink $true; TxtV 'Price (N)' 38 300 22 $ink
+foreach ($v in 20, 40, 60, 80, 100, 120) { TxtC "$v" ($ox + $v * $uxq) ($oy + 6) 16 $ink $false }
+foreach ($v in 5, 10, 15, 20, 25, 30) { Txt "$v" ($ox - 38) ($oy - $v * $uyp - 11) 16 $ink $false; Line $pale 1 $ox ($oy - $v * $uyp) ($ox + 120 * $uxq) ($oy - $v * $uyp) $false }
+Pl $blue 4 @(@(($ox + 8 * $uxq), ($oy - 28 * $uyp)), @(($ox + 108 * $uxq), ($oy - 3 * $uyp)))
+Pl $orange 4 @(@(($ox + 12 * $uxq), ($oy - 3 * $uyp)), @(($ox + 112 * $uxq), ($oy - 28 * $uyp)))
+Txt 'D' ($ox + 108 * $uxq + 8) ($oy - 3 * $uyp - 34) 26 $blue $true; Txt 'S' ($ox + 112 * $uxq + 8) ($oy - 28 * $uyp - 12) 26 $orange $true
+Line $ink 1.5 $ox ($oy - 15 * $uyp) ($ox + 60 * $uxq) ($oy - 15 * $uyp) $true; Line $ink 1.5 ($ox + 60 * $uxq) ($oy - 15 * $uyp) ($ox + 60 * $uxq) $oy $true
+Dot $red ($ox + 60 * $uxq) ($oy - 15 * $uyp) 9
+Txt 'Equilibrium:' ($ox + 75 * $uxq) ($oy - 17.2 * $uyp) 20 $red $true; Txt 'price N15, 60 kg' ($ox + 75 * $uxq) ($oy - 17.2 * $uyp + 24) 20 $red $true
+Line $green 3 ($ox + 20 * $uxq) ($oy - 25 * $uyp) ($ox + 100 * $uxq) ($oy - 25 * $uyp) $true
+TxtC 'At N25: excess supply (80 kg)' ($ox + 60 * $uxq) ($oy - 25 * $uyp - 28) 18 $green $true
+Line $green 3 ($ox + 20 * $uxq) ($oy - 5 * $uyp) ($ox + 100 * $uxq) ($oy - 5 * $uyp) $true
+TxtC 'At N5: excess demand (80 kg)' ($ox + 82 * $uxq) ($oy - 5 * $uyp + 8) 18 $green $true
+TxtC 'Equilibrium of the yam market' 470 6 24 $ink $true
+Save 'eco-equilibrium.png'
+
+# four shifts
+Canvas 1040 870
+function Panel($px, $py, $title, $res, $dShift, $sShift) {
+  $w = 400; $h = 300
+  Arrow $ink 2 $px ($py + $h) ($px + $w) ($py + $h); Arrow $ink 2 $px ($py + $h) $px $py
+  Txt 'Price' ($px + 8) ($py - 2) 16 $ink $false; Txt 'Quantity' ($px + $w - 70) ($py + $h + 4) 16 $ink $false
+  TxtC $title ($px + $w / 2) ($py - 38) 22 $ink $true
+  $d0 = @(@(($px + 90), ($py + 40)), @(($px + 320), ($py + 260))); $s0 = @(@(($px + 90), ($py + 260)), @(($px + 320), ($py + 40)))
+  PlD $blue 3 $d0; PlD $orange 3 $s0
+  $d1 = @(@(($px + 90 + $dShift), ($py + 40)), @(($px + 320 + $dShift), ($py + 260))); $s1 = @(@(($px + 90 + $sShift), ($py + 260)), @(($px + 320 + $sShift), ($py + 40)))
+  if ($dShift -ne 0) { Pl $blue 4 $d1 } else { Pl $blue 4 $d0 }
+  if ($sShift -ne 0) { Pl $orange 4 $s1 } else { Pl $orange 4 $s0 }
+  Dot $grey ($px + 205) ($py + 150) 7
+  $nx = $px + 205 + ($dShift + $sShift) / 2; $ny = $py + 150 - ($dShift - $sShift) * 0.4785
+  Dot $red $nx $ny 8
+  Txt 'D' ($px + 326 + $dShift) ($py + 250) 18 $blue $true; Txt 'S' ($px + 326 + $sShift) ($py + 24) 18 $orange $true
+  TxtC $res ($px + $w / 2) ($py + $h + 30) 18 $red $true
+}
+Panel 70 70 'Demand increases' 'Price rises, quantity rises' 70 0
+Panel 570 70 'Demand decreases' 'Price falls, quantity falls' (-70) 0
+Panel 70 480 'Supply increases' 'Price falls, quantity rises' 0 (-70)
+Panel 570 480 'Supply decreases' 'Price rises, quantity falls' 0 70
+Save 'eco-shifts.png'
+
+# market structure
+Canvas 1040 560
+$cols = @(
+ @('Monopoly', [Drawing.Color]::FromArgb(245, 158, 11), 'One seller', 'Unique product,', 'no close substitute', 'Entry blocked', 'Public water supply'),
+ @('Oligopoly', [Drawing.Color]::FromArgb(16, 185, 129), 'A few large sellers', 'Identical or branded', '', 'Entry difficult', 'Telecoms, cement'),
+ @('Monopolistic', [Drawing.Color]::FromArgb(59, 130, 246), 'Many sellers', 'Similar but branded', '', 'Entry easy', 'Restaurants, salons'),
+ @('Perfect', [Drawing.Color]::FromArgb(139, 92, 246), 'Very many sellers', 'Identical goods', '', 'Free entry and exit', 'Local vegetable market'))
+$cols[2][0] = 'Monopolistic'
+$x = 20
+TxtC 'Market structures compared' 520 6 26 $ink $true
+for ($i = 0; $i -lt 4; $i++) {
+  $c = $cols[$i]; $cx = $x + $i * 255
+  $b = New-Object Drawing.SolidBrush $c[1]; $script:g.FillRectangle($b, [single]$cx, 50, 235, 70); $b.Dispose()
+  $title = $c[0]; $sub = ''
+  if ($i -eq 2) { $title = 'Monopolistic'; $sub = 'competition' } elseif ($i -eq 3) { $title = 'Perfect'; $sub = 'competition' }
+  TxtC $title ($cx + 117) 58 24 ([Drawing.Color]::White) $true; if ($sub) { TxtC $sub ($cx + 117) 86 24 ([Drawing.Color]::White) $true }
+  $bg = New-Object Drawing.SolidBrush ([Drawing.Color]::FromArgb(243, 246, 250)); $script:g.FillRectangle($bg, [single]$cx, 120, 235, 400); $bg.Dispose()
+  $labels = 'SELLERS', 'PRODUCT', 'ENTRY', 'EXAMPLE'
+  Txt 'Sellers' ($cx + 14) 140 18 $light $true; TxtC $c[2] ($cx + 117) 168 20 $ink $true
+  Txt 'Product' ($cx + 14) 230 18 $light $true; TxtC $c[3] ($cx + 117) 258 20 $ink $true; if ($c[4]) { TxtC $c[4] ($cx + 117) 282 20 $ink $true }
+  Txt 'Entry' ($cx + 14) 340 18 $light $true; TxtC $c[5] ($cx + 117) 368 20 $ink $true
+  Txt 'Example' ($cx + 14) 430 18 $light $true; TxtC $c[6] ($cx + 117) 458 18 $ink $true
+}
+Save 'eco-market-structure.png'
+
+# monopoly graph
+Canvas 860 680
+$ox = 100; $oy = 600; $uxm = 60; $uym2 = 5.4
+Arrow $ink 2.5 $ox $oy 820 $oy; Arrow $ink 2.5 $ox $oy $ox 40
+TxtC 'Quantity' 460 ($oy + 34) 22 $ink $true; TxtV 'Price, cost and revenue' 34 320 22 $ink
+$qs = 3.958; $pr = 90 - 7 * $qs; $acq = 25 + 2.5 * [math]::Pow(($qs - 3.5), 2)
+$rect = New-Object Drawing.SolidBrush ([Drawing.Color]::FromArgb(110, 120, 220, 230))
+$script:g.FillRectangle($rect, [single]$ox, [single]($oy - $pr * $uym2), [single]($qs * $uxm), [single](($pr - $acq) * $uym2)); $rect.Dispose()
+$ar = @(); for ($q = 0; $q -le 11; $q += 0.5) { $ar += ,@(($ox + $q * $uxm), ($oy - (90 - 7 * $q) * $uym2)) }
+$mr = @(); for ($q = 0; $q -le 6.4; $q += 0.4) { $mr += ,@(($ox + $q * $uxm), ($oy - (90 - 14 * $q) * $uym2)) }
+$acp = @(); for ($q = 0.9; $q -le 8; $q += 0.2) { $acp += ,@(($ox + $q * $uxm), ($oy - (25 + 2.5 * [math]::Pow(($q - 3.5), 2)) * $uym2)) }
+$mcp = @(); for ($q = 0.3; $q -le 5.6; $q += 0.1) { $mcp += ,@(($ox + $q * $uxm), ($oy - (25 + 2.5 * [math]::Pow(($q - 3.5), 2) + 5 * $q * ($q - 3.5)) * $uym2)) }
+Pl $blue 4 $ar; Pl $red 4 $mr; Pl $green 4 $acp; Pl $orange 4 $mcp
+Line $ink 1.5 ($ox + $qs * $uxm) ($oy - $pr * $uym2) ($ox + $qs * $uxm) $oy $true
+Dot $ink ($ox + $qs * $uxm) ($oy - (90 - 14 * $qs) * $uym2) 7; Dot $blue ($ox + $qs * $uxm) ($oy - $pr * $uym2) 7; Dot $green ($ox + $qs * $uxm) ($oy - $acq * $uym2) 7
+Txt 'AR (demand)' ($ar[$ar.Count - 1][0] - 110) ($ar[$ar.Count - 1][1] + 16) 20 $blue $true; Txt 'MR' ($mr[$mr.Count - 1][0] + 10) ($mr[$mr.Count - 1][1] - 4) 22 $red $true
+Txt 'AC' ($acp[$acp.Count - 1][0] + 8) ($acp[$acp.Count - 1][1] - 12) 22 $green $true; Txt 'MC' ($mcp[$mcp.Count - 1][0] + 8) ($mcp[$mcp.Count - 1][1] - 12) 22 $orange $true
+TxtC 'Q*' ($ox + $qs * $uxm) ($oy + 6) 20 $ink $true
+Txt 'Supernormal' ($ox + 8) ($oy - 57.5 * $uym2) 20 $ink $true; Txt 'profit' ($ox + 8) ($oy - 57.5 * $uym2 + 22) 20 $ink $true
+Txt 'P' ($ox - 28) ($oy - $pr * $uym2 - 12) 20 $blue $true
+TxtC 'Monopoly: output where MC = MR, price from AR' 460 6 24 $ink $true
+Save 'eco-monopoly.png'
+
+# perfect competition: short run and long run
+Canvas 1160 600
+$oy = 520; $ucx = 64; $ucy = 5.6
+foreach ($panel in 0, 1) {
+  $ox = 90 + $panel * 560
+  Arrow $ink 2.5 $ox $oy ($ox + 440) $oy; Arrow $ink 2.5 $ox $oy $ox 80
+  TxtC 'Quantity' ($ox + 220) ($oy + 30) 20 $ink $true; TxtV 'Price and cost' ($ox - 58) 300 20 $ink
+  $acp = @(); for ($q = 1.8; $q -le 8; $q += 0.2) { $acp += ,@(($ox + $q * $ucx), ($oy - (30 + 3 * [math]::Pow(($q - 5), 2)) * $ucy)) }
+  $mcp = @(); for ($q = 1.0; $q -le 6.8; $q += 0.1) { $mcp += ,@(($ox + $q * $ucx), ($oy - (30 + 3 * [math]::Pow(($q - 5), 2) + 6 * $q * ($q - 5)) * $ucy)) }
+  if ($panel -eq 0) {
+    $rect = New-Object Drawing.SolidBrush ([Drawing.Color]::FromArgb(110, 120, 220, 230))
+    $script:g.FillRectangle($rect, [single]$ox, [single]($oy - 60 * $ucy), [single](5.81 * $ucx), [single](28 * $ucy)); $rect.Dispose()
+  }
+  Pl $green 4 $acp; Pl $orange 4 $mcp
+  Txt 'AC' ($acp[$acp.Count - 1][0] + 8) ($acp[$acp.Count - 1][1] - 12) 22 $green $true; Txt 'MC' ($mcp[$mcp.Count - 1][0] + 8) ($mcp[$mcp.Count - 1][1] - 12) 22 $orange $true
+}
+$ox = 90
+Line $blue 4 $ox ($oy - 60 * $ucy) ($ox + 430) ($oy - 60 * $ucy) $false
+Txt 'Blue line: P = AR = MR = D' ($ox + 8) 56 20 $blue $true
+Line $ink 1.5 ($ox + 5.81 * $ucx) ($oy - 60 * $ucy) ($ox + 5.81 * $ucx) $oy $true
+Dot $red ($ox + 5.81 * $ucx) ($oy - 60 * $ucy) 7
+Txt 'Supernormal' ($ox + 20) ($oy - 46 * $ucy - 14) 20 $ink $true; Txt 'profit' ($ox + 20) ($oy - 46 * $ucy + 8) 20 $ink $true
+TxtC 'Short run' ($ox + 220) 24 24 $ink $true
+$ox = 650
+Line $blue 4 $ox ($oy - 30 * $ucy) ($ox + 430) ($oy - 30 * $ucy) $false
+Txt 'Blue line: P = AR = MR = D' ($ox + 8) 56 20 $blue $true
+Line $ink 1.5 ($ox + 5 * $ucx) ($oy - 30 * $ucy) ($ox + 5 * $ucx) $oy $true
+Dot $red ($ox + 5 * $ucx) ($oy - 30 * $ucy) 8
+Txt 'Normal profit only' ($ox + 8) ($oy - 72 * $ucy) 20 $ink $true; Txt '(P = lowest AC)' ($ox + 8) ($oy - 72 * $ucy + 22) 20 $ink $true
+TxtC 'Long run' ($ox + 220) 24 24 $ink $true
+Save 'eco-perfect-comp.png'
+
+# ---------- Chemistry Term 1 figures ----------
+$white = [Drawing.Color]::White
+$glass = [Drawing.Color]::FromArgb(70, 125, 211, 252); $liq = [Drawing.Color]::FromArgb(150, 56, 189, 248); $liqOr = [Drawing.Color]::FromArgb(200, 251, 191, 36)
+function GlassOut($pts) { $pn = PenOf $ink 3; $a = @(); foreach ($q in $pts) { $a += New-Object Drawing.PointF ([single]$q[0]), ([single]$q[1]) }; $script:g.DrawLines($pn, [Drawing.PointF[]]$a); $pn.Dispose() }
+function RectF($c, $x, $y, $w, $h) { $b = New-Object Drawing.SolidBrush $c; $script:g.FillRectangle($b, [single]$x, [single]$y, [single]$w, [single]$h); $b.Dispose() }
+function PieF($c, $x, $y, $w, $h, $a1, $a2) { $b = New-Object Drawing.SolidBrush $c; $script:g.FillPie($b, [single]$x, [single]$y, [single]$w, [single]$h, [single]$a1, [single]$a2); $b.Dispose() }
+function ArcP($x, $y, $w, $h, $a1, $a2) { $pn = PenOf $ink 3; $script:g.DrawArc($pn, [single]$x, [single]$y, [single]$w, [single]$h, [single]$a1, [single]$a2); $pn.Dispose() }
+
+Canvas 1100 600
+TxtC 'Common laboratory apparatus' 550 8 26 $ink $true
+$by = 250
+$cx = 150
+RectF $liq ($cx - 50) ($by - 70) 100 70
+GlassOut @(@(($cx - 56), ($by - 124)), @(($cx - 50), ($by - 120)), @(($cx - 50), $by), @(($cx + 50), $by), @(($cx + 50), ($by - 120)))
+foreach ($m in 30, 60, 90) { Line $ink 2 ($cx + 50) ($by - $m) ($cx + 34) ($by - $m) $false }
+TxtC 'Beaker' $cx ($by + 14) 22 $ink $true
+$cx = 400
+FillPoly $liq @(@(($cx - 45), ($by - 45)), @(($cx + 45), ($by - 45)), @(($cx + 70), $by), @(($cx - 70), $by))
+GlassOut @(@(($cx - 15), ($by - 150)), @(($cx - 15), ($by - 100)), @(($cx - 70), $by), @(($cx + 70), $by), @(($cx + 15), ($by - 100)), @(($cx + 15), ($by - 150)))
+Line $ink 3 ($cx - 20) ($by - 150) ($cx + 20) ($by - 150) $false
+TxtC 'Conical flask' $cx ($by + 14) 22 $ink $true
+$cx = 640
+RectF $liq ($cx - 17) ($by - 100) 34 82
+PieF $liq ($cx - 17) ($by - 35) 34 34 0 180
+GlassOut @(@(($cx - 18), ($by - 170)), @(($cx - 18), ($by - 18)))
+GlassOut @(@(($cx + 18), ($by - 170)), @(($cx + 18), ($by - 18)))
+ArcP ($cx - 18) ($by - 36) 36 36 0 180
+TxtC 'Test tube' $cx ($by + 14) 22 $ink $true
+$cx = 900
+PieF $liq ($cx - 58) ($by - 118) 116 116 0 180
+Ellip $ink 3 $cx ($by - 60) 60 60 $false
+RectF $white ($cx - 14) ($by - 124) 28 12
+GlassOut @(@(($cx - 15), ($by - 170)), @(($cx - 15), ($by - 112)))
+GlassOut @(@(($cx + 15), ($by - 170)), @(($cx + 15), ($by - 112)))
+TxtC 'Round-bottomed flask' $cx ($by + 14) 22 $ink $true
+$by = 520
+$cx = 150
+RectF $liq ($cx - 22) ($by - 90) 44 80
+GlassOut @(@(($cx - 22), ($by - 175)), @(($cx - 22), ($by - 10)), @(($cx + 22), ($by - 10)), @(($cx + 22), ($by - 175)))
+Ellip $ink 3 $cx ($by - 4) 40 6 $false
+foreach ($m in 1..7) { Line $ink 2 ($cx - 22) ($by - 10 - $m * 22) ($cx - 8) ($by - 10 - $m * 22) $false }
+TxtC 'Measuring cylinder' $cx ($by + 14) 22 $ink $true
+$cx = 400
+RectF $grey ($cx - 60) ($by - 8) 120 10
+Line $ink 5 ($cx - 44) ($by - 8) ($cx - 44) ($by - 190) $false
+Line $ink 4 ($cx - 44) ($by - 140) ($cx - 8) ($by - 140) $false
+RectF $liq ($cx - 7) ($by - 170) 14 130
+GlassOut @(@(($cx - 8), ($by - 190)), @(($cx - 8), ($by - 40)), @(($cx - 3), ($by - 12)))
+GlassOut @(@(($cx + 8), ($by - 190)), @(($cx + 8), ($by - 40)), @(($cx + 3), ($by - 12)))
+RectF $ink ($cx - 18) ($by - 46) 36 6
+foreach ($m in 1..8) { Line $ink 2 ($cx + 8) ($by - 40 - $m * 16) ($cx + 18) ($by - 40 - $m * 16) $false }
+TxtC 'Burette and stand' $cx ($by + 14) 22 $ink $true
+$cx = 640
+FillPoly $liq @(@(($cx - 18), ($by - 110)), @(($cx + 18), ($by - 110)), @(($cx + 18), ($by - 80)), @(($cx + 4), ($by - 60)), @(($cx + 4), ($by - 12)), @(($cx - 4), ($by - 12)), @(($cx - 4), ($by - 60)), @(($cx - 18), ($by - 80)))
+GlassOut @(@(($cx - 4), ($by - 190)), @(($cx - 4), ($by - 140)), @(($cx - 18), ($by - 120)), @(($cx - 18), ($by - 80)), @(($cx - 4), ($by - 60)), @(($cx - 4), ($by - 12)), @($cx, ($by - 2)))
+GlassOut @(@(($cx + 4), ($by - 190)), @(($cx + 4), ($by - 140)), @(($cx + 18), ($by - 120)), @(($cx + 18), ($by - 80)), @(($cx + 4), ($by - 60)), @(($cx + 4), ($by - 12)), @($cx, ($by - 2)))
+Line $ink 2 ($cx - 8) ($by - 165) ($cx + 8) ($by - 165) $false
+TxtC 'Pipette' $cx ($by + 14) 22 $ink $true
+$cx = 900
+FillPoly $liqOr @(@(($cx - 14), ($by - 92)), @(($cx), ($by - 160)), @(($cx + 14), ($by - 92)))
+RectF $ink ($cx - 10) ($by - 90) 20 80
+RectF $white ($cx - 5) ($by - 40) 10 14
+Ellip $ink 3 $cx ($by - 8) 44 8 $false
+RectF $ink ($cx - 44) ($by - 10) 88 8
+TxtC 'Bunsen burner' $cx ($by + 14) 22 $ink $true
+Save 'chem-apparatus.png'
+
+# changes of state
+Canvas 860 470
+TxtC 'Changes of state' 430 6 26 $ink $true
+$rnd = New-Object System.Random 7
+$bx = 30, 330, 630
+$names = 'SOLID', 'LIQUID', 'GAS'
+for ($i = 0; $i -lt 3; $i++) {
+  RectF ([Drawing.Color]::FromArgb(243, 246, 250)) $bx[$i] 70 200 200
+  $pn = PenOf $ink 2; $script:g.DrawRectangle($pn, [single]$bx[$i], 70, 200, 200); $pn.Dispose()
+  TxtC $names[$i] ($bx[$i] + 100) 276 22 $ink $true
+}
+foreach ($r in 0..4) { foreach ($c in 0..4) { Dot $blue (50 + $c * 36) (90 + $r * 36) 13 } }
+$lp = @(@(355, 110), @(395, 100), @(440, 120), @(375, 150), @(420, 160), @(470, 150), @(355, 195), @(400, 205), @(445, 210), @(485, 190), @(380, 245), @(430, 250), @(475, 238))
+foreach ($q in $lp) { Dot $orange ($q[0] + 0) $q[1] 13 }
+$gp = @(@(660, 100), @(740, 120), @(690, 170), @(780, 100), @(720, 225), @(660, 245), @(790, 190))
+foreach ($q in $gp) { Dot $green $q[0] $q[1] 11 }
+$dgs = @(@(30, 'Melting', 'Freezing', 1), @(330, 'Vaporisation', 'Condensation', 1))
+foreach ($d in $dgs) {
+  $x1 = $d[0] + 205; $x2 = $d[0] + 295
+  Arrow $red 3 $x1 130 $x2 130; Arrow $blue 3 $x2 200 $x1 200
+  TxtC $d[1] (($x1 + $x2) / 2) 104 16 $red $true; TxtC $d[2] (($x1 + $x2) / 2) 208 16 $blue $true
+}
+Arrow $red 3 130 330 730 330; Arrow $blue 3 730 400 130 400
+TxtC 'Sublimation (solid to gas, heat taken in)' 430 298 20 $red $true
+TxtC 'Deposition (gas to solid, heat given out)' 430 408 20 $blue $true
+TxtC 'Red arrows: heat taken in.  Blue arrows: heat given out.' 430 440 18 $light $false
+Save 'chem-change-of-state.png'
+
+# filtration
+Canvas 720 600
+TxtC 'Filtration' 360 6 26 $ink $true
+$cx = 360
+FillPoly $liq @(@(($cx - 96), 175), @(($cx + 96), 175), @(($cx + 4), 262), @(($cx - 4), 262))
+foreach ($q in @(@(-70, 190), @(-40, 205), @(-10, 190), @(20, 207), @(50, 192), @(-25, 232), @(15, 238), @(0, 252))) { Dot ([Drawing.Color]::FromArgb(150, 90, 60, 30)) ($cx + $q[0]) $q[1] 5 }
+GlassOut @(@(($cx - 120), 120), @(($cx - 14), 262), @(($cx - 14), 330))
+GlassOut @(@(($cx + 120), 120), @(($cx + 14), 262), @(($cx + 14), 330))
+Line $orange 4 ($cx - 108) 128 $cx 258 $false
+Line $orange 4 ($cx + 108) 128 $cx 258 $false
+Line $ink 3 ($cx - 126) 120 ($cx + 126) 120 $false
+foreach ($y in 345, 385) { Dot $blue $cx $y 5 }
+RectF $liq ($cx - 70) 470 140 64
+GlassOut @(@(($cx - 70), 400), @(($cx - 70), 536), @(($cx + 70), 536), @(($cx + 70), 400))
+Txt 'Funnel' ($cx + 140) 135 20 $ink $true; Line $ink 1.5 ($cx + 138) 148 ($cx + 100) 150 $false
+Txt 'Filter paper' ($cx + 140) 195 20 $ink $true; Line $ink 1.5 ($cx + 138) 208 ($cx + 70) 205 $false
+Txt 'Residue stays on the paper' 20 285 20 $ink $true; Line $ink 1.5 280 296 ($cx - 8) 250 $false
+Txt 'Filtrate (clear liquid)' ($cx + 90) 485 20 $ink $true; Line $ink 1.5 ($cx + 88) 500 ($cx + 50) 500 $false
+Txt 'Beaker' ($cx - 160) 470 20 $ink $true
+Txt 'Mixture of insoluble solid and liquid' ($cx - 240) 80 20 $ink $true; Arrow $ink 2 $cx 106 $cx 160
+Save 'chem-filtration.png'
+
+# pH scale
+Canvas 1100 480
+TxtC 'The pH scale' 550 6 26 $ink $true
+$pc = @(@(229, 57, 53), @(239, 83, 60), @(244, 121, 53), @(248, 160, 46), @(250, 200, 48), @(230, 225, 60), @(170, 210, 70), @(100, 190, 90), @(60, 180, 140), @(40, 160, 190), @(50, 130, 210), @(70, 100, 200), @(95, 80, 190), @(120, 60, 170), @(140, 50, 150))
+for ($i = 0; $i -le 14; $i++) {
+  $c = [Drawing.Color]::FromArgb($pc[$i][0], $pc[$i][1], $pc[$i][2]); RectF $c (60 + $i * 65) 200 65 60
+  TxtC "$i" (60 + $i * 65 + 32) 218 24 $white $true
+}
+TxtC 'ACIDIC' 190 270 22 $red $true; TxtC 'NEUTRAL' 515 270 22 $green $true; TxtC 'ALKALINE' 840 270 22 $blue $true
+$ex = @(@(0, 'Battery acid', 1), @(2, 'Lemon juice', 0), @(3, 'Vinegar', 1), @(4.5, 'Tomato', 0), @(7, 'Pure water', 1), @(8.5, 'Baking soda', 0), @(10, 'Soap', 1), @(11.5, 'Ammonia', 0), @(13, 'Bleach', 1))
+foreach ($e in $ex) {
+  $x = 60 + $e[0] * 65 + 32
+  if ($e[2] -eq 1) { Line $ink 1.5 $x 262 $x 330 $false; TxtC $e[1] $x 336 20 $ink $true } else { Line $ink 1.5 $x 198 $x 130 $false; TxtC $e[1] $x 100 20 $ink $true }
+}
+TxtC 'pH below 7 = acid     pH 7 = neutral     pH above 7 = alkali' 550 420 22 $ink $false
+Save 'chem-ph-scale.png'
+
+# combining volumes
+Canvas 920 470
+$sb2 = [string][char]0x2082
+TxtC "Volumes of gases that combine are in simple whole-number ratios" 460 6 24 $ink $true
+function VBox($x, $baseY, $units, $c, $lab) { RectF $c $x ($baseY - $units * 60) 110 ($units * 60); $pn = PenOf $ink 2.5; $script:g.DrawRectangle($pn, [single]$x, [single]($baseY - $units * 60), 110, [single]($units * 60)); $pn.Dispose(); TxtC $lab ($x + 55) ($baseY - $units * 30 - 14) 22 $ink $true; TxtC ("$units volume" + $(if ($units -gt 1) { 's' } else { '' })) ($x + 55) ($baseY + 8) 18 $ink $false }
+$cH = [Drawing.Color]::FromArgb(191, 219, 254); $cO = [Drawing.Color]::FromArgb(254, 202, 202); $cS = [Drawing.Color]::FromArgb(226, 232, 240); $cCl = [Drawing.Color]::FromArgb(187, 247, 208); $cHCl = [Drawing.Color]::FromArgb(254, 240, 138)
+$bs = 180
+VBox 80 $bs 2 $cH ("H$sb2"); Txt '+' 215 ($bs - 90) 36 $ink $true; VBox 270 $bs 1 $cO ("O$sb2"); Txt ([string][char]0x2192) 410 ($bs - 90) 40 $ink $true; VBox 500 $bs 2 $cS ("H$sb2" + 'O')
+Txt "Ratio 2 : 1 : 2" 680 ($bs - 70) 26 $red $true
+$bs = 400
+VBox 80 $bs 1 $cH ("H$sb2"); Txt '+' 215 ($bs - 55) 36 $ink $true; VBox 270 $bs 1 $cCl ("Cl$sb2"); Txt ([string][char]0x2192) 410 ($bs - 90) 40 $ink $true; VBox 500 $bs 2 $cHCl 'HCl'
+Txt "Ratio 1 : 1 : 2" 680 ($bs - 70) 26 $red $true
+Save 'chem-gay-lussac.png'
+
+# balancing an equation
+Canvas 1000 600
+$sb2 = [string][char]0x2082; $arr = [string][char]0x2192
+function AtH($x, $y) { Dot $white $x $y 14; Ellip $ink 2 $x $y 14 14 $false }
+function AtO($x, $y) { Dot ([Drawing.Color]::FromArgb(248, 113, 113)) $x $y 22; Ellip $ink 2 $x $y 22 22 $false }
+function MolH2($x, $y) { AtH ($x - 14) $y; AtH ($x + 14) $y }
+function MolO2($x, $y) { AtO ($x - 22) $y; AtO ($x + 22) $y }
+function MolH2O($x, $y) { AtH ($x - 28) ($y + 24); AtH ($x + 28) ($y + 24); AtO $x $y }
+TxtC "Word equation:  hydrogen + oxygen $arr water" 500 8 24 $blue $true
+TxtC 'Skeleton equation (not balanced)' 500 56 22 $ink $true
+MolH2 150 150; Txt '+' 225 130 36 $ink $true; MolO2 330 150; Txt $arr 440 125 40 $ink $true; MolH2O 580 140
+Txt 'Left: H = 2, O = 2' 700 120 20 $ink $false; Txt 'Right: H = 2, O = 1' 700 148 20 $ink $false; Txt 'Not equal' 700 178 22 $red $true
+TxtC 'Balanced equation' 500 262 22 $ink $true
+MolH2 100 370; MolH2 175 370; Txt '+' 245 350 36 $ink $true; MolO2 340 370; Txt $arr 440 345 40 $ink $true; MolH2O 580 360; MolH2O 690 360
+Txt 'Left: H = 4, O = 2' 780 340 20 $ink $false; Txt 'Right: H = 4, O = 2' 780 368 20 $ink $false; Txt 'Equal: balanced' 780 398 22 $green $true
+TxtC ("2H$sb2 + O$sb2 $arr 2H$sb2" + "O") 500 470 30 $ink $true
+Save 'chem-balancing.png'
+
+
+# ---------- Chemistry Term 2 figures ----------
+$sup2 = [string][char]0xB2; $sup3 = [string][char]0xB3; $dot = [string][char]0xB7; $times = [string][char]0xD7; $div = [string][char]0xF7; $arr = [string][char]0x2192
+$boxc = [Drawing.Color]::FromArgb(243, 246, 250)
+function BoxL($cx, $cy, $w, $h, $t, $fc) { RectF $fc ($cx - $w / 2) ($cy - $h / 2) $w $h; $pn = PenOf $ink 2.5; $script:g.DrawRectangle($pn, [single]($cx - $w / 2), [single]($cy - $h / 2), [single]$w, [single]$h); $pn.Dispose(); TxtC $t $cx ($cy - 13) 22 $ink $true }
+
+# mole map
+Canvas 940 600
+TxtC 'The mole links everything' 470 6 26 $ink $true
+Dot ([Drawing.Color]::FromArgb(254, 240, 138)) 470 310 70; Ellip $ink 3 470 310 70 70 $false; TxtC 'MOLE' 470 288 28 $ink $true; TxtC '(n)' 470 320 24 $ink $true
+BoxL 470 90 300 64 'Mass (g)' ([Drawing.Color]::FromArgb(219, 234, 254))
+BoxL 800 310 240 64 'Particles' ([Drawing.Color]::FromArgb(254, 226, 226))
+BoxL 470 535 320 64 ("Gas volume (dm$sup3 at STP)") ([Drawing.Color]::FromArgb(209, 250, 229))
+BoxL 140 310 240 64 'Solution' ([Drawing.Color]::FromArgb(237, 233, 254))
+Arrow $blue 3 455 238 455 126; Arrow $blue 3 485 126 485 238
+Txt ("$times molar mass") 500 160 18 $blue $true; Txt ("$div molar mass") 250 160 18 $blue $true
+Arrow $red 3 542 295 678 295; Arrow $red 3 678 325 542 325
+TxtC ("$times 6.022 $times 10" + [char]0xB2 + [char]0xB3) 610 262 18 $red $true; TxtC ("$div 6.022 $times 10" + [char]0xB2 + [char]0xB3) 610 335 18 $red $true
+Arrow $green 3 455 382 455 502; Arrow $green 3 485 502 485 382
+Txt ("$times 22.4") 500 430 18 $green $true; Txt ("$div 22.4") 380 430 18 $green $true
+Arrow ([Drawing.Color]::FromArgb(109, 40, 217)) 3 398 295 262 295; Arrow ([Drawing.Color]::FromArgb(109, 40, 217)) 3 262 325 398 325
+TxtC ("$times conc. $times V") 330 262 18 ([Drawing.Color]::FromArgb(109, 40, 217)) $true; TxtC ("$div conc.") 330 335 18 ([Drawing.Color]::FromArgb(109, 40, 217)) $true
+Save 'chem-mole-map.png'
+
+# ethanol pie
+Canvas 760 520
+TxtC 'Percentage composition of ethanol, C2H6O' 380 6 24 $ink $true
+$pcx = 380; $pcy = 280; $pr = 190
+$bC = New-Object Drawing.SolidBrush ([Drawing.Color]::FromArgb(75, 85, 99)); $bO = New-Object Drawing.SolidBrush $orange; $bHh = New-Object Drawing.SolidBrush $blue
+$script:g.FillPie($bC, [single]($pcx - $pr), [single]($pcy - $pr), [single](2 * $pr), [single](2 * $pr), [single](-90), [single](187.9))
+$script:g.FillPie($bO, [single]($pcx - $pr), [single]($pcy - $pr), [single](2 * $pr), [single](2 * $pr), [single](97.9), [single](125.3))
+$script:g.FillPie($bHh, [single]($pcx - $pr), [single]($pcy - $pr), [single](2 * $pr), [single](2 * $pr), [single](223.2), [single](46.8))
+$bC.Dispose(); $bO.Dispose(); $bHh.Dispose()
+foreach ($a in -90, 97.9, 223.2) { $pt = @(($pcx + $pr * [math]::Cos((RadOf $a))), ($pcy + $pr * [math]::Sin((RadOf $a)))); Line $white 4 $pcx $pcy $pt[0] $pt[1] $false }
+TxtC 'Carbon 52.2%' 560 150 22 $ink $true; TxtC 'Oxygen 34.8%' 200 400 22 $orange $true; TxtC 'Hydrogen 13.0%' 170 190 22 $blue $true
+Save 'chem-ethanol-pie.png'
+
+# gas laws
+Canvas 1040 530
+TxtC 'Boyle''s law' 270 6 24 $ink $true; TxtC 'Charles'' law' 780 6 24 $ink $true
+$ox = 80; $oy = 410
+Arrow $ink 2.5 $ox $oy 460 $oy; Arrow $ink 2.5 $ox $oy $ox 60
+TxtC 'Volume' 270 ($oy + 34) 20 $ink $true; TxtV 'Pressure' 30 235 20 $ink
+$pts = @(); for ($v = 1.0; $v -le 10; $v += 0.25) { $pts += ,@(($ox + $v * 36), ($oy - (100 / $v) * 3.2)) }
+Pl $blue 4 $pts
+TxtC 'P is inversely proportional to V (PV = constant)' 270 485 18 $ink $false
+$ox = 590
+Arrow $ink 2.5 $ox $oy 980 $oy; Arrow $ink 2.5 $ox $oy $ox 60
+TxtC 'Temperature (K)' 780 ($oy + 34) 20 $ink $true; TxtV 'Volume' 540 235 20 $ink
+Pl $red 4 @(@($ox, $oy), @(($ox + 340), ($oy - 300)))
+Dot $ink $ox $oy 6; Txt '0 K' ($ox - 40) ($oy + 8) 18 $ink $true
+TxtC 'V is directly proportional to T (kelvin)' 780 485 18 $ink $false
+Save 'chem-gas-laws.png'
+
+# electron shells
+Canvas 1000 430
+TxtC 'Electron shells (arrangements)' 500 6 24 $ink $true
+function ShellAtom($cx, $cy, $counts, $name, $arrange) {
+  $radii = 38, 70, 102, 134
+  for ($s = 0; $s -lt $counts.Count; $s++) {
+    Ellip $grey 2 $cx $cy $radii[$s] $radii[$s] $false
+    $n = $counts[$s]
+    for ($k = 0; $k -lt $n; $k++) { $a = ($k / $n) * 2 * [math]::PI + 0.4 * $s; Dot $blue ($cx + $radii[$s] * [math]::Cos($a)) ($cy + $radii[$s] * [math]::Sin($a)) 6 }
+  }
+  Dot $red $cx $cy 20; TxtC $name $cx ($cy - 11) 18 $white $true
+  TxtC $arrange $cx ($cy + 150) 22 $ink $true
+}
+ShellAtom 120 215 @(2, 6) 'O' '2, 6'
+ShellAtom 370 215 @(2, 8, 1) 'Na' '2, 8, 1'
+ShellAtom 640 215 @(2, 8, 7) 'Cl' '2, 8, 7'
+ShellAtom 890 215 @(2, 8, 8) 'Ar' '2, 8, 8'
+Save 'chem-electron-shells.png'
+
+# bonding
+Canvas 1100 440
+TxtC 'Ionic bonding' 190 6 24 $ink $true; TxtC 'Covalent: H2' 550 6 24 $ink $true; TxtC 'Covalent: H2O' 900 6 24 $ink $true
+function SmallShells($cx, $cy, $counts, $name, $skipLast) {
+  $radii = 22, 42, 62
+  for ($s = 0; $s -lt $counts.Count; $s++) { Ellip $grey 2 $cx $cy $radii[$s] $radii[$s] $false; $n = $counts[$s]; for ($k = 0; $k -lt $n; $k++) { if ($skipLast -and $s -eq ($counts.Count - 1) -and $k -eq 0) { continue }; $a = ($k / $n) * 2 * [math]::PI; Dot $blue ($cx + $radii[$s] * [math]::Cos($a)) ($cy + $radii[$s] * [math]::Sin($a)) 5 } }
+  Dot $red $cx $cy 14; TxtC $name $cx ($cy - 8) 14 $white $true
+}
+SmallShells 105 190 @(2, 8, 1) 'Na' $true
+SmallShells 335 190 @(2, 8, 7) 'Cl' $false
+Dot $orange 167 190 6; Arrow $orange 2.5 175 176 293 176
+TxtC 'e- moves from Na to Cl' 220 100 18 $orange $true
+TxtC 'Na loses 1 e-: Na+' 105 275 18 $ink $true; TxtC 'Cl gains 1 e-: Cl-' 335 275 18 $ink $true
+TxtC 'Opposite charges attract: NaCl' 220 330 20 $green $true
+Ellip $ink 3 520 190 50 50 $false; Ellip $ink 3 580 190 50 50 $false
+Dot $red 520 190 10; Dot $red 580 190 10; TxtC 'H' 520 180 12 $white $true; TxtC 'H' 580 180 12 $white $true
+Dot $blue 550 172 6; Dot $orange 550 208 6
+TxtC 'One shared pair: H-H' 550 275 18 $ink $true; TxtC 'single covalent bond' 550 300 18 $ink $true
+Ellip $ink 3 900 150 55 55 $false; Ellip $ink 3 840 245 38 38 $false; Ellip $ink 3 960 245 38 38 $false
+Dot $red 900 150 12; Dot $red 840 245 8; Dot $red 960 245 8
+TxtC 'O' 900 140 14 $white $true
+Dot $blue 868 198 6; Dot $orange 858 210 6; Dot $blue 932 198 6; Dot $orange 942 210 6
+TxtC 'O shares one pair with each H' 900 310 18 $ink $true; TxtC '2 single bonds' 900 334 18 $ink $true
+Save 'chem-bonding.png'
+
+# redox electron transfer
+Canvas 1000 480
+TxtC 'Zn + CuSO4 -> ZnSO4 + Cu: electrons move from zinc to copper ions' 500 6 22 $ink $true
+BoxL 150 150 150 80 'Zn atom' ([Drawing.Color]::FromArgb(226, 232, 240))
+BoxL 500 150 190 80 ("Zn$sup2" + [char]0x207A + " ion") ([Drawing.Color]::FromArgb(219, 234, 254))
+Arrow $red 3 230 150 400 150; TxtC ('loses 2 e-') 315 112 20 $red $true
+BoxL 150 360 190 80 ("Cu$sup2" + [char]0x207A + " ion") ([Drawing.Color]::FromArgb(186, 230, 253))
+BoxL 500 360 150 80 'Cu atom' ([Drawing.Color]::FromArgb(254, 215, 170))
+Arrow $blue 3 250 360 420 360; TxtC ('gains 2 e-') 335 322 20 $blue $true
+Line $orange 3 200 192 200 290 $true; Arrow $orange 3 200 290 200 316
+TxtC '2 e-' 232 240 20 $orange $true
+Txt 'OXIDATION (OIL)' 640 110 22 $red $true; Txt 'Zn loses electrons' 640 140 20 $ink $false; Txt 'Zn is the reducing agent' 640 166 20 $ink $false
+Txt 'REDUCTION (RIG)' 640 320 22 $blue $true; Txt ("Cu$sup2" + [char]0x207A + " gains electrons") 640 350 20 $ink $false; Txt ("Cu$sup2" + [char]0x207A + " is the oxidising agent") 640 376 20 $ink $false
+Save 'chem-redox.png'
+
+# saturation beakers
+Canvas 1000 470
+TxtC 'Types of solution' 500 6 24 $ink $true
+$rnd2 = New-Object System.Random 11
+$bxs = 170, 500, 830
+$ttl = 'Unsaturated', 'Saturated', 'Supersaturated'
+$sub = 'all solute dissolved', 'extra solute at the bottom', 'crystals form (unstable)'
+for ($i = 0; $i -lt 3; $i++) {
+  $cx = $bxs[$i]
+  RectF $liq ($cx - 80) 150 160 190
+  GlassOut @(@(($cx - 80), 90), @(($cx - 80), 340), @(($cx + 80), 340), @(($cx + 80), 90))
+  TxtC $ttl[$i] $cx 360 24 $ink $true; TxtC $sub[$i] $cx 394 18 $light $false
+}
+foreach ($k in 1..6) { Dot $white ($bxs[0] - 60 + $rnd2.Next(0, 120)) (170 + $rnd2.Next(0, 150)) 3 }
+foreach ($k in 1..8) { Dot $white ($bxs[1] - 60 + $rnd2.Next(0, 120)) (170 + $rnd2.Next(0, 110)) 3 }
+foreach ($k in 0..9) { Dot $ink ($bxs[1] - 54 + $k * 12) 330 7 }
+Line $ink 2 $bxs[2] 70 $bxs[2] 250 $false
+foreach ($pp in @(@(0, 250, 22), @(-22, 290, 14), @(26, 292, 16), @(-6, 318, 12), @(40, 322, 10), @(-44, 322, 10))) { FillPoly ([Drawing.Color]::FromArgb(230, 255, 255, 255)) @(@(($bxs[2] + $pp[0]), ($pp[1] - $pp[2])), @(($bxs[2] + $pp[0] + $pp[2] * 0.7), ($pp[1])), @(($bxs[2] + $pp[0]), ($pp[1] + $pp[2])), @(($bxs[2] + $pp[0] - $pp[2] * 0.7), ($pp[1]))); }
+Save 'chem-saturation.png'
+
+# solubility curve
+Canvas 940 640
+TxtC 'Solubility curve of potassium nitrate (KNO3)' 470 6 24 $ink $true
+$ox = 100; $oy = 560; $sx = 8.2; $sy = 2.5
+Arrow $ink 2.5 $ox $oy 900 $oy; Arrow $ink 2.5 $ox $oy $ox 50
+TxtC 'Temperature (C)' 480 ($oy + 44) 22 $ink $true; TxtV 'Solubility (g per 100 g water)' 14 300 22 $ink
+foreach ($t in 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100) { TxtC "$t" ($ox + $t * $sx) ($oy + 8) 16 $ink $false }
+foreach ($v in 0, 25, 50, 75, 100, 125, 150, 175, 200) { Txt "$v" ($ox - 48) ($oy - $v * $sy - 11) 16 $ink $false; Line $pale 1 $ox ($oy - $v * $sy) ($ox + 100 * $sx) ($oy - $v * $sy) $false }
+$kd = @(@(0, 13), @(10, 21), @(20, 32), @(30, 46), @(40, 64), @(50, 85), @(60, 110), @(70, 130), @(80, 150))
+$kp = @(); foreach ($q in $kd) { $kp += ,@(($ox + $q[0] * $sx), ($oy - $q[1] * $sy)) }
+Curve $blue 4 $kp
+foreach ($q in $kp) { Dot $orange $q[0] $q[1] 6 }
+Line $ink 1.5 ($ox + 20 * $sx) ($oy - 32 * $sy) ($ox + 20 * $sx) $oy $true; Line $ink 1.5 $ox ($oy - 32 * $sy) ($ox + 20 * $sx) ($oy - 32 * $sy) $true
+Line $ink 1.5 ($ox + 40 * $sx) ($oy - 64 * $sy) ($ox + 40 * $sx) $oy $true; Line $ink 1.5 $ox ($oy - 64 * $sy) ($ox + 40 * $sx) ($oy - 64 * $sy) $true
+Txt '32 g at 20 C' ($ox + 20 * $sx + 8) ($oy - 32 * $sy - 28) 18 $ink $true; Txt '64 g at 40 C' ($ox + 40 * $sx + 8) ($oy - 64 * $sy - 28) 18 $ink $true
+TxtC 'Unsaturated (below the curve)' 650 480 20 $green $true
+TxtC 'More than can dissolve (above the curve)' 330 130 20 $red $true
+TxtC 'Saturated: on the curve' 700 130 20 $blue $true
+Save 'chem-solubility-curve.png'
+
+
+# ---------- Chemistry Term 3 figures ----------
+$sb = @{ '2' = [string][char]0x2082; '3' = [string][char]0x2083; '4' = [string][char]0x2084; '6' = [string][char]0x2086; '8' = [string][char]0x2088 }
+$cgrey = [Drawing.Color]::FromArgb(75, 85, 99); $hlight = [Drawing.Color]::FromArgb(226, 232, 240)
+function AtomC($x, $y, $sym) { if ($sym -eq 'C') { Dot $cgrey $x $y 17; TxtC 'C' $x ($y - 11) 18 $white $true } else { Dot $hlight $x $y 12; Ellip $ink 1.5 $x $y 12 12 $false; TxtC $sym $x ($y - 9) 14 $ink $true } }
+function Bond($x1, $y1, $x2, $y2) { Line $ink 3 $x1 $y1 $x2 $y2 $false }
+
+Canvas 1100 440
+TxtC 'Simple hydrocarbons' 550 6 26 $ink $true
+$cy = 190
+# methane
+$cx = 140
+foreach ($d in @(@(-55, -55), @(55, -55), @(-55, 55), @(55, 55))) { Bond $cx $cy ($cx + $d[0]) ($cy + $d[1]) }
+foreach ($d in @(@(-55, -55), @(55, -55), @(-55, 55), @(55, 55))) { AtomC ($cx + $d[0]) ($cy + $d[1]) 'H' }
+AtomC $cx $cy 'C'
+TxtC 'Methane' $cx 300 22 $ink $true; TxtC ("CH" + $sb['4']) $cx 330 22 $blue $true; TxtC 'alkane' $cx 362 18 $light $false
+# ethane
+$cx = 410
+Bond ($cx - 35) $cy ($cx + 35) $cy
+foreach ($side in -1, 1) { $x = $cx + $side * 35; Bond $x $cy $x ($cy - 62); Bond $x $cy $x ($cy + 62); Bond $x $cy ($x + $side * 62) $cy; AtomC $x ($cy - 62) 'H'; AtomC $x ($cy + 62) 'H'; AtomC ($x + $side * 62) $cy 'H' }
+AtomC ($cx - 35) $cy 'C'; AtomC ($cx + 35) $cy 'C'
+TxtC 'Ethane' $cx 300 22 $ink $true; TxtC ("C" + $sb['2'] + "H" + $sb['6']) $cx 330 22 $blue $true; TxtC 'alkane' $cx 362 18 $light $false
+# ethene
+$cx = 700
+Line $ink 3 ($cx - 35) ($cy - 5) ($cx + 35) ($cy - 5) $false; Line $ink 3 ($cx - 35) ($cy + 5) ($cx + 35) ($cy + 5) $false
+foreach ($side in -1, 1) { $x = $cx + $side * 35; Bond $x $cy ($x + $side * 45) ($cy - 55); Bond $x $cy ($x + $side * 45) ($cy + 55); AtomC ($x + $side * 45) ($cy - 55) 'H'; AtomC ($x + $side * 45) ($cy + 55) 'H' }
+AtomC ($cx - 35) $cy 'C'; AtomC ($cx + 35) $cy 'C'
+TxtC 'Ethene' $cx 300 22 $ink $true; TxtC ("C" + $sb['2'] + "H" + $sb['4']) $cx 330 22 $blue $true; TxtC 'alkene (C=C)' $cx 362 18 $light $false
+# ethyne
+$cx = 970
+Line $ink 3 ($cx - 40) ($cy - 8) ($cx + 40) ($cy - 8) $false; Line $ink 3 ($cx - 40) $cy ($cx + 40) $cy $false; Line $ink 3 ($cx - 40) ($cy + 8) ($cx + 40) ($cy + 8) $false
+Bond ($cx - 40) $cy ($cx - 100) $cy; Bond ($cx + 40) $cy ($cx + 100) $cy
+AtomC ($cx - 100) $cy 'H'; AtomC ($cx + 100) $cy 'H'; AtomC ($cx - 40) $cy 'C'; AtomC ($cx + 40) $cy 'C'
+TxtC 'Ethyne' $cx 300 22 $ink $true; TxtC ("C" + $sb['2'] + "H" + $sb['2']) $cx 330 22 $blue $true; TxtC ('alkyne (C' + [char]0x2261 + 'C)') $cx 362 18 $light $false
+Save 'chem-hydrocarbons.png'
+
+# butane isomers
+Canvas 900 380
+TxtC 'The two isomers of C4H10 (hydrogen atoms not shown)' 450 6 24 $ink $true
+$pts = @(@(80, 230), @(160, 170), @(240, 230), @(320, 170))
+for ($i = 0; $i -lt 3; $i++) { Bond $pts[$i][0] $pts[$i][1] $pts[$i + 1][0] $pts[$i + 1][1] }
+foreach ($q in $pts) { AtomC $q[0] $q[1] 'C' }
+TxtC 'Butane' 200 285 22 $ink $true; TxtC 'straight chain' 200 315 18 $light $false
+$p2 = @(@(540, 220), @(620, 170), @(700, 220))
+Bond 540 220 620 170; Bond 620 170 700 220; Bond 620 170 620 100
+foreach ($q in $p2) { AtomC $q[0] $q[1] 'C' }
+AtomC 620 100 'C'
+TxtC '2-Methylpropane' 620 285 22 $ink $true; TxtC 'branched chain' 620 315 18 $light $false
+Save 'chem-butane-isomers.png'
+
+# cis / trans
+Canvas 1200 470
+TxtC 'Cis and trans isomers' 600 6 26 $ink $true
+function CTMol($cx, $cy, $tl, $bl, $tr, $br, $title, $sub) {
+  Line $ink 3 ($cx - 35) ($cy - 5) ($cx + 35) ($cy - 5) $false; Line $ink 3 ($cx - 35) ($cy + 5) ($cx + 35) ($cy + 5) $false
+  Bond ($cx - 35) $cy ($cx - 80) ($cy - 60); Bond ($cx - 35) $cy ($cx - 80) ($cy + 60); Bond ($cx + 35) $cy ($cx + 80) ($cy - 60); Bond ($cx + 35) $cy ($cx + 80) ($cy + 60)
+  AtomC ($cx - 35) $cy 'C'; AtomC ($cx + 35) $cy 'C'
+  TxtC $tl ($cx - 92) ($cy - 90) 22 $blue $true; TxtC $bl ($cx - 92) ($cy + 66) 22 $ink $true; TxtC $tr ($cx + 92) ($cy - 90) 22 $blue $true; TxtC $br ($cx + 92) ($cy + 66) 22 $ink $true
+  TxtC $title $cx ($cy + 120) 22 $ink $true; TxtC $sub $cx ($cy + 148) 18 $light $false
+}
+$ch3 = 'CH' + $sb['3']
+CTMol 150 210 $ch3 'H' $ch3 'H' 'cis-But-2-ene' 'CH3 groups on the same side'
+CTMol 450 210 $ch3 'H' 'H' $ch3 'trans-But-2-ene' 'CH3 groups on opposite sides'
+CTMol 750 210 'Cl' 'H' 'Cl' 'H' 'cis-1,2-Dichloroethene' 'Cl atoms on the same side'
+CTMol 1050 210 'Cl' 'H' 'H' 'Cl' 'trans-1,2-Dichloroethene' 'Cl atoms on opposite sides'
+Save 'chem-cis-trans.png'
+
+# fractionating column
+Canvas 900 700
+TxtC 'Fractional distillation of crude oil' 450 6 26 $ink $true
+$gb = New-Object Drawing.Drawing2D.LinearGradientBrush ((New-Object Drawing.Point 0, 70), (New-Object Drawing.Point 0, 590), ([Drawing.Color]::FromArgb(186, 230, 253)), ([Drawing.Color]::FromArgb(251, 146, 60)))
+$script:g.FillRectangle($gb, 320, 70, 170, 520); $gb.Dispose()
+$pn = PenOf $ink 3; $script:g.DrawRectangle($pn, 320, 70, 170, 520); $pn.Dispose()
+$fr = @(@('Refinery gas (below 40 C)', 95), @('Petrol (40 to 120 C)', 165), @('Naphtha (120 to 180 C)', 235), @('Kerosene (180 to 250 C)', 305), @('Diesel (250 to 320 C)', 375), @('Lubricating oil (320 to 400 C)', 445), @('Fuel oil (above about 350 C)', 515), @('Bitumen (residue)', 575))
+foreach ($f in $fr) { Line $ink 1.5 320 ($f[1] - 12) 490 ($f[1] - 12) $false; Arrow $ink 2 490 $f[1] 540 $f[1]; Txt $f[0] 548 ($f[1] - 11) 20 $ink $true }
+Line $ink 1.5 320 ($fr[7][1] - 12) 490 ($fr[7][1] - 12) $false
+Arrow $red 4 200 520 316 520; TxtC 'Heated' 150 540 20 $red $true; TxtC 'crude oil' 150 562 20 $red $true; TxtC 'enters' 150 584 20 $red $true
+Arrow $blue 4 250 150 250 96; Txt 'Cooler' 190 160 20 $blue $true; Txt 'Smaller molecules' 120 184 18 $ink $false
+Arrow $red 4 250 420 250 474; Txt 'Hotter' 190 380 20 $red $true; Txt 'Larger molecules' 110 404 18 $ink $false
+Save 'chem-fractionating-column.png'
+
+# reactivity series
+Canvas 820 700
+TxtC 'Reactivity series of metals' 410 6 26 $ink $true
+$ser = 'Potassium (K)', 'Sodium (Na)', 'Calcium (Ca)', 'Magnesium (Mg)', 'Aluminium (Al)', 'Zinc (Zn)', 'Iron (Fe)', 'Lead (Pb)', 'Hydrogen (H) - for comparison', 'Copper (Cu)', 'Silver (Ag)', 'Gold (Au)'
+for ($i = 0; $i -lt $ser.Count; $i++) {
+  $t = $i / ($ser.Count - 1)
+  $c = [Drawing.Color]::FromArgb([int](220 - 40 * $t), [int](38 + 160 * $t), [int](38 + 20 * $t))
+  if ($ser[$i] -like 'Hydrogen*') { $c = [Drawing.Color]::FromArgb(203, 213, 225) }
+  RectF $c 180 (56 + $i * 50) 340 44
+  $pn = PenOf $ink 2; $script:g.DrawRectangle($pn, 180, (56 + $i * 50), 340, 44); $pn.Dispose()
+  TxtC $ser[$i] 350 (56 + $i * 50 + 10) 20 $ink $true
+}
+Arrow $red 4 90 640 90 70; Txt 'More' 50 330 20 $red $true; Txt 'reactive' 40 354 20 $red $true
+Txt 'Metals above can displace' 540 200 18 $ink $false; Txt 'metals below from their' 540 224 18 $ink $false; Txt 'compounds' 540 248 18 $ink $false
+Save 'chem-reactivity-series.png'
+
+# energy profiles
+function EY([double]$t, $rY, $pY, $bump) { $sg = 1 / (1 + [math]::Exp(-($t - 0.44) * 18)); $rY + ($pY - $rY) * $sg - $bump * [math]::Exp(-[math]::Pow(($t - 0.36) / 0.11, 2)) }
+function EAxes($ox, $title) {
+  Arrow $ink 2.5 $ox 470 ($ox + 340) 470; Arrow $ink 2.5 $ox 470 $ox 70
+  TxtC $title ($ox + 170) 40 20 $ink $true
+  TxtC 'Progress of reaction' ($ox + 170) 480 16 $ink $false; TxtV 'Energy' ($ox - 16) 270 16 $ink
+}
+function ECurve($ox, $rY, $pY, $bump, $col) {
+  $pts = @(); for ($t = 0; $t -le 1.0001; $t += 0.02) { $pts += ,@(($ox + 20 + 300 * $t), (EY $t $rY $pY $bump)) }
+  Pl $col 4 $pts
+}
+Canvas 1160 540
+TxtC 'Energy profile diagrams' 580 4 26 $ink $true
+$ex = 40; EAxes $ex 'Exothermic'
+Line $grey 1.5 ($ex + 20) 170 ($ex + 330) 170 $true; Line $grey 1.5 ($ex + 20) 300 ($ex + 330) 300 $true
+ECurve $ex 170 300 105 $blue
+$pk = EY 0.36 170 300 105
+Arrow $red 2.5 ($ex + 128) 170 ($ex + 128) ($pk + 4); TxtC 'Ea' ($ex + 100) 125 17 $red $true
+Arrow $green 2.5 ($ex + 300) 172 ($ex + 300) 298; TxtC 'ΔH < 0' ($ex + 335) 225 16 $green $true
+TxtC 'Reactants' ($ex + 60) 150 15 $ink $true; TxtC 'Products' ($ex + 280) 310 15 $ink $true
+$en = 420; EAxes $en 'Endothermic'
+Line $grey 1.5 ($en + 20) 330 ($en + 330) 330 $true; Line $grey 1.5 ($en + 20) 210 ($en + 330) 210 $true
+ECurve $en 330 210 205 $blue
+$pk2 = EY 0.36 330 210 205
+Arrow $red 2.5 ($en + 128) 330 ($en + 128) ($pk2 + 4); TxtC 'Ea' ($en + 100) 215 17 $red $true
+Arrow $green 2.5 ($en + 300) 328 ($en + 300) 212; TxtC 'ΔH > 0' ($en + 335) 270 16 $green $true
+TxtC 'Reactants' ($en + 60) 350 15 $ink $true; TxtC 'Products' ($en + 280) 190 15 $ink $true
+$cx = 800; EAxes $cx 'Effect of a catalyst'
+Line $grey 1.5 ($cx + 20) 170 ($cx + 330) 170 $true; Line $grey 1.5 ($cx + 20) 300 ($cx + 330) 300 $true
+ECurve $cx 170 300 105 $blue
+ECurve $cx 170 300 55 $green
+TxtC 'without catalyst' ($cx + 110) 74 15 $blue $true; TxtC 'with catalyst (lower Ea)' ($cx + 150) 112 15 $green $true
+TxtC 'ΔH is the same' ($cx + 250) 322 15 $ink $true
+Save 'chm2-energy-profiles.png'
+
+"drawn 85 figures"
 Get-ChildItem $out | Measure-Object | ForEach-Object { "images in folder: $($_.Count)" }

@@ -1,0 +1,94 @@
+[
+{"id":"fa3-14","week":9,"title":"Manufacturing Account: Meaning, Purpose and Classification of Costs","icon":"Zap","summary":"What a manufacturing account is, who prepares it, why it is prepared, and prime cost, factory overheads and factory cost.",
+"keyWords":["Manufacturing account","Prime cost","Factory overheads","Direct labour","Raw materials"]
+,"sections":[
+{"h":"Meaning","p":["A manufacturing account is an account prepared by a business that makes goods, to find the cost of producing the finished goods in the period. It is also called the production account, factory account or cost of production account. It is prepared by manufacturers, not traders. It comes before the trading account and is part of the final accounts.","A trading concern buys finished goods and sells them without changing them (a shop or supermarket). It has a trading account only. A manufacturing concern turns raw materials into finished goods (a bread factory, a textile mill). It needs a manufacturing account and a trading account.","Flow: raw materials → manufacturing account → cost of production → trading account → profit and loss account → balance sheet."]},
+{"h":"Purpose","p":["1. To find the cost of production (the factory cost). 2. To compare the cost of making goods with the cost of buying them (make-or-buy decisions). 3. For cost control: to watch production costs and find waste. 4. To give the figure used in the trading account (the cost of production takes the place of purchases). 5. To judge factory efficiency over time. 6. To help set selling prices and profit margins. 7. To give management a detailed breakdown of costs."]},
+{"h":"Classification of costs","p":["Prime cost (direct costs) is the cost directly connected with making the goods: raw materials used + direct labour (factory wages) + direct expenses (such as royalties for using a patent). Prime cost = raw materials used + direct labour + direct expenses.","Factory overheads (indirect costs) cannot be traced directly to a product: factory rent, power, lighting, insurance, depreciation of factory machinery, the factory supervisor's salary, factory repairs, lubricants and cleaning. Office, selling and administrative costs are NOT included.","Factory cost (cost of production) = prime cost + factory overheads, adjusted for work in progress."],
+"img":{"src":"fin-manufacturing.png","alt":"A diagram showing raw materials used plus direct labour plus direct expenses equal prime cost, then prime cost plus factory overheads plus or minus work in progress equal the cost of production, which goes to the trading account","cap":"How the factory cost of production is built up."}}
+],
+"activity":"Say whether each is a prime cost, a factory overhead or neither (office cost): wages of machine operators; factory rent; office salaries; royalties; lubricants for machines; sales commission. (Prime; overhead; neither; prime; overhead; neither.)",
+"check":[
+{"q":"A manufacturing account is prepared by a","o":["Manufacturer","Retailer","Bank","School"]},
+{"q":"Prime cost =","o":["Raw materials + direct labour + direct expenses","Sales − purchases","Overheads only","Prime cost + overheads"]},
+{"q":"Factory rent is a","o":["Factory overhead","Prime cost","Selling expense","Capital item"]},
+{"q":"Office rent goes in the","o":["Profit and loss account","Manufacturing account","Trading account","Balance sheet"]},
+{"q":"The cost of production is transferred to the","o":["Trading account","Balance sheet","Capital account","Bank"]}]},
+
+{"id":"fa3-15","week":9,"title":"Manufacturing Account: Format, Items and a Worked Example","icon":"BarChart2","summary":"The layout of the manufacturing account, its items, a worked example, the link with the trading account, the three kinds of stock and common mistakes.",
+"keyWords":["Raw materials consumed","Work in progress","Cost of production","Finished goods","Trading account"]
+,"sections":[
+{"h":"Format","p":["Study the table."],
+"tbl":{"head":["Manufacturing account for the year ended ...","₦","₦"],"rows":[
+["Opening stock of raw materials","","XXX"],
+["Add purchases of raw materials","XXX",""],
+["Add carriage inwards on raw materials","XXX","XXX"],
+["Less closing stock of raw materials","","(XXX)"],
+["Raw materials consumed","","XXX"],
+["Direct labour (factory wages)","","XXX"],
+["Direct expenses (royalties, special tools)","","XXX"],
+["PRIME COST","","XXX"],
+["Factory overheads (rent, power, insurance, depreciation, supervisor, repairs)","","XXX"],
+["Add opening work in progress; less closing work in progress","","XXX"],
+["FACTORY COST OF PRODUCTION (to the trading account)","","XXX"]]}},
+{"h":"Items","p":["Opening stock of raw materials: raw materials in hand at the start. Purchases of raw materials. Carriage inwards on raw materials: the cost of bringing them in. Closing stock: raw materials still unused at the end. Raw materials consumed = opening stock + purchases (+ carriage inwards) − closing stock.","Direct labour: wages of production workers. Direct expenses: royalties, special tools, hire of special equipment for a job. Factory overheads: factory rent, power, insurance, depreciation of factory machinery and equipment, supervisor's salary, repairs, lighting, heating, cleaning, security, lubricants, small tools and consumable stores.","Work in progress (WIP): goods that are begun but not finished. Opening WIP is added; closing WIP is deducted."]},
+{"h":"Worked example: year ended 31 December 2024","p":["Raw materials 1 January ₦40,000 and 31 December ₦48,000; purchases ₦250,000; carriage inwards ₦12,000; factory wages ₦180,000; direct labour ₦45,000; royalties ₦15,000; factory rent ₦60,000; factory power ₦35,000; factory insurance ₦18,000; depreciation of factory machinery ₦25,000; factory supervisor's salary ₦80,000; factory repairs ₦22,000; work in progress 1 January ₦30,000 and 31 December ₦35,000."],
+"tbl":{"head":["Manufacturing account","₦","₦"],"rows":[
+["Opening stock of raw materials","","40,000"],
+["Purchases of raw materials","250,000",""],
+["Carriage inwards","12,000","262,000"],
+["","","302,000"],
+["Less closing stock of raw materials","","(48,000)"],
+["Raw materials consumed","","254,000"],
+["Direct labour (180,000 + 45,000)","","225,000"],
+["Royalties","","15,000"],
+["PRIME COST","","494,000"],
+["Factory rent","60,000",""],
+["Factory power","35,000",""],
+["Factory insurance","18,000",""],
+["Depreciation, factory machinery","25,000",""],
+["Supervisor's salary","80,000",""],
+["Factory repairs","22,000","240,000"],
+["","","734,000"],
+["Add opening work in progress","","30,000"],
+["","","764,000"],
+["Less closing work in progress","","(35,000)"],
+["FACTORY COST OF PRODUCTION","","729,000"]]}},
+{"h":"Link with the trading account","p":["The cost of production of ₦729,000 takes the place of purchases in the trading account. Sales ₦1,200,000. Opening stock of finished goods ₦50,000 + cost of production ₦729,000 = ₦779,000. Less closing stock of finished goods ₦60,000 = cost of goods sold ₦719,000. Gross profit = 1,200,000 − 719,000 = ₦481,000.","The manufacturing account produces a COST. The trading account uses that cost and compares it with sales to find the gross profit."]},
+{"h":"Three kinds of stock","p":["Raw materials stock and work in progress appear in the manufacturing account. Finished goods stock appears in the trading account. In the balance sheet, all three are current assets and are listed under stock."]},
+{"h":"Common mistakes","p":["Putting office rent or sales commission in the manufacturing account (they belong in the profit and loss account). Putting finished goods stock in the manufacturing account. Forgetting work in progress. Using purchases alone instead of raw materials consumed. Not transferring the cost of production to the trading account."]}
+],
+"activity":"Prepare a manufacturing account for the year ended 30 June 2024: raw materials 1 July ₦55,000, 30 June ₦62,000; purchases ₦320,000; carriage inwards ₦15,000; factory wages ₦220,000; royalties ₦18,000; factory rent ₦75,000; power ₦42,000; insurance ₦24,000; depreciation of factory equipment ₦30,000; factory manager's salary ₦95,000; lubricants ₦8,000; work in progress 1 July ₦38,000 and 30 June ₦45,000. (Raw materials consumed ₦328,000; prime cost 328,000 + 220,000 + 18,000 = ₦566,000; overheads ₦274,000; 840,000 + 38,000 − 45,000 = cost of production ₦833,000.)",
+"check":[
+{"q":"In the example, raw materials consumed are","o":["₦254,000","₦302,000","₦250,000","₦262,000"]},
+{"q":"The prime cost is","o":["₦494,000","₦240,000","₦729,000","₦225,000"]},
+{"q":"The factory cost of production is","o":["₦729,000","₦494,000","₦734,000","₦764,000"]},
+{"q":"Work in progress is","o":["Partly finished goods","Finished goods","Raw materials","Cash"]},
+{"q":"The gross profit in the trading account example is","o":["₦481,000","₦719,000","₦779,000","₦729,000"]},
+{"q":"Closing work in progress is","o":["Deducted","Added","Ignored","Doubled"]}]},
+
+{"id":"fa3-16","week":11,"title":"Revision Questions and Answers","icon":"Target","summary":"A summary of Third Term, week 10 consolidation, key points, and four practice questions with corrected figures and answers.",
+"keyWords":["Revision","Balance sheet","Control accounts","Depreciation","Manufacturing"]
+,"sections":[
+{"h":"Week 10: consolidation","p":["The scheme of work gives no new topic for Week 10. Use the week to review all the topics, do extra practice, go through past questions and take a mock examination."]},
+{"h":"Key points to remember","p":["Study the table."],
+"tbl":{"head":["Topic","Remember"],"rows":[
+["Balance sheet","Shows the financial position as at a date. Assets = Capital + Liabilities. Fixed assets at cost less depreciation. Working capital = current assets − current liabilities. Two formats"],
+["Sales ledger control","Total debtors (an asset), debit balance. Credit sales debit; cash, returns, discount, bad debts and contra credit"],
+["Purchases ledger control","Total creditors (a liability), credit balance. Credit purchases credit; cash, returns, discount and contra debit"],
+["Depreciation","Straight line: equal amounts on cost. Reducing balance: falling amounts on book value. Use the provision method"],
+["Manufacturing account","Prime cost = materials + direct labour + direct expenses. Factory cost = prime cost + overheads, adjusted for WIP. Transfer to trading account"]]}},
+{"h":"Theory questions","p":["1. Explain the accounting equation with examples. 2. Differentiate between (a) current assets and fixed assets, (b) current liabilities and long-term liabilities, (c) the sales ledger control account and the purchases ledger control account. 3. State five causes of depreciation with examples. 4. Compare the straight-line and reducing balance methods. 5. What is prime cost and how is it calculated? 6. Explain the purpose of (a) a manufacturing account and (b) a balance sheet."]},
+{"h":"Question 1: balance sheet at 31 March 2024","p":["Net profit ₦95,000; drawings ₦48,000; land ₦250,000; buildings cost ₦200,000 (provision ₦40,000); motor vehicles cost ₦150,000 (provision ₦60,000); furniture cost ₦80,000 (provision ₦24,000); stock of finished goods ₦75,000; debtors ₦120,000 (provision ₦6,000); prepaid insurance ₦8,000; bank ₦45,000; cash ₦12,000; creditors ₦85,000; outstanding wages ₦15,000; loan (repayable 2030) ₦120,000.","Fixed assets: 250,000 + 160,000 + 90,000 + 56,000 = ₦556,000. Current assets: 75,000 + 114,000 + 8,000 + 45,000 + 12,000 = ₦254,000. Current liabilities ₦100,000. Net current assets ₦154,000. Less loan ₦120,000. Net assets ₦590,000. Closing capital must be ₦590,000, so opening capital = 590,000 − 95,000 + 48,000 = ₦543,000. (Your notes show ₦350,000, which leaves a ₦193,000 gap.)"]},
+{"h":"Question 2: control accounts, May 2024","p":["Sales ledger control: debtors ₦150,000; credit sales ₦480,000; dishonoured cheque ₦8,000 (debit side total ₦638,000); cash received ₦420,000; returns inwards ₦25,000; discount allowed ₦18,000; bad debts ₦12,000; contra ₦10,000 (credit items ₦485,000). Closing debtors ₦153,000.","Purchases ledger control: creditors ₦110,000; credit purchases ₦360,000 (credit side ₦470,000); cash paid ₦330,000; returns outwards ₦18,000; discount received ₦15,000; contra ₦10,000 (debit items ₦373,000). Closing creditors ₦97,000."]},
+{"h":"Question 3: depreciation","p":["Equipment bought on 1 January 2021 for ₦300,000. Straight line at 20%: ₦60,000 a year for 4 years, total ₦240,000, net book value ₦60,000. Reducing balance at 20%: 2021 ₦60,000; 2022 ₦48,000; 2023 ₦38,400; 2024 ₦30,720; total ₦177,120; net book value ₦122,880. The straight-line total is higher by ₦62,880 after 4 years."]},
+{"h":"Question 4: manufacturing account, year ended 31 December 2024","p":["Raw materials 1 January ₦65,000 and 31 December ₦72,000; purchases ₦380,000; carriage inwards ₦18,000; factory wages ₦260,000; royalties ₦22,000; factory rent ₦85,000; power ₦48,000; insurance ₦28,000; depreciation of factory machinery ₦35,000 and factory building ₦20,000; supervisor ₦110,000; repairs ₦25,000; small factory tools ₦12,000; work in progress 1 January ₦42,000 and 31 December ₦50,000.","(a) Raw materials consumed: 65,000 + 380,000 + 18,000 − 72,000 = ₦391,000. (b) Prime cost: 391,000 + 260,000 + 22,000 = ₦673,000. (c) Factory overheads: 85,000 + 48,000 + 28,000 + 35,000 + 20,000 + 110,000 + 25,000 + 12,000 = ₦363,000. (d) Cost of production: 673,000 + 363,000 + 42,000 − 50,000 = ₦1,028,000."]}
+],
+"activity":"Without notes, write the layout of a vertical balance sheet from fixed assets down to 'financed by'.",
+"check":[
+{"q":"Assets = Capital +","o":["Liabilities","Drawings","Sales","Expenses"]},
+{"q":"The closing debtors in Question 2 are","o":["₦153,000","₦485,000","₦638,000","₦97,000"]},
+{"q":"Reducing balance total over 4 years on ₦300,000 at 20% is","o":["₦177,120","₦240,000","₦60,000","₦122,880"]},
+{"q":"The prime cost in Question 4 is","o":["₦673,000","₦391,000","₦1,028,000","₦363,000"]},
+{"q":"Working capital = current assets −","o":["Current liabilities","Fixed assets","Capital","Drawings"]}]}
+]

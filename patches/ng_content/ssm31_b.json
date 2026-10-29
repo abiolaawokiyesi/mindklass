@@ -1,0 +1,147 @@
+[
+{"id":"m31-10","week":4,"title":"Matrices: Meaning, Order and Types","icon":"Layers",
+"summary":"What a matrix is, how to state its order, and the common types of matrix.",
+"keyWords":["Matrix","Order","Element","Row matrix","Column matrix","Square matrix","Identity matrix"],
+"sections":[
+{"h":"What is a matrix?","p":["A matrix is a rectangular arrangement of numbers in rows and columns, placed in brackets. Rows run across and columns run down. The number in row i and column j is written aᵢⱼ. In this book a matrix is written row by row, with a semicolon between rows: A = [1 2 3 ; 4 5 6] has two rows, (1 2 3) and (4 5 6).","In A, a₁₂ = 2 (row 1, column 2) and a₂₃ = 6 (row 2, column 3)."]},
+{"h":"Order of a matrix","p":["The order is m × n, where m is the number of rows and n the number of columns (rows first). A = [1 2 3 ; 4 5 6] is 2 × 3. [5 ; 3 ; 1] is 3 × 1. [5 3 −1 8] is 1 × 4."]},
+{"h":"Types of matrix","p":["Row matrix: only one row, for example [5 3 −1 8] (order 1 × 4). Column matrix: only one column, for example [5 ; 3 ; 1] (3 × 1).","Square matrix: rows = columns, for example [1 2 ; 3 4] (2 × 2).","Diagonal matrix: a square matrix with zeros everywhere except possibly on the main diagonal, for example [3 0 ; 0 7].","Identity (unit) matrix I: a diagonal matrix with 1s on the diagonal, for example [1 0 ; 0 1]. For any matrix A, AI = IA = A.","Zero (null) matrix: every element is 0.","Scalar matrix: a diagonal matrix with equal diagonal elements, for example [5 0 ; 0 5].","Upper triangular: a square matrix with zeros below the main diagonal, for example [1 2 ; 0 3]. Lower triangular: zeros above the main diagonal, for example [1 0 ; 2 3]."]},
+{"h":"Equal matrices","p":["Two matrices are equal if they have the same order and equal corresponding elements. If [x + 1 3 ; 2 y − 2] = [4 3 ; 2 5], then x + 1 = 4 and y − 2 = 5, so x = 3 and y = 7."]}
+],
+"activity":"State the order of [2 7 1 ; 0 3 5] (2 × 3), [4 ; 9] (2 × 1) and [1 2 ; 3 4 ; 5 6] (3 × 2). Find x and y if [2x 5 ; 1 y] = [6 5 ; 1 −3] (x = 3, y = −3).",
+"check":[
+{"q":"The order of a matrix with 3 rows and 2 columns is","o":["3 × 2","2 × 3","3 × 3","6"]},
+{"q":"A matrix with one row is a","o":["row matrix","column matrix","square matrix","zero matrix"]},
+{"q":"For any matrix A, AI =","o":["A","I","0","A²"]},
+{"q":"[x + 1 3 ; 2 y − 2] = [4 3 ; 2 5] gives x =","o":["3","4","5","7"]},
+{"q":"A square matrix with 1s on the main diagonal and 0s elsewhere is the","o":["identity matrix","zero matrix","row matrix","scalar 0"]}
+]},
+
+{"id":"m31-11","week":4,"title":"Matrix Operations: Addition, Scalar Multiplication and Multiplication","icon":"Zap",
+"summary":"How to add and subtract matrices, multiply by a number, and multiply two matrices, with the rule for when it is possible.",
+"keyWords":["Addition","Subtraction","Scalar multiplication","Matrix multiplication","Non-commutative"],
+"sections":[
+{"h":"Addition and subtraction","p":["Matrices can be added or subtracted only if they have the same order. Add or subtract the corresponding elements. Let A = [1 2 ; 3 4] and B = [3 1 ; 2 5]. A + B = [4 3 ; 5 9]. A − B = [−2 1 ; 1 −1]. A + B = B + A, and A + O = A."]},
+{"h":"Scalar multiplication","p":["Multiply every element by the number. 3A = [3 6 ; 9 12]. −2[1 5 ; 0 3] = [−2 −10 ; 0 −6]."]},
+{"h":"Matrix multiplication","p":["A (order m × n) times B (order p × q) is possible only if n = p (the number of columns of A equals the number of rows of B). The product has order m × q. Each element of AB is found by multiplying a row of A by a column of B and adding.","Example 1. [2 3 ; 5 1] × [1 4 ; 2 3]. Element (1,1) = 2 × 1 + 3 × 2 = 8. (1,2) = 2 × 4 + 3 × 3 = 17. (2,1) = 5 × 1 + 1 × 2 = 7. (2,2) = 5 × 4 + 1 × 3 = 23. Answer: [8 17 ; 7 23].","Example 2. [2 1 3 ; 4 0 2] (2 × 3) times [1 2 ; 3 1 ; 2 4] (3 × 2) gives a 2 × 2 matrix. (1,1) = 2 + 3 + 6 = 11. (1,2) = 4 + 1 + 12 = 17. (2,1) = 4 + 0 + 4 = 8. (2,2) = 8 + 0 + 8 = 16. Answer: [11 17 ; 8 16].","Example 3. [3 2 ; 4 5] × [3 ; 1]: order (2 × 2)(2 × 1) = 2 × 1. Answer: [11 ; 17]."]},
+{"h":"Matrix multiplication is not commutative","p":["With A = [1 2 ; 3 4] and B = [3 1 ; 2 5]: AB = [1×3 + 2×2, 1×1 + 2×5 ; 3×3 + 4×2, 3×1 + 4×5] = [7 11 ; 17 23]. BA = [3×1 + 1×3, 3×2 + 1×4 ; 2×1 + 5×3, 2×2 + 5×4] = [6 10 ; 17 24]. So AB ≠ BA.","Properties: (AB)C = A(BC); A(B + C) = AB + AC; AI = IA = A."]}
+],
+"activity":"Given P = [2 1 ; 0 3] and Q = [1 4 ; 2 0], find P + Q ([3 5 ; 2 3]), 2P − Q ([3 −2 ; −2 6]) and PQ ([4 8 ; 6 0]).",
+"check":[
+{"q":"Two matrices can be added only if","o":["they have the same order","they are square","they are identity matrices","they have the same determinant"]},
+{"q":"A (2 × 3) times B (3 × 2) gives a matrix of order","o":["2 × 2","3 × 3","2 × 3","3 × 2"]},
+{"q":"[2 3 ; 5 1] × [1 4 ; 2 3] =","o":["[8 17 ; 7 23]","[5 12 ; 7 4]","[8 12 ; 10 3]","[2 12 ; 10 3]"]},
+{"q":"In general, for matrices AB","o":["is not equal to BA","equals BA","is always zero","equals A + B"]},
+{"q":"3[1 4 ; 2 0] =","o":["[3 12 ; 6 0]","[3 4 ; 2 0]","[1 12 ; 2 0]","[4 7 ; 5 3]"]}
+]},
+
+{"id":"m31-12","week":4,"title":"Transpose and Determinants","icon":"Target",
+"summary":"The transpose of a matrix, and how to find the determinant of a 2 × 2 and a 3 × 3 matrix.",
+"keyWords":["Transpose","Symmetric matrix","Determinant","Singular matrix","Cofactor expansion"],
+"sections":[
+{"h":"Transpose","p":["The transpose Aᵀ is found by interchanging rows and columns. If A = [1 2 3 ; 4 5 6], then Aᵀ = [1 4 ; 2 5 ; 3 6]. A 2 × 3 matrix has a 3 × 2 transpose. Properties: (Aᵀ)ᵀ = A; (A + B)ᵀ = Aᵀ + Bᵀ; (kA)ᵀ = kAᵀ; (AB)ᵀ = BᵀAᵀ (the order is reversed). A matrix with A = Aᵀ is symmetric, for example [3 4 ; 4 6]."]},
+{"h":"Determinant of a 2 × 2 matrix","p":["For A = [a b ; c d], |A| = ad − bc. Example: [3 2 ; 1 4] has determinant 3 × 4 − 2 × 1 = 10. [5 −2 ; 3 1] has determinant 5 × 1 − (−2)(3) = 11. [2 4 ; 1 2] has determinant 4 − 4 = 0: it is singular (it has no inverse)."]},
+{"h":"Determinant of a 3 × 3 matrix","p":["For A = [a b c ; d e f ; g h i], expand along the first row: |A| = a(ei − fh) − b(di − fg) + c(dh − eg). Notice the minus sign before b.","Example 1. A = [2 0 1 ; 1 3 2 ; 1 1 4]. |A| = 2(3 × 4 − 2 × 1) − 0(1 × 4 − 2 × 1) + 1(1 × 1 − 3 × 1) = 2(10) − 0 + 1(−2) = 18.","Example 2. [1 2 3 ; 4 5 6 ; 7 8 9]: |A| = 1(45 − 48) − 2(36 − 42) + 3(32 − 35) = −3 + 12 − 9 = 0. The rows are dependent, so the matrix is singular.","Another way is the rule of Sarrus: copy the first two columns to the right, add the three downward diagonals and subtract the three upward diagonals."]},
+{"h":"Properties of determinants","p":["If a row or column is all zeros, |A| = 0. If two rows (or columns) are identical, |A| = 0. |AB| = |A||B|. Interchanging two rows changes the sign of the determinant. For an n × n matrix, |kA| = kⁿ|A|."]}
+],
+"activity":"Find the transpose of [2 1 ; 5 3 ; 0 4] ([2 5 0 ; 1 3 4]). Find the determinants of [4 3 ; 2 5] (14) and [2 1 3 ; 0 2 1 ; 1 0 4] (2(8 − 0) − 1(0 − 1) + 3(0 − 2) = 16 + 1 − 6 = 11).",
+"check":[
+{"q":"The determinant of [3 2 ; 1 4] is","o":["10","14","12","−10"]},
+{"q":"A matrix with determinant 0 is","o":["singular","an identity matrix","symmetric only","a zero matrix only"]},
+{"q":"The transpose of a 2 × 3 matrix has order","o":["3 × 2","2 × 3","2 × 2","3 × 3"]},
+{"q":"(AB)ᵀ =","o":["BᵀAᵀ","AᵀBᵀ","ABᵀ","A + B"]},
+{"q":"[1 2 3 ; 4 5 6 ; 7 8 9] has determinant","o":["0","15","45","−3"]}
+]},
+
+{"id":"m31-13","week":4,"title":"Inverse of a 2 × 2 Matrix and Simultaneous Equations","icon":"Zap",
+"summary":"How to find the inverse of a 2 × 2 matrix and use it to solve a pair of simultaneous linear equations.",
+"keyWords":["Inverse matrix","Adjoint","Simultaneous equations","Singular"],
+"sections":[
+{"h":"The inverse","p":["The inverse A⁻¹ of a square matrix A satisfies AA⁻¹ = A⁻¹A = I. It exists only if |A| ≠ 0.","For A = [a b ; c d]: A⁻¹ = (1/(ad − bc)) × [d −b ; −c a]. Steps: find the determinant; swap a and d; change the signs of b and c; divide by the determinant.","Example. A = [2 3 ; 1 4]. |A| = 8 − 3 = 5. A⁻¹ = (1/5)[4 −3 ; −1 2]. Check: [2 3 ; 1 4] × [4 −3 ; −1 2] = [8 − 3, −6 + 6 ; 4 − 4, −3 + 8] = [5 0 ; 0 5]. Divide by 5 to get I."]},
+{"h":"Solving simultaneous equations","p":["Write the equations as AX = B. Then X = A⁻¹B.","Example 1. 2x + 3y = 8 and x + 4y = 9. A = [2 3 ; 1 4], X = [x ; y], B = [8 ; 9]. A⁻¹ = (1/5)[4 −3 ; −1 2]. X = (1/5)[4 × 8 − 3 × 9 ; −1 × 8 + 2 × 9] = (1/5)[5 ; 10] = [1 ; 2]. So x = 1 and y = 2. Check: 2 + 6 = 8 and 1 + 8 = 9.","Example 2. 3x − 2y = 4 and x + y = 3. |A| = 3 × 1 − (−2)(1) = 5. A⁻¹ = (1/5)[1 2 ; −1 3]. X = (1/5)[1 × 4 + 2 × 3 ; −1 × 4 + 3 × 3] = (1/5)[10 ; 5] = [2 ; 1]. So x = 2, y = 1."]},
+{"h":"When there is no inverse","p":["If the determinant is zero the equations either have no solution or have infinitely many. Example: 2x + 4y = 6 and x + 2y = 5 have the matrix [2 4 ; 1 2] with determinant 0, and the equations contradict each other (the second gives 2x + 4y = 10)."]}
+],
+"activity":"Find the inverse of [3 1 ; 5 2] ([2 −1 ; −5 3]) and use it to solve 3x + y = 5 and 5x + 2y = 9 (x = 1, y = 2).",
+"check":[
+{"q":"The inverse of [2 3 ; 1 4] is","o":["(1/5)[4 −3 ; −1 2]","(1/5)[4 3 ; 1 2]","(1/11)[4 −3 ; −1 2]","[4 −3 ; −1 2]"]},
+{"q":"A matrix has no inverse when its determinant is","o":["0","1","positive","negative"]},
+{"q":"2x + 3y = 8 and x + 4y = 9 give","o":["x = 1, y = 2","x = 2, y = 1","x = 4, y = 0","x = 3, y = 1"]},
+{"q":"AX = B gives X =","o":["A⁻¹B","BA⁻¹","A + B","B/A⁻¹ only"]},
+{"q":"3x − 2y = 4 and x + y = 3 give y =","o":["1","2","3","4"]}
+]},
+
+{"id":"m31-14","week":6,"title":"Simultaneous Linear and Quadratic Equations","icon":"Layers",
+"summary":"Solving a linear and a quadratic equation together by substitution, including cases with surd answers.",
+"keyWords":["Substitution","Linear","Quadratic","Surd","Two solutions"],
+"sections":[
+{"h":"Reminder","p":["A linear equation is y = mx + c: a straight line. A quadratic equation is y = ax² + bx + c (a ≠ 0): a parabola, which opens up if a > 0 and down if a < 0. To solve them together, substitute the linear equation into the quadratic one."]},
+{"h":"Example 1","p":["y = x + 2 and y = x² − 4. Substitute: x + 2 = x² − 4, so x² − x − 6 = 0, (x − 3)(x + 2) = 0, so x = 3 or x = −2. Then y = 5 or y = 0. Solutions: (3, 5) and (−2, 0). Check (3, 5): 3 + 2 = 5 and 9 − 4 = 5."]},
+{"h":"Example 2: surd answers","p":["y = 2x − 1 and y = x² + x − 5. 2x − 1 = x² + x − 5, so x² − x − 4 = 0. By the formula, x = (1 ± √17)/2, that is x ≈ 2.56 or x ≈ −1.56. Then y = 2x − 1 gives y ≈ 4.12 or y ≈ −4.12. Solutions: (2.56, 4.12) and (−1.56, −4.12)."]},
+{"h":"Example 3","p":["x + y = 5 and x² + y² = 13. y = 5 − x, so x² + (5 − x)² = 13, 2x² − 10x + 25 = 13, x² − 5x + 6 = 0. x = 2 or 3. Solutions (2, 3) and (3, 2)."]},
+{"h":"Example 4","p":["y = x − 1 and y = x² − 5x + 5. x − 1 = x² − 5x + 5, so x² − 6x + 6 = 0. x = (6 ± √12)/2 = 3 ± √3, that is x ≈ 4.73 or 1.27. y = x − 1 ≈ 3.73 or 0.27."]},
+{"h":"How many solutions?","p":["After substitution, the discriminant of the quadratic decides. If b² − 4ac > 0 the line cuts the curve at two points. If it is 0 the line is a tangent (one solution). If it is negative the line misses the curve (no real solution)."]}
+],
+"activity":"Solve y = x + 1 and y = x² − 5 (x² − x − 6 = 0, so (3, 4) and (−2, −1)). Solve x − y = 2 and x² + y² = 20 (y = x − 2: 2x² − 4x − 16 = 0, x² − 2x − 8 = 0, so (4, 2) and (−2, −4)).",
+"check":[
+{"q":"y = x + 2 and y = x² − 4 meet at","o":["(3, 5) and (−2, 0)","(2, 4) and (−3, −1)","(4, 6) only","(0, 2) and (1, 3)"]},
+{"q":"x + y = 5 and x² + y² = 13 have a solution","o":["(2, 3)","(1, 4)","(5, 0)","(0, 5)"]},
+{"q":"If the discriminant after substitution is zero, the line is a","o":["tangent to the curve","chord","secant at two points","parallel to the curve"]},
+{"q":"x² − x − 4 = 0 has solutions","o":["(1 ± √17)/2","(1 ± √15)/2","2 and −2","4 and −1"]},
+{"q":"A parabola with a > 0 opens","o":["upward","downward","sideways","not at all"]}
+]},
+
+{"id":"m31-15","week":6,"title":"Graphical Solutions and Word Problems","icon":"BarChart2",
+"summary":"Solving a line and a curve together by graph, counting solutions, and word problems that lead to quadratic equations.",
+"keyWords":["Graphical solution","Intersection","Tangent","Word problem","Shares"],
+"sections":[
+{"h":"Solving by graph","p":["Draw both graphs on the same axes and read the coordinates of the points where they cross. Example: y = x + 1 and y = x² − 2x. Table for the curve: x = −1, 0, 1, 2, 3, 4 gives y = 3, 0, −1, 0, 3, 8. The line crosses the curve near (−0.3, 0.7) and (3.3, 4.3). (By algebra: x² − 3x − 1 = 0, so x = (3 ± √13)/2 = 3.30 or −0.30.)","Number of solutions: two crossing points mean two solutions. A tangent touches at one point (a repeated root). A line that does not touch the curve means no real solution. Example: y = 2x − 1 and y = x² give x² − 2x + 1 = 0, so x = 1 twice: the line is a tangent at (1, 1). But y = 2x − 2 and y = x² give x² − 2x + 2 = 0, with discriminant −4: no solution."]},
+{"h":"Word problem 1","p":["The sum of two numbers is 10 and their product is 21. x + y = 10 and xy = 21. x(10 − x) = 21, x² − 10x + 21 = 0, (x − 3)(x − 7) = 0. The numbers are 3 and 7."]},
+{"h":"Word problem 2","p":["A rectangular field has length 5 m more than its width, and its area is 84 m². x(x + 5) = 84, x² + 5x − 84 = 0, (x + 12)(x − 7) = 0. The width is 7 m (reject −12) and the length is 12 m. Check: 7 × 12 = 84."]},
+{"h":"Word problem 3: shares","p":["An investor buys (100 − x) shares at ₦x each and spends ₦2 400. x(100 − x) = 2 400, x² − 100x + 2 400 = 0, (x − 40)(x − 60) = 0. So the price is ₦40 and the number of shares is 60, or the price is ₦60 and the number of shares is 40. Both answers fit the information given."]}
+],
+"activity":"Draw y = x² − 2x and y = x + 1 for x from −1 to 4 and read the solutions. A number plus its square is 42. Find it (x² + x − 42 = 0, (x + 7)(x − 6) = 0: x = 6 or −7).",
+"check":[
+{"q":"A line that touches a curve at one point is a","o":["tangent","chord","secant","normal at two points"]},
+{"q":"The numbers with sum 10 and product 21 are","o":["3 and 7","2 and 8","4 and 6","1 and 9"]},
+{"q":"A field with sides x and x + 5 and area 84 has a width of","o":["7 m","12 m","−12 m","5 m"]},
+{"q":"y = 2x − 2 and y = x² have","o":["no real solution","one solution","two solutions","three solutions"]},
+{"q":"On a graph, the solutions of two equations are the","o":["coordinates of the intersection points","y-intercepts only","gradients","areas"]}
+]},
+
+{"id":"m31-16","week":8,"title":"Spheres and Hemispheres: Surface Area and Volume","icon":"Target",
+"summary":"The formulas for the surface area and volume of a sphere and a hemisphere, with worked examples including the reverse problem of finding the radius.",
+"keyWords":["Sphere","Hemisphere","Surface area","Volume","Radius"],
+"sections":[
+{"h":"The sphere","p":["A sphere is a perfectly round solid: every point on its surface is the same distance (the radius r) from the centre. Examples: a football, a globe, an orange and a marble. The diameter is d = 2r.","Surface area of a sphere = 4πr². (It is exactly 4 times the area of a circle with the same radius.) Volume of a sphere = (4/3)πr³."]},
+{"h":"Examples with π = 22/7","p":["1. Radius 7 cm. Surface area = 4 × (22/7) × 49 = 616 cm².","2. A balloon of radius 14 cm: surface area = 4 × (22/7) × 196 = 2 464 cm².","3. The surface area is 1 386 cm². Find the radius. 4 × (22/7) r² = 1 386, so r² = 1 386 × 7/88 = 110.25 and r = 10.5 cm.","4. Diameter 21 cm, so r = 10.5 cm. Surface area = 4 × (22/7) × 110.25 = 1 386 cm². Volume = (4/3)(22/7)(10.5)³ = (88/21) × 1 157.625 = 4 851 cm³.","5. Radius 3 cm: volume = (4/3)(22/7)(27) = 2 376/21 = 113.14 cm³.","6. A spherical tank of radius 1.5 m (π = 3.142): volume = (4/3)(3.142)(3.375) = 14.14 m³ = 14 140 litres (1 m³ = 1 000 litres)."]},
+{"h":"The hemisphere (half a sphere)","p":["Curved surface area = 2πr². Total surface area (with the flat circular face) = 2πr² + πr² = 3πr². Volume = (2/3)πr³.","Example. A hemispherical bowl of radius 7 cm: curved area = 2 × (22/7) × 49 = 308 cm²; total area = 462 cm²; volume = (2/3)(22/7)(343) = 718.67 cm³, about 0.72 litre."]},
+{"h":"Melting and recasting","p":["Volume stays the same when a solid is melted and recast. A sphere of radius 6 cm is melted into small spheres of radius 2 cm. Number = (4/3)π(6)³ ÷ (4/3)π(2)³ = (6/2)³ = 27 small spheres."]}
+],
+"activity":"Find the surface area (1 386 cm²) and volume (4 851 cm³) of a sphere of radius 10.5 cm. A hemisphere has radius 14 cm; find its curved surface area (1 232 cm²) and volume (5 749.3 cm³).",
+"check":[
+{"q":"The surface area of a sphere is","o":["4πr²","πr²","(4/3)πr³","2πr²"]},
+{"q":"The volume of a sphere is","o":["(4/3)πr³","4πr²","πr³","2πr³"]},
+{"q":"The surface area of a sphere of radius 7 cm (π = 22/7) is","o":["616 cm²","154 cm²","308 cm²","1 437 cm²"]},
+{"q":"The total surface area of a solid hemisphere is","o":["3πr²","2πr²","4πr²","πr²"]},
+{"q":"A sphere of radius 6 cm is melted into spheres of radius 2 cm. The number of spheres is","o":["27","9","3","81"]}
+]},
+
+{"id":"m31-17","week":9,"title":"Latitude and Longitude","icon":"Landmark",
+"summary":"The geography of the globe: poles, equator, great and small circles, latitude and longitude, and the radius and length of a parallel of latitude.",
+"keyWords":["Latitude","Longitude","Equator","Prime meridian","Great circle","Parallel"],
+"sections":[
+{"h":"The globe","p":["The Earth is nearly a sphere. It spins about an axis through the North Pole and the South Pole. The equator is the circle halfway between the poles. A great circle is a circle on the sphere whose centre is the centre of the sphere (the equator and all meridians are great circles). A small circle is any other circle on the sphere, such as a parallel of latitude (other than the equator)."]},
+{"h":"Latitude","p":["Latitude measures how far a place is north or south of the equator, as an angle at the centre of the Earth, from 0° at the equator to 90° at the poles (for example 6.5°N). Lines of latitude are called parallels. They are small circles, except the equator. Important latitudes: the equator 0°, the Tropic of Cancer 23.5°N, the Tropic of Capricorn 23.5°S."]},
+{"h":"Longitude","p":["Longitude measures how far a place is east or west of the prime meridian (the meridian through Greenwich, 0°), from 0° to 180°. Lines of longitude are called meridians and join the two poles. Each meridian is half of a great circle. The 180° meridian is roughly the International Date Line. A place is given as (latitude, longitude), for example Lagos is about (6.5°N, 3.4°E) and Abuja is about (9°N, 7.5°E)."]},
+{"h":"Radius of a parallel of latitude","p":["The radius of the parallel of latitude θ is r = R cos θ, where R is the radius of the Earth (about 6 400 km in these notes). At the equator (θ = 0°) r = R. At the poles (θ = 90°) r = 0."],"img":{"src":"mth33-latitude.png","alt":"A cross-section of the Earth showing the equator, the polar axis and a point P at latitude theta, with the radius of the parallel marked r equals R cos theta","cap":"r = R cos θ."}},
+{"h":"Worked examples (R = 6 400 km, π = 22/7)","p":["1. Latitude 60°N: r = 6 400 × cos 60° = 3 200 km. Length of the parallel = 2πr = 2 × (22/7) × 3 200 = 20 114.29 km.","2. Latitude 45°S: r = 6 400 × cos 45° = 4 525.48 km.","3. Latitude 30°S: r = 6 400 × cos 30° = 5 542.56 km. Length of the parallel = 2 × (22/7) × 5 542.56 = 34 838.96 km. (Some printed notes give 34 805.83 km; that is not correct for these values.)","4. A parallel has radius 3 200 km. Then cos θ = 3 200/6 400 = 0.5, so θ = 60° (60°N or 60°S)."]}
+],
+"activity":"Find the radius of the parallel of latitude 40°N (R = 6 400 km): 6 400 × cos 40° = 4 902.7 km. What does 6.5°N mean? (6.5° north of the equator.)",
+"check":[
+{"q":"Latitude is measured from the","o":["equator","prime meridian","North Pole","South Pole"]},
+{"q":"Longitude is measured from the","o":["prime meridian","equator","tropic of Cancer","date line"]},
+{"q":"The radius of the parallel of latitude θ is","o":["R cos θ","R sin θ","R tan θ","R/θ"]},
+{"q":"The radius of the 60° parallel when R = 6 400 km is","o":["3 200 km","5 543 km","6 400 km","4 525 km"]},
+{"q":"A great circle has","o":["its centre at the centre of the Earth","a radius smaller than the Earth's","its centre at a pole","no centre"]}
+]}
+]

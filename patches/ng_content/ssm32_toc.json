@@ -1,0 +1,178 @@
+[
+    {
+        "id":  "m32-01",
+        "week":  1,
+        "title":  "Welcome and Table of Contents",
+        "icon":  "BookOpen",
+        "summary":  "An introduction to SS3 Mathematics Second Term and the list of all units: coordinate geometry, loci and constructions, differentiation, integration, and functions and mapping.",
+        "keyWords":  [
+                         "SS3 Mathematics",
+                         "Second Term",
+                         "Calculus"
+                     ],
+        "sections":  [
+                         {
+                             "h":  "Welcome to Second Term",
+                             "p":  [
+                                       "This term begins with coordinate geometry of the straight line and with loci and constructions. It then introduces calculus: differentiation (the gradient of a curve, rates of change, maximum and minimum values) and integration (the reverse of differentiation and the area under a curve). The term ends with functions and mapping and a general review of calculus.",
+                                       "Calculus is a new way of thinking, so go slowly. Work every example yourself first, and check each integral by differentiating. The check questions at the end of each unit do not count towards a mark."
+                                   ]
+                         },
+                         {
+                             "h":  "Table of contents for Second Term",
+                             "p":  [
+                                       "Week 5 is the midterm examination and Week 7 is the midterm break."
+                                   ],
+                             "tbl":  {
+                                         "head":  [
+                                                      "Unit",
+                                                      "Week",
+                                                      "Topic"
+                                                  ],
+                                         "rows":  [
+                                                      [
+                                                          "1",
+                                                          "-",
+                                                          "Welcome and table of contents"
+                                                      ],
+                                                      [
+                                                          "2",
+                                                          "2",
+                                                          "Coordinate Geometry: Distance, Midpoint and Gradient"
+                                                      ],
+                                                      [
+                                                          "3",
+                                                          "2",
+                                                          "The Equation of a Straight Line"
+                                                      ],
+                                                      [
+                                                          "4",
+                                                          "2",
+                                                          "Intersecting Lines, Perpendicular Bisectors and Area of a Triangle"
+                                                      ],
+                                                      [
+                                                          "5",
+                                                          "3",
+                                                          "Locus: The Basic Loci"
+                                                      ],
+                                                      [
+                                                          "6",
+                                                          "3",
+                                                          "Intersection of Loci and Practical Problems"
+                                                      ],
+                                                      [
+                                                          "7",
+                                                          "3",
+                                                          "Circumcircle, Incircle and Escribed Circle of a Triangle"
+                                                      ],
+                                                      [
+                                                          "8",
+                                                          "4",
+                                                          "Differentiation: Limits and the Idea of a Derivative"
+                                                      ],
+                                                      [
+                                                          "9",
+                                                          "4",
+                                                          "Differentiation from First Principles and the Power Rule"
+                                                      ],
+                                                      [
+                                                          "10",
+                                                          "4",
+                                                          "Tangents, Normals and the Meaning of the Derivative"
+                                                      ],
+                                                      [
+                                                          "11",
+                                                          "6",
+                                                          "Differentiation II: The Product Rule"
+                                                      ],
+                                                      [
+                                                          "12",
+                                                          "6",
+                                                          "The Quotient Rule"
+                                                      ],
+                                                      [
+                                                          "13",
+                                                          "6",
+                                                          "The Chain Rule"
+                                                      ],
+                                                      [
+                                                          "14",
+                                                          "6",
+                                                          "Rates of Change, Velocity and Acceleration"
+                                                      ],
+                                                      [
+                                                          "15",
+                                                          "6",
+                                                          "Maximum and Minimum Values and Optimisation"
+                                                      ],
+                                                      [
+                                                          "16",
+                                                          "8",
+                                                          "Integration: The Reverse of Differentiation"
+                                                      ],
+                                                      [
+                                                          "17",
+                                                          "8",
+                                                          "Initial Conditions and Definite Integrals"
+                                                      ],
+                                                      [
+                                                          "18",
+                                                          "8",
+                                                          "Area Under a Curve and Integration by Substitution"
+                                                      ],
+                                                      [
+                                                          "19",
+                                                          "9",
+                                                          "Functions and Mapping"
+                                                      ],
+                                                      [
+                                                          "20",
+                                                          "9",
+                                                          "Types of Functions, Composite and Inverse Functions"
+                                                      ],
+                                                      [
+                                                          "21",
+                                                          "10",
+                                                          "General Review of Calculus"
+                                                      ],
+                                                      [
+                                                          "22",
+                                                          "11",
+                                                          "Second Term Revision"
+                                                      ]
+                                                  ]
+                                     }
+                         }
+                     ],
+        "activity":  "Look at the table and plan your revision. Which of Weeks 2 to 4 will you revise before the midterm?",
+        "check":  [
+                      {
+                          "q":  "Differentiation is first studied in Week",
+                          "o":  [
+                                    "4",
+                                    "1",
+                                    "9",
+                                    "11"
+                                ]
+                      },
+                      {
+                          "q":  "Integration is studied in Week",
+                          "o":  [
+                                    "8",
+                                    "2",
+                                    "3",
+                                    "10"
+                                ]
+                      },
+                      {
+                          "q":  "Loci and constructions are studied in Week",
+                          "o":  [
+                                    "3",
+                                    "6",
+                                    "9",
+                                    "11"
+                                ]
+                      }
+                  ]
+    }
+]

@@ -1,0 +1,153 @@
+[
+{"id":"li2-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Literature in English Second Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["African drama","Anansegoro","Allegory","Conscience","Collective responsibility"],
+"sections":[
+{"h":"Welcome to Second Term","p":["In Second Term you study drama. First you learn what makes African drama special: its roots in oral tradition, music, dance and audience participation. Then you study two African plays, Once Upon an Elephant (Bosede Ademilua-Afolayan) and The Marriage of Anansewa (Efua Sutherland), and two non-African plays, An Inspector Calls (J. B. Priestley) and A Man for All Seasons (Robert Bolt).","Read each unit, then if you can, read the play itself. The notes are a guide, not a replacement for the text. At the end of every unit are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit.","The summaries here were checked against published study guides and reviews. In some places the original lesson plan gave a plot or names that do not match the published text (especially for Once Upon an Elephant and The Marriage of Anansewa). Those places are corrected and marked, so that you will not lose marks in examinations."]},
+{"h":"Table of contents for Second Term","p":["Week 5 is the midterm examination and Week 7 is the midterm break."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Features of African drama"],
+["3","1","Oral tradition and cultural elements in African plays"],
+["4","2","Once Upon an Elephant: the playwright, the text and the setting"],
+["5","2","Once Upon an Elephant: plot"],
+["6","3","Once Upon an Elephant: themes, characters and style"],
+["7","4","The Marriage of Anansewa: the playwright and Anansegoro"],
+["8","4","The Marriage of Anansewa: plot"],
+["9","6","The Marriage of Anansewa: themes, style, characters and values"],
+["10","8","An Inspector Calls: the playwright, context and setting"],
+["11","8","An Inspector Calls: plot"],
+["12","9","An Inspector Calls: themes, style and characters"],
+["13","10","A Man for All Seasons: the playwright, history and the central conflict"],
+["14","10","A Man for All Seasons: plot, themes and characters"],
+["15","11","Revision"]]}}
+],
+"activity":"Which unit will help you to explain what a 'storyteller' does in an African play? Which unit explains why Thomas More would not take the oath?",
+"check":[
+{"q":"Which unit covers Anansegoro?","o":["Unit 7","Unit 5","Unit 12","Unit 15"]},
+{"q":"In which unit do you study An Inspector Calls plot?","o":["Unit 11","Unit 2","Unit 6","Unit 14"]},
+{"q":"Which unit covers the features of African drama?","o":["Unit 2","Unit 10","Unit 13","Unit 9"]},
+{"q":"Which play is by Robert Bolt?","o":["A Man for All Seasons","An Inspector Calls","The Marriage of Anansewa","Once Upon an Elephant"]}]},
+
+{"id":"li2-02","week":1,"title":"Features of African Drama","icon":"Users","summary":"Six features of traditional African drama: communal and functional, total theatre, audience participation, masks and costumes, ritual roots and didacticism.",
+"keyWords":["Total theatre","Audience participation","Masks","Ritual","Didactic"]
+,"sections":[
+{"h":"More than 'drama by Africans'","p":["African drama is not simply drama written by Africans. It is a form with its own recognisable features, which set it apart from European theatre."]},
+{"h":"Six features","p":["1. Communal and functional: traditional African drama has a purpose in the community, such as to teach, to settle disputes, to perform religious rites or to mark historical events. It is a shared experience that includes and reflects the whole community, not 'art for art's sake'.","2. Total theatre: African drama does not separate the arts. Dialogue is joined with music, song, dance, mime and spectacle. A play is an event and a celebration, not only spoken words.","3. Audience participation: the 'fourth wall' (the invisible wall between actors and audience) hardly exists. The audience joins in songs (call and response), comments to the actors, or even moves into the playing area.","4. Masks and costumes: masks are not just decoration. They are strong symbols that stand for gods, ancestors, spirits or types of character, and they let the actor become a supernatural or symbolic force.","5. Ritual and ceremonial roots: much African drama grew out of religious rituals, festivals (such as the Mmanwu masquerade of the Igbo) and ceremonies. This gives it a serious, spiritual and community feeling.","6. Didacticism: African drama almost always teaches. It aims to pass on moral lessons, social values and the history of the people. The story is the vehicle for a message."]}
+],
+"activity":"Write a 200-word paragraph on the difference between a traditional African play and a typical European play in (a) the use of music and (b) the role of the audience.",
+"check":[
+{"q":"'Total theatre' means a play that","o":["Joins speech, music, dance and mime","Has only speech","Is silent","Has no audience"]},
+{"q":"The 'fourth wall' is the","o":["Invisible barrier between actors and audience","Back wall of the stage","Roof","Orchestra"]},
+{"q":"A mask in African drama may represent","o":["A god or ancestor","A price","A newspaper","A shop"]},
+{"q":"Which festival is mentioned as a ritual root?","o":["Mmanwu masquerade","Wimbledon","Carnival in Rio","Easter parade"]},
+{"q":"'Didactic' means","o":["Meant to teach","Meant to frighten","Meant to sell","Meant to hide"]},
+{"q":"African drama is mainly","o":["Communal and functional","Private and silent","Only for kings","Only for shops"]}]},
+
+{"id":"li2-03","week":1,"title":"Oral Tradition and Cultural Elements in African Plays","icon":"Layers","summary":"How African plays draw on the storyteller, myths and folktales, proverbs and riddles, symbolism and the mixing of languages.",
+"keyWords":["Oral tradition","Storyteller","Proverbs","Symbolism","Code-switching"]
+,"sections":[
+{"h":"Descended from oral tradition","p":["African drama grew out of oral tradition, the stories, songs and sayings passed on by mouth. The playwright is, in a way, the modern-day griot or storyteller (a griot is a West African traditional storyteller, singer and keeper of history)."]},
+{"h":"Cultural elements","p":["The storyteller or narrator: many African plays, such as Efua Sutherland's The Marriage of Anansewa, use a storyteller who speaks directly to the audience, guides the plot and comments, as a village storyteller would.","Myths, legends and folktales: plots are often taken from the stock of oral stories, such as the Ananse (spider) tales or the tortoise tales, or from legends, and are adapted to comment on modern problems.","Proverbs and riddles: the dialogue is rich in proverbs, idioms and riddles. Chinua Achebe wrote that 'proverbs are the palm-oil with which words are eaten'. Proverbs show wisdom and say much in few words.","Symbolism: African plays are often not realistic. A stool can stand for kingship, a pot of water for life or purity, and an animal (the tortoise, the elephant) for a human quality or kind of person.","Language: many playwrights switch between local languages and English, French or Portuguese (code-switching). They also shape a new 'African English' with local rhythms, sentence patterns and images, as Wole Soyinka and J. P. Clark do."]}
+],
+"activity":"Choose a proverb you know in your own language. Say what it means and how it could be used in a play.",
+"check":[
+{"q":"A griot is","o":["A traditional storyteller","A king","A drum","A mask"]},
+{"q":"Mixing local languages with English is","o":["Code-switching","Alliteration","Euphemism","Dramatic irony"]},
+{"q":"A stool in an African play may symbolise","o":["Kingship","A kitchen","A market","A school"]},
+{"q":"Proverbs in African speech are compared by Achebe to","o":["Palm-oil","Water","Salt","Stone"]},
+{"q":"Plots often come from","o":["Folktales and legends","Telephone books","Price lists","Maps"]}]},
+
+{"id":"li2-04","week":2,"title":"Once Upon an Elephant: the Playwright, the Text and the Setting","icon":"BookOpen","summary":"Who Bosede Ademilua-Afolayan is, the folktale roots of Once Upon an Elephant and what the play is an allegory of.",
+"keyWords":["Allegory","Folktale","Tyranny","Yoruba","Elephant"]
+,"sections":[
+{"h":"The playwright","p":["Bosede Ademilua-Afolayan is a Nigerian playwright, academic and critic who works in drama and theatre at the University of Lagos. Her plays use traditional Yoruba forms to speak about modern Nigerian and African life."]},
+{"h":"The text","p":["Once Upon an Elephant is a modern Nigerian play. Its title begins like a folktale ('once upon a ...'), and it borrows the idea of a proud elephant from Yoruba oral tradition. In Yoruba folk stories the elephant is large and haughty, and in the end is brought low by his own pride. The play was inspired by Adeboye Babalola's poem 'Salute to the Elephant'.","The play is an allegory: a story in which the characters and events stand for something larger. The king who takes the name Ajanaku (which means 'elephant') stands for any tyrannical ruler who abuses power. Critics read the play as a comment on dictatorship and on rulers who will not leave office ('sit-tightism') in post-colonial Africa."]},
+{"h":"Setting","p":["The play is set in an unnamed Yoruba village (a small kingdom) in traditional times. The main places are the palace of the king and the village around it, where the kingmakers, the priest and the ordinary people meet. The unnamed village is a symbol: it can stand for any community that suffers under a bad ruler."]},
+{"h":"A correction","p":["The lesson plan describes a play set in a fictional animal kingdom called 'Animalu', with a drought, a king elephant who hoards water and a tortoise who tricks him. That is not the published play. The real Once Upon an Elephant has human characters (a prince, a kingmaker and priest, a banished former queen and others), as described in the next units, and its elephant is the nickname of a ruler, 'Ajanaku'. If you studied the animal version, please use the corrected notes for your examinations."]}
+],
+"activity":"Explain in your own words what an allegory is and say what Ajanaku stands for in Once Upon an Elephant.",
+"check":[
+{"q":"An allegory is a story in which","o":["Characters and events stand for larger ideas","Everything is literally true","There is no plot","Only animals speak"]},
+{"q":"'Ajanaku' means","o":["Elephant","Lion","Tortoise","King"]},
+{"q":"The play is set in","o":["An unnamed Yoruba village","London","A forest of animals","Cairo"]},
+{"q":"The play was inspired by Babalola's poem","o":["Salute to the Elephant","Night","Still I Rise","Not My Business"]},
+{"q":"The play is read as a comment on","o":["Dictatorship","Sport","Farming","Weather"]}]},
+
+{"id":"li2-05","week":2,"title":"Once Upon an Elephant: Plot","icon":"BookOpen","summary":"The story of Olaniyonu, who becomes the tyrant Ajanaku, the kingmaker Serubawon, the banished Iya'agba, and how the tyrant is brought down.",
+"keyWords":["Ajanaku","Serubawon","Iya'agba","Kingmakers","Poetic justice"]
+,"sections":[
+{"h":"Main characters","p":["Olaniyonu (Ajanaku): a proud, power-hungry prince, presented as the illegitimate son of the ailing King Akinjobi (the play later reveals his true father). Serubawon: the chief priest and kingmaker (a medicine man), who plans to crown Olaniyonu and control him. Akinjobi: the ailing king. Ogundele and Odejimi: the other kingmakers, who oppose Serubawon's choice. Iya'agba: the king's banished former wife, thought of as a 'madwoman', who is witty and defiant and tells the truth about the corruption in the palace. Desola: Serubawon's daughter. Odekunle: a man who stands against Ajanaku's men. Adebisi: the woman whose affair with Serubawon produced Olaniyonu."]},
+{"h":"The story","p":["1. Serubawon is sure that King Akinjobi is doomed, and he schemes to put Olaniyonu on the throne, though the other kingmakers resist. The crowning rites are carried out while the old king is still alive.","2. Olaniyonu is crowned and takes the name Ajanaku, 'the elephant'. His rule becomes one of terror and abuse. Iya'agba, mocked as mad, uses her sharp words to expose the greed and hypocrisy of the palace.","3. Ajanaku grows more and more hungry for power and wants to become immortal. On Serubawon's advice he takes part in a wicked rite, the Ijedodo, which harms six young women.","4. Desola, Serubawon's own daughter, is the sixth. Serubawon realises that he has helped to create a monster.","5. Iya'agba breaks the process and saves Desola. The truth comes out: Ajanaku is the illegitimate son of Serubawon himself, and Serubawon is also the cause of Akinjobi's illness. The community rallies behind Iya'agba.","6. Ajanaku is destroyed and Serubawon is exposed and disgraced. (Published summaries differ on the exact manner of their ends, so check the text in your edition.)"]},
+{"h":"The moral","p":["The ruler whose pride and greed know no limits falls at last, and those who helped him (Serubawon) fall too. This is poetic justice: people get what they deserve. Like the elephant in the Yoruba tale, Ajanaku is brought down by his own pride."]}
+],
+"activity":"In your own words, give the five main steps in the rise and fall of Ajanaku.",
+"check":[
+{"q":"Who plans to crown Olaniyonu?","o":["Serubawon","Odekunle","Desola","Ogundele"]},
+{"q":"Who is Desola?","o":["Serubawon's daughter","The queen mother","A kingmaker","A messenger"]},
+{"q":"Iya'agba is","o":["A banished former wife of the king","A kingmaker","A priest","A boy"]},
+{"q":"Olaniyonu takes the name","o":["Ajanaku","Akinjobi","Odejimi","Serubawon"]},
+{"q":"The play ends with","o":["The tyrant brought down","The tyrant crowned for life","A feast","A wedding"]}]},
+
+{"id":"li2-06","week":3,"title":"Once Upon an Elephant: Themes, Characters and Style","icon":"Users","summary":"The main themes (tyranny, abuse of power, betrayal, poetic justice, women's strength), the chief characters and the folktale style of the play.",
+"keyWords":["Tyranny","Poetic justice","Betrayal","Iya'agba","Folktale"]
+,"sections":[
+{"h":"Themes","p":["Tyranny and abuse of power: the central theme. Ajanaku rules by fear and uses his power to satisfy himself. He is a type of the dictator who cannot let go.","Greed and ambition: the lust for power and for long life (immortality) destroys both Ajanaku and Serubawon.","Betrayal and infidelity: Serubawon's affair with Adebisi produced Olaniyonu; his betrayal of the old king and of the village leads to disaster.","Poetic justice: people receive the fate their deeds deserve.","Hypocrisy and complicity: the people around the tyrant, including the priest who made him, share the guilt.","The strength of women: Iya'agba, who is treated as mad, is the one who sees clearly, speaks bravely and finally stops the evil."]},
+{"h":"Characters","p":["Ajanaku (Olaniyonu): proud, cruel, greedy, power-mad and cowardly under his boasting. He stands for tyrants who misuse office.","Serubawon: clever, scheming and ambitious; he creates the monster he later fears. He is both a kingmaker and a victim of his own plan.","Iya'agba: brave, witty and defiant; a truth-teller. Her 'madness' is a mask which lets her speak freely.","Ogundele and Odejimi: the opposing kingmakers who represent the voice of law and custom.","Desola: an innocent young woman, a victim of the evil that her own father helped to start."]},
+{"h":"Style","p":["The play uses the form and feeling of a folktale: a simple, strong story with a clear moral, symbolic names (Ajanaku, the elephant), proverbs and the Yoruba setting. Names carry meaning, which is a feature of Yoruba culture. The play also uses rites and ceremony and moves between humour and horror, and its ending is meant to satisfy the audience's sense of justice."]}
+],
+"activity":"Discuss Once Upon an Elephant as a political allegory. Who might Ajanaku, Serubawon and Iya'agba stand for in a modern society? (300 words.)",
+"check":[
+{"q":"The central theme is","o":["Tyranny and abuse of power","Farming","Sport","Marriage customs"]},
+{"q":"Iya'agba is","o":["Brave and defiant","Cowardly","Cruel","Greedy"]},
+{"q":"'Poetic justice' means","o":["People get what they deserve","Poems are fair","The king wins","No one is punished"]},
+{"q":"Serubawon is","o":["A kingmaker who creates a monster","A farmer","A soldier","A poet"]},
+{"q":"The play's style is close to a","o":["Folktale","Newspaper report","Textbook","Recipe"]}]},
+
+{"id":"li2-07","week":4,"title":"The Marriage of Anansewa: the Playwright and Anansegoro","icon":"BookOpen","summary":"Who Efua Sutherland was, what Anansegoro is, and the background of The Marriage of Anansewa.",
+"keyWords":["Efua Sutherland","Anansegoro","Ananse","Mboguo","Storyteller"]
+,"sections":[
+{"h":"The playwright","p":["Efua Sutherland (1924 to 1996) was a pioneering Ghanaian playwright, director and cultural worker, often called the mother of modern Ghanaian theatre. She founded the Ghana Drama Studio in Accra, which became a centre for a new kind of theatre: modern, but clearly African. Her aim was to join the forms of traditional Ghanaian oral performance with the structure of written drama."]},
+{"h":"The play and Anansegoro","p":["The Marriage of Anansewa is her best-known play. She called its form Anansegoro, which means 'Ananse-play'. Ananse the spider is the best-known trickster in Akan (Ghanaian) folklore. Anansegoro takes the elements of traditional Ananse storytelling (Anansesem) onto a modern stage:","1. A storyteller who controls the story-telling event and speaks to the audience. 2. Ananse himself, clever, greedy, lovable and often in trouble. 3. Songs and dances called mboguo, which comment on the action, express feelings and let the audience join in. 4. A clear moral lesson.","The play also looks at tradition against modernity: old customs, such as marriage customs, meet modern money-making."]}
+],
+"activity":"Define Anansegoro and list its key elements. Why do you think Sutherland wanted a theatre that was 'African but modern'?",
+"check":[
+{"q":"Efua Sutherland founded the","o":["Ghana Drama Studio","Lagos Theatre","Cape Town Opera","Oxford Playhouse"]},
+{"q":"'Anansegoro' means","o":["Ananse-play","Spider web","Spider market","Story book"]},
+{"q":"The songs and dances in the play are called","o":["Mboguo","Proverbs","Soliloquies","Stanzas"]},
+{"q":"Ananse is the","o":["Trickster spider of Akan folklore","Ghanaian president","Chief of the Mines","Priest"]},
+{"q":"A key figure in Anansegoro is the","o":["Storyteller","Judge","Banker","Teacher"]}]},
+
+{"id":"li2-08","week":4,"title":"The Marriage of Anansewa: Plot","icon":"BookOpen","summary":"Ananse's scheme to win gifts from four chiefs, the crisis when all four announce a visit, the fake death of Anansewa and the happy ending.",
+"keyWords":["Ananse","Four chiefs","Head-drink","Fake death","Chief-Who-Is-Chief"]
+,"sections":[
+{"h":"The scheme","p":["Ananse is a poor but ambitious widower with one daughter, Anansewa, a secretarial student about to finish her course. He wants two things: a loving husband for her, and a better life for himself. He travels the country showing photographs of Anansewa to four rich chiefs and starts a 'photograph engagement' with each, at first without Anansewa knowing. When she learns, she objects at first, but she is later persuaded to join the plan.","The four chiefs are: the Chief of Sapaase, Togbe Klu IV (the Chief of Akate), the Chief of the Mines, and Chief-Who-Is-Chief, whom Ananse prefers. Each sends money in expectation of the wedding, which will be settled when one of them places the head-drink (the traditional marriage gift) on the table. Ananse becomes rich. His house, his clothes and his standing change, and he makes lavish gifts at church."]},
+{"h":"The crisis","p":["Ananse receives telegrams from all four chiefs. Each says he is coming within a week or two to perform the head-drink ceremony. Ananse is trapped: he cannot marry his daughter to four men."]},
+{"h":"The fake death","p":["Ananse has a new idea. Anansewa will pretend to have died. He sends his mother Aya and his aunt Ekuwa away to their home town, Nanka. Christie, a stylish woman who is fond of Ananse, helps him. The chiefs' messengers come one by one with sympathy and funeral gifts. Chief-Who-Is-Chief's messengers come last. They bring heavy gifts and a message that he will take full responsibility for the funeral, even though the marriage was not yet complete. This shows that he is the most devoted suitor."]},
+{"h":"The ending","p":["Ananse then 'revives' Anansewa, saying she heard Chief-Who-Is-Chief calling her back from death, and the preparations begin for a grand wedding. Ananse has got both of his wishes: a worthy husband for his daughter and wealth for himself. The audience laughs at his tricks but also learns from the story."]},
+{"h":"Corrections","p":["The lesson plan names the suitors 'Togbe Delume', 'Chief Sapa' and 'Chief Daga' and says that Ananse writes letters on a typewriter. The published play gives the chiefs as listed above, and Ananse uses photographs, gifts and telegrams. Its resolution also comes from the messengers' funeral gifts rather than from speeches by the chiefs themselves."]}
+],
+"activity":"Write a 250-word analysis of Ananse in the play: is he a villain, a hero or something else? Use evidence.",
+"check":[
+{"q":"Ananse shows the chiefs","o":["Photographs of Anansewa","A map","A sword","A recipe"]},
+{"q":"How many chiefs does Ananse approach?","o":["Four","Two","Three","Seven"]},
+{"q":"The 'head-drink' is","o":["A traditional marriage gift","A funeral dish","A sickness","A letter"]},
+{"q":"Which chief takes responsibility for the funeral?","o":["Chief-Who-Is-Chief","Togbe Klu","Chief of Sapaase","Chief of the Mines"]},
+{"q":"Anansewa 'dies' to","o":["Get out of the crisis and test the chiefs","Escape school","Win a race","Join Christie"]}]},
+
+{"id":"li2-09","week":6,"title":"The Marriage of Anansewa: Themes, Style, Characters and Values","icon":"Users","summary":"Greed and cunning, tradition against modernity, appearance against reality and the role of women; the style of the play; its characters; its cultural values and morals.",
+"keyWords":["Greed","Tradition","Appearance and reality","Mboguo","Moral"]
+,"sections":[
+{"h":"Themes","p":["Greed and cunning: a classic Ananse theme. The play shows greed (Ananse's scheme) but also admires wit and cleverness.","Tradition against modernity: modern money-making seems to turn old customs, such as marriage and funerals, into business. Ananse uses a traditional heritage (the spider trickster) and modern means (photographs, telegrams).","Appearance against reality: little is what it seems. Anansewa is not dead; Ananse's wealth is built on a trick; and the chiefs show their real characters when they hear of her death.","The role of women: Anansewa is not just a pawn. She is educated and takes part in the plan, and her 'death' becomes a way of finding the right husband."]},
+{"h":"Style","p":["Anansegoro: the play blends storytelling, drama, music and dance. The storyteller controls the event and talks to the audience. The mboguo (interludes by the Players) comment on the action, summarise it and express feeling while drawing the audience in. The language is rich in Akan proverbs and humour."]},
+{"h":"Characters","p":["Ananse: the trickster: greedy, scheming, selfish but charming, imaginative and a loving father. We admire his cleverness even as we judge his greed.","Anansewa: modern and educated, but also dutiful. She starts as the object of her father's plan and becomes someone who shapes the outcome.","Chief-Who-Is-Chief: the most devoted suitor, who shows true respect and generosity, and so wins Anansewa.","The storyteller and the Players: the voice of the community; they guide the audience's reaction and make sure the moral is clear.","Aya, Ekuwa and Christie: Ananse's mother, his aunt, and his friend Christie, who help carry the family scheme along."]},
+{"h":"Values and lessons","p":["The play celebrates Ghanaian culture (storytelling, music) and also criticises the way it can be abused. Lessons: greed leads to trouble; true respect and generosity matter more than money; and tradition must be able to change with the times, though its core values (respect, love, community) should be protected."]}
+],
+"activity":"'Ananse is a villain who exploits his daughter and his culture for money.' Do you agree? Write a 300-word argument using evidence from the play.",
+"check":[
+{"q":"The mboguo are","o":["Songs and dances commenting on the action","Letters","Chiefs","Costumes"]},
+{"q":"Ananse is","o":["A charming trickster","A cruel king","A silent priest","A banker"]},
+{"q":"Chief-Who-Is-Chief wins because he","o":["Shows true respect and generosity","Is the poorest","Hides","Is Ananse's brother"]},
+{"q":"'Appearance against reality' in the play means","o":["Things are not what they seem","Everything is as seen","Only money matters","Nobody lies"]},
+{"q":"One lesson of the play is","o":["Greed leads to trouble","Money is everything","Never marry","Chiefs are always poor"]},
+{"q":"Anansewa is","o":["Educated and takes part in the plan","A baby","A chief","A storyteller only"]}]}
+]

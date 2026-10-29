@@ -1,0 +1,198 @@
+[
+{"id":"m32-12","week":6,"title":"The Quotient Rule","icon":"Layers",
+"summary":"How to differentiate a fraction of two functions, with examples and a comparison with rewriting as powers.",
+"keyWords":["Quotient rule","Numerator","Denominator","Derivative of a fraction"],
+"sections":[
+{"h":"The rule","p":["If y = u/v, then dy/dx = [v (du/dx) − u (dv/dx)] / v². In words: (bottom × derivative of top − top × derivative of bottom) ÷ bottom squared. The order matters because of the minus sign."]},
+{"h":"Example 1","p":["y = (x² + 1)/(x − 1). u = x² + 1, v = x − 1, u′ = 2x, v′ = 1. dy/dx = [(x − 1)(2x) − (x² + 1)(1)]/(x − 1)² = (2x² − 2x − x² − 1)/(x − 1)² = (x² − 2x − 1)/(x − 1)²."]},
+{"h":"Example 2","p":["y = x/(x² + 1). u = x, v = x² + 1. dy/dx = [(x² + 1)(1) − x(2x)]/(x² + 1)² = (1 − x²)/(x² + 1)²."]},
+{"h":"Example 3","p":["y = (2x + 3)/(x − 4). dy/dx = [(x − 4)(2) − (2x + 3)(1)]/(x − 4)² = (2x − 8 − 2x − 3)/(x − 4)² = −11/(x − 4)²."]},
+{"h":"When it is not needed","p":["If the denominator is a single term, divide first. y = (2x² + 3)/x = 2x + 3x⁻¹, so dy/dx = 2 − 3/x². This is quicker and safer than the quotient rule."]}
+],
+"activity":"Differentiate y = (3x + 1)/(x + 2) (5/(x + 2)²) and y = x²/(x + 1) ((x² + 2x)/(x + 1)²).",
+"check":[
+{"q":"If y = u/v, then dy/dx =","o":["(v du/dx − u dv/dx)/v²","(u dv/dx − v du/dx)/v²","(du/dx)/(dv/dx)","u′v′"]},
+{"q":"The derivative of x/(x² + 1) is","o":["(1 − x²)/(x² + 1)²","(x² − 1)/(x² + 1)²","1/(2x)","(1 + x²)/(x² + 1)²"]},
+{"q":"The derivative of (2x + 3)/(x − 4) is","o":["−11/(x − 4)²","11/(x − 4)²","2/(x − 4)","5/(x − 4)²"]},
+{"q":"For (2x² + 3)/x it is easier to","o":["divide first and use the power rule","use the product rule","not differentiate","integrate"]},
+{"q":"The derivative of (x² + 1)/(x − 1) has numerator","o":["x² − 2x − 1","x² + 2x − 1","2x − 1","x² − 1"]}
+]},
+
+{"id":"m32-13","week":6,"title":"The Chain Rule","icon":"Zap",
+"summary":"How to differentiate a function of a function, with examples and combined use of the chain, product and quotient rules.",
+"keyWords":["Chain rule","Function of a function","Substitution","Composite"],
+"sections":[
+{"h":"The rule","p":["If y = f(u) and u = g(x), then dy/dx = (dy/du) × (du/dx). Think of an outer function and an inner function: differentiate the outside (leaving the inside alone) and multiply by the derivative of the inside."]},
+{"h":"Examples","p":["1. y = (3x + 2)⁵. Let u = 3x + 2; then y = u⁵. dy/du = 5u⁴ and du/dx = 3. dy/dx = 15(3x + 2)⁴.","2. y = (x² + 1)³. Let u = x² + 1. dy/dx = 3u² × 2x = 6x(x² + 1)².","3. y = √(x² + 1) = (x² + 1)^(1/2). dy/dx = (1/2)(x² + 1)^(−1/2) × 2x = x/√(x² + 1).","4. y = 1/(2x − 1)² = (2x − 1)⁻². dy/dx = −2(2x − 1)⁻³ × 2 = −4/(2x − 1)³."]},
+{"h":"Combining rules","p":["Product and chain: y = x(2x + 1)³. dy/dx = (2x + 1)³ + x × 6(2x + 1)² = (2x + 1)²(8x + 1).","Quotient and chain: y = (x² + 1)³/x. Write it with the quotient rule, using the chain rule for the top: dy/dx = [x × 6x(x² + 1)² − (x² + 1)³]/x² = (x² + 1)²(6x² − x² − 1)/x² = (x² + 1)²(5x² − 1)/x²."]},
+{"h":"Rates of change","p":["The chain rule links rates that depend on each other. If a circle's radius grows at 0.5 cm/s, how fast does the area grow when r = 10 cm? A = πr², so dA/dr = 2πr. dA/dt = dA/dr × dr/dt = 2π(10)(0.5) = 10π ≈ 31.4 cm²/s."]}
+],
+"activity":"Differentiate y = (4x − 1)⁶ (24(4x − 1)⁵), y = (x³ + 2)² (6x²(x³ + 2)) and y = √(3x + 1) (3/(2√(3x + 1))).",
+"check":[
+{"q":"The derivative of (3x + 2)⁵ is","o":["15(3x + 2)⁴","5(3x + 2)⁴","3(3x + 2)⁵","15(3x + 2)"]},
+{"q":"The derivative of (x² + 1)³ is","o":["6x(x² + 1)²","3(x² + 1)²","6x²(x² + 1)²","3x(x² + 1)²"]},
+{"q":"The derivative of √(x² + 1) is","o":["x/√(x² + 1)","1/(2√(x² + 1))","2x√(x² + 1)","x²/√(x² + 1)"]},
+{"q":"dy/dx =","o":["(dy/du) × (du/dx)","(dy/du) + (du/dx)","dy/du ÷ dx","du/dy"]},
+{"q":"A circle's radius grows at 0.5 cm/s. When r = 10 cm, the area grows at","o":["10π cm²/s","20π cm²/s","π cm²/s","5π cm²/s"]}
+]},
+
+{"id":"m32-14","week":6,"title":"Rates of Change, Velocity and Acceleration","icon":"BarChart2",
+"summary":"Using derivatives to find velocity and acceleration of a moving body, and other rates of change.",
+"keyWords":["Velocity","Acceleration","Displacement","Rate of change","Motion"],
+"sections":[
+{"h":"Displacement, velocity and acceleration","p":["If s is the displacement (distance from a fixed point) at time t, then the velocity is v = ds/dt and the acceleration is a = dv/dt = d²s/dt². A negative velocity means the body is moving in the negative direction."]},
+{"h":"Example 1","p":["A particle's position is s = t² + 4t (metres, seconds). v = 2t + 4. At t = 3, v = 10 m/s. a = 2 m/s² (constant)."]},
+{"h":"Example 2","p":["s = t³ − 9t² + 15t. v = 3t² − 18t + 15 = 3(t − 1)(t − 5). a = 6t − 18.","(a) The body is at rest when v = 0: t = 1 s or t = 5 s. (b) At t = 1: s = 1 − 9 + 15 = 7 m. At t = 5: s = 125 − 225 + 75 = −25 m. (c) The acceleration is zero when 6t − 18 = 0, t = 3 s, when v = 27 − 54 + 15 = −12 m/s."]},
+{"h":"Other rates of change","p":["Volume of a sphere V = (4/3)πr³. dV/dr = 4πr². If the radius grows at 2 cm/s when r = 5 cm, then dV/dt = 4π(25)(2) = 200π ≈ 628 cm³/s.","Business: if the cost of making x items is C = 0.5x² + 10x + 200 (₦), the marginal cost is dC/dx = x + 10. At x = 8 the marginal cost is ₦18 per extra item."]}
+],
+"activity":"A particle moves with s = 2t³ − 6t² + 5. Find v (6t² − 12t), a (12t − 12), the times when it is at rest (t = 0 and t = 2) and its acceleration at t = 2 (12 m/s²).",
+"check":[
+{"q":"Velocity is the derivative of","o":["displacement with respect to time","acceleration","time","speed squared"]},
+{"q":"Acceleration is","o":["dv/dt","ds/dt","s × t","v/s"]},
+{"q":"For s = t² + 4t, the velocity at t = 3 is","o":["10","12","9","6"]},
+{"q":"For s = t³ − 9t² + 15t, the body is at rest at","o":["t = 1 and t = 5","t = 3 only","t = 0 only","t = 15"]},
+{"q":"For C = 0.5x² + 10x + 200 the marginal cost at x = 8 is","o":["₦18","₦440","₦10","₦8"]}
+]},
+
+{"id":"m32-15","week":6,"title":"Maximum and Minimum Values and Optimisation","icon":"Target",
+"summary":"Finding turning points where dy/dx = 0, deciding whether they are maxima or minima, and solving practical optimisation problems.",
+"keyWords":["Stationary point","Maximum","Minimum","Second derivative","Optimisation"],
+"sections":[
+{"h":"Turning points","p":["At a maximum or minimum of a smooth curve, the tangent is horizontal, so dy/dx = 0. Such a point is a stationary (turning) point. To decide which kind: use the second derivative. If d²y/dx² > 0 the point is a minimum. If d²y/dx² < 0 it is a maximum."]},
+{"h":"Example 1","p":["y = x² − 2x − 3. dy/dx = 2x − 2 = 0, so x = 1. d²y/dx² = 2 > 0, so a minimum. y = 1 − 2 − 3 = −4. The minimum point is (1, −4). This agrees with the graph drawn earlier."],"img":{"src":"mth2-parabola.png","alt":"The parabola y = x squared minus 2x minus 3 with its minimum point at (1, -4)","cap":"The minimum of y = x² − 2x − 3 is at (1, −4)."}},
+{"h":"Example 2","p":["y = x³ − 3x. dy/dx = 3x² − 3 = 0, so x = 1 or x = −1. d²y/dx² = 6x. At x = 1 it is 6 > 0: a minimum, y = −2. At x = −1 it is −6 < 0: a maximum, y = 2."]},
+{"h":"Example 3","p":["y = −x² + 4x + 1. dy/dx = −2x + 4 = 0, so x = 2. d²y/dx² = −2 < 0: a maximum, y = −4 + 8 + 1 = 5."]},
+{"h":"Optimisation problems","p":["1. A farmer has 60 m of fencing for three sides of a rectangular pen (the fourth side is a wall). Let the two equal sides be x. The other side is 60 − 2x. Area A = x(60 − 2x) = 60x − 2x². dA/dx = 60 − 4x = 0, so x = 15. d²A/dx² = −4: a maximum. The sides are 15 m and 30 m and the area is 450 m².","2. A square sheet of card 12 cm by 12 cm has a square of side x cut from each corner and the sides are folded up to make an open box. V = x(12 − 2x)². dV/dx = (12 − 2x)(12 − 6x) = 0, so x = 2 (x = 6 is not possible). V = 2 × 8² = 128 cm³.","3. Profit P = −2x² + 40x − 50. dP/dx = −4x + 40 = 0, so x = 10. P = −200 + 400 − 50 = ₦150."]}
+],
+"activity":"Find the stationary point of y = x² − 8x + 10 and say what it is (x = 4, y = −6, a minimum). A rectangle has perimeter 40 m. Find its greatest area (sides 10 m and 10 m, area 100 m²).",
+"check":[
+{"q":"At a turning point,","o":["dy/dx = 0","dy/dx = 1","y = 0","d²y/dx² = 0 always"]},
+{"q":"If d²y/dx² > 0 at a stationary point, it is a","o":["minimum","maximum","point of inflexion always","gradient of 1"]},
+{"q":"The minimum point of y = x² − 2x − 3 is","o":["(1, −4)","(−1, 4)","(0, −3)","(3, 0)"]},
+{"q":"The maximum of y = −x² + 4x + 1 is","o":["5","4","2","1"]},
+{"q":"60 m of fence for three sides of a pen gives a maximum area of","o":["450 m²","900 m²","225 m²","600 m²"]}
+]},
+
+{"id":"m32-16","week":8,"title":"Integration: The Reverse of Differentiation","icon":"Zap",
+"summary":"Integration as the reverse of differentiation, the power rule for integration, and the constant of integration.",
+"keyWords":["Integration","Antiderivative","Constant of integration","Power rule","Indefinite integral"],
+"sections":[
+{"h":"What is integration?","p":["Integration is the reverse of differentiation. If d/dx (x³) = 3x², then ∫ 3x² dx = x³ + C. The integral sign ∫ means 'integrate', dx shows the variable and C is the constant of integration. We need C because the derivative of any constant is 0, so many functions (x³, x³ + 5, x³ − 2) have the same derivative."]},
+{"h":"Rules","p":["Power rule: ∫ xⁿ dx = xⁿ⁺¹/(n + 1) + C, for n ≠ −1. In words: add 1 to the power, then divide by the new power.","Constant multiple: ∫ k f(x) dx = k ∫ f(x) dx. Sum and difference: ∫ (f ± g) dx = ∫ f dx ± ∫ g dx. Constants: ∫ k dx = kx + C."]},
+{"h":"Examples","p":["∫ 4x³ dx = x⁴ + C.","∫ (2x² − 5x + 3) dx = (2/3)x³ − (5/2)x² + 3x + C.","∫ x⁻³ dx = x⁻²/(−2) + C = −1/(2x²) + C.","∫ √x dx = ∫ x^(1/2) dx = (2/3) x^(3/2) + C.","∫ (x² + 2x) dx = x³/3 + x² + C.","Check any integral by differentiating the answer: d/dx [(2/3)x³ − (5/2)x² + 3x] = 2x² − 5x + 3 ✓."]},
+{"h":"The integral of 1/x","p":["The power rule does not work for n = −1. ∫ (1/x) dx = ln |x| + C (natural logarithm), which you will meet in further study."]}
+],
+"activity":"Find ∫ (3x² + 4x − 5) dx (x³ + 2x² − 5x + C), ∫ 6x⁵ dx (x⁶ + C) and ∫ (1/x²) dx (−1/x + C).",
+"check":[
+{"q":"∫ 4x³ dx =","o":["x⁴ + C","12x² + C","4x⁴ + C","x³ + C"]},
+{"q":"∫ x² dx =","o":["x³/3 + C","2x + C","x³ + C","3x³ + C"]},
+{"q":"We add C because","o":["the derivative of a constant is zero","it is a rule","it makes it bigger","dx needs it"]},
+{"q":"∫ √x dx =","o":["(2/3) x^(3/2) + C","1/(2√x) + C","x^(3/2) + C","(3/2) x^(2/3) + C"]},
+{"q":"You can check an integral by","o":["differentiating the answer","integrating again","adding C","squaring it"]}
+]},
+
+{"id":"m32-17","week":8,"title":"Initial Conditions and Definite Integrals","icon":"Target",
+"summary":"Finding the constant of integration from given information, and evaluating definite integrals between limits.",
+"keyWords":["Initial condition","Definite integral","Limits","Marginal cost","Velocity"],
+"sections":[
+{"h":"Finding C","p":["If we know a point on the curve (or a starting value), we can find C. Example: dy/dx = 6x − 2 and y = 5 when x = 1. y = 3x² − 2x + C. 5 = 3 − 2 + C, so C = 4. y = 3x² − 2x + 4.","Marginal cost: MC = 5x + 10 and the fixed cost is ₦200. C(x) = 2.5x² + 10x + C₀, and C(0) = 200, so C₀ = 200. The total cost of 8 units = 2.5(64) + 80 + 200 = 160 + 80 + 200 = ₦440.","Velocity: v = 3t² + 2 with s = 0 at t = 0 gives s = t³ + 2t."]},
+{"h":"Definite integrals","p":["∫ₐᵇ f(x) dx = F(b) − F(a), where F is any antiderivative of f. No constant C is needed, because it cancels.","Examples. ∫₁⁴ x² dx = [x³/3]₁⁴ = 64/3 − 1/3 = 21. ∫₀² (x² + 2x) dx = [x³/3 + x²]₀² = 8/3 + 4 = 20/3. ∫₋₁² 3x² dx = [x³]₋₁² = 8 − (−1) = 9."]},
+{"h":"Properties","p":["∫ₐᵇ f dx = −∫ᵇₐ f dx (reversing the limits changes the sign). ∫ₐᵃ f dx = 0. ∫ₐᵇ f dx + ∫ᵇᶜ f dx = ∫ₐᶜ f dx. ∫ₐᵇ k f dx = k ∫ₐᵇ f dx."]},
+{"h":"Distance from velocity","p":["The distance moved between t = a and t = b is ∫ₐᵇ v dt. If v = 3t² + 2, the distance in the first 4 seconds is [t³ + 2t]₀⁴ = 64 + 8 = 72 m."]}
+],
+"activity":"Given dy/dx = 4x + 1 and y = 3 at x = 0, find y (y = 2x² + x + 3). Evaluate ∫₀³ (2x + 1) dx (12) and ∫₁² x³ dx (15/4).",
+"check":[
+{"q":"dy/dx = 6x − 2 with y = 5 at x = 1 gives","o":["y = 3x² − 2x + 4","y = 3x² − 2x + 5","y = 6x² − 2x + 1","y = 3x² − 2"]},
+{"q":"∫₁⁴ x² dx =","o":["21","63","15","64/3"]},
+{"q":"∫₀² (x² + 2x) dx =","o":["20/3","8","12","4"]},
+{"q":"Reversing the limits of a definite integral","o":["changes its sign","doubles it","makes it zero","has no effect"]},
+{"q":"MC = 5x + 10, fixed cost ₦200. The cost of 8 units is","o":["₦440","₦290","₦250","₦400"]}
+]},
+
+{"id":"m32-18","week":8,"title":"Area Under a Curve and Integration by Substitution","icon":"BarChart2",
+"summary":"Using definite integrals to find areas under curves and between curves, and the method of substitution for functions of a function.",
+"keyWords":["Area under a curve","Area between curves","Substitution","Below the x-axis"],
+"sections":[
+{"h":"Area under a curve","p":["The area between the curve y = f(x), the x-axis and the lines x = a and x = b is ∫ₐᵇ y dx, provided the curve is above the x-axis.","Example 1. The area under y = x² from x = 0 to x = 3 is ∫₀³ x² dx = [x³/3]₀³ = 9 square units.","Example 2. The area under y = 2x + 1 from x = 0 to x = 3 is [x² + x]₀³ = 12. (Check: a trapezium with parallel sides 1 and 7 and width 3 has area ½(1 + 7) × 3 = 12.)"],"img":{"src":"mth33-area.png","alt":"The curve y = x squared from x = 0 to x = 3 with the area under it shaded","cap":"The shaded area is ∫₀³ x² dx = 9."}},
+{"h":"Area between two curves","p":["Area = ∫ (upper curve − lower curve) dx. The curves y = x and y = x² meet where x = x², at x = 0 and x = 1. Between them, y = x is above. Area = ∫₀¹ (x − x²) dx = [x²/2 − x³/3]₀¹ = 1/2 − 1/3 = 1/6."]},
+{"h":"Below the x-axis","p":["The integral is negative where the curve is below the axis, but the area is positive. ∫₀³ (x² − 3x) dx = [x³/3 − 3x²/2]₀³ = 9 − 13.5 = −4.5. The area is 4.5 square units. If the curve crosses the axis, find each part separately."]},
+{"h":"Integration by substitution","p":["For a function of a function, let u = the inner function. Example: ∫ 2x(x² + 1)⁴ dx. Let u = x² + 1, so du = 2x dx. The integral becomes ∫ u⁴ du = u⁵/5 + C = (x² + 1)⁵/5 + C.","∫ (2x + 3)⁴ dx: u = 2x + 3, du = 2 dx, so dx = du/2. ∫ u⁴ du/2 = u⁵/10 + C = (2x + 3)⁵/10 + C.","∫ x(x² + 4)³ dx: u = x² + 4, du = 2x dx. ∫ (1/2) u³ du = u⁴/8 + C = (x² + 4)⁴/8 + C."]}
+],
+"activity":"Find the area under y = 2x + 1 from x = 0 to x = 3 (12). Find the area between y = x and y = x² (1/6). Integrate ∫ 2x(x² + 1)⁴ dx ((x² + 1)⁵/5 + C).",
+"check":[
+{"q":"The area under y = x² from 0 to 3 is","o":["9","27","3","18"]},
+{"q":"The area under y = 2x + 1 from 0 to 3 is","o":["12","7","9","6"]},
+{"q":"∫ 2x(x² + 1)⁴ dx =","o":["(x² + 1)⁵/5 + C","(x² + 1)⁵ + C","2(x² + 1)⁵ + C","(x² + 1)⁴/4 + C"]},
+{"q":"The area between y = x and y = x² (0 ≤ x ≤ 1) is","o":["1/6","1/2","1/3","1"]},
+{"q":"∫ (2x + 3)⁴ dx =","o":["(2x + 3)⁵/10 + C","(2x + 3)⁵/5 + C","4(2x + 3)³ + C","(2x + 3)⁵ + C"]}
+]},
+
+{"id":"m32-19","week":9,"title":"Functions and Mapping","icon":"Layers",
+"summary":"The meaning of a function, domain, codomain and range, and mapping diagrams.",
+"keyWords":["Function","Domain","Codomain","Range","Mapping diagram"],
+"sections":[
+{"h":"What is a function?","p":["A function is a rule that gives exactly one output for each input. We write f(x) = 2x + 3, or f: x → 2x + 3. The set of allowed inputs is the domain. The set in which the outputs lie is the codomain. The set of actual outputs is the range, which is part of the codomain.","Example. f(x) = 2x + 3. f(4) = 11. f(−1) = 1. f(0) = 3."]},
+{"h":"Mapping diagrams","p":["A mapping diagram shows the domain and codomain as two ovals, with arrows from each input to its output. In the left diagram below, f(x) = 2x maps {1, 2, 3} into {2, 4, 6, 8}. The range is {2, 4, 6}; the element 8 in the codomain is not an output. In the right diagram, g(x) = x² maps {−2, 2, 1} into {4, 1}: two different inputs, −2 and 2, give the same output 4."],"img":{"src":"mth33-mapping.png","alt":"Two mapping diagrams: f of x equals 2x as a one-to-one mapping, and g of x equals x squared as a many-to-one mapping","cap":"A one-to-one and a many-to-one mapping."}},
+{"h":"Domain restrictions","p":["Some functions cannot accept every number. f(x) = 1/(x − 2) is not defined at x = 2 (division by zero), so the domain is all real numbers except 2. g(x) = √(x − 1) needs x − 1 ≥ 0, so the domain is x ≥ 1."]},
+{"h":"The function machine","p":["Think of f as a machine: put in x, apply the rule, and take out f(x). Example: f(x) = x² − 3x. f(5) = 25 − 15 = 10. If f(x) = 10, then x² − 3x − 10 = 0, (x − 5)(x + 2) = 0, so x = 5 or x = −2."]}
+],
+"activity":"If f(x) = 3x − 2, find f(4) (10), f(−1) (−5) and x if f(x) = 7 (3). State the domain of 1/(x + 3) (all real numbers except −3).",
+"check":[
+{"q":"A function gives exactly","o":["one output for each input","two outputs for each input","no output","one output for all inputs"]},
+{"q":"If f(x) = 2x + 3, f(4) =","o":["11","14","8","9"]},
+{"q":"The set of allowed inputs is the","o":["domain","range","codomain only","image"]},
+{"q":"The domain of 1/(x − 2) is all real numbers except","o":["2","−2","0","1"]},
+{"q":"In g(x) = x², the inputs 2 and −2 give","o":["the same output 4","different outputs","an error","zero"]}
+]},
+
+{"id":"m32-20","week":9,"title":"Types of Functions, Composite and Inverse Functions","icon":"Target",
+"summary":"One-to-one, onto, many-to-one and bijective functions, composite functions and inverse functions.",
+"keyWords":["One-to-one","Onto","Bijective","Composite function","Inverse function"],
+"sections":[
+{"h":"Types of functions","p":["One-to-one (injective): different inputs give different outputs. f(x) = 2x is one-to-one. Onto (surjective): every element of the codomain is an output, so the range equals the codomain. One-to-one and onto (bijective): a perfect pairing of inputs and outputs. Many-to-one: different inputs can give the same output. g(x) = x² is many-to-one because g(2) = g(−2) = 4."]},
+{"h":"Composite functions","p":["The composite function fg means 'do g first, then f': fg(x) = f(g(x)).","Let f(x) = 2x + 3 and g(x) = x². fg(x) = f(x²) = 2x² + 3. gf(x) = g(2x + 3) = (2x + 3)² = 4x² + 12x + 9. Notice that fg ≠ gf in general. For x = 2: fg(2) = 11 and gf(2) = 49."]},
+{"h":"Inverse functions","p":["The inverse function f⁻¹ undoes f. Only a one-to-one function has an inverse. To find it: write y = f(x); make x the subject; then swap x and y.","Example 1. f(x) = 2x + 3. y = 2x + 3, so x = (y − 3)/2. f⁻¹(x) = (x − 3)/2. Check: f(1) = 5 and f⁻¹(5) = 1.","Example 2. h(x) = (3x − 1)/(x + 2). y(x + 2) = 3x − 1, so xy + 2y = 3x − 1, x(y − 3) = −1 − 2y, x = (2y + 1)/(3 − y). h⁻¹(x) = (2x + 1)/(3 − x), for x ≠ 3. Check: h(1) = 2/3, and h⁻¹(2/3) = (4/3 + 1)/(3 − 2/3) = 1 ✓.","The graph of f⁻¹ is the reflection of the graph of f in the line y = x."]}
+],
+"activity":"If f(x) = x + 4 and g(x) = 3x, find fg(x) (3x + 4), gf(x) (3x + 12) and f⁻¹(x) (x − 4). Is g(x) = x² one-to-one? (No: g(2) = g(−2).)",
+"check":[
+{"q":"A function with different outputs for different inputs is","o":["one-to-one","many-to-one","not a function","onto only"]},
+{"q":"If f(x) = 2x + 3 and g(x) = x², fg(x) =","o":["2x² + 3","(2x + 3)²","2x + 3x²","2x² + 6x"]},
+{"q":"The inverse of f(x) = 2x + 3 is","o":["(x − 3)/2","2x − 3","(x + 3)/2","1/(2x + 3)"]},
+{"q":"Only a function that is ___ has an inverse.","o":["one-to-one","many-to-one","constant","not defined"]},
+{"q":"fg(x) means","o":["do g first, then f","do f first, then g","f times g","f plus g"]}
+]},
+
+{"id":"m32-21","week":10,"title":"General Review of Calculus","icon":"BookOpen",
+"summary":"A summary of the rules of differentiation and integration with mixed worked questions and applications.",
+"keyWords":["Differentiation","Integration","Review","Applications","Rules"],
+"sections":[
+{"h":"Rules of differentiation","p":["Power rule: d/dx (xⁿ) = n xⁿ⁻¹. Product: (uv)′ = u v′ + v u′. Quotient: (u/v)′ = (v u′ − u v′)/v². Chain: dy/dx = dy/du × du/dx. Turning points: dy/dx = 0; check with d²y/dx². Tangent: y − y₁ = m(x − x₁). Normal: gradient −1/m."]},
+{"h":"Rules of integration","p":["∫ xⁿ dx = xⁿ⁺¹/(n + 1) + C (n ≠ −1). Definite integral: ∫ₐᵇ f dx = F(b) − F(a). Area under a curve = ∫ₐᵇ y dx. Substitution for a function of a function."]},
+{"h":"Mixed worked questions","p":["1. Differentiate y = 4x³ − 7x² + 2x − 9: 12x² − 14x + 2.","2. Find the tangent to y = x² at x = 3: gradient 6, point (3, 9), so y = 6x − 9.","3. A particle has s = t² + 4t. Velocity at t = 3: 10 m/s.","4. The stationary point of y = x³ − 3x at x = 1 is a minimum (−2), and at x = −1 a maximum (2).","5. ∫ (2x² − 5x + 3) dx = (2/3)x³ − (5/2)x² + 3x + C.","6. ∫₀² (x² + 2x) dx = 20/3.","7. The area under y = 2x + 1 from 0 to 3 is 12.","8. A rectangle with a perimeter of 40 m has a greatest area of 100 m² (a square)."]},
+{"h":"Two challenge questions","p":["(a) The marginal cost is MC = 5x + 10 and the fixed cost is ₦200. Find the total cost of 8 units. C = 2.5x² + 10x + 200, so C(8) = 160 + 80 + 200 = ₦440.","(b) A curve has gradient dy/dx = 6x − 2 and passes through (1, 5). Find its equation: y = 3x² − 2x + 4. Check: at x = 1, y = 3 − 2 + 4 = 5 ✓."]}
+],
+"activity":"Differentiate y = x²(3x + 1)⁴ using the product and chain rules (x(3x + 1)³(2(3x + 1) + 12x) = x(3x + 1)³(18x + 2)). Find ∫₁³ (4x − 1) dx (14).",
+"check":[
+{"q":"The tangent to y = x² at x = 3 is","o":["y = 6x − 9","y = 3x","y = 6x + 9","y = 9x − 6"]},
+{"q":"∫₀² (x² + 2x) dx =","o":["20/3","4","12","8/3"]},
+{"q":"The derivative of y = x³ − 3x is zero at","o":["x = 1 and x = −1","x = 3","x = 0 only","x = 1 only"]},
+{"q":"The curve with dy/dx = 6x − 2 through (1, 5) is","o":["y = 3x² − 2x + 4","y = 6x² − 2x + 1","y = 3x² − 2x + 5","y = 3x² − 2"]},
+{"q":"The area under y = 2x + 1 from 0 to 3 is","o":["12","7","10","9"]}
+]},
+
+{"id":"m32-22","week":11,"title":"Second Term Revision","icon":"BookOpen",
+"summary":"A table of the main results of Second Term and a short practice assignment on coordinate geometry, loci, calculus and functions.",
+"keyWords":["Revision","Coordinate geometry","Locus","Calculus","Functions"],
+"sections":[
+{"h":"Key facts","p":["Use the table to revise."],"tbl":{"head":["Topic","Key facts"],"rows":[["Coordinate geometry","Distance √(Δx² + Δy²); midpoint (average); gradient Δy/Δx; parallel m₁ = m₂; perpendicular m₁m₂ = −1"],["Loci","Circle (fixed distance), perpendicular bisector (equal distance from two points), angle bisector"],["Circles of a triangle","Circumcentre: perpendicular bisectors; incentre: angle bisectors; R = abc/4K; r = K/s"],["Differentiation","xⁿ → n xⁿ⁻¹; product, quotient and chain rules; turning points at dy/dx = 0"],["Integration","xⁿ → xⁿ⁺¹/(n + 1) + C; definite integrals; area under a curve"],["Functions","Domain, range; one-to-one; fg means g first; inverse by swapping x and y"]]}},
+{"h":"Practice assignment","p":["1. Find the distance between (−2, 3) and (4, 11), the midpoint and the gradient. (10; (1, 7); 4/3.)","2. Find the equation of the line through (1, 4) perpendicular to y = 2x + 1. (m = −1/2: y − 4 = −(1/2)(x − 1), so x + 2y = 9.)","3. Differentiate (a) y = 3x⁴ − 2x² + 5 (12x³ − 4x), (b) y = (x² + 1)(x − 2) (3x² − 4x + 1), (c) y = (2x − 1)⁴ (8(2x − 1)³).","4. Find the minimum value of y = x² − 6x + 5 (−4 at x = 3).","5. Evaluate ∫₀³ (x² + 1) dx (12).","6. If f(x) = 3x − 2, find f⁻¹(x) ((x + 2)/3)."]}
+],
+"activity":"Do the practice assignment under examination conditions and mark it against the answers in brackets.",
+"check":[
+{"q":"The distance between (−2, 3) and (4, 11) is","o":["10","8","14","6"]},
+{"q":"The derivative of (x² + 1)(x − 2) is","o":["3x² − 4x + 1","2x(x − 2)","x² − 2x + 1","3x²"]},
+{"q":"The minimum value of y = x² − 6x + 5 is","o":["−4","5","3","−6"]},
+{"q":"∫₀³ (x² + 1) dx =","o":["12","9","10","30"]},
+{"q":"The inverse of f(x) = 3x − 2 is","o":["(x + 2)/3","3x + 2","(x − 2)/3","1/(3x − 2)"]}
+]}
+]

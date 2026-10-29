@@ -1,0 +1,228 @@
+[
+{"id":"ch1-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Chemistry First Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Chemistry","Matter","Atom","Periodic table","Table of contents"],
+"sections":[
+{"h":"Welcome to Chemistry","p":["Chemistry is the study of matter: what things are made of, how they behave and how they change. The soap you wash with, the food you cook, the medicines you take, the petrol in a car and even your own body work because of chemistry. In SS1 you will build the foundation on which all later chemistry rests.","In First Term you will learn what chemistry is and how it began, the apparatus used in the laboratory, the states of matter, how mixtures are separated, the structure of the atom, the periodic table, the laws of chemical combination, acids, bases and salts, and finally how to write symbols, formulae and balanced equations."]},
+{"h":"How to use the notes","p":["Each unit has simple notes, tables, diagrams and worked examples. Read slowly, copy the diagrams and tables into your notebook, and try every worked example yourself before you look at the answer. At the end of each unit are practice questions. They do not count towards a mark; they help you to check that you understood. Answer them all correctly to complete the unit.","Chemistry uses special words. Learn the key words listed at the top of each unit, and always write chemical symbols and formulae correctly (capital letter first, small letter second, small numbers below the line)."]},
+{"h":"Table of contents for First Term","p":["The units follow the scheme of work. Week 5 is the midterm examination and Week 7 is the midterm break."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","What chemistry is and the history of chemistry"],
+["3","1","Branches and importance of chemistry"],
+["4","2","Chemical industries"],
+["5","2","Laboratory apparatus and safety"],
+["6","3","Matter and the states of matter"],
+["7","3","Changes of state and the kinetic theory"],
+["8","4","Separation techniques (1): filtration, distillation, sublimation, chromatography"],
+["9","4","Separation techniques (2): centrifuging, decanting, evaporation, magnet, winnowing, sieving, sedimentation"],
+["10","6","The atom: models and subatomic particles"],
+["11","6","Atomic number, mass number, isotopes and electron arrangement"],
+["12","8","The periodic table: history and structure"],
+["13","8","Groups, periods and periodic trends"],
+["14","9","Chemical combination and the laws of chemical combination"],
+["15","10","Acids, bases and salts"],
+["16","10","The pH scale, indicators and neutralisation"],
+["17","11","Chemical symbols and formulae"],
+["18","11","Chemical equations and balancing"]]}},
+{"h":"Good habits for the subject","p":["Learn the first 20 elements and their symbols early, because you will use them all year. Do every calculation with the formula, the substitution and the answer with its unit. Be careful and neat in the laboratory, and never taste or smell chemicals directly."]}
+],
+"activity":"Write down three things in your home that were made using chemistry (for example, soap, cooking oil, paint). For each one say what raw material it might come from.",
+"check":[
+{"q":"In which unit do you study the periodic table?","o":["Unit 12","Unit 4","Unit 6","Unit 16"]},
+{"q":"What are the practice questions for?","o":["To check your understanding","To replace the notes","To give a final mark","To skip units"]},
+{"q":"Which unit teaches balancing equations?","o":["Unit 18","Unit 5","Unit 9","Unit 13"]},
+{"q":"In which unit do you study acids, bases and salts?","o":["Unit 15","Unit 3","Unit 7","Unit 11"]}]},
+
+{"id":"ch1-02","week":1,"title":"What Chemistry Is and the History of Chemistry","icon":"Layers","summary":"The definition of chemistry, why it is called the central science, and the four periods of its history from the earliest humans to today.",
+"keyWords":["Chemistry","Matter","Alchemy","Lavoisier","Dalton"],
+"sections":[
+{"h":"Definition","p":["Chemistry is the branch of science that studies the composition, structure, properties and changes of matter.","Composition means the kinds of elements or compounds a substance is made of. Structure means how the atoms or molecules are arranged. Properties are physical (colour, boiling point, density) or chemical (reactivity, flammability). Changes are physical (melting, dissolving) or chemical (rusting, burning, fermentation)."],
+"img":{"src":"chem-chemistry-central.jpg","alt":"A diagram with Chemistry at the centre linked to physics, engineering, geology, and to composition, structure, properties and changes, with the four periods of its history below","cap":"Chemistry is the central science. It links the other sciences and studies composition, structure, properties and changes of matter."}},
+{"h":"The central science","p":["Chemistry is called the central science because it connects physics, biology, geology, medicine, engineering and many other subjects. A doctor needs it to understand drugs, a farmer needs it for fertilisers and a builder needs it for cement."]},
+{"h":"1. Ancient chemistry (practical beginnings)","p":["Early humans learned to use fire, cook food, make pottery and use natural dyes. The Egyptians made glass, processed papyrus, preserved bodies (mummification) and extracted gold and copper. The Chinese made gunpowder from saltpetre, charcoal and sulphur. All this was done by observation and trial and error, not by scientific theory."]},
+{"h":"2. Alchemy (about 500 to 1600 AD)","p":["Alchemy began in Egypt and Arabia and later spread to Europe. Alchemists tried to turn cheap metals such as lead into gold (transmutation) and to find an 'elixir of life' that would give a person long life. They failed, but they discovered useful laboratory methods: distillation, filtration, crystallisation, and the use of apparatus such as the alembic. Jabir ibn Hayyan (known in Europe as Geber) is called the father of chemistry in the Arab world."]},
+{"h":"3. The age of modern chemistry (1600s to 1800s)","p":["Robert Boyle (1627 to 1691) stressed the use of experiments and gave Boyle's law for gases. Antoine Lavoisier (1743 to 1794), the 'father of modern chemistry', gave the law of conservation of mass, showed what burning really is and named oxygen and hydrogen. John Dalton proposed the atomic theory in 1803: matter is made of tiny particles called atoms."]},
+{"h":"4. Contemporary chemistry (1900 to now)","p":["Dmitri Mendeleev made the periodic table in 1869 and later chemists refined it. The electron, proton and neutron were discovered and the structure of the atom became clear. Chemistry now includes organic chemistry, biochemistry, materials science and nuclear chemistry, and affects medicine, farming, electronics, cosmetics and the environment."],
+"tbl":{"head":["Period","Time","Main idea or person"],"rows":[
+["Ancient","Before about 500 AD","Fire, pottery, glass, metals, dyes"],
+["Alchemy","About 500 to 1600","Transmutation, elixir; discovery of laboratory methods; Jabir ibn Hayyan"],
+["Modern","1600s to 1800s","Boyle, Lavoisier, Dalton"],
+["Contemporary","1900 to now","Periodic table, atom structure, new branches"]]}}
+],
+"activity":"Make a time line in your notebook with the four periods of the history of chemistry. Under each period write one person or one discovery.",
+"check":[
+{"q":"Chemistry studies","o":["Composition, structure, properties and changes of matter","Only the stars","Only living things","Only machines"]},
+{"q":"Who is called the father of modern chemistry?","o":["Antoine Lavoisier","Robert Boyle","Jabir ibn Hayyan","Isaac Newton"]},
+{"q":"Alchemists tried to turn lead into","o":["Gold","Iron","Water","Wood"]},
+{"q":"Who proposed the atomic theory in 1803?","o":["John Dalton","Mendeleev","Lavoisier","Boyle"]},
+{"q":"Chemistry is called the central science because it","o":["Connects many other sciences","Is the oldest subject","Needs no experiments","Is only about drugs"]}]},
+
+{"id":"ch1-03","week":1,"title":"Branches and Importance of Chemistry","icon":"Target","summary":"The major and applied branches of chemistry and why chemistry matters in daily life, industry, medicine and the environment.",
+"keyWords":["Organic chemistry","Inorganic chemistry","Physical chemistry","Analytical chemistry","Biochemistry"]
+,"sections":[
+{"h":"Major branches","p":["Organic chemistry is the study of carbon compounds (except carbonates and simple oxides such as carbon dioxide). Examples: fuels, plastics, drugs, soap.","Inorganic chemistry studies compounds that are not based on carbon chains, such as salts, metals and minerals.","Physical chemistry studies how matter behaves at the level of atoms and molecules and how reactions happen, using ideas from physics.","Analytical chemistry identifies what substances are present (qualitative analysis) and how much of each (quantitative analysis).","Biochemistry studies the chemical processes in living things, such as enzymes, DNA and metabolism."]},
+{"h":"Applied (specialised) branches","p":["Environmental chemistry studies chemicals in the environment and how to control pollution. Industrial chemistry applies chemistry to manufacturing. Pharmaceutical chemistry designs and makes drugs. Nuclear chemistry studies radioactive substances and nuclear reactions. Forensic chemistry helps to solve crimes by testing evidence."],
+"tbl":{"head":["Branch","What it studies","Example"],"rows":[
+["Organic","Carbon compounds","Petrol, plastics, drugs"],
+["Inorganic","Non-carbon compounds","Salts, metals, minerals"],
+["Physical","How and why reactions happen","Rates of reaction"],
+["Analytical","What and how much is in a sample","Testing water quality"],
+["Biochemistry","Chemistry in living things","Digestion, DNA"]]}},
+{"h":"Importance of chemistry","p":["Daily life: making soaps, detergents and cosmetics; cooking (baking, boiling, frying); keeping food fresh with preservatives.","Industry: oil and gas industries make fuels, plastics and synthetic fibres; fertilisers and pesticides improve crop yield; cement, glass, paint, textile and paper industries all depend on chemical processes.","Medicine and health: drugs, vaccines and antiseptics; blood tests and scans.","Environment: purifying water, treating waste, controlling pollution, studying climate change and developing clean energy such as solar cells.","Science and technology: new materials such as nanomaterials and superconductors; rocket fuels and life-support systems in space."]}
+],
+"activity":"Match each job to a branch of chemistry: (a) a scientist testing a river for lead, (b) a person making a new malaria drug, (c) a person studying how enzymes digest food, (d) a person studying petrol.",
+"check":[
+{"q":"The study of carbon compounds is","o":["Organic chemistry","Inorganic chemistry","Physical chemistry","Nuclear chemistry"]},
+{"q":"Identifying substances and their amounts belongs to","o":["Analytical chemistry","Organic chemistry","Biochemistry","Forensic chemistry only"]},
+{"q":"Chemistry of living things is","o":["Biochemistry","Inorganic chemistry","Physical chemistry","Industrial chemistry"]},
+{"q":"Fertilisers and pesticides are an example of chemistry in","o":["Agriculture","Space only","Art only","Sport only"]},
+{"q":"Forensic chemistry is used in","o":["Criminal investigations","Cooking","Making glass","Drilling oil"]}]},
+
+{"id":"ch1-04","week":2,"title":"Chemical Industries","icon":"Layers","summary":"What chemical industries are, raw materials and products, natural and synthetic raw materials, heavy and fine chemicals, the main divisions, and their advantages and disadvantages.",
+"keyWords":["Chemical industry","Raw material","Heavy chemicals","Fine chemicals","Product"]
+,"sections":[
+{"h":"Meaning","p":["A chemical industry is an industry that uses chemical processes at one stage or another to make other chemicals or finished goods. A raw material is the starting material for production. A product is what the industry makes; it may be the final good or it may become the raw material of another industry (for example, sulphuric acid made by one factory is a raw material for fertiliser factories)."],
+"img":{"src":"chem-industries.jpg","alt":"A drawing of a chemical plant with towers and storage tanks, raw materials such as limestone entering and products such as plastic bottles, drugs and chemicals leaving","cap":"A chemical industry changes raw materials into useful products."}},
+{"h":"Types of raw materials","p":["Natural raw materials come directly from nature with little or no change: air, water, coal, limestone, petroleum (crude oil), iron ore and sulphur deposits.","Synthetic raw materials are made by people from other materials and are then used to make still other goods: plastic granules, synthetic fibres, nylon thread, soda ash. (The source notes list palm kernel oil as synthetic, but it is a natural raw material from the palm fruit.)"]},
+{"h":"Heavy chemicals and fine chemicals","p":["Heavy chemicals are made in very large amounts and do not need to be very pure. Examples: sulphuric acid (tetraoxosulphate(VI) acid), sodium hydroxide, sodium carbonate, cement and fertilisers.","Fine chemicals are made in small amounts and must be very pure and are more costly. Examples: laboratory (analytical) reagents, dyes, pharmaceutical ingredients, food additives and perfumes. Ordinary table salt is made in bulk, but a very pure analytical grade of sodium chloride would be a fine chemical."],
+"tbl":{"head":["","Heavy chemicals","Fine chemicals"],"rows":[
+["Quantity made","Very large","Small"],
+["Purity","Not always high","Very high"],
+["Cost per kilogram","Low","High"],
+["Examples","Sulphuric acid, sodium hydroxide, cement","Reagents, dyes, drug ingredients"]]}},
+{"h":"Divisions of chemical industries by product","p":["Glass: sand, sodium carbonate, limestone and colourants. Ceramics: clay and other minerals to make pots, tiles and bricks. Pharmaceutical: organic, inorganic and synthetic chemicals for drugs. Metallurgical: extracting and refining metals from ores. Fertiliser: nitrogen, phosphorus and potassium compounds. Paints: pigments, resins and solvents. Others include soap and detergent, plastics, petrochemicals, cement and cosmetics."]},
+{"h":"Importance and disadvantages","p":["Importance: they supply raw materials to other industries, give jobs and income, make goods we need, and serve as centres for research and training.","Disadvantages: they can pollute air, water and land; they may cause people to leave the villages for towns (rural-urban drift); and they are costly to set up because they need much capital."]}
+],
+"activity":"List five Nigerian chemical industries (for example, a cement factory, a fertiliser plant, a soap factory) and write the main product of each.",
+"check":[
+{"q":"Which of these is a natural raw material?","o":["Limestone","Nylon thread","Plastic bottle","Detergent powder"]},
+{"q":"Heavy chemicals are made","o":["In large amounts, with less need for purity","In tiny amounts only","Always in perfect purity","Only in laboratories"]},
+{"q":"A fine chemical is","o":["Made in small amounts and very pure","Made in huge amounts and impure","A raw material only","A building material"]},
+{"q":"Which industry extracts metals from ores?","o":["Metallurgical","Pharmaceutical","Paint","Glass"]},
+{"q":"A disadvantage of chemical industries is","o":["Pollution","Provision of jobs","Raw materials for others","Research centres"]}]},
+
+{"id":"ch1-05","week":2,"title":"Laboratory Apparatus and Safety","icon":"Shield","summary":"Common laboratory apparatus grouped by what they do, how to use them, and the rules that keep you safe.",
+"keyWords":["Beaker","Burette","Bunsen burner","Condenser","Fume cupboard"]
+,"sections":[
+{"h":"Apparatus for holding and storing","p":["Beaker: a flat-bottomed cylinder with a pouring lip. Used for holding, mixing and heating liquids and for rough measurement. Conical flask (Erlenmeyer flask): cone-shaped body with a narrow neck, used for mixing solutions, for titration and for heating without spilling. Test tube: a small glass tube for small samples. Flat-bottomed flask and round-bottomed flask: for heating and for reactions, the round-bottomed type being used with a support and for distillation. Reagent bottle: for storing chemicals. Measuring cylinder: a tall graduated cylinder to measure volumes of liquids."],
+"img":{"src":"chem-apparatus.png","alt":"Labelled drawings of common laboratory apparatus: beaker, conical flask, test tube, round-bottomed flask, measuring cylinder, burette on a stand, pipette and Bunsen burner","cap":"Common laboratory apparatus."}},
+{"h":"Apparatus for heating","p":["Bunsen burner: a gas burner with adjustable air holes, for heating. Spirit lamp: burns ethanol for gentle heating where there is no gas. Tripod stand: a three-legged stand to hold apparatus over a flame. Wire gauze: a metal mesh (often with a ceramic centre) placed on the tripod to spread the heat. Crucible: a small ceramic pot (with a lid) for heating solids to very high temperature. Evaporating dish: a shallow porcelain dish used to evaporate a liquid and leave the solid residue."]},
+{"h":"Apparatus for measuring","p":["Pipette: a narrow tube that delivers a fixed volume (for example 25.0 cm³) exactly. Burette: a long graduated tube with a tap at the bottom, used in titration. Volumetric flask: flask with a long neck and a mark, for making solutions of exact concentration. Stopwatch: for measuring time. Thermometer: for measuring temperature, and it contains mercury or coloured alcohol. Balance: for measuring mass."]},
+{"h":"Apparatus for separation and purification","p":["Separating funnel: a pear-shaped funnel with a tap, to separate immiscible liquids such as oil and water. Filter funnel: a cone used with filter paper for filtration. Distillation flask: round-bottomed flask with a side arm. Condenser (Liebig condenser): a glass tube with a water jacket that cools vapour to liquid. Desiccator: an airtight container with a drying agent to keep substances dry."]},
+{"h":"Apparatus for support and safety","p":["Retort stand with clamp: holds apparatus in place. Tongs: for lifting hot crucibles and dishes. Test-tube holder: holds a test tube during heating. Fume cupboard: a ventilated enclosure for experiments that give off harmful gases. Goggles and lab coat: protect eyes and clothes."]},
+{"h":"Safety rules","p":["Always wear goggles and a lab coat. Never heat a closed container. Handle acids and alkalis with care and wash off any spill with plenty of water. Read the label on a reagent bottle before using it. Never taste chemicals, and never smell them directly: waft the vapour gently to your nose with your hand. Point the mouth of a heated test tube away from yourself and others. Tie back long hair and do not eat or drink in the laboratory. Tell the teacher at once about any accident."]}
+],
+"activity":"Choose five apparatus and, for each, write in your notebook what it is used for and draw a neat labelled sketch of it.",
+"check":[
+{"q":"Which apparatus is used to measure an exact volume of liquid in a titration?","o":["Burette","Beaker","Tripod","Crucible"]},
+{"q":"A Liebig condenser is used to","o":["Cool vapour back to liquid","Heat a liquid","Weigh a solid","Store acids"]},
+{"q":"Which separates oil from water?","o":["Separating funnel","Evaporating dish","Tongs","Wire gauze"]},
+{"q":"The correct way to smell a chemical is to","o":["Waft the vapour gently towards you","Sniff it directly","Taste it","Heat it first"]},
+{"q":"A fume cupboard is used for experiments that","o":["Give off harmful gases","Need cooling","Need no safety","Use only water"]}]},
+
+{"id":"ch1-06","week":3,"title":"Matter and the States of Matter","icon":"Layers","summary":"What matter is, the properties of solids, liquids and gases, and how the particles are arranged in each.",
+"keyWords":["Matter","Solid","Liquid","Gas","Particles"]
+,"sections":[
+{"h":"What is matter?","p":["Matter is anything that has mass and occupies space. A table is matter, and so is air, even though we cannot see it. All matter is made of tiny particles (atoms and molecules) that are always moving."]},
+{"h":"The three states","p":["Solid: the particles are packed closely in a fixed, regular arrangement and can only vibrate about their positions. A solid has a definite shape and a definite volume and cannot easily be squashed. Examples: wood, metal, stone, ice.","Liquid: the particles are close together but not in a fixed pattern, so they can slide past one another and the liquid flows. It has a definite volume but takes the shape of its container, and it can hardly be compressed. Examples: water, oil, alcohol, mercury.","Gas: the particles are far apart and move quickly in all directions. A gas has no fixed shape and no fixed volume; it fills its container, and it can be compressed easily. Examples: air, oxygen, carbon dioxide, nitrogen.","Besides these three, scientists know two more states, plasma and Bose-Einstein condensate, but at school we study the main three."],
+"img":{"src":"chem-particles.jpg","alt":"Three boxes showing particles tightly packed in a solid, close but random in a liquid and far apart in a gas","cap":"How the particles are arranged in a solid, a liquid and a gas."}},
+{"h":"Comparing the states","p":["Study the table carefully."],
+"tbl":{"head":["Property","Solid","Liquid","Gas"],"rows":[
+["Shape","Definite","Takes the shape of the container","Fills the container"],
+["Volume","Definite","Definite","Not definite"],
+["Arrangement of particles","Fixed and closely packed","Close but random","Far apart and random"],
+["Movement of particles","Vibrate in place","Slide over one another","Move freely and fast"],
+["Density","High","Medium","Low"],
+["Compressibility","Very low","Very low","High"],
+["Energy of particles","Lowest","Moderate","Highest"]]}},
+{"h":"Common mistakes","p":["Some people think that gases have no mass. They do: air in a tyre makes the tyre heavier. Some people think melting and dissolving are the same. Melting is a change of state caused by heat; dissolving is mixing a solid with a liquid (a solvent) to form a solution."]}
+],
+"activity":"Put these in the correct column (solid, liquid, gas): petrol, steam, chalk, cooking gas, palm oil, iron nail, oxygen.",
+"check":[
+{"q":"Matter is anything that","o":["Has mass and occupies space","Has colour only","Can be seen only","Is hot"]},
+{"q":"Which state has a definite volume but no definite shape?","o":["Liquid","Solid","Gas","Plasma only"]},
+{"q":"Particles move fastest and are farthest apart in a","o":["Gas","Solid","Liquid","Crystal"]},
+{"q":"A solid cannot easily be compressed because","o":["Its particles are packed closely","Its particles are far apart","It has no mass","It is hot"]},
+{"q":"Which has the highest density?","o":["Solid","Liquid","Gas","They are equal"]}]},
+
+{"id":"ch1-07","week":3,"title":"Changes of State and the Kinetic Theory","icon":"Zap","summary":"Melting, freezing, boiling, evaporation, condensation, sublimation and deposition, the energy changes involved, and the kinetic theory of matter.",
+"keyWords":["Melting","Freezing","Boiling","Evaporation","Sublimation"]
+,"sections":[
+{"h":"Changes of state","p":["A change of state happens when matter changes from one state to another by heating or cooling. It is a physical change: no new substance forms, and the chemical composition stays the same.","Melting: solid to liquid by heating. Ice melts to water. Heat is absorbed to loosen the particles from their fixed positions.","Freezing: liquid to solid by cooling. Water freezes to ice. Heat is given out as the particles slow down and take fixed positions.","Vaporisation: liquid to gas. It has two forms. Boiling is rapid, happens throughout the liquid and only at the boiling point (water boils at 100 °C at normal pressure). Evaporation is slow, happens only at the surface and at any temperature (wet clothes dry).","Condensation: gas to liquid by cooling. Water vapour forms droplets on a cold glass.","Sublimation: solid straight to gas without becoming a liquid. Examples: iodine, dry ice (solid carbon dioxide), naphthalene (mothballs).","Deposition: gas straight to solid. Frost is formed when water vapour changes directly to ice."],
+"img":{"src":"chem-change-of-state.png","alt":"A diagram with solid, liquid and gas in a triangle and arrows labelled melting, freezing, vaporisation, condensation, sublimation and deposition","cap":"Changes of state. Heating (red arrows) takes in energy; cooling (blue arrows) gives it out."}},
+{"h":"Boiling compared with evaporation","p":["Study the table."],
+"tbl":{"head":["Boiling","Evaporation"],"rows":[
+["Happens at a fixed temperature (boiling point)","Happens at any temperature"],
+["Takes place throughout the liquid, with bubbles","Takes place only at the surface"],
+["Fast","Slow"],
+["Needs a source of heat","Needs no special heat source"],
+["Temperature stays steady while boiling","Cools the liquid left behind"]]}},
+{"h":"The kinetic (particle) theory of matter","p":["All matter is made of tiny particles. The particles are always moving. The higher the temperature, the faster they move. The state of matter depends on how far apart the particles are and how freely they move. This explains why gases fill containers (particles move away from each other), why a drop of ink spreads in water (diffusion) and why warming a solid makes it melt (particles vibrate more strongly until they break free)."]},
+{"h":"Everyday examples","p":["Melting: ice cubes in a glass in the sun. Boiling: cooking water. Evaporation: sweat drying from the skin. Condensation: a mirror fogging after a hot bath. Sublimation: mothballs becoming smaller in a wardrobe. Deposition: frost on a very cold morning."]}
+],
+"activity":"Write five differences between boiling and evaporation in your own words. Then give one everyday example of each.",
+"check":[
+{"q":"Solid to liquid is","o":["Melting","Freezing","Condensation","Deposition"]},
+{"q":"A solid changing directly to a gas is","o":["Sublimation","Melting","Freezing","Condensation"]},
+{"q":"Evaporation takes place","o":["At any temperature, at the surface","Only at 100 °C","Only below 0 °C","Only in solids"]},
+{"q":"Frost forms by","o":["Deposition","Melting","Boiling","Evaporation"]},
+{"q":"According to the kinetic theory, raising the temperature makes particles","o":["Move faster","Stop moving","Disappear","Become heavier"]}]},
+
+{"id":"ch1-08","week":4,"title":"Separation Techniques (1): Filtration, Distillation, Sublimation and Chromatography","icon":"Target","summary":"Why mixtures are separated and how filtration, simple and fractional distillation, sublimation and chromatography work.",
+"keyWords":["Mixture","Filtration","Distillation","Fractional distillation","Chromatography"]
+,"sections":[
+{"h":"Why we separate mixtures","p":["A mixture contains two or more substances that are not chemically joined, so they can be separated by physical methods. The method we choose depends on the type of mixture (solid and solid, solid and liquid, liquid and liquid), on the properties of the parts (particle size, density, solubility, boiling point, magnetism) and on how pure we need the result to be."]},
+{"h":"Filtration","p":["Filtration separates an insoluble solid from a liquid using a porous barrier, filter paper. The principle is particle size: the tiny liquid particles pass through the pores, while the larger solid particles are trapped. The solid left on the paper is the residue and the liquid that passes through is the filtrate. Example: separating sand from water, or removing dirt from drinking water."],
+"img":{"src":"chem-filtration.png","alt":"A funnel lined with filter paper held over a beaker, with a muddy mixture being poured in, the residue on the paper and clear filtrate in the beaker","cap":"Filtration. The residue stays on the paper and the filtrate passes through."}},
+{"h":"Simple distillation","p":["Distillation separates a liquid from a solution by using differences in boiling points. The solution is heated; the liquid with the lower boiling point boils off first as vapour, passes through a condenser and turns back to liquid (the distillate). Example: getting pure water from sea water or salt solution. The salt stays behind in the flask. Cold water enters the bottom of the condenser and leaves at the top so that the jacket stays full.","In the diagram, boiling stones (or chips) are put in the flask so that the liquid boils smoothly, and the thermometer bulb is placed at the side arm to read the boiling point of the vapour."],
+"img":{"src":"chem-simple-distillation.jpg","alt":"Distillation apparatus: a round-bottomed flask of sea water heated on a Bunsen burner, a thermometer at the neck, a Liebig condenser with water in and water out, and a beaker collecting pure water","cap":"Simple distillation of sea water."}},
+{"h":"Fractional distillation","p":["Fractional distillation separates a mixture of liquids whose boiling points are close, such as ethanol (78 °C) and water (100 °C). A fractionating column packed with glass beads is fitted above the flask. As vapour rises through the column it condenses and re-evaporates many times, and the lower-boiling liquid reaches the top first. Examples: separating ethanol from water, separating the parts of crude oil (petrol, kerosene, diesel) in a refinery, and separating gases of liquid air such as nitrogen and oxygen."],
+"img":{"src":"chem-fractional.jpg","alt":"Fractional distillation apparatus with a fractionating column packed with glass beads on top of a round-bottomed flask, a condenser and a beaker of distillate","cap":"Fractional distillation. The column is packed with glass beads."}},
+{"h":"Sublimation","p":["Sublimation separates a mixture in which one solid sublimes (changes directly to gas when heated) and the other does not. Example: a mixture of ammonium chloride and salt. When heated, the ammonium chloride changes to vapour and then turns back to solid on the cool upturned funnel, leaving the salt behind. Iodine can be separated from sand in the same way."],
+"img":{"src":"chem-sublimation.jpg","alt":"A china dish of ammonium chloride and salt heated on a tripod with an inverted funnel over it plugged with cotton wool, with solid ammonium chloride on the funnel walls","cap":"Separating ammonium chloride from salt by sublimation."}},
+{"h":"Chromatography","p":["Chromatography separates the parts of a mixture by how fast they travel through a medium (such as paper). The parts dissolve in the solvent to different extents and cling to the paper to different extents, so they move at different speeds. Example: the pigments in ink or in a green leaf can be separated on paper. It is also used to test the purity of food colours and to check for drugs."],
+"img":{"src":"chem-chromatography.jpg","alt":"Three strips showing a mixture starting as one spot at the bottom, separating over time, and finishing as separated coloured spots","cap":"In chromatography the parts of a mixture move to different heights."}}
+],
+"activity":"Draw and label the apparatus for simple distillation. Say why the thermometer bulb is placed at the side arm.",
+"check":[
+{"q":"Separating sand from water uses","o":["Filtration","Sublimation","Chromatography","Distillation only"]},
+{"q":"Pure water can be obtained from sea water by","o":["Distillation","Filtration only","Winnowing","Sieving"]},
+{"q":"A mixture of ethanol and water is best separated by","o":["Fractional distillation","Filtration","Winnowing","Decanting"]},
+{"q":"Ammonium chloride can be separated from salt by","o":["Sublimation","Filtration","Chromatography","Winnowing"]},
+{"q":"Chromatography separates parts of a mixture because they","o":["Move at different speeds","Have the same colour","Do not dissolve","All sublime"]}]},
+
+{"id":"ch1-09","week":4,"title":"Separation Techniques (2): Centrifuging, Decanting, Evaporation, Magnet, Winnowing, Sieving and Sedimentation","icon":"Layers","summary":"Seven more separation methods, each with its principle and an everyday or industrial example, and a table to choose the right one.",
+"keyWords":["Decantation","Evaporation","Magnetic separation","Winnowing","Sieving"]
+,"sections":[
+{"h":"Centrifugation","p":["A centrifuge spins a mixture at high speed. The force pushes the denser particles to the bottom or outer edge faster than the lighter ones. Example: a laboratory separates blood cells from plasma; a dairy separates cream from milk."],
+"img":{"src":"chem-centrifuge.jpg","alt":"A laboratory centrifuge with its lid open and a hand placing a sample tube in the rotor","cap":"A laboratory centrifuge."}},
+{"h":"Decantation","p":["Decantation means carefully pouring off the liquid from a solid that has settled at the bottom, or pouring off one liquid from another that does not mix with it. It depends on a difference in density. A glass rod is used to guide the liquid so that none splashes. Example: pouring the water off settled sand."],
+"img":{"src":"chem-decantation.jpg","alt":"A beaker of liquid and sediment being poured down a glass rod into a clean beaker, leaving the sediment behind","cap":"Decanting a liquid from a sediment, using a glass rod."}},
+{"h":"Evaporation","p":["Evaporation removes a liquid by heating (or leaving in the sun) until only the dissolved solid is left. The solvent evaporates because it has a lower boiling point, and the solid stays behind. Example: getting salt from sea water in salt pans, or from salt solution in an evaporating dish."],
+"img":{"src":"chem-evaporation.jpg","alt":"An evaporating basin on a gauze and tripod being heated, with solvent vapour rising from the solution","cap":"Evaporation of a solution in an evaporating basin."}},
+{"h":"Magnetic separation","p":["A magnet attracts magnetic materials such as iron, nickel and cobalt and leaves non-magnetic materials behind. Example: separating iron filings from sand, or removing iron objects from scrap metals in a recycling plant."],
+"img":{"src":"chem-magnet.jpg","alt":"Three steps: a mixture of sand and iron filings, a magnet held above it, and the iron filings lifted away from the sand","cap":"Separating iron filings from sand with a magnet."}},
+{"h":"Winnowing","p":["Winnowing separates lighter particles (husks, chaff) from heavier grain using the wind or a current of air. Light husks are blown away while the heavy grains fall almost straight down. Example: separating rice or beans from husks after threshing. In Nigeria this is common in many farming communities."],
+"img":{"src":"chem-winnowing.jpg","alt":"A farmer standing on a stool pouring grain from a tray so that the wind blows away the husk and the heavier grain falls into a heap","cap":"Winnowing grain in the wind."}},
+{"h":"Sieving","p":["Sieving separates particles of different sizes using a sieve (a mesh): small particles pass through and larger ones stay on top. Example: separating flour from bran, sand from gravel, or garri from lumps."],
+"img":{"src":"chem-sieving.jpg","alt":"A mixture of particles of different sizes falling through two sieves, a larger mesh and a smaller mesh, and separating into layers","cap":"Sieving separates particles by size."}},
+{"h":"Sedimentation","p":["Sedimentation lets the heavier insoluble particles in a liquid settle to the bottom under gravity. It depends on a difference in density between the solid and the liquid. Example: letting muddy water stand until the mud settles; water works use large tanks for the first stage of cleaning. The clear liquid on top is then poured off (decanted) or filtered."]},
+{"h":"Choosing the right method","p":["Use this table."],
+"tbl":{"head":["Mixture","Method","Reason"],"rows":[
+["Sand and water","Filtration or decantation","Sand is insoluble"],
+["Salt and water","Evaporation or distillation","Salt is dissolved"],
+["Iron filings and sand","Magnet","Iron is magnetic"],
+["Rice and husk","Winnowing","Husk is lighter"],
+["Flour and bran","Sieving","Different particle size"],
+["Ink colours","Chromatography","Different speed in solvent"],
+["Oil and water","Separating funnel","They do not mix"],
+["Ethanol and water","Fractional distillation","Close boiling points"]]}}
+],
+"activity":"Your mother has spilled a mixture of rice, small stones and salt. Plan how you would separate it, naming the methods in order.",
+"check":[
+{"q":"Iron filings can be separated from sand by","o":["A magnet","Chromatography","Evaporation","Distillation"]},
+{"q":"Blowing away husks from grain is","o":["Winnowing","Sieving","Sublimation","Filtration"]},
+{"q":"Salt is obtained from sea water by","o":["Evaporation","Sieving","Magnetic separation","Winnowing"]},
+{"q":"Pouring off a liquid from settled solid is","o":["Decantation","Chromatography","Sublimation","Centrifugation only"]},
+{"q":"A centrifuge separates parts of a mixture by","o":["Spinning so that denser parts move outward","Magnetism","Boiling","Colour"]}]}
+]

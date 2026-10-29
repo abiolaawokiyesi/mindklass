@@ -1,0 +1,211 @@
+[
+{"id":"bi2-10","week":3,"title":"Ecology: Meaning, Branches and Basic Concepts","icon":"Layers","summary":"What ecology is, autecology and synecology, and the basic ecological terms: environment, biosphere, habitat, niche, population, community, ecosystem and biome.",
+"keyWords":["Ecology","Environment","Habitat","Niche","Biosphere"],
+"sections":[
+{"h":"What is ecology?","p":["Ecology is the study of plants, animals and micro-organisms in relation to their environment. In practice, ecological study involves: studying the distribution of living things; finding out how living things depend on one another and on their non-living environment for survival; and measuring the factors that affect the environment."]},
+{"h":"Branches of ecology","p":["Autecology is the study of one species (or one individual) and its environment, for example the study of a student and his school surroundings. Synecology is the study of groups of organisms or different species living together in an area, for example the fish, crabs and seaweeds in a pond."]},
+{"h":"Basic ecological concepts","p":["Environment: all the external and internal factors, living and non-living, that affect an organism or group of organisms: the habitat with its light, food, water and air, the predators, and diseases.","Biosphere (ecosphere): the zone of the earth where living things carry out their activities. It has three parts. The lithosphere is the solid part (rocks and minerals), about 30% of the earth's surface, and the basis of human settlement. The hydrosphere is the water part (oceans, lakes, rivers, ponds, ice and water vapour), about 70% of the surface. The atmosphere is the gaseous part: about 78% nitrogen, 21% oxygen, about 0.04% carbon dioxide (the source notes give 0.03%) and small amounts of other gases.","Habitat: the place where an organism is naturally found. There are three kinds: aquatic (in water: seas, lagoons, streams), terrestrial (on land: forest, savanna, desert) and arboreal (on trees).","Ecological niche: the role of an organism in its habitat: where it lives and its whole way of life (feeding, breeding, behaviour).","Population: all the organisms of one species living together in a habitat, such as the cockroaches in a biology laboratory.","Community: all the populations of living things living together in a habitat, such as decomposers, insects and birds on a decaying log.","Ecosystem: the basic working unit of nature, made of all the living things in an area and their interaction with the non-living parts. It may be natural (a forest) or artificial (a farm or an aquarium).","Biome: a large natural land ecosystem, such as the tropical rain forest or savanna, shaped by climate."]}
+],
+"activity":"Name the habitat, population, community and ecosystem for this: a school pond with tilapia, frogs, plants and insects.",
+"check":[
+{"q":"The study of one species and its environment is","o":["Autecology","Synecology","Taxonomy","Genetics"]},
+{"q":"All the organisms of one species in a habitat make a","o":["Population","Community","Biome","Ecosystem"]},
+{"q":"The gaseous part of the biosphere is the","o":["Atmosphere","Lithosphere","Hydrosphere","Biome"]},
+{"q":"A place where an organism is naturally found is its","o":["Habitat","Niche","Community","Biome"]},
+{"q":"The most abundant gas in the atmosphere is","o":["Nitrogen","Oxygen","Carbon dioxide","Hydrogen"]}]},
+
+{"id":"bi2-11","week":3,"title":"Components of an Ecosystem","icon":"Target","summary":"The abiotic and biotic components of an ecosystem, and the roles of producers, consumers and decomposers.",
+"keyWords":["Abiotic","Biotic","Producer","Consumer","Decomposer"],
+"sections":[
+{"h":"Two kinds of component","p":["The biosphere consists of many ecosystems. Every ecosystem has two kinds of component: abiotic (non-living) and biotic (living)."],
+"img":{"src":"bio-ecosystem.png","alt":"A pond ecosystem diagram with abiotic factors (sun, water, soil) and biotic factors: producers (water plants), consumers (fish) and decomposers (bacteria and fungi) linked by arrows showing energy flow and nutrient cycling","cap":"The parts of an ecosystem."}},
+{"h":"Abiotic components","p":["These are the non-living parts of the environment: organic substances (carbohydrates, proteins and lipids), inorganic substances (carbon dioxide, water, minerals), climatic factors (light, temperature, rainfall, humidity, wind) and edaphic (soil) factors (soil type, texture, pH, slope)."]},
+{"h":"Biotic components","p":["These are the living things. They include the producers, the consumers and the decomposers.","Producers are autotrophs that make food from simple inorganic substances, such as green plants, algae and chemosynthetic bacteria.","Consumers are heterotrophs that feed on producers or on one another. Primary consumers eat plants, secondary consumers eat primary consumers, and tertiary consumers eat secondary consumers. They include animals, protozoa and some bacteria.","Decomposers (saprophytes) break down dead plants and animals and release nutrients into the soil. Plants use these nutrients to make food. Examples are fungi and some bacteria."]},
+{"h":"Interactions","p":["Living things affect each other in many ways: by feeding (including parasitism), by shading from sunlight, by pollination and seed dispersal, and by competition. Some of these effects are helpful and others are harmful."]}
+],
+"activity":"List the abiotic and biotic parts of a farm in your community. Which are the producers, consumers and decomposers?",
+"check":[
+{"q":"Which is an abiotic factor?","o":["Rainfall","Fungi","Fish","Grass"]},
+{"q":"Producers are","o":["Autotrophs","Heterotrophs","Parasites","Decomposers"]},
+{"q":"Decomposers include","o":["Fungi and some bacteria","Plants","Lions","Birds"]},
+{"q":"A goat that eats grass is a","o":["Primary consumer","Producer","Decomposer","Tertiary consumer"]},
+{"q":"Soil type is an example of an","o":["Edaphic factor","Biotic factor","Climatic factor","Consumer"]}]},
+
+{"id":"bi2-12","week":4,"title":"Population Studies: Size, Density and Methods","icon":"BarChart2","summary":"Population size, density and dominance, and the methods used to study populations: census, mark and recapture, quadrat and transect sampling and remote sensing.",
+"keyWords":["Population size","Population density","Quadrat","Transect","Mark and recapture"]
+,"sections":[
+{"h":"Population terms","p":["Population size: the total number of individuals of a species in an area at a given time. Population density: the number of individuals per unit area or volume = population size ÷ area. Example: 500 mango trees on 50 hectares is 10 trees per hectare. Dominance: the degree to which one species has a large effect on the community, often because of its numbers or size (for example, grasses in a savanna)."]},
+{"h":"Methods of studying population","p":["Census: counting every individual. Accurate but not practical for large, moving or hidden populations.","Mark and recapture: a sample of animals is captured, marked and released. Later another sample is captured, and the proportion of marked animals in it is used to estimate the whole population. Formula: population = (number first marked × total number in second capture) ÷ number of marked animals recaptured. Example: 40 fish are marked; in a second catch of 50 fish, 10 are marked. Population = (40 × 50) ÷ 10 = 200. Useful for mobile animals.","Quadrat sampling: a frame of known size (quadrat) is placed at random several times in the habitat and the organisms inside are counted. Useful for plants and slow or fixed animals. The mean count per quadrat × (total area ÷ quadrat area) estimates the population. It assumes the quadrats represent the whole area.","Transect sampling: a line or belt is laid through the habitat and the organisms touching or near it are recorded. Useful for seeing how distribution changes along a gradient, such as from the water's edge up a bank.","Remote sensing: use of satellite or aerial images to estimate populations or vegetation cover over large areas."]}
+],
+"activity":"In a pond, 30 tilapia are caught, marked and released. A week later, 40 are caught and 6 of them are marked. Estimate the population. (30 × 40 ÷ 6 = 200.)",
+"check":[
+{"q":"Population density is","o":["Number per unit area","Total number only","Area only","Mass per unit area"]},
+{"q":"A frame of known size used to sample plants is a","o":["Quadrat","Transect","Census","Net"]},
+{"q":"The mark-and-recapture method is best for","o":["Mobile animals","Rooted plants","Fossils","Rocks"]},
+{"q":"If 20 are marked, and a second sample of 30 has 5 marked, the population is","o":["120","150","100","600"]},
+{"q":"A line through a habitat along which organisms are recorded is a","o":["Transect","Quadrat","Census","Niche"]}]},
+
+{"id":"bi2-13","week":4,"title":"Factors Affecting Population, Ecological Instruments and Soil","icon":"Layers","summary":"Birth rate, death rate, migration and other factors that change populations, the instruments used to measure ecological factors, and how soil type affects water-holding capacity.",
+"keyWords":["Birth rate","Death rate","Migration","Anemometer","Soil texture"]
+,"sections":[
+{"h":"Factors affecting population","p":["Birth rate: the number of births per unit of population in a given time. Death rate: the number of deaths per unit of population in a given time. A high death rate reduces the population. Migration: immigration (movement into an area) increases the population; emigration (movement out) decreases it. Resource availability: food, water, shelter and space. Shortage leads to competition. Environmental conditions: climate, weather and habitat. Disease and parasitism: reduce numbers through illness and death. Natural disasters: floods, fires, earthquakes. Human activities: hunting, fishing, habitat destruction by deforestation, urbanisation and pollution. Climate change: alters the suitability of habitats."]},
+{"h":"Instruments for measuring ecological factors","p":["Study the table."],
+"tbl":{"head":["Instrument","Measures"],"rows":[
+["Photometer (light meter)","Light intensity"],
+["Secchi disc","How clear or turbid the water is (how far light penetrates)"],
+["Wind vane","Direction of the wind"],
+["Anemometer","Speed of the wind"],
+["Rain gauge","Amount of rainfall"],
+["Hygrometer","Relative humidity of air"],
+["Barometer","Air pressure"],
+["Thermometer","Temperature"],
+["pH meter, pH paper or colorimeter","Acidity or alkalinity"],
+["Hydrometer","Density of a liquid (for example the salinity of water)"],
+["Sweep net","Catching insects"]]}},
+{"h":"A note on instruments","p":["The source notes say that a hydrometer measures light intensity in water. In fact a hydrometer measures the density of a liquid. Light in water is measured with a light meter or Secchi disc."]},
+{"h":"Soil type and water-holding capacity","p":["Texture: the mix of sand, silt and clay. Clay soils have tiny particles and hold more water than sandy soils (but may become waterlogged). Porosity: well-structured soil with good pore space holds and drains water well. Organic matter (humus): acts like a sponge and holds water for plants. Depth: deeper soil stores more water. Compaction: compacted soil has little pore space and water runs off. Slope: water runs off steep ground and stays on flat or gently sloping land."]}
+],
+"activity":"Draw and label three instruments used in ecology and say what each measures.",
+"check":[
+{"q":"The anemometer measures","o":["Wind speed","Rainfall","Humidity","Light"]},
+{"q":"A Secchi disc measures","o":["Turbidity (clarity) of water","Wind direction","Soil pH","Temperature"]},
+{"q":"Which soil holds more water?","o":["Clay","Sand","Gravel","Rock"]},
+{"q":"Emigration","o":["Reduces a population","Increases a population","Has no effect","Doubles births"]},
+{"q":"A hygrometer measures","o":["Humidity","Pressure","Wind speed","Light"]}]},
+
+{"id":"bi2-14","week":6,"title":"The Functioning Ecosystem, Trophic Levels and the Roles of Organisms","icon":"Zap","summary":"What keeps an ecosystem working (biodiversity, energy flow, nutrient cycling, abiotic factors and the water cycle), the roles of autotrophs, heterotrophs and decomposers, and trophic levels.",
+"keyWords":["Biodiversity","Energy flow","Nutrient cycling","Trophic level","Decomposers"]
+,"sections":[
+{"h":"What makes an ecosystem work","p":["A working ecosystem has several parts that keep it balanced: biodiversity (many species, each with a role, making the system stable); energy flow (producers capture sunlight and the energy passes through consumers and decomposers); nutrient cycling (carbon, nitrogen and phosphorus are recycled as decomposers return nutrients to the soil); abiotic factors (climate, soil and water shape which organisms live there); and the water cycle (precipitation, evaporation and transpiration keep water available)."]},
+{"h":"Roles of organisms","p":["Autotrophs (producers) make their own food, usually by photosynthesis, and form the base of the ecosystem. Heterotrophs (consumers) cannot make food and depend on others: primary consumers (herbivores), secondary consumers (carnivores that eat herbivores) and tertiary consumers (carnivores that eat other carnivores). Decomposers (bacteria and fungi) break down dead organisms and wastes with enzymes, releasing nutrients for reuse."]},
+{"h":"Trophic levels","p":["A trophic level is a feeding position in a food chain or web. Level 1: producers (green plants, algae). Level 2: primary consumers (herbivores). Level 3: secondary consumers (carnivores). Level 4: tertiary consumers (top carnivores). Decomposers act on the dead remains of every level and return nutrients to the environment."],
+"img":{"src":"bio-trophic-pyramid.jpg","alt":"A pyramid of trophic levels with producers at the base, primary consumers, secondary consumers, tertiary consumers and apex predators at the top, with decomposers on the side and example animals","cap":"Trophic levels."}}
+],
+"activity":"Name the trophic level of each: grass, grasshopper, lizard, snake, hawk. (1, 2, 3, 4, 5.)",
+"check":[
+{"q":"Producers occupy trophic level","o":["1","2","3","4"]},
+{"q":"Decomposers are mostly","o":["Bacteria and fungi","Plants","Birds","Insects"]},
+{"q":"A herbivore is a","o":["Primary consumer","Producer","Secondary consumer","Decomposer"]},
+{"q":"Nutrient cycling depends on","o":["Decomposers","Only sunlight","Only rain","Only herbivores"]},
+{"q":"A carnivore that eats herbivores is a","o":["Secondary consumer","Primary consumer","Producer","Tertiary consumer"]}]},
+
+{"id":"bi2-15","week":6,"title":"Food Chains, Food Webs and Ecological Pyramids","icon":"Layers","summary":"Food chains and webs with Nigerian examples, and the pyramids of energy, numbers and biomass, including the 10 per cent rule.",
+"keyWords":["Food chain","Food web","Pyramid of energy","Pyramid of numbers","Biomass"]
+,"sections":[
+{"h":"Food chains","p":["A food chain is a straight line showing the flow of energy from one organism to the next: each arrow means 'is eaten by'. Example: grass → grasshopper → lizard → snake → hawk. Another: maize → rat → snake → eagle."]},
+{"h":"Food webs","p":["A food web is a network of interlinked food chains. It is more realistic because most animals eat more than one kind of food and are eaten by more than one kind of predator. A food web is also more stable: if one food source disappears, consumers can switch to another."],
+"img":{"src":"bio-food-web.png","alt":"A food web of a savanna: grass and maize eaten by grasshopper, rat and goat; grasshopper eaten by lizard and toad; rat eaten by snake; lizard, toad and snake eaten by hawk; bacteria and fungi decompose dead remains","cap":"A food web in a savanna."}},
+{"h":"Energy pyramids and other pyramids","p":["Pyramid of energy: shows the energy at each trophic level. It is always a true pyramid, because only about 10% of the energy passes to the next level (the 10% rule); the rest is lost as heat in respiration, in wastes and in uneaten parts. For example, if producers hold 10,000 kJ, primary consumers get about 1,000 kJ and secondary consumers about 100 kJ.","Pyramid of numbers: shows the number of organisms at each level. It is often a pyramid, but can be inverted or irregular: one big tree may support thousands of insects (a narrow base and wide second level).","Pyramid of biomass: shows the total dry mass of organisms at each level. It usually narrows upward because of energy loss."],
+"img":{"src":"bio-energy-pyramid.jpg","alt":"A pyramid showing energy decreasing up the trophic levels, 100% at the producers to 10% at primary consumers, 1% at secondary consumers and so on, with energy lost as heat and decomposers on the side","cap":"A pyramid of energy: about 10 per cent passes to each next level."}}
+],
+"activity":"Construct a food chain from these organisms: toad, hawk, snake, grass, grasshopper. Which is the primary consumer and which is the top carnivore? (Grass → grasshopper → toad → snake → hawk; grasshopper; hawk.)",
+"check":[
+{"q":"The arrow in a food chain means","o":["Is eaten by","Gives birth to","Lives with","Is bigger than"]},
+{"q":"Only about what fraction of energy passes to the next trophic level?","o":["10%","50%","90%","100%"]},
+{"q":"A food web is","o":["A network of food chains","A single food chain","A pyramid","A habitat"]},
+{"q":"The base of a food chain is made up of","o":["Producers","Decomposers","Top carnivores","Herbivores"]},
+{"q":"Energy is lost mainly as","o":["Heat","Light","Sound","Chemical bonds only"]}]},
+
+{"id":"bi2-16","week":8,"title":"Energy Transformation in Nature and the Laws of Thermodynamics","icon":"Zap","summary":"How energy changes form in nature, why energy is lost in food chains, and the first and second laws of thermodynamics applied to ecology.",
+"keyWords":["Energy transformation","First law","Second law","Entropy","Heat loss"]
+,"sections":[
+{"h":"Energy transformation","p":["Energy changes form in nature. Sunlight becomes chemical energy in glucose by photosynthesis. That energy passes along food chains as organisms eat each other. Some energy is released as heat in respiration. The water cycle and weather also involve energy changes. Understanding these changes helps to explain the balance in ecosystems."]},
+{"h":"Energy loss in ecosystems","p":["Energy is lost as it moves through trophic levels: as heat during respiration and other metabolism, in wastes (faeces and urine) and in parts that are not eaten or digested. Each level receives only a part of the energy of the level below. This is why food chains are short and why there are fewer organisms at higher levels."]},
+{"h":"First law of thermodynamics","p":["Energy can neither be created nor destroyed; it can only change from one form to another (the law of conservation of energy). Applications in ecology: energy flow (sunlight → chemical energy in plants → herbivores → carnivores → decomposers; the total energy remains constant); metabolism (energy from food is used for growth, movement and reproduction or lost as heat); energy budgets (ecologists add up the energy that enters and leaves a system)."]},
+{"h":"Second law of thermodynamics","p":["Energy changes are never 100% efficient: some energy always becomes less useful, usually heat, so disorder (entropy) of an isolated system tends to increase. Heat flows from hot to cold, never the other way by itself. Applications: energy transfer between trophic levels is inefficient, so energy is lost as heat; decomposition breaks complex molecules into simple ones; heat flows between warm and cool regions, affecting climate and where organisms live. Living things keep themselves ordered only by constantly taking in energy (from the sun or from food), so the second law does not mean that life breaks the law. (The source notes say that ecosystems evolve towards higher entropy and complexity. That is not correct; ecosystems keep their order because they receive a continuous supply of energy from the sun.)"],
+"img":{"src":"bio-energy-laws.png","alt":"A diagram: the sun gives light to a plant (first law: energy is transformed to chemical energy), the plant to a herbivore to a carnivore, and at each step heat is lost (second law)","cap":"The two laws in a food chain."}}
+],
+"activity":"Use the second law of thermodynamics to explain why a food chain rarely has more than five links. (At each link, most energy is lost as heat, so too little remains.)",
+"check":[
+{"q":"The first law of thermodynamics states that energy","o":["Cannot be created or destroyed","Is always created","Is always lost","Never changes form"]},
+{"q":"Energy lost at each trophic level is mostly","o":["Heat","Light","Sound","Water"]},
+{"q":"The second law says energy transfers are","o":["Never 100% efficient","Always 100% efficient","Impossible","Cooling only"]},
+{"q":"Sunlight is changed to chemical energy by","o":["Photosynthesis","Respiration","Digestion","Excretion"]},
+{"q":"Why are food chains short?","o":["Energy is lost at each level","Animals are lazy","Plants are few","No reason"]}]},
+
+{"id":"bi2-17","week":9,"title":"Relevance of Biology to Agriculture: Classification of Plants","icon":"Layers","summary":"Botanical and agricultural classification of plants, and classification by life cycle and size, with Nigerian examples.",
+"keyWords":["Botanical classification","Crops","Cereals","Legumes","Perennial"]
+,"sections":[
+{"h":"Botanical classification","p":["Plants are grouped into divisions, classes, orders, families, genera and species according to their structure and evolution. The three broad groups are Thallophytes, Bryophytes and Tracheophytes. The tracheophytes divide into pteridophytes and spermatophytes, the spermatophytes into gymnosperms and angiosperms, and the angiosperms into dicots and monocots. Thallophytes and bryophytes are non-vascular; tracheophytes are vascular plants. Pteridophytes do not flower; spermatophytes bear seeds; angiosperms are the true flowering plants."]},
+{"h":"Agricultural classification","p":["Farmers group plants by the product, the useful part and the economic importance.","Crops and weeds: crops are wanted on the farm; weeds are unwanted plants. Food crops are grown mainly for people to eat (maize, yam); cash crops are grown mainly to sell (cocoa, coffee, rubber). Root crops store starch in underground roots or stems (yam, cassava, sweet potato). Cereals are grasses (monocots) with edible grains rich in carbohydrates (maize, millet, guinea corn, rice, wheat). Fruit crops are rich in vitamins, minerals and sugar (orange, mango, avocado pear, cashew). Vegetable crops are herbaceous plants whose leaves or other parts are eaten and are rich in vitamins and minerals (spinach, lettuce, carrot, cabbage, okro, tomato, onion, pepper). Legumes belong to the bean family and have protein-rich seeds (cowpea, groundnut, soya bean). Spices flavour food (ginger, pepper, thyme). Latex plants give a milky fluid (rubber). Fibre plants give fibre for rope, textiles and bags (cotton, hemp). Beverage and drug plants (tea, coffee, cocoa, kola nut, the quinine tree). Oil plants (oil palm, shea nut, groundnut, coconut, castor, melon)."],
+"img":{"src":"bio-crop-classes.png","alt":"A table-like diagram of crop groups with examples: cereals (maize, rice), roots (yam, cassava), legumes (beans, groundnut), fruits (orange, mango), vegetables (spinach, tomato), oil plants (oil palm), fibre (cotton), latex (rubber), beverage (cocoa)","cap":"Agricultural classification of crops, with examples."}},
+{"h":"By life cycle","p":["Annuals complete the life cycle in one season or one year (maize, melon, cowpea, tomato). Biennials complete it in two years (carrot, cabbage, onion). The source notes list banana, plantain and pineapple as biennials, but they are usually treated as perennials. Perennials live for more than two years and crop in many seasons (orange, mango, oil palm, cocoa). Yam is a perennial tuber but is usually grown as an annual crop."]},
+{"h":"By size","p":["Herbs are small plants with soft, non-woody stems (spinach, waterleaf). Shrubs are medium-sized, woody, and branch near the ground (hibiscus). Trees are tall with a single woody trunk that branches at the top (iroko, mahogany, cashew, oil palm)."]}
+],
+"activity":"Classify these by size and life cycle: waterleaf, hibiscus, oil palm, maize. (Herb, annual; shrub, perennial; tree, perennial; herb (grass), annual.)",
+"check":[
+{"q":"Plants grown mainly to be sold are","o":["Cash crops","Food crops","Weeds","Herbs"]},
+{"q":"Cowpea and groundnut are","o":["Legumes","Cereals","Roots","Spices"]},
+{"q":"Plants that finish their life cycle in one season are","o":["Annuals","Perennials","Biennials","Trees"]},
+{"q":"Maize, rice and millet are","o":["Cereals","Legumes","Fibre crops","Latex plants"]},
+{"q":"A medium-sized woody plant branching near the ground is a","o":["Shrub","Herb","Tree","Moss"]}]},
+
+{"id":"bi2-18","week":9,"title":"Effects of Agricultural Activities on the Ecosystem","icon":"Shield","summary":"The good and bad effects of bush burning, overgrazing, tillage, deforestation, fertiliser use and pesticides on the ecosystem, and how to farm sustainably.",
+"keyWords":["Bush burning","Overgrazing","Tillage","Deforestation","Pesticides"]
+,"sections":[
+{"h":"Bush burning","p":["Setting fire to bush to clear land. Effects: destroys organic matter (humus) in the soil; pollutes the air with smoke; kills many soil micro-organisms; exposes the soil to erosion and leaching; reduces the soil's water-holding capacity; kills or drives away animals, sometimes leading to extinction; the ash makes the soil slightly alkaline and briefly adds some nutrients."]},
+{"h":"Overgrazing","p":["Putting more animals on pasture than it can support (exceeding the carrying capacity). Effects: removes plant cover; exposes soil to erosion; destroys soil structure; compacts the soil through trampling; reduces the vegetation's ability to grow back. (Dung can add some nutrients and grazing can reduce weeds, but the overall effect is harmful.)"]},
+{"h":"Tillage","p":["Digging or breaking up the soil before planting. Good effects: loosens the soil, helps air to enter, buries weeds and crop residues. Bad effects: exposes and kills soil organisms; changes the structure and texture of the soil; intensive tillage can lead to loss of fertility, erosion and leaching."]},
+{"h":"Deforestation","p":["The continuous removal of trees (by burning or felling) without replanting. Effects: less water soaks into the soil; may reduce rainfall locally; harms soil organisms; nutrients are lost by leaching and erosion; wildlife lose their homes; the humus in the soil falls."]},
+{"h":"Fertiliser application","p":["Adding chemicals to the soil to improve fertility. Good effects: supplies nutrients; increases yields; encourages plant growth, which covers the soil and reduces erosion. Bad effects: over-use can acidify the soil; can reduce humus and harm soil structure; washes into rivers and causes pollution (eutrophication)."]},
+{"h":"Pesticides and herbicides","p":["Pesticides kill pests; herbicides kill weeds. Effects: pollute the environment; kill useful organisms (bees, earthworms) as well as pests; leave harmful residues; wash into rivers and kill aquatic life. Safer ways: crop rotation, mixed cropping, biological control, planting trees, mulching and using organic manure."]},
+{"h":"Summary","p":["Study the table."],
+"tbl":{"head":["Practice","Main harmful effects"],"rows":[
+["Bush burning","Loss of humus, erosion, air pollution"],
+["Overgrazing","Bare soil, erosion, compaction"],
+["Intensive tillage","Loss of soil structure and organisms"],
+["Deforestation","Erosion, loss of habitat, less rainfall"],
+["Heavy fertiliser use","Soil acidity, water pollution"],
+["Pesticides","Poisoning of useful organisms and water"]]}}
+],
+"activity":"A farmer plans to burn a hectare of bush to plant yam. Advise him with three better alternatives. (Clear by hand and mulch; plant trees for shade and nutrients; use crop rotation and manure.)",
+"check":[
+{"q":"Bush burning","o":["Destroys humus and soil organisms","Increases humus","Improves rainfall","Protects wildlife"]},
+{"q":"Overgrazing leads to","o":["Soil erosion","More vegetation","Better soil structure","Higher rainfall"]},
+{"q":"Pesticides can","o":["Kill useful organisms as well","Only kill pests","Help water animals","Make soil acidic only"]},
+{"q":"Deforestation means","o":["Removing trees without replanting","Planting trees","Digging soil","Watering plants"]},
+{"q":"A way to farm sustainably is","o":["Crop rotation and manure","Burning the bush","Overgrazing","Cutting all trees"]}]},
+
+{"id":"bi2-19","week":10,"title":"Micro-organisms Around Us: Groups and Bacteria","icon":"Target","summary":"What micro-organisms are, their discovery by Leeuwenhoek, and the groups: bacteria (shapes and diseases), viruses, protists, fungi and algae.",
+"keyWords":["Micro-organism","Bacteria","Cocci","Virus","Fungi"]
+,"sections":[
+{"h":"What are micro-organisms?","p":["Micro-organisms (microbes or germs) are living things too small to be seen with the naked eye; we need a microscope. They live almost everywhere: in water, air, soil, on objects and in and on living things. They are carried by air currents, and are most abundant where there is food, moisture and a suitable temperature. The Dutchman Anton van Leeuwenhoek (1632 to 1723) was the first to see them, using a simple microscope, in rain water collected from pools."]},
+{"h":"The groups","p":["Micro-organisms include viruses, bacteria and protists, and also cyanobacteria, some fungi and algae."]},
+{"h":"Bacteria","p":["Bacteria are tiny single-celled organisms (or simple groups of similar cells) that multiply by binary fission. Most are 0.2 to 2 µm across. A bacterial cell has a cell wall and cytoplasm but no true nucleus, so bacteria are prokaryotes. Some have thread-like flagella for movement. Shapes: cocci (spherical), bacilli (rod-shaped), spirilla (spiral rods), spirochaetes (flexible, tightly coiled) and vibrios (comma-shaped)."],
+"img":{"src":"bio-bacteria-shapes.jpg","alt":"Diagrams of bacterial shapes: cocci (coccus, diplococci, staphylococci, streptococci, sarcina, tetrad), bacilli (bacillus, diplobacilli, palisades, streptobacilli), vibrio, comma, club rod, helical, corkscrew, filamentous and spirochete","cap":"Shapes of bacteria."}},
+{"h":"Examples of bacteria and the diseases they cause","p":["Streptococci (in chains): sore throat. Staphylococci (in bunches): boils. Diplococci (in pairs), such as pneumococcus: pneumonia. Bacilli: typhoid fever (Salmonella typhi). Spirochaetes: syphilis (Treponema pallidum). Vibrios: cholera (Vibrio cholerae)."]},
+{"h":"Viruses","p":["Viruses are tiny (about 0.02 to 0.3 µm) and can be seen only with an electron microscope. They show life only inside living cells. A virus has DNA or RNA inside a protein coat. Outside living things they behave like complex chemicals."]},
+{"h":"Protists","p":["Mostly single-celled organisms that need a microscope to be seen. They are common in fresh water and damp soil. Examples: Euglena, Paramecium, Trypanosoma, Plasmodium."]},
+{"h":"Fungi","p":["Diverse in form. The blue-green mould on oranges and cheese and the white or grey growth on bread are fungi. They feed saprophytically. Examples: Mucor, Rhizopus, Penicillium and Aspergillus."]},
+{"h":"Algae","p":["Most are single-celled and tiny, with chlorophyll. They live in water, moist soil, bark and stones. Floating microscopic algae are phytoplankton, the main food of many aquatic animals. Examples: Chlamydomonas and Protococcus."]}
+],
+"activity":"Name the shapes of the bacteria that cause (a) cholera, (b) boils, (c) sore throat, (d) typhoid. (Comma-shaped vibrio; bunches of cocci; chains of cocci; rod-shaped bacillus.)",
+"check":[
+{"q":"The first person to see micro-organisms was","o":["Leeuwenhoek","Pasteur","Darwin","Linnaeus"]},
+{"q":"Bacteria that are rod-shaped are","o":["Bacilli","Cocci","Spirilla","Vibrios"]},
+{"q":"Bacteria multiply by","o":["Binary fission","Budding only","Pollination","Seeds"]},
+{"q":"Which is a fungus?","o":["Rhizopus","Euglena","Chlamydomonas","Paramecium"]},
+{"q":"Viruses can be seen only with a","o":["Electron microscope","Hand lens","Naked eye","Simple lens"]}]},
+
+{"id":"bi2-20","week":10,"title":"Culturing, Identification and Carriers of Micro-organisms","icon":"Layers","summary":"How micro-organisms are cultured, identified, found in different places and carried, and the vectors of some diseases.",
+"keyWords":["Culture medium","Agar","Pure culture","Vector","Pathogen"]
+,"sections":[
+{"h":"Culturing","p":["To study microbes we grow them in the laboratory. The material on or in which they grow is the culture medium; some media are made from extracts of plant or animal tissues. A culture is the population of organisms grown in a medium. A pure (axenic) culture has only one species; a mixed culture has two or more. Agar, a dried polysaccharide from red algae, is used to make the medium solid; microbes cannot digest it. Petri dishes and media are sterilised first by heat in an autoclave, pressure cooker or oven."]},
+{"h":"Identification","p":["Microbes are identified by using a microscope and different stains, by the shape and colour of the colonies they form, by their food needs and by their oxygen needs."]},
+{"h":"Microbes in the air, water and soil","p":["If a dish of nutrient agar is left open to the air, colonies of bacteria and fungi grow, showing microbes in the air. Water microbes include protists, algae, fungi and bacteria. Soil microbes include Rhizobium (fixes nitrogen), Nitrosomonas and Nitrobacter (nitrifying bacteria). Sewage microbes include Entamoeba histolytica and Escherichia coli."]},
+{"h":"Microbes and our bodies","p":["Many microbes live in and on our bodies without harm. Pathogens cause disease when our resistance is low or when antibiotics upset the normal microbes. Unpreserved food is spoiled by microbes. Pathogens enter the body in four main ways: in the air, in food and water, by contact (direct or indirect), and by insect bites or cuts."]},
+{"h":"Carriers and vectors","p":["A carrier is anything that carries microbes from place to place. Non-living carriers: air, water, food. Living carriers: houseflies, mosquitoes, rats, cats and others. A vector is an animal that carries a pathogen from one host to another. Mechanical transmission: the animal carries the pathogens on its body. Biological transmission: the pathogen lives and develops in the vector, which becomes infected by feeding on the blood of an infected person."],
+"tbl":{"head":["Vector","Organism","Disease"],"rows":[
+["Female Anopheles mosquito","Plasmodium (protist)","Malaria"],
+["Tsetse fly","Trypanosoma (protist)","Sleeping sickness"],
+["Housefly (mechanical)","Vibrio cholerae, Salmonella typhi","Cholera and typhoid fever"],
+["Aedes mosquito","Virus","Yellow fever and dengue"]]}}
+],
+"activity":"State three differences between a pathogen and a vector. (A pathogen causes disease; a vector carries it; a pathogen is a microbe and a vector is an animal.)",
+"check":[
+{"q":"Agar is made from","o":["Red algae","Fungi","Bacteria","Sugar cane"]},
+{"q":"A culture with only one species is","o":["Pure (axenic)","Mixed","Dry","Natural"]},
+{"q":"The vector of the malaria parasite is the female","o":["Anopheles mosquito","Aedes mosquito","Housefly","Tsetse fly"]},
+{"q":"The tsetse fly transmits","o":["Trypanosoma","Plasmodium","Virus","Vibrio"]},
+{"q":"Agar is used to","o":["Make culture medium solid","Kill bacteria","Feed protists","Stain cells"]}]}
+]

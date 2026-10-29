@@ -1,0 +1,34 @@
+[
+{"id":"ec1-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Economics First Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Economics","Scarcity","Demand and supply","Production","Table of contents"],
+"sections":[
+{"h":"Welcome to Economics","p":["Economics is the study of how people, businesses and governments make choices when resources are limited. Every day you make economic choices: how to spend your pocket money, whether to buy food or a book, how to use your time. Economics helps you to understand these choices and the way your community and country earn and spend money.","In First Term you will learn what economics is, the tools economists use (tables, averages, graphs and charts), how demand and supply work, how goods are produced, how work is shared among workers, how different countries organise their economies, the types of business, the size of the population and the labour market."]},
+{"h":"How to use the notes","p":["Each unit has simple notes, tables, diagrams and worked examples. Read slowly, and copy the tables and graphs into your notebook. At the end of every unit there are practice questions. They do not count towards a mark; they help you to check that you understood. Answer them all correctly to complete the unit.","Economics is also an examination subject in WAEC and NECO, so learn the key words in each unit: you will meet them again in the exam."]},
+{"h":"Table of contents for First Term","p":["The units follow the scheme of work. Week 5 is the midterm examination and Week 7 is the midterm break.","Note: in the weekly scheme, topics are placed on given weeks. Some units cover more than one week of the scheme."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","The meaning of economics"],
+["3","1","Nature, scope and basic concepts of economics"],
+["4","2","Basic tools of economic analysis: statistics, averages and tables"],
+["5","2","Graphs and charts: demand graph, pie, bar charts and pictograms"],
+["6","2","Frequency distributions, histograms and frequency polygons"],
+["7","3","Demand: meaning, law, schedule and curve"],
+["8","3","Supply: meaning, law, schedule and curve"],
+["9","4","The theory of production: types and factors of production"],
+["10","4","Division of labour and specialisation"],
+["11","4","Economies of scale and the scale of production"],
+["12","6","Economic systems: capitalism, socialism and the mixed economy"],
+["13","6","The basic economic problems of society"],
+["14","8","Firm, factory, industry and business organisation"],
+["15","8","Companies and their types"],
+["16","9","Population: size, growth and migration"],
+["17","10","The labour market, labour force, efficiency and mobility of labour"]]}},
+{"h":"Good habits for the subject","p":["Read the newspaper or listen to the news and ask yourself which economic idea you can see in it. Practise drawing graphs neatly with a ruler and pencil. Learn each definition word for word and then say it in your own words. When you answer essay questions, define the term, explain it with a Nigerian example and then give a conclusion."]}
+],
+"activity":"In your notebook, write down three choices you made this week that involved money or time. For each one, say what you gave up (this is called the opportunity cost).",
+"check":[
+{"q":"Which unit teaches the law of demand?","o":["Unit 7","Unit 12","Unit 16","Unit 2"]},
+{"q":"What should you do with the practice questions?","o":["Use them to check your understanding","Ignore them","Skip the notes","Copy answers"]},
+{"q":"Which unit covers economic systems such as capitalism?","o":["Unit 12","Unit 5","Unit 9","Unit 17"]},
+{"q":"In which unit do you study the labour market?","o":["Unit 17","Unit 3","Unit 8","Unit 4"]}]}
+]

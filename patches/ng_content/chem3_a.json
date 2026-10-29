@@ -1,0 +1,206 @@
+[
+{"id":"ch3-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS1 Chemistry Third Term is about, how to use the notes, and a map of every unit.",
+"keyWords":["Organic chemistry","Petroleum","Energy changes","Rate of reaction","Equilibrium"],
+"sections":[
+{"h":"Welcome to Third Term","p":["In Third Term you study the chemistry of carbon compounds (organic chemistry) and of petroleum, which is so important to Nigeria. Then you learn how chemical reactions are classified, how heat flows in reactions, how fast reactions go, what happens in reactions that can go both ways, and finally the properties and uses of metals and non-metals.","Draw every structure and graph in your notebook. At the end of each unit are practice questions. They do not count towards a mark; they help you to check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for Third Term","p":["The units follow the scheme of work. Weeks 5 and 7 are midterm weeks."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Introduction to organic chemistry"],
+["3","1","Characteristics of organic compounds"],
+["4","2","Hydrocarbons and alkanes"],
+["5","2","Alkenes and alkynes"],
+["6","3","Isomerism: structural isomers"],
+["7","3","Geometrical (cis-trans) isomerism"],
+["8","4","Petroleum and petrochemicals"],
+["9","4","Refining of petroleum and the petroleum industry"],
+["10","6","Chemical reactions: combination and decomposition"],
+["11","6","Displacement reactions and the reactivity series"],
+["12","8","Energy changes: exothermic and endothermic reactions"],
+["13","8","Examples, uses and comparison of energy changes"],
+["14","9","Rates of reaction and the factors that affect them"],
+["15","9","Collision theory, catalysts and industrial uses"],
+["16","10","Reversible reactions and chemical equilibrium"],
+["17","10","Le Chatelier's principle and the equilibrium constant"],
+["18","11","Metals and non-metals: properties"],
+["19","11","Extraction and uses of metals and non-metals"]]}},
+{"h":"A note on safety","p":["Many organic chemicals, such as petrol and kerosene, are very flammable. Never use a naked flame near them and never smell or taste them. Several of the reactions in this term (for example with bromine or concentrated acids) are done only by the teacher or in a fume cupboard."]}
+],
+"activity":"Look at the list of units. Which ones connect to something you see in Nigeria every day (for example petrol, generators, cooking gas, rust)? Write the unit and the example.",
+"check":[
+{"q":"In which unit do you study alkanes?","o":["Unit 4","Unit 12","Unit 16","Unit 18"]},
+{"q":"Which unit covers exothermic reactions?","o":["Unit 12","Unit 2","Unit 7","Unit 19"]},
+{"q":"In which unit do you study Le Chatelier's principle?","o":["Unit 17","Unit 3","Unit 9","Unit 11"]},
+{"q":"What are the practice questions for?","o":["To check your understanding","To give a final mark","To replace the notes","To skip the unit"]}]},
+
+{"id":"ch3-02","week":1,"title":"Introduction to Organic Chemistry","icon":"Layers","summary":"What organic chemistry is, how it began with Wöhler, which carbon compounds are not organic, and why organic chemistry matters.",
+"keyWords":["Organic chemistry","Hydrocarbon","Wöhler","Vital force","Carbon compounds"],
+"sections":[
+{"h":"Meaning","p":["Organic chemistry is the branch of chemistry that studies carbon compounds, especially those with carbon-hydrogen bonds (hydrocarbons) and the compounds made from them (their derivatives)."]},
+{"h":"How it began","p":["Long ago, people believed that the compounds made by living things (such as sugar and urea) could be made only by living things, through a 'vital force'. In 1828 the German chemist Friedrich Wöhler heated ammonium cyanate, a mineral (inorganic) salt, and obtained urea, which is found in urine. This showed that organic compounds can be made in the laboratory, and it is regarded as the beginning of modern organic chemistry.","Today organic chemistry covers nearly all carbon compounds, whether they come from living things or are made by people. A few simple carbon compounds such as carbon dioxide, carbon monoxide, carbonates, hydrogencarbonates and carbides are usually studied in inorganic chemistry."]},
+{"h":"Importance of organic chemistry","p":["Everyday life: food (carbohydrates, proteins, fats), medicines (antibiotics, painkillers, vitamins), clothes (cotton, wool, nylon, polyester) and fuels (petrol, diesel, kerosene, cooking gas) are all organic.","Industry: petrochemical, pharmaceutical, plastics, paints, rubber and cosmetics industries are built on organic chemistry.","Agriculture: many fertilisers, pesticides and herbicides contain organic compounds.","Nature: DNA, RNA, enzymes and hormones are organic molecules that control heredity and the working of the body.","Other reasons to study it: to understand the chemistry of life; to make new materials such as drugs and plastics; to support industries; and to find solutions to problems of energy, health and the environment."]}
+],
+"activity":"List six things in your home made from organic compounds and say whether each comes from a plant, an animal or crude oil.",
+"check":[
+{"q":"Organic chemistry is the study of","o":["Carbon compounds","Metals only","Gases only","Water only"]},
+{"q":"Who made urea from an inorganic salt in 1828?","o":["Wöhler","Dalton","Lavoisier","Mendeleev"]},
+{"q":"Which of these is usually treated as inorganic?","o":["Carbon dioxide","Methane","Ethanol","Glucose"]},
+{"q":"DNA and enzymes are","o":["Organic molecules","Metals","Salts","Gases"]},
+{"q":"Petrol and kerosene are","o":["Organic fuels","Inorganic salts","Metals","Acids"]}]},
+
+{"id":"ch3-03","week":1,"title":"Characteristics of Organic Compounds","icon":"Target","summary":"Why carbon forms so many compounds, and the main properties of organic compounds compared with inorganic compounds.",
+"keyWords":["Catenation","Tetravalency","Covalent bonding","Combustion","Isomerism"]
+,"sections":[
+{"h":"Why there are so many organic compounds","p":["There are millions of known organic compounds, far more than inorganic ones. The reasons are: catenation, the power of carbon atoms to join to one another in long chains, branched chains and rings; tetravalency, because carbon has four outer electrons and forms four bonds; multiple bonding, since carbon forms single, double and triple bonds; and isomerism, meaning the same atoms can be arranged in different ways.","Examples: methane CH₄ is the simplest hydrocarbon; hexane C₆H₁₄ has a chain of six carbons; benzene C₆H₆ is a ring."]},
+{"h":"General characteristics","p":["1. They contain carbon, usually bonded to hydrogen. Carbon has atomic number 6, electron arrangement 2, 4, so it forms four covalent bonds, for example in methane.","2. Covalent bonding: atoms are joined by shared pairs of electrons. So organic compounds generally have lower melting and boiling points and are less soluble in water than ionic salts.","3. Combustibility: most burn in oxygen to give carbon dioxide and water, and give out heat: CH₄ + 2O₂ → CO₂ + 2H₂O. Compounds with a lot of carbon burn with a smoky, sooty flame because of incomplete combustion.","4. Solubility: they are generally insoluble in water but soluble in organic solvents such as ethanol, benzene and chloroform (like dissolves like). Exceptions: small polar molecules such as ethanol and sugar do dissolve in water.","5. Many decompose or char when heated strongly; sugar chars to carbon and steam.","6. Organic reactions are often slow and need heat, pressure or a catalyst (for example, nickel for hydrogenation of ethene to ethane).","7. Isomerism is common. C₄H₁₀ has two isomers: butane and 2-methylpropane.","8. Many have low melting and boiling points because the forces between the molecules (van der Waals forces) are weak. Large molecules such as glucose and urea decompose or melt at higher temperatures.","9. Many have characteristic smells: esters smell fruity, amines smell of fish, and some aldehydes and ketones have sharp smells."]},
+{"h":"Organic compared with inorganic compounds","p":["Study the table. Remember these are general rules; there are exceptions."],
+"tbl":{"head":["Feature","Organic compounds","Inorganic compounds"],"rows":[
+["Main elements","Carbon and hydrogen (also O, N, S, halogens, P)","Metals and non-metals, salts, oxides"],
+["Bonding","Mostly covalent","Often ionic"],
+["Melting and boiling points","Generally low (not in diamond)","Generally high"],
+["Solubility","Mostly insoluble in water, soluble in organic solvents","Often soluble in water"],
+["Combustion","Most burn","Few burn (carbon, sulphur)"],
+["Heat stability","Often decompose on heating","More stable"],
+["Reaction rate","Often slow","Often fast"],
+["Number of compounds","Millions","Fewer"],
+["Isomerism","Very common","Rare"]]}}
+],
+"activity":"Give five reasons why carbon forms so many compounds. Draw methane, ethane and ethene, showing every bond.",
+"check":[
+{"q":"The ability of carbon atoms to join to each other in chains is called","o":["Catenation","Isomerism","Combustion","Sublimation"]},
+{"q":"Carbon forms how many covalent bonds in most compounds?","o":["Four","Two","Six","Eight"]},
+{"q":"Most organic compounds are","o":["Combustible","Highly soluble in water","Ionic","Very stable to heat"]},
+{"q":"Which has a fishy smell?","o":["Amines","Esters","Alkanes","Salts"]},
+{"q":"Compared with ionic compounds, organic compounds usually have","o":["Lower melting points","Higher melting points","More ions","Higher conductivity"]}]},
+
+{"id":"ch3-04","week":2,"title":"Hydrocarbons and Alkanes","icon":"Layers","summary":"What hydrocarbons are, the homologous series, and the structure, physical and chemical properties and uses of alkanes.",
+"keyWords":["Hydrocarbon","Homologous series","Alkane","Saturated","Substitution"]
+,"sections":[
+{"h":"Hydrocarbons","p":["Hydrocarbons are organic compounds made of only carbon and hydrogen. There are three families: alkanes (saturated; only single bonds), alkenes (unsaturated; at least one double bond C=C) and alkynes (unsaturated; at least one triple bond C≡C). 'Saturated' means that the carbon atoms hold as many hydrogen atoms as possible."]},
+{"h":"Homologous series","p":["A homologous series is a family of organic compounds with the same general formula, a difference of one –CH₂– group between neighbouring members, similar chemical properties, and a steady change in physical properties (such as boiling point)."]},
+{"h":"Alkanes","p":["General formula: CₙH₂ₙ₊₂. Bonding: only single bonds. The first four members are methane CH₄, ethane C₂H₆, propane C₃H₈ and butane C₄H₁₀. The names end in -ane. The prefixes meth-, eth-, prop-, but-, pent-, hex- show 1, 2, 3, 4, 5, 6 carbon atoms.","From butane upward, alkanes show structural isomerism: butane (CH₃–CH₂–CH₂–CH₃) and 2-methylpropane (CH₃–CH(CH₃)–CH₃)."],
+"img":{"src":"chem-hydrocarbons.png","alt":"Structural drawings of methane, ethane, ethene and ethyne showing all atoms and bonds, with single, double and triple bonds","cap":"Methane and ethane (alkanes), ethene (alkene) and ethyne (alkyne)."}},
+{"h":"Physical properties","p":["C₁ to C₄ are gases, C₅ to about C₁₇ are liquids, and larger alkanes are waxy solids. Melting and boiling points rise with the size of the molecule because the forces between molecules get stronger. Alkanes are non-polar, so they do not dissolve in water but dissolve in organic solvents."]},
+{"h":"Chemical properties","p":["Alkanes are fairly unreactive because the C–C and C–H bonds are strong.","Combustion: complete: CH₄ + 2O₂ → CO₂ + 2H₂O. Incomplete (not enough oxygen) gives carbon monoxide or soot (carbon): 2CH₄ + 3O₂ → 2CO + 4H₂O. Carbon monoxide is a poisonous gas, so never burn charcoal or run a generator in a closed room.","Substitution: in sunlight (ultraviolet light) a halogen replaces hydrogen atoms one at a time: CH₄ + Cl₂ → CH₃Cl + HCl. Further substitution gives CH₂Cl₂, CHCl₃ and CCl₄."]},
+{"h":"Uses","p":["Methane is natural gas (fuel for power stations and homes); propane and butane make cooking gas (LPG); petrol, kerosene and diesel are mixtures of alkanes; the waxes and lubricating oils are heavier alkanes."]}
+],
+"activity":"Write the molecular formula and structural formula of the first four alkanes. What is the formula of the alkane with 6 carbons? (C₆H₁₄.)",
+"check":[
+{"q":"The general formula of alkanes is","o":["CₙH₂ₙ₊₂","CₙH₂ₙ","CₙH₂ₙ₋₂","CₙHₙ"]},
+{"q":"Propane has the formula","o":["C₃H₈","C₃H₆","C₂H₆","C₄H₁₀"]},
+{"q":"Alkanes mainly undergo","o":["Substitution","Addition","Polymerisation","Reduction"]},
+{"q":"Incomplete combustion of an alkane can produce","o":["Carbon monoxide","Only oxygen","Only nitrogen","Only hydrogen"]},
+{"q":"A homologous series differs by","o":["A –CH₂– group","A –OH group","A nitrogen atom","A metal"]}]},
+
+{"id":"ch3-05","week":2,"title":"Alkenes and Alkynes","icon":"Zap","summary":"The structure, formulae, properties and reactions of alkenes and alkynes, how they differ from alkanes, and their uses.",
+"keyWords":["Alkene","Alkyne","Double bond","Addition reaction","Polymerisation"]
+,"sections":[
+{"h":"Alkenes","p":["General formula: CₙH₂ₙ. They have at least one double bond (C=C) made of one sigma (σ) bond and one pi (π) bond. The pi bond is weaker, so alkenes are more reactive than alkanes. Names end in -ene.","Examples: ethene C₂H₄ (H₂C=CH₂), propene C₃H₆ (CH₃–CH=CH₂), but-1-ene C₄H₈ (CH₂=CH–CH₂–CH₃), but-2-ene C₄H₈ (CH₃–CH=CH–CH₃). Isomerism: but-1-ene and but-2-ene differ in the position of the double bond (structural isomers); but-2-ene also has cis and trans forms (next units).","Physical properties: similar to alkanes: the smaller ones are gases, the middle ones liquids, and non-polar, so insoluble in water."]},
+{"h":"Chemical properties of alkenes","p":["1. Combustion: C₂H₄ + 3O₂ → 2CO₂ + 2H₂O (more smoky than alkanes because of the higher percentage of carbon).","2. Addition reactions (the main reaction): the double bond opens and atoms add on. Hydrogenation: C₂H₄ + H₂ → C₂H₆ (nickel catalyst, heat). Halogenation: C₂H₄ + Br₂ → C₂H₄Br₂ (this is the test for unsaturation: orange-brown bromine water turns colourless). Hydrohalogenation: C₂H₄ + HCl → C₂H₅Cl. Hydration: C₂H₄ + H₂O → C₂H₅OH (phosphoric or sulphuric acid catalyst; this makes ethanol).","3. Polymerisation: many ethene molecules join to form polyethene (polythene), used for bags and bottles: n C₂H₄ → (–CH₂–CH₂–)ₙ."]},
+{"h":"Alkynes","p":["General formula: CₙH₂ₙ₋₂. They have at least one triple bond (C≡C) made of one σ bond and two π bonds. Names end in -yne.","Examples: ethyne (acetylene) C₂H₂ (H–C≡C–H), propyne C₃H₄ (CH≡C–CH₃), butyne C₄H₆ with two isomers: but-1-yne (CH≡C–CH₂–CH₃) and but-2-yne (CH₃–C≡C–CH₃).","Properties: ethyne is a colourless gas with a faint smell and is very flammable. Combustion: 2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O. It burns with a very hot flame when mixed with pure oxygen (the oxy-acetylene flame, about 3000 °C), used for welding and cutting metals. Plain air gives a smoky, cooler flame.","Addition reactions: C₂H₂ + 2H₂ → C₂H₆ (nickel); C₂H₂ + 2Br₂ → C₂H₂Br₄."]},
+{"h":"Comparison","p":["Study the table."],
+"tbl":{"head":["Property","Alkanes","Alkenes","Alkynes"],"rows":[
+["General formula","CₙH₂ₙ₊₂","CₙH₂ₙ","CₙH₂ₙ₋₂"],
+["Bond","Single only","Double (σ + π)","Triple (σ + 2π)"],
+["Saturation","Saturated","Unsaturated","Unsaturated"],
+["Isomerism","Structural (from C₄)","Structural and cis-trans","Structural (from C₄)"],
+["Reactivity","Least reactive","Reactive","Very reactive"],
+["Main reaction","Substitution","Addition","Addition"],
+["Uses","Fuels","Plastics, ethanol, detergents","Welding, chemical synthesis"]]}}
+],
+"activity":"How would you tell an alkane from an alkene using bromine water? What would you see? (The alkene turns bromine water from orange-brown to colourless; the alkane does not.)",
+"check":[
+{"q":"The general formula of alkenes is","o":["CₙH₂ₙ","CₙH₂ₙ₊₂","CₙH₂ₙ₋₂","CₙHₙ"]},
+{"q":"Alkenes mainly undergo","o":["Addition reactions","Substitution reactions","Neutralisation","Fermentation"]},
+{"q":"The test for an alkene is that it","o":["Decolourises bromine water","Turns litmus red","Dissolves in water","Does not burn"]},
+{"q":"Ethyne has the formula","o":["C₂H₂","C₂H₄","C₂H₆","CH₄"]},
+{"q":"Ethene polymerises to form","o":["Polyethene","Ethanol","Methane","Soap"]}]},
+
+{"id":"ch3-06","week":3,"title":"Isomerism: Structural Isomers","icon":"Layers","summary":"What isomerism is, why it explains the huge number of organic compounds, and the types of structural isomerism: chain, position, functional group and metamerism.",
+"keyWords":["Isomerism","Structural isomer","Chain isomerism","Position isomerism","Functional group isomerism"]
+,"sections":[
+{"h":"Meaning","p":["Isomerism is the existence of two or more compounds with the same molecular formula but different arrangements of atoms. Such compounds are called isomers. They usually have different physical properties and sometimes different chemical properties. Isomerism is one reason why there are so many organic compounds.","Example: C₄H₁₀ has two isomers: n-butane (CH₃–CH₂–CH₂–CH₃) and 2-methylpropane (CH₃–CH(CH₃)–CH₃). They have the same formula but different structures and different boiling points (butane boils at about 0 °C; 2-methylpropane at about −12 °C)."],
+"img":{"src":"chem-butane-isomers.png","alt":"Two drawings: a straight chain of four carbon atoms labelled butane and a chain of three carbons with a branch labelled 2-methylpropane","cap":"The two isomers of C₄H₁₀."}},
+{"h":"Types of isomerism","p":["There are two main kinds: structural isomerism (the atoms are joined in a different order) and stereoisomerism (the atoms are joined in the same order but arranged differently in space). In SS1 we study structural isomerism and one kind of stereoisomerism, geometrical isomerism."]},
+{"h":"Structural isomerism","p":["1. Chain (skeletal) isomerism: the carbon skeleton is different (straight or branched). Example: butane and 2-methylpropane. Another: C₅H₁₂ has three chain isomers: pentane, 2-methylbutane and 2,2-dimethylpropane.","2. Position isomerism: the same functional group or substituent is on a different carbon atom. Example: butan-1-ol (CH₃CH₂CH₂CH₂OH) and butan-2-ol (CH₃CH₂CH(OH)CH₃), both C₄H₁₀O. Similarly but-1-ene and but-2-ene, and but-1-yne and but-2-yne.","3. Functional group isomerism: the compounds belong to different families. Example: ethanol (CH₃CH₂OH, an alcohol) and methoxymethane or dimethyl ether (CH₃OCH₃), both C₂H₆O. Ethanol is a liquid that dissolves in water; dimethyl ether is a gas.","4. Metamerism: the groups on the two sides of an ether linkage (–O–) differ. Example: diethyl ether (CH₃CH₂–O–CH₂CH₃) and methyl propyl ether (CH₃–O–CH₂CH₂CH₃), both C₄H₁₀O.","(Tautomerism, an advanced type in which two forms change easily into each other, such as keto and enol forms, is met in later years.)"]},
+{"h":"Worked example","p":["Write all the structural isomers of C₄H₁₀O. Alcohols: butan-1-ol CH₃CH₂CH₂CH₂OH; butan-2-ol CH₃CH₂CH(OH)CH₃; 2-methylpropan-1-ol (CH₃)₂CHCH₂OH; 2-methylpropan-2-ol (CH₃)₃COH. Ethers: diethyl ether CH₃CH₂OCH₂CH₃; methyl propyl ether CH₃OCH₂CH₂CH₃; and methyl isopropyl ether CH₃OCH(CH₃)₂. So there are 7 isomers. (The source notes list only 6 and miss methyl isopropyl ether.)"]},
+{"h":"Why isomerism matters","p":["It explains the huge variety of organic compounds, and why compounds with the same formula behave differently. It matters in drug design, where one isomer of a drug may cure and another may be harmful, and in plastics and fuels (branched alkanes burn more smoothly in engines than straight-chain ones)."]}
+],
+"activity":"Draw and name the three isomers of C₅H₁₂. (Pentane; 2-methylbutane; 2,2-dimethylpropane.)",
+"check":[
+{"q":"Isomers have the same","o":["Molecular formula","Structure","Boiling point","Name"]},
+{"q":"Butane and 2-methylpropane show","o":["Chain isomerism","Position isomerism","Functional group isomerism","Geometrical isomerism"]},
+{"q":"Ethanol and dimethyl ether show","o":["Functional group isomerism","Chain isomerism","Position isomerism","Cis-trans isomerism"]},
+{"q":"Butan-1-ol and butan-2-ol show","o":["Position isomerism","Chain isomerism","Functional group isomerism","No isomerism"]},
+{"q":"How many chain isomers has C₅H₁₂?","o":["3","2","4","5"]}]},
+
+{"id":"ch3-07","week":3,"title":"Geometrical (Cis-Trans) Isomerism","icon":"Target","summary":"Why the double bond causes cis and trans forms, with but-2-ene and 1,2-dichloroethene, their properties, and a correction to the notes' diagrams.",
+"keyWords":["Stereoisomerism","Geometrical isomerism","Cis","Trans","Double bond"]
+,"sections":[
+{"h":"What is geometrical isomerism?","p":["Geometrical (cis-trans) isomerism is a kind of stereoisomerism. The atoms are joined in the same order, but they sit differently in space because rotation around a C=C double bond is not possible. Each of the two carbon atoms of the double bond must carry two different groups for it to occur. It is found in alkenes and in ring compounds. It cannot occur in alkanes, because the groups on a single bond can rotate freely.","Cis means 'on the same side' and trans means 'on opposite sides'."]},
+{"h":"Examples","p":["But-2-ene (C₄H₈): in cis-but-2-ene both CH₃ groups are on the same side of the double bond (and both hydrogens on the other side). In trans-but-2-ene the CH₃ groups are on opposite sides.","1,2-dichloroethene (C₂H₂Cl₂): in the cis form the two chlorine atoms are on the same side; in the trans form, they are on opposite sides."],
+"img":{"src":"chem-cis-trans.png","alt":"Drawings of cis-but-2-ene with both methyl groups above the double bond and trans-but-2-ene with the methyl groups on opposite sides, and the same for 1,2-dichloroethene","cap":"Cis (same side) and trans (opposite sides) isomers."}},
+{"h":"A correction","p":["In the source notes, the drawing labelled 'cis' has the CH₃ groups at opposite corners (one top, one bottom), which is really the trans form, and the drawing labelled 'trans' has both CH₃ groups on the same side, which is the cis form. They were swapped. Always check that cis has both like groups on the same side of the double bond."]},
+{"h":"Properties","p":["Cis isomers are usually more polar, so they often have higher boiling points. Trans isomers usually pack better in crystals and so have higher melting points. Their reactions can also differ."]},
+{"h":"Significance","p":["Isomerism explains the diversity of organic compounds. It is important in drugs, where different isomers can have very different effects; in polymers (natural rubber has cis units); and in explaining why molecules with the same formula behave in different ways."]}
+],
+"activity":"Draw cis and trans 1,2-dichloroethene. Why is there no cis-trans isomerism in propene, CH₃CH=CH₂? (One carbon of the double bond has two identical hydrogens.)",
+"check":[
+{"q":"Cis means the two groups are","o":["On the same side of the double bond","On opposite sides","Joined together","Absent"]},
+{"q":"Geometrical isomerism is NOT possible in","o":["Alkanes","But-2-ene","1,2-dichloroethene","Some ring compounds"]},
+{"q":"Geometrical isomers arise because","o":["Rotation around the double bond is restricted","The molecules have different formulae","Atoms are missing","They have no carbon"]},
+{"q":"In trans-but-2-ene the two CH₃ groups are","o":["On opposite sides","On the same side","Joined","Both on one carbon"]},
+{"q":"But-2-ene has the formula","o":["C₄H₈","C₄H₁₀","C₄H₆","C₂H₄"]}]},
+
+{"id":"ch3-08","week":4,"title":"Petroleum and Petrochemicals","icon":"Landmark","summary":"What petroleum is, how it formed, what it contains, why it matters to Nigeria and the world, and the main petrochemicals and their products.",
+"keyWords":["Petroleum","Crude oil","Fossil fuel","Petrochemical","Natural gas"]
+,"sections":[
+{"h":"Meaning and origin","p":["Petroleum (crude oil) is a thick, dark brown or black flammable liquid found underground in porous rocks trapped beneath rock layers that oil cannot pass through. It is a mixture of hydrocarbons with small amounts of sulphur, nitrogen and oxygen compounds and traces of metals such as vanadium and nickel.","Origin: it is a fossil fuel. It was formed from the remains of tiny sea plants and animals that were buried under mud and sediments, perhaps 50 to 500 million years ago. Heat and pressure over millions of years slowly changed them into crude oil and natural gas. The gas often lies above the oil. Oil was first found in Nigeria in 1956 at Oloibiri in the Niger Delta."]},
+{"h":"Composition","p":["Alkanes (paraffins), about 30 to 60%: straight and branched chains such as methane and ethane. Cycloalkanes (naphthenes), about 30 to 40%: ring hydrocarbons such as cyclohexane. Aromatic hydrocarbons, about 3 to 15%: benzene ring compounds such as benzene and toluene. Impurities: hydrogen sulphide and other sulphur, nitrogen and oxygen compounds, and trace metals."]},
+{"h":"Importance of petroleum","p":["Energy: petrol, diesel and kerosene power vehicles, ships, planes, generators and homes. Raw material: for plastics, synthetic fibres, fertilisers, paints, detergents and drugs. Lubricants: oils that reduce friction in machines. Economy: petroleum is Nigeria's largest export and source of government revenue. Road building and roofing: bitumen (asphalt). Electricity: fuel oil and natural gas drive power stations."]},
+{"h":"Petrochemicals","p":["Petrochemicals are chemicals made from petroleum or natural gas, the building blocks of many modern materials."],
+"tbl":{"head":["Petrochemical","Source","End products"],"rows":[
+["Ethylene (ethene)","Cracking of naphtha or ethane","Polyethylene (bags, bottles), PVC, ethanol"],
+["Propylene (propene)","Cracking of oil fractions","Polypropylene (plastic chairs, ropes)"],
+["Benzene","Catalytic reforming","Nylon, detergents, drugs"],
+["Toluene","Catalytic reforming","Paints, adhesives, explosives (TNT)"],
+["Methanol","Synthesis gas (from natural gas)","Formaldehyde, resins, solvents"],
+["Ammonia","Natural gas, by the Haber process","Fertilisers, nitric acid"]]}},
+{"h":"Petroleum products and petrochemicals compared","p":["Petroleum products (petrol, diesel, kerosene, lubricants, bitumen) are the fractions obtained mainly by separating and treating crude oil. Petrochemicals are chemicals made from petroleum or gas by further chemical reactions, and used to make plastics, fibres and other materials."]}
+],
+"activity":"Name five household items made from petrochemicals (for example plastic buckets, nylon, paint). Which petrochemical is each from?",
+"check":[
+{"q":"Petroleum is","o":["A mixture of hydrocarbons","A single pure compound","A metal","A mineral salt"]},
+{"q":"Petroleum is formed from","o":["Remains of tiny sea plants and animals","Volcanoes only","Metals","Ice"]},
+{"q":"Oil was first discovered in Nigeria in","o":["1956","1900","1980","2000"]},
+{"q":"Ethylene is used to make","o":["Polyethylene","Cement","Glass","Salt"]},
+{"q":"Ammonia for fertilisers is made from","o":["Natural gas by the Haber process","Coal by burning","Water","Limestone"]}]},
+
+{"id":"ch3-09","week":4,"title":"Refining of Petroleum and the Petroleum Industry","icon":"Layers","summary":"Fractional distillation of crude oil, cracking and other processes, the fractions and their uses, the environmental problems and Nigeria's petroleum industry.",
+"keyWords":["Refining","Fractionating column","Cracking","Reforming","Fraction"]
+,"sections":[
+{"h":"Stage A: separation by fractional distillation","p":["Crude oil is a mixture of hydrocarbons with different boiling points. It is heated to about 350 to 400 °C so that most of it turns to vapour and is fed into a tall fractionating tower. The tower is hottest at the bottom and cooler at the top. The vapours rise and each condenses at the height where the temperature matches its boiling point. Small molecules with low boiling points rise to the top; large molecules with high boiling points stay near the bottom. Each part is called a fraction."],
+"img":{"src":"chem-fractionating-column.png","alt":"A tall fractionating tower with crude oil entering at the bottom and fractions leaving at levels: refinery gas at the top, then petrol, naphtha, kerosene, diesel, lubricating oil, fuel oil and bitumen at the bottom, with temperature increasing downward","cap":"Fractional distillation of crude oil."}},
+{"h":"The fractions","p":["The boiling ranges below are approximate; books give slightly different values."],
+"tbl":{"head":["Fraction","Approximate boiling range","Position in tower","Uses"],"rows":[
+["Refinery gas (LPG)","Below 40 °C","Top","Cooking gas, heating, raw material"],
+["Petrol (gasoline)","40 to 120 °C","Upper","Car fuel, solvents"],
+["Naphtha","120 to 180 °C","Upper-middle","Petrochemicals, plastics"],
+["Kerosene","180 to 250 °C","Middle","Jet fuel, lamps, cooking stoves"],
+["Diesel oil","250 to 320 °C","Middle-lower","Lorries, buses, generators"],
+["Lubricating oil and waxes","320 to 400 °C","Lower","Lubricants, candles, polishes"],
+["Fuel oil","Above about 350 °C","Near the bottom","Ships, factories, power stations"],
+["Bitumen (residue)","Solid or very thick","Bottom","Road tarring, roofing"]]}},
+{"h":"Stage B: conversion processes","p":["These change fractions that are in low demand into more useful products. Cracking: breaking large molecules into smaller, more useful ones such as petrol and alkenes. Thermal cracking uses high temperature and pressure; catalytic cracking uses a catalyst such as zeolite. Reforming: rearranging molecules into branched and aromatic ones, which raises the octane number (quality) of petrol. Polymerisation: joining small alkene molecules into large molecules. Alkylation: joining small molecules to make high-octane fuel."]},
+{"h":"Stage C: treatment and blending","p":["Desulphurisation removes sulphur compounds so that less sulphur dioxide is produced. Fractions are blended to make fuels that meet the right standards."]},
+{"h":"Environmental and safety problems","p":["Air pollution: burning fuels gives carbon dioxide (a greenhouse gas), carbon monoxide, oxides of nitrogen and sulphur dioxide. Oil spills: damage rivers, farms and fisheries, as in parts of the Niger Delta. Resource depletion: petroleum is non-renewable. Fire and explosion: fuels are very flammable. Industrial accidents: leaks of toxic gas.","Control: develop renewable energy such as solar and wind; maintain pipelines to prevent leaks; run refineries efficiently to reduce emissions; strong environmental laws and safety training; clean up spills."]},
+{"h":"Nigeria's petroleum industry","p":["Refineries: Port Harcourt, Warri and Kaduna (the older state refineries) and the large Dangote refinery at Lekki, Lagos. Products: petrol, diesel, aviation fuel, lubricants and asphalt. Importance: oil and gas provide most of Nigeria's foreign exchange earnings and government revenue. Reducing dependence on oil by developing agriculture, manufacturing and services makes the economy safer.","Fossil fuels compared: petroleum is liquid, rich in energy, easy to move by pipeline and tanker; natural gas (mainly methane) is the cleanest fossil fuel; coal is solid, harder to move, and gives the most ash and soot."]}
+],
+"activity":"Explain in your own words why the fractions of crude oil rise to different heights in the tower. Why is bitumen at the bottom?",
+"check":[
+{"q":"Crude oil is separated into fractions by","o":["Fractional distillation","Filtration","Sieving","Evaporation to dryness"]},
+{"q":"Which fraction is found at the top of the tower?","o":["Refinery gas","Bitumen","Diesel","Lubricating oil"]},
+{"q":"Cracking means","o":["Breaking large molecules into smaller ones","Joining small molecules","Burning oil","Filtering oil"]},
+{"q":"Which fraction is used as jet fuel?","o":["Kerosene","Bitumen","Petrol","Lubricating oil"]},
+{"q":"An environmental problem of petroleum is","o":["Oil spills and air pollution","Low energy","No use","No smell"]}]}
+]

@@ -1,0 +1,365 @@
+[
+{"id":"e23-01","week":1,"title":"Welcome and Table of Contents","icon":"BookOpen","summary":"What SS2 English Language Third Term is about and a map of every unit.",
+"keyWords":["Tenses","Conditionals","Prefixes","Concord","Idioms"],
+"sections":[
+{"h":"Welcome to Third Term","p":["This term you revise all twelve tenses, study conditional and complex sentences, prefixes, active and passive voice, concord, adjuncts, conjuncts and disjuncts, sentence structures, prepositional phrases and idioms. In oral English you study stress and vowel contrasts. In writing you practise speeches, articles, expository essays and summaries of talks and of implied meaning. You also build vocabulary from publishing, industry, hotels and catering, and politics and government.","At the end of every unit are practice questions. They do not count towards a mark; they help you check that you understood. Answer them all correctly to complete the unit."]},
+{"h":"Table of contents for Third Term","p":["Week 5 is the midterm test. Weeks 7 (break) has no lessons."],
+"tbl":{"head":["Unit","Week","Topic"],"rows":[
+["1","-","Welcome and table of contents"],
+["2","1","Grammar: revision of tenses"],
+["3","1","Vocabulary: words of the week 1"],
+["4","2","Grammar: conditional and complex sentences"],
+["5","2","Writing: speech writing"],
+["6","2","Vocabulary: publishing and printing"],
+["7","2","Vocabulary: words of the week 2"],
+["8","3","Grammar: affixation (prefixes)"],
+["9","3","Writing: summarising a talk or lecture"],
+["10","3","Vocabulary: industry"],
+["11","3","Vocabulary: words of the week 3"],
+["12","4","Grammar: forming and using the passive voice"],
+["13","4","Oral English: the dictionary and spelling"],
+["14","4","Writing: article writing"],
+["15","4","Vocabulary: words of the week 4"],
+["16","5","Midterm test guide"],
+["17","6","Oral English: stress in two-syllable words"],
+["18","6","Comprehension: paraphrasing poems and drama"],
+["19","6","Grammar: concord (subject-verb agreement)"],
+["20","6","Vocabulary: words of the week 6"],
+["21","8","Oral English: vowel contrasts"],
+["22","8","Structure: adjuncts, conjuncts and disjuncts"],
+["23","8","Comprehension: simple, compound and complex sentences"],
+["24","8","Writing: the expository essay"],
+["25","8","Vocabulary: words of the week 8"],
+["26","9","Structure: prepositional phrases"],
+["27","9","Vocabulary: hotel and catering"],
+["28","9","Writing: summarising implied meaning"],
+["29","9","Vocabulary: words of the week 9"],
+["30","10","Structure: idioms"],
+["31","10","Comprehension: critical evaluation and fallacies"],
+["32","10","Vocabulary: politics and government"],
+["33","10","Vocabulary: words of the week 10"],
+["34","11","Revision"]]}}
+],
+"activity":"Which unit will help you to complete 'If I had studied, I ___ passed'? Which unit explains how to write a prize-giving day speech?",
+"check":[
+{"q":"Which unit covers conditionals?","o":["Unit 4","Unit 8","Unit 21","Unit 30"]},
+{"q":"In which unit do you study prefixes?","o":["Unit 8","Unit 5","Unit 19","Unit 26"]},
+{"q":"Which unit covers speech writing?","o":["Unit 5","Unit 14","Unit 24","Unit 28"]},
+{"q":"Which unit covers idioms?","o":["Unit 30","Unit 2","Unit 12","Unit 22"]}]},
+
+{"id":"e23-02","week":1,"title":"Grammar: Revision of Tenses","icon":"Layers","summary":"The twelve English tenses by time and aspect, their forms, main uses and examples, with the difference between the present perfect and simple past.",
+"keyWords":["Tense","Aspect","Present perfect","Past perfect","Future perfect"]
+,"sections":[
+{"h":"Time and aspect","p":["Tense shows time (past, present, future) and aspect (simple, continuous, perfect, perfect continuous). Together they give twelve tenses."]},
+{"h":"Present tenses","p":["Simple present (base verb, add -s for he, she, it): habits ('She walks to school every day'), general truths ('Water boils at 100 degrees'), timetables ('The film starts at 9 PM'), stative verbs ('I believe you').","Present continuous (am, is, are + verb-ing): actions now ('I am studying'), temporary situations ('He is staying with his cousin'), definite plans ('We are travelling to Lagos tomorrow'), annoyance with 'always' ('You are always interrupting').","Present perfect (has, have + past participle): a past action with a present result ('I have lost my wallet'), life experience ('She has visited Ghana three times'), unfinished action ('He has lived in London for ten years'; 'She has worked here since 2020').","Present perfect continuous (has, have + been + verb-ing): stresses duration ('She has been painting the room all morning'); recent temporary action ('I have been running')."]},
+{"h":"Past tenses","p":["Simple past (verb + -ed, or irregular): a completed action at a definite time ('I finished my homework last night'); a series of actions ('I woke up, brushed my teeth and went to work').","Past continuous (was, were + verb-ing): an action in progress at a past moment ('At 8 PM yesterday I was watching a film'); an interrupted action ('I was sleeping when the phone rang'); two actions at once ('While I was cooking, he was cleaning').","Past perfect (had + past participle): the past before the past ('When we arrived, the film had already started').","Past perfect continuous (had been + verb-ing): duration before another past action ('He had been waiting for an hour before she arrived')."]},
+{"h":"Future tenses","p":["Simple future (will + base verb; shall with I and we in formal offers): predictions ('I think it will rain'), spontaneous decisions ('The phone is ringing. I will get it'), promises and offers.","Future continuous (will be + verb-ing): in progress at a future time ('This time next Friday I will be flying to Abuja'); polite questions ('Will you be using the car tonight?').","Future perfect (will have + past participle): completed before a future time ('By 2030 I will have graduated')."]},
+{"h":"Present perfect and simple past","p":["Two people look at an empty parking space. 'I sold it' (simple past: finished, and we may ask when). 'I have sold it' (present perfect: the result matters now, the car is gone). 'I was watching television when the lights went out' (interruption). 'She was late because she had missed her bus' (the missed bus came first)."]}
+],
+"activity":"Correct: 'I have seen that film last year' (I saw that film last year). Fill in: she ___ (live) in that house since 2010 (has lived); while I ___ (read) my father came in (was reading); I think it ___ (rain) tomorrow (will rain); the patient ___ (die) before the doctor arrived (had died). Write 5 to 7 sentences about a memorable day using simple past, past continuous and past perfect.",
+"check":[
+{"q":"'By 2030 I will have graduated' is the","o":["Future perfect","Future continuous","Simple future","Present perfect"]},
+{"q":"'I was sleeping when the phone rang' uses the","o":["Past continuous for an interrupted action","Present perfect","Simple future","Past perfect"]},
+{"q":"'He has lived here for ten years' means he","o":["Still lives here","Left","Died","Never lived here"]},
+{"q":"'I have seen that film last year' is","o":["Wrong; use the simple past","Correct","A question","A command"]},
+{"q":"The past perfect shows","o":["An action before another past action","A future plan","A habit","A general truth"]}]},
+
+{"id":"e23-03","week":1,"title":"Vocabulary: Words of the Week 1","icon":"BookOpen","summary":"Nine words: acronym, troupe, ardour, professionalism, behemoth, calumny, compliment, indigent and dissemble, with the compliment/complement difference.",
+"keyWords":["Acronym","Behemoth","Calumny","Indigent","Dissemble"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Acronym (n.)","A word made from the first letters of other words and said as a word (NATO, LASER, PIN)","initialism (if letters are said separately)"],
+["Troupe (n.)","A group of performers who travel together","company, ensemble"],
+["Ardour (n.)","Great enthusiasm or zeal","passion, fervour"],
+["Professionalism (n.)","Skill, good judgment and polite behaviour expected in a job","competence"],
+["Behemoth (n.)","Something enormous, especially a powerful organisation","giant, colossus"],
+["Calumny (n.)","False statements made to damage a reputation","slander, defamation"],
+["Compliment (n./v.)","A polite expression of praise","praise"],
+["Indigent (adj.)","Poor; needy","destitute, penniless"],
+["Dissemble (v.)","To hide one's true motives or feelings","disguise, feign"]]}},
+{"h":"A common error","p":["'Compliment' (praise) is not 'complement' (something that completes or goes well with something else). 'She received a lovely compliment.' 'The wine was a perfect complement to the cheese.'"]}
+],
+"activity":"Write five sentences using: ardour, behemoth, indigent, dissemble, professionalism. Is 'SIM' an acronym? (It stands for Subscriber Identity Module and is said as a word, so it works as an acronym.) Give a synonym for calumny (slander).",
+"check":[
+{"q":"A travelling group of performers is a","o":["Troupe","Acronym","Behemoth","Calumny"]},
+{"q":"'Indigent' means","o":["Poor","Rich","Angry","Tall"]},
+{"q":"'Calumny' is","o":["Slander","Praise","A song","A tax"]},
+{"q":"The word 'complement' means","o":["Something that completes","Praise","Insult","Argument"]},
+{"q":"To 'dissemble' is to","o":["Hide true feelings","Take apart a machine only","Tell the truth","Run away"]}]},
+
+{"id":"e23-04","week":2,"title":"Grammar: Conditional and Complex Sentences","icon":"Layers","summary":"Types 0, 1, 2 and 3 of the conditional, the subjunctive 'were', and complex sentences with main and subordinate clauses.",
+"keyWords":["Conditional","If-clause","Subjunctive","Main clause","Subordinate clause"]
+,"sections":[
+{"h":"Conditional sentences","p":["A conditional sentence has an if-clause (the condition) and a main clause (the result).","Type 0 (general truths): if + simple present, simple present. 'If you heat ice, it melts.'","Type 1 (likely): if + simple present, will + base verb. 'If it rains tomorrow, the match will be cancelled.'","Type 2 (unlikely or imaginary, present or future): if + simple past, would + base verb. 'If I won the lottery, I would buy a private jet.' In careful English use 'were' for all subjects: 'If I were you, I would apologise.' (the subjunctive).","Type 3 (impossible, past; regret): if + past perfect, would have + past participle. 'If I had studied harder, I would have passed.' 'If she had taken the earlier train, she would not have been late.'"]},
+{"h":"Compare","p":["Type 1: 'If I have enough money, I will buy a car' (a real plan). Type 2: 'If I had enough money, I would buy a car' (a dream; I do not have it). Type 3: 'If I had had enough money, I would have bought a car' (a past regret). 'If he spoke French, he would get the job in Paris' is Type 2 (he does not speak French). 'If I see him, I will tell him' is a real possibility; 'If I saw him, I would tell him' is unlikely."]},
+{"h":"Complex sentences","p":["A complex sentence has one main (independent) clause and at least one subordinate (dependent) clause. A main clause can stand alone. A subordinate clause cannot; it often begins with if, when, because, although, who, which or that. 'The match will be cancelled [main] if it rains tomorrow [subordinate].' 'The student [who won the prize] was very happy.' 'Although it was raining [subordinate], we went for a walk [main].'"]}
+],
+"activity":"Complete: (a) If you mix red and blue, you ___ purple (get); (b) If I ___ invisible for a day, I ___ to people's private conversations (were, would listen); (c) She ___ the exam if she ___ properly (would not have failed, had revised). Correct: 'If I was the president, I will reduce taxes' (If I were the president, I would reduce taxes). Main and subordinate clause in 'The book that I borrowed from the library is overdue': main: The book is overdue; subordinate: that I borrowed from the library.",
+"check":[
+{"q":"Type 3 uses","o":["Past perfect and would have","Simple present and will","Simple past and would","Simple present and simple present"]},
+{"q":"'If you heat ice, it melts' is Type","o":["0","1","2","3"]},
+{"q":"'If I were you, I would apologise' is Type","o":["2","1","3","0"]},
+{"q":"A subordinate clause","o":["Cannot stand alone","Can stand alone","Is always a question","Has no verb"]},
+{"q":"'If I had known, I would have helped' expresses","o":["Regret about the past","A habit","A fact","A command"]}]},
+
+{"id":"e23-05","week":2,"title":"Writing: Speech Writing","icon":"Users","summary":"The features and structure of a speech (title, salutation, introduction, body with rhetorical devices and conclusion), how it differs from an article, and a prize-giving day outline.",
+"keyWords":["Speech","Salutation","Rhetorical question","Anaphora","Rule of three"]
+,"sections":[
+{"h":"What is a speech?","p":["A speech is a formal address to an audience. It is written to be heard, not read, and that shapes its structure and language. It may inspire, persuade, inform or entertain."]},
+{"h":"Features","p":["Title: clear and striking ('The Peril of Plastic: A Call to Action'). Salutation: a formal greeting that respects the audience's ranks ('The Honourable Minister of Education, the Principal, members of the Board of Governors, dedicated staff, proud parents and my fellow students'). Introduction: a hook (a quotation, statistic, question or short story); the occasion; the thesis or central message. Body: two to four organised paragraphs using rhetorical devices: rhetorical questions ('How many of you wish to see a cleaner environment?'), repetition or anaphora ('We must act. We must lead. We must change.'), the rule of three ('honour, duty and legacy'), personal stories and direct address ('we', 'you', 'our'). Conclusion: sum up, end with a memorable statement, a call to action or hope, and thank the audience."]},
+{"h":"Speech and article","p":["Study the table."],
+"tbl":{"head":["Feature","Speech","Article"],"rows":[
+["Mode","Spoken","Written"],
+["Audience","Present and specific","Absent and general"],
+["Format","Salutation and direct address","Headline and by-line; no salutation"],
+["Tone","Personal, direct, conversational","More formal and impersonal"],
+["Language","Rhetorical devices, short sentences, repetition","Headings, more complex sentences"]]}},
+{"h":"Outline for a prize-giving day speech","p":["Title: 'Celebrating Excellence, Inspiring Futures'. Salutation to the chairman, principal, teachers, parents, guests and fellow students. Introduction: a greeting and honour of the occasion; thesis: we honour achievers and reflect on the qualities that lead to success. Body 1: congratulate the winners ('diligence bears sweet fruit'). Body 2: encourage those without prizes ('let this ceremony be a catalyst, not a conclusion'). Body 3: thank teachers and parents. Conclusion: today's excellence is the foundation of tomorrow's success; thanks; a closing line."]}
+],
+"activity":"You are the Senior Prefect. Write a 250-word speech for Prize-Giving Day that welcomes the guests formally, congratulates winners sincerely, encourages other students and ends memorably.",
+"check":[
+{"q":"A speech is written to be","o":["Heard","Read silently","Printed in a paper","Sung"]},
+{"q":"'We must act. We must lead.' is","o":["Anaphora (repetition)","A simile","An oxymoron","A euphemism"]},
+{"q":"A speech has a","o":["Salutation","Headline and by-line","Recipient's address","Signature block"]},
+{"q":"The rule of three means","o":["Grouping points in threes","Writing three pages","Three speakers","Three titles"]},
+{"q":"A conclusion should","o":["Thank the audience and leave a lasting thought","Add new topics","Start an argument","End abruptly"]}]},
+
+{"id":"e23-06","week":2,"title":"Vocabulary: Publishing and Printing","icon":"BookOpen","summary":"Eleven words for the journey of a book from author to reader: manuscript, publisher, editor, proofreader, typography, layout, copyright, plagiarism, glossary, bibliography and appendix.",
+"keyWords":["Manuscript","Copyright","Plagiarism","Glossary","Bibliography"]
+,"sections":[
+{"h":"From manuscript to book","p":["Study the table."],
+"tbl":{"head":["Word","Meaning"],"rows":[
+["Manuscript","The author's original text, handwritten or typed, sent to a publisher"],
+["Publisher","The company that pays for, produces and sells a book"],
+["Editor","Reviews the manuscript for content, clarity, grammar and accuracy and works with the author"],
+["Proofreader","Checks the final proofs (galley proofs) for printing or layout errors before mass printing"],
+["Typography","The art of arranging type so that text is legible and attractive"],
+["Layout","The design of a page: text, images, margins, columns"],
+["Copyright","The exclusive legal right of a creator to print, publish, perform or record a work"],
+["Plagiarism","Using someone else's work or ideas without acknowledgement and presenting them as your own"],
+["Glossary","An alphabetical list of specialised terms with definitions, usually at the back"],
+["Bibliography","A list of the books and sources the author consulted"],
+["Appendix (plural appendices)","Extra material (data, charts) that supports the main text"]]}}
+],
+"activity":"Write 60 to 100 words on how a book reaches readers, using at least four of: manuscript, editor, publisher, layout, galley proof, copyright. Where would you find the meaning of a technical term in a textbook? (In the glossary.)",
+"check":[
+{"q":"The person who checks final proofs is the","o":["Proofreader","Publisher","Author","Binder"]},
+{"q":"Using someone's ideas without credit is","o":["Plagiarism","Editing","Copyright","Layout"]},
+{"q":"A list of sources consulted is a","o":["Bibliography","Glossary","Appendix","Manuscript"]},
+{"q":"Copyright protects the","o":["Creator's legal rights","Reader's rights","Printer's machines","Library"]},
+{"q":"The singular of 'appendices' is","o":["Appendix","Appendices","Appendixe","Appendus"]}]},
+
+{"id":"e23-07","week":2,"title":"Vocabulary: Words of the Week 2","icon":"BookOpen","summary":"Ten words: balk, complicit, impecunious, encumber, mollify, frivolous, confection, disrepute, benevolent and generous.",
+"keyWords":["Balk","Complicit","Mollify","Disrepute","Benevolent"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Balk (v.)","To hesitate or refuse to go on","resist, jib"],
+["Complicit (adj.)","Involved with others in wrongdoing","colluding"],
+["Impecunious (adj.)","Having little or no money","penniless"],
+["Encumber (v.)","To burden or hinder","hamper"],
+["Mollify (v.)","To calm someone's anger","placate, soothe"],
+["Frivolous (adj.)","Without serious purpose","trivial, silly"],
+["Confection (n.)","An elaborate sweet; a cleverly made article","sweet creation"],
+["Disrepute (n.)","Loss of good reputation","disgrace"],
+["Benevolent (adj.)","Kindly and charitable","compassionate"],
+["Generous (adj.)","Ready to give more than is needed","magnanimous"]]}}
+],
+"activity":"Write five sentences using: balk, complicit, encumber, disrepute, benevolent. Which word means to calm someone down, balk or mollify? (mollify.) Write a 3 to 4-line dialogue in which one person tries to mollify another who is angry about something frivolous.",
+"check":[
+{"q":"To 'mollify' is to","o":["Calm","Anger","Delay","Copy"]},
+{"q":"A 'complicit' person is","o":["Involved in wrongdoing","Innocent","Absent","Honest"]},
+{"q":"'Impecunious' means","o":["Having little money","Very rich","Very lazy","Very old"]},
+{"q":"To 'balk' is to","o":["Hesitate or refuse","Rush forward","Praise","Win"]},
+{"q":"'Frivolous' means","o":["Not serious","Very important","Heavy","Dangerous"]}]},
+
+{"id":"e23-08","week":3,"title":"Grammar: Affixation (Prefixes)","icon":"Layers","summary":"What a morpheme and a prefix are, and the main negative, time, number and other prefixes with examples.",
+"keyWords":["Prefix","Morpheme","Affix","Negative prefix","Root"]
+,"sections":[
+{"h":"Prefixes","p":["Affixation adds a morpheme (the smallest unit of meaning) to a root word to make a new word. A prefix goes at the beginning (un- + happy = unhappy); a suffix goes at the end (hope + -ful = hopeful). A prefix usually changes meaning but not word class. The choice of prefix often depends on the first letter of the root."]},
+{"h":"Common prefixes","p":["Study the table."],
+"tbl":{"head":["Prefix","Meaning","Examples"],"rows":[
+["un-","not; reverse an action","unhappy, unable, undo, unlock"],
+["in-","not","invisible, incorrect, inactive"],
+["im- (before m, p, b)","not","impossible, impolite, imbalance"],
+["ir- (before r)","not","irregular, irrelevant, irresponsible"],
+["il- (before l)","not","illegal, illogical, illiterate"],
+["dis-","not; opposite; away","disagree, dislike, disappear, disarm"],
+["non-","not","nonsense, non-stop, non-fiction"],
+["mis-","wrongly, badly","misunderstand, misspell, misbehave"],
+["pre-","before","pre-war, prepare, preview"],
+["post-","after","post-war, postpone, postgraduate"],
+["ex-","former; out of","ex-president, exhale, exclude"],
+["uni- / mono-","one","uniform, unicycle, monopoly"],
+["bi- / di-","two","bicycle, bilingual, dioxide"],
+["tri-","three","triangle, tripod, trilogy"],
+["poly- / multi-","many","polygon, multinational"],
+["re-","again, back","redo, rewrite, rebuild"],
+["co-","with, together","co-operate, co-pilot"],
+["sub-","under","submarine, subway, substandard"],
+["inter-","between","international, internet, interact"]]}},
+{"h":"Worked examples","p":["Add a negative prefix: responsible becomes irresponsible (r); legal becomes illegal (l). 'Unappear' is not a word; 'disappear' means to vanish. The prefix un- often reverses an action: lock, unlock; do, undo; wrap, unwrap; plug, unplug."]}
+],
+"activity":"Form opposites: accurate (inaccurate), comfortable (uncomfortable), respectful (disrespectful), understand (misunderstand), efficient (inefficient). Explain: international (between nations), reconstruct (build again), multilingual (many languages). Use re-, mis- and non- in three sentences.",
+"check":[
+{"q":"The opposite of 'legal' is","o":["Illegal","Inlegal","Unlegal","Dislegal"]},
+{"q":"'Post-' means","o":["After","Before","Under","Between"]},
+{"q":"In 'submarine', 'sub-' means","o":["Under","Over","Before","Many"]},
+{"q":"'Tri-' means","o":["Three","Two","One","Many"]},
+{"q":"A prefix is added","o":["At the beginning","At the end","In the middle","Never"]},
+{"q":"The opposite of 'possible' uses","o":["im-","un-","ir-","il-"]}]},
+
+{"id":"e23-09","week":3,"title":"Writing: Summarising a Talk or Lecture","icon":"Target","summary":"The three-step process (before, during and after the lecture), signpost language and shorthand.",
+"keyWords":["Lecture","Signpost language","Shorthand","Thesis","Summary"]
+,"sections":[
+{"h":"Why it is hard","p":["You cannot re-read a speaker's words, so summarising a talk depends on active listening and efficient notes that separate main ideas from details at once."]},
+{"h":"Three steps","p":["Before: find out the topic if you can (background makes key terms easier), and have a notebook and pen; avoid distractions.","During: do not transcribe; capture ideas. Listen for signpost language: introducing the main idea ('My central argument is...', 'The key point is...'); listing ('There are three main reasons... First... Second... Finally...'); examples ('For instance...', 'To illustrate...'); emphasis ('It is crucial to remember...', 'Most importantly...'); concluding ('In conclusion...', 'To sum up...'). Use shorthand: & or + (and), w/ (with), w/o (without), an arrow (leads to), e.g., cf. (compare), govt, devt. Keep the skeleton (thesis and main supporting arguments); skip jokes, long stories and repetition.","After: review your notes at once while memory is fresh and fill gaps; find the core message (thesis); list two to four key points; write one paragraph in your own words combining them with no opinion; edit for brevity and clarity."]}
+],
+"activity":"Your teacher gives a 3 to 4-minute talk on 'The benefits of reading' or 'The importance of clean water'. Take notes and then write a one-paragraph summary of no more than 80 words with no opinion.",
+"check":[
+{"q":"Writing every word a speaker says is","o":["Ineffective","Best practice","Required","Easy"]},
+{"q":"'To sum up' is a","o":["Concluding signpost","Greeting","Example marker","Question"]},
+{"q":"After the lecture you should","o":["Review notes at once","Wait a week","Throw notes away","Add your opinion"]},
+{"q":"The core message of a talk is its","o":["Thesis","Joke","Example","Title only"]},
+{"q":"A summary should include","o":["Main ideas only","Your opinion","Every example","Names only"]}]},
+
+{"id":"e23-10","week":3,"title":"Vocabulary: Industry","icon":"Zap","summary":"Eleven words from mine to market: industry, raw materials, manufacturing, automation, assembly line, production, productivity, logistics, heavy industry, light industry and cottage industry.",
+"keyWords":["Raw materials","Manufacturing","Automation","Assembly line","Productivity"]
+,"sections":[
+{"h":"An industrial lexicon","p":["Study the table."],
+"tbl":{"head":["Word","Meaning"],"rows":[
+["Industry","Part of the economy that produces goods and services: primary (extracts raw materials), secondary (manufactures) and tertiary (services)"],
+["Raw materials","Basic substances in their natural state used in production (crude oil, iron ore, bauxite, timber, cotton, rubber)"],
+["Manufacturing","Turning raw materials into finished goods on a large scale"],
+["Automation","Using machines and control systems with little human effort"],
+["Assembly line","A process where parts are added in sequence to make a product much faster than by hand (made famous by Henry Ford)"],
+["Production","The overall act of making goods"],
+["Productivity","How efficiently things are produced (output compared with inputs)"],
+["Logistics / supply chain","Organising the flow of goods from supplier to customer"],
+["Heavy industry","Large, capital-heavy industry making big products (shipbuilding, steel)"],
+["Light industry","Less capital-heavy industry making small consumer goods (textiles, food processing)"],
+["Cottage industry","A small business run from home"]]}}
+],
+"activity":"Pick automotive, textile or food processing and write 80 to 100 words on how the product moves from raw materials to finished goods, using at least four of: raw materials, manufacturing, assembly line, automation, production, logistics. Which sector is a car plant in? (Secondary.)",
+"check":[
+{"q":"Crude oil is a","o":["Raw material","Finished good","Service","Tax"]},
+{"q":"A car factory belongs to the","o":["Secondary sector","Primary sector","Tertiary sector","Cottage sector"]},
+{"q":"Automation aims to","o":["Reduce human effort and raise efficiency","Employ more clerks","Reduce output","Slow work"]},
+{"q":"Shipbuilding is","o":["Heavy industry","Cottage industry","Light industry","A service"]},
+{"q":"Productivity measures","o":["Efficiency of production","Price","Size of the factory","Pay"]}]},
+
+{"id":"e23-11","week":3,"title":"Vocabulary: Words of the Week 3","icon":"BookOpen","summary":"Eight words: arcane, plenitude, interject, laconic, primeval, quandary, rail and vacillate.",
+"keyWords":["Arcane","Plenitude","Quandary","Vacillate","Interject"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Arcane (adj.)","Understood by few; mysterious","esoteric, obscure"],
+["Plenitude (n.)","An abundance","plethora, cornucopia"],
+["Interject (v.)","To say abruptly as an interruption","interrupt, cut in"],
+["Laconic (adj.)","Using very few words","terse, curt"],
+["Primeval (adj.)","Of the earliest ages; ancient","primordial"],
+["Quandary (n.)","A state of uncertainty over what to do","dilemma, predicament"],
+["Rail (v.)","To complain strongly and persistently","rant"],
+["Vacillate (v.)","To waver between opinions or actions","dither, hesitate"]]}}
+],
+"activity":"Write five sentences using: arcane, plenitude, interject, primeval, vacillate. Write a 4 to 5-line dialogue between a person in a quandary and a laconic adviser.",
+"check":[
+{"q":"A 'quandary' is","o":["A state of confusion about what to do","A big feast","A song","A tool"]},
+{"q":"'Arcane' means","o":["Known to few","Common","Loud","Sweet"]},
+{"q":"To 'rail' against something is to","o":["Protest strongly","Support it","Build it","Ignore it"]},
+{"q":"'Vacillate' means","o":["Waver","Decide quickly","Run","Whisper"]},
+{"q":"'Primeval' means","o":["Ancient","Modern","Brand new","Fast"]}]},
+
+{"id":"e23-12","week":4,"title":"Grammar: Forming and Using the Passive Voice","icon":"Layers","summary":"The four-step method for changing active to passive, a tense table, and four situations in which the passive is the better choice.",
+"keyWords":["Passive voice","Agent","Past participle","Four steps","Formal writing"]
+,"sections":[
+{"h":"Active and passive","p":["In the active voice the subject does the action ('The chef cooked the meal'): direct and strong. In the passive voice the subject receives the action ('The meal was cooked by the chef'): used when the doer is unknown, unimportant or when the action or receiver is to be stressed."]},
+{"h":"Four steps","p":["1. Find subject, verb and object: [The company] [built] [the house]. 2. Make the object the new subject: [The house]. 3. Change the verb to a form of 'to be' + the past participle, keeping the same tense: built becomes 'was built'. 4. Make the old subject the agent with 'by' (optional): 'The house was built by the company.'"],
+"tbl":{"head":["Tense","Active","Passive"],"rows":[
+["Simple present","He eats the rice.","The rice is eaten by him."],
+["Present continuous","He is eating the rice.","The rice is being eaten by him."],
+["Simple past","He ate the rice.","The rice was eaten by him."],
+["Past continuous","He was eating the rice.","The rice was being eaten by him."],
+["Present perfect","He has eaten the rice.","The rice has been eaten by him."],
+["Past perfect","He had eaten the rice.","The rice had been eaten by him."],
+["Simple future","He will eat the rice.","The rice will be eaten by him."],
+["Future perfect","He will have eaten the rice.","The rice will have been eaten by him."],
+["Modal","He must eat the rice.","The rice must be eaten by him."]]}},
+{"h":"When to use the passive","p":["When the doer is unknown ('My wallet was stolen'). When the doer is obvious or unimportant ('The suspect was arrested'; 'The new bridge will be opened next month'). To stress the action or receiver ('The Mona Lisa was painted by Leonardo da Vinci'). In scientific or formal writing ('The experiment was conducted under controlled conditions')."]}
+],
+"activity":"Change to passive: the police officer arrested the thief (The thief was arrested by the police officer); they are building a new road (A new road is being built); our club will organise the party (The party will be organised by our club); the storm had damaged the roof (The roof had been damaged by the storm). Change to active: the national anthem was sung by the students (The students sang the national anthem); the problem is being solved by the engineer (The engineer is solving the problem).",
+"check":[
+{"q":"'The scripts are being marked by the teacher' is the passive of","o":["The teacher is marking the scripts","The teacher marked the scripts","The teacher will mark the scripts","The teacher has marked the scripts"]},
+{"q":"A reason to use the passive is when the doer is","o":["Unknown or unimportant","Always the subject","A pronoun","A noun"]},
+{"q":"The passive uses 'to be' plus the","o":["Past participle","Infinitive","Gerund","Imperative"]},
+{"q":"'My wallet was stolen' hides the","o":["Agent","Object","Verb","Tense"]},
+{"q":"Passive of 'We will close the gate' is","o":["The gate will be closed","The gate is closed","The gate was closed","The gate will close"]}]},
+
+{"id":"e23-13","week":4,"title":"Oral English: the Dictionary and Spelling","icon":"Zap","summary":"How to read a dictionary entry (spelling, pronunciation, word class, definitions, examples, derived forms and origin) and three spelling rules.",
+"keyWords":["Dictionary","Etymology","IPA","Spelling rule","Word class"]
+,"sections":[
+{"h":"Reading an entry","p":["A dictionary tells you much more than spelling. Take 'profound': pro•found /prəˈfaʊnd/ adj. 1 very great or intense (profound despair). 2 showing great knowledge or insight (a profound philosopher). Derived form: profoundly. Origin: from Latin profundus 'deep'.","Spelling and word division (pro•found); pronunciation in the IPA (the stress mark shows stress on the second syllable); word class (adj. = adjective); numbered definitions, from most to least common; example phrases that show use; derived forms; and origin (etymology), which helps you remember the meaning."]},
+{"h":"Three spelling rules","p":["'i' before 'e' except after 'c' when the sound is /iː/: believe, field, piece; receive, deceive, ceiling. Exceptions: weird, seize, height, foreign.","Drop a final silent 'e' before a suffix that begins with a vowel: make, making; use, usable. Keep the 'e' to keep a soft 'c' or 'g': change, changeable.","Double the final consonant of a one-syllable word ending in a single vowel plus one consonant before a vowel suffix: run, running; big, bigger. This also applies to longer words stressed on the last syllable: begin, beginning."]}
+],
+"activity":"Look up 'conduct' in a good dictionary: its word classes, the pronunciation of each, the first definition of each and one common phrase. Correct: accomodate (accommodate), embarass (embarrass), neccessary (necessary), proffessor (professor). Which is right: recieve or receive? (receive.)",
+"check":[
+{"q":"The IPA in a dictionary shows","o":["How to pronounce the word","The author","The page number","The price"]},
+{"q":"Etymology tells you the word's","o":["Origin","Plural","Rhyme","Colour"]},
+{"q":"The correct spelling is","o":["Receive","Recieve","Receeve","Receiv"]},
+{"q":"'Running' doubles the n because","o":["One-syllable word ending in vowel + consonant","It is a verb only","It is an adjective","It ends in e"]},
+{"q":"'Make' + '-ing' gives","o":["Making","Makeing","Makking","Maaking"]}]},
+
+{"id":"e23-14","week":4,"title":"Writing: Article Writing","icon":"Target","summary":"The structure of a compelling article (catchy headline, by-line, hooking introduction, developed body, closing) with Nigerian topics and a comparison with a formal letter.",
+"keyWords":["Headline","By-line","Hook","Body paragraph","Conclusion"]
+,"sections":[
+{"h":"Purpose","p":["An article is written for a wide audience in a newspaper, magazine, journal or online. It informs, explains, describes or persuades. Unlike a speech it is written to be read, and unlike a letter it has no named addressee."]},
+{"h":"Structure","p":["1. Headline: catchy (alliteration, a play on words or a question) and informative: 'The Plastic Plague: Choking Our Oceans'. 2. By-line: the author's name below the title. 3. Introduction (the hook): a startling statistic, an anecdote, a rhetorical question or a direct statement; it introduces the topic and your angle. 4. Body: one main idea per paragraph, each opening with a topic sentence, backed by facts, examples, quotations or statistics, linked with connectives (furthermore, on the other hand, as a result). 5. Conclusion: sum up, offer a solution, recommendation or prediction, and end with a strong final sentence."]},
+{"h":"Article and formal letter","p":["An article has no addresses, no salutation, no 'Yours faithfully'; the author's name appears in the by-line under the title. A formal letter has both addresses, a salutation, a complimentary close and a signature. An article can be formal or informal but is always engaging; a letter is strictly formal."]}
+],
+"activity":"Write a 250 to 300-word article for your school magazine on 'The importance of vocational skills in Nigeria's modern economy', 'The menace of examination malpractice' or 'Why every student should join a school club', with a title, by-line, hook, at least three points and a conclusion.",
+"check":[
+{"q":"The by-line shows the","o":["Author","Date","Price","Page"]},
+{"q":"A good headline is","o":["Catchy and informative","Dull","Missing","A paragraph"]},
+{"q":"Each body paragraph should have","o":["One main idea and a topic sentence","Many ideas","No topic sentence","Only quotes"]},
+{"q":"An article has no","o":["Salutation","Introduction","Conclusion","Body"]},
+{"q":"A hook can be a","o":["Startling statistic","Closing line","Signature","Address"]}]},
+
+{"id":"e23-15","week":4,"title":"Vocabulary: Words of the Week 4","icon":"BookOpen","summary":"Ten words: arboreal, camaraderie, exalt, gaudy, mawkish, diffident, forum, idolatrous, ornate and paradigm.",
+"keyWords":["Arboreal","Camaraderie","Diffident","Forum","Ornate"]
+,"sections":[
+{"h":"The words","p":["Study the table."],
+"tbl":{"head":["Word","Meaning","Close in meaning"],"rows":[
+["Arboreal (adj.)","Living in trees","tree-dwelling"],
+["Camaraderie (n.)","Mutual trust and friendship among people who spend much time together","fellowship"],
+["Exalt (v.)","To praise highly","extol, glorify"],
+["Gaudy (adj.)","Showy and tasteless","garish, tacky"],
+["Mawkish (adj.)","Feebly sentimental","maudlin, cloying"],
+["Diffident (adj.)","Shy through lack of self-confidence","timid, bashful"],
+["Forum (n.)","A place or medium for exchanging views","assembly, symposium"],
+["Idolatrous (adj.)","Showing blind admiration","worshipping"],
+["Ornate (adj.)","Richly decorated","elaborate"],
+["Paradigm (n.)","A typical example or model","exemplar"]]}}
+],
+"activity":"Write five sentences using: camaraderie, exalt, mawkish, idolatrous, ornate. Write a short paragraph about a fictional character using 'diffident' and 'arboreal'. What is a forum used for? (Exchanging ideas and views.)",
+"check":[
+{"q":"An 'arboreal' animal lives in","o":["Trees","Water","Caves","Burrows"]},
+{"q":"'Diffident' means","o":["Shy","Bold","Angry","Rich"]},
+{"q":"'Gaudy' means","o":["Showy and tasteless","Plain","Quiet","Elegant"]},
+{"q":"'Camaraderie' is","o":["Friendship among colleagues","A fight","A car","A cake"]},
+{"q":"A 'forum' is a","o":["Place to exchange views","Tool","Fruit","Road"]}]},
+
+{"id":"e23-16","week":5,"title":"Midterm Test Guide","icon":"Target","summary":"What the Third Term midterm test covers and a short practice drawn from Weeks 1 to 4.",
+"keyWords":["Midterm","Tenses","Conditionals","Passive","Vocabulary"]
+,"sections":[
+{"h":"What is tested","p":["The test covers Weeks 1 to 4: tenses, conditional sentences, active and passive voice, prefixes, the dictionary and spelling, speech and article writing, summarising a talk, and the vocabulary of the weeks and registers (publishing, industry). Section A is objective (40 marks): choosing verb forms, naming conditional types, changing voice, choosing the nearest meaning and filling gaps. Section B is theory (60 marks): an article, a comprehension and summary, and grammar tasks including three conditional sentences and rewriting a paragraph in the passive."]},
+{"h":"Practice","p":["Choose: 'She ___ in Lagos since 2010' (has lived). 'By the time we arrived, the film ___' (had started). 'If I had known, I would have helped' is Type (3). 'If you heat water to 100°C, it ___' (boils). Change to passive: 'The chef prepared the meal' (The meal was prepared by the chef). Nearest meaning: 'His ardour for the project was infectious' (passion). 'The behemoth corporation dominated the market' (giant). Gap: 'The charity helped ___ families' (indigent). 'She tried to ___ her fears, but her hands shook' (dissemble).","Rewrite in the passive where possible: 'The company launched the new product last week. They advertised it on television and social media. Many people have already bought it.' (The new product was launched by the company last week. It was advertised on television and social media. It has already been bought by many people.)"]}
+],
+"activity":"Write one original sentence for each type of conditional (1, 2 and 3), then write an article on 'The role of the youth in curbing corruption'.",
+"check":[
+{"q":"'Had started' is the","o":["Past perfect","Present perfect","Simple past","Future perfect"]},
+{"q":"'Indigent' means","o":["Poor","Rich","Kind","Angry"]},
+{"q":"To 'dissemble' fears is to","o":["Hide them","Share them","Fix them","Measure them"]},
+{"q":"Type 3 conditionals express","o":["Past regret","Future plans","Habits","Facts"]},
+{"q":"'Ardour' means","o":["Passion","Fear","Sleep","Cost"]}]}
+]

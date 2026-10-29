@@ -1,0 +1,151 @@
+[
+{"id":"m31-02","week":1,"title":"Logarithms: Meaning and Laws","icon":"Zap",
+"summary":"Revision of what a logarithm is, the laws of logarithms and the change of base formula.",
+"keyWords":["Logarithm","Base","Product law","Quotient law","Power law","Change of base"],
+"sections":[
+{"h":"What is a logarithm?","p":["A logarithm is the inverse of an exponent. If aˣ = y, then log_a y = x. Here a is the base (a > 0 and a ≠ 1), x is the logarithm (the power), and y is the number (y > 0). Read log_a y = x as 'log to base a of y is x'.","Examples: 2³ = 8 means log₂ 8 = 3. 10² = 100 means log₁₀ 100 = 2. 5² = 25 means log₅ 25 = 2. 3⁴ = 81 means log₃ 81 = 4. 2⁻³ = 1/8 means log₂ (1/8) = −3."]},
+{"h":"The laws of logarithms","p":["1. Product law: log_a (mn) = log_a m + log_a n. Example: log₂ (8 × 4) = 3 + 2 = 5, and 2⁵ = 32 = 8 × 4.","2. Quotient law: log_a (m/n) = log_a m − log_a n. Example: log₂ (16/4) = 4 − 2 = 2.","3. Power law: log_a (mⁿ) = n log_a m. Example: log₂ (8³) = 3 × 3 = 9, and 8³ = 512 = 2⁹.","4. log_a 1 = 0 for any base, because a⁰ = 1.","5. log_a a = 1, because a¹ = a.","6. Change of base: log_a m = log_b m ÷ log_b a. Example: log₂ 8 = log₁₀ 8 ÷ log₁₀ 2 = 0.9031 ÷ 0.3010 = 3."]},
+{"h":"Worked examples","p":["Evaluate log₅ 125 + log₅ 25 − log₅ 5 = 3 + 2 − 1 = 4.","Evaluate 3 log₂ 8 − 2 log₂ 4 + log₂ 16 = 9 − 4 + 4 = 9.","Evaluate 2 log₂ 4 + 3 log₂ 2 − log₂ 8 = 4 + 3 − 3 = 4.","Given log₁₀ 2 = 0.3010, log₁₀ 3 = 0.4771 and log₁₀ 7 = 0.8451: log₁₀ 6 = 0.3010 + 0.4771 = 0.7781; log₁₀ 14 = 0.3010 + 0.8451 = 1.1461; log₁₀ 21 = 0.4771 + 0.8451 = 1.3222; log₁₀ 4.5 = log₁₀ 9 − log₁₀ 2 = 2(0.4771) − 0.3010 = 0.6532.","Express as a single logarithm: 2 log₁₀ x + log₁₀ y − 3 log₁₀ z = log₁₀ (x²y / z³)."]},
+{"h":"Common and natural logarithms","p":["The common logarithm has base 10 (the log button on a calculator). The natural logarithm has base e ≈ 2.718 (the ln button). They are related by ln x = 2.3026 × log₁₀ x."]}
+],
+"activity":"Write in logarithmic form: 5³ = 125 (log₅ 125 = 3), 10⁴ = 10 000 (log₁₀ 10 000 = 4), 2⁻³ = 1/8 (log₂ (1/8) = −3). Evaluate log₃ 81 (4), log₂ (1/16) (−4) and log₁₀ 1000 − log₁₀ 10 + log₁₀ 100 (3 − 1 + 2 = 4).",
+"check":[
+{"q":"log₂ 8 =","o":["3","4","2","16"]},
+{"q":"log_a (mn) =","o":["log_a m + log_a n","log_a m × log_a n","log_a m − log_a n","n log_a m"]},
+{"q":"log₅ 125 + log₅ 25 − log₅ 5 =","o":["4","6","5","3"]},
+{"q":"log_a 1 =","o":["0","1","a","undefined"]},
+{"q":"log₁₀ 6, given log₁₀ 2 = 0.3010 and log₁₀ 3 = 0.4771, is","o":["0.7781","0.1761","1.4331","0.1436"]}
+]},
+
+{"id":"m31-03","week":1,"title":"Logarithmic and Exponential Equations and Calculations","icon":"Target",
+"summary":"Solving equations that contain logarithms or unknown powers, checking for invalid answers, and using logarithms for calculations.",
+"keyWords":["Logarithmic equation","Exponential equation","Valid solution","Antilogarithm","Calculation"],
+"sections":[
+{"h":"Simple logarithmic equations","p":["Change to exponential form. log₂ x = 5 gives x = 2⁵ = 32. log₁₀ x = 3 gives x = 1000. log₅ x = −2 gives x = 5⁻² = 1/25 = 0.04. log₃ (2x − 1) = 2 gives 2x − 1 = 9, so x = 5."]},
+{"h":"Equations that need the laws","p":["Example 1. log₂ x + log₂ (x − 3) = 2. Combine: log₂ [x(x − 3)] = 2, so x² − 3x = 4 and x² − 3x − 4 = 0. (x − 4)(x + 1) = 0, so x = 4 or x = −1. A logarithm needs a positive number, so x = −1 is rejected. Check x = 4: log₂ 4 + log₂ 1 = 2 + 0 = 2. Correct.","Example 2. log₃ (x + 2) − log₃ (x − 1) = 1. (x + 2)/(x − 1) = 3, so x + 2 = 3x − 3 and x = 2.5.","Example 3. 2 log₅ x = log₅ 9. x² = 9, so x = 3 (x = −3 is rejected).","Example 4. log₃ x + log₃ (x + 6) = 3. x(x + 6) = 27, x² + 6x − 27 = 0, (x + 9)(x − 3) = 0, so x = 3.","Example 5. log₁₀ (x + 3) − log₁₀ (x − 2) = 1. (x + 3)/(x − 2) = 10, x + 3 = 10x − 20, so x = 23/9 ≈ 2.56.","Example 6. log₂ x + log₂ (x − 7) = 3. x(x − 7) = 8, x² − 7x − 8 = 0, (x − 8)(x + 1) = 0, so x = 8."]},
+{"h":"Exponential equations","p":["If the bases can be matched, compare the powers: 3^(2x + 1) = 27 = 3³, so 2x + 1 = 3 and x = 1. 3^(x + 2) = 81 = 3⁴, so x = 2.","If not, take logarithms of both sides: 2ˣ = 10. x log 2 = 1, so x = 1 ÷ 0.3010 = 3.32. 5ˣ = 20: x = log 20 ÷ log 5 = 1.3010 ÷ 0.6990 = 1.86."]},
+{"h":"Growth problem","p":["A population grows by P = P₀ × 2^(t/10), where t is in years. How long does 50 000 take to reach 200 000? 200 000 = 50 000 × 2^(t/10), so 2^(t/10) = 4 = 2². t/10 = 2, so t = 20 years. (By logarithms: (t/10) log 2 = log 4 = 2 log 2, so t/10 = 2.)"]},
+{"h":"Calculations with logarithms","p":["Use log to turn multiplication into addition and division into subtraction. 45.6 × 78.2: log 45.6 = 1.6590 and log 78.2 = 1.8932. Sum = 3.5522. Antilog = 3 566. Check: 45.6 × 78.2 = 3 565.9.","875 ÷ 23.4: 2.9420 − 1.3692 = 1.5728, antilog = 37.4. (4.8)⁴: 4 × 0.6812 = 2.7248, antilog = 530.8. ⁴√625: (1/4) × 2.7959 = 0.6990, antilog = 5.","Always check your answer with a calculator."]},
+{"h":"A case with no solution","p":["2 log₅ x − log₅ (x − 4) = log₅ 4 gives x²/(x − 4) = 4, so x² − 4x + 16 = 0. Its discriminant is 16 − 64 = −48, which is negative, so there is no real solution."]}
+],
+"activity":"Solve log₂ x = 4 (16), log₅ x = −1 (0.2), log₁₀ x = 2.5 (316.2), 5ˣ = 20 (1.86) and log₃ (x + 2) = 2 (7). Use logarithms to evaluate 87.3 × 42.6 (3 719) and 456 ÷ 12.8 (35.6).",
+"check":[
+{"q":"log₃ x + log₃ (x + 6) = 3 gives x =","o":["3","−9","9","6"]},
+{"q":"3^(x + 2) = 81 gives x =","o":["2","4","3","1"]},
+{"q":"A population 50 000 grows by 2^(t/10). It reaches 200 000 after","o":["20 years","10 years","40 years","4 years"]},
+{"q":"In log₂ x + log₂ (x − 3) = 2, the answer x = −1 is rejected because","o":["logs of negative numbers do not exist","it is too small","it is not a whole number","it does not satisfy x² − 3x − 4 = 0"]},
+{"q":"5ˣ = 20 gives x about","o":["1.86","4","2.5","0.4"]}
+]},
+
+{"id":"m31-04","week":2,"title":"Logic: Statements and Connectives","icon":"Layers",
+"summary":"What a statement is, and the connectives not, and, or, with their truth tables.",
+"keyWords":["Statement","Negation","Conjunction","Disjunction","Truth table"],
+"sections":[
+{"h":"Statements","p":["Logic is the science of correct reasoning. A statement (proposition) is a sentence that is either true or false, but not both. 'Lagos is in Nigeria' is true. '5 + 3 = 7' is false. 'Go to school!' is a command and 'What is your name?' is a question: neither is a statement. 'x + 5 = 10' is not a statement until x is given a value.","A simple statement has one idea (p: It is raining). A compound statement joins simple statements with connectives (It is raining and I am hungry)."]},
+{"h":"Negation (not)","p":["The negation of p is written ~p or ¬p. It is true when p is false and false when p is true. If p is 'It is raining', ~p is 'It is not raining'."],"tbl":{"head":["p","~p"],"rows":[["T","F"],["F","T"]]}},
+{"h":"Conjunction (and)","p":["p ∧ q is true only when both p and q are true."],"tbl":{"head":["p","q","p ∧ q"],"rows":[["T","T","T"],["T","F","F"],["F","T","F"],["F","F","F"]]}},
+{"h":"Disjunction (or)","p":["p ∨ q is true when at least one of p and q is true (the inclusive or)."],"tbl":{"head":["p","q","p ∨ q"],"rows":[["T","T","T"],["T","F","T"],["F","T","T"],["F","F","F"]]}},
+{"h":"Building a truth table","p":["For two statements there are 4 rows (2²). For three there are 8 rows (2³). Work in steps, one column for each part.","Example: (p ∨ q) ∧ ~p. For p = T, q = T: (T) ∧ F = F. For T, F: T ∧ F = F. For F, T: T ∧ T = T. For F, F: F ∧ T = F. So the statement is true only when p is false and q is true."],"tbl":{"head":["p","q","p ∨ q","~p","(p ∨ q) ∧ ~p"],"rows":[["T","T","T","F","F"],["T","F","T","F","F"],["F","T","T","T","T"],["F","F","F","T","F"]]}}
+],
+"activity":"Which of these are statements: 'Abuja is the capital of Nigeria', 'Close the door', '2 + 2 = 5', 'Is it raining?' (the first and third). Construct a truth table for ~(p ∧ q) (F, T, T, T).",
+"check":[
+{"q":"A statement is a sentence that is","o":["either true or false but not both","a command","a question","always true"]},
+{"q":"p ∧ q is true only when","o":["both p and q are true","either is true","both are false","p is false"]},
+{"q":"If p is true, ~p is","o":["false","true","unknown","not a statement"]},
+{"q":"p ∨ q is false only when","o":["both p and q are false","both are true","p is true","q is true"]},
+{"q":"A truth table for three statements has","o":["8 rows","6 rows","4 rows","3 rows"]}
+]},
+
+{"id":"m31-05","week":2,"title":"Logic: Conditional and Biconditional Statements","icon":"Target",
+"summary":"The conditional p → q and biconditional p ↔ q, and the converse, inverse and contrapositive of a conditional.",
+"keyWords":["Conditional","Hypothesis","Conclusion","Biconditional","Converse","Inverse","Contrapositive"],
+"sections":[
+{"h":"The conditional (if ... then)","p":["p → q reads 'if p, then q'. p is the hypothesis and q is the conclusion. Example: If it rains (p), then the ground is wet (q). The conditional is false only when the hypothesis is true and the conclusion is false. If the hypothesis is false the conditional is true (vacuous truth): a false hypothesis tells us nothing about the conclusion."],"tbl":{"head":["p","q","p → q"],"rows":[["T","T","T"],["T","F","F"],["F","T","T"],["F","F","T"]]}},
+{"h":"The biconditional (if and only if)","p":["p ↔ q is true when p and q have the same truth value. Example: A number is divisible by 2 if and only if it is even."],"tbl":{"head":["p","q","p ↔ q"],"rows":[["T","T","T"],["T","F","F"],["F","T","F"],["F","F","T"]]}},
+{"h":"Converse, inverse and contrapositive","p":["For p → q: the converse is q → p (If the ground is wet, then it rained). The inverse is ~p → ~q (If it does not rain, the ground is not wet). The contrapositive is ~q → ~p (If the ground is not wet, then it did not rain).","A conditional and its contrapositive are logically equivalent (they always have the same truth value). The converse and inverse are equivalent to each other, but not to the original. In the example, the ground can be wet from a burst pipe, so the converse can be false even when the original is true."]},
+{"h":"Show that p → q is equivalent to ~q → ~p","p":["Row T, T: p → q is T; ~q → ~p is F → F = T. Row T, F: p → q is F; ~q → ~p is T → F = F. Row F, T: p → q is T; ~q → ~p is F → T = T. Row F, F: p → q is T; ~q → ~p is T → T = T. The two columns are identical (T, F, T, T), so they are equivalent."]},
+{"h":"Also check","p":["(p → q) ∧ (q → p) has the same truth table as p ↔ q. The statement (p ∧ q) → r is false only when p and q are true and r is false."]}
+],
+"activity":"Write the converse, inverse and contrapositive of: If a number is divisible by 6, then it is divisible by 3. (Converse: If a number is divisible by 3, then it is divisible by 6 (false). Inverse: If a number is not divisible by 6, then it is not divisible by 3 (false). Contrapositive: If a number is not divisible by 3, then it is not divisible by 6 (true).)",
+"check":[
+{"q":"p → q is false only when","o":["p is true and q is false","p is false and q is true","both are false","both are true"]},
+{"q":"The contrapositive of p → q is","o":["~q → ~p","q → p","~p → ~q","p → ~q"]},
+{"q":"A conditional and its contrapositive are","o":["logically equivalent","never equivalent","contradictory","always false"]},
+{"q":"p ↔ q is true when","o":["p and q have the same truth value","p is true","q is true","both are false only"]},
+{"q":"The converse of 'If it rains, the ground is wet' is","o":["If the ground is wet, it rained.","If it does not rain, the ground is not wet.","If the ground is not wet, it did not rain.","It rains and the ground is wet."]}
+]},
+
+{"id":"m31-06","week":2,"title":"Logic: Equivalence, Tautology and Valid Arguments","icon":"Layers",
+"summary":"Logical equivalence and De Morgan's laws, tautologies and contradictions, and testing whether an argument is valid.",
+"keyWords":["Equivalence","De Morgan","Tautology","Contradiction","Argument","Validity"],
+"sections":[
+{"h":"Logical equivalence","p":["Two statements are logically equivalent (≡) if their truth tables are identical.","De Morgan's laws: ~(p ∧ q) ≡ ~p ∨ ~q and ~(p ∨ q) ≡ ~p ∧ ~q.","Check the first: for T, T: ~(T) = F and F ∨ F = F. For T, F: ~(F) = T and F ∨ T = T. For F, T: T and T ∨ F = T. For F, F: T and T ∨ T = T. The columns match.","Other equivalences: p ∧ T ≡ p, p ∨ F ≡ p, p ∧ p ≡ p, p ∨ p ≡ p."]},
+{"h":"Tautology, contradiction and contingency","p":["A tautology is always true: p ∨ ~p. A contradiction is always false: p ∧ ~p. A contingency can be true or false: p ∧ q."]},
+{"h":"Arguments and validity","p":["An argument has premises (statements assumed true) and a conclusion. It is valid if the conclusion must be true whenever all the premises are true.","Valid: p → q, p, therefore q (modus ponens). In the only row where both premises are true (p = T, q = T), q is also true.","Valid: p → q, ~q, therefore ~p (modus tollens).","Invalid: p → q, q, therefore p (affirming the consequent). Take p = F and q = T: both premises are true but the conclusion p is false."]},
+{"h":"Everyday example","p":["Premise 1: If a student studies, he passes. Premise 2: John studied. Conclusion: John passed. This is valid. But Premise 2: John passed; conclusion: John studied is invalid, because he may have passed in some other way."]}
+],
+"activity":"Is the argument 'If it rains, the match is cancelled. The match was cancelled. So it rained.' valid? (No: it is the invalid form p → q, q ∴ p.) Verify De Morgan's second law ~(p ∨ q) ≡ ~p ∧ ~q with a truth table.",
+"check":[
+{"q":"A statement that is always true is a","o":["tautology","contradiction","contingency","negation"]},
+{"q":"~(p ∧ q) is equivalent to","o":["~p ∨ ~q","~p ∧ ~q","p ∨ q","p → q"]},
+{"q":"p ∨ ~p is a","o":["tautology","contradiction","contingency","conditional only"]},
+{"q":"Which argument form is valid?","o":["p → q, p, therefore q","p → q, q, therefore p","p ∨ q, p, therefore q","p, q, therefore ~p"]},
+{"q":"p ∧ ~p is a","o":["contradiction","tautology","contingency","valid argument"]}
+]},
+
+{"id":"m31-07","week":3,"title":"Surds: Simplifying and Rationalising","icon":"Zap",
+"summary":"Simplifying surds, adding and multiplying them, and rationalising denominators.",
+"keyWords":["Surd","Simplify","Rationalise","Conjugate"],
+"sections":[
+{"h":"What is a surd?","p":["A surd is an irrational root that cannot be written exactly as a fraction, such as √2, √3 and √5. We keep them in surd form for exact answers."]},
+{"h":"Simplifying","p":["Use √(ab) = √a × √b and look for the largest square factor. √32 = √(16 × 2) = 4√2. √45 = √(9 × 5) = 3√5. √48 = 4√3, √75 = 5√3, √12 = 2√3."]},
+{"h":"Adding and subtracting","p":["Only like surds can be combined. 3√8 + 2√2 = 6√2 + 2√2 = 8√2. √48 + √75 − √12 = 4√3 + 5√3 − 2√3 = 7√3."]},
+{"h":"Multiplying","p":["√2 × √8 = √16 = 4. (√3 + √2)(√3 − √2) = 3 − 2 = 1 (difference of two squares). (2 + √3)² = 4 + 4√3 + 3 = 7 + 4√3."]},
+{"h":"Rationalising the denominator","p":["Remove the surd from the bottom. 1/√3 = √3/3. 2/√5 = 2√5/5.","With a binomial denominator multiply top and bottom by the conjugate (change the sign between the terms). 1/(1 + √2) = (1 − √2) / ((1 + √2)(1 − √2)) = (1 − √2) / (1 − 2) = √2 − 1. 3/(√5 − √2) = 3(√5 + √2) / (5 − 2) = √5 + √2."]}
+],
+"activity":"Simplify √72 (6√2), 2√27 + √3 (7√3), (3 + √5)(3 − √5) (4). Rationalise 6/√3 (2√3) and 1/(√3 − 1) ((√3 + 1)/2).",
+"check":[
+{"q":"√32 =","o":["4√2","2√4","16√2","8√2"]},
+{"q":"3√8 + 2√2 =","o":["8√2","5√10","6√2","10√2"]},
+{"q":"1/√3 =","o":["√3/3","1/3","3√3","√3"]},
+{"q":"1/(1 + √2) =","o":["√2 − 1","1 − √2","√2 + 1","1/3"]},
+{"q":"(√3 + √2)(√3 − √2) =","o":["1","5","√6","3 − √6"]}
+]},
+
+{"id":"m31-08","week":3,"title":"Exact Trigonometric Values for 30°, 45° and 60°","icon":"Target",
+"summary":"The exact values of sine, cosine and tangent of 30°, 45° and 60°, the CAST rule and worked examples with surds.",
+"keyWords":["Exact values","30°, 45°, 60°","CAST rule","Identity","Surds"],
+"sections":[
+{"h":"The exact values","p":["Use a right-angled isosceles triangle (sides 1, 1, √2) for 45° and half of an equilateral triangle (sides 1, 2, √3) for 30° and 60°."],"tbl":{"head":["Angle","sin","cos","tan"],"rows":[["30°","1/2","√3/2","1/√3 = √3/3"],["45°","√2/2","√2/2","1"],["60°","√3/2","1/2","√3"]]}},
+{"h":"The CAST rule","p":["In the four quadrants (0° to 360°): All ratios are positive in the first quadrant (0° to 90°). Sine only is positive in the second (90° to 180°). Tangent only is positive in the third (180° to 270°). Cosine only is positive in the fourth (270° to 360°). 'All Students Take Calculus' helps you remember."]},
+{"h":"Worked examples","p":["sin²45° + cos²45° = 1/2 + 1/2 = 1 (so sin²θ + cos²θ = 1).","tan 60° − tan 30° = √3 − √3/3 = 2√3/3.","sin 30° cos 60° + cos 30° sin 60° = 1/4 + 3/4 = 1.","sin²30° + sin²45° + sin²60° = 1/4 + 1/2 + 3/4 = 3/2.","tan 45° + 2 sin 30° − cos 60° = 1 + 1 − 1/2 = 3/2.","tan 60° × cos 30° = √3 × √3/2 = 3/2.","(sin 45° + cos 45°)² = (√2)² = 2.","(sin 60° − cos 60°)² = (√3/2 − 1/2)² = (4 − 2√3)/4 = (2 − √3)/2.","sin²45° + cos²60° − tan²30° = 1/2 + 1/4 − 1/3 = 5/12."]},
+{"h":"Finding an angle","p":["If sin θ = √3/2 and θ is acute: cos²θ = 1 − 3/4 = 1/4, so cos θ = 1/2, and tan θ = √3. So θ = 60°. Solve 2 cos x = √3 for 0° ≤ x ≤ 90°: cos x = √3/2, so x = 30°. If tan θ = √3 (acute), θ = 60°, sin θ = √3/2 and cos θ = 1/2."]},
+{"h":"A correction","p":["An exercise asks to prove (sin 60° − sin 30°) / (cos 30° − cos 60°) = √3. Numerator = √3/2 − 1/2 = (√3 − 1)/2. Denominator = √3/2 − 1/2 = (√3 − 1)/2. They are equal, so the value is 1, not √3."]}
+],
+"activity":"Find the exact value of sin²30° + cos²30° (1), sin 30° cos 60° − cos 30° sin 60° (−1/2), and 2 sin 60° cos 30° − sin 90° (1/2).",
+"check":[
+{"q":"sin 60° =","o":["√3/2","1/2","√2/2","√3"]},
+{"q":"tan 60° =","o":["√3","1/√3","1","1/2"]},
+{"q":"sin²30° + sin²45° + sin²60° =","o":["3/2","1","2","5/4"]},
+{"q":"(sin 45° + cos 45°)² =","o":["2","1","√2","1/2"]},
+{"q":"In the third quadrant (180° to 270°) the positive ratio is","o":["tangent","sine","cosine","all three"]}
+]},
+
+{"id":"m31-09","week":3,"title":"Graphs of Sine and Cosine and Solving Trigonometric Equations","icon":"BarChart2",
+"summary":"The shapes and properties of y = sin x and y = cos x for 0° to 360°, and solving simple trigonometric equations from the graph and by calculation.",
+"keyWords":["Sine graph","Cosine graph","Period","Amplitude","Equations"],
+"sections":[
+{"h":"The two graphs","p":["Both graphs are smooth waves. Period: 360° (the pattern repeats every 360°). Amplitude: 1 (the greatest height). Range: −1 ≤ y ≤ 1.","y = sin x starts at 0, rises to 1 at 90°, falls to 0 at 180°, to −1 at 270° and returns to 0 at 360°. y = cos x starts at 1, falls to 0 at 90°, to −1 at 180°, rises to 0 at 270° and returns to 1 at 360°. The cosine graph is the sine graph shifted 90° to the left: cos x = sin (x + 90°).","The two graphs meet where sin x = cos x, at x = 45° and x = 225°."],"img":{"src":"mth33-sincos.png","alt":"The sine curve and the cosine curve from 0 to 360 degrees with the points where they cross at 45 and 225 degrees marked","cap":"y = sin x and y = cos x."}},
+{"h":"Table of values","p":["Use these values to draw the graphs (for example with 1 cm = 30° on the x-axis and 2 cm = 1 unit on the y-axis)."],"tbl":{"head":["x","0°","30°","60°","90°","180°","270°","360°"],"rows":[["sin x","0","0.5","0.87","1","0","−1","0"],["cos x","1","0.87","0.5","0","−1","0","1"]]}},
+{"h":"Solving equations","p":["To solve sin x = 0.5 for 0° ≤ x ≤ 360°, draw y = 0.5 on the graph. It cuts the sine curve at 30° and 150° (150° = 180° − 30°).","cos x = 0.5: x = 60° or x = 300° (360° − 60°).","sin x = √3/2: x = 60° or 120°.","sin x = √2/2: x = 45° or 135°. 2 cos θ − 1 = 0 gives cos θ = 1/2, so θ = 60° or 300°. tan x = 1/√3: x = 30° or 210°.","sin x = cos x: dividing by cos x gives tan x = 1, so x = 45° or 225°. cos x = 0: x = 90° or 270°."]},
+{"h":"Solving linear equations by graph","p":["2x + 3 = 0: draw y = 2x + 3. It crosses the x-axis at x = −1.5. y = 2x + 1 and y = −x + 4 meet at (1, 3): x = 1, y = 3."]}
+],
+"activity":"Use a graph of y = cos x to solve cos x = 0.5 (60° and 300°). Solve for 0° ≤ θ ≤ 360°: sin θ = √2/2 (45° and 135°) and tan x = 1/√3 (30° and 210°).",
+"check":[
+{"q":"The period of y = sin x is","o":["360°","180°","90°","1"]},
+{"q":"sin x = 0.5 for 0° ≤ x ≤ 360° gives","o":["30° and 150°","30° and 60°","60° and 120°","30° and 330°"]},
+{"q":"cos x = 0.5 for 0° ≤ x ≤ 360° gives","o":["60° and 300°","60° and 120°","30° and 150°","60° and 240°"]},
+{"q":"The graphs of sin x and cos x cross at","o":["45° and 225°","30° and 210°","60° and 240°","90° and 270°"]},
+{"q":"The maximum value of y = sin x is","o":["1","0","360","90"]}
+]}
+]
