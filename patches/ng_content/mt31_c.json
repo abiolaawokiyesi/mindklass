@@ -1,0 +1,115 @@
+[
+{"id":"mt31-16","week":6,"title":"Rational Numbers and Repeating Decimals","icon":"BarChart2",
+"summary":"What a rational number is, how to show that a decimal is rational, and how to change a repeating decimal into a fraction.",
+"keyWords":["Rational number","Terminating decimal","Repeating decimal","Fraction"],
+"sections":[
+{"h":"Definition","p":["A rational number is any number that can be written as a fraction p/q, where p and q are integers and q ≠ 0. Its decimal form either stops (terminates) or repeats."]},
+{"h":"Kinds of rational numbers","p":["Study the table."],"tbl":{"head":["Kind","Examples"],"rows":[["Integers","5 = 5/1, –3 = –3/1, 0 = 0/1, 100 = 100/1"],["Fractions","1/2, 3/4, –2/5, 7/3, 15/8"],["Terminating decimals","0.5 = 1/2, 0.75 = 3/4, 0.125 = 1/8, 2.5 = 5/2"],["Repeating decimals","0.333… = 1/3, 0.666… = 2/3, 0.142857142857… = 1/7, 2.444… = 22/9"]]}},
+{"h":"Showing that a terminating decimal is rational","p":["Write it over a power of 10 and simplify. 0.6 = 6/10 = 3/5. 0.25 = 25/100 = 1/4. 1.5 = 15/10 = 3/2. 0.625 = 625/1,000 = 5/8. 3.75 = 375/100 = 15/4."]},
+{"h":"Changing a repeating decimal to a fraction","p":["Let x equal the decimal. Multiply by 10 if one digit repeats, by 100 if two digits repeat, and so on, so that the repeating parts line up. Subtract and solve.","Example 4: 0.777… Let x = 0.777…; then 10x = 7.777…; 10x – x = 7, so 9x = 7 and x = 7/9.","Example 5: 0.333…: 10x – x = 3, so 9x = 3 and x = 1/3.","Example 6: 0.454545…: two digits repeat, so 100x = 45.4545…; 100x – x = 45, so 99x = 45 and x = 45/99 = 5/11."]},
+{"h":"Answers to Section C","p":["0.5555… = 5/9. 0.222… = 2/9. 0.888… = 8/9. 0.1666…: 10x = 1.666… and 100x = 16.666…, so 100x – 10x = 15, 90x = 15 and x = 1/6. 0.272727… = 27/99 = 3/11. 0.363636… = 36/99 = 4/11. 0.125125125… = 125/999. 0.123123123… = 123/999 = 41/333.","Evaluation: 0.444… = 4/9. The difference between 0.333… and 0.333 is that 0.333… = 1/3 exactly while 0.333 = 333/1,000."]}
+],
+"activity":"Convert 0.8181… to a fraction (9/11). Show that 0.375 is rational (3/8).",
+"check":[
+{"q":"A rational number can be written as","o":["p/q with q not zero","A never-ending, non-repeating decimal","Only a whole number","A square root only"]},
+{"q":"0.75 as a fraction is","o":["3/4","7/5","75/10","1/75"]},
+{"q":"0.777… as a fraction is","o":["7/9","7/10","77/100","7/99"]},
+{"q":"0.454545… as a fraction is","o":["5/11","45/100","9/20","4/9"]},
+{"q":"0 is","o":["Rational","Irrational","Neither","Undefined"]}
+]},
+
+{"id":"mt31-17","week":6,"title":"Irrational Numbers and How to Classify Numbers","icon":"BarChart2",
+"summary":"What an irrational number is, common examples such as √2 and π, and a decision process for classifying any number, with the answers to the classification exercises.",
+"keyWords":["Irrational number","Surd","Pi","Perfect square","Classification"],
+"sections":[
+{"h":"Definition","p":["An irrational (non-rational) number cannot be written as a fraction of two integers. Its decimal never ends and never repeats. Examples: most square roots, π and e."]},
+{"h":"Examples","p":["Square roots that are not perfect squares: √2 = 1.41421356…, √3 = 1.7320508…, √5 = 2.2360679…, √7 = 2.6457513… Special numbers: π = 3.14159265…, e = 2.71828182… and the golden ratio φ = 1.6180339… Combinations such as 2 + √3, 5π and √2/2.","Note that √4 = 2 and √9 = 3 are rational, because 4 and 9 are perfect squares."]},
+{"h":"Decision process","p":["Step 1: Can it be written as a fraction? If yes, it is rational. Step 2: Is it the square root of a perfect square? Then it is rational. Step 3: Does the decimal stop? Then rational. Step 4: Does the decimal repeat? Then rational. Step 5: If none of these, it is irrational. A decimal such as 0.101001000100001… has a pattern but does not repeat, so it is irrational. So is 0.123456789101112…"]},
+{"h":"Examples","p":["Example 10: 5 is rational (5/1). 2/3 is rational. 0.8 is rational (4/5). √25 = 5 is rational. √7 is irrational. π is irrational. 0.666… is rational (2/3). 0.123456789101112… is irrational. –3 is rational. √2 is irrational.","Example 11: 7 rational; √11 irrational; 0.5 rational; π/2 irrational; –4/9 rational; √36 = 6 rational; 2.333… = 7/3 rational; e irrational; 0 rational; √50 irrational."]},
+{"h":"Answers to Section B","p":["8 rational; √8 irrational; 0.5 rational; √16 rational; –3/4 rational; π irrational; √100 rational; 0.666… rational; √20 irrational; 2.5 rational; e irrational; √81 rational; 0.123456789… (continuing the pattern) irrational; 7/2 rational; √2 irrational; 0 rational; –5 rational; √(–4) is not a real number at all, so it is neither rational nor irrational; 0.142857142857… rational; √50 irrational.","Why √4 is rational and √5 is not: √4 = 2 = 2/1, but no fraction squared gives exactly 5, and √5 = 2.236067977… never ends or repeats."]},
+{"h":"True or false (Section E)","p":["1. True. 2. False (1/2 is rational but not an integer). 3. False (only decimals that stop or repeat are rational). 4. False (22/7 is only an approximation). 5. False (√9 = 3). 6. True. 7. True. 8. False (√2 + (–√2) = 0). 9. True. 10. True. 11. False (√2 × √2 = 2, which is rational). 12. False. 13. True. 14. True (π is about 3.14). 15. True."]}
+],
+"activity":"Classify: √49, √12, 3.14, π, 0.2, 2.020020002…",
+"check":[
+{"q":"Which is irrational?","o":["√7","√25","0.25","7/2"]},
+{"q":"The decimal of an irrational number","o":["Never ends and never repeats","Always stops","Always repeats","Is a whole number"]},
+{"q":"√36 is","o":["Rational","Irrational","Not a number","Neither"]},
+{"q":"22/7 is","o":["An approximation to π","Equal to π","An irrational number","Equal to 3.14 exactly"]},
+{"q":"0.101001000100001… is","o":["Irrational","Rational","A fraction","An integer"]}
+]},
+
+{"id":"mt31-18","week":6,"title":"Properties of Rational and Irrational Numbers and the Real Number System","icon":"Layers",
+"summary":"Closure, density, sums and products of mixed types, the family tree of real numbers, approximating irrationals, and the proof that √2 is irrational.",
+"keyWords":["Closure","Density","Real numbers","Approximation","Proof by contradiction"],
+"sections":[
+{"h":"Properties of rational numbers","p":["Closure: the sum, difference and product of rational numbers are rational, and so is the quotient (if the divisor is not zero). Example: 1/2 + 1/3 = 5/6 and 2/3 × 3/4 = 1/2. Density: between any two rational numbers there are infinitely many more. Example: between 1/3 and 1/2, the average is (1/2 + 1/3) ÷ 2 = 5/12, and 1/3 < 5/12 < 1/2."]},
+{"h":"Properties of irrational numbers","p":["Irrational numbers are not closed: the sum or product of two irrationals may or may not be irrational. √2 + √2 = 2√2 (irrational), but √2 + (–√2) = 0 (rational). √2 × √3 = √6 (irrational), but √2 × √2 = 2 (rational).","Rational + irrational = irrational: 3 + √2 and 1/2 + π are irrational. Non-zero rational × irrational = irrational: 2√3 and 5π are irrational (but 0 × √2 = 0, the exception)."]},
+{"h":"The real number system","p":["Real numbers split into rational and irrational numbers. Rational numbers include integers (which include whole numbers, which include natural numbers 1, 2, 3 …) and fractions. Irrational numbers include non-perfect-square roots and special numbers such as π and e.","Example 17: 5 is natural, whole, integer, rational and real. –3 is an integer, rational and real. 2/3 is rational and real. √2 is irrational and real. 0 is whole, integer, rational and real. π is irrational and real."]},
+{"h":"Mixed operations","p":["2 + 3 = 5 rational. √4 + √9 = 2 + 3 = 5 rational. √2 + √3 irrational. 5 × 1/2 = 5/2 rational. 2 × √3 irrational. √8 ÷ √2 = √4 = 2 rational. π + 1 irrational. 0.5 + 0.333… = 5/6 rational. √25 – √16 = 5 – 4 = 1 rational. 3 × √5 irrational."]},
+{"h":"Approximation","p":["We write √2 ≈ 1.414, but √2 is not exactly 1.414; the decimal is a rational approximation. Likewise π ≈ 3.14 or 22/7. Note that 22/7 = 3.142857… is not equal to π."]},
+{"h":"Why √2 is irrational (proof by contradiction)","p":["Suppose √2 = p/q in lowest terms (p and q have no common factor). Then 2 = p²/q², so p² = 2q². So p² is even, so p is even; write p = 2k. Then 4k² = 2q², so q² = 2k², so q² is even and q is even. But then p and q are both even and share the factor 2, which contradicts 'lowest terms'. So √2 cannot be rational."]},
+{"h":"Operations answers (Section D)","p":["3 + 5 = 8 rational. √4 + √9 = 5 rational. √2 + √3 irrational. 5 × 1/2 = 5/2 rational. 2√3 irrational. √8 ÷ √2 = 2 rational. π + 1 irrational. 1/2 + 1/3 = 5/6 rational. √25 – √16 = 1 rational. 3√5 irrational."]}
+],
+"activity":"Find a rational number between 2/5 and 1/2 (9/20). Give an example of two irrational numbers whose sum is rational (√3 and –√3).",
+"check":[
+{"q":"The sum of two rational numbers is always","o":["Rational","Irrational","An integer","Zero"]},
+{"q":"√2 × √2 =","o":["2, which is rational","√4 which is irrational","1.414","Irrational"]},
+{"q":"3 + √2 is","o":["Irrational","Rational","An integer","Zero"]},
+{"q":"A natural number is also","o":["Rational and real","Irrational","Not real","A fraction only"]},
+{"q":"Between two rational numbers there are","o":["Infinitely many rational numbers","None","Exactly one","Only integers"]}
+]},
+
+{"id":"mt31-19","week":8,"title":"Direct and Inverse Variation, with Powers","icon":"BarChart2",
+"summary":"The constant of variation, direct variation y = kx, inverse variation y = k/x, and variations with squares, cubes and square roots.",
+"keyWords":["Variation","Constant of variation","Direct","Inverse","Power"],
+"sections":[
+{"h":"Direct variation","p":["y varies directly as x means y = kx, where k is the constant of variation. We write y ∝ x. As x increases, y increases; y/x is constant; the graph is a straight line through the origin.","Example 1: y varies directly as x and y = 20 when x = 5. (a) k = 20 ÷ 5 = 4. (b) y = 4x. (c) when x = 8, y = 32.","Example 2: y = 12 when x = 3. Find y when x = 7. k = 4, so y = 28. Or use y₁/x₁ = y₂/x₂: 12/3 = y/7, so y = 28."]},
+{"h":"Inverse variation","p":["y varies inversely as x means y = k/x, so xy is constant. As x increases, y decreases.","Example 3: y = 6 when x = 4. k = 24, y = 24/x, so when x = 8, y = 3. Example 4: y = 10 when x = 5, so k = 50, y = 50/x; when y = 25, 25x = 50, so x = 2."]},
+{"h":"Direct variation with powers","p":["y ∝ x² means y = kx². Example 5: y = 18 when x = 3, so 18 = 9k, k = 2 and y = 2x². When x = 5, y = 50.","y ∝ √x means y = k√x. Example 6: y = 12 when x = 16, so 12 = 4k, k = 3. When x = 25, y = 3 × 5 = 15.","y ∝ x³ means y = kx³. Example 7: y = 24 when x = 2, so k = 3 and y = 3x³. When x = 3, y = 81."]},
+{"h":"Inverse variation with powers","p":["y ∝ 1/x² means y = k/x². Example 8: y = 10 when x = 2, so k = 40 and y = 40/x². When x = 5, y = 40/25 = 1.6.","y ∝ 1/√x means y = k/√x. Example 9: y = 6 when x = 9, so k = 18 and y = 18/√x. When x = 4, y = 9."]},
+{"h":"Steps to solve any variation problem","p":["1. Write the variation as an equation with k. 2. Put in the given pair of values and find k. 3. Write the full equation. 4. Put in the new value and find the answer."]},
+{"h":"Answers to Sections A and B","p":["A1: k = 3; y = 24. A2: y = kx², 27 = 9k, k = 3; y = 75. A3: y = k√x, 20 = 4k, k = 5; when x = 36, y = 30. A4: 40 = 8k, k = 5; y = 5x³; when x = 3, y = 135. A5: 60 km per hour; in 7 hours 420 km.","B1: k = 48; y = 8 when x = 6. B2: 4 = k/9, k = 36; y = 36/36 = 1. B3: 4 = k/5, k = 20; y = 20/4 = 5. B4: 8 × 12 = 96, so 16 workers take 6 days. B5: 50 × 6 = 300, so at 75 km/h it takes 4 hours.","Evaluation: y ∝ x, y = 12 at x = 4: k = 3, so y = 21 when x = 7. y ∝ 1/x, y = 6 at x = 2: k = 12, so y = 4 at x = 3."]}
+],
+"activity":"y varies as x². y = 20 when x = 2. Find y when x = 6 (180). y varies inversely as x² and y = 9 when x = 2. Find y when x = 3 (4).",
+"check":[
+{"q":"If y varies directly as x and y = 20 when x = 5, k is","o":["4","100","25","15"]},
+{"q":"y = k/x means y varies","o":["Inversely as x","Directly as x","As x²","Not at all"]},
+{"q":"y = 2x² and x = 5 gives y =","o":["50","20","100","10"]},
+{"q":"y ∝ 1/x², y = 10 at x = 2. Then y at x = 5 is","o":["1.6","4","25","8"]},
+{"q":"y varies as √x and y = 12 at x = 16. At x = 25, y =","o":["15","18","10","20"]}
+]},
+
+{"id":"mt31-20","week":8,"title":"Joint and Partial Variation","icon":"BarChart2",
+"summary":"Quantities that depend on two others multiplied together, and quantities with a fixed part plus a variable part, with business examples.",
+"keyWords":["Joint variation","Partial variation","Fixed cost","Variable cost"],
+"sections":[
+{"h":"Joint variation","p":["z varies jointly as x and y means z = kxy (z varies directly as the product of x and y).","Example 10: z = 24 when x = 2 and y = 3. k = 24 ÷ 6 = 4. When x = 4 and y = 5, z = 4 × 4 × 5 = 80.","Example 11: the area of a triangle varies jointly as the base and the height. A = 24 cm² when b = 6 and h = 8. k = 24 ÷ 48 = 1/2, which is the familiar A = ½bh. When b = 10 and h = 12, A = 60 cm².","Example 12: z varies jointly as x² and y; z = 108 when x = 3, y = 4. k = 108 ÷ (9 × 4) = 3. When x = 2 and y = 5: z = 3 × 4 × 5 = 60."]},
+{"h":"Partial variation","p":["Partial variation has a part that varies and a part that is fixed: y = kx + c. You need two pairs of values to find k and c (two equations).","Example 13: y = 10 when x = 2 and y = 19 when x = 5. 10 = 2k + c and 19 = 5k + c. Subtract: 9 = 3k, so k = 3. Then 10 = 6 + c, so c = 4. The equation is y = 3x + 4, so when x = 8, y = 28.","Example 14: the cost C of making x items partly varies as x and is partly fixed. C = ₦500 at 10 items and ₦800 at 20 items. 500 = 10k + c and 800 = 20k + c. 300 = 10k, so k = 30 and c = 200. C = 30x + 200: fixed cost ₦200, cost per item ₦30, and for 50 items C = 1,500 + 200 = ₦1,700.","Example 15: y partly varies as x² and is partly constant: y = 7 at x = 1 and y = 16 at x = 2. 7 = k + c; 16 = 4k + c; so 9 = 3k, k = 3, c = 4. y = 3x² + 4, so at x = 3, y = 31."]},
+{"h":"Answers to Sections C and D","p":["C6: k = 40 ÷ 20 = 2, z = 2 × 6 × 3 = 36. C7: z = kx²y: 36 = k × 4 × 3, k = 3; z = 3 × 9 × 4 = 108. C8: V = khr²: 32π = k × 6 × 16, k = π/3; V = π/3 × 9 × 36 = 108π. C9: z = kxy²: 54 = k × 2 × 9, k = 3; z = 3 × 3 × 16 = 144. C10: A = lw (k = 1), so A = 12 × 7 = 84.","D1: 14 = 3k + c and 26 = 7k + c, so k = 3 and c = 5; y = 35 when x = 10. D2: 800 = 20k + c and 1,700 = 50k + c, so k = 30 and c = 200: fixed cost ₦200, ₦30 per item, 100 items cost ₦3,200. D3: 11 = 4k + c and 22 = 9k + c give k = 2.2 and c = 2.2, so y = 2.2 × 16 + 2.2 = 37.4. D4: 700 = 5k + c and 1,200 = 10k + c, so k = 100 and c = 200: fixed charge ₦200, ₦100 per km, 20 km costs ₦2,200. D5: 8 = k + c and 17 = 4k + c give k = 3, c = 5; y = 3x + 5; at x = 7, y = 26; y = 23 when x = 6.","Evaluation: z ∝ xy, z = 24 at x = 3, y = 4: k = 2. y = kx + c with (2, 9) and (5, 18): k = 3 and c = 3."]}
+],
+"activity":"The fare F partly varies as distance d km and is partly fixed: F = ₦600 for 4 km and ₦1,000 for 8 km. Find F = kd + c (k = 100, c = 200) and the fare for 15 km (₦1,700).",
+"check":[
+{"q":"z varies jointly as x and y means","o":["z = kxy","z = k/xy","z = kx + y","z = kx/y"]},
+{"q":"For y = kx + c, how many equations are needed to find k and c?","o":["2","1","3","4"]},
+{"q":"C = 30x + 200. The fixed cost is","o":["₦200","₦30","₦500","₦230"]},
+{"q":"The area of a triangle varies jointly as base and height with constant","o":["1/2","2","1","π"]},
+{"q":"With (2, 10) and (5, 19) in y = kx + c, k is","o":["3","4","9","2"]}
+]},
+
+{"id":"mt31-21","week":8,"title":"Combined Variation and Real-Life Applications","icon":"Zap",
+"summary":"Variation that mixes direct and inverse parts, and uses in physics and business, with the answers to the remaining exercises.",
+"keyWords":["Combined variation","Hooke's law","Inverse square law","Electricity bill"],
+"sections":[
+{"h":"Combined variation","p":["Example 16: z varies directly as x and inversely as y, so z = kx/y. z = 15 when x = 6 and y = 2: 15 = 3k, k = 5. When x = 10 and y = 5: z = 5 × 10 ÷ 5 = 10.","Example 17: z varies directly as x² and inversely as √y: z = kx²/√y. z = 8 when x = 4 and y = 9: 8 = 16k/3, so k = 3/2. When x = 3, y = 4: z = (3/2) × 9 ÷ 2 = 27/4 = 6.75.","Example 18: z varies jointly as x and y and inversely as w: z = kxy/w. z = 6 when x = 2, y = 3, w = 4: 6 = 6k/4, so k = 4. When x = 5, y = 4, w = 2: z = 4 × 20 ÷ 2 = 40."]},
+{"h":"Applications","p":["Hooke's law (physics): the extension of a spring varies directly as the force. 10 N gives 2 cm, so k = 0.2 and 25 N gives 5 cm.","Speed and time: time varies inversely as speed. 60 km/h takes 4 hours, so T = 240/S and at 80 km/h it takes 3 hours.","Cylinder: V varies jointly as the height and the square of the radius. V = 100π at r = 5, h = 4, so k = π and V = πr²h (the standard formula). For r = 3, h = 7: V = 63π.","Light (inverse square law): illumination varies inversely as the square of the distance. 100 lux at 2 m gives k = 400, so at 5 m the illumination is 400 ÷ 25 = 16 lux.","Electricity bill (partial variation): ₦2,500 for 100 units and ₦4,000 for 200 units. 100k = 1,500, so k = ₦15 per unit and the fixed charge is 2,500 – 1,500 = ₦1,000. For 350 units: 15 × 350 + 1,000 = ₦6,250."]},
+{"h":"Answers to Sections E and F","p":["E1: z = kx/y, 12 = 4k, k = 3; z = 3 × 15 ÷ 3 = 15. E2: z = kx²/y: 10 = 2k, k = 5; z = 5 × 36 ÷ 12 = 15. E3: z = kxy/w: 16 = 8k, k = 2; z = 2 × 72 ÷ 6 = 24. E4: P = kT/V: 60 = 150k, k = 0.4; P = 0.4 × 400 ÷ 5 = 32. E5: y = kx²/√z: 8 = 16k/3, k = 1.5; y = 1.5 × 36 ÷ 4 = 13.5.","F6: 50 N lifts 10 kg, so 5 N per kg and 35 kg needs 175 N. F7: 15 × 20 = 300, so for 12 days 25 workers. F8: A = ½bh = ½ × 14 × 9 = 63. F9: I = k/d²: 80 = k/9, k = 720; at 6 m, 720 ÷ 36 = 20 lux. F10: S = kh + c: 80,000 = 160k + c and 95,000 = 200k + c, so k = 375 and c = 20,000; for 180 hours, S = 67,500 + 20,000 = ₦87,500."]}
+],
+"activity":"z varies directly as x and inversely as y; z = 8 when x = 4 and y = 3. Find z when x = 9 and y = 6 (k = 6, so z = 9). Give one real-life example of joint variation.",
+"check":[
+{"q":"z = kx/y means z varies","o":["Directly as x and inversely as y","Directly as both","Inversely as both","Jointly"]},
+{"q":"Extension E ∝ force F and 10 N gives 2 cm. 25 N gives","o":["5 cm","4 cm","8 cm","12 cm"]},
+{"q":"Light I = 400/d². At d = 5 m, I =","o":["16 lux","80 lux","8 lux","20 lux"]},
+{"q":"A bill is ₦1,000 fixed plus ₦15 per unit. For 350 units it is","o":["₦6,250","₦5,250","₦7,000","₦4,500"]},
+{"q":"Volume of a cylinder varies jointly as height and","o":["The square of the radius","The radius","The diameter only","Nothing"]}
+]}
+]

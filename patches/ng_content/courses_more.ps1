@@ -157,4 +157,13 @@
      months = 'Weeks 1 to 11'; files = @('sp22_toc.json', 'sp22_a.json', 'sp22_b.json') }
   ,@{ code = 'NG-SS2-PHY-T3'; group = 'SS2 Physics'; subject = 'Physics'; term = 3; termLabel = ('SS2 ' + [char]0xB7 + ' Third Term'); title = 'SS2 Physics: Third Term Lesson Notes'
      tagline = 'Continuity testing, electroplating, applications of electromagnetic fields, models of the atom, the nucleus, quantisation, wave-particle duality and energy and society.'
-     months = 'Weeks 1 to 11'; files = @('sp23_toc.json', 'sp23_a.json', 'sp23_b.json') })
+     months = 'Weeks 1 to 11'; files = @('sp23_toc.json', 'sp23_a.json', 'sp23_b.json') }
+  ,@{ code = 'NG-JSS3-SCI-T1'; group = 'JSS3 Intermediate Science'; subject = 'Intermediate Science'; term = 1; termLabel = ('JSS3 ' + [char]0xB7 + ' First Term'); title = 'JSS3 Intermediate Science: First Term Lesson Notes'
+     tagline = 'Revision of JSS 2, then ecosystems, natural resources, environmental hazards, environmental health, waste and recycling, climate change and sustainable development.'
+     months = 'Weeks 1 to 11'; files = @('sci31_toc.json', 'sci31_a.json', 'sci31_b.json') }
+  ,@{ code = 'NG-JSS3-SCI-T2'; group = 'JSS3 Intermediate Science'; subject = 'Intermediate Science'; term = 2; termLabel = ('JSS3 ' + [char]0xB7 + ' Second Term'); title = 'JSS3 Intermediate Science: Second Term Lesson Notes'
+     tagline = 'The cell, tissues and organs, heredity and variation, adaptation, atoms and molecules, changes in matter, water and air, and microorganisms and diseases.'
+     months = 'Weeks 1 to 11'; files = @('sci32_toc.json', 'sci32_a.json', 'sci32_b.json') }
+  ,@{ code = 'NG-JSS3-SCI-T3'; group = 'JSS3 Intermediate Science'; subject = 'Intermediate Science'; term = 3; termLabel = ('JSS3 ' + [char]0xB7 + ' Third Term'); title = 'JSS3 Intermediate Science: Third Term Lesson Notes'
+     tagline = 'Energy transformation, heat transfer, electrical energy, science and national development, machines, ICT, careers in science and technology, and science projects.'
+     months = 'Weeks 1 to 11'; files = @('sci33_toc.json', 'sci33_a.json', 'sci33_b.json') })

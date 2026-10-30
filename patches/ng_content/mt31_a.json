@@ -1,0 +1,187 @@
+[
+{"id":"mt31-02","week":1,"title":"Number Bases and the Binary System","icon":"BarChart2",
+"summary":"What a number base is, how decimal and binary place values work, and why computers use binary.",
+"keyWords":["Number base","Decimal","Binary","Bit","Byte","Place value"],
+"sections":[
+{"h":"What is a number base?","p":["A number base (or radix) is the number of different digits, including zero, that a counting system uses. In base 10 (the decimal system we use every day) there are ten digits: 0 to 9. Each place stands for a power of 10. For example, 345₁₀ = 3 × 10² + 4 × 10¹ + 5 × 10⁰ = 300 + 40 + 5."]},
+{"h":"Other bases","p":["Base 2 (binary) uses only 0 and 1, and each place is a power of 2. Example: 101₂ = 1 × 2² + 0 × 2¹ + 1 × 2⁰ = 4 + 0 + 1 = 5₁₀. Base 8 (octal) uses the digits 0 to 7. Base 16 (hexadecimal) uses 0 to 9 and the letters A to F for ten to fifteen. The small number written low and to the right of a numeral, the subscript, tells us the base."]},
+{"h":"Why computers use binary","p":["A computer is built from millions of tiny electronic switches. A switch can be ON or OFF, and that matches exactly two digits: ON = 1 and OFF = 0. This is simple, reliable and fast, and it is the foundation of all digital technology. Each binary digit is called a bit (short for 'binary digit'). Eight bits make one byte."]},
+{"h":"Binary place values","p":["Study the table. Each place is double the one on its right."],"tbl":{"head":["Power of 2","2⁷","2⁶","2⁵","2⁴","2³","2²","2¹","2⁰"],"rows":[["Place value","128","64","32","16","8","4","2","1"]]}},
+{"h":"The key rule","p":["In decimal, ten ones make one ten and we write 10. In binary, two ones make one 'two' and we write 10₂. So 2₁₀ = 10₂, and 10₂ is read 'one-zero', not 'ten'."]}
+],
+"activity":"Write the place values of the first eight binary places from memory. Define a number base. Explain in two sentences why computers use binary.",
+"check":[
+{"q":"The digits used in binary are","o":["0 and 1","0 to 7","0 to 9","1 and 2"]},
+{"q":"The place value of the third place from the right in binary is","o":["4","3","6","8"]},
+{"q":"One byte is","o":["8 bits","2 bits","10 bits","16 bits"]},
+{"q":"101₂ equals","o":["5₁₀","3₁₀","7₁₀","10₁₀"]},
+{"q":"A number base tells us","o":["How many different digits the system uses","The sign of a number","The size of the paper","The date"]}
+]},
+
+{"id":"mt31-03","week":1,"title":"Converting Between Binary and Decimal","icon":"PenLine",
+"summary":"Two methods of changing binary to decimal and decimal to binary, with fully worked examples and answers to the exercises.",
+"keyWords":["Binary to decimal","Decimal to binary","Repeated division","Subtraction method"],
+"sections":[
+{"h":"Binary to decimal","p":["Multiply each binary digit by its place value and add. Example 1: 101₂ = 1×4 + 0×2 + 1×1 = 5. Example 2: 1101₂ = 8 + 4 + 0 + 1 = 13. Example 3: 10110₂ = 16 + 0 + 4 + 2 + 0 = 22. Example 4: 11111₂ = 16 + 8 + 4 + 2 + 1 = 31. Example 5: 100101₂ = 32 + 0 + 0 + 4 + 0 + 1 = 37."]},
+{"h":"Decimal to binary: repeated division by 2","p":["1. Divide the number by 2. 2. Write down the remainder (0 or 1). 3. Divide the quotient by 2 again. 4. Keep going until the quotient is 0. 5. Read the remainders from the bottom up.","Example 6: 13₁₀. 13 ÷ 2 = 6 remainder 1; 6 ÷ 2 = 3 remainder 0; 3 ÷ 2 = 1 remainder 1; 1 ÷ 2 = 0 remainder 1. Reading upward: 1101₂.","Example 7: 25₁₀. 25 ÷ 2 = 12 r 1; 12 ÷ 2 = 6 r 0; 6 ÷ 2 = 3 r 0; 3 ÷ 2 = 1 r 1; 1 ÷ 2 = 0 r 1. Reading upward: 11001₂.","Example 8: 50₁₀. 50 ÷ 2 = 25 r 0; 25 ÷ 2 = 12 r 1; 12 ÷ 2 = 6 r 0; 6 ÷ 2 = 3 r 0; 3 ÷ 2 = 1 r 1; 1 ÷ 2 = 0 r 1. Reading upward: 110010₂."]},
+{"h":"Decimal to binary: subtraction method","p":["Find the largest power of 2 that fits, subtract it and write 1 in that place; write 0 for each place you skip; repeat with what is left.","Example 9: 26₁₀. 26 is less than 32, so start at 16: 26 – 16 = 10 (1 in the 16's place); 10 – 8 = 2 (1 in the 8's place); 4's place is skipped (0); 2 – 2 = 0 (1 in the 2's place); 1's place is 0. So 26₁₀ = 11010₂.","Example 10: 45₁₀ = 32 + 8 + 4 + 1, so the places 32, 8, 4 and 1 hold a 1 and 16 and 2 hold a 0: 101101₂."]},
+{"h":"Answers to the exercises","p":["Evaluation: 1011₂ = 11; 19₁₀ = 10011₂; 10101₂ = 21; 32₁₀ = 100000₂; 4 bits can show 2⁴ = 16 values.","Assignment A (binary to decimal): 10₂ = 2, 101₂ = 5, 110₂ = 6, 1001₂ = 9, 1010₂ = 10, 1100₂ = 12, 1111₂ = 15, 10001₂ = 17, 10110₂ = 22, 11010₂ = 26, 11111₂ = 31, 100001₂ = 33, 101010₂ = 42, 110011₂ = 51, 111000₂ = 56.","Assignment B (decimal to binary): 3 = 11, 7 = 111, 11 = 1011, 14 = 1110, 18 = 10010, 21 = 10101, 27 = 11011, 30 = 11110, 35 = 100011, 40 = 101000, 48 = 110000, 55 = 110111, 60 = 111100, 63 = 111111, 75 = 1001011."]},
+{"h":"Check your answer","p":["Always convert back. 75 = 64 + 8 + 2 + 1, so its binary is 1001011, and 64 + 8 + 2 + 1 = 75 confirms it."]}
+],
+"activity":"Convert 29₁₀ to binary by both methods (11101₂). Convert 110110₂ to decimal (54).",
+"check":[
+{"q":"1101₂ in decimal is","o":["13","11","15","12"]},
+{"q":"25₁₀ in binary is","o":["11001","10011","11010","10101"]},
+{"q":"When using repeated division, the binary number is read from","o":["The last remainder up to the first","The first remainder down","Left to right in the quotients","Any direction"]},
+{"q":"100101₂ in decimal is","o":["37","35","41","29"]},
+{"q":"45₁₀ in binary is","o":["101101","110101","101011","100111"]}
+]},
+
+{"id":"mt31-04","week":1,"title":"Binary Counting, Bits, Bytes and Computers","icon":"LayoutDashboard",
+"summary":"Counting in binary from 0 to 20, how many values n bits can store, and how computers store numbers in bytes.",
+"keyWords":["Binary counting","Bit","Byte","Kilobyte","Megabyte","8-bit"],
+"sections":[
+{"h":"Counting in binary","p":["Study the table."],"tbl":{"head":["Decimal","Binary","Decimal","Binary"],"rows":[["0","0","11","1011"],["1","1","12","1100"],["2","10","13","1101"],["3","11","14","1110"],["4","100","15","1111"],["5","101","16","10000"],["6","110","17","10001"],["7","111","18","10010"],["8","1000","19","10011"],["9","1001","20","10100"],["10","1010","",""]]}},
+{"h":"The pattern","p":["Each time you use one more binary digit, the number of values you can show doubles. 1 bit shows 2 values, 2 bits show 4, 3 bits show 8, and so on. n bits show 2ⁿ values, from 0 up to 2ⁿ – 1."]},
+{"h":"Bits and bytes","p":["1 bit is the smallest unit, 0 or 1. 1 byte = 8 bits and can show 0 to 255. Computer memory is usually counted in 1 kilobyte (KB) = 1,024 bytes, 1 megabyte (MB) = 1,024 KB and 1 gigabyte (GB) = 1,024 MB. (Some makers use 1,000 instead of 1,024 in advertisements, so a flash drive may show a little less space than its label.)"]},
+{"h":"Worked examples","p":["Example 11: 3 bits give 2³ = 8 values, from 000₂ to 111₂ (0 to 7). Example 12: 8 bits give 2⁸ = 256 values, from 00000000₂ to 11111111₂ (0 to 255). Example 13: the number 10 is 1010₂, and in an 8-bit byte it is stored as 00001010. Example 14: 01100100₂ = 64 + 32 + 4 = 100."]},
+{"h":"Answers to the computer questions","p":["Values by number of bits: 2 bits = 4; 5 bits = 32; 6 bits = 64. Largest number: 4 bits = 15; 7 bits = 127; 8 bits = 255. 8-bit forms: 15 = 00001111; 50 = 00110010; 128 = 10000000. Decimal values: 00010101 = 21; 01100100 = 100; 11110000 = 240."]}
+],
+"activity":"Write the numbers 0 to 8 in binary without looking. Find how many values 10 bits can show (1,024) and the largest number it can store (1,023).",
+"check":[
+{"q":"How many values can 3 bits represent?","o":["8","6","3","9"]},
+{"q":"The largest number that 8 bits can store is","o":["255","256","128","8"]},
+{"q":"In an 8-bit byte, 10 is stored as","o":["00001010","10100000","00010100","11110000"]},
+{"q":"11110000₂ is","o":["240","15","120","248"]},
+{"q":"1 kilobyte is usually taken as","o":["1,024 bytes","1,000 bits","100 bytes","8 bytes"]}
+]},
+
+{"id":"mt31-05","week":1,"title":"Translating Words into Algebraic Expressions","icon":"PenLine",
+"summary":"Key words that mean +, –, × and ÷, and how to write phrases as expressions, with the common traps of order.",
+"keyWords":["Expression","Variable","Sum","Difference","Product","Quotient"],
+"sections":[
+{"h":"Key words and operations","p":["Study the table."],"tbl":{"head":["Words","Operation","Symbol"],"rows":[["Sum, total, plus, add, increased by, more than","Addition","+"],["Difference, minus, subtract, less than, decreased by","Subtraction","–"],["Product, times, multiply, of","Multiplication","×"],["Quotient, divide, per, ratio","Division","÷"],["Is, equals, results in","Equals","="]]}},
+{"h":"Simple expressions (let the number be x)","p":["The sum of a number and 5: x + 5. Three times a number: 3x. Five less than a number: x – 5 (not 5 – x: the order matters). The product of a number and 8: 8x. A number divided by 4: x ÷ 4 or x/4. Twice a number increased by 7: 2x + 7. The difference between a number and 10: x – 10. Half of a number decreased by 3: x/2 – 3."]},
+{"h":"The trap: 'less than'","p":["'5 less than x' means start with x and take away 5: x – 5. 'x less than 5' means start with 5 and take away x: 5 – x. Read the sentence from the number being reduced."]},
+{"h":"Answers to the practice list","p":["The sum of a number and 9: x + 9. A number decreased by 7: x – 7. Five times a number: 5x. A number divided by 6: x/6. Eight more than a number: x + 8. Ten less than a number: x – 10. The product of a number and 12: 12x. Half of a number: x/2. Twice a number increased by 5: 2x + 5. Three times a number decreased by 4: 3x – 4. The quotient of a number and 5: x/5. Six less than four times a number: 4x – 6. The sum of a number and twice the number: x + 2x = 3x. Half a number plus 8: x/2 + 8. A number squared minus 10: x² – 10.","Evaluation: 'a number increased by 12': x + 12; 'four less than twice a number': 2x – 4."]}
+],
+"activity":"Write expressions for: seven more than three times a number (3x + 7); the product of a number and 6 less 4 (6x – 4).",
+"check":[
+{"q":"'Five less than a number' is","o":["x – 5","5 – x","5x","x + 5"]},
+{"q":"'Twice a number increased by 7' is","o":["2x + 7","2(x + 7)","x + 14","7x + 2"]},
+{"q":"'A number divided by 4' is","o":["x/4","4x","4/x","x – 4"]},
+{"q":"'The product of a number and 8' is","o":["8x","x + 8","x/8","x – 8"]},
+{"q":"'Six less than four times a number' is","o":["4x – 6","6 – 4x","4(x – 6)","6x – 4"]}
+]},
+
+{"id":"mt31-06","week":1,"title":"Translating Words into Equations and Solving Word Problems","icon":"ClipboardCheck",
+"summary":"How to turn a story into an equation, solve it, and check it, with a seven-step method and worked problems on numbers, ages, money and perimeter.",
+"keyWords":["Equation","Unknown","Consecutive numbers","Age problem","Check"],
+"sections":[
+{"h":"The seven-step method","p":["1. Read carefully and understand the question. 2. Find the unknown. 3. Let x stand for it. 4. Find the relationships (more than, less than, times). 5. Write the equation. 6. Solve it. 7. Check that the answer makes sense."]},
+{"h":"Worked examples","p":["Example 23: 'A number increased by 8 equals 20': x + 8 = 20, so x = 12.","Example 24: 'Five times a number is 35': 5x = 35, so x = 7.","Example 25: 'The sum of a number and twice the number equals 24': x + 2x = 24, so 3x = 24 and x = 8.","Example 26: three consecutive numbers add to 36: x + (x + 1) + (x + 2) = 36, so 3x + 3 = 36, 3x = 33 and x = 11. The numbers are 11, 12 and 13.","Example 27: John is 5 more than twice Mary's age and is 23: 2x + 5 = 23, so 2x = 18 and Mary is 9.","Example 28: a rectangle's length is 3 cm more than its width and the perimeter is 26 cm: 2(w + 3 + w) = 26, so 2(2w + 3) = 26, 2w + 3 = 13 and w = 5. The width is 5 cm and the length is 8 cm.","Example 29: a father is 4 times as old as his son; in 5 years he will be 3 times as old. Let the son be x now: 4x + 5 = 3(x + 5), so 4x + 5 = 3x + 15 and x = 10. The son is 10 and the father is 40. Check: in 5 years they are 15 and 45, and 45 = 3 × 15."]},
+{"h":"Money and percentage problems","p":["Example 30: a shopkeeper sells at a 25% profit for ₦50. Cost price x: 1.25x = 50, so x = ₦40.","Example 31: Peter has ₦500 more than James and together they have ₦2,000. James x: x + (x + 500) = 2,000, so 2x = 1,500 and x = 750. James has ₦750 and Peter ₦1,250.","Example 32: pencils cost ₦50 each, pens ₦80 each; 5 pencils and some pens cost ₦650: 250 + 80p = 650, so 80p = 400 and p = 5 pens."]},
+{"h":"Equations for the practice questions","p":["A number increased by 15 equals 40: x + 15 = 40. Three times a number is 27: 3x = 27. A number divided by 4 equals 8: x/4 = 8. Five less than a number is 12: x – 5 = 12. Twice a number plus 7 equals 25: 2x + 7 = 25. A number divided by 3, then increased by 5, equals 11: x/3 + 5 = 11. The product of a number and 6, decreased by 8, is 40: 6x – 8 = 40. Half of a number plus the number itself is 21: x/2 + x = 21.","A man's age is twice his son's; ten years ago he was 3 times as old. Son x now: father 2x. Ten years ago: 2x – 10 = 3(x – 10), so x = 20 (son 20, father 40).","The sum of two numbers is 50 and one is 8 more than the other: x + (x + 8) = 50, so x = 21 and the numbers are 21 and 29."]}
+],
+"activity":"Write and solve an equation: the sum of three consecutive odd numbers is 45 (13, 15, 17). A pen costs ₦p and a book ₦150; 5 pens and 3 books cost ₦850: write and solve (5p + 450 = 850, p = 80).",
+"check":[
+{"q":"Three consecutive numbers add up to 36. The smallest is","o":["11","12","13","10"]},
+{"q":"x + 2x = 24 gives x =","o":["8","12","6","4"]},
+{"q":"A rectangle's length is w + 3 and the perimeter is 26 cm. The width is","o":["5 cm","8 cm","10 cm","3 cm"]},
+{"q":"1.25x = 50 gives x =","o":["40","62.5","25","45"]},
+{"q":"For a father 4x and son x, in 5 years the father is 3 times the son: x =","o":["10","5","15","20"]}
+]},
+
+{"id":"mt31-07","week":2,"title":"BODMAS and Expanding Brackets","icon":"PenLine",
+"summary":"The order of operations, working with brackets, and expanding single and double brackets in algebra.",
+"keyWords":["BODMAS","Brackets","Expand","Simplify","Like terms"],
+"sections":[
+{"h":"Order of operations (BODMAS)","p":["Work out in this order: Brackets, then Orders (powers and roots), then Division and Multiplication (left to right), then Addition and Subtraction (left to right). The same rule is called PEMDAS in some countries.","Example 1: 3 + (5 × 4) = 3 + 20 = 23. Example 2: (8 + 2) × (10 – 3) = 10 × 7 = 70. Example 3: 20 – (3 + 4) × 2 = 20 – 7 × 2 = 20 – 14 = 6. Example 4: {12 + (8 – 3)} × 2 = {12 + 5} × 2 = 17 × 2 = 34. Example 5: 50 – {15 + (6 × 2)} = 50 – {15 + 12} = 50 – 27 = 23. Start with the innermost bracket."]},
+{"h":"Expanding brackets","p":["Multiply every term inside the bracket by the number outside.","Example 6: 3(x + 5) = 3x + 15. Example 7: 5(2a – 3) + 4(a + 2) = 10a – 15 + 4a + 8 = 14a – 7. Example 8: 2(3x + 1) – 3(x – 4) = 6x + 2 – 3x + 12 = 3x + 14. Take care: the minus sign in front of 3 changes the sign of both terms in (x – 4)."]},
+{"h":"Double brackets","p":["Multiply each term in the first bracket by each term in the second.","Example 9: (x + 3)(x + 5) = x² + 5x + 3x + 15 = x² + 8x + 15. Example 10: (2a + 3)(a – 4) = 2a² – 8a + 3a – 12 = 2a² – 5a – 12."]},
+{"h":"Answers","p":["Evaluation: (8 + 2) × 5 – 12 = 38. 3(2x + 1) – 2(x – 3) = 6x + 3 – 2x + 6 = 4x + 9. (x + 4)(x – 2) = x² – 2x + 4x – 8 = x² + 2x – 8.","Assignment A: (12 + 8) × 3 = 60; 20 – (4 + 5) = 11; {15 + (6 × 2)} ÷ 3 = 27 ÷ 3 = 9; 50 – {20 – (8 + 2)} = 50 – 10 = 40; (3 + 5)(10 – 4) = 48. Expand: 4(x + 3) = 4x + 12; 5(2a – 1) + 3(a + 4) = 13a + 7; 3(2x + 5) – 2(x – 3) = 4x + 21; (x + 6)(x + 2) = x² + 8x + 12; (2a – 3)(a + 4) = 2a² + 5a – 12."]}
+],
+"activity":"Evaluate 40 – {10 + (3 × 4)} (18). Expand and simplify (3x – 2)(x + 5) (3x² + 13x – 10).",
+"check":[
+{"q":"20 – (3 + 4) × 2 equals","o":["6","26","34","14"]},
+{"q":"3(x + 5) expands to","o":["3x + 15","3x + 5","x + 15","3x + 8"]},
+{"q":"(x + 3)(x + 5) expands to","o":["x² + 8x + 15","x² + 15","x² + 8x + 8","2x + 8"]},
+{"q":"5(2a – 3) + 4(a + 2) simplifies to","o":["14a – 7","14a + 7","10a – 7","6a – 7"]},
+{"q":"In BODMAS the first step is","o":["Brackets","Orders","Division","Addition"]}
+]},
+
+{"id":"mt31-08","week":2,"title":"Fractions in Arithmetic and Algebra","icon":"BarChart2",
+"summary":"Adding, subtracting, multiplying and dividing fractions, including algebraic fractions and complex fractions.",
+"keyWords":["Fraction","LCM","Reciprocal","Algebraic fraction","Complex fraction"],
+"sections":[
+{"h":"Adding and subtracting","p":["Write both fractions with the same denominator (use the LCM), then add or subtract the numerators. Example 11: 1/2 + 1/3: LCM of 2 and 3 is 6, so 3/6 + 2/6 = 5/6. Example 12: 3/4 – 1/6: LCM is 12, so 9/12 – 2/12 = 7/12. Example 13: 2x/3 + x/4: LCM 12, so 8x/12 + 3x/12 = 11x/12."]},
+{"h":"Multiplying","p":["Multiply the numerators and multiply the denominators, then simplify. Example 14: 2/3 × 3/4 = 6/12 = 1/2. Example 15: (3a/4) × (2b/5) = 6ab/20 = 3ab/10."]},
+{"h":"Dividing","p":["Turn the second fraction upside down (use its reciprocal) and multiply. Example 16: 2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12 = 5/6. Example 17: (5x/6) ÷ (2x/3) = 5x/6 × 3/2x = 15x/12x = 5/4."]},
+{"h":"Complex fractions","p":["Example 18: (1/2 + 1/3) ÷ (1/4 + 1/6). Top: 1/2 + 1/3 = 5/6. Bottom: 1/4 + 1/6 = 3/12 + 2/12 = 5/12. So 5/6 ÷ 5/12 = 5/6 × 12/5 = 12/6 = 2."]},
+{"h":"Answers","p":["Evaluation: 2/3 + 3/4 = 8/12 + 9/12 = 17/12 = 1 5/12. (3a/4) × (2/5) = 6a/20 = 3a/10.","Assignment B: 1/3 + 1/4 = 7/12; 3/5 – 1/3 = 4/15; 2/3 × 3/5 = 2/5; 4/5 ÷ 2/3 = 6/5; (1/2 + 1/3) – 1/4 = 7/12; 2x/5 + x/3 = 11x/15; 3a/4 – a/6 = 7a/12; (2x/3)(3y/4) = xy/2; (5a/6) ÷ (2a/3) = 5/4; (x/2 + x/3) ÷ 5 = (5x/6) ÷ 5 = x/6."]}
+],
+"activity":"Simplify 3x/5 – x/2 (x/10) and (4a/9) ÷ (2a/3) (2/3).",
+"check":[
+{"q":"1/2 + 1/3 =","o":["5/6","2/5","1/5","2/6"]},
+{"q":"2/3 ÷ 4/5 =","o":["5/6","8/15","6/5","10/3"]},
+{"q":"2x/3 + x/4 =","o":["11x/12","3x/7","x/6","8x/12 + x"]},
+{"q":"(3a/4) × (2b/5) =","o":["3ab/10","5ab/9","6ab/9","3ab/20"]},
+{"q":"To divide by a fraction you","o":["Multiply by its reciprocal","Add its reciprocal","Subtract","Square it"]}
+]},
+
+{"id":"mt31-09","week":2,"title":"Direct Proportion","icon":"BarChart2",
+"summary":"What it means for two quantities to be directly proportional, the unitary and proportion methods, the constant of proportionality, and uses in money, distance, maps and recipes.",
+"keyWords":["Direct proportion","Constant of proportionality","Unitary method","Exchange rate","Scale"],
+"sections":[
+{"h":"Meaning","p":["Two quantities are in direct proportion if they go up or down together at the same rate: when one doubles, so does the other. We write y ∝ x, which means y = kx, where k is the constant of proportionality. Also y ÷ x is always the same, so y₁/x₁ = y₂/x₂."]},
+{"h":"Worked examples","p":["Example 19: 5 books cost ₦1,000; find the cost of 8 books. Unitary method: 1 book = 1,000 ÷ 5 = ₦200, so 8 books = 8 × 200 = ₦1,600. Proportion method: 5/1,000 = 8/x gives 5x = 8,000 and x = ₦1,600.","Example 21: 3 m of cloth cost ₦450. Cost of 7 m: 3x = 450 × 7 = 3,150, so x = ₦1,050.","Example 22: a car travels 240 km in 3 hours; in 5 hours at the same speed it travels 240 ÷ 3 × 5 = 400 km.","Example 23: y is directly proportional to x and y = 12 when x = 4. (a) y = kx, so 12 = 4k and k = 3. (b) y = 3x, so when x = 7, y = 21."]},
+{"h":"A note on a muddled example","p":["The lesson note shows a 'workers and days' problem (Example 20) in this section and then admits it is inverse proportion. We have moved it to the next unit, where it belongs: more workers means less time."]},
+{"h":"Uses of direct proportion","p":["Currency (taking $1 = ₦450 for the example; real rates change daily): $25 = 25 × 450 = ₦11,250, and ₦9,000 = 9,000 ÷ 450 = $20. Map scale 1 : 50,000: 8 cm on the map is 8 × 50,000 = 400,000 cm = 4 km. Recipe: 300 g of flour for 4 people, so for 10 people: 300 ÷ 4 × 10 = 750 g."]},
+{"h":"Answers to the assignment (Section C)","p":["1. 5 oranges ₦150 so 12 oranges ₦360. 2. 180 km in 2 h: in 5 h, 450 km. 3. 3 kg ₦900: 8 kg ₦2,400. 4. 4 m ₦600 (₦150 per metre): ₦1,050 buys 7 m. 5. y = 15 when x = 5: k = 3; y = 24 when x = 8. 6. $30 = ₦13,500; ₦13,500 = $30. 7. 6 cm × 25,000 = 150,000 cm = 1.5 km. 8. 450 ÷ 6 × 15 = 1,125 g. 9. 7 books weigh 2.1 kg, so 10 books weigh 3 kg. 10. 120 items in 4 h is 30 per hour, so 210 in 7 h. Evaluation: 4 pens ₦120, so 7 pens ₦210."]}
+],
+"activity":"If 9 exercise books cost ₦1,350, find the cost of 14 (₦2,100). On a map with scale 1 : 20,000, how far is 7.5 cm in real life (1.5 km)?",
+"check":[
+{"q":"If y is directly proportional to x, then y/x is","o":["Constant","Zero","Always 1","Changing"]},
+{"q":"5 books cost ₦1,000. 8 books cost","o":["₦1,600","₦1,250","₦800","₦2,000"]},
+{"q":"y = kx with y = 12 when x = 4 gives k =","o":["3","8","48","16"]},
+{"q":"On a map 1 : 50,000, 8 cm is","o":["4 km","40 km","400 m","0.4 km"]},
+{"q":"A recipe for 4 people uses 300 g. For 10 people you need","o":["750 g","1,200 g","600 g","500 g"]}
+]},
+
+{"id":"mt31-10","week":2,"title":"Inverse Proportion","icon":"BarChart2",
+"summary":"Quantities that change in opposite directions, the product rule x₁y₁ = x₂y₂, and examples with workers, speed and time.",
+"keyWords":["Inverse proportion","Constant product","Workers and days","Speed and time"],
+"sections":[
+{"h":"Meaning","p":["Two quantities are inversely proportional when one increases as the other decreases, at the same rate: when one doubles, the other halves. We write y ∝ 1/x, so y = k/x and x × y is always the same: x₁y₁ = x₂y₂."]},
+{"h":"Worked examples","p":["Example 24: 6 workers finish a job in 8 days. How long for 12 workers? Workers × days is constant: 6 × 8 = 12 × d, so 48 = 12d and d = 4 days. Check: more workers, less time.","Example 25: at 60 km/h a journey takes 4 hours. At 80 km/h: 60 × 4 = 80t, so t = 3 hours.","Example 26: y is inversely proportional to x and y = 6 when x = 5. (a) k = xy = 30. (b) y = 30 ÷ x, so when x = 10, y = 3.","Example 27: 20 men dig a trench in 15 days. For 10 days: 20 × 15 = m × 10, so m = 30 men. (The workers example that the note first put in direct proportion, 12 workers in 5 days, needs 60 ÷ 3 = 20 workers for 3 days.)"]},
+{"h":"How to decide between direct and inverse","p":["Ask: if one quantity doubles, what happens to the other? If it also doubles: direct. If it halves: inverse. More workers, less time (inverse). More books, more cost (direct). Higher speed, less time for the same trip (inverse)."]},
+{"h":"Answers to the assignment (Section D)","p":["1. 5 × 12 = 8 × d: 7.5 days. 2. 4 hours at 60 km/h: 3 hours at 80 km/h. 3. 15 × 20 = m × 12: 25 men. 4. k = 8 × 3 = 24; y = 24 ÷ 6 = 4. 5. 20 × 30 = 25 × d: 24 days. 6. 8 × 15 = 10 × d: 12 days. 7. 12 × 4 = 8 × t: 6 hours. 8. 50 × 6 = s × 5: 60 km/h. 9. 18 × 25 = w × 15: 30 workers. 10. Gears: 40 × 200 = 50 × r: 160 rpm. Evaluation: 8 workers for 6 days, so 12 workers need 8 × 6 ÷ 12 = 4 days."]}
+],
+"activity":"12 pipes fill a tank in 5 hours. How long will 15 pipes take (4 hours)? y is inversely proportional to x; y = 10 when x = 2. Find y when x = 5 (4).",
+"check":[
+{"q":"In inverse proportion, x × y is","o":["Constant","Zero","Always 10","Changing"]},
+{"q":"6 workers take 8 days. 12 workers take","o":["4 days","16 days","2 days","6 days"]},
+{"q":"At 60 km/h a journey takes 4 h. At 80 km/h it takes","o":["3 h","5.3 h","2 h","4 h"]},
+{"q":"y = k/x with y = 6, x = 5 gives k =","o":["30","11","1.2","5"]},
+{"q":"20 men dig a trench in 15 days. For 10 days you need","o":["30 men","13 men","10 men","40 men"]}
+]},
+
+{"id":"mt31-11","week":2,"title":"Compound Interest and Depreciation","icon":"Landmark",
+"summary":"How interest on interest grows money, the formula A = P(1 + r/100)ⁿ, half-yearly and quarterly compounding, finding principal and rate, and depreciation.",
+"keyWords":["Compound interest","Principal","Amount","Rate","Depreciation","Half-yearly"],
+"sections":[
+{"h":"What is compound interest?","p":["Compound interest is worked out on the principal plus the interest already earned in earlier periods. The formula is A = P(1 + r/100)ⁿ, where A is the final amount, P the principal (starting money), r the rate per period in percent and n the number of periods. Compound interest = A – P.","Compare with simple interest I = PRT/100, which is worked out on the principal only. Simple interest grows in a straight line; compound interest grows faster, like a snowball."]},
+{"h":"Worked examples","p":["Example 31: ₦10,000 at 5% a year for 2 years. A = 10,000 × (1.05)² = 10,000 × 1.1025 = ₦11,025. CI = 11,025 – 10,000 = ₦1,025. Simple interest would be 10,000 × 5 × 2 ÷ 100 = ₦1,000, so compound interest is ₦25 more.","Example 32: ₦50,000 at 8% for 3 years. A = 50,000 × (1.08)³ = 50,000 × 1.259712 = ₦62,986 (to the nearest naira). CI = ₦12,986.","Example 33: what principal grows to ₦15,000 at 10% for 2 years? 15,000 = P × 1.21, so P = 15,000 ÷ 1.21 = ₦12,396.69.","Example 34: at what rate does ₦20,000 become ₦24,200 in 2 years? 24,200 ÷ 20,000 = 1.21 = (1 + r)², so 1 + r = 1.1 and r = 10%."]},
+{"h":"Compounding more than once a year","p":["Divide the yearly rate by the number of periods in a year and multiply the number of years by the same number.","Example 35: ₦30,000 at 12% a year compounded half-yearly for 1 year: rate 6% per half-year, 2 periods. A = 30,000 × 1.06² = 30,000 × 1.1236 = ₦33,708. CI = ₦3,708.","Example 36: ₦40,000 at 8% compounded quarterly for 1 year: 2% per quarter, 4 quarters. A = 40,000 × 1.02⁴ = 40,000 × 1.08243216 = ₦43,297.29. CI = ₦3,297.29."]},
+{"h":"Depreciation","p":["Depreciation is a loss of value each period. Use A = P(1 – r/100)ⁿ. Example 37: a car worth ₦2,000,000 depreciates 15% a year. After 3 years: 2,000,000 × 0.85³ = 2,000,000 × 0.614125 = ₦1,228,250."]},
+{"h":"Answers","p":["Evaluation: CI on ₦5,000 at 10% for 2 years: 5,000 × 1.21 = 6,050, so CI = ₦1,050.","Assignment E: 1. ₦10,000 at 8% for 2 years: A = ₦11,664, CI = ₦1,664. 2. ₦25,000 at 10% for 3 years: A = ₦33,275, CI = ₦8,275. 3. ₦50,000 at 12% for 2 years: A = ₦62,720, CI = ₦12,720. 4. ₦15,000 at 6% for 4 years: A = ₦18,937.15 (1.06⁴ = 1.26247696), CI = ₦3,937.15. 5. ₦80,000 at 15% for 2 years: A = ₦105,800, CI = ₦25,800. 6. ₦20,000 at 10% half-yearly for 1 year: 5% twice, A = 20,000 × 1.1025 = ₦22,050. 7. ₦30,000 at 8% quarterly for 1 year: 2% four times, A = 30,000 × 1.08243216 = ₦32,472.96. 8. Principal for ₦12,000 at 10% for 2 years: 12,000 ÷ 1.21 = ₦9,917.36. 9. ₦10,000 to ₦12,100 in 2 years: r = 10%. 10. ₦1,500,000 depreciating 20% a year for 2 years: 1,500,000 × 0.64 = ₦960,000. 11. ₦5,000 at 10% for 2 years: (a) SI = ₦1,000, (b) CI = ₦1,050, (c) difference ₦50. 12. ₦100,000 at 12%: after 1 year ₦112,000; 2 years ₦125,440; 3 years ₦140,492.80."]}
+],
+"activity":"Find the amount and compound interest on ₦40,000 at 5% for 3 years (A = ₦46,305, CI = ₦6,305). A phone worth ₦300,000 loses 25% a year; find its value after 2 years (₦168,750).",
+"check":[
+{"q":"The compound interest formula is","o":["A = P(1 + r/100)ⁿ","A = P + PRT","A = P × r × n","A = P/r"]},
+{"q":"CI on ₦10,000 at 5% for 2 years is","o":["₦1,025","₦1,000","₦1,100","₦2,000"]},
+{"q":"₦30,000 at 12% compounded half-yearly: the rate per half-year is","o":["6%","12%","3%","24%"]},
+{"q":"A car worth ₦2,000,000 depreciating 15% a year for 3 years is worth about","o":["₦1,228,250","₦1,100,000","₦1,700,000","₦800,000"]},
+{"q":"Compound interest differs from simple interest because it","o":["Includes interest on interest","Uses the principal only","Is always smaller","Has no rate"]}
+]}
+]

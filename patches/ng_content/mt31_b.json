@@ -1,0 +1,79 @@
+[
+{"id":"mt31-12","week":3,"title":"Addition of Binary Numbers","icon":"BarChart2",
+"summary":"The rules for adding in base 2, carrying, adding three numbers, and checking in decimal, with all the practice answers.",
+"keyWords":["Binary addition","Carry","1 + 1 = 10","Verification"],
+"sections":[
+{"h":"The rules","p":["0 + 0 = 0. 0 + 1 = 1. 1 + 0 = 1. 1 + 1 = 10₂ (write 0 and carry 1). 1 + 1 + 1 = 11₂ (write 1 and carry 1). Notice 1 + 1 is 10₂, not 2. Carry over exactly as you do in decimal, but you carry as soon as the column reaches 2."]},
+{"h":"Example 1: 101₂ + 11₂","p":["Column 1 (the 1's): 1 + 1 = 10, write 0, carry 1. Column 2 (the 2's): 0 + 1 + 1 (carry) = 10, write 0, carry 1. Column 3 (the 4's): 1 + 0 + 1 (carry) = 10, write 0, carry 1. Column 4 (the 8's): 1 (carry) = 1. Answer: 1000₂. Check in decimal: 5 + 3 = 8 = 1000₂."]},
+{"h":"More examples","p":["Example 2: 110₂ + 101₂ = 1011₂ (6 + 5 = 11). Example 3: 1101₂ + 1011₂ = 11000₂ (13 + 11 = 24). Example 4: 111₂ + 111₂ = 1110₂ (7 + 7 = 14). Example 7: 1111₂ + 1111₂ = 11110₂ (15 + 15 = 30).","Three numbers. Example 5: 1011₂ + 110₂ + 101₂. First 1011 + 110 = 10001 (11 + 6 = 17), then 10001 + 101 = 10110₂ (17 + 5 = 22). Example 6: 110₂ + 101₂ + 111₂ = 10010₂ (6 + 5 + 7 = 18). Example 8: 10110₂ + 1101₂ + 1001₂ = 101100₂ (22 + 13 + 9 = 44)."]},
+{"h":"Word problems","p":["A student scored 1011₂ in the first test and 1101₂ in the second. Total: 1011 + 1101 = 11000₂ (11 + 13 = 24).","A car travelled 10110₂ km, 1101₂ km and 1010₂ km on three days. Total: 22 + 13 + 10 = 45 km, which is 101101₂ km. (The lesson note gives 101011₂, but that is 43, so the note's answer is wrong. Always check in decimal.)"]},
+{"h":"Answers to the exercises","p":["Evaluation: 101 + 110 = 1011; 111 + 111 = 1110; 1011 + 101 + 110 = 10110; 1010 + 110 = 10000 (so 1010₂ + 110₂ = 10000₂ is correct: 10 + 6 = 16).","Assignment A: 10 + 11 = 101; 11 + 11 = 110; 10 + 10 = 100; 11 + 10 = 101; 01 + 11 = 100; 10 + 01 = 11; 11 + 01 = 100.","B: 101 + 110 = 1011; 111 + 101 = 1100; 110 + 111 = 1101; 101 + 101 = 1010; 111 + 111 = 1110; 100 + 101 = 1001; 110 + 110 = 1100; 101 + 011 = 1000; 111 + 110 = 1101; 100 + 111 = 1011.","C: 101 + 110 + 111 = 10010; 100 + 101 + 110 = 1111; 111 + 101 + 100 = 10000; 110 × 3 added = 10010; 101 three times = 1111; 111 three times = 10101; 100 + 100 + 111 = 1111.","H: 1101 + 1011 = 11000; 101 + 110 + 111 = 10010 KB; 1010 + 1100 + 1001 = 11111 items (10 + 12 + 9 = 31)."]},
+{"h":"Digits that cannot appear","p":["The digit 2 cannot appear in a binary number, because two ones always make a 'one-zero'. So 1234₂ is not a valid binary number."]}
+],
+"activity":"Add 10111₂ and 1101₂ and check in decimal (23 + 13 = 36 = 100100₂). Add 111₂ + 110₂ + 101₂ (10010₂).",
+"check":[
+{"q":"1 + 1 in binary is","o":["10","2","11","0"]},
+{"q":"101₂ + 11₂ =","o":["1000₂","110₂","1010₂","100₂"]},
+{"q":"1 + 1 + 1 in one column gives","o":["Write 1, carry 1","Write 0, carry 1","Write 3","Write 11, carry 0"]},
+{"q":"1101₂ + 1011₂ =","o":["11000₂","10110₂","10000₂","11100₂"]},
+{"q":"A good way to check a binary sum is to","o":["Convert to decimal","Ignore it","Add again blindly","Use a ruler"]}
+]},
+
+{"id":"mt31-13","week":3,"title":"Subtraction of Binary Numbers and Combined Operations","icon":"BarChart2",
+"summary":"Subtracting in base 2 with borrowing, three-number and combined sums, word problems and the practice answers.",
+"keyWords":["Binary subtraction","Borrow","Combined operations","Check"],
+"sections":[
+{"h":"The rules","p":["0 – 0 = 0. 1 – 0 = 1. 1 – 1 = 0. 0 – 1 needs a borrow. When you borrow 1 from the next column, you receive 10₂, which is 2 in decimal, so 10₂ – 1 = 1."]},
+{"h":"Examples","p":["Example 9: 101₂ – 11₂: 5 – 3 = 2 = 10₂. Working: column 1: 1 – 1 = 0. Column 2: 0 – 1, borrow from column 3, 10 – 1 = 1. Column 3: now 0 – 0 = 0. Answer 10₂.","Example 10: 1000₂ – 101₂ = 11₂ (8 – 5 = 3). The 1 in the 8's place is broken down: it gives 1 four, 1 two and 10 ones, so the column working is 10 – 1 = 1, 1 – 0 = 1 and 1 – 1 = 0.","Example 11: 1101₂ – 110₂ = 111₂ (13 – 6 = 7). Example 12: 10000₂ – 111₂ = 1001₂ (16 – 7 = 9). Example 13: 1110₂ – 1011₂ = 11₂ (14 – 11 = 3).","Example 14 (three numbers): 1100₂ – 101₂ – 10₂: 1100 – 101 = 111 (12 – 5 = 7), then 111 – 10 = 101₂ (7 – 2 = 5)."]},
+{"h":"Combined operations","p":["Work out the brackets first. Example 15: (110₂ + 101₂) – 100₂ = 1011 – 100 = 111₂ (6 + 5 – 4 = 7). Example 16: 1111₂ – (101₂ + 11₂) = 1111 – 1000 = 111₂ (15 – 8 = 7). Example 17: 1010₂ + 110₂ – 101₂ = 10000 – 101 = 1011₂ (10 + 6 – 5 = 11)."]},
+{"h":"Word problems","p":["A computer has 1101₂ bytes of memory and 110₂ are used. Free = 1101 – 110 = 111₂ bytes (13 – 6 = 7)."]},
+{"h":"Answers to the exercises","p":["Evaluation: 1000 – 101 = 11; 1101 – 111 = 110 (13 – 7 = 6); (110 + 101) – 100 = 111. Revision: 11 + 11 = 110; 100 – 11 = 1.","Assignment D: 11 – 10 = 1; 10 – 01 = 1; 11 – 11 = 0; 10 – 10 = 0; 11 – 01 = 10.","E: 110 – 101 = 1; 111 – 100 = 11; 101 – 011 = 10; 1000 – 101 = 11; 111 – 110 = 1; 1001 – 110 = 11; 1010 – 101 = 101; 1100 – 111 = 101; 1101 – 1001 = 100; 1110 – 1011 = 11.","F: (101 + 110) – 100 = 111; (111 – 101) + 110 = 1000; 1000 – (110 + 10) = 0; 1010 + 101 – 111 = 1000; (1001 – 100) + 101 = 1010; 1111 – (111 – 100) = 1100; (110 + 111) – (101 + 100) = 100.","G: 1011 + 1101 = 11000; 10110 – 1101 = 1001; 111 + 1001 + 101 = 10101; 10000 – 1111 = 1; (1010 + 110) – 101 = 1011.","H: 1110 – 1001 = 101 MB free; 1101 + 1011 = 11000; 10000 – 1101 = 11 lines left."]}
+],
+"activity":"Subtract 10010₂ – 1011₂ (111₂, because 18 – 11 = 7). Calculate (1001₂ + 111₂) – 101₂ (1011₂).",
+"check":[
+{"q":"1000₂ – 101₂ =","o":["11₂","101₂","10₂","111₂"]},
+{"q":"When you borrow in binary you receive","o":["10₂, which is 2","10, which is ten","1 only","0"]},
+{"q":"1101₂ – 110₂ =","o":["111₂","101₂","1011₂","110₂"]},
+{"q":"10000₂ – 111₂ =","o":["1001₂","1111₂","111₂","1101₂"]},
+{"q":"(110₂ + 101₂) – 100₂ =","o":["111₂","1011₂","101₂","110₂"]}
+]},
+
+{"id":"mt31-14","week":4,"title":"Multiplication of Binary Numbers","icon":"BarChart2",
+"summary":"Multiplying in base 2 by adding shifted partial products, with every example checked in decimal and the practice answers.",
+"keyWords":["Binary multiplication","Partial product","Shift","Check"],
+"sections":[
+{"h":"The rules","p":["0 × 0 = 0. 0 × 1 = 0. 1 × 0 = 0. 1 × 1 = 1. Binary multiplication is simpler than decimal: no tables are needed. As in long multiplication, multiply by each digit of the bottom number, shift the partial product one place left each time, then add the partial products using binary addition."]},
+{"h":"Examples","p":["Example 1: 10₂ × 11₂. 10 × 1 = 10 and 10 × 1 shifted = 100. Adding: 10 + 100 = 110₂. Check: 2 × 3 = 6 = 110₂.","Example 2: 11₂ × 11₂ = 11 + 110 = 1001₂ (3 × 3 = 9). Example 3: 101₂ × 11₂ = 101 + 1010 = 1111₂ (5 × 3 = 15). Example 4: 110₂ × 10₂ = 000 + 1100 = 1100₂ (6 × 2 = 12).","Example 5: 101₂ × 101₂: partial products 101, 0000 (for the 0), 10100 (for the last 1, shifted twice). Sum = 11001₂ (5 × 5 = 25).","Example 6: 111₂ × 10₂ = 1110₂ (7 × 2 = 14). Example 7: 110₂ × 11₂ = 110 + 1100 = 10010₂ (6 × 3 = 18). Example 8: 1001₂ × 11₂ = 1001 + 10010 = 11011₂ (9 × 3 = 27). Example 9: 111₂ × 11₂ = 111 + 1110 = 10101₂ (7 × 3 = 21). Example 10: 1010₂ × 10₂ = 10100₂ (10 × 2 = 20)."]},
+{"h":"A shortcut","p":["Multiplying by 10₂ (which is 2) just adds a zero on the right, like multiplying by 10 in decimal: 111₂ × 10₂ = 1110₂. Multiplying by 100₂ adds two zeros."]},
+{"h":"Answers to the exercises","p":["Evaluation: 11 × 10 = 110; 101 × 11 = 1111; 110 × 10 = 1100; 1 × 1 = 1; 111 × 11 = 10101 (7 × 3 = 21).","Assignment A: 10 × 10 = 100; 10 × 11 = 110; 11 × 10 = 110; 11 × 11 = 1001; 01 × 11 = 11; 10 × 01 = 10; 11 × 01 = 11.","B: 10 × 101 = 1010; 11 × 101 = 1111; 10 × 110 = 1100; 11 × 110 = 10010; 10 × 111 = 1110; 11 × 111 = 10101; 10 × 100 = 1000; 11 × 100 = 1100.","C: 101 × 101 = 11001; 110 × 110 = 100100 (6 × 6 = 36); 111 × 10 = 1110; 100 × 11 = 1100; 101 × 100 = 10100; 110 × 101 = 11110 (6 × 5 = 30); 111 × 101 = 100011 (7 × 5 = 35).","H: 101 × 11 = 1111 tasks; 110₂ KB copied 10₂ times = 1100₂ KB (12 KB); 11₂ runs a day for 101₂ days = 1111₂ runs."]}
+],
+"activity":"Multiply 1011₂ × 101₂ (110111₂, since 11 × 5 = 55). Multiply 111₂ × 100₂ by the shortcut (11100₂).",
+"check":[
+{"q":"1 × 1 in binary is","o":["1","10","0","2"]},
+{"q":"11₂ × 11₂ =","o":["1001₂","110₂","1010₂","1111₂"]},
+{"q":"101₂ × 11₂ =","o":["1111₂","1011₂","1110₂","10101₂"]},
+{"q":"Multiplying by 10₂ adds","o":["A zero on the right","A zero on the left","A one on the right","Nothing"]},
+{"q":"101₂ × 101₂ =","o":["11001₂","10101₂","10010₂","11100₂"]}
+]},
+
+{"id":"mt31-15","week":4,"title":"Division of Binary Numbers","icon":"BarChart2",
+"summary":"Long division in base 2, division with a remainder and combined sums, with corrected working for two examples the note left unfinished.",
+"keyWords":["Binary division","Long division","Remainder","Quotient"],
+"sections":[
+{"h":"The rules","p":["0 ÷ 1 = 0 and 1 ÷ 1 = 1 (and you can never divide by 0). Binary long division is like decimal long division, but at each step the next digit of the answer is only 0 or 1: 1 if the divisor fits into the part you are looking at, otherwise 0."]},
+{"h":"Example 1: 110₂ ÷ 10₂","p":["Take 11: 10 goes in once (11 – 10 = 1). Bring down 0 to get 10: 10 goes in once, remainder 0. The quotient is 11₂. Check: 6 ÷ 2 = 3."]},
+{"h":"Examples","p":["100₂ ÷ 10₂ = 10₂ (4 ÷ 2 = 2). 1010₂ ÷ 10₂ = 101₂ (10 ÷ 2 = 5). 1100₂ ÷ 11₂ = 100₂ (12 ÷ 3 = 4). 1111₂ ÷ 11₂ = 101₂ (15 ÷ 3 = 5). 10000₂ ÷ 100₂ = 100₂ (16 ÷ 4 = 4). 10010₂ ÷ 10₂ = 1001₂ (18 ÷ 2 = 9). 11000₂ ÷ 100₂ = 110₂ (24 ÷ 4 = 6)."]},
+{"h":"Two examples done carefully","p":["The lesson note's workings for these two were left half done, so here they are in full.","1001₂ ÷ 11₂: the first digit 1 is less than 11 (write 0). 10 is less than 11 (write 0). 100 is 4 and 11 is 3, so 11 fits once (write 1): 100 – 11 = 1. Bring down the last 1 to make 11: 11 fits once (write 1) with remainder 0. Quotient 0011₂ = 11₂ (9 ÷ 3 = 3).","10101₂ ÷ 11₂: 1 and 10 are less than 11 (write 0, 0). 101 (5) – 11 (3) = 10: write 1. Bring down 0 to get 100 (4): 100 – 11 = 1: write 1. Bring down 1 to get 11: 11 – 11 = 0: write 1. Quotient 00111₂ = 111₂, remainder 0 (21 ÷ 3 = 7)."]},
+{"h":"Division with a remainder","p":["1011₂ ÷ 10₂ = 101₂ remainder 1₂ (11 ÷ 2 = 5 remainder 1). 1110₂ ÷ 11₂ = 100₂ remainder 10₂ (14 ÷ 3 = 4 remainder 2)."]},
+{"h":"Combined operations","p":["(110₂ × 10₂) ÷ 11₂: 110 × 10 = 1100, and 1100 ÷ 11 = 100₂ (6 × 2 ÷ 3 = 4). (1111₂ ÷ 11₂) × 10₂: 101 × 10 = 1010₂ (15 ÷ 3 × 2 = 10)."]},
+{"h":"Answers to the exercises","p":["Evaluation: 100 ÷ 10 = 10; 110 ÷ 11 = 10; 1010 ÷ 10 = 101; (101 × 10) ÷ 10 = 101; 0 ÷ 1 = 0.","Assignment D: 10 ÷ 10 = 1; 100 ÷ 10 = 10; 110 ÷ 10 = 11; 1000 ÷ 10 = 100; 110 ÷ 11 = 10; 1001 ÷ 11 = 11; 1100 ÷ 11 = 100; 1111 ÷ 11 = 101; 1000 ÷ 100 = 10; 10000 ÷ 100 = 100.","E: 101 ÷ 10 = 10 r 1; 111 ÷ 10 = 11 r 1; 1011 ÷ 10 = 101 r 1; 1101 ÷ 10 = 110 r 1; 1010 ÷ 11 = 11 r 1; 1110 ÷ 11 = 100 r 10; 10000 ÷ 11 = 101 r 1.","F: (10 × 11) + 101 = 1011; (110 ÷ 10) × 11 = 1001; (101 × 10) ÷ 10 = 101; 1111 – (11 × 101) = 0; (1000 ÷ 100) + 10 = 100; (111 × 10) – 110 = 1000; (1100 ÷ 11) × 10 = 1000.","G: 110 × 101 = 11110; 1010 ÷ 10 = 101; 111 × 11 = 10101; 10010 ÷ 10 = 1001; (101 × 10) ÷ 10 = 101.","H: 1100₂ MB shared among 11₂ computers = 100₂ MB each; 10000₂ students in groups of 100₂ = 100₂ (4) groups."]}
+],
+"activity":"Divide 11110₂ by 110₂ (101₂, since 30 ÷ 6 = 5). Divide 10001₂ by 10₂ and give the remainder (1000₂ remainder 1₂).",
+"check":[
+{"q":"110₂ ÷ 10₂ =","o":["11₂","10₂","101₂","100₂"]},
+{"q":"1001₂ ÷ 11₂ =","o":["11₂","10₂","101₂","100₂"]},
+{"q":"1011₂ ÷ 10₂ is","o":["101₂ remainder 1₂","110₂","100₂ remainder 11₂","11₂ remainder 10₂"]},
+{"q":"10101₂ ÷ 11₂ =","o":["111₂","101₂","110₂","1001₂"]},
+{"q":"In binary long division each digit of the quotient is","o":["0 or 1","Any digit up to 9","Only 1","Only 0"]}
+]}
+]

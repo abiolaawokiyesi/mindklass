@@ -92,7 +92,7 @@ function MkAda(p){
 }
 function MkSubjectTiles(p){
   var a=p.a,k=p.k;
-  var tiles=[["Nigerian Curriculum","SS1, SS2 and SS3 lesson notes","#1842a8","Nigerian Curriculum"],["Cambridge","IGCSE learning journeys","#7c3aed","Cambridge"],["JAMB (UTME)","UTME exam preparation","#059669","JAMB (UTME)"],["Soft Skills","Life and career skills","#d97706","Soft Skills"],["IB","IB programme","#db2777","IB"]];
+  var tiles=[["Nigerian Curriculum","JSS3, SS1, SS2 and SS3 lesson notes","#1842a8","Nigerian Curriculum"],["Cambridge","IGCSE learning journeys","#7c3aed","Cambridge"],["JAMB (UTME)","UTME exam preparation","#059669","JAMB (UTME)"],["Soft Skills","Life and career skills","#d97706","Soft Skills"],["IB","IB programme","#db2777","IB"]];
   return t("div",{style:{...k,marginBottom:12},children:[
     t("div",{style:{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:10},children:[e("h3",{style:{fontSize:13,fontWeight:800,color:a.head,margin:0},children:"Student Subjects"}),e("button",{onClick:function(){p.go("All")},style:{background:"none",border:"none",color:"#1842a8",fontWeight:800,fontSize:11,cursor:"pointer"},children:"See all"})]}),
     t("div",{style:{display:"flex",gap:10,overflowX:"auto",paddingBottom:4,WebkitOverflowScrolling:"touch"},children:[
@@ -100,7 +100,7 @@ function MkSubjectTiles(p){
       tiles.map(function(x){return e("button",{onClick:function(){p.go(x[3])},style:{minWidth:150,flexShrink:0,textAlign:"left",cursor:"pointer",borderRadius:14,padding:"12px",background:x[2]+"14",border:"1.5px solid "+x[2]+"33",color:a.head,fontFamily:"inherit"},children:t("div",{children:[e("div",{style:{fontWeight:900,fontSize:13,color:x[2]},children:x[0]}),e("div",{style:{fontSize:10.5,color:a.muted,marginTop:3,lineHeight:1.4},children:x[1]})]})},x[0])})]})]});
 }
 function MkLevelChips(p){
-  var a=p.a,lv=["All","SS1","SS2","SS3"];
+  var a=p.a,lv=["All","JSS3","SS1","SS2","SS3"];
   return e("div",{style:{display:"flex",flexWrap:"wrap",gap:7,margin:"-6px 0 16px"},children:lv.map(function(x){var on=p.v===x;return e("button",{onClick:function(){p.set(x)},style:{fontSize:12,fontWeight:800,padding:"5px 14px",borderRadius:99,cursor:"pointer",border:on?"1.5px solid #059669":"1.5px solid "+a.bd,background:on?"#059669":a.card,color:on?"#fff":a.txt},children:x==="All"?"All classes":x},x)})});
 }
 /* ---- Alerts for course applications and approvals (no database change needed) ---- */
